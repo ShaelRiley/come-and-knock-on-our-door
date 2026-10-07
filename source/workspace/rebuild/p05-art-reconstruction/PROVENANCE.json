@@ -1,0 +1,17 @@
+{
+  "kind": "New artwork and new measured geometry; not recovered P05 pixels",
+  "mechanics": {
+    "source_original": "/workspace/shared/cakood-context-recovery-batch2/canonical-gdd/complete-body.md",
+    "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+    "lines": [
+      285,
+      299
+    ],
+    "portable_excerpt": "reference/canonical-p05-gdd-excerpt.txt"
+  },
+  "allocation": "reference/p05-integration-contract.json",
+  "pipeline_reference": "Hardened P04 art tools copied for encoder, independent decoder, RunGuard; P05 source conversion and geometry newly authored",
+  "actor_refs": "Exact214/219/221 bytes from P04 playable inputs/base-resources",
+  "source_masters": "Built-in image_gen; original prompts in GENERATION-PROMPTS.json",
+  "noncreative_processing": "Source crops, alpha masks, resizing, palette999 quantization, identical badge reuse, label-band composition. No Python-painted creative art."
+}

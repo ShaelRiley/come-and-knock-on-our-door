@@ -1,0 +1,13 @@
+# Source status and maintainability
+
+This tested source snapshot combines literal recovered inputs and clearly labeled new reconstruction. The original P02 source and pinned compiler were recovered and reproduced exactly. P03’s editable SCI includes readable high-level methods and symbolic instructions with identifier/local/ABI mappings; exact byte reproduction is separate from semantic review. Missing latest historical sources were not silently labeled recovered. P04/P05 and the shared contest components contain new bounded implementations and retained literal fragments derived against the approved GDD and full-script authority.
+
+The reproduction stores authored native art/audio inputs once and rebuilds the game source/resource universe around those exact bytes. It does not rerun image generation or synthesize new dialogue. Native resources and generated data remain available for editing; unavailable older concept/authoring masters are not invented. Separately preserved component art/scene sources and later WIP should be reviewed and merged as explicit new revisions.
+
+The primary editable host templates are `main_helpers.sc.in`, `host_methods.sc.in`, `contest_methods.sc.in`, the visual/courtyard sources, and the guarded `derive.py` pipeline. Derived `src/main.sc` is not the sole authority and may be regenerated. Preserve selector/class ownership, static-resource bounds, canonical source text and the compiler Boolean-lowering rules.
+
+Historical proof files retain their original dates, source identities and limitations. The top-level current-build manifest and native-scope document describe the later completed native run. A historical `native_acceptance:false` field is not silently rewritten into a fresh result.
+
+Publication revision 2 preserves all game authoring inputs, assets, tests and host/native input guards. It removes only compiler materials outside the proven build closure and retains required notices/provenance. The 51 headless port input files carry newly dated comment-only notices; executable logic and the pinned compiler bytes are unchanged. The outer assembly/source-integrity identities have been refreshed explicitly. Every omission is listed by original path, size and hash. Original complete archival and publication revision 1 copies remain preserved separately.
+
+All eight Contest snapshot files remain necessary to the accepted source or fixed-membership guards, including the historical report with its unchanged false standalone acceptance fields. See CONTEST-SNAPSHOT-DEPENDENCIES.md for exact read callsites and the later whole-build native connection.

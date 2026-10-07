@@ -1,0 +1,490 @@
+[
+  {
+    "method": "hVCLabel",
+    "id": 1,
+    "record": "VC.UI.TITLE",
+    "entry": 0,
+    "text": "SHOUTING MATCH",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 2,
+    "record": "VC.UI.COMPOSURE",
+    "entry": 1,
+    "text": "COMPOSURE",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 3,
+    "record": "VC.UI.KO",
+    "entry": 2,
+    "text": "KO",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 4,
+    "record": "VC.UI.PRACTICE",
+    "entry": 3,
+    "text": "PRACTICE",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 5,
+    "record": "VC.UI.START",
+    "entry": 4,
+    "text": "COMPETE",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 6,
+    "record": "VC.UI.REMATCH",
+    "entry": 5,
+    "text": "REMATCH",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 7,
+    "record": "VC.UI.RECAP",
+    "entry": 6,
+    "text": "READ THE RECAP",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 8,
+    "record": "VC.UI.NOTEBOOK",
+    "entry": 7,
+    "text": "REVIEW REPLIES",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 9,
+    "record": "VC.UI.CHOOSE",
+    "entry": 8,
+    "text": "CHOOSE A LEARNED REPLY",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 10,
+    "record": "VC.UI.YIELD_EXCHANGE",
+    "entry": 9,
+    "text": "YIELD THIS EXCHANGE",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 11,
+    "record": "VC.UI.YIELD_CONTEST",
+    "entry": 10,
+    "text": "YIELD THIS CONTEST",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 12,
+    "record": "VC.UI.CLOSE",
+    "entry": 11,
+    "text": "CLOSE",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCLabel",
+    "id": 13,
+    "record": "VC.UI.BACK",
+    "entry": 12,
+    "text": "BACK",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 1,
+    "record": "IR01.REPLY",
+    "entry": 13,
+    "text": "YOUR ECHO GETS MORE PRACTICE THAN THE REST OF US.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 2,
+    "record": "IR02.REPLY",
+    "entry": 14,
+    "text": "YOURS TAKES LONGER, AND EVERYONE STILL WISHES YOU'D ZIP IT.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 3,
+    "record": "IR03.REPLY",
+    "entry": 15,
+    "text": "YOU ONLY WANT IT SO NOBODY CAN CHECK THE MIDDLE.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 4,
+    "record": "IR04.REPLY",
+    "entry": 16,
+    "text": "YOU'RE AN INTERVAL THAT THINKS IT'S THE SHOW.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 5,
+    "record": "IR05.REPLY",
+    "entry": 17,
+    "text": "YOU'D SELL THE SEATS AND ASK ME TO STAND.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 6,
+    "record": "IR06.REPLY",
+    "entry": 18,
+    "text": "YOU'D PUT YOUR NAME ON IT AND CALL IT A PARADE.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 7,
+    "record": "IR07.REPLY",
+    "entry": 19,
+    "text": "THEN STOP ARRANGING YOURSELF AROUND ME.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 8,
+    "record": "IR08.REPLY",
+    "entry": 20,
+    "text": "YOURS IS MAKING EVERYONE ELSE STAND ASIDE.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 9,
+    "record": "IR09.REPLY",
+    "entry": 21,
+    "text": "YOURS COULD PUT A CREASE IN SOUP.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 10,
+    "record": "IR10.REPLY",
+    "entry": 22,
+    "text": "YOU'RE WHAT HAPPENS WHEN THE SIGNATURE COVERS THE DRAWING.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 11,
+    "record": "IR11.REPLY",
+    "entry": 23,
+    "text": "YOU'D CALL THE PEOPLE STUCK OUTSIDE A WAITING LIST.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 12,
+    "record": "IR12.REPLY",
+    "entry": 24,
+    "text": "YOU THINK IT MEANS MAKING EVERYONE ASK WHERE YOU GOT IT.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 13,
+    "record": "IR13.REPLY",
+    "entry": 25,
+    "text": "YOU SUPPLIED THE OPENING STATEMENT.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 14,
+    "record": "IR14.REPLY",
+    "entry": 26,
+    "text": "YES, BUT THEN WHO'D POINT AT YOUR HANDIWORK?",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 15,
+    "record": "IR15.REPLY",
+    "entry": 27,
+    "text": "YOU'D STAND THERE UNTIL SOMEONE ASKED.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 16,
+    "record": "IR16.REPLY",
+    "entry": 28,
+    "text": "YOU'RE THE REASON THE PICTURES DON'T HAVE SOUND.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 17,
+    "record": "IR17.REPLY",
+    "entry": 29,
+    "text": "AND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION IN BESIDE ME.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 18,
+    "record": "IR18.REPLY",
+    "entry": 30,
+    "text": "YOU THINK STANDING IN FRONT OF THEM MAKES YOU IN CHARGE.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 19,
+    "record": "IR19.REPLY",
+    "entry": 31,
+    "text": "SHALL I FETCH ONE?",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 20,
+    "record": "IR20.REPLY",
+    "entry": 32,
+    "text": "AT LEAST THEY KNOW WHICH END MY SPEECH IS COMING FROM.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 21,
+    "record": "IR21.REPLY",
+    "entry": 33,
+    "text": "YOURS BECOME SUGGESTIONS THE MOMENT YOU WANT ANOTHER HELPING.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 22,
+    "record": "IR22.REPLY",
+    "entry": 34,
+    "text": "YOURS COULD LOSE ITS LABEL; WE'D FOLLOW THE COMPLAINTS.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 23,
+    "record": "IR23.REPLY",
+    "entry": 35,
+    "text": "YOU'D STAND ON IT AND COMPLAIN THERE WASN'T ROOM FOR ANYONE ELSE.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCReplyLabel",
+    "id": 24,
+    "record": "IR24.REPLY",
+    "entry": 36,
+    "text": "YOURS IS WAITING UNTIL THEY'VE FINISHED BEFORE POINTING OUT THE DUST.",
+    "buffer_words": 40
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 1,
+    "record": null,
+    "entry": 37,
+    "text": "IR01",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 2,
+    "record": null,
+    "entry": 38,
+    "text": "IR02",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 3,
+    "record": null,
+    "entry": 39,
+    "text": "IR03",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 4,
+    "record": null,
+    "entry": 40,
+    "text": "IR04",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 5,
+    "record": null,
+    "entry": 41,
+    "text": "IR05",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 6,
+    "record": null,
+    "entry": 42,
+    "text": "IR06",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 7,
+    "record": null,
+    "entry": 43,
+    "text": "IR07",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 8,
+    "record": null,
+    "entry": 44,
+    "text": "IR08",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 9,
+    "record": null,
+    "entry": 45,
+    "text": "IR09",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 10,
+    "record": null,
+    "entry": 46,
+    "text": "IR10",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 11,
+    "record": null,
+    "entry": 47,
+    "text": "IR11",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 12,
+    "record": null,
+    "entry": 48,
+    "text": "IR12",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 13,
+    "record": null,
+    "entry": 49,
+    "text": "IR13",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 14,
+    "record": null,
+    "entry": 50,
+    "text": "IR14",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 15,
+    "record": null,
+    "entry": 51,
+    "text": "IR15",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 16,
+    "record": null,
+    "entry": 52,
+    "text": "IR16",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 17,
+    "record": null,
+    "entry": 53,
+    "text": "IR17",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 18,
+    "record": null,
+    "entry": 54,
+    "text": "IR18",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 19,
+    "record": null,
+    "entry": 55,
+    "text": "IR19",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 20,
+    "record": null,
+    "entry": 56,
+    "text": "IR20",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 21,
+    "record": null,
+    "entry": 57,
+    "text": "IR21",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 22,
+    "record": null,
+    "entry": 58,
+    "text": "IR22",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 23,
+    "record": null,
+    "entry": 59,
+    "text": "IR23",
+    "buffer_words": 4
+  },
+  {
+    "method": "hVCSetupLabel",
+    "id": 24,
+    "record": null,
+    "entry": 60,
+    "text": "IR24",
+    "buffer_words": 4
+  }
+]

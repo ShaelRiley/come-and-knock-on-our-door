@@ -1,0 +1,13 @@
+{
+  "archive_sha256": "b863a81e1598df8bc4aa0c33e3d9b1c8bbede1879d94d91568a4f200057677e7",
+  "sources": {
+    "scummvm-2026.3.0/engines/sci/engine/kernel_tables.h": {
+      "bytes": 97124,
+      "sha256": "2d94d4675729ebe985f78efedbf088ff96edc55743172c94ca632eadc5de95c1"
+    },
+    "scummvm-2026.3.0/engines/sci/sound/soundcmd.cpp": {
+      "bytes": 38510,
+      "sha256": "5d728f9d82b320f8c04509253117ec93c281b2a4ed0be20ee2e3b560241d29ac"
+    }
+  }
+}

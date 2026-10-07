@@ -1,0 +1,95 @@
+{
+  "classification": "New original additive editable P02/P05 garage master drawer artwork; no gameplay logic changes",
+  "resource": 229,
+  "resource_type": 0,
+  "palette": 999,
+  "transparent_index": 255,
+  "stage": [
+    320,
+    144
+  ],
+  "origin": [
+    46,
+    48
+  ],
+  "size": [
+    30,
+    31
+  ],
+  "canvas_bounds": [
+    46,
+    48,
+    76,
+    79
+  ],
+  "source": "source-masters/master-drawer-three-states-v1.png",
+  "source_crops": [
+    [
+      68,
+      71,
+      682,
+      632
+    ],
+    [
+      759,
+      71,
+      1373,
+      632
+    ],
+    [
+      1452,
+      71,
+      2066,
+      632
+    ]
+  ],
+  "cels": [
+    "closed",
+    "open-with-master",
+    "open-empty"
+  ],
+  "drawer_object": 27,
+  "master_object": 24,
+  "approach": [
+    74,
+    139
+  ],
+  "jackie_scale128": 127,
+  "hit_priority": [
+    "master24 when visible and authorized",
+    "drawer27 always",
+    "existing P05 props and exits",
+    "actors"
+  ],
+  "state_mapping": {
+    "closed": {
+      "cel": 0,
+      "condition": "not p02DrawerOpen"
+    },
+    "open-with-master": {
+      "cel": 1,
+      "condition": "p02DrawerOpen and p02MiloShown and not p02MasterHeld"
+    },
+    "open-empty": {
+      "cel": 2,
+      "condition": "p02DrawerOpen and (p02MasterHeld or not p02MiloShown)"
+    }
+  },
+  "master_hit_condition": "p02MiloShown and p02DrawerOpen and not p02MasterHeld",
+  "draw_order": "background304, drawer229, unchanged P05 props227 and font0 labels, depth-sorted existing actors, captions and HUD",
+  "invariants": [
+    "Draw in room5 from first P02 entry, independent of PLAN_AGREED",
+    "Preserve Give compared bundle23 to Milo28, p02MiloShown permission, drawer27 interaction and master24 acquisition",
+    "No permission, reward, item-grant, mutation, or logic code in this art fragment",
+    "Existing 304/227/palette999/font0/actors remain unchanged",
+    "Exact master invitation words remain canonical reader text; sprite has no invented readable wording",
+    "Temporary Jackie foreground occlusion is natural; master and drawer control priorities stay active",
+    "All native rectangles half-open, clip stage before HUD144"
+  ],
+  "master_hit_rect": [
+    53,
+    61,
+    68,
+    68
+  ]
+}

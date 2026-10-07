@@ -1,0 +1,99 @@
+{
+  "resource": 229,
+  "type": 0,
+  "payload": "resources/229.view.bin",
+  "sha256": "c7da78eb7fe7ba931fdb2e8628260b833be5502618ced703f6a41e95d1e9e7e7",
+  "native_size": [
+    30,
+    31
+  ],
+  "loop": 0,
+  "origin": [
+    46,
+    48
+  ],
+  "cels": [
+    "closed",
+    "open-with-master",
+    "open-empty"
+  ],
+  "state_mapping": {
+    "closed": {
+      "cel": 0,
+      "condition": "not p02DrawerOpen"
+    },
+    "open-with-master": {
+      "cel": 1,
+      "condition": "p02DrawerOpen and p02MiloShown and not p02MasterHeld"
+    },
+    "open-empty": {
+      "cel": 2,
+      "condition": "p02DrawerOpen and (p02MasterHeld or not p02MiloShown)"
+    }
+  },
+  "draw": "DrawCel229, loop0, selected cel,46,48,-1,0; after304 before227 and actors",
+  "drawer": {
+    "object": 27,
+    "rect": [
+      46,
+      48,
+      76,
+      79
+    ],
+    "approach": [
+      74,
+      139
+    ],
+    "visible": "room5, not onApron, first P02 visit onward"
+  },
+  "master": {
+    "object": 24,
+    "rect": [
+      53,
+      61,
+      68,
+      68
+    ],
+    "approach": [
+      74,
+      139
+    ],
+    "visible_if": "p02MiloShown and p02DrawerOpen and not p02MasterHeld",
+    "precedence": "24 wins inside its rect; 27 owns the remaining cabinet"
+  },
+  "drawer_carved_around_visible_master": [
+    [
+      46,
+      48,
+      76,
+      61
+    ],
+    [
+      46,
+      61,
+      53,
+      68
+    ],
+    [
+      68,
+      61,
+      76,
+      68
+    ],
+    [
+      46,
+      68,
+      76,
+      79
+    ]
+  ],
+  "notes": [
+    "If Main.uiHit reverse-searches registrations, register master24 after drawer27 or carve the drawer as listed. Do not allow later actor controls to steal either target.",
+    "Master hit rect exactly bounds the pale paper at native pixels local[7,13,22,20).",
+    "Drawing and hit-selection only; preserve original P02 reachability and grant checks.",
+    "Milo28 feet[100,129], scale116, nominal clipped canvas[77,59,124,131); drawer stays left with1px gap.",
+    "Jackie approach[74,139], scale127: canvas[49,62,100,141); natural foreground overlap is allowed while logical target priority remains active.",
+    "Keep exact reader copy, font0, caption0..43 and HUD144 onward unchanged.",
+    "No Main modifications or integration acceptance supplied by this additive art packet."
+  ]
+}

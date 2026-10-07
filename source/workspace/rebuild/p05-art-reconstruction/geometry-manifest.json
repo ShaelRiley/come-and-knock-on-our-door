@@ -1,0 +1,1133 @@
+{
+  "classification": "New original P05 garage and PA artwork and new measured geometry; not recovered historical pixels or ABI",
+  "stage": [
+    320,
+    144
+  ],
+  "caption_last_row": 43,
+  "hud_first_row": 144,
+  "floor_lane_y": [
+    127,
+    143
+  ],
+  "origin_convention": "Top-left; all rectangles half-open; actors use native feet anchor26,78",
+  "room": 5,
+  "resources": {
+    "background": 304,
+    "props": 227,
+    "palette": 999,
+    "clear_key": 255
+  },
+  "actors": {
+    "jackie": {
+      "view": 214,
+      "feet": [
+        26,
+        140
+      ],
+      "scale128": 127,
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "milo": {
+      "object": 28,
+      "view": 221,
+      "feet": [
+        100,
+        129
+      ],
+      "scale128": 116,
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "bunny": {
+      "object": 2,
+      "view": 219,
+      "feet": [
+        268,
+        127
+      ],
+      "scale128": 116,
+      "anchor": [
+        26,
+        78
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "console",
+      "cel": 0,
+      "crop": [
+        20,
+        94,
+        394,
+        275
+      ],
+      "size": [
+        70,
+        35
+      ],
+      "origin": [
+        143,
+        92
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "speaker-away",
+      "cel": 1,
+      "crop": [
+        428,
+        27,
+        714,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim0"
+    },
+    {
+      "name": "speaker-bunny",
+      "cel": 2,
+      "crop": [
+        790,
+        15,
+        1042,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim1"
+    },
+    {
+      "name": "speaker-audience",
+      "cel": 3,
+      "crop": [
+        1121,
+        21,
+        1424,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim2"
+    },
+    {
+      "name": "microphone",
+      "cel": 4,
+      "crop": [
+        62,
+        289,
+        306,
+        587
+      ],
+      "size": [
+        22,
+        35
+      ],
+      "origin": [
+        123,
+        91
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "cable-unplugged",
+      "cel": 5,
+      "crop": [
+        378,
+        438,
+        762,
+        565
+      ],
+      "size": [
+        65,
+        18
+      ],
+      "origin": [
+        132,
+        110
+      ],
+      "visibility": "kit_present and connected0"
+    },
+    {
+      "name": "cable-plugged",
+      "cel": 6,
+      "crop": [
+        784,
+        342,
+        1070,
+        577
+      ],
+      "size": [
+        64,
+        35
+      ],
+      "origin": [
+        133,
+        92
+      ],
+      "visibility": "kit_present and connected1"
+    },
+    {
+      "name": "handcart",
+      "cel": 7,
+      "crop": [
+        1121,
+        281,
+        1418,
+        602
+      ],
+      "size": [
+        40,
+        43
+      ],
+      "origin": [
+        45,
+        82
+      ],
+      "visibility": "always; distinct from kit"
+    },
+    {
+      "name": "credit-slate",
+      "cel": 8,
+      "crop": [
+        85,
+        612,
+        296,
+        793
+      ],
+      "size": [
+        25,
+        24
+      ],
+      "origin": [
+        112,
+        59
+      ],
+      "visibility": "kit_present; credit slate travels with KIT_PARTS to L05"
+    },
+    {
+      "name": "slogan-tape",
+      "cel": 9,
+      "crop": [
+        377,
+        632,
+        706,
+        850
+      ],
+      "size": [
+        28,
+        17
+      ],
+      "origin": [
+        154,
+        71
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "selector-tape",
+      "cel": 10,
+      "crop": [
+        766,
+        613,
+        1038,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "visibility": "kit_present and source0; top8 rows label band"
+    },
+    {
+      "name": "selector-mic",
+      "cel": 11,
+      "crop": [
+        1130,
+        613,
+        1401,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "visibility": "kit_present and source1; top8 rows label band"
+    },
+    {
+      "name": "socket-unplugged",
+      "cel": 12,
+      "crop": [
+        111,
+        860,
+        276,
+        1039
+      ],
+      "size": [
+        18,
+        20
+      ],
+      "origin": [
+        193,
+        92
+      ],
+      "visibility": "kit_present and connected0"
+    },
+    {
+      "name": "socket-plugged",
+      "cel": 13,
+      "crop": [
+        362,
+        860,
+        624,
+        1038
+      ],
+      "size": [
+        27,
+        20
+      ],
+      "origin": [
+        184,
+        92
+      ],
+      "visibility": "kit_present and connected1"
+    },
+    {
+      "name": "bunny-listener-mark",
+      "cel": 14,
+      "crop": [
+        731,
+        869,
+        1064,
+        1051
+      ],
+      "size": [
+        28,
+        12
+      ],
+      "origin": [
+        254,
+        121
+      ],
+      "visibility": "always; listener1"
+    },
+    {
+      "name": "audience-listener-mark",
+      "cel": 15,
+      "crop": [
+        1094,
+        847,
+        1425,
+        1041
+      ],
+      "size": [
+        23,
+        13
+      ],
+      "origin": [
+        274,
+        131
+      ],
+      "visibility": "always; listener2"
+    }
+  ],
+  "targets": {
+    "porch_exit": {
+      "object": 11,
+      "rect": [
+        7,
+        44,
+        44,
+        124
+      ],
+      "approach": [
+        29,
+        135
+      ],
+      "destination_room": 0
+    },
+    "audience_edge": {
+      "object": 9,
+      "rect": [
+        298,
+        44,
+        320,
+        144
+      ],
+      "approach": [
+        303,
+        138
+      ],
+      "purpose": "one scenic apron entry/return route; invitation is explicit"
+    },
+    "pa_kit": {
+      "object": 63,
+      "rect": [
+        142,
+        113,
+        213,
+        128
+      ],
+      "approach": [
+        169,
+        139
+      ]
+    },
+    "input_selector": {
+      "object": 64,
+      "rect": [
+        142,
+        83,
+        192,
+        113
+      ],
+      "approach": [
+        157,
+        138
+      ]
+    },
+    "microphone": {
+      "object": 65,
+      "rect": [
+        121,
+        89,
+        143,
+        127
+      ],
+      "approach": [
+        121,
+        139
+      ]
+    },
+    "mic_socket": {
+      "object": 66,
+      "rect": [
+        192,
+        90,
+        212,
+        114
+      ],
+      "approach": [
+        193,
+        138
+      ]
+    },
+    "loudspeaker": {
+      "object": 67,
+      "rect": [
+        213,
+        59,
+        251,
+        106
+      ],
+      "approach": [
+        233,
+        138
+      ]
+    },
+    "speaker_swivel_handle": {
+      "object": 68,
+      "rect": [
+        210,
+        106,
+        251,
+        125
+      ],
+      "approach": [
+        218,
+        138
+      ]
+    },
+    "marked_listening_position_bunny": {
+      "object": 69,
+      "listener": 1,
+      "rect": [
+        253,
+        120,
+        283,
+        134
+      ],
+      "approach": [
+        268,
+        139
+      ]
+    },
+    "marked_listening_position_audience": {
+      "object": 69,
+      "listener": 2,
+      "rect": [
+        273,
+        134,
+        297,
+        144
+      ],
+      "approach": [
+        285,
+        140
+      ]
+    },
+    "slogan_tape": {
+      "object": 70,
+      "rect": [
+        151,
+        68,
+        185,
+        84
+      ],
+      "approach": [
+        151,
+        138
+      ]
+    },
+    "equipment_credit_slate": {
+      "object": 71,
+      "rect": [
+        110,
+        57,
+        139,
+        87
+      ],
+      "approach": [
+        108,
+        139
+      ]
+    },
+    "handcart": {
+      "object": 72,
+      "rect": [
+        44,
+        80,
+        87,
+        126
+      ],
+      "approach": [
+        78,
+        139
+      ]
+    }
+  },
+  "font0_overlays": [
+    {
+      "text": "TAPE",
+      "origin": [
+        144,
+        84
+      ],
+      "when": "kit_present",
+      "purpose": "24px label above cassette pictogram"
+    },
+    {
+      "text": "MIC",
+      "origin": [
+        171,
+        84
+      ],
+      "when": "kit_present",
+      "purpose": "18px label above microphone pictogram"
+    }
+  ],
+  "symbol_composition": {
+    "crop": [
+      154,
+      982,
+      228,
+      1014
+    ],
+    "native_size": [
+      13,
+      5
+    ],
+    "destinations": {
+      "microphone": [
+        4,
+        13
+      ],
+      "socket-unplugged": [
+        3,
+        14
+      ],
+      "socket-plugged": [
+        12,
+        14
+      ]
+    },
+    "reason": "One exact generated three-dot badge is reused on mic and both socket states for perceptually identical symbols",
+    "alpha_normalization": "Opaque cream badge source is normalized to alpha255 after scaling, so identical symbol pixels cannot inherit slightly different underlay colors"
+  },
+  "label_band_crop": [
+    126,
+    165,
+    271,
+    185
+  ],
+  "host_requirements": [
+    "Only props227 and background304 are new. Never replace or re-encode214/219/221/palette999/font0.",
+    "Canonical source enum is TAPE0/MIC1; connection0/1; aim0 away,1 Bunny,2 audience. Do not infer invitations or success from sprites.",
+    "Kit present follows authoritative physical owner/location. When loaned, omit cels0..6 and8..13 and font labels; keep cart7 and marks14..15. Credit slate travels with kit.",
+    "Target69 listener is selected by the exact mark rectangle, not just x. Shared x values exist at different y. Audience-edge9 is separate and unique.",
+    "Register smaller hardware targets before the broad PA base. Actors must not steal clicks from active props or exits; visual occlusion remains natural.",
+    "Draw background, floor marks, cart, cable, console, tape, selector, socket, microphone, speaker, slate, then font0 labels attached to selector, then actors sorted by feet depth, finally captions/HUD. Actors may temporarily occlude controls; full target-priority remains active.",
+    "Font0 labels need native font0 6x8 at specified origins. Exact written credit is displayed via text205 record and is not fabricated as tiny raster writing.",
+    "Use source text205 . . . fallback for written three-dot inspection; on-world identical badge art has three visible dots.",
+    "Approach coordinates are collision-free floor points y135..140. Stage cannot extend into HUD row144. Caption panel covers0..43; essential controls begin57.",
+    "No pocket reward, item consumption, invitation, loan, contest or feedback result is encoded by this art packet. Native/listening acceptance remains separate."
+  ],
+  "views": {
+    "304": {
+      "file": "resources/304.view.bin",
+      "bytes": 46150,
+      "sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63",
+      "loops": [
+        1
+      ],
+      "independent_decode_roundtrip": "pass"
+    },
+    "227": {
+      "file": "resources/227.view.bin",
+      "bytes": 20735,
+      "sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0",
+      "loops": [
+        16
+      ],
+      "independent_decode_roundtrip": "pass"
+    }
+  },
+  "measured_cels": {
+    "304-loop00-cel00-garage": {
+      "resource": 304,
+      "loop": 0,
+      "cel": 0,
+      "canvas": [
+        320,
+        144
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        320,
+        144
+      ],
+      "opaque_bounds_world": [
+        0,
+        0,
+        320,
+        144
+      ],
+      "native_payload_sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63"
+    },
+    "227-loop00-cel00-console": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 0,
+      "canvas": [
+        70,
+        35
+      ],
+      "origin": [
+        143,
+        92
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        70,
+        35
+      ],
+      "opaque_bounds_world": [
+        143,
+        92,
+        213,
+        127
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel01-speaker-away": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 1,
+      "canvas": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "opaque_bounds_world": [
+        213,
+        61,
+        249,
+        121
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel02-speaker-bunny": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 2,
+      "canvas": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "opaque_bounds_world": [
+        213,
+        61,
+        249,
+        121
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel03-speaker-audience": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 3,
+      "canvas": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "opaque_bounds_world": [
+        213,
+        61,
+        249,
+        121
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel04-microphone": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 4,
+      "canvas": [
+        22,
+        35
+      ],
+      "origin": [
+        123,
+        91
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        22,
+        35
+      ],
+      "opaque_bounds_world": [
+        123,
+        91,
+        145,
+        126
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel05-cable-unplugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 5,
+      "canvas": [
+        65,
+        18
+      ],
+      "origin": [
+        132,
+        110
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        65,
+        18
+      ],
+      "opaque_bounds_world": [
+        132,
+        110,
+        197,
+        128
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel06-cable-plugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 6,
+      "canvas": [
+        64,
+        35
+      ],
+      "origin": [
+        133,
+        92
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        64,
+        35
+      ],
+      "opaque_bounds_world": [
+        133,
+        92,
+        197,
+        127
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel07-handcart": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 7,
+      "canvas": [
+        40,
+        43
+      ],
+      "origin": [
+        45,
+        82
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        40,
+        43
+      ],
+      "opaque_bounds_world": [
+        45,
+        82,
+        85,
+        125
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel08-credit-slate": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 8,
+      "canvas": [
+        25,
+        24
+      ],
+      "origin": [
+        112,
+        59
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        25,
+        24
+      ],
+      "opaque_bounds_world": [
+        112,
+        59,
+        137,
+        83
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel09-slogan-tape": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 9,
+      "canvas": [
+        28,
+        17
+      ],
+      "origin": [
+        154,
+        71
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        28,
+        17
+      ],
+      "opaque_bounds_world": [
+        154,
+        71,
+        182,
+        88
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel10-selector-tape": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 10,
+      "canvas": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        46,
+        28
+      ],
+      "opaque_bounds_world": [
+        144,
+        84,
+        190,
+        112
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel11-selector-mic": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 11,
+      "canvas": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        46,
+        28
+      ],
+      "opaque_bounds_world": [
+        144,
+        84,
+        190,
+        112
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel12-socket-unplugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 12,
+      "canvas": [
+        18,
+        20
+      ],
+      "origin": [
+        193,
+        92
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        18,
+        20
+      ],
+      "opaque_bounds_world": [
+        193,
+        92,
+        211,
+        112
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel13-socket-plugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 13,
+      "canvas": [
+        27,
+        20
+      ],
+      "origin": [
+        184,
+        92
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        27,
+        20
+      ],
+      "opaque_bounds_world": [
+        184,
+        92,
+        211,
+        112
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel14-bunny-listener-mark": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 14,
+      "canvas": [
+        28,
+        12
+      ],
+      "origin": [
+        254,
+        121
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        28,
+        12
+      ],
+      "opaque_bounds_world": [
+        254,
+        121,
+        282,
+        133
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    },
+    "227-loop00-cel15-audience-listener-mark": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 15,
+      "canvas": [
+        23,
+        13
+      ],
+      "origin": [
+        274,
+        131
+      ],
+      "opaque_bounds_local": [
+        0,
+        0,
+        23,
+        13
+      ],
+      "opaque_bounds_world": [
+        274,
+        131,
+        297,
+        144
+      ],
+      "native_payload_sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0"
+    }
+  },
+  "reference_actor_sha256": {
+    "214": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+    "219": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+    "221": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34"
+  },
+  "state_mapping": {
+    "connection": [
+      0,
+      1
+    ],
+    "source": [
+      0,
+      1
+    ],
+    "aim": [
+      0,
+      1,
+      2
+    ],
+    "kit_present": [
+      0,
+      1
+    ],
+    "listener": [
+      0,
+      1,
+      2
+    ],
+    "source_meaning": [
+      "TAPE",
+      "MIC"
+    ],
+    "aim_meaning": [
+      "away",
+      "Bunny",
+      "audience"
+    ],
+    "hardware_combination_count": 24,
+    "all_state_listener_combination_count": 72
+  },
+  "target_priority": [
+    "porch_exit",
+    "audience_edge",
+    "microphone",
+    "mic_socket",
+    "input_selector",
+    "slogan_tape",
+    "speaker_swivel_handle",
+    "loudspeaker",
+    "equipment_credit_slate",
+    "handcart",
+    "marked_listening_position_bunny",
+    "marked_listening_position_audience",
+    "pa_kit"
+  ],
+  "validation": {
+    "static": "src/validate.py",
+    "report": "evidence/validation.json",
+    "stock_runtime": "NOT RUN; separate native acceptance required",
+    "audio_or_listening": "NOT CLAIMED"
+  }
+}

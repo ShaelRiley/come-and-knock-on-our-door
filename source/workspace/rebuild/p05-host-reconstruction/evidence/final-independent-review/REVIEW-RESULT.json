@@ -1,0 +1,102 @@
+{
+  "status": "PASS_SOURCE_EMITTED_STATIC_P05_VC01_HOST",
+  "game_source_snapshot_sha256": "bfb7c2c7d3f16f75b41d60f41cc3d7ff99ae1e676e19657f9a3ab5f955bc2577",
+  "corrected_input_manifest_sha256": "3702d7501adb5602f8daff63873eea7e516fe564c7f567170a646c51b2ffb0e2",
+  "verifier_sha256": "fe59417685a6fa1ae5a2dda9b95cc3b78d8b2c4564cf76e09a663050ebc1edc4",
+  "fixed_inventory_membership_sha256": "1b52926ecae901c09d751dad2b79850b403adc48d44e199569395138a9e513fa",
+  "coherent_modules": [
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986,
+    0
+  ],
+  "segments": [
+    {
+      "module": 980,
+      "aligned_bytes": 1592,
+      "remaining": 63943
+    },
+    {
+      "module": 981,
+      "aligned_bytes": 12238,
+      "remaining": 53297
+    },
+    {
+      "module": 982,
+      "aligned_bytes": 44688,
+      "remaining": 20847
+    },
+    {
+      "module": 983,
+      "aligned_bytes": 11162,
+      "remaining": 54373
+    },
+    {
+      "module": 984,
+      "aligned_bytes": 10540,
+      "remaining": 54995
+    },
+    {
+      "module": 985,
+      "aligned_bytes": 42814,
+      "remaining": 22721
+    },
+    {
+      "module": 986,
+      "aligned_bytes": 11756,
+      "remaining": 53779
+    },
+    {
+      "module": 0,
+      "aligned_bytes": 60730,
+      "remaining": 4805
+    }
+  ],
+  "prior_regression_methods": 101,
+  "historical_provenance_only_methods": 3,
+  "independent_player_flow_groups": 6,
+  "normal_build_failure_probes": 11,
+  "genuine_keyboard_campaign": "PASS P01 bench solution \u2192 existing packet-reader Take control \u2192 P02 originals/master \u2192 actual plan Confirm; drawer229 closed/master/empty rendered before PLAN_AGREED",
+  "final_public_suite": "PASS44/44, no skips, on unchanged game/data/test inputs; exact split binding independently verified",
+  "native_acceptance": false,
+  "audio_listening_acceptance": false,
+  "save_compatibility_acceptance": false,
+  "full_campaign_acceptance": false,
+  "publication_or_upload": false,
+  "source_modified_in_primary_candidate": false,
+  "remaining_native_gate": [
+    "Package exact final coherent scripts/heaps, art, text and matching PCM/Sync under a new isolated save identity",
+    "Stock ScummVM2026.3.0 real screen/input/audio/device check",
+    "Same-build F3 restore at pending sources/choices/groan/results and physical loan states"
+  ],
+  "separate_content_limitations": [
+    "MUS11 Contest MIDI family is not integrated",
+    "Later campaign preparations are outside this bounded host review"
+  ],
+  "evidence": [
+    "r2-abi-identity.json",
+    "r2-campaign-keyboard.log",
+    "r2-regressions/ALL-101-RESULT.json",
+    "r2-flows/ALL-6-RESULT.json",
+    "verifier-probe-results/RESULT.json",
+    "runtime-reference/INDEPENDENT-PINS.json",
+    "INITIAL-REVIEW.md",
+    "final-binding/RESULT.json"
+  ],
+  "source_emitted_static_acceptance": true,
+  "native_handoff_gate": "READY_FOR_SEPARATELY_AUTHORIZED_EXACT_NATIVE_PACKAGE_AND_STOCK_ENGINE_RUN",
+  "final_input_manifest_sha256": "3702d7501adb5602f8daff63873eea7e516fe564c7f567170a646c51b2ffb0e2",
+  "final_composed_receipt_sha256": "01ecf2c778a22b50c0c1ad59f20af5664a157b913b347be35067ed7dcb2bf2ad",
+  "original_full_test_manifest_sha256": "e2733548f91628a2cb24e97ded62a45ff1c9a8622347fbfb842f9e68ad4dc006",
+  "original_full_test_receipt_sha256": "49e9c1ee60bdecb037fcbaa7db972e078aeacf2796ad1a298610cba2887decfc",
+  "public_suite_tests": 44,
+  "public_suite_elapsed_seconds": 1348.906,
+  "verification_method": "Completed primary full source/emitted/static bootstrap + separately reviewed verifier-only membership correction + exact 128-local/180-external equality and11 independent failure probes",
+  "duplicate_bootstrap": "Deliberately cancelled by parent instruction, exit130; incomplete and not counted twice",
+  "fresh_final_compiled_and_static_resource_bytes": "Corrected reviewer bootstrap completed derive/build/static stages before deliberate cancellation; all16 script/heap files and static resource map/volume equal final primary bytes",
+  "open_blocking_findings": []
+}

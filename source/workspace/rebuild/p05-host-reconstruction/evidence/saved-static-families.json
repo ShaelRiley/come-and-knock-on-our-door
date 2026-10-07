@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "tables": [
+    "sdStarts",
+    "sdCounts",
+    "sdPageData",
+    "sdLegacyVoiceDurations",
+    "sdTextResources",
+    "sdAudioModules",
+    "sdPageDurations",
+    "vcSceneRoutes",
+    "historyTableA",
+    "historyTableB",
+    "midiChannels",
+    "mainStateGains",
+    "reducedStateGains",
+    "midiPrograms",
+    "midiPans",
+    "initialExpression",
+    "loopExpression",
+    "expressionEvents",
+    "keyWindows",
+    "heldNotes"
+  ],
+  "native_acceptance": false
+}

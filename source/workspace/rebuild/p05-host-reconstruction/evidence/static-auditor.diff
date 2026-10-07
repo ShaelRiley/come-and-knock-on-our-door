@@ -1,0 +1,11 @@
+--- sealed-domain-auditor
++++ scoped-host-helper-auditor
+@@ -228,7 +228,7 @@
+                 if op in (57,58):require(pc+1 in layout['script_relocations'] and (args[0] in {o['heap_offset'] for o in layout['objects']} or layout['strings_start']<=args[0]<layout['heap_relocation_offset']),'LOFS missing relocation or invalid target',number,name,pc)
+                 if op==33:
+                     require(str(args[0]) in kernels,'Unknown SCI1.1 kernel',number,name,args[0]);kernel_ids.add(args[0])
+-                    require(number!=985,'Pure P05 domain must not call kernels',name,args[0])
++                    require(number!=985 or name.startswith('h'),'Original P05 domain must not call kernels',name,args[0])
+             states={entry:((),None)};pending=deque([entry]);returns=set();max_stack=0;frames=meta['temp_words'];packets={};visited=set()
+             if instructions[entry][0]==31 and meta['assembly'] and number!=985:
+                 frames=instructions[entry][1][0]

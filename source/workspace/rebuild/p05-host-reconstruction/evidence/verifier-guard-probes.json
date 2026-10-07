@@ -1,0 +1,103 @@
+{
+  "status": "PASS_FAIL_CLOSED_VERIFIER_PROBES",
+  "cases": [
+    {
+      "case": "optimized_flag",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Optimized Python is forbidden",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "optimized_environment",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Optimized Python is forbidden",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "partial_verification_forbidden",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "No partial/skip/zero-test verification modes",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "changed_host_source",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Exact input changed: local/host_methods.sc.in",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "empty_local_membership",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Missing/extra input inventory members: local",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "missing_external_member",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Missing/extra input inventory members: external",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "changed_membership_file",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Fixed inventory membership identity changed",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "project_import_failure",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "intentional import-failure fixture",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "suite_import_failure",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "No module named 'host'",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "actual_zero_test_discovery",
+      "exit": 1,
+      "receipt": {
+        "status": "FAIL",
+        "error": "Fixed test inventory mismatch/zero discovery",
+        "native_acceptance": false
+      }
+    },
+    {
+      "case": "changed_emitted_bytes",
+      "exit": 1,
+      "scope": "Emitted artifact loader rejects before executing modified bytes; public verifier would perform a clean rebuild"
+    }
+  ],
+  "verifier_sha256": "fe59417685a6fa1ae5a2dda9b95cc3b78d8b2c4564cf76e09a663050ebc1edc4",
+  "membership_sha256": "1b52926ecae901c09d751dad2b79850b403adc48d44e199569395138a9e513fa",
+  "scope": "Normal local build-integrity and test-runner failure injection only; private review copy; no native launch or publication"
+}

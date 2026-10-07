@@ -1,0 +1,416 @@
+{
+  "acceptance": "Static only; native render/input/save and user visual approval remain open",
+  "caption_last_row": 43,
+  "classification": "New reconstructed geometry, measured against exact native cels",
+  "coordinate_convention": "Top-left DrawCel; half-open rectangles; actor native52x80 feet26,78",
+  "exits": {
+    "audience_edge": {
+      "approach": [
+        291,
+        140,
+        127
+      ],
+      "object": 9,
+      "rect": [
+        306,
+        119,
+        320,
+        144
+      ]
+    },
+    "house_arch": {
+      "approach": [
+        44,
+        124,
+        127
+      ],
+      "object": 18,
+      "rect": [
+        22,
+        44,
+        64,
+        102
+      ]
+    },
+    "side_gate": {
+      "approach": [
+        279,
+        132,
+        127
+      ],
+      "object": 19,
+      "rect": [
+        282,
+        44,
+        315,
+        111
+      ]
+    }
+  },
+  "hud_first_row": 144,
+  "layout_superset": "Includes impossible logical states solely to make renderer total; state model must reject them",
+  "marker_cels": [
+    [
+      7,
+      [
+        80,
+        110
+      ]
+    ],
+    [
+      8,
+      [
+        149,
+        110
+      ]
+    ],
+    [
+      9,
+      [
+        221,
+        110
+      ]
+    ],
+    [
+      10,
+      [
+        23,
+        132
+      ]
+    ]
+  ],
+  "new_allocations": "305 and228 are newly allocated after known-registry scan; not recovered historical IDs",
+  "object_ids": {
+    "ceramic_carrier": 34,
+    "completed_screen": 83,
+    "credit_slate": 40,
+    "pa_kit": 63,
+    "serving_table": 120
+  },
+  "object_only_hatch": {
+    "approach": [
+      75,
+      135,
+      127
+    ],
+    "object": 121,
+    "rect": [
+      95,
+      44,
+      134,
+      71
+    ],
+    "travel": false
+  },
+  "occlusion": "Actors drawn after prop layers at supplied safe approach feet; every movable object remains available through named-object plan selection even if co-located/occluded",
+  "origins": {
+    "ceramic_carrier": [
+      [
+        95,
+        47
+      ],
+      [
+        84,
+        79
+      ],
+      [
+        156,
+        83
+      ],
+      [
+        230,
+        91
+      ],
+      [
+        170,
+        108
+      ]
+    ],
+    "completed_screen": [
+      [
+        61,
+        70
+      ],
+      [
+        84,
+        51
+      ],
+      [
+        151,
+        57
+      ],
+      [
+        226,
+        54
+      ],
+      [
+        187,
+        79
+      ]
+    ],
+    "credit_slate": [
+      [
+        135,
+        52
+      ],
+      [
+        125,
+        88
+      ],
+      [
+        187,
+        88
+      ],
+      [
+        257,
+        88
+      ],
+      [
+        222,
+        124
+      ]
+    ],
+    "pa_kit": [
+      [
+        119,
+        61
+      ],
+      [
+        81,
+        78
+      ],
+      [
+        139,
+        68
+      ],
+      [
+        211,
+        77
+      ],
+      [
+        158,
+        92
+      ]
+    ],
+    "serving_table": [
+      [
+        4,
+        92
+      ],
+      [
+        80,
+        98
+      ],
+      [
+        145,
+        95
+      ],
+      [
+        216,
+        96
+      ],
+      [
+        160,
+        111
+      ]
+    ]
+  },
+  "overlap_choice_contract": {
+    "always_available_objects": [
+      34,
+      63,
+      83,
+      120,
+      40
+    ],
+    "canonical_labels_required": true,
+    "host_gate": "Mouse/controller chooser not implemented here; topmost-only selection is forbidden",
+    "point_query": "p08_hit_candidates returns every overlapping candidate"
+  },
+  "p05": {
+    "document": 462,
+    "hardware_origins": {
+      "0": [
+        184,
+        92
+      ],
+      "1": [
+        254,
+        61
+      ],
+      "2": [
+        254,
+        61
+      ],
+      "3": [
+        254,
+        61
+      ],
+      "4": [
+        164,
+        91
+      ],
+      "5": [
+        173,
+        110
+      ],
+      "6": [
+        174,
+        92
+      ],
+      "9": [
+        195,
+        71
+      ],
+      "10": [
+        185,
+        84
+      ],
+      "11": [
+        185,
+        84
+      ],
+      "12": [
+        234,
+        92
+      ],
+      "13": [
+        225,
+        92
+      ]
+    },
+    "kit": {
+      "approach": [
+        114,
+        140,
+        127
+      ],
+      "object": 63,
+      "rect": [
+        164,
+        61,
+        291,
+        129
+      ]
+    },
+    "render_cel_order": [
+      "cable",
+      "console",
+      "tape",
+      "selector",
+      "socket",
+      "microphone",
+      "speaker",
+      "slate"
+    ],
+    "slate": {
+      "approach": [
+        111,
+        139,
+        127
+      ],
+      "object": 71,
+      "rect": [
+        137,
+        103,
+        162,
+        127
+      ]
+    },
+    "slate_origin": [
+      137,
+      103
+    ],
+    "visibility": "room4 and not onApron and committed P05 loan and PA owner1, before P08 ownership acknowledgment"
+  },
+  "p08_cel_mapping": {
+    "ceramic_carrier": 4,
+    "completed_screen": 0,
+    "credit_slate": 5,
+    "pa_kit": 2,
+    "serving_table": 1
+  },
+  "positions": [
+    "UNPLACED",
+    "HATCH",
+    "WALL",
+    "ALCOVE",
+    "LANE"
+  ],
+  "precedence": [
+    "exits",
+    "object-only hatch",
+    "equipment credit71",
+    "PA kit63",
+    "topmost movable props",
+    "named zone destinations"
+  ],
+  "resources": {
+    "background": 305,
+    "existing_equipment": 227,
+    "existing_p03": 224,
+    "font": 0,
+    "palette": 999,
+    "props": 228
+  },
+  "stage": [
+    320,
+    144
+  ],
+  "walk_corridor": {
+    "scale128": 127,
+    "x": [
+      26,
+      293
+    ],
+    "y": 141
+  },
+  "zone_approaches": {
+    "ALCOVE": [
+      272,
+      140,
+      127
+    ],
+    "HATCH": [
+      67,
+      140,
+      127
+    ],
+    "LANE": [
+      148,
+      140,
+      127
+    ],
+    "WALL": [
+      151,
+      140,
+      127
+    ]
+  },
+  "zone_rects": {
+    "ALCOVE": [
+      224,
+      69,
+      280,
+      124
+    ],
+    "HATCH": [
+      77,
+      73,
+      147,
+      124
+    ],
+    "LANE": [
+      23,
+      132,
+      300,
+      143
+    ],
+    "WALL": [
+      148,
+      64,
+      224,
+      124
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "host_review_sha256": "ba3f7afe62e6a1efafcda261f1e55d9fe2c4b5a0d11ea97aef08ab2cf19d703d",
+  "input_lock_sha256": "aad8040dc942d16eda56c03c96e906175aa0e7432b43da4ad67a096e3401b043",
+  "namespace": {
+    "config_filename": "scummvm.ini",
+    "engineid": "sci",
+    "gameid": "sci-fanmade",
+    "imports_p03_saves": false,
+    "native_acceptance": false,
+    "save_directory": "saves",
+    "state_directory": "cakood-p04-reconstruction-20261006-r1",
+    "target": "cakood-p04-reconstruction-20261006-r1"
+  },
+  "native_acceptance": false,
+  "package_manifest_sha256": "69178bd40504e54018012fe78c5ee677370561167609f9745ce8550d6da45dd5",
+  "playable_delta_review_sha256": "884e074d212b6c93b01a2974afd037feb11f51cb74ee0a9bc54b70d7446f833f",
+  "scope": "All-six source compile, independently reviewed guarded playable deltas, exact packed data/speech preservation; native presentation and audio listening pending",
+  "status": "PASS_CANDIDATE_STATIC"
+}

@@ -1,0 +1,860 @@
+{
+  "classification": "New original P05 garage and PA artwork and new measured geometry; not recovered historical pixels or ABI",
+  "algorithm_version": 1,
+  "stage": [
+    320,
+    144
+  ],
+  "palette": {
+    "resource": 999,
+    "clear_key": 255,
+    "sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+    "quantization": "Nearest squared RGB, first index wins ties;0..254 opaque, alpha<128 clear255; no dither"
+  },
+  "scale_filter": "Pillow LANCZOS premultiplied RGBA, alpha128 threshold",
+  "source_alpha_cleanup": "Keep largest source alpha>=128 connected component inside each exact crop; discard neighboring grid-cell fragments",
+  "components": {
+    "console": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        20,
+        94,
+        394,
+        275
+      ],
+      "size": [
+        70,
+        35
+      ],
+      "source_sha256": "b00a69f6431145da8d3c76fefccaf8b5b0f2c4949d12fdaa7fc070cd356a374c"
+    },
+    "speaker-away": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        428,
+        27,
+        714,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "source_sha256": "0480db919676d17ee01afc9242cbad8c982b296d5e1eab1913f116a832dff03a"
+    },
+    "speaker-bunny": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        790,
+        15,
+        1042,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "source_sha256": "03a5f434c972d8d599bbc90c00f6e2c40d965ce6fccebf3083c1722fbcd5d252"
+    },
+    "speaker-audience": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        1121,
+        21,
+        1424,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "source_sha256": "c96ddc81a836d27cdefee635c8aebc8f6427022202980681f26c82c572661af9"
+    },
+    "microphone": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        62,
+        289,
+        306,
+        587
+      ],
+      "size": [
+        22,
+        35
+      ],
+      "source_sha256": "424a27e3df3a0974a5a9759a16264e5ea92929a33527ef0efa89de622f849c44"
+    },
+    "cable-unplugged": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        378,
+        438,
+        762,
+        565
+      ],
+      "size": [
+        65,
+        18
+      ],
+      "source_sha256": "898fa98fa6f9812156583fbc4c007331a5e6adec87eb551e6f5cd30ec8388e2f"
+    },
+    "cable-plugged": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        784,
+        342,
+        1070,
+        577
+      ],
+      "size": [
+        64,
+        35
+      ],
+      "source_sha256": "193dfd5de1817c4814064e9225813efa9f55cb90259a5ffd62a340aa1d196e85"
+    },
+    "handcart": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        1121,
+        281,
+        1418,
+        602
+      ],
+      "size": [
+        40,
+        43
+      ],
+      "source_sha256": "947b4bfc06cae25e1c98ae1e8a8624f338b77ce5051ecd4ffc1990948ae699da"
+    },
+    "credit-slate": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        85,
+        612,
+        296,
+        793
+      ],
+      "size": [
+        25,
+        24
+      ],
+      "source_sha256": "a40762ef913a993e7f6894e9e5279c1def5c3803f49b35c491b36f925f64f7eb"
+    },
+    "slogan-tape": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        377,
+        632,
+        706,
+        850
+      ],
+      "size": [
+        28,
+        17
+      ],
+      "source_sha256": "fa3d11e5a4eae5e19c41b19d3d195ce17ae294bce93beb801c7a69d8472dd529"
+    },
+    "selector-tape": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        766,
+        613,
+        1038,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "source_sha256": "b0e7a08a19e52019b479632cc029f48275978b72044d17db51579bb4a4883999"
+    },
+    "selector-mic": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        1130,
+        613,
+        1401,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "source_sha256": "326606dd1a72acbefe3eec9e9bc0cd36e034203afe412782bb2fc905c59bc52a"
+    },
+    "socket-unplugged": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        111,
+        860,
+        276,
+        1039
+      ],
+      "size": [
+        18,
+        20
+      ],
+      "source_sha256": "161b1996b45fabe13019e09b3ea948033b4f8dae90dc487dc12d4d7b9fb2e08d"
+    },
+    "socket-plugged": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        362,
+        860,
+        624,
+        1038
+      ],
+      "size": [
+        27,
+        20
+      ],
+      "source_sha256": "d886fd74615655f8a2a9d4395bef803cd054ae57343f7cc6aacdcc2390822419"
+    },
+    "bunny-listener-mark": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        731,
+        869,
+        1064,
+        1051
+      ],
+      "size": [
+        28,
+        12
+      ],
+      "source_sha256": "1f2d7563ac4dc1789e84510a479327b0b56198757fb7f477b482d5e95c93aeec"
+    },
+    "audience-listener-mark": {
+      "source": "pa-components-sheet-r1.png",
+      "crop_half_open": [
+        1094,
+        847,
+        1425,
+        1041
+      ],
+      "size": [
+        23,
+        13
+      ],
+      "source_sha256": "8e08ad5811cf75a770879aa20efeeab67f82995ca86635d58e8dda2329a3b6f7"
+    }
+  },
+  "cels": {
+    "304-loop00-cel00-garage": {
+      "resource": 304,
+      "loop": 0,
+      "cel": 0,
+      "name": "garage",
+      "size": [
+        320,
+        144
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        320,
+        144
+      ],
+      "placement": {
+        "source_crop": [
+          0,
+          0,
+          1672,
+          940
+        ],
+        "origin": [
+          0,
+          0
+        ]
+      },
+      "indexed_sha256": "4f1f03a8f6f8c386f561fe7f4bbc9fb230e4b4b440abb1b18eed39366ab8b6f4",
+      "pixel_sha256": "dc12a1bddd7468bad0b88434965767e3263f805c9fa2d4932d12fea425806747"
+    },
+    "227-loop00-cel00-console": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 0,
+      "name": "console",
+      "size": [
+        70,
+        35
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        70,
+        35
+      ],
+      "placement": {
+        "origin": [
+          143,
+          92
+        ],
+        "visibility": "kit_present",
+        "source_crop": [
+          20,
+          94,
+          394,
+          275
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "0935f0de3dad0c3e1cf6f722c47bcb136cb0911493d151914616f91ec4db0bf7",
+      "pixel_sha256": "1f633b54f895943ce4fed9db79608f2552dfae649eefcb1eab732177f350e699"
+    },
+    "227-loop00-cel01-speaker-away": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 1,
+      "name": "speaker-away",
+      "size": [
+        36,
+        61
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "placement": {
+        "origin": [
+          213,
+          61
+        ],
+        "visibility": "kit_present and aim0",
+        "source_crop": [
+          428,
+          27,
+          714,
+          290
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "6e3e7ae3278cb011d73b85cedf3373639da0b554b5effe2193c1f6d0f34d584f",
+      "pixel_sha256": "5a9e6c8f7d0793a62819eabe245832fe5fa2ffc58a4322460d02d64316ede59f"
+    },
+    "227-loop00-cel02-speaker-bunny": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 2,
+      "name": "speaker-bunny",
+      "size": [
+        36,
+        61
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "placement": {
+        "origin": [
+          213,
+          61
+        ],
+        "visibility": "kit_present and aim1",
+        "source_crop": [
+          790,
+          15,
+          1042,
+          290
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "944ce45f5cd49f2f26971b100c23870cb17fd42affe20ff1f0ada118fd348684",
+      "pixel_sha256": "f67a40ffab4f7bb099ac1c8b909f4706ec46eb6458a3455d3c275c37cce18b42"
+    },
+    "227-loop00-cel03-speaker-audience": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 3,
+      "name": "speaker-audience",
+      "size": [
+        36,
+        61
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        36,
+        60
+      ],
+      "placement": {
+        "origin": [
+          213,
+          61
+        ],
+        "visibility": "kit_present and aim2",
+        "source_crop": [
+          1121,
+          21,
+          1424,
+          290
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "9cf9eeb42c5139a884ca6c760d75f33425ed62939c81668f81da2ad36811714c",
+      "pixel_sha256": "652932196955279ee594509df7f2a658ccb02a5064f5626761eed8f11f6b739e"
+    },
+    "227-loop00-cel04-microphone": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 4,
+      "name": "microphone",
+      "size": [
+        22,
+        35
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        22,
+        35
+      ],
+      "placement": {
+        "origin": [
+          123,
+          91
+        ],
+        "visibility": "kit_present",
+        "source_crop": [
+          62,
+          289,
+          306,
+          587
+        ],
+        "exact_symbol_composition": [
+          4,
+          13
+        ],
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "81b2b1be69382829db61952cac3dc94ed34230c4d731994b153b830a80c08fe2",
+      "pixel_sha256": "760c03efacae287151931a730c7f02c4a04b04e3ded77e4a807b387e70497ce4"
+    },
+    "227-loop00-cel05-cable-unplugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 5,
+      "name": "cable-unplugged",
+      "size": [
+        65,
+        18
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        65,
+        18
+      ],
+      "placement": {
+        "origin": [
+          132,
+          110
+        ],
+        "visibility": "kit_present and connected0",
+        "source_crop": [
+          378,
+          438,
+          762,
+          565
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 32
+      },
+      "indexed_sha256": "588d957e23993956a18eff6dc9848b11df72b48506421938b09afd332d4e9035",
+      "pixel_sha256": "a82f71b05780fcdfaf2b3953beca6137d6d843c495c0ed57fbddfa091602695b"
+    },
+    "227-loop00-cel06-cable-plugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 6,
+      "name": "cable-plugged",
+      "size": [
+        64,
+        35
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        64,
+        35
+      ],
+      "placement": {
+        "origin": [
+          133,
+          92
+        ],
+        "visibility": "kit_present and connected1",
+        "source_crop": [
+          784,
+          342,
+          1070,
+          577
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 32
+      },
+      "indexed_sha256": "8ec18b171bef8e492487e1522fc05fc8eaf3ac4c6095c61158359c47939f57b4",
+      "pixel_sha256": "660a536538aa8879003443a71870bfa8a8c71560e92d5252f3577f6f3cf34914"
+    },
+    "227-loop00-cel07-handcart": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 7,
+      "name": "handcart",
+      "size": [
+        40,
+        43
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        40,
+        43
+      ],
+      "placement": {
+        "origin": [
+          45,
+          82
+        ],
+        "visibility": "always; distinct from kit",
+        "source_crop": [
+          1121,
+          281,
+          1418,
+          602
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "d154d8e279f08964c738261766723c645a2317f3ae7fbd998b1ba7229803a1f7",
+      "pixel_sha256": "800ad0572915e27e616ec39e1afafc797ca342eea44637cdcfabc683e08be646"
+    },
+    "227-loop00-cel08-credit-slate": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 8,
+      "name": "credit-slate",
+      "size": [
+        25,
+        24
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        25,
+        24
+      ],
+      "placement": {
+        "origin": [
+          112,
+          59
+        ],
+        "visibility": "kit_present; credit slate travels with KIT_PARTS to L05",
+        "source_crop": [
+          85,
+          612,
+          296,
+          793
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "5690ad0bebc2c39b59c8389bf22b2e07f8a460b90b356e58c4dc013c1651905d",
+      "pixel_sha256": "de6b4a8faf7297ced99347444847db97460a782f4f0e4469878fd27e1950a6ae"
+    },
+    "227-loop00-cel09-slogan-tape": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 9,
+      "name": "slogan-tape",
+      "size": [
+        28,
+        17
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        28,
+        17
+      ],
+      "placement": {
+        "origin": [
+          154,
+          71
+        ],
+        "visibility": "kit_present",
+        "source_crop": [
+          377,
+          632,
+          706,
+          850
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "af38c1622cbde24d7d2d72d2ccd44591b9390791d5566a59d2fffea941ce723f",
+      "pixel_sha256": "ac3234bae41d3d08ce0237a2acc1d3da6f03eaf8d8c9c6a52eab7209c5dc42a3"
+    },
+    "227-loop00-cel10-selector-tape": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 10,
+      "name": "selector-tape",
+      "size": [
+        46,
+        28
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        46,
+        28
+      ],
+      "placement": {
+        "origin": [
+          144,
+          84
+        ],
+        "visibility": "kit_present and source0; top8 rows label band",
+        "source_crop": [
+          766,
+          613,
+          1038,
+          812
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "86451779c0ad8382e2f5516b5ba2fc809e95dade72d25e93158982d0c72932f3",
+      "pixel_sha256": "bae0fe40e2b2684aab420e6d7238ea339b4425f503f54e84e5a339afc25b6f62"
+    },
+    "227-loop00-cel11-selector-mic": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 11,
+      "name": "selector-mic",
+      "size": [
+        46,
+        28
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        46,
+        28
+      ],
+      "placement": {
+        "origin": [
+          144,
+          84
+        ],
+        "visibility": "kit_present and source1; top8 rows label band",
+        "source_crop": [
+          1130,
+          613,
+          1401,
+          812
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "17479f546891e5c8ba88f97975b353752afca50988d2e77c9ebbc22422f6f80f",
+      "pixel_sha256": "b53517841e5c4bcb3cf5b3f920e682dd4a111e6031fc4cd56065eebb8ea12b73"
+    },
+    "227-loop00-cel12-socket-unplugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 12,
+      "name": "socket-unplugged",
+      "size": [
+        18,
+        20
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        18,
+        20
+      ],
+      "placement": {
+        "origin": [
+          193,
+          92
+        ],
+        "visibility": "kit_present and connected0",
+        "source_crop": [
+          111,
+          860,
+          276,
+          1039
+        ],
+        "exact_symbol_composition": [
+          3,
+          14
+        ],
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "2ffc4fb808c8710ccfab8668bd272b83ce8743ba0a8000e12647bf2bd70ee6d1",
+      "pixel_sha256": "b8c9e80e95850ea79ef738e1f4cee0acc4bfca0d54ecd48d7d8760b7a6c4dd19"
+    },
+    "227-loop00-cel13-socket-plugged": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 13,
+      "name": "socket-plugged",
+      "size": [
+        27,
+        20
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        27,
+        20
+      ],
+      "placement": {
+        "origin": [
+          184,
+          92
+        ],
+        "visibility": "kit_present and connected1",
+        "source_crop": [
+          362,
+          860,
+          624,
+          1038
+        ],
+        "exact_symbol_composition": [
+          12,
+          14
+        ],
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "00a0e8561ec07782900c29eb5e2e38f6c77f120d4715f33de2f36b5071bbcd7e",
+      "pixel_sha256": "d39e618cb46d97394d5a371214e4a5725b1c9b4e9827db88bccb0fc97c15d178"
+    },
+    "227-loop00-cel14-bunny-listener-mark": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 14,
+      "name": "bunny-listener-mark",
+      "size": [
+        28,
+        12
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        28,
+        12
+      ],
+      "placement": {
+        "origin": [
+          254,
+          121
+        ],
+        "visibility": "always; listener1",
+        "source_crop": [
+          731,
+          869,
+          1064,
+          1051
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "b83bd67fc1c26e5682c8dce3748b8f5f696eea00b2f1590037aad337756e6050",
+      "pixel_sha256": "367c087e5a486f6232cfb0a1e8c6cb534203572eef2c1160ac98394b26ac2643"
+    },
+    "227-loop00-cel15-audience-listener-mark": {
+      "resource": 227,
+      "loop": 0,
+      "cel": 15,
+      "name": "audience-listener-mark",
+      "size": [
+        23,
+        13
+      ],
+      "opaque_bounds_half_open": [
+        0,
+        0,
+        23,
+        13
+      ],
+      "placement": {
+        "origin": [
+          274,
+          131
+        ],
+        "visibility": "always; listener2",
+        "source_crop": [
+          1094,
+          847,
+          1425,
+          1041
+        ],
+        "exact_symbol_composition": null,
+        "cable_alpha_coverage_threshold": 128
+      },
+      "indexed_sha256": "f8de9266e914747edb0154a9545e577aed08a52d61ed3b718cf3fb481227a504",
+      "pixel_sha256": "1f028337b4a4fcd4633dae028a6374af16388635c7cfd1413ab0a1d6bba18e06"
+    }
+  },
+  "resources": {
+    "304": {
+      "file": "resources/304.view.bin",
+      "bytes": 46150,
+      "sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63",
+      "loops": [
+        1
+      ],
+      "independent_decode_roundtrip": "pass"
+    },
+    "227": {
+      "file": "resources/227.view.bin",
+      "bytes": 20735,
+      "sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0",
+      "loops": [
+        16
+      ],
+      "independent_decode_roundtrip": "pass"
+    }
+  },
+  "sources": {
+    "garage-background-r1.png": {
+      "size": [
+        1672,
+        940
+      ],
+      "sha256": "6312328dfe5e6e136a26993ae89216693399fe66f15d6794cbc8d99b28581668"
+    },
+    "pa-components-sheet-r1.png": {
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "3a153eff04036f9b77b91f42bb09d6d6b088017ac89e514576e789c32b7ba14d"
+    }
+  },
+  "unchanged_reference_resources": {
+    "000.font.bin": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+    "214.view.bin": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+    "219.view.bin": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+    "221.view.bin": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+    "999.palette.bin": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642"
+  },
+  "tool_versions": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

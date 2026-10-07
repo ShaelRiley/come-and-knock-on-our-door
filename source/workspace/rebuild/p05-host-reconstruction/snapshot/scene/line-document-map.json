@@ -1,0 +1,415 @@
+{
+  "P05.SCENE.001": {
+    "local_line_key": 1,
+    "global_line_key": 207,
+    "document_id": 421,
+    "page_count": 6,
+    "required_response": true
+  },
+  "P05.LABEL.001": {
+    "local_line_key": 2,
+    "global_line_key": 208,
+    "document_id": 422,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.001": {
+    "local_line_key": 3,
+    "global_line_key": 209,
+    "document_id": 423,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.002": {
+    "local_line_key": 4,
+    "global_line_key": 210,
+    "document_id": 424,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.002": {
+    "local_line_key": 5,
+    "global_line_key": 211,
+    "document_id": 425,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.READ.001": {
+    "local_line_key": 6,
+    "global_line_key": 212,
+    "document_id": 426,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.003": {
+    "local_line_key": 7,
+    "global_line_key": 213,
+    "document_id": 427,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.003": {
+    "local_line_key": 8,
+    "global_line_key": 214,
+    "document_id": 428,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.004": {
+    "local_line_key": 9,
+    "global_line_key": 215,
+    "document_id": 429,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.004": {
+    "local_line_key": 10,
+    "global_line_key": 216,
+    "document_id": 430,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.READ.002": {
+    "local_line_key": 11,
+    "global_line_key": 217,
+    "document_id": 431,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.005": {
+    "local_line_key": 12,
+    "global_line_key": 218,
+    "document_id": 432,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.005": {
+    "local_line_key": 13,
+    "global_line_key": 219,
+    "document_id": 433,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.006": {
+    "local_line_key": 14,
+    "global_line_key": 220,
+    "document_id": 434,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.006": {
+    "local_line_key": 15,
+    "global_line_key": 221,
+    "document_id": 435,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.007": {
+    "local_line_key": 16,
+    "global_line_key": 222,
+    "document_id": 436,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.007": {
+    "local_line_key": 17,
+    "global_line_key": 223,
+    "document_id": 437,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.008": {
+    "local_line_key": 18,
+    "global_line_key": 224,
+    "document_id": 438,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.008": {
+    "local_line_key": 19,
+    "global_line_key": 225,
+    "document_id": 439,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.DIALOGUE.001": {
+    "local_line_key": 20,
+    "global_line_key": 226,
+    "document_id": 440,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.009": {
+    "local_line_key": 21,
+    "global_line_key": 227,
+    "document_id": 441,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.009": {
+    "local_line_key": 22,
+    "global_line_key": 228,
+    "document_id": 442,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.LABEL.010": {
+    "local_line_key": 23,
+    "global_line_key": 229,
+    "document_id": 443,
+    "page_count": 1,
+    "required_response": false
+  },
+  "P05.LOOK.010": {
+    "local_line_key": 24,
+    "global_line_key": 230,
+    "document_id": 444,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SUCCESS.001": {
+    "local_line_key": 25,
+    "global_line_key": 231,
+    "document_id": 445,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SUCCESS.002": {
+    "local_line_key": 26,
+    "global_line_key": 232,
+    "document_id": 446,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SUCCESS.003": {
+    "local_line_key": 27,
+    "global_line_key": 233,
+    "document_id": 447,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.CHOICE.001": {
+    "local_line_key": 28,
+    "global_line_key": 234,
+    "document_id": 448,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.DIALOGUE.002": {
+    "local_line_key": 29,
+    "global_line_key": 235,
+    "document_id": 449,
+    "page_count": 3,
+    "required_response": true
+  },
+  "P05.CHOICE.002": {
+    "local_line_key": 30,
+    "global_line_key": 236,
+    "document_id": 450,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.DIALOGUE.003": {
+    "local_line_key": 31,
+    "global_line_key": 237,
+    "document_id": 451,
+    "page_count": 2,
+    "required_response": true
+  },
+  "P05.CHOICE.003": {
+    "local_line_key": 32,
+    "global_line_key": 238,
+    "document_id": 452,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.DIALOGUE.004": {
+    "local_line_key": 33,
+    "global_line_key": 239,
+    "document_id": 453,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SUCCESS.004": {
+    "local_line_key": 34,
+    "global_line_key": 240,
+    "document_id": 454,
+    "page_count": 3,
+    "required_response": true
+  },
+  "P05.SUCCESS.005": {
+    "local_line_key": 35,
+    "global_line_key": 241,
+    "document_id": 455,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SYSTEM.001": {
+    "local_line_key": 36,
+    "global_line_key": 242,
+    "document_id": 456,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.FAILURE.001": {
+    "local_line_key": 37,
+    "global_line_key": 243,
+    "document_id": 457,
+    "page_count": 2,
+    "required_response": true
+  },
+  "P05.FAILURE.002": {
+    "local_line_key": 38,
+    "global_line_key": 244,
+    "document_id": 458,
+    "page_count": 3,
+    "required_response": true
+  },
+  "P05.FAILURE.003": {
+    "local_line_key": 39,
+    "global_line_key": 245,
+    "document_id": 459,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.SYSTEM.002": {
+    "local_line_key": 40,
+    "global_line_key": 246,
+    "document_id": 460,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.CHOICE.004": {
+    "local_line_key": 41,
+    "global_line_key": 247,
+    "document_id": 461,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.READ.003": {
+    "local_line_key": 42,
+    "global_line_key": 248,
+    "document_id": 462,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.DIALOGUE.005": {
+    "local_line_key": 43,
+    "global_line_key": 249,
+    "document_id": 463,
+    "page_count": 3,
+    "required_response": true
+  },
+  "P05.FAILURE.004": {
+    "local_line_key": 44,
+    "global_line_key": 250,
+    "document_id": 464,
+    "page_count": 4,
+    "required_response": true
+  },
+  "P05.DIALOGUE.006": {
+    "local_line_key": 45,
+    "global_line_key": 251,
+    "document_id": 465,
+    "page_count": 9,
+    "required_response": true
+  },
+  "P05.DIALOGUE.007": {
+    "local_line_key": 46,
+    "global_line_key": 252,
+    "document_id": 466,
+    "page_count": 3,
+    "required_response": true
+  },
+  "P05.SUCCESS.006": {
+    "local_line_key": 47,
+    "global_line_key": 253,
+    "document_id": 467,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.HINT.1": {
+    "local_line_key": 48,
+    "global_line_key": 254,
+    "document_id": 468,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.HINT.2": {
+    "local_line_key": 49,
+    "global_line_key": 255,
+    "document_id": 469,
+    "page_count": 1,
+    "required_response": true
+  },
+  "P05.HINT.3": {
+    "local_line_key": 50,
+    "global_line_key": 256,
+    "document_id": 470,
+    "page_count": 2,
+    "required_response": true
+  },
+  "VC01.ENTRY": {
+    "local_line_key": 51,
+    "global_line_key": 257,
+    "document_id": 471,
+    "page_count": 3,
+    "required_response": true
+  },
+  "VC01.WIN": {
+    "local_line_key": 52,
+    "global_line_key": 258,
+    "document_id": 472,
+    "page_count": 2,
+    "required_response": true
+  },
+  "VC01.LOSS": {
+    "local_line_key": 53,
+    "global_line_key": 259,
+    "document_id": 473,
+    "page_count": 2,
+    "required_response": true
+  },
+  "VC01.REMATCH": {
+    "local_line_key": 54,
+    "global_line_key": 260,
+    "document_id": 474,
+    "page_count": 1,
+    "required_response": true
+  },
+  "VC01.KO.OPPONENT": {
+    "local_line_key": 55,
+    "global_line_key": 261,
+    "document_id": 475,
+    "page_count": 1,
+    "required_response": true
+  },
+  "VC01.KO.JACKIE": {
+    "local_line_key": 56,
+    "global_line_key": 262,
+    "document_id": 476,
+    "page_count": 1,
+    "required_response": true
+  },
+  "VC01.STAGE": {
+    "local_line_key": 57,
+    "global_line_key": 263,
+    "document_id": 477,
+    "page_count": 3,
+    "required_response": true
+  },
+  "VC01.NOT_READY": {
+    "local_line_key": 58,
+    "global_line_key": 264,
+    "document_id": 478,
+    "page_count": 1,
+    "required_response": true
+  },
+  "VC01.NEED_RESOLUTION": {
+    "local_line_key": 59,
+    "global_line_key": 265,
+    "document_id": 479,
+    "page_count": 2,
+    "required_response": true
+  }
+}

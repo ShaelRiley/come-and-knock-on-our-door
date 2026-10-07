@@ -1,0 +1,722 @@
+{
+  "status": "Reviewed canonical script repertoire; native gameplay implementation remains separate.",
+  "pairs": [
+    {
+      "candidate_id": "interactive_auteur.01",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "You're so slow on the uptake, the echo finishes before you answer.",
+      "counter": "Your echo gets more practice than the rest of us.",
+      "semantic_hook": "The echo's supposed superiority comes from the speaker never stopping.",
+      "reuse_fit": [
+        "VC03",
+        "VC04"
+      ],
+      "editorial_note": "An audio image the player can recognize, without requiring sound to be enabled.",
+      "pair_id": "IR01",
+      "tier": "A",
+      "writer_id": "interactive_auteur",
+      "writer_name": "Interactive Comedy Auteur",
+      "accepted_response_ids": [
+        "IR01.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Quinn Keyes"
+    },
+    {
+      "candidate_id": "club_comic.02",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "Your big entrance has the elegance of trousers caught in a drawer.",
+      "counter": "Yours takes longer, and everyone still wishes you'd zip it.",
+      "semantic_hook": "The trousers cue a zip, redirected to the speaker's unending mouth.",
+      "reuse_fit": [
+        "VC02",
+        "VC04"
+      ],
+      "editorial_note": "Compact double meaning tied to the actual household's overlong entrances.",
+      "pair_id": "IR02",
+      "tier": "A",
+      "writer_id": "club_comic",
+      "writer_name": "Veteran Club Comic",
+      "accepted_response_ids": [
+        "IR02.REPLY",
+        "IR08.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Roxy Bellows",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR08. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "social_friction.01",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "You want the last word before you've thought of the first.",
+      "counter": "You only want it so nobody can check the middle.",
+      "semantic_hook": "First and last words expose the speaker's wish to keep the middle unexamined.",
+      "reuse_fit": [
+        "VC02",
+        "VC04"
+      ],
+      "editorial_note": "The household's publicity problem becomes a petty argument about who gets checked.",
+      "pair_id": "IR03",
+      "tier": "A",
+      "writer_id": "social_friction",
+      "writer_name": "Social-Friction Architect",
+      "accepted_response_ids": [
+        "IR03.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Perry Quibble"
+    },
+    {
+      "candidate_id": "meta_gremlin.02",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "You're a rehearsal that somehow got an audience.",
+      "counter": "You're an interval that thinks it's the show.",
+      "semantic_hook": "The stage hierarchy is reversed: the critic is only the interruption between worthwhile parts.",
+      "reuse_fit": [
+        "VC02",
+        "VC03",
+        "VC04"
+      ],
+      "editorial_note": "A compact theatrical classification joke compatible with the physical studio setting.",
+      "pair_id": "IR04",
+      "tier": "A",
+      "writer_id": "meta_gremlin",
+      "writer_name": "Meta-Satirical Gremlin",
+      "accepted_response_ids": [
+        "IR04.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Kit Glitch"
+    },
+    {
+      "candidate_id": "ensemble_veteran.01",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "You say yes so often I could sell tickets to your nod.",
+      "counter": "You'd sell the seats and ask me to stand.",
+      "semantic_hook": "Selling the agreeable man's nod becomes profiting while making him give up his seat.",
+      "reuse_fit": [
+        "VC02",
+        "VC04"
+      ],
+      "editorial_note": "Jackie's flaw and the promoter's opportunism both remain visible.",
+      "pair_id": "IR05",
+      "tier": "A",
+      "writer_id": "ensemble_veteran",
+      "writer_name": "Veteran Ensemble Sitcom Writer",
+      "accepted_response_ids": [
+        "IR05.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Bea Bunch"
+    },
+    {
+      "candidate_id": "adventure_consultant.02",
+      "primary_encounter": "VC01",
+      "npc_speaker": "Milo Pennant",
+      "insult": "You couldn't follow an arrow without asking which way it points.",
+      "counter": "You'd put your name on it and call it a parade.",
+      "semantic_hook": "Following a direction is inflated into leading and naming a public procession.",
+      "reuse_fit": [
+        "VC02",
+        "VC03",
+        "VC04"
+      ],
+      "editorial_note": "The arrow provides a concrete recognition hook; the counter attacks self-promotion.",
+      "pair_id": "IR06",
+      "tier": "A",
+      "writer_id": "adventure_consultant",
+      "writer_name": "Adventure Game Story Consultant",
+      "accepted_response_ids": [
+        "IR06.REPLY",
+        "IR15.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ada Branch",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR15. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "laconic_absurdist.03",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "You have the presence of a table that needs clearing.",
+      "counter": "Then stop arranging yourself around me.",
+      "semantic_hook": "A table is something the speaker arranges their position around; the supposed nobody is central.",
+      "reuse_fit": [
+        "VC01",
+        "VC04"
+      ],
+      "editorial_note": "The answer leaves the elegant insult standing and quietly changes its target.",
+      "pair_id": "IR07",
+      "tier": "B",
+      "writer_id": "laconic_absurdist",
+      "writer_name": "Laconic Absurdist",
+      "accepted_response_ids": [
+        "IR07.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ned Still"
+    },
+    {
+      "candidate_id": "interactive_auteur.02",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "Your idea of an entrance is getting stuck sideways.",
+      "counter": "Yours is making everyone else stand aside.",
+      "semantic_hook": "Both lines concern an entrance; physical awkwardness becomes social monopolizing.",
+      "reuse_fit": [
+        "VC01",
+        "VC04"
+      ],
+      "editorial_note": "Makes the household's actual traffic problem a verbal status reversal.",
+      "pair_id": "IR08",
+      "tier": "B",
+      "writer_id": "interactive_auteur",
+      "writer_name": "Interactive Comedy Auteur",
+      "accepted_response_ids": [
+        "IR08.REPLY",
+        "IR02.REPLY",
+        "IR17.REPLY",
+        "IR11.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Quinn Keyes",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR02, IR17, IR11. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "club_comic.03",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "Your posture could make a coat hanger give up.",
+      "counter": "Yours could put a crease in soup.",
+      "semantic_hook": "The clothing/posture criticism is reversed into ridiculous stiffness.",
+      "reuse_fit": [
+        "VC03",
+        "VC04"
+      ],
+      "editorial_note": "Jackie's cooking vocabulary supplies the impossible visual; no body trait is targeted.",
+      "pair_id": "IR09",
+      "tier": "B",
+      "writer_id": "club_comic",
+      "writer_name": "Veteran Club Comic",
+      "accepted_response_ids": [
+        "IR09.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Roxy Bellows"
+    },
+    {
+      "candidate_id": "meta_gremlin.03",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "You're what happens when the rough sketch takes itself seriously.",
+      "counter": "You're what happens when the signature covers the drawing.",
+      "semantic_hook": "The rough drawing is contrasted with a creator whose self-advertising obscures the work.",
+      "reuse_fit": [
+        "VC01",
+        "VC03"
+      ],
+      "editorial_note": "Targets professional vanity without denying competence or earned credit.",
+      "pair_id": "IR10",
+      "tier": "B",
+      "writer_id": "meta_gremlin",
+      "writer_name": "Meta-Satirical Gremlin",
+      "accepted_response_ids": [
+        "IR10.REPLY",
+        "IR16.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Kit Glitch",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR16. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "adventure_consultant.03",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "You'd hang a curtain over the door and call the room finished.",
+      "counter": "You'd call the people stuck outside a waiting list.",
+      "semantic_hook": "A blocked doorway's stranded people are rebranded as evidence of popularity.",
+      "reuse_fit": [
+        "VC01",
+        "VC04"
+      ],
+      "editorial_note": "The spatial image is hypothetical; no screen position or access rule changes.",
+      "pair_id": "IR11",
+      "tier": "B",
+      "writer_id": "adventure_consultant",
+      "writer_name": "Adventure Game Story Consultant",
+      "accepted_response_ids": [
+        "IR11.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ada Branch"
+    },
+    {
+      "candidate_id": "outsider_satirist.02",
+      "primary_encounter": "VC02",
+      "npc_speaker": "Vivian Voss",
+      "insult": "You think good taste is whatever fits on your plate.",
+      "counter": "You think it means making everyone ask where you got it.",
+      "semantic_hook": "Food taste is contrasted with aesthetic taste used mainly to attract inquiries and admiration.",
+      "reuse_fit": [
+        "VC01",
+        "VC04"
+      ],
+      "editorial_note": "Lets the cook and stylist each have a vanity; neither profession is worthless.",
+      "pair_id": "IR12",
+      "tier": "B",
+      "writer_id": "outsider_satirist",
+      "writer_name": "Incisive Outsider Satirist",
+      "accepted_response_ids": [
+        "IR12.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Mira Aside"
+    },
+    {
+      "candidate_id": "laconic_absurdist.05",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "You made carrying a panel look like a public inquiry.",
+      "counter": "You supplied the opening statement.",
+      "semantic_hook": "An inquiry needs a statement; the self-important narrator supplied it.",
+      "reuse_fit": [
+        "VC01",
+        "VC04"
+      ],
+      "editorial_note": "Credits speech, not the whole rescue; helpers' actual work remains intact.",
+      "pair_id": "IR13",
+      "tier": "C",
+      "writer_id": "laconic_absurdist",
+      "writer_name": "Laconic Absurdist",
+      "accepted_response_ids": [
+        "IR13.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ned Still"
+    },
+    {
+      "candidate_id": "interactive_auteur.04",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "I could have done that with one hand tied behind my back.",
+      "counter": "Yes, but then who'd point at your handiwork?",
+      "semantic_hook": "The supposedly spare hand is needed to advertise the speaker's own work.",
+      "reuse_fit": [
+        "VC01",
+        "VC02"
+      ],
+      "editorial_note": "A bodily premise with a concrete visual answer; no actual restraint or action.",
+      "pair_id": "IR14",
+      "tier": "C",
+      "writer_id": "interactive_auteur",
+      "writer_name": "Interactive Comedy Auteur",
+      "accepted_response_ids": [
+        "IR14.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Quinn Keyes"
+    },
+    {
+      "candidate_id": "social_friction.04",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "You'd ask for directions while standing in the doorway.",
+      "counter": "You'd stand there until someone asked.",
+      "semantic_hook": "Blocking a doorway through uncertainty becomes blocking it to solicit expertise.",
+      "reuse_fit": [
+        "VC01",
+        "VC02",
+        "VC04"
+      ],
+      "editorial_note": "The useful expert's pleasure in being needed supplies the reversal.",
+      "pair_id": "IR15",
+      "tier": "C",
+      "writer_id": "social_friction",
+      "writer_name": "Social-Friction Architect",
+      "accepted_response_ids": [
+        "IR15.REPLY",
+        "IR17.REPLY",
+        "IR11.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Perry Quibble",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR17, IR11. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "meta_gremlin.05",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "You're a demonstration of why instructions have pictures.",
+      "counter": "You're the reason the pictures don't have sound.",
+      "semantic_hook": "Pictures' silence is the advantage over an expert who keeps explaining.",
+      "reuse_fit": [
+        "VC04"
+      ],
+      "editorial_note": "The comeback depends on the picture/sound contrast, not an arbitrary bigger insult.",
+      "pair_id": "IR16",
+      "tier": "C",
+      "writer_id": "meta_gremlin",
+      "writer_name": "Meta-Satirical Gremlin",
+      "accepted_response_ids": [
+        "IR16.REPLY",
+        "IR10.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Kit Glitch",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR10. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "ensemble_veteran.03",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "Without your friends, you'd still be wedged in that doorway.",
+      "counter": "And you'd still be trying to squeeze your opinion in beside me.",
+      "semantic_hook": "The wedged body becomes the gap into which the critic keeps squeezing an opinion.",
+      "reuse_fit": [],
+      "editorial_note": "A rescue-specific answer that explicitly preserves Bunny and Frankie's agency.",
+      "pair_id": "IR17",
+      "tier": "C",
+      "writer_id": "ensemble_veteran",
+      "writer_name": "Veteran Ensemble Sitcom Writer",
+      "accepted_response_ids": [
+        "IR17.REPLY",
+        "IR11.REPLY",
+        "IR15.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "editorial_adaptation": "Kept the originating ensemble rescue premise, but made the retort valid for later opponents and tied it concretely to squeezing into the doorway. It does not falsely claim that every future speaker was physically trapped with Jackie.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Bea Bunch",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR11, IR15. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "outsider_satirist.04",
+      "primary_encounter": "VC03",
+      "npc_speaker": "Felix Bunt",
+      "insult": "You think standing near useful people makes you useful.",
+      "counter": "You think standing in front of them makes you in charge.",
+      "semantic_hook": "Near useful people versus in front of them distinguishes borrowed competence from claimed authority.",
+      "reuse_fit": [
+        "VC04"
+      ],
+      "editorial_note": "A clear positional reversal that preserves the actual helpers' competence.",
+      "pair_id": "IR18",
+      "tier": "C",
+      "writer_id": "outsider_satirist",
+      "writer_name": "Incisive Outsider Satirist",
+      "accepted_response_ids": [
+        "IR18.REPLY",
+        "IR07.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Mira Aside",
+      "alternative_explanation": "These already-authored replies answer the same concrete premise: IR07. Present an alternative only after its reply has been learned; never reveal a later tier solely through this reference."
+    },
+    {
+      "candidate_id": "laconic_absurdist.06",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "Some people know when a speech has gone on long enough.",
+      "counter": "Shall I fetch one?",
+      "semantic_hook": "The reply takes 'some people' literally and suggests none of those useful people is speaking.",
+      "reuse_fit": [
+        "VC01",
+        "VC03"
+      ],
+      "editorial_note": "Stop at the question; no explanation or second punchline.",
+      "pair_id": "IR19",
+      "tier": "D",
+      "writer_id": "laconic_absurdist",
+      "writer_name": "Laconic Absurdist",
+      "accepted_response_ids": [
+        "IR19.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ned Still"
+    },
+    {
+      "candidate_id": "club_comic.06",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "You call that a toast? I've had wind with more ceremony.",
+      "counter": "At least they know which end my speech is coming from.",
+      "semantic_hook": "The speaker's comparison with wind identifies the embarrassing source of his own speech.",
+      "reuse_fit": [
+        "VC01",
+        "VC03"
+      ],
+      "editorial_note": "The broadest adult candidate; use sparingly if retained, never over the sincere toast.",
+      "pair_id": "IR20",
+      "tier": "D",
+      "writer_id": "club_comic",
+      "writer_name": "Veteran Club Comic",
+      "accepted_response_ids": [
+        "IR20.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Roxy Bellows"
+    },
+    {
+      "candidate_id": "social_friction.05",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "You turn every simple instruction into a discussion.",
+      "counter": "Yours become suggestions the moment you want another helping.",
+      "semantic_hook": "The instruction-maker treats his own appetite as an exception.",
+      "reuse_fit": [
+        "VC01",
+        "VC03"
+      ],
+      "editorial_note": "A hypothetical social habit, not a new serving size or rule change.",
+      "pair_id": "IR21",
+      "tier": "D",
+      "writer_id": "social_friction",
+      "writer_name": "Social-Friction Architect",
+      "accepted_response_ids": [
+        "IR21.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Perry Quibble"
+    },
+    {
+      "candidate_id": "ensemble_veteran.05",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "You'd forget your own supper if nobody put your name on it.",
+      "counter": "Yours could lose its label; we'd follow the complaints.",
+      "semantic_hook": "A name label identifies one bowl; the complaining eater identifies the other.",
+      "reuse_fit": [
+        "VC01",
+        "VC02"
+      ],
+      "editorial_note": "An affectionate but pointed table joke, not a new food or label mechanic.",
+      "pair_id": "IR22",
+      "tier": "D",
+      "writer_id": "ensemble_veteran",
+      "writer_name": "Veteran Ensemble Sitcom Writer",
+      "accepted_response_ids": [
+        "IR22.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Bea Bunch"
+    },
+    {
+      "candidate_id": "adventure_consultant.06",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "You couldn't keep to the point if it was marked on the floor.",
+      "counter": "You'd stand on it and complain there wasn't room for anyone else.",
+      "semantic_hook": "The rhetorical point becomes a floor mark monopolized by the speaker.",
+      "reuse_fit": [
+        "VC01",
+        "VC02",
+        "VC03"
+      ],
+      "editorial_note": "The answer follows the metaphor exactly; no obscure fact or free association is needed.",
+      "pair_id": "IR23",
+      "tier": "D",
+      "writer_id": "adventure_consultant",
+      "writer_name": "Adventure Game Story Consultant",
+      "accepted_response_ids": [
+        "IR23.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Ada Branch"
+    },
+    {
+      "candidate_id": "outsider_satirist.06",
+      "primary_encounter": "VC04",
+      "npc_speaker": "Mr. Stringer",
+      "insult": "Your idea of responsibility is handing someone a cloth.",
+      "counter": "Yours is waiting until they've finished before pointing out the dust.",
+      "semantic_hook": "Delegated cleaning is answered by criticism that waits until the work is done.",
+      "reuse_fit": [
+        "VC01",
+        "VC02",
+        "VC03"
+      ],
+      "editorial_note": "Keep the comic target on who claims authority over work, not on a protected identity.",
+      "pair_id": "IR24",
+      "tier": "D",
+      "writer_id": "outsider_satirist",
+      "writer_name": "Incisive Outsider Satirist",
+      "accepted_response_ids": [
+        "IR24.REPLY"
+      ],
+      "text_status": "Reviewed wording, bound to the canonical encounter/learning contract; not a live-implementation claim.",
+      "presentation": {
+        "insult_speaker": "current_opponent",
+        "counter_speaker": "jack",
+        "delivery": "shouted_sitcom_exchange",
+        "violence": false,
+        "physical_action": "Use only the approved stage/wince/KO presentation, no action implied by a verbal metaphor."
+      },
+      "fictional_credit_name": "Mira Aside"
+    }
+  ]
+}

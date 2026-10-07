@@ -1,0 +1,105 @@
+{
+  "status": "PASS_RELOCATED_GENERATORS_COMPILE_PACKAGE",
+  "host_input_manifest_sha256": "3702d7501adb5602f8daff63873eea7e516fe564c7f567170a646c51b2ffb0e2",
+  "native_package_manifest_sha256": "dcf4be1c89dba28a4557ac9b9176d7b9894f40be8eeec1aa74f64b0f7473d3bb",
+  "fresh_modules": [
+    {
+      "module": 980,
+      "source_sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "script_sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "heap_sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "combined_bytes": 1592,
+      "class_species": [
+        2
+      ]
+    },
+    {
+      "module": 981,
+      "source_sha256": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc",
+      "script_sha256": "95516579f9cae99bd2efa74407781f2c11f87d2a0b01a0bfae6ee1de1cbbab42",
+      "heap_sha256": "1a9473cbb3c74628ece024472ea6713892e9cd3f54d98d9b0b49f769148ad5de",
+      "combined_bytes": 12238,
+      "class_species": [
+        3
+      ]
+    },
+    {
+      "module": 982,
+      "source_sha256": "8b14b3eaf31818a781a509764b08d5e4e3dedebb025bd8dbb6a910102c254eca",
+      "script_sha256": "deba53d4121a66b7093db0ce66fafbcaeb462162732bdc5645981dfd6484cc1f",
+      "heap_sha256": "3e304a3ab5385f59851644a221a1066a51692e9ccdf7154c1d827b9e19dcc080",
+      "combined_bytes": 44688,
+      "class_species": [
+        4
+      ]
+    },
+    {
+      "module": 983,
+      "source_sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7",
+      "script_sha256": "731605148c963f7c340bd1dd9beb7f1147fc070b2c369100bdb54b292e152a82",
+      "heap_sha256": "b579e5663f1b37562a25ba8d391aa54021dbde5e2d051ff6555e1671322c4075",
+      "combined_bytes": 11162,
+      "class_species": [
+        5
+      ]
+    },
+    {
+      "module": 984,
+      "source_sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929",
+      "script_sha256": "076160b149c473d8089a55b64281950517d832290c9ce05d87a8a5c369325189",
+      "heap_sha256": "7760f077f86dafd439376f3485b6b85468b1aec1568e04f46c8bdd07f46ddb40",
+      "combined_bytes": 10540,
+      "class_species": [
+        6
+      ]
+    },
+    {
+      "module": 985,
+      "source_sha256": "ae17d5e568df2b423506bbd2acfef32d8de500a88c3ae7e364f59e78395f602e",
+      "script_sha256": "9472ee4e0940dd3ab6974cf19e6c889dc071b72beae90a486322734039baef93",
+      "heap_sha256": "6086bfbb16b14d9882106f6887a5873188f8cbdad1dd04ca05c711c70d6c1fd4",
+      "combined_bytes": 42814,
+      "class_species": [
+        7
+      ]
+    },
+    {
+      "module": 986,
+      "source_sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81",
+      "script_sha256": "1ceaf4c6f0fe3331574fd9bb77b7f0ef523ab2a5b5c037b18826024781c9b0e0",
+      "heap_sha256": "6ecaaf18eb84ceda24696a35db25f154eca52d3e7975c289f44d96dda861b8db",
+      "combined_bytes": 11756,
+      "class_species": [
+        8
+      ]
+    },
+    {
+      "module": 0,
+      "source_sha256": "0533b604ce03f416384c6bb31d3e033077c96c40fbc67ed9d44c82027f05b8e6",
+      "script_sha256": "1fd4116368616036af15348164ead0f9549f0e6e874e6a8e5279bc5b74933daf",
+      "heap_sha256": "52907b45837e55b5b09567034b3b35a2113aca258ab6e98cd45fb8136a7049ff",
+      "combined_bytes": 60730,
+      "class_species": [
+        0,
+        1
+      ]
+    }
+  ],
+  "fresh_resources": 80,
+  "fresh_game_files": 780,
+  "materialized_exact_speech_exports": 778,
+  "fresh_host_build_was_absent": true,
+  "regenerated_generators": [
+    "visual-work/generate_fragment.py",
+    "tools/make_courtyard_controls.py",
+    "tools/generate_static_guards.py",
+    "generate_contest_labels.py"
+  ],
+  "game_file_hashes_byte_identical": true,
+  "full44_test_receipt_sha256": "11cffdf624f1dc20c450b96fba84186db472decac0975444597d4b86a8187d2e",
+  "full44_tests_rerun": false,
+  "native_acceptance": false,
+  "engine_launched": false,
+  "original_workspace_access_required": false,
+  "output": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/packaging-checkpoint13/relocated-source-proof"
+}

@@ -1,0 +1,360 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "record_id": "VC01.ENTRY",
+      "document": 471,
+      "full_document_page_count": 3,
+      "page_indices": [
+        79,
+        80,
+        81
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.ENTRY",
+          "record": 41,
+          "unit_id": "VC01.ENTRY.01",
+          "unit": 1,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.ENTRY.01",
+          "document": 854,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 471,
+          "alias_source_first_page": 0
+        },
+        {
+          "record_id": "VC01.ENTRY",
+          "record": 41,
+          "unit_id": "VC01.ENTRY.02",
+          "unit": 2,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.ENTRY.02",
+          "document": 855,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 471,
+          "alias_source_first_page": 1
+        },
+        {
+          "record_id": "VC01.ENTRY",
+          "record": 41,
+          "unit_id": "VC01.ENTRY.03",
+          "unit": 3,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.ENTRY.03",
+          "document": 856,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 471,
+          "alias_source_first_page": 2
+        }
+      ],
+      "full_document_receipt_allowed": false
+    },
+    {
+      "record_id": "VC01.WIN",
+      "document": 472,
+      "full_document_page_count": 2,
+      "page_indices": [
+        82,
+        83
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.WIN",
+          "record": 42,
+          "unit_id": "VC01.WIN.01",
+          "unit": 4,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.WIN.01",
+          "document": 857,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 472,
+          "alias_source_first_page": 0
+        },
+        {
+          "record_id": "VC01.WIN",
+          "record": 42,
+          "unit_id": "VC01.WIN.02",
+          "unit": 5,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.WIN.02",
+          "document": 858,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 472,
+          "alias_source_first_page": 1
+        }
+      ],
+      "full_document_receipt_allowed": false
+    },
+    {
+      "record_id": "VC01.LOSS",
+      "document": 473,
+      "full_document_page_count": 2,
+      "page_indices": [
+        84,
+        85
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.LOSS",
+          "record": 43,
+          "unit_id": "VC01.LOSS.01",
+          "unit": 6,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.LOSS.01",
+          "document": 859,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 473,
+          "alias_source_first_page": 0
+        },
+        {
+          "record_id": "VC01.LOSS",
+          "record": 43,
+          "unit_id": "VC01.LOSS.02",
+          "unit": 7,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "unit_alias:VC01.LOSS.02",
+          "document": 860,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "contest_alias",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant.",
+          "alias_of_document": 473,
+          "alias_source_first_page": 1
+        }
+      ],
+      "full_document_receipt_allowed": false
+    },
+    {
+      "record_id": "VC01.REMATCH",
+      "document": 474,
+      "full_document_page_count": 1,
+      "page_indices": [
+        86
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.REMATCH",
+          "record": 44,
+          "unit_id": "VC01.REMATCH.01",
+          "unit": 8,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 474,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    },
+    {
+      "record_id": "VC01.KO.OPPONENT",
+      "document": 475,
+      "full_document_page_count": 1,
+      "page_indices": [
+        87
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.KO.OPPONENT",
+          "record": 45,
+          "unit_id": "VC01.KO.OPPONENT.01",
+          "unit": 9,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 475,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    },
+    {
+      "record_id": "VC01.KO.JACKIE",
+      "document": 476,
+      "full_document_page_count": 1,
+      "page_indices": [
+        88
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.KO.JACKIE",
+          "record": 46,
+          "unit_id": "VC01.KO.JACKIE.01",
+          "unit": 10,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 476,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    },
+    {
+      "record_id": "VC01.STAGE",
+      "document": 477,
+      "full_document_page_count": 3,
+      "page_indices": [
+        89,
+        90,
+        91
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.STAGE",
+          "record": 47,
+          "unit_id": null,
+          "unit": 0,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 477,
+          "first_page": 0,
+          "page_count": 3,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    },
+    {
+      "record_id": "VC01.NOT_READY",
+      "document": 478,
+      "full_document_page_count": 1,
+      "page_indices": [
+        92
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.NOT_READY",
+          "record": 69,
+          "unit_id": null,
+          "unit": 0,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 478,
+          "first_page": 0,
+          "page_count": 1,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    },
+    {
+      "record_id": "VC01.NEED_RESOLUTION",
+      "document": 479,
+      "full_document_page_count": 2,
+      "page_indices": [
+        93,
+        94
+      ],
+      "windows": [
+        {
+          "record_id": "VC01.NEED_RESOLUTION",
+          "record": 70,
+          "unit_id": null,
+          "unit": 0,
+          "contexts": [
+            1
+          ],
+          "variant": 0,
+          "variant_key": "default",
+          "document": 479,
+          "first_page": 0,
+          "page_count": 2,
+          "condition": {},
+          "owner": "p05",
+          "aggregate_receipt_forbidden": false,
+          "source_item_receipt": "Only this exact record/unit window; never whole aggregate or another variant."
+        }
+      ],
+      "full_document_receipt_allowed": true
+    }
+  ],
+  "rule": "An exact-unit alias receipt covers exactly one queued canonical unit. Three ENTRY and two WIN/LOSS units have independent barriers. Aggregate record unit0 lookup is rejected."
+}

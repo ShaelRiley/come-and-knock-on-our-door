@@ -1,0 +1,104 @@
+{
+  "cels": [
+    {
+      "cel": 0,
+      "file": "indexed-cels/229-loop00-cel00-closed.png",
+      "indexed_sha256": "38d1da2a6cb76366c81109316c633a274433b9f1756480f629ac9c1f7117d4cb",
+      "loop": 0,
+      "name": "closed",
+      "opaque_bounds_local": [
+        0,
+        0,
+        30,
+        29
+      ],
+      "opaque_bounds_world": [
+        46,
+        48,
+        76,
+        77
+      ],
+      "origin": [
+        46,
+        48
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "transparent_pixels": 259
+    },
+    {
+      "cel": 1,
+      "file": "indexed-cels/229-loop00-cel01-open-with-master.png",
+      "indexed_sha256": "e68d0d7a9bf61a3140d194216185853e302083f52b2f168d2525eda997712cb2",
+      "loop": 0,
+      "name": "open-with-master",
+      "opaque_bounds_local": [
+        0,
+        0,
+        30,
+        31
+      ],
+      "opaque_bounds_world": [
+        46,
+        48,
+        76,
+        79
+      ],
+      "origin": [
+        46,
+        48
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "transparent_pixels": 158
+    },
+    {
+      "cel": 2,
+      "file": "indexed-cels/229-loop00-cel02-open-empty.png",
+      "indexed_sha256": "f708c09dbf6449d254f3b84983ad49158eabb1bd4cc76ddafed910343563192d",
+      "loop": 0,
+      "name": "open-empty",
+      "opaque_bounds_local": [
+        0,
+        0,
+        30,
+        31
+      ],
+      "opaque_bounds_world": [
+        46,
+        48,
+        76,
+        79
+      ],
+      "origin": [
+        46,
+        48
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "transparent_pixels": 162
+    }
+  ],
+  "classification": "New original additive editable P02/P05 garage master drawer artwork; no gameplay logic changes",
+  "clear_key": 255,
+  "conversion": "Exact crop; Pillow LANCZOS to30x31; alpha<128 clear255; nearest squared RGB indices0..254, first tie, no dither",
+  "loop": 0,
+  "native": {
+    "bytes": 2932,
+    "file": "resources/229.view.bin",
+    "sha256": "c7da78eb7fe7ba931fdb2e8628260b833be5502618ced703f6a41e95d1e9e7e7"
+  },
+  "palette": 999,
+  "resource": 229,
+  "source_sha256": "34522d0b4e573bf94ceee717318f927584093aed992b94d2359442317d898a4a",
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  }
+}

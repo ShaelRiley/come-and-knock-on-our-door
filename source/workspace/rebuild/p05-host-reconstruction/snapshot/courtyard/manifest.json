@@ -1,0 +1,651 @@
+{
+  "cels": [
+    {
+      "cel": 0,
+      "file": "indexed-cels/305-loop00-cel00-courtyard-clean.png",
+      "loop": 0,
+      "name": "courtyard-clean",
+      "opaque_bbox": [
+        0,
+        0,
+        320,
+        144
+      ],
+      "pixel_sha256": "376e069aa2398f9fc78ae1718e244f2df245ca4e69ce0b2b2d6a7f4308b9189a",
+      "sha256": "b12917d8565d5fd471eaa632d4b9bd5bf46177afa3d51108fb23dc198648bba4",
+      "size": [
+        320,
+        144
+      ],
+      "source": {
+        "crop": "full",
+        "master": "source-masters/courtyard-clean-v1.png",
+        "resize": [
+          320,
+          144
+        ]
+      },
+      "view": 305
+    },
+    {
+      "cel": 0,
+      "file": "indexed-cels/228-loop00-cel00-completed-screen.png",
+      "loop": 0,
+      "name": "completed-screen",
+      "opaque_bbox": [
+        0,
+        0,
+        54,
+        57
+      ],
+      "pixel_sha256": "61e65365c373c0a1f6b16e83a60b2fc250ff43d272f6c9d566c73c9ab290f434",
+      "sha256": "0a46fe01b105a35b18df0ac56553305901b4b5fbfe2f330e85dec41e1dfa7032",
+      "size": [
+        54,
+        57
+      ],
+      "source": {
+        "alpha_cleanup": "largest two source connected components, ordered left to right",
+        "crop": [
+          53,
+          74,
+          910,
+          840
+        ],
+        "master": "source-masters/screen-table-v1.png",
+        "resize": [
+          54,
+          57
+        ]
+      },
+      "view": 228
+    },
+    {
+      "cel": 1,
+      "file": "indexed-cels/228-loop00-cel01-serving-table.png",
+      "loop": 0,
+      "name": "serving-table",
+      "opaque_bbox": [
+        0,
+        0,
+        66,
+        30
+      ],
+      "pixel_sha256": "8bc626288fb773e2630b843cc38d9cfe055b97cde7f7b2e8178f2f7291ca44eb",
+      "sha256": "891a122811f3259eab793581a83f1ed0653d3470ff4792981ce95dc9db2b772d",
+      "size": [
+        66,
+        30
+      ],
+      "source": {
+        "alpha_cleanup": "largest two source connected components, ordered left to right",
+        "crop": [
+          969,
+          436,
+          1637,
+          851
+        ],
+        "master": "source-masters/screen-table-v1.png",
+        "resize": [
+          66,
+          30
+        ]
+      },
+      "view": 228
+    },
+    {
+      "cel": 2,
+      "file": "indexed-cels/228-loop00-cel02-pa-inward.png",
+      "loop": 0,
+      "name": "pa-inward",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "203e2a61c48aef6d632fcee5439cdf21742e58b1a0f8cd469e8341aa4dd28b8a",
+      "sha256": "1c8e5c673cf357d50c5687e0fbb829ef202831d88054e2265cc6138e6db2bd5c",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          6,
+          0,
+          9,
+          11,
+          13,
+          4,
+          3
+        ],
+        "filter": "nearest",
+        "resize": [
+          86,
+          46
+        ],
+        "state": "P08 retained tested live source; use exact227 projection for P05 hardware state",
+        "unscaled_canvas": [
+          128,
+          68
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 3,
+      "file": "indexed-cels/228-loop00-cel03-pa-neighbor.png",
+      "loop": 0,
+      "name": "pa-neighbor",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "b0dcc56cf10eab5467b81c4ae91e773cdf0d2bcb6d0aa5542c437df677d6acba",
+      "sha256": "3abe3f74001fb015a55830fb28fa40702efd93c87ba57ac2f47446f8b08e6b1f",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          6,
+          0,
+          9,
+          11,
+          13,
+          4,
+          1
+        ],
+        "filter": "nearest",
+        "resize": [
+          86,
+          46
+        ],
+        "state": "P08 retained tested live source; use exact227 projection for P05 hardware state",
+        "unscaled_canvas": [
+          128,
+          68
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 4,
+      "file": "indexed-cels/228-loop00-cel04-ceramic-carrier.png",
+      "loop": 0,
+      "name": "ceramic-carrier",
+      "opaque_bbox": [
+        0,
+        0,
+        40,
+        25
+      ],
+      "pixel_sha256": "157b03a3603c0f53f75a2777e11ff8434c54766325a79cb8875f12c56355c89e",
+      "sha256": "5ef1ca32e14b4f6f45d453eb384f72d9d9fbd76a76f5296b476e6cf9cce343df",
+      "size": [
+        40,
+        25
+      ],
+      "source": {
+        "cel": 1,
+        "conversion": "exact pixel indices",
+        "loop": 0,
+        "view": 224
+      },
+      "view": 228
+    },
+    {
+      "cel": 5,
+      "file": "indexed-cels/228-loop00-cel05-rita-credit-slate.png",
+      "loop": 0,
+      "name": "rita-credit-slate",
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        17
+      ],
+      "pixel_sha256": "853fedb11e4b0e7a1195e86b7c6e0609f5e6b47fe36890d49c376e6f662c8f27",
+      "sha256": "63f3c1d4c5c491de56120a4623efca742d5eac33f088258199643a1333b6f47a",
+      "size": [
+        20,
+        17
+      ],
+      "source": {
+        "cel": 4,
+        "conversion": "exact pixel indices",
+        "loop": 0,
+        "view": 224
+      },
+      "view": 228
+    },
+    {
+      "cel": 6,
+      "file": "indexed-cels/228-loop00-cel06-service-plate.png",
+      "loop": 0,
+      "name": "service-plate",
+      "opaque_bbox": [
+        0,
+        0,
+        17,
+        18
+      ],
+      "pixel_sha256": "29bbe954a7a901165acab95eb48195a9eb3415c184a41b009ebf534fc293700d",
+      "sha256": "d2eeb1f8b5366880c91e867838e5e6cf4a78d86eaf0a2fbedde0b41ced66f4ed",
+      "size": [
+        17,
+        18
+      ],
+      "source": {
+        "cel": 7,
+        "conversion": "exact pixel indices",
+        "loop": 0,
+        "view": 224
+      },
+      "view": 228
+    },
+    {
+      "cel": 7,
+      "file": "indexed-cels/228-loop00-cel07-hatch-mark.png",
+      "loop": 0,
+      "name": "hatch-mark",
+      "opaque_bbox": [
+        2,
+        3,
+        65,
+        13
+      ],
+      "pixel_sha256": "60cae1dc2394b32e28f7de1d2d1cb1310effe1bf590d0e664479c7f9b94f55c9",
+      "sha256": "d719208dd57c4dcd8e67a15527d820e0aa7f171dc488a99d48cfdc7e63cdafd2",
+      "size": [
+        66,
+        16
+      ],
+      "source": {
+        "authored_symbol": "hatch-mark",
+        "geometry_in": "src/build.py",
+        "not_dialogue": true
+      },
+      "view": 228
+    },
+    {
+      "cel": 8,
+      "file": "indexed-cels/228-loop00-cel08-wall-mark.png",
+      "loop": 0,
+      "name": "wall-mark",
+      "opaque_bbox": [
+        2,
+        3,
+        63,
+        14
+      ],
+      "pixel_sha256": "c6c0d456bb1076346d904a7cdc176aa1534a9a82ef9fd536276f9ec6be835509",
+      "sha256": "9695e3afccb1336709e0df68e34e7402046014fed1269bd584742c26ba5a6aea",
+      "size": [
+        64,
+        16
+      ],
+      "source": {
+        "authored_symbol": "wall-mark",
+        "geometry_in": "src/build.py",
+        "not_dialogue": true
+      },
+      "view": 228
+    },
+    {
+      "cel": 9,
+      "file": "indexed-cels/228-loop00-cel09-alcove-mark.png",
+      "loop": 0,
+      "name": "alcove-mark",
+      "opaque_bbox": [
+        2,
+        3,
+        61,
+        15
+      ],
+      "pixel_sha256": "fd09a0d13bc7d0b5f3a5f168af164fa223f6d00ba8892c72d9d4f5fd38ce6927",
+      "sha256": "ccec2fda3cd14dba10d57139d8ce20fbf2da15ad34a97a480537e6279e025862",
+      "size": [
+        62,
+        16
+      ],
+      "source": {
+        "authored_symbol": "alcove-mark",
+        "geometry_in": "src/build.py",
+        "not_dialogue": true
+      },
+      "view": 228
+    },
+    {
+      "cel": 10,
+      "file": "indexed-cels/228-loop00-cel10-lane-chevrons.png",
+      "loop": 0,
+      "name": "lane-chevrons",
+      "opaque_bbox": [
+        3,
+        1,
+        268,
+        8
+      ],
+      "pixel_sha256": "70845be35ad120e6af7bf7c41e7e928a4fdc8d62ec80ac0fd138aa2c7a24accd",
+      "sha256": "b702f0de544799fa8d47399317373d659294557955c8a994c62a412100cc23e9",
+      "size": [
+        276,
+        10
+      ],
+      "source": {
+        "authored_symbol": "lane-chevrons",
+        "geometry_in": "src/build.py",
+        "not_dialogue": true
+      },
+      "view": 228
+    },
+    {
+      "cel": 11,
+      "file": "indexed-cels/228-loop00-cel11-side-gate-closed.png",
+      "loop": 0,
+      "name": "side-gate-closed",
+      "opaque_bbox": [
+        0,
+        0,
+        34,
+        63
+      ],
+      "pixel_sha256": "49ce45dff3d614d58ca1e498a1f48a81096be256a95aa41afeea0e7498b68326",
+      "sha256": "fc81088e15ec4a4dbf1a71c7aced319eb63152b945d3d94ba1990e65bec2317a",
+      "size": [
+        34,
+        63
+      ],
+      "source": {
+        "cel": 0,
+        "crop": [
+          27,
+          0,
+          76,
+          67
+        ],
+        "filter": "nearest",
+        "loop": 0,
+        "mirror": "horizontal courtyard-side projection",
+        "resize": [
+          34,
+          63
+        ],
+        "state": "P04 gate RESTING0/CLOSED2 only",
+        "view": 226
+      },
+      "view": 228
+    },
+    {
+      "cel": 12,
+      "file": "indexed-cels/228-loop00-cel12-pa-connection0-source0-inward.png",
+      "loop": 0,
+      "name": "pa-connection0-source0-inward",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "dbe12140b6f2736cd9ccb6150940863989c836e2af5fccf46dcb5211059a463e",
+      "sha256": "df8e713558e43dc966feddb7ead9fbc19b32d79b5560f14ee858ed0b7a0311ee",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          5,
+          0,
+          9,
+          10,
+          12,
+          4,
+          3
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 13,
+      "file": "indexed-cels/228-loop00-cel13-pa-connection0-source0-neighbor.png",
+      "loop": 0,
+      "name": "pa-connection0-source0-neighbor",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "694b28a8fa3fa462682f5147d01a92f42c446ba983ddf2d59e8b6ec688305966",
+      "sha256": "19ec4a2f59c20ceebde89bfd7890db5fcb0d1ff00a3bbf5037a876db01272577",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          5,
+          0,
+          9,
+          10,
+          12,
+          4,
+          1
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 14,
+      "file": "indexed-cels/228-loop00-cel14-pa-connection0-source1-inward.png",
+      "loop": 0,
+      "name": "pa-connection0-source1-inward",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "3f1ba980e8cc9bd1ea5d357d368c36ff564b029c14abbb0226515206925ed665",
+      "sha256": "9b7255384bfb12b33aaaffb75ff6fe5a95f4333ad6d588d6726727f5d599e7dd",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          5,
+          0,
+          9,
+          11,
+          12,
+          4,
+          3
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 15,
+      "file": "indexed-cels/228-loop00-cel15-pa-connection0-source1-neighbor.png",
+      "loop": 0,
+      "name": "pa-connection0-source1-neighbor",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "4be6d2ab3b69402b82629652c92a6ba94dd299e57341d7fc0dd9ed821c4c6e18",
+      "sha256": "e93a2c97dccdbd2223720679fc32de6c952e215e1d51b58f14b75ee33e82e8d0",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          5,
+          0,
+          9,
+          11,
+          12,
+          4,
+          1
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 16,
+      "file": "indexed-cels/228-loop00-cel16-pa-connection1-source0-inward.png",
+      "loop": 0,
+      "name": "pa-connection1-source0-inward",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "f8e37537d6f690376c0028fb88b2c53423322f821a0d323feec0168a987219fe",
+      "sha256": "39a3b44cee0f4f1e60a75d14b296a615b3cdf1a62791db981df5085dba9a1ea2",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          6,
+          0,
+          9,
+          10,
+          13,
+          4,
+          3
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    },
+    {
+      "cel": 17,
+      "file": "indexed-cels/228-loop00-cel17-pa-connection1-source0-neighbor.png",
+      "loop": 0,
+      "name": "pa-connection1-source0-neighbor",
+      "opaque_bbox": [
+        0,
+        0,
+        85,
+        45
+      ],
+      "pixel_sha256": "8d829536680d5469d9947178b6ca6fc32242134dc787514e1403f1c11cd7bc76",
+      "sha256": "5449cc34c298ac469d3d82fa44a58690355607b46a97f0154ac3604de97f2dcb",
+      "size": [
+        86,
+        46
+      ],
+      "source": {
+        "cels": [
+          6,
+          0,
+          9,
+          10,
+          13,
+          4,
+          1
+        ],
+        "filter": "nearest",
+        "preserve_prior_state": true,
+        "resize": [
+          86,
+          46
+        ],
+        "view": 227
+      },
+      "view": 228
+    }
+  ],
+  "classification": "New original courtyard reconstruction; copied original assets remain byte-identical",
+  "native_refs": {
+    "000.font.bin": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+    "214.view.bin": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+    "219.view.bin": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+    "221.view.bin": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+    "224.view.bin": "c966212e0fc5916b7fca4c2199d57ce0e1aa6abf41ee00a49095c218f529545c",
+    "226.view.bin": "b82186d9dcefce4b5d235112cef7a4e58010405f7c946509ce0a5f5f98168e33",
+    "227.view.bin": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0",
+    "999.palette.bin": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642"
+  },
+  "quantizer": "nearest squared RGB index0..254, alpha<128 =>255, ties first index, no dither",
+  "resources": {
+    "228": {
+      "bytes": 47008,
+      "cel_count": 18,
+      "file": "resources/228.view.bin",
+      "sha256": "450e32184d62c96fe15d86c4871e0e87ef728dc9499977a67b53f9f5636ca167"
+    },
+    "305": {
+      "bytes": 46150,
+      "cel_count": 1,
+      "file": "resources/305.view.bin",
+      "sha256": "bf3e12ab4c48589c32a24ced6b9bcb82ac85dd11e569999e88d122025a87a5cd"
+    }
+  },
+  "sources": {
+    "courtyard-clean-v1.png": {
+      "sha256": "e77f3b8c1d11623236071a760ff85e4bee8c557b0995707f653fecdd961db268",
+      "size": [
+        1870,
+        841
+      ]
+    },
+    "screen-table-v1.png": {
+      "sha256": "e5447dd6e62c8df30dc3d669df08ccb8cae4ce8943f70d522251ae5bbc2e8189",
+      "size": [
+        1696,
+        927
+      ]
+    }
+  }
+}

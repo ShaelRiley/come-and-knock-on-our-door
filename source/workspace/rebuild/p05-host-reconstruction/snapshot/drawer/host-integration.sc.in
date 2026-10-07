@@ -1,0 +1,13 @@
+; Additive visual-only reference fragment. Integration and selector registration
+; are owned by host. Insert just after background304, before props and actors.
+; No state mutation, permission grants, inventory or reward operations.
+(= drawerCel 0)
+(if (hHost p02DrawerOpen?)
+    (= drawerCel 2)
+    (if (and (hHost p02MiloShown?) (not (hHost p02MasterHeld?)))
+        (= drawerCel 1)))
+(DrawCel 229 0 drawerCel 46 48 -1 0)
+; Object27 full bounds[46,48,76,79), approach74,139.
+; Object24 bounds[53,61,68,68), same approach, registered only when
+; p02MiloShown AND p02DrawerOpen AND NOT p02MasterHeld.
+; Object24 must win the inner paper rectangle. See host-integration.json.

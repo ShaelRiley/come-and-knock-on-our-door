@@ -1,0 +1,49 @@
+{
+  "status": "VERIFIED_OFFICIAL_RELEASE_SOURCE_AND_RUNTIME_PIN",
+  "version": "2026.3.0",
+  "official_source_url": "https://downloads.scummvm.org/frs/scummvm/2026.3.0/scummvm-2026.3.0.tar.xz",
+  "official_source_sha256": "b863a81e1598df8bc4aa0c33e3d9b1c8bbede1879d94d91568a4f200057677e7",
+  "source_archive_bytes": 225168520,
+  "runtime_executable_sha256": "050ed72eba6fd5760d87a3decc5425d74760115b2d77a71f5c6876aa1f96e0ad",
+  "package_sha256": "26c66d5ff8d7a4c26d95ee68b602ee3b51d7db74be528d749e1627c2e5d678bc",
+  "sources": {
+    "sci.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/sci.cpp",
+      "sha256": "223302da0a3d450a2ec0754f0fbdc0daa08a9ffd7983798ad1b4508fb22ae90f",
+      "bytes": 38604,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/sci.cpp"
+    },
+    "savegame.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/engine/savegame.cpp",
+      "sha256": "0fd4253206e2ec023afc54f3246475545a9c728ee413cf400cd3d931f8d4259e",
+      "bytes": 52540,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/engine/savegame.cpp"
+    },
+    "kevent.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/engine/kevent.cpp",
+      "sha256": "4d269e939ac9b717f628ae9a4ab67866075dc1799e8bf75abec4e35adecc3d4a",
+      "bytes": 16249,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/engine/kevent.cpp"
+    },
+    "vm.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/engine/vm.cpp",
+      "sha256": "4946004a16c7a90b37ac5bfe2827b18c13e322a8376e2c4fcdc4c96b2e01222d",
+      "bytes": 46654,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/engine/vm.cpp"
+    },
+    "kgraphics.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/engine/kgraphics.cpp",
+      "sha256": "7f3097b46a805242d8685b3a08dfce6aeb0030f4a9d5b055c7053d1922774829",
+      "bytes": 47884,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/engine/kgraphics.cpp"
+    },
+    "ksound.cpp": {
+      "source_member": "scummvm-2026.3.0/engines/sci/engine/ksound.cpp",
+      "sha256": "ee1a8869bc0ff2600c9b22d13f8937e936bdc8c292d14fb4c683f2eb48dabd85",
+      "bytes": 19230,
+      "tag_source": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/engines/sci/engine/ksound.cpp"
+    }
+  },
+  "binary_reproducible_build_claim": false,
+  "native_test": false
+}

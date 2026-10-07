@@ -1,0 +1,22 @@
+{
+  "status": "EXACT_NATIVE_TESTED_P05_SNAPSHOT",
+  "date": "2026-10-06",
+  "program_fingerprint": "3be11ae9485b85f2f9c8f98f04868a184a078be898d77fbc64f9b7447c21ee35",
+  "playable_zip": {
+    "filename": "Come-and-Knock-on-Our-Door-Five-Puzzle-Checkpoint-20261006.zip",
+    "bytes": 27416164,
+    "sha256": "c317f0e05fab9351ec9245a1bf6e71c98c4eed7854c4910c7d6235677ecc283e"
+  },
+  "native_game_files": 780,
+  "resources": 80,
+  "full_campaign_complete": false,
+  "later_wip_in_main": false,
+  "raw_captures_or_test_saves_included": false,
+  "new_blanket_game_license": false,
+  "publication_filter": "Build-verified minimal compiler-source closure; required license/provenance notices retained; all game/host/test/asset inputs unchanged",
+  "base_checkpoint13_archive_sha256": "9b9893a20b2c93e50a15da3448ef535927a684e495d570a6339e7c0659a9fcd2",
+  "publication_source_integrity": "PASS",
+  "fresh_offline_reproduction": "PASS; eight modules, 80 resources and all 780 native game files exact",
+  "publication_revision": 2,
+  "compiler_source_rebuild": "PASS; reduced source compiles to original pinned executable"
+}

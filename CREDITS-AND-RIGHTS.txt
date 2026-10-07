@@ -1,0 +1,77 @@
+COME AND KNOCK ON OUR DOOR - FIVE-PUZZLE CHECKPOINT CREDITS AND RIGHTS
+
+Original project scripts, generated artwork, and procedural abstract voices.
+Project source and assets retain their existing rights; this file grants no
+new blanket redistribution license for the game or user-provided music.
+
+MUSIC
+The user asserted ownership of the supplied Suno MIDI sources and authorized
+their adaptation for this project. The live production cue is living102;
+opening/credits resource 3 remains provisional. No recorded score is bundled.
+
+NATURAL AUDIENCE AND EVERYDAY EFFECTS
+The three selected laughter recordings and six selected foley effects use
+CC0 1.0 source material: https://creativecommons.org/publicdomain/zero/1.0/
+Courtesy credits and exact native-payload hashes follow. Public HQ MP3
+previews were used for Freesound sources, not their original source WAVs.
+Edits include selection/cropping, mono resampling, fades and level changes.
+
+@0PK0101.001: CRWDLaff_Short Polite Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Shane Vincent / ShangusBurger
+https://freesound.org/people/ShangusBurger/sounds/763960/
+License: CC0 1.0
+SHA-256: 2ab817f7e66ade28b13d3039bd99256c4cafa5841bf99fd178101b0b040f09ba
+
+@0PK0201.001: CRWDLaff_Short Genuine Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Shane Vincent / ShangusBurger
+https://freesound.org/people/ShangusBurger/sounds/763956/
+License: CC0 1.0
+SHA-256: d08b4de6f00dade6c1854340fb6cdab8ddd664046f8ac0295de2844f72dc2f61
+
+@0PK0301.001: CRWDLaff_Short Hearty Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Shane Vincent / ShangusBurger
+https://freesound.org/people/ShangusBurger/sounds/763959/
+License: CC0 1.0
+SHA-256: 46108b69067e7c67220650335c4937e23443c9849c7a972a77fb9cf7f577a919
+
+@0PU0101.001: footstep_wood_a
+Kenney / Kenney Vleugels
+https://kenney.nl/assets/impact-sounds
+License: CC0-1.0
+SHA-256: 223f5a112cf30eeb252f6f034157814dd966fcfa91977a1d0d3ed60a782a197e
+
+@0PU0201.001: footstep_wood_b
+Kenney / Kenney Vleugels
+https://kenney.nl/assets/impact-sounds
+License: CC0-1.0
+SHA-256: 693d2d95582516dd9c5ee884b5697bd05161f16b7efc57815320c0be944e6e08
+
+@0PU0301.001: door_wood_open_a
+piedo
+https://freesound.org/people/piedo/sounds/214693/
+License: CC0-1.0
+SHA-256: 8d32d610e04a5a23ba7e6fc27580f3fb84885637698d67b7d8968e967e3b5dbd
+
+@0PU0401.001: door_wood_close_a
+IENBA
+https://freesound.org/people/IENBA/sounds/607911/
+License: CC0-1.0
+SHA-256: 7732b18511cab657e67b5fe0ac14e6dd6874efd6a12a1ee95618412ccb8837c2
+
+@0PU0501.001: wood_object_contact_a
+Kenney / Kenney Vleugels
+https://kenney.nl/assets/impact-sounds
+License: CC0-1.0
+SHA-256: 064d0a6a0cd0442a3d1041e165ab4b5cf476c6a7490ae6177f8c7f6818de4c90
+
+@0PU0601.001: wood_object_contact_b
+Kenney / Kenney Vleugels
+https://kenney.nl/assets/impact-sounds
+License: CC0-1.0
+SHA-256: a3a27840871c3400e5cbdb930fcd08bcc783d283fd501179ca8a720d2106f98a
+
+EXTERNAL TOOLS
+ScummVM, FluidSynth, FluidR3 and the pinned SCI compiler are separate
+external dependencies. No runtime, compiler or SoundFont binary is included.
+Source package notices cover its included ScummVM kernel-signature header;
+that header is a validation input, not a runtime.

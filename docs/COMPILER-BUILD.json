@@ -1,0 +1,25 @@
+{
+  "status": "PASS_REDUCED_SOURCE_COMPILER_REBUILD_BYTE_IDENTICAL",
+  "date": "2026-10-06",
+  "toolchain": {
+    "cmake": "3.31.10",
+    "gcc": "14.2.0",
+    "standard": "gnu++14"
+  },
+  "configured_from_reduced_source_only": true,
+  "compiler_logic_changed": false,
+  "dated_source_notice_comments_added": 51,
+  "cmake_recipe_changed": false,
+  "source_header_inputs": 179,
+  "translation_units": 69,
+  "vendor_source_header_inputs": 128,
+  "dependency_closure_sha256": "8f735116ee63ca6706631a93ae9cd0ae6c912ff153691cb1f8e2ac356ed293d8",
+  "rebuilt_compiler": {
+    "bytes": 2501464,
+    "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e"
+  },
+  "pinned_compiler_byte_identical": true,
+  "single_fresh_build_directory": true,
+  "revalidation_after_notice_only_edits": true,
+  "compiler_substituted_or_pin_changed": false
+}

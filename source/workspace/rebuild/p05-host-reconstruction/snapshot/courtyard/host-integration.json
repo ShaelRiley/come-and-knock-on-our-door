@@ -1,0 +1,64 @@
+{
+  "append_target": "P05State script985, no new class/species",
+  "controls": {
+    "approaches": {
+      "63": [
+        114,
+        140,
+        127
+      ],
+      "71": [
+        111,
+        139,
+        127
+      ]
+    },
+    "kit63_fragments": [
+      [
+        164,
+        61,
+        282,
+        129
+      ],
+      [
+        282,
+        111,
+        291,
+        129
+      ]
+    ],
+    "slate71": [
+      137,
+      103,
+      162,
+      127
+    ]
+  },
+  "entry_hooks": {
+    "P08": "not implemented by fragment; must provide canonical-label overlap chooser and source acknowledgment/ownership/autosave host",
+    "approaches": "route courtyard18/19/9/63/71 through hCourtApproachX/Y",
+    "apron": "fragment returns0, preserving current audience overlay and return path",
+    "drawJack": "room4 scale128=127, feet x26..293 and y124..141; floor corridor141, use documented approach feet",
+    "gate": "query current p04Gate; only OPEN1 visual open; existing authorized exit19 dispatch retains P04 physical permission",
+    "hRenderWorld": "if room4 call hCourtRender before existing garage logic; return1 skips entire old blockout/drawJack tail",
+    "hWorldControls": "if room4 call hCourtControls before existing garage logic",
+    "owner": "show rig only completed P05, hPAOwner1/hPARoom4; owner2 delegates to future P08 projection after physical ACK",
+    "reader": "Look63 stages inspection; Look/Use71 must present existing exact document462; no garage return, pocket token or new credit text"
+  },
+  "forbidden_changes": [
+    "P05 credit/connection/source/aim history",
+    "P04 gate/peg/latch history",
+    "pocket inventory",
+    "handcart72/listener69 positions",
+    "P08 position UNPLACED or ownership before ACK",
+    "display panel reveal",
+    "P07 pot kitchen ownership"
+  ],
+  "fragment": "host-integration.sc.in",
+  "resources": {
+    "227": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0",
+    "228": "450e32184d62c96fe15d86c4871e0e87ef728dc9499977a67b53f9f5636ca167",
+    "305": "bf3e12ab4c48589c32a24ced6b9bcb82ac85dd11e569999e88d122025a87a5cd"
+  },
+  "scope": "P05 room4 static presentation fragment; no compiled/native acceptance"
+}

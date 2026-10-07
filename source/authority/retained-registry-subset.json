@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "0": "Game and Sound classes, species0/1",
+    "980": "PresentationAudio species2",
+    "981": "MusicTransport species3",
+    "982": "SceneDialogue and pure metadata species4",
+    "983": "P03State species5 candidate",
+    "984": "P04State species6 isolated",
+    "985": "P05State species7 isolated",
+    "986": "Verbal contest species8 isolated",
+    "987": "P06State species9 isolated",
+    "988": "P07State species10 isolated",
+    "989": "P08State species11 reserved for isolated adapter",
+    "990": "P09State species12 reserved for isolated adapter",
+    "991": "Scene renderer species13 reserved; isolated extraction proof, no gameplay activation",
+    "992": "P10State species14 future adapter reservation",
+    "993": "P11State species15 future adapter reservation",
+    "994": "P12State species16 future adapter reservation",
+    "995": "P13State species17 future adapter reservation",
+    "996": "P14State species18 future adapter reservation",
+    "940-977": "Reserved production music cue-table bank; isolated family proof992-995 must be relocated and recompiled before campaign integration",
+    "997": "Reserved class-free verbal-contest presentation procedures with serialized local state; domain remains986/species8",
+    "998": "Reserved opening presentation director; species assigned in complete production class universe",
+    "999": "Reserved ending/credits presentation director; species assigned in complete production class universe"
+  },
+  "object_id_reservations": {
+    "80-99": "P06 adapter; used80-92",
+    "100-115": "P07 adapter; used100-110",
+    "116-123": "P08 proposed domain identities reserved for isolated adapter",
+    "395-399": "P09 proposed domain identities reserved for isolated adapter",
+    "410-414": "P10 native adapter allocated: cue rack, spring clips, original master cue copies1-3",
+    "415-418": "P11 native adapter allocated: display wing, wing catch, display handle, staging pocket",
+    "419-420": "P12 allocated: swivel_release_catch419, rack_rotating_handle420"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RELOCATED_PORTABLE_REBUILD",
+  "archive_sha256": "b7710ecefb99db97b676cefeec930e31113a0340bc7e0e59e2a0eca8d9cf4d1b",
+  "archive_bytes": 3780432,
+  "verified_input_hashes_equal": 77,
+  "native_asset_fresh_module_and_preview_hashes_identical": true,
+  "tests": 11,
+  "external_sibling_paths_required": false,
+  "compiler_included": true,
+  "native_acceptance": false
+}

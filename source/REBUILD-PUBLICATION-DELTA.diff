@@ -1,0 +1,20 @@
+--- publication-r1/rebuild.py
++++ publication-r2/rebuild.py
+@@ -8,7 +8,7 @@
+ from pathlib import Path
+ import sys,json,hashlib,shutil,subprocess,ast,importlib.util,argparse,os
+ P=Path(__file__).resolve().parent;STATUS=P/'LAST-REBUILD.json';STATUS.write_text('{"status":"RUNNING","native_acceptance":false}\n');sys.dont_write_bytecode=True
+-EXPECTED_ASSEMBLY='021bdcc910c7cecdefa2eee03ebd983b5a12d50333b8e3fbd9b5bff344db6a1b';EXPECTED_EXPORTS='0e07d924a2ba9887b3d09dfdf6f443c1e6371c32d55f228df27187e15e4d479f'
++EXPECTED_ASSEMBLY='cdcb32f5f0607165f4db1c0c2556dea87fdce81d809b9897e02336177b155970';EXPECTED_EXPORTS='0e07d924a2ba9887b3d09dfdf6f443c1e6371c32d55f228df27187e15e4d479f'
+ HOST_SEAL='3702d7501adb5602f8daff63873eea7e516fe564c7f567170a646c51b2ffb0e2';NATIVE_SEAL='dcf4be1c89dba28a4557ac9b9176d7b9894f40be8eeec1aa74f64b0f7473d3bb'
+ sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+ def require(ok,message):
+@@ -24,7 +24,7 @@
+  parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,required=True,help='New, nonexistent reproduction directory');args=parser.parse_args();O=args.out.resolve();require(not O.exists(),'Output already exists; no existing work or saves are overwritten')
+  require(sha(P/'ASSEMBLY-INVENTORY.json')==EXPECTED_ASSEMBLY,'Assembly inventory identity changed');require(sha(P/'ACCEPTED-SPEECH-EXPORTS.json')==EXPECTED_EXPORTS,'Speech export map identity changed')
+  inventory=load(P/'ASSEMBLY-INVENTORY.json')['files']
+- require(len(inventory)==2103,'Assembly membership extent changed')
++ require(len(inventory)==1427,'Assembly membership extent changed')
+  for file,meta in inventory.items():
+   p=P/relative(file);require(not p.is_symlink(),'Package symlink forbidden');check(p,meta)
+  BUNDLE=P/'workspace/rebuild';BH=BUNDLE/'p05-host-reconstruction';BN=BUNDLE/'p05-native-candidate-reconstruction'

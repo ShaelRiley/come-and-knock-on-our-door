@@ -1,0 +1,354 @@
+{
+  "kind": "New coordinated P05 reconstruction allocation; not recovered historical ABI",
+  "schema": 1,
+  "model_sha256": "6767058d72dab059ba21f50746ee6545a9c136797044cbf114d0e2675b64d537",
+  "canonical_bindings_sha256": "2a709500c834a9fdca619b6afad5e5da2c638381412947b53e9ff0ec1a0e04e4",
+  "rooms": {
+    "L03_PORCH": 0,
+    "L01_LIVING_ROOM": 1,
+    "L02_KITCHEN": 2,
+    "L04_SIDE_PASSAGE": 3,
+    "L05_COURTYARD": 4,
+    "L06_GARAGE": 5,
+    "L07_CONSERVATORY": 6
+  },
+  "objects": {
+    "pa_kit": 63,
+    "input_selector": 64,
+    "microphone": 65,
+    "mic_socket": 66,
+    "loudspeaker": 67,
+    "speaker_swivel_handle": 68,
+    "marked_listening_position": 69,
+    "slogan_tape": 70,
+    "equipment_credit_slate": 71,
+    "handcart": 72
+  },
+  "existing_actor_objects": {
+    "bunny": 2,
+    "milo": 28,
+    "audience": 10,
+    "audience_edge": 9,
+    "return": 11
+  },
+  "existing_tools": {
+    "wedge": 4,
+    "master_invitation": 24,
+    "grease_pencil": 25
+  },
+  "resource_allocation": {
+    "domain_script": 985,
+    "domain_class_species": 7,
+    "domain_export": 0,
+    "text_resource": 205,
+    "audio_module": 915,
+    "planned_garage_view": 304,
+    "planned_props_view": 227
+  },
+  "scene_routes": {
+    "P05.SCENE.001": {
+      "local_line_key": 1,
+      "document_id": 421,
+      "global_line_key": 207
+    },
+    "P05.LABEL.001": {
+      "local_line_key": 2,
+      "document_id": 422,
+      "global_line_key": 208
+    },
+    "P05.LOOK.001": {
+      "local_line_key": 3,
+      "document_id": 423,
+      "global_line_key": 209
+    },
+    "P05.LABEL.002": {
+      "local_line_key": 4,
+      "document_id": 424,
+      "global_line_key": 210
+    },
+    "P05.LOOK.002": {
+      "local_line_key": 5,
+      "document_id": 425,
+      "global_line_key": 211
+    },
+    "P05.READ.001": {
+      "local_line_key": 6,
+      "document_id": 426,
+      "global_line_key": 212
+    },
+    "P05.LABEL.003": {
+      "local_line_key": 7,
+      "document_id": 427,
+      "global_line_key": 213
+    },
+    "P05.LOOK.003": {
+      "local_line_key": 8,
+      "document_id": 428,
+      "global_line_key": 214
+    },
+    "P05.LABEL.004": {
+      "local_line_key": 9,
+      "document_id": 429,
+      "global_line_key": 215
+    },
+    "P05.LOOK.004": {
+      "local_line_key": 10,
+      "document_id": 430,
+      "global_line_key": 216
+    },
+    "P05.READ.002": {
+      "local_line_key": 11,
+      "document_id": 431,
+      "global_line_key": 217
+    },
+    "P05.LABEL.005": {
+      "local_line_key": 12,
+      "document_id": 432,
+      "global_line_key": 218
+    },
+    "P05.LOOK.005": {
+      "local_line_key": 13,
+      "document_id": 433,
+      "global_line_key": 219
+    },
+    "P05.LABEL.006": {
+      "local_line_key": 14,
+      "document_id": 434,
+      "global_line_key": 220
+    },
+    "P05.LOOK.006": {
+      "local_line_key": 15,
+      "document_id": 435,
+      "global_line_key": 221
+    },
+    "P05.LABEL.007": {
+      "local_line_key": 16,
+      "document_id": 436,
+      "global_line_key": 222
+    },
+    "P05.LOOK.007": {
+      "local_line_key": 17,
+      "document_id": 437,
+      "global_line_key": 223
+    },
+    "P05.LABEL.008": {
+      "local_line_key": 18,
+      "document_id": 438,
+      "global_line_key": 224
+    },
+    "P05.LOOK.008": {
+      "local_line_key": 19,
+      "document_id": 439,
+      "global_line_key": 225
+    },
+    "P05.DIALOGUE.001": {
+      "local_line_key": 20,
+      "document_id": 440,
+      "global_line_key": 226
+    },
+    "P05.LABEL.009": {
+      "local_line_key": 21,
+      "document_id": 441,
+      "global_line_key": 227
+    },
+    "P05.LOOK.009": {
+      "local_line_key": 22,
+      "document_id": 442,
+      "global_line_key": 228
+    },
+    "P05.LABEL.010": {
+      "local_line_key": 23,
+      "document_id": 443,
+      "global_line_key": 229
+    },
+    "P05.LOOK.010": {
+      "local_line_key": 24,
+      "document_id": 444,
+      "global_line_key": 230
+    },
+    "P05.SUCCESS.001": {
+      "local_line_key": 25,
+      "document_id": 445,
+      "global_line_key": 231
+    },
+    "P05.SUCCESS.002": {
+      "local_line_key": 26,
+      "document_id": 446,
+      "global_line_key": 232
+    },
+    "P05.SUCCESS.003": {
+      "local_line_key": 27,
+      "document_id": 447,
+      "global_line_key": 233
+    },
+    "P05.CHOICE.001": {
+      "local_line_key": 28,
+      "document_id": 448,
+      "global_line_key": 234
+    },
+    "P05.DIALOGUE.002": {
+      "local_line_key": 29,
+      "document_id": 449,
+      "global_line_key": 235
+    },
+    "P05.CHOICE.002": {
+      "local_line_key": 30,
+      "document_id": 450,
+      "global_line_key": 236
+    },
+    "P05.DIALOGUE.003": {
+      "local_line_key": 31,
+      "document_id": 451,
+      "global_line_key": 237
+    },
+    "P05.CHOICE.003": {
+      "local_line_key": 32,
+      "document_id": 452,
+      "global_line_key": 238
+    },
+    "P05.DIALOGUE.004": {
+      "local_line_key": 33,
+      "document_id": 453,
+      "global_line_key": 239
+    },
+    "P05.SUCCESS.004": {
+      "local_line_key": 34,
+      "document_id": 454,
+      "global_line_key": 240
+    },
+    "P05.SUCCESS.005": {
+      "local_line_key": 35,
+      "document_id": 455,
+      "global_line_key": 241
+    },
+    "P05.SYSTEM.001": {
+      "local_line_key": 36,
+      "document_id": 456,
+      "global_line_key": 242
+    },
+    "P05.FAILURE.001": {
+      "local_line_key": 37,
+      "document_id": 457,
+      "global_line_key": 243
+    },
+    "P05.FAILURE.002": {
+      "local_line_key": 38,
+      "document_id": 458,
+      "global_line_key": 244
+    },
+    "P05.FAILURE.003": {
+      "local_line_key": 39,
+      "document_id": 459,
+      "global_line_key": 245
+    },
+    "P05.SYSTEM.002": {
+      "local_line_key": 40,
+      "document_id": 460,
+      "global_line_key": 246
+    },
+    "P05.CHOICE.004": {
+      "local_line_key": 41,
+      "document_id": 461,
+      "global_line_key": 247
+    },
+    "P05.READ.003": {
+      "local_line_key": 42,
+      "document_id": 462,
+      "global_line_key": 248
+    },
+    "P05.DIALOGUE.005": {
+      "local_line_key": 43,
+      "document_id": 463,
+      "global_line_key": 249
+    },
+    "P05.FAILURE.004": {
+      "local_line_key": 44,
+      "document_id": 464,
+      "global_line_key": 250
+    },
+    "P05.DIALOGUE.006": {
+      "local_line_key": 45,
+      "document_id": 465,
+      "global_line_key": 251
+    },
+    "P05.DIALOGUE.007": {
+      "local_line_key": 46,
+      "document_id": 466,
+      "global_line_key": 252
+    },
+    "P05.SUCCESS.006": {
+      "local_line_key": 47,
+      "document_id": 467,
+      "global_line_key": 253
+    },
+    "P05.HINT.1": {
+      "local_line_key": 48,
+      "document_id": 468,
+      "global_line_key": 254
+    },
+    "P05.HINT.2": {
+      "local_line_key": 49,
+      "document_id": 469,
+      "global_line_key": 255
+    },
+    "P05.HINT.3": {
+      "local_line_key": 50,
+      "document_id": 470,
+      "global_line_key": 256
+    },
+    "VC01.ENTRY": {
+      "local_line_key": 51,
+      "document_id": 471,
+      "global_line_key": 257
+    },
+    "VC01.WIN": {
+      "local_line_key": 52,
+      "document_id": 472,
+      "global_line_key": 258
+    },
+    "VC01.LOSS": {
+      "local_line_key": 53,
+      "document_id": 473,
+      "global_line_key": 259
+    },
+    "VC01.REMATCH": {
+      "local_line_key": 54,
+      "document_id": 474,
+      "global_line_key": 260
+    },
+    "VC01.KO.OPPONENT": {
+      "local_line_key": 55,
+      "document_id": 475,
+      "global_line_key": 261
+    },
+    "VC01.KO.JACKIE": {
+      "local_line_key": 56,
+      "document_id": 476,
+      "global_line_key": 262
+    },
+    "VC01.STAGE": {
+      "local_line_key": 57,
+      "document_id": 477,
+      "global_line_key": 263
+    },
+    "VC01.NOT_READY": {
+      "local_line_key": 58,
+      "document_id": 478,
+      "global_line_key": 264
+    },
+    "VC01.NEED_RESOLUTION": {
+      "local_line_key": 59,
+      "document_id": 479,
+      "global_line_key": 265
+    }
+  },
+  "old_document_max": 420,
+  "new_document_max": 479,
+  "old_global_line_key_max": 206,
+  "limits": [
+    "All existing selector/class/resource identities must remain unchanged; compile a coherent expanded universe",
+    "Numeric object/resource allocations are new documented choices; confirm collision checks in actual package before use",
+    "VC01 data routes may exist, but only gated domain/contest operations may present them; this does not implement or pre-resolve a contest",
+    "No Main/host integration or new native acceptance is established by this allocation"
+  ]
+}

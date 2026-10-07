@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "probes": [
+    [
+      240,
+      "truncated"
+    ],
+    [
+      240,
+      "oversized"
+    ],
+    [
+      240,
+      "wrong-byte"
+    ],
+    [
+      241,
+      "truncated"
+    ],
+    [
+      241,
+      "oversized"
+    ],
+    [
+      241,
+      "wrong-byte"
+    ],
+    [
+      242,
+      "truncated"
+    ],
+    [
+      242,
+      "oversized"
+    ],
+    [
+      242,
+      "wrong-byte"
+    ]
+  ],
+  "scope": "Pre-packaging exact data/length validation; not arbitrary native resource damage"
+}

@@ -1,0 +1,95 @@
+{
+  "class_owners": [
+    0,
+    0,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986
+  ],
+  "class_vocabulary_sha256": "41ae84207682512f5c499ade5543672a8b4355089618eb10ab2505e4e623ff43",
+  "config_alias_is_not_compatibility": true,
+  "enforcement": "Wrapper-bound exact program identity plus fresh empty save directory; no historical save import or automatic migration is authorized.",
+  "format": "exact-whole-program-v1",
+  "modules": [
+    {
+      "class_species": [
+        2
+      ],
+      "heap_sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "module": 980,
+      "script_sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "source_sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b"
+    },
+    {
+      "class_species": [
+        3
+      ],
+      "heap_sha256": "1a9473cbb3c74628ece024472ea6713892e9cd3f54d98d9b0b49f769148ad5de",
+      "module": 981,
+      "script_sha256": "95516579f9cae99bd2efa74407781f2c11f87d2a0b01a0bfae6ee1de1cbbab42",
+      "source_sha256": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc"
+    },
+    {
+      "class_species": [
+        4
+      ],
+      "heap_sha256": "3e304a3ab5385f59851644a221a1066a51692e9ccdf7154c1d827b9e19dcc080",
+      "module": 982,
+      "script_sha256": "deba53d4121a66b7093db0ce66fafbcaeb462162732bdc5645981dfd6484cc1f",
+      "source_sha256": "8b14b3eaf31818a781a509764b08d5e4e3dedebb025bd8dbb6a910102c254eca"
+    },
+    {
+      "class_species": [
+        5
+      ],
+      "heap_sha256": "b579e5663f1b37562a25ba8d391aa54021dbde5e2d051ff6555e1671322c4075",
+      "module": 983,
+      "script_sha256": "731605148c963f7c340bd1dd9beb7f1147fc070b2c369100bdb54b292e152a82",
+      "source_sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7"
+    },
+    {
+      "class_species": [
+        6
+      ],
+      "heap_sha256": "7760f077f86dafd439376f3485b6b85468b1aec1568e04f46c8bdd07f46ddb40",
+      "module": 984,
+      "script_sha256": "076160b149c473d8089a55b64281950517d832290c9ce05d87a8a5c369325189",
+      "source_sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929"
+    },
+    {
+      "class_species": [
+        7
+      ],
+      "heap_sha256": "6086bfbb16b14d9882106f6887a5873188f8cbdad1dd04ca05c711c70d6c1fd4",
+      "module": 985,
+      "script_sha256": "9472ee4e0940dd3ab6974cf19e6c889dc071b72beae90a486322734039baef93",
+      "source_sha256": "ae17d5e568df2b423506bbd2acfef32d8de500a88c3ae7e364f59e78395f602e"
+    },
+    {
+      "class_species": [
+        8
+      ],
+      "heap_sha256": "6ecaaf18eb84ceda24696a35db25f154eca52d3e7975c289f44d96dda861b8db",
+      "module": 986,
+      "script_sha256": "1ceaf4c6f0fe3331574fd9bb77b7f0ef523ab2a5b5c037b18826024781c9b0e0",
+      "source_sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81"
+    },
+    {
+      "class_species": [
+        0,
+        1
+      ],
+      "heap_sha256": "52907b45837e55b5b09567034b3b35a2113aca258ab6e98cd45fb8136a7049ff",
+      "module": 0,
+      "script_sha256": "1fd4116368616036af15348164ead0f9549f0e6e874e6a8e5279bc5b74933daf",
+      "source_sha256": "0533b604ce03f416384c6bb31d3e033077c96c40fbc67ed9d44c82027f05b8e6"
+    }
+  ],
+  "program_fingerprint": "3be11ae9485b85f2f9c8f98f04868a184a078be898d77fbc64f9b7447c21ee35",
+  "selector_vocabulary_sha256": "3912449cf2f5511bb7c4dc7dbd86a53b55f2b96172fd90d510442838ef052dda",
+  "source_namespace": "cakood-p05-reconstruction-20261006-r1"
+}

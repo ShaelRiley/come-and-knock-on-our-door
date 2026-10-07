@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "tests": 44,
+  "test_ids": [
+    "test_practical.Practical.test_actual_missing_output_route_rolls_back_domain",
+    "test_practical.Practical.test_before_plan_consistent_garage_explicit_geometry_delta",
+    "test_practical.Practical.test_before_plan_original_bundle_drawer_master_path_remains_live",
+    "test_practical.Practical.test_bunny_canonical_invitation_visible_transition_and_return",
+    "test_practical.Practical.test_bunny_equal_soundcheck_route",
+    "test_practical.Practical.test_close_travel_replaced_source_never_award",
+    "test_practical.Practical.test_full_keyboard_arrival_and_escape_preserve_domain",
+    "test_practical.Practical.test_garage_exit_has_live_keyboard_reachability_and_before_travel_hook",
+    "test_practical.Practical.test_mark_selection_exact_rect_and_keyboard",
+    "test_practical.Practical.test_missing_routes_and_transaction_reentry_fail_closed",
+    "test_practical.Practical.test_plan_loss_at_arrival_and_offscreen_protect_hardware",
+    "test_practical.Practical.test_practical_interleaves_bunting_and_ceramic_rewards_with_world_frames",
+    "test_practical.Practical.test_preplan_and_apron_hardware_arguments_fail_closed",
+    "test_practical.Practical.test_real_audience_controls_practical_and_no_contest_loan",
+    "test_practical.Practical.test_restore_rejects_corrupt_source_bitmap_and_physical_owner",
+    "test_practical.Practical.test_restore_retirement_preserves_partial_logical_reader_silently",
+    "test_practical.Practical.test_source_receipt_only_exact_unobscured_graph12",
+    "test_practical.Practical.test_wrong_socket_direction_and_silent_audience_cards",
+    "test_contest.Contest.test_explicit_loss_yield_concession_and_later_win_latches",
+    "test_contest.Contest.test_intro_ack_does_not_grant_resolution_or_learning",
+    "test_contest.Contest.test_loan_second_queue_failure_rolls_back_both_publications",
+    "test_contest.Contest.test_missing_second_intro_unit_aborts_domain_and_p05_request",
+    "test_contest.Contest.test_muted_learning_and_explicit_exchange_yield",
+    "test_contest.Contest.test_partial_multi_item_read_restore_keeps_completed_unit_and_unread_concession",
+    "test_contest.Contest.test_pending_reply_cancel_restore_reentry_and_all24_full_labels",
+    "test_contest.Contest.test_practice_uses_present_milo_and_never_bunny_learn_a_route",
+    "test_contest.Contest.test_prepared_loan_rejects_reentrant_input_and_save",
+    "test_contest.Contest.test_real_learning_scoring_win_and_atomic_loan",
+    "test_contest.Contest.test_restore_wrong_document_binding_and_corrupt_seen_map_fail_closed",
+    "test_contest.Contest.test_result_concession_barrier_blocks_every_ordinary_route",
+    "test_contest.Contest.test_stale_receipts_graph_failure_pause_menu_and_restore_result",
+    "test_saved_consistency.SavedConsistency.test_each_static_table_family_rejects_mismatched_saved_words",
+    "test_saved_consistency.SavedConsistency.test_menu_reply_saved_buffer_and_pointer_mismatch_reject",
+    "test_saved_consistency.SavedConsistency.test_only_current_campaign_ownership_is_restorable",
+    "test_saved_consistency.SavedConsistency.test_packaged_table_text_rejects_malformed_length_words_and_labels",
+    "test_saved_consistency.SavedConsistency.test_response_menu_world_consistency_matrix",
+    "test_presentation_controls.PresentationControls.test_courtyard_hardware_keyboard_sources_and_wiring_remain_reachable",
+    "test_presentation_controls.PresentationControls.test_genuine_exchange_wince_stage_single_owner_and_retirement",
+    "test_presentation_controls.PresentationControls.test_required_ko_record_precedes_result_and_restore_is_silent",
+    "inherited_r2.RenderRegression.test_all_rooms_travel_physical_support_and_retrieval_world_frames",
+    "inherited_r2.RenderRegression.test_compact_badge_fits_real_font_and_full_name_is_unchanged",
+    "inherited_r2.RenderRegression.test_cross_branch_publication_reward_and_restore_render_every_boundary",
+    "inherited_r2.RenderRegression.test_old_seal_fails_on_first_room3_world_frame_after_pull_without_travel",
+    "inherited_r2.RenderRegression.test_repeated_projection_and_inventory_focus_keep_bounds"
+  ],
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "case_metrics": [
+    {
+      "test": "test_practical.Practical.test_actual_missing_output_route_rolls_back_domain",
+      "instructions": 662514,
+      "frames": 2
+    },
+    {
+      "test": "test_practical.Practical.test_before_plan_consistent_garage_explicit_geometry_delta",
+      "instructions": 467440,
+      "frames": 0
+    },
+    {
+      "test": "test_practical.Practical.test_before_plan_original_bundle_drawer_master_path_remains_live",
+      "instructions": 876932,
+      "frames": 80
+    },
+    {
+      "test": "test_practical.Practical.test_bunny_canonical_invitation_visible_transition_and_return",
+      "instructions": 1153853,
+      "frames": 13
+    },
+    {
+      "test": "test_practical.Practical.test_bunny_equal_soundcheck_route",
+      "instructions": 1096597,
+      "frames": 20
+    },
+    {
+      "test": "test_practical.Practical.test_close_travel_replaced_source_never_award",
+      "instructions": 807902,
+      "frames": 3
+    },
+    {
+      "test": "test_practical.Practical.test_full_keyboard_arrival_and_escape_preserve_domain",
+      "instructions": 1169352,
+      "frames": 151
+    },
+    {
+      "test": "test_practical.Practical.test_garage_exit_has_live_keyboard_reachability_and_before_travel_hook",
+      "instructions": 831602,
+      "frames": 74
+    },
+    {
+      "test": "test_practical.Practical.test_mark_selection_exact_rect_and_keyboard",
+      "instructions": 1107339,
+      "frames": 73
+    },
+    {
+      "test": "test_practical.Practical.test_missing_routes_and_transaction_reentry_fail_closed",
+      "instructions": 923163,
+      "frames": 3
+    },
+    {
+      "test": "test_practical.Practical.test_plan_loss_at_arrival_and_offscreen_protect_hardware",
+      "instructions": 1032875,
+      "frames": 77
+    },
+    {
+      "test": "test_practical.Practical.test_practical_interleaves_bunting_and_ceramic_rewards_with_world_frames",
+      "instructions": 11505123,
+      "frames": 83
+    },
+    {
+      "test": "test_practical.Practical.test_preplan_and_apron_hardware_arguments_fail_closed",
+      "instructions": 1055713,
+      "frames": 2
+    },
+    {
+      "test": "test_practical.Practical.test_real_audience_controls_practical_and_no_contest_loan",
+      "instructions": 1883702,
+      "frames": 44
+    },
+    {
+      "test": "test_practical.Practical.test_restore_rejects_corrupt_source_bitmap_and_physical_owner",
+      "instructions": 15265747,
+      "frames": 4
+    },
+    {
+      "test": "test_practical.Practical.test_restore_retirement_preserves_partial_logical_reader_silently",
+      "instructions": 16922457,
+      "frames": 47
+    },
+    {
+      "test": "test_practical.Practical.test_source_receipt_only_exact_unobscured_graph12",
+      "instructions": 1605218,
+      "frames": 16
+    },
+    {
+      "test": "test_practical.Practical.test_wrong_socket_direction_and_silent_audience_cards",
+      "instructions": 1352350,
+      "frames": 22
+    },
+    {
+      "test": "test_contest.Contest.test_explicit_loss_yield_concession_and_later_win_latches",
+      "instructions": 6150097,
+      "frames": 115
+    },
+    {
+      "test": "test_contest.Contest.test_intro_ack_does_not_grant_resolution_or_learning",
+      "instructions": 2058585,
+      "frames": 44
+    },
+    {
+      "test": "test_contest.Contest.test_loan_second_queue_failure_rolls_back_both_publications",
+      "instructions": 5387372,
+      "frames": 95
+    },
+    {
+      "test": "test_contest.Contest.test_missing_second_intro_unit_aborts_domain_and_p05_request",
+      "instructions": 1833933,
+      "frames": 40
+    },
+    {
+      "test": "test_contest.Contest.test_muted_learning_and_explicit_exchange_yield",
+      "instructions": 4737133,
+      "frames": 91
+    },
+    {
+      "test": "test_contest.Contest.test_partial_multi_item_read_restore_keeps_completed_unit_and_unread_concession",
+      "instructions": 12339457,
+      "frames": 94
+    },
+    {
+      "test": "test_contest.Contest.test_pending_reply_cancel_restore_reentry_and_all24_full_labels",
+      "instructions": 13009524,
+      "frames": 133
+    },
+    {
+      "test": "test_contest.Contest.test_practice_uses_present_milo_and_never_bunny_learn_a_route",
+      "instructions": 3734750,
+      "frames": 74
+    },
+    {
+      "test": "test_contest.Contest.test_prepared_loan_rejects_reentrant_input_and_save",
+      "instructions": 5518429,
+      "frames": 100
+    },
+    {
+      "test": "test_contest.Contest.test_real_learning_scoring_win_and_atomic_loan",
+      "instructions": 5314116,
+      "frames": 102
+    },
+    {
+      "test": "test_contest.Contest.test_restore_wrong_document_binding_and_corrupt_seen_map_fail_closed",
+      "instructions": 24039118,
+      "frames": 182
+    },
+    {
+      "test": "test_contest.Contest.test_result_concession_barrier_blocks_every_ordinary_route",
+      "instructions": 5052749,
+      "frames": 93
+    },
+    {
+      "test": "test_contest.Contest.test_stale_receipts_graph_failure_pause_menu_and_restore_result",
+      "instructions": 19689112,
+      "frames": 99
+    },
+    {
+      "test": "test_saved_consistency.SavedConsistency.test_each_static_table_family_rejects_mismatched_saved_words",
+      "instructions": 99242029,
+      "frames": 42
+    },
+    {
+      "test": "test_saved_consistency.SavedConsistency.test_menu_reply_saved_buffer_and_pointer_mismatch_reject",
+      "instructions": 45229481,
+      "frames": 85
+    },
+    {
+      "test": "test_saved_consistency.SavedConsistency.test_only_current_campaign_ownership_is_restorable",
+      "instructions": 35168296,
+      "frames": 105
+    },
+    {
+      "test": "test_saved_consistency.SavedConsistency.test_packaged_table_text_rejects_malformed_length_words_and_labels",
+      "instructions": 0,
+      "frames": 0
+    },
+    {
+      "test": "test_saved_consistency.SavedConsistency.test_response_menu_world_consistency_matrix",
+      "instructions": 60500398,
+      "frames": 85
+    },
+    {
+      "test": "test_presentation_controls.PresentationControls.test_courtyard_hardware_keyboard_sources_and_wiring_remain_reachable",
+      "instructions": 14184751,
+      "frames": 779
+    },
+    {
+      "test": "test_presentation_controls.PresentationControls.test_genuine_exchange_wince_stage_single_owner_and_retirement",
+      "instructions": 3922264,
+      "frames": 76
+    },
+    {
+      "test": "test_presentation_controls.PresentationControls.test_required_ko_record_precedes_result_and_restore_is_silent",
+      "instructions": 24465559,
+      "frames": 193
+    },
+    {
+      "test": "inherited_r2.RenderRegression.test_all_rooms_travel_physical_support_and_retrieval_world_frames",
+      "instructions": 3144717,
+      "frames": 42
+    },
+    {
+      "test": "inherited_r2.RenderRegression.test_compact_badge_fits_real_font_and_full_name_is_unchanged",
+      "instructions": 980828,
+      "frames": 6
+    },
+    {
+      "test": "inherited_r2.RenderRegression.test_cross_branch_publication_reward_and_restore_render_every_boundary",
+      "instructions": 7131341,
+      "frames": 82
+    },
+    {
+      "test": "inherited_r2.RenderRegression.test_old_seal_fails_on_first_room3_world_frame_after_pull_without_travel",
+      "instructions": 266312,
+      "frames": 6
+    },
+    {
+      "test": "inherited_r2.RenderRegression.test_repeated_projection_and_inventory_focus_keep_bounds",
+      "instructions": 1109793,
+      "frames": 10
+    }
+  ],
+  "native_acceptance": false
+}

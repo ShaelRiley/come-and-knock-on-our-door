@@ -1,0 +1,245 @@
+{
+  "classification": "new original VC01.STAGE presentation reconstruction; static/source/emitted scope only",
+  "canonical_id": "VC01.STAGE",
+  "canonical_text_sha256": "904a8fff96c7f014ac76defe75141701b5530e4ac008eb08e6a81edf1af30b55",
+  "render_owner": "P05State985.hVCStageRender owns complete stage draw; shared hGarageBackdrop then hStageActors; hRenderWorld must early-return1; Main unchanged in fixture",
+  "viewport": {
+    "world": [
+      0,
+      44,
+      320,
+      144
+    ],
+    "composure_hud": [
+      0,
+      0,
+      320,
+      44
+    ],
+    "existing_reader_and_choices": [
+      0,
+      144,
+      320,
+      200
+    ]
+  },
+  "native_assets": {
+    "330": {
+      "classification": "reconstruction new allocation",
+      "loop0": "right-facing",
+      "loop1": "left-facing",
+      "cel0": "Jackie non-contact wince",
+      "cel1": "Milo non-contact wince",
+      "dimensions": [
+        52,
+        80
+      ],
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "331": {
+      "classification": "reconstruction new allocation",
+      "loop0": {
+        "cel0": "anonymous collective onlooker A",
+        "cel1": "anonymous collective onlooker B",
+        "cel2": "code-native320x100 static dim/spotlight matte"
+      }
+    },
+    "unchanged": [
+      214,
+      219,
+      221,
+      227,
+      229,
+      304,
+      999,
+      0
+    ]
+  },
+  "principal_actors": {
+    "jackie": {
+      "ordinary_view": 214,
+      "ordinary_loop": 1,
+      "wince_view": 330,
+      "wince_loop": 1,
+      "wince_cel": 0,
+      "visual_foot": [
+        180,
+        140
+      ],
+      "scale128": 127,
+      "top_left": [
+        155,
+        63
+      ],
+      "world_fields": "never written; host preserves actual motionX/Y/Loop/Phase/Pose"
+    },
+    "milo": {
+      "ordinary_view": 221,
+      "ordinary_loop": 0,
+      "wince_view": 330,
+      "wince_loop": 0,
+      "wince_cel": 1,
+      "foot": [
+        100,
+        129
+      ],
+      "scale128": 116,
+      "top_left": [
+        77,
+        59
+      ],
+      "presence": "hMiloRoom==5 required"
+    },
+    "bunny": {
+      "ordinary_view": 219,
+      "ordinary_loop": 1,
+      "foot": [
+        268,
+        127
+      ],
+      "scale128": 116,
+      "top_left": [
+        245,
+        57
+      ],
+      "presence": "hBunnyRoom==5 AND hVCBunnyWilling; never invented or moved"
+    }
+  },
+  "collective_onlookers": {
+    "authorization": "Canonical VC01.STAGE gathers ordinary willing collective studio audience independently of prior soundcheck invitations; no new prerequisite or private principal witness",
+    "silent": true,
+    "native_foot_anchors": [
+      [
+        43,
+        128
+      ],
+      [
+        296,
+        131
+      ]
+    ],
+    "scale128": 116,
+    "voice_roles_added": 0
+  },
+  "draw_order": [
+    "shared backdrop304",
+    "shared drawer229 and current227 props/font0 overlays",
+    "anonymous collective onlookers",
+    "actually present willing Bunny219",
+    "static dim matte331.2",
+    "Milo ordinary OR wince",
+    "Jackie ordinary OR wince",
+    "two-sided numeric composure HUD",
+    "unchanged source-bound reader/choices"
+  ],
+  "bindings": {
+    "hVCStage": "active scored attempt, through required result/concession text; host owns",
+    "hVCHitActor": "0none/1Jackie/2Milo; host sets only after committed claimEffect2 for correct scored slot; does not score",
+    "hVCWinceActor": "0none/1Jackie/2Milo; host sets only for committed loser-specific KO groan; existing serialized PCM owner untouched",
+    "hVCBunnyWilling": "entry snapshot of explicit existing Bunny invitation and physical room5; recheck room when drawing",
+    "hVCReducedMotion": "host accessibility setting0/1; still pose replaces bounded change",
+    "hStageHitAge": "transient local0..23; host resets0 per landed cue",
+    "hStageKOAge": "transient local0..29; host resets0 per KO cue",
+    "composure": "read-only Contest986 words96 Jackie/97 Milo, each0..3"
+  },
+  "helper_ABI": {
+    "hStageActive": "()->bool; hoststage + physical garage/nonapron/Milo5 + real986 active90=1 encounter91=1 phase92in1..8",
+    "hVCStageRender": "()->1 if owns whole stage else0; never draw ordinary actor tail after1",
+    "hStageActors": "()->1 if actor/lighting subset handled, else0; caller must already draw shared backdrop exactly once",
+    "hVCHud": "()->1 if top0..43 owns HUD else0; no captions hidden below144",
+    "hStagePose": "(actor1or2)->still wince bool",
+    "hStageTick": "(dt)->1; clamp0..6, advance visual ages only, dirty when a pose expires; once per normal frame; never gates input",
+    "hStageRetire": "()->1 clears both actor cues and ages, dirties if changed; no world/domain writes",
+    "hStageMeter": "(left,value)->1; internal numeric0..3 color meter"
+  },
+  "timing": {
+    "landed_wince_ticks": 18,
+    "ko_wince_ticks": 24,
+    "reduced_motion": "one still generated pose until feedback or lifecycle cancellation; static lighting in both modes",
+    "required_cancellation": [
+      "skip",
+      "new feedback",
+      "close",
+      "menu",
+      "save",
+      "restore before input",
+      "travel",
+      "stage leave"
+    ],
+    "cancel_effects": "No rescore, deck reorder, source receipt, result claim, or audio replay; host calls hStageRetire"
+  },
+  "hud": {
+    "left": "MILO PENNANT, read97",
+    "right": "JACKIE TREE, read96",
+    "numbers": "n/3 plus three filled/unfilled segments",
+    "center": "KO outline always, red at either zero",
+    "palette999": {
+      "0": [
+        14,
+        17,
+        30
+      ],
+      "1": [
+        245,
+        229,
+        192
+      ],
+      "5": [
+        43,
+        64,
+        75
+      ],
+      "13": [
+        173,
+        191,
+        160
+      ],
+      "16": [
+        253,
+        228,
+        92
+      ],
+      "33": [
+        248,
+        144,
+        34
+      ],
+      "208": [
+        239,
+        83,
+        58
+      ]
+    },
+    "color_progression": {
+      "3": 16,
+      "2": 33,
+      "1": 208,
+      "0": 208
+    },
+    "font_resource": 0,
+    "choices": "existing full-text paged response control, actual emitted284px width and <=3lines; no new text or label substitution",
+    "invalid_state": "No active986 VC01 attempt means no stage/HUD; impossible0/0 fails closed"
+  },
+  "integration_requirements": [
+    "Merge methods into985, replace hVCHud rather than duplicate",
+    "Use shared hGarageBackdrop actor-free host helper",
+    "Hook hVCStageRender before any ordinary garage draw; return1 skips old actor draws",
+    "StageEnter/Leave may toggle presentation state but may not write world motion or actor ownership",
+    "Set hStageHitAge or hStageKOAge to0 on each newly committed cue",
+    "Call hStageTick(dt) once per normal frame and retire at every listed cancellation boundary",
+    "Include views330/331 without changing ordinary native view bytes",
+    "Keep source receipts, score, text, choice menus, credits and serialized PCM arbitration in host/domain"
+  ],
+  "acceptance_boundaries": {
+    "static_previews": true,
+    "fresh_emitted_helper_tests": true,
+    "native_pixels": false,
+    "native_input_save_restore": false,
+    "hearing": false,
+    "MUS11_MIDI_family": false,
+    "full_campaign": false
+  }
+}

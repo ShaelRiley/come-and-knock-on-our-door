@@ -1,0 +1,194 @@
+{
+  "classification": "new helper fragment; no native acceptance",
+  "required_properties": {
+    "hHost": 0,
+    "hBunnyRoom": 1,
+    "hPAOwner": 1,
+    "hPARoom": 5,
+    "hCartOwner": 1,
+    "hCartRoom": 5,
+    "hSelectedMark": 1
+  },
+  "added_locals": {
+    "hLabel63": 32,
+    "hLabel64": 32,
+    "hLabel65": 32,
+    "hLabel66": 32,
+    "hLabel67": 32,
+    "hLabel68": 32,
+    "hLabel69": 32,
+    "hLabel70": 32,
+    "hLabel71": 32,
+    "hLabel72": 32
+  },
+  "label_text_resource": 205,
+  "label_entries": {
+    "63": 10,
+    "64": 12,
+    "65": 16,
+    "66": 18,
+    "67": 22,
+    "68": 24,
+    "69": 26,
+    "70": 28,
+    "71": 30,
+    "72": 32
+  },
+  "compact_labels": {
+    "63": "PA",
+    "64": "INPUT",
+    "65": "MIC",
+    "66": "SOCK",
+    "67": "SPKR",
+    "68": "TURN",
+    "69": "MARK",
+    "70": "TAPE",
+    "71": "SLATE",
+    "72": "CART",
+    "2": "BUNNY",
+    "28": "MILO",
+    "9": "EDGE",
+    "11": "PORCH"
+  },
+  "pa_fragments": [
+    [
+      142,
+      127,
+      213,
+      128
+    ],
+    [
+      143,
+      125,
+      213,
+      127
+    ],
+    [
+      143,
+      114,
+      210,
+      125
+    ],
+    [
+      143,
+      113,
+      192,
+      114
+    ]
+  ],
+  "actors": {
+    "milo": {
+      "whole": [
+        77,
+        59,
+        124,
+        131
+      ],
+      "fragments": [
+        [
+          87,
+          87,
+          124,
+          89
+        ],
+        [
+          77,
+          59,
+          110,
+          80
+        ],
+        [
+          87,
+          80,
+          110,
+          87
+        ],
+        [
+          77,
+          127,
+          124,
+          131
+        ],
+        [
+          77,
+          126,
+          121,
+          127
+        ],
+        [
+          87,
+          89,
+          121,
+          126
+        ]
+      ]
+    },
+    "bunny": {
+      "whole": [
+        245,
+        57,
+        292,
+        129
+      ],
+      "fragments": [
+        [
+          245,
+          57,
+          292,
+          59
+        ],
+        [
+          245,
+          125,
+          253,
+          129
+        ],
+        [
+          283,
+          125,
+          292,
+          129
+        ],
+        [
+          251,
+          106,
+          292,
+          120
+        ],
+        [
+          251,
+          120,
+          253,
+          125
+        ],
+        [
+          283,
+          120,
+          292,
+          125
+        ],
+        [
+          251,
+          59,
+          292,
+          106
+        ]
+      ]
+    }
+  },
+  "external_host_methods": {
+    "p05FocusMark": "zero-arg helper returns hMarkAt center of focused control when action1/payload69, otherwise0",
+    "uiAddControl": "action payload top left bottom right label; existing Main",
+    "drawJack": "zero args; existing Main"
+  },
+  "public_interfaces": {
+    "hWorldControls": "() -> 1 overrides complete garage controls, 0 lets Main handle another room/apron",
+    "hRenderWorld": "() -> 1 overrides complete garage drawWorld, 0 lets Main handle another room/apron",
+    "hApproachX": "(obj) -> garage floor x; mark69 uses hSelectedMark",
+    "hApproachY": "(obj) -> garage floor y; mark69 uses hSelectedMark",
+    "hMarkAt": "(x,y) -> 1 Bunny mark,2 audience mark,0 outside both",
+    "hCaptureTarget": "(obj) -> selected mark1/2,0 no capture; call before movement",
+    "hLabel": "(obj) -> stable full-label pointer,0 unhandled",
+    "hShortLabel": "(obj) -> compact label pointer,0 unhandled"
+  }
+}

@@ -1,0 +1,2657 @@
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileContext.h
++++ tools/scicompile/compat/CompileContext.h
+@@ -59,7 +59,7 @@
+ class ISourceCodePosition;
+ class CompileContext;
+ 
+-typedef std::unordered_map<std::string, sci::Define*> defines_map;
++typedef scicompat::hash_map_lb<std::string, sci::Define*> defines_map;  // was std::unordered_map (MSVC lower_bound ext)
+ typedef std::multimap<std::string, code_pos> ref_multimap;
+ typedef std::pair<code_pos, WORD> call_pair;
+ 
+@@ -93,7 +93,7 @@
+ 
+     bool LookupDefine(const std::string &str, WORD &wValue);
+ private:
+-    typedef std::unordered_map<std::string, sci::Define*> defines_map;
++    typedef scicompat::hash_map_lb<std::string, sci::Define*> defines_map;  // was std::unordered_map (MSVC lower_bound ext)
+     typedef std::unordered_map<std::string, std::unique_ptr<sci::Script>> header_map;
+ 
+     // Filename (not full path) which maps a header to its Script object.
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserActions.h
++++ tools/scicompile/compat/ParserActions.h
+@@ -1,860 +1,4 @@
+-/***************************************************************************
+-    Copyright (c) 2015 Philip Fortier
+-
+-    This program is free software; you can redistribute it and/or
+-    modify it under the terms of the GNU General Public License
+-    as published by the Free Software Foundation; either version 2
+-    of the License, or (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-***************************************************************************/
+ #pragma once
+-
++#include "_parser_prologue.h"
+ #include "StudioSyntaxParser.h"
+-
+-namespace sci
+-{
+-    enum class ValueType : uint32_t;
+-}
+-
+-template<typename _TParser>
+-void FunctionStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->FunctionPtr->AddStatement(move(pContext->StatementPtrReturn));
+-    }
+-}
+-
+-template<typename _TParser>
+-void AddUseA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->Script().AddUse(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void AddIncludeA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->Script().AddInclude(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void ScriptNumberA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        if (pContext->PropertyValue.GetType() == ValueType::Number)
+-        {
+-            pContext->Script().SetScriptNumber(pContext->PropertyValue.GetNumberValue());
+-        }
+-        else
+-        {
+-            pContext->Script().SetScriptNumberDefine(pContext->PropertyValue.GetStringValue());
+-        }
+-    }
+-}
+-
+-template<typename _TParser>
+-void GenTextA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->Script().SetGenText(pContext->PropertyValue);
+-   }
+-}
+-
+-template<char const* error = nullptr, typename _TParser>
+-void PropValueIntA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->PropertyValueWasSet = true;
+-        pContext->PropertyValue.SetValue(pContext->Integer, pContext->HexInt);
+-        if (pContext->NegInt)
+-        {
+-            pContext->PropertyValue.Negate();
+-        }
+-        pContext->PropertyValue.SetPosition(stream.GetPosition());
+-    }
+-    else if (error)
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-template<sci::ValueType type, const char *error = nullptr, typename _TParser>
+-void PropValueStringA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->PropertyValueWasSet = true;
+-        pContext->PropertyValue.SetValue(pContext->ScratchString(), type);
+-        pContext->PropertyValue.SetPosition(stream.GetPosition());
+-    }
+-    else if (error)
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-
+-//
+-// Defines
+-//
+-template<typename _TParser>
+-void CreateDefineA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateDefine();
+-        pContext->DefinePtr->SetScript(&pContext->Script());
+-    }
+-}
+-
+-template<typename _TParser>
+-void DefineLabelA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->DefinePtr->SetLabel(pContext->ScratchString());
+-        pContext->DefinePtr->SetPosition(stream.GetPosition());
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected define label.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void DefineValueA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        IntegerFlags flags = IntegerFlags::None;
+-        if (pContext->HexInt)
+-        {
+-            flags |= IntegerFlags::Hex;
+-        }
+-        if (pContext->NegInt)
+-        {
+-            flags |= IntegerFlags::Negative;
+-        }
+-        pContext->DefinePtr->SetValue(pContext->Integer, flags);
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected integer value.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishDefineA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        if (pContext->ifDefDefineState != IfDefDefineState::False)
+-        {
+-            pContext->Script().AddDefine(move(pContext->DefinePtr));
+-        }
+-    }
+-}
+-
+-// Script variable
+-template<typename _TParser>
+-void CreateScriptVarA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->TransferScriptVariable();
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected variable declaration.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void ScriptVarInitA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        // Add a value to the script variable.
+-        pContext->VariableDeclPtr->AddStatement(move(pContext->StatementPtrReturn));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Script variables cannot be initialized with this type of value.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void ScriptVarInitAutoExpandA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        // Add a value to the script variable.
+-        pContext->VariableDeclPtr->AddStatement(move(pContext->StatementPtrReturn));
+-        if (pContext->VariableDeclPtr->IsUnspecifiedSize())
+-        {
+-            pContext->VariableDeclPtr->SetSize(static_cast<uint16_t>(pContext->VariableDeclPtr->GetInitializers().size()));
+-            pContext->VariableDeclPtr->SetIsUnspecifiedSize(true); // Since the above reset it.
+-        }
+-    }
+-    else
+-    {
+-        pContext->ReportError("Script variables cannot be initialized with this type of value.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishScriptVarA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->VariableDeclPtr->SetScript(&pContext->Script());
+-        pContext->Script().AddVariable(move(pContext->VariableDeclPtr));
+-    }
+-}
+-
+-// Variable Declaration (e.g. foo[5])
+-template<typename _TParser>
+-void CreateVarDeclA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->StartVariableDecl(pContext->ScratchString());
+-        pContext->VariableDecl->SetPosition(stream.GetPosition());
+-    }
+-}
+-
+-template<typename _TParser>
+-void VarDeclSizeA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->VariableDecl->SetSize(pContext->Integer);
+-    }
+-}
+-
+-template<typename _TParser>
+-void VarDeclSizeConstantA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->VariableDecl->SetSize(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void VarDeclSizeErrorA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (!match.Result())
+-    {
+-        pContext->ReportError("Expected array size.", stream);
+-    }
+-}
+-
+-// Function temp vars
+-template<typename _TParser>
+-void StartFunctionTempVarA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        // Just make sure we clear out any value (in case its used for initialization).
+-        // Actually this is no longer true. Variables aren't zero-initialized.
+-        // We actually need to track whether or not the variable has an initial value. Temp variables (i.e. in functions)
+-        // can only have initial values if they are not arrays (and the initial values are set explicitly by assignments in byte code)
+-        // I guess this is an SCIStudio limitation, but we'll keep the same syntax.
+-        pContext->PropertyValueWasSet = false;	// So we'll actually say it was not set.
+-        pContext->PropertyValue.Zero();
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected variable name.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishFunctionTempVarA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->VariableDecl->SetPosition(stream.GetPosition());
+-        // REVIEW
+-        // Use the current PropertyValue for initialization (it not used, it was zero'd out in StartFunctionTempVarA)
+-        if (pContext->PropertyValueWasSet)
+-        {
+-            pContext->FunctionPtr->AddVariable(move(pContext->VariableDecl), pContext->PropertyValue);
+-        }
+-        else
+-        {
+-            pContext->FunctionPtr->AddVariable(move(pContext->VariableDecl));
+-        }
+-    }
+-}
+-
+-// Procedures
+-
+-// Function
+-template<typename _TParser>
+-void CreateProcedureA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateProcedure();
+-    }
+-}
+-
+-template<typename _TParser>
+-void CreateMethodA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateMethod();
+-        pContext->FunctionPtr->SetOwnerClass(pContext->ClassPtr.get());
+-    }
+-}
+-
+-template<typename _TParser>
+-void ProcedurePublicA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        static_cast<ProcedurePtr>(pContext->FunctionPtr.get())->SetPublic(true);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FunctionNameA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->FunctionPtr->SetName(pContext->ScratchString());
+-        pContext->FunctionPtr->SetScript(&pContext->Script());
+-        pContext->FunctionPtr->SetPosition(stream.GetPosition());
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected function name.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FunctionParameterA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        std::unique_ptr<FunctionParameter> param = std::make_unique<FunctionParameter>(pContext->ScratchString());
+-        param->SetPosition(stream.GetPosition());
+-        pContext->FunctionPtr->GetSignaturesNC()[0]->AddParam(std::move(param), false);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FunctionCloseA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    pContext->FunctionPtr->SetEndPosition(stream.GetPosition());
+-    if (!match.Result() && pParser->_psz) // Check for _psz here... might have ')', or nothing.
+-    {
+-        GeneralE(match, pParser, pContext, stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishProcedureA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->Script().AddProcedure(move(pContext->GetFunctionAsProcedure()));
+-    }
+-}
+-
+-template<typename _TParser>
+-void ProcedureClassA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        static_cast<ProcedurePtr>(pContext->FunctionPtr.get())->SetClass(pContext->ScratchString());
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected class name.", stream);
+-    }
+-}
+-
+-
+-// Add a statement to a SyntaxNode
+-template<typename _T, typename _TParser>
+-void AddStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<_T>()->AddStatement(move(pContext->StatementPtrReturn));
+-    }
+-}
+-
+-template<typename _TParser>
+-void StartStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->PushSyntaxNode();
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->FinishStatement(true);
+-        assert(pContext->StatementPtrReturn); // This is our "return value"
+-        pContext->StatementPtrReturn->SetEndPosition(stream.GetPosition()); // Not the most accurate position, but good enough.
+-    }
+-    else
+-    {
+-        pContext->FinishStatement(false);
+-    }
+-}
+-
+-template<typename _T, typename _TParser>
+-void SetStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateSyntaxNode<_T>(stream);
+-        pContext->GetSyntaxNode<_T>()->SetPosition(stream.GetPosition());
+-    }
+-}
+-
+-template<typename _T, char const* error, typename _TParser>
+-void StatementBindTo1stA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<_T>()->SetStatement1(move(pContext->StatementPtrReturn));
+-    }
+-    else if (error)
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-template<typename _T, char const* error, typename _TParser>
+-void StatementBindTo2ndA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<_T>()->SetStatement2(move(pContext->StatementPtrReturn));
+-    }
+-    else
+-    {
+-        std::string statementName = pContext->GetSyntaxNode<_T>()->ToString();
+-        statementName += ":";
+-        statementName += error;
+-        pContext->ReportError(statementName.c_str(), stream);
+-    }
+-}
+-
+-// Property values
+-
+-// Complex properties
+-template<char const* error = nullptr, typename _TParser>
+-void ComplexValueIntA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        ComplexPropertyValue *pValue = pContext->GetSyntaxNode<ComplexPropertyValue>();
+-        pValue->SetValue(pContext->Integer, pContext->HexInt);
+-        if (pContext->NegInt)
+-        {
+-            pValue->Negate();
+-        }
+-    }
+-    else if (error)
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void ComplexValueParamTotalA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        ComplexPropertyValue *pValue = pContext->GetSyntaxNode<ComplexPropertyValue>();
+-        pValue->SetValue("paramTotal", ValueType::Token);
+-    }
+-}
+-
+-// Set the name of a SyntaxNode
+-template<typename _T, typename _TParser>
+-void SetStatementNameToParamTotalA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateSyntaxNode<_T>(stream);
+-        pContext->GetSyntaxNode<_T>()->SetName("paramTotal");
+-    }
+-}
+-
+-template<typename _TParser>
+-void ComplexValuePointerA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<ComplexPropertyValue>()->SetType(ValueType::Pointer);
+-    }
+-}
+-
+-template<sci::ValueType type, char const* error = nullptr, typename _TParser>
+-void ComplexValueStringA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        ValueType typeToUse = type;
+-        ComplexPropertyValue *pValue = pContext->GetSyntaxNode<ComplexPropertyValue>();
+-        if (pValue->GetType() == ValueType::Pointer)
+-        {
+-            assert(typeToUse == ValueType::Token);
+-            typeToUse = ValueType::Pointer; // It was already decided it was a pointer.
+-        }
+-        pValue->SetValue(pContext->ScratchString(), typeToUse);
+-    }
+-    else if (error)
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void ComplexValueIndexerA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<ComplexPropertyValue>()->SetIndexer(move(pContext->StatementPtrReturn));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected array index.", stream);
+-    }
+-}
+-
+-//
+-// Syntax node
+-//
+-template<typename _TParser>
+-bool SyntaxNodeD(const _TParser *pParser, SyntaxContext *pContext, streamIt &stream)
+-{
+-    // Make room on the stack for a statement
+-    pContext->PushSyntaxNode();
+-    // Then call our sub parser
+-    return pParser->_pa->Match(pContext, stream).Result();
+-}
+-template<typename _TParser>
+-void EndSyntaxNodeA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    // No matter what the state, pop a node off the stack.
+-    pContext->DeleteAndPopSyntaxNode();
+-}
+-
+-// l-value
+-template<typename _TParser>
+-void LValueIndexerA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<LValue>()->SetIndexer(move(pContext->StatementPtrReturn));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected array index.", stream);
+-    }
+-}
+-
+-// Assignments
+-template<typename _TParser>
+-void AssignmentVariableA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        // This is the variable description we need to add to the assignment thing:
+-        pContext->GetPrevSyntaxNode<Assignment>()->SetVariable(move(pContext->StealSyntaxNode<LValue>()));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected variable.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void AddSendParamA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetPrevSyntaxNode<SendCall>()->AddSendParam(pContext->StealSyntaxNode<SendParam>());
+-    }
+-}
+-
+-template<typename _TParser>
+-void AddSimpleSendParamA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        std::unique_ptr<SendParam> sendParam = std::make_unique<SendParam>(pContext->ScratchString(), false);
+-        sendParam->SetPosition(stream.GetPosition());
+-        pContext->GetSyntaxNode<SendCall>()->AddSendParam(std::move(sendParam));
+-    }
+-}
+-
+-// Set the name of a SyntaxNode
+-template<typename _T, typename _TParser>
+-void SetStatementNameA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateSyntaxNode<_T>(stream);
+-        pContext->GetSyntaxNode<_T>()->SetPosition(stream.GetPosition());
+-        pContext->GetSyntaxNode<_T>()->SetName(pContext->ScratchString());
+-    }
+-}
+-template<typename _T, typename _TParser>
+-void SetSelectorNameA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateSyntaxNode<_T>(stream);
+-        pContext->GetSyntaxNode<_T>()->SetPosition(stream.GetPosition());
+-        pContext->GetSyntaxNode<_T>()->SetName(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void SendParamIsMethod(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<SendParam>()->SetIsMethod(true);
+-    }
+-}
+-
+-template<typename _T, typename _TParser>
+-void SetNameA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<_T>()->SetName(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void AddExportA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        unique_ptr<ExportEntry> entry = make_unique<ExportEntry>();
+-        entry->SetPosition(stream.GetPosition());
+-        entry->Slot = pContext->Integer;
+-        entry->Name = pContext->ScratchString();
+-        pContext->Script().GetExports().push_back(move(entry));
+-    }
+-}
+-
+-// Classes
+-template<bool fInstance, typename _TParser>
+-void CreateClassA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateClass();
+-        pContext->ClassPtr->SetInstance(fInstance);
+-        pContext->ClassPtr->SetScript(&pContext->Script());
+-        pContext->ClassPtr->SetPosition(stream.GetPosition());
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishClassA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->Script().AddClass(move(pContext->ClassPtr));
+-    }
+-}
+-
+-template<typename _TParser>
+-void ClassNameA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->ClassPtr->SetName(pContext->ScratchString().c_str());
+-    }
+-}
+-
+-template<typename _TParser>
+-void ClassSuperA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->ClassPtr->SetSuperClass(pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void ClassCloseA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    pContext->ClassPtr->SetEndPosition(stream.GetPosition()); // set the closing position no matter what
+-    if (!match.Result() && pParser->_psz)
+-    {
+-        GeneralE(match, pParser, pContext, stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishClassMethodA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->ClassPtr->AddMethod(move(pContext->GetFunctionAsMethod()));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected method declaration.", stream);
+-    }
+-}
+-
+-// Class properties
+-template<typename _TParser>
+-void CreateClassPropertyA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->CreateClassProperty();
+-        pContext->ClassProp->SetName(pContext->ScratchString());
+-        pContext->ClassProp->SetPosition(stream.GetPosition());
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishClassPropertyA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->ClassProp->SetValue(pContext->PropertyValue);
+-        pContext->ClassPtr->AddProperty(move(pContext->ClassProp));
+-    }
+-}
+-
+-template<typename _TParser>
+-void FinishClassPropertyStatementA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->ClassProp->SetStatement1(move(pContext->StatementPtrReturn));
+-        pContext->ClassPtr->AddProperty(move(pContext->ClassProp));
+-    }
+-    else
+-    {
+-        pContext->ReportError("Expected a property value. Are you missing a property value in the list of properties?", stream);
+-    }
+-}
+-
+-// asm
+-template<typename _TParser>
+-void SetOpcodesExtraKeywordsA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    pContext->extraKeywords = &GetOpcodeSet();
+-}
+-template<typename _TParser>
+-void RemoveExtraKeywordsA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    pContext->extraKeywords = nullptr;
+-}
+-template<typename _TParser>
+-void SetLabelA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<Asm>()->SetLabel(pContext->ScratchString());
+-    }
+-}
+-
+-// switch/case
+-template<typename _TParser>
+-void SetDefaultCaseA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->GetSyntaxNode<CaseStatement>()->SetDefault(true);
+-    }
+-}
+-
+-// Errors
+-template<typename _It, typename _TParser>
+-void IdentifierE(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const _It &stream)
+-{
+-    if (!match.Result())
+-    {
+-        pContext->ReportError("Expected keyword.", stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void ExpectedProperyValueE(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (!match.Result())
+-    {
+-        pContext->ReportError("Expected a property value. Are you missing a property value in the list of properties?", stream);
+-    }
+-}
+-template<char const* error, typename _TParser>
+-void ErrorA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (!match.Result())
+-    {
+-        pContext->ReportError(error, stream);
+-    }
+-}
+-
+-template<typename _TParser>
+-void EvaluateIfDefA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->EvaluateIfDefScratch(stream, pContext->ScratchString());
+-    }
+-}
+-
+-template<typename _TParser>
+-void EvaluateEndIfA(MatchResult &match, const _TParser *pParser, SyntaxContext *pContext, const streamIt &stream)
+-{
+-    if (match.Result())
+-    {
+-        pContext->EndIf(stream);
+-    }
+-}
+-
+-// Denoted as extern, so they can be used as function template parameters.
+-extern char const errBinaryOp[];
+-extern char const errCaseArg[];
+-extern char const errSwitchArg[];
+-extern char const errSendObject[];
+-extern char const errArgument[];
+-extern char const errInteger[];
+-extern char const errIntegerTooLarge[];
+-extern char const errIntegerTooSmall[];
+-extern char const errThen[];
+-extern char const errElse[];
+-extern char const errNoKeywordOrSelector[];
+-extern char const errVarName[];
+-extern char const errFileNameString[];
+-
++#include_next "ParserActions.h"
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserCommon.h
++++ tools/scicompile/compat/ParserCommon.h
+@@ -12,6 +12,7 @@
+     GNU General Public License for more details.
+ ***************************************************************************/
+ #pragma once
++#include "_parser_prologue.h"
+ 
+ #include "ParseAutoCompleteContext.h"
+ 
+@@ -463,7 +464,7 @@
+                 // If we encountered a '+', then skip whitespace until we hit another open quote
+                 // "huwehuierger"+   "gejriger"
+                 ++stream;
+-                _CommentPolicy::EatWhitespaceAndComments<_TContext, _It>(nullptr, stream);
++                _CommentPolicy::template EatWhitespaceAndComments<_TContext, _It>(nullptr, stream);
+                 // ... and continue...
+             }
+             else
+@@ -534,14 +535,14 @@
+     // Fwd decl (Used for circular references in grammer descriptions)
+     // If an empty Parser is created (since you need to refer to it subsequently, but you can't
+     // define it yet), it will be endowed with this matching function.
+-    template<typename _It>
++    template<typename _ItShadowA>
+     bool static ReferenceForwarderP(const ParserBase *pParser, _TContext *pContext, _It &stream)
+     {
+         assert(FALSE);
+         return false; // Just a dummy return value
+     }
+ 
+-    template<typename _It>
++    template<typename _ItShadowB>
+     void static CopyParserVector(std::vector<std::unique_ptr<ParserBase>> &out, const std::vector<std::unique_ptr<ParserBase>> &in)
+     {
+         out.clear();
+@@ -638,7 +639,7 @@
+         assert(_pfn);
+         if (!_fLiteral)
+         {
+-            EatWhitespaceAndComments<_TContext, _It>(pContext, stream);
++            _CommentPolicy::template EatWhitespaceAndComments<_TContext, _It>(pContext, stream);
+         }
+         _It streamSave(stream);
+ #ifdef PARSE_DEBUG
+@@ -756,7 +757,7 @@
+         _parsers.push_back(std::move(std::make_unique<ParserBase>(add)));
+     }
+ 
+-    template<typename _TContext, typename _It, char Q1, char Q2>
++    template<typename _TCtxShadow, typename _ItShadowC, char Q1, char Q2>
+     bool ReadStringStudio(_TContext *pContext, _It &stream, std::string &str) const
+     {
+         return _ReadStringStudio<_TContext, _CommentPolicy, _It, Q1, Q2>(pContext, stream, str);
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceBlob.h
++++ tools/scicompile/compat/ResourceBlob.h
+@@ -81,6 +81,11 @@
+ template<typename _TLayout>
+ struct RESOURCEMAPENTRY_SCI0_BASE : public _TLayout
+ {
++    // GCC two-phase lookup: bring the dependent base's bitfield members into scope.
++    using _TLayout::iNumber;
++    using _TLayout::iType;
++    using _TLayout::iOffset;
++    using _TLayout::iPackageNumber;
+     ResourceType GetType() const { return (ResourceType)iType; }
+ 
+     ResourceMapEntryAgnostic ToAgnostic()
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceSources.h
++++ tools/scicompile/compat/ResourceSources.h
+@@ -229,7 +229,7 @@
+ 
+     bool ReadNextEntry(ResourceTypeFlags typeFlags, IteratorState &state, ResourceMapEntryAgnostic &entry, std::vector<uint8_t> *optionalRawData) override
+     {
+-        return NavAndReadNextEntry(typeFlags, GetMapStream(), state, entry, optionalRawData);
++        return this->NavAndReadNextEntry(typeFlags, GetMapStream(), state, entry, optionalRawData);
+     }
+ 
+     sci::istream GetHeaderAndPositionedStream(const ResourceMapEntryAgnostic &mapEntry, ResourceHeaderAgnostic &headerEntry) override
+@@ -307,7 +307,7 @@
+         sci::ostream mapStreamWrite2;
+         sci::istream mapStream = GetMapStream();
+         mapStream.seekg(0);
+-        while (NavAndReadNextEntry(ResourceTypeFlags::All, mapStream, state, entryExisting, nullptr))
++        while (this->NavAndReadNextEntry(ResourceTypeFlags::All, mapStream, state, entryExisting, nullptr))
+         {
+             // Three cases:
+             //  1) if this is the one we're deleting, skip it (don't write the entry)
+@@ -324,7 +324,7 @@
+                 {
+                     entryExisting.Offset -= sizeofSectionRemoved; // 2
+                 }
+-                WriteEntry(entryExisting, mapStreamWrite1, mapStreamWrite2, false);
++                this->WriteEntry(entryExisting, mapStreamWrite1, mapStreamWrite2, false);
+             }
+         }
+ 
+@@ -335,7 +335,7 @@
+         if (found)
+         {
+             // Combine the two write streams. Or rather, append stream 2 to the end of stream 1.
+-            FinalizeMapStreams(mapStreamWrite1, mapStreamWrite2);
++            this->FinalizeMapStreams(mapStreamWrite1, mapStreamWrite2);
+ 
+             // Now we have mapStreamWrite1 and volumeStreamWrite that have the needed data.
+             // Let's ask the _FileDescriptor to replace things.
+@@ -406,7 +406,7 @@
+                         // Then write this entry to the map, after modifying our map header's offset accordingly 
+                         entryExisting.Offset = newResourceOffset;
+                         entryExisting.PackageNumber = rebuildPackageNumber;
+-                        WriteEntry(entryExisting, mapStreamWrite1, mapStreamWrite2, false);
++                        this->WriteEntry(entryExisting, mapStreamWrite1, mapStreamWrite2, false);
+ 
+                         auto &statsForType = stats[entryExisting.Type];
+                         statsForType.ItemCount++;
+@@ -421,7 +421,7 @@
+         }
+ 
+         // Combine the two write streams. Or rather, append stream 2 to the end of stream 1.
+-        FinalizeMapStreams(mapStreamWrite1, mapStreamWrite2);
++        this->FinalizeMapStreams(mapStreamWrite1, mapStreamWrite2);
+ 
+         // Now we have mapStreamWrite1 and volumeStreamWrite that have the needed data.
+         // Let's ask the _FileDescriptor to replace things.
+@@ -462,7 +462,7 @@
+             newMapEntry.Type = header.Type;
+             newMapEntry.PackageNumber = (uint8_t)header.PackageHint;
+             newMapEntry.Offset = resourceOffset;
+-            WriteEntry(newMapEntry, mapStreamWriteMain, mapStreamWriteSecondary, true);
++            this->WriteEntry(newMapEntry, mapStreamWriteMain, mapStreamWriteSecondary, true);
+ 
+             // Write the header to the volume
+             header.CompressionMethod = 0; // We never write with compression, currently
+@@ -478,11 +478,11 @@
+         IteratorState iteratorState;
+         while (ReadNextEntry(ResourceTypeFlags::All, iteratorState, existingMapEntry, nullptr))
+         {
+-            WriteEntry(existingMapEntry, mapStreamWriteMain, mapStreamWriteSecondary, false);
++            this->WriteEntry(existingMapEntry, mapStreamWriteMain, mapStreamWriteSecondary, false);
+         }
+ 
+         // Combine the two write streams. Or rather, append stream 2 to the end of stream 1.
+-        FinalizeMapStreams(mapStreamWriteMain, mapStreamWriteSecondary);
++        this->FinalizeMapStreams(mapStreamWriteMain, mapStreamWriteSecondary);
+ 
+         // Now we have mapStreamWrite1 and volumeStreamWrite that have the needed data.
+         // Let's ask the _FileDescriptor to replace things.
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISyntaxParser.h
++++ tools/scicompile/compat/SCISyntaxParser.h
+@@ -1,161 +1,3 @@
+ #pragma once
+-
+-#include "ScriptOM.h"
+-#include "CrystalScriptStream.h"
+-#include "ParserCommon.h"
+-#include "AutoCompleteSourceTypes.h"
+-#include "StudioSyntaxParser.h"
+-#include <stack>
+-#include <deque>
+-
+-// Our parser...
+-typedef ParserBase<SyntaxContext, streamIt, EatCommentSemi> ParserSCI;
+-
+-class SCISyntaxParser
+-{
+-public:
+-    SCISyntaxParser();
+-
+-    bool Parse(sci::Script &script, CCrystalScriptStream::const_iterator &stream, std::unordered_set<std::string> preProcessorDefines, ICompileLog *pError, bool addCommentsToOM, bool collectComments);
+-    bool Parse(sci::Script &script, CCrystalScriptStream::const_iterator &stream, std::unordered_set<std::string> preProcessorDefines, SyntaxContext &context);
+-    bool ParseHeader(sci::Script &script, CCrystalScriptStream::const_iterator &stream, std::unordered_set<std::string> preProcessorDefines, ICompileLog *pError, bool collectComments);
+-    void Load();
+-
+-private:
+-    bool _fLoaded;
+-
+-
+-    ParserSCI entire_script;
+-
+-    // Basics
+-    ParserSCI immediateValue;
+-    ParserSCI string_immediateValue_NoResourceString;
+-    ParserSCI string_immediateValue2;
+-    ParserSCI array_init;
+-    ParserSCI pointer;
+-    ParserSCI general_token;
+-    ParserSCI selector_literal;
+-
+-    // Top level constructs
+-    ParserSCI include;
+-    ParserSCI use;
+-    ParserSCI scriptNum;
+-    ParserSCI genText;
+-    ParserSCI define;
+-    ParserSCI enumStatement;
+-    ParserSCI var_decl;
+-    ParserSCI script_var;
+-    ParserSCI procedure_decl;
+-    ParserSCI procedure_base;
+-    ParserSCI function_var_decl;
+-    ParserSCI exports;
+-    ParserSCI synonyms;
+-    ParserSCI synonym_entry;
+-    ParserSCI export_entry;
+-    ParserSCI class_decl;
+-    ParserSCI instance_decl;
+-    ParserSCI classbase_decl;
+-    ParserSCI properties_decl;
+-    ParserSCI property_decl;
+-    ParserSCI method_decl;
+-    ParserSCI method_base;
+-
+-    // Statements
+-    ParserSCI statement;
+-    ParserSCI return_statement;
+-    ParserSCI value;
+-    ParserSCI assignment;
+-    ParserSCI assignment_operator;
+-    std::string assignmentOps;
+-    ParserSCI binary_operator;
+-    std::string binaryOps;
+-    ParserSCI binary_operation;
+-    ParserSCI naryassoc_operator;
+-    std::string naryAssocOps;
+-    ParserSCI naryassoc_operation;
+-    ParserSCI narycompare_operator;
+-    std::string naryCompareOps;
+-    ParserSCI narycompare_operation;
+-    ParserSCI unary_operator;
+-    std::string unaryOps;
+-    ParserSCI unary_operation;
+-    ParserSCI lvalue;
+-    ParserSCI rvalue_variable;
+-    ParserSCI rest_statement;
+-    ParserSCI break_statement;
+-    ParserSCI breakif_statement;
+-    ParserSCI continue_statement;
+-    ParserSCI contif_statement;
+-    ParserSCI repeat_statement;
+-    ParserSCI procedure_call;
+-    ParserSCI send_call;
+-    ParserSCI send_param_call;
+-    ParserSCI prop_get_call;
+-    ParserSCI if_statement;
+-    ParserSCI bare_code_block;
+-    ParserSCI wrapped_code_block;
+-    ParserSCI conditional;
+-    ParserSCI while_loop;
+-    ParserSCI for_loop;
+-    ParserSCI switch_statement;
+-    ParserSCI case_statement;
+-    ParserSCI switchto_statement;
+-    ParserSCI switchto_case_statement;
+-    ParserSCI asm_statement;
+-    ParserSCI asm_block;
+-    ParserSCI asm_label;
+-    ParserSCI asm_arg;
+-    ParserSCI cond_statement;
+-    ParserSCI size_of;
+-    ParserSCI entire_header;
+-
+-    // Non-code parsers:
+-    ParserSCI classdef_file;
+-    ParserSCI class_def;
+-    ParserSCI class_def_internal;
+-    ParserSCI class_def_attributes;
+-    ParserSCI extern_entry;
+-    ParserSCI extern_section;
+-    ParserSCI global_entry;
+-    ParserSCI global_section;
+-    ParserSCI selector_entry;
+-    ParserSCI selector_section;
+-    // Other unsupported:
+-    ParserSCI methods_fwd;
+-    ParserSCI procedures_fwd;
+-
+-    // Utility
+-    static ParserSCI char_p(const char *psz);
+-    static ParserSCI keyword_p(const char *psz);
+-    static ParserSCI operator_p(const char *psz);
+-    static ParserSCI generateSyntaxNodeD();
+-
+-    ParserSCI syntaxnode_d;
+-    ParserSCI alphanumAsmLabel_p;
+-    ParserSCI selector_p;
+-    ParserSCI selector_send_p;
+-    ParserSCI propget_p;
+-    ParserSCI filename_p;
+-    ParserSCI asmInstruction_p;
+-    ParserSCI alphanumNK_p;
+-    ParserSCI alphanumNK_p2;
+-    ParserSCI alphanumSendToken_p;
+-    ParserSCI alphanum_p;
+-    ParserSCI alwaysmatch_p;
+-    ParserSCI bracestring_p;
+-    ParserSCI squotedstring_p;
+-    ParserSCI quotedstring_p;
+-    ParserSCI oppar;
+-    ParserSCI clpar;
+-    ParserSCI integer_p;
+-    ParserSCI integerNonZero_p;
+-    ParserSCI opbracket;
+-    ParserSCI clbracket;
+-    ParserSCI pound;
+-    ParserSCI atsign;
+-    ParserSCI comma;
+-    ParserSCI colon;
+-    ParserSCI equalSign;
+-    ParserSCI question;
+-};
+-
++#include "_parser_prologue.h"
++#include_next "SCISyntaxParser.h"
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOM.h
++++ tools/scicompile/compat/ScriptOM.h
+@@ -1021,9 +1021,9 @@
+         _T *ReduceBlock()
+         {
+             _T *pReduced = nullptr;
+-            if ((_segments.size() == 1) && (_segments[0]->CastSyntaxNode<_T>()))
++            if ((_segments.size() == 1) && (SafeSyntaxNode<_T>(_segments[0].get())))
+             {
+-                pReduced = static_cast<_T*>(_segments[0]->ReleaseSyntaxNode());
++                pReduced = static_cast<_T*>(_segments[0].release());
+             }
+             return pReduced;
+         }
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SourceCodeFormatter.h
++++ tools/scicompile/compat/SourceCodeFormatter.h
+@@ -1,99 +1,6 @@
+-/***************************************************************************
+-    Copyright (c) 2015 Philip Fortier
+-
+-    This program is free software; you can redistribute it and/or
+-    modify it under the terms of the GNU General Public License
+-    as published by the Free Software Foundation; either version 2
+-    of the License, or (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-***************************************************************************/
+ #pragma once
+-
+-namespace sci
+-{
+-    class WeakSyntaxNode;
+-}
+-
+-class SourceCodeFormatter : public sci::ISyntaxNodeVisitor
+-{
+-public:
+-    SourceCodeFormatter(sci::SourceCodeWriter &out) : out(out) {}
+-
+-protected:
+-    sci::SourceCodeWriter &out;
+-
+-    template<typename _T>
+-    void Forward(_T &things)
+-    {
+-        bool first = true;
+-        for (const auto &thing : things)
+-        {
+-            if (!first && out.fInline)
+-            {
+-                // If these are all inline, add whitespace between them.
+-                out.out << " ";
+-            }
+-            thing->Accept(*this);
+-            first = false;
+-        }
+-    }
+-
+-    template<typename _T>
+-    void Forward(_T &things, const char *pszSeparator)
+-    {
+-        bool first = true;
+-        for (const auto &thing : things)
+-        {
+-            if (!first && out.fInline)
+-            {
+-                out.out << pszSeparator;
+-            }
+-            thing->Accept(*this);
+-            first = false;
+-        }
+-    }
+-
+-    template<typename _T>
+-    void ForwardAlwaysSeparate(_T &things, const char *pszSeparator)
+-    {
+-        bool first = true;
+-        for (const auto &thing : things)
+-        {
+-            if (!first)
+-            {
+-                out.out << pszSeparator;
+-            }
+-            thing->Accept(*this);
+-            first = false;
+-        }
+-    }
+-
+-    template<typename _T>
+-    void ForwardOptionalSection(const char *sectionName, _T &things)
+-    {
+-        if (!things.empty())
+-        {
+-            out.out << "(" << sectionName;
+-            {
+-                DebugIndent indent(out);
+-                out.out << endl;
+-                for (const auto &thing : things)
+-                {
+-                    thing->Accept(*this);
+-                    if (out.fInline)
+-                    {
+-                        // If these are all inline, add whitespace between them.
+-                        out.out << " ";
+-                    }
+-                }
+-                out.out << endl;
+-            }
+-            out.out << ")";
+-        }
+-    }
+-    void Visit(const sci::WeakSyntaxNode &weakNode);
+-};+// The real header uses bare `endl` in inline members; make it resolvable (MSVC had
++// `using namespace std` in effect at the include site).
++#include <ostream>
++using std::endl;
++#include_next "SourceCodeFormatter.h"
+--- vendor/SCICompanion/SCICompanionLib/Src/Util/Stream.h
++++ tools/scicompile/compat/Stream.h
+@@ -97,7 +97,7 @@
+             }
+         }
+         template<class _T>
+-        istream &operator>> (typename _T &t)
++        istream &operator>> (_T &t)
+         {
+             uint32_t dwSave = tellg();
+             if (!_Read(reinterpret_cast<uint8_t*>(&t), sizeof(t)))
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/StudioSyntaxParser.h
++++ tools/scicompile/compat/StudioSyntaxParser.h
+@@ -13,6 +13,7 @@
+ ***************************************************************************/
+ 
+ #pragma once
++#include "_parser_prologue.h"
+ 
+ #include "ScriptOM.h"
+ #include "CrystalScriptStream.h"
+@@ -203,7 +204,7 @@
+ template<typename _It, typename _TContext, typename _CommentPolicy>
+ bool QuotedStringP(const ParserBase<_TContext, _It, _CommentPolicy> *pParser, _TContext *pContext, _It &stream)
+ {
+-    return pParser->ReadStringStudio<_TContext, _It, '"', '"'>(pContext, stream, pContext->ScratchString());
++    return pParser->template ReadStringStudio<_TContext, _It, '"', '"'>(pContext, stream, pContext->ScratchString());
+ }
+ 
+ template<typename _It, typename _TContext, typename _CommentPolicy>
+@@ -211,13 +212,13 @@
+ {
+     // Note: We could expand autocomplete coverage to include said tokens. In that case we'd need to
+     // have ReadStringStudio *not* block all autocomplete channels.
+-    return pParser->ReadStringStudio<_TContext, _It, '\'', '\''>(pContext, stream, pContext->ScratchString());
++    return pParser->template ReadStringStudio<_TContext, _It, '\'', '\''>(pContext, stream, pContext->ScratchString());
+ }
+ 
+ template<typename _It, typename _TContext, typename _CommentPolicy>
+ bool BraceStringP(const ParserBase<_TContext, _It, _CommentPolicy> *pParser, _TContext *pContext, _It &stream)
+ {
+-    return pParser->ReadStringStudio<_TContext, _It, '{', '}'>(pContext, stream, pContext->ScratchString());
++    return pParser->template ReadStringStudio<_TContext, _It, '{', '}'>(pContext, stream, pContext->ScratchString());
+ }
+ 
+ //
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxContext.h
++++ tools/scicompile/compat/SyntaxContext.h
+@@ -1,329 +1,3 @@
+-/***************************************************************************
+-    Copyright (c) 2015 Philip Fortier
+-
+-    This program is free software; you can redistribute it and/or
+-    modify it under the terms of the GNU General Public License
+-    as published by the Free Software Foundation; either version 2
+-    of the License, or (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-***************************************************************************/
+ #pragma once
+-
+-#include "CrystalScriptStream.h"
+-#include "AutoCompleteSourceTypes.h"
+-#include "ParseAutoCompleteContext.h"
+-
+-// The kind of iterator we use.
+-typedef CCrystalScriptStream::const_iterator streamIt;
+-
+-enum class IfDefDefineState
+-{
+-    None,
+-    False,  // In a clause that is false
+-    True,   // In a clause that is true
+-};
+-
+-class SyntaxContext
+-{
+-public:
+-    SyntaxContext(streamIt beginning, sci::Script &script, std::unordered_set<std::string> preProcessorDefines, bool addCommentsDirectly, bool collectComments) : _beginning(beginning), _script(script), extraKeywords(nullptr), ifDefDefineState(IfDefDefineState::None), _preProcessorDefines(preProcessorDefines), _addCommentsToOM(addCommentsDirectly), _collectComments(collectComments), CurrentStringType(0)
+-#ifdef PARSE_DEBUG
+-        , ParseDebug(false), ParseDebugIndent(0)
+-#endif
+-    {}
+-
+-    ~SyntaxContext()
+-    {
+-        assert(_statements.empty()); // Or else someone messed up, or there could have been an exception
+-    }
+-    void ReportError(const std::string &error, streamIt pos);
+-
+-    std::string GetErrorText()
+-    {
+-        return _error;
+-    }
+-    streamIt GetErrorPosition()
+-    {
+-        return _beginning;
+-    }
+-
+-    char CurrentStringType;
+-
+-    void PushParseAutoCompleteContext(ParseACChannels pacc)
+-    {
+-        // For now, just set. We'll use a stack if necessary.
+-        _parseAutoCompleteContext.push_back(pacc);
+-    }
+-    void PopParseAutoCompleteContext()
+-    {
+-        _parseAutoCompleteContext.pop_back();
+-    }
+-
+-    std::set<ParseAutoCompleteContext> GetParseAutoCompleteContext() const
+-    {
+-        ParseAutoCompleteContext channels[4] = { };
+-        bool done[4] = { };
+-        for (auto it = _parseAutoCompleteContext.rbegin(); it != _parseAutoCompleteContext.rend(); ++it)
+-        {
+-            for (int i = 0; i < 4; i++)
+-            {
+-                if (!done[i])
+-                {
+-                    ParseAutoCompleteContext acc = ExtractChannel(*it, (ParseAutoCompleteChannel)i);
+-                    if (acc == ParseAutoCompleteContext::Block)
+-                    {
+-                        done[i] = true;
+-                    }
+-                    if (acc != ParseAutoCompleteContext::None)
+-                    {
+-                        channels[i] = acc;
+-                        done[i] = true;
+-                    }
+-                }
+-            }
+-        }
+-        return std::set<ParseAutoCompleteContext>(std::begin(channels), std::end(channels));
+-    }
+-
+-    // Accessors
+-    sci::Script &Script() { return _script; }
+-    std::string &ScratchString() { return _scratch; }
+-    std::string &ScratchString2() { return _scratch2; }
+-    void SetInteger(int i, bool fNeg, bool fHex, streamIt pos)
+-    {
+-        if ((i > 0xffff) || (i < -32768))
+-        {
+-            ReportError("Integer value is too large.", pos);
+-        }
+-        Integer = (WORD)i;
+-        NegInt = fNeg;
+-        HexInt = fHex;
+-    }
+-    uint16_t Integer;   // Last encountered number 
+-    bool NegInt;        // Was the number a result of negation
+-    bool HexInt;        // Was the number expressed in hex
+-    uint16_t Integer2;
+-
+-    void CreateSynonym() { this->SynonymPtr = std::make_unique<sci::Synonym>(); }
+-    std::unique_ptr<sci::Synonym> SynonymPtr;
+-
+-    void CreateDefine() { DefinePtr = std::make_unique<sci::Define>(); }
+-    std::unique_ptr<sci::Define> DefinePtr;
+-
+-    void CreateProcedure() {
+-        FunctionPtr = std::make_unique<sci::ProcedureDefinition>(); FunctionPtr->AddSignature(std::move(std::make_unique<sci::FunctionSignature>()));
+-    }
+-    void CreateMethod() {
+-        FunctionPtr = std::make_unique<sci::MethodDefinition>(); FunctionPtr->AddSignature(std::move(std::make_unique<sci::FunctionSignature>()));
+-    }
+-    std::unique_ptr<sci::FunctionBase> FunctionPtr;
+-    std::unique_ptr<sci::ProcedureDefinition> GetFunctionAsProcedure() {
+-        return std::unique_ptr<sci::ProcedureDefinition>(static_cast<sci::ProcedureDefinition*>(FunctionPtr.release()));
+-    }
+-    std::unique_ptr<sci::MethodDefinition> GetFunctionAsMethod() {
+-        return std::unique_ptr<sci::MethodDefinition>(static_cast<sci::MethodDefinition*>(FunctionPtr.release()));
+-    }
+-
+-    void CreateClass() { ClassPtr = std::make_unique<sci::ClassDefinition>(); }
+-    std::unique_ptr<sci::ClassDefinition> ClassPtr;
+-
+-    void CreateClassProperty() { ClassProp = std::make_unique<sci::ClassProperty>(); }
+-    std::unique_ptr<sci::ClassProperty> ClassProp;
+-
+-    void StartVariableDecl(const std::string &name)
+-    {
+-        VariableDecl = std::make_unique<sci::VariableDecl>();
+-        VariableDecl->SetName(name);
+-        VariableDecl->SetSize(1); // Vars are size 1 by default.
+-        VariableDecl->SetIsUnspecifiedSize(true);
+-    }
+-
+-    // 1) Each statement must begin with a push onto the statement stack.
+-    // 2) The subrule will fill that in with the required node (forloop, assignment, etc...)
+-    // 3) Once the subrule is complete, we'll either
+-    //      a) transfer the node to a new statement object, and pop the node of the statement stack (if successful), or
+-    //      b) delete the node, and pop it off the statement stack.
+-    void PushSyntaxNode()
+-    {
+-        // Put a null on the statement stack to make room for a statement
+-        _statements.push(std::move(std::unique_ptr<sci::SyntaxNode>()));
+-    }
+-
+-    void TryAddCommentDirectly(std::unique_ptr<sci::Comment> &comment)
+-    {
+-        if (_addCommentsToOM)   // For now...
+-        {
+-            if (!_statements.empty())
+-            {
+-                _statements.push(move(comment));
+-            }
+-            else if (FunctionPtr)
+-            {
+-                FunctionPtr->AddStatement(move(comment));
+-            }
+-        }
+-    }
+-
+-    // This is the "return value" from a generic statement
+-    std::unique_ptr<sci::SyntaxNode> StatementPtrReturn;
+-
+-    void FinishStatement(bool fSuccess)
+-    {
+-        if (fSuccess)
+-        {
+-            // The statement is moved to the "return value"
+-            StatementPtrReturn = std::move(_statements.top());
+-        }
+-        else
+-        {
+-            // We shall never hear of this statement again. Pop will automatically delete it.
+-        }
+-        _statements.pop(); // It's now an empty one?
+-    }
+-
+-    // Make a syntax node (forloop, assignment, etc...) at the top of the statement stack
+-    // (use PushSyntaxNode to push a new spot onto the stack)
+-    template<typename _T>
+-    void CreateSyntaxNode(const streamIt &stream)
+-    {
+-        assert(!_statements.empty());       // That would mean there is no statement stack frame at all.
+-        if (_statements.top())
+-        {
+-            // Someone created a statement, then didn't clean up (e.g. property value was created, but then failed!)
+-            _statements.top().reset(nullptr);
+-        }
+-
+-        std::unique_ptr<_T> p = std::make_unique<_T>();
+-        // Assign a line/char #
+-        p->SetPosition(stream.GetPosition());
+-        _statements.top() = std::move(p);
+-    }
+-
+-    template<typename _statementT>
+-    void ReplaceSyntaxNode(std::unique_ptr<_statementT> node)
+-    {
+-        _statements.top().reset(static_cast<SyntaxNode*>(node.release()));
+-    }
+-
+-    // Returns a pointer to the first syntax node of this type
+-    const sci::SyntaxNode *GetSyntaxNode(sci::NodeType type) const;
+-    // Returns the type of the topmost non-null syntax node
+-    sci::NodeType GetTopKnownNode() const;
+-
+-    // Get the syntax node at the top of the statement stack
+-    template<typename _statementT>
+-    _statementT* GetSyntaxNode() const
+-    {
+-        const std::unique_ptr<sci::SyntaxNode> &node = _statements.top();
+-        assert(node->GetNodeType() == _statementT::MyNodeType);
+-        return static_cast<_statementT*>(node.get());
+-    }
+-
+-    template<typename _statementT>
+-    std::unique_ptr<_statementT> StealStatementReturn()
+-    {
+-        assert(StatementPtrReturn->GetNodeType() == _statementT::MyNodeType);
+-        return std::unique_ptr<_statementT>(static_cast<_statementT*>(StatementPtrReturn.release()));
+-    }
+-
+-    template<typename _statementT>
+-    _statementT* GetPrevSyntaxNode() const
+-    {
+-        // Get the item that isn't at the top of the stack... it's one up.
+-        auto prevIt = _statements._Get_container().rbegin();
+-        prevIt++;
+-        assert((*prevIt)->GetNodeType() == _statementT::MyNodeType);
+-        return static_cast<_statementT*>((*prevIt).get());
+-    }
+-    // Like GetSyntaxNode, but sets the top of the stack to nullptr (doesn't pop),
+-    // assuming that ownership has been transfered to the caller.
+-    template<typename _statementT>
+-    std::unique_ptr<_statementT> StealSyntaxNode()
+-    {
+-        // _statements.top should always be non-null. We could assert, but we do this anyway:
+-        assert(_statements.top()->GetNodeType() == _statementT::MyNodeType);
+-        // We just steal it from the top of the stack:
+-        return std::unique_ptr<_statementT>(static_cast<_statementT*>(_statements.top().release()));
+-    }
+-    std::unique_ptr<sci::SyntaxNode> StealSyntaxNode()
+-    {
+-        // We just steal it from the top of the stack:
+-        return std::move(_statements.top());
+-    }
+-    void DeleteAndPopSyntaxNode()
+-    {
+-        _statements.pop();
+-    }
+-
+-    void EvaluateIfDefScratch(const streamIt &stream, const std::string &value)
+-    {
+-        if (ifDefDefineState != IfDefDefineState::None)
+-        {
+-            ReportError("Already in an #ifdef.", stream);
+-        }
+-
+-        if (_preProcessorDefines.find(value) != _preProcessorDefines.end())
+-        {
+-            ifDefDefineState = IfDefDefineState::True;
+-        }
+-        else
+-        {
+-            ifDefDefineState = IfDefDefineState::False;
+-        }
+-    }
+-    void EndIf(const streamIt &stream)
+-    {
+-        if (ifDefDefineState == IfDefDefineState::None)
+-        {
+-            ReportError("Not in an #ifdef.", stream);
+-        }
+-        ifDefDefineState = IfDefDefineState::None;
+-    }
+-
+-    void TransferScriptVariable()
+-    {
+-        VariableDeclPtr = std::move(VariableDecl);
+-        VariableDecl = std::make_unique<sci::VariableDecl>();
+-    }
+-    std::unique_ptr<sci::VariableDecl> VariableDeclPtr;
+-
+-    // A generic values for everyone to use (one at a time!)
+-    // These kinds of objects are "dead ends" on the parse tree, so it should be ok if
+-    // there is only instance of them.
+-    sci::PropertyValue PropertyValue;
+-    bool PropertyValueWasSet = false;
+-    std::unique_ptr<sci::VariableDecl> VariableDecl;
+-
+-    // Hack for certain situations where we want to check for more keywords
+-    std::unordered_set<std::string> *extraKeywords;
+-    // Hacky/quick way of supported ifdefs for header defines.
+-    IfDefDefineState ifDefDefineState;
+-
+-    bool CollectComments() {
+-        return _collectComments;
+-    }
+-
+-private:
+-    std::unordered_set<std::string> _preProcessorDefines;
+-
+-    std::string _error;
+-    streamIt _beginning;
+-    bool _collectComments;  // Do we care baout comments at all?
+-    bool _addCommentsToOM;  // And if so, do we add them to the OM?
+-    sci::Script &_script;
+-    std::string _scratch;
+-    std::string _scratch2;
+-    std::vector<ParseACChannels> _parseAutoCompleteContext;
+-    std::stack<std::unique_ptr<sci::SyntaxNode>> _statements;
+-
+-public:
+-#ifdef PARSE_DEBUG
+-    bool ParseDebug;
+-    int ParseDebugIndent = 0;
+-#endif
+-
+-};+#include "_parser_prologue.h"
++#include_next "SyntaxContext.h"
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab000.h
++++ tools/scicompile/compat/Vocab000.h
+@@ -64,7 +64,7 @@
+ 
+     typedef DWORD WordGroup;
+ 
+-    typedef std::unordered_map<std::string, WordGroup> word2group_map;
++    typedef scicompat::hash_map_lb<std::string, WordGroup> word2group_map;  // MSVC unordered_map::lower_bound ext
+ 	typedef std::unordered_map<WordGroup, std::string> group2words_map;
+ 	typedef std::unordered_map<WordGroup, WordClass> group2class_map;
+ 
+--- vendor/SCICompanion/SCICompanionLib/Src/Util/sci.h
++++ tools/scicompile/compat/sci.h
+@@ -152,7 +152,7 @@
+ std::string GetGameIniFileName(const std::string &gameFolder);
+ std::string FigureOutResourceName(const std::string &iniFileName, ResourceType type, int iNumber, uint32_t base36Number);
+ 
+-const TCHAR *g_rgszTypeToSectionName[];
++extern const TCHAR *g_rgszTypeToSectionName[];
+ 
+ ResourceTypeFlags ResourceTypeToFlag(ResourceType dwType);
+ ResourceType ResourceFlagToType(ResourceTypeFlags dwType);
+@@ -219,7 +219,7 @@
+ #define EGACOLOR_TO_BYTE(x) ((x).color2 | ((x).color1 << 4))
+ #define EGACOLOR_EQUAL(a, b) (EGACOLOR_TO_BYTE(a) == EGACOLOR_TO_BYTE(b))
+ 
+-TCHAR g_szGdiplusFilter[];
++extern TCHAR g_szGdiplusFilter[];
+ 
+ extern RGBQUAD g_egaColors[16];
+ extern RGBQUAD g_egaColorsPlusOne[17];
+@@ -237,7 +237,7 @@
+ RGBQUAD EgaColorToRGBQuad(EGACOLOR ega);
+ extern const int VocabKernelNames;
+ 
+-EGACOLOR g_egaColorChooserPalette[];
++extern EGACOLOR g_egaColorChooserPalette[];
+ 
+ EGACOLOR EGAColorFromByte(BYTE b);
+ 
+@@ -537,7 +537,7 @@
+ void testopenforwrite(const std::string &filename);
+ uint32_t GetResourceOffsetInFile(uint8_t secondHeaderByte);
+ extern const TCHAR g_szResourceSpec[];
+-extern const TCHAR* g_szResourceSpecByType[ResourceType::Max];
++extern const TCHAR* g_szResourceSpecByType[(int)ResourceType::Max];
+ std::string GetMessageFromLastError(const std::string &details);
+ void ToUpper(std::string &aString);
+ bool IsCodeFile(const std::string &text);
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioCacheResourceSource.cpp
++++ tools/scicompile/patched/AudioCacheResourceSource.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of AudioCacheResourceSource.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (by-value proxy iterators; rvalue istream&). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -382,7 +384,7 @@
+ 
+         // Now all audio and sync resources.
+         auto resourceContainer = helper.Resources(ResourceTypeFlags::Audio, ResourceEnumFlags::None, nullptr, mapContext);
+-        for (auto &blob : *resourceContainer)
++        for (auto blob : *resourceContainer)
+         {
+             SaveAudioBlobToFiles(*blob, cacheSubFolder);
+         }
+@@ -463,7 +465,7 @@
+             ScopedFile scopedFile(fullPath, GENERIC_READ, FILE_SHARE_READ, OPEN_EXISTING);
+             sci::streamOwner owner(scopedFile.hFile);
+             std::unique_ptr<AudioNegativeComponent> negative = std::make_unique<AudioNegativeComponent>();
+-            AudioComponentFromWaveFile(owner.getReader(), negative->Audio, &negative->Settings);
++            { sci::istream __rs = owner.getReader(); AudioComponentFromWaveFile(__rs, negative->Audio, &negative->Settings); }
+             resource.AddComponent(std::move(negative));
+         }
+     }
+@@ -568,7 +570,7 @@
+     std::unordered_map<uint64_t, std::unique_ptr<ResourceBlob>> blobs;
+     int mapContext = (number == version.AudioMapResourceNumber) ? -1 : number;
+     auto resourceContainer = helper.Resources(ResourceTypeFlags::Audio, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::AddInDefaultEnumFlags, nullptr, mapContext);
+-    for (auto &blob : *resourceContainer)
++    for (auto blob : *resourceContainer)
+     {
+         uint64_t key = _GetLookupKey(blob->GetNumber(), blob->GetBase36());
+         blobs[key] = std::move(blob);
+@@ -698,7 +700,7 @@
+     std::map<int, std::unique_ptr<ResourceEntity>> audioMaps;
+     {   
+         auto resourceContainer = _helper.Resources(ResourceTypeFlags::AudioMap, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::IncludeCacheFiles | ResourceEnumFlags::AddInDefaultEnumFlags);
+-        for (auto &blob : *resourceContainer)
++        for (auto blob : *resourceContainer)
+         {
+             // If this audio map is sourced from the cache, then if it's out of date we definitely need to rebuild.
+             if (ResourceSourceFlags::AudioMapCache == blob->GetSourceFlags())
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioResourceSource.cpp
++++ tools/scicompile/patched/AudioResourceSource.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of AudioResourceSource.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (by-value proxy iterator). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -32,7 +34,7 @@
+         _mapContext = _version.AudioMapResourceNumber;
+     }
+     auto resourceContainer = _helper.Resources(ResourceTypeFlags::AudioMap, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::AddInDefaultEnumFlags);
+-    for (auto &blob : *resourceContainer)
++    for (auto blob : *resourceContainer)
+     {
+         if ((_mapContext == -1) || (blob->GetNumber() == _mapContext))
+         {
+--- vendor/SCICompanion/SCICompanionLib/Src/Util/ClassBrowser.cpp
++++ tools/scicompile/patched/ClassBrowser.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of ClassBrowser.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (typename; by-value proxy iterator). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -55,7 +57,7 @@
+ typename T::pointer lookup_ptr(const std::unordered_map<T2, T> &map, const T2 &str)
+ {
+     typename T::pointer pRet = nullptr;
+-	std::unordered_map<T2, T>::const_iterator nodeIt = map.find(str);
++	typename std::unordered_map<T2, T>::const_iterator nodeIt = map.find(str);
+     if (nodeIt != map.end())
+     {
+         pRet = nodeIt->second.get();
+@@ -67,7 +69,7 @@
+ bool lookup_item(const std::unordered_map<T2, T> &map, const T2 &str, T &result)
+ {
+     bool fRet = false;
+-	std::unordered_map<T2, T>::const_iterator nodeIt = map.find(str);
++	typename std::unordered_map<T2, T>::const_iterator nodeIt = map.find(str);
+     if (nodeIt != map.end())
+     {
+         result = nodeIt->second;
+@@ -476,7 +478,7 @@
+ 
+     unordered_map<int, pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>>> heapScriptPairs;
+     auto resourceContainer = appState->GetResourceMap().Resources(ResourceTypeFlags::Script | ResourceTypeFlags::Heap, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::AddInDefaultEnumFlags);
+-    for (auto &scriptBlob : *resourceContainer)
++    for (auto scriptBlob : *resourceContainer)  // proxy iterator yields unique_ptr by value
+     {
+         pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>> &entry = heapScriptPairs[scriptBlob->GetNumber()];
+         if (scriptBlob->GetType() == ResourceType::Script)
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/Compile.cpp
++++ tools/scicompile/patched/Compile.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of Compile.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (no logic change). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -1471,7 +1473,7 @@
+         assert(wObjectSpecies != DataTypeInvalid);
+         // Let the sendparams know whom they're calling. However, use "DataTypeAny" in the case of self, because a call to self
+         // might be a call on a subclass of ourselves. In that case, we can't know which properties or methods it supports.
+-        SendTargetSpeciesIndex objectSpecies(context, (bOpSend == Opcode::SELF) ? DataTypeAny : wObjectSpecies, GetTargetName());
++        SendTargetSpeciesIndex objectSpecies(context, (bOpSend == Opcode::SELF) ? SpeciesIndex(DataTypeAny) : wObjectSpecies, GetTargetName());
+         COutputContext stackContext(context, OC_Stack); // Ensure parameters are pushed on the stack.
+ 
+         GenericOutputByteCode2<SendParam> gobcResult = for_each(_params.begin(), _params.end(), GenericOutputByteCode2<SendParam>(context));
+@@ -1747,6 +1749,23 @@
+ 
+     case ProcedureUnknown:
+         {
++            // SIERRA_SOFTLOCK PATCH: a decompiler-named external proc encodes its own linkage.
++            // sci-tools names a cross-script call `proc<script>_<index>` -- read straight off
++            // the original `calle <script> <index>` -- so when NO interface resolves the name
++            // (the script is absent from this game version: KQ6 ships speedRoom's call into a
++            // stripped script 911), the faithful recompile is exactly that calle. The branch is
++            // as dead in our output as it was in Sierra's shipped bytecode; failing the whole
++            // script over it was the only alternative, and it blocked recompiling a room we
++            // never even edit.
++            {
++                unsigned int wS = 0, wI = 0;
++                if (sscanf(_innerName.c_str(), "proc%u_%u", &wS, &wI) == 2 &&
++                    _innerName == "proc" + std::to_string(wS) + "_" + std::to_string(wI))
++                {
++                    context.code().inst(GetLineNumber(), Opcode::CALLE, (WORD)wS, (WORD)wI, wCallBytes);
++                    break;
++                }
++            }
+             std::string message = "Unknown procedure";
+             bool checkUse = true;
+             if (context.GetLanguage() == LangSyntaxSCI)
+@@ -1954,9 +1973,22 @@
+                 // The result is now in the accumulator.  We actually want it in the stack, since
+                 // we want to use the variable index (currently on the stack) in the accumulator
+                 // Do a little trick:
+-                WriteSimple(context, Opcode::EQ, GetLineNumber());        // -> eq?... the value in the accumulator will now be on the prev register
+-                WriteSimple(context, Opcode::TOSS, GetLineNumber());      // Now the saved index will be in the accumulator
+-                WriteSimple(context, Opcode::PPREV, GetLineNumber());     // And now... the value will be on the stack!
++                // scicompile fix (2026-08-18): the upstream sequence here was
++                //     eq? / toss / pprev
++                // with the comment "Now the saved index will be in the accumulator" -- but
++                // `toss` DISCARDS a stack slot, it never loads acc, and `eq?` already popped
++                // the saved index for its comparison. The indexed store below reads its index
++                // from acc, which held the eq? BOOLEAN -- so `a[i] op= v` with a NON-LITERAL
++                // index stored to a[0] or a[1]. (Literal indexes take the optimization above,
++                // which is why fan-game code rarely hit this.) KQ5's flag engine
++                // (`[global129 temp2] |= bit`) is the case that exposed it: every flag write
++                // landed on flags 0-31. Sierra's own compiler emits the sequence below --
++                // stash the value in prev, then rebuild the INDEX in acc via `ldi 0 / or`:
++                WriteSimple(context, Opcode::PUSH0, GetLineNumber());     // stack: idx, 0
++                WriteSimple(context, Opcode::EQ, GetLineNumber());        // prev = value; acc = bool; stack: idx
++                context.code().inst(GetLineNumber(), Opcode::LDI, 0);     // acc = 0
++                WriteSimple(context, Opcode::OR, GetLineNumber());        // acc = idx | 0 = idx; stack empty
++                WriteSimple(context, Opcode::PPREV, GetLineNumber());     // stack: value
+                 VariableOperand(context, wIndex, TokenTypeToVOType(tokenType) | VO_STACK | VO_STORE | VO_ACC_AS_INDEX_MOD, GetLineNumber());
+ 
+                 // REVIEW: the value was on the stack, but now it's gone!  Technically, we'll need a system where
+@@ -2234,9 +2266,54 @@
+     {
+         if (Operator == BinaryOperator::LogicalAnd || Operator == BinaryOperator::LogicalOr)
+         {
+-            // Handle && and || when not used in a condition.
+-            // Basically, we write an "if statement" that evaluates to 1 or 0
+-            return _WriteFakeIfStatement(context, *this);
++            // scicompile fix (2026-08-21): a VALUE-position `and`/`or` yields an OPERAND, not
++            // a boolean. Upstream sent this to _WriteFakeIfStatement, whose own comment states
++            // the intent -- "we write an 'if statement' that evaluates to 1 or 0" -- which is C
++            // semantics. SCI is not C: the PMachine has no normalised bool, and Sierra's own
++            // compiler leaves the deciding operand in the accumulator. Sierra's code depends on
++            // it, in the standard idiom for an optional object argument:
++            //
++            //     (param1 setHeading: temp0 (and (IsObject temp3) temp3))
++            //
++            // `setHeading:`'s third argument is the CUE TARGET, so "1" instead of the object
++            // means the turn completes and the cue never reaches the caller. Measured in play:
++            // every LB2 conversation stopped dead after its first spoken line (script 0,
++            // proc0_6). KQ6's rm220 carries the same idiom, and so does `Actor::setHeading` in
++            // the class script every SCI game shares.
++            //
++            // The emitted shape, and why it needs nothing else:
++            //
++            //     <left into acc>
++            //     bnt/bt END        ; short circuit -- acc holds the operand that decided it
++            //     <right into acc>
++            //     END:              ; fell through -- acc holds the right operand
++            //
++            // `bnt`/`bt` test the accumulator and leave it alone, so BOTH paths arrive with the
++            // right value already there. Upstream's version emitted exactly this chain and then
++            // clobbered it with `ldi 1`; the whole cure is to stop doing that and to land the
++            // short-circuit branch PAST the right operand instead of before it.
++            //
++            // Conditions are untouched: `InConditional()` above still routes to
++            // _OutputByteCodeAnd/Or, which weave their branches into the enclosing test. Only a
++            // position that READS the value changes, which is the only position that was wrong.
++            const bool fIsAnd = (Operator == BinaryOperator::LogicalAnd);
++            const BranchBlockIndex shortIndex =
++                fIsAnd ? BranchBlockIndex::Failure : BranchBlockIndex::Success;
++            branch_block shortCircuit(context, shortIndex);
++            {
++                COutputContext accContext(context, OC_Accumulator);
++                _statement1->OutputByteCode(context);
++            }
++            context.code().inst(GetLineNumber(),
++                                fIsAnd ? Opcode::BNT : Opcode::BT,
++                                context.code().get_undetermined(),
++                                shortIndex);
++            {
++                COutputContext accContext(context, OC_Accumulator);
++                _statement2->OutputByteCode(context);
++            }
++            shortCircuit.leave();   // both paths converge HERE, past the right operand
++            return CodeResult(PushToStackIfAppropriate(context, GetLineNumber()), DataTypeBool);
+         }
+         else
+         {
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileContext.cpp
++++ tools/scicompile/patched/CompileContext.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of CompileContext.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (no logic change). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -115,7 +117,8 @@
+     {
+         sci::streamOwner streamOwner(hFile);
+         CSCOFile scoFile;
+-        if (scoFile.Load(streamOwner.getReader(), _tables.Selectors()))
++        sci::istream __rdr = streamOwner.getReader();
++        if (scoFile.Load(__rdr, _tables.Selectors()))
+         {
+             _scos[scoFile.GetScriptNumber()] = scoFile;
+         }
+@@ -742,6 +745,9 @@
+ bool CompileContext::LookupWord(const string &word, WORD &wWordGroup)
+ {
+     Vocab000::WordGroup group;
++    // Source-only projects have no compiled parser vocabulary (vocab.000);
++    // guard the null so Said words simply don't resolve instead of crashing.
++    if (!_tables.Vocab()) { wWordGroup = 0; return false; }
+     bool fRet = _tables.Vocab()->LookupWord(word, group);
+     wWordGroup = (WORD)group;
+     return fRet;
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/CompiledScript.cpp
++++ tools/scicompile/patched/CompiledScript.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of CompiledScript.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (rvalue istream& bindings). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -61,7 +63,7 @@
+     std::unique_ptr<ResourceBlob> scriptResource = helper.MostRecentResource(ResourceType::Script, iScriptNumber, ResourceEnumFlags::None);
+     if (scriptResource)
+     {
+-        Load(helper, version, iScriptNumber, scriptResource->GetReadStream());
++        { sci::istream __rs = scriptResource->GetReadStream(); Load(helper, version, iScriptNumber, __rs); }
+         return true;
+     }
+     return false;
+@@ -1412,7 +1414,8 @@
+             {
+                 sci::streamOwner streamOwner(hFile);
+                 CSCOFile scoFile;
+-                if (scoFile.Load(streamOwner.getReader(), _selectors))
++                sci::istream __rdr = streamOwner.getReader();
++                if (scoFile.Load(__rdr, _selectors))
+                 {
+                     _mapScriptToObject[wScript] = scoFile;
+                     fRet = true;
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/GameFolderHelper.cpp
++++ tools/scicompile/patched/GameFolderHelper.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of GameFolderHelper.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (rvalue unique_ptr& / iterator& bindings). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -73,7 +75,7 @@
+ std::string GameFolderHelper::GetScriptFileName(const std::string &name) const
+ {
+     string filename = this->GameFolder;
+-    filename += "\\src\\";
++    filename += "/src/";
+     filename += name;
+     // Append the default extension
+     filename += ".sc";
+@@ -85,7 +87,7 @@
+     std::string filename = this->GameFolder;
+     if (!filename.empty())
+     {
+-        filename += "\\src\\";
++        filename += "/src/";
+         filename += title;
+         filename += ".sco";
+     }
+@@ -96,7 +98,7 @@
+ {
+     std::string debugFolder = _GetSubfolder("debug");
+     EnsureFolderExists(debugFolder, false);
+-    return fmt::format("{0}\\{1:03d}.scd", debugFolder, wScript);
++    return fmt::format("{0}/{1:03d}.scd", debugFolder, wScript);
+ }
+ 
+ std::string GameFolderHelper::GetScriptObjectFileName(WORD wScript) const
+@@ -177,7 +179,7 @@
+ std::string GameFolderHelper::GetGameIniFileName() const
+ {
+     string filename = this->GameFolder;
+-    filename += "\\game.ini";
++    filename += "/game.ini";
+     return filename;
+ }
+ 
+@@ -191,11 +193,11 @@
+     std::string srcFolder = this->GameFolder;
+     if (!srcFolder.empty())
+     {
+-        srcFolder += "\\";
++        srcFolder += "/";
+         if (prefix)
+         {
+             srcFolder += *prefix;
+-            srcFolder += "\\";
++            srcFolder += "/";
+         }
+         srcFolder += key;
+     }
+@@ -392,8 +394,8 @@
+ {
+     std::unique_ptr<ResourceBlob> returnBlob;
+     ResourceEnumFlags enumFlags = flags | ResourceEnumFlags::MostRecentOnly;
+-    auto &resourceContainer = Resources(ResourceTypeToFlag(type), enumFlags, nullptr, mapContext);
+-    for (auto &blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
++    auto resourceContainer = Resources(ResourceTypeToFlag(type), enumFlags, nullptr, mapContext);
++    for (auto blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
+     {
+         if ((blobIt.GetResourceNumber() == number) && (blobIt.GetResourceHeader().Base36Number == base36Number))
+         {
+@@ -414,8 +416,8 @@
+     {
+         enumFlags |= ResourceEnumFlags::NameLookups;
+     }
+-    auto &resourceContainer = Resources(ResourceTypeToFlag(type), enumFlags);
+-    for (auto &blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
++    auto resourceContainer = Resources(ResourceTypeToFlag(type), enumFlags);
++    for (auto blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
+     {
+         if (blobIt.GetResourceNumber() == number)
+         {
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceBlob.cpp
++++ tools/scicompile/patched/ResourceBlob.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of ResourceBlob.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (rvalue istream& binding; atomic direct-init). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -507,7 +509,7 @@
+         // Now it is time to read in the bits.
+         // We're already at the end of the header, so just start reading.
+         sci::streamOwner streamOwner(hFile, header.cbCompressed);
+-        _DecompressFromBits(streamOwner.getReader(), false);
++        { sci::istream __rs = streamOwner.getReader(); _DecompressFromBits(__rs, false); }
+         _AssignDefaultResourceSourceFlags(*this, saveLocation);
+     }    
+     return hr;
+@@ -660,7 +662,7 @@
+     return hr;
+ }
+ 
+-std::atomic<int> g_nextUniqueId = 0;
++std::atomic<int> g_nextUniqueId{0};
+ 
+ int ResourceBlob::GetChecksum() const
+ {
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMap.cpp
++++ tools/scicompile/patched/ResourceMap.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of ResourceMap.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (rvalue iterator& binding in resource enumeration). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -349,7 +351,7 @@
+     vector<bool> rgNumbers(1000, false);
+ 
+     auto resourceContainer = Resources(ResourceTypeToFlag(type), Helper().GetDefaultEnumFlags() | ResourceEnumFlags::MostRecentOnly);
+-    for (auto &blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
++    for (auto blobIt = resourceContainer->begin(); blobIt != resourceContainer->end(); ++blobIt)
+     {
+         int iThisNumber = blobIt.GetResourceNumber();
+         if (iThisNumber >= 0 && iThisNumber < (int)rgNumbers.size())
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISourceCodeFormatter.cpp
++++ tools/scicompile/patched/SCISourceCodeFormatter.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of SCISourceCodeFormatter.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (bool false -> nullptr for pointer arg). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -1366,7 +1368,7 @@
+     bool _IsConditionalExpressionTRUE(const ConditionalExpression &condExp)
+     {
+         uint16_t result;
+-        return condExp.Evaluate(simpleDefineLookup, result, false) && (result == 1);
++        return condExp.Evaluate(simpleDefineLookup, result, nullptr) && (result == 1);
+     }
+ 
+     // Returns the inside of the negation
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISyntaxParser.cpp
++++ tools/scicompile/patched/SCISyntaxParser.cpp
+@@ -38,6 +38,11 @@
+ // Selectors, as far as I can tell, look like this:
+ // A-Za-z0-9_-
+ // But they must have at least one letter and not start with a number
++// SIERRA_SOFTLOCK PATCH: '#' is also legal as a CONTINUATION character. KQ6's own vocab.997
++// names selector 879 'dungeon#', and the decompiled rm710.sc both declares and reads that
++// property; the stock lexer stopped at '#', producing "Expected an expression" on the game's
++// own source. Prefix '#' (the selector-literal token) is unaffected -- this only extends a
++// token that has already begun.
+ template<typename _It>
+ bool SelectorP(const ParserSCI *pParser, SyntaxContext *pContext, _It &stream)
+ {
+@@ -51,7 +56,7 @@
+         fRet = true;
+         str += ch;
+         ch = *(++stream);
+-        while (isalnum(ch) || (ch == '_') || (ch == '-'))  // Then any alphanumeric character is fine.
++        while (isalnum(ch) || (ch == '_') || (ch == '-') || (ch == '#'))  // Then any alphanumeric character is fine.
+         {
+             hadAlpha = hadAlpha || isalpha(ch);
+             fRet = true;
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SCO.cpp
++++ tools/scicompile/patched/SCO.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of SCO.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (typename on dependent iterator; rvalue istream& binding). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -276,7 +278,7 @@
+ template<typename _T>
+ bool GetItemIndex(const vector<_T> &container, const string &name, WORD &wIndex)
+ {
+-    vector<_T>::const_iterator position = match_name_dot(container.begin(), container.end(), name);
++    typename vector<_T>::const_iterator position = match_name_dot(container.begin(), container.end(), name);
+     if (position != container.end())
+     {
+         wIndex = (WORD)distance(container.begin(), position);
+@@ -686,8 +688,17 @@
+         if (!object->IsInstance())
+         {
+             CSCOObjectClass newSCOObject;
+-            CompiledObject *compiledObject = nameToCompiledObject[object->GetName()];
+-            // With object and compiledObject, we should have everything we need?
++            // NULL CHECK (added for the headless port). `operator[]` INSERTS a nullptr when the
++            // name is absent, and every use below dereferences it. A class named in source but
++            // not present in the compiled script is a source/binary disagreement -- skip it
++            // rather than crash. Same root cause as the export bounds check below: upstream's
++            // source always came from its own decompiler, so the two agreed by construction.
++            auto itCompiled = nameToCompiledObject.find(object->GetName());
++            if (itCompiled == nameToCompiledObject.end() || !itCompiled->second)
++            {
++                continue;
++            }
++            CompiledObject *compiledObject = itCompiled->second;
+             newSCOObject.SetName(object->GetName());
+             newSCOObject.SetPublic(compiledObject->IsPublic);   // REVIEW: When is a class not public?
+             newSCOObject.SetSpecies(compiledObject->GetSpecies());
+@@ -712,8 +723,25 @@
+         }
+     }
+ 
+-    // Now public procedures and instances. Get their names from the script first.
+-    // We assume the ordering in the script corresponds to the ordering in the compiled script.
++    // Now public procedures and instances.
++    //
++    // THE SOURCE'S PUBLIC BLOCK DECLARES THE SLOTS -- use them when it does (headless port
++    // fix, 2026-08-18). The positional zip below assumes the DEFINITION order of public
++    // procedures matches the export-table order of the compiled script, which is false
++    // whenever the decompiler emitted procedures in address order while the table orders
++    // them by slot. KQ5's Interface.sc is the case: proc255_5 is defined first, so every
++    // proc name landed on the wrong slot, and Main's `proc255_5` compiled as `calle 255,0`
++    // -- proc255_0 called with (object, event), kStrCpy signature mismatch, crash (the rm67
++    // mouse-hole look). A source with an explicit `(public name N ...)` block IS the
++    // decompiler's own slot map; record it verbatim.
++    if (!script.GetExports().empty())
++    {
++        for (const auto &entry : script.GetExports())
++        {
++            sco->GetExports().emplace_back(entry->Name, (uint16_t)entry->Slot);
++        }
++        return sco;
++    }
+     uint16_t exportIndex = 0;
+     vector<string> publicInstanceNames;
+     for (const auto &classDef : script.GetClasses())
+@@ -754,8 +782,17 @@
+         }
+         else if (compiledScript.IsExportAProcedure(exportOffset))
+         {
+-            exportName = publicProcNames[procIndex++];
+-            sco->GetExports().emplace_back(exportName, exportIndex);
++            // BOUNDS CHECK (added for the headless port). Upstream guards the INSTANCE branch
++            // above but not this one, so an export the compiled script classifies as a procedure
++            // while the source declares no public procedures indexes off the end of the vector.
++            // LSL2 script 6 (Airplane) does exactly that: zero procedures in source, yet a
++            // procedure-looking export -- segfault. Upstream never hits it because its own
++            // decompiler generated the source, so the two always agreed by construction.
++            if (procIndex < publicProcNames.size())
++            {
++                exportName = publicProcNames[procIndex++];
++                sco->GetExports().emplace_back(exportName, exportIndex);
++            }
+         }
+         // Exports may be zero too. We won't write those to the SCO though.
+         exportIndex++;
+@@ -774,7 +811,8 @@
+         ScopedFile scoped(objectFilename, GENERIC_READ, FILE_SHARE_READ, OPEN_EXISTING);
+         sci::streamOwner streamOwner(scoped.hFile);
+         sco = make_unique<CSCOFile>();
+-        sco->Load(streamOwner.getReader(), selectors);
++        sci::istream __rdr = streamOwner.getReader();
++        sco->Load(__rdr, selectors);
+     }
+     return sco;
+ }--- vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOM.cpp
++++ tools/scicompile/patched/ScriptOM.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of ScriptOM.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (no logic change). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -505,12 +507,12 @@
+ 	if ((_innerName[0] == '/') && (_innerName[1] == '/'))
+     {
+         // Remove the endline and any spaces
+-        return trim(trim(_innerName.substr(2), '\n'), ' ');
++        { std::string __t = _innerName.substr(2); return trim(trim(__t, '\n'), ' '); }
+     }
+     else if (_innerName[0] == ';')
+     {
+         // Remove the endline and any spaces
+-        return trim(trim(_innerName.substr(1), '\n'), ' ');
++        { std::string __t = _innerName.substr(1); return trim(trim(__t, '\n'), ' '); }
+     }
+     else if ((_innerName[0] == '/') && (_innerName[1] == '*'))
+     {
+--- vendor/SCICompanion/SCICompanionLib/Src/Util/Stream.cpp
++++ tools/scicompile/patched/Stream.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of Stream.cpp -- vendor original is UNMODIFIED.
++// scicompile: streamOwner(HANDLE) degrades to empty on INVALID handle (no throw).
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -347,6 +349,10 @@
+ 
+     streamOwner::streamOwner(HANDLE hFile, DWORD lengthToInclude) : _dataMemoryMapped(nullptr), _hMap(nullptr), _hFile(INVALID_HANDLE_VALUE)
+     {
++        // scicompile: a missing/absent resource yields an INVALID handle. Degrade
++        // to an empty stream rather than throwing (source-only projects have no
++        // compiled resource.map / vocab files).
++        if (hFile == INVALID_HANDLE_VALUE) { return; }
+         DWORD dwSizeHigh = 0;
+         // Start from the current position:
+         uint32_t dwSize = lengthToInclude;
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxParser.cpp
++++ tools/scicompile/patched/SyntaxParser.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of SyntaxParser.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (rvalue const_iterator& binding). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -56,23 +58,24 @@
+ bool SyntaxParser_Parse(sci::Script &script, CCrystalScriptStream &stream, std::unordered_set<std::string> preProcessorDefines, ICompileLog *pLog, bool fParseComments, SyntaxContext *pContext, bool addCommentsToOM)
+ {
+     bool fRet = false;
++    CCrystalScriptStream::const_iterator __sciStart = stream.begin();
+     if (script.Language() == LangSyntaxStudio)
+     {
+         if (script.IsHeader())
+         {
+-            fRet = g_studio.ParseHeader(script, stream.begin(), preProcessorDefines, pLog, fParseComments);
++            fRet = g_studio.ParseHeader(script, __sciStart, preProcessorDefines, pLog, fParseComments);
+         }
+         else
+         {
+             if (pContext)
+             {
+                 // Someone is doing a partial compile (e.g. tooltips) and supply their own context.
+-                fRet = g_studio.Parse(script, stream.begin(), preProcessorDefines, *pContext);
++                fRet = g_studio.Parse(script, __sciStart, preProcessorDefines, *pContext);
+             }
+             else
+             {
+                 // Or maybe someone either wants error logs:
+-                fRet = g_studio.Parse(script, stream.begin(), preProcessorDefines, pLog, addCommentsToOM, fParseComments);
++                fRet = g_studio.Parse(script, __sciStart, preProcessorDefines, pLog, addCommentsToOM, fParseComments);
+             }
+         }
+     }
+@@ -80,19 +83,19 @@
+     {
+         if (script.IsHeader())
+         {
+-            fRet = g_sci.ParseHeader(script, stream.begin(), preProcessorDefines, pLog, fParseComments);
++            fRet = g_sci.ParseHeader(script, __sciStart, preProcessorDefines, pLog, fParseComments);
+         }
+         else
+         {
+             if (pContext)
+             {
+                 // Someone is doing a partial compile (e.g. tooltips) and supply their own context.
+-                fRet = g_sci.Parse(script, stream.begin(), preProcessorDefines, *pContext);
++                fRet = g_sci.Parse(script, __sciStart, preProcessorDefines, *pContext);
+             }
+             else
+             {
+                 // Or maybe someone either wants error logs:
+-                fRet = g_sci.Parse(script, stream.begin(), preProcessorDefines, pLog, addCommentsToOM, fParseComments);
++                fRet = g_sci.Parse(script, __sciStart, preProcessorDefines, pLog, addCommentsToOM, fParseComments);
+             }
+         }
+ 
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab000.cpp
++++ tools/scicompile/patched/Vocab000.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of Vocab000.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (disambiguate tolower overload). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -366,7 +368,7 @@
+ VocabChangeHint Vocab000::AddNewWord(PCTSTR pszWordIn, WordClass dwClass, bool fShowUI)
+ {
+     std::string strLower = pszWordIn;
+-    transform(strLower.begin(), strLower.end(), strLower.begin(), tolower);
++    transform(strLower.begin(), strLower.end(), strLower.begin(), (int(*)(int))::tolower);
+     VocabChangeHint hint = VocabChangeHint::None;
+     TCHAR szBuffer[MAX_PATH];
+     szBuffer[0] = 0;
+@@ -418,7 +420,7 @@
+ VocabChangeHint Vocab000::AddSynonym(PCTSTR pszWordIn, PCTSTR pszOriginal)
+ {
+     std::string strLower = pszWordIn;
+-    transform(strLower.begin(), strLower.end(), strLower.begin(), tolower);
++    transform(strLower.begin(), strLower.end(), strLower.begin(), (int(*)(int))::tolower);
+     VocabChangeHint hint = VocabChangeHint::EditWordGroup;
+     WordGroup dwGroup;
+     if (LookupWord(pszOriginal, dwGroup))
+@@ -437,7 +439,7 @@
+ VocabChangeHint Vocab000::AddWordToGroup(PCTSTR pszWord, WordGroup group, bool fShowUI)
+ {
+     std::string strLower = pszWord;
+-    transform(strLower.begin(), strLower.end(), strLower.begin(), tolower);
++    transform(strLower.begin(), strLower.end(), strLower.begin(), (int(*)(int))::tolower);
+     VocabChangeHint hint = VocabChangeHint::None;
+     WordGroup dwGroupDummy;
+     if (!LookupWord(strLower, dwGroupDummy))
+@@ -532,7 +534,7 @@
+ {
+     VocabChangeHint hint = VocabChangeHint::None;
+     std::string strLower = pszWord;
+-    transform(strLower.begin(), strLower.end(), strLower.begin(), tolower);
++    transform(strLower.begin(), strLower.end(), strLower.begin(), (int(*)(int))::tolower);
+     
+     WordGroup dwGroup;
+     if (LookupWord(strLower, dwGroup))
+--- vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab99x.cpp
++++ tools/scicompile/patched/Vocab99x.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of Vocab99x.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fixes only (rvalue istream& bindings; by-value proxy iterator). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -682,7 +684,7 @@
+     unique_ptr<ResourceBlob> blob(_GetVocabData(helper, VocabSelectorNames));
+     if (blob)
+     {
+-        fRet = _Create(blob->GetReadStream());
++        { sci::istream __rs = blob->GetReadStream(); fRet = _Create(__rs); }
+         if (fRet)
+         {
+             // Populate reverse lookup
+@@ -828,7 +830,7 @@
+     unique_ptr<ResourceBlob> blob(_GetVocabData(helper, VocabKernelNames));
+     if (blob)
+     {
+-        fRet = _Create(blob->GetReadStream(), true);
++        { sci::istream __rs = blob->GetReadStream(); fRet = _Create(__rs, true); }
+         // KQ1 is stored differently... nullptr terminated strings.
+         // if the normal kind of create fails, we will try that instead...
+         if (!fRet)
+@@ -906,7 +908,7 @@
+     // Patch files win out.
+     unordered_map<uint16_t, pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>>> heapScriptPairs;
+     auto scriptContainer = appState->GetResourceMap().Resources(ResourceTypeFlags::Script | ResourceTypeFlags::Heap, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::AddInDefaultEnumFlags);
+-    for (auto &scriptResource : *scriptContainer)
++    for (auto scriptResource : *scriptContainer)
+     {
+         uint16_t scriptNumber = (uint16_t)scriptResource->GetNumber();
+         pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>> &scriptAndHeap = heapScriptPairs[scriptNumber];
+@@ -941,7 +943,8 @@
+                 heapStream.reset(new sci::istream(scriptAndHeap.second->GetData(), scriptAndHeap.second->GetLength()));
+             }
+             // Load the script.
+-            if (compiledScript->Load(appState->GetResourceMap().Helper(), appState->GetVersion(), scriptNumber, scriptAndHeap.first->GetReadStream(), heapStream.get()))
++            sci::istream __scriptRs = scriptAndHeap.first->GetReadStream();
++            if (compiledScript->Load(appState->GetResourceMap().Helper(), appState->GetVersion(), scriptNumber, __scriptRs, heapStream.get()))
+             {
+                 CompiledScript *pCompiledScriptWeak = compiledScript.get();
+                 _scripts.push_back(move(compiledScript));
+@@ -1058,13 +1061,104 @@
+     return subclasses;
+ }
+ 
++// scicompile fix (class-numbering): vocab.996 states only species -> script. The
++// per-script ORDER in which _Create accumulates species is the table's numeric
++// order, but SpeciesTable's positional contract (GetSpeciesIndex(script, indexInScript),
++// used by CompileContext::EnsureSpeciesTableEntry during compilation) is "index of
++// the class within the script". Nothing guarantees those two orders agree: in the
++// shipped Laura Bow 2, script 0's physical class order is WrapMusic(134),
++// Actions(46), LB2(135) while numeric order is 46,134,135 -- so recompiling Main
++// assigned WrapMusic species 46 and Actions species 134, and every recompiled
++// script referencing WrapMusic sent to the wrong class. The ground truth for the
++// in-script order is the game's own compiled script resources: each compiled
++// class object carries its species in its header. Re-derive each script's species
++// list in that physical order (same resource walk as GlobalClassTable::_Create).
++// A script whose compiled class set disagrees with the table (e.g. leftover
++// classes not in the class table) keeps the vocab-derived order.
++static void _AlignSpeciesOrderToCompiledScripts(std::unordered_map<uint16_t, std::vector<uint16_t>> &map)
++{
++    // Collect the heap/script pairs first. Patch files win out.
++    unordered_map<uint16_t, pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>>> heapScriptPairs;
++    auto scriptContainer = appState->GetResourceMap().Resources(ResourceTypeFlags::Script | ResourceTypeFlags::Heap, ResourceEnumFlags::MostRecentOnly | ResourceEnumFlags::AddInDefaultEnumFlags);
++    for (auto scriptResource : *scriptContainer)
++    {
++        uint16_t scriptNumber = (uint16_t)scriptResource->GetNumber();
++        pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>> &scriptAndHeap = heapScriptPairs[scriptNumber];
++        if (scriptResource->GetType() == ResourceType::Script)
++        {
++            scriptAndHeap.first = move(scriptResource);
++        }
++        else
++        {
++            scriptAndHeap.second = move(scriptResource); // Heap
++        }
++    }
++
++    for (auto &numberToPair : heapScriptPairs)
++    {
++        uint16_t scriptNumber = numberToPair.first;
++        auto tableIt = map.find(scriptNumber);
++        if (tableIt == map.end())
++        {
++            continue;   // The class table assigns no species to this script.
++        }
++        pair<unique_ptr<ResourceBlob>, unique_ptr<ResourceBlob>> &scriptAndHeap = numberToPair.second;
++        if (!scriptAndHeap.first ||
++            (appState->GetVersion().SeparateHeapResources && !scriptAndHeap.second))
++        {
++            continue;   // Can't load; keep the vocab-derived order.
++        }
++
++        unique_ptr<CompiledScript> compiledScript = make_unique<CompiledScript>(scriptNumber);
++        std::unique_ptr<sci::istream> heapStream;
++        if (scriptAndHeap.second)
++        {
++            heapStream.reset(new sci::istream(scriptAndHeap.second->GetData(), scriptAndHeap.second->GetLength()));
++        }
++        sci::istream __scriptRs = scriptAndHeap.first->GetReadStream();
++        if (!compiledScript->Load(appState->GetResourceMap().Helper(), appState->GetVersion(), scriptNumber, __scriptRs, heapStream.get()))
++        {
++            continue;   // Can't load; keep the vocab-derived order.
++        }
++
++        // The physical class order, filtered to species the table assigns to this
++        // script (mirrors GlobalClassTable::_Create's leftover-class filtering).
++        unordered_set<uint16_t> tableSet(tableIt->second.begin(), tableIt->second.end());
++        vector<uint16_t> physicalOrder;
++        for (auto &compiledObject : compiledScript->GetObjects())
++        {
++            if (!compiledObject->IsInstance() && tableSet.count(compiledObject->GetSpecies()))
++            {
++                physicalOrder.push_back(compiledObject->GetSpecies());
++            }
++        }
++
++        // Adopt it only if it is a permutation of the vocab-derived list -- i.e. the
++        // compiled resources and the class table agree on WHICH species live here.
++        vector<uint16_t> sortedPhysical = physicalOrder;
++        vector<uint16_t> sortedTable = tableIt->second;
++        sort(sortedPhysical.begin(), sortedPhysical.end());
++        sort(sortedTable.begin(), sortedTable.end());
++        if (!physicalOrder.empty() && (sortedPhysical == sortedTable))
++        {
++            tableIt->second = physicalOrder;
++        }
++    }
++}
++
+ bool SpeciesTable::Load(const GameFolderHelper &helper)
+ {
+     bool fRet = false;
+     unique_ptr<ResourceBlob> blob(_GetVocabData(helper, VocabClassTable));
+     if (blob)
+     {
+-        fRet = _Create(blob->GetReadStream());
++        { sci::istream __rs = blob->GetReadStream(); fRet = _Create(__rs); }
++    }
++    if (fRet)
++    {
++        // Species for classes that exist in the game's compiled resources come from
++        // the game's own class data, never from re-enumeration in numeric order.
++        _AlignSpeciesOrderToCompiledScripts(_map);
+     }
+     if (!fRet)
+     {
+--- vendor/SCICompanion/SCICompanionLib/Src/Compile/scii.cpp
++++ tools/scicompile/patched/scii.cpp
+@@ -1,3 +1,5 @@
++// PATCHED COPY (build-time) of scii.cpp -- vendor original is UNMODIFIED.
++// scicompile: mechanical MSVC->GCC fix only (MSVC list-iterator _Mynode() -> _M_node). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -874,6 +876,6 @@
+ // We use the node pointer as a < comparator.  Just something consistent but meaningless.
+ bool operator<(const code_pos &_Right, const code_pos &_Left)
+ {
+-    return _Right._Mynode() < _Left._Mynode();
+-}
+-
++    return _Right._M_node < _Left._M_node;
++}
++
+--- vendor/SCICompanion/SCICompanionLib/Src/Util/util.cpp
++++ tools/scicompile/patched/util.cpp
+@@ -1,3 +1,6 @@
++// PATCHED COPY (build-time) of util.cpp -- vendor original is UNMODIFIED.
++// scicompile: ScriptId::GetFullPath uses '/' so Linux ifstream opens work (language
++// detection, header loading). See BUILD_NOTES.md.
+ /***************************************************************************
+     Copyright (c) 2015 Philip Fortier
+ 
+@@ -729,7 +732,7 @@
+ std::string ScriptId::GetFullPath() const
+ {
+     std::string fullPath = _strFolder;
+-    fullPath += "\\";
++    fullPath += "/";   // scicompile: POSIX separator (was "\\"), so ifstream opens succeed
+     fullPath += _strFileNameOrig;
+     return fullPath;
+ }
+@@ -753,9 +756,26 @@
+         //_strFolder = fullPath.parent_path();
+         // Sigh Microsoft... std::tr2::sys doesn't work with UNC shares...
+         CString str = pszFullFileName;
++        // scicompile: split on the last path separator of EITHER kind. The
++        // original splits only on '\\', but our GameFolderHelper builds POSIX
++        // '/'-separated paths (GetScriptFileName), so a backslash-only search
++        // finds nothing (-1) and mangles folder/filename. That in turn breaks
++        // GetFullPath()/GetTitle() and the class browser's ReLoadFromSources
++        // (which opens sources via GetFullPath). Use whichever separator occurs
++        // last so both Windows and Linux paths parse correctly.
+         int iIndexBS = str.ReverseFind('\\');
+-        _strFolder = str.Left(iIndexBS);
+-        _strFileName = str.Right(str.GetLength() - iIndexBS - 1);
++        int iIndexFS = str.ReverseFind('/');
++        int iIndex = (iIndexFS > iIndexBS) ? iIndexFS : iIndexBS;
++        if (iIndex < 0)
++        {
++            _strFolder = "";
++            _strFileName = str;
++        }
++        else
++        {
++            _strFolder = str.Left(iIndex);
++            _strFileName = str.Right(str.GetLength() - iIndex - 1);
++        }
+ 
+         _strFileNameOrig = _strFileName;
+         _MakeLower();
+@@ -963,12 +983,10 @@
+ ScopedFile::ScopedFile(const std::string &filename, DWORD desiredAccess, DWORD shareMode, DWORD creationDisposition) : filename(filename)
+ {
+     hFile = CreateFile(filename.c_str(), desiredAccess, shareMode, nullptr, creationDisposition, FILE_ATTRIBUTE_NORMAL, nullptr);
+-    if (hFile == INVALID_HANDLE_VALUE)
+-    {
+-        std::string details = "Opening ";
+-        details += filename;
+-        throw std::exception(GetMessageFromLastError(details).c_str());
+-    }
++    // scicompile: do NOT throw on a missing file. A headless compile of a
++    // source-only project legitimately lacks compiled resources (resource.map,
++    // vocab.*); callers already check hFile != INVALID_HANDLE_VALUE. Throwing here
++    // aborts the whole run instead of degrading to "no compiled resources".
+ }
+ 
+ void ScopedFile::Write(const uint8_t *data, uint32_t length)

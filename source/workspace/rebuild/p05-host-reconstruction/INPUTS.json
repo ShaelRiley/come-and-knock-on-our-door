@@ -1,0 +1,1248 @@
+{
+  "schema": 1,
+  "local": {
+    "CONTEST-INTEGRATION.json": {
+      "sha256": "a14cca8dffe897ba2b6e393c6e5cc21f195cb8ff831d08af95cfcd763e12d3f2",
+      "bytes": 468
+    },
+    "COURTYARD-INTEGRATION.json": {
+      "sha256": "e7c61be11df9c69936c3e80aec13abb1502404831b06553d877959f52aea3ded",
+      "bytes": 282
+    },
+    "DRAWER-INTEGRATION.json": {
+      "sha256": "d45e4f0c401b2e3edc8c8ec6874259bd37cc7d44c2117f29d2494d790be0244a",
+      "bytes": 226
+    },
+    "EXPECTED-INPUT-PATHS.json": {
+      "sha256": "1b52926ecae901c09d751dad2b79850b403adc48d44e199569395138a9e513fa",
+      "bytes": 24524
+    },
+    "STAGE-INTEGRATION.json": {
+      "sha256": "562b09860ae0f327c1a370f06e210b5e05845580f64e299344e43814c01bb72b",
+      "bytes": 226
+    },
+    "STATIC-SAVE-CONTRACT.md": {
+      "sha256": "4ba7c7ece08129a37ace1d8de1793d0242120a0a545d61a86c77ec5121876a3d",
+      "bytes": 3856
+    },
+    "build.py": {
+      "sha256": "667bbb91add15fcea929607dd32da61ad046c4e4bc2aef9891282b77b307db1f",
+      "bytes": 7709
+    },
+    "contest_labels.sc.inc": {
+      "sha256": "059f2c694246c11c41e67293c5d86e2566d2330c3346cecf141dd105fb354dbb",
+      "bytes": 8265
+    },
+    "contest_locals.inc": {
+      "sha256": "91b5be5d9871d63e6d7901fa8da29b6e5a998865904f6f2aed2ba22d88202bc6",
+      "bytes": 32
+    },
+    "contest_methods.sc.in": {
+      "sha256": "f3552a72296b8db3eac9a3a1d46f2651ca1e81b794632b6a5640f805d459291c",
+      "bytes": 17914
+    },
+    "contest_properties.inc": {
+      "sha256": "cf8d81c3a35ee8b337e4af076fcea8523ddd58fec548a034288f5b6ad81f2f19",
+      "bytes": 447
+    },
+    "courtyard_controls.sc.in": {
+      "sha256": "fac6f189b60d801e81f1987422d03625482b45c5d2779bc504b3b2790224acfd",
+      "bytes": 1141
+    },
+    "derive.py": {
+      "sha256": "372c3e35565dfa918750f98c82345e0fdc941c0fcb8904015a3166c1211f8cfa",
+      "bytes": 16847
+    },
+    "generate_contest_labels.py": {
+      "sha256": "c3f938aec7faef02b437a7039c19fecc8161c189e8113a7d378cbbc2c8e33f3a",
+      "bytes": 2519
+    },
+    "generated/static/240.text.bin": {
+      "sha256": "594aadc728996900f67c696684ceefaf327abcd4bd1f7001de953ca19b8d7103",
+      "bytes": 58080
+    },
+    "generated/static/241.text.bin": {
+      "sha256": "3a75fc584aaaabdb5489623a748b912f02c6ef67925b041afd7106ead691b0b1",
+      "bytes": 51425
+    },
+    "generated/static/242.text.bin": {
+      "sha256": "050f47eb17235c4926ad917bb8c1fb6a7ff29024548cc757181761a082b24b90",
+      "bytes": 1474
+    },
+    "generated/static/guard-locals.inc": {
+      "sha256": "fea7252ce5da0ad3ff0431697bcbaa6e025074ea43381fcd05bf12e1abe23b5f",
+      "bytes": 19
+    },
+    "generated/static/guard-methods.inc": {
+      "sha256": "0d0ed20f88dbd0c40c2bb00337d90537381237d33211921606210aea30fe53f7",
+      "bytes": 3334
+    },
+    "generated/static/label-locals.inc": {
+      "sha256": "90de5f1868714557e9873cbf8afd0c461435126235fcbd9a1d582ddbbc742ab5",
+      "bytes": 1558
+    },
+    "generated/static/labels.json": {
+      "sha256": "431264113f0da4628c2d1c95df0d40b2fb47224754441bdac7d75e7f473b3616",
+      "bytes": 9555
+    },
+    "generated/static/manifest.json": {
+      "sha256": "958d954a6dfa9e0674f5e817356a5e7d05392c53ec748d1fe32548aa034f72a1",
+      "bytes": 219731
+    },
+    "generated/static/module981-methods.inc": {
+      "sha256": "6443907ef6d54579855d8a39bf3f2c396388eedbfcbe53d0a33c97c01f699ad8",
+      "bytes": 1065
+    },
+    "generated/static/module982-methods.inc": {
+      "sha256": "8c746f6cd3e7c99601a84fa9bbae80cd1f347962eb57ce1395d4e7e4fb3e290e",
+      "bytes": 649
+    },
+    "generated/static/module985-methods.inc": {
+      "sha256": "bb639a022f2fd71bbf682848bdd6650642ef26a099286319eeec111cd74749f3",
+      "bytes": 145
+    },
+    "host_locals.inc": {
+      "sha256": "4ad3f7509be36c2ceb582eab209abdf6022b18ccc470328a5ac39741abc39a5c",
+      "bytes": 44
+    },
+    "host_methods.sc.in": {
+      "sha256": "40203cac04e410d58789c71dcc550b99c9f436c538f571b8208331ce65ab62c0",
+      "bytes": 16363
+    },
+    "host_properties.inc": {
+      "sha256": "b37d61d8eaadb607cdc1db6938ae5bf0bc1926de82a6d2e2e425a309321435cb",
+      "bytes": 456
+    },
+    "main_helpers.sc.in": {
+      "sha256": "22521f747947a15154ff32a4f1db4367d4b52e38a0443c230f14a9960ce15876",
+      "bytes": 3070
+    },
+    "selectors.json": {
+      "sha256": "2a814f7591a020d974aaf2a50f022a1b13748b189a14e9d4bad075f8f402a9c6",
+      "bytes": 28419
+    },
+    "snapshot/contest-scene/230.text.bin": {
+      "sha256": "269c49a4f8433eef9f2344a5dd7cfc5c25445d407d43546bf4f5cdf28fd380db",
+      "bytes": 25924
+    },
+    "snapshot/contest-scene/CONTRACT.md": {
+      "sha256": "a758e924616e920f4ef961f39c880219a751e10bcd80ac1129c685f5ccea68c4",
+      "bytes": 6285
+    },
+    "snapshot/contest-scene/PROVENANCE.md": {
+      "sha256": "2caac6976047d9f904ae95fcbffc898dedf0e529d7ef958ba59b10d6ad2a254b",
+      "bytes": 2924
+    },
+    "snapshot/contest-scene/REVIEW-RESULT.json": {
+      "sha256": "9dd825e72d27bada066c6745b1ce23371004f42bbdefc5c2d0ca384a9b398f55",
+      "bytes": 2909
+    },
+    "snapshot/contest-scene/REVIEW.md": {
+      "sha256": "3af0376e9c37abfb76cd5328f8f54733261dd8ef09c32dd6a4cc6bd470d8988b",
+      "bytes": 8971
+    },
+    "snapshot/contest-scene/dynamic-contract.json": {
+      "sha256": "370537f229da592585a742b55d1e9d56c8f6c8b011d4bbafb4c0a1470d102206",
+      "bytes": 369931
+    },
+    "snapshot/contest-scene/extension-contract.json": {
+      "sha256": "0ab208ac3055025413cdbd6bea092ef8d60b17b61774085408a9a9b0decae976",
+      "bytes": 120715
+    },
+    "snapshot/contest-scene/immutable-export-lock.json": {
+      "sha256": "229cb2411cab10348c15471beadb6108738fdb5d7cb7c0032fdd8a387f2fb830",
+      "bytes": 44459
+    },
+    "snapshot/contest-scene/manifest.json": {
+      "sha256": "ca7b3bcf88ff750d04c9d63a34115ff96a0e753d00638a0fe0098189e511babc",
+      "bytes": 2638678
+    },
+    "snapshot/contest-scene/module982.sc": {
+      "sha256": "c79f0c54e987352491d2c0d37da42a628355cbceb0840403dc013da2b869df94",
+      "bytes": 86292
+    },
+    "snapshot/contest-scene/route-map.json": {
+      "sha256": "a4748266a09add17a60d6c066f3a965821eff9b59c11f68b2eb9d89136421137",
+      "bytes": 232353
+    },
+    "snapshot/contest-scene/route-tables.inc": {
+      "sha256": "00ca95ad4b9d3a60377343caa3b9c7550ac7b5f726d95017eac64eb4077dd7b8",
+      "bytes": 7816
+    },
+    "snapshot/contest-scene/routes.py": {
+      "sha256": "f9375d22cba281f188ce5d9de167bae41aee1fc014a4fdb0c94aa66cbdbf63fd",
+      "bytes": 11322
+    },
+    "snapshot/contest-scene/scene-tables.inc": {
+      "sha256": "a856e4925b38e7ecbfd64016639f3bbdc9baa39938db714e635da09f97ce09b9",
+      "bytes": 34901
+    },
+    "snapshot/contest-scene/vc01-routing-proof.json": {
+      "sha256": "7c292af4ff4b6c527a09db220ca9b6440fa144f71716bd8fec9d941f9d438718",
+      "bytes": 10144
+    },
+    "snapshot/contest/ABI.md": {
+      "sha256": "ae81f799dd28eb2b3cb075bfea1d8ec74ea7cf87198091c97902d8e95adee98a",
+      "bytes": 11551
+    },
+    "snapshot/contest/HOST-CONTRACT.md": {
+      "sha256": "f034fa3d5d77de5548f0263dfa4ba760bdb7eaf5156a4623fa3aadbd55b3d087",
+      "bytes": 7215
+    },
+    "snapshot/contest/REVIEW-RESULT.json": {
+      "sha256": "236c2782a5dc5028c97043959c41f22345a1d1a6cee88f3d000ce5a9314b0ff6",
+      "bytes": 3670
+    },
+    "snapshot/contest/SHA256SUMS": {
+      "sha256": "db6419161bc579f716e5c5da88b12f3bea32ff9a40a9ef03388a017d6a190d74",
+      "bytes": 28904
+    },
+    "snapshot/contest/canonical-bindings.json": {
+      "sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e",
+      "bytes": 316942
+    },
+    "snapshot/contest/manifest.json": {
+      "sha256": "bef627740b7b2c8b8a082c2063c7dbd2b3a0df26da8830c80851e09f5fdf164b",
+      "bytes": 14637
+    },
+    "snapshot/contest/module986.sc": {
+      "sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81",
+      "bytes": 38454
+    },
+    "snapshot/contest/selectors.json": {
+      "sha256": "3d2f1acc9098c26da231daa64e74bd308252e11f711bf100af5d289160cb2742",
+      "bytes": 24385
+    },
+    "snapshot/courtyard/228.view.bin": {
+      "sha256": "450e32184d62c96fe15d86c4871e0e87ef728dc9499977a67b53f9f5636ca167",
+      "bytes": 47008
+    },
+    "snapshot/courtyard/305.view.bin": {
+      "sha256": "bf3e12ab4c48589c32a24ced6b9bcb82ac85dd11e569999e88d122025a87a5cd",
+      "bytes": 46150
+    },
+    "snapshot/courtyard/geometry-manifest.json": {
+      "sha256": "f40c00a6cdee880434ad0971323bb1c45fe84083fdbf57b8b6f1d8434243f858",
+      "bytes": 5974
+    },
+    "snapshot/courtyard/host-integration.json": {
+      "sha256": "630005c289a39193eacdfd87d27d7e10e27177343f0cb63fe4cd65fc6099efff",
+      "bytes": 2189
+    },
+    "snapshot/courtyard/host-integration.sc.in": {
+      "sha256": "9260130061410d5cd77037a76f551f2a8ec236fe23c6f6aadae2099739a9531a",
+      "bytes": 2684
+    },
+    "snapshot/courtyard/manifest.json": {
+      "sha256": "6029edd74346ac09b4f1e7bde691795c9f7c11ce4eb8b460423668565d7e8dc3",
+      "bytes": 15353
+    },
+    "snapshot/domain/HOST-CONTRACT.md": {
+      "sha256": "ee0f2d18ca23f8dfed86d4cf763f6bd7024c13b7c204ada9ac4b2b87c15c53b9",
+      "bytes": 7285
+    },
+    "snapshot/domain/manifest.json": {
+      "sha256": "43253681fec9515d5f8ae7bb3bb19f6be6c3b33ea8044ead0286a33d5473790a",
+      "bytes": 10340
+    },
+    "snapshot/domain/module985.sc": {
+      "sha256": "38a5bf402514511f24e74d25a445ee47716aab0552144b73724e7eb36a926cea",
+      "bytes": 49537
+    },
+    "snapshot/domain/selectors.json": {
+      "sha256": "3e0554c61cd7f9bf95fa2608fda948ed39c5eeaf44efbfa106989d632545ae38",
+      "bytes": 22288
+    },
+    "snapshot/drawer/229.view.bin": {
+      "sha256": "c7da78eb7fe7ba931fdb2e8628260b833be5502618ced703f6a41e95d1e9e7e7",
+      "bytes": 2932
+    },
+    "snapshot/drawer/FILES.json": {
+      "sha256": "77a89b42aef70f1c579e42349f97cfac3e38784ea523d39b476bfc45ba1ffa2f",
+      "bytes": 6774
+    },
+    "snapshot/drawer/PROVENANCE.json": {
+      "sha256": "72e4572fc11c9d568e55ff843d26af86e448506010a55e37adbb8a10db6115ee",
+      "bytes": 1210
+    },
+    "snapshot/drawer/SHA256SUMS": {
+      "sha256": "6f39cd5ed7c14bcea1ea5f6965e9078c6f5dd9421026bbe81172944db0f4e39d",
+      "bytes": 6309
+    },
+    "snapshot/drawer/design-contract.json": {
+      "sha256": "57e2ef45fb6677f86cbb2fd39dc11cd47900a6edd9327f906e07cc31b4ffcb24",
+      "bytes": 2204
+    },
+    "snapshot/drawer/geometry-manifest.json": {
+      "sha256": "f58d86fb4d2652f91c5ba3dc75962d7aa098fdc0fd636e0e31c89c6381389747",
+      "bytes": 14886
+    },
+    "snapshot/drawer/host-integration.json": {
+      "sha256": "12bd13647d0845f2b3712e85f5aa7d440bdb14be9ea0c86c607d9a17fd4be172",
+      "bytes": 2295
+    },
+    "snapshot/drawer/host-integration.sc.in": {
+      "sha256": "fc9594123eb2f2f5ddb26426396cffff88416b8cc8f8219f47f53b899352b04d",
+      "bytes": 674
+    },
+    "snapshot/drawer/manifest.json": {
+      "sha256": "5c5487dcc19f1fbe4ba322b925ff785e0b39cd014f10cfa9c798a571a30db008",
+      "bytes": 2242
+    },
+    "snapshot/r2/compile-receipt.json": {
+      "sha256": "a1b054766a5a2284c8ee1f228503b1c9aee1a780f235d5773c4d015839baadc9",
+      "bytes": 2616
+    },
+    "snapshot/r2/main.sc": {
+      "sha256": "b0dc005f3537f0beb1634b156845751b21455fd14a1ac6e10a29266e373eb143",
+      "bytes": 366305
+    },
+    "snapshot/r2/module980.sc": {
+      "sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "bytes": 7266
+    },
+    "snapshot/r2/module981.sc": {
+      "sha256": "09bb8cce3d0a9e4a567a5aae4c787bd6f94fafbfd0fdfc1a8f1f7cc1a65ba8bb",
+      "bytes": 89962
+    },
+    "snapshot/r2/module982.sc": {
+      "sha256": "64141e5e7d28b11eca32a0e6a81b126a0fcaf7845be949cc4baba801a652e768",
+      "bytes": 66564
+    },
+    "snapshot/r2/module983.sc": {
+      "sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7",
+      "bytes": 44434
+    },
+    "snapshot/r2/module984.sc": {
+      "sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929",
+      "bytes": 44790
+    },
+    "snapshot/r2/selector-list.json": {
+      "sha256": "62a498f57a57031a799fc1b165f69c5936cebd8ac4a39159f99645d0708dac7e",
+      "bytes": 40049
+    },
+    "snapshot/scene/205.text.bin": {
+      "sha256": "c7b4e97b23cb74a71692c4c07e3decadb503ba8b9158fe96641568b1ab26ec57",
+      "bytes": 5390
+    },
+    "snapshot/scene/line-document-map.json": {
+      "sha256": "55b5d21816e78621171288219a8e8e0f95a07e6fad7a242deeea0d45ad518d85",
+      "bytes": 9170
+    },
+    "snapshot/scene/manifest.json": {
+      "sha256": "c9e654afc1c36f94240ec453f6dd1f101213dd7ad383ff15fd390b7492ced67d",
+      "bytes": 597371
+    },
+    "snapshot/scene/module982.sc": {
+      "sha256": "6e11b347641fe3a010b93d7c9ec03d1f86887e99f4efe5d127820cc61cba7daf",
+      "bytes": 69933
+    },
+    "snapshot/stage/330.view.bin": {
+      "sha256": "266a4c6afef9d0eeaf5c4502333456bb195c2e7c7cd7ffe8ba72a034d29eb892",
+      "bytes": 16834
+    },
+    "snapshot/stage/331.view.bin": {
+      "sha256": "a02a26da41e296b67c7dad749f44a14f693d327ce51ef11bec071d76be765a14",
+      "bytes": 40462
+    },
+    "snapshot/stage/PORTABILITY.json": {
+      "sha256": "070bde70f4eb8eb9b3ce9edd02740812b729348372974b5b97f8a7a6865a57e5",
+      "bytes": 387
+    },
+    "snapshot/stage/RENDERER-CONTRACT.json": {
+      "sha256": "4be0ab46cc00ae8c8e2c0ff92e26bb8848b7b539ffef5ed128a76ce423858094",
+      "bytes": 7209
+    },
+    "snapshot/stage/stage-methods.sc.inc": {
+      "sha256": "f4138a889b14b0d9729cd10ef8af17e1e17691157cf1525707a57d9cdff895ce",
+      "bytes": 4352
+    },
+    "snapshot/stage/stage-properties.inc": {
+      "sha256": "77a17d344daa0ca2b7455dc4edc62d9e2f61a2f6fd3b321b4f5404bedbf3e276",
+      "bytes": 160
+    },
+    "src/main.sc": {
+      "sha256": "0533b604ce03f416384c6bb31d3e033077c96c40fbc67ed9d44c82027f05b8e6",
+      "bytes": 372688
+    },
+    "src/module980.sc": {
+      "sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "bytes": 7266
+    },
+    "src/module981.sc": {
+      "sha256": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc",
+      "bytes": 91029
+    },
+    "src/module982.sc": {
+      "sha256": "8b14b3eaf31818a781a509764b08d5e4e3dedebb025bd8dbb6a910102c254eca",
+      "bytes": 87360
+    },
+    "src/module983.sc": {
+      "sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7",
+      "bytes": 44434
+    },
+    "src/module984.sc": {
+      "sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929",
+      "bytes": 44790
+    },
+    "src/module985.sc": {
+      "sha256": "ae17d5e568df2b423506bbd2acfef32d8de500a88c3ae7e364f59e78395f602e",
+      "bytes": 123448
+    },
+    "src/module986.sc": {
+      "sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81",
+      "bytes": 38454
+    },
+    "tests/EXPECTED-TESTS.json": {
+      "sha256": "6a5fef299047a26ddfb560502b26f39997f50fc245546f96f818ea0f9c7f388a",
+      "bytes": 4034
+    },
+    "tests/audit_emitted.py": {
+      "sha256": "66be15fbde8e7c97b0e088b43f16fddad50426e584794f39907bcb65cb4fa781",
+      "bytes": 2183
+    },
+    "tests/host.py": {
+      "sha256": "0c9b8967b3557952c8f6f3e645c963cb041961ab54661a2b47d65b517f563278",
+      "bytes": 3746
+    },
+    "tests/run_suite.py": {
+      "sha256": "107015bc48d057a6c9c333c8f32e62468fd613fc34282c0f2f807e4d30ccef27",
+      "bytes": 2379
+    },
+    "tests/test_contest.py": {
+      "sha256": "97b550b13b1d23b9e8656c86b959a6bbebb532591f4a4e0ed08b08e66784cadd",
+      "bytes": 15007
+    },
+    "tests/test_inherited_render.py": {
+      "sha256": "e73c75c3f6326199de84fc4a85bbb3aabed22b80574964c060ddd9fa31c200b3",
+      "bytes": 1287
+    },
+    "tests/test_practical.py": {
+      "sha256": "6a34829539cd15e2f543332603c8c8299ab11175fc75fe1bce269f56493425f4",
+      "bytes": 13908
+    },
+    "tests/test_presentation_controls.py": {
+      "sha256": "6cbd348e9cdd36ed243bfd7bf4fb5c3388c5affccd28771fb32647bc6e835bf1",
+      "bytes": 4868
+    },
+    "tests/test_saved_consistency.py": {
+      "sha256": "c3a3a1f4e45b2dc4ed6b28b72ad10da299a8e54a2464bed9cabf8a2ec1936382",
+      "bytes": 5307
+    },
+    "tests/verify_architecture.py": {
+      "sha256": "14a3bbd8895f2a94d6f207edee8b15c6882d0aa723357775ed1d5efbf7ea59f4",
+      "bytes": 3440
+    },
+    "tools/extract_sci11.py": {
+      "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d",
+      "bytes": 2510
+    },
+    "tools/generate_static_guards.py": {
+      "sha256": "126978dcddd3c24402ab24b74776f294c19a404131849662b5c894afeffda0bb",
+      "bytes": 4315
+    },
+    "tools/host_vm.py": {
+      "sha256": "210b80964518bed64d19516412e66ea98065454b13751c0c746c146243cf5349",
+      "bytes": 30704
+    },
+    "tools/make_courtyard_controls.py": {
+      "sha256": "12b8bfbc73a3665d69ed77b63a6ebb7f917191b91fcc1ad2cce25d5044991329",
+      "bytes": 1834
+    },
+    "tools/pack.py": {
+      "sha256": "630b867ba6ef09f16fe226978c18d145ee10c03eca1f19782ece31c5b835db3d",
+      "bytes": 7961
+    },
+    "tools/pin_runtime_source.py": {
+      "sha256": "12ccdaea803c5bf6f2da4b8e7fbdcb7a9734ea995da8608ac56d7ea1639ee134",
+      "bytes": 2023
+    },
+    "tools/reference/kernels.json": {
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535",
+      "bytes": 2820
+    },
+    "tools/reference/opcode-tables.json": {
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a",
+      "bytes": 10185
+    },
+    "tools/seal_inputs.py": {
+      "sha256": "20ddbd6a77b7b5a59d684e044378821718b1f43707bb4cdc1ba0baf43a2d9f8d",
+      "bytes": 1705
+    },
+    "tools/sound_stop_mock.py": {
+      "sha256": "922c4cb3a804fed96a8861dac3331f61d62d2eb457ee48434247b22526b00ed7",
+      "bytes": 1297
+    },
+    "tools/source_tools.py": {
+      "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56",
+      "bytes": 1813
+    },
+    "tools/validate_selected_inputs.py": {
+      "sha256": "fe1b5b8c70259d3b738a15979acc24a19e0f5931b8830869b48055fda30079e4",
+      "bytes": 2119
+    },
+    "tools/validate_static_inputs.py": {
+      "sha256": "c7f0ba0b1c702aef0bd3bc5deef84dcc950d5b3c21191c67946806f3c8b81494",
+      "bytes": 2553
+    },
+    "verify.py": {
+      "sha256": "fe59417685a6fa1ae5a2dda9b95cc3b78d8b2c4564cf76e09a663050ebc1edc4",
+      "bytes": 3844
+    },
+    "visual-work/HOOKS.md": {
+      "sha256": "68461b7c146b9a5beab20b857d72ff2f44814e007e519681e0da42d60a548e94",
+      "bytes": 6578
+    },
+    "visual-work/build_fixture.py": {
+      "sha256": "ddf68b151a713cac0ad417c7e48711fa18caafb3afd451c19bad8115e69e9ba3",
+      "bytes": 6096
+    },
+    "visual-work/generate_fragment.py": {
+      "sha256": "9eac0f322ccfcf011eccc7ed062fe7c09c4e4c53be6461e3d985aa3006febef6",
+      "bytes": 8984
+    },
+    "visual-work/interfaces.json": {
+      "sha256": "8b93eed3d2d9e2b7352f994cbfe3c34aff83a2daf486e43b31518bcc6f3be1cf",
+      "bytes": 3420
+    },
+    "visual-work/tests/audit_emitted.py": {
+      "sha256": "1c39f4e3803a5ff148bf8580b7b3d0a71268311d7e03964e6fc44249e5b8c477",
+      "bytes": 2169
+    },
+    "visual-work/tests/test_visual_helpers.py": {
+      "sha256": "9686e79bb201f95a63f19eeba5ed5bb8686d775e9832db484bbcddb0c4ddd855",
+      "bytes": 9930
+    },
+    "visual-work/visual-locals.inc": {
+      "sha256": "19c2ba92a7a5765d678499b2c70acec29e83c6a7ea15fec64a9d28be15b8abd3",
+      "bytes": 140
+    },
+    "visual-work/visual-methods.sc.inc": {
+      "sha256": "941f75b348dd11d08219fa88d2423545dd17c3be236eb61f745fb69b0068c56d",
+      "bytes": 7886
+    }
+  },
+  "external": {
+    "p03-editable-checkpoint/toolchain/scicompile": {
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "bytes": 2501464
+    },
+    "p04-native-inventory-fix-reconstruction/inputs/verification/extract_sci11.py": {
+      "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d",
+      "bytes": 2510
+    },
+    "p04-native-inventory-fix-reconstruction/inputs/verification/host_vm.py": {
+      "sha256": "a7a917d8789cb009e98e4bbf53030a6a58e811e9b86b5cd015815353170a03fc",
+      "bytes": 30625
+    },
+    "p04-native-inventory-fix-reconstruction/inputs/verification/reference/kernels.json": {
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535",
+      "bytes": 2820
+    },
+    "p04-native-inventory-fix-reconstruction/inputs/verification/reference/opcode-tables.json": {
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a",
+      "bytes": 10185
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/BUILD-RECEIPT.json": {
+      "sha256": "1f418654bc8e49ca5f9048c78e1cee3af5d955856343648aa45d762fbf1424d7",
+      "bytes": 950
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/PACKAGE-MANIFEST.json": {
+      "sha256": "69178bd40504e54018012fe78c5ee677370561167609f9745ce8550d6da45dd5",
+      "bytes": 66190
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compile-receipt.json": {
+      "sha256": "e4c667548f41378b27587e37bb83ecc714eb73d98b0c12aebe6c9968c26792b5",
+      "bytes": 2616
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/0.scr.bin": {
+      "sha256": "b1a66d6ceb8733c8c9eef668327d9301cb958c76cfd498aee7966cb1f3288f10",
+      "bytes": 46350
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/0.scr.bin.hep": {
+      "sha256": "cbf672b066067dc8de37ffa56b995319b436958101e9d5e8ead03ac8cca2c6ac",
+      "bytes": 12216
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/980.scr.bin": {
+      "sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "bytes": 1374
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/980.scr.bin.hep": {
+      "sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "bytes": 216
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/981.scr.bin": {
+      "sha256": "26d1b35c8ee7cb7cebbc51a4ceef3dbc88e4579d9df2227c85ef6edd38b94718",
+      "bytes": 5486
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/981.scr.bin.hep": {
+      "sha256": "fb7ef5a63ba4ca6dcf488b024a712a56c39387ee63822882ebdd95db86c03b4b",
+      "bytes": 6362
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/982.scr.bin": {
+      "sha256": "928d2abe8f56984b405500c921554cacce09c013799c3e3bc54c202adba73848",
+      "bytes": 18466
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/982.scr.bin.hep": {
+      "sha256": "1ec56ea2599cd69f633fdda0c2c75a841f1414347d681ba757379e18a2b76a14",
+      "bytes": 12020
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/983.scr.bin": {
+      "sha256": "731605148c963f7c340bd1dd9beb7f1147fc070b2c369100bdb54b292e152a82",
+      "bytes": 10290
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/983.scr.bin.hep": {
+      "sha256": "b579e5663f1b37562a25ba8d391aa54021dbde5e2d051ff6555e1671322c4075",
+      "bytes": 870
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/984.scr.bin": {
+      "sha256": "076160b149c473d8089a55b64281950517d832290c9ce05d87a8a5c369325189",
+      "bytes": 9480
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/compiled/984.scr.bin.hep": {
+      "sha256": "7760f077f86dafd439376f3485b6b85468b1aec1568e04f46c8bdd07f46ddb40",
+      "bytes": 1060
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/selector-list.json": {
+      "sha256": "62a498f57a57031a799fc1b165f69c5936cebd8ac4a39159f99645d0708dac7e",
+      "bytes": 40049
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/main.sc": {
+      "sha256": "f552ebd30d0030f3a48bb6e517537d9307822c49094149d473f1b37b567e3ada",
+      "bytes": 366319
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/main.sco": {
+      "sha256": "03d8bf33076f7e54ca35bb5cd58b32d6322b30a23e7f96201d41e1a97aa777fd",
+      "bytes": 7202
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module980.sc": {
+      "sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "bytes": 7266
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module980.sco": {
+      "sha256": "dbe59e223c9c0b76cbabb7c171bf24a672f81f338028e1961f77f8790a7a9939",
+      "bytes": 224
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module981.sc": {
+      "sha256": "09bb8cce3d0a9e4a567a5aae4c787bd6f94fafbfd0fdfc1a8f1f7cc1a65ba8bb",
+      "bytes": 89962
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module981.sco": {
+      "sha256": "8b95f422ba4e71aed15486b44afc1d6e50152ffaf742712b7b495b439ac7d0fb",
+      "bytes": 9616
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module982.sc": {
+      "sha256": "64141e5e7d28b11eca32a0e6a81b126a0fcaf7845be949cc4baba801a652e768",
+      "bytes": 66564
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module982.sco": {
+      "sha256": "bf1566487a9ec3814484ce16e430f605e9ed2f9ee833a4f86a24a0b40cafdbc3",
+      "bytes": 16777
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module983.sc": {
+      "sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7",
+      "bytes": 44434
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module983.sco": {
+      "sha256": "b345768ef9623705f97dd06a2ac67dc89f131229b52146d8db5b87e70cbf2892",
+      "bytes": 1369
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module984.sc": {
+      "sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929",
+      "bytes": 44790
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/src/module984.sco": {
+      "sha256": "01938eacdfbe7d2ebe22257181f2f6ada4e1cb562678c24702188bfc991f12d2",
+      "bytes": 1675
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/000.font.bin": {
+      "sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+      "bytes": 1542
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/000.heap.bin": {
+      "sha256": "72570d45f3e842ce4ec387293547ae0a7bdc51b35235e61cc08d032dc1c485ef",
+      "bytes": 12076
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/000.script.bin": {
+      "sha256": "b2e1c53318d1be3b0f79394feb6e3855d8ba6ac38eea616b7c22a3e94f0fc47a",
+      "bytes": 42316
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/001.sound.bin": {
+      "sha256": "2bcaeb80d9db987d4af15fef09803f64bc7f6b905dfb07c9ddbec10875f14d08",
+      "bytes": 1710
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/002.sound.bin": {
+      "sha256": "93e35dd5e3e3478d41dc13dffbdccfeceece55e0043ca9c3058e7c968cb8793f",
+      "bytes": 81
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/003.sound.bin": {
+      "sha256": "f7fa6d6cc2158a4708ecd8adfd1476f4fc3d686de15f5898b8b4568f6689d414",
+      "bytes": 2449
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/004.patch.bin": {
+      "sha256": "16d849a2d3d65cb033d506d8805a4d901c303b8d0de7e070fa0af21459ee961c",
+      "bytes": 1155
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/100.view.bin": {
+      "sha256": "5492d69090c6c6a63bed3810a1171c9f9334e44e9c64c0713c086fd95129e231",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/101.view.bin": {
+      "sha256": "da557d99d916d3842b558ab8bd15dd1af0d1be0c0d55dfe36f5cbf7ac6cf3103",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/102.sound.bin": {
+      "sha256": "c5cfdab4fe4953f6129de9db62b2282d083aa07c843d568ba771d0cccb2ce1ad",
+      "bytes": 5861
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/102.view.bin": {
+      "sha256": "9ffacb480ba6070315869784f6752a6469184ca2e0b437dcbc96e9074d15b179",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/103.view.bin": {
+      "sha256": "be0b5a43eb5cb52ebb5358a1d9900aebd567ca15811a14ea06dace1eb8f51a8c",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/104.view.bin": {
+      "sha256": "2821389ae4911dd471c5e16c8733b49e42046e7e7dddd95354b030f231aaa500",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/105.view.bin": {
+      "sha256": "ccdea5bdcf431a84cad5cf1c9463603dabc48efcc64f69fd027094379cce0ef9",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/106.view.bin": {
+      "sha256": "28215c9662e03d0b706cfea1e5274047d011ac1cdd68e6f44f6bb4bb5712e0f8",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/107.view.bin": {
+      "sha256": "e8bfbf041d6c6447686e5cf4345b94de32c3ea6715f9c410739ca65f23ae1f4f",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/108.view.bin": {
+      "sha256": "21b03e709fb9037208f898fbec50cf2bdc84a1bb656a3ca6de6440888e76e21f",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/109.view.bin": {
+      "sha256": "120326f9126940440695f14e8a214f92a61f3671b9b9402cdcb98fd2dfd1b6fb",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/110.view.bin": {
+      "sha256": "5208b1892b00a15da5119da6915130666f85b41b68c5eba00401352c68218ce8",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/111.view.bin": {
+      "sha256": "574870691033fcad9964d20805a2af0a38b97b159b7ddfa5b49d9504835a7d42",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/112.view.bin": {
+      "sha256": "e2a50e0b11ec05436f71ae093a77d829778654cf21c2bf42f7be5d0cfc382053",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/200.text.bin": {
+      "sha256": "10cb473e81e4d54f6eae4cb1c9cb06d82ab69ee082ecac6f826ea3f19aa1ed21",
+      "bytes": 36780
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/200.view.bin": {
+      "sha256": "e2409c8ca5ceef5dd95dd572f99486ffe6e23fd14445e20c55e050429d67499e",
+      "bytes": 7274
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/201.view.bin": {
+      "sha256": "b2da6dad6eb90a17e24576dfd83cfb51ff9629066e2bbd1d0bf448ec65af1538",
+      "bytes": 5226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/202.text.bin": {
+      "sha256": "a47998f1a70c889386efbe1f717ba4082719659e4092ed1d11b259152249225a",
+      "bytes": 12975
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/202.view.bin": {
+      "sha256": "bad86da21cc3b683c9594578d548d8805dce689b8164161d17bcecc6f2b84d36",
+      "bytes": 710
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/203.text.bin": {
+      "sha256": "59cca8e51fdd4df43f7047471a06878635033a33e97d6ecf08d56dd51e39156b",
+      "bytes": 4027
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/203.view.bin": {
+      "sha256": "fdf38109192b972e7d950576150ad26d095b4b05ace602a76224f71b7791d35a",
+      "bytes": 198
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/204.text.bin": {
+      "sha256": "cdeb8ee4097c514eb2c639ec9060c51a0064bfa8e958b8a76bd648e0dc10b37a",
+      "bytes": 3467
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/204.view.bin": {
+      "sha256": "c48decb7703e3cbb2fec935b3eff7e19d62930d0d5b3f3573a922f354893efed",
+      "bytes": 3598
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/205.view.bin": {
+      "sha256": "763a8f90c75fdca1dc0f7438fd1571f0513a0aa34fbffe0dbbc65e5b836ba6eb",
+      "bytes": 190
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/210.view.bin": {
+      "sha256": "a1c639d4cbf7dcdffb6127f065b963c4d1f53de86b0f5a99dd61d5ea15efee20",
+      "bytes": 6216
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/211.view.bin": {
+      "sha256": "e41aab4f81ceaf1af38168a7066c25f21ca5160df863d871829474a80aca28ed",
+      "bytes": 3178
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/212.view.bin": {
+      "sha256": "1d0fc8f06a21cfae585097880c673ad478139ef3cb393b70b962bd541bcf639a",
+      "bytes": 710
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/213.view.bin": {
+      "sha256": "f85070da62a67c7d3a1a851463aba74556cd4e9d554a3627e198d3dcb08b4d01",
+      "bytes": 198
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/214.view.bin": {
+      "sha256": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+      "bytes": 42010
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/215.view.bin": {
+      "sha256": "bf79b2b7466c318c634a2800a24f40e82273cc33b9ecc810d4135daf5dafef62",
+      "bytes": 3178
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/216.view.bin": {
+      "sha256": "5132a73789cb57ff5d38d784ba4f53abacfeb654fea70c71dc35ed023b67615a",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/217.view.bin": {
+      "sha256": "761d864ad1d4ce98ffa0f5f89eb55a673be82dfd6220df94b2f24bc9cd4c9da2",
+      "bytes": 9482
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/218.view.bin": {
+      "sha256": "0386c5740dd4eab145e2f0353ac4961bbc5340262e367b139acdf30187d81964",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/219.view.bin": {
+      "sha256": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/220.view.bin": {
+      "sha256": "df40bb6c75f0e4047050802624819913dafd1b7c1bfc49e88c300e8b05e0904c",
+      "bytes": 2365
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/221.view.bin": {
+      "sha256": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/222.view.bin": {
+      "sha256": "a8b5861ebf27e91faff854f19ba8aa8760c75182e1ee8f7b46498d153a9631e5",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/223.view.bin": {
+      "sha256": "ebc8d979656fe9724cbc7c2549a2fada60f5e844248d00644ed8706e0ba1e6c1",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/224.view.bin": {
+      "sha256": "c966212e0fc5916b7fca4c2199d57ce0e1aa6abf41ee00a49095c218f529545c",
+      "bytes": 5785
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/225.view.bin": {
+      "sha256": "9089c06bb25195b56d5f8a430e910abbd844d47c021875baa5f5c4d265844f94",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/226.view.bin": {
+      "sha256": "b82186d9dcefce4b5d235112cef7a4e58010405f7c946509ce0a5f5f98168e33",
+      "bytes": 16236
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/300.view.bin": {
+      "sha256": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/302.view.bin": {
+      "sha256": "730f9c00a603717e3d8e05e5357814cae26bc20364d840747fe19b131eabbd10",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/303.view.bin": {
+      "sha256": "14243a5b546abc88dc134b2835a94a26e0b75ce24157a7ac19b86b68509eba1d",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/980.heap.bin": {
+      "sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "bytes": 216
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/980.script.bin": {
+      "sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "bytes": 1374
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/981.heap.bin": {
+      "sha256": "fb7ef5a63ba4ca6dcf488b024a712a56c39387ee63822882ebdd95db86c03b4b",
+      "bytes": 6362
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/981.script.bin": {
+      "sha256": "26d1b35c8ee7cb7cebbc51a4ceef3dbc88e4579d9df2227c85ef6edd38b94718",
+      "bytes": 5486
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/982.heap.bin": {
+      "sha256": "9ef1456f9fb886e110ad3178904472bf7274871f3e74947f09886333a25bf0ce",
+      "bytes": 10600
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/982.script.bin": {
+      "sha256": "8af2f02153d8dc0fd22ca4c51528d20721622b57feba3d3de26526417592eed0",
+      "bytes": 18450
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/983.heap.bin": {
+      "sha256": "b579e5663f1b37562a25ba8d391aa54021dbde5e2d051ff6555e1671322c4075",
+      "bytes": 870
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/983.script.bin": {
+      "sha256": "731605148c963f7c340bd1dd9beb7f1147fc070b2c369100bdb54b292e152a82",
+      "bytes": 10290
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/996.vocab.bin": {
+      "sha256": "06afacc715eb74afd4744bf741b4bf855a0242c91f902d3e64b8c175aeb2e156",
+      "bytes": 24
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/997.vocab.bin": {
+      "sha256": "9c2d3e1c107e82de452db4ff244255b703ce1fec999db3fd9cd5e1246e4f677f",
+      "bytes": 18367
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/assets/resources/999.palette.bin": {
+      "sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+      "bytes": 805
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/reference/resources.json": {
+      "sha256": "3122459813b0a2b39086e84e62c5525b3a640cd58aac0d9901b250b7dce1c9f3",
+      "bytes": 24427
+    },
+    "p04-native-inventory-fix-reconstruction/reference/accepted/build/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "sha256": "c25bbade0dcc016bac35ceca2b7a7a7b7497f87162f00783e1ac64f5042bac70",
+      "bytes": 919406
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/main.sc": {
+      "sha256": "b0dc005f3537f0beb1634b156845751b21455fd14a1ac6e10a29266e373eb143",
+      "bytes": 366305
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/main.sco": {
+      "sha256": "03d8bf33076f7e54ca35bb5cd58b32d6322b30a23e7f96201d41e1a97aa777fd",
+      "bytes": 7202
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module980.sc": {
+      "sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "bytes": 7266
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module980.sco": {
+      "sha256": "dbe59e223c9c0b76cbabb7c171bf24a672f81f338028e1961f77f8790a7a9939",
+      "bytes": 224
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module981.sc": {
+      "sha256": "09bb8cce3d0a9e4a567a5aae4c787bd6f94fafbfd0fdfc1a8f1f7cc1a65ba8bb",
+      "bytes": 89962
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module981.sco": {
+      "sha256": "8b95f422ba4e71aed15486b44afc1d6e50152ffaf742712b7b495b439ac7d0fb",
+      "bytes": 9616
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module982.sc": {
+      "sha256": "64141e5e7d28b11eca32a0e6a81b126a0fcaf7845be949cc4baba801a652e768",
+      "bytes": 66564
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module982.sco": {
+      "sha256": "bf1566487a9ec3814484ce16e430f605e9ed2f9ee833a4f86a24a0b40cafdbc3",
+      "bytes": 16777
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module983.sc": {
+      "sha256": "4b7da2f064a80c6a7a2dd315f6176045fb8ae774ff2510333d731a554f1400c7",
+      "bytes": 44434
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module983.sco": {
+      "sha256": "b345768ef9623705f97dd06a2ac67dc89f131229b52146d8db5b87e70cbf2892",
+      "bytes": 1369
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module984.sc": {
+      "sha256": "f6d3608ef82e2f2fcc1dae431f452ceda44cd376563adb15c5ca358aa2d63929",
+      "bytes": 44790
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/src/module984.sco": {
+      "sha256": "01938eacdfbe7d2ebe22257181f2f6ada4e1cb562678c24702188bfc991f12d2",
+      "bytes": 1675
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/000.font.bin": {
+      "sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+      "bytes": 1542
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/000.heap.bin": {
+      "sha256": "72570d45f3e842ce4ec387293547ae0a7bdc51b35235e61cc08d032dc1c485ef",
+      "bytes": 12076
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/000.script.bin": {
+      "sha256": "b2e1c53318d1be3b0f79394feb6e3855d8ba6ac38eea616b7c22a3e94f0fc47a",
+      "bytes": 42316
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/001.sound.bin": {
+      "sha256": "2bcaeb80d9db987d4af15fef09803f64bc7f6b905dfb07c9ddbec10875f14d08",
+      "bytes": 1710
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/002.sound.bin": {
+      "sha256": "93e35dd5e3e3478d41dc13dffbdccfeceece55e0043ca9c3058e7c968cb8793f",
+      "bytes": 81
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/003.sound.bin": {
+      "sha256": "f7fa6d6cc2158a4708ecd8adfd1476f4fc3d686de15f5898b8b4568f6689d414",
+      "bytes": 2449
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/004.patch.bin": {
+      "sha256": "16d849a2d3d65cb033d506d8805a4d901c303b8d0de7e070fa0af21459ee961c",
+      "bytes": 1155
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/100.view.bin": {
+      "sha256": "5492d69090c6c6a63bed3810a1171c9f9334e44e9c64c0713c086fd95129e231",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/101.view.bin": {
+      "sha256": "da557d99d916d3842b558ab8bd15dd1af0d1be0c0d55dfe36f5cbf7ac6cf3103",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/102.sound.bin": {
+      "sha256": "c5cfdab4fe4953f6129de9db62b2282d083aa07c843d568ba771d0cccb2ce1ad",
+      "bytes": 5861
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/102.view.bin": {
+      "sha256": "9ffacb480ba6070315869784f6752a6469184ca2e0b437dcbc96e9074d15b179",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/103.view.bin": {
+      "sha256": "be0b5a43eb5cb52ebb5358a1d9900aebd567ca15811a14ea06dace1eb8f51a8c",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/104.view.bin": {
+      "sha256": "2821389ae4911dd471c5e16c8733b49e42046e7e7dddd95354b030f231aaa500",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/105.view.bin": {
+      "sha256": "ccdea5bdcf431a84cad5cf1c9463603dabc48efcc64f69fd027094379cce0ef9",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/106.view.bin": {
+      "sha256": "28215c9662e03d0b706cfea1e5274047d011ac1cdd68e6f44f6bb4bb5712e0f8",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/107.view.bin": {
+      "sha256": "e8bfbf041d6c6447686e5cf4345b94de32c3ea6715f9c410739ca65f23ae1f4f",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/108.view.bin": {
+      "sha256": "21b03e709fb9037208f898fbec50cf2bdc84a1bb656a3ca6de6440888e76e21f",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/109.view.bin": {
+      "sha256": "120326f9126940440695f14e8a214f92a61f3671b9b9402cdcb98fd2dfd1b6fb",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/110.view.bin": {
+      "sha256": "5208b1892b00a15da5119da6915130666f85b41b68c5eba00401352c68218ce8",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/111.view.bin": {
+      "sha256": "574870691033fcad9964d20805a2af0a38b97b159b7ddfa5b49d9504835a7d42",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/112.view.bin": {
+      "sha256": "e2a50e0b11ec05436f71ae093a77d829778654cf21c2bf42f7be5d0cfc382053",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/200.text.bin": {
+      "sha256": "10cb473e81e4d54f6eae4cb1c9cb06d82ab69ee082ecac6f826ea3f19aa1ed21",
+      "bytes": 36780
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/200.view.bin": {
+      "sha256": "e2409c8ca5ceef5dd95dd572f99486ffe6e23fd14445e20c55e050429d67499e",
+      "bytes": 7274
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/201.view.bin": {
+      "sha256": "b2da6dad6eb90a17e24576dfd83cfb51ff9629066e2bbd1d0bf448ec65af1538",
+      "bytes": 5226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/202.text.bin": {
+      "sha256": "a47998f1a70c889386efbe1f717ba4082719659e4092ed1d11b259152249225a",
+      "bytes": 12975
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/202.view.bin": {
+      "sha256": "bad86da21cc3b683c9594578d548d8805dce689b8164161d17bcecc6f2b84d36",
+      "bytes": 710
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/203.text.bin": {
+      "sha256": "59cca8e51fdd4df43f7047471a06878635033a33e97d6ecf08d56dd51e39156b",
+      "bytes": 4027
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/203.view.bin": {
+      "sha256": "fdf38109192b972e7d950576150ad26d095b4b05ace602a76224f71b7791d35a",
+      "bytes": 198
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/204.text.bin": {
+      "sha256": "cdeb8ee4097c514eb2c639ec9060c51a0064bfa8e958b8a76bd648e0dc10b37a",
+      "bytes": 3467
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/204.view.bin": {
+      "sha256": "c48decb7703e3cbb2fec935b3eff7e19d62930d0d5b3f3573a922f354893efed",
+      "bytes": 3598
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/205.view.bin": {
+      "sha256": "763a8f90c75fdca1dc0f7438fd1571f0513a0aa34fbffe0dbbc65e5b836ba6eb",
+      "bytes": 190
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/210.view.bin": {
+      "sha256": "a1c639d4cbf7dcdffb6127f065b963c4d1f53de86b0f5a99dd61d5ea15efee20",
+      "bytes": 6216
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/211.view.bin": {
+      "sha256": "e41aab4f81ceaf1af38168a7066c25f21ca5160df863d871829474a80aca28ed",
+      "bytes": 3178
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/212.view.bin": {
+      "sha256": "1d0fc8f06a21cfae585097880c673ad478139ef3cb393b70b962bd541bcf639a",
+      "bytes": 710
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/213.view.bin": {
+      "sha256": "f85070da62a67c7d3a1a851463aba74556cd4e9d554a3627e198d3dcb08b4d01",
+      "bytes": 198
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/214.view.bin": {
+      "sha256": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+      "bytes": 42010
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/215.view.bin": {
+      "sha256": "bf79b2b7466c318c634a2800a24f40e82273cc33b9ecc810d4135daf5dafef62",
+      "bytes": 3178
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/216.view.bin": {
+      "sha256": "5132a73789cb57ff5d38d784ba4f53abacfeb654fea70c71dc35ed023b67615a",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/217.view.bin": {
+      "sha256": "761d864ad1d4ce98ffa0f5f89eb55a673be82dfd6220df94b2f24bc9cd4c9da2",
+      "bytes": 9482
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/218.view.bin": {
+      "sha256": "0386c5740dd4eab145e2f0353ac4961bbc5340262e367b139acdf30187d81964",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/219.view.bin": {
+      "sha256": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/220.view.bin": {
+      "sha256": "df40bb6c75f0e4047050802624819913dafd1b7c1bfc49e88c300e8b05e0904c",
+      "bytes": 2365
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/221.view.bin": {
+      "sha256": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/222.view.bin": {
+      "sha256": "a8b5861ebf27e91faff854f19ba8aa8760c75182e1ee8f7b46498d153a9631e5",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/223.view.bin": {
+      "sha256": "ebc8d979656fe9724cbc7c2549a2fada60f5e844248d00644ed8706e0ba1e6c1",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/224.view.bin": {
+      "sha256": "c966212e0fc5916b7fca4c2199d57ce0e1aa6abf41ee00a49095c218f529545c",
+      "bytes": 5785
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/225.view.bin": {
+      "sha256": "9089c06bb25195b56d5f8a430e910abbd844d47c021875baa5f5c4d265844f94",
+      "bytes": 25226
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/226.view.bin": {
+      "sha256": "b82186d9dcefce4b5d235112cef7a4e58010405f7c946509ce0a5f5f98168e33",
+      "bytes": 16236
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/300.view.bin": {
+      "sha256": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/302.view.bin": {
+      "sha256": "730f9c00a603717e3d8e05e5357814cae26bc20364d840747fe19b131eabbd10",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/303.view.bin": {
+      "sha256": "14243a5b546abc88dc134b2835a94a26e0b75ce24157a7ac19b86b68509eba1d",
+      "bytes": 46150
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/980.heap.bin": {
+      "sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "bytes": 216
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/980.script.bin": {
+      "sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "bytes": 1374
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/981.heap.bin": {
+      "sha256": "fb7ef5a63ba4ca6dcf488b024a712a56c39387ee63822882ebdd95db86c03b4b",
+      "bytes": 6362
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/981.script.bin": {
+      "sha256": "26d1b35c8ee7cb7cebbc51a4ceef3dbc88e4579d9df2227c85ef6edd38b94718",
+      "bytes": 5486
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/982.heap.bin": {
+      "sha256": "9ef1456f9fb886e110ad3178904472bf7274871f3e74947f09886333a25bf0ce",
+      "bytes": 10600
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/982.script.bin": {
+      "sha256": "8af2f02153d8dc0fd22ca4c51528d20721622b57feba3d3de26526417592eed0",
+      "bytes": 18450
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/983.heap.bin": {
+      "sha256": "b579e5663f1b37562a25ba8d391aa54021dbde5e2d051ff6555e1671322c4075",
+      "bytes": 870
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/983.script.bin": {
+      "sha256": "731605148c963f7c340bd1dd9beb7f1147fc070b2c369100bdb54b292e152a82",
+      "bytes": 10290
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/996.vocab.bin": {
+      "sha256": "06afacc715eb74afd4744bf741b4bf855a0242c91f902d3e64b8c175aeb2e156",
+      "bytes": 24
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/997.vocab.bin": {
+      "sha256": "9c2d3e1c107e82de452db4ff244255b703ce1fec999db3fd9cd5e1246e4f677f",
+      "bytes": 18367
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/assets/resources/999.palette.bin": {
+      "sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+      "bytes": 805
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/reference/resources.json": {
+      "sha256": "3122459813b0a2b39086e84e62c5525b3a640cd58aac0d9901b250b7dce1c9f3",
+      "bytes": 24427
+    },
+    "p04-native-inventory-fix-reconstruction/staging-proof/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "sha256": "c25bbade0dcc016bac35ceca2b7a7a7b7497f87162f00783e1ac64f5042bac70",
+      "bytes": 919406
+    },
+    "p04-native-inventory-fix-reconstruction/tests/render_regressions.py": {
+      "sha256": "179c66965c64368b5bc05046e7a495f73ea90ddd49be9d0a4a476e666e17e375",
+      "bytes": 8068
+    },
+    "p05-art-reconstruction/resources/227.view.bin": {
+      "sha256": "f6e4a5d07701b5d8b129cd043500f0b39df9976df153b463a41de395f453fda0",
+      "bytes": 20735
+    },
+    "p05-art-reconstruction/resources/304.view.bin": {
+      "sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63",
+      "bytes": 46150
+    },
+    "p05-domain-reconstruction/reference/integration-contract.json": {
+      "sha256": "6f1bc31e3259cbd08dcb6f238074086a04371d25c7b1b0f3f0210c698d5f4777",
+      "bytes": 8486
+    },
+    "p05-domain-reconstruction/reference/kernels.json": {
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535",
+      "bytes": 2820
+    },
+    "p05-domain-reconstruction/reference/opcode-tables.json": {
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a",
+      "bytes": 10185
+    },
+    "p05-domain-reconstruction/tools/emitted_gates.py": {
+      "sha256": "e4ae8651e012db50046aa8e4edcdf94abbc5fd403fa106e76e050049584d81b5",
+      "bytes": 20372
+    }
+  },
+  "status": "INPUT_IDENTITIES_ONLY_NOT_ACCEPTANCE"
+}

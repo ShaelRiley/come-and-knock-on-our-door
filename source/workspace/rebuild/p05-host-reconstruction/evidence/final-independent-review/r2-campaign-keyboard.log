@@ -1,0 +1,30 @@
+INIT {'opening': 0, 'location': 0, 'tray': 0, 'wedge': 0, 'houseEntered': 0, 'traySafe': 0, 'p02PlanAgreed': 0} p05 1
+ACTION 7 5 3 state [0, 1, 0, 0, 0, 0, 0]
+ACTION 4 4 0 state [0, 1, 1, 0, 0, 0, 0]
+ACTION 2 1 0 state [0, 1, 1, 0, 0, 0, 0]
+ACTION 7 4 1 state [0, 1, 2, 0, 0, 0, 0]
+ACTION 4 5 0 state [0, 0, 2, 0, 0, 0, 0]
+ACTION 0 1 0 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 7 20 7 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 4 21 0 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 7 21 7 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 0 17 0 state [0, 2, 2, 1, 1, 0, 0]
+ACTION 0 16 0 state [6, 2, 2, 1, 1, 0, 0]
+ACTION 4 22 0 state [6, 2, 2, 1, 1, 0, 0]
+ACTION 0 17 0 state [0, 2, 2, 1, 1, 0, 0]
+ACTION 0 1 0 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 7 22 7 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 5 26 0 state [1, 2, 2, 1, 1, 0, 0]
+ACTION 0 17 0 state [0, 2, 2, 1, 1, 0, 0]
+DRAWER229 0 (46, 48)
+ACTION 0 15 0 state [5, 2, 2, 1, 1, 0, 0]
+DRAWER229 1 (46, 48)
+ACTION 1 23 28 state [5, 2, 2, 1, 1, 0, 0]
+DRAWER229 2 (46, 48)
+ACTION 4 24 0 state [5, 2, 2, 1, 1, 0, 0]
+DRAWER229 2 (46, 48)
+ACTION 5 24 0 state [5, 2, 2, 1, 1, 0, 0]
+MASTER_BEFORE_PLAN 1 1 1
+ACTION 0 17 0 state [0, 2, 2, 1, 1, 0, 0]
+ACTION 0 1 0 state [1, 2, 2, 1, 1, 0, 0]
+END 1 1 instructions 8427531 frames 2121

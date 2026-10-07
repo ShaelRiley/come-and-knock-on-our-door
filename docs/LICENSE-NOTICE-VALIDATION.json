@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-06",
+  "files_checked": 51,
+  "result": "PASS",
+  "checks": [
+    {
+      "path": "tools/scicompile/compat/AppState.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/AppState.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/CCrystalTextBuffer.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/CompileContext.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/ParserActions.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/ParserCommon.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/RemoveScriptDialog.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/ResourceBlob.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/ResourceSources.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/SCISyntaxParser.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/SaveResourceDialog.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/ScriptOM.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/SourceCodeFormatter.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/Stream.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/StudioSyntaxParser.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/SyntaxContext.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/TlHelp32.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/Vocab000.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/_parser_prologue.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/compilelog_compat.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/keywords_compat.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/linkstubs.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/linkstubs2.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/mfc_stubs.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/resource.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/sci.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/stdafx.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/sys/poppack.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/sys/pshpack1.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/winfile.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/compat/winshim.h",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/main.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/AudioCacheResourceSource.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/AudioResourceSource.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/ClassBrowser.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/Compile.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/CompileContext.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/CompiledScript.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/GameFolderHelper.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/ResourceBlob.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/ResourceMap.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/SCISourceCodeFormatter.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/SCISyntaxParser.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/SCO.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/ScriptOM.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/Stream.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/SyntaxParser.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/Vocab000.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/Vocab99x.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/scii.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    },
+    {
+      "path": "tools/scicompile/patched/util.cpp",
+      "pre_notice_hash_matches": true,
+      "distributed_hash_matches": true,
+      "suffix_is_exact_pre_notice_file": true,
+      "added_content_is_comment_only": true
+    }
+  ]
+}

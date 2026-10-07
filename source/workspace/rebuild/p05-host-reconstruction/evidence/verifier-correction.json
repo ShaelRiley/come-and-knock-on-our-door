@@ -1,0 +1,26 @@
+{
+  "status": "PASS_OUTER_VERIFIER_ONLY_BINDING",
+  "defect": "The old inventory checker accepted a schema1 manifest with empty/truncated local or external dictionaries, hashing only supplied members.",
+  "fix": "Literal-pinned expected membership identity plus exact local/external path sets and strict integer schema before per-file hashing.",
+  "old_input_manifest_sha256": "e2733548f91628a2cb24e97ded62a45ff1c9a8622347fbfb842f9e68ad4dc006",
+  "new_input_manifest_sha256": "3702d7501adb5602f8daff63873eea7e516fe564c7f567170a646c51b2ffb0e2",
+  "old_verifier_sha256": "6784b36ddb6dc620d6ef7cf3f44600cf07916fddc411718a7aaab26048fc8308",
+  "new_verifier_sha256": "fe59417685a6fa1ae5a2dda9b95cc3b78d8b2c4564cf76e09a663050ebc1edc4",
+  "new_membership_sha256": "1b52926ecae901c09d751dad2b79850b403adc48d44e199569395138a9e513fa",
+  "unchanged_local_game_data_test_inputs": 128,
+  "unchanged_external_inputs": 180,
+  "added": [
+    "EXPECTED-INPUT-PATHS.json"
+  ],
+  "changed": [
+    "verify.py"
+  ],
+  "removed": [],
+  "primary_full_run_receipt_sha256": "49e9c1ee60bdecb037fcbaa7db972e078aeacf2796ad1a298610cba2887decfc",
+  "primary_full_run_tests": 44,
+  "primary_full_run_skips": 0,
+  "independent_guard_receipt_sha256": "0ece536fac46ef9b639ec69114b6b385a00677606ad2351aa12547ad28cc3611",
+  "positive_check": "Exact corrected inventory() function and canonical input validators passed",
+  "full_test_rerun_claimed": false,
+  "native_acceptance": false
+}

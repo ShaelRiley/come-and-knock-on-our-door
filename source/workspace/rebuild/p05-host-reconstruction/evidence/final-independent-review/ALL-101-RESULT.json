@@ -1,0 +1,423 @@
+{
+  "status": "PASS_ALL_101_PRIOR_REGRESSION_METHODS_ON_R2",
+  "test_count": 101,
+  "unique_test_ids": {
+    "test_audio_ownership.AudioOwnership.test_foley_cancel_preserves_voice_and_laugh_owners": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_audio_ownership.AudioOwnership.test_laugh_age_wrap_and_expiry_are_signed_words": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_audio_ownership.AudioOwnership.test_muted_voice_uses_silent_clock_until_end": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_audio_ownership.AudioOwnership.test_stale_tokens_duplicate_foley_and_voice_priority": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_event_loop.EventLoop.test_graph12_failure_aborts_before_source_receipt": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_event_loop.EventLoop.test_menu_render_never_receipts_hidden_source": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_event_loop.EventLoop.test_queued_escape_processed_by_real_input_prevents_pickup": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_event_loop.EventLoop.test_real_frame_loop_enter_arrival_graph12_and_all_page_commit": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_enter_back_closes_editor_without_reverting_selection": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_enter_menu_freezes_source_receipts_until_resume": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_enter_selects_read_talk_take_and_two_noun_use": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_escape_cancels_queued_pickup_before_arrival": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_json_state_roundtrip_preserves_partial_source_then_commits_once": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_kernel_and_pointer_boundaries_reject_unsupported": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_new_action_replaces_old_queued_target": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_paused_menu_and_opening_freeze_motion": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_queued_arrival_rechecks_plan_and_location": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_snapshot_identity_type_and_bounds_fail_closed_atomically": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_inputs_and_state.InputsAndState.test_stale_and_duplicate_scene_receipts_do_not_replay_audio_or_grant": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_p02_to_p03.ContinuousCampaign.test_p02_plan_then_p03_completion_across_serialized_state": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_all_page_source_barrier_and_close_order": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_both_cloths_and_obligation_orders_complete_without_duplicate_reward": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_credit_choice_is_gated_and_back_keeps_editor": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_drawer_description_only_lists_present_cloths": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_hidden_and_failed_pages_do_not_acknowledge": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_intro_six_page_barrier_survives_out_of_order_and_skip": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_invalid_restore_disables_puzzle_controls_without_reinitializing": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_invalid_saved_pending_bounds_context_or_route_cancel_without_grant": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_journal_hint_and_p03_topics_preserve_p02_talk": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_kitchen_geometry_cloth_removal_parking_and_hatch_not_exit": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_middle_page_restore_then_remaining_pages_commit_exactly_once": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_pickup_waits_for_committed_arrival_and_inventory_writer_is_merged": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_plan_required_and_offscreen_feedback_never_use_obsolete_caption": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_queue_contract_and_all_routes_valid": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_real_p02_plan_transition_seeds_merged_inventory": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_restore_keeps_valid_source_progress_and_credit_choices": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_rita_uses_real_speaker_seven_fixed_feet_and_room_gate": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_second_source_record_and_generic_correction_restore": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_serial_exhaustion_veto_keeps_room_and_rebuilds_open_editor": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_recovered_integration.Integration.test_source_scene_has_no_legacy_text_fallback": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_vm_rejection.Rejection.test_branch_into_operand_rejected": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_vm_rejection.Rejection.test_instruction_budget_rejected": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_vm_rejection.Rejection.test_operand_underflow_rejected": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_vm_rejection.Rejection.test_send_byte_count_and_argc_mismatch_rejected": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_vm_rejection.Rejection.test_unsupported_emitted_opcode_rejected": {
+      "status": "PASS",
+      "report": "p03-all.json"
+    },
+    "test_p04_context_guards.P04ContextGuards.test_192_preparation_attempts_preserve_state_and_exact_inventory": {
+      "status": "PASS",
+      "report": "p04-context.json"
+    },
+    "test_p04_context_guards.P04ContextGuards.test_apron_and_all_other_rooms_cannot_observe_remote_fixtures": {
+      "status": "PASS",
+      "report": "p04-context.json"
+    },
+    "test_p04_context_guards.P04ContextGuards.test_forged_events_and_page_callbacks_are_not_reward_factories": {
+      "status": "PASS",
+      "report": "p04-context.json"
+    },
+    "test_p04_context_guards.P04ContextGuards.test_pending_receipt_cancelled_by_room_or_apron_change": {
+      "status": "PASS",
+      "report": "p04-context.json"
+    },
+    "test_p04_context_guards.P04ContextGuards.test_preplan_local_look_requires_pages_and_grants_only_observation": {
+      "status": "PASS",
+      "report": "p04-context.json"
+    },
+    "test_p04_cross_branch.CrossBranch.test_p03_completion_and_reward_keep_p04_inventory_and_layout": {
+      "status": "PASS",
+      "report": "p04-cross.json"
+    },
+    "test_p04_cross_branch.CrossBranch.test_p03_projection_before_plan_and_corrupt_p04_layout_fail_closed": {
+      "status": "PASS",
+      "report": "p04-cross.json"
+    },
+    "test_p04_cross_branch.CrossBranch.test_p03_publication_retains_held_bunting_and_reserved_or_returned_wedge": {
+      "status": "PASS",
+      "report": "p04-cross.json"
+    },
+    "test_p04_cursor_kernel.P04CursorKernel.test_core_diff_is_only_pre_kernel_accumulator_forwarding": {
+      "status": "PASS",
+      "report": "p04-cursor.json"
+    },
+    "test_p04_cursor_kernel.P04CursorKernel.test_invalid_arity_and_non_word_arguments_are_rejected_atomically": {
+      "status": "PASS",
+      "report": "p04-cursor.json"
+    },
+    "test_p04_cursor_kernel.P04CursorKernel.test_missing_pre_call_accumulator_is_not_approximated": {
+      "status": "PASS",
+      "report": "p04-cursor.json"
+    },
+    "test_p04_cursor_kernel.P04CursorKernel.test_unimplemented_cursor_operations_fail_closed": {
+      "status": "PASS",
+      "report": "p04-cursor.json"
+    },
+    "test_p04_cursor_kernel.P04CursorKernel.test_valid_forms_preserve_integer_object_and_pointer_accumulators": {
+      "status": "PASS",
+      "report": "p04-cursor.json"
+    },
+    "test_p04_geometry.Geometry.test_actor_depth_and_apron_keep_one_actor_and_permanent_return": {
+      "status": "PASS",
+      "report": "p04-geometry.json"
+    },
+    "test_p04_geometry.Geometry.test_all_supported_prop_states_follow_frozen_rectangles_and_layers": {
+      "status": "PASS",
+      "report": "p04-geometry.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_arrival_rechecks_plan_and_current_room": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_emitted_initializer_wires_real_script984_export": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_enter_selects_open_look_and_talk_but_defers_until_arrival": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_escape_in_real_frame_cancels_open_before_arrival": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_exact_source_identity_mismatch_never_reaches_q_presented": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_full_event_loop_felix_nine_pages_across_two_records": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_full_event_loop_motion_graph12_and_exact_two_page_commit": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_graph12_failure_aborts_before_any_p04_receipt": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_json_partial_restore_then_real_frames_commit_once": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_menu_hides_source_from_real_frame_receipts_until_resume": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_new_input_replaces_queued_open_with_felix_talk": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_p04_enabled_kitchen_hatch_retains_legacy_reachability_and_input_approach": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_pause_menu_and_opening_freeze_queued_p04_motion": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_play_bootstrap_reaches_real_event_loop_and_preserves_object_accumulator": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_replay_runs_restore_hooks_then_real_frames_without_audio_or_observation_replay": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_stale_generation_and_wrong_page_callbacks_cannot_grant": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_input_and_loop.P04InputAndLoop.test_two_noun_use_reserves_original_wedge_only_after_arrival": {
+      "status": "PASS",
+      "report": "p04-input.json"
+    },
+    "test_p04_integration.Integration.test_canonical_scene_fixture_preserves_every_source_span": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_corrupt_combined_ownership_blocks_restore": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_full_host_controls_use_existing_gate_exit_and_single_actors": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_gate_test_is_once_latched_and_peg_remains_tethered": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_guarded_patches_are_reproducible_and_domains_preserved": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_inventory_layout_corruption_is_rejected_without_repair": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_no_audio_callback_can_complete_observation": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_no_route_build_fails_closed_without_legacy_fallthrough": {
+      "status": "PASS",
+      "report": "p04-no-routes-quarantine.json",
+      "reason": "Explicit updated static-data-quarantine fixture expectation"
+    },
+    "test_p04_integration.Integration.test_original_wedge_pickup_and_other_p03_behavior_survive": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_pending_observation_requires_every_exact_page": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_queue_failure_rolls_back_reservation_and_exact_inventory": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_real_export_full_route_and_exact_existing_prefix": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_real_export_look_all_pages_and_middle_page_restore": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_recovery_requires_local_gate_and_never_fabricates": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_reserved_wedge_blocks_all_direct_legacy_dispatch": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_reserved_wedge_survives_real_travel_compaction_and_recovers": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_six_step_parity_with_accepted_model_and_same_original_wedge": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_skipped_or_hidden_source_cannot_grant_knowledge": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_source_restore_keeps_partial_progress_without_replay": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_tampered_pending_restore_cancels_only_observation": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_topic_and_journal_menus_use_fresh_queue_and_existing_records": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_two_supports_never_coexist_and_ordinary_close_is_not_test": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_walk_approach_and_gate_navigation": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    },
+    "test_p04_integration.Integration.test_whole_state_restore_after_each_physical_step": {
+      "status": "PASS",
+      "report": "p04-integration.json"
+    }
+  },
+  "explicit_adaptations": [
+    "Compare all six complete scene-array prefixes against corrected P04 emitted artifact rather than no-routes mutation of new full-length arrays",
+    "No-routes fixture now also accepts the stronger exact-static-data quarantine40 before P04 dispatch; requires unchanged P04 state, no P02 fallthrough, blocked actions and no save readiness",
+    "P03 journal now opens reviewed P04 journal208 first; verify and select P03 entry101, then execute every unchanged original assertion",
+    "Use independently accepted corrected P04 geometry manifest for peg engaged rectangle198,108,213,125; every original geometry assertion remains"
+  ],
+  "scope": "All101 historical test methods executed, without skips. Runtime fixtures use r2 coherent bytes; three listed historical provenance tests inspect their original frozen inputs and are not current artifact identity proof. Independent r2 raw-byte/ABI/fresh-compile checks supply current identity evidence. Outdated expectations and their explicit accepted-P04/static-quarantine adaptations are preserved. No native acceptance.",
+  "historical_provenance_only_tests": [
+    "test_p04_cursor_kernel.P04CursorKernel.test_core_diff_is_only_pre_kernel_accumulator_forwarding",
+    "test_p04_integration.Integration.test_guarded_patches_are_reproducible_and_domains_preserved",
+    "test_p04_integration.Integration.test_canonical_scene_fixture_preserves_every_source_span"
+  ]
+}

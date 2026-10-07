@@ -1,0 +1,22 @@
+{
+  "Main_changes": false,
+  "accepted_inputs": "Frozen actual accepted304/227, original214/219/221, font0, palette999",
+  "allocation": "evidence/resource-allocation.json",
+  "canonical_words": "No invented raster words; exact text stays in canonical reader",
+  "classification": "New original additive art, not recovered historical pixels",
+  "creation_date": "2026-10-06",
+  "creative_master": "SOURCE-MASTERS.json",
+  "decoder": "Separate strict inspect_view.py from accepted p05-art-reconstruction; imports no writer implementation or constants",
+  "encoder": "Retained independently authored literal SCI1.1 writer from accepted p05-art-reconstruction/src/view_writer.py",
+  "geometry": "New measured fixed world rectangle and exact native paper bound; separate existing object27 and24 controls",
+  "host_contract": "host-integration.json",
+  "native_runtime_claim": false,
+  "new_characters": false,
+  "new_story_props": "Only the missing established master invitation drawer and its existing invitation",
+  "old_resource_changes": false,
+  "prompts": "GENERATION-PROMPTS.json",
+  "published": false,
+  "reference_pins": "SOURCE-INPUTS.json",
+  "source_tool": "built-in image_gen",
+  "uploaded": false
+}

@@ -1,0 +1,608 @@
+{
+  "classification": "New original P05 garage and PA artwork and new measured geometry; not recovered historical pixels or ABI",
+  "stage": [
+    320,
+    144
+  ],
+  "caption_last_row": 43,
+  "hud_first_row": 144,
+  "floor_lane_y": [
+    127,
+    143
+  ],
+  "origin_convention": "Top-left; all rectangles half-open; actors use native feet anchor26,78",
+  "room": 5,
+  "resources": {
+    "background": 304,
+    "props": 227,
+    "palette": 999,
+    "clear_key": 255
+  },
+  "actors": {
+    "jackie": {
+      "view": 214,
+      "feet": [
+        26,
+        140
+      ],
+      "scale128": 127,
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "milo": {
+      "object": 28,
+      "view": 221,
+      "feet": [
+        100,
+        129
+      ],
+      "scale128": 116,
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "bunny": {
+      "object": 2,
+      "view": 219,
+      "feet": [
+        268,
+        127
+      ],
+      "scale128": 116,
+      "anchor": [
+        26,
+        78
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "console",
+      "cel": 0,
+      "crop": [
+        20,
+        94,
+        394,
+        275
+      ],
+      "size": [
+        70,
+        35
+      ],
+      "origin": [
+        143,
+        92
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "speaker-away",
+      "cel": 1,
+      "crop": [
+        428,
+        27,
+        714,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim0"
+    },
+    {
+      "name": "speaker-bunny",
+      "cel": 2,
+      "crop": [
+        790,
+        15,
+        1042,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim1"
+    },
+    {
+      "name": "speaker-audience",
+      "cel": 3,
+      "crop": [
+        1121,
+        21,
+        1424,
+        290
+      ],
+      "size": [
+        36,
+        61
+      ],
+      "origin": [
+        213,
+        61
+      ],
+      "visibility": "kit_present and aim2"
+    },
+    {
+      "name": "microphone",
+      "cel": 4,
+      "crop": [
+        62,
+        289,
+        306,
+        587
+      ],
+      "size": [
+        22,
+        35
+      ],
+      "origin": [
+        123,
+        91
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "cable-unplugged",
+      "cel": 5,
+      "crop": [
+        378,
+        438,
+        762,
+        565
+      ],
+      "size": [
+        65,
+        18
+      ],
+      "origin": [
+        132,
+        110
+      ],
+      "visibility": "kit_present and connected0"
+    },
+    {
+      "name": "cable-plugged",
+      "cel": 6,
+      "crop": [
+        784,
+        342,
+        1070,
+        577
+      ],
+      "size": [
+        64,
+        35
+      ],
+      "origin": [
+        133,
+        92
+      ],
+      "visibility": "kit_present and connected1"
+    },
+    {
+      "name": "handcart",
+      "cel": 7,
+      "crop": [
+        1121,
+        281,
+        1418,
+        602
+      ],
+      "size": [
+        40,
+        43
+      ],
+      "origin": [
+        45,
+        82
+      ],
+      "visibility": "always; distinct from kit"
+    },
+    {
+      "name": "credit-slate",
+      "cel": 8,
+      "crop": [
+        85,
+        612,
+        296,
+        793
+      ],
+      "size": [
+        25,
+        24
+      ],
+      "origin": [
+        112,
+        59
+      ],
+      "visibility": "kit_present; credit slate travels with KIT_PARTS to L05"
+    },
+    {
+      "name": "slogan-tape",
+      "cel": 9,
+      "crop": [
+        377,
+        632,
+        706,
+        850
+      ],
+      "size": [
+        28,
+        17
+      ],
+      "origin": [
+        154,
+        71
+      ],
+      "visibility": "kit_present"
+    },
+    {
+      "name": "selector-tape",
+      "cel": 10,
+      "crop": [
+        766,
+        613,
+        1038,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "visibility": "kit_present and source0; top8 rows label band"
+    },
+    {
+      "name": "selector-mic",
+      "cel": 11,
+      "crop": [
+        1130,
+        613,
+        1401,
+        812
+      ],
+      "size": [
+        46,
+        28
+      ],
+      "origin": [
+        144,
+        84
+      ],
+      "visibility": "kit_present and source1; top8 rows label band"
+    },
+    {
+      "name": "socket-unplugged",
+      "cel": 12,
+      "crop": [
+        111,
+        860,
+        276,
+        1039
+      ],
+      "size": [
+        18,
+        20
+      ],
+      "origin": [
+        193,
+        92
+      ],
+      "visibility": "kit_present and connected0"
+    },
+    {
+      "name": "socket-plugged",
+      "cel": 13,
+      "crop": [
+        362,
+        860,
+        624,
+        1038
+      ],
+      "size": [
+        27,
+        20
+      ],
+      "origin": [
+        184,
+        92
+      ],
+      "visibility": "kit_present and connected1"
+    },
+    {
+      "name": "bunny-listener-mark",
+      "cel": 14,
+      "crop": [
+        731,
+        869,
+        1064,
+        1051
+      ],
+      "size": [
+        28,
+        12
+      ],
+      "origin": [
+        254,
+        121
+      ],
+      "visibility": "always; listener1"
+    },
+    {
+      "name": "audience-listener-mark",
+      "cel": 15,
+      "crop": [
+        1094,
+        847,
+        1425,
+        1041
+      ],
+      "size": [
+        23,
+        13
+      ],
+      "origin": [
+        274,
+        131
+      ],
+      "visibility": "always; listener2"
+    }
+  ],
+  "targets": {
+    "porch_exit": {
+      "object": 11,
+      "rect": [
+        7,
+        44,
+        44,
+        124
+      ],
+      "approach": [
+        29,
+        135
+      ],
+      "destination_room": 0
+    },
+    "audience_edge": {
+      "object": 9,
+      "rect": [
+        298,
+        44,
+        320,
+        144
+      ],
+      "approach": [
+        303,
+        138
+      ],
+      "purpose": "one scenic apron entry/return route; invitation is explicit"
+    },
+    "pa_kit": {
+      "object": 63,
+      "rect": [
+        142,
+        113,
+        213,
+        128
+      ],
+      "approach": [
+        169,
+        139
+      ]
+    },
+    "input_selector": {
+      "object": 64,
+      "rect": [
+        142,
+        83,
+        192,
+        113
+      ],
+      "approach": [
+        157,
+        138
+      ]
+    },
+    "microphone": {
+      "object": 65,
+      "rect": [
+        121,
+        89,
+        143,
+        127
+      ],
+      "approach": [
+        121,
+        139
+      ]
+    },
+    "mic_socket": {
+      "object": 66,
+      "rect": [
+        192,
+        90,
+        212,
+        114
+      ],
+      "approach": [
+        193,
+        138
+      ]
+    },
+    "loudspeaker": {
+      "object": 67,
+      "rect": [
+        213,
+        59,
+        251,
+        106
+      ],
+      "approach": [
+        233,
+        138
+      ]
+    },
+    "speaker_swivel_handle": {
+      "object": 68,
+      "rect": [
+        210,
+        106,
+        251,
+        125
+      ],
+      "approach": [
+        218,
+        138
+      ]
+    },
+    "marked_listening_position_bunny": {
+      "object": 69,
+      "listener": 1,
+      "rect": [
+        253,
+        120,
+        283,
+        134
+      ],
+      "approach": [
+        268,
+        139
+      ]
+    },
+    "marked_listening_position_audience": {
+      "object": 69,
+      "listener": 2,
+      "rect": [
+        273,
+        134,
+        297,
+        144
+      ],
+      "approach": [
+        285,
+        140
+      ]
+    },
+    "slogan_tape": {
+      "object": 70,
+      "rect": [
+        151,
+        68,
+        185,
+        84
+      ],
+      "approach": [
+        151,
+        138
+      ]
+    },
+    "equipment_credit_slate": {
+      "object": 71,
+      "rect": [
+        110,
+        57,
+        139,
+        87
+      ],
+      "approach": [
+        108,
+        139
+      ]
+    },
+    "handcart": {
+      "object": 72,
+      "rect": [
+        44,
+        80,
+        87,
+        126
+      ],
+      "approach": [
+        78,
+        139
+      ]
+    }
+  },
+  "font0_overlays": [
+    {
+      "text": "TAPE",
+      "origin": [
+        144,
+        84
+      ],
+      "when": "kit_present",
+      "purpose": "24px label above cassette pictogram"
+    },
+    {
+      "text": "MIC",
+      "origin": [
+        171,
+        84
+      ],
+      "when": "kit_present",
+      "purpose": "18px label above microphone pictogram"
+    }
+  ],
+  "symbol_composition": {
+    "crop": [
+      154,
+      982,
+      228,
+      1014
+    ],
+    "native_size": [
+      13,
+      5
+    ],
+    "destinations": {
+      "microphone": [
+        4,
+        13
+      ],
+      "socket-unplugged": [
+        3,
+        14
+      ],
+      "socket-plugged": [
+        12,
+        14
+      ]
+    },
+    "reason": "One exact generated three-dot badge is reused on mic and both socket states for perceptually identical symbols",
+    "alpha_normalization": "Opaque cream badge source is normalized to alpha255 after scaling, so identical symbol pixels cannot inherit slightly different underlay colors"
+  },
+  "label_band_crop": [
+    126,
+    165,
+    271,
+    185
+  ],
+  "host_requirements": [
+    "Only props227 and background304 are new. Never replace or re-encode214/219/221/palette999/font0.",
+    "Canonical source enum is TAPE0/MIC1; connection0/1; aim0 away,1 Bunny,2 audience. Do not infer invitations or success from sprites.",
+    "Kit present follows authoritative physical owner/location. When loaned, omit cels0..6 and8..13 and font labels; keep cart7 and marks14..15. Credit slate travels with kit.",
+    "Target69 listener is selected by the exact mark rectangle, not just x. Shared x values exist at different y. Audience-edge9 is separate and unique.",
+    "Register smaller hardware targets before the broad PA base. Actors must not steal clicks from active props or exits; visual occlusion remains natural.",
+    "Draw background, floor marks, cart, cable, console, tape, selector, socket, microphone, speaker, slate, then font0 labels attached to selector, then actors sorted by feet depth, finally captions/HUD. Actors may temporarily occlude controls; full target-priority remains active.",
+    "Font0 labels need native font0 6x8 at specified origins. Exact written credit is displayed via text205 record and is not fabricated as tiny raster writing.",
+    "Use source text205 . . . fallback for written three-dot inspection; on-world identical badge art has three visible dots.",
+    "Approach coordinates are collision-free floor points y135..140. Stage cannot extend into HUD row144. Caption panel covers0..43; essential controls begin57.",
+    "No pocket reward, item consumption, invitation, loan, contest or feedback result is encoded by this art packet. Native/listening acceptance remains separate."
+  ]
+}

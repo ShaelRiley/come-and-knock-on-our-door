@@ -1,0 +1,770 @@
+{
+  "opcodes": {
+    "0": "BNOT",
+    "1": "ADD",
+    "2": "SUB",
+    "3": "MUL",
+    "4": "DIV",
+    "5": "MOD",
+    "6": "SHR",
+    "7": "SHL",
+    "8": "XOR",
+    "9": "AND",
+    "10": "OR",
+    "11": "NEG",
+    "12": "NOT",
+    "13": "EQ",
+    "14": "NE",
+    "15": "GT",
+    "16": "GE",
+    "17": "LT",
+    "18": "LE",
+    "19": "UGT",
+    "20": "UGE",
+    "21": "ULT",
+    "22": "ULE",
+    "23": "BT",
+    "24": "BNT",
+    "25": "JMP",
+    "26": "LDI",
+    "27": "PUSH",
+    "28": "PUSHI",
+    "29": "TOSS",
+    "30": "DUP",
+    "31": "LINK",
+    "32": "CALL",
+    "33": "CALLK",
+    "34": "CALLB",
+    "35": "CALLE",
+    "36": "RET",
+    "37": "SEND",
+    "40": "CLASS",
+    "42": "SELF",
+    "43": "SUPER",
+    "44": "REST",
+    "45": "LEA",
+    "46": "SELFID",
+    "47": "INDETERMINATE",
+    "48": "PPREV",
+    "49": "PTOA",
+    "50": "ATOP",
+    "51": "PTOS",
+    "52": "STOP",
+    "53": "IPTOA",
+    "54": "DPTOA",
+    "55": "IPTOS",
+    "56": "DPTOS",
+    "57": "LOFSA",
+    "58": "LOFSS",
+    "59": "PUSH0",
+    "60": "PUSH1",
+    "61": "PUSH2",
+    "62": "PUSHSELF",
+    "64": "LAG",
+    "65": "LAL",
+    "66": "LAT",
+    "67": "LAP",
+    "68": "LSG",
+    "69": "LSL",
+    "70": "LST",
+    "71": "LSP",
+    "72": "LAGI",
+    "73": "LALI",
+    "74": "LATI",
+    "75": "LAPI",
+    "76": "LSGI",
+    "77": "LSLI",
+    "78": "LSTI",
+    "79": "LSPI",
+    "80": "SAG",
+    "81": "SAL",
+    "82": "SAT",
+    "83": "SAP",
+    "84": "SSG",
+    "85": "SSL",
+    "86": "SST",
+    "87": "SSP",
+    "88": "SAGI",
+    "89": "SALI",
+    "90": "SATI",
+    "91": "SAPI",
+    "92": "SSGI",
+    "93": "SSLI",
+    "94": "SSTI",
+    "95": "SSPI",
+    "96": "pAG",
+    "97": "pAL",
+    "98": "pAT",
+    "99": "pAP",
+    "100": "pSG",
+    "101": "pSL",
+    "102": "pST",
+    "103": "pSP",
+    "104": "pAGI",
+    "105": "pALI",
+    "106": "pATI",
+    "107": "pAPI",
+    "108": "pSGI",
+    "109": "pSLI",
+    "110": "pSTI",
+    "111": "pSPI",
+    "112": "nAG",
+    "113": "nAL",
+    "114": "nAT",
+    "115": "nAP",
+    "116": "nSG",
+    "117": "nSL",
+    "118": "nST",
+    "119": "nSP",
+    "120": "nAGI",
+    "121": "nALI",
+    "122": "nATI",
+    "123": "nAPI",
+    "124": "nSGI",
+    "125": "nSLI",
+    "126": "nSTI",
+    "127": "LastLoadStore"
+  },
+  "argtypes": [
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otLABEL",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otLABEL",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otLABEL",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otINT",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otINT",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otUINT",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otLABEL",
+      "otUINT8",
+      "otEMPTY"
+    ],
+    [
+      "otKERNEL",
+      "otUINT8",
+      "otEMPTY"
+    ],
+    [
+      "otPUBPROC",
+      "otUINT8",
+      "otEMPTY"
+    ],
+    [
+      "otUINT",
+      "otPUBPROC",
+      "otUINT8"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otUINT8",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otCLASS",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otUINT8",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otCLASS",
+      "otUINT8",
+      "otEMPTY"
+    ],
+    [
+      "otPVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otUINT",
+      "otUINT",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otPROP",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otOFFS",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otOFFS",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otEMPTY",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ],
+    [
+      "otVAR",
+      "otEMPTY",
+      "otEMPTY"
+    ]
+  ]
+}
