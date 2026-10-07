@@ -1,0 +1,5479 @@
+{
+  "routes": [
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "document_id": 882,
+      "local_line_key": 1,
+      "global_line_key": 640,
+      "first_page": 0,
+      "absolute_page_start": 934,
+      "page_count": 6,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "The frame’s sound. The old cloth panels aren’t. We need fabric and clips."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "I can help."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Help me do your job, or ask me to do mine?"
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Tonight’s styling. A trial. We can discuss future work after we’ve tried working together."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Good. Tonight, and my equipment comes back."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Your equipment comes back."
+        }
+      ],
+      "source_text_json_sha256": "683093186e2245e839391589cc9258c41a79663df7f651e7c362f0a1c3dbf826",
+      "source_ref": "P06-source.txt:2 (Prerequisite and obstacle); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Frame available without intact cloth panels",
+        "Scope is tonight’s styling; future work discussed after trial",
+        "Equipment return agreed without romantic purchase"
+      ],
+      "kind": "scene",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "The frame’s sound. The old cloth panels aren’t. We need fabric and clips.",
+          "source_text_sha256": "a3e2485e3638600a2092ed08b2e120ade204f632dbd41b4348c1e4981b1cc7c8",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SCENE.001.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "I can help.",
+          "source_text_sha256": "60cd14b8e3dbd597802ecaa88c2fc7dd87783a471cf587124396110787875f03",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SCENE.001.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Help me do your job, or ask me to do mine?",
+          "source_text_sha256": "ba432387aa65eaaca0544c2d0f89c92edf3b181c7b46e8609a0bfc609a90abc5",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SCENE.001.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/3/text",
+          "source_text": "Tonight’s styling. A trial. We can discuss future work after we’ve tried working together.",
+          "source_text_sha256": "3622d408a73cf30d0f6c91008d0e42fa1e43d241c20b7b40ff578600f4600371",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SCENE.001.04",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/4/text",
+          "source_text": "Good. Tonight, and my equipment comes back.",
+          "source_text_sha256": "a21049e42a52d5a3148fa98661909a326f7272c5d9a047ae029801ff35412c36",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SCENE.001.05",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/5/text",
+          "source_text": "Your equipment comes back.",
+          "source_text_sha256": "0d78d7ddc2229ac670214585bfaff1876fe70df36f8fca016cd94b412cc8230d",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SCENE.001.06",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.001",
+      "record": 2,
+      "document_id": 883,
+      "local_line_key": 2,
+      "global_line_key": 641,
+      "first_page": 6,
+      "absolute_page_start": 940,
+      "page_count": 1,
+      "source_text": "I’d like to work with you tonight. Let’s see how the trial goes.",
+      "source_text_json_sha256": "5a8f78fd9f8905661ca1f3892851572a63a5e2559c5d0d88a1a28208e431eda0",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Professional tone has same puzzle reward"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "I’d like to work with you tonight. Let’s see how the trial goes.",
+          "source_text_sha256": "c221cb1706fbe47526f72106eb7724e337cfd4b3258189be24009d44a56eb76f",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.001",
+      "record": 3,
+      "document_id": 884,
+      "local_line_key": 3,
+      "global_line_key": 642,
+      "first_page": 7,
+      "absolute_page_start": 941,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "A clear brief. I find those very attractive."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Professionally."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "At the moment, we’re discussing a screen."
+        }
+      ],
+      "source_text_json_sha256": "39089266e8a445062dbeec94a1c25804683dfd84e8fa1d7ce8ed44088d59860d",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Professional choice remains valid and does not require romantic continuation"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "A clear brief. I find those very attractive.",
+          "source_text_sha256": "7af8f6d0dc5a323355b55d2ffd4c90b8409d3f884a7dbd1074060a5e9cfd6a1a",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.001.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "Professionally.",
+          "source_text_sha256": "a988c65275b3bfd4b1cae58899d92081c0a09428a23b7036604301bc05a85132",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.001.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "At the moment, we’re discussing a screen.",
+          "source_text_sha256": "0696a12bdca9f815c88f94da0c51f8be675db17f08f1fa2d3ddd62274845bdeb",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.001.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.002",
+      "record": 4,
+      "document_id": 885,
+      "local_line_key": 4,
+      "global_line_key": 643,
+      "first_page": 10,
+      "absolute_page_start": 944,
+      "page_count": 1,
+      "source_text": "I’d enjoy doing this with you. Tonight’s styling, with your equipment returned.",
+      "source_text_json_sha256": "1ec471c6d3db677a61dd3a8fc87c8bd053f197895a0c48dd80e99060aab3fb91",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Friendly tone has same reward and explicit limits"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "I’d enjoy doing this with you. Tonight’s styling, with your equipment returned.",
+          "source_text_sha256": "f1db19cba380506d1dc0aa430911ecefbfad39c636d35588fde189012072f1d5",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.002",
+      "record": 5,
+      "document_id": 886,
+      "local_line_key": 5,
+      "global_line_key": 644,
+      "first_page": 11,
+      "absolute_page_start": 945,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "So would I. We’ll make the room usable."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "So nobody notices the styling."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "I didn’t say invisible, Jackie."
+        }
+      ],
+      "source_text_json_sha256": "c44c5f7eab62ac1df8ab28dbf93b07fdd3eab7a0ddeb44a6b5401c00c2d8a7a3",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Friendly cooperation without date obligation"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "So would I. We’ll make the room usable.",
+          "source_text_sha256": "dbd25fff1042c1d6b7e4dd52e327127d642cbf1d2bb497ad6af07f640783eea3",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.002.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "So nobody notices the styling.",
+          "source_text_sha256": "d25ff64e1fb024a46136e1440717651eb982bae7a99058bc5ed6ff5be67e2408",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.002.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "I didn’t say invisible, Jackie.",
+          "source_text_sha256": "28589961f496f905761c7315a83dec28af775f3fe73c986379b36bff88d81785",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.002.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.003",
+      "record": 6,
+      "document_id": 887,
+      "local_line_key": 6,
+      "global_line_key": 645,
+      "first_page": 14,
+      "absolute_page_start": 948,
+      "page_count": 1,
+      "source_text": "I’d like your help tonight. And I’d like to see you personally. I’m trying to ask those in separate voices.",
+      "source_text_json_sha256": "70473d00db67b37ec39b531c2b4b2516159cf9b26b8982fa31b98689e0e11562",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Cautious romantic interest is optional and separate from work"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "I’d like your help tonight. And I’d like to see you personally. I’m trying to ask those in separate voices.",
+          "source_text_sha256": "705fb5abafd2a5c0f4584e6bd57e5f264c3db88708abf2797050af33aa29b7ec",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.003",
+      "record": 7,
+      "document_id": 888,
+      "local_line_key": 7,
+      "global_line_key": 646,
+      "first_page": 15,
+      "absolute_page_start": 949,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "Good. If you ask me out, try not to open with “Does this fold?”"
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "The personal invitation is separate from tonight’s work."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Then let’s do the work. We can talk about the invitation separately."
+        }
+      ],
+      "source_text_json_sha256": "3cd9b071864486aaa81f17aae793af67adea48e71144c7bf82e59e46db0f7ecf",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "No date promised or purchased",
+        "Identical collaboration reward across tone choices"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Good. If you ask me out, try not to open with “Does this fold?”",
+          "source_text_sha256": "be71cebe2e2405aa9cf4b89eeaebd84cd9fad014c687b38c3f50a5e88b58c6b3",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.003.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "The personal invitation is separate from tonight’s work.",
+          "source_text_sha256": "f8816bdb82e09704274adfc6c8746de803fc9cc401fc3a4da8cac757b88e6ef8",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.003.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Then let’s do the work. We can talk about the invitation separately.",
+          "source_text_sha256": "6c6288ca1c812b90b02ba78537c54ef62f886a2884cc1c01794b1e6cdfc4b1e4",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.003.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.001",
+      "record": 8,
+      "document_id": 889,
+      "local_line_key": 8,
+      "global_line_key": 647,
+      "first_page": 18,
+      "absolute_page_start": 952,
+      "page_count": 1,
+      "source_text": "Folding screen frame",
+      "source_text_json_sha256": "a69a1c452e8b78535d96b8d1763bbaa7e1bc11bd5929c3cfd4ebf861f7195a1e",
+      "source_ref": "P06-source.txt:2 (Prerequisite and obstacle)",
+      "source_obligations": [
+        "Frame lacks usable cloth"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Folding screen frame",
+          "source_text_sha256": "0e88dedbcd033a139c8f733210d86085b7d00653c1b234d0e6f894538babb9b5",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.001",
+      "record": 9,
+      "document_id": 890,
+      "local_line_key": 9,
+      "global_line_key": 648,
+      "first_page": 19,
+      "absolute_page_start": 953,
+      "page_count": 1,
+      "source_text": "A solid frame. It needs cloth panels to provide privacy. The frame alone leaves very little to the imagination.",
+      "source_text_json_sha256": "63c54f33939cfaeccfe720f326e004a89138ef692fd254753877dba90d37c6ae",
+      "source_ref": "P06-source.txt:2 (Prerequisite and obstacle)",
+      "source_obligations": [
+        "Frame lacks usable cloth"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A solid frame. It needs cloth panels to provide privacy. The frame alone leaves very little to the imagination.",
+          "source_text_sha256": "25d2de06a38fbb9c8e5676147d51f0425d223cb39d724674297bb2b59d96378d",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.READ.001",
+      "record": 10,
+      "document_id": 891,
+      "local_line_key": 10,
+      "global_line_key": 649,
+      "first_page": 20,
+      "absolute_page_start": 954,
+      "page_count": 1,
+      "source_text": "Drape fabric over the upper rail.\nClip at the paired dot marks.\nKeep the lower edge clear of feet.",
+      "source_text_json_sha256": "6ba1a3144aa547eae5c7ca5c913ab2f7f2795a1152b6626fb4e5c961238adb90",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Assembly drawing provides upper rail, clip positions and foot clearance"
+      ],
+      "kind": "read",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Drape fabric over the upper rail.\nClip at the paired dot marks.\nKeep the lower edge clear of feet.",
+          "source_text_sha256": "5963b10c6a4e9c9760b118b5a9c1fd61cf48ea97a5ee578d07ab42db151216d1",
+          "source_speaker": "Assembly drawing",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "printed_evidence"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.002",
+      "record": 11,
+      "document_id": 892,
+      "local_line_key": 11,
+      "global_line_key": 650,
+      "first_page": 21,
+      "absolute_page_start": 955,
+      "page_count": 1,
+      "source_text": "Upper rail clip marks",
+      "source_text_json_sha256": "523959fd76ad6adbe46b2a107526ddd470d3bba61473840caa6e6a25b8d4ddf9",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Paired dots are correct clip locations"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Upper rail clip marks",
+          "source_text_sha256": "769fb810e81cf533a65ec83ab06d728b00b45122608ace1335ba7404c90cced4",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.002",
+      "record": 12,
+      "document_id": 893,
+      "local_line_key": 12,
+      "global_line_key": 651,
+      "first_page": 22,
+      "absolute_page_start": 956,
+      "page_count": 1,
+      "source_text": "Pairs of dots on the upper rail. The drawing puts the clips there and leaves the bottom clear.",
+      "source_text_json_sha256": "3a325f6d9546facee69c4dbcb7bf09d6f238ac6e217f08ff4fe7e2027f127d23",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Paired dots are correct clip locations"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Pairs of dots on the upper rail. The drawing puts the clips there and leaves the bottom clear.",
+          "source_text_sha256": "bfae430060aa38d5e86d5ce8c0a0424f6d46619746cd16dcdd067492f9021080",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.002.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.003",
+      "record": 13,
+      "document_id": 894,
+      "local_line_key": 13,
+      "global_line_key": 652,
+      "first_page": 23,
+      "absolute_page_start": 957,
+      "page_count": 1,
+      "source_text": "Clean spare sheet",
+      "source_text_json_sha256": "8d5c7b05dac0801b39d4912455417119c4ac52973f11de605851f8398a914fbe",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Sheet is available from kitchen and appropriate screen material"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Clean spare sheet",
+          "source_text_sha256": "9bb25e4760074e28c43276a25ac84b654389465f77a9fa241e9d3e85f54de0ef",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.001",
+      "record": 14,
+      "document_id": 895,
+      "local_line_key": 14,
+      "global_line_key": 653,
+      "first_page": 24,
+      "absolute_page_start": 958,
+      "page_count": 1,
+      "source_text": "A clean spare sheet from the kitchen, large enough for the screen. For once, “just throw a sheet over it” is professional advice.",
+      "source_text_json_sha256": "ac0ac6886496ccc849a8c1a69e59c6d661ad39661e0ff0f8057a57ec85d08b87",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Sheet is available from kitchen and appropriate screen material"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A clean spare sheet from the kitchen, large enough for the screen. For once, “just throw a sheet over it” is professional advice.",
+          "source_text_sha256": "7f56340652019d5cfbe38e7da0a55763d2b9ddc120ce6485d004ee39fde50797",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.004",
+      "record": 15,
+      "document_id": 896,
+      "local_line_key": 15,
+      "global_line_key": 654,
+      "first_page": 25,
+      "absolute_page_start": 959,
+      "page_count": 1,
+      "source_text": "Large laundry clips",
+      "source_text_json_sha256": "045cb0a6d740d46202eab2abcf217ac66bae4aa5757309879d7d0c3283fb7528",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Clips available in L04 and used at rail marks"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Large laundry clips",
+          "source_text_sha256": "40672a667ae4706845be99fca8fc77fa662153c91d3abfbd3c64d8f5a6e0b4f9",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.002",
+      "record": 16,
+      "document_id": 897,
+      "local_line_key": 16,
+      "global_line_key": 655,
+      "first_page": 26,
+      "absolute_page_start": 960,
+      "page_count": 2,
+      "source_text": "Large laundry clips from the side passage. They grip the fabric at the paired dots on the upper rail. It’s a dressing job I can do without anyone breathing in.",
+      "source_text_json_sha256": "eb5e258290af0326abbeace0e5c186481bf62782a175ce41fba7e89e3bbe7714",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Clips available in L04 and used at rail marks"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Large laundry clips from the side passage. They grip the fabric at the paired dots on the upper rail. It’s a dressing job I can do without anyone breathing in.",
+          "source_text_sha256": "82e041b12d3bc09c0cdc3e0658c0ae0af607e566a0c41f2c6f3313a59105979d",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.005",
+      "record": 17,
+      "document_id": 898,
+      "local_line_key": 17,
+      "global_line_key": 656,
+      "first_page": 28,
+      "absolute_page_start": 962,
+      "page_count": 1,
+      "source_text": "Vivian’s sample layout",
+      "source_text_json_sha256": "0aab2f77feb641f914a843870ac9e55c1ac1172ce8819654596b7196135f19f0",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Visible arriving visitor/display figures and two live sightlines",
+        "Hatch must remain visible"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Vivian’s sample layout",
+          "source_text_sha256": "d05c76dd879095da4e95db9774235238aa10233c871a5cbc4e43f26ee1eddcd6",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.003",
+      "record": 18,
+      "document_id": 899,
+      "local_line_key": 18,
+      "global_line_key": 657,
+      "first_page": 29,
+      "absolute_page_start": 963,
+      "page_count": 2,
+      "source_text": "Vivian’s model has an arriving visitor, Rita’s display and the kitchen hatch, with two sightlines. Hide the display; leave the hatch visible. Dinner is the part of my evening I want inspected.",
+      "source_text_json_sha256": "09fbd5590bdaaf8dd0c1489e631b152e22865b113d33b1011d1cad2149b45129",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Visible arriving visitor/display figures and two live sightlines",
+        "Hatch must remain visible"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Vivian’s model has an arriving visitor, Rita’s display and the kitchen hatch, with two sightlines. Hide the display; leave the hatch visible. Dinner is the part of my evening I want inspected.",
+          "source_text_sha256": "ce929a9a2de7ee156588dc6059e3d272419b8bb17d94ca15b3f2ed5f1d9cf860",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.006",
+      "record": 19,
+      "document_id": 900,
+      "local_line_key": 19,
+      "global_line_key": 658,
+      "first_page": 31,
+      "absolute_page_start": 965,
+      "page_count": 1,
+      "source_text": "Arriving visitor figure",
+      "source_text_json_sha256": "b15f8c95807c803b04c25c8190e26529ff1161f91bb5381a93ca6887183ec353",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Visible cardboard visitor provides sightline origin"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Arriving visitor figure",
+          "source_text_sha256": "31b4b3da804fd72e4137c0bbb031d7975cf3c0c7b5db974d0a7fcc46a5ab8402",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.004",
+      "record": 20,
+      "document_id": 901,
+      "local_line_key": 20,
+      "global_line_key": 659,
+      "first_page": 32,
+      "absolute_page_start": 966,
+      "page_count": 1,
+      "source_text": "A cardboard arriving guest marks the start of the sightline. No opinions, no dietary announcements. I may ask Vivian to leave it.",
+      "source_text_json_sha256": "fff930743f138160115f6b285c83f1e9680dc7c7f1660264b3beb72b1cecd9c5",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Visible cardboard visitor provides sightline origin"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A cardboard arriving guest marks the start of the sightline. No opinions, no dietary announcements. I may ask Vivian to leave it.",
+          "source_text_sha256": "4e733e53830366eb6db03d0b3d0bda03a3781e38164a61e5e3d7b5b2c7d6e8d8",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.004.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.007",
+      "record": 21,
+      "document_id": 902,
+      "local_line_key": 21,
+      "global_line_key": 660,
+      "first_page": 33,
+      "absolute_page_start": 967,
+      "page_count": 1,
+      "source_text": "Display figure",
+      "source_text_json_sha256": "9f560f650a93b878b066cb9e66a381865ca2a3e1b27232e15a2e8220574748c3",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Display figure identifies intended concealment target without revealing ceramic face"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Display figure",
+          "source_text_sha256": "9b618b7c5d026c62a5e5a6f3eb14ba76360179f3a34bd9001474431521e1c51a",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.005",
+      "record": 22,
+      "document_id": 903,
+      "local_line_key": 22,
+      "global_line_key": 661,
+      "first_page": 34,
+      "absolute_page_start": 968,
+      "page_count": 1,
+      "source_text": "The sample layout’s stand-in for Rita’s covered display. The arrival view needs to stop before it gets here.",
+      "source_text_json_sha256": "6a5eac3d70e2d76520238dd7ae5424e059c51feb10936a34c026ab8513293a89",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Display figure identifies intended concealment target without revealing ceramic face"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The sample layout’s stand-in for Rita’s covered display. The arrival view needs to stop before it gets here.",
+          "source_text_sha256": "8a8fa8a66636b771f182c2a9ae9474f4a83d44b69ac6eb92fe85271c7ff032f2",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.005.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.008",
+      "record": 23,
+      "document_id": 904,
+      "local_line_key": 23,
+      "global_line_key": 662,
+      "first_page": 35,
+      "absolute_page_start": 969,
+      "page_count": 1,
+      "source_text": "Miniature screen token",
+      "source_text_json_sha256": "cd1c79aeb9e6653c1b6effa51aac4d2403d0909612a3fab88aa30db1728cda8b",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Existing movable token updates two sightlines"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Miniature screen token",
+          "source_text_sha256": "e2fc4e6df1c554c348bfd9141c3d64bd66fe214a71fd9d4dcbfd3fe7c2c57ba1",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.006",
+      "record": 24,
+      "document_id": 905,
+      "local_line_key": 24,
+      "global_line_key": 663,
+      "first_page": 36,
+      "absolute_page_start": 970,
+      "page_count": 2,
+      "source_text": "Push this little screen around Vivian’s sample layout to see which of the two sightlines it blocks. Very considerate of her to make my mistakes small.",
+      "source_text_json_sha256": "7b84af492b0b5e56042da618beefc82dfe5415be4a3efbfe5352f4ebb211c089",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Existing movable token updates two sightlines"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Push this little screen around Vivian’s sample layout to see which of the two sightlines it blocks. Very considerate of her to make my mistakes small.",
+          "source_text_sha256": "cdeebc1e0315be6668c2662d1d989b393fb0257c7ca7fdbc6e61a0cd176a9928",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.LOOK.006.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.004",
+      "record": 25,
+      "document_id": 906,
+      "local_line_key": 25,
+      "global_line_key": 664,
+      "first_page": 38,
+      "absolute_page_start": 972,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "There’s a clean spare sheet in the kitchen. You can use it."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "For Vivian’s screen."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Good. I didn’t want to be the last person to know what the sheets were doing."
+        }
+      ],
+      "source_text_json_sha256": "fafd12d0bf98c968112789899f53c05f1a995080390eacfa3b35ed4826cf841b",
+      "source_ref": "P06-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Frankie identifies available clean sheet in L02",
+        "No new favor or task attached"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "There’s a clean spare sheet in the kitchen. You can use it.",
+          "source_text_sha256": "fd65c38da23e1d25b8f8a53c259fe8d2b877d29e406b3bd1e9403db1299e482c",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P06.DIALOGUE.004.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "For Vivian’s screen.",
+          "source_text_sha256": "3c4771a7c62aa9793f0f1bbfd13e38cf0cf33dcef2fdf63bed0ddc3f6e98edc9",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.004.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Good. I didn’t want to be the last person to know what the sheets were doing.",
+          "source_text_sha256": "2c805773085bdd9f91760f1f618a47cbadc4cc9f153f5591344da545c151b03b",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P06.DIALOGUE.004.03",
+          "speaker_id": "frankie",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.001",
+      "record": 26,
+      "document_id": 907,
+      "local_line_key": 26,
+      "global_line_key": 665,
+      "first_page": 41,
+      "absolute_page_start": 975,
+      "page_count": 1,
+      "source_text": "The spare sheet. Frankie said it’s available.",
+      "source_text_json_sha256": "0393f36b4304a210a1e8dffc522bca487c8fe96d1e31ce9f0465169700feed34",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Canonical sheet pickup and permission already established"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The spare sheet. Frankie said it’s available.",
+          "source_text_sha256": "56bf2edfa39e7151f49ed93b2cf6a37519f98748b05a72bb53cbcb33cdcd130b",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.002",
+      "record": 27,
+      "document_id": 908,
+      "local_line_key": 27,
+      "global_line_key": 666,
+      "first_page": 42,
+      "absolute_page_start": 976,
+      "page_count": 1,
+      "source_text": "Large laundry clips. They’ll hold the sheet at the paired dots on the upper rail. I knew all that laundry was preparing me for glamour.",
+      "source_text_json_sha256": "ae261635933d19ca80fca840078cd9cb2a27c29fcbbb91f3cf1ae1a48fc477fa",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Canonical clip pickup"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Large laundry clips. They’ll hold the sheet at the paired dots on the upper rail. I knew all that laundry was preparing me for glamour.",
+          "source_text_sha256": "08638cab4177360ed8c43fce38203d9f43a0ca76d3f4c26d93bcf389ff0e5f82",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.002.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.003",
+      "record": 28,
+      "document_id": 909,
+      "local_line_key": 28,
+      "global_line_key": 667,
+      "first_page": 43,
+      "absolute_page_start": 977,
+      "page_count": 1,
+      "source_text": "The sheet lies over the upper rail, with the bottom clear of the floor. Now it needs clipping.",
+      "source_text_json_sha256": "5990faf6da4bdbe873b9466c2e37e2c85511ff227fecaf3bbb062258cd706e2e",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Correct drape preserves lower-edge foot clearance; clips still needed"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The sheet lies over the upper rail, with the bottom clear of the floor. Now it needs clipping.",
+          "source_text_sha256": "5dd4cfebae44f52b9d53297f0ceb6da5dbac95cb7933da14a68b052f29f1dc2d",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.004",
+      "record": 29,
+      "document_id": 910,
+      "local_line_key": 29,
+      "global_line_key": 668,
+      "first_page": 44,
+      "absolute_page_start": 978,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "Clips at the dots, lower edge clear. Taut enough to hang cleanly, loose enough to fold."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "That looks expensive."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "You’re welcome."
+        }
+      ],
+      "source_text_json_sha256": "ff1f7994bb01453db6660536220a9c640e856991d3600be07a5fd51ea862791f",
+      "source_ref": "P06-source.txt:3 (Clues and objects); P06-source.txt:4 (Solution and verbs); P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Clips attach at marks",
+        "Screen constructed without fabric destruction",
+        "Clips remain part of screen"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Clips at the dots, lower edge clear. Taut enough to hang cleanly, loose enough to fold.",
+          "source_text_sha256": "cc352151b4d493b8af1d8828f967946719283513a628d0924cb3a43de728445e",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.004.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "That looks expensive.",
+          "source_text_sha256": "b87c104fbd63b1275f9a31e1e0ad80c39baafc085d375f8702394fa3736c3308",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.004.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "You’re welcome.",
+          "source_text_sha256": "90c6428a741ff94586ec1cfcfc633959d3f1f7c6ecf0491ceb8819e89efa86be",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.004.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.009",
+      "record": 30,
+      "document_id": 911,
+      "local_line_key": 30,
+      "global_line_key": 669,
+      "first_page": 47,
+      "absolute_page_start": 981,
+      "page_count": 1,
+      "source_text": "Completed screen",
+      "source_text_json_sha256": "fda0b06fa74e7bf1c15bc63be25d9cc22b72d026cf989809990dd7fce01621b6",
+      "source_ref": "P06-source.txt:4 (Solution and verbs); P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "SCREEN_BUILT",
+        "Clips not separately needed later"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Completed screen",
+          "source_text_sha256": "6c0d8c86c3bb6ead2931cedcf6f2c17ff4ee2f7cd33fd03814f57df94a2d9787",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.003",
+      "record": 31,
+      "document_id": 912,
+      "local_line_key": 31,
+      "global_line_key": 670,
+      "first_page": 48,
+      "absolute_page_start": 982,
+      "page_count": 1,
+      "source_text": "A clean sheet clipped to Vivian’s frame, with a clear lower edge. The clips belong to the screen now.",
+      "source_text_json_sha256": "8a71d2fb6b442360ee7f3912cf8cc7a687e263883b8f4309b0ed04feb04bfe0c",
+      "source_ref": "P06-source.txt:4 (Solution and verbs); P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "SCREEN_BUILT",
+        "Clips not separately needed later"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A clean sheet clipped to Vivian’s frame, with a clear lower edge. The clips belong to the screen now.",
+          "source_text_sha256": "ed46f185f3d4e75e149a7f7a1304c8299c01605d7cd465d174c664d25502f022",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.001",
+      "record": 32,
+      "document_id": 913,
+      "local_line_key": 32,
+      "global_line_key": 671,
+      "first_page": 49,
+      "absolute_page_start": 983,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "That puts the cloth across people’s feet."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "It did look rather secure."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "To the people. Drape it over the upper rail, then clip at the dots."
+        }
+      ],
+      "source_text_json_sha256": "800c42ec002380721e364853f3741f0fa7f93d9d03a118b36aa8d72793a97c5d",
+      "source_ref": "P06-source.txt:6 (Wrong feedback); P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Lower tie blocks feet and is visibly wrong",
+        "Explain safe supported arrangement",
+        "Fabric and clips retained"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "That puts the cloth across people’s feet.",
+          "source_text_sha256": "a2b744e7a8bf0389191d306daeb699e631038552a125408c08f8b5bd6d611b7b",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.FAILURE.001.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "It did look rather secure.",
+          "source_text_sha256": "9928e5328f6694bcf408039fba5b4f270574f162c4c7b3c996734e6e9f74edd9",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.FAILURE.001.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "To the people. Drape it over the upper rail, then clip at the dots.",
+          "source_text_sha256": "cbb686cebe2c79c063e2177c54ab58f05283f40807f694377488f38040d62629",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.FAILURE.001.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SYSTEM.001",
+      "record": 33,
+      "document_id": 914,
+      "local_line_key": 33,
+      "global_line_key": 672,
+      "first_page": 52,
+      "absolute_page_start": 986,
+      "page_count": 1,
+      "source_text": "The arrival and kitchen sightlines update with the screen’s position.",
+      "source_text_json_sha256": "1bca1455312f68d301a1283e94c58ef26407998efdd4b80c0b97e5acafe1f2a6",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Existing token movement updates both visible sightlines",
+        "No pixel-perfect target introduced"
+      ],
+      "kind": "system",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The arrival and kitchen sightlines update with the screen’s position.",
+          "source_text_sha256": "10ae4eab2a203d48f2f4080926171b8f3ba487233de6ae9df7cd105add02d5f1",
+          "source_speaker": "System",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.002",
+      "record": 34,
+      "document_id": 915,
+      "local_line_key": 34,
+      "global_line_key": 673,
+      "first_page": 53,
+      "absolute_page_start": 987,
+      "page_count": 2,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "You’ve hidden the kitchen hatch. We’re concealing Rita’s surprise, not protecting people from the sight of dinner."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "I’ll move the screen and leave the hatch visible."
+        }
+      ],
+      "source_text_json_sha256": "897d0d01cb50ebad5cd3de4d49fc4c85283db359fbe97dbd2d04c6705de231e5",
+      "source_ref": "P06-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Highlight blocked hatch line",
+        "Placement immediately reversible"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "You’ve hidden the kitchen hatch. We’re concealing Rita’s surprise, not protecting people from the sight of dinner.",
+          "source_text_sha256": "f97cc4ddabb8ebe469e42ebdff0b6093e3174c78484161b371a0688b5d385f6c",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.FAILURE.002.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "I’ll move the screen and leave the hatch visible.",
+          "source_text_sha256": "fde730620f1c2f25fe67c7687e46a1bbbbc898a4bd7c43e858289e8a2da13919",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.FAILURE.002.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.005",
+      "record": 35,
+      "document_id": 916,
+      "local_line_key": 35,
+      "global_line_key": 674,
+      "first_page": 55,
+      "absolute_page_start": 989,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "That’s the position. Arrivals can’t see the display; the kitchen hatch stays in view."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Rita gets her surprise, and I get seen cooking."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Both temperaments catered for. I’ll mark it on the courtyard plan."
+        }
+      ],
+      "source_text_json_sha256": "28f390cff7f215528a4130794f8aaaea7a5e5d803f4238d073b420e5b710b41a",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Correct mock-up blocks only display sightline",
+        "Vivian marks full-size screen position on plan"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "That’s the position. Arrivals can’t see the display; the kitchen hatch stays in view.",
+          "source_text_sha256": "75859d4a33f45190f90118220fc35525e88284145e955c5ef3a3617063b1a2e4",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.005.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "Rita gets her surprise, and I get seen cooking.",
+          "source_text_sha256": "015ebc9758b67e2cb04faf6ab80d79c2b77c3ea6ff5d08b71efec1e82b48016f",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.005.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Both temperaments catered for. I’ll mark it on the courtyard plan.",
+          "source_text_sha256": "82509f420de0752efbad684b9129ea11948c583730523d786e8944ce5a3ebcdb",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.005.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.READ.002",
+      "record": 36,
+      "document_id": 917,
+      "local_line_key": 36,
+      "global_line_key": 675,
+      "first_page": 58,
+      "absolute_page_start": 992,
+      "page_count": 1,
+      "source_text": "Screen: marked alcove position.\nConceal the display from arrivals.\nKeep the kitchen hatch visible.",
+      "source_text_json_sha256": "92380f2628d76de8fdb657494c34765c658bb3aed34a35d39749b89fe988d3bd",
+      "source_ref": "P06-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Full-size position and both sightline conditions legible"
+      ],
+      "kind": "read",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Screen: marked alcove position.\nConceal the display from arrivals.\nKeep the kitchen hatch visible.",
+          "source_text_sha256": "c27011f7faadf7f0c6c3963e05f318c4cba67be87191b82823ec3f60c68b6db1",
+          "source_speaker": "Plan",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "printed_evidence"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.003",
+      "record": 37,
+      "document_id": 918,
+      "local_line_key": 37,
+      "global_line_key": 676,
+      "first_page": 59,
+      "absolute_page_start": 993,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "With you there, who’ll be looking at the screen?"
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Quite a few people. I’m very good."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Now: what job are we agreeing to, and how are we making the screen stand?"
+        }
+      ],
+      "source_text_json_sha256": "b50a63b61bae976c4ddbb44fcf403861360fb0714de4d67c37413b5848e12374",
+      "source_ref": "P06-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Flirting returns to concrete scope and equipment question",
+        "Romance neither buys nor blocks practical reward"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "With you there, who’ll be looking at the screen?",
+          "source_text_sha256": "e8a435b1430054e04fa5be9874a0505c6550bcf8a33bfba9f09f02a385ac043e",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.FAILURE.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "Quite a few people. I’m very good.",
+          "source_text_sha256": "da9c1e4195c03032f5c999b4d59a188e9326bb5b03c60668f45841fc3c6bfd66",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.FAILURE.003.02",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Now: what job are we agreeing to, and how are we making the screen stand?",
+          "source_text_sha256": "49de1ca72d20978686ccfcb5e726da1e810200bfeb874228f5d45d5ddab9b448",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.FAILURE.003.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.005",
+      "record": 38,
+      "document_id": 919,
+      "local_line_key": 38,
+      "global_line_key": 677,
+      "first_page": 62,
+      "absolute_page_start": 996,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "There’s an industry mixer tonight. I could take you. People you’d want to meet."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "That sounds very tempting."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "It is. I’m good at invitations."
+        }
+      ],
+      "source_text_json_sha256": "837e7b70ae57f36152957b7ceda56fdec81e85e0799f6e3c90a55e88184205c5",
+      "source_ref": "P06-source.txt:5 (Glamorous temptation)",
+      "source_obligations": [
+        "Existing glamorous offer acknowledged without making abandonment required"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "There’s an industry mixer tonight. I could take you. People you’d want to meet.",
+          "source_text_sha256": "1bfabafe7c2f927cf4743418597392831654a60e584dc78e1ca5883d32cc3c5a",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.005.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "That sounds very tempting.",
+          "source_text_sha256": "b79b8df14b80bacad9c469b57d8e510a99e65adac4d48033bcef4cabdd5c36f3",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.005.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "It is. I’m good at invitations.",
+          "source_text_sha256": "e2209e562f52d63dc36390279772bbe3bddf85665cd47ab991c6c22123d1e32c",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.005.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.004",
+      "record": 39,
+      "document_id": 920,
+      "local_line_key": 39,
+      "global_line_key": 678,
+      "first_page": 65,
+      "absolute_page_start": 999,
+      "page_count": 1,
+      "source_text": "I’d love another occasion. I’ve promised to cook here tonight.",
+      "source_text_json_sha256": "65059bdbcca2d3a79bd9725520b3fd30bba4b0f545485bcc5ea51f495af3609a",
+      "source_ref": "P06-source.txt:5 (Glamorous temptation)",
+      "source_obligations": [
+        "Attraction or opportunity acknowledged while keeping supper commitment"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "I’d love another occasion. I’ve promised to cook here tonight.",
+          "source_text_sha256": "158047a3cc9c3a2e642e2ef7b3c82047390aa7fc82efeb8783e61aa8eb941f98",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.006",
+      "record": 40,
+      "document_id": 921,
+      "local_line_key": 40,
+      "global_line_key": 679,
+      "first_page": 66,
+      "absolute_page_start": 1000,
+      "page_count": 4,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "Another occasion, then."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "You’re not disappointed?"
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "A little. But keep your promise here. The mixer will survive without us. Everyone there is very good at explaining why someone important hasn’t arrived."
+        }
+      ],
+      "source_text_json_sha256": "c536532b36ae8577f385e99043a429544affb745728b2592caa40a2dbb272120",
+      "source_ref": "P06-source.txt:5 (Glamorous temptation)",
+      "source_obligations": [
+        "Vivian respects actual commitment",
+        "No new dated appointment or romantic obligation created"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Another occasion, then.",
+          "source_text_sha256": "248a937c694c41ed5b4b495274b202ceed374362ef43a3ab25cab8e1f3d5e154",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.006.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "You’re not disappointed?",
+          "source_text_sha256": "d4324c98d0477e25857a58b48bdfa9171119198fdf174dd98bee7ad88c859e34",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.006.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "A little. But keep your promise here. The mixer will survive without us. Everyone there is very good at explaining why someone important hasn’t arrived.",
+          "source_text_sha256": "edfe8b487a0c5f0d0650aaeb05bffea5f0c3a663e61790dd43d0612ebbb4d82b",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.006.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.005",
+      "record": 41,
+      "document_id": 922,
+      "local_line_key": 41,
+      "global_line_key": 680,
+      "first_page": 70,
+      "absolute_page_start": 1004,
+      "page_count": 1,
+      "source_text": "If the household has finished, we can see what’s possible afterward. I can’t promise more than that.",
+      "source_text_json_sha256": "838a1d285449df909a358fffa4aefdfbd5d8b370617cc207b7e0423e953376cc",
+      "source_ref": "P06-source.txt:5 (Glamorous temptation)",
+      "source_obligations": [
+        "Existing after-household option is conditional, not abandonment"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "If the household has finished, we can see what’s possible afterward. I can’t promise more than that.",
+          "source_text_sha256": "09ebf92ce5ed39e5ad761204c6dc3a18eb33cce0de4d48ed6adfb9896187c293",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.007",
+      "record": 42,
+      "document_id": 923,
+      "local_line_key": 42,
+      "global_line_key": 681,
+      "first_page": 71,
+      "absolute_page_start": 1005,
+      "page_count": 2,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "Fair. Supper first; afterward stays a possibility."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "If we manage it, I’ll be the one still smelling faintly of onions."
+        }
+      ],
+      "source_text_json_sha256": "c523886ce0eda7a9124bf25888ec5f6fb3fa3aa9f0bef40075b50bfef6b8376a",
+      "source_ref": "P06-source.txt:5 (Glamorous temptation)",
+      "source_obligations": [
+        "No guaranteed later date or schedule",
+        "Respect kept household commitment"
+      ],
+      "kind": "dialogue",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Fair. Supper first; afterward stays a possibility.",
+          "source_text_sha256": "3eff40839d38cab85295f81df383510bcc6ae85019537aad663d3c4237076f60",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.DIALOGUE.007.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "If we manage it, I’ll be the one still smelling faintly of onions.",
+          "source_text_sha256": "0710b64a688b3a9cd402ff62ee0c1a4659fbce064d3cedfa7b445a4b7ace70f8",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.DIALOGUE.007.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.006",
+      "record": 43,
+      "document_id": 924,
+      "local_line_key": 43,
+      "global_line_key": 682,
+      "first_page": 73,
+      "absolute_page_start": 1007,
+      "page_count": 3,
+      "source_text": [
+        {
+          "speaker": "Vivian Voss",
+          "text": "The screen’s yours for tonight. We’ve agreed the job; the layout works."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Thank you. I’ll get your equipment back to you."
+        },
+        {
+          "speaker": "Vivian Voss",
+          "text": "Good. Let’s put it in the courtyard."
+        }
+      ],
+      "source_text_json_sha256": "23b4aaa69d68da7d0b3ed4bcca3c7b96785917ad0c46399f0cb3b3c4e40f811f",
+      "source_ref": "P06-source.txt:2 (Prerequisite and obstacle); P06-source.txt:4 (Solution and verbs); P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "SCREEN_BUILT, VIVIAN_SCOPE_AGREED and VC02_RESOLVED set SCREEN_READY",
+        "Completed screen loaned and moved to L05 after mock-up",
+        "Equipment-return promise retained"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "The screen’s yours for tonight. We’ve agreed the job; the layout works.",
+          "source_text_sha256": "ccd2a2eccc5706c77e1c90c3d27bda3d492625f4701853ced9e3628b86532625",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.006.01",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "Thank you. I’ll get your equipment back to you.",
+          "source_text_sha256": "4df129808f1f5dd089904f46175aa87b0912d97477f595e1b3c946a2f8a5af1f",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P06.SUCCESS.006.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Good. Let’s put it in the courtyard.",
+          "source_text_sha256": "aaa0bf14468a9d45f2a1f7329502765de583b6b6bcc33774d7d3bfa7b2d3f190",
+          "source_speaker": "Vivian Voss",
+          "line_id": "P06.SUCCESS.006.03",
+          "speaker_id": "vivian",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SYSTEM.002",
+      "record": 44,
+      "document_id": 925,
+      "local_line_key": 44,
+      "global_line_key": 683,
+      "first_page": 76,
+      "absolute_page_start": 1010,
+      "page_count": 1,
+      "source_text": "Completed screen moved to the courtyard. Clips remain attached.",
+      "source_text_json_sha256": "55d38b99896ff0693ab226b4008e25a7bece18c51bbe99a86c0de099ce093287",
+      "source_ref": "P06-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Automatic move after approval",
+        "No need to dismantle or recover clips"
+      ],
+      "kind": "system",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Completed screen moved to the courtyard. Clips remain attached.",
+          "source_text_sha256": "4e1650f960a47173c6ce83df9aa3f0e94154c0b92ce54c6e33357b8ee7253557",
+          "source_speaker": "System",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.1",
+      "record": 45,
+      "document_id": 926,
+      "local_line_key": 45,
+      "global_line_key": 684,
+      "first_page": 77,
+      "absolute_page_start": 1011,
+      "page_count": 1,
+      "source_text": "Make the screen usable, then hide Rita’s surprise without hiding the kitchen.",
+      "source_text_json_sha256": "fd38f0397356ece0b2a6c8f5888c9890930935f1cd8863f346a377fb7e27538b",
+      "source_ref": "P06-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Construction and correct sightline both required"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Make the screen usable, then hide Rita’s surprise without hiding the kitchen.",
+          "source_text_sha256": "cb5ee6d4f3f8fbc1381dffc96d1dd295d879f84f0b3c1662443047993bf92a3e",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.2",
+      "record": 46,
+      "document_id": 927,
+      "local_line_key": 46,
+      "global_line_key": 685,
+      "first_page": 78,
+      "absolute_page_start": 1012,
+      "page_count": 1,
+      "source_text": "The frame shows the upper rail and paired clip marks. On Vivian’s model, watch both the arrival sightline and the kitchen sightline.",
+      "source_text_json_sha256": "ab1a9114e69738d634260e29eda96f8cfc3242c150ac643d96125a9631df4ddd",
+      "source_ref": "P06-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Construction and sightline clues plainly retained"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The frame shows the upper rail and paired clip marks. On Vivian’s model, watch both the arrival sightline and the kitchen sightline.",
+          "source_text_sha256": "69625b3070b13f9ab0a04f0d8086be87e2be427b6e0a3d275e69b5b4743bb613",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.3",
+      "record": 47,
+      "document_id": 928,
+      "local_line_key": 47,
+      "global_line_key": 686,
+      "first_page": 79,
+      "absolute_page_start": 1013,
+      "page_count": 2,
+      "source_text": "Agree tonight’s styling with Vivian. Drape the spare sheet over the upper rail and attach the laundry clips at its dot marks. Move the screen token across the display sightline while keeping the hatch sightline clear.",
+      "source_text_json_sha256": "ea2f59d80ac61a9b3313a3afe5f5b823feef29bf0b76da0476301216ac3dd77d",
+      "source_ref": "P06-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Complete canonical work solution; no date needed"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Agree tonight’s styling with Vivian. Drape the spare sheet over the upper rail and attach the laundry clips at its dot marks. Move the screen token across the display sightline while keeping the hatch sightline clear.",
+          "source_text_sha256": "0356aca4aba1862a3bdf96bba4411a5d988b0f9d67146ac8487cd6a01e25b3de",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "document_id": 929,
+      "local_line_key": 1,
+      "global_line_key": 687,
+      "first_page": 81,
+      "absolute_page_start": 1015,
+      "page_count": 5,
+      "source_text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "Six full suppers, or eight tasting bowls using the method in the margin."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "What’s a tasting bowl?"
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "A small portion with eye contact."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Including one for you. I won’t have you watching me chew while you explain what I’m tasting."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Eight bowls. One of them mine. I’ll follow the margin’s method."
+        }
+      ],
+      "source_text_json_sha256": "4c314c580f9049dc0e999499d3418a5a6c25e780eb7e42b5eb43f389506cb655",
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Six full suppers versus eight contributors, including Jackie",
+        "Written tasting method is required evidence",
+        "No magical full-portion multiplication"
+      ],
+      "kind": "scene",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Six full suppers, or eight tasting bowls using the method in the margin.",
+          "source_text_sha256": "264c653bf59de2f0d0f8c0b44d8702ec7b210d9b23742fb78f7a0a60e0b4aebf",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SCENE.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "What’s a tasting bowl?",
+          "source_text_sha256": "35c941c772a7af6793747f9d1ada938e91c334120344fcde16a0ce23af1ada5a",
+          "source_speaker": "Bunny Easter",
+          "line_id": "P07.SCENE.001.02",
+          "speaker_id": "bunny",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "A small portion with eye contact.",
+          "source_text_sha256": "e4e3ab8dab5d3b55286446e75d8c93d282f8ced16eadc05accd4339a7a6d1e5c",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SCENE.001.03",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/3/text",
+          "source_text": "Including one for you. I won’t have you watching me chew while you explain what I’m tasting.",
+          "source_text_sha256": "933e47e68595eb1d18fa79abe60b6058bce5d062f29f0a8517d106ad5bd354d1",
+          "source_speaker": "Bunny Easter",
+          "line_id": "P07.SCENE.001.04",
+          "speaker_id": "bunny",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/4/text",
+          "source_text": "Eight bowls. One of them mine. I’ll follow the margin’s method.",
+          "source_text_sha256": "cc0f4f0a3c99c47d0063aedeff26589709e21601e54e4eb98ab2b57e6c5331ae",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SCENE.001.05",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.001",
+      "record": 2,
+      "document_id": 930,
+      "local_line_key": 2,
+      "global_line_key": 688,
+      "first_page": 86,
+      "absolute_page_start": 1020,
+      "page_count": 1,
+      "source_text": "Courtyard hotpot recipe",
+      "source_text_json_sha256": "1a12a1542df0fc31691ae5173046bbf97f9ee00ed4e4a45a3c515e9250413567",
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Read actual plan rather than assume culinary knowledge",
+        "Six full meals remain distinct from eight tasting portions"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Courtyard hotpot recipe",
+          "source_text_sha256": "f42d53834b8765a32e848d8f6dc7810b264c4b2e625d87699f8c8c6bf61f2081",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.001",
+      "record": 3,
+      "document_id": 931,
+      "local_line_key": 3,
+      "global_line_key": 689,
+      "first_page": 87,
+      "absolute_page_start": 1021,
+      "page_count": 2,
+      "source_text": "My six-full-supper recipe, with the eight-tasting-bowl method written in the margin. Smaller portions, larger adjectives. I may be moving up in the world.",
+      "source_text_json_sha256": "f4ccbd327bbed04e692a550d0772e81a2d42a95339d014257938d9fd5d09c48f",
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Read actual plan rather than assume culinary knowledge",
+        "Six full meals remain distinct from eight tasting portions"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "My six-full-supper recipe, with the eight-tasting-bowl method written in the margin. Smaller portions, larger adjectives. I may be moving up in the world.",
+          "source_text_sha256": "ade08c2769d1e8cebd1ddecbe8a02b9168e3695a817e95fb7a85d95f4e40c2b5",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.LOOK.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.001",
+      "record": 4,
+      "document_id": 932,
+      "local_line_key": 4,
+      "global_line_key": 690,
+      "first_page": 89,
+      "absolute_page_start": 1023,
+      "page_count": 2,
+      "source_text": "Courtyard hotpot: six full suppers.\n\nEight tasting bowls: add stock to the marked jug line. Base first, vegetables second; finish with herbs after turning off the heat.",
+      "source_text_json_sha256": "00f6f0875f5babd988867418f65ae95d907ed1b739c3b16e3029a41bb54d7fa1",
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Exact recipe clue preserves measure, component sequence and herbs off heat"
+      ],
+      "kind": "read",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Courtyard hotpot: six full suppers.\n\nEight tasting bowls: add stock to the marked jug line. Base first, vegetables second; finish with herbs after turning off the heat.",
+          "source_text_sha256": "26b0781d114e10959d4e8a860bcd8fd40b11961661ec9242fbf10f72b118be72",
+          "source_speaker": "Recipe",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "printed_evidence"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.002",
+      "record": 5,
+      "document_id": 933,
+      "local_line_key": 5,
+      "global_line_key": 691,
+      "first_page": 91,
+      "absolute_page_start": 1025,
+      "page_count": 1,
+      "source_text": "Bean-and-tomato base",
+      "source_text_json_sha256": "f6cc5a63c225db6f8f422465fb404967efbfdbfe0bfa9a0348c991629b35b7aa",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Prepared bean-and-tomato base is cooked component"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Bean-and-tomato base",
+          "source_text_sha256": "b55343eecaa92ec2722294beb0f64f75ebfe3420e8065138719c77d4a63d0dae",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.001",
+      "record": 6,
+      "document_id": 934,
+      "local_line_key": 6,
+      "global_line_key": 692,
+      "first_page": 92,
+      "absolute_page_start": 1026,
+      "page_count": 1,
+      "source_text": "Prepared bean-and-tomato base for the hotpot. It looks modest now. Wait until I describe it.",
+      "source_text_json_sha256": "b9ce3e74e7da9f0c8e5206f5ab185904128ce8321e0209f7513e6b6d61a3a4d4",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Prepared bean-and-tomato base is cooked component"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Prepared bean-and-tomato base for the hotpot. It looks modest now. Wait until I describe it.",
+          "source_text_sha256": "fa1d066db60ae88ecab588cd8c9f7b7180cc02965eae106b37f10e78e2442a6b",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.003",
+      "record": 7,
+      "document_id": 935,
+      "local_line_key": 7,
+      "global_line_key": 693,
+      "first_page": 93,
+      "absolute_page_start": 1027,
+      "page_count": 1,
+      "source_text": "Vegetable bowl",
+      "source_text_json_sha256": "c685637e565cac46290a2f63eb1d8c22a4d6bce221c89fae9cb4e689b6d72257",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Vegetables after base; no new chopping interaction"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Vegetable bowl",
+          "source_text_sha256": "bb81d2d73a4e42591de9f881bf87e1884f766fc4997adc0eeb90b50afc606190",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.002",
+      "record": 8,
+      "document_id": 936,
+      "local_line_key": 8,
+      "global_line_key": 694,
+      "first_page": 94,
+      "absolute_page_start": 1028,
+      "page_count": 1,
+      "source_text": "The prepared vegetables. They go in after the base, before cooking.",
+      "source_text_json_sha256": "ea1d0275c214f87a8d6f0d284dfa1bf437c513938b8b0df1e2620cb8d06463c7",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Vegetables after base; no new chopping interaction"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The prepared vegetables. They go in after the base, before cooking.",
+          "source_text_sha256": "2852be766e9ddf5b19f539080c4fc6436f2078a1c79fd5b4151ce19a364befcf",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.004",
+      "record": 9,
+      "document_id": 937,
+      "local_line_key": 9,
+      "global_line_key": 695,
+      "first_page": 95,
+      "absolute_page_start": 1029,
+      "page_count": 1,
+      "source_text": "Stock bottle",
+      "source_text_json_sha256": "5366de89ac5a3ad7cead33a6482835f9a22c0b9eb34a10f7395715cce0df2561",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Stock must be measured to visible eight-bowl level"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Stock bottle",
+          "source_text_sha256": "9620a398dcda97d7aea6429a03862aa919d6d6f3c57ee18c86a01080db643927",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.003",
+      "record": 10,
+      "document_id": 938,
+      "local_line_key": 10,
+      "global_line_key": 696,
+      "first_page": 96,
+      "absolute_page_start": 1030,
+      "page_count": 1,
+      "source_text": "Stock for the tasting-size recipe. Measure it to the jug’s eight-bowl mark. “A generous splash” is how I end up serving soup.",
+      "source_text_json_sha256": "443c4991c6ebbbd5f971aa92ace80e535b0a4c5d5d4d26a698cddc9ff18ca4f9",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Stock must be measured to visible eight-bowl level"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Stock for the tasting-size recipe. Measure it to the jug’s eight-bowl mark. “A generous splash” is how I end up serving soup.",
+          "source_text_sha256": "29976b2b191f89fa57e05f76ad1189d52dfe072512e18543ca54a268dc1d543a",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.005",
+      "record": 11,
+      "document_id": 939,
+      "local_line_key": 11,
+      "global_line_key": 697,
+      "first_page": 97,
+      "absolute_page_start": 1031,
+      "page_count": 1,
+      "source_text": "Measuring jug",
+      "source_text_json_sha256": "2e99a890e6e8cbbf3d3e9f9fc9a9de2e9c606869705af912f84786c76b0d801b",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Jug carries prominent eight-bowl mark"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Measuring jug",
+          "source_text_sha256": "a5fc5b7aba47b9392608cebbde8e9c9bde7a139dbf7863128ad9f4b623fa96a2",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.004",
+      "record": 12,
+      "document_id": 940,
+      "local_line_key": 12,
+      "global_line_key": 698,
+      "first_page": 98,
+      "absolute_page_start": 1032,
+      "page_count": 1,
+      "source_text": "A large, unmistakable mark for eight tasting bowls. Including mine.",
+      "source_text_json_sha256": "5c6a0d069c7e0e4fafc402049058c4f6ed1f9be76eb6bd7c9c44e3fdb4b1bb7b",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Jug carries prominent eight-bowl mark"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A large, unmistakable mark for eight tasting bowls. Including mine.",
+          "source_text_sha256": "bdbf3a42da82659d3671a54352c5745d7013f6bc4109bbcb1e3cb4dcc25ea152",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.002",
+      "record": 13,
+      "document_id": 941,
+      "local_line_key": 13,
+      "global_line_key": 699,
+      "first_page": 99,
+      "absolute_page_start": 1033,
+      "page_count": 1,
+      "source_text": "8 TASTING BOWLS",
+      "source_text_json_sha256": "3a41f99b275d4ce30426767ca472cdf5ed6b475da9ea5fb7fee55e556ac80e0f",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Large unambiguous correct measurement target"
+      ],
+      "kind": "read",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "8 TASTING BOWLS",
+          "source_text_sha256": "8e16bbcc3e64e458c4f6b35d960ee972078acbbd0011db5b13856aeb72a99c21",
+          "source_speaker": "Jug marking",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "printed_evidence"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.006",
+      "record": 14,
+      "document_id": 942,
+      "local_line_key": 14,
+      "global_line_key": 700,
+      "first_page": 100,
+      "absolute_page_start": 1034,
+      "page_count": 1,
+      "source_text": "Herb sachet",
+      "source_text_json_sha256": "ba012cbd92ef2f9289ade8bfecc829a9aa3424f6e4f7f60663be613d6a6582e3",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Fresh herbs added off heat; packet repeats clue"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Herb sachet",
+          "source_text_sha256": "fa013faf351f90f74a1b45afd8fcd04df79f5bcc8b9185ac3b75e9c00bcff441",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.005",
+      "record": 15,
+      "document_id": 943,
+      "local_line_key": 15,
+      "global_line_key": 701,
+      "first_page": 101,
+      "absolute_page_start": 1035,
+      "page_count": 1,
+      "source_text": "The fresh finish. The packet says to add it after the heat is off.",
+      "source_text_json_sha256": "85a9fb9a24dc6e32ef57b26166b6bcf1e9a013d73f0454531ad0c9f658674eaf",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Fresh herbs added off heat; packet repeats clue"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The fresh finish. The packet says to add it after the heat is off.",
+          "source_text_sha256": "ecceae31e0fc6888984bc5f4d0fbc7e7cb01973d442e7929d64e6ec790bf3169",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.003",
+      "record": 16,
+      "document_id": 944,
+      "local_line_key": 16,
+      "global_line_key": 702,
+      "first_page": 102,
+      "absolute_page_start": 1036,
+      "page_count": 1,
+      "source_text": "FINISH OFF THE HEAT",
+      "source_text_json_sha256": "b6c745b572d9636f4dc524cad65b16cacd0d70c65bc8ef44999d3e8a8410a7e1",
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "source_obligations": [
+        "Repeat exact off-heat instruction"
+      ],
+      "kind": "read",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "FINISH OFF THE HEAT",
+          "source_text_sha256": "97d1f8643b928a6f5b13440ad215eb7724e83de0aad75986427b09b99d4e1f38",
+          "source_speaker": "Herb sachet",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "printed_evidence"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.007",
+      "record": 17,
+      "document_id": 945,
+      "local_line_key": 17,
+      "global_line_key": 703,
+      "first_page": 103,
+      "absolute_page_start": 1037,
+      "page_count": 1,
+      "source_text": "Hotpot pot",
+      "source_text_json_sha256": "b2bdbfb9e4fb4c008d6ed6a79f80d7754c8348ced1870c5b8fe5916689e9bc01",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Pot used to cook then wait lidded for later transport"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Hotpot pot",
+          "source_text_sha256": "036c37d2cb5a6764cd9e012438e2861b3c896a7eac49c0723844bced3b35667d",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.002",
+      "record": 18,
+      "document_id": 946,
+      "local_line_key": 18,
+      "global_line_key": 704,
+      "first_page": 104,
+      "absolute_page_start": 1038,
+      "page_count": 1,
+      "source_text": "A pot with a proper lid. Cook the hotpot here, then keep it lidded in the kitchen until it’s time to carry it.",
+      "source_text_json_sha256": "0b1bf1fd683a14f1e4361371a18161e5d59e475c15ea6ab8bb0eba1cfa3ced98",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Pot used to cook then wait lidded for later transport"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A pot with a proper lid. Cook the hotpot here, then keep it lidded in the kitchen until it’s time to carry it.",
+          "source_text_sha256": "8a4338ac006a9653134a144442dbe9818811d0fc15d4d207b829747aa2982738",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.LOOK.002.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.008",
+      "record": 19,
+      "document_id": 947,
+      "local_line_key": 19,
+      "global_line_key": 705,
+      "first_page": 105,
+      "absolute_page_start": 1039,
+      "page_count": 1,
+      "source_text": "Pot lid",
+      "source_text_json_sha256": "19b67e7499c71add62ab81de329f1d37ed26ab94431d3414533bba5a9a1355ac",
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Lid required to complete transport-ready food"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Pot lid",
+          "source_text_sha256": "e548395532c619c9792c7b6b1a234cc768e766d0be9e70e837892daae4e99f76",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.003",
+      "record": 20,
+      "document_id": 948,
+      "local_line_key": 20,
+      "global_line_key": 706,
+      "first_page": 106,
+      "absolute_page_start": 1040,
+      "page_count": 1,
+      "source_text": "A lid that fits the pot. There’s a reason neither of us is serving supper off the floor.",
+      "source_text_json_sha256": "f7feec28cf7bd15bf0e71083a6370883f6bc3a9325c8629e41d4372a1d001801",
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Lid required to complete transport-ready food"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "A lid that fits the pot. There’s a reason neither of us is serving supper off the floor.",
+          "source_text_sha256": "c75084b678de7c8243e6606296903d5efcb966da2506ae8b1738d871c94ae61e",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.LOOK.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.009",
+      "record": 21,
+      "document_id": 949,
+      "local_line_key": 21,
+      "global_line_key": 707,
+      "first_page": 107,
+      "absolute_page_start": 1041,
+      "page_count": 1,
+      "source_text": "Stove",
+      "source_text_json_sha256": "20ceba2fff2458de57420c04984b969c757ecb42d79607d7801b7f89a2354e78",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Explicit stove on/off sequence"
+      ],
+      "kind": "label",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Stove",
+          "source_text_sha256": "a9b5a4dc663e67ec29e1ed290e32787b8201dfb4d9c7ee6cbcbeeaeb61a399dd",
+          "source_speaker": "Interface",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "interface_label"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.004",
+      "record": 22,
+      "document_id": 950,
+      "local_line_key": 22,
+      "global_line_key": 708,
+      "first_page": 108,
+      "absolute_page_start": 1042,
+      "page_count": 1,
+      "source_text": "On to cook the base and vegetables. Off before the herbs. A cook should know when to stop helping.",
+      "source_text_json_sha256": "dd166f1aca69a2ac770341f3fc05e071a3044a54ee618e7c05f4e1ad072ae770",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Explicit stove on/off sequence"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "On to cook the base and vegetables. Off before the herbs. A cook should know when to stop helping.",
+          "source_text_sha256": "686367b552187ec81b64463242cb43cac53a0a8277949ea45f3757e011701d0d",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.LOOK.004.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.001",
+      "record": 23,
+      "document_id": 951,
+      "local_line_key": 23,
+      "global_line_key": 709,
+      "first_page": 109,
+      "absolute_page_start": 1043,
+      "page_count": 1,
+      "source_text": "The bean-and-tomato base is in the pot.",
+      "source_text_json_sha256": "fe88383bda932daa1e308a42b00cc0ee7de0043fc6ee55fb237132c936460eb3",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Base placement succeeds in either accepted base/stock ordering"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The bean-and-tomato base is in the pot.",
+          "source_text_sha256": "e3ff245bb957f6c49e439602f6c8a6326d71bf49565883ec23f8616c383ed227",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.CHOICE.001",
+      "record": 24,
+      "document_id": 952,
+      "local_line_key": 24,
+      "global_line_key": 710,
+      "first_page": 110,
+      "absolute_page_start": 1044,
+      "page_count": 1,
+      "source_text": "Fill to the eight-tasting-bowl mark.",
+      "source_text_json_sha256": "c81b09b642a0853c9c7c0ed09a0719d4815f329a385bdd1a83d7a15e930b3760",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Correct selection corresponds to prominent jug mark"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Fill to the eight-tasting-bowl mark.",
+          "source_text_sha256": "edd126a19bf7b76afd32074287fe4ed5941b41c61482b92a59fee14ddea01c99",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.CHOICE.002",
+      "record": 25,
+      "document_id": 953,
+      "local_line_key": 25,
+      "global_line_key": 711,
+      "first_page": 111,
+      "absolute_page_start": 1045,
+      "page_count": 1,
+      "source_text": "Use the six-supper quantity.",
+      "source_text_json_sha256": "2e4c79a50621f56599faf0b5d66736c0bb03fae89d85788c444756df7080d0a8",
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Existing too-small choice retains guest-count correction",
+        "No additional measurement quantity invented"
+      ],
+      "kind": "choice",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Use the six-supper quantity.",
+          "source_text_sha256": "f72455d31c41ddba416485edb3ef243a321c653fe756773fb0c2676e37086bfe",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "choice_caption"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.002",
+      "record": 26,
+      "document_id": 954,
+      "local_line_key": 26,
+      "global_line_key": 712,
+      "first_page": 112,
+      "absolute_page_start": 1046,
+      "page_count": 1,
+      "source_text": "Right to the eight-bowl mark. Tasting portions for all eight of us.",
+      "source_text_json_sha256": "dcd63b914c8b26d77b4c7146824cb126845112aba4f45f7c3e96bdf4c2185943",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Correct stock measure",
+        "Portions are tasting-size and include Jackie"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Right to the eight-bowl mark. Tasting portions for all eight of us.",
+          "source_text_sha256": "1ceaf07984441d0129daed7b40a19a1b67b36178d98438b35ddd5e0f2794768a",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.002.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.006",
+      "record": 27,
+      "document_id": 955,
+      "local_line_key": 27,
+      "global_line_key": 713,
+      "first_page": 113,
+      "absolute_page_start": 1047,
+      "page_count": 1,
+      "source_text": "Stock measured to the eight-tasting-bowl line. Ready for the pot.",
+      "source_text_json_sha256": "4cd2f5b0c9d77e5f084c04411ef78180e71d49a852fd2c1b54e59b22344a7f7c",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Measured inventory state exposes correct quantity"
+      ],
+      "kind": "inventory",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Stock measured to the eight-tasting-bowl line. Ready for the pot.",
+          "source_text_sha256": "db78d1aef62a2541fd4e02ac98d98730e6b2c4fb62c27b5a102acea767025049",
+          "source_speaker": "Jackie Tree",
+          "line_id": null,
+          "speaker_id": "jack",
+          "role": "cast_caption_only"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.003",
+      "record": 28,
+      "document_id": 956,
+      "local_line_key": 28,
+      "global_line_key": 714,
+      "first_page": 114,
+      "absolute_page_start": 1048,
+      "page_count": 1,
+      "source_text": "The measured stock is in. The base and stock can go in either order; the vegetables follow the base.",
+      "source_text_json_sha256": "a39eff80b238424fdaec91ad9cba01c52caed5e50bf5bcb072635526a88d6e29",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Both base/stock orders accepted",
+        "Important component sequence remains clear"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The measured stock is in. The base and stock can go in either order; the vegetables follow the base.",
+          "source_text_sha256": "7baabc0b111e1d01a2ce124ed3156e0fad0cca8fb7b0f5dea86e71bddd0b2126",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.004",
+      "record": 29,
+      "document_id": 957,
+      "local_line_key": 29,
+      "global_line_key": 715,
+      "first_page": 115,
+      "absolute_page_start": 1049,
+      "page_count": 1,
+      "source_text": "Vegetables in. The cooking comes before the fresh finish.",
+      "source_text_json_sha256": "2155563078498f22abaf1950c0a1a42364f6423ac89d052af2f04617f393c51f",
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Vegetables join cooked components before herbs"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Vegetables in. The cooking comes before the fresh finish.",
+          "source_text_sha256": "29a849139eb35b2abaa25d9439797ab088802157db7da61615ded520d0c72096",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.004.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.005",
+      "record": 30,
+      "document_id": 958,
+      "local_line_key": 30,
+      "global_line_key": 716,
+      "first_page": 116,
+      "absolute_page_start": 1050,
+      "page_count": 1,
+      "source_text": "Base, stock, vegetables. A short cook, and the hotpot is ready for its fresh finish.",
+      "source_text_json_sha256": "460ae24dc1f7e01e161afead12ac50480eeab7640596f552fb13cc43f956008c",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Existing short montage completes immediately without timer",
+        "Heat still must be turned off before herbs"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Base, stock, vegetables. A short cook, and the hotpot is ready for its fresh finish.",
+          "source_text_sha256": "c660ad0a9402ac2f44111d983b274ce8971462864ff488d3486fadf8f86a01f0",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.005.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.006",
+      "record": 31,
+      "document_id": 959,
+      "local_line_key": 31,
+      "global_line_key": 717,
+      "first_page": 117,
+      "absolute_page_start": 1051,
+      "page_count": 1,
+      "source_text": "Heat off. Now the herbs.",
+      "source_text_json_sha256": "cf033438d5c77b75eb20285e2ad7a1c1476343bb140461610f5d92b1e3602e89",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Explicit off state required for fresh finish"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Heat off. Now the herbs.",
+          "source_text_sha256": "ac49dd8c78547f2890af301e4efddf800d9cb919f336a60813695d94f4d0e68e",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.006.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.007",
+      "record": 32,
+      "document_id": 960,
+      "local_line_key": 32,
+      "global_line_key": 718,
+      "first_page": 118,
+      "absolute_page_start": 1052,
+      "page_count": 1,
+      "source_text": "Herbs in after cooking, with the heat off. A fresh finish, not boiled perfume.",
+      "source_text_json_sha256": "c26e52b92c99e0a1253a1fe9faf1b9970f398a07e339565cf9c83726b3f21401",
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "source_obligations": [
+        "Correct herb use; cooked components precede fresh finish"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Herbs in after cooking, with the heat off. A fresh finish, not boiled perfume.",
+          "source_text_sha256": "66b7bf238a87971ab5bbec36d57879c63dbdb3369f821e9ab39d88baf3f75148",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.007.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.008",
+      "record": 33,
+      "document_id": 961,
+      "local_line_key": 33,
+      "global_line_key": 719,
+      "first_page": 119,
+      "absolute_page_start": 1053,
+      "page_count": 1,
+      "source_text": "Lid on. Eight tasting portions, ready for later.",
+      "source_text_json_sha256": "0b020c99cbf9c1c5e62e173dc43fba8d065d5b0d85d233d70f5a9a824c211fa9",
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Lid completes FOOD_READY",
+        "Food waits until P13 transport"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Lid on. Eight tasting portions, ready for later.",
+          "source_text_sha256": "d5b27b47ac684118159e1391e4dc871a5465e4e57e5e8eec07325773142065ea",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SUCCESS.008.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.001",
+      "record": 34,
+      "document_id": 962,
+      "local_line_key": 34,
+      "global_line_key": 720,
+      "first_page": 120,
+      "absolute_page_start": 1054,
+      "page_count": 2,
+      "source_text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "My recipe says to turn the heat off before adding the herbs. Apparently I wrote it for a man I don’t trust."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Heat off first. I’ll keep the herbs for then."
+        }
+      ],
+      "source_text_json_sha256": "6699263dec562d1f47a5136ee172d54d2bf28ff8c7b511e4b18b958f9b491b53",
+      "source_ref": "P07-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Explicit active-heat rejection",
+        "Herb sachet not lost"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "My recipe says to turn the heat off before adding the herbs. Apparently I wrote it for a man I don’t trust.",
+          "source_text_sha256": "394b160454b476c073f8a0787f733b238ffd42502c8b3586ed1c3f07eac25e26",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.FAILURE.001.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "Heat off first. I’ll keep the herbs for then.",
+          "source_text_sha256": "823f75b43d8b87e41711fa90fc3a9619dbafeec8169390d1567fd435d4156a7d",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.FAILURE.001.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.002",
+      "record": 35,
+      "document_id": 963,
+      "local_line_key": 35,
+      "global_line_key": 721,
+      "first_page": 122,
+      "absolute_page_start": 1056,
+      "page_count": 2,
+      "source_text": "That’s stock for six, and there are eight of us. I can make a tasting portion elegant; I can’t make two people disappear. Refill the jug to the eight-tasting-bowl mark shown in the recipe’s margin.",
+      "source_text_json_sha256": "23be78a9e864f26091222f1e6ac615b9aa28b1bf5ecdf7b7dc468d0d61d129a5",
+      "source_ref": "P07-source.txt:6 (Wrong feedback); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Highlight guest count and recipe annotation",
+        "Supplies remain refillable until completion"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "That’s stock for six, and there are eight of us. I can make a tasting portion elegant; I can’t make two people disappear. Refill the jug to the eight-tasting-bowl mark shown in the recipe’s margin.",
+          "source_text_sha256": "19a51ce64bdd62ef472e0072cc81cc5dc5cb4a76bb410647ee293f5f36acc6b4",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.FAILURE.002.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.003",
+      "record": 36,
+      "document_id": 964,
+      "local_line_key": 36,
+      "global_line_key": 722,
+      "first_page": 124,
+      "absolute_page_start": 1058,
+      "page_count": 1,
+      "source_text": "The hotpot is finished, but it needs its lid before it travels. I’d like the courtyard to smell of supper without wearing it.",
+      "source_text_json_sha256": "8922fe4abc32443b3d79c64bcab6f22f23992220fa8e7ba01c3f79e1dd7b9e68",
+      "source_ref": "P07-source.txt:6 (Wrong feedback)",
+      "source_obligations": [
+        "Clear transport reminder; no spill or irreversible loss"
+      ],
+      "kind": "failure",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "The hotpot is finished, but it needs its lid before it travels. I’d like the courtyard to smell of supper without wearing it.",
+          "source_text_sha256": "a5420f51dea40f34febc8b700b0b86b1eff7ada0b3d75655254138976f0db27c",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.FAILURE.003.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "document_id": 965,
+      "local_line_key": 37,
+      "global_line_key": 723,
+      "first_page": 125,
+      "absolute_page_start": 1059,
+      "page_count": 5,
+      "source_text": [
+        {
+          "speaker": "Bunny Easter",
+          "text": "Oh, Jackie. Thinking about all the lovely things Rita’s offering us..."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "It’s the onion."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Oh. I was one hug away from putting my sleeve in the beans."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "I am grateful to her, though."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "I know."
+        }
+      ],
+      "source_text_json_sha256": "d0120ea2d8e8c2ae5babac68ed094e291f2985ec466f5d95a41bf3a7f4c4cd65",
+      "source_ref": "P07-source.txt:5 (Comic beat); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Ordinary onion tears mistaken for emotion",
+        "Jackie admits onion before sincere appreciation",
+        "No illness, allergy, drug or tampering gag",
+        "Optional laugh follows first misunderstanding, never sincere follow-up"
+      ],
+      "kind": "scene",
+      "segments": [
+        {
+          "source_pointer": "/text/0/text",
+          "source_text": "Oh, Jackie. Thinking about all the lovely things Rita’s offering us...",
+          "source_text_sha256": "d254c1ab41edf44e1412c4530d155ca8b336d907bd294c2706025254646419d0",
+          "source_speaker": "Bunny Easter",
+          "line_id": "P07.SCENE.002.01",
+          "speaker_id": "bunny",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/1/text",
+          "source_text": "It’s the onion.",
+          "source_text_sha256": "7c8aa2833458f135593e7c267498a24db1349e4404ef57c763fd92901a0e80a0",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SCENE.002.02",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/2/text",
+          "source_text": "Oh. I was one hug away from putting my sleeve in the beans.",
+          "source_text_sha256": "75ca3b28aebd126553b6d43f9813587c1552252fee0713f69eb30dea502a439f",
+          "source_speaker": "Bunny Easter",
+          "line_id": "P07.SCENE.002.03",
+          "speaker_id": "bunny",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/3/text",
+          "source_text": "I am grateful to her, though.",
+          "source_text_sha256": "e4c1635c464bb8f9fb686fc2d9e5ea5de86f61209cfee1879133360bbe76508f",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.SCENE.002.04",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        },
+        {
+          "source_pointer": "/text/4/text",
+          "source_text": "I know.",
+          "source_text_sha256": "45b3c6001b6b95569b2e2ca0584b2d5e169321859dc5f75c93acf53f1400cac1",
+          "source_speaker": "Bunny Easter",
+          "line_id": "P07.SCENE.002.05",
+          "speaker_id": "bunny",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.005",
+      "record": 38,
+      "document_id": 966,
+      "local_line_key": 38,
+      "global_line_key": 724,
+      "first_page": 130,
+      "absolute_page_start": 1064,
+      "page_count": 1,
+      "source_text": "Ready for eight tasting bowls. The lid stays on, and it waits here until we serve.",
+      "source_text_json_sha256": "3802adc840bd85f1528a8c5f3e5e9c9ad5e7a1dccd2fd1a3866dfe620ff9e0ca",
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "FOOD_READY",
+        "Pot waits in kitchen until P13",
+        "No spoilage urgency"
+      ],
+      "kind": "look",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Ready for eight tasting bowls. The lid stays on, and it waits here until we serve.",
+          "source_text_sha256": "9de999e5f73718d9925113f611fbedc2d85cacb8c925e3abab51dec15895dfe4",
+          "source_speaker": "Jackie Tree",
+          "line_id": "P07.LOOK.005.01",
+          "speaker_id": "jack",
+          "role": "cast_voice"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.009",
+      "record": 39,
+      "document_id": 967,
+      "local_line_key": 39,
+      "global_line_key": 725,
+      "first_page": 131,
+      "absolute_page_start": 1065,
+      "page_count": 1,
+      "source_text": "Household special ready: eight tasting portions. Lidded pot waiting in the kitchen.",
+      "source_text_json_sha256": "142f55e2d7bc149216f1384b6a6f4655112a18991a8c964329fe1b7406cc5654",
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "source_obligations": [
+        "Include all eight contributors at appropriate tasting size",
+        "FOOD_READY and later transport unchanged"
+      ],
+      "kind": "success",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Household special ready: eight tasting portions. Lidded pot waiting in the kitchen.",
+          "source_text_sha256": "d5388abe58b6d524a7a9dc3cc541f324a962662dba36053bb74c4e5cf992aaee",
+          "source_speaker": "System",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.1",
+      "record": 40,
+      "document_id": 968,
+      "local_line_key": 40,
+      "global_line_key": 726,
+      "first_page": 132,
+      "absolute_page_start": 1066,
+      "page_count": 1,
+      "source_text": "Count all eight contributors, including Jackie, then read the recipe’s margin.",
+      "source_text_json_sha256": "e08aa549d0c2ab5eeb4cd8b92d292e9c029c3c097e33818793a66345fc5dbd26",
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Guest count and written alternative"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Count all eight contributors, including Jackie, then read the recipe’s margin.",
+          "source_text_sha256": "bf9a16c0dce5bd65ff1d14f1f47b62231d0a7f0a284f6927cab2cc1468098305",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.2",
+      "record": 41,
+      "document_id": 969,
+      "local_line_key": 41,
+      "global_line_key": 727,
+      "first_page": 133,
+      "absolute_page_start": 1067,
+      "page_count": 1,
+      "source_text": "Use the jug’s eight-tasting-bowl stock mark. The herbs are a fresh finish, added only after you turn the heat off.",
+      "source_text_json_sha256": "f3c4fadaad3cadceaf24107bce9edf398b4aa25b5fbcdc2cbc5e181202e161d5",
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Measure and off-heat distinction"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Use the jug’s eight-tasting-bowl stock mark. The herbs are a fresh finish, added only after you turn the heat off.",
+          "source_text_sha256": "5163e368b3ad2afb3f69fa2b6c60275d41f9782ea20094351358712059a4de8d",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.3",
+      "record": 42,
+      "document_id": 970,
+      "local_line_key": 42,
+      "global_line_key": 728,
+      "first_page": 134,
+      "absolute_page_start": 1068,
+      "page_count": 2,
+      "source_text": "Put base, the eight-bowl stock measure, and vegetables in the pot. Cook, switch off the stove, add the herbs, then close the lid. Base and measured stock can go in either order.",
+      "source_text_json_sha256": "e37db94f7d31616edf407f229728d36a499e4f85cc3e77e2375d606e3855d066",
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "source_obligations": [
+        "Complete solution with explicit accepted order flexibility"
+      ],
+      "kind": "hint",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Put base, the eight-bowl stock measure, and vegetables in the pot. Cook, switch off the stove, add the herbs, then close the lid. Base and measured stock can go in either order.",
+          "source_text_sha256": "5727bcdc6ed596e0ac05bc07bcc7c91571084301fd10d0e20ba817755cb8933b",
+          "source_speaker": "Hint",
+          "line_id": null,
+          "speaker_id": "text",
+          "role": "narration_control"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.01",
+      "unit": 1,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 934,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.02",
+      "unit": 2,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 935,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.03",
+      "unit": 3,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 936,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.04",
+      "unit": 4,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 3,
+      "page_count": 1,
+      "absolute_page_start": 937,
+      "source_pointer": "/text/3/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.05",
+      "unit": 5,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 4,
+      "page_count": 1,
+      "absolute_page_start": 938,
+      "source_pointer": "/text/4/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SCENE.001",
+      "record": 1,
+      "line_id": "P06.SCENE.001.06",
+      "unit": 6,
+      "document_id": 882,
+      "global_line_key": 640,
+      "first_record_page": 5,
+      "page_count": 1,
+      "absolute_page_start": 939,
+      "source_pointer": "/text/5/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.001",
+      "record": 2,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 883,
+      "global_line_key": 641,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 940,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.001",
+      "record": 3,
+      "line_id": "P06.DIALOGUE.001.01",
+      "unit": 7,
+      "document_id": 884,
+      "global_line_key": 642,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 941,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.001",
+      "record": 3,
+      "line_id": "P06.DIALOGUE.001.02",
+      "unit": 8,
+      "document_id": 884,
+      "global_line_key": 642,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 942,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.001",
+      "record": 3,
+      "line_id": "P06.DIALOGUE.001.03",
+      "unit": 9,
+      "document_id": 884,
+      "global_line_key": 642,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 943,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.002",
+      "record": 4,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 885,
+      "global_line_key": 643,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 944,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.002",
+      "record": 5,
+      "line_id": "P06.DIALOGUE.002.01",
+      "unit": 10,
+      "document_id": 886,
+      "global_line_key": 644,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 945,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.002",
+      "record": 5,
+      "line_id": "P06.DIALOGUE.002.02",
+      "unit": 11,
+      "document_id": 886,
+      "global_line_key": 644,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 946,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.002",
+      "record": 5,
+      "line_id": "P06.DIALOGUE.002.03",
+      "unit": 12,
+      "document_id": 886,
+      "global_line_key": 644,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 947,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.003",
+      "record": 6,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 887,
+      "global_line_key": 645,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 948,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.003",
+      "record": 7,
+      "line_id": "P06.DIALOGUE.003.01",
+      "unit": 13,
+      "document_id": 888,
+      "global_line_key": 646,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 949,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.003",
+      "record": 7,
+      "line_id": "P06.DIALOGUE.003.02",
+      "unit": 14,
+      "document_id": 888,
+      "global_line_key": 646,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 950,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.003",
+      "record": 7,
+      "line_id": "P06.DIALOGUE.003.03",
+      "unit": 15,
+      "document_id": 888,
+      "global_line_key": 646,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 951,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.001",
+      "record": 8,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 889,
+      "global_line_key": 647,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 952,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.001",
+      "record": 9,
+      "line_id": "P06.LOOK.001.01",
+      "unit": 16,
+      "document_id": 890,
+      "global_line_key": 648,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 953,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.READ.001",
+      "record": 10,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 891,
+      "global_line_key": 649,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 954,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.002",
+      "record": 11,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 892,
+      "global_line_key": 650,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 955,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.002",
+      "record": 12,
+      "line_id": "P06.LOOK.002.01",
+      "unit": 17,
+      "document_id": 893,
+      "global_line_key": 651,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 956,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.003",
+      "record": 13,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 894,
+      "global_line_key": 652,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 957,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.001",
+      "record": 14,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 895,
+      "global_line_key": 653,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 958,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.004",
+      "record": 15,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 896,
+      "global_line_key": 654,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 959,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.002",
+      "record": 16,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 897,
+      "global_line_key": 655,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 960,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.005",
+      "record": 17,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 898,
+      "global_line_key": 656,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 962,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.003",
+      "record": 18,
+      "line_id": "P06.LOOK.003.01",
+      "unit": 18,
+      "document_id": 899,
+      "global_line_key": 657,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 963,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.006",
+      "record": 19,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 900,
+      "global_line_key": 658,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 965,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.004",
+      "record": 20,
+      "line_id": "P06.LOOK.004.01",
+      "unit": 19,
+      "document_id": 901,
+      "global_line_key": 659,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 966,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.007",
+      "record": 21,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 902,
+      "global_line_key": 660,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 967,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.005",
+      "record": 22,
+      "line_id": "P06.LOOK.005.01",
+      "unit": 20,
+      "document_id": 903,
+      "global_line_key": 661,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 968,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.008",
+      "record": 23,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 904,
+      "global_line_key": 662,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 969,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LOOK.006",
+      "record": 24,
+      "line_id": "P06.LOOK.006.01",
+      "unit": 21,
+      "document_id": 905,
+      "global_line_key": 663,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 970,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.004",
+      "record": 25,
+      "line_id": "P06.DIALOGUE.004.01",
+      "unit": 22,
+      "document_id": 906,
+      "global_line_key": 664,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 972,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.004",
+      "record": 25,
+      "line_id": "P06.DIALOGUE.004.02",
+      "unit": 23,
+      "document_id": 906,
+      "global_line_key": 664,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 973,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.004",
+      "record": 25,
+      "line_id": "P06.DIALOGUE.004.03",
+      "unit": 24,
+      "document_id": 906,
+      "global_line_key": 664,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 974,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.001",
+      "record": 26,
+      "line_id": "P06.SUCCESS.001.01",
+      "unit": 25,
+      "document_id": 907,
+      "global_line_key": 665,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 975,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.002",
+      "record": 27,
+      "line_id": "P06.SUCCESS.002.01",
+      "unit": 26,
+      "document_id": 908,
+      "global_line_key": 666,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 976,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.003",
+      "record": 28,
+      "line_id": "P06.SUCCESS.003.01",
+      "unit": 27,
+      "document_id": 909,
+      "global_line_key": 667,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 977,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.004",
+      "record": 29,
+      "line_id": "P06.SUCCESS.004.01",
+      "unit": 28,
+      "document_id": 910,
+      "global_line_key": 668,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 978,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.004",
+      "record": 29,
+      "line_id": "P06.SUCCESS.004.02",
+      "unit": 29,
+      "document_id": 910,
+      "global_line_key": 668,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 979,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.004",
+      "record": 29,
+      "line_id": "P06.SUCCESS.004.03",
+      "unit": 30,
+      "document_id": 910,
+      "global_line_key": 668,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 980,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.LABEL.009",
+      "record": 30,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 911,
+      "global_line_key": 669,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 981,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.INVENTORY.003",
+      "record": 31,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 912,
+      "global_line_key": 670,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 982,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.001",
+      "record": 32,
+      "line_id": "P06.FAILURE.001.01",
+      "unit": 31,
+      "document_id": 913,
+      "global_line_key": 671,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 983,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.001",
+      "record": 32,
+      "line_id": "P06.FAILURE.001.02",
+      "unit": 32,
+      "document_id": 913,
+      "global_line_key": 671,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 984,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.001",
+      "record": 32,
+      "line_id": "P06.FAILURE.001.03",
+      "unit": 33,
+      "document_id": 913,
+      "global_line_key": 671,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 985,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SYSTEM.001",
+      "record": 33,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 914,
+      "global_line_key": 672,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 986,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.002",
+      "record": 34,
+      "line_id": "P06.FAILURE.002.01",
+      "unit": 34,
+      "document_id": 915,
+      "global_line_key": 673,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 987,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.002",
+      "record": 34,
+      "line_id": "P06.FAILURE.002.02",
+      "unit": 35,
+      "document_id": 915,
+      "global_line_key": 673,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 988,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.005",
+      "record": 35,
+      "line_id": "P06.SUCCESS.005.01",
+      "unit": 36,
+      "document_id": 916,
+      "global_line_key": 674,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 989,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.005",
+      "record": 35,
+      "line_id": "P06.SUCCESS.005.02",
+      "unit": 37,
+      "document_id": 916,
+      "global_line_key": 674,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 990,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.005",
+      "record": 35,
+      "line_id": "P06.SUCCESS.005.03",
+      "unit": 38,
+      "document_id": 916,
+      "global_line_key": 674,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 991,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.READ.002",
+      "record": 36,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 917,
+      "global_line_key": 675,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 992,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.003",
+      "record": 37,
+      "line_id": "P06.FAILURE.003.01",
+      "unit": 39,
+      "document_id": 918,
+      "global_line_key": 676,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 993,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.003",
+      "record": 37,
+      "line_id": "P06.FAILURE.003.02",
+      "unit": 40,
+      "document_id": 918,
+      "global_line_key": 676,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 994,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.FAILURE.003",
+      "record": 37,
+      "line_id": "P06.FAILURE.003.03",
+      "unit": 41,
+      "document_id": 918,
+      "global_line_key": 676,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 995,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.005",
+      "record": 38,
+      "line_id": "P06.DIALOGUE.005.01",
+      "unit": 42,
+      "document_id": 919,
+      "global_line_key": 677,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 996,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.005",
+      "record": 38,
+      "line_id": "P06.DIALOGUE.005.02",
+      "unit": 43,
+      "document_id": 919,
+      "global_line_key": 677,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 997,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.005",
+      "record": 38,
+      "line_id": "P06.DIALOGUE.005.03",
+      "unit": 44,
+      "document_id": 919,
+      "global_line_key": 677,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 998,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.004",
+      "record": 39,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 920,
+      "global_line_key": 678,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 999,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.006",
+      "record": 40,
+      "line_id": "P06.DIALOGUE.006.01",
+      "unit": 45,
+      "document_id": 921,
+      "global_line_key": 679,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1000,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.006",
+      "record": 40,
+      "line_id": "P06.DIALOGUE.006.02",
+      "unit": 46,
+      "document_id": 921,
+      "global_line_key": 679,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1001,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.006",
+      "record": 40,
+      "line_id": "P06.DIALOGUE.006.03",
+      "unit": 47,
+      "document_id": 921,
+      "global_line_key": 679,
+      "first_record_page": 2,
+      "page_count": 2,
+      "absolute_page_start": 1002,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.CHOICE.005",
+      "record": 41,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 922,
+      "global_line_key": 680,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1004,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.007",
+      "record": 42,
+      "line_id": "P06.DIALOGUE.007.01",
+      "unit": 48,
+      "document_id": 923,
+      "global_line_key": 681,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1005,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.DIALOGUE.007",
+      "record": 42,
+      "line_id": "P06.DIALOGUE.007.02",
+      "unit": 49,
+      "document_id": 923,
+      "global_line_key": 681,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1006,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.006",
+      "record": 43,
+      "line_id": "P06.SUCCESS.006.01",
+      "unit": 50,
+      "document_id": 924,
+      "global_line_key": 682,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1007,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.006",
+      "record": 43,
+      "line_id": "P06.SUCCESS.006.02",
+      "unit": 51,
+      "document_id": 924,
+      "global_line_key": 682,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1008,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SUCCESS.006",
+      "record": 43,
+      "line_id": "P06.SUCCESS.006.03",
+      "unit": 52,
+      "document_id": 924,
+      "global_line_key": 682,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 1009,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.SYSTEM.002",
+      "record": 44,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 925,
+      "global_line_key": 683,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1010,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.1",
+      "record": 45,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 926,
+      "global_line_key": 684,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1011,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.2",
+      "record": 46,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 927,
+      "global_line_key": 685,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1012,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P06",
+      "record_id": "P06.HINT.3",
+      "record": 47,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 928,
+      "global_line_key": 686,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 1013,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P06",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "line_id": "P07.SCENE.001.01",
+      "unit": 1,
+      "document_id": 929,
+      "global_line_key": 687,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1015,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "line_id": "P07.SCENE.001.02",
+      "unit": 2,
+      "document_id": 929,
+      "global_line_key": 687,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1016,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "line_id": "P07.SCENE.001.03",
+      "unit": 3,
+      "document_id": 929,
+      "global_line_key": 687,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 1017,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "line_id": "P07.SCENE.001.04",
+      "unit": 4,
+      "document_id": 929,
+      "global_line_key": 687,
+      "first_record_page": 3,
+      "page_count": 1,
+      "absolute_page_start": 1018,
+      "source_pointer": "/text/3/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.001",
+      "record": 1,
+      "line_id": "P07.SCENE.001.05",
+      "unit": 5,
+      "document_id": 929,
+      "global_line_key": 687,
+      "first_record_page": 4,
+      "page_count": 1,
+      "absolute_page_start": 1019,
+      "source_pointer": "/text/4/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.001",
+      "record": 2,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 930,
+      "global_line_key": 688,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1020,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.001",
+      "record": 3,
+      "line_id": "P07.LOOK.001.01",
+      "unit": 6,
+      "document_id": 931,
+      "global_line_key": 689,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 1021,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.001",
+      "record": 4,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 932,
+      "global_line_key": 690,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 1023,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.002",
+      "record": 5,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 933,
+      "global_line_key": 691,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1025,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.001",
+      "record": 6,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 934,
+      "global_line_key": 692,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1026,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.003",
+      "record": 7,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 935,
+      "global_line_key": 693,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1027,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.002",
+      "record": 8,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 936,
+      "global_line_key": 694,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1028,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.004",
+      "record": 9,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 937,
+      "global_line_key": 695,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1029,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.003",
+      "record": 10,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 938,
+      "global_line_key": 696,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1030,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.005",
+      "record": 11,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 939,
+      "global_line_key": 697,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1031,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.004",
+      "record": 12,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 940,
+      "global_line_key": 698,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1032,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.002",
+      "record": 13,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 941,
+      "global_line_key": 699,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1033,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.006",
+      "record": 14,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 942,
+      "global_line_key": 700,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1034,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.005",
+      "record": 15,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 943,
+      "global_line_key": 701,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1035,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.READ.003",
+      "record": 16,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 944,
+      "global_line_key": 702,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1036,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.007",
+      "record": 17,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 945,
+      "global_line_key": 703,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1037,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.002",
+      "record": 18,
+      "line_id": "P07.LOOK.002.01",
+      "unit": 7,
+      "document_id": 946,
+      "global_line_key": 704,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1038,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.008",
+      "record": 19,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 947,
+      "global_line_key": 705,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1039,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.003",
+      "record": 20,
+      "line_id": "P07.LOOK.003.01",
+      "unit": 8,
+      "document_id": 948,
+      "global_line_key": 706,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1040,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LABEL.009",
+      "record": 21,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 949,
+      "global_line_key": 707,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1041,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.004",
+      "record": 22,
+      "line_id": "P07.LOOK.004.01",
+      "unit": 9,
+      "document_id": 950,
+      "global_line_key": 708,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1042,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.001",
+      "record": 23,
+      "line_id": "P07.SUCCESS.001.01",
+      "unit": 10,
+      "document_id": 951,
+      "global_line_key": 709,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1043,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.CHOICE.001",
+      "record": 24,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 952,
+      "global_line_key": 710,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1044,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.CHOICE.002",
+      "record": 25,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 953,
+      "global_line_key": 711,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1045,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.002",
+      "record": 26,
+      "line_id": "P07.SUCCESS.002.01",
+      "unit": 11,
+      "document_id": 954,
+      "global_line_key": 712,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1046,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.INVENTORY.006",
+      "record": 27,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 955,
+      "global_line_key": 713,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1047,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.003",
+      "record": 28,
+      "line_id": "P07.SUCCESS.003.01",
+      "unit": 12,
+      "document_id": 956,
+      "global_line_key": 714,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1048,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.004",
+      "record": 29,
+      "line_id": "P07.SUCCESS.004.01",
+      "unit": 13,
+      "document_id": 957,
+      "global_line_key": 715,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1049,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.005",
+      "record": 30,
+      "line_id": "P07.SUCCESS.005.01",
+      "unit": 14,
+      "document_id": 958,
+      "global_line_key": 716,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1050,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.006",
+      "record": 31,
+      "line_id": "P07.SUCCESS.006.01",
+      "unit": 15,
+      "document_id": 959,
+      "global_line_key": 717,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1051,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.007",
+      "record": 32,
+      "line_id": "P07.SUCCESS.007.01",
+      "unit": 16,
+      "document_id": 960,
+      "global_line_key": 718,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1052,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.008",
+      "record": 33,
+      "line_id": "P07.SUCCESS.008.01",
+      "unit": 17,
+      "document_id": 961,
+      "global_line_key": 719,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1053,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.001",
+      "record": 34,
+      "line_id": "P07.FAILURE.001.01",
+      "unit": 18,
+      "document_id": 962,
+      "global_line_key": 720,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1054,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.001",
+      "record": 34,
+      "line_id": "P07.FAILURE.001.02",
+      "unit": 19,
+      "document_id": 962,
+      "global_line_key": 720,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1055,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.002",
+      "record": 35,
+      "line_id": "P07.FAILURE.002.01",
+      "unit": 20,
+      "document_id": 963,
+      "global_line_key": 721,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 1056,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.FAILURE.003",
+      "record": 36,
+      "line_id": "P07.FAILURE.003.01",
+      "unit": 21,
+      "document_id": 964,
+      "global_line_key": 722,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1058,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "line_id": "P07.SCENE.002.01",
+      "unit": 22,
+      "document_id": 965,
+      "global_line_key": 723,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1059,
+      "source_pointer": "/text/0/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "line_id": "P07.SCENE.002.02",
+      "unit": 23,
+      "document_id": 965,
+      "global_line_key": 723,
+      "first_record_page": 1,
+      "page_count": 1,
+      "absolute_page_start": 1060,
+      "source_pointer": "/text/1/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "line_id": "P07.SCENE.002.03",
+      "unit": 24,
+      "document_id": 965,
+      "global_line_key": 723,
+      "first_record_page": 2,
+      "page_count": 1,
+      "absolute_page_start": 1061,
+      "source_pointer": "/text/2/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "line_id": "P07.SCENE.002.04",
+      "unit": 25,
+      "document_id": 965,
+      "global_line_key": 723,
+      "first_record_page": 3,
+      "page_count": 1,
+      "absolute_page_start": 1062,
+      "source_pointer": "/text/3/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SCENE.002",
+      "record": 37,
+      "line_id": "P07.SCENE.002.05",
+      "unit": 26,
+      "document_id": 965,
+      "global_line_key": 723,
+      "first_record_page": 4,
+      "page_count": 1,
+      "absolute_page_start": 1063,
+      "source_pointer": "/text/4/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": true
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.LOOK.005",
+      "record": 38,
+      "line_id": "P07.LOOK.005.01",
+      "unit": 27,
+      "document_id": 966,
+      "global_line_key": 724,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1064,
+      "source_pointer": "/text",
+      "silent": false,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.SUCCESS.009",
+      "record": 39,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 967,
+      "global_line_key": 725,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1065,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.1",
+      "record": 40,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 968,
+      "global_line_key": 726,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1066,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.2",
+      "record": 41,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 969,
+      "global_line_key": 727,
+      "first_record_page": 0,
+      "page_count": 1,
+      "absolute_page_start": 1067,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    },
+    {
+      "puzzle": "P07",
+      "record_id": "P07.HINT.3",
+      "record": 42,
+      "line_id": null,
+      "unit": 0,
+      "document_id": 970,
+      "global_line_key": 728,
+      "first_record_page": 0,
+      "page_count": 2,
+      "absolute_page_start": 1068,
+      "source_pointer": "/text",
+      "silent": true,
+      "owner": "P07",
+      "aggregate_receipt_forbidden": false
+    }
+  ],
+  "existing_vc02": [
+    {
+      "record_id": "VC02.ENTRY",
+      "record": 48,
+      "document_id": 603,
+      "global_line_key": 389,
+      "routes": [
+        {
+          "record_id": "VC02.ENTRY",
+          "record": 48,
+          "line_id": "VC02.ENTRY.01",
+          "unit": 53,
+          "document_id": 861,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 48,
+          "contest_unit": 11,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        },
+        {
+          "record_id": "VC02.ENTRY",
+          "record": 48,
+          "line_id": "VC02.ENTRY.02",
+          "unit": 54,
+          "document_id": 862,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 48,
+          "contest_unit": 12,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        },
+        {
+          "record_id": "VC02.ENTRY",
+          "record": 48,
+          "line_id": "VC02.ENTRY.03",
+          "unit": 55,
+          "document_id": 863,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 48,
+          "contest_unit": 13,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.WIN",
+      "record": 49,
+      "document_id": 604,
+      "global_line_key": 390,
+      "routes": [
+        {
+          "record_id": "VC02.WIN",
+          "record": 49,
+          "line_id": "VC02.WIN.01",
+          "unit": 56,
+          "document_id": 864,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 49,
+          "contest_unit": 14,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        },
+        {
+          "record_id": "VC02.WIN",
+          "record": 49,
+          "line_id": "VC02.WIN.02",
+          "unit": 57,
+          "document_id": 865,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 49,
+          "contest_unit": 15,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.LOSS",
+      "record": 50,
+      "document_id": 605,
+      "global_line_key": 391,
+      "routes": [
+        {
+          "record_id": "VC02.LOSS",
+          "record": 50,
+          "line_id": "VC02.LOSS.01",
+          "unit": 58,
+          "document_id": 866,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 50,
+          "contest_unit": 16,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        },
+        {
+          "record_id": "VC02.LOSS",
+          "record": 50,
+          "line_id": "VC02.LOSS.02",
+          "unit": 59,
+          "document_id": 867,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 50,
+          "contest_unit": 17,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.REMATCH",
+      "record": 51,
+      "document_id": 606,
+      "global_line_key": 392,
+      "routes": [
+        {
+          "record_id": "VC02.REMATCH",
+          "record": 51,
+          "line_id": "VC02.REMATCH.01",
+          "unit": 60,
+          "document_id": 606,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 51,
+          "contest_unit": 18,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.KO.OPPONENT",
+      "record": 52,
+      "document_id": 607,
+      "global_line_key": 393,
+      "routes": [
+        {
+          "record_id": "VC02.KO.OPPONENT",
+          "record": 52,
+          "line_id": "VC02.KO.OPPONENT.01",
+          "unit": 61,
+          "document_id": 607,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 52,
+          "contest_unit": 19,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.KO.JACKIE",
+      "record": 53,
+      "document_id": 608,
+      "global_line_key": 394,
+      "routes": [
+        {
+          "record_id": "VC02.KO.JACKIE",
+          "record": 53,
+          "line_id": "VC02.KO.JACKIE.01",
+          "unit": 62,
+          "document_id": 608,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 53,
+          "contest_unit": 20,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.STAGE",
+      "record": 54,
+      "document_id": 609,
+      "global_line_key": 395,
+      "routes": [
+        {
+          "record_id": "VC02.STAGE",
+          "record": 54,
+          "line_id": null,
+          "unit": 0,
+          "document_id": 609,
+          "first_record_page": 0,
+          "page_count": 3,
+          "contest_record": 54,
+          "contest_unit": 0,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.NOT_READY",
+      "record": 55,
+      "document_id": 624,
+      "global_line_key": 410,
+      "routes": [
+        {
+          "record_id": "VC02.NOT_READY",
+          "record": 55,
+          "line_id": null,
+          "unit": 0,
+          "document_id": 624,
+          "first_record_page": 0,
+          "page_count": 1,
+          "contest_record": 71,
+          "contest_unit": 0,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    },
+    {
+      "record_id": "VC02.NEED_RESOLUTION",
+      "record": 56,
+      "document_id": 625,
+      "global_line_key": 411,
+      "routes": [
+        {
+          "record_id": "VC02.NEED_RESOLUTION",
+          "record": 56,
+          "line_id": null,
+          "unit": 0,
+          "document_id": 625,
+          "first_record_page": 0,
+          "page_count": 2,
+          "contest_record": 72,
+          "contest_unit": 0,
+          "owner": "existing Contest",
+          "no_new_page_or_audio": true
+        }
+      ]
+    }
+  ]
+}

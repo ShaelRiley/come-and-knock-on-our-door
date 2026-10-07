@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_GUARDED_INVENTORY_FIX_R2",
+  "base_seal_sha256": "a2bc8b94db0c2e4d4a4807efced51ff055b42f2b164c7de944d24cd0cce43c74",
+  "native_acceptance": false,
+  "full_revision2_qa": "pending",
+  "files": {
+    "REVISION-2-DELTA.json": {
+      "sha256": "85007882ed7c7108a3422edc3b28102375e7535970785a81f0130529d253a501",
+      "bytes": 1407
+    },
+    "build/coherent/ABI-MAPPINGS.json": {
+      "sha256": "7ab5848e9b1c3a659858e6c5c8078e9123cd8abfc3bdf4f22404857a88ff5096",
+      "bytes": 1713673
+    },
+    "build/coherent/compile-receipt.json": {
+      "sha256": "000ee8737deed3ec47a919b64858ad704af60d5d26955ced48fe1ccc62903867",
+      "bytes": 3732
+    },
+    "build/coherent/compiled/0.scr.bin": {
+      "sha256": "d65cbee469229a926275873a1681ee623373dab4354d26773d1cfebee4436be8",
+      "bytes": 49466
+    },
+    "build/coherent/compiled/0.scr.bin.hep": {
+      "sha256": "0d795dfc48cc6fe81219956d1d00cf8e17c1a01d2c80ca7a84d8ffa826676229",
+      "bytes": 12284
+    },
+    "evidence/coexistence.log": {
+      "sha256": "92337a24da91b761789029b7b1a7eb8e7915fe237eba1bc0a88ce13900c1a767",
+      "bytes": 101
+    },
+    "evidence/main-r1-r2.diff": {
+      "sha256": "56c234b373229407dc746b0f58589f7767d493df458e4ebf1e20b2dcb4690928",
+      "bytes": 436
+    },
+    "src/main.sc": {
+      "sha256": "e3b5fce42c97d3125b93de2a127072ae0b9bc00e8b7691a00f0c30e9e9e919c9",
+      "bytes": 375579
+    }
+  }
+}

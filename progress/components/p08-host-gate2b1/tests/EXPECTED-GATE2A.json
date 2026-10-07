@@ -1,0 +1,15 @@
+{
+  "checkpoint": "2a",
+  "cases": [
+    "test_ack_serial_storage_reserved_before_first_commit",
+    "test_atomic_owners_order_moves_and_both_original_padding_variants",
+    "test_domain_methods_selectors_and_compiler_budget_preserved",
+    "test_output_reservation_failure_aborts_without_publication",
+    "test_real_campaign_loss_loss_preparation_and_actor_mapping",
+    "test_reentry_and_uncertain_publication_lock_campaign_actions"
+  ],
+  "backends": [
+    "source989-with-emitted-campaign",
+    "whole-emitted-campaign"
+  ]
+}

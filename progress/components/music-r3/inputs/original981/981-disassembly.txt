@@ -1,0 +1,2766 @@
+acquirePause 0158 pToa         [26] ownedPauseHeld
+acquirePause 015a bt           [5] -> 0161
+acquirePause 015c pToa         [22] musicRunning
+acquirePause 015e not          []
+acquirePause 015f bnt          [3] -> 0164
+acquirePause 0161 ldi          [0]
+acquirePause 0163 ret          []
+acquirePause 0164 pushi        [687]
+acquirePause 0167 push0        []
+acquirePause 0168 self         [4]
+acquirePause 016a pTos         [18] musicBed
+acquirePause 016c pToa         [20] ownedBed
+acquirePause 016e ne?          []
+acquirePause 016f bt           [9] -> 017a
+acquirePause 0171 push1        []
+acquirePause 0172 pTos         [20] ownedBed
+acquirePause 0174 callk        [6, 2]
+acquirePause 0177 not          []
+acquirePause 0178 bnt          [8] -> 0182
+acquirePause 017a pushi        [679]
+acquirePause 017d push1        []
+acquirePause 017e push1        []
+acquirePause 017f self         [6]
+acquirePause 0181 ret          []
+acquirePause 0182 pToa         [86] positionUncertain
+acquirePause 0184 not          []
+acquirePause 0185 bnt          [6] -> 018d
+acquirePause 0187 pushi        [428]
+acquirePause 018a push0        []
+acquirePause 018b self         [4]
+acquirePause 018d pushi        [3]
+acquirePause 018f pushi        [10]
+acquirePause 0191 pTos         [20] ownedBed
+acquirePause 0193 push1        []
+acquirePause 0194 callk        [45, 6]
+acquirePause 0197 ldi          [1]
+acquirePause 0199 aTop         [26] ownedPauseHeld
+acquirePause 019b ipToa        [32] pauseAcquires
+acquirePause 019d pToa         [86] positionUncertain
+acquirePause 019f not          []
+acquirePause 01a0 bnt          [8] -> 01aa
+acquirePause 01a2 pushi        [428]
+acquirePause 01a5 push0        []
+acquirePause 01a6 self         [4]
+acquirePause 01a8 jmp          [13] -> 01b7
+acquirePause 01aa pushi        [718]
+acquirePause 01ad push0        []
+acquirePause 01ae self         [4]
+acquirePause 01b0 not          []
+acquirePause 01b1 bnt          [4] -> 01b7
+acquirePause 01b3 ldi          [1]
+acquirePause 01b5 aTop         [86] positionUncertain
+acquirePause 01b7 pToa         [86] positionUncertain
+acquirePause 01b9 not          []
+acquirePause 01ba aTop         [28] pausePhaseKnown
+acquirePause 01bc pToa         [56] musicPosition
+acquirePause 01be aTop         [30] pausedPosition
+acquirePause 01c0 pTos         [122] lifecycleGeneration
+acquirePause 01c2 ldi          [1]
+acquirePause 01c4 add          []
+acquirePause 01c5 push         []
+acquirePause 01c6 ldi          [30000]
+acquirePause 01c9 mod          []
+acquirePause 01ca aTop         [122] lifecycleGeneration
+acquirePause 01cc ldi          [9]
+acquirePause 01ce aTop         [48] transportMode
+acquirePause 01d0 ldi          [1]
+acquirePause 01d2 ret          []
+releasePause 01d3 pToa         [26] ownedPauseHeld
+releasePause 01d5 not          []
+releasePause 01d6 bt           [5] -> 01dd
+releasePause 01d8 pToa         [22] musicRunning
+releasePause 01da not          []
+releasePause 01db bnt          [3] -> 01e0
+releasePause 01dd ldi          [0]
+releasePause 01df ret          []
+releasePause 01e0 pushi        [687]
+releasePause 01e3 push0        []
+releasePause 01e4 self         [4]
+releasePause 01e6 pushi        [3]
+releasePause 01e8 pushi        [10]
+releasePause 01ea pTos         [20] ownedBed
+releasePause 01ec push0        []
+releasePause 01ed callk        [45, 6]
+releasePause 01f0 ldi          [0]
+releasePause 01f2 aTop         [26] ownedPauseHeld
+releasePause 01f4 ipToa        [34] pauseReleases
+releasePause 01f6 pTos         [122] lifecycleGeneration
+releasePause 01f8 ldi          [1]
+releasePause 01fa add          []
+releasePause 01fb push         []
+releasePause 01fc ldi          [30000]
+releasePause 01ff mod          []
+releasePause 0200 aTop         [122] lifecycleGeneration
+releasePause 0202 pushi        [680]
+releasePause 0205 push0        []
+releasePause 0206 self         [4]
+releasePause 0208 ret          []
+finishPauseResume 0209 link         [2]
+finishPauseResume 020b push0        []
+finishPauseResume 020c callk        [66, 0]
+finishPauseResume 020f sat          [0]
+finishPauseResume 0211 pushi        [719]
+finishPauseResume 0214 push0        []
+finishPauseResume 0215 self         [4]
+finishPauseResume 0217 pushi        [672]
+finishPauseResume 021a push1        []
+finishPauseResume 021b lst          [0]
+finishPauseResume 021d self         [6]
+finishPauseResume 021f ldi          [-1]
+finishPauseResume 0221 aTop         [58] previousPosition
+finishPauseResume 0223 lat          [0]
+finishPauseResume 0225 aTop         [84] lastProgressTick
+finishPauseResume 0227 lat          [0]
+finishPauseResume 0229 aTop         [74] lastRampTick
+finishPauseResume 022b pushi        [718]
+finishPauseResume 022e push0        []
+finishPauseResume 022f self         [4]
+finishPauseResume 0231 not          []
+finishPauseResume 0232 bnt          [11] -> 023f
+finishPauseResume 0234 pushi        [679]
+finishPauseResume 0237 push1        []
+finishPauseResume 0238 pushi        [3]
+finishPauseResume 023a self         [6]
+finishPauseResume 023c ldi          [0]
+finishPauseResume 023e ret          []
+finishPauseResume 023f pTos         [56] musicPosition
+finishPauseResume 0241 pToa         [30] pausedPosition
+finishPauseResume 0243 lt?          []
+finishPauseResume 0244 bnt          [17] -> 0257
+finishPauseResume 0246 pushi        [4255]
+finishPauseResume 0249 pToa         [30] pausedPosition
+finishPauseResume 024b sub          []
+finishPauseResume 024c push         []
+finishPauseResume 024d pTos         [56] musicPosition
+finishPauseResume 024f ldi          [12]
+finishPauseResume 0251 sub          []
+finishPauseResume 0252 add          []
+finishPauseResume 0253 sat          [1]
+finishPauseResume 0255 jmp          [7] -> 025e
+finishPauseResume 0257 pTos         [56] musicPosition
+finishPauseResume 0259 pToa         [30] pausedPosition
+finishPauseResume 025b sub          []
+finishPauseResume 025c sat          [1]
+finishPauseResume 025e lst          [1]
+finishPauseResume 0260 ldi          [4]
+finishPauseResume 0262 ugt?         []
+finishPauseResume 0263 bt           [14] -> 0273
+finishPauseResume 0265 pTos         [56] musicPosition
+finishPauseResume 0267 pToa         [30] pausedPosition
+finishPauseResume 0269 lt?          []
+finishPauseResume 026a bnt          [11] -> 0277
+finishPauseResume 026c pTos         [56] musicPosition
+finishPauseResume 026e ldi          [12]
+finishPauseResume 0270 lt?          []
+finishPauseResume 0271 bnt          [4] -> 0277
+finishPauseResume 0273 ldi          [0]
+finishPauseResume 0275 aTop         [28] pausePhaseKnown
+finishPauseResume 0277 pToa         [28] pausePhaseKnown
+finishPauseResume 0279 bnt          [39] -> 02a2
+finishPauseResume 027b pTos         [56] musicPosition
+finishPauseResume 027d pToa         [30] pausedPosition
+finishPauseResume 027f lt?          []
+finishPauseResume 0280 bnt          [18] -> 0294
+finishPauseResume 0282 ldi          [1]
+finishPauseResume 0284 aTop         [70] loopHasWrapped
+finishPauseResume 0286 pTos         [68] loopEpoch
+finishPauseResume 0288 ldi          [1]
+finishPauseResume 028a add          []
+finishPauseResume 028b push         []
+finishPauseResume 028c ldi          [30000]
+finishPauseResume 028f mod          []
+finishPauseResume 0290 aTop         [68] loopEpoch
+finishPauseResume 0292 ipToa        [116] loopObservations
+finishPauseResume 0294 ldi          [0]
+finishPauseResume 0296 aTop         [86] positionUncertain
+finishPauseResume 0298 pushi        [673]
+finishPauseResume 029b push1        []
+finishPauseResume 029c lst          [0]
+finishPauseResume 029e self         [6]
+finishPauseResume 02a0 jmp          [4] -> 02a6
+finishPauseResume 02a2 ldi          [1]
+finishPauseResume 02a4 aTop         [86] positionUncertain
+finishPauseResume 02a6 ldi          [1]
+finishPauseResume 02a8 ret          []
+setPaused 02a9 lap          [1]
+setPaused 02ab bnt          [4] -> 02b1
+setPaused 02ad ldi          [1]
+setPaused 02af jmp          [2] -> 02b3
+setPaused 02b1 ldi          [0]
+setPaused 02b3 sap          [1]
+setPaused 02b5 lsp          [1]
+setPaused 02b7 pToa         [24] musicPaused
+setPaused 02b9 eq?          []
+setPaused 02ba bnt          [3] -> 02bf
+setPaused 02bc ldi          [1]
+setPaused 02be ret          []
+setPaused 02bf lap          [1]
+setPaused 02c1 aTop         [24] musicPaused
+setPaused 02c3 pToa         [22] musicRunning
+setPaused 02c5 not          []
+setPaused 02c6 bt           [4] -> 02cc
+setPaused 02c8 pToa         [76] saveGuard
+setPaused 02ca bnt          [3] -> 02cf
+setPaused 02cc ldi          [1]
+setPaused 02ce ret          []
+setPaused 02cf pToa         [24] musicPaused
+setPaused 02d1 bnt          [8] -> 02db
+setPaused 02d3 pushi        [669]
+setPaused 02d6 push0        []
+setPaused 02d7 self         [4]
+setPaused 02d9 jmp          [24] -> 02f3
+setPaused 02db pushi        [731]
+setPaused 02de push0        []
+setPaused 02df self         [4]
+setPaused 02e1 pToa         [86] positionUncertain
+setPaused 02e3 bnt          [8] -> 02ed
+setPaused 02e5 pushi        [675]
+setPaused 02e8 push0        []
+setPaused 02e9 self         [4]
+setPaused 02eb jmp          [6] -> 02f3
+setPaused 02ed pushi        [398]
+setPaused 02f0 push0        []
+setPaused 02f1 self         [4]
+setPaused 02f3 ldi          [1]
+setPaused 02f5 ret          []
+setWholeTarget 02f6 lsp          [1]
+setWholeTarget 02f8 ldi          [0]
+setWholeTarget 02fa lt?          []
+setWholeTarget 02fb bnt          [4] -> 0301
+setWholeTarget 02fd ldi          [0]
+setWholeTarget 02ff sap          [1]
+setWholeTarget 0301 lsp          [1]
+setWholeTarget 0303 ldi          [100]
+setWholeTarget 0305 gt?          []
+setWholeTarget 0306 bnt          [4] -> 030c
+setWholeTarget 0308 ldi          [100]
+setWholeTarget 030a sap          [1]
+setWholeTarget 030c lap          [1]
+setWholeTarget 030e aTop         [54] desiredWholeGain
+setWholeTarget 0310 pToa         [54] desiredWholeGain
+setWholeTarget 0312 ret          []
+readCivil 0313 link         [1]
+readCivil 0315 push1        []
+readCivil 0316 push2        []
+readCivil 0317 callk        [66, 2]
+readCivil 031a sat          [0]
+readCivil 031c push1        []
+readCivil 031d pushi        [3]
+readCivil 031f callk        [66, 2]
+readCivil 0322 aTop         [156] observedWallDate
+readCivil 0325 lst          [0]
+readCivil 0327 ldi          [11]
+readCivil 0329 shr          []
+readCivil 032a push         []
+readCivil 032b ldi          [31]
+readCivil 032d and          []
+readCivil 032e push         []
+readCivil 032f ldi          [1800]
+readCivil 0332 mul          []
+readCivil 0333 push         []
+readCivil 0334 lst          [0]
+readCivil 0336 ldi          [5]
+readCivil 0338 shr          []
+readCivil 0339 push         []
+readCivil 033a ldi          [63]
+readCivil 033c and          []
+readCivil 033d push         []
+readCivil 033e ldi          [30]
+readCivil 0340 mul          []
+readCivil 0341 push         []
+readCivil 0342 lst          [0]
+readCivil 0344 ldi          [31]
+readCivil 0346 and          []
+readCivil 0347 add          []
+readCivil 0348 add          []
+readCivil 0349 aTop         [154] observedWallBin
+readCivil 034c ret          []
+nextCivilDate 034d link         [5]
+nextCivilDate 034f lsp          [1]
+nextCivilDate 0351 ldi          [9]
+nextCivilDate 0353 shr          []
+nextCivilDate 0354 push         []
+nextCivilDate 0355 ldi          [127]
+nextCivilDate 0357 and          []
+nextCivilDate 0358 sat          [0]
+nextCivilDate 035a lsp          [1]
+nextCivilDate 035c ldi          [5]
+nextCivilDate 035e shr          []
+nextCivilDate 035f push         []
+nextCivilDate 0360 ldi          [15]
+nextCivilDate 0362 and          []
+nextCivilDate 0363 sat          [1]
+nextCivilDate 0365 lsp          [1]
+nextCivilDate 0367 ldi          [31]
+nextCivilDate 0369 and          []
+nextCivilDate 036a sat          [2]
+nextCivilDate 036c ldi          [31]
+nextCivilDate 036e sat          [3]
+nextCivilDate 0370 lst          [0]
+nextCivilDate 0372 ldi          [1980]
+nextCivilDate 0375 add          []
+nextCivilDate 0376 sat          [4]
+nextCivilDate 0378 lst          [1]
+nextCivilDate 037a ldi          [4]
+nextCivilDate 037c eq?          []
+nextCivilDate 037d bt           [21] -> 0394
+nextCivilDate 037f lst          [1]
+nextCivilDate 0381 ldi          [6]
+nextCivilDate 0383 eq?          []
+nextCivilDate 0384 bt           [14] -> 0394
+nextCivilDate 0386 lst          [1]
+nextCivilDate 0388 ldi          [9]
+nextCivilDate 038a eq?          []
+nextCivilDate 038b bt           [7] -> 0394
+nextCivilDate 038d lst          [1]
+nextCivilDate 038f ldi          [11]
+nextCivilDate 0391 eq?          []
+nextCivilDate 0392 bnt          [4] -> 0398
+nextCivilDate 0394 ldi          [30]
+nextCivilDate 0396 sat          [3]
+nextCivilDate 0398 lst          [1]
+nextCivilDate 039a ldi          [2]
+nextCivilDate 039c eq?          []
+nextCivilDate 039d bnt          [42] -> 03c9
+nextCivilDate 039f ldi          [28]
+nextCivilDate 03a1 sat          [3]
+nextCivilDate 03a3 lst          [4]
+nextCivilDate 03a5 ldi          [4]
+nextCivilDate 03a7 mod          []
+nextCivilDate 03a8 push         []
+nextCivilDate 03a9 ldi          [0]
+nextCivilDate 03ab eq?          []
+nextCivilDate 03ac bnt          [27] -> 03c9
+nextCivilDate 03ae lst          [4]
+nextCivilDate 03b0 ldi          [100]
+nextCivilDate 03b2 mod          []
+nextCivilDate 03b3 push         []
+nextCivilDate 03b4 ldi          [0]
+nextCivilDate 03b6 ne?          []
+nextCivilDate 03b7 bt           [12] -> 03c5
+nextCivilDate 03b9 lst          [4]
+nextCivilDate 03bb ldi          [400]
+nextCivilDate 03be mod          []
+nextCivilDate 03bf push         []
+nextCivilDate 03c0 ldi          [0]
+nextCivilDate 03c2 eq?          []
+nextCivilDate 03c3 bnt          [4] -> 03c9
+nextCivilDate 03c5 ldi          [29]
+nextCivilDate 03c7 sat          [3]
+nextCivilDate 03c9 lst          [2]
+nextCivilDate 03cb lat          [3]
+nextCivilDate 03cd lt?          []
+nextCivilDate 03ce bnt          [6] -> 03d6
+nextCivilDate 03d0 lsp          [1]
+nextCivilDate 03d2 ldi          [1]
+nextCivilDate 03d4 add          []
+nextCivilDate 03d5 ret          []
+nextCivilDate 03d6 lst          [1]
+nextCivilDate 03d8 ldi          [12]
+nextCivilDate 03da lt?          []
+nextCivilDate 03db bnt          [22] -> 03f3
+nextCivilDate 03dd lst          [0]
+nextCivilDate 03df ldi          [512]
+nextCivilDate 03e2 mul          []
+nextCivilDate 03e3 push         []
+nextCivilDate 03e4 lst          [1]
+nextCivilDate 03e6 ldi          [1]
+nextCivilDate 03e8 add          []
+nextCivilDate 03e9 push         []
+nextCivilDate 03ea ldi          [32]
+nextCivilDate 03ec mul          []
+nextCivilDate 03ed push         []
+nextCivilDate 03ee ldi          [1]
+nextCivilDate 03f0 add          []
+nextCivilDate 03f1 add          []
+nextCivilDate 03f2 ret          []
+nextCivilDate 03f3 lst          [0]
+nextCivilDate 03f5 ldi          [1]
+nextCivilDate 03f7 add          []
+nextCivilDate 03f8 push         []
+nextCivilDate 03f9 ldi          [127]
+nextCivilDate 03fb and          []
+nextCivilDate 03fc push         []
+nextCivilDate 03fd ldi          [512]
+nextCivilDate 0400 mul          []
+nextCivilDate 0401 push         []
+nextCivilDate 0402 ldi          [33]
+nextCivilDate 0404 add          []
+nextCivilDate 0405 ret          []
+civilDelta 0406 link         [1]
+civilDelta 0408 pTos         [156] observedWallDate
+civilDelta 040b lap          [2]
+civilDelta 040d eq?          []
+civilDelta 040e bnt          [21] -> 0425
+civilDelta 0410 pTos         [154] observedWallBin
+civilDelta 0413 lap          [1]
+civilDelta 0415 ult?         []
+civilDelta 0416 bnt          [3] -> 041b
+civilDelta 0418 ldi          [-1]
+civilDelta 041a ret          []
+civilDelta 041b pTos         [154] observedWallBin
+civilDelta 041e lap          [1]
+civilDelta 0420 sub          []
+civilDelta 0421 sat          [0]
+civilDelta 0423 jmp          [37] -> 044a
+civilDelta 0425 pTos         [156] observedWallDate
+civilDelta 0428 pushi        [703]
+civilDelta 042b push1        []
+civilDelta 042c lsp          [2]
+civilDelta 042e self         [6]
+civilDelta 0430 ne?          []
+civilDelta 0431 bt           [8] -> 043b
+civilDelta 0433 pTos         [154] observedWallBin
+civilDelta 0436 lap          [1]
+civilDelta 0438 uge?         []
+civilDelta 0439 bnt          [3] -> 043e
+civilDelta 043b ldi          [-1]
+civilDelta 043d ret          []
+civilDelta 043e pTos         [154] observedWallBin
+civilDelta 0441 pushi        [-22336]
+civilDelta 0444 lap          [1]
+civilDelta 0446 sub          []
+civilDelta 0447 add          []
+civilDelta 0448 sat          [0]
+civilDelta 044a lat          [0]
+civilDelta 044c ret          []
+clockFresh 044d link         [1]
+clockFresh 044f pushi        [719]
+clockFresh 0452 push0        []
+clockFresh 0453 self         [4]
+clockFresh 0455 pushi        [677]
+clockFresh 0458 push2        []
+clockFresh 0459 pTos         [150] lastWallBin
+clockFresh 045c pTos         [152] lastWallDate
+clockFresh 045f self         [8]
+clockFresh 0461 sat          [0]
+clockFresh 0463 lsp          [1]
+clockFresh 0465 pToa         [72] lastPollTick
+clockFresh 0467 sub          []
+clockFresh 0468 push         []
+clockFresh 0469 ldi          [120]
+clockFresh 046b ule?         []
+clockFresh 046c bnt          [12] -> 047a
+clockFresh 046e lst          [0]
+clockFresh 0470 ldi          [0]
+clockFresh 0472 ge?          []
+clockFresh 0473 bnt          [5] -> 047a
+clockFresh 0475 lst          [0]
+clockFresh 0477 ldi          [2]
+clockFresh 0479 ule?         []
+clockFresh 047a ret          []
+anchorPosition 047b pToa         [56] musicPosition
+anchorPosition 047d aTop         [58] previousPosition
+anchorPosition 047f lap          [1]
+anchorPosition 0481 aTop         [60] previousReadTick
+anchorPosition 0483 pToa         [154] observedWallBin
+anchorPosition 0486 aTop         [62] previousReadBin
+anchorPosition 0488 pToa         [156] observedWallDate
+anchorPosition 048b aTop         [64] previousReadDate
+anchorPosition 048d pToa         [122] lifecycleGeneration
+anchorPosition 048f aTop         [66] previousGeneration
+anchorPosition 0491 ret          []
+rawPosition 0492 pTos         [18] musicBed
+rawPosition 0494 pToa         [20] ownedBed
+rawPosition 0496 ne?          []
+rawPosition 0497 bt           [9] -> 04a2
+rawPosition 0499 push1        []
+rawPosition 049a pTos         [18] musicBed
+rawPosition 049c callk        [6, 2]
+rawPosition 049f not          []
+rawPosition 04a0 bnt          [3] -> 04a5
+rawPosition 04a2 ldi          [0]
+rawPosition 04a4 ret          []
+rawPosition 04a5 pushi        [156]
+rawPosition 04a8 push0        []
+rawPosition 04a9 pToa         [18] musicBed
+rawPosition 04ab send         [4]
+rawPosition 04ad push         []
+rawPosition 04ae ldi          [102]
+rawPosition 04b0 ne?          []
+rawPosition 04b1 bnt          [3] -> 04b6
+rawPosition 04b3 ldi          [0]
+rawPosition 04b5 ret          []
+rawPosition 04b6 push2        []
+rawPosition 04b7 pushi        [17]
+rawPosition 04b9 pTos         [18] musicBed
+rawPosition 04bb callk        [45, 4]
+rawPosition 04be pushi        [129]
+rawPosition 04c1 push0        []
+rawPosition 04c2 pToa         [18] musicBed
+rawPosition 04c4 send         [4]
+rawPosition 04c6 push         []
+rawPosition 04c7 ldi          [3600]
+rawPosition 04ca mul          []
+rawPosition 04cb push         []
+rawPosition 04cc pushi        [254]
+rawPosition 04cf push0        []
+rawPosition 04d0 pToa         [18] musicBed
+rawPosition 04d2 send         [4]
+rawPosition 04d4 push         []
+rawPosition 04d5 ldi          [60]
+rawPosition 04d7 mul          []
+rawPosition 04d8 push         []
+rawPosition 04d9 pushi        [104]
+rawPosition 04db push0        []
+rawPosition 04dc pToa         [18] musicBed
+rawPosition 04de send         [4]
+rawPosition 04e0 push         []
+rawPosition 04e1 ldi          [2]
+rawPosition 04e3 mul          []
+rawPosition 04e4 add          []
+rawPosition 04e5 add          []
+rawPosition 04e6 aTop         [56] musicPosition
+rawPosition 04e8 pTos         [56] musicPosition
+rawPosition 04ea ldi          [0]
+rawPosition 04ec ge?          []
+rawPosition 04ed bnt          [20] -> 0503
+rawPosition 04ef pTos         [56] musicPosition
+rawPosition 04f1 ldi          [4255]
+rawPosition 04f4 lt?          []
+rawPosition 04f5 bnt          [12] -> 0503
+rawPosition 04f7 pushi        [256]
+rawPosition 04fa push0        []
+rawPosition 04fb pToa         [18] musicBed
+rawPosition 04fd send         [4]
+rawPosition 04ff push         []
+rawPosition 0500 ldi          [-1]
+rawPosition 0502 ne?          []
+rawPosition 0503 ret          []
+recoverGap 0504 link         [3]
+recoverGap 0506 pToa         [86] positionUncertain
+recoverGap 0508 bt           [30] -> 0528
+recoverGap 050a pToa         [76] saveGuard
+recoverGap 050c bt           [26] -> 0528
+recoverGap 050e pToa         [78] remapGuard
+recoverGap 0510 bt           [22] -> 0528
+recoverGap 0512 pToa         [24] musicPaused
+recoverGap 0514 bt           [18] -> 0528
+recoverGap 0516 pToa         [26] ownedPauseHeld
+recoverGap 0518 bt           [14] -> 0528
+recoverGap 051a pTos         [58] previousPosition
+recoverGap 051c ldi          [0]
+recoverGap 051e lt?          []
+recoverGap 051f bt           [7] -> 0528
+recoverGap 0521 pTos         [66] previousGeneration
+recoverGap 0523 pToa         [122] lifecycleGeneration
+recoverGap 0525 ne?          []
+recoverGap 0526 bnt          [3] -> 052b
+recoverGap 0528 ldi          [0]
+recoverGap 052a ret          []
+recoverGap 052b lsp          [1]
+recoverGap 052d pToa         [60] previousReadTick
+recoverGap 052f sub          []
+recoverGap 0530 sat          [0]
+recoverGap 0532 pushi        [677]
+recoverGap 0535 push2        []
+recoverGap 0536 pTos         [62] previousReadBin
+recoverGap 0538 pTos         [64] previousReadDate
+recoverGap 053a self         [8]
+recoverGap 053c sat          [1]
+recoverGap 053e lst          [0]
+recoverGap 0540 ldi          [600]
+recoverGap 0543 ugt?         []
+recoverGap 0544 bt           [15] -> 0555
+recoverGap 0546 lst          [1]
+recoverGap 0548 ldi          [0]
+recoverGap 054a lt?          []
+recoverGap 054b bt           [8] -> 0555
+recoverGap 054d lst          [1]
+recoverGap 054f ldi          [240]
+recoverGap 0552 ugt?         []
+recoverGap 0553 bnt          [3] -> 0558
+recoverGap 0555 ldi          [0]
+recoverGap 0557 ret          []
+recoverGap 0558 pushi        [687]
+recoverGap 055b push0        []
+recoverGap 055c self         [4]
+recoverGap 055e pushi        [718]
+recoverGap 0561 push0        []
+recoverGap 0562 self         [4]
+recoverGap 0564 not          []
+recoverGap 0565 bnt          [3] -> 056a
+recoverGap 0567 ldi          [0]
+recoverGap 0569 ret          []
+recoverGap 056a pTos         [56] musicPosition
+recoverGap 056c pToa         [58] previousPosition
+recoverGap 056e lt?          []
+recoverGap 056f bnt          [27] -> 058c
+recoverGap 0571 pTos         [56] musicPosition
+recoverGap 0573 ldi          [12]
+recoverGap 0575 lt?          []
+recoverGap 0576 bnt          [3] -> 057b
+recoverGap 0578 ldi          [0]
+recoverGap 057a ret          []
+recoverGap 057b pushi        [4255]
+recoverGap 057e pToa         [58] previousPosition
+recoverGap 0580 sub          []
+recoverGap 0581 push         []
+recoverGap 0582 pTos         [56] musicPosition
+recoverGap 0584 ldi          [12]
+recoverGap 0586 sub          []
+recoverGap 0587 add          []
+recoverGap 0588 sat          [2]
+recoverGap 058a jmp          [7] -> 0593
+recoverGap 058c pTos         [56] musicPosition
+recoverGap 058e pToa         [58] previousPosition
+recoverGap 0590 sub          []
+recoverGap 0591 sat          [2]
+recoverGap 0593 lst          [2]
+recoverGap 0595 lst          [0]
+recoverGap 0597 ldi          [4]
+recoverGap 0599 add          []
+recoverGap 059a ugt?         []
+recoverGap 059b bnt          [3] -> 05a0
+recoverGap 059d ldi          [0]
+recoverGap 059f ret          []
+recoverGap 05a0 pTos         [56] musicPosition
+recoverGap 05a2 pToa         [58] previousPosition
+recoverGap 05a4 lt?          []
+recoverGap 05a5 bnt          [18] -> 05b9
+recoverGap 05a7 ldi          [1]
+recoverGap 05a9 aTop         [70] loopHasWrapped
+recoverGap 05ab pTos         [68] loopEpoch
+recoverGap 05ad ldi          [1]
+recoverGap 05af add          []
+recoverGap 05b0 push         []
+recoverGap 05b1 ldi          [30000]
+recoverGap 05b4 mod          []
+recoverGap 05b5 aTop         [68] loopEpoch
+recoverGap 05b7 ipToa        [116] loopObservations
+recoverGap 05b9 lap          [1]
+recoverGap 05bb aTop         [84] lastProgressTick
+recoverGap 05bd pushi        [673]
+recoverGap 05c0 push1        []
+recoverGap 05c1 lsp          [1]
+recoverGap 05c3 self         [6]
+recoverGap 05c5 pushi        [672]
+recoverGap 05c8 push1        []
+recoverGap 05c9 lsp          [1]
+recoverGap 05cb self         [6]
+recoverGap 05cd ldi          [0]
+recoverGap 05cf aTop         [138] recoveryReason
+recoverGap 05d2 ldi          [4]
+recoverGap 05d4 aTop         [140] historyRoute
+recoverGap 05d7 ldi          [-1]
+recoverGap 05d9 aTop         [142] historyWindow
+recoverGap 05dc lst          [2]
+recoverGap 05de ldi          [0]
+recoverGap 05e0 eq?          []
+recoverGap 05e1 bnt          [12] -> 05ef
+recoverGap 05e3 pushi        [675]
+recoverGap 05e6 push0        []
+recoverGap 05e7 self         [4]
+recoverGap 05e9 ldi          [1]
+recoverGap 05eb aTop         [40] recoveryPhaseKnown
+recoverGap 05ed jmp          [9] -> 05f8
+recoverGap 05ef ipToa        [144] historySuccesses
+recoverGap 05f2 pushi        [398]
+recoverGap 05f5 push0        []
+recoverGap 05f6 self         [4]
+recoverGap 05f8 ldi          [1]
+recoverGap 05fa ret          []
+anchorClock 05fb lap          [1]
+anchorClock 05fd aTop         [72] lastPollTick
+anchorClock 05ff pToa         [154] observedWallBin
+anchorClock 0602 aTop         [150] lastWallBin
+anchorClock 0605 pToa         [156] observedWallDate
+anchorClock 0608 aTop         [152] lastWallDate
+anchorClock 060b ret          []
+holdSilent 060c ldi          [0]
+holdSilent 060e aTop         [52] wholeGain
+holdSilent 0610 push1        []
+holdSilent 0611 pTos         [20] ownedBed
+holdSilent 0613 callk        [6, 2]
+holdSilent 0616 bnt          [10] -> 0622
+holdSilent 0618 pushi        [3]
+holdSilent 061a pushi        [14]
+holdSilent 061c pTos         [20] ownedBed
+holdSilent 061e push0        []
+holdSilent 061f callk        [45, 6]
+holdSilent 0622 ret          []
+beginHistory 0623 pToa         [22] musicRunning
+beginHistory 0625 not          []
+beginHistory 0626 bnt          [3] -> 062b
+beginHistory 0628 ldi          [0]
+beginHistory 062a ret          []
+beginHistory 062b pushi        [687]
+beginHistory 062e push0        []
+beginHistory 062f self         [4]
+beginHistory 0631 ldi          [1]
+beginHistory 0633 aTop         [86] positionUncertain
+beginHistory 0635 ldi          [8]
+beginHistory 0637 aTop         [48] transportMode
+beginHistory 0639 pToa         [26] ownedPauseHeld
+beginHistory 063b bnt          [4] -> 0641
+beginHistory 063d ldi          [0]
+beginHistory 063f aTop         [28] pausePhaseKnown
+beginHistory 0641 ldi          [0]
+beginHistory 0643 aTop         [128] recoverySamples
+beginHistory 0646 ldi          [-1]
+beginHistory 0648 aTop         [130] recoveryLastPosition
+beginHistory 064b ldi          [0]
+beginHistory 064d aTop         [136] recoveryWrapped
+beginHistory 0650 pToa         [122] lifecycleGeneration
+beginHistory 0652 aTop         [124] recoveryGeneration
+beginHistory 0654 pToa         [20] ownedBed
+beginHistory 0656 aTop         [126] recoveryBed
+beginHistory 0658 push0        []
+beginHistory 0659 callk        [66, 0]
+beginHistory 065c aTop         [134] recoveryStart
+beginHistory 065f pToa         [134] recoveryStart
+beginHistory 0662 aTop         [132] recoveryLastTick
+beginHistory 0665 pToa         [134] recoveryStart
+beginHistory 0668 aTop         [84] lastProgressTick
+beginHistory 066a ldi          [0]
+beginHistory 066c aTop         [138] recoveryReason
+beginHistory 066f ldi          [0]
+beginHistory 0671 aTop         [140] historyRoute
+beginHistory 0674 ldi          [-1]
+beginHistory 0676 aTop         [142] historyWindow
+beginHistory 0679 ldi          [0]
+beginHistory 067b aTop         [40] recoveryPhaseKnown
+beginHistory 067d pTos         [148] historyEpisodes
+beginHistory 0680 ldi          [1]
+beginHistory 0682 add          []
+beginHistory 0683 push         []
+beginHistory 0684 ldi          [30000]
+beginHistory 0687 mod          []
+beginHistory 0688 aTop         [148] historyEpisodes
+beginHistory 068b ldi          [-1]
+beginHistory 068d aTop         [58] previousPosition
+beginHistory 068f pushi        [719]
+beginHistory 0692 push0        []
+beginHistory 0693 self         [4]
+beginHistory 0695 pushi        [672]
+beginHistory 0698 push1        []
+beginHistory 0699 pTos         [134] recoveryStart
+beginHistory 069c self         [6]
+beginHistory 069e ldi          [1]
+beginHistory 06a0 ret          []
+failHistory 06a1 pushi        [687]
+failHistory 06a4 push0        []
+failHistory 06a5 self         [4]
+failHistory 06a7 ldi          [1]
+failHistory 06a9 aTop         [86] positionUncertain
+failHistory 06ab ldi          [6]
+failHistory 06ad aTop         [48] transportMode
+failHistory 06af lap          [1]
+failHistory 06b1 aTop         [138] recoveryReason
+failHistory 06b4 ipToa        [146] historyFailures
+failHistory 06b7 ldi          [0]
+failHistory 06b9 ret          []
+windowAt 06ba link         [2]
+windowAt 06bc ldi          [0]
+windowAt 06be sat          [0]
+windowAt 06c0 lst          [0]
+windowAt 06c2 ldi          [194]
+windowAt 06c5 lt?          []
+windowAt 06c6 bnt          [37] -> 06ed
+windowAt 06c8 lst          [0]
+windowAt 06ca ldi          [5]
+windowAt 06cc mul          []
+windowAt 06cd sat          [1]
+windowAt 06cf lsp          [1]
+windowAt 06d1 lat          [1]
+windowAt 06d3 lali         [604]
+windowAt 06d6 ge?          []
+windowAt 06d7 bnt          [16] -> 06e9
+windowAt 06d9 lsp          [1]
+windowAt 06db lst          [1]
+windowAt 06dd ldi          [1]
+windowAt 06df add          []
+windowAt 06e0 lali         [604]
+windowAt 06e3 le?          []
+windowAt 06e4 bnt          [3] -> 06e9
+windowAt 06e6 lat          [0]
+windowAt 06e8 ret          []
+windowAt 06e9 +at          [0]
+windowAt 06eb jmp          [-45] -> 06c0
+windowAt 06ed ldi          [-1]
+windowAt 06ef ret          []
+observeHistory 06f0 link         [3]
+observeHistory 06f2 pToa         [76] saveGuard
+observeHistory 06f4 bt           [19] -> 0709
+observeHistory 06f6 pToa         [78] remapGuard
+observeHistory 06f8 bt           [15] -> 0709
+observeHistory 06fa pToa         [24] musicPaused
+observeHistory 06fc bt           [11] -> 0709
+observeHistory 06fe pToa         [26] ownedPauseHeld
+observeHistory 0700 bt           [7] -> 0709
+observeHistory 0702 pTos         [48] transportMode
+observeHistory 0704 ldi          [8]
+observeHistory 0706 ne?          []
+observeHistory 0707 bnt          [3] -> 070c
+observeHistory 0709 ldi          [0]
+observeHistory 070b ret          []
+observeHistory 070c pTos         [122] lifecycleGeneration
+observeHistory 070e pToa         [124] recoveryGeneration
+observeHistory 0710 ne?          []
+observeHistory 0711 bt           [23] -> 072a
+observeHistory 0713 pTos         [18] musicBed
+observeHistory 0715 pToa         [126] recoveryBed
+observeHistory 0717 ne?          []
+observeHistory 0718 bt           [16] -> 072a
+observeHistory 071a pTos         [20] ownedBed
+observeHistory 071c pToa         [126] recoveryBed
+observeHistory 071e ne?          []
+observeHistory 071f bt           [9] -> 072a
+observeHistory 0721 push1        []
+observeHistory 0722 pTos         [18] musicBed
+observeHistory 0724 callk        [6, 2]
+observeHistory 0727 not          []
+observeHistory 0728 bnt          [8] -> 0732
+observeHistory 072a pushi        [679]
+observeHistory 072d push1        []
+observeHistory 072e push1        []
+observeHistory 072f self         [6]
+observeHistory 0731 ret          []
+observeHistory 0732 pushi        [156]
+observeHistory 0735 push0        []
+observeHistory 0736 pToa         [18] musicBed
+observeHistory 0738 send         [4]
+observeHistory 073a push         []
+observeHistory 073b ldi          [102]
+observeHistory 073d ne?          []
+observeHistory 073e bnt          [8] -> 0748
+observeHistory 0740 pushi        [679]
+observeHistory 0743 push1        []
+observeHistory 0744 push1        []
+observeHistory 0745 self         [6]
+observeHistory 0747 ret          []
+observeHistory 0748 lsp          [1]
+observeHistory 074a pToa         [134] recoveryStart
+observeHistory 074d sub          []
+observeHistory 074e push         []
+observeHistory 074f ldi          [1800]
+observeHistory 0752 uge?         []
+observeHistory 0753 bnt          [8] -> 075d
+observeHistory 0755 pushi        [679]
+observeHistory 0758 push1        []
+observeHistory 0759 push2        []
+observeHistory 075a self         [6]
+observeHistory 075c ret          []
+observeHistory 075d pushi        [718]
+observeHistory 0760 push0        []
+observeHistory 0761 self         [4]
+observeHistory 0763 not          []
+observeHistory 0764 bt           [12] -> 0772
+observeHistory 0766 pToa         [40] recoveryPhaseKnown
+observeHistory 0768 not          []
+observeHistory 0769 bnt          [16] -> 077b
+observeHistory 076b pTos         [56] musicPosition
+observeHistory 076d ldi          [12]
+observeHistory 076f lt?          []
+observeHistory 0770 bnt          [9] -> 077b
+observeHistory 0772 pushi        [679]
+observeHistory 0775 push1        []
+observeHistory 0776 pushi        [3]
+observeHistory 0778 self         [6]
+observeHistory 077a ret          []
+observeHistory 077b pTos         [130] recoveryLastPosition
+observeHistory 077e ldi          [-1]
+observeHistory 0780 eq?          []
+observeHistory 0781 bnt          [8] -> 078b
+observeHistory 0783 ldi          [1]
+observeHistory 0785 aTop         [128] recoverySamples
+observeHistory 0788 jmp          [150] -> 0821
+observeHistory 078b lsp          [1]
+observeHistory 078d pToa         [132] recoveryLastTick
+observeHistory 0790 sub          []
+observeHistory 0791 sat          [0]
+observeHistory 0793 lst          [0]
+observeHistory 0795 ldi          [120]
+observeHistory 0797 ugt?         []
+observeHistory 0798 bnt          [9] -> 07a3
+observeHistory 079a pushi        [679]
+observeHistory 079d push1        []
+observeHistory 079e pushi        [4]
+observeHistory 07a0 self         [6]
+observeHistory 07a2 ret          []
+observeHistory 07a3 pTos         [56] musicPosition
+observeHistory 07a5 pToa         [130] recoveryLastPosition
+observeHistory 07a8 lt?          []
+observeHistory 07a9 bnt          [44] -> 07d7
+observeHistory 07ab pTos         [130] recoveryLastPosition
+observeHistory 07ae ldi          [4131]
+observeHistory 07b1 lt?          []
+observeHistory 07b2 bt           [8] -> 07bc
+observeHistory 07b4 pTos         [56] musicPosition
+observeHistory 07b6 ldi          [136]
+observeHistory 07b9 gt?          []
+observeHistory 07ba bnt          [9] -> 07c5
+observeHistory 07bc pushi        [679]
+observeHistory 07bf push1        []
+observeHistory 07c0 pushi        [3]
+observeHistory 07c2 self         [6]
+observeHistory 07c4 ret          []
+observeHistory 07c5 pushi        [4255]
+observeHistory 07c8 pToa         [130] recoveryLastPosition
+observeHistory 07cb sub          []
+observeHistory 07cc push         []
+observeHistory 07cd pTos         [56] musicPosition
+observeHistory 07cf ldi          [12]
+observeHistory 07d1 sub          []
+observeHistory 07d2 add          []
+observeHistory 07d3 sat          [1]
+observeHistory 07d5 jmp          [8] -> 07df
+observeHistory 07d7 pTos         [56] musicPosition
+observeHistory 07d9 pToa         [130] recoveryLastPosition
+observeHistory 07dc sub          []
+observeHistory 07dd sat          [1]
+observeHistory 07df lst          [1]
+observeHistory 07e1 lst          [0]
+observeHistory 07e3 ldi          [4]
+observeHistory 07e5 add          []
+observeHistory 07e6 ugt?         []
+observeHistory 07e7 bnt          [9] -> 07f2
+observeHistory 07e9 pushi        [679]
+observeHistory 07ec push1        []
+observeHistory 07ed pushi        [3]
+observeHistory 07ef self         [6]
+observeHistory 07f1 ret          []
+observeHistory 07f2 lst          [1]
+observeHistory 07f4 ldi          [0]
+observeHistory 07f6 gt?          []
+observeHistory 07f7 bnt          [40] -> 0821
+observeHistory 07f9 lap          [1]
+observeHistory 07fb aTop         [84] lastProgressTick
+observeHistory 07fd pTos         [56] musicPosition
+observeHistory 07ff pToa         [130] recoveryLastPosition
+observeHistory 0802 lt?          []
+observeHistory 0803 bnt          [23] -> 081c
+observeHistory 0805 ldi          [1]
+observeHistory 0807 aTop         [136] recoveryWrapped
+observeHistory 080a ldi          [1]
+observeHistory 080c aTop         [70] loopHasWrapped
+observeHistory 080e pTos         [68] loopEpoch
+observeHistory 0810 ldi          [1]
+observeHistory 0812 add          []
+observeHistory 0813 push         []
+observeHistory 0814 ldi          [30000]
+observeHistory 0817 mod          []
+observeHistory 0818 aTop         [68] loopEpoch
+observeHistory 081a ipToa        [116] loopObservations
+observeHistory 081c ldi          [2]
+observeHistory 081e aTop         [128] recoverySamples
+observeHistory 0821 pToa         [56] musicPosition
+observeHistory 0823 aTop         [130] recoveryLastPosition
+observeHistory 0826 lap          [1]
+observeHistory 0828 aTop         [132] recoveryLastTick
+observeHistory 082b lsp          [1]
+observeHistory 082d pToa         [84] lastProgressTick
+observeHistory 082f sub          []
+observeHistory 0830 push         []
+observeHistory 0831 ldi          [120]
+observeHistory 0833 ugt?         []
+observeHistory 0834 bnt          [9] -> 083f
+observeHistory 0836 pushi        [679]
+observeHistory 0839 push1        []
+observeHistory 083a pushi        [5]
+observeHistory 083c self         [6]
+observeHistory 083e ret          []
+observeHistory 083f pToa         [80] remapDrain
+observeHistory 0841 bnt          [18] -> 0855
+observeHistory 0843 lsp          [1]
+observeHistory 0845 pToa         [82] remapStart
+observeHistory 0847 sub          []
+observeHistory 0848 push         []
+observeHistory 0849 ldi          [4]
+observeHistory 084b ult?         []
+observeHistory 084c bnt          [3] -> 0851
+observeHistory 084e ldi          [0]
+observeHistory 0850 ret          []
+observeHistory 0851 ldi          [0]
+observeHistory 0853 aTop         [80] remapDrain
+observeHistory 0855 pTos         [128] recoverySamples
+observeHistory 0858 ldi          [2]
+observeHistory 085a lt?          []
+observeHistory 085b bnt          [3] -> 0860
+observeHistory 085d ldi          [0]
+observeHistory 085f ret          []
+observeHistory 0860 pushi        [736]
+observeHistory 0863 push1        []
+observeHistory 0864 pTos         [56] musicPosition
+observeHistory 0866 self         [6]
+observeHistory 0868 sat          [2]
+observeHistory 086a lst          [2]
+observeHistory 086c ldi          [-1]
+observeHistory 086e eq?          []
+observeHistory 086f bnt          [3] -> 0874
+observeHistory 0871 ldi          [0]
+observeHistory 0873 ret          []
+observeHistory 0874 pToa         [40] recoveryPhaseKnown
+observeHistory 0876 bnt          [7] -> 087f
+observeHistory 0878 ldi          [5]
+observeHistory 087a aTop         [140] historyRoute
+observeHistory 087d jmp          [49] -> 08b0
+observeHistory 087f pToa         [70] loopHasWrapped
+observeHistory 0881 bnt          [16] -> 0893
+observeHistory 0883 pToa         [136] recoveryWrapped
+observeHistory 0886 bnt          [4] -> 088c
+observeHistory 0888 ldi          [2]
+observeHistory 088a jmp          [2] -> 088e
+observeHistory 088c ldi          [1]
+observeHistory 088e aTop         [140] historyRoute
+observeHistory 0891 jmp          [29] -> 08b0
+observeHistory 0893 lat          [2]
+observeHistory 0895 lali         [210]
+observeHistory 0898 bnt          [7] -> 08a1
+observeHistory 089a ldi          [3]
+observeHistory 089c aTop         [140] historyRoute
+observeHistory 089f jmp          [15] -> 08b0
+observeHistory 08a1 lat          [2]
+observeHistory 08a3 lali         [16]
+observeHistory 08a5 not          []
+observeHistory 08a6 bnt          [3] -> 08ab
+observeHistory 08a8 ldi          [0]
+observeHistory 08aa ret          []
+observeHistory 08ab ldi          [6]
+observeHistory 08ad aTop         [140] historyRoute
+observeHistory 08b0 lat          [2]
+observeHistory 08b2 aTop         [142] historyWindow
+observeHistory 08b5 ipToa        [144] historySuccesses
+observeHistory 08b8 ldi          [0]
+observeHistory 08ba aTop         [86] positionUncertain
+observeHistory 08bc pushi        [673]
+observeHistory 08bf push1        []
+observeHistory 08c0 lsp          [1]
+observeHistory 08c2 self         [6]
+observeHistory 08c4 pushi        [398]
+observeHistory 08c7 push0        []
+observeHistory 08c8 self         [4]
+observeHistory 08ca ldi          [1]
+observeHistory 08cc ret          []
+readPosition 08cd link         [4]
+readPosition 08cf push0        []
+readPosition 08d0 callk        [66, 0]
+readPosition 08d3 sat          [0]
+readPosition 08d5 pushi        [719]
+readPosition 08d8 push0        []
+readPosition 08d9 self         [4]
+readPosition 08db pushi        [718]
+readPosition 08de push0        []
+readPosition 08df self         [4]
+readPosition 08e1 not          []
+readPosition 08e2 bnt          [11] -> 08ef
+readPosition 08e4 pushi        [679]
+readPosition 08e7 push1        []
+readPosition 08e8 pushi        [3]
+readPosition 08ea self         [6]
+readPosition 08ec ldi          [-1]
+readPosition 08ee ret          []
+readPosition 08ef pTos         [58] previousPosition
+readPosition 08f1 ldi          [0]
+readPosition 08f3 ge?          []
+readPosition 08f4 bnt          [204] -> 09c3
+readPosition 08f7 lst          [0]
+readPosition 08f9 pToa         [60] previousReadTick
+readPosition 08fb sub          []
+readPosition 08fc sat          [1]
+readPosition 08fe pushi        [677]
+readPosition 0901 push2        []
+readPosition 0902 pTos         [62] previousReadBin
+readPosition 0904 pTos         [64] previousReadDate
+readPosition 0906 self         [8]
+readPosition 0908 sat          [2]
+readPosition 090a lst          [1]
+readPosition 090c ldi          [120]
+readPosition 090e ugt?         []
+readPosition 090f bt           [14] -> 091f
+readPosition 0911 lst          [2]
+readPosition 0913 ldi          [0]
+readPosition 0915 lt?          []
+readPosition 0916 bt           [7] -> 091f
+readPosition 0918 lst          [2]
+readPosition 091a ldi          [2]
+readPosition 091c ugt?         []
+readPosition 091d bnt          [9] -> 0928
+readPosition 091f pushi        [675]
+readPosition 0922 push0        []
+readPosition 0923 self         [4]
+readPosition 0925 ldi          [-1]
+readPosition 0927 ret          []
+readPosition 0928 pTos         [56] musicPosition
+readPosition 092a pToa         [58] previousPosition
+readPosition 092c lt?          []
+readPosition 092d bnt          [51] -> 0962
+readPosition 092f pTos         [58] previousPosition
+readPosition 0931 ldi          [4131]
+readPosition 0934 lt?          []
+readPosition 0935 bt           [15] -> 0946
+readPosition 0937 pTos         [56] musicPosition
+readPosition 0939 ldi          [136]
+readPosition 093c gt?          []
+readPosition 093d bt           [7] -> 0946
+readPosition 093f pTos         [56] musicPosition
+readPosition 0941 ldi          [12]
+readPosition 0943 lt?          []
+readPosition 0944 bnt          [11] -> 0951
+readPosition 0946 pushi        [679]
+readPosition 0949 push1        []
+readPosition 094a pushi        [3]
+readPosition 094c self         [6]
+readPosition 094e ldi          [-1]
+readPosition 0950 ret          []
+readPosition 0951 pushi        [4255]
+readPosition 0954 pToa         [58] previousPosition
+readPosition 0956 sub          []
+readPosition 0957 push         []
+readPosition 0958 pTos         [56] musicPosition
+readPosition 095a ldi          [12]
+readPosition 095c sub          []
+readPosition 095d add          []
+readPosition 095e sat          [3]
+readPosition 0960 jmp          [7] -> 0969
+readPosition 0962 pTos         [56] musicPosition
+readPosition 0964 pToa         [58] previousPosition
+readPosition 0966 sub          []
+readPosition 0967 sat          [3]
+readPosition 0969 lst          [3]
+readPosition 096b lst          [1]
+readPosition 096d ldi          [4]
+readPosition 096f add          []
+readPosition 0970 ugt?         []
+readPosition 0971 bnt          [11] -> 097e
+readPosition 0973 pushi        [679]
+readPosition 0976 push1        []
+readPosition 0977 pushi        [3]
+readPosition 0979 self         [6]
+readPosition 097b ldi          [-1]
+readPosition 097d ret          []
+readPosition 097e lst          [3]
+readPosition 0980 ldi          [0]
+readPosition 0982 gt?          []
+readPosition 0983 bnt          [4] -> 0989
+readPosition 0985 lat          [0]
+readPosition 0987 aTop         [84] lastProgressTick
+readPosition 0989 lst          [0]
+readPosition 098b pToa         [84] lastProgressTick
+readPosition 098d sub          []
+readPosition 098e push         []
+readPosition 098f ldi          [120]
+readPosition 0991 ugt?         []
+readPosition 0992 bnt          [11] -> 099f
+readPosition 0994 pushi        [679]
+readPosition 0997 push1        []
+readPosition 0998 pushi        [5]
+readPosition 099a self         [6]
+readPosition 099c ldi          [-1]
+readPosition 099e ret          []
+readPosition 099f pTos         [56] musicPosition
+readPosition 09a1 pToa         [58] previousPosition
+readPosition 09a3 lt?          []
+readPosition 09a4 bnt          [29] -> 09c3
+readPosition 09a6 pTos         [68] loopEpoch
+readPosition 09a8 ldi          [1]
+readPosition 09aa add          []
+readPosition 09ab push         []
+readPosition 09ac ldi          [30000]
+readPosition 09af mod          []
+readPosition 09b0 aTop         [68] loopEpoch
+readPosition 09b2 ldi          [1]
+readPosition 09b4 aTop         [70] loopHasWrapped
+readPosition 09b6 ipToa        [116] loopObservations
+readPosition 09b8 pushi        [3]
+readPosition 09ba pushi        [16]
+readPosition 09bc pTos         [18] musicBed
+readPosition 09be pushi        [-1]
+readPosition 09c0 callk        [45, 6]
+readPosition 09c3 pTos         [58] previousPosition
+readPosition 09c5 ldi          [0]
+readPosition 09c7 lt?          []
+readPosition 09c8 bnt          [4] -> 09ce
+readPosition 09ca lat          [0]
+readPosition 09cc aTop         [84] lastProgressTick
+readPosition 09ce pushi        [673]
+readPosition 09d1 push1        []
+readPosition 09d2 lst          [0]
+readPosition 09d4 self         [6]
+readPosition 09d6 pToa         [56] musicPosition
+readPosition 09d8 ret          []
+gainAt 09d9 lsp          [1]
+gainAt 09db ldi          [0]
+gainAt 09dd lt?          []
+gainAt 09de bt           [7] -> 09e7
+gainAt 09e0 lsp          [1]
+gainAt 09e2 ldi          [7]
+gainAt 09e4 gt?          []
+gainAt 09e5 bnt          [3] -> 09ea
+gainAt 09e7 ldi          [-1]
+gainAt 09e9 ret          []
+gainAt 09ea lap          [1]
+gainAt 09ec lali         [0]
+gainAt 09ee ret          []
+targetAt 09ef lsp          [1]
+targetAt 09f1 ldi          [0]
+targetAt 09f3 lt?          []
+targetAt 09f4 bt           [7] -> 09fd
+targetAt 09f6 lsp          [1]
+targetAt 09f8 ldi          [7]
+targetAt 09fa gt?          []
+targetAt 09fb bnt          [3] -> 0a00
+targetAt 09fd ldi          [-1]
+targetAt 09ff ret          []
+targetAt 0a00 lap          [1]
+targetAt 0a02 lali         [8]
+targetAt 0a04 ret          []
+requestState 0a05 link         [1]
+requestState 0a07 lsp          [1]
+requestState 0a09 ldi          [0]
+requestState 0a0b lt?          []
+requestState 0a0c bt           [7] -> 0a15
+requestState 0a0e lsp          [1]
+requestState 0a10 ldi          [1]
+requestState 0a12 gt?          []
+requestState 0a13 bnt          [3] -> 0a18
+requestState 0a15 ldi          [0]
+requestState 0a17 ret          []
+requestState 0a18 lsp          [1]
+requestState 0a1a pToa         [42] nextRequestedState
+requestState 0a1c ne?          []
+requestState 0a1d bnt          [12] -> 0a2b
+requestState 0a1f pTos         [46] requestRevision
+requestState 0a21 ldi          [1]
+requestState 0a23 add          []
+requestState 0a24 push         []
+requestState 0a25 ldi          [30000]
+requestState 0a28 mod          []
+requestState 0a29 aTop         [46] requestRevision
+requestState 0a2b lap          [1]
+requestState 0a2d aTop         [42] nextRequestedState
+requestState 0a2f ldi          [0]
+requestState 0a31 sat          [0]
+requestState 0a33 lst          [0]
+requestState 0a35 ldi          [8]
+requestState 0a37 lt?          []
+requestState 0a38 bnt          [25] -> 0a53
+requestState 0a3a lap          [1]
+requestState 0a3c bnt          [7] -> 0a45
+requestState 0a3e lat          [0]
+requestState 0a40 lali         [420]
+requestState 0a43 jmp          [5] -> 0a4a
+requestState 0a45 lat          [0]
+requestState 0a47 lali         [412]
+requestState 0a4a push         []
+requestState 0a4b lat          [0]
+requestState 0a4d sali         [8]
+requestState 0a4f +at          [0]
+requestState 0a51 jmp          [-32] -> 0a33
+requestState 0a53 ldi          [-1]
+requestState 0a55 aTop         [44] settledState
+requestState 0a57 ldi          [1]
+requestState 0a59 ret          []
+expressionAt 0a5a link         [3]
+expressionAt 0a5c lsp          [1]
+expressionAt 0a5e ldi          [0]
+expressionAt 0a60 lt?          []
+expressionAt 0a61 bt           [7] -> 0a6a
+expressionAt 0a63 lsp          [1]
+expressionAt 0a65 ldi          [7]
+expressionAt 0a67 gt?          []
+expressionAt 0a68 bnt          [3] -> 0a6d
+expressionAt 0a6a ldi          [-1]
+expressionAt 0a6c ret          []
+expressionAt 0a6d pToa         [70] loopHasWrapped
+expressionAt 0a6f bnt          [7] -> 0a78
+expressionAt 0a71 lap          [1]
+expressionAt 0a73 lali         [452]
+expressionAt 0a76 jmp          [5] -> 0a7d
+expressionAt 0a78 lap          [1]
+expressionAt 0a7a lali         [444]
+expressionAt 0a7d sat          [0]
+expressionAt 0a7f ldi          [0]
+expressionAt 0a81 sat          [1]
+expressionAt 0a83 lst          [1]
+expressionAt 0a85 ldi          [48]
+expressionAt 0a87 lt?          []
+expressionAt 0a88 bnt          [44] -> 0ab6
+expressionAt 0a8a lst          [1]
+expressionAt 0a8c ldi          [3]
+expressionAt 0a8e mul          []
+expressionAt 0a8f sat          [2]
+expressionAt 0a91 lst          [2]
+expressionAt 0a93 ldi          [1]
+expressionAt 0a95 add          []
+expressionAt 0a96 lsli         [460]
+expressionAt 0a99 lap          [1]
+expressionAt 0a9b eq?          []
+expressionAt 0a9c bnt          [20] -> 0ab2
+expressionAt 0a9e lat          [2]
+expressionAt 0aa0 lsli         [460]
+expressionAt 0aa3 lap          [2]
+expressionAt 0aa5 le?          []
+expressionAt 0aa6 bnt          [10] -> 0ab2
+expressionAt 0aa8 lst          [2]
+expressionAt 0aaa ldi          [2]
+expressionAt 0aac add          []
+expressionAt 0aad lali         [460]
+expressionAt 0ab0 sat          [0]
+expressionAt 0ab2 +at          [1]
+expressionAt 0ab4 jmp          [-51] -> 0a83
+expressionAt 0ab6 lat          [0]
+expressionAt 0ab8 ret          []
+clearMutedBed 0ab9 link         [1]
+clearMutedBed 0abb pTos         [52] wholeGain
+clearMutedBed 0abd ldi          [0]
+clearMutedBed 0abf ne?          []
+clearMutedBed 0ac0 bnt          [3] -> 0ac5
+clearMutedBed 0ac2 ldi          [0]
+clearMutedBed 0ac4 ret          []
+clearMutedBed 0ac5 ldi          [0]
+clearMutedBed 0ac7 sat          [0]
+clearMutedBed 0ac9 lst          [0]
+clearMutedBed 0acb ldi          [8]
+clearMutedBed 0acd lt?          []
+clearMutedBed 0ace bnt          [25] -> 0ae9
+clearMutedBed 0ad0 pushi        [5]
+clearMutedBed 0ad2 pushi        [18]
+clearMutedBed 0ad4 pTos         [18] musicBed
+clearMutedBed 0ad6 lat          [0]
+clearMutedBed 0ad8 lsli         [404]
+clearMutedBed 0adb ldi          [1]
+clearMutedBed 0add add          []
+clearMutedBed 0ade push         []
+clearMutedBed 0adf pushi        [120]
+clearMutedBed 0ae1 push0        []
+clearMutedBed 0ae2 callk        [45, 10]
+clearMutedBed 0ae5 +at          [0]
+clearMutedBed 0ae7 jmp          [-32] -> 0ac9
+clearMutedBed 0ae9 ldi          [1]
+clearMutedBed 0aeb ret          []
+rebuildControllers 0aec link         [2]
+rebuildControllers 0aee ldi          [0]
+rebuildControllers 0af0 sat          [0]
+rebuildControllers 0af2 lst          [0]
+rebuildControllers 0af4 ldi          [8]
+rebuildControllers 0af6 lt?          []
+rebuildControllers 0af7 bnt          [138] -> 0b84
+rebuildControllers 0afa lat          [0]
+rebuildControllers 0afc lsli         [404]
+rebuildControllers 0aff ldi          [1]
+rebuildControllers 0b01 add          []
+rebuildControllers 0b02 sat          [1]
+rebuildControllers 0b04 pushi        [6]
+rebuildControllers 0b06 pushi        [18]
+rebuildControllers 0b08 pTos         [18] musicBed
+rebuildControllers 0b0a lst          [1]
+rebuildControllers 0b0c pushi        [192]
+rebuildControllers 0b0f lat          [0]
+rebuildControllers 0b11 lsli         [428]
+rebuildControllers 0b14 push0        []
+rebuildControllers 0b15 callk        [45, 12]
+rebuildControllers 0b18 pushi        [5]
+rebuildControllers 0b1a pushi        [18]
+rebuildControllers 0b1c pTos         [18] musicBed
+rebuildControllers 0b1e lst          [1]
+rebuildControllers 0b20 push1        []
+rebuildControllers 0b21 push0        []
+rebuildControllers 0b22 callk        [45, 10]
+rebuildControllers 0b25 pushi        [5]
+rebuildControllers 0b27 pushi        [18]
+rebuildControllers 0b29 pTos         [18] musicBed
+rebuildControllers 0b2b lst          [1]
+rebuildControllers 0b2d pushi        [10]
+rebuildControllers 0b2f lat          [0]
+rebuildControllers 0b31 lsli         [436]
+rebuildControllers 0b34 callk        [45, 10]
+rebuildControllers 0b37 pushi        [5]
+rebuildControllers 0b39 pushi        [18]
+rebuildControllers 0b3b pTos         [18] musicBed
+rebuildControllers 0b3d lst          [1]
+rebuildControllers 0b3f pushi        [64]
+rebuildControllers 0b41 push0        []
+rebuildControllers 0b42 callk        [45, 10]
+rebuildControllers 0b45 pushi        [6]
+rebuildControllers 0b47 pushi        [18]
+rebuildControllers 0b49 pTos         [18] musicBed
+rebuildControllers 0b4b lst          [1]
+rebuildControllers 0b4d pushi        [224]
+rebuildControllers 0b50 push0        []
+rebuildControllers 0b51 pushi        [64]
+rebuildControllers 0b53 callk        [45, 12]
+rebuildControllers 0b56 pushi        [5]
+rebuildControllers 0b58 pushi        [18]
+rebuildControllers 0b5a pTos         [18] musicBed
+rebuildControllers 0b5c lst          [1]
+rebuildControllers 0b5e pushi        [11]
+rebuildControllers 0b60 pushi        [408]
+rebuildControllers 0b63 push2        []
+rebuildControllers 0b64 lst          [0]
+rebuildControllers 0b66 lsp          [1]
+rebuildControllers 0b68 self         [8]
+rebuildControllers 0b6a push         []
+rebuildControllers 0b6b callk        [45, 10]
+rebuildControllers 0b6e pushi        [5]
+rebuildControllers 0b70 pushi        [18]
+rebuildControllers 0b72 pTos         [18] musicBed
+rebuildControllers 0b74 lst          [1]
+rebuildControllers 0b76 pushi        [7]
+rebuildControllers 0b78 lat          [0]
+rebuildControllers 0b7a lsli         [0]
+rebuildControllers 0b7c callk        [45, 10]
+rebuildControllers 0b7f +at          [0]
+rebuildControllers 0b81 jmp          [-146] -> 0af2
+rebuildControllers 0b84 ipToa        [118] controllerRestores
+rebuildControllers 0b86 ret          []
+beginRejoin 0b87 pToa         [22] musicRunning
+beginRejoin 0b89 not          []
+beginRejoin 0b8a bnt          [3] -> 0b8f
+beginRejoin 0b8c ldi          [0]
+beginRejoin 0b8e ret          []
+beginRejoin 0b8f ldi          [0]
+beginRejoin 0b91 aTop         [52] wholeGain
+beginRejoin 0b93 pushi        [3]
+beginRejoin 0b95 pushi        [14]
+beginRejoin 0b97 pTos         [18] musicBed
+beginRejoin 0b99 push0        []
+beginRejoin 0b9a callk        [45, 6]
+beginRejoin 0b9d ldi          [-1]
+beginRejoin 0b9f aTop         [100] rejoinWindow
+beginRejoin 0ba1 ldi          [0]
+beginRejoin 0ba3 aTop         [94] rejoinAttempts
+beginRejoin 0ba5 ldi          [0]
+beginRejoin 0ba7 aTop         [110] lastBatchKeys
+beginRejoin 0ba9 push0        []
+beginRejoin 0baa callk        [66, 0]
+beginRejoin 0bad aTop         [96] rejoinStart
+beginRejoin 0baf pToa         [96] rejoinStart
+beginRejoin 0bb1 aTop         [98] retryAt
+beginRejoin 0bb3 pToa         [24] musicPaused
+beginRejoin 0bb5 bnt          [4] -> 0bbb
+beginRejoin 0bb7 ldi          [9]
+beginRejoin 0bb9 jmp          [26] -> 0bd5
+beginRejoin 0bbb pToa         [86] positionUncertain
+beginRejoin 0bbd bnt          [4] -> 0bc3
+beginRejoin 0bbf ldi          [6]
+beginRejoin 0bc1 jmp          [18] -> 0bd5
+beginRejoin 0bc3 pToa         [78] remapGuard
+beginRejoin 0bc5 bnt          [4] -> 0bcb
+beginRejoin 0bc7 ldi          [7]
+beginRejoin 0bc9 jmp          [10] -> 0bd5
+beginRejoin 0bcb pToa         [50] musicMuted
+beginRejoin 0bcd bnt          [4] -> 0bd3
+beginRejoin 0bcf ldi          [4]
+beginRejoin 0bd1 jmp          [2] -> 0bd5
+beginRejoin 0bd3 ldi          [3]
+beginRejoin 0bd5 aTop         [48] transportMode
+beginRejoin 0bd7 ldi          [1]
+beginRejoin 0bd9 ret          []
+start 0bda link         [1]
+start 0bdc pToa         [22] musicRunning
+start 0bde bt           [23] -> 0bf7
+start 0be0 push1        []
+start 0be1 lsp          [1]
+start 0be3 callk        [6, 2]
+start 0be6 not          []
+start 0be7 bt           [14] -> 0bf7
+start 0be9 pushi        [156]
+start 0bec push0        []
+start 0bed lap          [1]
+start 0bef send         [4]
+start 0bf1 push         []
+start 0bf2 ldi          [102]
+start 0bf4 ne?          []
+start 0bf5 bnt          [3] -> 0bfa
+start 0bf7 ldi          [0]
+start 0bf9 ret          []
+start 0bfa lsp          [2]
+start 0bfc ldi          [0]
+start 0bfe lt?          []
+start 0bff bt           [7] -> 0c08
+start 0c01 lsp          [2]
+start 0c03 ldi          [1]
+start 0c05 gt?          []
+start 0c06 bnt          [3] -> 0c0b
+start 0c08 ldi          [0]
+start 0c0a ret          []
+start 0c0b lap          [1]
+start 0c0d aTop         [18] musicBed
+start 0c0f lap          [1]
+start 0c11 aTop         [20] ownedBed
+start 0c13 ldi          [1]
+start 0c15 aTop         [22] musicRunning
+start 0c17 pTos         [122] lifecycleGeneration
+start 0c19 ldi          [1]
+start 0c1b add          []
+start 0c1c push         []
+start 0c1d ldi          [30000]
+start 0c20 mod          []
+start 0c21 aTop         [122] lifecycleGeneration
+start 0c23 ldi          [0]
+start 0c25 aTop         [76] saveGuard
+start 0c27 ldi          [0]
+start 0c29 aTop         [78] remapGuard
+start 0c2b ldi          [0]
+start 0c2d aTop         [86] positionUncertain
+start 0c2f ldi          [0]
+start 0c31 aTop         [52] wholeGain
+start 0c33 ldi          [0]
+start 0c35 aTop         [68] loopEpoch
+start 0c37 ldi          [0]
+start 0c39 aTop         [70] loopHasWrapped
+start 0c3b ldi          [0]
+start 0c3d aTop         [80] remapDrain
+start 0c3f ldi          [0]
+start 0c41 aTop         [56] musicPosition
+start 0c43 ldi          [-1]
+start 0c45 aTop         [58] previousPosition
+start 0c47 ldi          [0]
+start 0c49 aTop         [112] initialOpens
+start 0c4b push0        []
+start 0c4c callk        [66, 0]
+start 0c4f aTop         [72] lastPollTick
+start 0c51 pToa         [72] lastPollTick
+start 0c53 aTop         [74] lastRampTick
+start 0c55 pushi        [719]
+start 0c58 push0        []
+start 0c59 self         [4]
+start 0c5b pushi        [672]
+start 0c5e push1        []
+start 0c5f pTos         [72] lastPollTick
+start 0c61 self         [6]
+start 0c63 ldi          [0]
+start 0c65 sat          [0]
+start 0c67 lst          [0]
+start 0c69 ldi          [8]
+start 0c6b lt?          []
+start 0c6c bnt          [13] -> 0c7b
+start 0c6e lat          [0]
+start 0c70 lsli         [412]
+start 0c73 lat          [0]
+start 0c75 sali         [0]
+start 0c77 +at          [0]
+start 0c79 jmp          [-20] -> 0c67
+start 0c7b pushi        [439]
+start 0c7e push1        []
+start 0c7f lsp          [2]
+start 0c81 self         [6]
+start 0c83 pushi        [339]
+start 0c86 push1        []
+start 0c87 push0        []
+start 0c88 pushi        [125]
+start 0c8a push1        []
+start 0c8b pushi        [-1]
+start 0c8d pushi        [256]
+start 0c90 push1        []
+start 0c91 push0        []
+start 0c92 pToa         [18] musicBed
+start 0c94 send         [18]
+start 0c96 push2        []
+start 0c97 pushi        [6]
+start 0c99 pTos         [18] musicBed
+start 0c9b callk        [45, 4]
+start 0c9e pushi        [3]
+start 0ca0 pushi        [14]
+start 0ca2 pTos         [18] musicBed
+start 0ca4 push0        []
+start 0ca5 callk        [45, 6]
+start 0ca8 pushi        [3]
+start 0caa pushi        [8]
+start 0cac pTos         [18] musicBed
+start 0cae push0        []
+start 0caf callk        [45, 6]
+start 0cb2 pushi        [3]
+start 0cb4 pushi        [16]
+start 0cb6 pTos         [18] musicBed
+start 0cb8 pushi        [-1]
+start 0cba callk        [45, 6]
+start 0cbd pToa         [50] musicMuted
+start 0cbf bnt          [4] -> 0cc5
+start 0cc1 ldi          [4]
+start 0cc3 jmp          [2] -> 0cc7
+start 0cc5 ldi          [1]
+start 0cc7 aTop         [48] transportMode
+start 0cc9 ldi          [0]
+start 0ccb aTop         [26] ownedPauseHeld
+start 0ccd pToa         [24] musicPaused
+start 0ccf bnt          [6] -> 0cd7
+start 0cd1 pushi        [669]
+start 0cd4 push0        []
+start 0cd5 self         [4]
+start 0cd7 ldi          [1]
+start 0cd9 ret          []
+setMuted 0cda lap          [1]
+setMuted 0cdc bnt          [4] -> 0ce2
+setMuted 0cde ldi          [1]
+setMuted 0ce0 jmp          [2] -> 0ce4
+setMuted 0ce2 ldi          [0]
+setMuted 0ce4 sap          [1]
+setMuted 0ce6 lsp          [1]
+setMuted 0ce8 pToa         [50] musicMuted
+setMuted 0cea eq?          []
+setMuted 0ceb bnt          [3] -> 0cf0
+setMuted 0ced ldi          [1]
+setMuted 0cef ret          []
+setMuted 0cf0 lap          [1]
+setMuted 0cf2 aTop         [50] musicMuted
+setMuted 0cf4 pTos         [122] lifecycleGeneration
+setMuted 0cf6 ldi          [1]
+setMuted 0cf8 add          []
+setMuted 0cf9 push         []
+setMuted 0cfa ldi          [30000]
+setMuted 0cfd mod          []
+setMuted 0cfe aTop         [122] lifecycleGeneration
+setMuted 0d00 pToa         [22] musicRunning
+setMuted 0d02 not          []
+setMuted 0d03 bnt          [3] -> 0d08
+setMuted 0d05 ldi          [1]
+setMuted 0d07 ret          []
+setMuted 0d08 pToa         [50] musicMuted
+setMuted 0d0a bnt          [6] -> 0d12
+setMuted 0d0c pushi        [687]
+setMuted 0d0f push0        []
+setMuted 0d10 self         [4]
+setMuted 0d12 pToa         [76] saveGuard
+setMuted 0d14 bt           [12] -> 0d22
+setMuted 0d16 pToa         [78] remapGuard
+setMuted 0d18 bt           [8] -> 0d22
+setMuted 0d1a pToa         [24] musicPaused
+setMuted 0d1c bt           [4] -> 0d22
+setMuted 0d1e pToa         [26] ownedPauseHeld
+setMuted 0d20 bnt          [3] -> 0d25
+setMuted 0d22 ldi          [1]
+setMuted 0d24 ret          []
+setMuted 0d25 pToa         [86] positionUncertain
+setMuted 0d27 bnt          [8] -> 0d31
+setMuted 0d29 pushi        [675]
+setMuted 0d2c push0        []
+setMuted 0d2d self         [4]
+setMuted 0d2f jmp          [23] -> 0d48
+setMuted 0d31 pToa         [50] musicMuted
+setMuted 0d33 bnt          [6] -> 0d3b
+setMuted 0d35 ldi          [4]
+setMuted 0d37 aTop         [48] transportMode
+setMuted 0d39 jmp          [13] -> 0d48
+setMuted 0d3b pTos         [48] transportMode
+setMuted 0d3d ldi          [4]
+setMuted 0d3f eq?          []
+setMuted 0d40 bnt          [6] -> 0d48
+setMuted 0d42 pushi        [398]
+setMuted 0d45 push0        []
+setMuted 0d46 self         [4]
+setMuted 0d48 ldi          [1]
+setMuted 0d4a ret          []
+beforeFrozenSave 0d4b pToa         [22] musicRunning
+beforeFrozenSave 0d4d not          []
+beforeFrozenSave 0d4e bt           [4] -> 0d54
+beforeFrozenSave 0d50 pToa         [76] saveGuard
+beforeFrozenSave 0d52 bnt          [3] -> 0d57
+beforeFrozenSave 0d54 ldi          [0]
+beforeFrozenSave 0d56 ret          []
+beforeFrozenSave 0d57 pushi        [687]
+beforeFrozenSave 0d5a push0        []
+beforeFrozenSave 0d5b self         [4]
+beforeFrozenSave 0d5d pToa         [26] ownedPauseHeld
+beforeFrozenSave 0d5f not          []
+beforeFrozenSave 0d60 bnt          [6] -> 0d68
+beforeFrozenSave 0d62 pushi        [669]
+beforeFrozenSave 0d65 push0        []
+beforeFrozenSave 0d66 self         [4]
+beforeFrozenSave 0d68 pToa         [26] ownedPauseHeld
+beforeFrozenSave 0d6a not          []
+beforeFrozenSave 0d6b bnt          [3] -> 0d70
+beforeFrozenSave 0d6d ldi          [0]
+beforeFrozenSave 0d6f ret          []
+beforeFrozenSave 0d70 ldi          [1]
+beforeFrozenSave 0d72 aTop         [76] saveGuard
+beforeFrozenSave 0d74 ldi          [1]
+beforeFrozenSave 0d76 aTop         [36] pausedCheckpoint
+beforeFrozenSave 0d78 ldi          [5]
+beforeFrozenSave 0d7a aTop         [48] transportMode
+beforeFrozenSave 0d7c pToa         [46] requestRevision
+beforeFrozenSave 0d7e aTop         [92] saveRevision
+beforeFrozenSave 0d80 ldi          [1]
+beforeFrozenSave 0d82 ret          []
+afterFrozenSave 0d83 pToa         [76] saveGuard
+afterFrozenSave 0d85 not          []
+afterFrozenSave 0d86 bt           [5] -> 0d8d
+afterFrozenSave 0d88 pToa         [36] pausedCheckpoint
+afterFrozenSave 0d8a not          []
+afterFrozenSave 0d8b bnt          [3] -> 0d90
+afterFrozenSave 0d8d ldi          [0]
+afterFrozenSave 0d8f ret          []
+afterFrozenSave 0d90 ldi          [0]
+afterFrozenSave 0d92 aTop         [76] saveGuard
+afterFrozenSave 0d94 ldi          [0]
+afterFrozenSave 0d96 aTop         [36] pausedCheckpoint
+afterFrozenSave 0d98 pToa         [24] musicPaused
+afterFrozenSave 0d9a bnt          [6] -> 0da2
+afterFrozenSave 0d9c ldi          [9]
+afterFrozenSave 0d9e aTop         [48] transportMode
+afterFrozenSave 0da0 jmp          [24] -> 0dba
+afterFrozenSave 0da2 pushi        [731]
+afterFrozenSave 0da5 push0        []
+afterFrozenSave 0da6 self         [4]
+afterFrozenSave 0da8 pToa         [86] positionUncertain
+afterFrozenSave 0daa bnt          [8] -> 0db4
+afterFrozenSave 0dac pushi        [675]
+afterFrozenSave 0daf push0        []
+afterFrozenSave 0db0 self         [4]
+afterFrozenSave 0db2 jmp          [6] -> 0dba
+afterFrozenSave 0db4 pushi        [398]
+afterFrozenSave 0db7 push0        []
+afterFrozenSave 0db8 self         [4]
+afterFrozenSave 0dba ldi          [1]
+afterFrozenSave 0dbc ret          []
+afterFrozenRestore 0dbd link         [1]
+afterFrozenRestore 0dbf pToa         [22] musicRunning
+afterFrozenRestore 0dc1 not          []
+afterFrozenRestore 0dc2 bt           [10] -> 0dce
+afterFrozenRestore 0dc4 pToa         [76] saveGuard
+afterFrozenRestore 0dc6 not          []
+afterFrozenRestore 0dc7 bt           [5] -> 0dce
+afterFrozenRestore 0dc9 pToa         [36] pausedCheckpoint
+afterFrozenRestore 0dcb not          []
+afterFrozenRestore 0dcc bnt          [3] -> 0dd1
+afterFrozenRestore 0dce ldi          [0]
+afterFrozenRestore 0dd0 ret          []
+afterFrozenRestore 0dd1 pushi        [687]
+afterFrozenRestore 0dd4 push0        []
+afterFrozenRestore 0dd5 self         [4]
+afterFrozenRestore 0dd7 pToa         [26] ownedPauseHeld
+afterFrozenRestore 0dd9 not          []
+afterFrozenRestore 0dda bt           [16] -> 0dec
+afterFrozenRestore 0ddc pushi        [718]
+afterFrozenRestore 0ddf push0        []
+afterFrozenRestore 0de0 self         [4]
+afterFrozenRestore 0de2 not          []
+afterFrozenRestore 0de3 bt           [7] -> 0dec
+afterFrozenRestore 0de5 pTos         [56] musicPosition
+afterFrozenRestore 0de7 pToa         [30] pausedPosition
+afterFrozenRestore 0de9 ne?          []
+afterFrozenRestore 0dea bnt          [23] -> 0e03
+afterFrozenRestore 0dec ldi          [0]
+afterFrozenRestore 0dee aTop         [26] ownedPauseHeld
+afterFrozenRestore 0df0 ldi          [0]
+afterFrozenRestore 0df2 aTop         [76] saveGuard
+afterFrozenRestore 0df4 ldi          [0]
+afterFrozenRestore 0df6 aTop         [36] pausedCheckpoint
+afterFrozenRestore 0df8 pushi        [679]
+afterFrozenRestore 0dfb push1        []
+afterFrozenRestore 0dfc pushi        [3]
+afterFrozenRestore 0dfe self         [6]
+afterFrozenRestore 0e00 ldi          [0]
+afterFrozenRestore 0e02 ret          []
+afterFrozenRestore 0e03 ldi          [0]
+afterFrozenRestore 0e05 aTop         [76] saveGuard
+afterFrozenRestore 0e07 ldi          [0]
+afterFrozenRestore 0e09 aTop         [36] pausedCheckpoint
+afterFrozenRestore 0e0b ldi          [0]
+afterFrozenRestore 0e0d aTop         [26] ownedPauseHeld
+afterFrozenRestore 0e0f ipToa        [38] checkpointRestores
+afterFrozenRestore 0e11 pTos         [122] lifecycleGeneration
+afterFrozenRestore 0e13 ldi          [1]
+afterFrozenRestore 0e15 add          []
+afterFrozenRestore 0e16 push         []
+afterFrozenRestore 0e17 ldi          [30000]
+afterFrozenRestore 0e1a mod          []
+afterFrozenRestore 0e1b aTop         [122] lifecycleGeneration
+afterFrozenRestore 0e1d push0        []
+afterFrozenRestore 0e1e callk        [66, 0]
+afterFrozenRestore 0e21 sat          [0]
+afterFrozenRestore 0e23 pushi        [719]
+afterFrozenRestore 0e26 push0        []
+afterFrozenRestore 0e27 self         [4]
+afterFrozenRestore 0e29 pushi        [672]
+afterFrozenRestore 0e2c push1        []
+afterFrozenRestore 0e2d lst          [0]
+afterFrozenRestore 0e2f self         [6]
+afterFrozenRestore 0e31 ldi          [-1]
+afterFrozenRestore 0e33 aTop         [58] previousPosition
+afterFrozenRestore 0e35 lat          [0]
+afterFrozenRestore 0e37 aTop         [84] lastProgressTick
+afterFrozenRestore 0e39 lat          [0]
+afterFrozenRestore 0e3b aTop         [74] lastRampTick
+afterFrozenRestore 0e3d pToa         [24] musicPaused
+afterFrozenRestore 0e3f bnt          [40] -> 0e69
+afterFrozenRestore 0e41 pushi        [3]
+afterFrozenRestore 0e43 pushi        [10]
+afterFrozenRestore 0e45 pTos         [20] ownedBed
+afterFrozenRestore 0e47 push1        []
+afterFrozenRestore 0e48 callk        [45, 6]
+afterFrozenRestore 0e4b ldi          [1]
+afterFrozenRestore 0e4d aTop         [26] ownedPauseHeld
+afterFrozenRestore 0e4f ipToa        [32] pauseAcquires
+afterFrozenRestore 0e51 pToa         [28] pausePhaseKnown
+afterFrozenRestore 0e53 not          []
+afterFrozenRestore 0e54 aTop         [86] positionUncertain
+afterFrozenRestore 0e56 pToa         [86] positionUncertain
+afterFrozenRestore 0e58 not          []
+afterFrozenRestore 0e59 bnt          [8] -> 0e63
+afterFrozenRestore 0e5b pushi        [673]
+afterFrozenRestore 0e5e push1        []
+afterFrozenRestore 0e5f lst          [0]
+afterFrozenRestore 0e61 self         [6]
+afterFrozenRestore 0e63 ldi          [9]
+afterFrozenRestore 0e65 aTop         [48] transportMode
+afterFrozenRestore 0e67 jmp          [34] -> 0e8b
+afterFrozenRestore 0e69 pushi        [3]
+afterFrozenRestore 0e6b pushi        [10]
+afterFrozenRestore 0e6d pTos         [20] ownedBed
+afterFrozenRestore 0e6f push0        []
+afterFrozenRestore 0e70 callk        [45, 6]
+afterFrozenRestore 0e73 pushi        [680]
+afterFrozenRestore 0e76 push0        []
+afterFrozenRestore 0e77 self         [4]
+afterFrozenRestore 0e79 pToa         [86] positionUncertain
+afterFrozenRestore 0e7b bnt          [8] -> 0e85
+afterFrozenRestore 0e7d pushi        [675]
+afterFrozenRestore 0e80 push0        []
+afterFrozenRestore 0e81 self         [4]
+afterFrozenRestore 0e83 jmp          [6] -> 0e8b
+afterFrozenRestore 0e85 pushi        [398]
+afterFrozenRestore 0e88 push0        []
+afterFrozenRestore 0e89 self         [4]
+afterFrozenRestore 0e8b ldi          [1]
+afterFrozenRestore 0e8d ret          []
+beforeSave 0e8e pToa         [22] musicRunning
+beforeSave 0e90 not          []
+beforeSave 0e91 bt           [4] -> 0e97
+beforeSave 0e93 pToa         [76] saveGuard
+beforeSave 0e95 bnt          [3] -> 0e9a
+beforeSave 0e97 ldi          [0]
+beforeSave 0e99 ret          []
+beforeSave 0e9a pToa         [26] ownedPauseHeld
+beforeSave 0e9c bnt          [6] -> 0ea4
+beforeSave 0e9e pushi        [731]
+beforeSave 0ea1 push0        []
+beforeSave 0ea2 self         [4]
+beforeSave 0ea4 pushi        [678]
+beforeSave 0ea7 push1        []
+beforeSave 0ea8 push0        []
+beforeSave 0ea9 callk        [66, 0]
+beforeSave 0eac push         []
+beforeSave 0ead self         [6]
+beforeSave 0eaf not          []
+beforeSave 0eb0 bnt          [6] -> 0eb8
+beforeSave 0eb2 pushi        [675]
+beforeSave 0eb5 push0        []
+beforeSave 0eb6 self         [4]
+beforeSave 0eb8 pToa         [86] positionUncertain
+beforeSave 0eba not          []
+beforeSave 0ebb bnt          [6] -> 0ec3
+beforeSave 0ebd pushi        [428]
+beforeSave 0ec0 push0        []
+beforeSave 0ec1 self         [4]
+beforeSave 0ec3 ldi          [1]
+beforeSave 0ec5 aTop         [76] saveGuard
+beforeSave 0ec7 ldi          [0]
+beforeSave 0ec9 aTop         [36] pausedCheckpoint
+beforeSave 0ecb pToa         [48] transportMode
+beforeSave 0ecd aTop         [88] resumeMode
+beforeSave 0ecf pToa         [52] wholeGain
+beforeSave 0ed1 aTop         [90] savedWholeGain
+beforeSave 0ed3 pToa         [46] requestRevision
+beforeSave 0ed5 aTop         [92] saveRevision
+beforeSave 0ed7 ldi          [0]
+beforeSave 0ed9 aTop         [52] wholeGain
+beforeSave 0edb ldi          [5]
+beforeSave 0edd aTop         [48] transportMode
+beforeSave 0edf pushi        [3]
+beforeSave 0ee1 pushi        [14]
+beforeSave 0ee3 pTos         [18] musicBed
+beforeSave 0ee5 push0        []
+beforeSave 0ee6 callk        [45, 6]
+beforeSave 0ee9 ldi          [1]
+beforeSave 0eeb ret          []
+afterSave 0eec pToa         [76] saveGuard
+afterSave 0eee not          []
+afterSave 0eef bnt          [3] -> 0ef4
+afterSave 0ef1 ldi          [0]
+afterSave 0ef3 ret          []
+afterSave 0ef4 pushi        [678]
+afterSave 0ef7 push1        []
+afterSave 0ef8 push0        []
+afterSave 0ef9 callk        [66, 0]
+afterSave 0efc push         []
+afterSave 0efd self         [6]
+afterSave 0eff not          []
+afterSave 0f00 bnt          [6] -> 0f08
+afterSave 0f02 pushi        [675]
+afterSave 0f05 push0        []
+afterSave 0f06 self         [4]
+afterSave 0f08 pToa         [86] positionUncertain
+afterSave 0f0a not          []
+afterSave 0f0b bnt          [6] -> 0f13
+afterSave 0f0d pushi        [428]
+afterSave 0f10 push0        []
+afterSave 0f11 self         [4]
+afterSave 0f13 ldi          [0]
+afterSave 0f15 aTop         [76] saveGuard
+afterSave 0f17 push0        []
+afterSave 0f18 callk        [66, 0]
+afterSave 0f1b aTop         [74] lastRampTick
+afterSave 0f1d pToa         [74] lastRampTick
+afterSave 0f1f aTop         [72] lastPollTick
+afterSave 0f21 pTos         [122] lifecycleGeneration
+afterSave 0f23 ldi          [1]
+afterSave 0f25 add          []
+afterSave 0f26 push         []
+afterSave 0f27 ldi          [30000]
+afterSave 0f2a mod          []
+afterSave 0f2b aTop         [122] lifecycleGeneration
+afterSave 0f2d pushi        [719]
+afterSave 0f30 push0        []
+afterSave 0f31 self         [4]
+afterSave 0f33 pushi        [672]
+afterSave 0f36 push1        []
+afterSave 0f37 push0        []
+afterSave 0f38 callk        [66, 0]
+afterSave 0f3b push         []
+afterSave 0f3c self         [6]
+afterSave 0f3e pToa         [24] musicPaused
+afterSave 0f40 bnt          [8] -> 0f4a
+afterSave 0f42 pushi        [669]
+afterSave 0f45 push0        []
+afterSave 0f46 self         [4]
+afterSave 0f48 jmp          [18] -> 0f5c
+afterSave 0f4a pToa         [86] positionUncertain
+afterSave 0f4c bnt          [8] -> 0f56
+afterSave 0f4e pushi        [675]
+afterSave 0f51 push0        []
+afterSave 0f52 self         [4]
+afterSave 0f54 jmp          [6] -> 0f5c
+afterSave 0f56 pushi        [398]
+afterSave 0f59 push0        []
+afterSave 0f5a self         [4]
+afterSave 0f5c ldi          [1]
+afterSave 0f5e ret          []
+afterRestore 0f5f pToa         [22] musicRunning
+afterRestore 0f61 not          []
+afterRestore 0f62 bt           [5] -> 0f69
+afterRestore 0f64 pToa         [76] saveGuard
+afterRestore 0f66 not          []
+afterRestore 0f67 bnt          [3] -> 0f6c
+afterRestore 0f69 ldi          [0]
+afterRestore 0f6b ret          []
+afterRestore 0f6c pToa         [26] ownedPauseHeld
+afterRestore 0f6e bnt          [10] -> 0f7a
+afterRestore 0f70 pushi        [679]
+afterRestore 0f73 push1        []
+afterRestore 0f74 push1        []
+afterRestore 0f75 self         [6]
+afterRestore 0f77 ldi          [0]
+afterRestore 0f79 ret          []
+afterRestore 0f7a ldi          [0]
+afterRestore 0f7c aTop         [76] saveGuard
+afterRestore 0f7e ldi          [0]
+afterRestore 0f80 aTop         [52] wholeGain
+afterRestore 0f82 pushi        [3]
+afterRestore 0f84 pushi        [14]
+afterRestore 0f86 pTos         [18] musicBed
+afterRestore 0f88 push0        []
+afterRestore 0f89 callk        [45, 6]
+afterRestore 0f8c pushi        [256]
+afterRestore 0f8f push1        []
+afterRestore 0f90 push0        []
+afterRestore 0f91 pToa         [18] musicBed
+afterRestore 0f93 send         [6]
+afterRestore 0f95 ldi          [-1]
+afterRestore 0f97 aTop         [58] previousPosition
+afterRestore 0f99 ldi          [1]
+afterRestore 0f9b aTop         [86] positionUncertain
+afterRestore 0f9d push0        []
+afterRestore 0f9e callk        [66, 0]
+afterRestore 0fa1 aTop         [72] lastPollTick
+afterRestore 0fa3 pToa         [72] lastPollTick
+afterRestore 0fa5 aTop         [74] lastRampTick
+afterRestore 0fa7 pTos         [122] lifecycleGeneration
+afterRestore 0fa9 ldi          [1]
+afterRestore 0fab add          []
+afterRestore 0fac push         []
+afterRestore 0fad ldi          [30000]
+afterRestore 0fb0 mod          []
+afterRestore 0fb1 aTop         [122] lifecycleGeneration
+afterRestore 0fb3 pushi        [719]
+afterRestore 0fb6 push0        []
+afterRestore 0fb7 self         [4]
+afterRestore 0fb9 pushi        [672]
+afterRestore 0fbc push1        []
+afterRestore 0fbd pTos         [72] lastPollTick
+afterRestore 0fbf self         [6]
+afterRestore 0fc1 pushi        [675]
+afterRestore 0fc4 push0        []
+afterRestore 0fc5 self         [4]
+afterRestore 0fc7 pToa         [24] musicPaused
+afterRestore 0fc9 bnt          [6] -> 0fd1
+afterRestore 0fcb pushi        [669]
+afterRestore 0fce push0        []
+afterRestore 0fcf self         [4]
+afterRestore 0fd1 ldi          [1]
+afterRestore 0fd3 ret          []
+notifyRemap 0fd4 pToa         [76] saveGuard
+notifyRemap 0fd6 bt           [4] -> 0fdc
+notifyRemap 0fd8 pToa         [78] remapGuard
+notifyRemap 0fda bnt          [3] -> 0fdf
+notifyRemap 0fdc ldi          [0]
+notifyRemap 0fde ret          []
+notifyRemap 0fdf ldi          [1]
+notifyRemap 0fe1 aTop         [78] remapGuard
+notifyRemap 0fe3 pTos         [122] lifecycleGeneration
+notifyRemap 0fe5 ldi          [1]
+notifyRemap 0fe7 add          []
+notifyRemap 0fe8 push         []
+notifyRemap 0fe9 ldi          [30000]
+notifyRemap 0fec mod          []
+notifyRemap 0fed aTop         [122] lifecycleGeneration
+notifyRemap 0fef pushi        [687]
+notifyRemap 0ff2 push0        []
+notifyRemap 0ff3 self         [4]
+notifyRemap 0ff5 ldi          [7]
+notifyRemap 0ff7 aTop         [48] transportMode
+notifyRemap 0ff9 ldi          [1]
+notifyRemap 0ffb ret          []
+finishRemap 0ffc pToa         [76] saveGuard
+finishRemap 0ffe bt           [5] -> 1005
+finishRemap 1000 pToa         [78] remapGuard
+finishRemap 1002 not          []
+finishRemap 1003 bnt          [3] -> 1008
+finishRemap 1005 ldi          [0]
+finishRemap 1007 ret          []
+finishRemap 1008 ldi          [0]
+finishRemap 100a aTop         [78] remapGuard
+finishRemap 100c pTos         [122] lifecycleGeneration
+finishRemap 100e ldi          [1]
+finishRemap 1010 add          []
+finishRemap 1011 push         []
+finishRemap 1012 ldi          [30000]
+finishRemap 1015 mod          []
+finishRemap 1016 aTop         [122] lifecycleGeneration
+finishRemap 1018 ldi          [1]
+finishRemap 101a aTop         [80] remapDrain
+finishRemap 101c push0        []
+finishRemap 101d callk        [66, 0]
+finishRemap 1020 aTop         [82] remapStart
+finishRemap 1022 pushi        [675]
+finishRemap 1025 push0        []
+finishRemap 1026 self         [4]
+finishRemap 1028 push0        []
+finishRemap 1029 callk        [66, 0]
+finishRemap 102c push         []
+finishRemap 102d ldi          [4]
+finishRemap 102f add          []
+finishRemap 1030 aTop         [98] retryAt
+finishRemap 1032 ldi          [1]
+finishRemap 1034 ret          []
+retryRejoin 1035 pToa         [76] saveGuard
+retryRejoin 1037 bt           [11] -> 1044
+retryRejoin 1039 pToa         [78] remapGuard
+retryRejoin 103b bt           [7] -> 1044
+retryRejoin 103d pTos         [48] transportMode
+retryRejoin 103f ldi          [6]
+retryRejoin 1041 ne?          []
+retryRejoin 1042 bnt          [3] -> 1047
+retryRejoin 1044 ldi          [0]
+retryRejoin 1046 ret          []
+retryRejoin 1047 pToa         [86] positionUncertain
+retryRejoin 1049 bnt          [7] -> 1052
+retryRejoin 104b pushi        [675]
+retryRejoin 104e push0        []
+retryRejoin 104f self         [4]
+retryRejoin 1051 ret          []
+retryRejoin 1052 pushi        [398]
+retryRejoin 1055 push0        []
+retryRejoin 1056 self         [4]
+retryRejoin 1058 ret          []
+expireRejoin 1059 ldi          [0]
+expireRejoin 105b aTop         [52] wholeGain
+expireRejoin 105d pushi        [3]
+expireRejoin 105f pushi        [14]
+expireRejoin 1061 pTos         [18] musicBed
+expireRejoin 1063 push0        []
+expireRejoin 1064 callk        [45, 6]
+expireRejoin 1067 pushi        [400]
+expireRejoin 106a push0        []
+expireRejoin 106b self         [4]
+expireRejoin 106d ipToa        [106] rejoinExpired
+expireRejoin 106f ldi          [-1]
+expireRejoin 1071 aTop         [100] rejoinWindow
+expireRejoin 1073 push0        []
+expireRejoin 1074 callk        [66, 0]
+expireRejoin 1077 push         []
+expireRejoin 1078 ldi          [2]
+expireRejoin 107a add          []
+expireRejoin 107b aTop         [98] retryAt
+expireRejoin 107d ldi          [0]
+expireRejoin 107f ret          []
+tryRejoin 1080 link         [11]
+tryRejoin 1082 pToa         [76] saveGuard
+tryRejoin 1084 bt           [27] -> 10a1
+tryRejoin 1086 pToa         [78] remapGuard
+tryRejoin 1088 bt           [23] -> 10a1
+tryRejoin 108a pToa         [50] musicMuted
+tryRejoin 108c bt           [19] -> 10a1
+tryRejoin 108e pToa         [24] musicPaused
+tryRejoin 1090 bt           [15] -> 10a1
+tryRejoin 1092 pToa         [26] ownedPauseHeld
+tryRejoin 1094 bt           [11] -> 10a1
+tryRejoin 1096 pToa         [86] positionUncertain
+tryRejoin 1098 bt           [7] -> 10a1
+tryRejoin 109a pTos         [48] transportMode
+tryRejoin 109c ldi          [3]
+tryRejoin 109e ne?          []
+tryRejoin 109f bnt          [3] -> 10a4
+tryRejoin 10a1 ldi          [0]
+tryRejoin 10a3 ret          []
+tryRejoin 10a4 pTos         [94] rejoinAttempts
+tryRejoin 10a6 ldi          [32]
+tryRejoin 10a8 ge?          []
+tryRejoin 10a9 bt           [15] -> 10ba
+tryRejoin 10ab push0        []
+tryRejoin 10ac callk        [66, 0]
+tryRejoin 10af push         []
+tryRejoin 10b0 pToa         [96] rejoinStart
+tryRejoin 10b2 sub          []
+tryRejoin 10b3 push         []
+tryRejoin 10b4 ldi          [600]
+tryRejoin 10b7 uge?         []
+tryRejoin 10b8 bnt          [9] -> 10c3
+tryRejoin 10ba ldi          [6]
+tryRejoin 10bc aTop         [48] transportMode
+tryRejoin 10be ipToa        [108] rejoinFailures
+tryRejoin 10c0 ldi          [0]
+tryRejoin 10c2 ret          []
+tryRejoin 10c3 pToa         [80] remapDrain
+tryRejoin 10c5 bnt          [21] -> 10dc
+tryRejoin 10c7 push0        []
+tryRejoin 10c8 callk        [66, 0]
+tryRejoin 10cb push         []
+tryRejoin 10cc pToa         [82] remapStart
+tryRejoin 10ce sub          []
+tryRejoin 10cf push         []
+tryRejoin 10d0 ldi          [4]
+tryRejoin 10d2 ult?         []
+tryRejoin 10d3 bnt          [3] -> 10d8
+tryRejoin 10d5 ldi          [0]
+tryRejoin 10d7 ret          []
+tryRejoin 10d8 ldi          [0]
+tryRejoin 10da aTop         [80] remapDrain
+tryRejoin 10dc push0        []
+tryRejoin 10dd callk        [66, 0]
+tryRejoin 10e0 push         []
+tryRejoin 10e1 pToa         [98] retryAt
+tryRejoin 10e3 sub          []
+tryRejoin 10e4 push         []
+tryRejoin 10e5 ldi          [0]
+tryRejoin 10e7 lt?          []
+tryRejoin 10e8 bnt          [3] -> 10ed
+tryRejoin 10ea ldi          [0]
+tryRejoin 10ec ret          []
+tryRejoin 10ed ldi          [-1]
+tryRejoin 10ef aTop         [100] rejoinWindow
+tryRejoin 10f1 ldi          [0]
+tryRejoin 10f3 sat          [0]
+tryRejoin 10f5 lst          [0]
+tryRejoin 10f7 ldi          [194]
+tryRejoin 10fa lt?          []
+tryRejoin 10fb bnt          [40] -> 1125
+tryRejoin 10fd lst          [0]
+tryRejoin 10ff ldi          [5]
+tryRejoin 1101 mul          []
+tryRejoin 1102 sat          [1]
+tryRejoin 1104 pTos         [56] musicPosition
+tryRejoin 1106 lat          [1]
+tryRejoin 1108 lali         [604]
+tryRejoin 110b ge?          []
+tryRejoin 110c bnt          [19] -> 1121
+tryRejoin 110e pTos         [56] musicPosition
+tryRejoin 1110 lst          [1]
+tryRejoin 1112 ldi          [1]
+tryRejoin 1114 add          []
+tryRejoin 1115 lali         [604]
+tryRejoin 1118 le?          []
+tryRejoin 1119 bnt          [6] -> 1121
+tryRejoin 111b lat          [0]
+tryRejoin 111d aTop         [100] rejoinWindow
+tryRejoin 111f jmp          [4] -> 1125
+tryRejoin 1121 +at          [0]
+tryRejoin 1123 jmp          [-48] -> 10f5
+tryRejoin 1125 pTos         [100] rejoinWindow
+tryRejoin 1127 ldi          [-1]
+tryRejoin 1129 eq?          []
+tryRejoin 112a bnt          [3] -> 112f
+tryRejoin 112c ldi          [0]
+tryRejoin 112e ret          []
+tryRejoin 112f ipToa        [94] rejoinAttempts
+tryRejoin 1131 pToa         [56] musicPosition
+tryRejoin 1133 sat          [9]
+tryRejoin 1135 pToa         [68] loopEpoch
+tryRejoin 1137 aTop         [102] rejoinEpoch
+tryRejoin 1139 push0        []
+tryRejoin 113a callk        [66, 0]
+tryRejoin 113d sat          [10]
+tryRejoin 113f lat          [1]
+tryRejoin 1141 lali         [604]
+tryRejoin 1144 sat          [2]
+tryRejoin 1146 lst          [1]
+tryRejoin 1148 ldi          [1]
+tryRejoin 114a add          []
+tryRejoin 114b lali         [604]
+tryRejoin 114e sat          [3]
+tryRejoin 1150 lst          [1]
+tryRejoin 1152 ldi          [2]
+tryRejoin 1154 add          []
+tryRejoin 1155 lali         [604]
+tryRejoin 1158 sat          [4]
+tryRejoin 115a lst          [1]
+tryRejoin 115c ldi          [3]
+tryRejoin 115e add          []
+tryRejoin 115f lali         [604]
+tryRejoin 1162 sat          [5]
+tryRejoin 1164 lst          [1]
+tryRejoin 1166 ldi          [4]
+tryRejoin 1168 add          []
+tryRejoin 1169 lali         [604]
+tryRejoin 116c sat          [6]
+tryRejoin 116e pushi        [400]
+tryRejoin 1171 push0        []
+tryRejoin 1172 self         [4]
+tryRejoin 1174 pushi        [429]
+tryRejoin 1177 push1        []
+tryRejoin 1178 lst          [9]
+tryRejoin 117a self         [6]
+tryRejoin 117c pushi        [428]
+tryRejoin 117f push0        []
+tryRejoin 1180 self         [4]
+tryRejoin 1182 pToa         [86] positionUncertain
+tryRejoin 1184 bnt          [3] -> 1189
+tryRejoin 1186 ldi          [0]
+tryRejoin 1188 ret          []
+tryRejoin 1189 pTos         [56] musicPosition
+tryRejoin 118b lat          [9]
+tryRejoin 118d lt?          []
+tryRejoin 118e bt           [28] -> 11ac
+tryRejoin 1190 pTos         [56] musicPosition
+tryRejoin 1192 lat          [3]
+tryRejoin 1194 gt?          []
+tryRejoin 1195 bt           [21] -> 11ac
+tryRejoin 1197 pTos         [68] loopEpoch
+tryRejoin 1199 pToa         [102] rejoinEpoch
+tryRejoin 119b ne?          []
+tryRejoin 119c bt           [14] -> 11ac
+tryRejoin 119e push0        []
+tryRejoin 119f callk        [66, 0]
+tryRejoin 11a2 push         []
+tryRejoin 11a3 lat          [10]
+tryRejoin 11a5 sub          []
+tryRejoin 11a6 push         []
+tryRejoin 11a7 ldi          [4]
+tryRejoin 11a9 ugt?         []
+tryRejoin 11aa bnt          [7] -> 11b3
+tryRejoin 11ac pushi        [407]
+tryRejoin 11af push0        []
+tryRejoin 11b0 self         [4]
+tryRejoin 11b2 ret          []
+tryRejoin 11b3 ldi          [0]
+tryRejoin 11b5 aTop         [110] lastBatchKeys
+tryRejoin 11b7 ldi          [0]
+tryRejoin 11b9 sat          [7]
+tryRejoin 11bb lst          [7]
+tryRejoin 11bd lat          [6]
+tryRejoin 11bf lt?          []
+tryRejoin 11c0 bnt          [69] -> 1207
+tryRejoin 11c2 lst          [5]
+tryRejoin 11c4 lst          [7]
+tryRejoin 11c6 ldi          [4]
+tryRejoin 11c8 mul          []
+tryRejoin 11c9 add          []
+tryRejoin 11ca sat          [0]
+tryRejoin 11cc lat          [0]
+tryRejoin 11ce lali         [1574]
+tryRejoin 11d1 sat          [8]
+tryRejoin 11d3 lat          [8]
+tryRejoin 11d5 lsli         [0]
+tryRejoin 11d7 ldi          [0]
+tryRejoin 11d9 gt?          []
+tryRejoin 11da bnt          [39] -> 1203
+tryRejoin 11dc pushi        [6]
+tryRejoin 11de pushi        [18]
+tryRejoin 11e0 pTos         [18] musicBed
+tryRejoin 11e2 lat          [8]
+tryRejoin 11e4 lsli         [404]
+tryRejoin 11e7 ldi          [1]
+tryRejoin 11e9 add          []
+tryRejoin 11ea push         []
+tryRejoin 11eb pushi        [144]
+tryRejoin 11ee lst          [0]
+tryRejoin 11f0 ldi          [1]
+tryRejoin 11f2 add          []
+tryRejoin 11f3 lsli         [1574]
+tryRejoin 11f6 lst          [0]
+tryRejoin 11f8 ldi          [2]
+tryRejoin 11fa add          []
+tryRejoin 11fb lsli         [1574]
+tryRejoin 11fe callk        [45, 12]
+tryRejoin 1201 ipToa        [110] lastBatchKeys
+tryRejoin 1203 +at          [7]
+tryRejoin 1205 jmp          [-76] -> 11bb
+tryRejoin 1207 pushi        [428]
+tryRejoin 120a push0        []
+tryRejoin 120b self         [4]
+tryRejoin 120d pToa         [86] positionUncertain
+tryRejoin 120f bnt          [3] -> 1214
+tryRejoin 1211 ldi          [0]
+tryRejoin 1213 ret          []
+tryRejoin 1214 pTos         [56] musicPosition
+tryRejoin 1216 lat          [9]
+tryRejoin 1218 lt?          []
+tryRejoin 1219 bt           [25] -> 1234
+tryRejoin 121b pTos         [56] musicPosition
+tryRejoin 121d ldi          [3]
+tryRejoin 121f add          []
+tryRejoin 1220 push         []
+tryRejoin 1221 lat          [4]
+tryRejoin 1223 gt?          []
+tryRejoin 1224 bt           [14] -> 1234
+tryRejoin 1226 push0        []
+tryRejoin 1227 callk        [66, 0]
+tryRejoin 122a push         []
+tryRejoin 122b lat          [10]
+tryRejoin 122d sub          []
+tryRejoin 122e push         []
+tryRejoin 122f ldi          [6]
+tryRejoin 1231 ugt?         []
+tryRejoin 1232 bnt          [7] -> 123b
+tryRejoin 1234 pushi        [407]
+tryRejoin 1237 push0        []
+tryRejoin 1238 self         [4]
+tryRejoin 123a ret          []
+tryRejoin 123b ipToa        [104] rejoinSuccesses
+tryRejoin 123d ldi          [2]
+tryRejoin 123f aTop         [48] transportMode
+tryRejoin 1241 push0        []
+tryRejoin 1242 callk        [66, 0]
+tryRejoin 1245 aTop         [74] lastRampTick
+tryRejoin 1247 ldi          [1]
+tryRejoin 1249 ret          []
+ramp 124a link         [4]
+ramp 124c pToa         [24] musicPaused
+ramp 124e bt           [12] -> 125c
+ramp 1250 pToa         [26] ownedPauseHeld
+ramp 1252 bt           [8] -> 125c
+ramp 1254 pToa         [76] saveGuard
+ramp 1256 bt           [4] -> 125c
+ramp 1258 pToa         [50] musicMuted
+ramp 125a bnt          [3] -> 125f
+ramp 125c ldi          [0]
+ramp 125e ret          []
+ramp 125f lsp          [1]
+ramp 1261 pToa         [74] lastRampTick
+ramp 1263 sub          []
+ramp 1264 push         []
+ramp 1265 ldi          [2]
+ramp 1267 ult?         []
+ramp 1268 bnt          [3] -> 126d
+ramp 126a ldi          [0]
+ramp 126c ret          []
+ramp 126d lap          [1]
+ramp 126f aTop         [74] lastRampTick
+ramp 1271 ldi          [1]
+ramp 1273 sat          [2]
+ramp 1275 ldi          [0]
+ramp 1277 sat          [0]
+ramp 1279 lst          [0]
+ramp 127b ldi          [8]
+ramp 127d lt?          []
+ramp 127e bnt          [209] -> 1352
+ramp 1281 lat          [0]
+ramp 1283 lali         [0]
+ramp 1285 sat          [1]
+ramp 1287 lat          [0]
+ramp 1289 lsli         [404]
+ramp 128c ldi          [1]
+ramp 128e add          []
+ramp 128f sat          [3]
+ramp 1291 lst          [1]
+ramp 1293 lat          [0]
+ramp 1295 lali         [8]
+ramp 1297 ne?          []
+ramp 1298 bnt          [178] -> 134d
+ramp 129b ldi          [0]
+ramp 129d sat          [2]
+ramp 129f lst          [1]
+ramp 12a1 ldi          [0]
+ramp 12a3 eq?          []
+ramp 12a4 bnt          [82] -> 12f8
+ramp 12a6 lat          [0]
+ramp 12a8 lsli         [8]
+ramp 12aa ldi          [0]
+ramp 12ac gt?          []
+ramp 12ad bnt          [73] -> 12f8
+ramp 12af lst          [0]
+ramp 12b1 ldi          [2]
+ramp 12b3 eq?          []
+ramp 12b4 bt           [7] -> 12bd
+ramp 12b6 lst          [0]
+ramp 12b8 ldi          [6]
+ramp 12ba eq?          []
+ramp 12bb bnt          [57] -> 12f6
+ramp 12bd pTos         [56] musicPosition
+ramp 12bf ldi          [2]
+ramp 12c1 ge?          []
+ramp 12c2 bnt          [50] -> 12f6
+ramp 12c4 pTos         [56] musicPosition
+ramp 12c6 ldi          [4247]
+ramp 12c9 le?          []
+ramp 12ca bnt          [42] -> 12f6
+ramp 12cc pushi        [5]
+ramp 12ce pushi        [18]
+ramp 12d0 pTos         [18] musicBed
+ramp 12d2 lst          [3]
+ramp 12d4 pushi        [120]
+ramp 12d6 push0        []
+ramp 12d7 callk        [45, 10]
+ramp 12da pushi        [5]
+ramp 12dc pushi        [18]
+ramp 12de pTos         [18] musicBed
+ramp 12e0 lst          [3]
+ramp 12e2 pushi        [11]
+ramp 12e4 pushi        [408]
+ramp 12e7 push2        []
+ramp 12e8 lst          [0]
+ramp 12ea pTos         [56] musicPosition
+ramp 12ec self         [8]
+ramp 12ee push         []
+ramp 12ef callk        [45, 10]
+ramp 12f2 ldi          [4]
+ramp 12f4 sat          [1]
+ramp 12f6 jmp          [55] -> 132f
+ramp 12f8 lst          [1]
+ramp 12fa lat          [0]
+ramp 12fc lali         [8]
+ramp 12fe lt?          []
+ramp 12ff bnt          [24] -> 1319
+ramp 1301 lst          [1]
+ramp 1303 ldi          [4]
+ramp 1305 add          []
+ramp 1306 sat          [1]
+ramp 1308 lst          [1]
+ramp 130a lat          [0]
+ramp 130c lali         [8]
+ramp 130e gt?          []
+ramp 130f bnt          [6] -> 1317
+ramp 1311 lat          [0]
+ramp 1313 lali         [8]
+ramp 1315 sat          [1]
+ramp 1317 jmp          [22] -> 132f
+ramp 1319 lst          [1]
+ramp 131b ldi          [4]
+ramp 131d sub          []
+ramp 131e sat          [1]
+ramp 1320 lst          [1]
+ramp 1322 lat          [0]
+ramp 1324 lali         [8]
+ramp 1326 lt?          []
+ramp 1327 bnt          [6] -> 132f
+ramp 1329 lat          [0]
+ramp 132b lali         [8]
+ramp 132d sat          [1]
+ramp 132f lst          [1]
+ramp 1331 lat          [0]
+ramp 1333 lali         [0]
+ramp 1335 ne?          []
+ramp 1336 bnt          [21] -> 134d
+ramp 1338 lst          [1]
+ramp 133a lat          [0]
+ramp 133c sali         [0]
+ramp 133e pushi        [5]
+ramp 1340 pushi        [18]
+ramp 1342 pTos         [18] musicBed
+ramp 1344 lst          [3]
+ramp 1346 pushi        [7]
+ramp 1348 lst          [1]
+ramp 134a callk        [45, 10]
+ramp 134d +at          [0]
+ramp 134f jmp          [-217] -> 1279
+ramp 1352 lat          [2]
+ramp 1354 bnt          [4] -> 135a
+ramp 1356 pToa         [42] nextRequestedState
+ramp 1358 jmp          [2] -> 135c
+ramp 135a ldi          [-1]
+ramp 135c aTop         [44] settledState
+ramp 135e pTos         [52] wholeGain
+ramp 1360 pToa         [54] desiredWholeGain
+ramp 1362 ne?          []
+ramp 1363 bnt          [56] -> 139d
+ramp 1365 pTos         [52] wholeGain
+ramp 1367 pToa         [54] desiredWholeGain
+ramp 1369 lt?          []
+ramp 136a bnt          [20] -> 1380
+ramp 136c pTos         [52] wholeGain
+ramp 136e ldi          [10]
+ramp 1370 add          []
+ramp 1371 aTop         [52] wholeGain
+ramp 1373 pTos         [52] wholeGain
+ramp 1375 pToa         [54] desiredWholeGain
+ramp 1377 gt?          []
+ramp 1378 bnt          [4] -> 137e
+ramp 137a pToa         [54] desiredWholeGain
+ramp 137c aTop         [52] wholeGain
+ramp 137e jmp          [18] -> 1392
+ramp 1380 pTos         [52] wholeGain
+ramp 1382 ldi          [10]
+ramp 1384 sub          []
+ramp 1385 aTop         [52] wholeGain
+ramp 1387 pTos         [52] wholeGain
+ramp 1389 pToa         [54] desiredWholeGain
+ramp 138b lt?          []
+ramp 138c bnt          [4] -> 1392
+ramp 138e pToa         [54] desiredWholeGain
+ramp 1390 aTop         [52] wholeGain
+ramp 1392 pushi        [3]
+ramp 1394 pushi        [14]
+ramp 1396 pTos         [18] musicBed
+ramp 1398 pTos         [52] wholeGain
+ramp 139a callk        [45, 6]
+ramp 139d ldi          [1]
+ramp 139f ret          []
+refreshCurrentGains 13a0 link         [1]
+refreshCurrentGains 13a2 pToa         [22] musicRunning
+refreshCurrentGains 13a4 not          []
+refreshCurrentGains 13a5 bt           [46] -> 13d5
+refreshCurrentGains 13a7 pToa         [76] saveGuard
+refreshCurrentGains 13a9 bt           [42] -> 13d5
+refreshCurrentGains 13ab pToa         [24] musicPaused
+refreshCurrentGains 13ad bt           [38] -> 13d5
+refreshCurrentGains 13af pToa         [26] ownedPauseHeld
+refreshCurrentGains 13b1 bt           [34] -> 13d5
+refreshCurrentGains 13b3 pToa         [86] positionUncertain
+refreshCurrentGains 13b5 bt           [30] -> 13d5
+refreshCurrentGains 13b7 pTos         [18] musicBed
+refreshCurrentGains 13b9 pToa         [20] ownedBed
+refreshCurrentGains 13bb ne?          []
+refreshCurrentGains 13bc bt           [23] -> 13d5
+refreshCurrentGains 13be push1        []
+refreshCurrentGains 13bf pTos         [20] ownedBed
+refreshCurrentGains 13c1 callk        [6, 2]
+refreshCurrentGains 13c4 not          []
+refreshCurrentGains 13c5 bt           [14] -> 13d5
+refreshCurrentGains 13c7 pTos         [48] transportMode
+refreshCurrentGains 13c9 ldi          [2]
+refreshCurrentGains 13cb ne?          []
+refreshCurrentGains 13cc bnt          [10] -> 13d8
+refreshCurrentGains 13ce pTos         [48] transportMode
+refreshCurrentGains 13d0 ldi          [4]
+refreshCurrentGains 13d2 ne?          []
+refreshCurrentGains 13d3 bnt          [3] -> 13d8
+refreshCurrentGains 13d5 ldi          [0]
+refreshCurrentGains 13d7 ret          []
+refreshCurrentGains 13d8 ldi          [0]
+refreshCurrentGains 13da sat          [0]
+refreshCurrentGains 13dc lst          [0]
+refreshCurrentGains 13de ldi          [8]
+refreshCurrentGains 13e0 lt?          []
+refreshCurrentGains 13e1 bnt          [28] -> 13ff
+refreshCurrentGains 13e3 pushi        [5]
+refreshCurrentGains 13e5 pushi        [18]
+refreshCurrentGains 13e7 pTos         [20] ownedBed
+refreshCurrentGains 13e9 lat          [0]
+refreshCurrentGains 13eb lsli         [404]
+refreshCurrentGains 13ee ldi          [1]
+refreshCurrentGains 13f0 add          []
+refreshCurrentGains 13f1 push         []
+refreshCurrentGains 13f2 pushi        [7]
+refreshCurrentGains 13f4 lat          [0]
+refreshCurrentGains 13f6 lsli         [0]
+refreshCurrentGains 13f8 callk        [45, 10]
+refreshCurrentGains 13fb +at          [0]
+refreshCurrentGains 13fd jmp          [-35] -> 13dc
+refreshCurrentGains 13ff pTos         [120] gainRefreshes
+refreshCurrentGains 1401 ldi          [1]
+refreshCurrentGains 1403 add          []
+refreshCurrentGains 1404 push         []
+refreshCurrentGains 1405 ldi          [30000]
+refreshCurrentGains 1408 mod          []
+refreshCurrentGains 1409 aTop         [120] gainRefreshes
+refreshCurrentGains 140b ldi          [1]
+refreshCurrentGains 140d ret          []
+poll 140e link         [2]
+poll 1410 pToa         [22] musicRunning
+poll 1412 not          []
+poll 1413 bnt          [3] -> 1418
+poll 1415 ldi          [0]
+poll 1417 ret          []
+poll 1418 pToa         [26] ownedPauseHeld
+poll 141a bnt          [7] -> 1423
+poll 141c ldi          [9]
+poll 141e aTop         [48] transportMode
+poll 1420 ldi          [9]
+poll 1422 ret          []
+poll 1423 push0        []
+poll 1424 callk        [66, 0]
+poll 1427 sat          [0]
+poll 1429 pushi        [678]
+poll 142c push1        []
+poll 142d lst          [0]
+poll 142f self         [6]
+poll 1431 not          []
+poll 1432 bnt          [20] -> 1448
+poll 1434 pushi        [720]
+poll 1437 push1        []
+poll 1438 lst          [0]
+poll 143a self         [6]
+poll 143c not          []
+poll 143d bnt          [6] -> 1445
+poll 143f pushi        [675]
+poll 1442 push0        []
+poll 1443 self         [4]
+poll 1445 pToa         [48] transportMode
+poll 1447 ret          []
+poll 1448 pushi        [672]
+poll 144b push1        []
+poll 144c lst          [0]
+poll 144e self         [6]
+poll 1450 pToa         [76] saveGuard
+poll 1452 bnt          [3] -> 1457
+poll 1454 pToa         [48] transportMode
+poll 1456 ret          []
+poll 1457 pToa         [78] remapGuard
+poll 1459 bnt          [3] -> 145e
+poll 145b ldi          [7]
+poll 145d ret          []
+poll 145e pToa         [86] positionUncertain
+poll 1460 bnt          [22] -> 1478
+poll 1462 pTos         [48] transportMode
+poll 1464 ldi          [8]
+poll 1466 eq?          []
+poll 1467 bnt          [8] -> 1471
+poll 1469 pushi        [704]
+poll 146c push1        []
+poll 146d lst          [0]
+poll 146f self         [6]
+poll 1471 pToa         [86] positionUncertain
+poll 1473 bnt          [3] -> 1478
+poll 1475 pToa         [48] transportMode
+poll 1477 ret          []
+poll 1478 pushi        [428]
+poll 147b push0        []
+poll 147c self         [4]
+poll 147e pToa         [86] positionUncertain
+poll 1480 bnt          [3] -> 1485
+poll 1482 pToa         [48] transportMode
+poll 1484 ret          []
+poll 1485 pushi        [256]
+poll 1488 push0        []
+poll 1489 pToa         [18] musicBed
+poll 148b send         [4]
+poll 148d sat          [1]
+poll 148f lst          [1]
+poll 1491 ldi          [0]
+poll 1493 gt?          []
+poll 1494 bnt          [13] -> 14a3
+poll 1496 lat          [1]
+poll 1498 aTop         [114] lastCue
+poll 149a pushi        [256]
+poll 149d push1        []
+poll 149e push0        []
+poll 149f pToa         [18] musicBed
+poll 14a1 send         [6]
+poll 14a3 pToa         [50] musicMuted
+poll 14a5 bnt          [9] -> 14b0
+poll 14a7 pushi        [730]
+poll 14aa push0        []
+poll 14ab self         [4]
+poll 14ad pToa         [48] transportMode
+poll 14af ret          []
+poll 14b0 pTos         [48] transportMode
+poll 14b2 ldi          [1]
+poll 14b4 eq?          []
+poll 14b5 bnt          [71] -> 14fe
+poll 14b7 pTos         [42] nextRequestedState
+poll 14b9 ldi          [0]
+poll 14bb eq?          []
+poll 14bc bnt          [44] -> 14ea
+poll 14be lst          [1]
+poll 14c0 ldi          [1]
+poll 14c2 eq?          []
+poll 14c3 bnt          [37] -> 14ea
+poll 14c5 pTos         [56] musicPosition
+poll 14c7 ldi          [6]
+poll 14c9 ge?          []
+poll 14ca bnt          [30] -> 14ea
+poll 14cc pTos         [56] musicPosition
+poll 14ce ldi          [8]
+poll 14d0 le?          []
+poll 14d1 bnt          [23] -> 14ea
+poll 14d3 pToa         [54] desiredWholeGain
+poll 14d5 aTop         [52] wholeGain
+poll 14d7 pushi        [3]
+poll 14d9 pushi        [14]
+poll 14db pTos         [18] musicBed
+poll 14dd pTos         [52] wholeGain
+poll 14df callk        [45, 6]
+poll 14e2 ldi          [2]
+poll 14e4 aTop         [48] transportMode
+poll 14e6 ipToa        [112] initialOpens
+poll 14e8 jmp          [20] -> 14fe
+poll 14ea pTos         [56] musicPosition
+poll 14ec ldi          [8]
+poll 14ee gt?          []
+poll 14ef bt           [7] -> 14f8
+poll 14f1 pTos         [42] nextRequestedState
+poll 14f3 ldi          [0]
+poll 14f5 ne?          []
+poll 14f6 bnt          [6] -> 14fe
+poll 14f8 pushi        [398]
+poll 14fb push0        []
+poll 14fc self         [4]
+poll 14fe pTos         [48] transportMode
+poll 1500 ldi          [3]
+poll 1502 eq?          []
+poll 1503 bnt          [6] -> 150b
+poll 1505 pushi        [505]
+poll 1508 push0        []
+poll 1509 self         [4]
+poll 150b pTos         [48] transportMode
+poll 150d ldi          [2]
+poll 150f eq?          []
+poll 1510 bnt          [17] -> 1523
+poll 1512 pushi        [427]
+poll 1515 push1        []
+poll 1516 push0        []
+poll 1517 callk        [66, 0]
+poll 151a push         []
+poll 151b self         [6]
+poll 151d pushi        [730]
+poll 1520 push0        []
+poll 1521 self         [4]
+poll 1523 pToa         [48] transportMode
+poll 1525 ret          []
+stop 1526 pToa         [22] musicRunning
+stop 1528 bnt          [24] -> 1542
+stop 152a push1        []
+stop 152b pTos         [20] ownedBed
+stop 152d callk        [6, 2]
+stop 1530 bnt          [16] -> 1542
+stop 1532 push2        []
+stop 1533 pushi        [9]
+stop 1535 pTos         [20] ownedBed
+stop 1537 callk        [45, 4]
+stop 153a push2        []
+stop 153b pushi        [7]
+stop 153d pTos         [20] ownedBed
+stop 153f callk        [45, 4]
+stop 1542 pTos         [122] lifecycleGeneration
+stop 1544 ldi          [1]
+stop 1546 add          []
+stop 1547 push         []
+stop 1548 ldi          [30000]
+stop 154b mod          []
+stop 154c aTop         [122] lifecycleGeneration
+stop 154e ldi          [0]
+stop 1550 aTop         [22] musicRunning
+stop 1552 ldi          [0]
+stop 1554 aTop         [48] transportMode
+stop 1556 ldi          [0]
+stop 1558 aTop         [52] wholeGain
+stop 155a ldi          [0]
+stop 155c aTop         [76] saveGuard
+stop 155e ldi          [0]
+stop 1560 aTop         [78] remapGuard
+stop 1562 ldi          [0]
+stop 1564 aTop         [26] ownedPauseHeld
+stop 1566 ldi          [1]
+stop 1568 ret          []

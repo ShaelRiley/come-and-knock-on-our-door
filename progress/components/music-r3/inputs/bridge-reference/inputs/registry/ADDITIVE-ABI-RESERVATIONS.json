@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "date": "2026-10-06T09:17:00Z",
+  "status": "coordinator reservations for separate reconstructed component sources",
+  "retained_baseline_selectors": {
+    "range": [
+      0,
+      1084
+    ],
+    "authority": "contest-domain-reconstruction-r2/selectors.json"
+  },
+  "current_p05_host": {
+    "occupied_range": [
+      0,
+      1259
+    ],
+    "source": "p05-host-reconstruction/selectors.json",
+    "note": "Final coherent P05 host may add further names; inspect its seal before merge"
+  },
+  "reserved_new_component_selector_ranges": {
+    "P06": [
+      1600,
+      1799
+    ],
+    "P07": [
+      1800,
+      1999
+    ]
+  },
+  "rules": [
+    "Preserve all baseline and final P05 names/IDs during the eventual coherent merge",
+    "Allocate only actual new method/property names; vocabulary holes are not fabricated public selectors",
+    "P07 initial standalone1085..1190 allocation collided with P05 host and is being corrected before sealing",
+    "Future host additions must avoid reserved ranges; every combined source universe is freshly compiled and validated",
+    "Do not splice standalone compiled resources or their vocabularies into production"
+  ],
+  "scripts": {
+    "P06": 987,
+    "P07": 988,
+    "MUS11_additive_transport": 940
+  },
+  "species": {
+    "P06": 9,
+    "P07": 10,
+    "MUS11_additive_transport": "existing MusicTransport species3 only, no new class"
+  },
+  "native_acceptance": false
+}

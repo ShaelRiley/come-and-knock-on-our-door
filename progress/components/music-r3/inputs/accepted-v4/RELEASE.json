@@ -1,0 +1,36 @@
+{
+  "status": "SEALED_R2_VERIFIER_CORRECTION_SOURCE_EMITTED_ONLY",
+  "revision": 2,
+  "archive": "delivery/CaKoOD-MUS11-Editable-Binding-Proof-R2-20261006.zip",
+  "archive_bytes": 8874293,
+  "archive_sha256": "a542831c5454d2322f48bf774a7214a7479e24410e1dea764cef6baf04c1b836",
+  "source_packet_sha256": "9ff74eac0597c3b65a76332b26064a9a781cf5c5bc48b30c5dde90a5253fd705",
+  "source_files": 359,
+  "archive_files": 422,
+  "r1_archive_preserved_sha256": "047d551bfc1f5690fe54fbbe1204cea88ecc4c43518289232993bd4402abd3eb",
+  "aggregate_status_sha256": "c05aae25474bb641f88b2065f961128f3e5c78f20c71dcf8c384ff342aea52ac",
+  "acceptance_schema": 2,
+  "test_outcomes": {
+    "run": 29,
+    "required": 29,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "failures": 0,
+    "errors": 0
+  },
+  "emitted_stack_entry_points": 159,
+  "fail_closed_probes": 13,
+  "source_only_relocated_rebuild": true,
+  "real_tests_and_game_music_source_unchanged": true,
+  "all_eight_compiled_payloads_identical_to_r1": true,
+  "native_executed": false,
+  "listening_accepted": false,
+  "live_host_changed": false,
+  "optional_accents_enabled": false,
+  "handoff_max_cycle_wait_seconds": {
+    "102": 70.718081,
+    "140": 66.00132
+  },
+  "whole_contest_concession": "NON_KO_ENDING_NO_GROAN_ZERO_METERS_OR_KO_ACCENT_AUTHORIZED_BY_TERMINAL_FLAG"
+}

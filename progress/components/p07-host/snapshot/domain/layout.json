@@ -1,0 +1,887 @@
+{
+  "combined_bytes": 11834,
+  "exports": [
+    1532
+  ],
+  "heap_relocation_offset": 1628,
+  "heap_relocations": [
+    1472,
+    1548
+  ],
+  "locals_word_count": 726,
+  "objects": [
+    {
+      "heap_offset": 1456,
+      "is_class": true,
+      "method_table_offset": 86,
+      "methods": [
+        {
+          "code_offset": 398,
+          "selector": "p07Bit",
+          "selector_id": 1808
+        },
+        {
+          "code_offset": 446,
+          "selector": "p07SourceSlot",
+          "selector_id": 1892
+        },
+        {
+          "code_offset": 483,
+          "selector": "p07SourceRecord",
+          "selector_id": 1891
+        },
+        {
+          "code_offset": 520,
+          "selector": "p07Digest",
+          "selector_id": 1831
+        },
+        {
+          "code_offset": 1146,
+          "selector": "p07Header",
+          "selector_id": 1838
+        },
+        {
+          "code_offset": 1397,
+          "selector": "p07LabelRecord",
+          "selector_id": 1850
+        },
+        {
+          "code_offset": 1500,
+          "selector": "p07LookRecord",
+          "selector_id": 1858
+        },
+        {
+          "code_offset": 1603,
+          "selector": "p07UnitCount",
+          "selector_id": 1897
+        },
+        {
+          "code_offset": 2099,
+          "selector": "p07Unit",
+          "selector_id": 1896
+        },
+        {
+          "code_offset": 2575,
+          "selector": "p07WordLT",
+          "selector_id": 1904
+        },
+        {
+          "code_offset": 2612,
+          "selector": "p07NZ",
+          "selector_id": 1861
+        },
+        {
+          "code_offset": 2630,
+          "selector": "p07EQ",
+          "selector_id": 1832
+        },
+        {
+          "code_offset": 2663,
+          "selector": "p07LT",
+          "selector_id": 1848
+        },
+        {
+          "code_offset": 2716,
+          "selector": "p07RawLT",
+          "selector_id": 1879
+        },
+        {
+          "code_offset": 2745,
+          "selector": "p07Copy",
+          "selector_id": 1827
+        },
+        {
+          "code_offset": 2774,
+          "selector": "p07Zero",
+          "selector_id": 1905
+        },
+        {
+          "code_offset": 2792,
+          "selector": "p07Increment",
+          "selector_id": 1840
+        },
+        {
+          "code_offset": 2840,
+          "selector": "p07Reserve",
+          "selector_id": 1883
+        },
+        {
+          "code_offset": 2864,
+          "selector": "p07CopyLive",
+          "selector_id": 1828
+        },
+        {
+          "code_offset": 2894,
+          "selector": "p07Clear",
+          "selector_id": 1820
+        },
+        {
+          "code_offset": 2920,
+          "selector": "p07Result",
+          "selector_id": 1884
+        },
+        {
+          "code_offset": 2956,
+          "selector": "p07AddRecord",
+          "selector_id": 1802
+        },
+        {
+          "code_offset": 3063,
+          "selector": "p07Begin",
+          "selector_id": 1806
+        },
+        {
+          "code_offset": 3171,
+          "selector": "p07Finish",
+          "selector_id": 1833
+        },
+        {
+          "code_offset": 3243,
+          "selector": "p07Commit",
+          "selector_id": 1822
+        },
+        {
+          "code_offset": 3338,
+          "selector": "p07Abort",
+          "selector_id": 1800
+        },
+        {
+          "code_offset": 3400,
+          "selector": "p07StorageUncertain",
+          "selector_id": 1893
+        },
+        {
+          "code_offset": 3433,
+          "selector": "p07OutputWord",
+          "selector_id": 1866
+        },
+        {
+          "code_offset": 3464,
+          "selector": "p07CandidateWord",
+          "selector_id": 1817
+        },
+        {
+          "code_offset": 3497,
+          "selector": "p07CandidateOutput",
+          "selector_id": 1816
+        },
+        {
+          "code_offset": 3529,
+          "selector": "p07Read",
+          "selector_id": 1880
+        },
+        {
+          "code_offset": 3552,
+          "selector": "p07BindSession",
+          "selector_id": 1807
+        },
+        {
+          "code_offset": 3736,
+          "selector": "p07SessionWord",
+          "selector_id": 1888
+        },
+        {
+          "code_offset": 3764,
+          "selector": "p07SetInput",
+          "selector_id": 1889
+        },
+        {
+          "code_offset": 3876,
+          "selector": "p07Match",
+          "selector_id": 1859
+        },
+        {
+          "code_offset": 3970,
+          "selector": "p07PageBegin",
+          "selector_id": 1869
+        },
+        {
+          "code_offset": 4011,
+          "selector": "p07PageWord",
+          "selector_id": 1872
+        },
+        {
+          "code_offset": 4078,
+          "selector": "p07AfterRestore",
+          "selector_id": 1804
+        },
+        {
+          "code_offset": 4149,
+          "selector": "p07Init",
+          "selector_id": 1841
+        },
+        {
+          "code_offset": 4250,
+          "selector": "p07RejectInput",
+          "selector_id": 1882
+        },
+        {
+          "code_offset": 4271,
+          "selector": "p07RangeZero",
+          "selector_id": 1878
+        },
+        {
+          "code_offset": 4304,
+          "selector": "p07Bound",
+          "selector_id": 1809
+        },
+        {
+          "code_offset": 4321,
+          "selector": "p07OrderAdd",
+          "selector_id": 1864
+        },
+        {
+          "code_offset": 4499,
+          "selector": "p07ValidateRow",
+          "selector_id": 1901
+        },
+        {
+          "code_offset": 4870,
+          "selector": "p07Subtract",
+          "selector_id": 1894
+        },
+        {
+          "code_offset": 4962,
+          "selector": "p07Gap",
+          "selector_id": 1835
+        },
+        {
+          "code_offset": 5136,
+          "selector": "p07Chronology",
+          "selector_id": 1818
+        },
+        {
+          "code_offset": 5433,
+          "selector": "p07After",
+          "selector_id": 1803
+        },
+        {
+          "code_offset": 5473,
+          "selector": "p07Validate",
+          "selector_id": 1899
+        },
+        {
+          "code_offset": 6090,
+          "selector": "p07ContextShape",
+          "selector_id": 1825
+        },
+        {
+          "code_offset": 6237,
+          "selector": "p07FlagsWork",
+          "selector_id": 1834
+        },
+        {
+          "code_offset": 6272,
+          "selector": "p07ValidateContext",
+          "selector_id": 1900
+        },
+        {
+          "code_offset": 6470,
+          "selector": "p07Context",
+          "selector_id": 1823
+        },
+        {
+          "code_offset": 6564,
+          "selector": "p07ContextItem",
+          "selector_id": 1824
+        },
+        {
+          "code_offset": 6607,
+          "selector": "p07Guard",
+          "selector_id": 1836
+        },
+        {
+          "code_offset": 6632,
+          "selector": "p07Bunny",
+          "selector_id": 1810
+        },
+        {
+          "code_offset": 6650,
+          "selector": "p07SaveWord",
+          "selector_id": 1887
+        },
+        {
+          "code_offset": 6704,
+          "selector": "p07SaveReady",
+          "selector_id": 1886
+        },
+        {
+          "code_offset": 6737,
+          "selector": "p07LoadBegin",
+          "selector_id": 1851
+        },
+        {
+          "code_offset": 6796,
+          "selector": "p07LoadWord",
+          "selector_id": 1855
+        },
+        {
+          "code_offset": 6901,
+          "selector": "p07LoadCommit",
+          "selector_id": 1853
+        },
+        {
+          "code_offset": 7061,
+          "selector": "p07LoadCancel",
+          "selector_id": 1852
+        },
+        {
+          "code_offset": 7089,
+          "selector": "p07Projection",
+          "selector_id": 1877
+        },
+        {
+          "code_offset": 7392,
+          "selector": "p07Object",
+          "selector_id": 1862
+        },
+        {
+          "code_offset": 7605,
+          "selector": "p07ClearRow",
+          "selector_id": 1821
+        },
+        {
+          "code_offset": 7634,
+          "selector": "p07SourceOutput",
+          "selector_id": 1890
+        },
+        {
+          "code_offset": 7695,
+          "selector": "p07OpenSource",
+          "selector_id": 1863
+        },
+        {
+          "code_offset": 8012,
+          "selector": "p07AcknowledgePage",
+          "selector_id": 1801
+        },
+        {
+          "code_offset": 8303,
+          "selector": "p07CancelSource",
+          "selector_id": 1815
+        },
+        {
+          "code_offset": 8420,
+          "selector": "p07PresentationSignal",
+          "selector_id": 1876
+        },
+        {
+          "code_offset": 8470,
+          "selector": "p07Perform",
+          "selector_id": 1873
+        },
+        {
+          "code_offset": 9489,
+          "selector": "p07UseStove",
+          "selector_id": 1898
+        },
+        {
+          "code_offset": 9522,
+          "selector": "p07Hint",
+          "selector_id": 1839
+        },
+        {
+          "code_offset": 9609,
+          "selector": "p07MeasureChoices",
+          "selector_id": 1860
+        },
+        {
+          "code_offset": 9673,
+          "selector": "p07Look",
+          "selector_id": 1857
+        },
+        {
+          "code_offset": 9847,
+          "selector": "p07Label",
+          "selector_id": 1849
+        },
+        {
+          "code_offset": 9912,
+          "selector": "p07Handoff",
+          "selector_id": 1837
+        }
+      ],
+      "name": "P07State",
+      "properties": [
+        {
+          "index": 0,
+          "raw_value": 4660,
+          "selector": "-objID-",
+          "selector_id": 4096
+        },
+        {
+          "index": 1,
+          "raw_value": 38,
+          "selector": "-size-",
+          "selector_id": 4097
+        },
+        {
+          "index": 2,
+          "raw_value": 10,
+          "selector": "-propDict-",
+          "selector_id": 4098
+        },
+        {
+          "index": 3,
+          "raw_value": 86,
+          "selector": "-methDict-",
+          "selector_id": 4099
+        },
+        {
+          "index": 4,
+          "raw_value": 0,
+          "selector": "-classScript-",
+          "selector_id": 4100
+        },
+        {
+          "index": 5,
+          "raw_value": 10,
+          "selector": "-script-",
+          "selector_id": 4101
+        },
+        {
+          "index": 6,
+          "raw_value": 65535,
+          "selector": "-super-",
+          "selector_id": 4102
+        },
+        {
+          "index": 7,
+          "raw_value": 32768,
+          "selector": "-info-",
+          "selector_id": 4103
+        },
+        {
+          "index": 8,
+          "raw_value": 1610,
+          "selector": "name",
+          "selector_id": 0
+        },
+        {
+          "index": 9,
+          "raw_value": 0,
+          "selector": "p07Initialized",
+          "selector_id": 1842
+        },
+        {
+          "index": 10,
+          "raw_value": 0,
+          "selector": "p07Ready",
+          "selector_id": 1881
+        },
+        {
+          "index": 11,
+          "raw_value": 0,
+          "selector": "p07Busy",
+          "selector_id": 1814
+        },
+        {
+          "index": 12,
+          "raw_value": 0,
+          "selector": "p07Uncertain",
+          "selector_id": 1895
+        },
+        {
+          "index": 13,
+          "raw_value": 0,
+          "selector": "p07Loading",
+          "selector_id": 1856
+        },
+        {
+          "index": 14,
+          "raw_value": 0,
+          "selector": "p07LoadIndex",
+          "selector_id": 1854
+        },
+        {
+          "index": 15,
+          "raw_value": 0,
+          "selector": "p07ContextValid",
+          "selector_id": 1826
+        },
+        {
+          "index": 16,
+          "raw_value": 0,
+          "selector": "p07Room",
+          "selector_id": 1885
+        },
+        {
+          "index": 17,
+          "raw_value": 0,
+          "selector": "p07Apron",
+          "selector_id": 1805
+        },
+        {
+          "index": 18,
+          "raw_value": 0,
+          "selector": "p07Plan",
+          "selector_id": 1874
+        },
+        {
+          "index": 19,
+          "raw_value": 0,
+          "selector": "p07Introduction",
+          "selector_id": 1847
+        },
+        {
+          "index": 20,
+          "raw_value": 0,
+          "selector": "p07Claims",
+          "selector_id": 1819
+        },
+        {
+          "index": 21,
+          "raw_value": 0,
+          "selector": "p07BunnyRoom",
+          "selector_id": 1813
+        },
+        {
+          "index": 22,
+          "raw_value": 0,
+          "selector": "p07BunnyApron",
+          "selector_id": 1811
+        },
+        {
+          "index": 23,
+          "raw_value": 0,
+          "selector": "p07BunnyInvited",
+          "selector_id": 1812
+        },
+        {
+          "index": 24,
+          "raw_value": 0,
+          "selector": "p07Owner",
+          "selector_id": 1867
+        },
+        {
+          "index": 25,
+          "raw_value": 0,
+          "selector": "p07OwnerRoom",
+          "selector_id": 1868
+        },
+        {
+          "index": 26,
+          "raw_value": 0,
+          "selector": "p07InputReady",
+          "selector_id": 1845
+        },
+        {
+          "index": 27,
+          "raw_value": 0,
+          "selector": "p07InputSource",
+          "selector_id": 1846
+        },
+        {
+          "index": 28,
+          "raw_value": 0,
+          "selector": "p07InputHi",
+          "selector_id": 1843
+        },
+        {
+          "index": 29,
+          "raw_value": 0,
+          "selector": "p07InputLo",
+          "selector_id": 1844
+        },
+        {
+          "index": 30,
+          "raw_value": 0,
+          "selector": "p07PageIndex",
+          "selector_id": 1870
+        },
+        {
+          "index": 31,
+          "raw_value": 0,
+          "selector": "p07PageReady",
+          "selector_id": 1871
+        },
+        {
+          "index": 32,
+          "raw_value": 0,
+          "selector": "p07DiffHi",
+          "selector_id": 1829
+        },
+        {
+          "index": 33,
+          "raw_value": 0,
+          "selector": "p07DiffLo",
+          "selector_id": 1830
+        },
+        {
+          "index": 34,
+          "raw_value": 0,
+          "selector": "p07OrderCount",
+          "selector_id": 1865
+        },
+        {
+          "index": 35,
+          "raw_value": 0,
+          "selector": "p07Possible",
+          "selector_id": 1875
+        },
+        {
+          "index": 36,
+          "raw_value": 0,
+          "selector": "p07Vertices",
+          "selector_id": 1903
+        },
+        {
+          "index": 37,
+          "raw_value": 0,
+          "selector": "p07ValidationSteps",
+          "selector_id": 1902
+        }
+      ],
+      "property_count": 38,
+      "property_selector_offset": 10,
+      "species": 10,
+      "superclass": 65535
+    },
+    {
+      "heap_offset": 1532,
+      "is_class": false,
+      "method_table_offset": 396,
+      "methods": [],
+      "name": "p07State",
+      "properties": [
+        {
+          "index": 0,
+          "raw_value": 4660,
+          "selector": "-objID-",
+          "selector_id": 4096
+        },
+        {
+          "index": 1,
+          "raw_value": 38,
+          "selector": "-size-",
+          "selector_id": 4097
+        },
+        {
+          "index": 2,
+          "raw_value": 396,
+          "selector": "-propDict-",
+          "selector_id": 4098
+        },
+        {
+          "index": 3,
+          "raw_value": 396,
+          "selector": "-methDict-",
+          "selector_id": 4099
+        },
+        {
+          "index": 4,
+          "raw_value": 0,
+          "selector": "-classScript-",
+          "selector_id": 4100
+        },
+        {
+          "index": 5,
+          "raw_value": 65535,
+          "selector": "-script-",
+          "selector_id": 4101
+        },
+        {
+          "index": 6,
+          "raw_value": 10,
+          "selector": "-super-",
+          "selector_id": 4102
+        },
+        {
+          "index": 7,
+          "raw_value": 0,
+          "selector": "-info-",
+          "selector_id": 4103
+        },
+        {
+          "index": 8,
+          "raw_value": 1619,
+          "selector": "name",
+          "selector_id": 0
+        },
+        {
+          "index": 9,
+          "raw_value": 0,
+          "selector": "p07Initialized",
+          "selector_id": 1842
+        },
+        {
+          "index": 10,
+          "raw_value": 0,
+          "selector": "p07Ready",
+          "selector_id": 1881
+        },
+        {
+          "index": 11,
+          "raw_value": 0,
+          "selector": "p07Busy",
+          "selector_id": 1814
+        },
+        {
+          "index": 12,
+          "raw_value": 0,
+          "selector": "p07Uncertain",
+          "selector_id": 1895
+        },
+        {
+          "index": 13,
+          "raw_value": 0,
+          "selector": "p07Loading",
+          "selector_id": 1856
+        },
+        {
+          "index": 14,
+          "raw_value": 0,
+          "selector": "p07LoadIndex",
+          "selector_id": 1854
+        },
+        {
+          "index": 15,
+          "raw_value": 0,
+          "selector": "p07ContextValid",
+          "selector_id": 1826
+        },
+        {
+          "index": 16,
+          "raw_value": 0,
+          "selector": "p07Room",
+          "selector_id": 1885
+        },
+        {
+          "index": 17,
+          "raw_value": 0,
+          "selector": "p07Apron",
+          "selector_id": 1805
+        },
+        {
+          "index": 18,
+          "raw_value": 0,
+          "selector": "p07Plan",
+          "selector_id": 1874
+        },
+        {
+          "index": 19,
+          "raw_value": 0,
+          "selector": "p07Introduction",
+          "selector_id": 1847
+        },
+        {
+          "index": 20,
+          "raw_value": 0,
+          "selector": "p07Claims",
+          "selector_id": 1819
+        },
+        {
+          "index": 21,
+          "raw_value": 0,
+          "selector": "p07BunnyRoom",
+          "selector_id": 1813
+        },
+        {
+          "index": 22,
+          "raw_value": 0,
+          "selector": "p07BunnyApron",
+          "selector_id": 1811
+        },
+        {
+          "index": 23,
+          "raw_value": 0,
+          "selector": "p07BunnyInvited",
+          "selector_id": 1812
+        },
+        {
+          "index": 24,
+          "raw_value": 0,
+          "selector": "p07Owner",
+          "selector_id": 1867
+        },
+        {
+          "index": 25,
+          "raw_value": 0,
+          "selector": "p07OwnerRoom",
+          "selector_id": 1868
+        },
+        {
+          "index": 26,
+          "raw_value": 0,
+          "selector": "p07InputReady",
+          "selector_id": 1845
+        },
+        {
+          "index": 27,
+          "raw_value": 0,
+          "selector": "p07InputSource",
+          "selector_id": 1846
+        },
+        {
+          "index": 28,
+          "raw_value": 0,
+          "selector": "p07InputHi",
+          "selector_id": 1843
+        },
+        {
+          "index": 29,
+          "raw_value": 0,
+          "selector": "p07InputLo",
+          "selector_id": 1844
+        },
+        {
+          "index": 30,
+          "raw_value": 0,
+          "selector": "p07PageIndex",
+          "selector_id": 1870
+        },
+        {
+          "index": 31,
+          "raw_value": 0,
+          "selector": "p07PageReady",
+          "selector_id": 1871
+        },
+        {
+          "index": 32,
+          "raw_value": 0,
+          "selector": "p07DiffHi",
+          "selector_id": 1829
+        },
+        {
+          "index": 33,
+          "raw_value": 0,
+          "selector": "p07DiffLo",
+          "selector_id": 1830
+        },
+        {
+          "index": 34,
+          "raw_value": 0,
+          "selector": "p07OrderCount",
+          "selector_id": 1865
+        },
+        {
+          "index": 35,
+          "raw_value": 0,
+          "selector": "p07Possible",
+          "selector_id": 1875
+        },
+        {
+          "index": 36,
+          "raw_value": 0,
+          "selector": "p07Vertices",
+          "selector_id": 1903
+        },
+        {
+          "index": 37,
+          "raw_value": 0,
+          "selector": "p07ValidationSteps",
+          "selector_id": 1902
+        }
+      ],
+      "property_count": 38,
+      "property_selector_offset": 396,
+      "species": 65535,
+      "superclass": 10
+    }
+  ],
+  "script_relocation_offset": 10196,
+  "script_relocations": [
+    8
+  ],
+  "strings_start": 1610
+}

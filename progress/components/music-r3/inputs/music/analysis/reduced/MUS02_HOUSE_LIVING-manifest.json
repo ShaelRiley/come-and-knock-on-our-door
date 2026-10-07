@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS02_HOUSE_LIVING",
+  "resource_id": 102,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS02_HOUSE_LIVING.mid",
+  "native_payload_path": "native/reduced/102.sound.bin",
+  "sha256": {
+    "midi": "6b7fb6e7c1028de5f34066d09055d3d207d7505996777cac5bd5516e0a055ca8",
+    "native": "9cc2bb0924b0cb0f034b51f07be23da6ad5a2f6984084b4c44887c761add386e"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

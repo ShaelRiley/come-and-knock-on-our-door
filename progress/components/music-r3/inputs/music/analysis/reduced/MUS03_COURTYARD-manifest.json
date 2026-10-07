@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS03_COURTYARD",
+  "resource_id": 106,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS03_COURTYARD.mid",
+  "native_payload_path": "native/reduced/106.sound.bin",
+  "sha256": {
+    "midi": "964032f6993e13bf1025845e5e8c05642b6f9e2a3444fde28221cda8eaee302a",
+    "native": "0354544e54856f7467dab262792cc885f4b99616d830ec90b2889a81dccaa732"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

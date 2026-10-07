@@ -1,0 +1,102 @@
+{
+  "classification": "New original courtyard reconstruction, not recovered historical art",
+  "stage": [
+    320,
+    144
+  ],
+  "caption_rows": [
+    0,
+    43
+  ],
+  "hud_start": 144,
+  "background_resource_proposed": 305,
+  "prop_resource_proposed": 228,
+  "architecture": {
+    "house_arch": [
+      8,
+      15,
+      58,
+      112
+    ],
+    "hatch": [
+      77,
+      33,
+      122,
+      67
+    ],
+    "sound_wall": [
+      131,
+      18,
+      209,
+      90
+    ],
+    "concealed_alcove": [
+      218,
+      22,
+      273,
+      100
+    ],
+    "side_gate": [
+      280,
+      25,
+      314,
+      114
+    ]
+  },
+  "unique_audience_edge": [
+    306,
+    119,
+    320,
+    144
+  ],
+  "lane": [
+    22,
+    128,
+    300,
+    143
+  ],
+  "zones": {
+    "HATCH": [
+      65,
+      68,
+      133,
+      122
+    ],
+    "WALL": [
+      139,
+      49,
+      211,
+      112
+    ],
+    "ALCOVE": [
+      217,
+      51,
+      277,
+      120
+    ],
+    "LANE": [
+      30,
+      128,
+      301,
+      143
+    ]
+  },
+  "initial_pa_staging": "P05 original hardware cels except cart/listeners with x shift -4; slate separate at90,91; distinct UNPLACED state",
+  "clean_background_constraints": [
+    "no characters",
+    "no PA",
+    "no screen",
+    "no tables",
+    "no carrier",
+    "no slate",
+    "no displayed ceramic panel",
+    "no pot",
+    "no baked festival dressings"
+  ],
+  "gates": [
+    "static validation only",
+    "native real-input/render/save untested",
+    "creative review pending"
+  ],
+  "status": "Pre-generation planning only; superseded by geometry-manifest.json and host-integration.json"
+}

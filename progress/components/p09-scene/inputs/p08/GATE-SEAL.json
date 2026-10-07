@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "EXACT_NEGATIVE_GATE_EVIDENCE",
+  "source_seal_sha256": "178ac164365cf4f809029e6b945f2991cfb695121286c4eb797e2d770827a7b2",
+  "output_seal_sha256": "7daeb982aabedc51cf96db005edbc62d7a8b65fe75c4d6019f5b229e193d8551",
+  "files": {
+    "evidence/negative-checks.json": "243bf52d3785db0db2bd1f56246e6fef90b51b9be0ffb12d4218ef8817b7b776",
+    "evidence/portability.json": "eee6f8e3ae44e19e9c6bc259593d7913c3ea3e3aa524c814b84e0531773bffc8",
+    "evidence/static-generation.log": "b569e06505b138c4781bb4eb44730fc1ea8d1ecb0719eaa24cb67519ac460136",
+    "evidence/tests-final.log": "964789f71491508f9ef1969ee10366ca9b824f0c472bd078ddf3fc8c2ac582af"
+  },
+  "native_acceptance": false
+}

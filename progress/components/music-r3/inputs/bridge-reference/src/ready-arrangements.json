@@ -1,0 +1,59 @@
+{
+  "status": "SEPARATELY_NAMED_NEW_ARRANGEMENTS_NOT_REPLACEMENTS",
+  "policy": "Preserve every source attack, pitch, velocity, channel, role and controller event exactly. Only shorten explicit phrase-ending note releases to create an authored breath. No note is removed, re-attacked, transposed or delayed. These are audible new articulation candidates requiring audition; originals remain exact.",
+  "arrangements": [
+    {
+      "resource_id": 151,
+      "source_resource": 102,
+      "name": "MUS02_HOUSE_TRANSITION_READY_CANDIDATE",
+      "boundaries": [
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        132
+      ],
+      "breath_beats": 0.27,
+      "rationale": "HOME's eight-beat harmonic clauses are F/Em7/Am7, Dm7/Gm11, Cmaj7/E7, then Am7/Ab7/Gm7/C7. A new phrase-ending release and breath makes those clauses independently redirectable. The original E carry into the next F statement is explicitly replaced with a phrase-ending release in this new arrangement. Four-beat turnaround132 is the existing full-cycle boundary, not a new per-bar policy."
+    },
+    {
+      "resource_id": 152,
+      "source_resource": 140,
+      "name": "MUS11_CONTEST_TRANSITION_READY_CANDIDATE",
+      "boundaries": [
+        8,
+        16.5,
+        24,
+        32,
+        40,
+        48.5,
+        56,
+        64,
+        72,
+        78,
+        84,
+        88,
+        96,
+        104,
+        112.5,
+        120,
+        128,
+        132
+      ],
+      "breath_beats": 0.35,
+      "rationale": "PRESENTATION_B's eight-beat call/answer clauses get an authored duration-only release and breath. The final quarter-beat flourishes remain intact; use the next tonic arrival before16.5/48.5/112.5 instead of16/48/112. In the sustained TOGETHER_A middle, use72,78,84,88 instead of cutting the long C at80:72 follows the C7(b9) phrase,78 is the actual Eb/G-to-Abmaj7 boundary,84 follows the first Bb9sus4 answer,88 is the authored C7 link. The78-to83 sustained C is preserved in full."
+    }
+  ]
+}

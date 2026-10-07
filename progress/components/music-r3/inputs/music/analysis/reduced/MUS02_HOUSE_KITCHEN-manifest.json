@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS02_HOUSE_KITCHEN",
+  "resource_id": 103,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS02_HOUSE_KITCHEN.mid",
+  "native_payload_path": "native/reduced/103.sound.bin",
+  "sha256": {
+    "midi": "64bdb502b9836f038f28f6aed97f8be486fcdb82fdc18e84fa6c5a16a476856e",
+    "native": "d0eefc3ee9c8050cd409f7febff8b5c2c31f2c0e3ebd884aa0e3ef367c021db8"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

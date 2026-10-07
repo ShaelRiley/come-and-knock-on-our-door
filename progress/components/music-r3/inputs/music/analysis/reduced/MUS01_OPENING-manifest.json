@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS01_OPENING",
+  "resource_id": 100,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS01_OPENING.mid",
+  "native_payload_path": "native/reduced/100.sound.bin",
+  "sha256": {
+    "midi": "e2211daf8a81de4533ec58dae439c618e834011b53d997ebdeadb02d723696d6",
+    "native": "acd6fd009a0d395291a38f48debf16b87a22c24cd6cd279229b6ea7ff45a5091"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

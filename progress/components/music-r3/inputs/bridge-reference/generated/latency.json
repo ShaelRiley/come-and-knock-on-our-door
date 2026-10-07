@@ -1,0 +1,27 @@
+{
+  "status": "BOUNDED_CANDIDATE_NOT_RESPONSIVE_SHIPPING_SOLUTION",
+  "rows": [
+    {
+      "source": 102,
+      "target": 140,
+      "worst_wait_seconds": 17.183677,
+      "max_bridge_seconds": 2.300046,
+      "target_authored_startup_seconds": 0.200004,
+      "worst_request_to_target_first_attack_seconds": 19.683726999999998
+    },
+    {
+      "source": 140,
+      "target": 102,
+      "worst_wait_seconds": 12.033574,
+      "max_bridge_seconds": 2.250045,
+      "target_authored_startup_seconds": 0.200004,
+      "worst_request_to_target_first_attack_seconds": 14.483623
+    }
+  ],
+  "assumptions": [
+    "Active playback, not paused/muted/chooser/restore",
+    "Current generation stays unchanged",
+    "Host frame polling no slower than2 native ticks",
+    "Native atomic retire/start and release tails remain unproved"
+  ]
+}

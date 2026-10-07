@@ -1,0 +1,63 @@
+{
+  "scope": "actual emitted Main writeSave/readSave, mocked native chooser cancellation only",
+  "cases": [
+    {
+      "method": "writeSave",
+      "kernel_calls": [
+        {
+          "kernel": "SaveGame",
+          "args": [
+            0,
+            -1,
+            0
+          ],
+          "chooser": 1,
+          "pauses": 1,
+          "volume": 0,
+          "position": 6
+        }
+      ],
+      "chooser_after": 0,
+      "same_parser": true,
+      "parser_pauses": 0,
+      "starts": 1,
+      "domain_unchanged": true,
+      "whole": 61,
+      "unavailable": 0
+    },
+    {
+      "method": "readSave",
+      "kernel_calls": [
+        {
+          "kernel": "RestoreGame",
+          "args": [
+            0,
+            -1,
+            0
+          ],
+          "chooser": 1,
+          "pauses": 1,
+          "volume": 0,
+          "position": 6
+        }
+      ],
+      "chooser_after": 0,
+      "same_parser": true,
+      "parser_pauses": 0,
+      "starts": 1,
+      "domain_unchanged": true,
+      "whole": 61,
+      "unavailable": 0
+    },
+    {
+      "method": "generation-exhaustion-next-gate",
+      "request_return": 0,
+      "poll_return": 1,
+      "owner": 148,
+      "desired": 152,
+      "unavailable": 9,
+      "retirements_before": 0,
+      "retirements_after": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "cases": [
+    "test_transactions.Transactions.test_ack_serial_storage_reserved_before_first_commit",
+    "test_transactions.Transactions.test_atomic_owners_order_moves_and_both_original_padding_variants",
+    "test_transactions.Transactions.test_domain_methods_selectors_and_compiler_budget_preserved",
+    "test_transactions.Transactions.test_output_reservation_failure_aborts_without_publication",
+    "test_transactions.Transactions.test_real_campaign_loss_loss_preparation_and_actor_mapping",
+    "test_transactions.Transactions.test_reentry_and_uncertain_publication_lock_campaign_actions",
+    "test_cloth.Cloth.test_alias_and_preexisting_diagnostics_reject_unchanged",
+    "test_cloth.Cloth.test_carry_across_rooms_wedge_hint_and_later_layout",
+    "test_cloth.Cloth.test_existing_p06_held_props_survive_old_publishers",
+    "test_cloth.Cloth.test_measured_hook_keyboard_two_noun_and_original_cels",
+    "test_cloth.Cloth.test_method_template_guard_rejects_prior_discarded_tail",
+    "test_cloth.Cloth.test_original_take_return_and_all_legacy_publishers",
+    "test_cloth.Cloth.test_post_publication_inventory_mismatch_locks_actions",
+    "test_cloth.Cloth.test_real_early_plan_reservations_remain_valid",
+    "test_cloth.Cloth.test_roster_capacity_and_reservation_fail_before_publication"
+  ]
+}

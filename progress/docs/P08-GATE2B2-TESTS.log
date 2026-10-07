@@ -1,0 +1,60 @@
+test_ack_serial_storage_reserved_before_first_commit (test_transactions.Transactions.test_ack_serial_storage_reserved_before_first_commit) ... P01 room 1 steps 914944
+P02 room 1 steps 2653725
+P03 room 6 steps 4369111
+P04 room 3 steps 6052285
+P05 + VC01 loss room 5 steps 10513094
+P06 + VC02 loss room 0 steps 16165604
+P07 room 2 steps 17517201
+P08 genuine admission room 4 steps 18778437
+P01 room 1 steps 898776
+P02 room 1 steps 2575242
+P03 room 6 steps 4230606
+P04 room 3 steps 5833309
+P05 + VC01 loss room 5 steps 10221239
+P06 + VC02 loss room 0 steps 15786079
+P07 room 2 steps 17099426
+P08 genuine admission room 4 steps 18326904
+ok
+test_atomic_owners_order_moves_and_both_original_padding_variants (test_transactions.Transactions.test_atomic_owners_order_moves_and_both_original_padding_variants) ... P01 room 1 steps 914944
+P02 room 1 steps 2653725
+P03 room 6 steps 4367915
+P04 room 3 steps 6051273
+P05 + VC01 loss room 5 steps 10512222
+P06 + VC02 loss room 0 steps 16164880
+P07 room 2 steps 17516513
+P08 genuine admission room 4 steps 18777789
+P01 room 1 steps 898776
+P02 room 1 steps 2575242
+P03 room 6 steps 4229398
+P04 room 3 steps 5832101
+P05 + VC01 loss room 5 steps 10220031
+P06 + VC02 loss room 0 steps 15784863
+P07 room 2 steps 17098170
+P08 genuine admission room 4 steps 18325648
+ok
+test_domain_methods_selectors_and_compiler_budget_preserved (test_transactions.Transactions.test_domain_methods_selectors_and_compiler_budget_preserved) ... ok
+test_native_completed_screen_and_courtyard_plan_keep_distinct_routes (test_transactions.Transactions.test_native_completed_screen_and_courtyard_plan_keep_distinct_routes) ... ok
+test_output_reservation_failure_aborts_without_publication (test_transactions.Transactions.test_output_reservation_failure_aborts_without_publication) ... ok
+test_real_campaign_loss_loss_preparation_and_actor_mapping (test_transactions.Transactions.test_real_campaign_loss_loss_preparation_and_actor_mapping) ... ok
+test_reentry_and_uncertain_publication_lock_campaign_actions (test_transactions.Transactions.test_reentry_and_uncertain_publication_lock_campaign_actions) ... ok
+test_alias_and_preexisting_diagnostics_reject_unchanged (test_cloth.Cloth.test_alias_and_preexisting_diagnostics_reject_unchanged) ... ok
+test_carry_across_rooms_wedge_hint_and_later_layout (test_cloth.Cloth.test_carry_across_rooms_wedge_hint_and_later_layout) ... ok
+test_existing_p06_held_props_survive_old_publishers (test_cloth.Cloth.test_existing_p06_held_props_survive_old_publishers) ... ok
+test_measured_hook_keyboard_two_noun_and_original_cels (test_cloth.Cloth.test_measured_hook_keyboard_two_noun_and_original_cels) ... ok
+test_method_template_guard_rejects_prior_discarded_tail (test_cloth.Cloth.test_method_template_guard_rejects_prior_discarded_tail) ... ok
+test_original_take_return_and_all_legacy_publishers (test_cloth.Cloth.test_original_take_return_and_all_legacy_publishers) ... ok
+test_post_publication_inventory_mismatch_locks_actions (test_cloth.Cloth.test_post_publication_inventory_mismatch_locks_actions) ... ok
+test_real_early_plan_reservations_remain_valid (test_cloth.Cloth.test_real_early_plan_reservations_remain_valid) ... ok
+test_roster_capacity_and_reservation_fail_before_publication (test_cloth.Cloth.test_roster_capacity_and_reservation_fail_before_publication) ... ok
+test_genuine_early_plan_save_restore_keeps_reservation_holes (test_restore.Restore.test_genuine_early_plan_save_restore_keeps_reservation_holes) ... ok
+test_mid_restore_actions_and_later_owner_failure_stay_locked (test_restore.Restore.test_mid_restore_actions_and_later_owner_failure_stay_locked) ... ok
+test_ordinary_save_load_preserves_both_cloth_places (test_restore.Restore.test_ordinary_save_load_preserves_both_cloth_places) ... ok
+test_raw_corruption_rejected_before_inventory_publication (test_restore.Restore.test_raw_corruption_rejected_before_inventory_publication) ... ok
+test_save_restore_cancel_failure_and_retry_keep_ownership (test_restore.Restore.test_save_restore_cancel_failure_and_retry_keep_ownership) ... ok
+test_unimplemented_host_histories_reject_even_when_domain_valid (test_restore.Restore.test_unimplemented_host_histories_reject_even_when_domain_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 760.904s
+
+OK
+{"binding_sha256": "81ce8f20be62993eb0902cad4867b05b6d09097f9924cbdf0af0d9cb00285f38", "completed_cases": 22, "expected_cases": 22, "native_acceptance": false, "status": "PASS"}

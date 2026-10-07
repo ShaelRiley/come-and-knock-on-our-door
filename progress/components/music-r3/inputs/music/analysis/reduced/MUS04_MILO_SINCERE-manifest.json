@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS04_MILO_SINCERE",
+  "resource_id": 108,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS04_MILO_SINCERE.mid",
+  "native_payload_path": "native/reduced/108.sound.bin",
+  "sha256": {
+    "midi": "b094a4288f362e167bf38a3e8c82fee9bb4d1d1e02b1ad8c67abff86c6e53ab8",
+    "native": "005abbf926d639692e959f7f2f743169f805f49273bb96037cdf1472910b30a1"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

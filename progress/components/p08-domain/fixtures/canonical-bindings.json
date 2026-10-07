@@ -1,0 +1,613 @@
+{
+  "purpose": "P08 stable ID/hash provenance only. Current approved full catalog owns player words.",
+  "editorial_revision": 3,
+  "catalog_sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+  "speech_sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+  "gdd_sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+  "records": {
+    "P08.SCENE.001": {
+      "text_sha256": "be16990840250ed83051b889a99dfffd53d16d2617e2f302acfc6431e5f2737d",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "All five preparation branches complete",
+        "Competing activities cannot occupy principal doorway",
+        "Layout solved from demonstrated plans"
+      ],
+      "speech_units": [
+        "P08.SCENE.001.01",
+        "P08.SCENE.001.02",
+        "P08.SCENE.001.03",
+        "P08.SCENE.001.04",
+        "P08.SCENE.001.05",
+        "P08.SCENE.001.06"
+      ],
+      "speech_speakers": {
+        "P08.SCENE.001.01": "jack",
+        "P08.SCENE.001.02": "bunny",
+        "P08.SCENE.001.03": "frankie",
+        "P08.SCENE.001.04": "bunny",
+        "P08.SCENE.001.05": "frankie",
+        "P08.SCENE.001.06": "jack"
+      }
+    },
+    "P08.LABEL.001": {
+      "text_sha256": "47cf4d475aa27b7d6cf4e21895014125f190d0b663846a6459959ba51334d215",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Protected through-traffic lane clearly marked by chevrons"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.001": {
+      "text_sha256": "0df26984985e37fa50411749a19c51a1fe27fca76c967d105c5faa0a3c9ce78a",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Protected through-traffic lane clearly marked by chevrons"
+      ],
+      "speech_units": [
+        "P08.LOOK.001.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.001.01": "jack"
+      }
+    },
+    "P08.LABEL.002": {
+      "text_sha256": "fa32abe4b14c17882069615b7646b7db620e2147cdca6ead15f3c1cf97063c42",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Matching tray icon and hatch footprint designate buffet"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.002": {
+      "text_sha256": "df8af8074480db2f1538334d5aa447c1b66a00342dacafa24d66f0b8d116461a",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Matching tray icon and hatch footprint designate buffet"
+      ],
+      "speech_units": [
+        "P08.LOOK.002.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.002.01": "jack"
+      }
+    },
+    "P08.LABEL.003": {
+      "text_sha256": "4ba09f03921361da3a34f539b9f735377fb89c7714200e237785b427a0b6449e",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Sound icon; correct inward orientation"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.003": {
+      "text_sha256": "e9a0241a5a639020ff9bf7e6df91ee8115eb673562308f79127ea15c9a2c50f9",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Sound icon; correct inward orientation"
+      ],
+      "speech_units": [
+        "P08.LOOK.003.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.003.01": "jack"
+      }
+    },
+    "P08.LABEL.004": {
+      "text_sha256": "b3807eb03d550da2fbd3570f9aba72a129b7468787d8e9902a4d9bd52e93276e",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Panel-shaped footprint and correct concealment side"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.004": {
+      "text_sha256": "765acefd1fa1d3f1ef080725345a4f9c65ea1d7f7ed2595120b2ba5d56b6d685",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Panel-shaped footprint and correct concealment side"
+      ],
+      "speech_units": [
+        "P08.LOOK.004.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.004.01": "jack"
+      }
+    },
+    "P08.LABEL.005": {
+      "text_sha256": "f0d0947e206d634e3e633ff7b759b3488c9567e38f67f569e733fcd4e1823ed9",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Existing table moved with Push/Pull into hatch footprint"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.005": {
+      "text_sha256": "edffcde775abe25f8fb08a20b285bbb6ba97c646fe602b09cbbc01bb60c5a998",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Existing table moved with Push/Pull into hatch footprint"
+      ],
+      "speech_units": [
+        "P08.LOOK.005.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.005.01": "jack"
+      }
+    },
+    "P08.LABEL.006": {
+      "text_sha256": "4fca9e36bfb61f9f890f83ce58741cf89af879695810feeb8ecaab73568f252a",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Matching icon and visible service sightline"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.006": {
+      "text_sha256": "1ed7aff02ae0d2106cb38a34036dc69971a673b113ec1557fe10049dc146217d",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Matching icon and visible service sightline"
+      ],
+      "speech_units": [
+        "P08.LOOK.006.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.006.01": "jack"
+      }
+    },
+    "P08.LABEL.007": {
+      "text_sha256": "06019911c4b8f11726ce2092fceebf64a18ce391a03465d275751712686b55e6",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Overlay exposes three final layout conditions",
+        "Protected lane kept clear"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.LOOK.007": {
+      "text_sha256": "61051c237045d215ec30d815687ed82b2d03cd107470a2ae5318b7050e4c7693",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Overlay exposes three final layout conditions",
+        "Protected lane kept clear"
+      ],
+      "speech_units": [
+        "P08.LOOK.007.01"
+      ],
+      "speech_speakers": {
+        "P08.LOOK.007.01": "jack"
+      }
+    },
+    "P08.READ.001": {
+      "text_sha256": "536977476d01b8070a0f7acc4f49c7b5ec1d45ca29cb5ad061e1c509c43965a0",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Use prior demonstrated circulation evidence"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.READ.002": {
+      "text_sha256": "96d2ecb4e582496902956015c0d5d3109df3be30d675cc6d3f2efe294317fb54",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Use approved prior sightline solution, no new puzzle condition"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.READ.003": {
+      "text_sha256": "76e73bf17bc00b32fe5d654b86b783b969e5e0019b22d5cedab5df5338f19c9d",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Named generous positions remove pixel hunting",
+        "Symbols and spatial conditions plain"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.SUCCESS.001": {
+      "text_sha256": "fef1a753862217a2f4c4077f8ebdcb1b9d0c22c2ab96bfd9744021fe87afe6bc",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Carrier correctly placed at hatch-side buffet"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.001.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.001.01": "jack"
+      }
+    },
+    "P08.SUCCESS.002": {
+      "text_sha256": "4bdc8976b3b4699d97ca1e190dbf83140a52cc2ee87a45ec123dda7b90c69eeb",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Unpacking releases carrier padding",
+        "Do not consume towel or tiles"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.002.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.002.01": "jack"
+      }
+    },
+    "P08.SYSTEM.001": {
+      "text_sha256": "a3af1d1adc2ebd4c32c816e1e3aa57de4890e094a715e7c35cdc6e7441feb11f",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Canonical towel recovery at P08 unpacking"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.SYSTEM.002": {
+      "text_sha256": "bf70c8804957e383c9a6fb02a3cec6f9ff0824b4f73156ab2b70a5a1346e3c7c",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Preserve equivalent P03 clean-napkin padding recovery during same existing unpacking action"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.SUCCESS.003": {
+      "text_sha256": "38616e7064d3b71238ec27c91e5b39b53daba821ed203735a1d6b63d6dc36605",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "PA at wall spot with correct orientation"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.003.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.003.01": "jack"
+      }
+    },
+    "P08.SUCCESS.004": {
+      "text_sha256": "e6df6f1afe2afa28fcafbd88b471bb81c1bc1c99e7cb5ebda3462b87a83f536c",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Correct screen position preserves through-route and hatch sightline"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.004.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.004.01": "jack"
+      }
+    },
+    "P08.SUCCESS.005": {
+      "text_sha256": "8ee00a90b426c09cc7bf8a087e30ddf73359c1bcca94e02adf10c85aa38a2fa2",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Push is an accepted existing table-position verb"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.005.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.005.01": "jack"
+      }
+    },
+    "P08.SUCCESS.006": {
+      "text_sha256": "8ee00a90b426c09cc7bf8a087e30ddf73359c1bcca94e02adf10c85aa38a2fa2",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Pull is an accepted existing table-position verb"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.006.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.006.01": "jack"
+      }
+    },
+    "P08.SUCCESS.007": {
+      "text_sha256": "dbdb85d4bacdec44a647f2b41ca1a8e6a74a43e3636596a49c7d4f2761fb4821",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Credit slate publicly displayed at buffet"
+      ],
+      "speech_units": [
+        "P08.SUCCESS.007.01"
+      ],
+      "speech_speakers": {
+        "P08.SUCCESS.007.01": "jack"
+      }
+    },
+    "P08.READ.004": {
+      "text_sha256": "a7d6a0019468db46fbac78fc4600de5844cb11e218e9605d3f868b320badfd25",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Retain exact P03 corrected credit at public display"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.FAILURE.001": {
+      "text_sha256": "edd1578f9eb8ff797b71a067101420c5c56b24dcc6ba6569c339d6918ee5f7e8",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Explain blocked gate consequence",
+        "Placement reversible and no pixel precision"
+      ],
+      "speech_units": [
+        "P08.FAILURE.001.01"
+      ],
+      "speech_speakers": {
+        "P08.FAILURE.001.01": "jack"
+      }
+    },
+    "P08.FAILURE.002": {
+      "text_sha256": "feb11e24a490f05081728e717f2ab2f6c6a8c80df0be95d0333101acedb18df3",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Explain specific blocked service sightline",
+        "Reversible screen move"
+      ],
+      "speech_units": [
+        "P08.FAILURE.002.01"
+      ],
+      "speech_speakers": {
+        "P08.FAILURE.002.01": "jack"
+      }
+    },
+    "P08.FAILURE.003": {
+      "text_sha256": "d94b910b3f19d1c15e296286d06fd92bdfb280bb520b040e7f6cce053d1f91e9",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Explain wrong sound direction",
+        "Correct inward direction clear"
+      ],
+      "speech_units": [
+        "P08.FAILURE.003.01"
+      ],
+      "speech_speakers": {
+        "P08.FAILURE.003.01": "jack"
+      }
+    },
+    "P08.FAILURE.004": {
+      "text_sha256": "c1b7d5ca8fd464688158b3200a97ae389c4d8bec27dc5f2a69163aba9168c3a2",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Display visible too early is specific placement failure",
+        "Benevolent concealment purpose retained"
+      ],
+      "speech_units": [
+        "P08.FAILURE.004.01"
+      ],
+      "speech_speakers": {
+        "P08.FAILURE.004.01": "jack"
+      }
+    },
+    "P08.SYSTEM.003": {
+      "text_sha256": "6659e5725813429d407aefb368d90a30d4c141165719854400ecd3f9bf758358",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Three final placements and protected traffic route exposed",
+        "No new condition or position"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.DIALOGUE.001": {
+      "text_sha256": "bd2eb10815fe24f1cffb254d7a9f6b80c73bcd5b1d5e70ac7a7817fd5e4da276",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Space works after correct layout",
+        "Invitation promises converge on single event",
+        "Rita reveal remains after meal and at her chosen presentation"
+      ],
+      "speech_units": [
+        "P08.DIALOGUE.001.01",
+        "P08.DIALOGUE.001.02",
+        "P08.DIALOGUE.001.03",
+        "P08.DIALOGUE.001.04",
+        "P08.DIALOGUE.001.05",
+        "P08.DIALOGUE.001.06"
+      ],
+      "speech_speakers": {
+        "P08.DIALOGUE.001.01": "jack",
+        "P08.DIALOGUE.001.02": "frankie",
+        "P08.DIALOGUE.001.03": "bunny",
+        "P08.DIALOGUE.001.04": "jack",
+        "P08.DIALOGUE.001.05": "bunny",
+        "P08.DIALOGUE.001.06": "frankie"
+      }
+    },
+    "P08.CHOICE.001": {
+      "text_sha256": "ed7d928b10b8559869422a3985c09156064224fb2cbde99b0d298fff0bb4f8e8",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Exact readiness choice precedes explicit confirmable transition"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.DIALOGUE.002": {
+      "text_sha256": "d165627868da2710f410e993c65affde68cba32ad7483b02cee400cee0301bc2",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Read short practical checklist",
+        "All prerequisites complete; does not silently trigger evening"
+      ],
+      "speech_units": [
+        "P08.DIALOGUE.002.01",
+        "P08.DIALOGUE.002.02",
+        "P08.DIALOGUE.002.03"
+      ],
+      "speech_speakers": {
+        "P08.DIALOGUE.002.01": "frankie",
+        "P08.DIALOGUE.002.02": "jack",
+        "P08.DIALOGUE.002.03": "frankie"
+      }
+    },
+    "P08.SYSTEM.004": {
+      "text_sha256": "1f3a57a888593ba60d690fe5a85c37b1aec5761b05e385c2d585e8150214c669",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Explicit player consent sets EVENING_STARTED",
+        "Explain NPC movement and continued essential access",
+        "Autosave before transition"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.CHOICE.002": {
+      "text_sha256": "aaeea0876e7b48e524e4b5be0bc2f97e23fd0542564d5ca37326b0498df5b44a",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Explicit confirmation authorizes phase transition"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.CHOICE.003": {
+      "text_sha256": "083fe3a109f53871e01cc1f52110c432d0ebf116456f6da84cec71510190467a",
+      "speaker_id": "jack",
+      "source_obligations": [
+        "Confirmable transition allows remaining in preparation",
+        "No new task or condition introduced"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.SYSTEM.005": {
+      "text_sha256": "2882f6f4cd9efba8a077787626636fec20217789980acd5795714b4a469c0cf8",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Decline preserves preparation state without essential losses"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.SYSTEM.006": {
+      "text_sha256": "0e44b72642759522242538268b35ef7882fda06a76f5c7c49e09ac078c0774c3",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Autosave precedes phase change",
+        "LAYOUT_READY then EVENING_STARTED only after explicit readiness"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.HINT.1": {
+      "text_sha256": "1fd8eae988525192110c0d2020d37978aac97d3b3cb9b49c40b5618d05842dc4",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Separate position and clear-route requirements"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.HINT.2": {
+      "text_sha256": "64f56c03fe47eb96b952029d8cae37d60131bd12a3fb36177e9d25f7318d9f8e",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Plain symbol matching and protected lane"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    },
+    "P08.HINT.3": {
+      "text_sha256": "33c21465cb4eeb98ef437dd7645a336fbd07292dd6d2559955ffd897fcb5c001",
+      "speaker_id": "text",
+      "source_obligations": [
+        "Full canonical placement and explicit readiness"
+      ],
+      "speech_units": [],
+      "speech_speakers": {}
+    }
+  },
+  "proposed_native_object_ids": {
+    "116": "gate_lane",
+    "117": "buffet_position",
+    "118": "speaker_position",
+    "119": "display_alcove",
+    "120": "serving_table",
+    "121": "kitchen_hatch",
+    "122": "plan_overlay",
+    "123": "placement_symbols"
+  },
+  "reserved_native_object_ids": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+  ],
+  "editorial_laugh_metadata": {
+    "P08.SCENE.001.05": {
+      "strength": 2,
+      "beat": "after_line",
+      "canonical_cue_id": null,
+      "canonical_binding_role": null,
+      "double_fire_allowed": false,
+      "editorial_only": true,
+      "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+    },
+    "P08.LOOK.005.01": {
+      "strength": 1,
+      "beat": "after_line",
+      "canonical_cue_id": null,
+      "canonical_binding_role": null,
+      "double_fire_allowed": false,
+      "editorial_only": true,
+      "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+    },
+    "P08.FAILURE.001.01": {
+      "strength": 1,
+      "beat": "after_line",
+      "canonical_cue_id": null,
+      "canonical_binding_role": null,
+      "double_fire_allowed": false,
+      "editorial_only": true,
+      "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+    },
+    "P08.FAILURE.003.01": {
+      "strength": 1,
+      "beat": "after_line",
+      "canonical_cue_id": null,
+      "canonical_binding_role": null,
+      "double_fire_allowed": false,
+      "editorial_only": true,
+      "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+    },
+    "P08.FAILURE.004.01": {
+      "strength": 1,
+      "beat": "after_line",
+      "canonical_cue_id": null,
+      "canonical_binding_role": null,
+      "double_fire_allowed": false,
+      "editorial_only": true,
+      "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+    }
+  },
+  "reused_native_object_ids": {
+    "circulation_plan": 53,
+    "sightline_plan": 84,
+    "ceramic_carrier": 34,
+    "ceramic_service": 36,
+    "credit_slate": 40,
+    "pa_kit": 73,
+    "completed_screen": 83,
+    "clean_towel": 39,
+    "clean_napkin": 38,
+    "hotpot_pot": 103,
+    "frankie": 8,
+    "bunny": 2
+  },
+  "source_aliases": {
+    "sightline_plan": "courtyard_plan"
+  }
+}

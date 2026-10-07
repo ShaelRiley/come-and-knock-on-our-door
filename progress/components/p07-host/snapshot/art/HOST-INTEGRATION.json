@@ -1,0 +1,48 @@
+{
+  "classification": "mergeable art contract only, no gameplay implementation",
+  "compile_rule": "Eventual host compiles all accepted sources coherently; do not splice this standalone resource.map",
+  "objects": {
+    "hotpot_recipe": 1,
+    "bean_tomato_base": 2,
+    "vegetable_bowl": 3,
+    "stock_bottle": 4,
+    "measuring_jug": 5,
+    "herb_sachet": 6,
+    "hotpot_pot": 7,
+    "pot_lid": 8,
+    "stove": 9
+  },
+  "global_payloads": "Assigned by coordinator starting86; local enums1\u20139 are not global object IDs",
+  "projections": {
+    "heat_on": "p07Projection(2)",
+    "lid_closed": "p07Projection(3)",
+    "tasting_bowls": "p07Projection(4)",
+    "full_suppers": "p07Projection(5), must0",
+    "contents": "p07Projection(7):base1,stock2,vegetables4,herbs8",
+    "foreign_pot": "p07Projection(8) plus admitted campaign owner map",
+    "cooked": "p07Read(12) or p07Read(13), both uint16 limbs",
+    "heat_off": "p07Read(14) or p07Read(15), both uint16 limbs",
+    "pot_existence": "p07Object(7,0)",
+    "lid_existence": "p07Object(8,0)",
+    "jug_location": "p07Object(5,1):6 empty,7 measured8"
+  },
+  "commit_boundary": "Only render committed, validated domain plus campaign projection. Candidate art must be reserved/validated in host transaction before publication. Never mutate receipt or owner state from layer names.",
+  "render_rules": [
+    "Pot uses the same origin[63,65] while cooking and kitchen_waiting",
+    "After genuine P13 owner-map transaction, pot and lid omitted; clean-stove plate remains",
+    "Do not place a pot in inventory or courtyard as part of this package",
+    "Ingredients remain visible fixtures; domain controls availability/refillability",
+    "Actual campaign Bunny location and current feet determine drawing. No invitation/location updates",
+    "Keep p03 controls and accepted DrawCel routes unchanged. Preserve source-reader/HUD precedence",
+    "Exact recipe source must be displayed through accepted native reader before real acknowledgment; detail-art render is not acknowledgment",
+    "Only use the side-lid hit target while beside_hotpot; closed lid uses[66,65,90,72] with precedence over pot. Remove both pot/lid controls after genuine P13 ownership."
+  ],
+  "remaining_gates": [
+    "Native stock-ScummVM coherent host integration",
+    "Actual controls and walk approaches",
+    "Native actor overlap, clipping and occlusion",
+    "Reader full-page display receipts",
+    "save/load/interruption atomicity",
+    "Genuine later P13 eligibility and handoff"
+  ]
+}

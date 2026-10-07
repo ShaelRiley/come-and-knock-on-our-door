@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "garage Milo non-occluding automatic approach",
+  "file": "src/module985.sc",
+  "class": "P05State",
+  "method": "hApproachX",
+  "before": "(method (hApproachX obj)\n(if (or (== obj 27) (== obj 24)) (return 74))\n\n    (switch obj\n        (2 (return 268)) (28 (return 100))\n        (17 (return 29))\n        (9 (return 303))\n        (63 (return 169))\n        (64 (return 157))\n        (65 (return 121))\n        (66 (return 193))\n        (67 (return 233))\n        (68 (return 218))\n        (70 (return 151))\n        (71 (return 108))\n        (72 (return 78))\n        (69 (return (if (== hSelectedMark 2) 285 else 268))))\n    (return 149))",
+  "after": "(method (hApproachX obj)\n(if (or (== obj 27) (== obj 24)) (return 74))\n\n    (switch obj\n        (2 (return 268)) (28 (return 62))\n        (17 (return 29))\n        (9 (return 303))\n        (63 (return 169))\n        (64 (return 157))\n        (65 (return 121))\n        (66 (return 193))\n        (67 (return 233))\n        (68 (return 218))\n        (70 (return 151))\n        (71 (return 108))\n        (72 (return 78))\n        (69 (return (if (== hSelectedMark 2) 285 else 268))))\n    (return 149))",
+  "original_feet": [
+    100,
+    139
+  ],
+  "target_feet": [
+    62,
+    139
+  ],
+  "fixed_Milo_feet": [
+    100,
+    129
+  ],
+  "Milo_scale": 116,
+  "Jackie_scale": 127,
+  "required_geometry_method_sha256": {
+    "hApproachY": "3878f37e6261f18e832d6017bbf8162cc83e42959fe366646afab3dc2a29d0bb",
+    "hDrawActor": "9015bfa9661975a35514ee1ce7061e0b5b7fa91bb1f2ba081cd1e899f80fd383",
+    "hRenderWorld": "e740fbd11f505c90ce90d714fa8cb3facc82677a907c347f95e67485e73a30a7",
+    "hWorldControls": "452490a8e963aa5bb10ff6e9ae281cc3aa08a75feeee3f73ec1416af4d13d581",
+    "hGarageBackdrop": "bc5fc90d5d1a51ce0b66d6781f90cdd3bdf45ef633eca6e747a6fb5eff8f856c"
+  },
+  "native_acceptance": false,
+  "guard_policy": "Only named method changes. Geometry dependencies must match. Composition must rerun focused checks and native presentation review. Unrelated current source methods are preserved. Main is never replaced."
+}

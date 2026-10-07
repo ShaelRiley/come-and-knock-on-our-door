@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS06_SUPPER_PRESSURE",
+  "resource_id": 112,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS06_SUPPER_PRESSURE.mid",
+  "native_payload_path": "native/reduced/112.sound.bin",
+  "sha256": {
+    "midi": "100d772d763df1c8d34ca2f6d8935b41ddad98ebf2b709d04da1611f4ac4701b",
+    "native": "1c4cae6ea860f142f458927b2d5192b3b59664646ca9d01bf08585551c7324a7"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

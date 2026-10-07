@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS07_RESCUE_COORDINATED",
+  "resource_id": 114,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS07_RESCUE_COORDINATED.mid",
+  "native_payload_path": "native/reduced/114.sound.bin",
+  "sha256": {
+    "midi": "f3c283b3fcba708e3830eb022dff7fd0bec5e2ab2d8e7fd1120748327257e2d5",
+    "native": "7ffe51a10c74772610377f4c46853666661cfe47e8b6c6c3c87293f3bd00a3e6"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

@@ -1,0 +1,260 @@
+[
+  {
+    "name": "acquirePause",
+    "parameter_count": 0,
+    "code_offset": 344,
+    "instruction_count": 68
+  },
+  {
+    "name": "releasePause",
+    "parameter_count": 0,
+    "code_offset": 467,
+    "instruction_count": 30
+  },
+  {
+    "name": "finishPauseResume",
+    "parameter_count": 0,
+    "code_offset": 521,
+    "instruction_count": 87
+  },
+  {
+    "name": "setPaused",
+    "parameter_count": 1,
+    "code_offset": 681,
+    "instruction_count": 41
+  },
+  {
+    "name": "setWholeTarget",
+    "parameter_count": 1,
+    "code_offset": 758,
+    "instruction_count": 16
+  },
+  {
+    "name": "readCivil",
+    "parameter_count": 0,
+    "code_offset": 787,
+    "instruction_count": 36
+  },
+  {
+    "name": "nextCivilDate",
+    "parameter_count": 1,
+    "code_offset": 845,
+    "instruction_count": 112
+  },
+  {
+    "name": "civilDelta",
+    "parameter_count": 2,
+    "code_offset": 1030,
+    "instruction_count": 37
+  },
+  {
+    "name": "clockFresh",
+    "parameter_count": 1,
+    "code_offset": 1101,
+    "instruction_count": 25
+  },
+  {
+    "name": "anchorPosition",
+    "parameter_count": 1,
+    "code_offset": 1147,
+    "instruction_count": 11
+  },
+  {
+    "name": "rawPosition",
+    "parameter_count": 0,
+    "code_offset": 1170,
+    "instruction_count": 67
+  },
+  {
+    "name": "recoverGap",
+    "parameter_count": 1,
+    "code_offset": 1284,
+    "instruction_count": 133
+  },
+  {
+    "name": "anchorClock",
+    "parameter_count": 1,
+    "code_offset": 1531,
+    "instruction_count": 7
+  },
+  {
+    "name": "holdSilent",
+    "parameter_count": 0,
+    "code_offset": 1548,
+    "instruction_count": 12
+  },
+  {
+    "name": "beginHistory",
+    "parameter_count": 0,
+    "code_offset": 1571,
+    "instruction_count": 59
+  },
+  {
+    "name": "failHistory",
+    "parameter_count": 1,
+    "code_offset": 1697,
+    "instruction_count": 12
+  },
+  {
+    "name": "windowAt",
+    "parameter_count": 1,
+    "code_offset": 1722,
+    "instruction_count": 29
+  },
+  {
+    "name": "observeHistory",
+    "parameter_count": 1,
+    "code_offset": 1776,
+    "instruction_count": 253
+  },
+  {
+    "name": "readPosition",
+    "parameter_count": 0,
+    "code_offset": 2253,
+    "instruction_count": 147
+  },
+  {
+    "name": "gainAt",
+    "parameter_count": 1,
+    "code_offset": 2521,
+    "instruction_count": 13
+  },
+  {
+    "name": "targetAt",
+    "parameter_count": 1,
+    "code_offset": 2543,
+    "instruction_count": 13
+  },
+  {
+    "name": "requestState",
+    "parameter_count": 1,
+    "code_offset": 2565,
+    "instruction_count": 46
+  },
+  {
+    "name": "expressionAt",
+    "parameter_count": 2,
+    "code_offset": 2650,
+    "instruction_count": 50
+  },
+  {
+    "name": "clearMutedBed",
+    "parameter_count": 0,
+    "code_offset": 2745,
+    "instruction_count": 28
+  },
+  {
+    "name": "rebuildControllers",
+    "parameter_count": 1,
+    "code_offset": 2796,
+    "instruction_count": 75
+  },
+  {
+    "name": "beginRejoin",
+    "parameter_count": 0,
+    "code_offset": 2951,
+    "instruction_count": 43
+  },
+  {
+    "name": "start",
+    "parameter_count": 2,
+    "code_offset": 3034,
+    "instruction_count": 134
+  },
+  {
+    "name": "setMuted",
+    "parameter_count": 1,
+    "code_offset": 3290,
+    "instruction_count": 61
+  },
+  {
+    "name": "beforeFrozenSave",
+    "parameter_count": 0,
+    "code_offset": 3403,
+    "instruction_count": 31
+  },
+  {
+    "name": "afterFrozenSave",
+    "parameter_count": 0,
+    "code_offset": 3459,
+    "instruction_count": 31
+  },
+  {
+    "name": "afterFrozenRestore",
+    "parameter_count": 0,
+    "code_offset": 3517,
+    "instruction_count": 111
+  },
+  {
+    "name": "beforeSave",
+    "parameter_count": 0,
+    "code_offset": 3726,
+    "instruction_count": 50
+  },
+  {
+    "name": "afterSave",
+    "parameter_count": 0,
+    "code_offset": 3820,
+    "instruction_count": 62
+  },
+  {
+    "name": "afterRestore",
+    "parameter_count": 0,
+    "code_offset": 3935,
+    "instruction_count": 63
+  },
+  {
+    "name": "notifyRemap",
+    "parameter_count": 0,
+    "code_offset": 4052,
+    "instruction_count": 22
+  },
+  {
+    "name": "finishRemap",
+    "parameter_count": 0,
+    "code_offset": 4092,
+    "instruction_count": 32
+  },
+  {
+    "name": "retryRejoin",
+    "parameter_count": 0,
+    "code_offset": 4149,
+    "instruction_count": 20
+  },
+  {
+    "name": "expireRejoin",
+    "parameter_count": 0,
+    "code_offset": 4185,
+    "instruction_count": 21
+  },
+  {
+    "name": "tryRejoin",
+    "parameter_count": 0,
+    "code_offset": 4224,
+    "instruction_count": 250
+  },
+  {
+    "name": "ramp",
+    "parameter_count": 1,
+    "code_offset": 4682,
+    "instruction_count": 181
+  },
+  {
+    "name": "refreshCurrentGains",
+    "parameter_count": 0,
+    "code_offset": 5024,
+    "instruction_count": 60
+  },
+  {
+    "name": "poll",
+    "parameter_count": 0,
+    "code_offset": 5134,
+    "instruction_count": 152
+  },
+  {
+    "name": "stop",
+    "parameter_count": 0,
+    "code_offset": 5414,
+    "instruction_count": 35
+  }
+]

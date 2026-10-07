@@ -1,0 +1,908 @@
+{
+  "resource_id": 148,
+  "name": "BRIDGE_HOME_CADENCE_TO_CONTEST",
+  "source_family": 102,
+  "target_family": 140,
+  "beats": 4,
+  "swing": 0.6,
+  "tempo_map": [
+    [
+      0,
+      112
+    ],
+    [
+      1.75,
+      116
+    ],
+    [
+      3.5,
+      120
+    ]
+  ],
+  "harmony": [
+    [
+      0,
+      "Am7",
+      9,
+      [
+        60,
+        67
+      ]
+    ],
+    [
+      0.25,
+      "Ab7",
+      8,
+      [
+        54,
+        60
+      ]
+    ],
+    [
+      0.75,
+      "Gm7",
+      7,
+      [
+        58,
+        65
+      ]
+    ],
+    [
+      1.75,
+      "C7",
+      0,
+      [
+        58,
+        64
+      ]
+    ]
+  ],
+  "source_fragment": {
+    "manifest": "MUS02_HOUSE_LIVING-manifest.json",
+    "source_ids": [
+      2043,
+      2058,
+      2065
+    ],
+    "offset": 26,
+    "time_scale": 0.5,
+    "channel": 3,
+    "velocity_scale": 0.85
+  },
+  "rationale": "The HOME ending actually uses Am7, Ab7, Gm7 and C7, with Eb-D-E melody. Its three-note cadential fragment is uniformly condensed by 1/2 into a one-bar connector. C7's E/Bb shell is the common dominant of the two F families; it resolves into unchanged140's Fm7. A 112/116/120 BPM pivot carries the home pocket into the contest grid.",
+  "bass": [
+    [
+      0,
+      0.2,
+      45,
+      57
+    ],
+    [
+      0.25,
+      0.42,
+      44,
+      57
+    ],
+    [
+      0.75,
+      0.8,
+      43,
+      58
+    ],
+    [
+      1.75,
+      0.8,
+      36,
+      61
+    ],
+    [
+      3,
+      0.55,
+      43,
+      55
+    ]
+  ],
+  "comp": [
+    [
+      0,
+      0.16,
+      0,
+      44
+    ],
+    [
+      0.25,
+      0.2,
+      1,
+      46
+    ],
+    [
+      0.75,
+      0.32,
+      2,
+      49
+    ],
+    [
+      1.75,
+      0.4,
+      3,
+      49
+    ],
+    [
+      3,
+      0.22,
+      3,
+      43
+    ]
+  ],
+  "kit": [
+    [
+      0,
+      36,
+      42
+    ],
+    [
+      0,
+      42,
+      23
+    ],
+    [
+      1,
+      42,
+      22
+    ],
+    [
+      1,
+      37,
+      25
+    ],
+    [
+      2,
+      42,
+      24
+    ],
+    [
+      2,
+      36,
+      42
+    ],
+    [
+      3,
+      42,
+      23
+    ],
+    [
+      3,
+      37,
+      24
+    ],
+    [
+      3.5,
+      42,
+      18
+    ]
+  ],
+  "notes": [
+    {
+      "beat": 0.9729166666666667,
+      "duration": 0.1892083333333332,
+      "unswung_beat": 0.5,
+      "unswung_duration": 0.2365104166666665,
+      "channel": 3,
+      "pitch": 75,
+      "velocity": 59,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS02_HOUSE_LIVING-manifest.json",
+        "source_note": {
+          "beat": 27.372916666666665,
+          "duration": 0.5676249999999996,
+          "unswung_beat": 27.0,
+          "unswung_duration": 0.473020833333333,
+          "channel": 3,
+          "pitch": 75,
+          "velocity": 69,
+          "source": {
+            "motif": "HOME_A",
+            "stem": "B01S06",
+            "source_note_id": 2043,
+            "source_pitch": 75,
+            "source_beat": 139.91666666666666,
+            "source_duration": 0.4979166666666667,
+            "transposition": 0,
+            "source_grid_beat": 27.0,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 112.93541666666667,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 0.5,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 1.1729166666666666,
+      "duration": 0.9871791666666669,
+      "unswung_beat": 0.75,
+      "unswung_duration": 0.9839739583333333,
+      "channel": 3,
+      "pitch": 74,
+      "velocity": 59,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS02_HOUSE_LIVING-manifest.json",
+        "source_note": {
+          "beat": 27.972916666666666,
+          "duration": 1.9615374999999986,
+          "unswung_beat": 27.5,
+          "unswung_duration": 1.9679479166666667,
+          "channel": 3,
+          "pitch": 74,
+          "velocity": 69,
+          "source": {
+            "motif": "HOME_A",
+            "stem": "B01S06",
+            "source_note_id": 2058,
+            "source_pitch": 74,
+            "source_beat": 140.41458333333333,
+            "source_duration": 1.9979166666666666,
+            "transposition": 0,
+            "source_grid_beat": 27.5,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 112.93541666666667,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 0.5,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 2.1729166666666666,
+      "duration": 1.626906250000002,
+      "unswung_beat": 1.75,
+      "unswung_duration": 1.6057552083333348,
+      "channel": 3,
+      "pitch": 76,
+      "velocity": 56,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS02_HOUSE_LIVING-manifest.json",
+        "source_note": {
+          "beat": 29.972916666666666,
+          "duration": 3.1692083333333407,
+          "unswung_beat": 29.5,
+          "unswung_duration": 3.2115104166666697,
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 66,
+          "source": {
+            "motif": "HOME_A",
+            "stem": "B01S06",
+            "source_note_id": 2065,
+            "source_pitch": 76,
+            "source_beat": 142.4125,
+            "source_duration": 3.2604166666666665,
+            "transposition": 0,
+            "source_grid_beat": 29.5,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 112.93541666666667,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 0.5,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 0.3729166666666667,
+      "duration": 0.24,
+      "unswung_beat": 0,
+      "unswung_duration": 0.2,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 57,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 0.6729166666666666,
+      "duration": 0.43599999999999994,
+      "unswung_beat": 0.25,
+      "unswung_duration": 0.42,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 57,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 1.1729166666666666,
+      "duration": 0.8400000000000003,
+      "unswung_beat": 0.75,
+      "unswung_duration": 0.8,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 58,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 2.1729166666666666,
+      "duration": 0.8399999999999999,
+      "unswung_beat": 1.75,
+      "unswung_duration": 0.8,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 61,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 3.372916666666667,
+      "duration": 0.6399999999999997,
+      "unswung_beat": 3,
+      "unswung_duration": 0.55,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 55,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 0.3729166666666667,
+      "duration": 0.19200000000000006,
+      "unswung_beat": 0,
+      "unswung_duration": 0.16,
+      "channel": 1,
+      "pitch": 60,
+      "velocity": 44,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Am7"
+      }
+    },
+    {
+      "beat": 0.3729166666666667,
+      "duration": 0.19200000000000006,
+      "unswung_beat": 0,
+      "unswung_duration": 0.16,
+      "channel": 1,
+      "pitch": 67,
+      "velocity": 44,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Am7"
+      }
+    },
+    {
+      "beat": 0.6729166666666666,
+      "duration": 0.2400000000000001,
+      "unswung_beat": 0.25,
+      "unswung_duration": 0.2,
+      "channel": 1,
+      "pitch": 54,
+      "velocity": 46,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Ab7"
+      }
+    },
+    {
+      "beat": 0.6729166666666666,
+      "duration": 0.2400000000000001,
+      "unswung_beat": 0.25,
+      "unswung_duration": 0.2,
+      "channel": 1,
+      "pitch": 60,
+      "velocity": 46,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Ab7"
+      }
+    },
+    {
+      "beat": 1.1729166666666666,
+      "duration": 0.28400000000000025,
+      "unswung_beat": 0.75,
+      "unswung_duration": 0.32,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 49,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Gm7"
+      }
+    },
+    {
+      "beat": 1.1729166666666666,
+      "duration": 0.28400000000000025,
+      "unswung_beat": 0.75,
+      "unswung_duration": 0.32,
+      "channel": 1,
+      "pitch": 65,
+      "velocity": 49,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Gm7"
+      }
+    },
+    {
+      "beat": 2.1729166666666666,
+      "duration": 0.3799999999999999,
+      "unswung_beat": 1.75,
+      "unswung_duration": 0.4,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 49,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 2.1729166666666666,
+      "duration": 0.3799999999999999,
+      "unswung_beat": 1.75,
+      "unswung_duration": 0.4,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 49,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 3.372916666666667,
+      "duration": 0.26400000000000023,
+      "unswung_beat": 3,
+      "unswung_duration": 0.22,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 43,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 3.372916666666667,
+      "duration": 0.26400000000000023,
+      "unswung_beat": 3,
+      "unswung_duration": 0.22,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 43,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 0.3729166666666667,
+      "duration": 0.10799999999999998,
+      "unswung_beat": 0,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 42,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 0.3729166666666667,
+      "duration": 0.10799999999999998,
+      "unswung_beat": 0,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 1.3729166666666668,
+      "duration": 0.1080000000000001,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 22,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 1.3729166666666668,
+      "duration": 0.1080000000000001,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 25,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 2.372916666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 2,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 2.372916666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 2,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 42,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.372916666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 3,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.372916666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 3,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 24,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.972916666666667,
+      "duration": 0.07199999999999962,
+      "unswung_beat": 3.5,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 18,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "name": "BASS",
+      "channel": 0,
+      "program": 33,
+      "volume": 110,
+      "pan": 64,
+      "voices": 1
+    },
+    {
+      "name": "KEYS",
+      "channel": 1,
+      "program": 4,
+      "volume": 107,
+      "pan": 49,
+      "voices": 2
+    },
+    {
+      "name": "TEXTURE",
+      "channel": 2,
+      "program": 48,
+      "volume": 0,
+      "pan": 75,
+      "voices": 2
+    },
+    {
+      "name": "LEAD",
+      "channel": 3,
+      "program": 59,
+      "volume": 112,
+      "pan": 55,
+      "voices": 1
+    },
+    {
+      "name": "REPLY",
+      "channel": 4,
+      "program": 59,
+      "volume": 0,
+      "pan": 75,
+      "voices": 1
+    },
+    {
+      "name": "GUITAR",
+      "channel": 5,
+      "program": 27,
+      "volume": 0,
+      "pan": 82,
+      "voices": 2
+    },
+    {
+      "name": "ACCENT",
+      "channel": 6,
+      "program": 11,
+      "volume": 0,
+      "pan": 40,
+      "voices": 2
+    },
+    {
+      "name": "KIT",
+      "channel": 9,
+      "program": 0,
+      "volume": 98,
+      "pan": 64,
+      "voices": 4
+    }
+  ],
+  "native_notes": [
+    {
+      "channel": 0,
+      "on": 12,
+      "off": 20,
+      "pitch": 45,
+      "velocity": 57
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 18,
+      "pitch": 60,
+      "velocity": 44
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 18,
+      "pitch": 67,
+      "velocity": 44
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 36,
+      "velocity": 42
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 0,
+      "on": 22,
+      "off": 36,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 1,
+      "on": 22,
+      "off": 29,
+      "pitch": 54,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 22,
+      "off": 29,
+      "pitch": 60,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 31,
+      "off": 37,
+      "pitch": 75,
+      "velocity": 59
+    },
+    {
+      "channel": 0,
+      "on": 38,
+      "off": 65,
+      "pitch": 43,
+      "velocity": 58
+    },
+    {
+      "channel": 1,
+      "on": 38,
+      "off": 47,
+      "pitch": 58,
+      "velocity": 49
+    },
+    {
+      "channel": 1,
+      "on": 38,
+      "off": 47,
+      "pitch": 65,
+      "velocity": 49
+    },
+    {
+      "channel": 3,
+      "on": 38,
+      "off": 69,
+      "pitch": 74,
+      "velocity": 59
+    },
+    {
+      "channel": 9,
+      "on": 44,
+      "off": 48,
+      "pitch": 37,
+      "velocity": 25
+    },
+    {
+      "channel": 9,
+      "on": 44,
+      "off": 48,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 70,
+      "off": 96,
+      "pitch": 36,
+      "velocity": 61
+    },
+    {
+      "channel": 1,
+      "on": 70,
+      "off": 82,
+      "pitch": 58,
+      "velocity": 49
+    },
+    {
+      "channel": 1,
+      "on": 70,
+      "off": 82,
+      "pitch": 64,
+      "velocity": 49
+    },
+    {
+      "channel": 3,
+      "on": 70,
+      "off": 120,
+      "pitch": 76,
+      "velocity": 56
+    },
+    {
+      "channel": 9,
+      "on": 76,
+      "off": 79,
+      "pitch": 36,
+      "velocity": 42
+    },
+    {
+      "channel": 9,
+      "on": 76,
+      "off": 79,
+      "pitch": 42,
+      "velocity": 24
+    },
+    {
+      "channel": 0,
+      "on": 107,
+      "off": 127,
+      "pitch": 43,
+      "velocity": 55
+    },
+    {
+      "channel": 1,
+      "on": 107,
+      "off": 115,
+      "pitch": 58,
+      "velocity": 43
+    },
+    {
+      "channel": 1,
+      "on": 107,
+      "off": 115,
+      "pitch": 64,
+      "velocity": 43
+    },
+    {
+      "channel": 9,
+      "on": 107,
+      "off": 110,
+      "pitch": 37,
+      "velocity": 24
+    },
+    {
+      "channel": 9,
+      "on": 107,
+      "off": 110,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 9,
+      "on": 126,
+      "off": 128,
+      "pitch": 42,
+      "velocity": 18
+    }
+  ],
+  "loop": null,
+  "one_shot": true,
+  "first_attack": 12,
+  "last_keyoff": 128,
+  "end_tick": 138,
+  "duration_seconds": 2.300046,
+  "max_held_notes": 6,
+  "per_channel_peak": {
+    "0": 1,
+    "1": 2,
+    "9": 2,
+    "3": 1
+  },
+  "controller_guard": [
+    6,
+    8
+  ],
+  "midi_sha256": "24648a9561259dc0fa5aef26c3469537dbac77db7de1e3f3c3dc87714afcab89",
+  "native_sha256": "eb5d3966caf9930fe34eb83dffdb9377fd80ac265dae0cb0c1087af877c0c0dc",
+  "maximum_quantization_error_us": 7807.3625,
+  "native_runtime_tested": false,
+  "listening_accepted": false,
+  "release_tail_silence_proven": false
+}

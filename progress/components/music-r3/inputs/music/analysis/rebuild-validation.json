@@ -1,0 +1,9 @@
+{
+  "status": "ARCHIVE_EXTRACTION_AND_REBUILD_COMPONENT_PASS",
+  "structural_tests": 16,
+  "full_midi_hashes_reproduced": 38,
+  "full_native_payload_hashes_reproduced": 38,
+  "reduced_generation_executed": 30,
+  "scope": "Extracted compact production archive into isolated temporary folder; ran main, contest and reduced generators using bundled original source evidence and accepted reference; all indexed full MIDI/native hashes matched. No runtime/audio playback or human listening claim.",
+  "score_index_sha256": "435628d53ee83b9e725f14c3a67b9f57ee50d66585c77a336104a9a8f9c09df2"
+}

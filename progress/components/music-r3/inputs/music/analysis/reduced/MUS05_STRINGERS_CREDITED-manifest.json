@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS05_STRINGERS_CREDITED",
+  "resource_id": 110,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS05_STRINGERS_CREDITED.mid",
+  "native_payload_path": "native/reduced/110.sound.bin",
+  "sha256": {
+    "midi": "db8c9b0ce90b6cc4f3ff73106c6927ce99a18f88e2c236d09f84de359ec99745",
+    "native": "147ad03dd4e684625dd6db34463bc902bf207ecedc563694dc7b6a8dfb27e335"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

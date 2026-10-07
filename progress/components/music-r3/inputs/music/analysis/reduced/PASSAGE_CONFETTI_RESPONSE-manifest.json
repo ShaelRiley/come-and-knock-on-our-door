@@ -1,0 +1,25 @@
+{
+  "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+  "resource_id": 128,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/PASSAGE_CONFETTI_RESPONSE.mid",
+  "native_payload_path": "native/reduced/128.sound.bin",
+  "sha256": {
+    "midi": "eaa39f65d97a0b6fcab74789ed86ebc42bf0c1b3b2517c1e3d45071aea3e50c6",
+    "native": "c4cb987e71f6b2e301f29ab04c307bc7a93f8d955cb4304aedd260a624c5da0d"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

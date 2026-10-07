@@ -1,0 +1,1390 @@
+{
+  "records": [
+    {
+      "id": "P08.SCENE.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "scene",
+      "trigger": "Begin courtyard fitting after P03–P07 are complete",
+      "text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "Everything’s ready. The buffet should be the first thing the guests see."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "I should be the first thing. I invited them."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "And their first step lands where? The buffet, sound and display can’t all have the doorway. Doorways are for walking."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "You stand in them when you’re right."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "So everybody hears. Now let’s leave this one clear."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Right. The plans show where everything fits."
+        }
+      ],
+      "source_obligations": [
+        "All five preparation branches complete",
+        "Competing activities cannot occupy principal doorway",
+        "Layout solved from demonstrated plans"
+      ],
+      "source_ref": "P08-source.txt:2 (Prerequisites and obstacle); P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "2477e4e67231fbdbb4a86166ec26a711e3e4cc4278d50eda1f3483e495f6d94a",
+      "speaker_id": "jack",
+      "text_sha256": "be16990840250ed83051b889a99dfffd53d16d2617e2f302acfc6431e5f2737d",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "e26de5367ff77146fbd4370d42952f07c831a10004183477621e0bfa1ee2af63",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing gate-to-house lane",
+      "text": "Gate-to-house lane",
+      "source_obligations": [
+        "Protected through-traffic lane clearly marked by chevrons"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "0c0b2b2b09a317c470df8a9891d862acb709f72c0e115a8d2e0be09ce307a10c",
+      "speaker_id": "text",
+      "text_sha256": "47cf4d475aa27b7d6cf4e21895014125f190d0b663846a6459959ba51334d215",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing gate-to-house lane",
+      "text": "Chevrons mark the clear gate-to-house lane. Guests must be able to get past the first person who wants to explain something.",
+      "source_obligations": [
+        "Protected through-traffic lane clearly marked by chevrons"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "0c0b2b2b09a317c470df8a9891d862acb709f72c0e115a8d2e0be09ce307a10c",
+      "speaker_id": "jack",
+      "text_sha256": "0df26984985e37fa50411749a19c51a1fe27fca76c967d105c5faa0a3c9ce78a",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "a36c039c48e4c6394be2642da52bcbbbb2c344d480991bbc3db511a7b095c1c0",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing hatch-side buffet position",
+      "text": "Hatch-side buffet position",
+      "source_obligations": [
+        "Matching tray icon and hatch footprint designate buffet"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "ef8a9ed5dfa210834d3b77bae738e0345718aa24a0f78e593f86c1a3644baae6",
+      "speaker_id": "text",
+      "text_sha256": "fa32abe4b14c17882069615b7646b7db620e2147cdca6ead15f3c1cf97063c42",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing hatch-side buffet position",
+      "text": "The tray mark is below the kitchen hatch: food through the hatch, buffet underneath. My cooking can make an entrance without me blocking the door.",
+      "source_obligations": [
+        "Matching tray icon and hatch footprint designate buffet"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "ef8a9ed5dfa210834d3b77bae738e0345718aa24a0f78e593f86c1a3644baae6",
+      "speaker_id": "jack",
+      "text_sha256": "df8af8074480db2f1538334d5aa447c1b66a00342dacafa24d66f0b8d116461a",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "233b658f9a8cd12689bf9217b35711fc7763eb9bfe72d0dd81b807038c8c2462",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing inward-facing speaker position",
+      "text": "Inward-facing speaker position",
+      "source_obligations": [
+        "Sound icon; correct inward orientation"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "9021251bbd0b6ab3e82fb6b5bd22d19bceb54884c25493b0243725f65529c23d",
+      "speaker_id": "text",
+      "text_sha256": "4ba09f03921361da3a34f539b9f735377fb89c7714200e237785b427a0b6449e",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing inward-facing speaker position",
+      "text": "The sound mark is by the wall. The speaker faces inward toward our courtyard and the house. The neighbor is allowed to have a different evening.",
+      "source_obligations": [
+        "Sound icon; correct inward orientation"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "9021251bbd0b6ab3e82fb6b5bd22d19bceb54884c25493b0243725f65529c23d",
+      "speaker_id": "jack",
+      "text_sha256": "e9a0241a5a639020ff9bf7e6df91ee8115eb673562308f79127ea15c9a2c50f9",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "b5ce85479adf7e599a82a94597d70ba2cc042ba0d73c7963a72b1cef31d5ad32",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing display alcove",
+      "text": "Display alcove",
+      "source_obligations": [
+        "Panel-shaped footprint and correct concealment side"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "478154cff035b23edb1ea8f203c90cf8174a5bb0139690caecd8117cdf1896d4",
+      "speaker_id": "text",
+      "text_sha256": "b3807eb03d550da2fbd3570f9aba72a129b7468787d8e9902a4d9bd52e93276e",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing display alcove",
+      "text": "A panel-shaped footprint in the alcove. Vivian’s mark shows where the screen conceals it from arriving guests.",
+      "source_obligations": [
+        "Panel-shaped footprint and correct concealment side"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "478154cff035b23edb1ea8f203c90cf8174a5bb0139690caecd8117cdf1896d4",
+      "speaker_id": "jack",
+      "text_sha256": "765acefd1fa1d3f1ef080725345a4f9c65ea1d7f7ed2595120b2ba5d56b6d685",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LABEL.005",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing small serving table",
+      "text": "Small serving table",
+      "source_obligations": [
+        "Existing table moved with Push/Pull into hatch footprint"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "62abac2e22a742afc9b8c64070b157625cc09ddcfae962285f2cc9071441bedc",
+      "speaker_id": "text",
+      "text_sha256": "f0d0947e206d634e3e633ff7b759b3488c9567e38f67f569e733fcd4e1823ed9",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.005",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing small serving table",
+      "text": "A serving table I can push or pull under the hatch, into the tray footprint. Easier to move than a guest who has started telling you something.",
+      "source_obligations": [
+        "Existing table moved with Push/Pull into hatch footprint"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "62abac2e22a742afc9b8c64070b157625cc09ddcfae962285f2cc9071441bedc",
+      "speaker_id": "jack",
+      "text_sha256": "edffcde775abe25f8fb08a20b285bbb6ba97c646fe602b09cbbc01bb60c5a998",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "56630f44b344d166ebbae02f39be52e9a99d9f431da9b3df245f8456d30b87d1",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.006",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing kitchen hatch",
+      "text": "Kitchen hatch",
+      "source_obligations": [
+        "Matching icon and visible service sightline"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "37cb6777215665d81847715bd696fd6284e748825afc96d32b09c9bff5fef57e",
+      "speaker_id": "text",
+      "text_sha256": "4fca9e36bfb61f9f890f83ce58741cf89af879695810feeb8ecaab73568f252a",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.006",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing kitchen hatch",
+      "text": "The kitchen hatch and buffet position share a tray symbol. Keep the hatch in clear view. I want people admiring the food before they start asking what’s in it.",
+      "source_obligations": [
+        "Matching icon and visible service sightline"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "37cb6777215665d81847715bd696fd6284e748825afc96d32b09c9bff5fef57e",
+      "speaker_id": "jack",
+      "text_sha256": "1ed7aff02ae0d2106cb38a34036dc69971a673b113ec1557fe10049dc146217d",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "1914d078979e8a52988b46688785d4f7445512c46b7691d44409a815d4ba0b2e",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.LABEL.007",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing courtyard plan overlay",
+      "text": "Courtyard plan overlay",
+      "source_obligations": [
+        "Overlay exposes three final layout conditions",
+        "Protected lane kept clear"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "1e942bbfa93c0f57b08de3195a3e6e634aab9f3851ea3aec7c2ad0d656c435f2",
+      "speaker_id": "text",
+      "text_sha256": "06019911c4b8f11726ce2092fceebf64a18ce391a03465d275751712686b55e6",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.LOOK.007",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing courtyard plan overlay",
+      "text": "Three placements, one clear route: buffet at the hatch, sound facing inward, screen at the display alcove. Keep the chevrons empty.",
+      "source_obligations": [
+        "Overlay exposes three final layout conditions",
+        "Protected lane kept clear"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "1e942bbfa93c0f57b08de3195a3e6e634aab9f3851ea3aec7c2ad0d656c435f2",
+      "speaker_id": "jack",
+      "text_sha256": "61051c237045d215ec30d815687ed82b2d03cd107470a2ae5318b7050e4c7693",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.READ.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Plan",
+      "kind": "read",
+      "trigger": "Inspect Felix’s circulation plan during courtyard layout",
+      "text": "Gate to house: keep the chevron-marked lane clear.",
+      "source_obligations": [
+        "Use prior demonstrated circulation evidence"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "9d4c0b8213f16baa87c86718bba5a84b7c53bb2a7a4ddea1c674091f31d0c9a0",
+      "speaker_id": "text",
+      "text_sha256": "536977476d01b8070a0f7acc4f49c7b5ec1d45ca29cb5ad061e1c509c43965a0",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.READ.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Plan",
+      "kind": "read",
+      "trigger": "Inspect Vivian’s sightline plan during courtyard layout",
+      "text": "Screen at the marked side of the display alcove.\nHide the display from arrivals. Keep the kitchen hatch visible.",
+      "source_obligations": [
+        "Use approved prior sightline solution, no new puzzle condition"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "7ac151502c91065c6bc1f589773c1c659f1ca9d7e9b3425a3a2dd1faa21b09eb",
+      "speaker_id": "text",
+      "text_sha256": "96d2ecb4e582496902956015c0d5d3109df3be30d675cc6d3f2efe294317fb54",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.READ.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Placement markings",
+      "kind": "read",
+      "trigger": "Read matching named placement symbols",
+      "text": "TRAY: buffet below the hatch\nSOUND: speaker at the wall, facing inward\nPANEL: screened display alcove\nCHEVRONS: clear walking lane",
+      "source_obligations": [
+        "Named generous positions remove pixel hunting",
+        "Symbols and spatial conditions plain"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "caf5572d10b219fa731ada6f601efdb6ad1584ad413e89a9c689bb4653511abe",
+      "speaker_id": "text",
+      "text_sha256": "76e73bf17bc00b32fe5d654b86b783b969e5e0019b22d5cedab5df5338f19c9d",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use padded ceramic carrier with buffet position below hatch",
+      "text": "The carrier is at the buffet below the hatch. Rita’s plates can be laid out here.",
+      "source_obligations": [
+        "Carrier correctly placed at hatch-side buffet"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "7d87ef8cbef382db3de3684de9ebd27056cfae724f96dad8a98f47d08e01f1ff",
+      "speaker_id": "jack",
+      "text_sha256": "fef1a753862217a2f4c4077f8ebdcb1b9d0c22c2ab96bfd9744021fe87afe6bc",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Lay out plates from carrier in existing P08 unpacking",
+      "text": "Plates laid out. The padding’s free to go back to the kitchen.",
+      "source_obligations": [
+        "Unpacking releases carrier padding",
+        "Do not consume towel or tiles"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "935efd49cd0752d77d2acff989ac21289397ecb22ca6483973c13d962d561b5c",
+      "speaker_id": "jack",
+      "text_sha256": "4bdc8976b3b4699d97ca1e190dbf83140a52cc2ee87a45ec123dda7b90c69eeb",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SYSTEM.001",
+      "puzzle": "P08",
+      "location": "L02 Kitchen",
+      "speaker": "System",
+      "kind": "system",
+      "trigger": "Return towel to kitchen linen hook after plates are unpacked",
+      "text": "Tea towel returned to the kitchen linen hook.",
+      "source_obligations": [
+        "Canonical towel recovery at P08 unpacking"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "ec77ecb24483f5e87a9a987caa26c861c01ed14a18490f5977adae9f90915bcd",
+      "speaker_id": "text",
+      "text_sha256": "a3af1d1adc2ebd4c32c816e1e3aa57de4890e094a715e7c35cdc6e7441feb11f",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SYSTEM.002",
+      "puzzle": "P08",
+      "location": "L02 Kitchen",
+      "speaker": "System",
+      "kind": "system",
+      "trigger": "Return accepted spare-napkin padding after plates are unpacked",
+      "text": "Spare napkin returned to the kitchen linen hook.",
+      "source_obligations": [
+        "Preserve equivalent P03 clean-napkin padding recovery during same existing unpacking action"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery); P03-source.txt:4 (Solution and verbs: accepted spare-napkin padding alternative); P03-source.txt:8 (State and recovery: recoverable padding)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "1fa2aa6c3337221d47334cfe632d144569e79b2f9f4c774c843ab81c786ab106",
+      "speaker_id": "text",
+      "text_sha256": "bf70c8804957e383c9a6fb02a3cec6f9ff0824b4f73156ab2b70a5a1346e3c7c",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use PA at marked wall position facing into courtyard",
+      "text": "The PA is at the marked wall, facing into the courtyard. An announcement of supper for people who are actually getting some.",
+      "source_obligations": [
+        "PA at wall spot with correct orientation"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "7f47308b9a1fb2541f362168e46f4b8d19a642eef0a6f1544d6cdb4b62e5bc75",
+      "speaker_id": "jack",
+      "text_sha256": "38616e7064d3b71238ec27c91e5b39b53daba821ed203735a1d6b63d6dc36605",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "7a9fdda54c4068f1c0b60ac7d325872d7b608c8949b26ff69b8eeae7875013bb",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.SUCCESS.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use completed screen at marked display alcove while keeping gate lane clear",
+      "text": "The screen conceals the display alcove. The gate lane and kitchen view stay clear.",
+      "source_obligations": [
+        "Correct screen position preserves through-route and hatch sightline"
+      ],
+      "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "05567c719899f2363bc4775dde8b9901b5d23e182caef48ed229f17b4bb28284",
+      "speaker_id": "jack",
+      "text_sha256": "e6df6f1afe2afa28fcafbd88b471bb81c1bc1c99e7cb5ebda3462b87a83f536c",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.005",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Push small serving table into hatch footprint",
+      "text": "The serving table is under the hatch, inside the tray footprint.",
+      "source_obligations": [
+        "Push is an accepted existing table-position verb"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "006885b5ebf1c0a415a9f0b6cc671e890615cd1b51cd9e63b44049712b745f78",
+      "speaker_id": "jack",
+      "text_sha256": "8ee00a90b426c09cc7bf8a087e30ddf73359c1bcca94e02adf10c85aa38a2fa2",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.006",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Pull small serving table into hatch footprint",
+      "text": "The serving table is under the hatch, inside the tray footprint.",
+      "source_obligations": [
+        "Pull is an accepted existing table-position verb"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "2aa5e6b17372328603d3edc006d033968eda6759722f3e07e5c14f3c3fc4a950",
+      "speaker_id": "jack",
+      "text_sha256": "8ee00a90b426c09cc7bf8a087e30ddf73359c1bcca94e02adf10c85aa38a2fa2",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SUCCESS.007",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Place Rita’s corrected credit slate at buffet",
+      "text": "Rita’s name, right beside her work. The credit gets to stay on show after I cover everything else in gravy.",
+      "source_obligations": [
+        "Credit slate publicly displayed at buffet"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "ac26b2c0de31383dc1edba06ceec37857c898a44ec11b362c46c7126c6bb4328",
+      "speaker_id": "jack",
+      "text_sha256": "dbdb85d4bacdec44a647f2b41ca1a8e6a74a43e3636596a49c7d4f2761fb4821",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "1bc51bc33fb3ce17d056ae47a29aed23556e656cb5cda5feca3d5e941c2f7a67",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.READ.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Slate",
+      "kind": "read",
+      "trigger": "Read displayed buffet credit slate",
+      "text": "Ceramic service by Rita Stringer.",
+      "source_obligations": [
+        "Retain exact P03 corrected credit at public display"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "70c391b492d03fbfafcee5f7cbaf1e58d708656d99821a940cc3d30a2bfcb869",
+      "speaker_id": "text",
+      "text_sha256": "a7d6a0019468db46fbac78fc4600de5844cb11e218e9605d3f868b320badfd25",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.FAILURE.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Place an existing layout object across marked gate-to-house lane",
+      "text": "That blocks the gate-to-house lane. Move it off the chevrons so people can walk through. We can’t ask them to arrive sideways.",
+      "source_obligations": [
+        "Explain blocked gate consequence",
+        "Placement reversible and no pixel precision"
+      ],
+      "source_ref": "P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "8ef7198c3f9f0e222dfbccdf2dd481eed34ecbb5a9ea1b9a9eeb2b0d17b6571e",
+      "speaker_id": "jack",
+      "text_sha256": "edd1578f9eb8ff797b71a067101420c5c56b24dcc6ba6569c339d6918ee5f7e8",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "ffa3f61f9fb6fe0342939633b6a28c88f790b080b3e3407b6436eed65df1b512",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.FAILURE.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Place screen where kitchen hatch is hidden",
+      "text": "That hides the kitchen hatch. Move the screen to the marked display alcove; only Rita’s display needs hiding. If Bunny can’t see dinner, I’ll never hear the end of it.",
+      "source_obligations": [
+        "Explain specific blocked service sightline",
+        "Reversible screen move"
+      ],
+      "source_ref": "P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "c789a59b59e154767d714dd5abc934e19faabdb13df8815ab1a840b56d2c90b7",
+      "speaker_id": "jack",
+      "text_sha256": "feb11e24a490f05081728e717f2ab2f6c6a8c80df0be95d0333101acedb18df3",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "fa70192e10532c5f04970142450d48837ee3913dc00a855bf40b4978eb57c769",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.FAILURE.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Place PA with sound directed toward neighbor",
+      "text": "The grille points at the neighbor. Turn it inward, toward our courtyard and the house. At the moment our best seat is next door.",
+      "source_obligations": [
+        "Explain wrong sound direction",
+        "Correct inward direction clear"
+      ],
+      "source_ref": "P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "c194e93b3174e452cf55198aff805ab755f64140e6478b66b33ed1a6c6c59856",
+      "speaker_id": "jack",
+      "text_sha256": "d94b910b3f19d1c15e296286d06fd92bdfb280bb520b040e7f6cce053d1f91e9",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "042aa5b7ce6a80a371d09545ae5dd6bd60279673e5d7282e4bf8a310c37050dd",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.FAILURE.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Place screen where display is visible to arrivals",
+      "text": "Arrivals can see the display before Rita has chosen her moment. Use Vivian’s marked side of the alcove. Rita hasn’t practised looking modest for nothing.",
+      "source_obligations": [
+        "Display visible too early is specific placement failure",
+        "Benevolent concealment purpose retained"
+      ],
+      "source_ref": "P08-source.txt:5 (Result); P08-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "d1abc489f54d06f2095d010192d49421c9fd7395745312faef6715c975433906",
+      "speaker_id": "jack",
+      "text_sha256": "c1b7d5ca8fd464688158b3200a97ae389c4d8bec27dc5f2a69163aba9168c3a2",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "749ba01f299387bea36636fda899a52f5fa5e2f418cff00210c18f1786e8a2dd",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.SYSTEM.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Plan overlay",
+      "kind": "system",
+      "trigger": "Plan overlay shows all existing final conditions true",
+      "text": "Buffet at hatch: ready\nPA at wall, facing inward: ready\nDisplay alcove screened: ready\nGate-to-house lane: clear",
+      "source_obligations": [
+        "Three final placements and protected traffic route exposed",
+        "No new condition or position"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "a2455309ff76ff58803f844d80ac853ff0d1e1542eca975a71f7386f1b2c4cd1",
+      "speaker_id": "text",
+      "text_sha256": "6659e5725813429d407aefb368d90a30d4c141165719854400ecd3f9bf758358",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.DIALOGUE.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "dialogue",
+      "trigger": "Housemates acknowledge workable layout before readiness confirmation",
+      "text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "We can get through. We can hear. We can serve."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "It works."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "And everybody I invited is coming to the same evening."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "With room to get their supper without turning sideways."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Rita’s panel stays hidden until after the meal, when she presents it."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Agreed."
+        }
+      ],
+      "source_obligations": [
+        "Space works after correct layout",
+        "Invitation promises converge on single event",
+        "Rita reveal remains after meal and at her chosen presentation"
+      ],
+      "source_ref": "P08-source.txt:5 (Result)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "af021a1c8d883342715e853d50cc35581f5962ecb46f05b0c0acf5e9ca3c7743",
+      "speaker_id": "jack",
+      "text_sha256": "bd2eb10815fe24f1cffb254d7a9f6b80c73bcd5b1d5e70ac7a7817fd5e4da276",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "57eea56eefa91882c04484ff526ab301006b64c0741358a29a053a99dca7ceb4",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P08.CHOICE.001",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Talk to Frankie after layout conditions are satisfied: existing readiness choice",
+      "text": "We’re ready to start.",
+      "source_obligations": [
+        "Exact readiness choice precedes explicit confirmable transition"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "21c609cda255e9b3063c517574f3309cc6cd29c8156373bab85422bdec2cdc38",
+      "speaker_id": "jack",
+      "text_sha256": "ed7d928b10b8559869422a3985c09156064224fb2cbde99b0d298fff0bb4f8e8",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.DIALOGUE.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "dialogue",
+      "trigger": "Frankie reads short checklist after readiness choice",
+      "text": [
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Buffet and Rita’s credit at the hatch. Sound facing inward. Screen in the alcove. Gate lane clear."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "And eight tasting portions ready in the kitchen."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Good. Shall we begin?"
+        }
+      ],
+      "source_obligations": [
+        "Read short practical checklist",
+        "All prerequisites complete; does not silently trigger evening"
+      ],
+      "source_ref": "P08-source.txt:2 (Prerequisites and obstacle); P08-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "7b8f4fdf45e37a63b46f6f1546cb56e74379a70d099b62743d9176da6f72e832",
+      "speaker_id": "jack",
+      "text_sha256": "d165627868da2710f410e993c65affde68cba32ad7483b02cee400cee0301bc2",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SYSTEM.004",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "System",
+      "kind": "system",
+      "trigger": "Present explicit evening-start confirmation",
+      "text": "Begin the evening?\nPeople will move to their evening positions. Essential areas and items will remain accessible. Your game will be autosaved before the change.",
+      "source_obligations": [
+        "Explicit player consent sets EVENING_STARTED",
+        "Explain NPC movement and continued essential access",
+        "Autosave before transition"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "90d60ee3734c18bd2447259af47ea717e16d03c7fb50c788fd53c2015cf855e1",
+      "speaker_id": "text",
+      "text_sha256": "1f3a57a888593ba60d690fe5a85c37b1aec5761b05e385c2d585e8150214c669",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.CHOICE.002",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Confirm existing evening-start prompt",
+      "text": "Begin the evening.",
+      "source_obligations": [
+        "Explicit confirmation authorizes phase transition"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "a64a0dd7f362d1faa99b0bf270b5a1763a3938a0a57359aed8e53263b69cd753",
+      "speaker_id": "jack",
+      "text_sha256": "aaeea0876e7b48e524e4b5be0bc2f97e23fd0542564d5ca37326b0498df5b44a",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.CHOICE.003",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Decline existing evening-start prompt for now",
+      "text": "Not yet.",
+      "source_obligations": [
+        "Confirmable transition allows remaining in preparation",
+        "No new task or condition introduced"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs); P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "bdbf4eaf45ac12454e595d9e3018392952c70800565f3be96f9bdd765e0639c4",
+      "speaker_id": "jack",
+      "text_sha256": "083fe3a109f53871e01cc1f52110c432d0ebf116456f6da84cec71510190467a",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SYSTEM.005",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "System",
+      "kind": "system",
+      "trigger": "Player declines existing evening-start confirmation",
+      "text": "Still preparing. Talk to Frankie when you’re ready to begin.",
+      "source_obligations": [
+        "Decline preserves preparation state without essential losses"
+      ],
+      "source_ref": "P08-source.txt:4 (Solution and verbs); P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "6d2b28fede65bd56aaa798b34e7461a9bf13ae0ee6231e0008bab9bb04558d03",
+      "speaker_id": "text",
+      "text_sha256": "2882f6f4cd9efba8a077787626636fec20217789980acd5795714b4a469c0cf8",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.SYSTEM.006",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "System",
+      "kind": "system",
+      "trigger": "Autosave immediately before confirmed evening transition",
+      "text": "Game saved. The evening is beginning.",
+      "source_obligations": [
+        "Autosave precedes phase change",
+        "LAYOUT_READY then EVENING_STARTED only after explicit readiness"
+      ],
+      "source_ref": "P08-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "4978ca5e3c0d0de95725fb1a56f5ed2c3e3cfee443d311607d43d7c53187ceae",
+      "speaker_id": "text",
+      "text_sha256": "0e44b72642759522242538268b35ef7882fda06a76f5c7c49e09ac078c0774c3",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.HINT.1",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 1",
+      "text": "Use the plans to give each activity its own place, with a clear route between the gate and house.",
+      "source_obligations": [
+        "Separate position and clear-route requirements"
+      ],
+      "source_ref": "P08-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "8d71cb7d565f469dc00720fc0cc347da7868a6d4c7a7644e2ddd1091954342c2",
+      "speaker_id": "text",
+      "text_sha256": "1fd8eae988525192110c0d2020d37978aac97d3b3cb9b49c40b5618d05842dc4",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.HINT.2",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 2",
+      "text": "Match tray to buffet, sound to PA, and panel to the screened alcove. The chevron lane stays empty.",
+      "source_obligations": [
+        "Plain symbol matching and protected lane"
+      ],
+      "source_ref": "P08-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "fa37438eb5da1296295e33a25867883ed1ea148b9a5fd6530eef87fe7223bca1",
+      "speaker_id": "text",
+      "text_sha256": "64f56c03fe47eb96b952029d8cae37d60131bd12a3fb36177e9d25f7318d9f8e",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P08.HINT.3",
+      "puzzle": "P08",
+      "location": "L05 Courtyard",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 3",
+      "text": "Put the carrier and serving table under the hatch, with Rita’s credit beside the plates. Place the PA at the wall facing the house, and the screen at the marked display alcove. Keep the gate lane clear, then tell Frankie you’re ready.",
+      "source_obligations": [
+        "Full canonical placement and explicit readiness"
+      ],
+      "source_ref": "P08-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "390d3a0c751ea0075669a9879ac5dfa34b59a8f280432b55f1c931c805906f3c",
+      "speaker_id": "text",
+      "text_sha256": "33c21465cb4eeb98ef437dd7645a336fbd07292dd6d2559955ffd897fcb5c001",
+      "dynamic_bindings": {}
+    }
+  ],
+  "speech_units": [
+    {
+      "line_id": "P08.SCENE.001.01",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Everything’s ready. The buffet should be the first thing the guests see.",
+      "caption_text": "Everything’s ready. The buffet should be the first thing the guests see.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SCENE.001.02",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "I should be the first thing. I invited them.",
+      "caption_text": "I should be the first thing. I invited them.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SCENE.001.03",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "And their first step lands where? The buffet, sound and display can’t all have the doorway. Doorways are for walking.",
+      "caption_text": "And their first step lands where? The buffet, sound and display can’t all have the doorway. Doorways are for walking.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SCENE.001.04",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "You stand in them when you’re right.",
+      "caption_text": "You stand in them when you’re right.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SCENE.001.05",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "So everybody hears. Now let’s leave this one clear.",
+      "caption_text": "So everybody hears. Now let’s leave this one clear.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P08.SCENE.001.06",
+      "record_id": "P08.SCENE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Right. The plans show where everything fits.",
+      "caption_text": "Right. The plans show where everything fits.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.001.01",
+      "record_id": "P08.LOOK.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Chevrons mark the clear gate-to-house lane. Guests must be able to get past the first person who wants to explain something.",
+      "caption_text": "Chevrons mark the clear gate-to-house lane. Guests must be able to get past the first person who wants to explain something.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.002.01",
+      "record_id": "P08.LOOK.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The tray mark is below the kitchen hatch: food through the hatch, buffet underneath. My cooking can make an entrance without me blocking the door.",
+      "caption_text": "The tray mark is below the kitchen hatch: food through the hatch, buffet underneath. My cooking can make an entrance without me blocking the door.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.003.01",
+      "record_id": "P08.LOOK.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The sound mark is by the wall. The speaker faces inward toward our courtyard and the house. The neighbor is allowed to have a different evening.",
+      "caption_text": "The sound mark is by the wall. The speaker faces inward toward our courtyard and the house. The neighbor is allowed to have a different evening.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.004.01",
+      "record_id": "P08.LOOK.004",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "A panel-shaped footprint in the alcove. Vivian’s mark shows where the screen conceals it from arriving guests.",
+      "caption_text": "A panel-shaped footprint in the alcove. Vivian’s mark shows where the screen conceals it from arriving guests.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.005.01",
+      "record_id": "P08.LOOK.005",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "A serving table I can push or pull under the hatch, into the tray footprint. Easier to move than a guest who has started telling you something.",
+      "caption_text": "A serving table I can push or pull under the hatch, into the tray footprint. Easier to move than a guest who has started telling you something.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P08.LOOK.006.01",
+      "record_id": "P08.LOOK.006",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The kitchen hatch and buffet position share a tray symbol. Keep the hatch in clear view. I want people admiring the food before they start asking what’s in it.",
+      "caption_text": "The kitchen hatch and buffet position share a tray symbol. Keep the hatch in clear view. I want people admiring the food before they start asking what’s in it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.LOOK.007.01",
+      "record_id": "P08.LOOK.007",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Three placements, one clear route: buffet at the hatch, sound facing inward, screen at the display alcove. Keep the chevrons empty.",
+      "caption_text": "Three placements, one clear route: buffet at the hatch, sound facing inward, screen at the display alcove. Keep the chevrons empty.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.001.01",
+      "record_id": "P08.SUCCESS.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The carrier is at the buffet below the hatch. Rita’s plates can be laid out here.",
+      "caption_text": "The carrier is at the buffet below the hatch. Rita’s plates can be laid out here.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.002.01",
+      "record_id": "P08.SUCCESS.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Plates laid out. The padding’s free to go back to the kitchen.",
+      "caption_text": "Plates laid out. The padding’s free to go back to the kitchen.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.003.01",
+      "record_id": "P08.SUCCESS.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The PA is at the marked wall, facing into the courtyard. An announcement of supper for people who are actually getting some.",
+      "caption_text": "The PA is at the marked wall, facing into the courtyard. An announcement of supper for people who are actually getting some.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.004.01",
+      "record_id": "P08.SUCCESS.004",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The screen conceals the display alcove. The gate lane and kitchen view stay clear.",
+      "caption_text": "The screen conceals the display alcove. The gate lane and kitchen view stay clear.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.005.01",
+      "record_id": "P08.SUCCESS.005",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The serving table is under the hatch, inside the tray footprint.",
+      "caption_text": "The serving table is under the hatch, inside the tray footprint.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.006.01",
+      "record_id": "P08.SUCCESS.006",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The serving table is under the hatch, inside the tray footprint.",
+      "caption_text": "The serving table is under the hatch, inside the tray footprint.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.SUCCESS.007.01",
+      "record_id": "P08.SUCCESS.007",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Rita’s name, right beside her work. The credit gets to stay on show after I cover everything else in gravy.",
+      "caption_text": "Rita’s name, right beside her work. The credit gets to stay on show after I cover everything else in gravy.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.FAILURE.001.01",
+      "record_id": "P08.FAILURE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "That blocks the gate-to-house lane. Move it off the chevrons so people can walk through. We can’t ask them to arrive sideways.",
+      "caption_text": "That blocks the gate-to-house lane. Move it off the chevrons so people can walk through. We can’t ask them to arrive sideways.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P08.FAILURE.002.01",
+      "record_id": "P08.FAILURE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "That hides the kitchen hatch. Move the screen to the marked display alcove; only Rita’s display needs hiding. If Bunny can’t see dinner, I’ll never hear the end of it.",
+      "caption_text": "That hides the kitchen hatch. Move the screen to the marked display alcove; only Rita’s display needs hiding. If Bunny can’t see dinner, I’ll never hear the end of it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.FAILURE.003.01",
+      "record_id": "P08.FAILURE.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The grille points at the neighbor. Turn it inward, toward our courtyard and the house. At the moment our best seat is next door.",
+      "caption_text": "The grille points at the neighbor. Turn it inward, toward our courtyard and the house. At the moment our best seat is next door.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P08.FAILURE.004.01",
+      "record_id": "P08.FAILURE.004",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Arrivals can see the display before Rita has chosen her moment. Use Vivian’s marked side of the alcove. Rita hasn’t practised looking modest for nothing.",
+      "caption_text": "Arrivals can see the display before Rita has chosen her moment. Use Vivian’s marked side of the alcove. Rita hasn’t practised looking modest for nothing.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.01",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "We can get through. We can hear. We can serve.",
+      "caption_text": "We can get through. We can hear. We can serve.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.02",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "It works.",
+      "caption_text": "It works.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.03",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "And everybody I invited is coming to the same evening.",
+      "caption_text": "And everybody I invited is coming to the same evening.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.04",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "With room to get their supper without turning sideways.",
+      "caption_text": "With room to get their supper without turning sideways.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.05",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Rita’s panel stays hidden until after the meal, when she presents it.",
+      "caption_text": "Rita’s panel stays hidden until after the meal, when she presents it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.001.06",
+      "record_id": "P08.DIALOGUE.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Agreed.",
+      "caption_text": "Agreed.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.002.01",
+      "record_id": "P08.DIALOGUE.002",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Buffet and Rita’s credit at the hatch. Sound facing inward. Screen in the alcove. Gate lane clear.",
+      "caption_text": "Buffet and Rita’s credit at the hatch. Sound facing inward. Screen in the alcove. Gate lane clear.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.002.02",
+      "record_id": "P08.DIALOGUE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "And eight tasting portions ready in the kitchen.",
+      "caption_text": "And eight tasting portions ready in the kitchen.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P08.DIALOGUE.002.03",
+      "record_id": "P08.DIALOGUE.002",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Good. Shall we begin?",
+      "caption_text": "Good. Shall we begin?",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    }
+  ],
+  "fixture_sha256": "77b4b466f8a3a6e54104a249083b846f0a53844a0ea71714ac9375aca3218d63"
+}

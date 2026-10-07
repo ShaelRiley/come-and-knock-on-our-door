@@ -1,0 +1,8 @@
+[project]
+name = "cakood-p08-model-restoration"
+version = "0.1.0"
+description = "Source-grounded restored P08 Python reference baseline"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

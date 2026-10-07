@@ -1,0 +1,73 @@
+{
+  "status": "ISOLATED_SOURCE_EMITTED_CANDIDATE",
+  "script": {
+    "941": "homeReadyTransport/Sound151",
+    "942": "contestReadyTransport/Sound152",
+    "943": "class-free serial committed-event broker"
+  },
+  "text": {
+    "245": "exact fresh941 static constants",
+    "246": "exact fresh942 static constants",
+    "247": "exact fresh943 constants plus status labels and save-lifetime refusal suffix"
+  },
+  "sound": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "new_species": 0,
+  "existing_species": 3,
+  "new_selectors": 0,
+  "protected_static_text": [
+    240,
+    241,
+    242,
+    243,
+    244
+  ],
+  "protected_script": [
+    980,
+    981,
+    982,
+    983,
+    984,
+    986
+  ],
+  "new_host_owner_kind": 3,
+  "accepted_MUS11_source_zip_sha256": "a542831c5454d2322f48bf774a7214a7479e24410e1dea764cef6baf04c1b836",
+  "accepted_bridge_source_zip_sha256": "1a9d99a2f66bf22cd9d4ea133aabd93801c2e91418f942fe66feb46a8e1d0b34",
+  "accepted_bridge_audition_zip_sha256": "abbb0169dcbe98f1d520c432b07d7d864335e83bb7ad654be00c91d2ba653b5f",
+  "p06_snapshot_sha256": "a2bc8b94db0c2e4d4a4807efced51ff055b42f2b164c7de944d24cd0cce43c74",
+  "p06_snapshot_status": "FROZEN_CANDIDATE1_PLUS_EXACT_INVENTORY_FIX_R2_PENDING_FULL_HOST_QA",
+  "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+  "proof_limits": [
+    "native/listening/activation false",
+    "one initialized/running parser established with typed SCI kernel model only",
+    "no arbitrary sleep or tail silence claim",
+    "current P07 host not composed; requires explicit final accepted-source pin"
+  ],
+  "p06_delta_sha256": "76fd9a6d84013aae5ded12b4117ebf6822ba7f9172ea8d56351add4e4802b8bc",
+  "revision": 3,
+  "superseded_source_zip_sha256": "eefb7b1748d1fa4e0c2ea0b4feed4a967b9b2c83b3c17c3acca2e4dcb44abd80",
+  "new_exported_procedures": [
+    "rbUiState",
+    "rbFailed",
+    "rbCanRetry",
+    "rbHostStatus",
+    "rbRetry",
+    "rbDrawStatus",
+    "rbSaveAdmit",
+    "rbLoadChooser"
+  ],
+  "ui_font_resource": {
+    "type": "font",
+    "id": 0,
+    "source": "accepted P05 verification checkpoint",
+    "purpose": "actual emitted Main.render typed-kernel regression"
+  },
+  "superseded_r2_source_zip_sha256": "cbc795730b5b4e158fbbbd41e1338570439c9e05c365310ee58689416336f6f0"
+}

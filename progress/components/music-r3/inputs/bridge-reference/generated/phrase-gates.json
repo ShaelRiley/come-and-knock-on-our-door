@@ -1,0 +1,1077 @@
+[
+  {
+    "source": 102,
+    "target": 140,
+    "loop": {
+      "start_tick": 12,
+      "end_tick": 4255,
+      "natural_key_release_before_end_ticks": 11
+    },
+    "all_key_gaps": [
+      [
+        125,
+        128
+      ],
+      [
+        140,
+        141
+      ],
+      [
+        191,
+        192
+      ],
+      [
+        255,
+        256
+      ],
+      [
+        268,
+        269
+      ],
+      [
+        384,
+        385
+      ],
+      [
+        415,
+        417
+      ],
+      [
+        448,
+        449
+      ],
+      [
+        461,
+        462
+      ],
+      [
+        512,
+        513
+      ],
+      [
+        590,
+        591
+      ],
+      [
+        640,
+        642
+      ],
+      [
+        769,
+        771
+      ],
+      [
+        834,
+        835
+      ],
+      [
+        837,
+        848
+      ],
+      [
+        866,
+        867
+      ],
+      [
+        898,
+        899
+      ],
+      [
+        962,
+        963
+      ],
+      [
+        1154,
+        1156
+      ],
+      [
+        1168,
+        1169
+      ],
+      [
+        1220,
+        1221
+      ],
+      [
+        1284,
+        1285
+      ],
+      [
+        1297,
+        1298
+      ],
+      [
+        1444,
+        1446
+      ],
+      [
+        1477,
+        1478
+      ],
+      [
+        1490,
+        1491
+      ],
+      [
+        1541,
+        1542
+      ],
+      [
+        1554,
+        1555
+      ],
+      [
+        1669,
+        1671
+      ],
+      [
+        1734,
+        1735
+      ],
+      [
+        1797,
+        1799
+      ],
+      [
+        1866,
+        1876
+      ],
+      [
+        1894,
+        1896
+      ],
+      [
+        1927,
+        1928
+      ],
+      [
+        1991,
+        1992
+      ],
+      [
+        2183,
+        2185
+      ],
+      [
+        2197,
+        2198
+      ],
+      [
+        2248,
+        2249
+      ],
+      [
+        2312,
+        2313
+      ],
+      [
+        2441,
+        2442
+      ],
+      [
+        2472,
+        2474
+      ],
+      [
+        2518,
+        2519
+      ],
+      [
+        2570,
+        2571
+      ],
+      [
+        2647,
+        2648
+      ],
+      [
+        2697,
+        2699
+      ],
+      [
+        2826,
+        2828
+      ],
+      [
+        2891,
+        2892
+      ],
+      [
+        2894,
+        2905
+      ],
+      [
+        2923,
+        2924
+      ],
+      [
+        2955,
+        2956
+      ],
+      [
+        3019,
+        3020
+      ],
+      [
+        3211,
+        3213
+      ],
+      [
+        3277,
+        3278
+      ],
+      [
+        3341,
+        3342
+      ],
+      [
+        3354,
+        3355
+      ],
+      [
+        3501,
+        3503
+      ],
+      [
+        3534,
+        3535
+      ],
+      [
+        3547,
+        3548
+      ],
+      [
+        3598,
+        3599
+      ],
+      [
+        3611,
+        3612
+      ],
+      [
+        3726,
+        3728
+      ],
+      [
+        3791,
+        3792
+      ],
+      [
+        3854,
+        3856
+      ],
+      [
+        3923,
+        3933
+      ],
+      [
+        3951,
+        3953
+      ],
+      [
+        3984,
+        3985
+      ],
+      [
+        4048,
+        4049
+      ],
+      [
+        4168,
+        4178
+      ],
+      [
+        4180,
+        4190
+      ],
+      [
+        4232,
+        4242
+      ],
+      [
+        4244,
+        4255
+      ]
+    ],
+    "gates": [
+      {
+        "keyoff_tick": 837,
+        "next_event_tick": 848,
+        "dispatch_first": 839,
+        "dispatch_last": 845,
+        "bridge_resource": 148,
+        "source_beat_at_next_event": 26.009417,
+        "rationale": "Completed HOME C tag over Am7, before its actual Ab7-Gm7-C7 closing clause; new bridge condenses that same clause",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 1866,
+        "next_event_tick": 1876,
+        "dispatch_first": 1868,
+        "dispatch_last": 1873,
+        "bridge_resource": 148,
+        "source_beat_at_next_event": 57.992278,
+        "rationale": "Completed HOME C tag over Am7, before its actual Ab7-Gm7-C7 closing clause; new bridge condenses that same clause",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 2894,
+        "next_event_tick": 2905,
+        "dispatch_first": 2896,
+        "dispatch_last": 2902,
+        "bridge_resource": 148,
+        "source_beat_at_next_event": 90.006252,
+        "rationale": "Completed HOME C tag over Am7, before its actual Ab7-Gm7-C7 closing clause; new bridge condenses that same clause",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 3923,
+        "next_event_tick": 3933,
+        "dispatch_first": 3925,
+        "dispatch_last": 3930,
+        "bridge_resource": 148,
+        "source_beat_at_next_event": 121.989114,
+        "rationale": "Completed HOME C tag over Am7, before its actual Ab7-Gm7-C7 closing clause; new bridge condenses that same clause",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 4180,
+        "next_event_tick": 4190,
+        "dispatch_first": 4182,
+        "dispatch_last": 4187,
+        "bridge_resource": 148,
+        "source_beat_at_next_event": 129.984829,
+        "rationale": "Composed F turnaround broad-pulse breath; Am7 is its diatonic iii, followed by source closing clause",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      }
+    ],
+    "max_inter_gate_ticks": 1029,
+    "worst_case_wait_ticks": 1031,
+    "worst_case_wait_seconds": 17.183677,
+    "poll_contract_max_ticks": 2,
+    "native_poll_guarantee_proven": false,
+    "responsive_shipping_gate": false,
+    "limitation": "These immutable arrangements do not support a proven sub-5-second all-key-clear handoff. Narrower one/two-tick gaps are rejected; no note is truncated."
+  },
+  {
+    "source": 140,
+    "target": 102,
+    "loop": {
+      "start_tick": 12,
+      "end_tick": 3972,
+      "natural_key_release_before_end_ticks": 12
+    },
+    "all_key_gaps": [
+      [
+        49,
+        57
+      ],
+      [
+        64,
+        72
+      ],
+      [
+        109,
+        117
+      ],
+      [
+        131,
+        132
+      ],
+      [
+        169,
+        177
+      ],
+      [
+        180,
+        192
+      ],
+      [
+        229,
+        237
+      ],
+      [
+        244,
+        252
+      ],
+      [
+        274,
+        282
+      ],
+      [
+        285,
+        289
+      ],
+      [
+        296,
+        297
+      ],
+      [
+        311,
+        312
+      ],
+      [
+        341,
+        342
+      ],
+      [
+        371,
+        372
+      ],
+      [
+        416,
+        417
+      ],
+      [
+        431,
+        432
+      ],
+      [
+        476,
+        477
+      ],
+      [
+        491,
+        492
+      ],
+      [
+        529,
+        537
+      ],
+      [
+        551,
+        552
+      ],
+      [
+        581,
+        582
+      ],
+      [
+        610,
+        612
+      ],
+      [
+        626,
+        627
+      ],
+      [
+        655,
+        657
+      ],
+      [
+        660,
+        672
+      ],
+      [
+        686,
+        687
+      ],
+      [
+        715,
+        717
+      ],
+      [
+        720,
+        732
+      ],
+      [
+        754,
+        762
+      ],
+      [
+        769,
+        777
+      ],
+      [
+        791,
+        792
+      ],
+      [
+        814,
+        822
+      ],
+      [
+        844,
+        852
+      ],
+      [
+        889,
+        897
+      ],
+      [
+        900,
+        912
+      ],
+      [
+        949,
+        957
+      ],
+      [
+        960,
+        972
+      ],
+      [
+        1009,
+        1017
+      ],
+      [
+        1024,
+        1032
+      ],
+      [
+        1069,
+        1077
+      ],
+      [
+        1091,
+        1092
+      ],
+      [
+        1129,
+        1137
+      ],
+      [
+        1140,
+        1152
+      ],
+      [
+        1189,
+        1197
+      ],
+      [
+        1204,
+        1212
+      ],
+      [
+        1234,
+        1242
+      ],
+      [
+        1245,
+        1249
+      ],
+      [
+        1256,
+        1257
+      ],
+      [
+        1271,
+        1272
+      ],
+      [
+        1301,
+        1302
+      ],
+      [
+        1331,
+        1332
+      ],
+      [
+        1376,
+        1377
+      ],
+      [
+        1391,
+        1392
+      ],
+      [
+        1436,
+        1437
+      ],
+      [
+        1451,
+        1452
+      ],
+      [
+        1489,
+        1497
+      ],
+      [
+        1511,
+        1512
+      ],
+      [
+        1541,
+        1542
+      ],
+      [
+        1570,
+        1572
+      ],
+      [
+        1586,
+        1587
+      ],
+      [
+        1615,
+        1617
+      ],
+      [
+        1620,
+        1632
+      ],
+      [
+        1646,
+        1647
+      ],
+      [
+        1675,
+        1677
+      ],
+      [
+        1680,
+        1692
+      ],
+      [
+        1714,
+        1722
+      ],
+      [
+        1729,
+        1737
+      ],
+      [
+        1751,
+        1752
+      ],
+      [
+        1774,
+        1782
+      ],
+      [
+        1804,
+        1812
+      ],
+      [
+        1849,
+        1857
+      ],
+      [
+        1860,
+        1872
+      ],
+      [
+        1909,
+        1917
+      ],
+      [
+        1920,
+        1932
+      ],
+      [
+        1991,
+        1992
+      ],
+      [
+        2021,
+        2022
+      ],
+      [
+        2110,
+        2112
+      ],
+      [
+        2126,
+        2127
+      ],
+      [
+        2171,
+        2172
+      ],
+      [
+        2201,
+        2202
+      ],
+      [
+        2216,
+        2217
+      ],
+      [
+        2231,
+        2232
+      ],
+      [
+        2261,
+        2262
+      ],
+      [
+        2290,
+        2292
+      ],
+      [
+        2306,
+        2307
+      ],
+      [
+        2351,
+        2352
+      ],
+      [
+        2501,
+        2502
+      ],
+      [
+        2531,
+        2532
+      ],
+      [
+        2587,
+        2592
+      ],
+      [
+        2629,
+        2637
+      ],
+      [
+        2640,
+        2652
+      ],
+      [
+        2674,
+        2682
+      ],
+      [
+        2685,
+        2697
+      ],
+      [
+        2711,
+        2712
+      ],
+      [
+        2734,
+        2742
+      ],
+      [
+        2764,
+        2772
+      ],
+      [
+        2809,
+        2817
+      ],
+      [
+        2820,
+        2832
+      ],
+      [
+        2869,
+        2877
+      ],
+      [
+        2880,
+        2892
+      ],
+      [
+        2929,
+        2937
+      ],
+      [
+        2944,
+        2952
+      ],
+      [
+        2989,
+        2997
+      ],
+      [
+        3011,
+        3012
+      ],
+      [
+        3049,
+        3057
+      ],
+      [
+        3060,
+        3072
+      ],
+      [
+        3109,
+        3117
+      ],
+      [
+        3124,
+        3132
+      ],
+      [
+        3154,
+        3162
+      ],
+      [
+        3165,
+        3169
+      ],
+      [
+        3176,
+        3177
+      ],
+      [
+        3191,
+        3192
+      ],
+      [
+        3221,
+        3222
+      ],
+      [
+        3251,
+        3252
+      ],
+      [
+        3296,
+        3297
+      ],
+      [
+        3311,
+        3312
+      ],
+      [
+        3356,
+        3357
+      ],
+      [
+        3371,
+        3372
+      ],
+      [
+        3409,
+        3417
+      ],
+      [
+        3431,
+        3432
+      ],
+      [
+        3461,
+        3462
+      ],
+      [
+        3490,
+        3492
+      ],
+      [
+        3506,
+        3507
+      ],
+      [
+        3535,
+        3537
+      ],
+      [
+        3540,
+        3552
+      ],
+      [
+        3566,
+        3567
+      ],
+      [
+        3595,
+        3597
+      ],
+      [
+        3600,
+        3612
+      ],
+      [
+        3634,
+        3642
+      ],
+      [
+        3649,
+        3657
+      ],
+      [
+        3671,
+        3672
+      ],
+      [
+        3694,
+        3702
+      ],
+      [
+        3724,
+        3732
+      ],
+      [
+        3769,
+        3777
+      ],
+      [
+        3780,
+        3792
+      ],
+      [
+        3829,
+        3837
+      ],
+      [
+        3840,
+        3852
+      ],
+      [
+        3889,
+        3897
+      ],
+      [
+        3900,
+        3912
+      ],
+      [
+        3949,
+        3957
+      ],
+      [
+        3960,
+        3972
+      ]
+    ],
+    "gates": [
+      {
+        "keyoff_tick": 244,
+        "next_event_tick": 252,
+        "dispatch_first": 246,
+        "dispatch_last": 249,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 8.000168,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 720,
+        "next_event_tick": 732,
+        "dispatch_first": 722,
+        "dispatch_last": 729,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 24.000488,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 960,
+        "next_event_tick": 972,
+        "dispatch_first": 962,
+        "dispatch_last": 969,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 32.000648,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 1204,
+        "next_event_tick": 1212,
+        "dispatch_first": 1206,
+        "dispatch_last": 1209,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 40.000808,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 1680,
+        "next_event_tick": 1692,
+        "dispatch_first": 1682,
+        "dispatch_last": 1689,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 56.001128,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 1920,
+        "next_event_tick": 1932,
+        "dispatch_first": 1922,
+        "dispatch_last": 1929,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 64.001288,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 2640,
+        "next_event_tick": 2652,
+        "dispatch_first": 2642,
+        "dispatch_last": 2649,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 88.001768,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 2880,
+        "next_event_tick": 2892,
+        "dispatch_first": 2882,
+        "dispatch_last": 2889,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 96.001928,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 3124,
+        "next_event_tick": 3132,
+        "dispatch_first": 3126,
+        "dispatch_last": 3129,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 104.002088,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 3600,
+        "next_event_tick": 3612,
+        "dispatch_first": 3602,
+        "dispatch_last": 3609,
+        "bridge_resource": 149,
+        "source_beat_at_next_event": 120.002408,
+        "rationale": "Actual end of Em7 call or G7 answer before the next source harmonic clause; shared-tone/local-dominant Cmaj7 entry then source C7",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 3840,
+        "next_event_tick": 3852,
+        "dispatch_first": 3842,
+        "dispatch_last": 3849,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 128.002568,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      },
+      {
+        "keyoff_tick": 3960,
+        "next_event_tick": 3972,
+        "dispatch_first": 3962,
+        "dispatch_last": 3969,
+        "bridge_resource": 150,
+        "source_beat_at_next_event": 132.002648,
+        "rationale": "Actual C7 turnaround, middle Bb9sus4 release, or full-cycle Fm7 release; dominant connector into Fmajor",
+        "held_keys_at_dispatch": 0,
+        "release_reverb_silence_proven": false
+      }
+    ],
+    "max_inter_gate_ticks": 720,
+    "worst_case_wait_ticks": 722,
+    "worst_case_wait_seconds": 12.033574,
+    "poll_contract_max_ticks": 2,
+    "native_poll_guarantee_proven": false,
+    "responsive_shipping_gate": false,
+    "limitation": "These immutable arrangements do not support a proven sub-5-second all-key-clear handoff. Narrower one/two-tick gaps are rejected; no note is truncated."
+  }
+]

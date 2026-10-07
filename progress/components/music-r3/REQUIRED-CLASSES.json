@@ -1,0 +1,119 @@
+{
+  "declared": {
+    "support.py": [
+      "Scenario"
+    ],
+    "test_events.py": [
+      "EventProof"
+    ],
+    "test_guard_contract.py": [
+      "GuardContractProof"
+    ],
+    "test_host_composition.py": [
+      "HostCompositionProof"
+    ],
+    "test_restore.py": [
+      "RestoreProof"
+    ],
+    "test_revision2_host.py": [
+      "Revision2HostProof"
+    ],
+    "test_revision3_save.py": [
+      "Revision3SaveProof"
+    ],
+    "test_source.py": [
+      "SourceProof"
+    ],
+    "test_transport.py": [
+      "TransportProof"
+    ]
+  },
+  "visible_testcases": {
+    "support.py": [
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_events.py": [
+      [
+        "EventProof",
+        "test_events.EventProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_guard_contract.py": [
+      [
+        "GuardContractProof",
+        "test_guard_contract.GuardContractProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_host_composition.py": [
+      [
+        "HostCompositionProof",
+        "test_host_composition.HostCompositionProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_restore.py": [
+      [
+        "RestoreProof",
+        "test_restore.RestoreProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_revision2_host.py": [
+      [
+        "Revision2HostProof",
+        "test_revision2_host.Revision2HostProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_revision3_save.py": [
+      [
+        "Revision3SaveProof",
+        "test_revision3_save.Revision3SaveProof"
+      ],
+      [
+        "Scenario",
+        "support.Scenario"
+      ]
+    ],
+    "test_source.py": [
+      [
+        "Scenario",
+        "support.Scenario"
+      ],
+      [
+        "SourceProof",
+        "test_source.SourceProof"
+      ]
+    ],
+    "test_transport.py": [
+      [
+        "Scenario",
+        "support.Scenario"
+      ],
+      [
+        "TransportProof",
+        "test_transport.TransportProof"
+      ]
+    ]
+  }
+}

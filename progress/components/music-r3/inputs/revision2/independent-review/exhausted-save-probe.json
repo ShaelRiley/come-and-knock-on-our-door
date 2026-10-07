@@ -1,0 +1,17 @@
+{
+  "scope": "documented generation ceiling reached through rejected request; actual emitted Main writeSave with typed native save interception; not a native save",
+  "domain_save_ready": 1,
+  "save_kernel_entered": 1,
+  "save_result": 1,
+  "frozen_before_restore": {
+    "owner": 151,
+    "chooser": 1,
+    "failure": 9
+  },
+  "saved_music_validate": 1,
+  "restore_begin_return": 0,
+  "owner_after": 0,
+  "mode_after": 3,
+  "failure_after": 9,
+  "gameplay_state_unchanged": true
+}

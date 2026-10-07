@@ -1,0 +1,1288 @@
+{
+  "records": [
+    {
+      "id": "P07.SCENE.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "scene",
+      "trigger": "Begin household-special preparation after P02",
+      "text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "Six full suppers, or eight tasting bowls using the method in the margin."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "What’s a tasting bowl?"
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "A small portion with eye contact."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Including one for you. I won’t have you watching me chew while you explain what I’m tasting."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Eight bowls. One of them mine. I’ll follow the margin’s method."
+        }
+      ],
+      "source_obligations": [
+        "Six full suppers versus eight contributors, including Jackie",
+        "Written tasting method is required evidence",
+        "No magical full-portion multiplication"
+      ],
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "937aeba3b2cb3f2e3da6f2bbb50dd1722d4242f8c9773086cd1088763edf24ea",
+      "speaker_id": "jack",
+      "text_sha256": "4c314c580f9049dc0e999499d3418a5a6c25e780eb7e42b5eb43f389506cb655",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "eb283d852f0754439b9c25bb5d8c906055ab1587c93afc9d26ffef4ada2e511b",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.LABEL.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing courtyard hotpot recipe",
+      "text": "Courtyard hotpot recipe",
+      "source_obligations": [
+        "Read actual plan rather than assume culinary knowledge",
+        "Six full meals remain distinct from eight tasting portions"
+      ],
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "4d2204c198ed509185dde67613b7a08f53594ccccce1e1d7c2d95964bff98073",
+      "speaker_id": "text",
+      "text_sha256": "1a12a1542df0fc31691ae5173046bbf97f9ee00ed4e4a45a3c515e9250413567",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LOOK.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing courtyard hotpot recipe",
+      "text": "My six-full-supper recipe, with the eight-tasting-bowl method written in the margin. Smaller portions, larger adjectives. I may be moving up in the world.",
+      "source_obligations": [
+        "Read actual plan rather than assume culinary knowledge",
+        "Six full meals remain distinct from eight tasting portions"
+      ],
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "4d2204c198ed509185dde67613b7a08f53594ccccce1e1d7c2d95964bff98073",
+      "speaker_id": "jack",
+      "text_sha256": "f4ccbd327bbed04e692a550d0772e81a2d42a95339d014257938d9fd5d09c48f",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "c3813408aec335476f63a1eccedddadecd52635d44f7e05225697398d144544b",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.READ.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Recipe",
+      "kind": "read",
+      "trigger": "Read hotpot recipe and tasting-size margin",
+      "text": "Courtyard hotpot: six full suppers.\n\nEight tasting bowls: add stock to the marked jug line. Base first, vegetables second; finish with herbs after turning off the heat.",
+      "source_obligations": [
+        "Exact recipe clue preserves measure, component sequence and herbs off heat"
+      ],
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "381ca690e19186adaafbda2b55a756dd3724fd8f1a5ae27e4baeb15922aa00fb",
+      "speaker_id": "text",
+      "text_sha256": "00f6f0875f5babd988867418f65ae95d907ed1b739c3b16e3029a41bb54d7fa1",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LABEL.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing bean-and-tomato base",
+      "text": "Bean-and-tomato base",
+      "source_obligations": [
+        "Prepared bean-and-tomato base is cooked component"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "a8838eaad71f6d44a1136086043e01668c8677b89335b84aaf3bfde0a925a079",
+      "speaker_id": "text",
+      "text_sha256": "f6cc5a63c225db6f8f422465fb404967efbfdbfe0bfa9a0348c991629b35b7aa",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at existing bean-and-tomato base",
+      "text": "Prepared bean-and-tomato base for the hotpot. It looks modest now. Wait until I describe it.",
+      "source_obligations": [
+        "Prepared bean-and-tomato base is cooked component"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "a8838eaad71f6d44a1136086043e01668c8677b89335b84aaf3bfde0a925a079",
+      "speaker_id": "jack",
+      "text_sha256": "b9ce3e74e7da9f0c8e5206f5ab185904128ce8321e0209f7513e6b6d61a3a4d4",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "7003bd8b2e3a4801a483c3f8bc17b5cc37d8808bf5b2412b5157fd87b00e8bf3",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.LABEL.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing vegetable bowl",
+      "text": "Vegetable bowl",
+      "source_obligations": [
+        "Vegetables after base; no new chopping interaction"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "25f2abec35b21304885bbb1297f1265a7c76b365804b8574b3e4f4cdb5f1d107",
+      "speaker_id": "text",
+      "text_sha256": "c685637e565cac46290a2f63eb1d8c22a4d6bce221c89fae9cb4e689b6d72257",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at existing vegetable bowl",
+      "text": "The prepared vegetables. They go in after the base, before cooking.",
+      "source_obligations": [
+        "Vegetables after base; no new chopping interaction"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "25f2abec35b21304885bbb1297f1265a7c76b365804b8574b3e4f4cdb5f1d107",
+      "speaker_id": "jack",
+      "text_sha256": "ea1d0275c214f87a8d6f0d284dfa1bf437c513938b8b0df1e2620cb8d06463c7",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LABEL.004",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing stock bottle",
+      "text": "Stock bottle",
+      "source_obligations": [
+        "Stock must be measured to visible eight-bowl level"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "538565f9104e49c08350f196db30c6b71d9a884d7ac7b5f59c3f638036fd3235",
+      "speaker_id": "text",
+      "text_sha256": "5366de89ac5a3ad7cead33a6482835f9a22c0b9eb34a10f7395715cce0df2561",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at existing stock bottle",
+      "text": "Stock for the tasting-size recipe. Measure it to the jug’s eight-bowl mark. “A generous splash” is how I end up serving soup.",
+      "source_obligations": [
+        "Stock must be measured to visible eight-bowl level"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "538565f9104e49c08350f196db30c6b71d9a884d7ac7b5f59c3f638036fd3235",
+      "speaker_id": "jack",
+      "text_sha256": "443c4991c6ebbbd5f971aa92ace80e535b0a4c5d5d4d26a698cddc9ff18ca4f9",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "e56feb57356dfe24de8c810a69427c75386265b47b3c3fed4b3c2d1fd23d4de2",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.LABEL.005",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing measuring jug",
+      "text": "Measuring jug",
+      "source_obligations": [
+        "Jug carries prominent eight-bowl mark"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "db50e1b0bebe0e4c4ac1d3e1ae9528b9f72fd69323f87c782ad6bf6959472b99",
+      "speaker_id": "text",
+      "text_sha256": "2e99a890e6e8cbbf3d3e9f9fc9a9de2e9c606869705af912f84786c76b0d801b",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.004",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at existing measuring jug",
+      "text": "A large, unmistakable mark for eight tasting bowls. Including mine.",
+      "source_obligations": [
+        "Jug carries prominent eight-bowl mark"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "db50e1b0bebe0e4c4ac1d3e1ae9528b9f72fd69323f87c782ad6bf6959472b99",
+      "speaker_id": "jack",
+      "text_sha256": "5c6a0d069c7e0e4fafc402049058c4f6ed1f9be76eb6bd7c9c44e3fdb4b1bb7b",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "57dbba4e709fd773f55965e801bc43eda2e60befa1a2cc12226fbb2fddc1e6f6",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.READ.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jug marking",
+      "kind": "read",
+      "trigger": "Look at jug’s eight-bowl mark",
+      "text": "8 TASTING BOWLS",
+      "source_obligations": [
+        "Large unambiguous correct measurement target"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "a83d824a67a84a55e1ff8fc74e78044d79e5e785a45e2bd48e6faf95601935fb",
+      "speaker_id": "text",
+      "text_sha256": "3a41f99b275d4ce30426767ca472cdf5ed6b475da9ea5fb7fee55e556ac80e0f",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LABEL.006",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing herb sachet",
+      "text": "Herb sachet",
+      "source_obligations": [
+        "Fresh herbs added off heat; packet repeats clue"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "fdc538fc7e4efbb9e056989a2863feffe0c9e3ac703223f2570b6268700e91b2",
+      "speaker_id": "text",
+      "text_sha256": "ba012cbd92ef2f9289ade8bfecc829a9aa3424f6e4f7f60663be613d6a6582e3",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.005",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at existing herb sachet",
+      "text": "The fresh finish. The packet says to add it after the heat is off.",
+      "source_obligations": [
+        "Fresh herbs added off heat; packet repeats clue"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "fdc538fc7e4efbb9e056989a2863feffe0c9e3ac703223f2570b6268700e91b2",
+      "speaker_id": "jack",
+      "text_sha256": "85a9fb9a24dc6e32ef57b26166b6bcf1e9a013d73f0454531ad0c9f658674eaf",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.READ.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Herb sachet",
+      "kind": "read",
+      "trigger": "Read herb sachet",
+      "text": "FINISH OFF THE HEAT",
+      "source_obligations": [
+        "Repeat exact off-heat instruction"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "185d12a97c4783157295ffee553ae8c2244c08b49074977ba24fcbe5994f4676",
+      "speaker_id": "text",
+      "text_sha256": "b6c745b572d9636f4dc524cad65b16cacd0d70c65bc8ef44999d3e8a8410a7e1",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LABEL.007",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing hotpot pot",
+      "text": "Hotpot pot",
+      "source_obligations": [
+        "Pot used to cook then wait lidded for later transport"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "3140836671a742351b558374cd23277ea621ff96494ec7f3d53cdefaa6c6913d",
+      "speaker_id": "text",
+      "text_sha256": "b2bdbfb9e4fb4c008d6ed6a79f80d7754c8348ced1870c5b8fe5916689e9bc01",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LOOK.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing hotpot pot",
+      "text": "A pot with a proper lid. Cook the hotpot here, then keep it lidded in the kitchen until it’s time to carry it.",
+      "source_obligations": [
+        "Pot used to cook then wait lidded for later transport"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "3140836671a742351b558374cd23277ea621ff96494ec7f3d53cdefaa6c6913d",
+      "speaker_id": "jack",
+      "text_sha256": "0b1bf1fd683a14f1e4361371a18161e5d59e475c15ea6ab8bb0eba1cfa3ced98",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "d9ab788c8b96b1cb995f2787b85d2a7c5185bcb5f3791347b66edd1be373538e",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.LABEL.008",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing pot lid",
+      "text": "Pot lid",
+      "source_obligations": [
+        "Lid required to complete transport-ready food"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "cbce583c3093c595bb9b981edf56a9ee4019dca710763bacc54b970128980017",
+      "speaker_id": "text",
+      "text_sha256": "19b67e7499c71add62ab81de329f1d37ed26ab94431d3414533bba5a9a1355ac",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LOOK.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing pot lid",
+      "text": "A lid that fits the pot. There’s a reason neither of us is serving supper off the floor.",
+      "source_obligations": [
+        "Lid required to complete transport-ready food"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "cbce583c3093c595bb9b981edf56a9ee4019dca710763bacc54b970128980017",
+      "speaker_id": "jack",
+      "text_sha256": "f7feec28cf7bd15bf0e71083a6370883f6bc3a9325c8629e41d4372a1d001801",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LABEL.009",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Display name of existing stove",
+      "text": "Stove",
+      "source_obligations": [
+        "Explicit stove on/off sequence"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "b3a58aafea03d123c40d54d76f75927abe41d8a5ba75be2b92b15ac8c8699c42",
+      "speaker_id": "text",
+      "text_sha256": "20ceba2fff2458de57420c04984b969c757ecb42d79607d7801b7f89a2354e78",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.LOOK.004",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at existing stove",
+      "text": "On to cook the base and vegetables. Off before the herbs. A cook should know when to stop helping.",
+      "source_obligations": [
+        "Explicit stove on/off sequence"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "b3a58aafea03d123c40d54d76f75927abe41d8a5ba75be2b92b15ac8c8699c42",
+      "speaker_id": "jack",
+      "text_sha256": "dd166f1aca69a2ac770341f3fc05e071a3044a54ee618e7c05f4e1ad072ae770",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "3fa54f5c31d40d0b2c9cd482af89e44fdb0e07c567c2721e4dfcd8b835ad8782",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.SUCCESS.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use prepared base with pot before or after measured stock",
+      "text": "The bean-and-tomato base is in the pot.",
+      "source_obligations": [
+        "Base placement succeeds in either accepted base/stock ordering"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "89705d78679385e7834ceb7f599ae94c413f4c7ee2108718e0fab94aaee04290",
+      "speaker_id": "jack",
+      "text_sha256": "fe88383bda932daa1e308a42b00cc0ee7de0043fc6ee55fb237132c936460eb3",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.CHOICE.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Use stock bottle with jug: choose marked eight-bowl level",
+      "text": "Fill to the eight-tasting-bowl mark.",
+      "source_obligations": [
+        "Correct selection corresponds to prominent jug mark"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "e74962e27369439dc370e0408c1e7786a647e4e133a48645510a520fa48e769a",
+      "speaker_id": "jack",
+      "text_sha256": "c81b09b642a0853c9c7c0ed09a0719d4815f329a385bdd1a83d7a15e930b3760",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.CHOICE.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Use stock bottle with jug: choose existing too-small portion selection",
+      "text": "Use the six-supper quantity.",
+      "source_obligations": [
+        "Existing too-small choice retains guest-count correction",
+        "No additional measurement quantity invented"
+      ],
+      "source_ref": "P07-source.txt:2 (Prerequisite and obstacle); P07-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "39d90206c2869fa1026c4399d30fb16cf268debf0545f489a5b751420ee90808",
+      "speaker_id": "jack",
+      "text_sha256": "2e4c79a50621f56599faf0b5d66736c0bb03fae89d85788c444756df7080d0a8",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Measure stock to prominently marked eight-bowl level",
+      "text": "Right to the eight-bowl mark. Tasting portions for all eight of us.",
+      "source_obligations": [
+        "Correct stock measure",
+        "Portions are tasting-size and include Jackie"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "4ca0cecc22ae4e29ae17f12b880cddcc96ec70fdea5c857c61a6368eef50de91",
+      "speaker_id": "jack",
+      "text_sha256": "dcd63b914c8b26d77b4c7146824cb126845112aba4f45f7c3e96bdf4c2185943",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.INVENTORY.006",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "inventory",
+      "trigger": "Look at correctly measured jug",
+      "text": "Stock measured to the eight-tasting-bowl line. Ready for the pot.",
+      "source_obligations": [
+        "Measured inventory state exposes correct quantity"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "c4a38e6f3ca759e0d4f64d3a9ad6bb11f2de37ff59f0be9df1516d01828e99f7",
+      "speaker_id": "jack",
+      "text_sha256": "4cd2f5b0c9d77e5f084c04411ef78180e71d49a852fd2c1b54e59b22344a7f7c",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use correctly measured jug with pot before or after base",
+      "text": "The measured stock is in. The base and stock can go in either order; the vegetables follow the base.",
+      "source_obligations": [
+        "Both base/stock orders accepted",
+        "Important component sequence remains clear"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "5753c1c1f990ea69c877d445fd9751baa9af231e9017c39db61096b46f68ebf6",
+      "speaker_id": "jack",
+      "text_sha256": "a39eff80b238424fdaec91ad9cba01c52caed5e50bf5bcb072635526a88d6e29",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.004",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use vegetable bowl with pot after base",
+      "text": "Vegetables in. The cooking comes before the fresh finish.",
+      "source_obligations": [
+        "Vegetables join cooked components before herbs"
+      ],
+      "source_ref": "P07-source.txt:3 (Clues and objects); P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "2d1c73bb7932b90272a1f58f36443be735a40b21d0d13c39383bd8e40108e073",
+      "speaker_id": "jack",
+      "text_sha256": "2155563078498f22abaf1950c0a1a42364f6423ac89d052af2f04617f393c51f",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.005",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use stove to cook prepared hotpot components; immediate montage resolves",
+      "text": "Base, stock, vegetables. A short cook, and the hotpot is ready for its fresh finish.",
+      "source_obligations": [
+        "Existing short montage completes immediately without timer",
+        "Heat still must be turned off before herbs"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "950bf2f7d69be2226e619540f66119bbbe2796275a33599496b1217e70d1cb86",
+      "speaker_id": "jack",
+      "text_sha256": "460ae24dc1f7e01e161afead12ac50480eeab7640596f552fb13cc43f956008c",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.006",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use stove to turn heat off after cooking",
+      "text": "Heat off. Now the herbs.",
+      "source_obligations": [
+        "Explicit off state required for fresh finish"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "df179bbde87e43394a4699a563575dfc2c41d9f6db96d218e146c117345bb8fe",
+      "speaker_id": "jack",
+      "text_sha256": "cf033438d5c77b75eb20285e2ad7a1c1476343bb140461610f5d92b1e3602e89",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.007",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use herb sachet with pot after heat is off",
+      "text": "Herbs in after cooking, with the heat off. A fresh finish, not boiled perfume.",
+      "source_obligations": [
+        "Correct herb use; cooked components precede fresh finish"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "083ba37dd48d759caca5c6e054b13dfe82a518e0cedb364372efa7f3d70d9084",
+      "speaker_id": "jack",
+      "text_sha256": "c26e52b92c99e0a1253a1fe9faf1b9970f398a07e339565cf9c83726b3f21401",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "0021f07e22a3d8249021744c8507a00833bb803d4ccabe34dbf092d4915a6d7f",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.SUCCESS.008",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Close pot lid after finishing hotpot",
+      "text": "Lid on. Eight tasting portions, ready for later.",
+      "source_obligations": [
+        "Lid completes FOOD_READY",
+        "Food waits until P13 transport"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "06644c88f1dd37f5d7a92b3d560e7f61024f2287f91a027e9ade4c61ad5b630a",
+      "speaker_id": "jack",
+      "text_sha256": "0b020c99cbf9c1c5e62e173dc43fba8d065d5b0d85d233d70f5a9a824c211fa9",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.FAILURE.001",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Attempt to add herb sachet while heat is active",
+      "text": [
+        {
+          "speaker": "Jackie Tree",
+          "text": "My recipe says to turn the heat off before adding the herbs. Apparently I wrote it for a man I don’t trust."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Heat off first. I’ll keep the herbs for then."
+        }
+      ],
+      "source_obligations": [
+        "Explicit active-heat rejection",
+        "Herb sachet not lost"
+      ],
+      "source_ref": "P07-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "a5365decabd4b599001912e4f55eaa5410beb36c35a7c03a2651d31d3ed00d3e",
+      "speaker_id": "jack",
+      "text_sha256": "6699263dec562d1f47a5136ee172d54d2bf28ff8c7b511e4b18b958f9b491b53",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "571d3e2c3c87ffa49113dfb9df85474a258f7f096ff378c58b448c0719a2d2fa",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.FAILURE.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Choose too-small portion measure",
+      "text": "That’s stock for six, and there are eight of us. I can make a tasting portion elegant; I can’t make two people disappear. Refill the jug to the eight-tasting-bowl mark shown in the recipe’s margin.",
+      "source_obligations": [
+        "Highlight guest count and recipe annotation",
+        "Supplies remain refillable until completion"
+      ],
+      "source_ref": "P07-source.txt:6 (Wrong feedback); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "80c1bfc535cadfd0a7f7a23f327c00e75dc575fe9719fc93ee65a2030a0a2f63",
+      "speaker_id": "jack",
+      "text_sha256": "23be78a9e864f26091222f1e6ac615b9aa28b1bf5ecdf7b7dc468d0d61d129a5",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "b120bcadb1f1d6cea07f735fb1005970896135ce6dbcf71dc8e14a0206bbc341",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.FAILURE.003",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Attempt to complete prepared food with lid still open",
+      "text": "The hotpot is finished, but it needs its lid before it travels. I’d like the courtyard to smell of supper without wearing it.",
+      "source_obligations": [
+        "Clear transport reminder; no spill or irreversible loss"
+      ],
+      "source_ref": "P07-source.txt:6 (Wrong feedback)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "df72fa319a119a3c1320e91a92979db303e30dee1c593504c6725fc15c1cbb69",
+      "speaker_id": "jack",
+      "text_sha256": "8922fe4abc32443b3d79c64bcab6f22f23992220fa8e7ba01c3f79e1dd7b9e68",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "194c5fcc9c9bd4f7b3097e50da430689fc9c7365395d1406f8c658b459c4ac5b",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.SCENE.002",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "scene",
+      "trigger": "Play existing onion-tears misunderstanding during preparation",
+      "text": [
+        {
+          "speaker": "Bunny Easter",
+          "text": "Oh, Jackie. Thinking about all the lovely things Rita’s offering us..."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "It’s the onion."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Oh. I was one hug away from putting my sleeve in the beans."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "I am grateful to her, though."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "I know."
+        }
+      ],
+      "source_obligations": [
+        "Ordinary onion tears mistaken for emotion",
+        "Jackie admits onion before sincere appreciation",
+        "No illness, allergy, drug or tampering gag",
+        "Optional laugh follows first misunderstanding, never sincere follow-up"
+      ],
+      "source_ref": "P07-source.txt:5 (Comic beat); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "c0da1cc74fed7c8daa9589a269075a398cde3aecd0e4901a44f25aa3b38d1dbe",
+      "speaker_id": "jack",
+      "text_sha256": "d0120ea2d8e8c2ae5babac68ed094e291f2985ec466f5d95a41bf3a7f4c4cd65",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "73f79cdd1ab05764c28bd21619a2ff898e0b9f13f459d6f62cd30c76d4398f55",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P07.LOOK.005",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Jackie Tree",
+      "kind": "look",
+      "trigger": "Look at completed lidded hotpot waiting in kitchen",
+      "text": "Ready for eight tasting bowls. The lid stays on, and it waits here until we serve.",
+      "source_obligations": [
+        "FOOD_READY",
+        "Pot waits in kitchen until P13",
+        "No spoilage urgency"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "5774f6e80bba115afc1b3e68bd81ded0db3e4627fae5e4aaea549e8bbd14c85e",
+      "speaker_id": "jack",
+      "text_sha256": "3802adc840bd85f1528a8c5f3e5e9c9ad5e7a1dccd2fd1a3866dfe620ff9e0ca",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.SUCCESS.009",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "System",
+      "kind": "success",
+      "trigger": "Complete food preparation",
+      "text": "Household special ready: eight tasting portions. Lidded pot waiting in the kitchen.",
+      "source_obligations": [
+        "Include all eight contributors at appropriate tasting size",
+        "FOOD_READY and later transport unchanged"
+      ],
+      "source_ref": "P07-source.txt:4 (Solution and verbs); P07-source.txt:8 (State and recovery)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "6f502db1007e40406ee7c0624879233aada9061876ff1552c06b774b8140c793",
+      "speaker_id": "text",
+      "text_sha256": "142f55e2d7bc149216f1384b6a6f4655112a18991a8c964329fe1b7406cc5654",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.HINT.1",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 1",
+      "text": "Count all eight contributors, including Jackie, then read the recipe’s margin.",
+      "source_obligations": [
+        "Guest count and written alternative"
+      ],
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "clue_checksum": "0b3ac1e6fb08005a48ed4e6ee15e16d79bcb16220d78fefa09d35a2ebad85035",
+      "speaker_id": "text",
+      "text_sha256": "e08aa549d0c2ab5eeb4cd8b92d292e9c029c3c097e33818793a66345fc5dbd26",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.HINT.2",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 2",
+      "text": "Use the jug’s eight-tasting-bowl stock mark. The herbs are a fresh finish, added only after you turn the heat off.",
+      "source_obligations": [
+        "Measure and off-heat distinction"
+      ],
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "a0244b7a3a122b2c5139d2f19f164ce09cc480c52cbc188ad9d4f7c0a0066a80",
+      "speaker_id": "text",
+      "text_sha256": "f3c4fadaad3cadceaf24107bce9edf398b4aa25b5fbcdc2cbc5e181202e161d5",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P07.HINT.3",
+      "puzzle": "P07",
+      "location": "L02 Kitchen",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 3",
+      "text": "Put base, the eight-bowl stock measure, and vegetables in the pot. Cook, switch off the stove, add the herbs, then close the lid. Base and measured stock can go in either order.",
+      "source_obligations": [
+        "Complete solution with explicit accepted order flexibility"
+      ],
+      "source_ref": "P07-source.txt:7 (Hints)",
+      "implementation_status": "authored_gdd_not_implemented",
+      "current_text": null,
+      "clue_checksum": "902231ccaed58824df4937a7c95f9dcd26fda4bd57efea4f6ed890ff59d3a550",
+      "speaker_id": "text",
+      "text_sha256": "e37db94f7d31616edf407f229728d36a499e4f85cc3e77e2375d606e3855d066",
+      "dynamic_bindings": {}
+    }
+  ],
+  "speech_units": [
+    {
+      "line_id": "P07.SCENE.001.01",
+      "record_id": "P07.SCENE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Six full suppers, or eight tasting bowls using the method in the margin.",
+      "caption_text": "Six full suppers, or eight tasting bowls using the method in the margin.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SCENE.001.02",
+      "record_id": "P07.SCENE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "What’s a tasting bowl?",
+      "caption_text": "What’s a tasting bowl?",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SCENE.001.03",
+      "record_id": "P07.SCENE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "A small portion with eye contact.",
+      "caption_text": "A small portion with eye contact.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.SCENE.001.04",
+      "record_id": "P07.SCENE.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Including one for you. I won’t have you watching me chew while you explain what I’m tasting.",
+      "caption_text": "Including one for you. I won’t have you watching me chew while you explain what I’m tasting.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.SCENE.001.05",
+      "record_id": "P07.SCENE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Eight bowls. One of them mine. I’ll follow the margin’s method.",
+      "caption_text": "Eight bowls. One of them mine. I’ll follow the margin’s method.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.LOOK.001.01",
+      "record_id": "P07.LOOK.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "My six-full-supper recipe, with the eight-tasting-bowl method written in the margin. Smaller portions, larger adjectives. I may be moving up in the world.",
+      "caption_text": "My six-full-supper recipe, with the eight-tasting-bowl method written in the margin. Smaller portions, larger adjectives. I may be moving up in the world.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.LOOK.002.01",
+      "record_id": "P07.LOOK.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "A pot with a proper lid. Cook the hotpot here, then keep it lidded in the kitchen until it’s time to carry it.",
+      "caption_text": "A pot with a proper lid. Cook the hotpot here, then keep it lidded in the kitchen until it’s time to carry it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.LOOK.003.01",
+      "record_id": "P07.LOOK.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "A lid that fits the pot. There’s a reason neither of us is serving supper off the floor.",
+      "caption_text": "A lid that fits the pot. There’s a reason neither of us is serving supper off the floor.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.LOOK.004.01",
+      "record_id": "P07.LOOK.004",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "On to cook the base and vegetables. Off before the herbs. A cook should know when to stop helping.",
+      "caption_text": "On to cook the base and vegetables. Off before the herbs. A cook should know when to stop helping.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.001.01",
+      "record_id": "P07.SUCCESS.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The bean-and-tomato base is in the pot.",
+      "caption_text": "The bean-and-tomato base is in the pot.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.002.01",
+      "record_id": "P07.SUCCESS.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Right to the eight-bowl mark. Tasting portions for all eight of us.",
+      "caption_text": "Right to the eight-bowl mark. Tasting portions for all eight of us.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.003.01",
+      "record_id": "P07.SUCCESS.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The measured stock is in. The base and stock can go in either order; the vegetables follow the base.",
+      "caption_text": "The measured stock is in. The base and stock can go in either order; the vegetables follow the base.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.004.01",
+      "record_id": "P07.SUCCESS.004",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Vegetables in. The cooking comes before the fresh finish.",
+      "caption_text": "Vegetables in. The cooking comes before the fresh finish.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.005.01",
+      "record_id": "P07.SUCCESS.005",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Base, stock, vegetables. A short cook, and the hotpot is ready for its fresh finish.",
+      "caption_text": "Base, stock, vegetables. A short cook, and the hotpot is ready for its fresh finish.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.006.01",
+      "record_id": "P07.SUCCESS.006",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Heat off. Now the herbs.",
+      "caption_text": "Heat off. Now the herbs.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.007.01",
+      "record_id": "P07.SUCCESS.007",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Herbs in after cooking, with the heat off. A fresh finish, not boiled perfume.",
+      "caption_text": "Herbs in after cooking, with the heat off. A fresh finish, not boiled perfume.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SUCCESS.008.01",
+      "record_id": "P07.SUCCESS.008",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Lid on. Eight tasting portions, ready for later.",
+      "caption_text": "Lid on. Eight tasting portions, ready for later.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.FAILURE.001.01",
+      "record_id": "P07.FAILURE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "My recipe says to turn the heat off before adding the herbs. Apparently I wrote it for a man I don’t trust.",
+      "caption_text": "My recipe says to turn the heat off before adding the herbs. Apparently I wrote it for a man I don’t trust.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.FAILURE.001.02",
+      "record_id": "P07.FAILURE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Heat off first. I’ll keep the herbs for then.",
+      "caption_text": "Heat off first. I’ll keep the herbs for then.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.FAILURE.002.01",
+      "record_id": "P07.FAILURE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "That’s stock for six, and there are eight of us. I can make a tasting portion elegant; I can’t make two people disappear. Refill the jug to the eight-tasting-bowl mark shown in the recipe’s margin.",
+      "caption_text": "That’s stock for six, and there are eight of us. I can make a tasting portion elegant; I can’t make two people disappear. Refill the jug to the eight-tasting-bowl mark shown in the recipe’s margin.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.FAILURE.003.01",
+      "record_id": "P07.FAILURE.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "The hotpot is finished, but it needs its lid before it travels. I’d like the courtyard to smell of supper without wearing it.",
+      "caption_text": "The hotpot is finished, but it needs its lid before it travels. I’d like the courtyard to smell of supper without wearing it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.SCENE.002.01",
+      "record_id": "P07.SCENE.002",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Oh, Jackie. Thinking about all the lovely things Rita’s offering us...",
+      "caption_text": "Oh, Jackie. Thinking about all the lovely things Rita’s offering us...",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SCENE.002.02",
+      "record_id": "P07.SCENE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "It’s the onion.",
+      "caption_text": "It’s the onion.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": "LAF07",
+        "canonical_binding_role": "alternative_to_physical_payoff",
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P07.SCENE.002.03",
+      "record_id": "P07.SCENE.002",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Oh. I was one hug away from putting my sleeve in the beans.",
+      "caption_text": "Oh. I was one hug away from putting my sleeve in the beans.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SCENE.002.04",
+      "record_id": "P07.SCENE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "I am grateful to her, though.",
+      "caption_text": "I am grateful to her, though.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.SCENE.002.05",
+      "record_id": "P07.SCENE.002",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "I know.",
+      "caption_text": "I know.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P07.LOOK.005.01",
+      "record_id": "P07.LOOK.005",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Ready for eight tasting bowls. The lid stays on, and it waits here until we serve.",
+      "caption_text": "Ready for eight tasting bowls. The lid stays on, and it waits here until we serve.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    }
+  ]
+}

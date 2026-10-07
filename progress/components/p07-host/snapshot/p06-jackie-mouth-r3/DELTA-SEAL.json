@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_GUARDED_P06_MOUTH_R3",
+  "files": {
+    "PRESENTATION-DELTA.json": {
+      "sha256": "5c07ecf99ee898cee4288ec1f17ebf09171a609c2a8d79d2ab52fa970c28faac",
+      "bytes": 2137
+    },
+    "README.md": {
+      "sha256": "404ffb6f299385defc251a7e23aa445183fac789b74dbdcfb49d9e3b2a192804",
+      "bytes": 1433
+    },
+    "build/coherent/ABI-MAPPINGS.json": {
+      "sha256": "c342c39d40b82c117f5b0117ba9f0149b2f1e53010e2ab38ebf4ce3171dff381",
+      "bytes": 1713835
+    },
+    "build/coherent/compile-receipt.json": {
+      "sha256": "628117379862d95a273c1bfd7525d65c1d586151a10042eff1a75ee9d9a130ba",
+      "bytes": 3732
+    },
+    "build/coherent/compiled/987.scr.bin": {
+      "sha256": "75fe29580de389595859faa5b5f2e17d6365d45f69cc535d74e24a927050c683",
+      "bytes": 27534
+    },
+    "build/coherent/compiled/987.scr.bin.hep": {
+      "sha256": "c0090565722be71b53a5e121d5c5f825a0965f1f229410800f3162f14f61ece5",
+      "bytes": 3706
+    },
+    "evidence/mouth-delta.json": {
+      "sha256": "ea697ff4335b1e7b7c8ae3a88f7029abc7a2e3043b5fcd71c2abb21ce3433371",
+      "bytes": 3267
+    },
+    "evidence/two-noun-reversal.log": {
+      "sha256": "3bd733a293d46582763f3fad0999d5f832548fc0734d9d46aef03bcf0a1a3699",
+      "bytes": 99
+    },
+    "evidence/ui-solution.json": {
+      "sha256": "fa8878fa9200038f11412dd106d90fa011aab0c49ffb8c721c110da243f2eb59",
+      "bytes": 50984
+    },
+    "evidence/ui-solution.log": {
+      "sha256": "115bc58446869f5f74ed4b3055eb0b9171a91bcdf93d06f407c9216e8daa518d",
+      "bytes": 100
+    },
+    "src/module987.sc": {
+      "sha256": "9384e6f9a31799dd1f69756c483d207537c16c462754fe57bc5d829bd69f21e3",
+      "bytes": 102259
+    },
+    "templates/visual.sc.in": {
+      "sha256": "591f5ba0e29c32a610404771606c0c28604e7300f0a93fadd7cb222391daf67a",
+      "bytes": 6461
+    },
+    "test_mouth_delta.py": {
+      "sha256": "d855e722125d062671b64b031cf84ed27ad92ee1e76a6cc9f09498de0bd9e33c",
+      "bytes": 3438
+    },
+    "test_ui_solution.py": {
+      "sha256": "f543ad86793f4b2835a1d863db850d0ea0051ebd1ebb4c17e29b56f8c81f4fc6",
+      "bytes": 6511
+    },
+    "tests/EXPECTED-P06-TESTS.json": {
+      "sha256": "940e1092fb30c17530b063a2cb905619f8b88517a05331cbab98620aab06e91b",
+      "bytes": 2019
+    },
+    "tests/test_p06_host.py": {
+      "sha256": "546116c97b7a0b4359aa613269a84d7369e8c500678f77760ea6f16992ff4f6a",
+      "bytes": 20476
+    }
+  },
+  "native_acceptance": false,
+  "listening": false
+}

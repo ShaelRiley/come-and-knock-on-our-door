@@ -1,0 +1,46 @@
+{
+  "kind": "newly regenerated fixture, not recovered original bytes",
+  "steps": [
+    {
+      "source": "inputs/literal-p08/original-recorded/p08-fixture-generator.001.py.txt",
+      "executed_path": "generated/generator/p08-fixture-generator.001.py",
+      "path_only_replacements": [
+        {
+          "before": "/workspace/shared/cakood/full-script",
+          "after": "inputs/authority",
+          "count": 1
+        },
+        {
+          "before": "/workspace/shared/cakood/verbal-competitions-update/current-gdd.txt",
+          "after": "inputs/authority/complete-body.md",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "inputs/literal-p08/recorded-edits/p08-fixture.002-laugh-metadata.py.txt",
+      "executed_path": "generated/generator/p08-fixture.002-laugh-metadata.py",
+      "path_only_replacements": [
+        {
+          "before": "/workspace/shared/cakood/full-script",
+          "after": "inputs/authority",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "inputs/literal-p08/recorded-edits/p08-fixture.003-native-proposals.py.txt",
+      "executed_path": "generated/generator/p08-fixture.003-native-proposals.py",
+      "path_only_replacements": []
+    }
+  ],
+  "fixture_sha256": "77b4b466f8a3a6e54104a249083b846f0a53844a0ea71714ac9375aca3218d63",
+  "fixture_bytes": 19802,
+  "record_count": 44,
+  "catalog_sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+  "speech_sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+  "gdd_sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+  "historical_catalog_assertion": "1226a97873a3693867c08afe2731ddb55adef6f0eaeabc1222e103c04c0d9fa7",
+  "historical_fixture_sha256_available": false,
+  "object_ids": "Unchanged historical proposals only; no current registry allocation"
+}

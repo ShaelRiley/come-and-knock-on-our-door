@@ -1,0 +1,37 @@
+{
+  "domain": {
+    "vectors": 346,
+    "finite_layouts": 0,
+    "restore_roundtrips": 0,
+    "raw_rejections": 30,
+    "boundary_vectors": 30,
+    "slow_crosscheck_calls": 22,
+    "composition_cloths": 4,
+    "context_cases": 40,
+    "capacity_failures": 10,
+    "validation_mutations": 960
+  },
+  "finite": {
+    "vectors": 0,
+    "finite_layouts": 2048,
+    "restore_roundtrips": 6144,
+    "raw_rejections": 0,
+    "boundary_vectors": 0,
+    "slow_crosscheck_calls": 0,
+    "composition_cloths": 0,
+    "context_cases": 0,
+    "capacity_failures": 0,
+    "validation_mutations": 0
+  },
+  "order": {
+    "sorted_reproductions": 2,
+    "permutation_cases": 720,
+    "pending_queue_comparisons": 5116,
+    "ordered_ack_events": 3748,
+    "raw_roundtrips": 1658,
+    "continuation_cases": 36,
+    "continuation_actions": 576,
+    "raw_rejections": 18,
+    "atomic_order_cases": 2
+  }
+}

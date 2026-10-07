@@ -1,0 +1,14 @@
+{
+  "checkpoint": 1,
+  "cases": [
+    "test_exact_transfer_receipt_and_later_ack_required",
+    "test_genuine_original_cloth_history_and_no_implicit_handoff",
+    "test_inherited_ownership_guards_are_still_strict",
+    "test_padding_authority_requires_original_cloth_and_hook_or_pocket",
+    "test_unsigned_receipts_across_signed_limb_boundaries"
+  ],
+  "backends": [
+    "source989-with-emitted-campaign",
+    "whole-emitted-campaign"
+  ]
+}

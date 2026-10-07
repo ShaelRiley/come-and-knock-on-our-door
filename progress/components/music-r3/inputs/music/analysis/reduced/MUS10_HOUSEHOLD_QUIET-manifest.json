@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS10_HOUSEHOLD_QUIET",
+  "resource_id": 119,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS10_HOUSEHOLD_QUIET.mid",
+  "native_payload_path": "native/reduced/119.sound.bin",
+  "sha256": {
+    "midi": "48c87a6413bb3fde7aa6ddda1626f4dc1ff276dd0ba68c40fd5db743dac7242a",
+    "native": "285e2e887ca823862ab078d3d76da2e93e2e61fe3c1813665c079a097985cbc1"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 92,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

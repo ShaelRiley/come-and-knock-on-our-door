@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "date": "2026-10-06T09:17:00Z",
+  "status": "coordinator reservations for separate reconstructed component sources",
+  "retained_baseline_selectors": {
+    "range": [
+      0,
+      1084
+    ],
+    "authority": "contest-domain-reconstruction-r2/selectors.json"
+  },
+  "current_p05_host": {
+    "occupied_range": [
+      0,
+      1259
+    ],
+    "source": "p05-host-reconstruction/selectors.json",
+    "note": "Final coherent P05 host may add further names; inspect its seal before merge"
+  },
+  "reserved_new_component_selector_ranges": {
+    "P06": [
+      1600,
+      1799
+    ],
+    "P07": [
+      1800,
+      1999
+    ]
+  },
+  "rules": [
+    "Preserve all baseline and final P05 names/IDs during the eventual coherent merge",
+    "Allocate only actual new method/property names; vocabulary holes are not fabricated public selectors",
+    "P07 initial standalone1085..1190 allocation collided with P05 host and is being corrected before sealing",
+    "Future host additions must avoid reserved ranges; every combined source universe is freshly compiled and validated",
+    "Do not splice standalone compiled resources or their vocabularies into production"
+  ],
+  "scripts": {
+    "P06": 987,
+    "P07": 988,
+    "MUS11_additive_transport": 940
+  },
+  "species": {
+    "P06": 9,
+    "P07": 10,
+    "MUS11_additive_transport": "existing MusicTransport species3 only, no new class"
+  },
+  "native_acceptance": false,
+  "confirmed_port_selectors": {
+    "P06": [
+      1600,
+      1736
+    ],
+    "P07": [
+      1800,
+      1905
+    ]
+  },
+  "new_scene_allocations": {
+    "text": {
+      "P06": 206,
+      "P07": 207
+    },
+    "audio36_sync36_modules": {
+      "P06": 916,
+      "P07": 917
+    },
+    "documents": {
+      "P06": [
+        882,
+        928
+      ],
+      "P07": [
+        929,
+        970
+      ]
+    },
+    "global_line_keys": [
+      640,
+      728
+    ],
+    "rederived_static_word_banks": [
+      240,
+      241,
+      244
+    ],
+    "canonical_label_bank": 242,
+    "MUS11_static_bank": 243
+  },
+  "bridge_candidate_sound_resources": {
+    "range": [
+      148,
+      154
+    ],
+    "new_transition_ready_arrangements": [
+      151,
+      152
+    ],
+    "status": "candidate only; original102/140 and accepted140/940 unchanged"
+  },
+  "new_art_view_reservations": {
+    "P06": {
+      "views": [
+        230,
+        231,
+        232
+      ],
+      "owner": "p06-art-reconstruction",
+      "purpose": [
+        "physical screen/parts",
+        "miniature/table/details",
+        "assembly drawing detail"
+      ],
+      "status": "reserved for new reconstruction; not native accepted"
+    },
+    "P07": {
+      "views": [
+        233,
+        234,
+        235
+      ],
+      "owner": "p07-art-reconstruction",
+      "purpose": [
+        "physical ingredients, recipe, lid and jug",
+        "single pot content, heat and lid states",
+        "optional inspection detail art"
+      ],
+      "status": "reserved for new reconstruction; not native accepted"
+    },
+    "P06_Vivian": {
+      "views": [
+        236
+      ],
+      "owner": "p06-art-reconstruction",
+      "purpose": [
+        "original Vivian world, three mouth states and non-contact contest wince with defined feet/facing"
+      ],
+      "status": "new reconstruction to close missing physical actor route; no borrowed actor"
+    }
+  },
+  "reserved_host_selector_ranges": {
+    "P06_host": [
+      2000,
+      2199
+    ],
+    "P07_host": [
+      2200,
+      2399
+    ],
+    "shared_contest_host_extensions": [
+      2400,
+      2599
+    ]
+  },
+  "host_rules": [
+    "Allocate only actual new names within the assigned range; preserve all existing IDs",
+    "Main has4777 bytes headroom after caption fix; keep integration hooks small and put branch host logic in its987/988 module",
+    "Shared Contest986 remains the sole owner of learned repertoire, scoring, outcomes and all four win flags; do not create a second contest implementation"
+  ],
+  "native_object_reservations": {
+    "P06_domain_objects": [
+      73,
+      84
+    ],
+    "P06_Vivian": 85,
+    "P07_new_objects_start": 86,
+    "P06_existing_Frankie": 8,
+    "P04_existing_helper_topic": 61
+  },
+  "ui_choice_context_reservations": {
+    "retained_shared_VC": [
+      215,
+      218
+    ],
+    "P06": [
+      219,
+      225
+    ],
+    "P07_next_start": 226
+  },
+  "host_owned_scene_aliases": {
+    "971": {
+      "owner": "P07 host",
+      "record": "P07.SCENE.002",
+      "units": [
+        ".01",
+        ".02",
+        ".03"
+      ],
+      "scope": "comic slice, exact existing page spans only"
+    },
+    "972": {
+      "owner": "P07 host",
+      "record": "P07.SCENE.002",
+      "units": [
+        ".04",
+        ".05"
+      ],
+      "scope": "sincere slice, exact existing page spans only"
+    }
+  },
+  "future_document_start": 973,
+  "responsive_music_candidate": {
+    "scripts": {
+      "HOME151": 941,
+      "contest152": 942,
+      "class_free_serial_broker": 943
+    },
+    "static_texts": [
+      245,
+      246,
+      247
+    ],
+    "species": "no new species",
+    "selectors": "no new names",
+    "owner": "responsive-music-transport-reconstruction",
+    "status": "typed current map/retained registry scan clear; source candidate only",
+    "preserved": [
+      940,
+      243,
+      240,
+      241,
+      242,
+      244
+    ]
+  }
+}

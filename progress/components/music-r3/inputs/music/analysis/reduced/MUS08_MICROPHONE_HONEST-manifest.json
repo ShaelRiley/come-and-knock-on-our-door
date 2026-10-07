@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS08_MICROPHONE_HONEST",
+  "resource_id": 116,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS08_MICROPHONE_HONEST.mid",
+  "native_payload_path": "native/reduced/116.sound.bin",
+  "sha256": {
+    "midi": "a850d1f98c4d981a91ed6bd23c6e7adf6f00b04042586a0a24b7e6dd75364fc3",
+    "native": "4440506e34c7a0a8769182aadb46cba52deb72fa24b131b89fc18d99f972701e"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

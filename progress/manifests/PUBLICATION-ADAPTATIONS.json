@@ -1,0 +1,203 @@
+{
+  "baseline_commit": "ab65f4a6f3aea28ba849a0a99074a989cdeef458",
+  "baseline_tree": "ddb0e1a8da76361dd08abb8249077a17365d03ee",
+  "compiler_corresponding_source": "source/workspace/rebuild/p03-editable-checkpoint/toolchain/",
+  "components": {
+    "courtyard-art": {
+      "mapped_bytes": 5542976,
+      "mapped_files": 41,
+      "publication_changes": [],
+      "source_archive_sha256": "fa82770bf543da54f11002ca59032a35a19d4c34bb826546d1b1eda702727887"
+    },
+    "milo-approach": {
+      "mapped_bytes": 3900587,
+      "mapped_files": 53,
+      "omitted_files_from_original_input": 158,
+      "omitted_input_manifest_sha256": "0e6f038dde3bd7d4ddd92791b2f8b115a38adcd51e644a2f889254b91204c78d",
+      "publication_changes": [],
+      "source_archive_sha256": "9486a8eb01695f7b2e675dfac89e716c665ae2be85cee3ea39aa7cec0181247e"
+    },
+    "music-r3": {
+      "mapped_bytes": 35775315,
+      "mapped_files": 521,
+      "omitted_files_from_original_input": 62,
+      "omitted_input_manifest_sha256": "e46e471c3aab9fb00da92939311a6c770fbee1f8a664c95aa638d51fc5ed2b08",
+      "publication_changes": [
+        {
+          "new_sha256": "c47fed4450bf93fffdff40f2e25f8c336076893da9fd8056fe182dc8cf3c2dd7",
+          "old_sha256": "949b80ef55ee0b8289f705c0549778f24ca2e0a2a34953c3fca2070f9f82fae9",
+          "path": "inputs/composition-generators/compose_full_score_v4.py",
+          "reason": "Public provenance identity replaces private Library identifier; score-generation logic unchanged"
+        },
+        {
+          "new_sha256": "401e7bc9893ca14025c2a4835ad938a85ade17e4df5d092d30596986cfda1851",
+          "old_sha256": "d71a0a3965d0facb1c9792b189fc780fb8b687c083c64edaa261516ac1848bda",
+          "path": "inputs/composition-generators/finalize_score_v4.py",
+          "reason": "Public provenance identity replaces private Library identifier; score-generation logic unchanged"
+        },
+        {
+          "new_sha256": "3e35e7cd38f92b773d76a9c903b166eab9ecb276f149e4f492dcd20ad951e86e",
+          "old_sha256": "2c1f07f2603d335ca2c11c908aa21971a4421c2a09fd669d8cf21ccddf3e0a51",
+          "path": "inputs/music/analysis/accepted-v3-lock.json",
+          "reason": "Remove private chat, Library or worker identifiers; retain technical facts and hashes"
+        },
+        {
+          "new_sha256": "79578e6c75023fc58896e3c6efced2a95b675e8595f8a3d2f88485963b06163e",
+          "old_sha256": "52b37e49c5520156be541714b74616ee64e811717ae4a237a8cb2a49d5b41dfc",
+          "path": "inputs/music/analysis/full-score-plan.json",
+          "reason": "Remove private chat, Library or worker identifiers; retain technical facts and hashes"
+        },
+        {
+          "new_sha256": "cb2c7e3fa173ae785a0084255f815bdb20b6014fcc3cd5e26ede41b623aa1cd2",
+          "old_sha256": "435628d53ee83b9e725f14c3a67b9f57ee50d66585c77a336104a9a8f9c09df2",
+          "path": "inputs/music/analysis/score-index.json",
+          "reason": "Remove private chat, Library or worker identifiers; retain technical facts and hashes"
+        },
+        {
+          "new_sha256": "d84cca300655816bda0ae56c642222fc59dcb1e91958d82089495294048d9e27",
+          "old_sha256": "b8c8a3e8c047e2810dcf60f5174676df89f6179182b555e52adda88ff6854366",
+          "path": "INPUT-PINS.json",
+          "reason": "Publication pin map binds sanitized metadata and unchanged code/music/compiler inputs"
+        },
+        {
+          "new_sha256": "cdcd91ffb6028207bf119147296901439ba99ce5649c250df9816f7803a9a201",
+          "old_sha256": "88589a048fde7a20612dd50510682f6d6b5726f06681f7913a8df288eb432c35",
+          "path": "SOURCE-INVENTORY.json",
+          "reason": "Publication-only source membership after administrative records omitted"
+        }
+      ],
+      "source_archive_sha256": "7257b2d780a1d8d4c4255a969ce1c4d78877a132f4accb9576c8766121fcd164"
+    },
+    "p07-host": {
+      "mapped_bytes": 124786353,
+      "mapped_files": 1572,
+      "omitted_files_from_original_input": 1071,
+      "omitted_input_manifest_sha256": "cbae80cd52df303e11968fc962a5fab59cb2cf9bdf4dce2de852d0e2a6eed2f2",
+      "publication_changes": [
+        {
+          "new_sha256": "f1c3e26b6ca89a1f110fad51c2aaad3e1f0a106e1fd29414b04d1ea80b1bf5d2",
+          "old_sha256": "281f11335655a1cb89cf3499ba09c71aa193f814b75c6c4948deb44641aaebb1",
+          "path": "SOURCE-INPUTS.json",
+          "reason": "Publication-only immutable input map: broad compiler/vendor source removed; exact compiler plus public R2 corresponding source retained"
+        },
+        {
+          "new_sha256": "d7182276c384529b15da6c6cf4715852d0bf229372304207a851e44c15d9ebb7",
+          "old_sha256": "f1c3e26b6ca89a1f110fad51c2aaad3e1f0a106e1fd29414b04d1ea80b1bf5d2",
+          "path": "SOURCE-INPUTS.json",
+          "reason": "Final publication immutable input map, including omitted administrative records"
+        }
+      ],
+      "source_archive_sha256": "81befeaa241c597f31b14330703d2df55f28846b44279c7402815fbb97c0899f"
+    },
+    "p08-domain": {
+      "mapped_bytes": 5878382,
+      "mapped_files": 81,
+      "omitted_files_from_original_input": 121,
+      "omitted_input_manifest_sha256": "3d448773a963493df61285e531c6b99632902c51cf838886f600752f8b16f053",
+      "publication_changes": [],
+      "source_archive_sha256": "e5ab1aad0db5c008d8f250bd497f5899652280974de132eac934be40e1415aba"
+    },
+    "p08-host-gate2b2": {
+      "mapped_bytes": 12780675,
+      "mapped_files": 193,
+      "omitted_files_from_original_input": 231,
+      "publication_changes": [
+        {
+          "new_sha256": "fee0256fcff47647542a62afa63bc7f39dd322d42063cbe7976bcf314971f761",
+          "old_sha256": "a576daec2f538b7985fc9856c468e61794f358f3d8ae7c2f58f38b9a5b3ddc6a",
+          "path": "SOURCE-INPUTS.json",
+          "reason": "Public-edition immutable input map excludes administrative records only; separate required test fixture is bound by the component source/dependency map"
+        }
+      ],
+      "source_archive_sha256": "f3a86142a0192f37b6bcea49be76eb8cddf6ce2e907d0e5ffeba383bc0d7cfc6"
+    },
+    "p08-scene": {
+      "mapped_bytes": 9297940,
+      "mapped_files": 128,
+      "omitted_files_from_original_input": 393,
+      "omitted_input_manifest_sha256": "cfd16d4b87d0453f097ff07ca63cb14912ac5ee94c33813bf7e0e62fc206ba3c",
+      "publication_changes": [
+        {
+          "new_sha256": "39ecd5d7cc31f4625692dbd6cfe97d7bd70ed4bf1ab9e8d52f2d2bfc857548d6",
+          "old_sha256": "b921abef4cae756b37a5752858bedac07a6bcbb1f8e4c89caaff5dda0a2938dd",
+          "path": "INPUT-SEAL.json",
+          "reason": "Publication source-only input inventory; omitted unneeded recovery/compiler packaging records are explicitly recorded"
+        }
+      ],
+      "source_archive_sha256": "2ce3bef1f2bb03ab2c69e06b7420ef95d9ffbaa2c8ccbaba38b9ddc3c61da45e"
+    },
+    "p09-domain": {
+      "mapped_bytes": 4699793,
+      "mapped_files": 42,
+      "omitted_files_from_original_input": 57,
+      "omitted_input_manifest_sha256": "1e7db18c7e806c90445ffaf2beb0ad044eafcc494f267a5e93b6bc210872b2e3",
+      "publication_changes": [],
+      "source_archive_sha256": "75214039c7569c2aa4d20b6620a34fbc91e041cedccb084341a8f6e1fc2cf8b8"
+    },
+    "p09-model": {
+      "mapped_bytes": 2120869,
+      "mapped_files": 13,
+      "omitted_files_from_original_input": 9,
+      "omitted_input_manifest_sha256": "8457a3cd08c5dfb1eb1af74713ead47309d7c489c0e052c20f7afd1f0bed115e",
+      "publication_changes": [],
+      "source_archive_sha256": "6ac6538b2d07bc1839c35277fa7e218caf0048495b830afb3b4bbf29eaa51b18"
+    },
+    "p09-scene": {
+      "mapped_bytes": 46308695,
+      "mapped_files": 587,
+      "omitted_files_from_original_input": 480,
+      "omitted_input_manifest_sha256": "fa579c70e96ddb30338b6c8deaaefbcdda5a91f407af67813411872e673474d0",
+      "publication_changes": [
+        {
+          "new_sha256": "a3cd3a3b163f290f7532cd27402a38bd5b8c76f948140afcd26f4dc0a0be40ed",
+          "old_sha256": null,
+          "path": "historical/scene-data/PROVENANCE.json",
+          "reason": "Replace private recovery correspondence with only the technical anchors used by verify_data.py"
+        },
+        {
+          "new_sha256": "9a7f593c7860651536d2caa834f0a90aca77d8b94e08a146c6320663bc3523b2",
+          "old_sha256": "489c29366792fe5112a3b55f0fe79b42d4dd37f6318559ceb095f546e1a039ef",
+          "path": "COMPATIBILITY.json",
+          "reason": "Remove private chat, Library or worker identifiers; retain technical facts and hashes"
+        },
+        {
+          "new_sha256": "db6b6f2a3cc989c83d02c8707d8b51628f2ff2cd48d3c25d2d86ba7d1de2de5c",
+          "old_sha256": "412ed656db08adbeb1e357837eb19ce5ce729aeb26a8c2838e1130bdfefa7e44",
+          "path": "INPUT-SEAL.json",
+          "reason": "Publication source-only input inventory; omitted unneeded recovery/compiler packaging records are explicitly recorded"
+        }
+      ],
+      "source_archive_sha256": "9ad893cdf28a728ca8f647938e532d3f1a9c3267a7aa672e60a12ee1b5262999"
+    }
+  },
+  "edition": "revision2",
+  "excluded_categories": [
+    "Broad compiler/vendor/GUI source and proprietary Prof-UIS",
+    "Conversation excerpts and private recovery correspondence",
+    "Administrative receipts and internal task identifiers",
+    "Native captures, genuine test saves, temporary expanded copies",
+    "Unused old proof packets and redundant nested source archives"
+  ],
+  "known_defects": [
+    "Historical art proposed screen83 remains obsolete; corrected Gate2b2 uses completed screen81 and plan83 distinctly"
+  ],
+  "previous_source_archive_sha256": "a0fb47acf8d45e6f34ba3b706d2c478d63ad6c355cd70bdae0196bb21735c906",
+  "restored_required_test_fixture": {
+    "bytes": 448,
+    "gameplay_and_tests_unchanged": true,
+    "path": "evidence/orphan-template-fragment.txt",
+    "sha256": "619fd2f1e6d0d4430421c6ccf28d5824cc83746606158b0a96a3f9fe37eaa89b"
+  },
+  "schema": 1,
+  "unchanged_component_file_maps": [
+    "courtyard-art",
+    "milo-approach",
+    "music-r3",
+    "p07-host",
+    "p08-domain",
+    "p08-scene",
+    "p09-domain",
+    "p09-model",
+    "p09-scene"
+  ]
+}

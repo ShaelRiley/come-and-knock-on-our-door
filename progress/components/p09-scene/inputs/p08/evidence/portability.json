@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_seal_sha256": "178ac164365cf4f809029e6b945f2991cfb695121286c4eb797e2d770827a7b2",
+  "output_seal_sha256": "7daeb982aabedc51cf96db005edbc62d7a8b65fe75c4d6019f5b229e193d8551",
+  "stable_files": 358,
+  "source_only_clean_relocation": true,
+  "all_ten_modules_recompiled": true,
+  "all_registered_tests_rerun": true,
+  "exact_generated_outputs": true,
+  "native_acceptance": false
+}

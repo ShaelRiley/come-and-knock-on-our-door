@@ -1,0 +1,25 @@
+{
+  "cue_id": "PASSAGE_SPEECH_SPACE",
+  "resource_id": 129,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/PASSAGE_SPEECH_SPACE.mid",
+  "native_payload_path": "native/reduced/129.sound.bin",
+  "sha256": {
+    "midi": "89055f94ad8cdb96b813290c402d5be0f2ed52631ca18442132f7e3e4d880202",
+    "native": "8b5d9341651592ec29727ff41ee4bfd0e6d2a661609406006a75f8fe10ceaf2c"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 92,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

@@ -1,0 +1,5 @@
+; Prevalidated bounded writes only; no callbacks, renderer or resource load.
+(method (h7PublishNative count first second)
+ (if count (= [bridgeQueue bridgeQueueCount] first) (dialogue sdQueueSet: bridgeQueueCount 1) (++ bridgeQueueCount))
+ (if (> count 1) (= [bridgeQueue bridgeQueueCount] second) (dialogue sdQueueSet: bridgeQueueCount 1) (++ bridgeQueueCount))
+ (= dirty 1) (return 1))

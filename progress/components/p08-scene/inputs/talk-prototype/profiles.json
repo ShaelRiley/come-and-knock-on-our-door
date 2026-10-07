@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "provenance": "Original additive-synthesis designs. No sampled voices, commercial character imitation, or external model.",
+  "profiles": [
+    {"id":"jack","name":"Jack E. Tree","pitch_hz":172,"harmonics":[1,0.50,0.20,0.13,0.06],"pulse_ticks":7,"gap_ticks":2,"word_gap_ticks":3,"pitch_steps":[0,2,-1,4,1,-2],"glide":0.045,"decay":0.8,"vibrato_hz":4.2,"vibrato_depth":0.007,"descriptor":"Warm hollow brass, eager rising starts and small self-corrections"},
+    {"id":"bunny","name":"Bunny Easter","pitch_hz":286,"harmonics":[1,0.14,0.32,0.04,0.03],"pulse_ticks":6,"gap_ticks":2,"word_gap_ticks":3,"pitch_steps":[0,4,2,5,0,-1],"glide":-0.025,"decay":1.8,"vibrato_hz":5.8,"vibrato_depth":0.003,"descriptor":"Bright rounded pip, nimble and observant with crisp pauses"},
+    {"id":"frankie","name":"Frankie Maplewood","pitch_hz":208,"harmonics":[1,0.05,0.43,0.03,0.17],"pulse_ticks":6,"gap_ticks":3,"word_gap_ticks":4,"pitch_steps":[0,0,-1,1,0,-3],"glide":-0.012,"decay":0.5,"vibrato_hz":3.3,"vibrato_depth":0.001,"descriptor":"Dry muted reed, compact level phrases and deliberate deadpan gaps"},
+    {"id":"stringer","name":"Mr. Stringer","pitch_hz":124,"harmonics":[1,0.68,0.18,0.22,0.10],"pulse_ticks":9,"gap_ticks":3,"word_gap_ticks":5,"pitch_steps":[0,0,2,-2,1,-4],"glide":-0.035,"decay":1.1,"vibrato_hz":3.1,"vibrato_depth":0.008,"descriptor":"Rounded low honk, measured dotted rhythm and officious downward stops"},
+    {"id":"milo","name":"Milo Pennant","pitch_hz":188,"harmonics":[1,0.75,0.41,0.25,0.09],"pulse_ticks":6,"gap_ticks":2,"word_gap_ticks":2,"pitch_steps":[0,5,7,2,4,-2],"glide":0.075,"decay":0.7,"vibrato_hz":6.1,"vibrato_depth":0.011,"descriptor":"Small brassy flourish, quick promotional runs and broad pitch arcs"},
+    {"id":"vivian","name":"Vivian Voss","pitch_hz":244,"harmonics":[1,0.26,0.07,0.16,0.02],"pulse_ticks":8,"gap_ticks":2,"word_gap_ticks":4,"pitch_steps":[0,2,1,-1,3,-2],"glide":-0.018,"decay":0.35,"vibrato_hz":4.7,"vibrato_depth":0.004,"descriptor":"Smooth covered bell-reed, even flow and decisive phrase endings"},
+    {"id":"rita","name":"Rita Stringer","pitch_hz":224,"harmonics":[1,0.38,0.10,0.04,0.19],"pulse_ticks":8,"gap_ticks":3,"word_gap_ticks":3,"pitch_steps":[0,-2,3,1,2,-1],"glide":0.018,"decay":1.5,"vibrato_hz":4.0,"vibrato_depth":0.005,"descriptor":"Woody resonant cluck, generous rolling rhythm and assured accents"},
+    {"id":"felix","name":"Felix Bunt","pitch_hz":151,"harmonics":[1,0.10,0.65,0.05,0.29],"pulse_ticks":5,"gap_ticks":3,"word_gap_ticks":5,"pitch_steps":[0,3,0,-2,4,0],"glide":0.055,"decay":2.2,"vibrato_hz":7.0,"vibrato_depth":0.006,"descriptor":"Nasal elastic pluck, tidy bursts with an occasional anxious upward turn"}
+  ]
+}

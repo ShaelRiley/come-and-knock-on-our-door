@@ -1,0 +1,53 @@
+{
+  "status": "NEW_SOURCE_DERIVED_OFFLINE_CANDIDATES",
+  "principle": "New original bridge arrangements. Existing source MIDI/native bytes and note streams are untouched. No claim of recovered historical bridge music.",
+  "native_tick_us": 16667,
+  "startup_seconds": 0.2,
+  "bridges": [
+    {
+      "resource_id": 148,
+      "name": "BRIDGE_HOME_CADENCE_TO_CONTEST",
+      "source_family": 102,
+      "target_family": 140,
+      "beats": 4,
+      "swing": 0.6,
+      "tempo_map": [[0,112],[1.75,116],[3.5,120]],
+      "harmony": [[0,"Am7",9,[60,67]],[0.25,"Ab7",8,[54,60]],[0.75,"Gm7",7,[58,65]],[1.75,"C7",0,[58,64]]],
+      "source_fragment": {"manifest": "MUS02_HOUSE_LIVING-manifest.json", "source_ids": [2043,2058,2065], "offset": 26, "time_scale": 0.5, "channel": 3, "velocity_scale": 0.85},
+      "rationale": "The HOME ending actually uses Am7, Ab7, Gm7 and C7, with Eb-D-E melody. Its three-note cadential fragment is uniformly condensed by 1/2 into a one-bar connector. C7's E/Bb shell is the common dominant of the two F families; it resolves into unchanged140's Fm7. A 112/116/120 BPM pivot carries the home pocket into the contest grid.",
+      "bass": [[0,0.2,45,57],[0.25,0.42,44,57],[0.75,0.8,43,58],[1.75,0.8,36,61],[3,0.55,43,55]],
+      "comp": [[0,0.16,0,44],[0.25,0.20,1,46],[0.75,0.32,2,49],[1.75,0.4,3,49],[3,0.22,3,43]],
+      "kit": [[0,36,42],[0,42,23],[1,42,22],[1,37,25],[2,42,24],[2,36,42],[3,42,23],[3,37,24],[3.5,42,18]]
+    },
+    {
+      "resource_id": 149,
+      "name": "BRIDGE_CONTEST_CMAJ7_C7_TO_HOME",
+      "source_family": 140,
+      "target_family": 102,
+      "beats": 4,
+      "swing": 0.5,
+      "tempo_map": [[0,120],[2,116],[3,112]],
+      "harmony": [[0,"Cmaj7",0,[59,64]],[2,"C7",0,[58,64]]],
+      "source_fragment": {"manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json", "source_ids": [945,949,953], "offset": 24, "time_scale": 1, "channel": 4, "velocity_scale": 0.83},
+      "rationale": "The actual contest C-E-E tag over Cmaj7 is followed by its authored C7 turnaround. Cmaj7 admits an Em7 ending as a shared E/G/B upper structure and receives G7 as its local dominant. Lowering only the newly composed shell's B to Bb establishes C7, then the unchanged102 F-major arrival. The source clips finish before this connector's cadential shell; no existing note is shortened.",
+      "bass": [[0,0.85,36,57],[2,0.9,36,59],[3,0.55,43,53]],
+      "comp": [[0,0.24,0,46],[1,0.18,0,43],[2,0.4,1,48],[3,0.22,1,42]],
+      "kit": [[0,36,42],[0,42,23],[0.5,42,17],[1,42,23],[1,37,24],[2,42,23],[2,36,41],[3,42,21],[3,37,22],[3.5,42,17]]
+    },
+    {
+      "resource_id": 150,
+      "name": "BRIDGE_CONTEST_C7_TO_HOME",
+      "source_family": 140,
+      "target_family": 102,
+      "beats": 4,
+      "swing": 0.5,
+      "tempo_map": [[0,120],[2,116],[3,112]],
+      "harmony": [[0,"C7",0,[58,64]]],
+      "source_fragment": {"manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json", "source_ids": [945,949,953], "offset": 24, "time_scale": 1, "channel": 4, "velocity_scale": 0.8},
+      "rationale": "The contest's sparse C-E-E cadential tag is newly reharmonized over the already-authored C7 turnaround, without restoring Cmaj7's B-natural. For the middle-section Bb9sus4 ending, C7 is IV-to-V motion toward F. It continues a C7 ending directly and receives the full-cycle Fm7 turnaround as i-to-V before Fmajor. Cadential material is a connector, not a result or KO cue.",
+      "bass": [[0,0.85,36,57],[2,0.9,43,56],[3,0.55,36,52]],
+      "comp": [[0,0.24,0,46],[1,0.18,0,43],[2,0.4,0,46],[3,0.22,0,41]],
+      "kit": [[0,36,41],[0,42,22],[0.5,42,17],[1,42,21],[1,37,23],[2,42,22],[2,36,40],[3,42,20],[3,37,22],[3.5,42,16]]
+    }
+  ]
+}

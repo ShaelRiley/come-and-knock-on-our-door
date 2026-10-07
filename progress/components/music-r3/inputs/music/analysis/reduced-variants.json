@@ -1,0 +1,755 @@
+{
+  "variants": [
+    {
+      "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+      "resource_id": 123,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/BRIDGE_EXPLORATION_SUPPER.mid",
+      "native_payload_path": "native/reduced/123.sound.bin",
+      "sha256": {
+        "midi": "c05c8ea68b563464850e43f928be58923c1b7904b59c40593711bd5f23ea9438",
+        "native": "37b1a4e0c005cd4d20d0af17214779ac91cdb61815d0be9ebe96c35bb1d67801"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "BRIDGE_INVITATION_HOUSE",
+      "resource_id": 122,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/BRIDGE_INVITATION_HOUSE.mid",
+      "native_payload_path": "native/reduced/122.sound.bin",
+      "sha256": {
+        "midi": "c240a04407953e9371d4757c7444695e708dd2745938729821421cb5ed22c33d",
+        "native": "c5875789663f974045c89c0b05082b3844ef79aff6a4697d20b203c19b2579c2"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "BRIDGE_MICROPHONE_DOORS",
+      "resource_id": 125,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/BRIDGE_MICROPHONE_DOORS.mid",
+      "native_payload_path": "native/reduced/125.sound.bin",
+      "sha256": {
+        "midi": "e1a2d15bcd9a9ed0d9dc39d32c34b0252d3ba8709ddfb43a2ae5d7a18d9693a1",
+        "native": "729f9334a8306d5362901a8575301923a7d2d43971aa1c117157b501a2ef5ddb"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "BRIDGE_PROMISES_QUIET",
+      "resource_id": 126,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/BRIDGE_PROMISES_QUIET.mid",
+      "native_payload_path": "native/reduced/126.sound.bin",
+      "sha256": {
+        "midi": "0c960a7090ab7c122cb7d374f1bde71eab7c0ab6b9d28ca5fb0e2bc0b9789fde",
+        "native": "381873c6df0c99ddb4dc9b1081a8fdcc54c7f60a2c44d804b3ab7a8f8dbe5c26"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "BRIDGE_SUPPER_RESCUE",
+      "resource_id": 124,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/BRIDGE_SUPPER_RESCUE.mid",
+      "native_payload_path": "native/reduced/124.sound.bin",
+      "sha256": {
+        "midi": "ba2b27b86c17007ab24a22b264a42471b6e0f5dee91936902cb0e4ac539ed2f5",
+        "native": "eab9c1f9240ae580ac4dafe56782883d2c4880293e30b1f7b3e293f7676aa971"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS01_INVITATION",
+      "resource_id": 101,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS01_INVITATION.mid",
+      "native_payload_path": "native/reduced/101.sound.bin",
+      "sha256": {
+        "midi": "5a29ab62ed410998e57b4030c931baf08a874d822b691e9d8ab7429e9ea6b59d",
+        "native": "a276e679d393ef0ac801ab8a71801382a2c8d74f838562f03d0ea6660c2ab14b"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS01_OPENING",
+      "resource_id": 100,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS01_OPENING.mid",
+      "native_payload_path": "native/reduced/100.sound.bin",
+      "sha256": {
+        "midi": "e2211daf8a81de4533ec58dae439c618e834011b53d997ebdeadb02d723696d6",
+        "native": "acd6fd009a0d395291a38f48debf16b87a22c24cd6cd279229b6ea7ff45a5091"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS02_HOUSE_KITCHEN",
+      "resource_id": 103,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS02_HOUSE_KITCHEN.mid",
+      "native_payload_path": "native/reduced/103.sound.bin",
+      "sha256": {
+        "midi": "64bdb502b9836f038f28f6aed97f8be486fcdb82fdc18e84fa6c5a16a476856e",
+        "native": "d0eefc3ee9c8050cd409f7febff8b5c2c31f2c0e3ebd884aa0e3ef367c021db8"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS02_HOUSE_LIVING",
+      "resource_id": 102,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS02_HOUSE_LIVING.mid",
+      "native_payload_path": "native/reduced/102.sound.bin",
+      "sha256": {
+        "midi": "6b7fb6e7c1028de5f34066d09055d3d207d7505996777cac5bd5516e0a055ca8",
+        "native": "9cc2bb0924b0cb0f034b51f07be23da6ad5a2f6984084b4c44887c761add386e"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS03_COURTYARD",
+      "resource_id": 106,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS03_COURTYARD.mid",
+      "native_payload_path": "native/reduced/106.sound.bin",
+      "sha256": {
+        "midi": "964032f6993e13bf1025845e5e8c05642b6f9e2a3444fde28221cda8eaee302a",
+        "native": "0354544e54856f7467dab262792cc885f4b99616d830ec90b2889a81dccaa732"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS03_PORCH",
+      "resource_id": 104,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS03_PORCH.mid",
+      "native_payload_path": "native/reduced/104.sound.bin",
+      "sha256": {
+        "midi": "5a29ab62ed410998e57b4030c931baf08a874d822b691e9d8ab7429e9ea6b59d",
+        "native": "a276e679d393ef0ac801ab8a71801382a2c8d74f838562f03d0ea6660c2ab14b"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS03_SIDE_PASSAGE",
+      "resource_id": 105,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS03_SIDE_PASSAGE.mid",
+      "native_payload_path": "native/reduced/105.sound.bin",
+      "sha256": {
+        "midi": "6b221e528cba2614e09f4a05588e551dfa70cba1723b353e62feef2babf50fb1",
+        "native": "4a2266d694d6cb93de67550bd069937ae5da91c05b11982b12da5e86d9506b30"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS04_MILO_SHOWY",
+      "resource_id": 107,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS04_MILO_SHOWY.mid",
+      "native_payload_path": "native/reduced/107.sound.bin",
+      "sha256": {
+        "midi": "2f265fb2de45c8dd8ff073a8989f06d6fd4d4bf9ee2b22e4ea0dae1079e381a7",
+        "native": "90448b13ac9d85de23b954637d057ff6acfefc5d7500a3e2494f29569e9b87b3"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS04_MILO_SINCERE",
+      "resource_id": 108,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS04_MILO_SINCERE.mid",
+      "native_payload_path": "native/reduced/108.sound.bin",
+      "sha256": {
+        "midi": "b094a4288f362e167bf38a3e8c82fee9bb4d1d1e02b1ad8c67abff86c6e53ab8",
+        "native": "005abbf926d639692e959f7f2f743169f805f49273bb96037cdf1472910b30a1"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS05_STRINGERS_CREDITED",
+      "resource_id": 110,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS05_STRINGERS_CREDITED.mid",
+      "native_payload_path": "native/reduced/110.sound.bin",
+      "sha256": {
+        "midi": "db8c9b0ce90b6cc4f3ff73106c6927ce99a18f88e2c236d09f84de359ec99745",
+        "native": "147ad03dd4e684625dd6db34463bc902bf207ecedc563694dc7b6a8dfb27e335"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS05_STRINGERS_PRECISE",
+      "resource_id": 109,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS05_STRINGERS_PRECISE.mid",
+      "native_payload_path": "native/reduced/109.sound.bin",
+      "sha256": {
+        "midi": "78b080e5c6ded15639fd03655a0c2aa2b6aea815caf425f2096f1df63762bf67",
+        "native": "9a57303a115d67198470548cbda6d8ed800a4d56f78f6cb994d151f11605bff8"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS06_SUPPER_COMPOSURE",
+      "resource_id": 111,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS06_SUPPER_COMPOSURE.mid",
+      "native_payload_path": "native/reduced/111.sound.bin",
+      "sha256": {
+        "midi": "85cad471f666effd0d29d9a09e3841daee7d0dc66f69b5694891d892c077950b",
+        "native": "210353bc522f254b65c54228fbb21bbcc5812f4e2d2a0e8c999768b21f82661a"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS06_SUPPER_PRESSURE",
+      "resource_id": 112,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS06_SUPPER_PRESSURE.mid",
+      "native_payload_path": "native/reduced/112.sound.bin",
+      "sha256": {
+        "midi": "100d772d763df1c8d34ca2f6d8935b41ddad98ebf2b709d04da1611f4ac4701b",
+        "native": "1c4cae6ea860f142f458927b2d5192b3b59664646ca9d01bf08585551c7324a7"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS07_RESCUE_COORDINATED",
+      "resource_id": 114,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS07_RESCUE_COORDINATED.mid",
+      "native_payload_path": "native/reduced/114.sound.bin",
+      "sha256": {
+        "midi": "f3c283b3fcba708e3830eb022dff7fd0bec5e2ab2d8e7fd1120748327257e2d5",
+        "native": "7ffe51a10c74772610377f4c46853666661cfe47e8b6c6c3c87293f3bd00a3e6"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS07_RESCUE_PRESSURE",
+      "resource_id": 113,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS07_RESCUE_PRESSURE.mid",
+      "native_payload_path": "native/reduced/113.sound.bin",
+      "sha256": {
+        "midi": "a2e7614fb16864f5d3da2106743f9640216c2ce4796684e86c10eb7d3e8feca6",
+        "native": "f0a3dd594bf6d0fd4aff84393f34686e9fbaaffd9d08fbdf1bb89986b645757a"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS08_MICROPHONE_HONEST",
+      "resource_id": 116,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS08_MICROPHONE_HONEST.mid",
+      "native_payload_path": "native/reduced/116.sound.bin",
+      "sha256": {
+        "midi": "a850d1f98c4d981a91ed6bd23c6e7adf6f00b04042586a0a24b7e6dd75364fc3",
+        "native": "4440506e34c7a0a8769182aadb46cba52deb72fa24b131b89fc18d99f972701e"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS08_MICROPHONE_PREPARATION",
+      "resource_id": 115,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS08_MICROPHONE_PREPARATION.mid",
+      "native_payload_path": "native/reduced/115.sound.bin",
+      "sha256": {
+        "midi": "7b13e2755cff311d8b57d7e8d092905eef65ac233fbc66789285daff290a23d4",
+        "native": "c9096fdd05e0739222e51b86725d56f5ecf3b1991e64a05282e82a6afc3b3341"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS09_THREE_DOORS_PROMISES",
+      "resource_id": 118,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS09_THREE_DOORS_PROMISES.mid",
+      "native_payload_path": "native/reduced/118.sound.bin",
+      "sha256": {
+        "midi": "d64692a8f942ae86c859f307f043b3ac0ca71b740a70a100e8ea7bce822e0fac",
+        "native": "53eafb19f65e0f43e21405ac73976ce670fe6be7667c9c54c51bcce34f2711fc"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS09_THREE_DOORS_ROUTING",
+      "resource_id": 117,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS09_THREE_DOORS_ROUTING.mid",
+      "native_payload_path": "native/reduced/117.sound.bin",
+      "sha256": {
+        "midi": "1d0fab2a035ce3a94085c604a0cb24ee31b314bb275e342b1b3844b3e20691b9",
+        "native": "9fe4b4935384083848dd4921138513c1ffe78f633aed71a3c05256bd92690c17"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS10_FULL_END_CREDITS",
+      "resource_id": 121,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS10_FULL_END_CREDITS.mid",
+      "native_payload_path": "native/reduced/121.sound.bin",
+      "sha256": {
+        "midi": "4d2d3f8ca589c2ed81768cf1cc8878bd64a2fde0e2f6f29454d05c1d96e31673",
+        "native": "5440682de4a3379527652a975f782b09fc40cac045f6ffa1b0c5c7c623862171"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS10_HOUSEHOLD_QUIET",
+      "resource_id": 119,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS10_HOUSEHOLD_QUIET.mid",
+      "native_payload_path": "native/reduced/119.sound.bin",
+      "sha256": {
+        "midi": "48c87a6413bb3fde7aa6ddda1626f4dc1ff276dd0ba68c40fd5db743dac7242a",
+        "native": "285e2e887ca823862ab078d3d76da2e93e2e61fe3c1813665c079a097985cbc1"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 92,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "MUS_AUDIENCE_EXPOSED",
+      "resource_id": 120,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/MUS_AUDIENCE_EXPOSED.mid",
+      "native_payload_path": "native/reduced/120.sound.bin",
+      "sha256": {
+        "midi": "e6b3b122fd85609ba3d0295b3ecf04e617b021c5c77996dee8ba4dbded28435d",
+        "native": "eb6d10af072d405bd759eb5b9827c644599662db1ed68da07e358aeae91f550e"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 92,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+      "resource_id": 128,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/PASSAGE_CONFETTI_RESPONSE.mid",
+      "native_payload_path": "native/reduced/128.sound.bin",
+      "sha256": {
+        "midi": "eaa39f65d97a0b6fcab74789ed86ebc42bf0c1b3b2517c1e3d45071aea3e50c6",
+        "native": "c4cb987e71f6b2e301f29ab04c307bc7a93f8d955cb4304aedd260a624c5da0d"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "PASSAGE_RESCUE_RESOLUTION",
+      "resource_id": 127,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/PASSAGE_RESCUE_RESOLUTION.mid",
+      "native_payload_path": "native/reduced/127.sound.bin",
+      "sha256": {
+        "midi": "1fba0e98151cac8f15bcea06731ad28426e349f826911c851d718aae25c7450c",
+        "native": "9673ad753ce19f9fe6b3efb56cd86bf6629242bdf7b2a159b6e36a4cff9c4e63"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 99,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    },
+    {
+      "cue_id": "PASSAGE_SPEECH_SPACE",
+      "resource_id": 129,
+      "variant": "REDUCED_CC7_ONLY",
+      "midi_path": "midi/reduced/PASSAGE_SPEECH_SPACE.mid",
+      "native_payload_path": "native/reduced/129.sound.bin",
+      "sha256": {
+        "midi": "89055f94ad8cdb96b813290c402d5be0f2ed52631ca18442132f7e3e4d880202",
+        "native": "8b5d9341651592ec29727ff41ee4bfd0e6d2a661609406006a75f8fe10ceaf2c"
+      },
+      "same_notes_programs_expression_tempos_loop": true,
+      "gains": {
+        "0": 92,
+        "1": 83,
+        "2": 0,
+        "3": 71,
+        "4": 73,
+        "5": 44,
+        "6": 0,
+        "9": 59
+      },
+      "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+      "native_runtime_tested": false,
+      "human_listening_approved": false
+    }
+  ],
+  "count": 30
+}

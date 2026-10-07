@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "baseline_program_fingerprint": "5891dd9b6585007282430e7271e19e9f3b1b323fcc9db34537e075937a234666",
+  "baseline_compile_receipt_sha256": "0726070988ae657adb3e934960676352561e7b5191cf430355178706526cac4b",
+  "text": 208,
+  "audio36_module": 918,
+  "sync36_module": 918,
+  "ordinary_documents": [
+    973,
+    1016
+  ],
+  "transition_document": 1017,
+  "global_lines": [
+    729,
+    773
+  ],
+  "retained_special_aliases": {
+    "971": [
+      1059,
+      3
+    ],
+    "972": [
+      1062,
+      2
+    ]
+  },
+  "static_text_banks": [
+    240,
+    241,
+    244
+  ],
+  "protected_music_text": 243,
+  "new_selectors": 0,
+  "new_classes": 0,
+  "native_acceptance": false
+}

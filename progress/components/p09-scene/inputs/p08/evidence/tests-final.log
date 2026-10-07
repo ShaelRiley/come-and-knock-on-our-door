@@ -1,0 +1,18 @@
+test_all1070_old_emitted_pages_and_p07_aliases_remain_exact (test_scene.SceneTests.test_all1070_old_emitted_pages_and_p07_aliases_remain_exact) ... ok
+test_all_old_tables_text_pcm_sync_and_unrelated_methods_preserved (test_scene.SceneTests.test_all_old_tables_text_pcm_sync_and_unrelated_methods_preserved) ... ok
+test_all_pcm_and_sync_reproduce_exactly (test_scene.SceneTests.test_all_pcm_and_sync_reproduce_exactly) ... ok
+test_allocation_enum_identity_separate_transition_and_output_windows (test_scene.SceneTests.test_allocation_enum_identity_separate_transition_and_output_windows) ... ok
+test_canonical_records_characters_words_speakers_and_units (test_scene.SceneTests.test_canonical_records_characters_words_speakers_and_units) ... ok
+test_current_actor_presence_remains_audible_gate (test_scene.SceneTests.test_current_actor_presence_remains_audible_gate) ... ok
+test_every_new_page_actual_emitted_renderer_graph12_and_geometry (test_scene.SceneTests.test_every_new_page_actual_emitted_renderer_graph12_and_geometry) ... ok
+test_every_static_family_and_extended_tail_matches_current_arrays (test_scene.SceneTests.test_every_static_family_and_extended_tail_matches_current_arrays) ... ok
+test_restore_each_document_clears_audio_and_stale_presentation (test_scene.SceneTests.test_restore_each_document_clears_audio_and_stale_presentation) ... ok
+test_silent_controls_and_exact_eight_profiles (test_scene.SceneTests.test_silent_controls_and_exact_eight_profiles) ... ok
+test_source_and_emitted_every_new_page_and_invalid_bounds (test_scene.SceneTests.test_source_and_emitted_every_new_page_and_invalid_bounds) ... ok
+test_static_resource_chunk_edges_exact_last_entries (test_scene.SceneTests.test_static_resource_chunk_edges_exact_last_entries) ... ok
+test_unpresented_failed_graph_and_audio_end_skip_never_acknowledge (test_scene.SceneTests.test_unpresented_failed_graph_and_audio_end_skip_never_acknowledge) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 54.698s
+
+OK

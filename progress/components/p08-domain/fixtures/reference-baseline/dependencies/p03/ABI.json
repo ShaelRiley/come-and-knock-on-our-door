@@ -1,0 +1,1001 @@
+{
+  "script": 983,
+  "class": "P03State",
+  "public_export": {
+    "p03State": 0
+  },
+  "properties": [
+    {
+      "name": "bEnabled",
+      "default": 0,
+      "offset": 18
+    },
+    {
+      "name": "bFailure",
+      "default": 0,
+      "offset": 20
+    },
+    {
+      "name": "bStatusObject",
+      "default": 0,
+      "offset": 22
+    },
+    {
+      "name": "bInventoryStarted",
+      "default": 0,
+      "offset": 24
+    },
+    {
+      "name": "bExtent",
+      "default": 0,
+      "offset": 26
+    },
+    {
+      "name": "bLastRoom",
+      "default": -1,
+      "offset": 28
+    },
+    {
+      "name": "bPendingKind",
+      "default": 0,
+      "offset": 30
+    },
+    {
+      "name": "bPendingObject",
+      "default": 0,
+      "offset": 32
+    },
+    {
+      "name": "bPendingRoom",
+      "default": -1,
+      "offset": 34
+    },
+    {
+      "name": "bPendingHi",
+      "default": 0,
+      "offset": 36
+    },
+    {
+      "name": "bPendingLo",
+      "default": 0,
+      "offset": 38
+    },
+    {
+      "name": "bPendingCount",
+      "default": 0,
+      "offset": 40
+    },
+    {
+      "name": "bSeenCount",
+      "default": 0,
+      "offset": 42
+    },
+    {
+      "name": "bNeedCount",
+      "default": 0,
+      "offset": 44
+    },
+    {
+      "name": "bDeliveredHi",
+      "default": 0,
+      "offset": 46
+    },
+    {
+      "name": "bDeliveredLo",
+      "default": 0,
+      "offset": 48
+    },
+    {
+      "name": "bDeliveredMask",
+      "default": 0,
+      "offset": 50
+    },
+    {
+      "name": "p03Initialized",
+      "default": 0,
+      "offset": 52
+    },
+    {
+      "name": "p03Towel",
+      "default": 0,
+      "offset": 54
+    },
+    {
+      "name": "p03Napkin",
+      "default": 0,
+      "offset": 56
+    },
+    {
+      "name": "p03Padding",
+      "default": 0,
+      "offset": 58
+    },
+    {
+      "name": "p03Slate",
+      "default": 0,
+      "offset": 60
+    },
+    {
+      "name": "p03Approved",
+      "default": 0,
+      "offset": 62
+    },
+    {
+      "name": "p03Open",
+      "default": 0,
+      "offset": 64
+    },
+    {
+      "name": "p03KnowName",
+      "default": 0,
+      "offset": 66
+    },
+    {
+      "name": "p03Ready",
+      "default": 0,
+      "offset": 68
+    },
+    {
+      "name": "p03Observed",
+      "default": 0,
+      "offset": 70
+    },
+    {
+      "name": "p03HintLevel",
+      "default": 0,
+      "offset": 72
+    },
+    {
+      "name": "p03RevisionHi",
+      "default": 0,
+      "offset": 74
+    },
+    {
+      "name": "p03RevisionLo",
+      "default": 0,
+      "offset": 76
+    },
+    {
+      "name": "p03IntroHi",
+      "default": 0,
+      "offset": 78
+    },
+    {
+      "name": "p03IntroLo",
+      "default": 0,
+      "offset": 80
+    },
+    {
+      "name": "p03CompleteHi",
+      "default": 0,
+      "offset": 82
+    },
+    {
+      "name": "p03CompleteLo",
+      "default": 0,
+      "offset": 84
+    },
+    {
+      "name": "p03PromiseHi",
+      "default": 0,
+      "offset": 86
+    },
+    {
+      "name": "p03PromiseLo",
+      "default": 0,
+      "offset": 88
+    },
+    {
+      "name": "p03ContextValid",
+      "default": 0,
+      "offset": 90
+    },
+    {
+      "name": "p03Room",
+      "default": 0,
+      "offset": 92
+    },
+    {
+      "name": "p03Apron",
+      "default": 0,
+      "offset": 94
+    },
+    {
+      "name": "p03Plan",
+      "default": 0,
+      "offset": 96
+    },
+    {
+      "name": "p03Tools",
+      "default": 0,
+      "offset": 98
+    },
+    {
+      "name": "p03Code",
+      "default": 0,
+      "offset": 100
+    },
+    {
+      "name": "p03LineCount",
+      "default": 0,
+      "offset": 102
+    },
+    {
+      "name": "p03EventCount",
+      "default": 0,
+      "offset": 104
+    },
+    {
+      "name": "p03ResultHi",
+      "default": 0,
+      "offset": 106
+    },
+    {
+      "name": "p03ResultLo",
+      "default": 0,
+      "offset": 108
+    }
+  ],
+  "locals": [
+    {
+      "name": "bSlots",
+      "word_offset": 0,
+      "length": 64
+    },
+    {
+      "name": "bReserve",
+      "word_offset": 64,
+      "length": 51
+    },
+    {
+      "name": "bStageLines",
+      "word_offset": 115,
+      "length": 2
+    },
+    {
+      "name": "bStagePages",
+      "word_offset": 117,
+      "length": 2
+    },
+    {
+      "name": "bSeen",
+      "word_offset": 119,
+      "length": 128
+    },
+    {
+      "name": "p03Lines",
+      "word_offset": 247,
+      "length": 8
+    },
+    {
+      "name": "p03Events",
+      "word_offset": 255,
+      "length": 2
+    },
+    {
+      "name": "p03EventArgs",
+      "word_offset": 257,
+      "length": 2
+    },
+    {
+      "name": "p03Held",
+      "word_offset": 259,
+      "length": 51
+    }
+  ],
+  "methods": {
+    "p03Bind": {
+      "arguments": [
+        "binding"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03ContextItem": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Clear": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": [
+        "i"
+      ]
+    },
+    "p03Init": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03Context": {
+      "arguments": [
+        "room",
+        "apron",
+        "plan",
+        "tools"
+      ],
+      "arity": 4,
+      "temporaries": [
+        "i"
+      ]
+    },
+    "p03ExternalBit": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03AppendLine": {
+      "arguments": [
+        "line"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Line": {
+      "arguments": [
+        "index"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Event": {
+      "arguments": [
+        "index"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03EventArg": {
+      "arguments": [
+        "index"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Status": {
+      "arguments": [
+        "code",
+        "binding"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "p03Start": {
+      "arguments": [
+        "context"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03CanCommit": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03Emit": {
+      "arguments": [
+        "event",
+        "arg"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "p03Commit": {
+      "arguments": [
+        "code",
+        "binding",
+        "event",
+        "arg",
+        "checkReady"
+      ],
+      "arity": 5,
+      "temporaries": []
+    },
+    "p03Location": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Reachable": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "loc"
+      ]
+    },
+    "p03Guard": {
+      "arguments": [
+        "obj",
+        "target",
+        "needPlan"
+      ],
+      "arity": 3,
+      "temporaries": []
+    },
+    "p03Observe": {
+      "arguments": [
+        "source"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "p03Look": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "source",
+        "binding",
+        "observed"
+      ]
+    },
+    "p03Topic": {
+      "arguments": [
+        "actor",
+        "topic"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "p03Collect": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "state",
+        "binding"
+      ]
+    },
+    "p03Pad": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "held",
+        "binding",
+        "bit"
+      ]
+    },
+    "p03BeginCredit": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03Choices": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03Select": {
+      "arguments": [
+        "choice"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "binding"
+      ]
+    },
+    "p03CancelCredit": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03GiveSlate": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": [
+        "observed"
+      ]
+    },
+    "p03Hint": {
+      "arguments": [
+        "level"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "desired",
+        "binding"
+      ]
+    },
+    "p03Act": {
+      "arguments": [
+        "action",
+        "obj",
+        "target"
+      ],
+      "arity": 3,
+      "temporaries": []
+    },
+    "p03InventoryAt": {
+      "arguments": [
+        "index"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "count"
+      ]
+    },
+    "p03AfterRestore": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": []
+    },
+    "p03SerialLE": {
+      "arguments": [
+        "aHi",
+        "aLo",
+        "bHi",
+        "bLo"
+      ],
+      "arity": 4,
+      "temporaries": []
+    },
+    "p03Validate": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": [
+        "minimum",
+        "bit",
+        "i",
+        "expectedReady",
+        "introPresent",
+        "completePresent"
+      ]
+    },
+    "p03ValidateContext": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": [
+        "progressed"
+      ]
+    },
+    "bProject": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "obj"
+      ]
+    },
+    "bClaims": {
+      "arguments": [
+        "action",
+        "obj",
+        "target"
+      ],
+      "arity": 3,
+      "temporaries": []
+    },
+    "bHeld": {
+      "arguments": [
+        "h",
+        "obj"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "bReachable": {
+      "arguments": [
+        "h",
+        "obj"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "bFind": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "i"
+      ]
+    },
+    "bAppend": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "slot"
+      ]
+    },
+    "bInventory": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "i",
+        "j",
+        "obj",
+        "compact"
+      ]
+    },
+    "bCancelPending": {
+      "arguments": [],
+      "arity": 0,
+      "temporaries": [
+        "i"
+      ]
+    },
+    "bBeforeTravel": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bRoutesReady": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "line",
+        "pages"
+      ]
+    },
+    "bPublish": {
+      "arguments": [
+        "h",
+        "showLines"
+      ],
+      "arity": 2,
+      "temporaries": [
+        "i",
+        "j",
+        "event",
+        "arg",
+        "bit"
+      ]
+    },
+    "bPreviewBinding": {
+      "arguments": [
+        "obj"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bStartPending": {
+      "arguments": [
+        "h",
+        "kind",
+        "obj",
+        "binding"
+      ],
+      "arity": 4,
+      "temporaries": [
+        "i",
+        "line",
+        "pages"
+      ]
+    },
+    "bDispatch": {
+      "arguments": [
+        "h",
+        "action",
+        "obj",
+        "target"
+      ],
+      "arity": 4,
+      "temporaries": [
+        "binding"
+      ]
+    },
+    "bPresented": {
+      "arguments": [
+        "h",
+        "line",
+        "page"
+      ],
+      "arity": 3,
+      "temporaries": [
+        "i",
+        "index",
+        "kind",
+        "obj"
+      ]
+    },
+    "bClosed": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "i",
+        "page",
+        "complete"
+      ]
+    },
+    "bSelect": {
+      "arguments": [
+        "h",
+        "choice"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "bChoices": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bTopics": {
+      "arguments": [
+        "h",
+        "actor"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "bTopic": {
+      "arguments": [
+        "h",
+        "actor",
+        "topic"
+      ],
+      "arity": 3,
+      "temporaries": []
+    },
+    "bHint": {
+      "arguments": [
+        "h",
+        "level"
+      ],
+      "arity": 2,
+      "temporaries": []
+    },
+    "bJournal": {
+      "arguments": [
+        "h",
+        "line"
+      ],
+      "arity": 2,
+      "temporaries": [
+        "i",
+        "pages"
+      ]
+    },
+    "bAfterRestore": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bCheckpoint": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bRequiredResponse": {
+      "arguments": [
+        "line"
+      ],
+      "arity": 1,
+      "temporaries": []
+    },
+    "bJournalLine": {
+      "arguments": [
+        "index"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "count"
+      ]
+    },
+    "bRestoreSource": {
+      "arguments": [
+        "h"
+      ],
+      "arity": 1,
+      "temporaries": [
+        "kind",
+        "obj",
+        "room",
+        "hi",
+        "lo",
+        "count",
+        "seen",
+        "need",
+        "i",
+        "page",
+        "binding",
+        "valid",
+        "actualSeen",
+        "actualNeed",
+        "current",
+        "line",
+        "pages",
+        [
+          "lines",
+          2
+        ],
+        [
+          "counts",
+          2
+        ],
+        [
+          "visited",
+          128
+        ]
+      ]
+    }
+  },
+  "constants": {
+    "OBJ_FRONT_DOOR": 1,
+    "OBJ_BUNNY": 2,
+    "OBJ_BENCH": 3,
+    "OBJ_WEDGE": 4,
+    "OBJ_TRAY": 5,
+    "OBJ_PRINT_PACKET": 6,
+    "OBJ_BOARD": 7,
+    "OBJ_FRANKIE": 8,
+    "OBJ_AUDIENCE_EDGE": 9,
+    "OBJ_AUDIENCE": 10,
+    "OBJ_RETURN_TO_HOUSE": 11,
+    "OBJ_EXIT_KITCHEN": 12,
+    "OBJ_EXIT_COURTYARD": 13,
+    "OBJ_EXIT_SIDE": 14,
+    "OBJ_EXIT_GARAGE": 15,
+    "OBJ_EXIT_CONSERVATORY": 16,
+    "OBJ_EXIT_PORCH": 17,
+    "OBJ_EXIT_LIVING": 18,
+    "OBJ_EXIT_GATE": 19,
+    "OBJ_COPY_JACK": 20,
+    "OBJ_COPY_BUNNY": 21,
+    "OBJ_COPY_STRINGER": 22,
+    "OBJ_COMPARED_COPIES": 23,
+    "OBJ_MASTER_INVITATION": 24,
+    "OBJ_GREASE_PENCIL": 25,
+    "OBJ_MATCHED_BORDER": 26,
+    "OBJ_INVITATION_DRAWER": 27,
+    "OBJ_MILO": 28,
+    "OBJ_STRINGER": 29,
+    "OBJ_RITA": 30,
+    "OBJ_CHECKLIST": 31,
+    "OBJ_JOURNAL": 32,
+    "OBJ_CARRIER_DRAWING": 33,
+    "OBJ_CERAMIC_CARRIER": 34,
+    "OBJ_CERAMIC_SAMPLE_TILES": 35,
+    "OBJ_CERAMIC_SERVICE": 36,
+    "OBJ_CLASS_CARD": 37,
+    "OBJ_CLEAN_NAPKIN": 38,
+    "OBJ_CLEAN_TOWEL": 39,
+    "OBJ_CREDIT_SLATE": 40,
+    "OBJ_DISPLAY_MARKINGS": 41,
+    "OBJ_FOLDED_DISPLAY": 42,
+    "OBJ_KITCHEN_PASS": 43,
+    "OBJ_LINEN_DRAWER": 44,
+    "OBJ_LINEN_HOOK": 45,
+    "OBJ_NEWSPAPER": 46,
+    "OBJ_PLATE_SIGNATURE": 47,
+    "OBJ_RITA_SAMPLE_TILE_1": 48,
+    "OBJ_RITA_SAMPLE_TILE_2": 49,
+    "OBJ_RITA_SAMPLE_TILE_3": 50,
+    "CODE_OFFSCREEN": 1,
+    "CODE_PLAN_REQUIRED": 2,
+    "CODE_OBSERVED": 3,
+    "CODE_INSPECT_STATE": 4,
+    "CODE_SERVICE_READY": 5,
+    "CODE_SERVICE_RECAP": 6,
+    "CODE_INTRODUCED": 7,
+    "CODE_REVEAL_NOT_OFFERED": 8,
+    "CODE_REVEAL_PROTECTED": 9,
+    "CODE_UNHELPFUL": 10,
+    "CODE_ALREADY_HELD": 11,
+    "CODE_CLOTH_COLLECTED": 12,
+    "CODE_ALREADY_PADDED": 13,
+    "CODE_ITEM_NOT_HELD": 14,
+    "CODE_PAPER_NOT_PADDING": 15,
+    "CODE_CARRIER_PADDED": 16,
+    "CODE_PENCIL_REQUIRED": 17,
+    "CODE_CREDIT_OPEN": 18,
+    "CODE_EDITOR_REQUIRED": 19,
+    "CODE_NAME_EVIDENCE_REQUIRED": 20,
+    "CODE_CREDIT_UNCHANGED": 21,
+    "CODE_CREDIT_WRITTEN": 22,
+    "CODE_EDITOR_CLOSED": 23,
+    "CODE_GENERIC_CREDIT_REJECTED": 24,
+    "CODE_CREDIT_REQUIRED": 25,
+    "CODE_PADDING_REQUIRED": 26,
+    "CODE_CREDIT_APPROVED": 27,
+    "CODE_HINT": 28,
+    "CODE_INVALID_ARGUMENT": 29,
+    "CODE_INVALID_CONTEXT": 30,
+    "CODE_INVALID_STATE": 31,
+    "CODE_SERIAL_EXHAUSTED": 32,
+    "BIND_INTRO": 1,
+    "BIND_CARRIER_EMPTY": 2,
+    "BIND_CARRIER_PADDED": 3,
+    "BIND_CARRIER_DRAWING": 4,
+    "BIND_PLATE_SIGNATURE": 5,
+    "BIND_CLASS_CARD": 6,
+    "BIND_SLATE_ORIGINAL": 7,
+    "BIND_SLATE_RITA_STRINGER": 8,
+    "BIND_SLATE_MRS_STRINGER": 9,
+    "BIND_CLEAN_TOWEL": 10,
+    "BIND_CLEAN_NAPKIN": 11,
+    "BIND_LINEN_DRAWER": 12,
+    "BIND_TAKE_CLEAN_TOWEL": 13,
+    "BIND_TAKE_CLEAN_NAPKIN": 14,
+    "BIND_PAD_CLEAN_TOWEL": 15,
+    "BIND_PAD_CLEAN_NAPKIN": 16,
+    "BIND_WRITE_RITA_STRINGER": 17,
+    "BIND_WRITE_MRS_STRINGER": 18,
+    "BIND_PAPER_NEWSPAPER": 19,
+    "BIND_PAPER_MASTER_INVITATION": 20,
+    "BIND_GENERIC_CREDIT": 21,
+    "BIND_COMPLETE": 22,
+    "BIND_TILES": 23,
+    "BIND_DISPLAY_MARKINGS": 24,
+    "BIND_PROTECT_REVEAL": 25,
+    "BIND_HINT_1": 26,
+    "BIND_HINT_2": 27,
+    "BIND_HINT_3": 28,
+    "EVENT_P03_OBSERVE": 1,
+    "EVENT_P03_INTRO": 2,
+    "EVENT_P03_TAKE_CLOTH": 3,
+    "EVENT_P03_PAD_CARRIER": 4,
+    "EVENT_P03_CREDIT_OPEN": 5,
+    "EVENT_P03_WRITE_CREDIT": 6,
+    "EVENT_P03_CREDIT_CLOSE": 7,
+    "EVENT_P03_CREDIT_APPROVED": 8,
+    "EVENT_P03_HINT": 9,
+    "EVENT_P03_COMPLETE": 10,
+    "EVENT_P03_PROTECT_REVEAL": 11,
+    "SOURCE_PLATE_SIGNATURE": 1,
+    "SOURCE_CLASS_CARD": 2,
+    "SOURCE_RITA_NAME": 4,
+    "SOURCE_RITA_CREDIT_CORRECTION": 8,
+    "SOURCE_CARRIER_DRAWING": 16,
+    "SOURCE_DISPLAY_MARKINGS": 32,
+    "ROOM_L03_PORCH": 0,
+    "ROOM_L01_LIVING_ROOM": 1,
+    "ROOM_L02_KITCHEN": 2,
+    "ROOM_L04_SIDE_PASSAGE": 3,
+    "ROOM_L05_COURTYARD": 4,
+    "ROOM_L06_GARAGE": 5,
+    "ROOM_L07_CONSERVATORY": 6,
+    "P03_OBJECT_LIMIT": 50
+  },
+  "persisted_domain_properties": [
+    "p03Initialized",
+    "p03Towel",
+    "p03Napkin",
+    "p03Padding",
+    "p03Slate",
+    "p03Approved",
+    "p03Open",
+    "p03KnowName",
+    "p03Ready",
+    "p03Observed",
+    "p03HintLevel",
+    "p03RevisionHi",
+    "p03RevisionLo",
+    "p03IntroHi",
+    "p03IntroLo",
+    "p03CompleteHi",
+    "p03CompleteLo",
+    "p03PromiseHi",
+    "p03PromiseLo"
+  ]
+}

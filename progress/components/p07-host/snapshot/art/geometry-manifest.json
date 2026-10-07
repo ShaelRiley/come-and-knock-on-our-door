@@ -1,0 +1,1230 @@
+{
+  "schema": 1,
+  "classification": "new additive art and measured geometry; not native acceptance",
+  "room": "L02_KITCHEN",
+  "host_room": 2,
+  "stage": [
+    320,
+    144
+  ],
+  "origin_convention": "top-left origins; half-open rectangles; feet-anchor actor positions",
+  "palette": 999,
+  "font": 0,
+  "clear_key": 255,
+  "view_ids": [
+    233,
+    234,
+    235
+  ],
+  "global_object_boundary": {
+    "assignment": "unassigned; host coordinator maps semantic keys/local enums to global payloads86+",
+    "domain_object_ids_are_campaign_ids": false
+  },
+  "background": {
+    "view": 300,
+    "loop": 0,
+    "cel": 0,
+    "sha256": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2",
+    "replacement": false
+  },
+  "clean_plate": {
+    "name": "clean-stove-plate",
+    "rect": [
+      68,
+      67,
+      82,
+      80
+    ],
+    "purpose": "mask only the baked old pot silhouette, including after real owner handoff",
+    "original_background_unchanged": true,
+    "not_a_second_stove": true
+  },
+  "floor_lane": {
+    "rect": [
+      20,
+      116,
+      294,
+      144
+    ],
+    "waypoints": [
+      [
+        29,
+        128
+      ],
+      [
+        72,
+        129
+      ],
+      [
+        113,
+        128
+      ],
+      [
+        148,
+        129
+      ],
+      [
+        197,
+        129
+      ],
+      [
+        271,
+        129
+      ]
+    ],
+    "host_pathfinding_required": true
+  },
+  "actors": {
+    "jackie": {
+      "view": 214,
+      "anchor": [
+        26,
+        78
+      ]
+    },
+    "bunny": {
+      "view": 219,
+      "anchor": [
+        26,
+        78
+      ],
+      "predicate": "campaign.bunny_room == L02_KITCHEN and not campaign.bunny_on_apron",
+      "feet": "caller supplied current campaign position only",
+      "interaction": "also honor genuine availability/invitation; art never alters these values",
+      "duplicate_or_teleport": false
+    }
+  },
+  "preserved_controls": [
+    {
+      "name": "living_room_exit",
+      "object": 18,
+      "rect": [
+        19,
+        44,
+        44,
+        110
+      ],
+      "active": "always"
+    },
+    {
+      "name": "hatch",
+      "object": -103,
+      "rect": [
+        190,
+        46,
+        273,
+        76
+      ],
+      "active": "always"
+    },
+    {
+      "name": "kitchen_pass",
+      "object": 43,
+      "rect": [
+        183,
+        78,
+        289,
+        86
+      ],
+      "active": "always"
+    },
+    {
+      "name": "linen_drawer",
+      "object": 44,
+      "rect": [
+        142,
+        84,
+        169,
+        97
+      ],
+      "active": "always"
+    },
+    {
+      "name": "bread_tray",
+      "object": 5,
+      "rect": [
+        183,
+        84,
+        213,
+        104
+      ],
+      "active": "tray reachable and tray !=0"
+    },
+    {
+      "name": "p03_ceramic_carrier",
+      "object": 34,
+      "rect": [
+        214,
+        54,
+        256,
+        81
+      ],
+      "active": "p03 ready"
+    },
+    {
+      "name": "p03_ceramic_service",
+      "object": 36,
+      "rect": [
+        216,
+        54,
+        252,
+        64
+      ],
+      "active": "p03 ready"
+    },
+    {
+      "name": "p03_drawing",
+      "object": 33,
+      "rect": [
+        216,
+        73,
+        233,
+        80
+      ],
+      "active": "p03 ready"
+    },
+    {
+      "name": "p03_credit_slate",
+      "object": 40,
+      "rect": [
+        260,
+        63,
+        282,
+        83
+      ],
+      "active": "p03 ready"
+    },
+    {
+      "name": "p03_towel",
+      "object": 39,
+      "rect": [
+        143,
+        84,
+        157,
+        92
+      ],
+      "active": "towel owner0"
+    },
+    {
+      "name": "p03_napkin",
+      "object": 38,
+      "rect": [
+        157,
+        85,
+        169,
+        92
+      ],
+      "active": "napkin owner0"
+    }
+  ],
+  "preserved_draws": [
+    {
+      "view": 224,
+      "loop": 0,
+      "cel": 5,
+      "origin": [
+        144,
+        85
+      ],
+      "condition": "towel owner0"
+    },
+    {
+      "view": 224,
+      "loop": 0,
+      "cel": 6,
+      "origin": [
+        158,
+        86
+      ],
+      "condition": "napkin owner0"
+    },
+    {
+      "view": 212,
+      "loop": 0,
+      "cel": 0,
+      "origin": [
+        184,
+        85
+      ],
+      "condition": "tray2"
+    },
+    {
+      "view": 224,
+      "loop": 0,
+      "cel": 1,
+      "origin": [
+        215,
+        55
+      ],
+      "condition": "p03 ready"
+    },
+    {
+      "view": 224,
+      "loop": 0,
+      "cel": 4,
+      "origin": [
+        261,
+        64
+      ],
+      "condition": "p03 ready"
+    }
+  ],
+  "cross_component_exclusions": [
+    {
+      "name": "p06_sheet_on_existing_right_shelf",
+      "rect": [
+        291,
+        62,
+        317,
+        79
+      ],
+      "origin": [
+        293,
+        64
+      ],
+      "size": [
+        22,
+        11
+      ],
+      "approach": [
+        280,
+        137
+      ],
+      "source": "P06 art coordination2026-10-06; not rendered or owned by P07"
+    }
+  ],
+  "caption_exclusion": [
+    0,
+    0,
+    320,
+    44
+  ],
+  "hud_exclusion": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "controls": {
+    "hotpot_recipe": {
+      "domain_local_object": 1,
+      "label_record": "P07.LABEL.001",
+      "rect": [
+        159,
+        44,
+        182,
+        64
+      ],
+      "approach": [
+        185,
+        126
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 0
+    },
+    "bean_tomato_base": {
+      "domain_local_object": 2,
+      "label_record": "P07.LABEL.002",
+      "rect": [
+        95,
+        69,
+        115,
+        81
+      ],
+      "approach": [
+        124,
+        129
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 1
+    },
+    "vegetable_bowl": {
+      "domain_local_object": 3,
+      "label_record": "P07.LABEL.003",
+      "rect": [
+        120,
+        69,
+        140,
+        81
+      ],
+      "approach": [
+        148,
+        129
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 2
+    },
+    "stock_bottle": {
+      "domain_local_object": 4,
+      "label_record": "P07.LABEL.004",
+      "rect": [
+        49,
+        60,
+        60,
+        78
+      ],
+      "approach": [
+        75,
+        127
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 3
+    },
+    "measuring_jug": {
+      "domain_local_object": 5,
+      "label_record": "P07.LABEL.005",
+      "rect": [
+        166,
+        65,
+        183,
+        81
+      ],
+      "approach": [
+        197,
+        129
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 4
+    },
+    "herb_sachet": {
+      "domain_local_object": 6,
+      "label_record": "P07.LABEL.006",
+      "rect": [
+        147,
+        64,
+        159,
+        81
+      ],
+      "approach": [
+        175,
+        129
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 5
+    },
+    "hotpot_pot": {
+      "domain_local_object": 7,
+      "label_record": "P07.LABEL.007",
+      "rect": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "approach": [
+        113,
+        128
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 owns hotpot_pot",
+      "hit_priority": 6
+    },
+    "pot_lid": {
+      "domain_local_object": 8,
+      "label_record": "P07.LABEL.008",
+      "rect": [
+        46,
+        78,
+        63,
+        85
+      ],
+      "approach": [
+        87,
+        129
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 owns pot and lid location beside_hotpot; replace with lid_on_pot_target while lid_closed",
+      "hit_priority": 7
+    },
+    "stove": {
+      "domain_local_object": 9,
+      "label_record": "P07.LABEL.009",
+      "rect": [
+        64,
+        81,
+        92,
+        89
+      ],
+      "approach": [
+        113,
+        128
+      ],
+      "max_target_center_to_approach": 76,
+      "active": "P07 kitchen layer active",
+      "hit_priority": 8
+    }
+  },
+  "lid_on_pot_target": {
+    "rect": [
+      66,
+      65,
+      90,
+      72
+    ],
+    "object": "pot_lid",
+    "priority": "before hotpot_pot hit fallback only while lid_closed"
+  },
+  "draw_order": [
+    "accepted kitchen300",
+    "bounded clean-stove plate",
+    "ingredients/recipe/jug",
+    "exactly one projected pot and lid",
+    "heat/steam only from committed projection",
+    "accepted P03 props",
+    "campaign actors at actual position in feet-Y order",
+    "caption and HUD"
+  ],
+  "knowledge_boundary": "Art, animation, labels, title, LOOK and audio never grant recipe knowledge. Host must display and receipt exact canonical Graph12 source page.",
+  "measured_cels": {
+    "clean-stove-plate": {
+      "name": "clean-stove-plate",
+      "view": 233,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/233-00-00-clean-stove-plate.png",
+      "size": [
+        14,
+        13
+      ],
+      "origin": [
+        68,
+        67
+      ],
+      "semantic": null,
+      "state": "P07 layer enabled, including after P13 transfer",
+      "opaque_bounds_local": [
+        0,
+        0,
+        14,
+        13
+      ],
+      "opaque_bounds_world": [
+        68,
+        67,
+        82,
+        80
+      ],
+      "opaque_pixels": 182,
+      "indices_sha256": "5d4701f7b41a3eb8f72bdc9d15c14dc8e58a4b0c3b13718bbed3ed0a9f8cf87a"
+    },
+    "bean-tomato-base": {
+      "name": "bean-tomato-base",
+      "view": 233,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/233-00-01-bean-tomato-base.png",
+      "size": [
+        20,
+        12
+      ],
+      "origin": [
+        95,
+        69
+      ],
+      "semantic": "bean_tomato_base",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "opaque_bounds_world": [
+        95,
+        69,
+        115,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "bdd364efd34de896a0d4875f797f2ab5169364fede1ac7e342f8dd583fc05544"
+    },
+    "vegetable-bowl": {
+      "name": "vegetable-bowl",
+      "view": 233,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/233-00-02-vegetable-bowl.png",
+      "size": [
+        20,
+        12
+      ],
+      "origin": [
+        120,
+        69
+      ],
+      "semantic": "vegetable_bowl",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "opaque_bounds_world": [
+        120,
+        69,
+        140,
+        81
+      ],
+      "opaque_pixels": 172,
+      "indices_sha256": "37929d397d2cbdaa31092552541c4e25ab689b24aff2609246608a0003687985"
+    },
+    "stock-bottle": {
+      "name": "stock-bottle",
+      "view": 233,
+      "loop": 0,
+      "cel": 3,
+      "source": "indexed-cels/233-00-03-stock-bottle.png",
+      "size": [
+        11,
+        18
+      ],
+      "origin": [
+        49,
+        60
+      ],
+      "semantic": "stock_bottle",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        11,
+        18
+      ],
+      "opaque_bounds_world": [
+        49,
+        60,
+        60,
+        78
+      ],
+      "opaque_pixels": 140,
+      "indices_sha256": "999d1534c9329956f4aaf3a4c0e15e7d3dcdae66b4e591325df73c53bfd1663f"
+    },
+    "herb-sachet": {
+      "name": "herb-sachet",
+      "view": 233,
+      "loop": 0,
+      "cel": 4,
+      "source": "indexed-cels/233-00-04-herb-sachet.png",
+      "size": [
+        12,
+        16
+      ],
+      "origin": [
+        147,
+        64
+      ],
+      "semantic": "herb_sachet",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        12,
+        16
+      ],
+      "opaque_bounds_world": [
+        147,
+        64,
+        159,
+        80
+      ],
+      "opaque_pixels": 160,
+      "indices_sha256": "34a0ff0e32e8d2e296522a84815acd658ece2162c62b455c1eae50de3efa3fe2"
+    },
+    "jug-empty": {
+      "name": "jug-empty",
+      "view": 233,
+      "loop": 0,
+      "cel": 5,
+      "source": "indexed-cels/233-00-05-jug-empty.png",
+      "size": [
+        17,
+        16
+      ],
+      "origin": [
+        166,
+        65
+      ],
+      "semantic": "measuring_jug",
+      "state": "empty_jug",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        16
+      ],
+      "opaque_bounds_world": [
+        166,
+        65,
+        183,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "6c71ae9c224e3f35f5b0b33c6d6062f9d0204fec868c9082ceaa85167fb9a422"
+    },
+    "jug-measured-eight": {
+      "name": "jug-measured-eight",
+      "view": 233,
+      "loop": 0,
+      "cel": 6,
+      "source": "indexed-cels/233-00-06-jug-measured-eight.png",
+      "size": [
+        17,
+        16
+      ],
+      "origin": [
+        166,
+        65
+      ],
+      "semantic": "measuring_jug",
+      "state": "measured_eight",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        16
+      ],
+      "opaque_bounds_world": [
+        166,
+        65,
+        183,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "ca3884574c7024482725718e8f60fae6fa1cd9e756a27c0e2a78ee7af082c04e"
+    },
+    "lid-beside": {
+      "name": "lid-beside",
+      "view": 233,
+      "loop": 0,
+      "cel": 7,
+      "source": "indexed-cels/233-00-07-lid-beside.png",
+      "size": [
+        17,
+        7
+      ],
+      "origin": [
+        46,
+        78
+      ],
+      "semantic": "pot_lid",
+      "state": "beside_hotpot",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        7
+      ],
+      "opaque_bounds_world": [
+        46,
+        78,
+        63,
+        85
+      ],
+      "opaque_pixels": 73,
+      "indices_sha256": "1c39d12169f9bc355a5623904f199196cd606cbe9d99b6f4ff4d8d7854fa9e26"
+    },
+    "recipe-margin": {
+      "name": "recipe-margin",
+      "view": 233,
+      "loop": 0,
+      "cel": 8,
+      "source": "indexed-cels/233-00-08-recipe-margin.png",
+      "size": [
+        23,
+        20
+      ],
+      "origin": [
+        159,
+        44
+      ],
+      "semantic": "hotpot_recipe",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        23,
+        20
+      ],
+      "opaque_bounds_world": [
+        159,
+        44,
+        182,
+        64
+      ],
+      "opaque_pixels": 389,
+      "indices_sha256": "38f4512f5c41e3cb8bd78f4d2fd70a01501a50e8ef1b19110de2fc0326fc50fe"
+    },
+    "stove-heat-on": {
+      "name": "stove-heat-on",
+      "view": 233,
+      "loop": 0,
+      "cel": 9,
+      "source": "indexed-cels/233-00-09-stove-heat-on.png",
+      "size": [
+        22,
+        3
+      ],
+      "origin": [
+        67,
+        79
+      ],
+      "semantic": "stove",
+      "state": "heat_on",
+      "opaque_bounds_local": [
+        2,
+        0,
+        20,
+        3
+      ],
+      "opaque_bounds_world": [
+        69,
+        79,
+        87,
+        82
+      ],
+      "opaque_pixels": 20,
+      "indices_sha256": "6d8cf803d13447a35142f46d454abcb28fd221bd1bb0f0d5281b4f73766b7088"
+    },
+    "pot-empty": {
+      "name": "pot-empty",
+      "view": 234,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/234-00-00-pot-empty.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "empty",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "ee3fbad44908bde49af5a61f7da53505f453d87f66b298876e936bacf1b1e07b"
+    },
+    "pot-stock-only": {
+      "name": "pot-stock-only",
+      "view": 234,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/234-00-01-pot-stock-only.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "stock-only",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "c3e087aa27637759601087fd2de42c9ecd1082ab7e550ae04eee9b5d87082f5c"
+    },
+    "pot-base-only": {
+      "name": "pot-base-only",
+      "view": 234,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/234-00-02-pot-base-only.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-only",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "d5b3d1a0e988098e1e57a5f7b5430a05350a568392fb48fb2c142b14081986d5"
+    },
+    "pot-base-stock": {
+      "name": "pot-base-stock",
+      "view": 234,
+      "loop": 0,
+      "cel": 3,
+      "source": "indexed-cels/234-00-03-pot-base-stock.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-stock",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "24a185c67ace2aa2c3b91cf289c75dca3008899ab897b117aa37b1497041b449"
+    },
+    "pot-base-vegetables": {
+      "name": "pot-base-vegetables",
+      "view": 234,
+      "loop": 0,
+      "cel": 4,
+      "source": "indexed-cels/234-00-04-pot-base-vegetables.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-vegetables",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f50fef79d6eb905a0e76eae711aea786564628e20714998d3c63fa6d4431c8b7"
+    },
+    "pot-prepped": {
+      "name": "pot-prepped",
+      "view": 234,
+      "loop": 0,
+      "cel": 5,
+      "source": "indexed-cels/234-00-05-pot-prepped.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "prepped",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "bc7f34e29d261f03bd5b12b99775519cb55b734f90e4f2db752d7a6b99e3669a"
+    },
+    "pot-cooked-heated": {
+      "name": "pot-cooked-heated",
+      "view": 234,
+      "loop": 0,
+      "cel": 6,
+      "source": "indexed-cels/234-00-06-pot-cooked-heated.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "cooked-heated",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f9289695b87c979bf8ed996e732da6906a37a92161d70528937767e1c3f20387"
+    },
+    "pot-cooked-off-heat": {
+      "name": "pot-cooked-off-heat",
+      "view": 234,
+      "loop": 0,
+      "cel": 7,
+      "source": "indexed-cels/234-00-07-pot-cooked-off-heat.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "cooked-off-heat",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f9289695b87c979bf8ed996e732da6906a37a92161d70528937767e1c3f20387"
+    },
+    "pot-herbed": {
+      "name": "pot-herbed",
+      "view": 234,
+      "loop": 0,
+      "cel": 8,
+      "source": "indexed-cels/234-00-08-pot-herbed.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "herbed",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "69060ec54650d5f1cf91533ea34aad5481440057bf7d54b5e463a1c7f5318182"
+    },
+    "pot-lidded-ready": {
+      "name": "pot-lidded-ready",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "source": "indexed-cels/234-00-09-pot-lidded-ready.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "lidded-ready",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 304,
+      "indices_sha256": "2679b8005aa3cb25bd94b24b022cd9aedd10a0b71e3a5868ae585384d1680a5d"
+    },
+    "steam-cooked-heated": {
+      "name": "steam-cooked-heated",
+      "view": 234,
+      "loop": 0,
+      "cel": 10,
+      "source": "indexed-cels/234-00-10-steam-cooked-heated.png",
+      "size": [
+        24,
+        6
+      ],
+      "origin": [
+        66,
+        59
+      ],
+      "semantic": null,
+      "state": "cooked and heat_on; static no timer",
+      "opaque_bounds_local": [
+        4,
+        1,
+        20,
+        6
+      ],
+      "opaque_bounds_world": [
+        70,
+        60,
+        86,
+        65
+      ],
+      "opaque_pixels": 15,
+      "indices_sha256": "43a7dec3261f4ceb7e2232439384c8e1146e84e8194e682b903249f8fb8f4fca"
+    },
+    "recipe-exact-detail": {
+      "name": "recipe-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/235-00-00-recipe-exact-detail.png",
+      "size": [
+        288,
+        80
+      ],
+      "origin": [
+        16,
+        48
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        288,
+        80
+      ],
+      "opaque_bounds_world": [
+        16,
+        48,
+        304,
+        128
+      ],
+      "opaque_pixels": 23040,
+      "indices_sha256": "b387f8a7cb36f500ae9e47f0c9bb65870459211f25a3773eee8971335d8cf617"
+    },
+    "jug-mark-exact-detail": {
+      "name": "jug-mark-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/235-00-01-jug-mark-exact-detail.png",
+      "size": [
+        112,
+        24
+      ],
+      "origin": [
+        104,
+        65
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        112,
+        24
+      ],
+      "opaque_bounds_world": [
+        104,
+        65,
+        216,
+        89
+      ],
+      "opaque_pixels": 2688,
+      "indices_sha256": "1491453839b4c9834b62f014e62d182c5db298ef781856bb8b7a00df4bd834f5"
+    },
+    "herb-label-exact-detail": {
+      "name": "herb-label-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/235-00-02-herb-label-exact-detail.png",
+      "size": [
+        124,
+        24
+      ],
+      "origin": [
+        104,
+        65
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        124,
+        24
+      ],
+      "opaque_bounds_world": [
+        104,
+        65,
+        228,
+        89
+      ],
+      "opaque_pixels": 2976,
+      "indices_sha256": "84e861a5686b35cf841915aace057e1d7898aa5c43481f03e5451a8ec84b8290"
+    }
+  }
+}

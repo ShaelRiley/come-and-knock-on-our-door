@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS08_MICROPHONE_PREPARATION",
+  "resource_id": 115,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS08_MICROPHONE_PREPARATION.mid",
+  "native_payload_path": "native/reduced/115.sound.bin",
+  "sha256": {
+    "midi": "7b13e2755cff311d8b57d7e8d092905eef65ac233fbc66789285daff290a23d4",
+    "native": "c9096fdd05e0739222e51b86725d56f5ecf3b1991e64a05282e82a6afc3b3341"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

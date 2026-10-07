@@ -1,0 +1,1 @@
+New editable P08 scene reconstruction initial gate. generate.py, extend.py and build.py succeeded against the current P07 ten-module universe. Full tests, packaging and native acceptance remain unclaimed. Old audio is bound by exact manifest, not duplicated. Not a game release.

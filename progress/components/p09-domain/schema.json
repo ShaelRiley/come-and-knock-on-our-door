@@ -1,0 +1,942 @@
+{
+  "scope": "New isolated editable P09 reconstruction; historical metadata retained separately; no native acceptance",
+  "script": 990,
+  "export": 0,
+  "export_name": "p09State",
+  "standalone_species": 1,
+  "production_reserved_species": 12,
+  "objects": {
+    "front_door": 1,
+    "bunny": 2,
+    "bench": 3,
+    "wedge": 4,
+    "tray": 5,
+    "print_packet": 6,
+    "board": 7,
+    "frankie": 8,
+    "audience_edge": 9,
+    "audience": 10,
+    "return_to_house": 11,
+    "exit_kitchen": 12,
+    "exit_courtyard": 13,
+    "exit_side": 14,
+    "exit_garage": 15,
+    "exit_conservatory": 16,
+    "exit_porch": 17,
+    "exit_living": 18,
+    "exit_gate": 19,
+    "copy_jack": 20,
+    "copy_bunny": 21,
+    "copy_stringer": 22,
+    "compared_copies": 23,
+    "master_invitation": 24,
+    "grease_pencil": 25,
+    "matched_border": 26,
+    "invitation_drawer": 27,
+    "milo": 28,
+    "stringer": 29,
+    "rita": 30,
+    "checklist": 31,
+    "journal": 32,
+    "carrier_drawing": 33,
+    "ceramic_carrier": 34,
+    "ceramic_sample_tiles": 35,
+    "ceramic_service": 36,
+    "class_card": 37,
+    "clean_napkin": 38,
+    "clean_towel": 39,
+    "credit_slate": 40,
+    "display_markings": 41,
+    "folded_display": 42,
+    "kitchen_pass": 43,
+    "linen_drawer": 44,
+    "linen_hook": 45,
+    "newspaper": 46,
+    "plate_signature": 47,
+    "rita_sample_tile_1": 48,
+    "rita_sample_tile_2": 49,
+    "rita_sample_tile_3": 50,
+    "aligned_hinges": 51,
+    "circulation_board": 52,
+    "circulation_plan": 53,
+    "felix": 54,
+    "fixed_hook": 55,
+    "hold_open_peg": 56,
+    "jack": 57,
+    "latch_arm": 58,
+    "screwdriver": 59,
+    "side_gate": 60,
+    "vivian": 61,
+    "welcome_bunting": 62,
+    "pa_kit": 63,
+    "input_selector": 64,
+    "microphone": 65,
+    "mic_socket": 66,
+    "loudspeaker": 67,
+    "speaker_swivel_handle": 68,
+    "marked_listening_position": 69,
+    "slogan_tape": 70,
+    "equipment_credit_slate": 71,
+    "handcart": 72,
+    "gate_lane": 116,
+    "buffet_position": 117,
+    "speaker_position": 118,
+    "display_alcove": 119,
+    "serving_table": 120,
+    "kitchen_hatch": 121,
+    "plan_overlay": 122,
+    "placement_symbols": 123,
+    "tagged_chairs": 395,
+    "chair_tag": 396,
+    "conservatory_front": 397,
+    "conservatory_side": 398,
+    "renewal_repair_card": 399,
+    "screen_frame": 73,
+    "upper_rail": 74,
+    "clean_sheet": 75,
+    "laundry_clips": 76,
+    "sample_layout": 77,
+    "visitor_figure": 78,
+    "display_figure": 79,
+    "screen_token": 80,
+    "completed_screen": 81,
+    "assembly_drawing": 82,
+    "courtyard_plan": 83,
+    "clip_marks": 84,
+    "hotpot_recipe": 86,
+    "bean_tomato_base": 87,
+    "vegetable_bowl": 88,
+    "stock_bottle": 89,
+    "measuring_jug": 90,
+    "herb_sachet": 91,
+    "hotpot_pot": 92,
+    "pot_lid": 93,
+    "stove": 94
+  },
+  "own_objects": {
+    "tagged_chairs": 395,
+    "chair_tag": 396,
+    "conservatory_front": 397,
+    "conservatory_side": 398,
+    "renewal_repair_card": 399
+  },
+  "rooms": {
+    "L03_PORCH": 0,
+    "L01_LIVING_ROOM": 1,
+    "L02_KITCHEN": 2,
+    "L04_SIDE_PASSAGE": 3,
+    "L05_COURTYARD": 4,
+    "L06_GARAGE": 5,
+    "L07_CONSERVATORY": 6
+  },
+  "sources": {
+    "intro": 1,
+    "chair_tag": 2,
+    "chairs": 3,
+    "direct_question": 4,
+    "front_context": 5,
+    "accusation": 6,
+    "terms": 7,
+    "shared_wish": 8,
+    "terms_card": 9
+  },
+  "codes": {
+    "evening_required": 1,
+    "offscreen": 2,
+    "contest_active": 3,
+    "card_unavailable": 4,
+    "side_view_required": 5,
+    "front_view_required": 6,
+    "speaker_absent": 7,
+    "plan_required": 8,
+    "audience_has_no_p09_information": 9,
+    "observed": 10,
+    "topics": 11,
+    "rumor_already_cleared": 12,
+    "rumor_context_required": 13,
+    "class_context_required": 14,
+    "presentation_not_queued": 15,
+    "presentation_complete": 16,
+    "presentation_pending": 17,
+    "presentation_already_acknowledged": 18,
+    "presentation_acknowledged": 19,
+    "rumor_recap": 20,
+    "tag_preserved": 21,
+    "terms_card_available": 22,
+    "hint": 23,
+    "unsigned_card_reserved_for_p14": 24,
+    "no_change": 25,
+    "invalid_argument": 26,
+    "invalid_context": 27,
+    "invalid_state": 28,
+    "serial_exhausted": 29,
+    "stale_callback": 30
+  },
+  "events": {
+    "P09_PRESENTATION_QUEUED": 1,
+    "P09_PRESENTED": 2,
+    "P09_RUMOR": 3,
+    "P09_TERMS": 4,
+    "P09_SHARED_WISH": 5,
+    "P09_HINT": 6
+  },
+  "line_ids": {
+    "P09.OPEN.001": 1,
+    "P09.LABEL.001": 2,
+    "P09.READ.001": 3,
+    "P09.LOOK.001": 4,
+    "P09.CHOICE.001": 5,
+    "P09.DIALOGUE.001": 6,
+    "P09.CHOICE.002": 7,
+    "P09.FAILURE.001": 8,
+    "P09.CHOICE.003": 9,
+    "P09.DIALOGUE.002": 10,
+    "P09.INVENTORY.001": 11,
+    "P09.READ.002": 12,
+    "P09.LOOK.002": 13,
+    "P09.CHOICE.004": 14,
+    "P09.DIALOGUE.003": 15,
+    "P09.FAILURE.002": 16,
+    "P09.SUCCESS.001": 17,
+    "P09.HINT.1": 18,
+    "P09.HINT.2": 19,
+    "P09.HINT.3": 20
+  },
+  "speech_unit_ids": {
+    "P09.OPEN.001.01": 1,
+    "P09.OPEN.001.02": 2,
+    "P09.LOOK.001.01": 3,
+    "P09.DIALOGUE.001.01": 4,
+    "P09.DIALOGUE.001.02": 5,
+    "P09.DIALOGUE.001.03": 6,
+    "P09.FAILURE.001.01": 7,
+    "P09.FAILURE.001.02": 8,
+    "P09.DIALOGUE.002.01": 9,
+    "P09.DIALOGUE.002.02": 10,
+    "P09.DIALOGUE.002.03": 11,
+    "P09.DIALOGUE.002.04": 12,
+    "P09.DIALOGUE.002.05": 13,
+    "P09.LOOK.002.01": 14,
+    "P09.DIALOGUE.003.01": 15,
+    "P09.DIALOGUE.003.02": 16,
+    "P09.DIALOGUE.003.03": 17,
+    "P09.DIALOGUE.003.04": 18,
+    "P09.FAILURE.002.01": 19,
+    "P09.SUCCESS.001.01": 20
+  },
+  "tokens": {
+    "P09.OPEN.001.01": 1,
+    "P09.OPEN.001.02": 2,
+    "P09.READ.001": 3,
+    "P09.LOOK.001.01": 4,
+    "P09.DIALOGUE.001.01": 5,
+    "P09.DIALOGUE.001.02": 6,
+    "P09.DIALOGUE.001.03": 7,
+    "P09.FAILURE.001.01": 8,
+    "P09.FAILURE.001.02": 9,
+    "P09.DIALOGUE.002.01": 10,
+    "P09.DIALOGUE.002.02": 11,
+    "P09.DIALOGUE.002.03": 12,
+    "P09.DIALOGUE.002.04": 13,
+    "P09.DIALOGUE.002.05": 14,
+    "P09.SUCCESS.001.01": 15,
+    "P09.DIALOGUE.003.01": 16,
+    "P09.DIALOGUE.003.02": 17,
+    "P09.DIALOGUE.003.03": 18,
+    "P09.DIALOGUE.003.04": 19,
+    "P09.READ.002": 20
+  },
+  "serials": [
+    "Revision",
+    "Rumor",
+    "Terms",
+    "Shared",
+    "IntroStart",
+    "ChairTagStart",
+    "ChairsStart",
+    "DirectQuestionStart",
+    "FrontContextStart",
+    "AccusationStart",
+    "TermsStart",
+    "SharedWishStart",
+    "TermsCardStart",
+    "IntroReceipt1",
+    "IntroReceipt2",
+    "ChairTagReceipt1",
+    "ChairsReceipt1",
+    "DirectQuestionReceipt1",
+    "DirectQuestionReceipt2",
+    "DirectQuestionReceipt3",
+    "FrontContextReceipt1",
+    "FrontContextReceipt2",
+    "FrontContextReceipt3",
+    "AccusationReceipt1",
+    "AccusationReceipt2",
+    "TermsReceipt1",
+    "TermsReceipt2",
+    "TermsReceipt3",
+    "TermsReceipt4",
+    "TermsReceipt5",
+    "TermsReceipt6",
+    "SharedWishReceipt1",
+    "SharedWishReceipt2",
+    "SharedWishReceipt3",
+    "SharedWishReceipt4",
+    "TermsCardReceipt1"
+  ],
+  "receipts": {
+    "intro": [
+      {
+        "slot": 13,
+        "token": "P09.OPEN.001.01"
+      },
+      {
+        "slot": 14,
+        "token": "P09.OPEN.001.02"
+      }
+    ],
+    "chair_tag": [
+      {
+        "slot": 15,
+        "token": "P09.READ.001"
+      }
+    ],
+    "chairs": [
+      {
+        "slot": 16,
+        "token": "P09.LOOK.001.01"
+      }
+    ],
+    "direct_question": [
+      {
+        "slot": 17,
+        "token": "P09.DIALOGUE.001.01"
+      },
+      {
+        "slot": 18,
+        "token": "P09.DIALOGUE.001.02"
+      },
+      {
+        "slot": 19,
+        "token": "P09.DIALOGUE.001.03"
+      }
+    ],
+    "front_context": [
+      {
+        "slot": 20,
+        "token": "P09.DIALOGUE.001.01"
+      },
+      {
+        "slot": 21,
+        "token": "P09.DIALOGUE.001.02"
+      },
+      {
+        "slot": 22,
+        "token": "P09.DIALOGUE.001.03"
+      }
+    ],
+    "accusation": [
+      {
+        "slot": 23,
+        "token": "P09.FAILURE.001.01"
+      },
+      {
+        "slot": 24,
+        "token": "P09.FAILURE.001.02"
+      }
+    ],
+    "terms": [
+      {
+        "slot": 25,
+        "token": "P09.DIALOGUE.002.01"
+      },
+      {
+        "slot": 26,
+        "token": "P09.DIALOGUE.002.02"
+      },
+      {
+        "slot": 27,
+        "token": "P09.DIALOGUE.002.03"
+      },
+      {
+        "slot": 28,
+        "token": "P09.DIALOGUE.002.04"
+      },
+      {
+        "slot": 29,
+        "token": "P09.DIALOGUE.002.05"
+      },
+      {
+        "slot": 30,
+        "token": "P09.SUCCESS.001.01"
+      }
+    ],
+    "shared_wish": [
+      {
+        "slot": 31,
+        "token": "P09.DIALOGUE.003.01"
+      },
+      {
+        "slot": 32,
+        "token": "P09.DIALOGUE.003.02"
+      },
+      {
+        "slot": 33,
+        "token": "P09.DIALOGUE.003.03"
+      },
+      {
+        "slot": 34,
+        "token": "P09.DIALOGUE.003.04"
+      }
+    ],
+    "terms_card": [
+      {
+        "slot": 35,
+        "token": "P09.READ.002"
+      }
+    ]
+  },
+  "source_bindings": {
+    "intro": [
+      "P09.OPEN.001"
+    ],
+    "chair_tag": [
+      "P09.READ.001"
+    ],
+    "chairs": [
+      "P09.LOOK.001"
+    ],
+    "direct_question": [
+      "P09.DIALOGUE.001"
+    ],
+    "front_context": [
+      "P09.DIALOGUE.001"
+    ],
+    "accusation": [
+      "P09.FAILURE.001"
+    ],
+    "terms": [
+      "P09.DIALOGUE.002",
+      "P09.SUCCESS.001"
+    ],
+    "shared_wish": [
+      "P09.DIALOGUE.003"
+    ],
+    "terms_card": [
+      "P09.READ.002"
+    ]
+  },
+  "bindings": {
+    "intro": {
+      "id": 1,
+      "records": [
+        "P09.OPEN.001"
+      ]
+    },
+    "chair_tag": {
+      "id": 2,
+      "records": [
+        "P09.READ.001"
+      ]
+    },
+    "chairs": {
+      "id": 3,
+      "records": [
+        "P09.LOOK.001"
+      ]
+    },
+    "direct_question": {
+      "id": 4,
+      "records": [
+        "P09.DIALOGUE.001"
+      ]
+    },
+    "front_context": {
+      "id": 5,
+      "records": [
+        "P09.DIALOGUE.001"
+      ]
+    },
+    "accusation": {
+      "id": 6,
+      "records": [
+        "P09.FAILURE.001"
+      ]
+    },
+    "terms": {
+      "id": 7,
+      "records": [
+        "P09.DIALOGUE.002",
+        "P09.SUCCESS.001"
+      ]
+    },
+    "shared_wish": {
+      "id": 8,
+      "records": [
+        "P09.DIALOGUE.003"
+      ]
+    },
+    "terms_card": {
+      "id": 9,
+      "records": [
+        "P09.READ.002"
+      ]
+    },
+    "card_look": {
+      "id": 10,
+      "records": [
+        "P09.LOOK.002",
+        "P09.READ.002"
+      ]
+    },
+    "direct_choice": {
+      "id": 11,
+      "records": [
+        "P09.CHOICE.001"
+      ]
+    },
+    "accusation_choice": {
+      "id": 12,
+      "records": [
+        "P09.CHOICE.002"
+      ]
+    },
+    "terms_choice": {
+      "id": 13,
+      "records": [
+        "P09.CHOICE.003"
+      ]
+    },
+    "shared_wish_choice": {
+      "id": 14,
+      "records": [
+        "P09.CHOICE.004"
+      ]
+    },
+    "tag_refusal": {
+      "id": 15,
+      "records": [
+        "P09.FAILURE.002"
+      ]
+    },
+    "hint_1": {
+      "id": 16,
+      "records": [
+        "P09.HINT.1"
+      ]
+    },
+    "hint_2": {
+      "id": 17,
+      "records": [
+        "P09.HINT.2"
+      ]
+    },
+    "hint_3": {
+      "id": 18,
+      "records": [
+        "P09.HINT.3"
+      ]
+    }
+  },
+  "persisted_properties": [
+    "p09Initialized",
+    "p09RumorCleared",
+    "p09Ready",
+    "p09Restricted",
+    "p09HintLevel",
+    "p09RevisionHi",
+    "p09RevisionLo",
+    "p09RumorHi",
+    "p09RumorLo",
+    "p09TermsHi",
+    "p09TermsLo",
+    "p09SharedHi",
+    "p09SharedLo",
+    "p09IntroStartHi",
+    "p09IntroStartLo",
+    "p09ChairTagStartHi",
+    "p09ChairTagStartLo",
+    "p09ChairsStartHi",
+    "p09ChairsStartLo",
+    "p09DirectQuestionStartHi",
+    "p09DirectQuestionStartLo",
+    "p09FrontContextStartHi",
+    "p09FrontContextStartLo",
+    "p09AccusationStartHi",
+    "p09AccusationStartLo",
+    "p09TermsStartHi",
+    "p09TermsStartLo",
+    "p09SharedWishStartHi",
+    "p09SharedWishStartLo",
+    "p09TermsCardStartHi",
+    "p09TermsCardStartLo",
+    "p09IntroReceipt1Hi",
+    "p09IntroReceipt1Lo",
+    "p09IntroReceipt2Hi",
+    "p09IntroReceipt2Lo",
+    "p09ChairTagReceipt1Hi",
+    "p09ChairTagReceipt1Lo",
+    "p09ChairsReceipt1Hi",
+    "p09ChairsReceipt1Lo",
+    "p09DirectQuestionReceipt1Hi",
+    "p09DirectQuestionReceipt1Lo",
+    "p09DirectQuestionReceipt2Hi",
+    "p09DirectQuestionReceipt2Lo",
+    "p09DirectQuestionReceipt3Hi",
+    "p09DirectQuestionReceipt3Lo",
+    "p09FrontContextReceipt1Hi",
+    "p09FrontContextReceipt1Lo",
+    "p09FrontContextReceipt2Hi",
+    "p09FrontContextReceipt2Lo",
+    "p09FrontContextReceipt3Hi",
+    "p09FrontContextReceipt3Lo",
+    "p09AccusationReceipt1Hi",
+    "p09AccusationReceipt1Lo",
+    "p09AccusationReceipt2Hi",
+    "p09AccusationReceipt2Lo",
+    "p09TermsReceipt1Hi",
+    "p09TermsReceipt1Lo",
+    "p09TermsReceipt2Hi",
+    "p09TermsReceipt2Lo",
+    "p09TermsReceipt3Hi",
+    "p09TermsReceipt3Lo",
+    "p09TermsReceipt4Hi",
+    "p09TermsReceipt4Lo",
+    "p09TermsReceipt5Hi",
+    "p09TermsReceipt5Lo",
+    "p09TermsReceipt6Hi",
+    "p09TermsReceipt6Lo",
+    "p09SharedWishReceipt1Hi",
+    "p09SharedWishReceipt1Lo",
+    "p09SharedWishReceipt2Hi",
+    "p09SharedWishReceipt2Lo",
+    "p09SharedWishReceipt3Hi",
+    "p09SharedWishReceipt3Lo",
+    "p09SharedWishReceipt4Hi",
+    "p09SharedWishReceipt4Lo",
+    "p09TermsCardReceipt1Hi",
+    "p09TermsCardReceipt1Lo"
+  ],
+  "all_properties": {
+    "p09Initialized": 0,
+    "p09RumorCleared": 0,
+    "p09Ready": 0,
+    "p09Restricted": 0,
+    "p09HintLevel": 0,
+    "p09RevisionHi": 0,
+    "p09RevisionLo": 0,
+    "p09RumorHi": 0,
+    "p09RumorLo": 0,
+    "p09TermsHi": 0,
+    "p09TermsLo": 0,
+    "p09SharedHi": 0,
+    "p09SharedLo": 0,
+    "p09IntroStartHi": 0,
+    "p09IntroStartLo": 0,
+    "p09ChairTagStartHi": 0,
+    "p09ChairTagStartLo": 0,
+    "p09ChairsStartHi": 0,
+    "p09ChairsStartLo": 0,
+    "p09DirectQuestionStartHi": 0,
+    "p09DirectQuestionStartLo": 0,
+    "p09FrontContextStartHi": 0,
+    "p09FrontContextStartLo": 0,
+    "p09AccusationStartHi": 0,
+    "p09AccusationStartLo": 0,
+    "p09TermsStartHi": 0,
+    "p09TermsStartLo": 0,
+    "p09SharedWishStartHi": 0,
+    "p09SharedWishStartLo": 0,
+    "p09TermsCardStartHi": 0,
+    "p09TermsCardStartLo": 0,
+    "p09IntroReceipt1Hi": 0,
+    "p09IntroReceipt1Lo": 0,
+    "p09IntroReceipt2Hi": 0,
+    "p09IntroReceipt2Lo": 0,
+    "p09ChairTagReceipt1Hi": 0,
+    "p09ChairTagReceipt1Lo": 0,
+    "p09ChairsReceipt1Hi": 0,
+    "p09ChairsReceipt1Lo": 0,
+    "p09DirectQuestionReceipt1Hi": 0,
+    "p09DirectQuestionReceipt1Lo": 0,
+    "p09DirectQuestionReceipt2Hi": 0,
+    "p09DirectQuestionReceipt2Lo": 0,
+    "p09DirectQuestionReceipt3Hi": 0,
+    "p09DirectQuestionReceipt3Lo": 0,
+    "p09FrontContextReceipt1Hi": 0,
+    "p09FrontContextReceipt1Lo": 0,
+    "p09FrontContextReceipt2Hi": 0,
+    "p09FrontContextReceipt2Lo": 0,
+    "p09FrontContextReceipt3Hi": 0,
+    "p09FrontContextReceipt3Lo": 0,
+    "p09AccusationReceipt1Hi": 0,
+    "p09AccusationReceipt1Lo": 0,
+    "p09AccusationReceipt2Hi": 0,
+    "p09AccusationReceipt2Lo": 0,
+    "p09TermsReceipt1Hi": 0,
+    "p09TermsReceipt1Lo": 0,
+    "p09TermsReceipt2Hi": 0,
+    "p09TermsReceipt2Lo": 0,
+    "p09TermsReceipt3Hi": 0,
+    "p09TermsReceipt3Lo": 0,
+    "p09TermsReceipt4Hi": 0,
+    "p09TermsReceipt4Lo": 0,
+    "p09TermsReceipt5Hi": 0,
+    "p09TermsReceipt5Lo": 0,
+    "p09TermsReceipt6Hi": 0,
+    "p09TermsReceipt6Lo": 0,
+    "p09SharedWishReceipt1Hi": 0,
+    "p09SharedWishReceipt1Lo": 0,
+    "p09SharedWishReceipt2Hi": 0,
+    "p09SharedWishReceipt2Lo": 0,
+    "p09SharedWishReceipt3Hi": 0,
+    "p09SharedWishReceipt3Lo": 0,
+    "p09SharedWishReceipt4Hi": 0,
+    "p09SharedWishReceipt4Lo": 0,
+    "p09TermsCardReceipt1Hi": 0,
+    "p09TermsCardReceipt1Lo": 0,
+    "p09ContextValid": 0,
+    "p09Room": 0,
+    "p09Apron": 0,
+    "p09Evening": 0,
+    "p09Plan": 0,
+    "p09StringerRoom": 0,
+    "p09RitaRoom": 0,
+    "p09View": 0,
+    "p09ContestActive": 0,
+    "p09ClaimRumor": 0,
+    "p09ClaimReady": 0,
+    "p09Epoch": 0,
+    "p09Code": 0,
+    "p09LineCount": 0,
+    "p09UnitCount": 0,
+    "p09EventCount": 0,
+    "p09ResultHi": 0,
+    "p09ResultLo": 0,
+    "p09PresentationSource": 0,
+    "p09PresentationHi": 0,
+    "p09PresentationLo": 0
+  },
+  "max_serial": 1073741823,
+  "serial_limb_base": 32768,
+  "line_capacity": 8,
+  "speech_unit_capacity": 6,
+  "event_capacity": 3,
+  "event_arg_capacity": 3,
+  "external_inventory_capacity": 400,
+  "model_sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061",
+  "speech_metadata": [
+    {
+      "line_id": "P09.OPEN.001.01",
+      "record_id": "P09.OPEN.001",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.OPEN.001.02",
+      "record_id": "P09.OPEN.001",
+      "speaker_id": "jack",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P09.LOOK.001.01",
+      "record_id": "P09.LOOK.001",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.001.01",
+      "record_id": "P09.DIALOGUE.001",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.001.02",
+      "record_id": "P09.DIALOGUE.001",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.001.03",
+      "record_id": "P09.DIALOGUE.001",
+      "speaker_id": "stringer",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P09.FAILURE.001.01",
+      "record_id": "P09.FAILURE.001",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.FAILURE.001.02",
+      "record_id": "P09.FAILURE.001",
+      "speaker_id": "rita",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P09.DIALOGUE.002.01",
+      "record_id": "P09.DIALOGUE.002",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.002.02",
+      "record_id": "P09.DIALOGUE.002",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.002.03",
+      "record_id": "P09.DIALOGUE.002",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.002.04",
+      "record_id": "P09.DIALOGUE.002",
+      "speaker_id": "jack",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P09.DIALOGUE.002.05",
+      "record_id": "P09.DIALOGUE.002",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.LOOK.002.01",
+      "record_id": "P09.LOOK.002",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.003.01",
+      "record_id": "P09.DIALOGUE.003",
+      "speaker_id": "rita",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.003.02",
+      "record_id": "P09.DIALOGUE.003",
+      "speaker_id": "stringer",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.003.03",
+      "record_id": "P09.DIALOGUE.003",
+      "speaker_id": "rita",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.DIALOGUE.003.04",
+      "record_id": "P09.DIALOGUE.003",
+      "speaker_id": "stringer",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P09.FAILURE.002.01",
+      "record_id": "P09.FAILURE.002",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P09.SUCCESS.001.01",
+      "record_id": "P09.SUCCESS.001",
+      "speaker_id": "jack",
+      "laugh_opportunity": null
+    }
+  ],
+  "card_handoff": {
+    "object_id": "renewal_repair_card",
+    "location": "inventory",
+    "signed": false,
+    "repair_date": null,
+    "signature_owner": "P14",
+    "terms_record_id": "P09.READ.002"
+  },
+  "external_mapping_sources": [
+    {
+      "path": "../p08-host-reconstruction/src/module985.sc",
+      "sha256": "1a476b0e2f2634e97e040c8533a570eec55cb918589b8d06b88889bc0be7bafa",
+      "objects": {
+        "pa_kit": 63,
+        "input_selector": 64,
+        "microphone": 65,
+        "mic_socket": 66,
+        "loudspeaker": 67,
+        "speaker_swivel_handle": 68,
+        "marked_listening_position": 69,
+        "slogan_tape": 70,
+        "equipment_credit_slate": 71,
+        "handcart": 72,
+        "bunny": 2,
+        "milo": 28,
+        "audience": 10,
+        "audience_edge": 9,
+        "return": 11,
+        "wedge": 4,
+        "master_invitation": 24,
+        "grease_pencil": 25
+      }
+    },
+    {
+      "path": "../p08-host-reconstruction/src/module987.sc",
+      "sha256": "7ee44e56cab6cbae686b7f95df49aca9e991f94f54ad62b5dae494c45a560924",
+      "objects": {}
+    },
+    {
+      "path": "../p08-host-reconstruction/src/module988.sc",
+      "sha256": "04fd9fb1ca30736fa0fda70f59dc02633f3b814b4e6cdb725d113114ad5eff76",
+      "objects": {}
+    }
+  ],
+  "external_mapping_limits": "Current P05 63..72, P06 73..84, P07 86..94 from accepted predecessor source; P09 actor identity vivian61 remains distinct from P06 local UI alias85. P08 reservation116..123 explicitly proposed, not activated. No old historical external range used implicitly.",
+  "historical_unverified_build_pins": {
+    "source_sha256": "29890b2a47060b3c43a2af60b81886aa15e77149d24b4ffd76931fa73d8959a6",
+    "fixture_sha256": "acd1d508fde9dc485a1fcd6d68ebd78d0f18c014d2a0e91b0a8f1e8c94f6c2f7",
+    "registry_sha256": "8edd498090c4d14ea4f5e8c547d3cb18cd1070148c06b6f7f88ac985653f2d71"
+  },
+  "current_fixture_sha256": "77d5a1bdd371f1209b226a4e68d339b94322152526c5a4f74d175234fdca5deb",
+  "current_retained_registry_sha256": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136"
+}

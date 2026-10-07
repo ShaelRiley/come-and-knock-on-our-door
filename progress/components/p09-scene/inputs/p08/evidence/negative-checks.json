@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "changed_generator",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Source inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_catalog",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Source inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_pcm",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_sync",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_emitted982",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_packed_fixture",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "changed_static244",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "missing_helper",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Source inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "missing_text",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "extra_output",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output inventory/hash mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "mismatched_output_seal",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Output belongs to another source seal",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "optimized-O",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Optimized Python forbidden",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "optimized-OO",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Optimized Python forbidden",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "suite_empty",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Exact test inventory mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "suite_extra",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Exact test inventory mismatch",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "suite_all_skipped",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Non-exact clean test result",
+      "stale_pass_cleared": true
+    },
+    {
+      "name": "suite_all_expected_failure",
+      "returncode": 1,
+      "clean_baseline_verified": true,
+      "rejection": "Non-exact clean test result",
+      "stale_pass_cleared": true
+    }
+  ],
+  "tests": 17,
+  "source_seal_sha256": "178ac164365cf4f809029e6b945f2991cfb695121286c4eb797e2d770827a7b2",
+  "output_seal_sha256": "7daeb982aabedc51cf96db005edbc62d7a8b65fe75c4d6019f5b229e193d8551",
+  "native_acceptance": false
+}

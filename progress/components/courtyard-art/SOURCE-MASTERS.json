@@ -1,0 +1,20 @@
+{
+  "masters": {
+    "courtyard-clean-v1.png": {
+      "sha256": "e77f3b8c1d11623236071a760ff85e4bee8c557b0995707f653fecdd961db268",
+      "size": [
+        1870,
+        841
+      ]
+    },
+    "screen-table-v1.png": {
+      "sha256": "e5447dd6e62c8df30dc3d669df08ccb8cae4ce8943f70d522251ae5bbc2e8189",
+      "size": [
+        1696,
+        927
+      ]
+    }
+  },
+  "prompts": "GENERATION-PROMPTS.json",
+  "tool": "built-in image_gen.imagegen"
+}

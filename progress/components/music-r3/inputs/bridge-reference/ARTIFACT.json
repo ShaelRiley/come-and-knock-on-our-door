@@ -1,0 +1,33 @@
+{
+  "status": "PACKAGED_OFFLINE_CANDIDATES_R2",
+  "source": {
+    "path": "delivery/CaKoOD-Responsive-Bridges-Editable-Candidate-R2-20261006.zip",
+    "bytes": 15606931,
+    "sha256": "1a9d99a2f66bf22cd9d4ea133aabd93801c2e91418f942fe66feb46a8e1d0b34",
+    "member_count": 421
+  },
+  "new_sound_ids": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "new_script_ids": [],
+  "new_text_ids": [],
+  "actual_tests_passed": 18,
+  "guard_probes_passed": 24,
+  "native_acceptance": false,
+  "listening_accepted": false,
+  "live_activated": false,
+  "original_pairs_unchanged": 38,
+  "audio": {
+    "path": "delivery/CaKoOD-Responsive-Bridges-Offline-Auditions-R2-20261006.zip",
+    "bytes": 40862328,
+    "sha256": "abbb0169dcbe98f1d520c432b07d7d864335e83bb7ad654be00c91d2ba653b5f",
+    "wav_count": 13,
+    "member_count": 18
+  }
+}

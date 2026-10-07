@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS10_FULL_END_CREDITS",
+  "resource_id": 121,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS10_FULL_END_CREDITS.mid",
+  "native_payload_path": "native/reduced/121.sound.bin",
+  "sha256": {
+    "midi": "4d2d3f8ca589c2ed81768cf1cc8878bd64a2fde0e2f6f29454d05c1d96e31673",
+    "native": "5440682de4a3379527652a975f782b09fc40cac045f6ffa1b0c5c7c623862171"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

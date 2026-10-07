@@ -1,0 +1,793 @@
+{
+  "script": 984,
+  "class": "P04State",
+  "instance": "p04State",
+  "public_export": 0,
+  "species": 6,
+  "properties": [
+    {
+      "name": "p04Initialized",
+      "default": 0,
+      "offset": 18,
+      "selector": 770,
+      "persisted": true
+    },
+    {
+      "name": "p04Gate",
+      "default": 0,
+      "offset": 20,
+      "selector": 764,
+      "persisted": true
+    },
+    {
+      "name": "p04Bunting",
+      "default": 0,
+      "offset": 22,
+      "selector": 748,
+      "persisted": true
+    },
+    {
+      "name": "p04Wedge",
+      "default": 0,
+      "offset": 24,
+      "selector": 806,
+      "persisted": true
+    },
+    {
+      "name": "p04Peg",
+      "default": 0,
+      "offset": 26,
+      "selector": 784,
+      "persisted": true
+    },
+    {
+      "name": "p04LatchSource",
+      "default": 0,
+      "offset": 28,
+      "selector": 776,
+      "persisted": true
+    },
+    {
+      "name": "p04HookSource",
+      "default": 0,
+      "offset": 30,
+      "selector": 768,
+      "persisted": true
+    },
+    {
+      "name": "p04HintLevel",
+      "default": 0,
+      "offset": 32,
+      "selector": 767,
+      "persisted": true
+    },
+    {
+      "name": "p04RevisionHi",
+      "default": 0,
+      "offset": 34,
+      "selector": 794,
+      "persisted": true
+    },
+    {
+      "name": "p04RevisionLo",
+      "default": 0,
+      "offset": 36,
+      "selector": 795,
+      "persisted": true
+    },
+    {
+      "name": "p04IntroHi",
+      "default": 0,
+      "offset": 38,
+      "selector": 771,
+      "persisted": true
+    },
+    {
+      "name": "p04IntroLo",
+      "default": 0,
+      "offset": 40,
+      "selector": 772,
+      "persisted": true
+    },
+    {
+      "name": "p04CompleteHi",
+      "default": 0,
+      "offset": 42,
+      "selector": 755,
+      "persisted": true
+    },
+    {
+      "name": "p04CompleteLo",
+      "default": 0,
+      "offset": 44,
+      "selector": 756,
+      "persisted": true
+    },
+    {
+      "name": "p04ContextValid",
+      "default": 0,
+      "offset": 46,
+      "selector": 759,
+      "persisted": false
+    },
+    {
+      "name": "p04Room",
+      "default": 0,
+      "offset": 48,
+      "selector": 796,
+      "persisted": false
+    },
+    {
+      "name": "p04Apron",
+      "default": 0,
+      "offset": 50,
+      "selector": 746,
+      "persisted": false
+    },
+    {
+      "name": "p04Plan",
+      "default": 0,
+      "offset": 52,
+      "selector": 786,
+      "persisted": false
+    },
+    {
+      "name": "p04Code",
+      "default": 0,
+      "offset": 54,
+      "selector": 753,
+      "persisted": false
+    },
+    {
+      "name": "p04LineCount",
+      "default": 0,
+      "offset": 56,
+      "selector": 778,
+      "persisted": false
+    },
+    {
+      "name": "p04EventCount",
+      "default": 0,
+      "offset": 58,
+      "selector": 763,
+      "persisted": false
+    },
+    {
+      "name": "p04ResultHi",
+      "default": 0,
+      "offset": 60,
+      "selector": 792,
+      "persisted": false
+    },
+    {
+      "name": "p04ResultLo",
+      "default": 0,
+      "offset": 62,
+      "selector": 793,
+      "persisted": false
+    }
+  ],
+  "locals": {
+    "p04Lines": {
+      "base": 0,
+      "size": 8
+    },
+    "p04Events": {
+      "base": 8,
+      "size": 1
+    },
+    "p04EventArgs": {
+      "base": 9,
+      "size": 1
+    },
+    "p04EventArgs2": {
+      "base": 10,
+      "size": 1
+    },
+    "p04Held": {
+      "base": 11,
+      "size": 63
+    }
+  },
+  "methods": {
+    "p04Bind": {
+      "arguments": [
+        "binding"
+      ],
+      "selector": 747,
+      "bytecode_offset": 246
+    },
+    "p04ContextItem": {
+      "arguments": [
+        "obj"
+      ],
+      "selector": 758,
+      "bytecode_offset": 682
+    },
+    "p04ValidLatch": {
+      "arguments": [
+        "source"
+      ],
+      "selector": 803,
+      "bytecode_offset": 1168
+    },
+    "p04ValidHook": {
+      "arguments": [
+        "source"
+      ],
+      "selector": 802,
+      "bytecode_offset": 1259
+    },
+    "p04Clear": {
+      "arguments": [],
+      "selector": 751,
+      "bytecode_offset": 1306
+    },
+    "p04Init": {
+      "arguments": [],
+      "selector": 769,
+      "bytecode_offset": 1363
+    },
+    "p04Context": {
+      "arguments": [
+        "room",
+        "apron",
+        "plan",
+        "wedgeHeld"
+      ],
+      "selector": 757,
+      "bytecode_offset": 1383
+    },
+    "p04AppendLine": {
+      "arguments": [
+        "line"
+      ],
+      "selector": 745,
+      "bytecode_offset": 1509
+    },
+    "p04Line": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 777,
+      "bytecode_offset": 1544
+    },
+    "p04Event": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 760,
+      "bytecode_offset": 1566
+    },
+    "p04EventArg": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 761,
+      "bytecode_offset": 1588
+    },
+    "p04EventArg2": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 762,
+      "bytecode_offset": 1610
+    },
+    "p04Status": {
+      "arguments": [
+        "code",
+        "binding"
+      ],
+      "selector": 800,
+      "bytecode_offset": 1632
+    },
+    "p04Ready": {
+      "arguments": [],
+      "selector": 788,
+      "bytecode_offset": 1651
+    },
+    "p04Know": {
+      "arguments": [],
+      "selector": 775,
+      "bytecode_offset": 1660
+    },
+    "p04Start": {
+      "arguments": [
+        "needsContext"
+      ],
+      "selector": 799,
+      "bytecode_offset": 1669
+    },
+    "p04CanCommit": {
+      "arguments": [],
+      "selector": 749,
+      "bytecode_offset": 1718
+    },
+    "p04Commit": {
+      "arguments": [
+        "code",
+        "binding",
+        "event",
+        "arg",
+        "arg2"
+      ],
+      "selector": 754,
+      "bytecode_offset": 1744
+    },
+    "p04Location": {
+      "arguments": [
+        "obj"
+      ],
+      "selector": 779,
+      "bytecode_offset": 1835
+    },
+    "p04Reachable": {
+      "arguments": [
+        "obj"
+      ],
+      "selector": 787,
+      "bytecode_offset": 2004
+    },
+    "p04Guard": {
+      "arguments": [
+        "obj",
+        "target",
+        "preparation"
+      ],
+      "selector": 765,
+      "bytecode_offset": 2105
+    },
+    "p04Observe": {
+      "arguments": [
+        "latch",
+        "hook"
+      ],
+      "selector": 782,
+      "bytecode_offset": 2168
+    },
+    "p04Look": {
+      "arguments": [
+        "obj"
+      ],
+      "selector": 780,
+      "bytecode_offset": 2231
+    },
+    "p04Topic": {
+      "arguments": [
+        "actor",
+        "topic"
+      ],
+      "selector": 801,
+      "bytecode_offset": 2509
+    },
+    "p04OpenGate": {
+      "arguments": [],
+      "selector": 783,
+      "bytecode_offset": 2751
+    },
+    "p04PlaceWedge": {
+      "arguments": [],
+      "selector": 785,
+      "bytecode_offset": 2842
+    },
+    "p04RecoverWedge": {
+      "arguments": [],
+      "selector": 789,
+      "bytecode_offset": 2965
+    },
+    "p04MoveBunting": {
+      "arguments": [
+        "destination"
+      ],
+      "selector": 781,
+      "bytecode_offset": 3052
+    },
+    "p04CloseGate": {
+      "arguments": [
+        "test"
+      ],
+      "selector": 752,
+      "bytecode_offset": 3326
+    },
+    "p04SetPeg": {
+      "arguments": [
+        "engaged"
+      ],
+      "selector": 798,
+      "bytecode_offset": 3581
+    },
+    "p04RefuseForce": {
+      "arguments": [
+        "obj"
+      ],
+      "selector": 790,
+      "bytecode_offset": 3752
+    },
+    "p04Hint": {
+      "arguments": [
+        "level"
+      ],
+      "selector": 766,
+      "bytecode_offset": 3906
+    },
+    "p04Cancel": {
+      "arguments": [],
+      "selector": 750,
+      "bytecode_offset": 4084
+    },
+    "p04Act": {
+      "arguments": [
+        "verb",
+        "obj",
+        "target"
+      ],
+      "selector": 742,
+      "bytecode_offset": 4107
+    },
+    "p04InventoryAt": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 773,
+      "bytecode_offset": 4522
+    },
+    "p04ReservedAt": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 791,
+      "bytecode_offset": 4542
+    },
+    "p04JournalAt": {
+      "arguments": [
+        "index"
+      ],
+      "selector": 774,
+      "bytecode_offset": 4559
+    },
+    "p04AfterRestore": {
+      "arguments": [],
+      "selector": 743,
+      "bytecode_offset": 4625
+    },
+    "p04SerialLE": {
+      "arguments": [
+        "hi",
+        "lo",
+        "otherHi",
+        "otherLo"
+      ],
+      "selector": 797,
+      "bytecode_offset": 4642
+    },
+    "p04AfterTestMinimum": {
+      "arguments": [
+        "minimum"
+      ],
+      "selector": 744,
+      "bytecode_offset": 4662
+    },
+    "p04Validate": {
+      "arguments": [],
+      "selector": 804,
+      "bytecode_offset": 4735
+    },
+    "p04ValidateContext": {
+      "arguments": [],
+      "selector": 805,
+      "bytecode_offset": 5379
+    }
+  },
+  "objects": {
+    "front_door": 1,
+    "bunny": 2,
+    "bench": 3,
+    "wedge": 4,
+    "tray": 5,
+    "print_packet": 6,
+    "board": 7,
+    "frankie": 8,
+    "audience_edge": 9,
+    "audience": 10,
+    "return_to_house": 11,
+    "exit_kitchen": 12,
+    "exit_courtyard": 13,
+    "exit_side": 14,
+    "exit_garage": 15,
+    "exit_conservatory": 16,
+    "exit_porch": 17,
+    "exit_living": 18,
+    "exit_gate": 19,
+    "copy_jack": 20,
+    "copy_bunny": 21,
+    "copy_stringer": 22,
+    "compared_copies": 23,
+    "master_invitation": 24,
+    "grease_pencil": 25,
+    "matched_border": 26,
+    "invitation_drawer": 27,
+    "milo": 28,
+    "stringer": 29,
+    "rita": 30,
+    "checklist": 31,
+    "journal": 32,
+    "carrier_drawing": 33,
+    "ceramic_carrier": 34,
+    "ceramic_sample_tiles": 35,
+    "ceramic_service": 36,
+    "class_card": 37,
+    "clean_napkin": 38,
+    "clean_towel": 39,
+    "credit_slate": 40,
+    "display_markings": 41,
+    "folded_display": 42,
+    "kitchen_pass": 43,
+    "linen_drawer": 44,
+    "linen_hook": 45,
+    "newspaper": 46,
+    "plate_signature": 47,
+    "rita_sample_tile_1": 48,
+    "rita_sample_tile_2": 49,
+    "rita_sample_tile_3": 50,
+    "aligned_hinges": 51,
+    "circulation_board": 52,
+    "circulation_plan": 53,
+    "felix": 54,
+    "fixed_hook": 55,
+    "hold_open_peg": 56,
+    "jack": 57,
+    "latch_arm": 58,
+    "screwdriver": 59,
+    "side_gate": 60,
+    "vivian": 61,
+    "welcome_bunting": 62
+  },
+  "events": {
+    "P04_OBSERVE": 1,
+    "P04_INTRO": 2,
+    "P04_GATE_OPEN": 3,
+    "P04_WEDGE_PLACED": 4,
+    "P04_WEDGE_RECOVERED": 5,
+    "P04_BUNTING_MOVED": 6,
+    "P04_COMPLETE": 7,
+    "P04_GATE_CLOSE": 8,
+    "P04_PEG_CHANGED": 9,
+    "P04_HINT": 10
+  },
+  "codes": {
+    "already_closed": 1,
+    "already_held": 2,
+    "already_held_by_peg": 3,
+    "already_open": 4,
+    "already_wedged": 5,
+    "bunting_caught": 6,
+    "bunting_moved": 7,
+    "bunting_unchanged": 8,
+    "cancelled": 9,
+    "force_refused": 10,
+    "free_bunting_required": 11,
+    "gate_checked": 12,
+    "gate_closed": 13,
+    "gate_open": 14,
+    "gate_wedged": 15,
+    "hint": 16,
+    "hold_gate_required": 17,
+    "hook_required": 18,
+    "inspect_state": 19,
+    "instructions": 20,
+    "introduced": 21,
+    "invalid_argument": 22,
+    "invalid_context": 23,
+    "invalid_state": 24,
+    "leave_repaired_parts": 25,
+    "observed": 26,
+    "offscreen": 27,
+    "open_required": 28,
+    "peg_blocks_close": 29,
+    "peg_engaged": 30,
+    "peg_released": 31,
+    "peg_unchanged": 32,
+    "plan_required": 33,
+    "recover_wedge_required": 34,
+    "serial_exhausted": 35,
+    "test_required": 36,
+    "unhelpful": 37,
+    "wedge": 38,
+    "wedge_blocks_close": 39,
+    "wedge_blocks_test": 40,
+    "wedge_elsewhere": 41,
+    "wedge_recovered": 42,
+    "wedge_required": 43
+  },
+  "line_ids": {
+    "P04.SCENE.001": 1,
+    "P04.LABEL.001": 2,
+    "P04.LOOK.001": 3,
+    "P04.LABEL.002": 4,
+    "P04.LOOK.002": 5,
+    "P04.LABEL.003": 6,
+    "P04.LOOK.003": 7,
+    "P04.LABEL.004": 8,
+    "P04.LOOK.004": 9,
+    "P04.LABEL.005": 10,
+    "P04.LOOK.005": 11,
+    "P04.READ.001": 12,
+    "P04.LABEL.006": 13,
+    "P04.LOOK.006": 14,
+    "P04.LABEL.007": 15,
+    "P04.INVENTORY.001": 16,
+    "P04.DIALOGUE.001": 17,
+    "P04.SUCCESS.001": 18,
+    "P04.SUCCESS.002": 19,
+    "P04.SUCCESS.003": 20,
+    "P04.SUCCESS.004": 21,
+    "P04.SUCCESS.005": 22,
+    "P04.FAILURE.001": 23,
+    "P04.FAILURE.002": 24,
+    "P04.FAILURE.003": 25,
+    "P04.SUCCESS.006": 26,
+    "P04.DIALOGUE.002": 27,
+    "P04.LABEL.008": 28,
+    "P04.INVENTORY.002": 29,
+    "P04.READ.002": 30,
+    "P04.LOOK.007": 31,
+    "P04.LOOK.008": 32,
+    "P04.SYSTEM.001": 33,
+    "P04.HINT.1": 34,
+    "P04.HINT.2": 35,
+    "P04.HINT.3": 36
+  },
+  "bindings": {
+    "intro": {
+      "id": 1,
+      "records": [
+        "P04.SCENE.001"
+      ]
+    },
+    "gate_original": {
+      "id": 2,
+      "records": [
+        "P04.LOOK.001"
+      ]
+    },
+    "hinges": {
+      "id": 3,
+      "records": [
+        "P04.LOOK.002"
+      ]
+    },
+    "latch_original": {
+      "id": 4,
+      "records": [
+        "P04.LOOK.003"
+      ]
+    },
+    "bunting_original": {
+      "id": 5,
+      "records": [
+        "P04.LOOK.004"
+      ]
+    },
+    "hook": {
+      "id": 6,
+      "records": [
+        "P04.LOOK.005",
+        "P04.READ.001"
+      ]
+    },
+    "peg_unavailable": {
+      "id": 7,
+      "records": [
+        "P04.LOOK.006"
+      ]
+    },
+    "wedge": {
+      "id": 8,
+      "records": [
+        "P04.INVENTORY.001"
+      ]
+    },
+    "instructions": {
+      "id": 9,
+      "records": [
+        "P04.DIALOGUE.001"
+      ]
+    },
+    "opened_original": {
+      "id": 10,
+      "records": [
+        "P04.SUCCESS.001"
+      ]
+    },
+    "wedged": {
+      "id": 11,
+      "records": [
+        "P04.SUCCESS.002"
+      ]
+    },
+    "freed": {
+      "id": 12,
+      "records": [
+        "P04.SUCCESS.003"
+      ]
+    },
+    "hooked": {
+      "id": 13,
+      "records": [
+        "P04.SUCCESS.004"
+      ]
+    },
+    "wedge_recovered": {
+      "id": 14,
+      "records": [
+        "P04.SUCCESS.005"
+      ]
+    },
+    "hinge_refused": {
+      "id": 15,
+      "records": [
+        "P04.FAILURE.001"
+      ]
+    },
+    "force_refused": {
+      "id": 16,
+      "records": [
+        "P04.FAILURE.002"
+      ]
+    },
+    "test_wedged": {
+      "id": 17,
+      "records": [
+        "P04.FAILURE.003"
+      ]
+    },
+    "complete": {
+      "id": 18,
+      "records": [
+        "P04.SUCCESS.006",
+        "P04.DIALOGUE.002",
+        "P04.SYSTEM.001"
+      ]
+    },
+    "plan": {
+      "id": 19,
+      "records": [
+        "P04.INVENTORY.002",
+        "P04.READ.002"
+      ]
+    },
+    "gate_checked": {
+      "id": 20,
+      "records": [
+        "P04.LOOK.007"
+      ]
+    },
+    "peg_available": {
+      "id": 21,
+      "records": [
+        "P04.LOOK.008"
+      ]
+    },
+    "hint_1": {
+      "id": 22,
+      "records": [
+        "P04.HINT.1"
+      ]
+    },
+    "hint_2": {
+      "id": 23,
+      "records": [
+        "P04.HINT.2"
+      ]
+    },
+    "hint_3": {
+      "id": 24,
+      "records": [
+        "P04.HINT.3"
+      ]
+    }
+  },
+  "external_inventory_capacity": 63,
+  "serial_limb_base": 32768,
+  "max_serial": 1073741823
+}

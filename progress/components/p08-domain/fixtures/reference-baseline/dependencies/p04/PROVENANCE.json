@@ -1,0 +1,180 @@
+{
+  "classification": "Recovered complete SCI method text + identical reconstructed generated source + NEW independent model/tooling/tests/fixture/compiled outputs",
+  "source_recovery": {
+    "kind": "consumer-verified immutable domain recovery subset",
+    "created": "2026-10-06",
+    "author_confirmation": "Complete corrected literals confirmed by the recovery author on 2026-10-06; consumer verified all local bytes and the subsequently sealed full recovery manifest. No recovered code executed.",
+    "inputs": [
+      {
+        "path": "reference/methods.sc.in",
+        "source": "/workspace/shared/cakood-context-recovery-batch5/p04-host/literal-final/domain/methods.sc.in",
+        "bytes": 19715,
+        "sha256": "30ed1d83f35fe81cea3e22952baaab43006044976114950f254b5cecca51b844"
+      },
+      {
+        "path": "reference/generate.py",
+        "source": "/workspace/shared/cakood-context-recovery-batch5/p04-host/literal-final/domain/generate.py",
+        "bytes": 6025,
+        "sha256": "2daa8f19b842ab7b85ede140ab73456688e7cde2a342056de76c2a605dcaf6a8"
+      },
+      {
+        "path": "reference/p04-state-contract.md",
+        "source": "/workspace/shared/cakood-context-recovery-batch5/p04-host/literal-final/domain/p04-state-contract.md",
+        "bytes": 15766,
+        "sha256": "4ef194b65fe4b84c79890fd8643a658f10f62c26891a7f3a7d111c4287c55ce8"
+      },
+      {
+        "path": "reference/domain-manifest-printed-fields.txt",
+        "source": "/workspace/shared/cakood-context-recovery-batch5/p04-host/recorded-fragments/domain-manifest-printed-fields.txt",
+        "bytes": 4547,
+        "sha256": "4e3ff32074bae7cab2aa005c2c04f2e90c883071cc8c8e57061f5b70e254f1b2"
+      }
+    ],
+    "full_recovery_manifest": {
+      "path": "reference/batch5-transcription-manifest.json",
+      "sha256": "dab5f7bac254a5d23bc3a47fccc39a1265801674361709d1300fca804642e59a",
+      "author_sealed": true
+    }
+  },
+  "source_sha256": "6017d2693fd246dc0b976254111ce4a1563500e1d48ff015334ff5e57c8f6b8d",
+  "historical_source_hash_matched": true,
+  "historical_binary_identity": "Not claimable; original compiled984 bytes absent",
+  "reconstructed_missing_inputs": [
+    "canonical Python model and tests",
+    "canonical P04 fixture schema/data",
+    "fixed/owned/NPC/source sets for generator; combined output confirmed by historical source hash"
+  ],
+  "borrowed_reconstruction_tools": [
+    {
+      "path": "tests/source_vm.py",
+      "origin": "../p03-domain-reconstruction/tests/source_vm.py",
+      "adaptation": "P04 class/init/module defaults; operand-valued logic preserved"
+    },
+    {
+      "path": "tests/bytecode_vm.py",
+      "origin": "../p03-domain-reconstruction/tests/bytecode_vm.py",
+      "adaptation": "P04 arrays and signatures, decoded-instruction cache, corrected PPREV, explicit early-switch return tails, bounded arity/stack checks"
+    },
+    {
+      "path": "tools/resource_decode.py",
+      "origin": "../p03-domain-reconstruction/tools/resource_decode.py",
+      "adaptation": "Exact copy"
+    },
+    {
+      "path": "reference/opcode-tables.json",
+      "origin": "../p03-domain-reconstruction/reference/opcode-tables.json",
+      "adaptation": "Exact copy"
+    }
+  ],
+  "model_report": {
+    "scope": "Independent reconstructed model, no native acceptance claim",
+    "tests": {
+      "passed": 35,
+      "failed": 0,
+      "command": "python -m unittest -v test_p04_model",
+      "elapsed_seconds": 9.247
+    },
+    "finite_corpus": {
+      "semantic_states": 3528,
+      "commands": 22,
+      "directed_edges": 77616,
+      "maximum_shortest_witness": 22,
+      "all_witnesses_replayed": true,
+      "all_states_roundtripped": true,
+      "all_edges_roundtripped": true
+    },
+    "physical_positions": {
+      "raw": 72,
+      "valid": 21,
+      "all_valid_constructively_reached": true
+    },
+    "seeded_mixed_actions": 4000,
+    "source_evaluation_used": false,
+    "recovered_executables_executed": false,
+    "files": {
+      "p04_model.py": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67",
+      "test_p04_model.py": "aad490c18548a72a913eb5c84d0fdcbbc7d7f113648c7133a3a470d1da617df2",
+      "p04_corpus.py": "669c0e9d44057d86497ba6ebda66cebae8faf776207edc10b5b04f31ca6e940a",
+      "semantic-corpus.json": "358c3d9925877e48e92078c37e262f47d6978e5816d78e4dae7464bc6465ecfc",
+      "README.md": "b02645e4d95bac2a358dd7c7fd55744f7b48fed55c6ecb4fd1153994c82fe345",
+      "model-tests.log": "8d4b081596c03dcc7d1da77d3aad74c5a5728b3754939ae4b79f5c5bcb43e35a"
+    },
+    "derived_projections": [
+      "tested",
+      "peg_available",
+      "gate_open",
+      "gate_navigable",
+      "flags"
+    ],
+    "legacy_envelope_conversion": "Outside numeric14-property save/load boundary",
+    "gate_position_0": "RESTING (CAUGHT compatibility alias)"
+  },
+  "current_authority": {
+    "current_authority": {
+      "full-line-catalog.json": {
+        "path": "/workspace/scratch/32bd9b8d7d14/recovery-20261006-0102-durable/extracted/script-v3/full-line-catalog.json",
+        "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c"
+      },
+      "speech-units.json": {
+        "path": "/workspace/scratch/32bd9b8d7d14/recovery-20261006-0102-durable/extracted/script-v3/speech-units.json",
+        "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475"
+      }
+    },
+    "older_derive_catalog_pin": "1226a97873a3693867c08afe2731ddb55adef6f0eaeabc1222e103c04c0d9fa7",
+    "old_derive_executed": false,
+    "historical_fixture_available": false,
+    "mechanical_abi_changes": false,
+    "record_count": 36,
+    "binding_count": 24,
+    "speech_unit_count": 41,
+    "exact_records_and_speech_verified": true,
+    "text_only_records": [
+      "P04.LABEL.001",
+      "P04.LABEL.002",
+      "P04.LABEL.003",
+      "P04.LABEL.004",
+      "P04.LABEL.005",
+      "P04.READ.001",
+      "P04.LABEL.006",
+      "P04.LABEL.007",
+      "P04.INVENTORY.001",
+      "P04.LABEL.008",
+      "P04.INVENTORY.002",
+      "P04.READ.002",
+      "P04.SYSTEM.001",
+      "P04.HINT.1",
+      "P04.HINT.2",
+      "P04.HINT.3"
+    ],
+    "limits": "Older catalog bytes are not in this isolated fixture; no old-v-current full-text equality claimed. Current approved files replace old authority pins explicitly; exact printed P04 line/binding identity is unchanged."
+  },
+  "compiler": {
+    "lucasartsifier": "45068351290ffd90e74186c69322d200fa60cafd",
+    "SCICompanion": "f1a603b48b1aa7abf94f78574a8f69a653e2ca62",
+    "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+    "active_compile_sha256": "d90df228ab6c1e0af29d6ba0265b895a2fcdd50c6b22844786b7aa1ce24fa803"
+  },
+  "tested_inputs": {
+    "scope": "Exact domain/model/test/corpus inputs used for final verification; source and model were frozen before test start",
+    "files": {
+      "src/module984.sc": "6017d2693fd246dc0b976254111ce4a1563500e1d48ff015334ff5e57c8f6b8d",
+      "manifest.json": "8c8ed5be93f754c98a628789d4be1b1fd9a56c1c2de0cac5e7901044d2af876b",
+      "selectors.json": "a952e506a3de355661b57ab04af952efd5af99177d8949e3eb629ebebfd608c5",
+      "build/compiled/984.scr.bin": "23ca7f342f8b2caea9e5c8e7c1fe504344fd14d8749f081ddd1a152c2e1e8faf",
+      "build/compiled/984.scr.bin.hep": "c1bcd32e9f53924b62f939183f82fcd0e5d6ce3e2a3866c604c0aff0a6c71eef",
+      "fixtures/canonical-bindings.json": "650a4f04b30591538f0056f8dbe13abddb60958cd28ba7c7daf820b301b5f837",
+      "model-work/p04_model.py": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67",
+      "model-work/p04_corpus.py": "669c0e9d44057d86497ba6ebda66cebae8faf776207edc10b5b04f31ca6e940a",
+      "model-work/test_p04_model.py": "aad490c18548a72a913eb5c84d0fdcbbc7d7f113648c7133a3a470d1da617df2",
+      "model-work/semantic-corpus.json": "358c3d9925877e48e92078c37e262f47d6978e5816d78e4dae7464bc6465ecfc",
+      "tests/source_vm.py": "6c1188834f45ab93afe8d19418a98c840f2af75e364f62e63e0f5ce4ab33c9b3",
+      "tests/bytecode_vm.py": "384738387a335adbc52318cc5a493560ddb2e135cb48f2f282f2fcbb161df421",
+      "tests/test_conformance.py": "d6d85e5b4e310ef9682c5397a71f2957618d8f01c4e3311f1787a89a2efaa29a",
+      "tests/test_emitted_validators.py": "10d4ee5810277fc9b20841b940c38a77b95e75a00bb70aab29e47890edf896b8",
+      "tools/run_corpus_parity.py": "6a72aec1cee3a18b3299c1e101d0e49e6935ddb177230ab21692dc093e68c483",
+      "tools/resource_decode.py": "14b525fff16067fe052222301bae8c0f59a6423149f238d6ee87b3903bd7d57b",
+      "reference/opcode-tables.json": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a"
+    }
+  },
+  "native_run": false
+}

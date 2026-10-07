@@ -1,0 +1,122 @@
+{
+  "canonical_gdd_contract": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+  "family": "MUS11_VERBAL_COMPETITIONS",
+  "status": "COMPOSED_CANDIDATES_NOT_NATIVE_OR_LISTENING_ACCEPTED",
+  "encounters": {
+    "VC01": {
+      "opponent": "Milo",
+      "puzzle": "P05",
+      "location": "L06"
+    },
+    "VC02": {
+      "opponent": "Vivian",
+      "puzzle": "P06",
+      "location": "L03"
+    },
+    "VC03": {
+      "opponent": "Felix",
+      "after_puzzle": "P11 safe rescue",
+      "before_puzzle": "P12 public introduction",
+      "location": "L04"
+    },
+    "VC04": {
+      "opponent": "Mr. Stringer",
+      "after": "P13 served/revealed/board delivered",
+      "before": "toast",
+      "location": "L05"
+    }
+  },
+  "events": [
+    "VC_ENTER",
+    "VC_TURN",
+    "VC_RESPONSE_COMMITTED",
+    "VC_KO_COMMITTED",
+    "VC_EXIT"
+  ],
+  "music_ownership": {
+    "VC_ENTER": "Select opponent gain color and start/derive one persistent bed; no correct-response hint.",
+    "VC_TURN": "Choose low-density thinking/line mix; leave room for setup/retort, without a player timer.",
+    "VC_RESPONSE_COMMITTED": "After game commits exactly one composure change, consume optional one-shot once.",
+    "VC_KO_COMMITTED": "One social-result accent, then authored existing-profile groan before optional audience reaction on single PCM lane. No injury meaning.",
+    "VC_EXIT": "Discard stale transients and restore the valid underlying room/phase cue through a natural musical transition."
+  },
+  "serials": "Every consumed response/result key includes encounter, attempt and exchange/result serial. Music never mutates composure, learned pairs, win flags, concessions or puzzle state.",
+  "save_pause_skip": "Save/restore reconstruct current bed/state/expression without replaying consumed transient cues; pause, skip, menu or mute is not a yield. Native lifecycle tests remain required.",
+  "variant_equivalence": "Resources141\u2013145 are CC7-only references of140; do not play them concurrently. Runtime should maintain one score clock and apply tested state gains.",
+  "pcm": "One owner only: speech setup/retort, social-KO groan, audience reaction and foley are serialized or dropped by integrated arbiter. No new PCM file/player authored.",
+  "score_limit": "Reserved ACCENT one-shots require native channel/isolation proof and must replace that logical role, not add a ninth sounding part.",
+  "resources": [
+    {
+      "cue_id": "MUS11_VERBAL_COMPETITIONS_BASE",
+      "resource_id": 140,
+      "sha256": {
+        "midi": "4b886f7d9611e3a616ea727fee3a2554cd222f12ea88ee7076efaf3b2bf3aab1",
+        "native": "ff2e436be33b506c3ac8e4ef5957522720ef459348f8e0872534e448712de985"
+      },
+      "native_payload_path": "native/140.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_VC01_COLOR",
+      "resource_id": 141,
+      "sha256": {
+        "midi": "63aa7e71eea96be2f7824a43709927d62e89d4d680093aa0c3aa6b796d6046fc",
+        "native": "33acfb9fa91dd99591b066870b053b1f17bb4d92b330559894bfad702a4575ef"
+      },
+      "native_payload_path": "native/141.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_VC02_COLOR",
+      "resource_id": 142,
+      "sha256": {
+        "midi": "aeb7386bd2bc5abecb860307e1a8d6f0b5903df1fa447dff73ad3b1983cedadc",
+        "native": "721071570115f367c812eb18a1d900687a495414277daf69da08a5c0442c660a"
+      },
+      "native_payload_path": "native/142.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_VC03_COLOR",
+      "resource_id": 143,
+      "sha256": {
+        "midi": "2ea3cbd9e190701f1f0ac5e93aef163f022574eda67c104fe51513b90aa97390",
+        "native": "1c3fb8aad052f93ed3d639a8a7ecbb1f9a96f8e6471cba2ff4e13f7a98b01eaa"
+      },
+      "native_payload_path": "native/143.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_VC04_COLOR",
+      "resource_id": 144,
+      "sha256": {
+        "midi": "89054f518e2f9e048d177b03ffe585795ec03e89d10e1ad1f0cee0516522e1d0",
+        "native": "6a60021f908f37494929203c73812ac2de59719c8b848d83e062cdb852c7030a"
+      },
+      "native_payload_path": "native/144.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_THINKING_TURN",
+      "resource_id": 145,
+      "sha256": {
+        "midi": "de6cf120162d12be6b51fac0ccc95ba68116f0b2dd833fba60d075a59b6cccb6",
+        "native": "e09659f8a22bcf65bc71d2d8a4b147ea0e45d4c1e9617c9bc09a341d18b87cd7"
+      },
+      "native_payload_path": "native/145.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+      "resource_id": 146,
+      "sha256": {
+        "midi": "b3d247be058328266ea9a63e1f7dbc63ce3f84e88ff16a8b4808e990127f8a33",
+        "native": "8539b15bc452d4314fac7caa178904994a887a6b226e5b8feb267ecd2566128f"
+      },
+      "native_payload_path": "native/146.sound.bin"
+    },
+    {
+      "cue_id": "MUS11_SOCIAL_RESULT",
+      "resource_id": 147,
+      "sha256": {
+        "midi": "74e947e87909cd0120f56855b1214958c8ed3030337a7cc76f3bfd7d1a9e5ab1",
+        "native": "75c9fb2451e8ecfd97c3c331df357c0c863e889d5fb7a145f4150426933d9554"
+      },
+      "native_payload_path": "native/147.sound.bin"
+    }
+  ]
+}

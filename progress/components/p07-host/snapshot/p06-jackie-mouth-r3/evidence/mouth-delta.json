@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "kind": "source",
+      "case": "real Jackie voice owner cue0",
+      "draw": [
+        216,
+        1,
+        0,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "real Jackie voice owner cue1",
+      "draw": [
+        216,
+        1,
+        1,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "real Jackie voice owner cue2",
+      "draw": [
+        216,
+        1,
+        2,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "Vivian owns PCM; Jackie is idle",
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "wince takes priority",
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "leave retained drawJack path: hVCEncounter",
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "leave retained drawJack path: hVCStage",
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "leave retained drawJack path: location",
+      "state_unchanged": true
+    },
+    {
+      "kind": "source",
+      "case": "leave retained drawJack path: onApron",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "real Jackie voice owner cue0",
+      "draw": [
+        216,
+        1,
+        0,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "real Jackie voice owner cue1",
+      "draw": [
+        216,
+        1,
+        1,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "real Jackie voice owner cue2",
+      "draw": [
+        216,
+        1,
+        2,
+        145,
+        63,
+        -1,
+        127,
+        127
+      ],
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "Vivian owns PCM; Jackie is idle",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "wince takes priority",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "leave retained drawJack path: hVCEncounter",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "leave retained drawJack path: hVCStage",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "leave retained drawJack path: location",
+      "state_unchanged": true
+    },
+    {
+      "kind": "bytecode",
+      "case": "leave retained drawJack path: onApron",
+      "state_unchanged": true
+    }
+  ],
+  "count": 18,
+  "source_changes": {
+    "module987.sc": [
+      "h6DrawJack"
+    ]
+  },
+  "no_state_or_publication_changes": true,
+  "other_eight_modules_source_and_emitted_exact": true,
+  "selectors_unchanged": true,
+  "compile_receipt_sha256": "628117379862d95a273c1bfd7525d65c1d586151a10042eff1a75ee9d9a130ba",
+  "native_acceptance": false,
+  "listening": false
+}

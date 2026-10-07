@@ -1,0 +1,66 @@
+{
+  "scope": "actual emitted SCI with typed Sound model; not native",
+  "cases": [
+    {
+      "name": "main-idle-status",
+      "owner": 151,
+      "mode": 1,
+      "unavailable": 0,
+      "broker_failure": 0
+    },
+    {
+      "name": "main-pending-valid-transition-status",
+      "owner": 151,
+      "desired": 152,
+      "mode": 1,
+      "unavailable": 1,
+      "broker_failure": 0,
+      "retry": 0,
+      "domain_unchanged": true
+    },
+    {
+      "name": "same-attempt-after-context-invalidation",
+      "desired": 151,
+      "active": 1,
+      "exit": 0,
+      "turn_notification_accepted": 1,
+      "domain_unchanged": true
+    },
+    {
+      "name": "chooser-preference-0-1",
+      "cancel_result": 1,
+      "paused": 1,
+      "muted": 1,
+      "whole": 39,
+      "parser_pauses": 1,
+      "position_before": 6,
+      "position_after": 6,
+      "starts": 1,
+      "domain_unchanged": true
+    },
+    {
+      "name": "chooser-preference-1-0",
+      "cancel_result": 1,
+      "paused": 0,
+      "muted": 1,
+      "whole": 39,
+      "parser_pauses": 0,
+      "position_before": 6,
+      "position_after": 14,
+      "starts": 1,
+      "domain_unchanged": true
+    },
+    {
+      "name": "chooser-preference-1-1",
+      "cancel_result": 1,
+      "paused": 1,
+      "muted": 1,
+      "whole": 39,
+      "parser_pauses": 1,
+      "position_before": 6,
+      "position_after": 6,
+      "starts": 1,
+      "domain_unchanged": true
+    }
+  ]
+}

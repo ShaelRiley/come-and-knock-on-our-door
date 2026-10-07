@@ -1,0 +1,36 @@
+{
+  "classification": "reconstructed editable derivative, not original source recovery",
+  "inputs": [
+    {
+      "path": "reference/fragments/module983-prefix.fragment.sc.txt",
+      "origin": "/workspace/shared/cakood-context-recovery-batch3/p03-review-source/fragments/module983-prefix.fragment.sc.txt",
+      "sha256": "885bd7b85e37f9d3285d94f73480f09d2471917036ab5fa22ec933c8bb70b8cf"
+    },
+    {
+      "path": "reference/fragments/module983-validation-and-bridge.fragment.sc.txt",
+      "origin": "/workspace/shared/cakood-context-recovery-batch3/p03-review-source/fragments/module983-validation-and-bridge.fragment.sc.txt",
+      "sha256": "807b60f6a1fdc5929426961a19e12c9d6be3850d73ed01e56aef7180545c82db"
+    },
+    {
+      "path": "reference/fragments/module983-required-responses.fragment.sc.txt",
+      "origin": "/workspace/shared/cakood-context-recovery-batch3/p03-review-source/fragments/module983-required-responses.fragment.sc.txt",
+      "sha256": "dc51e69da32d38447fbbae3c2b2f061e4be7f89d1023a4b4738b554a6344bf68"
+    },
+    {
+      "path": "reference/fragments/module983-source-restore.fragment.sc.txt",
+      "origin": "/workspace/shared/cakood-context-recovery-batch3/p03-review-source/fragments/module983-source-restore.fragment.sc.txt",
+      "sha256": "29cd9c03c61a17a127574f469e6f6ca9e85728ec1c6de747e29acb4c5e2f8f4e"
+    }
+  ],
+  "literal_exceptions": {
+    "(method (p03Validate &tmp minimum bit i)": "(method (p03Validate &tmp minimum bit i expectedReady introPresent completePresent)",
+    "    (if (!= p03Ready (and (!= p03Padding 0) (!= p03Approved 0))) (return 0))": "    (= expectedReady (and (!= p03Padding 0) (!= p03Approved 0)))\n    (if (!= p03Ready expectedReady) (return 0))",
+    "    (if (!= (or (!= p03IntroHi 0) (!= p03IntroLo 0)) (!= (& p03Observed 4) 0)) (return 0))": "    (= introPresent (or (!= p03IntroHi 0) (!= p03IntroLo 0)))\n    (if (!= introPresent (!= (& p03Observed 4) 0)) (return 0))",
+    "    (if (!= p03Ready (or (!= p03CompleteHi 0) (!= p03CompleteLo 0))) (return 0))": "    (= completePresent (or (!= p03CompleteHi 0) (!= p03CompleteLo 0)))\n    (if (!= p03Ready completePresent) (return 0))"
+  },
+  "reconstructed": [
+    "src/domain-reconstructed.inc",
+    "properties after p03Room"
+  ],
+  "output_sha256": "d3f84ee2f936bf8a6607366bee135c7d08c6f34cd11bec06f464a134a3c2fb5c"
+}

@@ -1,0 +1,3602 @@
+{
+  "status": "PASS",
+  "fixture": "P01 complete/P02 plan agreed only; zero P06 and Contest progress/knowledge initially",
+  "control_dispatch": "actual mouse GetEvent -> uiPointer/uiHit/uiActivate; Escape key; real approach/arrival and paginated choices/readers",
+  "direct_gameplay_action_or_choice_calls": false,
+  "steps": [
+    {
+      "control": 2,
+      "payload": 6,
+      "point": [
+        77,
+        189
+      ],
+      "room": 1,
+      "panel": 0,
+      "context": 0,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 8,
+      "point": [
+        145,
+        94
+      ],
+      "room": 1,
+      "panel": 0,
+      "context": 0,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        6,
+        8,
+        null
+      ],
+      "room": 1,
+      "panel": 2,
+      "context": 202
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 1,
+      "panel": 2,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 1,
+      "point": [
+        160,
+        170
+      ],
+      "room": 1,
+      "panel": 2,
+      "context": 202,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 1,
+      "panel": 4,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 1,
+      "panel": 4,
+      "context": 202,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 1,
+      "panel": 4,
+      "context": 202,
+      "page": 2
+    },
+    {
+      "control": 1,
+      "payload": 12,
+      "point": [
+        297,
+        85
+      ],
+      "room": 1,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        0,
+        12,
+        null
+      ],
+      "room": 2,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 2,
+      "payload": 4,
+      "point": [
+        77,
+        161
+      ],
+      "room": 2,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 75,
+      "point": [
+        304,
+        70
+      ],
+      "room": 2,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 2,
+      "panel": 4,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        4,
+        75,
+        null
+      ],
+      "room": 2,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 1,
+      "payload": 18,
+      "point": [
+        31,
+        77
+      ],
+      "room": 2,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        0,
+        18,
+        null
+      ],
+      "room": 1,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 1,
+      "payload": 17,
+      "point": [
+        31,
+        84
+      ],
+      "room": 1,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        0,
+        17,
+        null
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 1,
+      "payload": 14,
+      "point": [
+        0,
+        88
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        0,
+        14,
+        null
+      ],
+      "room": 3,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 2,
+      "payload": 4,
+      "point": [
+        77,
+        161
+      ],
+      "room": 3,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 76,
+      "point": [
+        86,
+        82
+      ],
+      "room": 3,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 3,
+      "panel": 4,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        4,
+        76,
+        null
+      ],
+      "room": 3,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 1,
+      "payload": 17,
+      "point": [
+        36,
+        82
+      ],
+      "room": 3,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        0,
+        17,
+        null
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 2,
+      "payload": 5,
+      "point": [
+        77,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 82,
+      "point": [
+        290,
+        84
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        5,
+        82,
+        null
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 2,
+      "payload": 5,
+      "point": [
+        77,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 77,
+      "point": [
+        4,
+        97
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 202,
+      "page": 1
+    },
+    {
+      "completed_action": [
+        5,
+        77,
+        null
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202
+    },
+    {
+      "control": 2,
+      "payload": 6,
+      "point": [
+        77,
+        189
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 85,
+      "point": [
+        77,
+        103
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 202,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        6,
+        85,
+        null
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 4
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 5
+    },
+    {
+      "control": 2,
+      "payload": 7,
+      "point": [
+        128,
+        161
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 3,
+      "payload": 75,
+      "point": [
+        178,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 73,
+      "point": [
+        266,
+        88
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        7,
+        75,
+        73
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 221
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 1,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 221,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 2
+    },
+    {
+      "control": 2,
+      "payload": 7,
+      "point": [
+        128,
+        161
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 75,
+      "point": [
+        266,
+        111
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 73,
+      "point": [
+        266,
+        88
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        7,
+        75,
+        73
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 221
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 2,
+      "payload": 7,
+      "point": [
+        128,
+        161
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 3,
+      "payload": 76,
+      "point": [
+        178,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 74,
+      "point": [
+        266,
+        46
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 221,
+      "page": 2
+    },
+    {
+      "completed_action": [
+        7,
+        76,
+        74
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221
+    },
+    {
+      "control": 2,
+      "payload": 8,
+      "point": [
+        128,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 80,
+      "point": [
+        27,
+        106
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 221,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        8,
+        80,
+        null
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222,
+      "page": 1
+    },
+    {
+      "control": 13,
+      "payload": 2,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222,
+      "page": 2
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 1
+    },
+    {
+      "control": 2,
+      "payload": 8,
+      "point": [
+        128,
+        175
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 80,
+      "point": [
+        27,
+        106
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        8,
+        80,
+        null
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 1,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 222,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 222,
+      "page": 2
+    },
+    {
+      "control": 2,
+      "payload": 6,
+      "point": [
+        77,
+        189
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 85,
+      "point": [
+        77,
+        103
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 222,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        6,
+        85,
+        null
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 4
+    },
+    {
+      "control": 13,
+      "payload": 5,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 5
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 1,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 13,
+      "payload": 2,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 13,
+      "payload": 3,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 13,
+      "payload": 4,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 13,
+      "payload": 5,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 13,
+      "payload": 6,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 13,
+      "payload": 7,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 7
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 7
+    },
+    {
+      "control": 13,
+      "payload": 8,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 8
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 7
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 8
+    },
+    {
+      "control": 13,
+      "payload": 9,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 9
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 7
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 8
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 9
+    },
+    {
+      "control": 13,
+      "payload": 10,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 10
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 7
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 8
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 9
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 10
+    },
+    {
+      "control": 13,
+      "payload": 11,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 216,
+      "page": 11
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 216,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 13,
+      "payload": 1,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 5
+    },
+    {
+      "control": 13,
+      "payload": 6,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 6
+    },
+    {
+      "control": 13,
+      "payload": 0,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 218,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 218,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 218,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 218,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 5
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 7
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 8
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 9
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 10
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 11
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 12
+    },
+    {
+      "control": 13,
+      "payload": 13,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 217,
+      "page": 13
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 217,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 217,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 217,
+      "page": 0
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        271,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 2,
+      "payload": 6,
+      "point": [
+        77,
+        189
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "control": 1,
+      "payload": 85,
+      "point": [
+        77,
+        103
+      ],
+      "room": 0,
+      "panel": 0,
+      "context": 215,
+      "page": 0
+    },
+    {
+      "completed_action": [
+        6,
+        85,
+        null
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 1
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 2
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 3
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 4
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 5
+    },
+    {
+      "control": 13,
+      "payload": 6,
+      "point": [
+        160,
+        170
+      ],
+      "room": 0,
+      "panel": 2,
+      "context": 219,
+      "page": 6
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    },
+    {
+      "control": 11,
+      "payload": 0,
+      "point": [
+        76,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 1
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 2
+    },
+    {
+      "control": 12,
+      "payload": 0,
+      "point": [
+        260,
+        192
+      ],
+      "room": 0,
+      "panel": 4,
+      "context": 219,
+      "page": 0
+    }
+  ],
+  "read_pages": [
+    [
+      906,
+      0,
+      3
+    ],
+    [
+      906,
+      1,
+      3
+    ],
+    [
+      906,
+      2,
+      3
+    ],
+    [
+      907,
+      0,
+      1
+    ],
+    [
+      908,
+      0,
+      1
+    ],
+    [
+      891,
+      0,
+      1
+    ],
+    [
+      899,
+      0,
+      2
+    ],
+    [
+      899,
+      1,
+      2
+    ],
+    [
+      882,
+      0,
+      6
+    ],
+    [
+      882,
+      1,
+      6
+    ],
+    [
+      882,
+      2,
+      6
+    ],
+    [
+      882,
+      3,
+      6
+    ],
+    [
+      882,
+      4,
+      6
+    ],
+    [
+      882,
+      5,
+      6
+    ],
+    [
+      913,
+      0,
+      3
+    ],
+    [
+      913,
+      1,
+      3
+    ],
+    [
+      913,
+      2,
+      3
+    ],
+    [
+      909,
+      0,
+      1
+    ],
+    [
+      910,
+      0,
+      3
+    ],
+    [
+      910,
+      1,
+      3
+    ],
+    [
+      910,
+      2,
+      3
+    ],
+    [
+      914,
+      0,
+      1
+    ],
+    [
+      915,
+      0,
+      2
+    ],
+    [
+      915,
+      1,
+      2
+    ],
+    [
+      914,
+      0,
+      1
+    ],
+    [
+      916,
+      0,
+      3
+    ],
+    [
+      916,
+      1,
+      3
+    ],
+    [
+      916,
+      2,
+      3
+    ],
+    [
+      861,
+      0,
+      1
+    ],
+    [
+      862,
+      0,
+      1
+    ],
+    [
+      863,
+      0,
+      1
+    ],
+    [
+      696,
+      0,
+      1
+    ],
+    [
+      700,
+      0,
+      1
+    ],
+    [
+      701,
+      0,
+      1
+    ],
+    [
+      704,
+      0,
+      1
+    ],
+    [
+      708,
+      0,
+      1
+    ],
+    [
+      709,
+      0,
+      1
+    ],
+    [
+      712,
+      0,
+      1
+    ],
+    [
+      716,
+      0,
+      1
+    ],
+    [
+      717,
+      0,
+      1
+    ],
+    [
+      720,
+      0,
+      1
+    ],
+    [
+      724,
+      0,
+      1
+    ],
+    [
+      725,
+      0,
+      1
+    ],
+    [
+      728,
+      0,
+      1
+    ],
+    [
+      732,
+      0,
+      1
+    ],
+    [
+      733,
+      0,
+      1
+    ],
+    [
+      736,
+      0,
+      1
+    ],
+    [
+      740,
+      0,
+      1
+    ],
+    [
+      741,
+      0,
+      1
+    ],
+    [
+      743,
+      0,
+      1
+    ],
+    [
+      746,
+      0,
+      1
+    ],
+    [
+      747,
+      0,
+      1
+    ],
+    [
+      749,
+      0,
+      1
+    ],
+    [
+      752,
+      0,
+      1
+    ],
+    [
+      753,
+      0,
+      1
+    ],
+    [
+      755,
+      0,
+      1
+    ],
+    [
+      758,
+      0,
+      1
+    ],
+    [
+      759,
+      0,
+      1
+    ],
+    [
+      761,
+      0,
+      1
+    ],
+    [
+      764,
+      0,
+      1
+    ],
+    [
+      765,
+      0,
+      1
+    ],
+    [
+      767,
+      0,
+      1
+    ],
+    [
+      770,
+      0,
+      1
+    ],
+    [
+      771,
+      0,
+      1
+    ],
+    [
+      773,
+      0,
+      1
+    ],
+    [
+      776,
+      0,
+      1
+    ],
+    [
+      777,
+      0,
+      1
+    ],
+    [
+      743,
+      0,
+      1
+    ],
+    [
+      746,
+      0,
+      1
+    ],
+    [
+      570,
+      0,
+      1
+    ],
+    [
+      749,
+      0,
+      1
+    ],
+    [
+      581,
+      0,
+      1
+    ],
+    [
+      866,
+      0,
+      1
+    ],
+    [
+      867,
+      0,
+      1
+    ],
+    [
+      924,
+      0,
+      3
+    ],
+    [
+      924,
+      1,
+      3
+    ],
+    [
+      924,
+      2,
+      3
+    ],
+    [
+      925,
+      0,
+      1
+    ]
+  ],
+  "instructions": 22337601,
+  "frames": 969,
+  "normal_muted_restore_mouth": "PASS, real VC02 reply; retained216, zero muted gain, no audio/mouth replay on restore",
+  "final_flags": {
+    "P06": 7,
+    "VC": 2
+  },
+  "compile_receipt_sha256": "628117379862d95a273c1bfd7525d65c1d586151a10042eff1a75ee9d9a130ba",
+  "native_acceptance": false,
+  "listening": false
+}

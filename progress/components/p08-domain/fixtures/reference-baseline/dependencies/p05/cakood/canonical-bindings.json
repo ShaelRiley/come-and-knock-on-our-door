@@ -1,0 +1,2773 @@
+{
+  "status": "NEW reconstruction bindings, copied unchanged from final editorial authority; not recovered implementation",
+  "catalog_sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+  "speech_sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+  "records": {
+    "P05.SCENE.001": {
+      "record_id": "P05.SCENE.001",
+      "catalog_source_lines": [
+        8498,
+        8547
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SCENE.001.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            2472,
+            2482
+          ],
+          "text": "Tonight, the full Pennant sound experience.",
+          "caption_text": "Tonight, the full Pennant sound experience.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SCENE.001.02",
+          "speaker_id": "milo",
+          "source_lines": [
+            2483,
+            2493
+          ],
+          "text": "Milo Pennant presents tomorrow, slightly ahead of schedule.",
+          "caption_text": "Milo Pennant presents tomorrow, slightly ahead of schedule.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SCENE.001.03",
+          "speaker_id": "jack",
+          "source_lines": [
+            2494,
+            2504
+          ],
+          "text": "Does it play anything without you in it?",
+          "caption_text": "Does it play anything without you in it?",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SCENE.001.04",
+          "speaker_id": "milo",
+          "source_lines": [
+            2505,
+            2515
+          ],
+          "text": "It can.",
+          "caption_text": "It can.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SCENE.001.05",
+          "speaker_id": "jack",
+          "source_lines": [
+            2516,
+            2526
+          ],
+          "text": "Have you tried?",
+          "caption_text": "Have you tried?",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SCENE.001.06",
+          "speaker_id": "milo",
+          "source_lines": [
+            2527,
+            2545
+          ],
+          "text": "I don’t see why you’re making that sound like a feature.",
+          "caption_text": "I don’t see why you’re making that sound like a feature.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 2,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.SCENE.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "scene",
+        "trigger": "Begin Milo’s PA-loan demonstration after P02",
+        "text": [
+          {
+            "speaker": "Milo Pennant",
+            "text": "Tonight, the full Pennant sound experience."
+          },
+          {
+            "speaker": "Milo’s taped voice",
+            "text": "Milo Pennant presents tomorrow, slightly ahead of schedule."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Does it play anything without you in it?"
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "It can."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Have you tried?"
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "I don’t see why you’re making that sound like a feature."
+          }
+        ],
+        "source_obligations": [
+          "Demonstration plays Milo’s taped slogan",
+          "Source and speaker direction need practical test",
+          "Milo is generous but overstates working setup"
+        ],
+        "source_ref": "P05-source.txt:2 (Prerequisite and obstacle); P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "fe0b5ffc4ff0bbf5ba53a91aa7036d8a0b980a724148efb2a11bc867cf844bfd",
+        "speaker_id": "jack",
+        "text_sha256": "b052f0e6146cc36379e9498ebdbc222193f67675b4f3664768c3ae0bd2cc2239",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "c4574e7de8a076e790b1fdc25f566d30dc763acca31de771421128d6019708da",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.LABEL.001": {
+      "record_id": "P05.LABEL.001",
+      "catalog_source_lines": [
+        8548,
+        8566
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing pa kit",
+        "text": "PA kit",
+        "source_obligations": [
+          "Existing loan kit demonstrated with slogan loop"
+        ],
+        "source_ref": "P05-source.txt:2 (Prerequisite and obstacle); P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "4f5d5c45cd135277b943e5366896651ff728ee4c7e32e37b91612109e481aed2",
+        "speaker_id": "text",
+        "text_sha256": "f2a9c8a9fe69c63ec5ab536f6bc18ee69d7cf6908f49ddd39495e25735292817",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.001": {
+      "record_id": "P05.LOOK.001",
+      "catalog_source_lines": [
+        8567,
+        8589
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.001.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2546,
+            2556
+          ],
+          "text": "All the equipment for being heard. Milo is reluctant to leave that to the equipment.",
+          "caption_text": "All the equipment for being heard. Milo is reluctant to leave that to the equipment.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing pa kit",
+        "text": "All the equipment for being heard. Milo is reluctant to leave that to the equipment.",
+        "source_obligations": [
+          "Existing loan kit demonstrated with slogan loop"
+        ],
+        "source_ref": "P05-source.txt:2 (Prerequisite and obstacle); P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "4f5d5c45cd135277b943e5366896651ff728ee4c7e32e37b91612109e481aed2",
+        "speaker_id": "jack",
+        "text_sha256": "95bbadae75a38e5fedc7861dba1378d45318e9479dc33b69902bee2e9cbaa573",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "33b232a2535978918e362e716defa042b1d78692305e1c916ad3c29946a38dc7",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.LABEL.002": {
+      "record_id": "P05.LABEL.002",
+      "catalog_source_lines": [
+        8590,
+        8608
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing input selector",
+        "text": "Input selector",
+        "source_obligations": [
+          "TAPE and MIC settings obvious; initial source TAPE"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "2fda1a6ca95bbaedc917163fdf32a2c6890ec6780298363f6f67baece3c6917f",
+        "speaker_id": "text",
+        "text_sha256": "9545183d9086fc49bf70c9cde8a0f3179e612393d3385f7ac0181b561bd37fee",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.002": {
+      "record_id": "P05.LOOK.002",
+      "catalog_source_lines": [
+        8609,
+        8631
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.002.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2557,
+            2575
+          ],
+          "text": "Two big settings: TAPE plays Milo’s recording; MIC lets somebody else speak. You can see why he prefers TAPE.",
+          "caption_text": "Two big settings: TAPE plays Milo’s recording; MIC lets somebody else speak. You can see why he prefers TAPE.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing input selector",
+        "text": "Two big settings: TAPE plays Milo’s recording; MIC lets somebody else speak. You can see why he prefers TAPE.",
+        "source_obligations": [
+          "TAPE and MIC settings obvious; initial source TAPE"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "2fda1a6ca95bbaedc917163fdf32a2c6890ec6780298363f6f67baece3c6917f",
+        "speaker_id": "jack",
+        "text_sha256": "00b4dfbdfbbbe3c1a0a2dfa0feeaf2e974796eaf74710373a51e816788deb760",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "13da02f8290ebc2757729e18786b1b6f291616d696cc2cc904c3831d2bfb7aa5",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.READ.001": {
+      "record_id": "P05.READ.001",
+      "catalog_source_lines": [
+        8632,
+        8650
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.READ.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Selector labels",
+        "kind": "read",
+        "trigger": "Read input selector labels",
+        "text": "TAPE [tape icon]\nMIC [microphone icon]",
+        "source_obligations": [
+          "Preserve both written labels and matching simple icons"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "f23a9bcea0a18725b8c7e91cf944f6f7e6fd41ba9d6cfb5c6aaa3bdd2f3f8090",
+        "speaker_id": "text",
+        "text_sha256": "d9c2b5212e084e0ad83057ade99100f8dc20d0696a73fc23fb403efed4680acd",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LABEL.003": {
+      "record_id": "P05.LABEL.003",
+      "catalog_source_lines": [
+        8651,
+        8669
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing microphone",
+        "text": "Microphone",
+        "source_obligations": [
+          "Microphone plug and MIC socket have matching three-dot symbols"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "2962dfaf72fe052accccf692d59d3b83c45d03ba758ed3dd4bcad04804216677",
+        "speaker_id": "text",
+        "text_sha256": "a0b39d22329a3057c3c3e92fd784bb50eb41e446f772d6a0d5625474af1fdeee",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.003": {
+      "record_id": "P05.LOOK.003",
+      "catalog_source_lines": [
+        8670,
+        8689
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.003.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2576,
+            2586
+          ],
+          "text": "The microphone has a cable with three dots on the plug. There’s a socket here with the same three dots.",
+          "caption_text": "The microphone has a cable with three dots on the plug. There’s a socket here with the same three dots.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing microphone",
+        "text": "The microphone has a cable with three dots on the plug. There’s a socket here with the same three dots.",
+        "source_obligations": [
+          "Microphone plug and MIC socket have matching three-dot symbols"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "2962dfaf72fe052accccf692d59d3b83c45d03ba758ed3dd4bcad04804216677",
+        "speaker_id": "jack",
+        "text_sha256": "8f129a214fa5d017f3b8acfe8ddafb963405a679033a8861ab56c720295b6c24",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LABEL.004": {
+      "record_id": "P05.LABEL.004",
+      "catalog_source_lines": [
+        8690,
+        8708
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing mic socket",
+        "text": "MIC socket",
+        "source_obligations": [
+          "MIC socket directly matches cable symbol"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "eb5318a5cbb05db36766112f62991b74a0ee9874fd92f072c2676c8758514d26",
+        "speaker_id": "text",
+        "text_sha256": "007cc3d29ea75ea90f971c48ce6e627992b71add38015287b13ee912a92164e3",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.004": {
+      "record_id": "P05.LOOK.004",
+      "catalog_source_lines": [
+        8709,
+        8731
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.004.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2587,
+            2597
+          ],
+          "text": "MIC. Three dots, like the microphone plug. They match without Milo having to introduce them.",
+          "caption_text": "MIC. Three dots, like the microphone plug. They match without Milo having to introduce them.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing mic socket",
+        "text": "MIC. Three dots, like the microphone plug. They match without Milo having to introduce them.",
+        "source_obligations": [
+          "MIC socket directly matches cable symbol"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "eb5318a5cbb05db36766112f62991b74a0ee9874fd92f072c2676c8758514d26",
+        "speaker_id": "jack",
+        "text_sha256": "b555cbb254a8ac725d79d61af056af588c9f7dca8ea060984ab6738f513cf738",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "ad80c0ac62e6e476a2651520668c36bb2401d4362a624d0922ecf8604c01ed24",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.READ.002": {
+      "record_id": "P05.READ.002",
+      "catalog_source_lines": [
+        8732,
+        8750
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.READ.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Socket marking",
+        "kind": "read",
+        "trigger": "Read MIC socket marking",
+        "text": "MIC\n● ● ●",
+        "source_obligations": [
+          "Matching three-dot visual cue; socket meaning remains explicit"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "906ea2f753c6012836ead459a4b4a2dd67a52b33894522cf8b5519af718ba5bf",
+        "speaker_id": "text",
+        "text_sha256": "01b0815211a146569e4c35fdbb055c45a8bf15c22e6b970862185d6b08ad0a4f",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LABEL.005": {
+      "record_id": "P05.LABEL.005",
+      "catalog_source_lines": [
+        8751,
+        8770
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.005",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing loudspeaker",
+        "text": "Loudspeaker",
+        "source_obligations": [
+          "Speaker faces away from intended listeners",
+          "Front grille exposes direction"
+        ],
+        "source_ref": "P05-source.txt:2 (Prerequisite and obstacle); P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "b3e3a81ff8eee39399499878e233bbc02a3a275d00842079305986f1966c16f3",
+        "speaker_id": "text",
+        "text_sha256": "ff3ee743c845bec0f9e11a718f32e06af6aeeba9b8b960aec4c1c0810b0d8785",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.005": {
+      "record_id": "P05.LOOK.005",
+      "catalog_source_lines": [
+        8771,
+        8794
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.005.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2598,
+            2608
+          ],
+          "text": "The front grille sends the sound toward whoever it faces. Excellent equipment, once we point it at our actual listener.",
+          "caption_text": "The front grille sends the sound toward whoever it faces. Excellent equipment, once we point it at our actual listener.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.005",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing loudspeaker",
+        "text": "The front grille sends the sound toward whoever it faces. Excellent equipment, once we point it at our actual listener.",
+        "source_obligations": [
+          "Speaker faces away from intended listeners",
+          "Front grille exposes direction"
+        ],
+        "source_ref": "P05-source.txt:2 (Prerequisite and obstacle); P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "b3e3a81ff8eee39399499878e233bbc02a3a275d00842079305986f1966c16f3",
+        "speaker_id": "jack",
+        "text_sha256": "5e7524f7e1371e5b2dc8609be3f6d5fa4fdf91ca5f2bddefc8924900c6d3fae5",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "b91cf94033b3b6cbd0c997896c2ddd7cd57e22231798c33b0a08c9345a0d4a8d",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.LABEL.006": {
+      "record_id": "P05.LABEL.006",
+      "catalog_source_lines": [
+        8795,
+        8813
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.006",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing speaker swivel handle",
+        "text": "Speaker swivel handle",
+        "source_obligations": [
+          "Handle turns speaker toward marked listening position"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "8209f8b0afdf9f8d85ee85270011ca775347503896ce80b69272a8661888c3df",
+        "speaker_id": "text",
+        "text_sha256": "6336c5173f819f5a032a8260690b83a6119bc7bcdca01a266cf96d8df1587fee",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.006": {
+      "record_id": "P05.LOOK.006",
+      "catalog_source_lines": [
+        8814,
+        8836
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.006.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2609,
+            2619
+          ],
+          "text": "The swivel handle turns the speaker toward the listening mark. Unlike Milo, it can be redirected by hand.",
+          "caption_text": "The swivel handle turns the speaker toward the listening mark. Unlike Milo, it can be redirected by hand.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.006",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing speaker swivel handle",
+        "text": "The swivel handle turns the speaker toward the listening mark. Unlike Milo, it can be redirected by hand.",
+        "source_obligations": [
+          "Handle turns speaker toward marked listening position"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "8209f8b0afdf9f8d85ee85270011ca775347503896ce80b69272a8661888c3df",
+        "speaker_id": "jack",
+        "text_sha256": "439d15046f6278614efb919cdf1ada557b222c5f2ef6e19c22875f28ada98992",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "8db4a30a642d1e38e9b887f0d2d54fde7e2e518f8e2817e48350c7dbc59ccd92",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.LABEL.007": {
+      "record_id": "P05.LABEL.007",
+      "catalog_source_lines": [
+        8837,
+        8855
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.007",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing marked listening position",
+        "text": "Marked listening position",
+        "source_obligations": [
+          "Marked listener position and beam direction remain legible"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "e61cccbc205ea39e9b8612e1440ed1f2f3b7f62ec5ea0e3fb9242b5365626a1a",
+        "speaker_id": "text",
+        "text_sha256": "5a77a0a41f07581e91bb22e1705247b833f19067307a8fe793180c0715187c75",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.007": {
+      "record_id": "P05.LOOK.007",
+      "catalog_source_lines": [
+        8856,
+        8875
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.007.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2620,
+            2630
+          ],
+          "text": "The place to stand for the test. The speaker’s front grille needs to face whoever stands here.",
+          "caption_text": "The place to stand for the test. The speaker’s front grille needs to face whoever stands here.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.007",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing marked listening position",
+        "text": "The place to stand for the test. The speaker’s front grille needs to face whoever stands here.",
+        "source_obligations": [
+          "Marked listener position and beam direction remain legible"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "e61cccbc205ea39e9b8612e1440ed1f2f3b7f62ec5ea0e3fb9242b5365626a1a",
+        "speaker_id": "jack",
+        "text_sha256": "f7597d71e359563f7140a89f5651b8d6f4df4c34b0ec2c1238b67c6500719189",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LABEL.008": {
+      "record_id": "P05.LABEL.008",
+      "catalog_source_lines": [
+        8876,
+        8894
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.008",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing milo’s slogan tape",
+        "text": "Milo’s slogan tape",
+        "source_obligations": [
+          "Original boastful slogan tape; no external work reference"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "1a75d4be4b9a50d398450c48994698268fc4f769f760b85dc16be75df49b565d",
+        "speaker_id": "text",
+        "text_sha256": "9ed513235079157d772e93dd2b1cde2c637b203a9be7def8236db72450d484de",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.008": {
+      "record_id": "P05.LOOK.008",
+      "catalog_source_lines": [
+        8895,
+        8917
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.008.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2631,
+            2649
+          ],
+          "text": "Milo saying his own name on a loop. An entire second man, and neither of them listens.",
+          "caption_text": "Milo saying his own name on a loop. An entire second man, and neither of them listens.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.008",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing milo’s slogan tape",
+        "text": "Milo saying his own name on a loop. An entire second man, and neither of them listens.",
+        "source_obligations": [
+          "Original boastful slogan tape; no external work reference"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "1a75d4be4b9a50d398450c48994698268fc4f769f760b85dc16be75df49b565d",
+        "speaker_id": "jack",
+        "text_sha256": "bc4779ebaa12329e19074b1d1c7d5b3c0d53cb29de92b41c48cfe6518f92c0db",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "1dc66e820d21881122048eaff982c517769bc6c4764e42bfc9e68f8c61d4a457",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.DIALOGUE.001": {
+      "record_id": "P05.DIALOGUE.001",
+      "catalog_source_lines": [
+        8918,
+        8936
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.001.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            2650,
+            2660
+          ],
+          "text": "Milo Pennant presents tomorrow, slightly ahead of schedule.",
+          "caption_text": "Milo Pennant presents tomorrow, slightly ahead of schedule.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Milo Pennant",
+        "kind": "dialogue",
+        "trigger": "Milo’s tape plays its existing promotional loop",
+        "text": "Milo Pennant presents tomorrow, slightly ahead of schedule.",
+        "source_obligations": [
+          "Preserve wholly original canonical taped slogan"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "43819d6ee8a0ce3bbeb34d5e1dfa7477dce639a2f22e58e480e4b31b87ac0576",
+        "speaker_id": "milo",
+        "text_sha256": "610dbf0b3386e79e5f1a25419237134c8bc185800d1595e48637f6b5e1b17141",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LABEL.009": {
+      "record_id": "P05.LABEL.009",
+      "catalog_source_lines": [
+        8937,
+        8955
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.009",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing equipment credit slate",
+        "text": "Equipment credit slate",
+        "source_obligations": [
+          "Existing kit slate carries accurate contribution credit"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "e82afccad7616a4b3f2939903893d88a8b69ea033dda400ec309cb8f507201bc",
+        "speaker_id": "text",
+        "text_sha256": "cd12a92b6d9fc0fd5f6e6791316600f1ac09201240672cde3381b8d4a9b7fa2d",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.009": {
+      "record_id": "P05.LOOK.009",
+      "catalog_source_lines": [
+        8956,
+        8978
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.009.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2661,
+            2671
+          ],
+          "text": "An equipment credit slate. There’s room to describe Milo’s actual loan, even with his name on it.",
+          "caption_text": "An equipment credit slate. There’s room to describe Milo’s actual loan, even with his name on it.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.009",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing equipment credit slate",
+        "text": "An equipment credit slate. There’s room to describe Milo’s actual loan, even with his name on it.",
+        "source_obligations": [
+          "Existing kit slate carries accurate contribution credit"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "e82afccad7616a4b3f2939903893d88a8b69ea033dda400ec309cb8f507201bc",
+        "speaker_id": "jack",
+        "text_sha256": "8208a06b3ed4097eed9045d20d540f52a6ca2f51b6bd5b68374a0a534595aec0",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "bd40667769d596f04d6e1217dc6ef466de7082ff4378c14dd8f61717155f834a",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.LABEL.010": {
+      "record_id": "P05.LABEL.010",
+      "catalog_source_lines": [
+        8979,
+        8997
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.LABEL.010",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Interface",
+        "kind": "label",
+        "trigger": "Display name of existing handcart",
+        "text": "Handcart",
+        "source_obligations": [
+          "Handcart belongs to practical loan and remains available after kit moves"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "dc4bdb5c3cfe82b1faedd85f44c6a3708c523c712662886c21739d3ad3fafa7e",
+        "speaker_id": "text",
+        "text_sha256": "bda7cb8b13830837af1f19964bce7ed2964643080fa7a4aee884ae345ca38ef8",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.LOOK.010": {
+      "record_id": "P05.LOOK.010",
+      "catalog_source_lines": [
+        8998,
+        9020
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.LOOK.010.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2672,
+            2682
+          ],
+          "text": "The handcart comes with the loan and stays available after the PA moves. Two wheels, no opening remarks.",
+          "caption_text": "The handcart comes with the loan and stays available after the PA moves. Two wheels, no opening remarks.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.LOOK.010",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "look",
+        "trigger": "Look at existing handcart",
+        "text": "The handcart comes with the loan and stays available after the PA moves. Two wheels, no opening remarks.",
+        "source_obligations": [
+          "Handcart belongs to practical loan and remains available after kit moves"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "dc4bdb5c3cfe82b1faedd85f44c6a3708c523c712662886c21739d3ad3fafa7e",
+        "speaker_id": "jack",
+        "text_sha256": "80e94a54cec8385587a778b01dbadf8ed4123c480ba035a63b59ff04ecdf40ee",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "9d16d7dc456ea0d004dded599b13bedcee696bbfba43219b8af0969840736a72",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.SUCCESS.001": {
+      "record_id": "P05.SUCCESS.001",
+      "catalog_source_lines": [
+        9021,
+        9040
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SUCCESS.001.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2683,
+            2693
+          ],
+          "text": "Three dots to three dots. The microphone is connected.",
+          "caption_text": "Three dots to three dots. The microphone is connected.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.SUCCESS.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "success",
+        "trigger": "Use microphone with matching three-dot MIC socket",
+        "text": "Three dots to three dots. The microphone is connected.",
+        "source_obligations": [
+          "Matching cable connection succeeds without consumption"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:4 (Solution and verbs); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "c6b10ef7fdb25e5489efc3829349b807106493fb69023751bc1c3c7ab05c2e27",
+        "speaker_id": "jack",
+        "text_sha256": "d688006a4a24cd4b8ed5e0daf9266a1ae089a4fb741becee8b4aede111efc1e5",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.SUCCESS.002": {
+      "record_id": "P05.SUCCESS.002",
+      "catalog_source_lines": [
+        9041,
+        9063
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SUCCESS.002.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2694,
+            2712
+          ],
+          "text": "MIC selected. Milo will have to say his own name in person.",
+          "caption_text": "MIC selected. Milo will have to say his own name in person.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.SUCCESS.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "success",
+        "trigger": "Use input selector to choose MIC",
+        "text": "MIC selected. Milo will have to say his own name in person.",
+        "source_obligations": [
+          "Source switches to live microphone"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "3b8384909b70781c9d420925ed9817034e3abf6880be551da49039e52150a3b0",
+        "speaker_id": "jack",
+        "text_sha256": "6e23fbf885f1e7b65759b110b7ab096477c3c428426168c8c7b5b1856d3c857c",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "607fc759d0cf30d58efc6d097066b38165f7371b655d80da793cae41049cd837",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.SUCCESS.003": {
+      "record_id": "P05.SUCCESS.003",
+      "catalog_source_lines": [
+        9064,
+        9083
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SUCCESS.003.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2713,
+            2723
+          ],
+          "text": "The grille faces the listening mark now.",
+          "caption_text": "The grille faces the listening mark now.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.SUCCESS.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "success",
+        "trigger": "Push speaker swivel handle toward marked listener position",
+        "text": "The grille faces the listening mark now.",
+        "source_obligations": [
+          "Speaker direction corrected"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "7fbaf8727a43060c0e4cf75e40648dac4a39f8f95a187852af6b84460338e941",
+        "speaker_id": "jack",
+        "text_sha256": "1378e69dbf7383a9b52c427107199145e87063f5839c5babec03e151805cb73e",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.CHOICE.001": {
+      "record_id": "P05.CHOICE.001",
+      "catalog_source_lines": [
+        9084,
+        9103
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.CHOICE.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "choice",
+        "trigger": "Talk to Bunny to invite her to marked soundcheck position",
+        "text": "Will you stand on the listening mark and tell us whether the words are clear?",
+        "source_obligations": [
+          "Existing Bunny listener invitation asks rather than volunteers her"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "4d9415c2b58aebf50bafbc0e3d6402cd60b90342ce1c17b06d041584d5e7c1ec",
+        "speaker_id": "jack",
+        "text_sha256": "65fa8502b10823723dfed7c1ae2156c531b5c76ad6dc910767549f0492fc90f5",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.DIALOGUE.002": {
+      "record_id": "P05.DIALOGUE.002",
+      "catalog_source_lines": [
+        9104,
+        9140
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.002.01",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2724,
+            2734
+          ],
+          "text": "Yes. I’ll stand on the listening mark and listen for every word.",
+          "caption_text": "Yes. I’ll stand on the listening mark and listen for every word.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.002.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            2735,
+            2745
+          ],
+          "text": "Just one complete sentence.",
+          "caption_text": "Just one complete sentence.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.002.03",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2746,
+            2764
+          ],
+          "text": "Good. I’m not reviewing the whole of tomorrow.",
+          "caption_text": "Good. I’m not reviewing the whole of tomorrow.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.002",
+        "puzzle": "P05",
+        "location": "L01 Shared living room / L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Bunny accepts the existing soundcheck invitation",
+        "text": [
+          {
+            "speaker": "Bunny Easter",
+            "text": "Yes. I’ll stand on the listening mark and listen for every word."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Just one complete sentence."
+          },
+          {
+            "speaker": "Bunny Easter",
+            "text": "Good. I’m not reviewing the whole of tomorrow."
+          }
+        ],
+        "source_obligations": [
+          "Bunny explicitly participates as listener at marked position",
+          "Test uses a complete ordinary sentence"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "b8161ddb4b8911ebdd0b439d32bd9b2c2b12f88a74ef914826aa7d9eb6ae77e9",
+        "speaker_id": "jack",
+        "text_sha256": "087c2f8d44baec4a240317c69fffa70484f3218e52f7db31392cddb47752b4d9",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "97c54bcff6faf71e1700dd5e9a4b7b447cc9de7e277c5c72075bbd753a00f881",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.CHOICE.002": {
+      "record_id": "P05.CHOICE.002",
+      "catalog_source_lines": [
+        9141,
+        9160
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.CHOICE.002",
+        "puzzle": "P05",
+        "location": "L06 Garage scenic boundary / audience apron",
+        "speaker": "Jackie Tree",
+        "kind": "choice",
+        "trigger": "Talk to studio audience from garage scenic boundary about soundcheck",
+        "text": "Could you listen from your marked position while I test the microphone?",
+        "source_obligations": [
+          "Audience alternative is optional and limited to sound clarity"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "aeba34652f4874ef540d226aee312af0ded19da2aa6bc0f07ba210e4ecb89fe2",
+        "speaker_id": "jack",
+        "text_sha256": "01a027322893853994460d8cad21d07b6f1aedf0df1311c6e1565831d5fa8969",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.DIALOGUE.003": {
+      "record_id": "P05.DIALOGUE.003",
+      "catalog_source_lines": [
+        9161,
+        9190
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.003.01",
+          "speaker_id": "audience",
+          "source_lines": [
+            2765,
+            2775
+          ],
+          "text": "Ready.",
+          "caption_text": "Ready.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.003.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            2776,
+            2786
+          ],
+          "text": "I’ll go back to the microphone. Tell me if the whole sentence comes through.",
+          "caption_text": "I’ll go back to the microphone. Tell me if the whole sentence comes through.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.003",
+        "puzzle": "P05",
+        "location": "L06 Garage scenic boundary / audience apron",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Audience agrees to alternative soundcheck from visible seats",
+        "text": [
+          {
+            "speaker": "Audience",
+            "text": "Ready."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "I’ll go back to the microphone. Tell me if the whole sentence comes through."
+          }
+        ],
+        "source_obligations": [
+          "Audience reports audible clarity only",
+          "Jackie returns to perform same practical test"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "6ed87b5f4766031a5102bedb0adf8c671a807ae3c32dfed30f525b03f45e1729",
+        "speaker_id": "jack",
+        "text_sha256": "cac7c635e92668f21fff7f2ea668c1ff2d48c2e92d5f5b33194d31ee1c6ab6de",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.CHOICE.003": {
+      "record_id": "P05.CHOICE.003",
+      "catalog_source_lines": [
+        9191,
+        9210
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.CHOICE.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "choice",
+        "trigger": "Talk to microphone to perform complete-sentence practical soundcheck",
+        "text": "Tonight, eight of us are having supper in the courtyard.",
+        "source_obligations": [
+          "Ordinary full sentence rather than promotional fragment"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "aca6bf8e2af30cca6418adf42d81f7af5e712dbc86bffca8ccb704c45da02d93",
+        "speaker_id": "jack",
+        "text_sha256": "38392afebe30ec42b71985e8edaf3c40863ddb70f70fada729b3b0de6db02675",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.DIALOGUE.004": {
+      "record_id": "P05.DIALOGUE.004",
+      "catalog_source_lines": [
+        9211,
+        9230
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.004.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2787,
+            2805
+          ],
+          "text": "Tonight, eight of us are having supper in the courtyard.",
+          "caption_text": "Tonight, eight of us are having supper in the courtyard.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 2,
+            "beat": "after_line",
+            "canonical_cue_id": "LAF05",
+            "canonical_binding_role": "alternative_to_physical_payoff",
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Perform existing complete-sentence microphone test",
+        "text": "Tonight, eight of us are having supper in the courtyard.",
+        "source_obligations": [
+          "Full ordinary sentence interrupts slogan and makes clarity measurable"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:5 (Result)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "8d2679ec8fb332cd30638acafabb538cf6dff65cc74c60d6d454ce9126f3907c",
+        "speaker_id": "jack",
+        "text_sha256": "38392afebe30ec42b71985e8edaf3c40863ddb70f70fada729b3b0de6db02675",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.SUCCESS.004": {
+      "record_id": "P05.SUCCESS.004",
+      "catalog_source_lines": [
+        9231,
+        9268
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SUCCESS.004.01",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2806,
+            2816
+          ],
+          "text": "Every word was clear. Eight people, supper, courtyard.",
+          "caption_text": "Every word was clear. Eight people, supper, courtyard.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SUCCESS.004.02",
+          "speaker_id": "milo",
+          "source_lines": [
+            2817,
+            2827
+          ],
+          "text": "Clear, balanced, intimate.",
+          "caption_text": "Clear, balanced, intimate.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.SUCCESS.004.03",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2828,
+            2846
+          ],
+          "text": "Yes, Milo. It even works when you aren’t talking.",
+          "caption_text": "Yes, Milo. It even works when you aren’t talking.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 2,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.SUCCESS.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "success",
+        "trigger": "Bunny reports successfully wired and correctly directed soundcheck",
+        "text": [
+          {
+            "speaker": "Bunny Easter",
+            "text": "Every word was clear. Eight people, supper, courtyard."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Clear, balanced, intimate."
+          },
+          {
+            "speaker": "Bunny Easter",
+            "text": "Yes, Milo. It even works when you aren’t talking."
+          }
+        ],
+        "source_obligations": [
+          "Bunny confirms speech clarity",
+          "Useful PA performance earns attention",
+          "PA_TESTED practical criterion"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:5 (Result)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "c76e9f12191a86473654c43abed72aa05506217587cbd94aaa3bb7a58b2c99b2",
+        "speaker_id": "jack",
+        "text_sha256": "1eb14bc506d6f56252953a37e161a9f75bbafeadde21587fddd4a0a7976783fd",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "2259643ff3ea802d5b4f99a0d804a09401ad9c8f5ec76f35e35c738848ee035a",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.SUCCESS.005": {
+      "record_id": "P05.SUCCESS.005",
+      "catalog_source_lines": [
+        9269,
+        9288
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.SUCCESS.005.01",
+          "speaker_id": "audience",
+          "source_lines": [
+            2847,
+            2857
+          ],
+          "text": "Every word was clear.",
+          "caption_text": "Every word was clear.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.SUCCESS.005",
+        "puzzle": "P05",
+        "location": "L06 Garage / audience listening position",
+        "speaker": "Audience",
+        "kind": "success",
+        "trigger": "Audience reports successful optional soundcheck",
+        "text": "Every word was clear.",
+        "source_obligations": [
+          "Audience reports only tested clarity",
+          "Same successful practical result as Bunny route"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "c545cbc02f2da2e71008e016cbe75eab20f4ff6f3ae842c542e1c2bc902fd94c",
+        "speaker_id": "audience",
+        "text_sha256": "085b859dc2d299d62584d07fd0c0d922320e28bb85441f77e4ae96e6a9685c27",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.SYSTEM.001": {
+      "record_id": "P05.SYSTEM.001",
+      "catalog_source_lines": [
+        9289,
+        9308
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.SYSTEM.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Audience response card",
+        "kind": "system",
+        "trigger": "Show caption-matched visual card for successful audience soundcheck",
+        "text": "CLEAR: Every word was clear.",
+        "source_obligations": [
+          "Matching visual response card and caption support non-audio play",
+          "AUD_SOUNDTEST is existing one-time success cue"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "1aab08c6b4ce1a23f23c89c3515bf14d248f57c11e31ad96c26e1bce07712a7f",
+        "speaker_id": "text",
+        "text_sha256": "bc13ceb3038fde6c7a0aacd67600cfd14a1a1d936836f271f475a23569d86c60",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.FAILURE.001": {
+      "record_id": "P05.FAILURE.001",
+      "catalog_source_lines": [
+        9309,
+        9333
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.FAILURE.001.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2858,
+            2876
+          ],
+          "text": "That socket doesn’t fit. The microphone plug has three dots; the MIC socket has the same three dots. I’ll match them rather than try to enlarge Milo’s equipment.",
+          "caption_text": "That socket doesn’t fit. The microphone plug has three dots; the MIC socket has the same three dots. I’ll match them rather than try to enlarge Milo’s equipment.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.FAILURE.001",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "failure",
+        "trigger": "Use microphone plug with wrong existing socket",
+        "text": "That socket doesn’t fit. The microphone plug has three dots; the MIC socket has the same three dots. I’ll match them rather than try to enlarge Milo’s equipment.",
+        "source_obligations": [
+          "Wrong socket does not fit",
+          "Highlight matching icon",
+          "No cable lost"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:6 (Wrong feedback)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "46b211d00f4f582c1be47b40c73321e7da2d549911918089dd6000a55d558dc0",
+        "speaker_id": "jack",
+        "text_sha256": "14ea08a2591298027642b2fcf0012a2960c6082771bcae8dab541817cbb655ce",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "67f03af619b0b5618c75cb742fe15420593671474ed64c14b44746851bc53c11",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.FAILURE.002": {
+      "record_id": "P05.FAILURE.002",
+      "catalog_source_lines": [
+        9334,
+        9370
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.FAILURE.002.01",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2877,
+            2887
+          ],
+          "text": "I can hear a voice, but no clear words. The grille points away from me.",
+          "caption_text": "I can hear a voice, but no clear words. The grille points away from me.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.FAILURE.002.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            2888,
+            2898
+          ],
+          "text": "I’ll turn it toward your listening mark.",
+          "caption_text": "I’ll turn it toward your listening mark.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.FAILURE.002.03",
+          "speaker_id": "bunny",
+          "source_lines": [
+            2899,
+            2917
+          ],
+          "text": "Yes. I’d like to be ignored face-to-face.",
+          "caption_text": "Yes. I’d like to be ignored face-to-face.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.FAILURE.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "failure",
+        "trigger": "Perform soundcheck with correct wiring but speaker facing away from Bunny",
+        "text": [
+          {
+            "speaker": "Bunny Easter",
+            "text": "I can hear a voice, but no clear words. The grille points away from me."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "I’ll turn it toward your listening mark."
+          },
+          {
+            "speaker": "Bunny Easter",
+            "text": "Yes. I’d like to be ignored face-to-face."
+          }
+        ],
+        "source_obligations": [
+          "Give specific direction report rather than generic retry",
+          "Listener outside beam cannot hear clear speech"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:6 (Wrong feedback)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "d6285c2b5fcc289695d4550f2cce4c131fc10fcf4b32e59f8bffa9cf9b72b378",
+        "speaker_id": "jack",
+        "text_sha256": "d3eab90cf21eabf4890e94946307177674b07df9883a76c8c5716526efa553e4",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "2be17813daf7b08eb1f1280c5414bf2435e5675449cc07a4b487450fff7fd8fd",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.FAILURE.003": {
+      "record_id": "P05.FAILURE.003",
+      "catalog_source_lines": [
+        9371,
+        9389
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.FAILURE.003.01",
+          "speaker_id": "audience",
+          "source_lines": [
+            2918,
+            2928
+          ],
+          "text": "We can hear sound, but not clear words. Turn the front grille toward our listening mark.",
+          "caption_text": "We can hear sound, but not clear words. Turn the front grille toward our listening mark.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.FAILURE.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Audience",
+        "kind": "failure",
+        "trigger": "Perform optional audience soundcheck with correct wiring but speaker facing away",
+        "text": "We can hear sound, but not clear words. Turn the front grille toward our listening mark.",
+        "source_obligations": [
+          "Audience gives publicly audible direction feedback only"
+        ],
+        "source_ref": "P05-source.txt:3 (Clues and objects); P05-source.txt:4 (Solution and verbs); P05-source.txt:6 (Wrong feedback)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "aa6e921aa1baefa3df80d17351a78d1f8dcfef6f4f8430ebe1069fe1fcad0bc7",
+        "speaker_id": "audience",
+        "text_sha256": "261b7ddaac87f6c88bf347575f8baf6f4b7f1eb5ac32957bce1adde27fbd4887",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.SYSTEM.002": {
+      "record_id": "P05.SYSTEM.002",
+      "catalog_source_lines": [
+        9390,
+        9408
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.SYSTEM.002",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Audience response card",
+        "kind": "system",
+        "trigger": "Show caption-matched visual card for backward-speaker audience report",
+        "text": "UNCLEAR: Turn the front grille toward our listening mark.",
+        "source_obligations": [
+          "Clarity report also available visually"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:6 (Wrong feedback)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "a8d7082eec1b1f3dc98d93f067594f2ba58a29ba66308732a4a92a0f4d5a0da1",
+        "speaker_id": "text",
+        "text_sha256": "9f9f273b514b9d44663c8f94b633e8d15a9d183c8a27c76ebc2d707b28078f99",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.CHOICE.004": {
+      "record_id": "P05.CHOICE.004",
+      "catalog_source_lines": [
+        9409,
+        9428
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.CHOICE.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "choice",
+        "trigger": "Offer accurate equipment credit on kit slate after practical test",
+        "text": "Sound equipment courtesy of Milo Pennant",
+        "source_obligations": [
+          "Exact accurate credit replaces empty flattery"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "7eec52d60ffaf63f051aa8dc5990b0213346afda82adeee205a77d8f903b9b5f",
+        "speaker_id": "jack",
+        "text_sha256": "d8544a926a9d0fbaa28ddb1a029304341660a5108dac556c87f4ab7a0446728d",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.READ.003": {
+      "record_id": "P05.READ.003",
+      "catalog_source_lines": [
+        9429,
+        9447
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.READ.003",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Slate",
+        "kind": "read",
+        "trigger": "Read agreed credit on equipment slate",
+        "text": "Sound equipment courtesy of Milo Pennant",
+        "source_obligations": [
+          "Exact contribution credited without invented broader sponsorship"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "c4b4ec50da96055326ae87658b96e91f126795dc285c19f086c657f0c7194fdf",
+        "speaker_id": "text",
+        "text_sha256": "d8544a926a9d0fbaa28ddb1a029304341660a5108dac556c87f4ab7a0446728d",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.DIALOGUE.005": {
+      "record_id": "P05.DIALOGUE.005",
+      "catalog_source_lines": [
+        9448,
+        9484
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.005.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            2929,
+            2939
+          ],
+          "text": "“Sound equipment courtesy of Milo Pennant.” Not “A Milo Pennant Evening”?",
+          "caption_text": "“Sound equipment courtesy of Milo Pennant.” Not “A Milo Pennant Evening”?",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.005.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            2940,
+            2950
+          ],
+          "text": "The equipment, Milo. It works. People can hear it.",
+          "caption_text": "The equipment, Milo. It works. People can hear it.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.005.03",
+          "speaker_id": "milo",
+          "source_lines": [
+            2951,
+            2969
+          ],
+          "text": "Very well. Leave my name a decent size.",
+          "caption_text": "Very well. Leave my name a decent size.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 1,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.005",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Milo accepts accurate equipment credit after successful practical test",
+        "text": [
+          {
+            "speaker": "Milo Pennant",
+            "text": "“Sound equipment courtesy of Milo Pennant.” Not “A Milo Pennant Evening”?"
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "The equipment, Milo. It works. People can hear it."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Very well. Leave my name a decent size."
+          }
+        ],
+        "source_obligations": [
+          "Accurate equipment credit accompanies the working test",
+          "Milo retains vanity while accepting bounded contribution"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:5 (Result)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "5622d9d6d92776863314d7b025c6b70d412e6ecf11d40efe6d2b3d120351b8b6",
+        "speaker_id": "jack",
+        "text_sha256": "f0aebdc301f580ce17d38e8da282ac98f26801130196f8d19d130fbcafc13438",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "28fd6b257fd997484db2b6ff11264a24bc30f4685969b126448e745728d23622",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.FAILURE.004": {
+      "record_id": "P05.FAILURE.004",
+      "catalog_source_lines": [
+        9485,
+        9525
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.FAILURE.004.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            2970,
+            2980
+          ],
+          "text": "A man of your standing must have wonderful sound.",
+          "caption_text": "A man of your standing must have wonderful sound.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.FAILURE.004.02",
+          "speaker_id": "milo",
+          "source_lines": [
+            2981,
+            2991
+          ],
+          "text": "Say the first bit again.",
+          "caption_text": "Say the first bit again.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.FAILURE.004.03",
+          "speaker_id": "jack",
+          "source_lines": [
+            2992,
+            3002
+          ],
+          "text": "We still need to test it.",
+          "caption_text": "We still need to test it.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.FAILURE.004.04",
+          "speaker_id": "milo",
+          "source_lines": [
+            3003,
+            3021
+          ],
+          "text": "Of course. I just wanted to hear it once before we found out whether the microphone works.",
+          "caption_text": "Of course. I just wanted to hear it once before we found out whether the microphone works.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 2,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        }
+      ],
+      "record": {
+        "id": "P05.FAILURE.004",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "failure",
+        "trigger": "Attempt to obtain PA loan by flattery without passing soundcheck",
+        "text": [
+          {
+            "speaker": "Jackie Tree",
+            "text": "A man of your standing must have wonderful sound."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Say the first bit again."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "We still need to test it."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Of course. I just wanted to hear it once before we found out whether the microphone works."
+          }
+        ],
+        "source_obligations": [
+          "Flattery alone cannot award kit",
+          "Return to practical soundcheck without new penalty"
+        ],
+        "source_ref": "P05-source.txt:6 (Wrong feedback)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "b1f5f1ead45543c33708e9d60ef5a9ea989eda1c9c30f4e35a6629b1c39d7726",
+        "speaker_id": "jack",
+        "text_sha256": "ce3ee3dee089ee474dbee9cd1553b75641f4313813a6c319143b423b36f0f502",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "c42295b540ea6b17c28796c7cc5e6cfff0c71f06b8c3d28429f4531599453963",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.DIALOGUE.006": {
+      "record_id": "P05.DIALOGUE.006",
+      "catalog_source_lines": [
+        9526,
+        9583
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.006.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            3022,
+            3032
+          ],
+          "text": "Will you greet people for our supper? Eight contributors, food, and a conversation about possible future work. No partnership promises tonight.",
+          "caption_text": "Will you greet people for our supper? Eight contributors, food, and a conversation about possible future work. No partnership promises tonight.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.02",
+          "speaker_id": "milo",
+          "source_lines": [
+            3033,
+            3043
+          ],
+          "text": "No grand launch?",
+          "caption_text": "No grand launch?",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.03",
+          "speaker_id": "jack",
+          "source_lines": [
+            3044,
+            3054
+          ],
+          "text": "Supper.",
+          "caption_text": "Supper.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.04",
+          "speaker_id": "milo",
+          "source_lines": [
+            3055,
+            3065
+          ],
+          "text": "Can I at least announce the opening?",
+          "caption_text": "Can I at least announce the opening?",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.05",
+          "speaker_id": "jack",
+          "source_lines": [
+            3066,
+            3084
+          ],
+          "text": "The front door.",
+          "caption_text": "The front door.",
+          "variants": null,
+          "laugh_opportunity": {
+            "strength": 2,
+            "beat": "after_line",
+            "canonical_cue_id": null,
+            "canonical_binding_role": null,
+            "double_fire_allowed": false,
+            "editorial_only": true,
+            "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+          }
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.06",
+          "speaker_id": "milo",
+          "source_lines": [
+            3085,
+            3095
+          ],
+          "text": "I can make people feel wanted.",
+          "caption_text": "I can make people feel wanted.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.07",
+          "speaker_id": "jack",
+          "source_lines": [
+            3096,
+            3106
+          ],
+          "text": "I know.",
+          "caption_text": "I know.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.006.08",
+          "speaker_id": "milo",
+          "source_lines": [
+            3107,
+            3117
+          ],
+          "text": "All right. I want this one to work.",
+          "caption_text": "All right. I want this one to work.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.006",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Agree Milo’s specific greeter role after successful soundcheck and accurate credit",
+        "text": [
+          {
+            "speaker": "Jackie Tree",
+            "text": "Will you greet people for our supper? Eight contributors, food, and a conversation about possible future work. No partnership promises tonight."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "No grand launch?"
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Supper."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Can I at least announce the opening?"
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "The front door."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "I can make people feel wanted."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "I know."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "All right. I want this one to work."
+          }
+        ],
+        "source_obligations": [
+          "Milo accepts bounded greeter role",
+          "SOUND_READY requires practical test and role agreement",
+          "Accurate event terms remain P02-consistent"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:5 (Result); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "982e68a5378325febecfe56859aad660cd02657e59fcf60611d5fc7b419251dc",
+        "speaker_id": "jack",
+        "text_sha256": "d0e53a1484c2ea1daf4fea76b07e6b7cebd1adc3029ef65bcb9beae445a8da48",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "897a9c92f8fc91eac70e8f859c3d99c90c3a540c9fe098ef0e7a528ed6b33480",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.DIALOGUE.007": {
+      "record_id": "P05.DIALOGUE.007",
+      "catalog_source_lines": [
+        9584,
+        9617
+      ],
+      "speech_units": [
+        {
+          "line_id": "P05.DIALOGUE.007.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            3118,
+            3128
+          ],
+          "text": "The PA and the handcart are yours to use.",
+          "caption_text": "The PA and the handcart are yours to use.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.007.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            3129,
+            3139
+          ],
+          "text": "Thank you. Let’s move the PA to the courtyard.",
+          "caption_text": "Thank you. Let’s move the PA to the courtyard.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "P05.DIALOGUE.007.03",
+          "speaker_id": "milo",
+          "source_lines": [
+            3140,
+            3150
+          ],
+          "text": "I’ll leave the handcart available here. A surprisingly versatile part of the package.",
+          "caption_text": "I’ll leave the handcart available here. A surprisingly versatile part of the package.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "P05.DIALOGUE.007",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Jackie Tree",
+        "kind": "dialogue",
+        "trigger": "Agree on-screen to move working loan kit to courtyard",
+        "text": [
+          {
+            "speaker": "Milo Pennant",
+            "text": "The PA and the handcart are yours to use."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Thank you. Let’s move the PA to the courtyard."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "I’ll leave the handcart available here. A surprisingly versatile part of the package."
+          }
+        ],
+        "source_obligations": [
+          "Loan kit moves automatically to L05 with Jackie’s explicit on-screen agreement",
+          "Handcart stays usable in L06 or marked parking spot"
+        ],
+        "source_ref": "P05-source.txt:4 (Solution and verbs); P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+        "clue_checksum": "a44e6292c341946fb92106507ef041d60d478b9311b75110e251726d804581b8",
+        "speaker_id": "jack",
+        "text_sha256": "81077e5ac735cb74cb02ff406b0c0300c611eb08d83891062412409c72736a6d",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.SUCCESS.006": {
+      "record_id": "P05.SUCCESS.006",
+      "catalog_source_lines": [
+        9618,
+        9639
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.SUCCESS.006",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "System",
+        "kind": "success",
+        "trigger": "Complete P05 practical test and role agreement and VC01_RESOLVED",
+        "text": "Sound checked. Milo’s greeter role agreed. PA moved to the courtyard; handcart available in the garage.",
+        "source_obligations": [
+          "PA_TESTED, MILO_ROLE_AGREED and VC01_RESOLVED set SOUND_READY",
+          "Do not imply cable consumption or audience route required"
+        ],
+        "source_ref": "P05-source.txt:8 (State and recovery)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "d3ec403841958d54d7002a3e78b6ead7abe1659d878ecda720bbc121f7c87cc6",
+        "speaker_id": "text",
+        "text_sha256": "c4dfc1524b3ffcdef2c17da34f417cf9bb3ad4396fcd4566f0a1ea5672d56f91",
+        "dynamic_bindings": {},
+        "authorized_mechanics_extension": true,
+        "extension_source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md"
+      }
+    },
+    "P05.HINT.1": {
+      "record_id": "P05.HINT.1",
+      "catalog_source_lines": [
+        9640,
+        9658
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.HINT.1",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Hint",
+        "kind": "hint",
+        "trigger": "Request hint level 1",
+        "text": "Check which source is playing, then check where the speaker is sending it.",
+        "source_obligations": [
+          "Source and direction are separate requirements"
+        ],
+        "source_ref": "P05-source.txt:7 (Hints)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "2647cc47ce3f701df6aea24bf459b77f0dc36bfa6f52d0639fef936af23b47c1",
+        "speaker_id": "text",
+        "text_sha256": "8fe90f767071931946379e1729d660d1fd04cd679401056b7dffe4c86feaf7a3",
+        "dynamic_bindings": {}
+      }
+    },
+    "P05.HINT.2": {
+      "record_id": "P05.HINT.2",
+      "catalog_source_lines": [
+        9659,
+        9680
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.HINT.2",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Hint",
+        "kind": "hint",
+        "trigger": "Request hint level 2",
+        "text": "TAPE plays the recording; MIC uses the microphone. Match the three-dot plug to the MIC socket, and turn the front grille toward the listener.",
+        "source_obligations": [
+          "Source, connection and direction clues"
+        ],
+        "source_ref": "P05-source.txt:7 (Hints)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "94c64ef829ae69cf5015f65d790c1ce34edd1b2ce81b6fcfbdcc5790b0678637",
+        "speaker_id": "text",
+        "text_sha256": "0fd3b65d27bba706886ab2652a60d7ba26e4f21882c135565462ae08bdf1aba3",
+        "dynamic_bindings": {},
+        "supersedes_text_sha256": "3105145fa20dcebb043c197ba45dc5ee6af66848d0dea2f25eb88a3d34d78f08",
+        "editorial_revision": 2,
+        "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+      }
+    },
+    "P05.HINT.3": {
+      "record_id": "P05.HINT.3",
+      "catalog_source_lines": [
+        9681,
+        9699
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "P05.HINT.3",
+        "puzzle": "P05",
+        "location": "L06 Milo’s garage lounge",
+        "speaker": "Hint",
+        "kind": "hint",
+        "trigger": "Request hint level 3",
+        "text": "Connect the microphone to the matching MIC socket, select MIC, and turn the grille toward Bunny or the invited audience. Test a full sentence, then credit Milo’s equipment and agree his greeter role.",
+        "source_obligations": [
+          "Complete solution with optional equivalent audience route"
+        ],
+        "source_ref": "P05-source.txt:7 (Hints)",
+        "implementation_status": "authored_gdd_not_implemented",
+        "current_text": null,
+        "clue_checksum": "dee54f07ed83506f5f0591a218b39a8eeea77422fa9cbcf5012a286ef7fd8032",
+        "speaker_id": "text",
+        "text_sha256": "7400a47ce009b07f4976c6d3726221308c681f3cfb506efa78f8d6c22dca5e56",
+        "dynamic_bindings": {}
+      }
+    },
+    "VC01.ENTRY": {
+      "record_id": "VC01.ENTRY",
+      "catalog_source_lines": [
+        24812,
+        24843
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.ENTRY.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            7436,
+            7449
+          ],
+          "text": "Let’s settle who gets the spoken flourish. The truthful equipment credit stays exactly as agreed.",
+          "caption_text": "Let’s settle who gets the spoken flourish. The truthful equipment credit stays exactly as agreed.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "VC01.ENTRY.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            7450,
+            7463
+          ],
+          "text": "Only the last word. The soundcheck, loan and greeter job stay agreed.",
+          "caption_text": "Only the last word. The soundcheck, loan and greeter job stay agreed.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "VC01.ENTRY.03",
+          "speaker_id": "milo",
+          "source_lines": [
+            7464,
+            7477
+          ],
+          "text": "Agreed. Practice first, or begin when you’re ready?",
+          "caption_text": "Agreed. Practice first, or begin when you’re ready?",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.ENTRY",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Ensemble",
+        "kind": "dialogue",
+        "trigger": "After P05 soundcheck and truthful loan/role terms",
+        "text": [
+          {
+            "speaker": "Milo Pennant",
+            "text": "Let’s settle who gets the spoken flourish. The truthful equipment credit stays exactly as agreed."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Only the last word. The soundcheck, loan and greeter job stay agreed."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Agreed. Practice first, or begin when you’re ready?"
+          }
+        ],
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Introduce only the canonical narrow stake.",
+          "Practical rewards, truthful credits and personal boundaries are not wagered."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "6d2084ae3ce38d96c5c9079429d92a75f19ec319e13ff8d4057d94f21b81bb87",
+        "text_sha256": "c73a70292db738bff5f39fce0be16100a951fcf663f209cda5e87b74f174ac00"
+      }
+    },
+    "VC01.WIN": {
+      "record_id": "VC01.WIN",
+      "catalog_source_lines": [
+        24844,
+        24872
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.WIN.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            7478,
+            7491
+          ],
+          "text": "I yield. You get the concise introduction.",
+          "caption_text": "I yield. You get the concise introduction.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "VC01.WIN.02",
+          "speaker_id": "jack",
+          "source_lines": [
+            7492,
+            7505
+          ],
+          "text": "Sound equipment courtesy of Milo Pennant. Thank you, Milo.",
+          "caption_text": "Sound equipment courtesy of Milo Pennant. Thank you, Milo.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.WIN",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Ensemble",
+        "kind": "dialogue",
+        "trigger": "Jackie wins this contest or rematch; enact concession immediately",
+        "text": [
+          {
+            "speaker": "Milo Pennant",
+            "text": "I yield. You get the concise introduction."
+          },
+          {
+            "speaker": "Jackie Tree",
+            "text": "Sound equipment courtesy of Milo Pennant. Thank you, Milo."
+          }
+        ],
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "The loser yields the stated narrow matter now.",
+          "Latch VC01_WON and VC01_RESOLVED; latest winner/concession are separate.",
+          "Do not rewrite already-heard lines or reset completed practical tasks."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "e88ee8f7cd9440044fad8d1366270e2d5ab50218bb465ea6e5c79c9fdfe914ce",
+        "text_sha256": "63b9031010c0abacd5487ce912455b2b3ad2c831b060ea67c57a2bdcf3d5951b"
+      }
+    },
+    "VC01.LOSS": {
+      "record_id": "VC01.LOSS",
+      "catalog_source_lines": [
+        24873,
+        24901
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.LOSS.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            7506,
+            7519
+          ],
+          "text": "I yield the last word. A brief, truthful flourish, with the exact equipment credit.",
+          "caption_text": "I yield the last word. A brief, truthful flourish, with the exact equipment credit.",
+          "variants": null,
+          "laugh_opportunity": null
+        },
+        {
+          "line_id": "VC01.LOSS.02",
+          "speaker_id": "milo",
+          "source_lines": [
+            7520,
+            7533
+          ],
+          "text": "Sound equipment courtesy of Milo Pennant. I’m pleased to lend it for tonight’s supper and collaboration trial.",
+          "caption_text": "Sound equipment courtesy of Milo Pennant. I’m pleased to lend it for tonight’s supper and collaboration trial.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.LOSS",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Ensemble",
+        "kind": "dialogue",
+        "trigger": "Opponent wins by points or explicit contest yield; enact concession immediately",
+        "text": [
+          {
+            "speaker": "Jackie Tree",
+            "text": "I yield the last word. A brief, truthful flourish, with the exact equipment credit."
+          },
+          {
+            "speaker": "Milo Pennant",
+            "text": "Sound equipment courtesy of Milo Pennant. I’m pleased to lend it for tonight’s supper and collaboration trial."
+          }
+        ],
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Jackie genuinely yields the stated narrow matter now.",
+          "Latch VC01_RESOLVED, not a new win; retain any win already earned in this timeline.",
+          "Loss leaves learning, items, exploration and rematches available."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "f89cee15d83decd30bc93eca694f826dbead07a39311f68d57bcdc86c2ad5c09",
+        "text_sha256": "10087e6a1ce5930f8e7fdb1614acda7ed4495a359f93104572531497e5d953b9"
+      }
+    },
+    "VC01.REMATCH": {
+      "record_id": "VC01.REMATCH",
+      "catalog_source_lines": [
+        24902,
+        24919
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.REMATCH.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            7534,
+            7547
+          ],
+          "text": "A rematch, on the same narrow terms. We can practice first.",
+          "caption_text": "A rematch, on the same narrow terms. We can practice first.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.REMATCH",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Milo Pennant",
+        "kind": "dialogue",
+        "trigger": "Request another attempt after any concluded result",
+        "text": "A rematch, on the same narrow terms. We can practice first.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Future last-word variants may change; past words and protected facts cannot."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "ce7e4875a27ae32404a571b0058dc945bc17ce2fad761569caa5831c7e8a5800",
+        "text_sha256": "36904939ffe1759cb965a9519cd016ce2bac128a4961d6a874ca7edea9d01ef3"
+      }
+    },
+    "VC01.KO.OPPONENT": {
+      "record_id": "VC01.KO.OPPONENT",
+      "catalog_source_lines": [
+        24920,
+        24940
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.KO.OPPONENT.01",
+          "speaker_id": "milo",
+          "source_lines": [
+            7548,
+            7561
+          ],
+          "text": "Ohhh.",
+          "caption_text": "Ohhh.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.KO.OPPONENT",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Milo Pennant",
+        "kind": "vocalization",
+        "trigger": "Opponent reaches zero composure; authored KO audio slot",
+        "text": "Ohhh.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Social KO groan using existing milo voice profile.",
+          "No injury; commit result before transient presentation; do not replay a consumed result after load."
+        ],
+        "editorial_revision": 3,
+        "speaker_id": "milo",
+        "presentation": "nonlexical_social_ko",
+        "clue_checksum": "ed1788a959604127d4f64ade79e61b98d21ef319e0c933a12fe25d62bc902911",
+        "text_sha256": "479c0a620f8bebb044b0e79b83f093045323b0a28d41895dfa0dd3d6ef65adef"
+      }
+    },
+    "VC01.KO.JACKIE": {
+      "record_id": "VC01.KO.JACKIE",
+      "catalog_source_lines": [
+        24941,
+        24961
+      ],
+      "speech_units": [
+        {
+          "line_id": "VC01.KO.JACKIE.01",
+          "speaker_id": "jack",
+          "source_lines": [
+            7562,
+            7575
+          ],
+          "text": "Ohhh.",
+          "caption_text": "Ohhh.",
+          "variants": null,
+          "laugh_opportunity": null
+        }
+      ],
+      "record": {
+        "id": "VC01.KO.JACKIE",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Jackie Tree",
+        "kind": "vocalization",
+        "trigger": "Jackie loses this contest; authored KO audio slot",
+        "text": "Ohhh.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Social KO groan using existing jack voice profile.",
+          "No injury, item loss or ending failure; save lifecycle prevents duplicate scoring."
+        ],
+        "editorial_revision": 3,
+        "speaker_id": "jack",
+        "presentation": "nonlexical_social_ko",
+        "clue_checksum": "d266fd1924fc57f57333513b4df7c22c30db15714ed11294bb2f893f0dbbe3c6",
+        "text_sha256": "479c0a620f8bebb044b0e79b83f093045323b0a28d41895dfa0dd3d6ef65adef"
+      }
+    },
+    "VC01.STAGE": {
+      "record_id": "VC01.STAGE",
+      "catalog_source_lines": [
+        24962,
+        24982
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "VC01.STAGE",
+        "puzzle": "VC01",
+        "location": "L06",
+        "speaker": "Stage direction",
+        "kind": "stage",
+        "trigger": "Enter the authorized contest presentation",
+        "text": "Jackie and his opponent remain standing, face to face. Willing onlookers gather around them. The room dims around a theatrical spotlight. Meters show names, numbers and composure color. A landed line produces a brief non-contact wince; at zero, show KO and the loser’s social groan before any queued audience response. Restore the underlying room positions on exit.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Presentation only; no weapons, physical attacks, injury, new principal or room.",
+          "Preserve scale, feet, occlusion, hotspots and accessibility.",
+          "Muted play is complete; reduced motion may use still poses."
+        ],
+        "editorial_revision": 3,
+        "presentation": "nonspoken_action_direction",
+        "clue_checksum": "304d9e23b0551251631c7785e7447218afb02042c3aa4100a66e7cf82bcb8f26",
+        "text_sha256": "904a8fff96c7f014ac76defe75141701b5530e4ac008eb08e6a81edf1af30b55"
+      }
+    },
+    "VC01.NOT_READY": {
+      "record_id": "VC01.NOT_READY",
+      "catalog_source_lines": [
+        25656,
+        25673
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "VC01.NOT_READY",
+        "puzzle": "VC01",
+        "location": "Current contest or notebook",
+        "speaker": "Interface",
+        "kind": "system",
+        "trigger": "Attempt to start this contest before its canonical prerequisites",
+        "text": "Finish the soundcheck and agree the truthful loan and greeter role first.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "Block only the stated canonical entry conditions; no new gate or penalty."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "94367c3fc22f65aa8dc34ca34acabfec727d6f0e12c6ee10833f2893dbbeb768",
+        "text_sha256": "8cc79cf93ae66d191ddbca99659481e2b38cc25bbba650cbf9bc88b605fd39a3"
+      }
+    },
+    "VC01.NEED_RESOLUTION": {
+      "record_id": "VC01.NEED_RESOLUTION",
+      "catalog_source_lines": [
+        25674,
+        25691
+      ],
+      "speech_units": [],
+      "record": {
+        "id": "VC01.NEED_RESOLUTION",
+        "puzzle": "VC01",
+        "location": "Current contest or notebook",
+        "speaker": "Interface",
+        "kind": "system",
+        "trigger": "Attempt the readiness/introduction/toast step without this contest resolved",
+        "text": "The soundcheck and role are agreed. Complete one contest attempt with Milo to finish this preparation; either result permits practical progress.",
+        "current_text": null,
+        "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+        "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+        "source_obligations": [
+          "A concluded loss resolves this step; only the final P14 gate requires all four eventual wins."
+        ],
+        "editorial_revision": 3,
+        "clue_checksum": "e82872a492025be45fd1ff9098a512c684c4578e71143bb1c5800194cf62b83f",
+        "text_sha256": "892d627fa7d449893dec50d6a1a3c6890435af8914dcc5ad9a6a7729c80cc61d"
+      }
+    }
+  }
+}

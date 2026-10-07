@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS04_MILO_SHOWY",
+  "resource_id": 107,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS04_MILO_SHOWY.mid",
+  "native_payload_path": "native/reduced/107.sound.bin",
+  "sha256": {
+    "midi": "2f265fb2de45c8dd8ff073a8989f06d6fd4d4bf9ee2b22e4ea0dae1079e381a7",
+    "native": "90448b13ac9d85de23b954637d057ff6acfefc5d7500a3e2494f29569e9b87b3"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

@@ -1,0 +1,101 @@
+{
+  "status": "LOCAL_CANDIDATE_SOUND_ALLOCATIONS_ONLY",
+  "resource_type": {
+    "name": "Sound",
+    "type_id": 4
+  },
+  "sound_ids": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "script_ids": [],
+  "text_ids": [],
+  "new_species": 0,
+  "new_selectors": 0,
+  "checked_maps": [
+    {
+      "path": "inputs/maps/mus11-r2.resource.map",
+      "sha256": "0e96cfbcfcd758918066f0a70afd55a83add566386c97e89d12a88dc5bb9a328",
+      "sound_ids": [],
+      "script_ids": []
+    },
+    {
+      "path": "inputs/maps/p05-host.resource.map",
+      "sha256": "eaba215249039487b5bd562bef4a553d96107b8a3779cf4aa4cf0e8a8e34f178",
+      "sound_ids": [
+        1,
+        2,
+        3,
+        102
+      ],
+      "script_ids": []
+    },
+    {
+      "path": "inputs/maps/p05-native.resource.map",
+      "sha256": "53047fd1126c6a7558e6f354462ea1176cb3e968291c75871ccb843c1f77a4bf",
+      "sound_ids": [
+        1,
+        2,
+        3,
+        102
+      ],
+      "script_ids": [
+        0,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986
+      ]
+    }
+  ],
+  "preserved_full_v4_sound_ids": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "retained_registry": "inputs/registry/retained-registry-subset.json",
+  "limits": "No complete historical registry survives. Coordinator must reserve these typed Sound IDs before a future coherent merge. Script940 is a separate namespace. No live map is changed."
+}

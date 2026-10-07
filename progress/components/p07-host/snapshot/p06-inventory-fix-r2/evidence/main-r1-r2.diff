@@ -1,0 +1,11 @@
+--- candidate1/main.sc
++++ revision2/main.sc
+@@ -11976,7 +11976,7 @@
+     (if (and p04 (p04 qEnabled?) (== index 63))
+         (if (not (p04 qInventory: self))
+             (= p04HostError (p04 qFailure?)) (= uiFailure 10) (= dirty 1) (return 0)))
+-    (return 1))
++    (if (and p06 (== index 63)) (p06 h6Inventory:)) (return 1))
+ 
+     ; Delivered offset0x9040; 35 original instructions
+     (method (p03HostLinePages line &tmp pages)

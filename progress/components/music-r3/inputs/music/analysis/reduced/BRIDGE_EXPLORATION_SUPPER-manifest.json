@@ -1,0 +1,25 @@
+{
+  "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+  "resource_id": 123,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/BRIDGE_EXPLORATION_SUPPER.mid",
+  "native_payload_path": "native/reduced/123.sound.bin",
+  "sha256": {
+    "midi": "c05c8ea68b563464850e43f928be58923c1b7904b59c40593711bd5f23ea9438",
+    "native": "37b1a4e0c005cd4d20d0af17214779ac91cdb61815d0be9ebe96c35bb1d67801"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS07_RESCUE_PRESSURE",
+  "resource_id": 113,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS07_RESCUE_PRESSURE.mid",
+  "native_payload_path": "native/reduced/113.sound.bin",
+  "sha256": {
+    "midi": "a2e7614fb16864f5d3da2106743f9640216c2ce4796684e86c10eb7d3e8feca6",
+    "native": "f0a3dd594bf6d0fd4aff84393f34686e9fbaaffd9d08fbdf1bb89986b645757a"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

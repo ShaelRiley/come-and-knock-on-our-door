@@ -1,0 +1,12 @@
+
+ (if (not hasMoves)
+  (for ((= i 0)) (< i 6) ((++ i)) (if [h8ClothHistory i] (return 0))))
+ (if (and (not (self h8Owns: 22)) hasMoves) (return 0))
+ (if cloth
+  (= a 0) (= b 0) (= c 0)
+  (for ((= i 0)) (< i 64) ((++ i))
+   (if (== (h8Host p04UIItem: i) cloth) (++ a))
+   (if (== (p b8CurrentItem: i) cloth) (++ b))
+   (if (== (q q8CurrentItem: i) cloth) (++ c)))
+  (if (or (!= a expected) (!= b expected) (!= c expected)) (return 0)))
+ (return 1))

@@ -1,0 +1,46 @@
+{
+  "941": {
+    "homeVerify": 1,
+    "homeValidate": 2
+  },
+  "942": {
+    "contestVerify": 1,
+    "contestValidate": 2
+  },
+  "943": {
+    "rbVerify": 0,
+    "rbAdvanceGeneration": 1,
+    "rbCurrent": 2,
+    "rbTransport": 3,
+    "rbStatic": 4,
+    "rbRetire": 5,
+    "rbFail": 6,
+    "rbStartBed": 7,
+    "rbInit": 8,
+    "rbRequest": 9,
+    "rbContext": 10,
+    "rbEvent": 11,
+    "rbHostCommitted": 12,
+    "rbPreference": 13,
+    "rbStartBridge": 14,
+    "rbBridgeRead": 15,
+    "rbBridgePoll": 16,
+    "rbPoll": 17,
+    "rbBeforeChooser": 18,
+    "rbAfterChooser": 19,
+    "rbValidate": 20,
+    "rbRestoreBegin": 21,
+    "rbRestoreResume": 22,
+    "rbStatus": 23,
+    "rbDisable": 24,
+    "rbAvailable": 25,
+    "rbRestoreReject": 26,
+    "rbHomeRequest": 27,
+    "rbUiState": 28,
+    "rbFailed": 29,
+    "rbCanRetry": 30,
+    "rbHostStatus": 31,
+    "rbRetry": 32,
+    "rbDrawStatus": 33
+  }
+}

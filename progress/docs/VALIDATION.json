@@ -1,0 +1,630 @@
+{
+  "component_count": 10,
+  "component_map_sha256": "39e824e8d16d49149c2d5a5f7bce46387fb70b159e62b06726b123d404cd08f7",
+  "current_driver_sha256": "66512d59fd5a6e6ce535085e83e3df851aa6aef3163fbe36a726f85196fc39aa",
+  "edition": "revision2",
+  "expected_output_manifest_sha256": "9271c2997162dca663f80df311df1cc526657cae173e032d5ea4560a8292cee9",
+  "fresh_bounded_test_count": 389,
+  "full_p07_97_case_rerun": false,
+  "integrated_p08_p09_host_acceptance": false,
+  "matched_generated_emitted_outputs": 442,
+  "native_acceptance": false,
+  "p07_historical_audit": "Original97-case source/emitted audit passed before this public-edition packaging; only named fresh phases above were rerun here",
+  "pending": [],
+  "playable_release": false,
+  "remote_publication_performed": false,
+  "resolved_publication_dependency_failure": {
+    "description": "An earlier public-edition run omitted a448-byte orphan-template negative fixture and stopped after11 passes at its first failure. The exact archived fixture was restored and included in the dependency map. A fresh non-resumed22-case run then passed.",
+    "fixture_sha256": "619fd2f1e6d0d4430421c6ccf28d5824cc83746606158b0a96a3f9fe37eaa89b",
+    "old_failed_passes_reused": false
+  },
+  "results": {
+    "courtyard-art": {
+      "actual_build_receipt_sha256": "2e874ff42d976142792a070dfd060437ac4f608016e0bdb65f3b02c18eb898ee",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "src/build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 1.257
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "src/host_fragment.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.025
+        }
+      ],
+      "component_files_sha256": "8b7e1020b23a2bc391e060fff69049ea8e551a9f2bd07c4d10eb566de34ee78c",
+      "fresh_bounded_test_count": 0,
+      "matched_generated_emitted_outputs": 2,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "587bfa95a164851ffb412eb8f7f81e64f91359084332c844560e873d3c750acc",
+      "playable_release": false,
+      "test_phases": [],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "milo-approach": {
+      "actual_build_receipt_sha256": "2794c55c57bd9e8f7adab0116210f300c0612b690d6b3dc8c5750b8bad9353ca",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate_routes.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.031
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "6f4c4b8d9095b46ba15a40aeed9d27235a417533d868678ea32d14ce8ad94ab5",
+          "seconds": 2.676
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "compile_fixture.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "a8331b3b1ed89d187a1c27ff1844461350fa8f3be2609bc36492572af8bf0ffc",
+          "seconds": 1.243
+        }
+      ],
+      "component_files_sha256": "9096500e67ad13ce20234434b4b3df05d4d032471418a1210f745f224c2ce14f",
+      "fresh_bounded_test_count": 6,
+      "matched_generated_emitted_outputs": 20,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "8fad5418ebb2ce1243d0cf03547876b521e68034aaa6dc15fd6c7d0deedc3225",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "8d39f61ad399b35b1f660acfead976877d01c30e248c44cc4e37bcf77f99ae27",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "all",
+          "test_log_sha256": "8252b318b12f486ebd4346a0e3fcc83c1ededd2b428c17e624b52897acc981cf",
+          "tests": 6
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "music-r3": {
+      "actual_build_receipt_sha256": "b3bc854c065dd2941f59981159799c369fdb9c31e0f51687389868cebf368c05",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "6761dc2b6dfc7202a5d0d4a5b133353e980b27aaea25886c373b355b602ee42c",
+          "seconds": 0.409
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "compile.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "dc343e8e9801e06efd9ad5befaac66ee9e6ba8eec5f2b276d0b24d2598cfa032",
+          "seconds": 0.346
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "integrate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "39dce7860502b2ac210714c2002d3404fa7a9594984c08efbf6292dfa09fa94a",
+          "seconds": 2.773
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/stack_audit.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "f791a9e92f95f59c36b6e59c6cdaebfe1b793582bd5e66db5163309d4dc51868",
+          "seconds": 0.141
+        }
+      ],
+      "component_files_sha256": "52b18083c48ab2e40ed35c3e8cfa6ce2172ffcced17c47321cde5b574621584c",
+      "fresh_bounded_test_count": 78,
+      "matched_generated_emitted_outputs": 81,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "5d5f631430916b0f80a1e49849619fa12fb59c083dec580ec7f623e5717d6ce9",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "723074368e24a52d1954e52635d72ca2d9a104c6dd3c7de9df1b452bde421da8",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "all",
+          "test_log_sha256": "2b48e7e72fc10a2e50f3927578eeddc4643e97f98409f7703034505fd74aa689",
+          "tests": 78
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p07-host": {
+      "actual_build_receipt_sha256": "c221d91188a5e21933112bc258df22e9c50b3fe947f3a06cc16f71478ce3520e",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate_routes.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.044
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "6f4c4b8d9095b46ba15a40aeed9d27235a417533d868678ea32d14ce8ad94ab5",
+          "seconds": 2.774
+        }
+      ],
+      "component_files_sha256": "bfb1984da923b0318dea7143f3be5bc7d9885d0706a08c0293b0123a0de7abdc",
+      "fresh_bounded_test_count": 13,
+      "matched_generated_emitted_outputs": 31,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "587bfa95a164851ffb412eb8f7f81e64f91359084332c844560e873d3c750acc",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "c8aa3107b456bfed329af851a46a6035976973e7ae8d6dc54ab6244fa4302640",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "audio",
+          "test_log_sha256": "ba5f4e000287694b78696fe3cc321bd30f7b361dc4918a33fb4d0e6e4d791c8e",
+          "tests": 5
+        },
+        {
+          "receipt_sha256": "4a9014d81c9f878fc9467dd97d8d4edaedaeb18e24d3fb6af1359d98bddb8e70",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "caption",
+          "test_log_sha256": "adc5128c4b8735ffcae2afc7d29bf99b121b01581052e335202f7a3908a5e430",
+          "tests": 8
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p08-domain": {
+      "actual_build_receipt_sha256": "f5afbf949e260cd108267a422c1acc6ed05114a1ca21758b7586a436897293c0",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.071
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "ce807b67dd5896d82efd1ad34b47e4b9c5037e80ba821f7e54b4a8a7bcbf1049",
+          "seconds": 0.161
+        }
+      ],
+      "component_files_sha256": "d7d548c21196c300e3a7a200113f8315ccf851ca9196a3b8c46dda9b41021dac",
+      "fresh_bounded_test_count": 64,
+      "matched_generated_emitted_outputs": 3,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "587bfa95a164851ffb412eb8f7f81e64f91359084332c844560e873d3c750acc",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "8b1d8b7f3f3d0ae214c57a4c3071f7ad2119fba1eea97c8d6872fee54e23d126",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "domain",
+          "test_log_sha256": "88ac3e3a606a3a4537ca5f35b5d1c59704a28631901cacbe50b3f2eb8e86d154",
+          "tests": 13
+        },
+        {
+          "receipt_sha256": "80771ccb95abab3c1227c3c8494df019ecf59a5d1f8913fbf4d864bae8409f13",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "source",
+          "test_log_sha256": "eb99c4c43fcff6c9117478e55fd526e1852a6f6df8b0f4709d9a95f39d1d0b30",
+          "tests": 22
+        },
+        {
+          "receipt_sha256": "7741b5b4a1bd5088e3767f5fec59ced31a94f15983fb941a48daf87433d9be41",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "emitted",
+          "test_log_sha256": "7e84afc97a8f63ce875683e9e2d643b1b216afcbedfcdfe0321f264126d6321b",
+          "tests": 22
+        },
+        {
+          "receipt_sha256": "10ef201fac41adc457692752a4c6b6d8c9a896750ddbd51c290f5457f647a7e8",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "finite",
+          "test_log_sha256": "4672e0be30fa62d0a24ffe5d0d0807f30683520fc866a92a3d3900b5b8c4f566",
+          "tests": 1
+        },
+        {
+          "receipt_sha256": "69bfb80f84914fa9ed94cadd0b5d58caf27f41242b0282df61f5f4e588f3ddb0",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "order",
+          "test_log_sha256": "0d7946f48953da2d1f494174f5a410b4db2f06c30e6ebb512f6c0142e043ed2c",
+          "tests": 6
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p08-host-gate2b2": {
+      "actual_build_receipt_sha256": "af21066ffdfd3a5a445f928399255120cab5ac400916d96184ecfd2587c0f526",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate_routes.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "9c6c4f1001066b1c0192441847cd35cd2b9d904a84766157ebcce3e7773ca267",
+          "seconds": 0.021
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "3ddf4692da646f347eb5ae29ffe3edf6b0e78d9ed405ec21763de2471b5c9d63",
+          "seconds": 3.599
+        }
+      ],
+      "component_files_sha256": "3792d4eb873392c749459f153a0fb676c076cd653e58a53350eb214ff447500f",
+      "fresh_bounded_test_count": 22,
+      "matched_generated_emitted_outputs": 33,
+      "meeting_readiness_e03_acceptance": false,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "39e824e8d16d49149c2d5a5f7bce46387fb70b159e62b06726b123d404cd08f7",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "actual_run_exit_code": 0,
+          "binding_sha256": "81ce8f20be62993eb0902cad4867b05b6d09097f9924cbdf0af0d9cb00285f38",
+          "fresh_without_resume": true,
+          "receipt": "P08-GATE2B2-CASES.json",
+          "receipt_sha256": "b0a86c0718dfe98a0065f0c5c47519c2f1cd501314ad82b3b5d69fb12e1e0097",
+          "required_negative_fixture_sha256": "619fd2f1e6d0d4430421c6ccf28d5824cc83746606158b0a96a3f9fe37eaa89b",
+          "runner_sha256": "dc04616b57beb8ba65839fd3b0caf02f9ddf21feb7874efe51099c14743759f8",
+          "seconds": 760.904,
+          "status": "PASS",
+          "stdout_sha256": "238b7d9276494f1e7099a25f2c670e6d4183b62063dd935d4809c8496e0bc570",
+          "suite": "fresh-original-gate2b2",
+          "test_ids": [
+            "test_transactions.Transactions.test_ack_serial_storage_reserved_before_first_commit",
+            "test_transactions.Transactions.test_atomic_owners_order_moves_and_both_original_padding_variants",
+            "test_transactions.Transactions.test_domain_methods_selectors_and_compiler_budget_preserved",
+            "test_transactions.Transactions.test_native_completed_screen_and_courtyard_plan_keep_distinct_routes",
+            "test_transactions.Transactions.test_output_reservation_failure_aborts_without_publication",
+            "test_transactions.Transactions.test_real_campaign_loss_loss_preparation_and_actor_mapping",
+            "test_transactions.Transactions.test_reentry_and_uncertain_publication_lock_campaign_actions",
+            "test_cloth.Cloth.test_alias_and_preexisting_diagnostics_reject_unchanged",
+            "test_cloth.Cloth.test_carry_across_rooms_wedge_hint_and_later_layout",
+            "test_cloth.Cloth.test_existing_p06_held_props_survive_old_publishers",
+            "test_cloth.Cloth.test_measured_hook_keyboard_two_noun_and_original_cels",
+            "test_cloth.Cloth.test_method_template_guard_rejects_prior_discarded_tail",
+            "test_cloth.Cloth.test_original_take_return_and_all_legacy_publishers",
+            "test_cloth.Cloth.test_post_publication_inventory_mismatch_locks_actions",
+            "test_cloth.Cloth.test_real_early_plan_reservations_remain_valid",
+            "test_cloth.Cloth.test_roster_capacity_and_reservation_fail_before_publication",
+            "test_restore.Restore.test_genuine_early_plan_save_restore_keeps_reservation_holes",
+            "test_restore.Restore.test_mid_restore_actions_and_later_owner_failure_stay_locked",
+            "test_restore.Restore.test_ordinary_save_load_preserves_both_cloth_places",
+            "test_restore.Restore.test_raw_corruption_rejected_before_inventory_publication",
+            "test_restore.Restore.test_save_restore_cancel_failure_and_retry_keep_ownership",
+            "test_restore.Restore.test_unimplemented_host_histories_reject_even_when_domain_valid"
+          ],
+          "tests": 22
+        }
+      ]
+    },
+    "p08-scene": {
+      "actual_build_receipt_sha256": "3b9eadb07b9959e0cc928377159baf851e8169fd191f2aa497c205013a003b6f",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.078
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "ed9220193337f79896bd371cf2bda05ca89f43fba8f544060862e2feb0e81a93",
+          "seconds": 63.228
+        }
+      ],
+      "component_files_sha256": "78f79bc46973486be1ea46507bb04321dbddfb6a86153e19068cbae04be76d98",
+      "fresh_bounded_test_count": 13,
+      "matched_generated_emitted_outputs": 149,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "8fad5418ebb2ce1243d0cf03547876b521e68034aaa6dc15fd6c7d0deedc3225",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "375435107643629a015ac3f2ad6334b5c5c81120da389002dba2b9d7ead660c0",
+          "status": "PASS",
+          "suite": "scene-build-fixed-suite",
+          "test_ids": [
+            "test_scene.SceneTests.test_all1070_old_emitted_pages_and_p07_aliases_remain_exact",
+            "test_scene.SceneTests.test_all_old_tables_text_pcm_sync_and_unrelated_methods_preserved",
+            "test_scene.SceneTests.test_all_pcm_and_sync_reproduce_exactly",
+            "test_scene.SceneTests.test_allocation_enum_identity_separate_transition_and_output_windows",
+            "test_scene.SceneTests.test_canonical_records_characters_words_speakers_and_units",
+            "test_scene.SceneTests.test_current_actor_presence_remains_audible_gate",
+            "test_scene.SceneTests.test_every_new_page_actual_emitted_renderer_graph12_and_geometry",
+            "test_scene.SceneTests.test_every_static_family_and_extended_tail_matches_current_arrays",
+            "test_scene.SceneTests.test_restore_each_document_clears_audio_and_stale_presentation",
+            "test_scene.SceneTests.test_silent_controls_and_exact_eight_profiles",
+            "test_scene.SceneTests.test_source_and_emitted_every_new_page_and_invalid_bounds",
+            "test_scene.SceneTests.test_static_resource_chunk_edges_exact_last_entries",
+            "test_scene.SceneTests.test_unpresented_failed_graph_and_audio_end_skip_never_acknowledge"
+          ],
+          "tests": 13
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p09-domain": {
+      "actual_build_receipt_sha256": "594ceb1e19f41934c17df69d2e30565a46c5fff65eb40e7e95c82e981f4189f9",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "8ffcc43b4e6c76c80d3d791328d76fb85678e5e4a910dd7f720340c13af38895",
+          "seconds": 0.061
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/record_compile_smoke.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "274e5c3a2c8c0c25f465b8b62bbe7b05eb81c3460d6bf66cd38edcd85f901aca",
+          "seconds": 2.089
+        }
+      ],
+      "component_files_sha256": "9b50d567581c048ce51687d91fbd7d1d8a2cf85f689cfd3a728b618b00462ed7",
+      "fresh_bounded_test_count": 132,
+      "matched_generated_emitted_outputs": 5,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "587bfa95a164851ffb412eb8f7f81e64f91359084332c844560e873d3c750acc",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "8222ed2d4c0c0b0c9e8133a33cff9340673935ad3df3d326ecca5697e9912cae",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "codec",
+          "test_log_sha256": "7e774e54ccffd338ffeb3401d1e7650ca4eb364050b178e5f17e5c172e1b6e94",
+          "tests": 21
+        },
+        {
+          "receipt_sha256": "29756130b8fed2aea5b363779e9e153f751ab8f1e7a4b01d7e6a861ea208b13f",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "domain",
+          "test_log_sha256": "1b56d533f229526f83233d14135520f8edcd02aa10e3f0fc50c44fbdd1e1d1ea",
+          "tests": 16
+        },
+        {
+          "receipt_sha256": "dc4ee280dd67f9e32a1faee31bf980ca2cd54cbeebc2926ca8b5701922a218c7",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "state",
+          "test_log_sha256": "4f6cd70aa997e56276807ab83d6e93b737902750ebc91f4a14ae6d8732ae07fc",
+          "tests": 54
+        },
+        {
+          "receipt_sha256": "15c3ec00a02b4aeebaaee1819691fa0f2b83c8fa3fba3b28a557e6900295e443",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "reference",
+          "test_log_sha256": "2a5cbb672de35ae6370ba9e27953a3e3edfaaed9c8f9abec362bb982bb191b09",
+          "tests": 36
+        },
+        {
+          "receipt_sha256": "7442d4dbaa22f8b066880593cad7deb74d9adf275b07e6a9fdd216f237390cfa",
+          "status": "PASS",
+          "suite": "compile-smoke-serial",
+          "tests": 5
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p09-model": {
+      "actual_build_receipt_sha256": "10870fa63961919989d78dd69a69dcb562ddfccf62607d416cb755483cd12bb0",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/generate_fixture.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "8f2dba0d8a75612c9ddc3ee27d0d30059fbd04311e979a03970163e3dbb06a15",
+          "seconds": 0.036
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tools/check_current_authority.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "6d8c79964f59f79253c88703ca1ccb3f53eacaa4dceeb161b64c86c7035bce20",
+          "seconds": 0.1
+        }
+      ],
+      "component_files_sha256": "a1167bf8f28bd51f058a2e2b805cae98da457d52375fc72f2987c65e8a9fd8f2",
+      "fresh_bounded_test_count": 36,
+      "matched_generated_emitted_outputs": 1,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "587bfa95a164851ffb412eb8f7f81e64f91359084332c844560e873d3c750acc",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "91628d9d260a83c6517ca0e4397ca8e34c79854d18827c9a4dc91ad895bbad28",
+          "source_matches_final_component": true,
+          "status": "PASS",
+          "suite": "all",
+          "test_log_sha256": "53be41c84066d26bb02354e0df261f90232e783dd27050824064a9fcf03a3aac",
+          "tests": 36
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    },
+    "p09-scene": {
+      "actual_build_receipt_sha256": "155af665bf24de643fcb58e7d38e22e575e928257f41664a8d4d5cc584b70684",
+      "build_status": "PASS_CLEAN_REPRODUCTION",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.199
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 61.101
+        }
+      ],
+      "component_files_sha256": "29e0ddad1de02db5a7bb02c4077aa649207f07cbebc7f7e431e7cda8a049d6ef",
+      "fresh_bounded_test_count": 25,
+      "matched_generated_emitted_outputs": 117,
+      "native_acceptance": false,
+      "original_execution_map_sha256": "8fad5418ebb2ce1243d0cf03547876b521e68034aaa6dc15fd6c7d0deedc3225",
+      "playable_release": false,
+      "test_phases": [
+        {
+          "receipt_sha256": "a5531ba2e40d3fde9f864d0f57875075234b3a5be88f26ce9fd7e7c3facc143e",
+          "status": "PASS",
+          "suite": "scene-build-fixed-suite",
+          "test_ids": [
+            "test_export.ExportTests.test_all_four_earliest_correction_routes",
+            "test_export.ExportTests.test_all_speech_formats_hashes_finite_sync_and_exact_metadata",
+            "test_export.ExportTests.test_all_twenty_unit_documents_exact_and_independent",
+            "test_export.ExportTests.test_complete_readers_exact_and_fit",
+            "test_export.ExportTests.test_cross_source_unknown_out_of_order_and_typed_ids_rejected",
+            "test_export.ExportTests.test_domain_maps_sources_tokens_and_unsigned_card_exact",
+            "test_export.ExportTests.test_every_canonical_source_character_word_byte_clause_and_speaker",
+            "test_export.ExportTests.test_every_new_page_draws_complete_exact_caption",
+            "test_export.ExportTests.test_extension_rejects_reapply_missing_bank_and_route_collision",
+            "test_export.ExportTests.test_local_original_profiles_reproduce_pcm",
+            "test_export.ExportTests.test_nonspoken_material_stays_silent",
+            "test_export.ExportTests.test_prior_arrays_methods_and_routes_preserved",
+            "test_export.ExportTests.test_protected_inputs_and_resource_hash_unchanged",
+            "test_export.ExportTests.test_restricted_accusation_and_absent_rita",
+            "test_export.ExportTests.test_terms_success_separate_and_success_resumes_elsewhere",
+            "test_export.ExportTests.test_text210_byte_offsets_geometry_and_headers",
+            "test_export.ExportTests.test_view_and_optional_shared_wish_speaker_gates",
+            "test_export.ExportTests.test_voice_uses921_and_muted_clock911_after_visible_barrier",
+            "test_export.ExportTests.test_whole_record_needs_all_pages_and_exact_lease",
+            "test_current.CurrentTests.test_every1191_emitted_page_and_all1140_route_counts",
+            "test_current.CurrentTests.test_every_new_emitted_caption_graph12_and_audio_visible_barrier",
+            "test_current.CurrentTests.test_exact_predecessor_admission_for_each_array_and_method",
+            "test_current.CurrentTests.test_scope_and_current_array_gaps",
+            "test_current.CurrentTests.test_static_integrity_families_and_corrupt_old_and_new_words",
+            "test_current.CurrentTests.test_two_complete_emitted_readers_and_invalid_bounds"
+          ],
+          "tests": 25
+        }
+      ],
+      "validation_reuse": "Exact unchanged source/input file map and expected output set reverified for revision2; prior completed task execution retained without rerun"
+    }
+  },
+  "schema": 1,
+  "source_revalidation": "Nine component source/input maps and expected outputs remain byte-identical to the sealed prior edition. Their completed task validations are retained. Corrected P08 host has a clean compile and a fresh original22-case execution; no passes from its failed earlier run were reused.",
+  "status": "PASS_CORRECTED_PUBLIC_EDITION_REPRODUCTION",
+  "unchanged_components": [
+    "courtyard-art",
+    "milo-approach",
+    "music-r3",
+    "p07-host",
+    "p08-domain",
+    "p08-scene",
+    "p09-domain",
+    "p09-model",
+    "p09-scene"
+  ]
+}

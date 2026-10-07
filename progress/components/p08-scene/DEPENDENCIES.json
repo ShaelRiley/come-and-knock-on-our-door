@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "component_rebuild_external_project_archives": [],
+  "runtime": "Python3 standard library, Linux x86_64 libstdc++,libm,libgcc_s,libc,ELF loader",
+  "included_compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+  "optional_compiler_source": {
+    "file_name": "cakood-p07-rebuild-source.zip",
+    "bytes": 43773494,
+    "sha256": "81befeaa241c597f31b14330703d2df55f28846b44279c7402815fbb97c0899f",
+    "source_manifest_sha256": "dfb78557a9b270d9272f8052d2fe08a7c2eb21a55fce239255126eeb202ced4b"
+  },
+  "future_playable_staging_requires": {
+    "file_name": "cakood-p07-private-candidate.zip",
+    "bytes": 78784481,
+    "sha256": "8363e75eba9df20808f134d94b3acdb250e29996c42eb9a101a226a4b91e43da",
+    "game_manifest_sha256": "6191a58d85eeeaef27a3e9d8c2ec1e6e6e99aa3daf9387a942ab9c90dd20b8ca",
+    "pcm_sync_files": 946,
+    "all_game_files": 948,
+    "stock_scummvm_sci11_required": true,
+    "native_runtime_validation": false
+  },
+  "native_acceptance": false
+}

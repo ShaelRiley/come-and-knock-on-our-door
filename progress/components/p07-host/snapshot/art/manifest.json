@@ -1,0 +1,777 @@
+{
+  "schema": 1,
+  "classification": "NEW additive P07 native-palette art; not a playable game",
+  "resources": {
+    "233": {
+      "type": 0,
+      "number": 233,
+      "bytes": 2635,
+      "sha256": "478ed559f235d694061155acdcb647cb0b0501dc9318e59a0dd45cfae8ac69ef"
+    },
+    "234": {
+      "type": 0,
+      "number": 234,
+      "bytes": 4924,
+      "sha256": "aa0af828bcaadcc16d87beba9665e2d463d8357cf1e164cb3eb3ef4ee102b6d1"
+    },
+    "235": {
+      "type": 0,
+      "number": 235,
+      "bytes": 28846,
+      "sha256": "6623a497b9bf13d2d34e76cabe86395a1a276ae81a2a5630fdef17cd2617ba2c"
+    }
+  },
+  "cels": {
+    "clean-stove-plate": {
+      "name": "clean-stove-plate",
+      "view": 233,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/233-00-00-clean-stove-plate.png",
+      "size": [
+        14,
+        13
+      ],
+      "origin": [
+        68,
+        67
+      ],
+      "semantic": null,
+      "state": "P07 layer enabled, including after P13 transfer",
+      "opaque_bounds_local": [
+        0,
+        0,
+        14,
+        13
+      ],
+      "opaque_bounds_world": [
+        68,
+        67,
+        82,
+        80
+      ],
+      "opaque_pixels": 182,
+      "indices_sha256": "5d4701f7b41a3eb8f72bdc9d15c14dc8e58a4b0c3b13718bbed3ed0a9f8cf87a"
+    },
+    "bean-tomato-base": {
+      "name": "bean-tomato-base",
+      "view": 233,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/233-00-01-bean-tomato-base.png",
+      "size": [
+        20,
+        12
+      ],
+      "origin": [
+        95,
+        69
+      ],
+      "semantic": "bean_tomato_base",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "opaque_bounds_world": [
+        95,
+        69,
+        115,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "bdd364efd34de896a0d4875f797f2ab5169364fede1ac7e342f8dd583fc05544"
+    },
+    "vegetable-bowl": {
+      "name": "vegetable-bowl",
+      "view": 233,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/233-00-02-vegetable-bowl.png",
+      "size": [
+        20,
+        12
+      ],
+      "origin": [
+        120,
+        69
+      ],
+      "semantic": "vegetable_bowl",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "opaque_bounds_world": [
+        120,
+        69,
+        140,
+        81
+      ],
+      "opaque_pixels": 172,
+      "indices_sha256": "37929d397d2cbdaa31092552541c4e25ab689b24aff2609246608a0003687985"
+    },
+    "stock-bottle": {
+      "name": "stock-bottle",
+      "view": 233,
+      "loop": 0,
+      "cel": 3,
+      "source": "indexed-cels/233-00-03-stock-bottle.png",
+      "size": [
+        11,
+        18
+      ],
+      "origin": [
+        49,
+        60
+      ],
+      "semantic": "stock_bottle",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        11,
+        18
+      ],
+      "opaque_bounds_world": [
+        49,
+        60,
+        60,
+        78
+      ],
+      "opaque_pixels": 140,
+      "indices_sha256": "999d1534c9329956f4aaf3a4c0e15e7d3dcdae66b4e591325df73c53bfd1663f"
+    },
+    "herb-sachet": {
+      "name": "herb-sachet",
+      "view": 233,
+      "loop": 0,
+      "cel": 4,
+      "source": "indexed-cels/233-00-04-herb-sachet.png",
+      "size": [
+        12,
+        16
+      ],
+      "origin": [
+        147,
+        64
+      ],
+      "semantic": "herb_sachet",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        12,
+        16
+      ],
+      "opaque_bounds_world": [
+        147,
+        64,
+        159,
+        80
+      ],
+      "opaque_pixels": 160,
+      "indices_sha256": "34a0ff0e32e8d2e296522a84815acd658ece2162c62b455c1eae50de3efa3fe2"
+    },
+    "jug-empty": {
+      "name": "jug-empty",
+      "view": 233,
+      "loop": 0,
+      "cel": 5,
+      "source": "indexed-cels/233-00-05-jug-empty.png",
+      "size": [
+        17,
+        16
+      ],
+      "origin": [
+        166,
+        65
+      ],
+      "semantic": "measuring_jug",
+      "state": "empty_jug",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        16
+      ],
+      "opaque_bounds_world": [
+        166,
+        65,
+        183,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "6c71ae9c224e3f35f5b0b33c6d6062f9d0204fec868c9082ceaa85167fb9a422"
+    },
+    "jug-measured-eight": {
+      "name": "jug-measured-eight",
+      "view": 233,
+      "loop": 0,
+      "cel": 6,
+      "source": "indexed-cels/233-00-06-jug-measured-eight.png",
+      "size": [
+        17,
+        16
+      ],
+      "origin": [
+        166,
+        65
+      ],
+      "semantic": "measuring_jug",
+      "state": "measured_eight",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        16
+      ],
+      "opaque_bounds_world": [
+        166,
+        65,
+        183,
+        81
+      ],
+      "opaque_pixels": 179,
+      "indices_sha256": "ca3884574c7024482725718e8f60fae6fa1cd9e756a27c0e2a78ee7af082c04e"
+    },
+    "lid-beside": {
+      "name": "lid-beside",
+      "view": 233,
+      "loop": 0,
+      "cel": 7,
+      "source": "indexed-cels/233-00-07-lid-beside.png",
+      "size": [
+        17,
+        7
+      ],
+      "origin": [
+        46,
+        78
+      ],
+      "semantic": "pot_lid",
+      "state": "beside_hotpot",
+      "opaque_bounds_local": [
+        0,
+        0,
+        17,
+        7
+      ],
+      "opaque_bounds_world": [
+        46,
+        78,
+        63,
+        85
+      ],
+      "opaque_pixels": 73,
+      "indices_sha256": "1c39d12169f9bc355a5623904f199196cd606cbe9d99b6f4ff4d8d7854fa9e26"
+    },
+    "recipe-margin": {
+      "name": "recipe-margin",
+      "view": 233,
+      "loop": 0,
+      "cel": 8,
+      "source": "indexed-cels/233-00-08-recipe-margin.png",
+      "size": [
+        23,
+        20
+      ],
+      "origin": [
+        159,
+        44
+      ],
+      "semantic": "hotpot_recipe",
+      "state": "always",
+      "opaque_bounds_local": [
+        0,
+        0,
+        23,
+        20
+      ],
+      "opaque_bounds_world": [
+        159,
+        44,
+        182,
+        64
+      ],
+      "opaque_pixels": 389,
+      "indices_sha256": "38f4512f5c41e3cb8bd78f4d2fd70a01501a50e8ef1b19110de2fc0326fc50fe"
+    },
+    "stove-heat-on": {
+      "name": "stove-heat-on",
+      "view": 233,
+      "loop": 0,
+      "cel": 9,
+      "source": "indexed-cels/233-00-09-stove-heat-on.png",
+      "size": [
+        22,
+        3
+      ],
+      "origin": [
+        67,
+        79
+      ],
+      "semantic": "stove",
+      "state": "heat_on",
+      "opaque_bounds_local": [
+        2,
+        0,
+        20,
+        3
+      ],
+      "opaque_bounds_world": [
+        69,
+        79,
+        87,
+        82
+      ],
+      "opaque_pixels": 20,
+      "indices_sha256": "6d8cf803d13447a35142f46d454abcb28fd221bd1bb0f0d5281b4f73766b7088"
+    },
+    "pot-empty": {
+      "name": "pot-empty",
+      "view": 234,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/234-00-00-pot-empty.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "empty",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "ee3fbad44908bde49af5a61f7da53505f453d87f66b298876e936bacf1b1e07b"
+    },
+    "pot-stock-only": {
+      "name": "pot-stock-only",
+      "view": 234,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/234-00-01-pot-stock-only.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "stock-only",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "c3e087aa27637759601087fd2de42c9ecd1082ab7e550ae04eee9b5d87082f5c"
+    },
+    "pot-base-only": {
+      "name": "pot-base-only",
+      "view": 234,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/234-00-02-pot-base-only.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-only",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "d5b3d1a0e988098e1e57a5f7b5430a05350a568392fb48fb2c142b14081986d5"
+    },
+    "pot-base-stock": {
+      "name": "pot-base-stock",
+      "view": 234,
+      "loop": 0,
+      "cel": 3,
+      "source": "indexed-cels/234-00-03-pot-base-stock.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-stock",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "24a185c67ace2aa2c3b91cf289c75dca3008899ab897b117aa37b1497041b449"
+    },
+    "pot-base-vegetables": {
+      "name": "pot-base-vegetables",
+      "view": 234,
+      "loop": 0,
+      "cel": 4,
+      "source": "indexed-cels/234-00-04-pot-base-vegetables.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "base-vegetables",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f50fef79d6eb905a0e76eae711aea786564628e20714998d3c63fa6d4431c8b7"
+    },
+    "pot-prepped": {
+      "name": "pot-prepped",
+      "view": 234,
+      "loop": 0,
+      "cel": 5,
+      "source": "indexed-cels/234-00-05-pot-prepped.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "prepped",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "bc7f34e29d261f03bd5b12b99775519cb55b734f90e4f2db752d7a6b99e3669a"
+    },
+    "pot-cooked-heated": {
+      "name": "pot-cooked-heated",
+      "view": 234,
+      "loop": 0,
+      "cel": 6,
+      "source": "indexed-cels/234-00-06-pot-cooked-heated.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "cooked-heated",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f9289695b87c979bf8ed996e732da6906a37a92161d70528937767e1c3f20387"
+    },
+    "pot-cooked-off-heat": {
+      "name": "pot-cooked-off-heat",
+      "view": 234,
+      "loop": 0,
+      "cel": 7,
+      "source": "indexed-cels/234-00-07-pot-cooked-off-heat.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "cooked-off-heat",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "f9289695b87c979bf8ed996e732da6906a37a92161d70528937767e1c3f20387"
+    },
+    "pot-herbed": {
+      "name": "pot-herbed",
+      "view": 234,
+      "loop": 0,
+      "cel": 8,
+      "source": "indexed-cels/234-00-08-pot-herbed.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "herbed",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 303,
+      "indices_sha256": "69060ec54650d5f1cf91533ea34aad5481440057bf7d54b5e463a1c7f5318182"
+    },
+    "pot-lidded-ready": {
+      "name": "pot-lidded-ready",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "source": "indexed-cels/234-00-09-pot-lidded-ready.png",
+      "size": [
+        29,
+        15
+      ],
+      "origin": [
+        63,
+        65
+      ],
+      "semantic": "hotpot_pot",
+      "state": "lidded-ready",
+      "opaque_bounds_local": [
+        0,
+        0,
+        29,
+        15
+      ],
+      "opaque_bounds_world": [
+        63,
+        65,
+        92,
+        80
+      ],
+      "opaque_pixels": 304,
+      "indices_sha256": "2679b8005aa3cb25bd94b24b022cd9aedd10a0b71e3a5868ae585384d1680a5d"
+    },
+    "steam-cooked-heated": {
+      "name": "steam-cooked-heated",
+      "view": 234,
+      "loop": 0,
+      "cel": 10,
+      "source": "indexed-cels/234-00-10-steam-cooked-heated.png",
+      "size": [
+        24,
+        6
+      ],
+      "origin": [
+        66,
+        59
+      ],
+      "semantic": null,
+      "state": "cooked and heat_on; static no timer",
+      "opaque_bounds_local": [
+        4,
+        1,
+        20,
+        6
+      ],
+      "opaque_bounds_world": [
+        70,
+        60,
+        86,
+        65
+      ],
+      "opaque_pixels": 15,
+      "indices_sha256": "43a7dec3261f4ceb7e2232439384c8e1146e84e8194e682b903249f8fb8f4fca"
+    },
+    "recipe-exact-detail": {
+      "name": "recipe-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 0,
+      "source": "indexed-cels/235-00-00-recipe-exact-detail.png",
+      "size": [
+        288,
+        80
+      ],
+      "origin": [
+        16,
+        48
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        288,
+        80
+      ],
+      "opaque_bounds_world": [
+        16,
+        48,
+        304,
+        128
+      ],
+      "opaque_pixels": 23040,
+      "indices_sha256": "b387f8a7cb36f500ae9e47f0c9bb65870459211f25a3773eee8971335d8cf617"
+    },
+    "jug-mark-exact-detail": {
+      "name": "jug-mark-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 1,
+      "source": "indexed-cels/235-00-01-jug-mark-exact-detail.png",
+      "size": [
+        112,
+        24
+      ],
+      "origin": [
+        104,
+        65
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        112,
+        24
+      ],
+      "opaque_bounds_world": [
+        104,
+        65,
+        216,
+        89
+      ],
+      "opaque_pixels": 2688,
+      "indices_sha256": "1491453839b4c9834b62f014e62d182c5db298ef781856bb8b7a00df4bd834f5"
+    },
+    "herb-label-exact-detail": {
+      "name": "herb-label-exact-detail",
+      "view": 235,
+      "loop": 0,
+      "cel": 2,
+      "source": "indexed-cels/235-00-02-herb-label-exact-detail.png",
+      "size": [
+        124,
+        24
+      ],
+      "origin": [
+        104,
+        65
+      ],
+      "semantic": null,
+      "state": "explicit inspection artwork, not source acknowledgment",
+      "opaque_bounds_local": [
+        0,
+        0,
+        124,
+        24
+      ],
+      "opaque_bounds_world": [
+        104,
+        65,
+        228,
+        89
+      ],
+      "opaque_pixels": 2976,
+      "indices_sha256": "84e861a5686b35cf841915aace057e1d7898aa5c43481f03e5451a8ec84b8290"
+    }
+  },
+  "dependencies": {
+    "palette999": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+    "font0": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+    "kitchen300": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2"
+  },
+  "resource_policy": "view233\u2013235 only; no script/heap/vocab/map merge into game",
+  "native_acceptance": false
+}

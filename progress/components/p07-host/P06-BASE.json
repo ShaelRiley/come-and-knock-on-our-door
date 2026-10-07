@@ -1,0 +1,24 @@
+{
+  "status": "IMPORTED_IMMUTABLE_SOURCE_CANDIDATE",
+  "handoff_seal_sha256": "a2bc8b94db0c2e4d4a4807efced51ff055b42f2b164c7de944d24cd0cce43c74",
+  "upstream_status": "FROZEN_SOURCE_CANDIDATE_PENDING_FINAL_QA",
+  "upstream_compile_sha256": "34299df874d65a0fb0db912cdd1d3b74840f9439e087a635e4d955ee23de27e7",
+  "native_acceptance": false,
+  "applied_guarded_deltas": [
+    {
+      "seal_sha256": "76fd9a6d84013aae5ded12b4117ebf6822ba7f9172ea8d56351add4e4802b8bc",
+      "before_main_sha256": "4058298dc9f1cfafa4d4cf655e0236d9dd1f9810a73e653ffa677fb88f98284a",
+      "after_main_sha256": "e3b5fce42c97d3125b93de2a127072ae0b9bc00e8b7691a00f0c30e9e9e919c9",
+      "compile_receipt_sha256": "000ee8737deed3ec47a919b64858ad704af60d5d26955ced48fe1ccc62903867",
+      "full_revision2_qa": "pending"
+    },
+    {
+      "seal_sha256": "508234a816fa0f1e4b0cd793224eb727fa6074670093632f55b68faa22a87726",
+      "before_module987_sha256": "439e25743f14a1a277a7e064e184a113981dff6da985c86b58169ccb4b30d5af",
+      "after_module987_sha256": "9384e6f9a31799dd1f69756c483d207537c16c462754fe57bc5d829bd69f21e3",
+      "compile_receipt_sha256": "628117379862d95a273c1bfd7525d65c1d586151a10042eff1a75ee9d9a130ba",
+      "focused_source_emitted_cases": 18,
+      "combined_acceptance": false
+    }
+  ]
+}

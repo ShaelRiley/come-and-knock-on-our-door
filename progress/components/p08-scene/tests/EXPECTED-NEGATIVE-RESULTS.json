@@ -1,0 +1,104 @@
+{
+  "changed_generator": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Source inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_catalog": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Source inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_pcm": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_sync": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_emitted982": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_packed_fixture": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "changed_static244": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "missing_helper": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Source inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "missing_text": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "extra_output": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output inventory/hash mismatch",
+    "stale_pass_cleared": true
+  },
+  "mismatched_output_seal": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Output belongs to another source seal",
+    "stale_pass_cleared": true
+  },
+  "optimized-O": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Optimized Python forbidden",
+    "stale_pass_cleared": true
+  },
+  "optimized-OO": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Optimized Python forbidden",
+    "stale_pass_cleared": true
+  },
+  "suite_empty": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Exact test inventory mismatch",
+    "stale_pass_cleared": true
+  },
+  "suite_extra": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Exact test inventory mismatch",
+    "stale_pass_cleared": true
+  },
+  "suite_all_skipped": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Non-exact clean test result",
+    "stale_pass_cleared": true
+  },
+  "suite_all_expected_failure": {
+    "returncode": 1,
+    "clean_baseline_verified": true,
+    "rejection": "Non-exact clean test result",
+    "stale_pass_cleared": true
+  }
+}

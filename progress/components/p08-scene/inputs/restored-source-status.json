@@ -1,0 +1,51 @@
+{
+  "status": "RECONSTRUCTED_SOURCE_ONLY_NOT_REVERIFIED",
+  "restored_checkpoint_sha256": "53f0229668ee146762ec2df58eff438d3033110436aa0880481bce407ce55dec",
+  "verified_archive_members": 115,
+  "restored_source_kinds": [
+    "generator",
+    "extender",
+    "compiler_driver",
+    "canonical_and_baseline_inputs",
+    "renderer",
+    "relevant_tools"
+  ],
+  "pending_reconstruction": [],
+  "heavy_execution_paused": true,
+  "historical_compile_proof": "inputs/historical-initial-gate/compile-proof.json belongs to the pre-reset initial implementation gate only",
+  "native_acceptance": false,
+  "source_syntax_checked": [
+    "generate.py",
+    "extend.py",
+    "run.py",
+    "build.py",
+    "tools/negative_probes.py",
+    "tools/sound_stop_mock.py",
+    "tools/pack.py",
+    "tools/resource_decode.py",
+    "tools/review_regressions.py",
+    "tools/portable_verify.py",
+    "tools/host_vm.py",
+    "tools/resource_codec.py",
+    "tools/boolean_audit.py",
+    "tools/extract_sci11.py",
+    "tools/generate_static_guards.py",
+    "tools/source_tools.py",
+    "tests/scene_base_vm.py",
+    "tests/scene_vm.py",
+    "tests/run_suite.py",
+    "tests/host.py",
+    "tests/test_scene.py"
+  ],
+  "fixed_test_membership": 13,
+  "pending_verification": [
+    "full regeneration",
+    "coherent baseline and extended ten-module compile",
+    "13 fixed source/emitted cases",
+    "source-only relocation",
+    "17 negative acceptance cases",
+    "21 packaging regressions",
+    "exact inventory package validation"
+  ],
+  "notice": "This is the source reconstruction checkpoint status, not future runtime or package acceptance. It must be archived as historical input before a final accepted component is packaged."
+}

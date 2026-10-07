@@ -1,0 +1,15 @@
+{
+  "status": "PASS_GUARDED_SOURCE_TRANSFORM",
+  "input_sha256": "0533b604ce03f416384c6bb31d3e033077c96c40fbc67ed9d44c82027f05b8e6",
+  "output_sha256": "bf77821651a56cd1429b8bd99ff85a36b04931ac8679d0ec753aae330f37b608",
+  "exact_accepted_main": true,
+  "before_walk_sha256": "2285e0ebb3815834bc166d40860e299556b83ce7e7cfd70917ef2c5f27766024",
+  "after_walk_sha256": "e3969782b1eca5bd363b80d3a463c2a70bb481efa1cc2f0963f559e510511820",
+  "changed_methods": [
+    "walk"
+  ],
+  "new_persistent_state": false,
+  "new_selectors": false,
+  "new_text_or_voice_resources": false,
+  "native_acceptance": false
+}

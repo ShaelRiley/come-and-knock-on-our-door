@@ -1,0 +1,82 @@
+[
+  {
+    "source": 102,
+    "target": 140,
+    "status": "PROPOSED_OFFLINE_FADE_ENTRY_NOT_NATIVE_OR_LISTENING_ACCEPTED",
+    "source_loop": {
+      "start_tick": 12,
+      "end_tick": 4255,
+      "natural_key_release_before_end_ticks": 11
+    },
+    "target_loop": {
+      "start_tick": 12,
+      "end_tick": 3972,
+      "natural_key_release_before_end_ticks": 12
+    },
+    "fade_candidate": {
+      "start_tick": 4126,
+      "end_tick": 4246,
+      "formula": "floor(current user whole-Sound target * remaining_ticks / authored_turnaround_fade_ticks)",
+      "cancellation": "Return toward current user target through existing bounded positive-gain ramp; never restart the outgoing parser"
+    },
+    "retire_key_window": [
+      4246,
+      4248
+    ],
+    "next_native_event_tick": 4255,
+    "target_initial_guard": {
+      "cue": 1,
+      "guard_tick": 6,
+      "attack_tick": 12,
+      "loop_origin_tick": 12,
+      "metadata_basis": "Actual earliest exported note attack; section markers are not global safe gates"
+    },
+    "dispatch": "Same host transaction only after genuine musical transition review: validate request generation and current domain identity; outgoing own gain zero; stop+dispose outgoing parser; replace sole owner slot; initialize target parser; target uses its own tick6\u20138 controller guard before authored attack12. No invented sleep or global channel reset. If guard is missed, keep silent and use bounded recovery, reporting required-family availability.",
+    "release_tail_proven": false,
+    "native_allocator_proven": false,
+    "musical_compatibility_proven": false,
+    "musical_review": "102 closes F-major-family;140 enters F-minor-family at120 BPM instead of112. Evaluate this phrase-ending fade against a separately authored source-derived C7-to-Fminor lead-in; preserve all38 originals. For reverse, evaluate C7-to-Fmajor at112. Do not label key silence as release/reverb silence. No production activation until chosen transition passes review.",
+    "no_forced_note_off_before_authored_release": true,
+    "no_fixed_dialogue_duration": true
+  },
+  {
+    "source": 140,
+    "target": 102,
+    "status": "PROPOSED_OFFLINE_FADE_ENTRY_NOT_NATIVE_OR_LISTENING_ACCEPTED",
+    "source_loop": {
+      "start_tick": 12,
+      "end_tick": 3972,
+      "natural_key_release_before_end_ticks": 12
+    },
+    "target_loop": {
+      "start_tick": 12,
+      "end_tick": 4255,
+      "natural_key_release_before_end_ticks": 11
+    },
+    "fade_candidate": {
+      "start_tick": 3852,
+      "end_tick": 3962,
+      "formula": "floor(current user whole-Sound target * remaining_ticks / authored_turnaround_fade_ticks)",
+      "cancellation": "Return toward current user target through existing bounded positive-gain ramp; never restart the outgoing parser"
+    },
+    "retire_key_window": [
+      3962,
+      3964
+    ],
+    "next_native_event_tick": 3972,
+    "target_initial_guard": {
+      "cue": 1,
+      "guard_tick": 6,
+      "attack_tick": 12,
+      "loop_origin_tick": 12,
+      "metadata_basis": "Actual earliest exported note attack; section markers are not global safe gates"
+    },
+    "dispatch": "Same host transaction only after genuine musical transition review: validate request generation and current domain identity; outgoing own gain zero; stop+dispose outgoing parser; replace sole owner slot; initialize target parser; target uses its own tick6\u20138 controller guard before authored attack12. No invented sleep or global channel reset. If guard is missed, keep silent and use bounded recovery, reporting required-family availability.",
+    "release_tail_proven": false,
+    "native_allocator_proven": false,
+    "musical_compatibility_proven": false,
+    "musical_review": "102 closes F-major-family;140 enters F-minor-family at120 BPM instead of112. Evaluate this phrase-ending fade against a separately authored source-derived C7-to-Fminor lead-in; preserve all38 originals. For reverse, evaluate C7-to-Fmajor at112. Do not label key silence as release/reverb silence. No production activation until chosen transition passes review.",
+    "no_forced_note_off_before_authored_release": true,
+    "no_fixed_dialogue_duration": true
+  }
+]

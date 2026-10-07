@@ -1,0 +1,26 @@
+{
+  "historical_missing_output_anchors": [
+    {
+      "bytes": 2372,
+      "path": "generated/210.text.bin",
+      "sha256": "6f087864ea5355daa135f8e6754cee124179c21b1e479e2380187bf310b4dcc3"
+    },
+    {
+      "path": "generated/module982.sc",
+      "sha256": "c09c4ebe35093c4434aa2c97f5ab794ace80250ea96dd8dd62f96f4312830870"
+    },
+    {
+      "path": "generated/manifest.json",
+      "sha256": "e57911e37d62469faab88263c8ca19a8670c81acb750a41fef984c0eacc4e49a"
+    },
+    {
+      "path": "baseline P08 source",
+      "sha256": "6fdb14a834f9da846980fa30d99c4bf80fe6fc54b2be5256bf02b6179a9fcc7b"
+    },
+    {
+      "path": "canonical catalog",
+      "sha256": "1226a97873a3693867c08afe2731ddb55adef6f0eaeabc1222e103c04c0d9fa7"
+    }
+  ],
+  "scope": "Retained historical output anchors only. Current outputs are newly reproduced; historical generated audio was unavailable."
+}

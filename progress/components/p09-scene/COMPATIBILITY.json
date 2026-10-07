@@ -1,0 +1,61 @@
+{
+  "audio": 921,
+  "domain_schema_sha256": "19115a1d55f1380aafe88d0adb45b5a0274290b71abee1d53ac2b996f9a81c89",
+  "native_acceptance": false,
+  "predecessor": {
+    "array_hashes": {
+      "sdAudioModules": "265630588c8426d75d1c51108dc4a836876ddea4ce28a98d8f56b6b0cae1def9",
+      "sdCounts": "9741b697b89dd20a215b49e96ce69395842c90ecaad00a59349d044ec990a87f",
+      "sdLegacyVoiceDurations": "72442d301ce5387318ea1bf11cbe1c495994feec118830d75232d0d6cbae7ea9",
+      "sdPageData": "576898679d3050d50daaa0df8c1b5bd66806a83d3cfe0f2a5b733ee912e3e499",
+      "sdPageDurations": "c08826558b86b28f933bb0dbf67672b088c690fcf7162bcd19344ec33e987abc",
+      "sdStarts": "5b5226ec1e31b38cf0bef52d5cfb88dbf839bb43d845e5bacafda028dc91b162",
+      "sdTextResources": "5a2b08436ab84222e64fdb529c7fa2459f1061cf24198be41ad409e7255f54ae"
+    },
+    "audio_modules": [
+      0,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      939
+    ],
+    "inner_sha256": "b3f7b5597ebc87c38d7ba4d5b31d2774b9e784b8927a71fdd81c0775369ad194",
+    "old_audio_files": 1028,
+    "outer_sha256": "2ce3bef1f2bb03ab2c69e06b7420ef95d9ffbaa2c8ccbaba38b9ddc3c61da45e",
+    "pages": 1138,
+    "slots": 1018,
+    "source982_sha256": "5cc42a96ab80cfa0d4163b9a6402cb9a6f022a072e9ec0f06875837944feb472",
+    "texts": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      230
+    ],
+    "version": 0
+  },
+  "record_documents": [
+    1100,
+    1119
+  ],
+  "required_adaptations": [
+    "Exact1018-slot1138-page predecessor pin and per-array prefix guards",
+    "Current Text202-208+230 and Audio912-918+939",
+    "Current canonical catalog3c6a8dc5 versus historical1226a978",
+    "Current sdRoute and sdPageCount bounds",
+    "Rederive20 current static table integrity families without new selectors"
+  ],
+  "status": "PASS_FROZEN_INPUT_COMPATIBILITY",
+  "text": 210,
+  "unit_documents": [
+    1120,
+    1139
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "accepted_reference_tests": 48,
+  "boolean": {
+    "conditional_call_arguments": [],
+    "hazards": [],
+    "logical_count": 109
+  },
+  "compile": {
+    "emitted_methods_checked": 596,
+    "modules": [
+      980,
+      981,
+      982,
+      983,
+      984,
+      0,
+      985,
+      986
+    ],
+    "native_acceptance": false,
+    "old_modules_byte_identical": [
+      980,
+      981,
+      982,
+      983,
+      984,
+      0,
+      985
+    ],
+    "runtime_package": false,
+    "status": "PASS_REVALIDATED_COHERENT_CONTEST_BUILD"
+  },
+  "coverage": {
+    "canonical_records": 154,
+    "canonical_units": 134,
+    "committed_pair_response_cases_per_oracle": 576,
+    "complete_emitted_decks": 4136,
+    "complete_source_decks": 4136,
+    "emitted_lcg_steps": 65536,
+    "encounters": 4,
+    "equal_writers": 8,
+    "feasible_history_aggregates_per_oracle": 939,
+    "history_aggregates_per_oracle": 2835,
+    "model_wide_decks": 262144,
+    "pairs_per_writer": 3,
+    "terminal_patterns_per_encounter_per_oracle": 20
+  },
+  "fixture_sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e",
+  "host_atomicity_acceptance": false,
+  "model_sha256": "33f4dcaad73178ffc76cf9368dac97b3e311b2b150ddbc3059ba97af5f565434",
+  "native_acceptance": false,
+  "port_test_groups": 26,
+  "reference_prior_independent_groups": 15,
+  "runtime_package": false,
+  "source_sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81",
+  "status": "PASS_ISOLATED_SOURCE_AND_EMITTED_PARITY",
+  "whole_vm_restore_acceptance": false
+}

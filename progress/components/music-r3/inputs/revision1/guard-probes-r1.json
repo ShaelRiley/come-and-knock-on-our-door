@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "validated_receipt_sha256": "cffffffd2fa9414085ed9b9f79daee124f85c97698a838ae1170916a11d346d8",
+  "validated_files_sha256": "4da38db56add68eb13ae0ecf0976d2dfa5c38d870c4fdd0a44af3ad95d133c85",
+  "probes": [
+    {
+      "name": "missing-helper",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra source/input/test/helper file",
+      "terminal": "ve-music-transport-reconstruction/guard-work/missing-helper/run.py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-helper/gate_support.py\", line 18, in check_inventories\n    need(source_files()==expected,'Missing/extra source/input/test/helper file')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-helper/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra source/input/test/helper file\n"
+    },
+    {
+      "name": "missing-test-file",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra source/input/test/helper file",
+      "terminal": "transport-reconstruction/guard-work/missing-test-file/run.py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-test-file/gate_support.py\", line 18, in check_inventories\n    need(source_files()==expected,'Missing/extra source/input/test/helper file')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-test-file/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra source/input/test/helper file\n"
+    },
+    {
+      "name": "extra-test-file",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra source/input/test/helper file",
+      "terminal": "music-transport-reconstruction/guard-work/extra-test-file/run.py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-test-file/gate_support.py\", line 18, in check_inventories\n    need(source_files()==expected,'Missing/extra source/input/test/helper file')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-test-file/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra source/input/test/helper file\n"
+    },
+    {
+      "name": "extra-empty-class",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra test file or class",
+      "terminal": "^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-empty-class/gate_support.py\", line 27, in check_inventories\n    expected_classes=json.loads((H/'REQUIRED-CLASSES.json').read_text());need(classes==expected_classes['declared'],'Missing/extra test file or class')\n                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-empty-class/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra test file or class\n"
+    },
+    {
+      "name": "extra-imported-class",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra imported or dynamically created test class",
+      "terminal": "                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-imported-class/gate_support.py\", line 36, in check_loaded_classes\n    need(loaded_classes()==json.loads((H/'REQUIRED-CLASSES.json').read_text())['visible_testcases'],'Missing/extra imported or dynamically created test class')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-imported-class/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra imported or dynamically created test class\n"
+    },
+    {
+      "name": "source-changed-during-test",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "File changed during proof: run.py",
+      "terminal": "rce);g.unchanged(locked_outputs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/source-changed-during-test/gate_support.py\", line 42, in unchanged\n    for rel,digest in snapshot.items():need((H/rel).is_file()and sha(H/rel)==digest,'File changed during proof: '+rel)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/source-changed-during-test/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: File changed during proof: run.py\n"
+    },
+    {
+      "name": "syntax-error",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "'(' was never closed (test_events.py, line 63)",
+      "terminal": "^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/syntax-error/gate_support.py\", line 26, in check_inventories\n    tree=ast.parse(p.read_text(),filename=str(p));classes[p.name]=sorted(n.name for n in tree.body if isinstance(n,ast.ClassDef))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/ast.py\", line 52, in parse\n    return compile(source, filename, mode, flags,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/syntax-error/tests/test_events.py\", line 63\n    invalid (\n            ^\nSyntaxError: '(' was never closed\n"
+    },
+    {
+      "name": "immutable-input",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Immutable input changed: inputs/domain/module986.sc",
+      "terminal": "(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/immutable-input/gate_support.py\", line 23, in check_inventories\n    for rel,digest in pins.items():need(sha(H/rel)==digest,'Immutable input changed: '+rel)\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/immutable-input/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Immutable input changed: inputs/domain/module986.sc\n"
+    },
+    {
+      "name": "missing-generated",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra generated file, including nested preview",
+      "terminal": ".py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-generated/gate_support.py\", line 21, in check_inventories\n    need((allow_absent_generated and not actual)or actual==generated,'Missing/extra generated file, including nested preview')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-generated/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra generated file, including nested preview\n"
+    },
+    {
+      "name": "extra-generated",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra generated file, including nested preview",
+      "terminal": "/run.py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-generated/gate_support.py\", line 21, in check_inventories\n    need((allow_absent_generated and not actual)or actual==generated,'Missing/extra generated file, including nested preview')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/extra-generated/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra generated file, including nested preview\n"
+    },
+    {
+      "name": "nested-generated",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra generated file, including nested preview",
+      "terminal": "un.py\", line 11, in <module>\n    g.check_inventories(allow_absent_generated=True);g.check_build_inventory(allow_absent=True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/nested-generated/gate_support.py\", line 21, in check_inventories\n    need((allow_absent_generated and not actual)or actual==generated,'Missing/extra generated file, including nested preview')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/nested-generated/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra generated file, including nested preview\n"
+    },
+    {
+      "name": "stale-source",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Stale proof: src/broker-procedures.inc",
+      "terminal": "Traceback (most recent call last):\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-source/verify.py\", line 16, in <module>\n    for rel,digest in pins.items():g.need(g.sha(H/rel)==digest,'Stale proof: '+rel)\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-source/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Stale proof: src/broker-procedures.inc\n"
+    },
+    {
+      "name": "stale-compiled",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra recursive build/checkpoint output",
+      "terminal": "esponsive-music-transport-reconstruction/guard-work/stale-compiled/verify.py\", line 9, in <module>\n    g.check_inventories();g.check_build_inventory()\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-compiled/gate_support.py\", line 39, in check_build_inventory\n    need((allow_absent and not actual)or actual==expected,'Missing/extra recursive build/checkpoint output')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-compiled/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra recursive build/checkpoint output\n"
+    },
+    {
+      "name": "missing-compiled",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Missing/extra recursive build/checkpoint output",
+      "terminal": "ive-music-transport-reconstruction/guard-work/missing-compiled/verify.py\", line 9, in <module>\n    g.check_inventories();g.check_build_inventory()\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-compiled/gate_support.py\", line 39, in check_build_inventory\n    need((allow_absent and not actual)or actual==expected,'Missing/extra recursive build/checkpoint output')\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/missing-compiled/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Missing/extra recursive build/checkpoint output\n"
+    },
+    {
+      "name": "stale-receipt",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Proof manifest modified",
+      "terminal": "Traceback (most recent call last):\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-receipt/verify.py\", line 14, in <module>\n    path=H/'evidence/verified-files.json';g.need(g.sha(path)==d['proof_manifest_sha256'],'Proof manifest modified');pins=json.loads(path.read_text())\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/stale-receipt/gate_support.py\", line 7, in need\n    if not ok:raise RuntimeError(msg)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Proof manifest modified\n"
+    },
+    {
+      "name": "optimized-run",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Optimized Python forbidden",
+      "terminal": "Traceback (most recent call last):\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/optimized-run/run.py\", line 9, in <module>\n    if sys.flags.optimize:raise RuntimeError('Optimized Python forbidden')\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Optimized Python forbidden\n"
+    },
+    {
+      "name": "optimized-verify",
+      "status": "PASS_REJECTED",
+      "exit": 1,
+      "error": "Optimized Python forbidden",
+      "terminal": "Traceback (most recent call last):\n  File \"/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/responsive-music-transport-reconstruction/guard-work/optimized-verify/verify.py\", line 7, in <module>\n    if sys.flags.optimize:raise RuntimeError('Optimized Python forbidden')\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Optimized Python forbidden\n"
+    },
+    {
+      "name": "real-outcome-skip",
+      "status": "PASS_REJECTED",
+      "error": "Unacceptable test outcome: skipped",
+      "outcome": {
+        "run": 1,
+        "skipped": 1,
+        "expected_failures": 0,
+        "unexpected_successes": 0,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    {
+      "name": "real-outcome-expected_failure",
+      "status": "PASS_REJECTED",
+      "error": "Unacceptable test outcome: expected_failures",
+      "outcome": {
+        "run": 1,
+        "skipped": 0,
+        "expected_failures": 1,
+        "unexpected_successes": 0,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    {
+      "name": "real-outcome-unexpected_success",
+      "status": "PASS_REJECTED",
+      "error": "Unacceptable test outcome: unexpected_successes",
+      "outcome": {
+        "run": 1,
+        "skipped": 0,
+        "expected_failures": 0,
+        "unexpected_successes": 1,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    {
+      "name": "real-outcome-failure",
+      "status": "PASS_REJECTED",
+      "error": "Unacceptable test outcome: failures",
+      "outcome": {
+        "run": 1,
+        "skipped": 0,
+        "expected_failures": 0,
+        "unexpected_successes": 0,
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    {
+      "name": "real-outcome-error",
+      "status": "PASS_REJECTED",
+      "error": "Unacceptable test outcome: errors",
+      "outcome": {
+        "run": 1,
+        "skipped": 0,
+        "expected_failures": 0,
+        "unexpected_successes": 0,
+        "failures": 0,
+        "errors": 1
+      }
+    },
+    {
+      "name": "zero-execution",
+      "status": "PASS_REJECTED",
+      "error": "Not every required test executed"
+    }
+  ],
+  "count": 23,
+  "scope": "Fresh recursive inventory/receipt rejections and real strict-outcome admission"
+}

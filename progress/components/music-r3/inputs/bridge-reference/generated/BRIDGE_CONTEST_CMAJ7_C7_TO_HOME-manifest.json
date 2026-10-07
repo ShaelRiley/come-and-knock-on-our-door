@@ -1,0 +1,818 @@
+{
+  "resource_id": 149,
+  "name": "BRIDGE_CONTEST_CMAJ7_C7_TO_HOME",
+  "source_family": 140,
+  "target_family": 102,
+  "beats": 4,
+  "swing": 0.5,
+  "tempo_map": [
+    [
+      0,
+      120
+    ],
+    [
+      2,
+      116
+    ],
+    [
+      3,
+      112
+    ]
+  ],
+  "harmony": [
+    [
+      0,
+      "Cmaj7",
+      0,
+      [
+        59,
+        64
+      ]
+    ],
+    [
+      2,
+      "C7",
+      0,
+      [
+        58,
+        64
+      ]
+    ]
+  ],
+  "source_fragment": {
+    "manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+    "source_ids": [
+      945,
+      949,
+      953
+    ],
+    "offset": 24,
+    "time_scale": 1,
+    "channel": 4,
+    "velocity_scale": 0.83
+  },
+  "rationale": "The actual contest C-E-E tag over Cmaj7 is followed by its authored C7 turnaround. Cmaj7 admits an Em7 ending as a shared E/G/B upper structure and receives G7 as its local dominant. Lowering only the newly composed shell's B to Bb establishes C7, then the unchanged102 F-major arrival. The source clips finish before this connector's cadential shell; no existing note is shortened.",
+  "bass": [
+    [
+      0,
+      0.85,
+      36,
+      57
+    ],
+    [
+      2,
+      0.9,
+      36,
+      59
+    ],
+    [
+      3,
+      0.55,
+      43,
+      53
+    ]
+  ],
+  "comp": [
+    [
+      0,
+      0.24,
+      0,
+      46
+    ],
+    [
+      1,
+      0.18,
+      0,
+      43
+    ],
+    [
+      2,
+      0.4,
+      1,
+      48
+    ],
+    [
+      3,
+      0.22,
+      1,
+      42
+    ]
+  ],
+  "kit": [
+    [
+      0,
+      36,
+      42
+    ],
+    [
+      0,
+      42,
+      23
+    ],
+    [
+      0.5,
+      42,
+      17
+    ],
+    [
+      1,
+      42,
+      23
+    ],
+    [
+      1,
+      37,
+      24
+    ],
+    [
+      2,
+      42,
+      23
+    ],
+    [
+      2,
+      36,
+      41
+    ],
+    [
+      3,
+      42,
+      21
+    ],
+    [
+      3,
+      37,
+      22
+    ],
+    [
+      3.5,
+      42,
+      17
+    ]
+  ],
+  "notes": [
+    {
+      "beat": 0.4,
+      "duration": 0.24,
+      "unswung_beat": 0.0,
+      "unswung_duration": 0.24,
+      "channel": 4,
+      "pitch": 72,
+      "velocity": 64,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+        "source_note": {
+          "beat": 24.4,
+          "duration": 0.24,
+          "unswung_beat": 24.0,
+          "unswung_duration": 0.46708333333333485,
+          "channel": 3,
+          "pitch": 72,
+          "velocity": 77,
+          "source": {
+            "motif": "PRESENTATION_B",
+            "stem": "B04S02",
+            "source_note_id": 945,
+            "source_pitch": 72,
+            "source_beat": 71.96458333333334,
+            "source_duration": 0.49166666666666664,
+            "transposition": 0,
+            "source_grid_beat": 24.0,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 47.9875,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping",
+            "articulation_transform": "clipped action-comedy brass; source attack/harmony relation retained"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 1,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 0.9,
+      "duration": 0.2400000000000001,
+      "unswung_beat": 0.5,
+      "unswung_duration": 0.24,
+      "channel": 4,
+      "pitch": 76,
+      "velocity": 61,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+        "source_note": {
+          "beat": 24.9,
+          "duration": 0.24,
+          "unswung_beat": 24.5,
+          "unswung_duration": 0.4789583333333347,
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 74,
+          "source": {
+            "motif": "PRESENTATION_B",
+            "stem": "B04S02",
+            "source_note_id": 949,
+            "source_pitch": 76,
+            "source_beat": 72.45625,
+            "source_duration": 0.5041666666666667,
+            "transposition": 0,
+            "source_grid_beat": 24.5,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 47.9875,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping",
+            "articulation_transform": "clipped action-comedy brass; source attack/harmony relation retained"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 1,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 1.4,
+      "duration": 0.2400000000000002,
+      "unswung_beat": 1.0,
+      "unswung_duration": 0.24,
+      "channel": 4,
+      "pitch": 76,
+      "velocity": 61,
+      "provenance": {
+        "kind": "explicit_source_fragment",
+        "manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+        "source_note": {
+          "beat": 25.4,
+          "duration": 0.24,
+          "unswung_beat": 25.0,
+          "unswung_duration": 0.435416666666665,
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 74,
+          "source": {
+            "motif": "PRESENTATION_B",
+            "stem": "B04S02",
+            "source_note_id": 953,
+            "source_pitch": 76,
+            "source_beat": 72.96041666666666,
+            "source_duration": 0.4583333333333333,
+            "transposition": 0,
+            "source_grid_beat": 25.0,
+            "source_offset": 0,
+            "scale": 1.0,
+            "grid_reference": 47.9875,
+            "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping",
+            "articulation_transform": "clipped action-comedy brass; source attack/harmony relation retained"
+          },
+          "gesture": "whole source-derived phrase"
+        },
+        "uniform_time_scale": 1,
+        "note_pitch_unchanged": true,
+        "source_resource_unchanged": true
+      }
+    },
+    {
+      "beat": 0.4,
+      "duration": 0.85,
+      "unswung_beat": 0,
+      "unswung_duration": 0.85,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 57,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 2.4,
+      "duration": 0.8999999999999999,
+      "unswung_beat": 2,
+      "unswung_duration": 0.9,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 59,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 3.4,
+      "duration": 0.5499999999999998,
+      "unswung_beat": 3,
+      "unswung_duration": 0.55,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 53,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing root/fifth broad-pulse bass vocabulary and explicit source harmony"
+      }
+    },
+    {
+      "beat": 0.4,
+      "duration": 0.24,
+      "unswung_beat": 0,
+      "unswung_duration": 0.24,
+      "channel": 1,
+      "pitch": 59,
+      "velocity": 46,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Cmaj7"
+      }
+    },
+    {
+      "beat": 0.4,
+      "duration": 0.24,
+      "unswung_beat": 0,
+      "unswung_duration": 0.24,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 46,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Cmaj7"
+      }
+    },
+    {
+      "beat": 1.4,
+      "duration": 0.18000000000000016,
+      "unswung_beat": 1,
+      "unswung_duration": 0.18,
+      "channel": 1,
+      "pitch": 59,
+      "velocity": 43,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Cmaj7"
+      }
+    },
+    {
+      "beat": 1.4,
+      "duration": 0.18000000000000016,
+      "unswung_beat": 1,
+      "unswung_duration": 0.18,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 43,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "Cmaj7"
+      }
+    },
+    {
+      "beat": 2.4,
+      "duration": 0.3999999999999999,
+      "unswung_beat": 2,
+      "unswung_duration": 0.4,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 48,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 2.4,
+      "duration": 0.3999999999999999,
+      "unswung_beat": 2,
+      "unswung_duration": 0.4,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 48,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 3.4,
+      "duration": 0.2200000000000002,
+      "unswung_beat": 3,
+      "unswung_duration": 0.22,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 42,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 3.4,
+      "duration": 0.2200000000000002,
+      "unswung_beat": 3,
+      "unswung_duration": 0.22,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 42,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Exact source-family two-note shell",
+        "harmony": "C7"
+      }
+    },
+    {
+      "beat": 0.4,
+      "duration": 0.08999999999999997,
+      "unswung_beat": 0,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 42,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 0.4,
+      "duration": 0.08999999999999997,
+      "unswung_beat": 0,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 0.9,
+      "duration": 0.08999999999999997,
+      "unswung_beat": 0.5,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 17,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 1.4,
+      "duration": 0.0900000000000003,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 1.4,
+      "duration": 0.0900000000000003,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 24,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 2.4,
+      "duration": 0.08999999999999986,
+      "unswung_beat": 2,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 2.4,
+      "duration": 0.08999999999999986,
+      "unswung_beat": 2,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 41,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.4,
+      "duration": 0.08999999999999986,
+      "unswung_beat": 3,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 21,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.4,
+      "duration": 0.08999999999999986,
+      "unswung_beat": 3,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    },
+    {
+      "beat": 3.9,
+      "duration": 0.08999999999999986,
+      "unswung_beat": 3.5,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 17,
+      "provenance": {
+        "kind": "new_authored",
+        "basis": "Existing restrained closed-hat/cross-stick/kick vocabulary; no percussion result accent"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "name": "BASS",
+      "channel": 0,
+      "program": 33,
+      "volume": 118,
+      "pan": 64,
+      "voices": 1
+    },
+    {
+      "name": "KEYS",
+      "channel": 1,
+      "program": 4,
+      "volume": 107,
+      "pan": 49,
+      "voices": 2
+    },
+    {
+      "name": "TEXTURE",
+      "channel": 2,
+      "program": 48,
+      "volume": 0,
+      "pan": 75,
+      "voices": 2
+    },
+    {
+      "name": "LEAD",
+      "channel": 3,
+      "program": 61,
+      "volume": 0,
+      "pan": 55,
+      "voices": 1
+    },
+    {
+      "name": "REPLY",
+      "channel": 4,
+      "program": 59,
+      "volume": 109,
+      "pan": 75,
+      "voices": 1
+    },
+    {
+      "name": "GUITAR",
+      "channel": 5,
+      "program": 27,
+      "volume": 0,
+      "pan": 82,
+      "voices": 2
+    },
+    {
+      "name": "ACCENT",
+      "channel": 6,
+      "program": 11,
+      "volume": 0,
+      "pan": 40,
+      "voices": 2
+    },
+    {
+      "name": "KIT",
+      "channel": 9,
+      "program": 0,
+      "volume": 106,
+      "pan": 64,
+      "voices": 4
+    }
+  ],
+  "native_notes": [
+    {
+      "channel": 0,
+      "on": 12,
+      "off": 37,
+      "pitch": 36,
+      "velocity": 57
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 19,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 19,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 12,
+      "off": 19,
+      "pitch": 72,
+      "velocity": 64
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 36,
+      "velocity": 42
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 4,
+      "on": 27,
+      "off": 34,
+      "pitch": 76,
+      "velocity": 61
+    },
+    {
+      "channel": 9,
+      "on": 27,
+      "off": 30,
+      "pitch": 42,
+      "velocity": 17
+    },
+    {
+      "channel": 1,
+      "on": 42,
+      "off": 47,
+      "pitch": 59,
+      "velocity": 43
+    },
+    {
+      "channel": 1,
+      "on": 42,
+      "off": 47,
+      "pitch": 64,
+      "velocity": 43
+    },
+    {
+      "channel": 4,
+      "on": 42,
+      "off": 49,
+      "pitch": 76,
+      "velocity": 61
+    },
+    {
+      "channel": 9,
+      "on": 42,
+      "off": 45,
+      "pitch": 37,
+      "velocity": 24
+    },
+    {
+      "channel": 9,
+      "on": 42,
+      "off": 45,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 0,
+      "on": 72,
+      "off": 100,
+      "pitch": 36,
+      "velocity": 59
+    },
+    {
+      "channel": 1,
+      "on": 72,
+      "off": 84,
+      "pitch": 58,
+      "velocity": 48
+    },
+    {
+      "channel": 1,
+      "on": 72,
+      "off": 84,
+      "pitch": 64,
+      "velocity": 48
+    },
+    {
+      "channel": 9,
+      "on": 72,
+      "off": 75,
+      "pitch": 36,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 72,
+      "off": 75,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 0,
+      "on": 103,
+      "off": 121,
+      "pitch": 43,
+      "velocity": 53
+    },
+    {
+      "channel": 1,
+      "on": 103,
+      "off": 110,
+      "pitch": 58,
+      "velocity": 42
+    },
+    {
+      "channel": 1,
+      "on": 103,
+      "off": 110,
+      "pitch": 64,
+      "velocity": 42
+    },
+    {
+      "channel": 9,
+      "on": 103,
+      "off": 106,
+      "pitch": 37,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 103,
+      "off": 106,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 119,
+      "off": 122,
+      "pitch": 42,
+      "velocity": 17
+    }
+  ],
+  "loop": null,
+  "one_shot": true,
+  "first_attack": 12,
+  "last_keyoff": 122,
+  "end_tick": 135,
+  "duration_seconds": 2.250045,
+  "max_held_notes": 6,
+  "per_channel_peak": {
+    "0": 1,
+    "1": 2,
+    "4": 1,
+    "9": 2
+  },
+  "controller_guard": [
+    6,
+    8
+  ],
+  "midi_sha256": "6ea6c1854902c2e5929095fd23c7176c7195aedaae532bc25630b9b0a6f0838f",
+  "native_sha256": "6c82f67a3b90b3c6265dc9951353b08b103bae1c65ec2158619ab38ba1c3ae9f",
+  "maximum_quantization_error_us": 8321.0,
+  "native_runtime_tested": false,
+  "listening_accepted": false,
+  "release_tail_silence_proven": false
+}

@@ -1,0 +1,25 @@
+{
+  "cue_id": "MUS09_THREE_DOORS_PROMISES",
+  "resource_id": 118,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/MUS09_THREE_DOORS_PROMISES.mid",
+  "native_payload_path": "native/reduced/118.sound.bin",
+  "sha256": {
+    "midi": "d64692a8f942ae86c859f307f043b3ac0ca71b740a70a100e8ea7bce822e0fac",
+    "native": "53eafb19f65e0f43e21405ac73976ce670fe6be7667c9c54c51bcce34f2711fc"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

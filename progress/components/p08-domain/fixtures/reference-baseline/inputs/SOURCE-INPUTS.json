@@ -1,0 +1,499 @@
+[
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/README.md",
+    "path": "inputs/literal-p08/README.md",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 6292,
+    "sha256": "793b374a2d35c895f6a6233b2248fd0b821c65196d04b0ae676af2ccc59ed333"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/original-recorded/p08-fixture-generator.001.py.txt",
+    "path": "inputs/literal-p08/original-recorded/p08-fixture-generator.001.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 1499,
+    "sha256": "8af52b1d0ce4adf6c92af0105bd9245aba08d5d5e478f9a3ddbfd7ad94d0e176"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/original-recorded/p08-state-contract.001.md",
+    "path": "inputs/literal-p08/original-recorded/p08-state-contract.001.md",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 14071,
+    "sha256": "b0a46d690a09d668166027388a430d303032a5b7555b58cb278bd7fce69116da"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/original-recorded/p08_model.001.py",
+    "path": "inputs/literal-p08/original-recorded/p08_model.001.py",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 30787,
+    "sha256": "bae19a0de08a16b35063f021def3414a8df5f740b4e42a1f2567e06b7367ec3a"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/original-recorded/test_p08_model.001.py",
+    "path": "inputs/literal-p08/original-recorded/test_p08_model.001.py",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 23573,
+    "sha256": "b71d6504c669e17261816fffb507dbaf84695ed24de6634c99a0ccdd85a9de8b"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/p09-child/recorded-edits/01-model-add.patch",
+    "path": "inputs/literal-p08/p09-child/recorded-edits/01-model-add.patch",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 28682,
+    "sha256": "94739b9c3160923929b05bf180f296e3bc4e92717996a21273da962fe6119c36"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/p09-child/recovery-notes/DESTINATION.md",
+    "path": "inputs/literal-p08/p09-child/recovery-notes/DESTINATION.md",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 407,
+    "sha256": "365cd71ba0dbd21d957496a7127421ef20932d89371498377056918d0cc1dbe2"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/provenance/historical-tool-output-excerpts.txt",
+    "path": "inputs/literal-p08/provenance/historical-tool-output-excerpts.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 814,
+    "sha256": "b863c277c42a7f9351863f14599edc22dfa25ee06ceda7a3f81840b4c01586d4"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/provenance/reassemble_text_only.py",
+    "path": "inputs/literal-p08/provenance/reassemble_text_only.py",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 4841,
+    "sha256": "ae0dfb0ca6ce569461ae1d2a4b8e66f5f789760f569a63185a353b9bc22c85ca"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/provenance/recovery-file-inventory.json",
+    "path": "inputs/literal-p08/provenance/recovery-file-inventory.json",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 5357,
+    "sha256": "4506cb05ee91f709723a1f69d891d62603bf0fc5ab4e7633c7ddd70603e786e6"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/provenance/text-assembly-manifest.json",
+    "path": "inputs/literal-p08/provenance/text-assembly-manifest.json",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 5583,
+    "sha256": "8d18101910077c07c4404a9d9b1134fec4d6381bbcf9b17537dcefad0de7a9e2"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08-fixture.002-laugh-metadata.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08-fixture.002-laugh-metadata.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 427,
+    "sha256": "cd6aeec628cf7a6a0c13d6ef6ac3be8d1f1db4e830974edc82fb98ab25b879be"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08-fixture.003-native-proposals.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08-fixture.003-native-proposals.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 689,
+    "sha256": "c4b84e5707aa224d239d3e9db122e05ed8657fe958aa7600f451dcffce60e067"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08-state-contract.002-final-edits.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08-state-contract.002-final-edits.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 1410,
+    "sha256": "dde72f679921cea2cd2a06b2508afaa3255fabed3b2b0a96834de00e10a387e3"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08_model.002-ownership.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08_model.002-ownership.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 5291,
+    "sha256": "b20da1827c18d75f22d1efca1434874136b9f99f4f16d57b7f590efcabd7b39a"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08_model.003-completed-receipts.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08_model.003-completed-receipts.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 2016,
+    "sha256": "a68fd1caa2293684825655a7a67551115bc18eb0a3b0e836ff67a71b16727c76"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08_model.004-spatial-feedback.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08_model.004-spatial-feedback.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 199,
+    "sha256": "0ec8b2f8b89a5d6ab71858442cd4d8af5f891b33abd38e586a24f1615d74bdce"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08_model.005-surface-and-request-receipts.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08_model.005-surface-and-request-receipts.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 4095,
+    "sha256": "ca21027cf689dde049d016ee5e3d26ce9528991931fd3f855ee23a023617a60d"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/p08_model.006-native-identity.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/p08_model.006-native-identity.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 31,
+    "sha256": "5ce7fe05ef75896134d62733749ae05a6e3a990c341f6fe0bfdc9a65dac1b336"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.002-assertions.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.002-assertions.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 802,
+    "sha256": "ed06ace569df7b689c4f1dbf8db8121039b7d1fc86503bd4ea430b2b90ac46f2"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.003-prior-model-composition.insert.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.003-prior-model-composition.insert.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 3670,
+    "sha256": "2b60f9e3028c7f57b7f5e4fc2983c618723973b6f6817e118e0bac6fb7b51942"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.004-receipt-tampering.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.004-receipt-tampering.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 366,
+    "sha256": "9eeafa217249bb6888be58426b82d747c39ff8fe88e274bd9633e2568655ed3e"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.005-native-identity.py.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.005-native-identity.py.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 31,
+    "sha256": "5ce7fe05ef75896134d62733749ae05a6e3a990c341f6fe0bfdc9a65dac1b336"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.006-native-proposals.insert.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.006-native-proposals.insert.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 689,
+    "sha256": "3e3bd29c9e20bac6455b874c23eb45e5960ca4ead8a74c5f1edbb3a7345ece51"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recorded-edits/test_p08_model.007-p09-phase-gate.insert.txt",
+    "path": "inputs/literal-p08/recorded-edits/test_p08_model.007-p09-phase-gate.insert.txt",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 933,
+    "sha256": "f0ef39e2a9678300bf82bbcf6c2fa10ff446ec2eab29348e46247125cfc06ca7"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/p08-state-contract.md",
+    "path": "inputs/literal-p08/recovered-final/p08-state-contract.md",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 14408,
+    "sha256": "a60db502e356743a0f0a593050bf70de1fd850c510115546b4fadb0faafeb6ef"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/p08_model.py",
+    "path": "inputs/literal-p08/recovered-final/p08_model.py",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 37443,
+    "sha256": "dd4f0fa187cff9b22df3218b0a5cfc0dd87d7a3d7f26ee1ffb0b324f8dfda215"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/test_p08_model.py",
+    "path": "inputs/literal-p08/recovered-final/test_p08_model.py",
+    "classification": "literal recovery packet; unchanged",
+    "bytes": 29000,
+    "sha256": "ff7f991a313ef42bb451c7bfe5f7a1828d595ec2712482977aa7db4a4b32bdc6"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/p08_model.py",
+    "path": "cakood/p08_model.py",
+    "classification": "literal recovered source; unchanged",
+    "bytes": 37443,
+    "sha256": "dd4f0fa187cff9b22df3218b0a5cfc0dd87d7a3d7f26ee1ffb0b324f8dfda215"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/test_p08_model.py",
+    "path": "tests/test_p08_model.py",
+    "classification": "literal recovered source; unchanged",
+    "bytes": 29000,
+    "sha256": "ff7f991a313ef42bb451c7bfe5f7a1828d595ec2712482977aa7db4a4b32bdc6"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/courtyard-models/recovered-final/p08-state-contract.md",
+    "path": "docs/recovered-p08-state-contract.md",
+    "classification": "literal recovered source; unchanged",
+    "bytes": 14408,
+    "sha256": "a60db502e356743a0f0a593050bf70de1fd850c510115546b4fadb0faafeb6ef"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/p09-model/source/cakood/p09_model.py",
+    "path": "cakood/p09_model.py",
+    "classification": "literal recovered P09 dependency; unchanged",
+    "bytes": 29001,
+    "sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/p09-model/recovery-notes/manifest.json",
+    "path": "inputs/provenance/p09-recovery-manifest.json",
+    "classification": "literal recovery manifest; unchanged",
+    "bytes": 3453,
+    "sha256": "9e05fb59f522cf4b40312ee4b13d6b5d7549cfc077ecd087539a2c2833757b8a"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/tests/fixtures/retained_model.py",
+    "path": "cakood/model.py",
+    "classification": "unchanged retained P01/P02 shared dependency",
+    "bytes": 9871,
+    "sha256": "0371f8899410bbe9f230ad80aace72026328db818a456db4a46d7bf9c8049606"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/tests/fixtures/retained_p02_model.py",
+    "path": "cakood/p02_model.py",
+    "classification": "unchanged retained P01/P02 shared dependency",
+    "bytes": 42729,
+    "sha256": "3dd71164dc0a509c0065c232dba446ef8d2fb113d0d21c11580365d0a4a4ac95"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-scene-reconstruction/inputs/authority/full-line-catalog.json",
+    "path": "inputs/authority/full-line-catalog.json",
+    "classification": "current exact canonical authority; unchanged",
+    "bytes": 1346630,
+    "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-scene-reconstruction/inputs/authority/CURRENT-SCRIPT-REVISION.json",
+    "path": "inputs/authority/CURRENT-SCRIPT-REVISION.json",
+    "classification": "current exact canonical authority; unchanged",
+    "bytes": 408,
+    "sha256": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-scene-reconstruction/inputs/authority/speech-units.json",
+    "path": "inputs/authority/speech-units.json",
+    "classification": "current exact canonical authority; unchanged",
+    "bytes": 417867,
+    "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475"
+  },
+  {
+    "source": "/workspace/shared/cakood-context-recovery-batch2/canonical-gdd/complete-body.md",
+    "path": "inputs/authority/complete-body.md",
+    "classification": "canonical GDD recovery; unchanged",
+    "bytes": 210993,
+    "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p03-domain-reconstruction/p03_model.py",
+    "path": "dependencies/p03/p03_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 14115,
+    "sha256": "169432488b093b7d232582c009b0459a1baf5ccaac2a2cf7f8f53bb8c35d7090"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p03-domain-reconstruction/provenance.json",
+    "path": "dependencies/p03/provenance.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 2344,
+    "sha256": "25573adb745b749391e9538406bdfcc3b77dbc8bf44f4221c2b45e985a2b651d"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p03-domain-reconstruction/README.md",
+    "path": "dependencies/p03/README.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5636,
+    "sha256": "9a44075740d194c973a95dbfa5907f6c10d0d39e326f30a08c4e1004fb62356f"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p03-domain-reconstruction/ABI.json",
+    "path": "dependencies/p03/ABI.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 17847,
+    "sha256": "5e253cff3ee2e60e0d7885feeb76dbc6bb5b910a2b29abe15154894eae1e00b8"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p04-domain-reconstruction/model-work/p04_model.py",
+    "path": "dependencies/p04/p04_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 23775,
+    "sha256": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p04-domain-reconstruction/PROVENANCE.json",
+    "path": "dependencies/p04/PROVENANCE.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 8613,
+    "sha256": "792513a87eb91c3190a40ebf7a91717af51cf8858a73ada836616e1766d9b103"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p04-domain-reconstruction/README.md",
+    "path": "dependencies/p04/README.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5197,
+    "sha256": "d7d18f008b888286ccefcd5af524711b2a98c33e8df7555ee1d95bd03725da5a"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p04-domain-reconstruction/ABI.json",
+    "path": "dependencies/p04/ABI.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 14992,
+    "sha256": "f5dbf243c16d2d6b480860e1608204d3d174fbb85c10a75f142d13376f711ec7"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/cakood/__init__.py",
+    "path": "dependencies/p05/cakood/__init__.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 80,
+    "sha256": "fe8a67b518140339e5390364440e1d45db47ec7950c8dda0e440bbe49c99eace"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/cakood/p05_model.py",
+    "path": "dependencies/p05/cakood/p05_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 45247,
+    "sha256": "6767058d72dab059ba21f50746ee6545a9c136797044cbf114d0e2675b64d537"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/cakood/composition.py",
+    "path": "dependencies/p05/cakood/composition.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5224,
+    "sha256": "8a7d95a833026e8726eb3563170b59469629df8cdf0abc123f462f069f2746cc"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/cakood/canonical-bindings.json",
+    "path": "dependencies/p05/cakood/canonical-bindings.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 106157,
+    "sha256": "2a709500c834a9fdca619b6afad5e5da2c638381412947b53e9ff0ec1a0e04e4"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/PROVENANCE.md",
+    "path": "dependencies/p05/PROVENANCE.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 4166,
+    "sha256": "02e3ae4178fed7f5c9b7a371443b2eefb68557ad2959d9415f8864469644f735"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p05-model-reconstruction/DESIGN.md",
+    "path": "dependencies/p05/DESIGN.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 17455,
+    "sha256": "095ae53b6b4269e2a60ae3d3744fd55fa87a876bd4483a150f02f8f82c3cfead"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/cakood/__init__.py",
+    "path": "dependencies/p06/cakood/__init__.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 84,
+    "sha256": "e73c0d2cb8288ad83169b764a803212d0820c4cac8f5ae7104b882b890f40ebd"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/cakood/p06_model.py",
+    "path": "dependencies/p06/cakood/p06_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 48293,
+    "sha256": "9a491e2993391a1baa47faeb9a51087b0f68fccb0404a7884ea280b5c8400c67"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/cakood/composition.py",
+    "path": "dependencies/p06/cakood/composition.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 13341,
+    "sha256": "87663c7e7aaabd7afb1bab40f5189b532915bcac0be4da4b9f617409be78b804"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/cakood/canonical-bindings.json",
+    "path": "dependencies/p06/cakood/canonical-bindings.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 93397,
+    "sha256": "8532e4bf7bfaeac6da5638efd54724aa905d0f9afc5111c4c790d0660cf3cb26"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/cakood/verbal_contest.py",
+    "path": "dependencies/p06/cakood/verbal_contest.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 43625,
+    "sha256": "33f4dcaad73178ffc76cf9368dac97b3e311b2b150ddbc3059ba97af5f565434"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/data/canonical-bindings.json",
+    "path": "dependencies/p06/data/canonical-bindings.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 316942,
+    "sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/tests/fixtures/p08_model.py",
+    "path": "dependencies/p06/tests/fixtures/p08_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 37443,
+    "sha256": "dd4f0fa187cff9b22df3218b0a5cfc0dd87d7a3d7f26ee1ffb0b324f8dfda215"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/PROVENANCE.md",
+    "path": "dependencies/p06/PROVENANCE.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5316,
+    "sha256": "760a077a4bb758f209f582a7ac41d4a6cc5be345dbf5ebc278691ff65aa74007"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/API.md",
+    "path": "dependencies/p06/API.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5940,
+    "sha256": "b1787769fb444cce4db3f21fb375524afab3dd0669cbe2d0147738dc9826a5b3"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p06-model-reconstruction/revision-2/REVISION-2.md",
+    "path": "dependencies/p06/REVISION-2.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5364,
+    "sha256": "f0ad22daf3cd001f0fc0201067fab9be3c1360ca30e9e299f7cd3a5633d56ea0"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/cakood/__init__.py",
+    "path": "dependencies/p07/cakood/__init__.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 81,
+    "sha256": "8dbd96e34069224c8bd0a1fe61ac6a8ce963ce79db62d7fed0211bfa7dec812e"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/cakood/p07_model.py",
+    "path": "dependencies/p07/cakood/p07_model.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 37433,
+    "sha256": "826b8c124775cdfafe53c127c9a78c5959ae95d7f29888fce7ae780cc2120e89"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/cakood/composition.py",
+    "path": "dependencies/p07/cakood/composition.py",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 7742,
+    "sha256": "68afabf7f58397cfdbabaa040e11a0a8405c251fe0a296e9797929237ca2a355"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/cakood/canonical-bindings.json",
+    "path": "dependencies/p07/cakood/canonical-bindings.json",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 56215,
+    "sha256": "a6c5fda3cdfbf36cd2d7607189f370878d1c9c3f390758534ecf3a907d199b81"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/PROVENANCE.md",
+    "path": "dependencies/p07/PROVENANCE.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 5017,
+    "sha256": "5e191c05328eb8866e996d1342f09d404c43e2b67e1c1bae7d954031dcb43362"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/DESIGN.md",
+    "path": "dependencies/p07/DESIGN.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 17131,
+    "sha256": "5b673ca1d72718130b8d43c6c78e46c0c3060cd2ab6d313bfed874c2120ef1ff"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-model-reconstruction-r2/REVISION-2.md",
+    "path": "dependencies/p07/REVISION-2.md",
+    "classification": "unchanged current reconstructed dependency or its provenance",
+    "bytes": 4829,
+    "sha256": "de59390d20ecdf5d52c6543976fe2879b2c4c1ab1c31c11bfe456b7149f5a9f4"
+  },
+  {
+    "source": "/workspace/scratch/32bd9b8d7d14/rebuild-cakood-20261006/p07-domain-reconstruction-r2/manifest.json",
+    "path": "inputs/current-p07-domain-manifest.json",
+    "classification": "current branch-local IDs; not historical global manifest",
+    "bytes": 6562,
+    "sha256": "bf2499ee1bc0c0276f2776ce42ce470fbaeaddd8ee61c5b44debf3f22136bce2"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "status": "ISOLATED_SOURCE_EMITTED_ALLOCATION",
+  "script": 940,
+  "script_bank_reservation": "940-977",
+  "audio_resource": 140,
+  "gain_reference_audio_resources": [
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
+  "disabled_accent_audio_resources": [
+    146,
+    147
+  ],
+  "text": 243,
+  "species_reused": 3,
+  "new_species": 0,
+  "new_selectors": 0,
+  "vocab996_class_owners": [
+    0,
+    0,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986
+  ],
+  "retained_registry": "inputs/retained-registry-subset.json",
+  "registry_limit": "No fuller historical registry survives in this recovery. Current retained subset and coherent vocabulary were checked.",
+  "proposed_budgets": {
+    "script_bytes": 12288,
+    "heap_bytes": 16384,
+    "table_words": 6000
+  },
+  "measured": {
+    "script_bytes": 9784,
+    "heap_bytes": 3204,
+    "local_words": 1509,
+    "table_words": 1423,
+    "text_bytes": 9559
+  },
+  "host_activation": false
+}

@@ -1,0 +1,25 @@
+{
+  "cue_id": "BRIDGE_PROMISES_QUIET",
+  "resource_id": 126,
+  "variant": "REDUCED_CC7_ONLY",
+  "midi_path": "midi/reduced/BRIDGE_PROMISES_QUIET.mid",
+  "native_payload_path": "native/reduced/126.sound.bin",
+  "sha256": {
+    "midi": "0c960a7090ab7c122cb7d374f1bde71eab7c0ab6b9d28ca5fb0e2bc0b9789fde",
+    "native": "381873c6df0c99ddb4dc9b1081a8fdcc54c7f60a2c44d804b3ab7a8f8dbe5c26"
+  },
+  "same_notes_programs_expression_tempos_loop": true,
+  "gains": {
+    "0": 99,
+    "1": 83,
+    "2": 0,
+    "3": 71,
+    "4": 73,
+    "5": 44,
+    "6": 0,
+    "9": 59
+  },
+  "runtime": "One existing parser with tested per-role state gains; these files are alternate audition/reference payloads, not concurrent players.",
+  "native_runtime_tested": false,
+  "human_listening_approved": false
+}

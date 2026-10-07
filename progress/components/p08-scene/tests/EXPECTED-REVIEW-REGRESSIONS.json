@@ -1,0 +1,23 @@
+[
+  "unclassified_subtree_verify",
+  "unclassified_subtree_package",
+  "zero_returncode",
+  "boolean_returncode",
+  "float_returncode",
+  "baseline_false",
+  "stale_flag_false",
+  "numeric_true_flag",
+  "wrong_rejection",
+  "reviewer_combined_forgery",
+  "missing_row",
+  "duplicate_row",
+  "extra_row",
+  "extra_row_field",
+  "missing_row_field",
+  "boolean_test_count",
+  "valid_report_whitespace",
+  "changed_approved_log",
+  "missing_gate_seal",
+  "unapproved_gate_member",
+  "nested_evidence_not_packaged"
+]

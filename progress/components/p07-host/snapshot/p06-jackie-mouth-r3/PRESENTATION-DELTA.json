@@ -1,0 +1,24 @@
+{
+  "status": "EXACT_GUARDED_PRESENTATION_ONLY_DELTA",
+  "base_candidate1_seal_sha256": "a2bc8b94db0c2e4d4a4807efced51ff055b42f2b164c7de944d24cd0cce43c74",
+  "required_main_delta_seal_sha256": "76fd9a6d84013aae5ded12b4117ebf6822ba7f9172ea8d56351add4e4802b8bc",
+  "before_module987_sha256": "439e25743f14a1a277a7e064e184a113981dff6da985c86b58169ccb4b30d5af",
+  "after_module987_sha256": "9384e6f9a31799dd1f69756c483d207537c16c462754fe57bc5d829bd69f21e3",
+  "changed_methods": [
+    "h6DrawJack"
+  ],
+  "guard_before": "(method (h6DrawJack)\n (if (or (!= (h6Controller hVCEncounter?) 2) (not (h6Controller hVCStage?))\n  (h6Host onApron?) (!= (h6Host location?) h6VivianRoom)) (return 0))\n ; Presentation-only stance, no world-location mutation or extra Jackie object.\n (if (h6Controller hStagePose: 1) (DrawCel 330 1 0 145 63 -1 127 127)\n else (DrawCel 214 1 0 145 63 -1 127 127)) (return 1))",
+  "replacement_after": "(method (h6DrawJack &tmp a mouth)\n (if (or (!= (h6Controller hVCEncounter?) 2) (not (h6Controller hVCStage?))\n  (h6Host onApron?) (!= (h6Host location?) h6VivianRoom)) (return 0))\n ; Presentation-only stance, no world-location mutation or extra Jackie object.\n (if (h6Controller hStagePose: 1) (DrawCel 330 1 0 145 63 -1 127 127)\n else\n  (= a (h6Host presentation?)) (= mouth 0)\n  (if (and a (== (a lane?) 1) (== (a speaker?) 1))\n   (= mouth (a mouth?)) (if (or (< mouth 0) (> mouth 2)) (= mouth 0))\n   (DrawCel 216 1 mouth 145 63 -1 127 127)\n  else (DrawCel 214 1 0 145 63 -1 127 127))) (return 1))",
+  "selectors_unchanged": true,
+  "other_eight_modules_source_and_emitted_exact": true,
+  "domain_methods_unchanged": 105,
+  "state_or_publication_changes": false,
+  "compile_receipt_sha256": "628117379862d95a273c1bfd7525d65c1d586151a10042eff1a75ee9d9a130ba",
+  "main_bytes": 61752,
+  "main_headroom": 3783,
+  "source_and_emitted_focused_cases": 18,
+  "actual_emitted_ui_solution": "PASS, 269 control/action steps and 78 source pages, normal/muted/restored mouth",
+  "base_r2_74_tests": "PASS on separate exact R2 binding; not claimed as full R3 run",
+  "native_acceptance": false,
+  "listening": false
+}
