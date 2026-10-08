@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "status": "PASS_PUBLIC_CLOSURE_INTEGRITY_GUARDS",
+  "cases": [
+    {
+      "case": "changed frozen authoring bytes",
+      "status": "PASS_REJECTED",
+      "diagnostic": "Public source membership, bytes, or executable mode changed"
+    },
+    {
+      "case": "unexpected source membership",
+      "status": "PASS_REJECTED",
+      "diagnostic": "Public source membership, bytes, or executable mode changed"
+    },
+    {
+      "case": "missing compiler executable flag",
+      "status": "PASS_REJECTED",
+      "diagnostic": "Public source membership, bytes, or executable mode changed"
+    },
+    {
+      "case": "optimized Python",
+      "status": "PASS_REJECTED",
+      "diagnostic": "Optimized Python is forbidden"
+    },
+    {
+      "case": "restored clean closure",
+      "status": "PASS_ACCEPTED"
+    }
+  ],
+  "source_emitted_acceptance": false,
+  "native_acceptance": false
+}

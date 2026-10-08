@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "scope": "Pinned pre-repair public baseline structural layout and all script bytes outside three method bodies. Script and heap paths and changed script hash excluded from layout hash; heap hashes, entry addresses, exports, properties, locals and relocation data retained.",
+  "baseline_compile_receipt_sha256": "473d8fb1546d9802825055e4c92b9a6024262be948bdc053d05fea3d3d93a0e1",
+  "modules": {
+    "980": {
+      "layout_sha256": "3909a137590fb11d730e143c30ffb3f6918bd9912a338509c7f73dcb00888cd2",
+      "script_bytes": 1374,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85"
+    },
+    "981": {
+      "layout_sha256": "ee39b1338154dd3953baf2657ba26a90e8240440b285497dbf71f22cc4cfb301",
+      "script_bytes": 5876,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "95516579f9cae99bd2efa74407781f2c11f87d2a0b01a0bfae6ee1de1cbbab42"
+    },
+    "982": {
+      "layout_sha256": "7ae093fd56d2cf3bdccc183281c3732019d9bbfc02f3566c8f6b47012714b6d7",
+      "script_bytes": 19832,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "a2c8503ddd49c51607778085a99f3a46a12251c9995bc89c82d746471f4cec04"
+    },
+    "983": {
+      "layout_sha256": "4b132081ae65100ba134b6ead1b22383ec271103f59ee9417e17a1c2b6c09038",
+      "script_bytes": 11910,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "6e949ec8a8056208ef0573f3d96d2434156717d896a6a1c2413c7d5956ec3610"
+    },
+    "984": {
+      "layout_sha256": "12fb8e2d369e92293e77841759b9a35e6a8e740a8edd3fbf55b165bc84d602fa",
+      "script_bytes": 10628,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "3993fdcf512427d79fc493c1752699070aa2faf92ca72881d63dd70d7d871a60"
+    },
+    "985": {
+      "layout_sha256": "f01347f855997e13f3122e06bd61135cc7c133370b4fd0badeed8e72b43e9791",
+      "script_bytes": 32276,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "d694883768a5cd1ea6d132552a16505572c1af673de0c9236a6bfd5ae9d6b88b"
+    },
+    "986": {
+      "layout_sha256": "c9b543c0925651948a1ab76c590ac0c57b9bf95994f79221b9f812754c1db0f8",
+      "script_bytes": 10636,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "1ceaf4c6f0fe3331574fd9bb77b7f0ef523ab2a5b5c037b18826024781c9b0e0"
+    },
+    "987": {
+      "layout_sha256": "1b54cc9ff0ac9fb05d5113ec3d134f2ca31efe7d90f159e3270d50b4f2a7259b",
+      "script_bytes": 27786,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "52d8ac5598ae1f9f99c96f5bfa9dcf15e204dcbb9ded988eb301ff5a877181c1"
+    },
+    "988": {
+      "layout_sha256": "b514455d8eeff488caed7bd02b3b68215aaa5e3c6c08c44d718a5e483715c26c",
+      "script_bytes": 21528,
+      "allowed_method_intervals": [
+        {
+          "method": "h7DrawBunny",
+          "start": 17660,
+          "end_exclusive": 17837
+        },
+        {
+          "method": "h7ReturnBunny",
+          "start": 14086,
+          "end_exclusive": 14191
+        }
+      ],
+      "script_outside_intervals_sha256": "32b20647739c9092f23129d5bfb66b0b6da4ad56e446491f2970a09ac36af005"
+    },
+    "989": {
+      "layout_sha256": "a1a1e3aa29d7895dce8d7d537208ece5b6876f50be51ebffe671aefe22006e0b",
+      "script_bytes": 60548,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "591e0bb96bbbe9d01324a7a71876949cda45d513c5d1d8643987dfa59a46f0b4"
+    },
+    "990": {
+      "layout_sha256": "fc13f37eddcf930ce2788288bf53564347337200ba2ed9432a721bc1ec96eb79",
+      "script_bytes": 18862,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "6ea063f244b2da352848af03070a26d9b06956d61ebfd3e7b8b93618373ea722"
+    },
+    "991": {
+      "layout_sha256": "d52382cf9dbee34f293f56e8621fb8bd231769bb4a3d419ffae2897c16e3b261",
+      "script_bytes": 19624,
+      "allowed_method_intervals": [
+        {
+          "method": "h6BaseDrawWorld",
+          "start": 2968,
+          "end_exclusive": 4089
+        }
+      ],
+      "script_outside_intervals_sha256": "809ddea4706dc1602bd0d2c2ca58c69e8fca5ea7e804be1adcdffecdf3ad8eb1"
+    },
+    "992": {
+      "layout_sha256": "45cbf1c898c18d4ef8aab51f46eace37682a734849bcd4b8634873809a7a59e6",
+      "script_bytes": 21920,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "253edbc2bbd8f46d43a3499e58972ccfb21ea774beb74630fa6a1bacc2a9c976"
+    },
+    "0": {
+      "layout_sha256": "6e0e316b4318b0f841efa1799d59a2c81604ede48812e57b13bd08fd7b7e3c52",
+      "script_bytes": 48460,
+      "allowed_method_intervals": [],
+      "script_outside_intervals_sha256": "bc8d46c21c988772e8547a86cb06aac49d0c7a9589ee70a3d60c3db5f165b6c8"
+    }
+  }
+}

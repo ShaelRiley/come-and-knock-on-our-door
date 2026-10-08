@@ -1,0 +1,50 @@
+{
+  "baseline_compile_sha256": "6b7fc29afb9866b02d985635029dd24110d9a5e332fe9ad82ab0939abad4520a",
+  "new_selector_count": 9,
+  "mapping": {
+    "h9CardIndex": 3167,
+    "h9CardReservation": 3168,
+    "h9OwnershipValid": 3169,
+    "h9CardHeld": 3170,
+    "h9InventoryValid": 3171,
+    "h9ProjectCard": 3172,
+    "h9SaveReady": 3173,
+    "h9RestoreCard": 3174,
+    "h9PublishCard": 3175
+  },
+  "vocabulary_added_bytes": 138,
+  "remaining_p09_selectors": [
+    3176,
+    3199
+  ],
+  "main_hooks": [
+    "campaignHeld",
+    "p02HostInventory",
+    "p02ObjectLocation",
+    "p05RestoreBegin",
+    "p05RestoreReject",
+    "p05RestoreValidate",
+    "writeSave"
+  ],
+  "main_new_methods": [
+    "h9PublishCard"
+  ],
+  "module990_new_methods": [
+    "h9CardIndex",
+    "h9CardReservation",
+    "h9OwnershipValid",
+    "h9CardHeld",
+    "h9InventoryValid",
+    "h9ProjectCard",
+    "h9SaveReady",
+    "h9RestoreCard"
+  ],
+  "append_only_locals": [
+    "h9CardSlot[1]=-1",
+    "h9CardAdmission[1]=1"
+  ],
+  "domain61_literal": true,
+  "p09_active": false,
+  "p10_active": false,
+  "evening_ready": false
+}

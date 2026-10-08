@@ -1,0 +1,53 @@
+PASS_PUBLIC_SOURCE_COLD_REBUILD 14 sources 111 outputs; paired/native acceptance not asserted
+test_01_real_first_click_modal_close_reopen_and_routes (test_p09_active.P09Active.test_01_real_first_click_modal_close_reopen_and_routes) ... P01 room 1 steps 3630676
+P02 room 1 steps 21420407
+P03 room 6 steps 34860091
+P04 room 3 steps 47769067
+P05 + VC01 loss room 5 steps 67751196
+P06 + VC02 loss room 0 steps 92342766
+P07 room 2 steps 99450612
+P08 genuine admission room 4 steps 105825209
+P01 room 1 steps 956136
+P02 room 1 steps 2936126
+P03 room 6 steps 4840150
+P04 room 3 steps 7101907
+P05 + VC01 loss room 5 steps 12318227
+P06 + VC02 loss room 0 steps 18918652
+P07 room 2 steps 20548243
+P08 genuine admission room 4 steps 22581730
+ok
+test_02_terms_exact_units_restore_success_and_card (test_p09_active.P09Active.test_02_terms_exact_units_restore_success_and_card) ... ok
+test_03_stale_foreign_metadata_and_fresh_restore_frames (test_p09_active.P09Active.test_03_stale_foreign_metadata_and_fresh_restore_frames) ... ok
+test_real_plan_bread_paper_and_rack (test_p10_active.P10Active.test_real_plan_bread_paper_and_rack) ... P10 BACKEND False
+P10 actual plan and Bunny readers False
+P10 paper rack restored False (0, 16)
+P10 seven sources and ceramic rack False
+P10 BACKEND True
+P10 actual plan and Bunny readers True
+P10 paper rack restored True (0, 16)
+P10 seven sources and ceramic rack True
+ok
+test_unseen_skip_close_save_and_foreign_reader_do_not_credit (test_p10_active.P10Active.test_unseen_skip_close_save_and_foreign_reader_do_not_credit) ... ok
+test_actual_installed_cue_move_and_undo (test_p10_reorder.P10Reorder.test_actual_installed_cue_move_and_undo) ... P10 REORDER BACKEND False
+P10 REORDER PASS False (0, 12)
+P10 REORDER BACKEND True
+P10 REORDER PASS True (0, 12)
+ok
+test_active_high_ids_and_retired_aggregate_are_consumed (test_p10_reserved_actions.P10ReservedActions.test_active_high_ids_and_retired_aggregate_are_consumed) ... ok
+test_01_fresh_inactive_high_id_guards_and_ordinary_save (test_card_ownership.CardOwnership.test_01_fresh_inactive_high_id_guards_and_ordinary_save) ... ok
+test_01_fresh_closed_gate_high_ids_and_ordinary_save (test_cue_ownership.CueOwnership.test_01_fresh_closed_gate_high_ids_and_ordinary_save) ... ok
+test_p10_first_then_original_card_both_cue_families_and_restore (test_coexistence_r2.Coexistence.test_p10_first_then_original_card_both_cue_families_and_restore) ... COEXISTENCE BACKEND emitted
+COEXISTENCE P10 ready before untouched P09 emitted
+COEXISTENCE original399 and paper rack restored together emitted
+COEXISTENCE PASS emitted
+COEXISTENCE BACKEND source
+COEXISTENCE P10 ready before untouched P09 source
+COEXISTENCE original399 and paper rack restored together source
+COEXISTENCE PASS source
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2860.126s
+
+OK
+PASS 10 paired methods; native acceptance not asserted

@@ -1,0 +1,1087 @@
+{
+  "record_receipts": {
+    "P10.OPEN.001": {
+      "record_id": "P10.OPEN.001",
+      "record_number": 1,
+      "document_id": 1200,
+      "pages": [
+        [
+          1200,
+          0
+        ],
+        [
+          1200,
+          1
+        ],
+        [
+          1200,
+          2
+        ],
+        [
+          1200,
+          3
+        ],
+        [
+          1200,
+          4
+        ],
+        [
+          1200,
+          5
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.OPEN.001.01",
+        "P10.OPEN.001.02",
+        "P10.OPEN.001.03",
+        "P10.OPEN.001.04",
+        "P10.OPEN.001.05",
+        "P10.OPEN.001.06"
+      ],
+      "units": [
+        {
+          "line_id": "P10.OPEN.001.01",
+          "speech_unit_id": 1,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1223
+        },
+        {
+          "line_id": "P10.OPEN.001.02",
+          "speech_unit_id": 2,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1224
+        },
+        {
+          "line_id": "P10.OPEN.001.03",
+          "speech_unit_id": 3,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1225
+        },
+        {
+          "line_id": "P10.OPEN.001.04",
+          "speech_unit_id": 4,
+          "record_pages": [
+            3
+          ],
+          "last_record_page": 3,
+          "unit_document": 1226
+        },
+        {
+          "line_id": "P10.OPEN.001.05",
+          "speech_unit_id": 5,
+          "record_pages": [
+            4
+          ],
+          "last_record_page": 4,
+          "unit_document": 1227
+        },
+        {
+          "line_id": "P10.OPEN.001.06",
+          "speech_unit_id": 6,
+          "record_pages": [
+            5
+          ],
+          "last_record_page": 5,
+          "unit_document": 1228
+        }
+      ]
+    },
+    "P10.LOOK.001": {
+      "record_id": "P10.LOOK.001",
+      "record_number": 2,
+      "document_id": 1201,
+      "pages": [
+        [
+          1201,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.LOOK.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.LOOK.001.01",
+          "speech_unit_id": 7,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1229
+        }
+      ]
+    },
+    "P10.READ.001": {
+      "record_id": "P10.READ.001",
+      "record_number": 3,
+      "document_id": 1202,
+      "pages": [
+        [
+          1202,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.READ.001"
+      ],
+      "units": []
+    },
+    "P10.LABEL.001": {
+      "record_id": "P10.LABEL.001",
+      "record_number": 4,
+      "document_id": 1203,
+      "pages": [
+        [
+          1203,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.LABEL.001"
+      ],
+      "units": []
+    },
+    "P10.LOOK.002": {
+      "record_id": "P10.LOOK.002",
+      "record_number": 5,
+      "document_id": 1204,
+      "pages": [
+        [
+          1204,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.LOOK.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.LOOK.002.01",
+          "speech_unit_id": 8,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1230
+        }
+      ]
+    },
+    "P10.LABEL.002": {
+      "record_id": "P10.LABEL.002",
+      "record_number": 6,
+      "document_id": 1205,
+      "pages": [
+        [
+          1205,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.LABEL.002"
+      ],
+      "units": []
+    },
+    "P10.LOOK.003": {
+      "record_id": "P10.LOOK.003",
+      "record_number": 7,
+      "document_id": 1206,
+      "pages": [
+        [
+          1206,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.LOOK.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.LOOK.003.01",
+          "speech_unit_id": 9,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1231
+        }
+      ]
+    },
+    "P10.SUCCESS.001": {
+      "record_id": "P10.SUCCESS.001",
+      "record_number": 8,
+      "document_id": 1207,
+      "pages": [
+        [
+          1207,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.SUCCESS.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.SUCCESS.001.01",
+          "speech_unit_id": 10,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1232
+        }
+      ]
+    },
+    "P10.CHOICE.001": {
+      "record_id": "P10.CHOICE.001",
+      "record_number": 9,
+      "document_id": 1208,
+      "pages": [
+        [
+          1208,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.CHOICE.001"
+      ],
+      "units": []
+    },
+    "P10.CHOICE.002": {
+      "record_id": "P10.CHOICE.002",
+      "record_number": 10,
+      "document_id": 1209,
+      "pages": [
+        [
+          1209,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.CHOICE.002"
+      ],
+      "units": []
+    },
+    "P10.CHOICE.003": {
+      "record_id": "P10.CHOICE.003",
+      "record_number": 11,
+      "document_id": 1210,
+      "pages": [
+        [
+          1210,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.CHOICE.003"
+      ],
+      "units": []
+    },
+    "P10.SUCCESS.002": {
+      "record_id": "P10.SUCCESS.002",
+      "record_number": 12,
+      "document_id": 1211,
+      "pages": [
+        [
+          1211,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.SUCCESS.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.SUCCESS.002.01",
+          "speech_unit_id": 11,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1233
+        }
+      ]
+    },
+    "P10.SUCCESS.003": {
+      "record_id": "P10.SUCCESS.003",
+      "record_number": 13,
+      "document_id": 1212,
+      "pages": [
+        [
+          1212,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.SUCCESS.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.SUCCESS.003.01",
+          "speech_unit_id": 12,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1234
+        }
+      ]
+    },
+    "P10.FAILURE.001": {
+      "record_id": "P10.FAILURE.001",
+      "record_number": 14,
+      "document_id": 1213,
+      "pages": [
+        [
+          1213,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.FAILURE.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.FAILURE.001.01",
+          "speech_unit_id": 13,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1235
+        }
+      ]
+    },
+    "P10.FAILURE.002": {
+      "record_id": "P10.FAILURE.002",
+      "record_number": 15,
+      "document_id": 1214,
+      "pages": [
+        [
+          1214,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.FAILURE.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.FAILURE.002.01",
+          "speech_unit_id": 14,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1236
+        }
+      ]
+    },
+    "P10.FAILURE.003": {
+      "record_id": "P10.FAILURE.003",
+      "record_number": 16,
+      "document_id": 1215,
+      "pages": [
+        [
+          1215,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.FAILURE.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.FAILURE.003.01",
+          "speech_unit_id": 15,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1237
+        }
+      ]
+    },
+    "P10.SUCCESS.004": {
+      "record_id": "P10.SUCCESS.004",
+      "record_number": 17,
+      "document_id": 1216,
+      "pages": [
+        [
+          1216,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.SUCCESS.004.01"
+      ],
+      "units": [
+        {
+          "line_id": "P10.SUCCESS.004.01",
+          "speech_unit_id": 16,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1238
+        }
+      ]
+    },
+    "P10.DIALOGUE.001": {
+      "record_id": "P10.DIALOGUE.001",
+      "record_number": 18,
+      "document_id": 1217,
+      "pages": [
+        [
+          1217,
+          0
+        ],
+        [
+          1217,
+          1
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.DIALOGUE.001.01",
+        "P10.DIALOGUE.001.02"
+      ],
+      "units": [
+        {
+          "line_id": "P10.DIALOGUE.001.01",
+          "speech_unit_id": 17,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1239
+        },
+        {
+          "line_id": "P10.DIALOGUE.001.02",
+          "speech_unit_id": 18,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1240
+        }
+      ]
+    },
+    "P10.DIALOGUE.002": {
+      "record_id": "P10.DIALOGUE.002",
+      "record_number": 19,
+      "document_id": 1218,
+      "pages": [
+        [
+          1218,
+          0
+        ],
+        [
+          1218,
+          1
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.DIALOGUE.002.01",
+        "P10.DIALOGUE.002.02"
+      ],
+      "units": [
+        {
+          "line_id": "P10.DIALOGUE.002.01",
+          "speech_unit_id": 19,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1241
+        },
+        {
+          "line_id": "P10.DIALOGUE.002.02",
+          "speech_unit_id": 20,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1242
+        }
+      ]
+    },
+    "P10.READ.002": {
+      "record_id": "P10.READ.002",
+      "record_number": 20,
+      "document_id": 1219,
+      "pages": [
+        [
+          1219,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.READ.002"
+      ],
+      "units": []
+    },
+    "P10.HINT.1": {
+      "record_id": "P10.HINT.1",
+      "record_number": 21,
+      "document_id": 1220,
+      "pages": [
+        [
+          1220,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.HINT.1"
+      ],
+      "units": []
+    },
+    "P10.HINT.2": {
+      "record_id": "P10.HINT.2",
+      "record_number": 22,
+      "document_id": 1221,
+      "pages": [
+        [
+          1221,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.HINT.2"
+      ],
+      "units": []
+    },
+    "P10.HINT.3": {
+      "record_id": "P10.HINT.3",
+      "record_number": 23,
+      "document_id": 1222,
+      "pages": [
+        [
+          1222,
+          0
+        ]
+      ],
+      "canonical_tokens": [
+        "P10.HINT.3"
+      ],
+      "units": []
+    }
+  },
+  "unit_receipts": {
+    "P10.OPEN.001.01": {
+      "line_id": "P10.OPEN.001.01",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 1,
+      "document_id": 1223,
+      "pages": [
+        [
+          1223,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          0
+        ]
+      ],
+      "source_text_sha256": "806efdd75b61839d6ca4404f1491971a582a989270302dc7aa7a39e606d5a72b"
+    },
+    "P10.OPEN.001.02": {
+      "line_id": "P10.OPEN.001.02",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 2,
+      "document_id": 1224,
+      "pages": [
+        [
+          1224,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          1
+        ]
+      ],
+      "source_text_sha256": "dd010e42cd481a486107b4801ce0a0a85864dfcddee79da1f2db471be3bcda06"
+    },
+    "P10.OPEN.001.03": {
+      "line_id": "P10.OPEN.001.03",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 3,
+      "document_id": 1225,
+      "pages": [
+        [
+          1225,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          2
+        ]
+      ],
+      "source_text_sha256": "56bb45895957f466ad80fd55c74d9943cf89375bb6c04ed916746b2dbacc9fab"
+    },
+    "P10.OPEN.001.04": {
+      "line_id": "P10.OPEN.001.04",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 4,
+      "document_id": 1226,
+      "pages": [
+        [
+          1226,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          3
+        ]
+      ],
+      "source_text_sha256": "8e5bff0bcedc76d667f58e12a82c16c738de0cb8e703a24f17e97ec8fe468972"
+    },
+    "P10.OPEN.001.05": {
+      "line_id": "P10.OPEN.001.05",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 5,
+      "document_id": 1227,
+      "pages": [
+        [
+          1227,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          4
+        ]
+      ],
+      "source_text_sha256": "ce88d9c5f33782c15bd92b99f79a1a2c9d2f58012c8a8a8872cf5446e927f39d"
+    },
+    "P10.OPEN.001.06": {
+      "line_id": "P10.OPEN.001.06",
+      "record_id": "P10.OPEN.001",
+      "speech_unit_id": 6,
+      "document_id": 1228,
+      "pages": [
+        [
+          1228,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1200,
+          5
+        ]
+      ],
+      "source_text_sha256": "04ea4b12e760b1941774699de9fb70e1ee0c86ed35ca2fe1b178bf2fffd2d9d9"
+    },
+    "P10.LOOK.001.01": {
+      "line_id": "P10.LOOK.001.01",
+      "record_id": "P10.LOOK.001",
+      "speech_unit_id": 7,
+      "document_id": 1229,
+      "pages": [
+        [
+          1229,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1201,
+          0
+        ]
+      ],
+      "source_text_sha256": "5589c8256e04983de87bfc3952aaaa61664043a61f3b5fe292af44fb86bc48d1"
+    },
+    "P10.LOOK.002.01": {
+      "line_id": "P10.LOOK.002.01",
+      "record_id": "P10.LOOK.002",
+      "speech_unit_id": 8,
+      "document_id": 1230,
+      "pages": [
+        [
+          1230,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1204,
+          0
+        ]
+      ],
+      "source_text_sha256": "cb708a53c4715d135473efc258e79875d61f4ec872b1b309b217bcfc6c88a4f3"
+    },
+    "P10.LOOK.003.01": {
+      "line_id": "P10.LOOK.003.01",
+      "record_id": "P10.LOOK.003",
+      "speech_unit_id": 9,
+      "document_id": 1231,
+      "pages": [
+        [
+          1231,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1206,
+          0
+        ]
+      ],
+      "source_text_sha256": "aefc41fe82d75ba1b04724cece1e6a33705c9fbbbd96f6e88aa9959d0467c339"
+    },
+    "P10.SUCCESS.001.01": {
+      "line_id": "P10.SUCCESS.001.01",
+      "record_id": "P10.SUCCESS.001",
+      "speech_unit_id": 10,
+      "document_id": 1232,
+      "pages": [
+        [
+          1232,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1207,
+          0
+        ]
+      ],
+      "source_text_sha256": "a65e095b3e328b266718fee914e8f9d115033a6b0a92e22e0b3b1d2f231b1060"
+    },
+    "P10.SUCCESS.002.01": {
+      "line_id": "P10.SUCCESS.002.01",
+      "record_id": "P10.SUCCESS.002",
+      "speech_unit_id": 11,
+      "document_id": 1233,
+      "pages": [
+        [
+          1233,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1211,
+          0
+        ]
+      ],
+      "source_text_sha256": "e6703d289150396f69199b749f7c3d878f62b0315afec5c675fdedc50738a92d"
+    },
+    "P10.SUCCESS.003.01": {
+      "line_id": "P10.SUCCESS.003.01",
+      "record_id": "P10.SUCCESS.003",
+      "speech_unit_id": 12,
+      "document_id": 1234,
+      "pages": [
+        [
+          1234,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1212,
+          0
+        ]
+      ],
+      "source_text_sha256": "a4ab592b80649cb9065066f1d5a0d6cd9d66b42ff79165579081584c35f83135"
+    },
+    "P10.FAILURE.001.01": {
+      "line_id": "P10.FAILURE.001.01",
+      "record_id": "P10.FAILURE.001",
+      "speech_unit_id": 13,
+      "document_id": 1235,
+      "pages": [
+        [
+          1235,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1213,
+          0
+        ]
+      ],
+      "source_text_sha256": "1ca4b2c18c48ecca6d0f75a08a21a8882ac2bcddb18b7ddc8116bfaee8fa04f7"
+    },
+    "P10.FAILURE.002.01": {
+      "line_id": "P10.FAILURE.002.01",
+      "record_id": "P10.FAILURE.002",
+      "speech_unit_id": 14,
+      "document_id": 1236,
+      "pages": [
+        [
+          1236,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1214,
+          0
+        ]
+      ],
+      "source_text_sha256": "8c4b44ed42dc645243360465cee60454ed6f0de45e17c4c97f2bb426754bef95"
+    },
+    "P10.FAILURE.003.01": {
+      "line_id": "P10.FAILURE.003.01",
+      "record_id": "P10.FAILURE.003",
+      "speech_unit_id": 15,
+      "document_id": 1237,
+      "pages": [
+        [
+          1237,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1215,
+          0
+        ]
+      ],
+      "source_text_sha256": "7aeb56dc12a310c6d516aa4ee1d4579a69ac00ab764ccd2e1b193cf02dffd710"
+    },
+    "P10.SUCCESS.004.01": {
+      "line_id": "P10.SUCCESS.004.01",
+      "record_id": "P10.SUCCESS.004",
+      "speech_unit_id": 16,
+      "document_id": 1238,
+      "pages": [
+        [
+          1238,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1216,
+          0
+        ]
+      ],
+      "source_text_sha256": "89ab9a84c75b39b5ba59f65a8bf728438495828c7a0c28eabeccb0617273fa44"
+    },
+    "P10.DIALOGUE.001.01": {
+      "line_id": "P10.DIALOGUE.001.01",
+      "record_id": "P10.DIALOGUE.001",
+      "speech_unit_id": 17,
+      "document_id": 1239,
+      "pages": [
+        [
+          1239,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1217,
+          0
+        ]
+      ],
+      "source_text_sha256": "28028a119be16ccf23886b8dc6c2846d5971e6ebd1da67dd4aadf2c0de7b79f6"
+    },
+    "P10.DIALOGUE.001.02": {
+      "line_id": "P10.DIALOGUE.001.02",
+      "record_id": "P10.DIALOGUE.001",
+      "speech_unit_id": 18,
+      "document_id": 1240,
+      "pages": [
+        [
+          1240,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1217,
+          1
+        ]
+      ],
+      "source_text_sha256": "9689b6abd99daf0be50a1cfa97818c2fce362dd2b397b182bc20fa233b8151eb"
+    },
+    "P10.DIALOGUE.002.01": {
+      "line_id": "P10.DIALOGUE.002.01",
+      "record_id": "P10.DIALOGUE.002",
+      "speech_unit_id": 19,
+      "document_id": 1241,
+      "pages": [
+        [
+          1241,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1218,
+          0
+        ]
+      ],
+      "source_text_sha256": "d0a73dcdf7cc7e53c9a91484cee7a6ba6d9efdc7fc653fff4ceeb463e9e05db4"
+    },
+    "P10.DIALOGUE.002.02": {
+      "line_id": "P10.DIALOGUE.002.02",
+      "record_id": "P10.DIALOGUE.002",
+      "speech_unit_id": 20,
+      "document_id": 1242,
+      "pages": [
+        [
+          1242,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1218,
+          1
+        ]
+      ],
+      "source_text_sha256": "754cff21a0629f51dc2428a9633a0756472dfa29b4a76ee452bef596c12a2e9e"
+    }
+  },
+  "source_receipts": {
+    "intro": {
+      "source_number": 1,
+      "record_ids": [
+        "P10.OPEN.001"
+      ],
+      "documents": [
+        1200
+      ],
+      "canonical_tokens": [
+        "P10.OPEN.001.01",
+        "P10.OPEN.001.02",
+        "P10.OPEN.001.03",
+        "P10.OPEN.001.04",
+        "P10.OPEN.001.05",
+        "P10.OPEN.001.06"
+      ],
+      "token_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "plan": {
+      "source_number": 2,
+      "record_ids": [
+        "P10.READ.001"
+      ],
+      "documents": [
+        1202
+      ],
+      "canonical_tokens": [
+        "P10.READ.001"
+      ],
+      "token_numbers": [
+        7
+      ]
+    },
+    "notebook": {
+      "source_number": 3,
+      "record_ids": [
+        "P10.READ.002"
+      ],
+      "documents": [
+        1219
+      ],
+      "canonical_tokens": [
+        "P10.READ.002"
+      ],
+      "token_numbers": [
+        8
+      ]
+    },
+    "tiles": {
+      "source_number": 4,
+      "record_ids": [
+        "P10.LOOK.002"
+      ],
+      "documents": [
+        1204
+      ],
+      "canonical_tokens": [
+        "P10.LOOK.002.01"
+      ],
+      "token_numbers": [
+        9
+      ]
+    },
+    "rack": {
+      "source_number": 5,
+      "record_ids": [
+        "P10.LOOK.003"
+      ],
+      "documents": [
+        1206
+      ],
+      "canonical_tokens": [
+        "P10.LOOK.003.01"
+      ],
+      "token_numbers": [
+        10
+      ]
+    },
+    "credit": {
+      "source_number": 6,
+      "record_ids": [
+        "P10.DIALOGUE.001"
+      ],
+      "documents": [
+        1217
+      ],
+      "canonical_tokens": [
+        "P10.DIALOGUE.001.01",
+        "P10.DIALOGUE.001.02"
+      ],
+      "token_numbers": [
+        11,
+        12
+      ]
+    },
+    "bread_agreement": {
+      "source_number": 7,
+      "record_ids": [
+        "P10.DIALOGUE.002"
+      ],
+      "documents": [
+        1218
+      ],
+      "canonical_tokens": [
+        "P10.DIALOGUE.002.01",
+        "P10.DIALOGUE.002.02"
+      ],
+      "token_numbers": [
+        13,
+        14
+      ]
+    }
+  },
+  "receipt_semantics": {
+    "full_record_requires_all_pages": true,
+    "unit_requires_all_unit_pages": true,
+    "queue_open_last_page_audio_completion_are_not_display_receipts": true,
+    "full_source_and_unit_authority_distinct": true,
+    "printed_interface_choices_hints_silent": true
+  }
+}

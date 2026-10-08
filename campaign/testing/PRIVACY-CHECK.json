@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "scope": "Every final packaged source/evidence file, including binary bytes; exact unchanged exceptions from original audit only",
+  "prohibited_match_count": 0,
+  "private_cache_snapshots_included": false,
+  "historical_private_evidence_included": false,
+  "allowed_unchanged_public_references": [
+    {
+      "path": "R3-REUSE-MAP.json",
+      "sha256": "54c57fe042f2abda169b91ec5b72797d090956236311ba6f95521b7094ede3d2",
+      "classification": "Unchanged repository-relative source/workspace namespace, not absolute path"
+    },
+    {
+      "path": "source/toolchain/scicompile",
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    },
+    {
+      "path": "source/toolchain/source/lucasartsifier/tools/scicompile/BUILD_NOTES.md",
+      "sha256": "13eb50e80ad3ce918666c33f0a7b91966a7eac9e70dcc7b771a3cc7279b44b97",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    },
+    {
+      "path": "source/toolchain/source/lucasartsifier/tools/scicompile/compat/winfile.cpp",
+      "sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    },
+    {
+      "path": "source/p10-input/toolchain/scicompile",
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    },
+    {
+      "path": "source/p10-input/toolchain/source/lucasartsifier/tools/scicompile/BUILD_NOTES.md",
+      "sha256": "13eb50e80ad3ce918666c33f0a7b91966a7eac9e70dcc7b771a3cc7279b44b97",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    },
+    {
+      "path": "source/p10-input/toolchain/source/lucasartsifier/tools/scicompile/compat/winfile.cpp",
+      "sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449",
+      "classification": "Unchanged compiler default/example already accepted in original privacy audit"
+    }
+  ],
+  "matches": []
+}

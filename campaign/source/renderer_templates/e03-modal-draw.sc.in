@@ -1,0 +1,22 @@
+; Modal actor pass from sealed E03 geometry. All props are drawn first.
+; Admission and completed-frame identity are owned by h8VC/h8VF, not by pixels.
+(method (h8VD owner controller &tmp i view loop mouth x y scale who audio)
+ (if (or (!= controller (ScriptID 989 0)) (!= owner (controller h8Host?)) (not (controller h8VC: 1))) (return 0))
+ (if (not (controller h8LayoutRender:)) (return 0))
+ (if (< (controller h8V: 10 0) 2) (return (controller h8RouteRender:)))
+ (= audio (owner presentation?))
+ (for ((= i 0)) (< i 7) ((++ i))
+  (switch i
+   (0 (= who 5) (= view 221) (= loop 0) (= x 13) (= y 61) (= scale 104))
+   (1 (= who 6) (= view 236) (= loop 1) (= x 271) (= y 61) (= scale 104))
+   (2 (= who 3) (= view 218) (= loop 0) (= x 53) (= y 60) (= scale 116))
+   (3 (= who 2) (= view 219) (= loop 0) (= x 97) (= y 60) (= scale 116))
+   (4 (= who 4) (= view 222) (= loop 1) (= x 141) (= y 60) (= scale 116))
+   (5 (= who 7) (= view 223) (= loop 1) (= x 183) (= y 60) (= scale 116))
+   (6 (= who 1) (= view 214) (= loop 1) (= x 225) (= y 64) (= scale 127)))
+  (= mouth 0)
+  (if (and (>= i 2) (<= i 5) audio (== (audio lane?) 1) (== (audio speaker?) who)
+   (controller h8VR: 10 who)) (= mouth (audio mouth?)))
+  (if (or (< mouth 0) (> mouth 2)) (= mouth 0))
+  (DrawCel view loop mouth x y -1 scale scale))
+ (return 1))

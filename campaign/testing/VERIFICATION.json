@@ -1,0 +1,31 @@
+{
+  "status": "PASS_PORTABLE_PUBLIC_REGRESSION",
+  "methods": 10,
+  "paired_backends": [
+    "emitted",
+    "source-backed"
+  ],
+  "seconds": 2860.142,
+  "compile_sha256": "473d8fb1546d9802825055e4c92b9a6024262be948bdc053d05fea3d3d93a0e1",
+  "original_harness_files_byte_identical": 33,
+  "native_acceptance": false,
+  "native_launch_performed": false,
+  "native_save_files_tested": false,
+  "cache_policy": "Fresh empty evidence directory; genuinely earned in-run states; same-program creator/state integrity checks retained; optional diagnostic/development reuse rejected",
+  "verification_files": {
+    "p10-reserved-proof-True.json": "f9d0d3d955a6f99ca0825b5c18c725a453a0df5453fd1590e3c33744424799a3",
+    "PUBLIC-COLD-REBUILD.json": "8b1edfde1fd4240d800b42ba709e616a95670613d8169b3efd5b8aa260ea8003",
+    "p10-reorder-proof-False.json": "7e287a238884f583af82814a62c3554772f621eaf1f39d1c6e735f219c3d6bd7",
+    "p10-active-proof-True.json": "13e2d82ad057c1e7fccb1d6361cc517235cd7dd1cd3678d0d5bfd5e4890de04c",
+    "PUBLIC-REGRESSION-RESULT.json": "a3c5145d818c6312a1c11b5c311d9a3b7e7f3d3519009d140242c846405dd15e",
+    "coexistence-r2-proof-emitted.json": "090ced58536815f53e7d677ef5e40a6b3e5c8ee76667be6b9c4e2f82da9ebeac",
+    "p10-reserved-proof-False.json": "0e1c3e297cfa0d8e17807409916dde54debc5cac56b05b63fe0c0f8a7764c571",
+    "p10-active-proof-False.json": "35447b34984cea666ede3a3ce2ae69fbe520e3475a0b5e3d51a2c814065218f3",
+    "coexistence-r2-proof-source.json": "0b6ac949cc7011ff8485ceff9cfa6e8472dec04c52562b8baea22c807e1624b7",
+    "suite.log": "54e903869f34830c7d40ea9fb9ba908e60bd5b4d9dc9f0d587dca50aadae35c4",
+    "p10-reorder-proof-True.json": "7cb07ee185553c31b4f82064eb852077da3e5d5e714f6d7a84771f39e19afc72"
+  },
+  "accepted_campaign_files_unchanged_during_execution": true,
+  "accepted_source_closure_unchanged_in_final_package": true,
+  "post_execution_changes": "Final guide, HOST-ACCEPTANCE, and active integration inventory updated to describe and bind included suite; testing README prerequisite corrected to Python 3.12+. Original cold-only integration inventory preserved under testing/history. No executed test, runner, source, or compiler file changed. EXECUTED-CANDIDATE-MANIFEST.json remains the historical run binding."
+}

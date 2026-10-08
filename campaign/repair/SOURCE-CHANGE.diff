@@ -1,0 +1,49 @@
+--- frozen/src/module988.sc
++++ return-guarded/src/module988.sc
+@@ -1061,10 +1061,9 @@
+  (h7Host uiAddChoice: 4 "Return with Bunny to the living room" 0 1)
+  (h7Host uiAddChoice: 5 "Will you stand on the listening mark and tell us whether the words are clear?" 0 1) (return 1))
+ (method (h7ReturnBunny)
+- (if (or (not (self h7Begin:)) (!= (h7Host location?) 2) (!= (h7Controller hBunnyRoom?) 2)
+-  (h7Controller hEscort?) (h7Controller p05SaveWord: 69)) (return 0))
+- (if (not (h7Host p05Transition: h7BunnyHome)) (return 0))
+- (h7Controller hBunnyRoom: h7BunnyHome) (= h7BunnyInvited 0) (h7Host dirty: 1) (return 1))
++ (if (or ((ScriptID 989) h8GB: 9) (not (self h7Begin:)) (!= 2 (h7Host location?)) (!= 2 (h7Controller hBunnyRoom?))
++  (h7Controller hEscort?) (h7Controller p05SaveWord: 69) (not (h7Host p05Transition: h7BunnyHome))) (return 0))
++ (return (not (= h7BunnyInvited (not (h7Controller hBunnyRoom: h7BunnyHome))))))
+ (method (h7MeasureMenu)
+  (if (not (self h7Begin:)) (return 0))
+  (h7Host uiClearChoices: "MEASURING JUG" 227 0)
+@@ -1221,13 +1220,12 @@
+   (if (not (self p07Projection: 3)) (DrawCel 233 0 7 46 78 -1 0)))
+  (if (self p07Projection: 2) (DrawCel 233 0 9 67 79 -1 0) (DrawCel 234 0 10 66 59 -1 0)) (return 1))
+ (method (h7DrawBunny &tmp a mouth)
+- (if (or (not h7RestoreValid) h7Failure (not h7BunnyInvited) (!= (h7Controller hBunnyRoom?) 2)
++ (if (or (not h7RestoreValid) h7Failure (not (or h7BunnyInvited (and (= a (h7Host p08?)) (a h8GB: 9)))) (!= (h7Controller hBunnyRoom?) 2)
+   (!= (h7Host location?) 2) (h7Host onApron?)) (return 0))
+- (= a (h7Host presentation?)) (= mouth 0)
+- (if (and a (== (a lane?) 1) (== (a speaker?) 2)) (= mouth (a mouth?)))
+- (if (or (< mouth 0) (> mouth 2)) (= mouth 0))
++ (= a (h7Host presentation?))
++ (if (or (not a) (!= 1 (a lane?)) (!= 2 (a speaker?)) (u> (= mouth (a mouth?)) 2)) (= mouth 0))
+  ; One instance owned by985, original219 mouth cels, facing the actual player.
+- (DrawCel 219 (if (> (h7Host motionX?) 14720) 0 else 1) mouth 204 61 -1 127 127) (return 1))
++ (DrawCel 219 (>= 14720 (h7Host motionX?)) mouth 204 61 -1 127 127) (return 1))
+ (method (h7Document record) (switch record
+  (1 (return 929))
+  (2 (return 930))
+--- frozen/src/module991.sc
++++ return-guarded/src/module991.sc
+@@ -1470,9 +1470,9 @@
+     )
+ 
+ (method (h6BaseDrawWorld owner &tmp savedAcc)
+-(if (and (owner p08?) ((owner p08?) h8LayoutRender:)) (return 0))
+-
+-(if (and (owner p05?) ((owner p05?) hFailure?)) ((owner p05?) hFailureWorld:) (return 0)) (if (and (owner p05?) ((owner p05?) hCourtRender:)) (return 0)) (if (and (owner p05?) ((owner p05?) hRenderWorld:)) (return 0))
++(if (and (== (owner location?) 4) (not (owner onApron?)) (= savedAcc (owner p08?)) (savedAcc h8LayoutRender:)) (return 0))
++
++(= savedAcc (owner p05?)) (if (and savedAcc (savedAcc hFailure?)) (savedAcc hFailureWorld:) (return 0)) (if (and savedAcc (savedAcc hCourtRender:)) (return 0)) (if (and (owner p05?) ((owner p05?) hRenderWorld:)) (return 0))
+ 
+         (if (and (== (owner location?) 3) (not (owner onApron?)))
+             (owner drawSidePassage:)

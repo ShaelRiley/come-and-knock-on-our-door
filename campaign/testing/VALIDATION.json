@@ -1,0 +1,28 @@
+{
+  "status": "PASS_STATIC_AND_RUNNER_GUARDS",
+  "original_harness_files_byte_identical": 33,
+  "accepted_campaign_files_unchanged": true,
+  "guard_cases": [
+    {
+      "case": "optimized",
+      "status": "PASS_REJECTED",
+      "reason": "RuntimeError: Optimized Python is forbidden"
+    },
+    {
+      "case": "p09_diagnostic",
+      "status": "PASS_REJECTED",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "case": "p10_development",
+      "status": "PASS_REJECTED",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "case": "selector_override",
+      "status": "PASS_REJECTED",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    }
+  ],
+  "dynamic_status": "SEPARATE_TERMINAL_RESULT_REQUIRED"
+}

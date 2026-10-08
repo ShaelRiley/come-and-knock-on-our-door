@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SCOPED_SOURCE_LAYOUT_AND_SCALAR_CHECKS",
+  "changed_methods": [
+    "module988.sc:h7ReturnBunny",
+    "module988.sc:h7DrawBunny",
+    "module991.sc:h6BaseDrawWorld"
+  ],
+  "modules": 14,
+  "source_files": 14,
+  "pinned_outputs": 111,
+  "compiled_receipt_sha256": "148c1068ffa166fa373b46233beb104ae19199fd86940de93b26335d41d8d702",
+  "all_heaps_exports_locals_properties_method_entries_and_relocations_preserved": true,
+  "all_script_bytes_outside_three_method_intervals_identical": true,
+  "scalar_values_checked": 65536,
+  "native_launch_performed": false,
+  "native_save_acceptance_asserted": false
+}

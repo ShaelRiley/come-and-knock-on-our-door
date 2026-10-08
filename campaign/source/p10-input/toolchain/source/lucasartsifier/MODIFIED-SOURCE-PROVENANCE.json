@@ -1,0 +1,596 @@
+{
+  "upstream_revisions": {
+    "lucasartsifier": "45068351290ffd90e74186c69322d200fa60cafd",
+    "SCICompanion": "f1a603b48b1aa7abf94f78574a8f69a653e2ca62"
+  },
+  "scope": "Exact source identities and inherited local/port modifications. Publication revision adds comments only; original historical dates are not invented. The companion diff compares inherited donor copies before those new comments. This is not a claim that all inherited changes were mechanical or semantics-neutral.",
+  "files": [
+    {
+      "path": "tools/scicompile/compat/AppState.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "92a4539f3742123b7a4c93b5c8301f917646689c44765cd268ac2303eb5adcc5",
+      "distributed_sha256": "322eb1baaa47b5a966855e1d73771a2169ad15a8e1b7c77f2c9b5e0e0e3d0816",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/AppState.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "c5b736382bf1b5378b8c6f8b25ae2360e9dfe20e3d1f75470a94852f9292d2c0",
+      "distributed_sha256": "3556deddb68045f32a28b9245267b82db3df1e70a01d462dff30ad7b33cc3067",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/CCrystalTextBuffer.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "e307f5f0b4c500b2c32bf0e823cd8f2973b50cc21aa6b43850c5d384806389ae",
+      "distributed_sha256": "1bf7d5b8ad0f6661fb9735a266b1c203fc31170b5927fb942a720ebda5ac5ae0",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/CompileContext.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "ba44999e8965f31e055b03555e0194c2a1879835c80865859916cd1c84427731",
+      "distributed_sha256": "bd782f3d7a55cdfd6b95b5a83d9a394eec27c107e4676ddfc173c0b9e5d65de7",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileContext.h",
+        "sha256": "3e79ebf71d0de88da5c355a9ca2aaa438c8f6200598b24411d12db8190a263fb"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/ParserActions.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "d8fcd80758730512fef8a2578ed89f19d52a727d60590028c83d7e61ef146781",
+      "distributed_sha256": "b44d0952d79cdb203d8653370b96b0faf52f5c3de03db6859672ebcdb95b02a6",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserActions.h",
+        "sha256": "5cbe4559c6f7653d17e5e0c20f6c2d24b827f84d0c10a4f7c3469f3b2a6b427c"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/ParserCommon.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "b55f4c93ae74f1c0b0026f0bc4154e1ac01196e439c2ae51051643ecb7c0b576",
+      "distributed_sha256": "c2adf4c409418f9f58be1e9d00fa8fac57cac967c3d9d6714e630b86ce834055",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserCommon.h",
+        "sha256": "c5b73c0f0798fb7de0dc5d82ac0729cb5ed0d6c83b09d3a467f5ff14f62c978f"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/RemoveScriptDialog.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "6d2a3ca989cdd7d2fc706785f66233fa52b786ca808fb6b84709cb2fbc80d76a",
+      "distributed_sha256": "b795453293baed0ec19304fbf1bc2714eceb06bd142b14d15ff26c619b9a7955",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/ResourceBlob.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "2580480c3248807f09cadc30b74e4c507342c7b9688e52959964a8aca2928595",
+      "distributed_sha256": "d1871ebd997c84eb6a34d569d72bc738f2ad92ce172fb604aaf5546262200166",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceBlob.h",
+        "sha256": "c609bbf9a826f8356204531a6f4ad3b34332f20fc70c8fd4be113d5d0f630406"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/ResourceSources.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "d99f8d38a59076ed38ff023780ef28be9ddde76e968b5a417ab2f94711c62d6d",
+      "distributed_sha256": "1e53d2006b3931f8d1e4a1c62024747bd79c9a244b40052da9823927fe5bdf86",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceSources.h",
+        "sha256": "71d0670fc128962bfc42afd323c242eca9f022cb4e726daa95d5a0801fc1d42f"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/SCISyntaxParser.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "c5b8a8475a0f7015148347b7a9cc45f07b637157f75c74467649043c7713b2d3",
+      "distributed_sha256": "74889cd798e143c12bcd82023ff380acdae1d1617b84eb1a99f9a20a65b73512",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISyntaxParser.h",
+        "sha256": "bdbccd68971d27730301423b26e8970a6bebc550e0caca285d9eccb4e0df104e"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/SaveResourceDialog.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "37c32621d01062676f1ea79562d597b62a9ddf31c2de3bd15962b0fa09885f4b",
+      "distributed_sha256": "7bb26a654bdb291984fed4ecf1cac83c9dd8469d4d9a429fc98ecca0bf678d78",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/ScriptOM.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "736063e3da21addab63c9768749680d0fb03f5d5fe43058890eb431a442fb353",
+      "distributed_sha256": "722866406e081443e0a45fa535f21f3d5954bf91fd21f0cdc1caa0176819f115",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOM.h",
+        "sha256": "453fe9dbc59a1bb6a468da1786bb4ba4fe06d2f6eabdf02cb5e08b261d24d28a"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/SourceCodeFormatter.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "14ec98cb0e72384b46e0cd9da56663c1e5390608908e30129e64f45202953595",
+      "distributed_sha256": "a9a2fc58a01c193d3a7c9bfaccd15ce45108ee8bd180c490dc2b2e6cedc2a9ba",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SourceCodeFormatter.h",
+        "sha256": "61671d4e00209df1ce1b0265801102a0f113ff74dc305b884a1e255654cce032"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/Stream.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "9dfcd514f130f4fecb540bd7685c87d6912fb0717c4ab128f98a0e9f251b900e",
+      "distributed_sha256": "e9c246c3174251323af0cfe6b4e53230c27b72d88dd3fd3ce363e7e8edd1fd5a",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Util/Stream.h",
+        "sha256": "4f2e0ef3c3d3f20bfc0c1aa5345b545b81b791b82c232bf4531b809c840ea2ad"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/StudioSyntaxParser.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "c959e203ed2a53ce091dab83571a6b6cc093116d376a09012bf35037d175bd76",
+      "distributed_sha256": "a7dd541e969aa5597aac718ed38f5b24f170035ac1761145cfabf699aa90c07b",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/StudioSyntaxParser.h",
+        "sha256": "8c58979640d4b72f2791b3dfeabab13e2eb9fc05d510d7b7c2202af81bfd5bb5"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/SyntaxContext.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "cc91aee707fee65af9095c9d53d309df0fdc4f04c38b17eb2649622024175d96",
+      "distributed_sha256": "82605d0dbc55d4210d210932c99d2d0eab520335e44d4210d79efdfdddff8621",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxContext.h",
+        "sha256": "e14628cc7016271369e849d507b6715e76f7d3ac0e9136ce1730dadb88baec2f"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/TlHelp32.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "edf943e0736d8f306e2891ba299bf03b6d30c1909e329b996095e43620b8cc49",
+      "distributed_sha256": "7d8ab65b3b7d2b8c49c36e3a68af36731bd53c73f3f1d53da9c271d5178f1d82",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/Vocab000.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "6f79f4927a11998ab75cf87703f530f934464d2f0b3f846b356ef999e4486afe",
+      "distributed_sha256": "d95dd022b26928c459ac6ff94c71ef380ff58c61b50012bc62f5d1a52d7b6b74",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab000.h",
+        "sha256": "5081c36376bf1f4cc2d93227bfa6d544f7a90f621242931f4b00c11231d673a8"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/_parser_prologue.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "8b07b6ebb61027a4e6820fe4d86ad48eba4fbd3f29df78b99688636f1c7a8528",
+      "distributed_sha256": "c46d7812ec5cda71ea1d0e3ce53c664776f166d3e9d37c99001ac06708b6fc56",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/compilelog_compat.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "fcb5ef528ed396203e09140ec33542129d02806b37440f981fd00c125dafb4ff",
+      "distributed_sha256": "011d1f3129899fa3139772b43edc381e13eef0f65316060fc86a06ad26210d03",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/keywords_compat.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "040b6390044bfe1258cf40ed224be9a1e6a34c794db656e839328885273dcbbb",
+      "distributed_sha256": "18120258d358603cb30ecd44c09f267877d621d3173c13f040f65cc284cc88d3",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/linkstubs.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "c80eabbe39a08ebe55ac986db742ee28dcd130aaaad82445066f5dc3c14c8afe",
+      "distributed_sha256": "2b8bc910d6f659eb39f45d014007c3b539c9e491c4cc68119aad6f955e739392",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/linkstubs2.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "5c2a66ae79045278c223a58613622bf58f2fd2c3a81de2b4a1fac585e3501079",
+      "distributed_sha256": "e8819fc6fff1862523388f66eea9ac80fa3179b9cdfbd232e2d7fddbe96495f2",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/mfc_stubs.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "1995cdc6ab5bd816fe24e3541dc25f35b6840cb3aef37a6787c6f24abad58526",
+      "distributed_sha256": "7b41a59d3d8a686bdde03fbb7d4a2443b791515e85ee6aa2ef6607cb69a85ca6",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/resource.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "68e14965971fe4df45a58085c0562475e8851d168b5d004b426a068f1c60e3f4",
+      "distributed_sha256": "0901a2320167319a7c2dc18d6cec93df290e7f49c9c1beb317900b684e8770e9",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/sci.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "6d0a083ab4fe912846076bad815b9cb1b1a98beb129f8c3f2d83605ce04c82b1",
+      "distributed_sha256": "87a764127a01f45f316e5eabae879610d2375114790e96607102f8dbef97c3dd",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Util/sci.h",
+        "sha256": "a80eb25a50045a4764a823b30674842fe38d90fc3a7551b543acf643adedb106"
+      }
+    },
+    {
+      "path": "tools/scicompile/compat/stdafx.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "e7a5febd5572963f0356d1ec9e9b307a4e0b0569385f9ba9a28d64ce0baf0bc6",
+      "distributed_sha256": "7507ee68507ee0697634739f48ba3838b2fbec89de78b8400e094a02fdc48531",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/sys/poppack.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "962c890c81ed4c2467086be787b5daa10023eac09a6d9953f25c28e7e2346f19",
+      "distributed_sha256": "bd2c9a359ed5979715d3e3ad516517a36b5da456ed51fd5e0646daaba2144302",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/sys/pshpack1.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "d52ce36267d8b75bf4856c43705e4cb5f5c1f6026f6d6bc0c4d8cf09e53d4dc3",
+      "distributed_sha256": "9216a9bd347468a1e4db32812cb54b6da385110a2164078b101610e81753c7d7",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/winfile.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "59de1671b7b2443caca805f2f18f4468763181baa098bb914d4de25fd870b9c1",
+      "distributed_sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/compat/winshim.h",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "10cef3a426e374b0ff474a8bb4a8566bc2be72c47f2e64d4d55c266c7eb69d12",
+      "distributed_sha256": "7b71a49b4f1bae3744b963f65de5262d79c9282ce18eebe50165fa865f29b8b9",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/main.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "47b2c921f2938a485aa31d1bcc23a6e496623fd50e44a521b8874b9a57fd249d",
+      "distributed_sha256": "c8dacb352d33f2f6fad7d70b7a628144694aa52b16bc47e4e025b683cdbbd595",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false
+    },
+    {
+      "path": "tools/scicompile/patched/AudioCacheResourceSource.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "93cae3b1f8bbbf7ae2944ea7b477882034ba7f5518d39484496052a2de5fcef2",
+      "distributed_sha256": "d69a03d709e8efff5edece385cee87e8ae95ba141fda95f72855aa616c118b0e",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioCacheResourceSource.cpp",
+        "sha256": "f074e2e70192bd92d6b849d4172544d846d475792a57ebb8321228f593a542df"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/AudioResourceSource.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "cdf927edc622b11b8f444c17c9de09cd5e02a44e1aaadd011159103523e0a881",
+      "distributed_sha256": "c5aff3bbb16aa34f5bb9ed3bb4f1db02b92e758da8e2006b73644acc20db9d6a",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioResourceSource.cpp",
+        "sha256": "b8ef4ac1fe9a7160e0e4ef2b4135df055690b71d4561c16faf913495048858dd"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/ClassBrowser.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "0e7197fb9e920762f66f74b9d7e438cdf9b452fb6b3d561416779423bbe90844",
+      "distributed_sha256": "058c450419a5d9e1e21fade28bd9eeefbdf6681aa05774d4dd705d6a2c03aae0",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Util/ClassBrowser.cpp",
+        "sha256": "433665c8256d49d9ca4c5e170ef8421db67301a07026c5de7e9eb997a6e271f7"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/Compile.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "d90df228ab6c1e0af29d6ba0265b895a2fcdd50c6b22844786b7aa1ce24fa803",
+      "distributed_sha256": "df91f00c868cc40b01fc40f52e5d2705ec039dfe1a7db776c18e987eecd21865",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/Compile.cpp",
+        "sha256": "33ef77c5f2971d0bdf2e9dc3bd6ce34096dd3d47794949d30f64076e90a6ae6a"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/CompileContext.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "ba936aa7de1cb5d68b5ff784bec207241f4f986b84b45e92637f4ccc254019b6",
+      "distributed_sha256": "b7a6b463e7e320ce081a73dca3cafd6ee61690086a590ee2b8bbca18673e62e8",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileContext.cpp",
+        "sha256": "497b844915ca123e1252a8184769d09c236f0a6340c1b8ca9615010e349cfa9e"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/CompiledScript.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "c19849901300a4e59627e3ebe8132c5666322a9e2bc12128892bd4f998ed9294",
+      "distributed_sha256": "234d325da96af2293857e95800c122880db9efa4b06ed1c142e65d5ca4a3580e",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/CompiledScript.cpp",
+        "sha256": "877ccf4c646ca0c53af344cc6cf2d78374a9b2a3482c257017a867ec7591d712"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/GameFolderHelper.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "5ca8a30c7a3341c2067f4ce6393d2890a453dcc4b16a74cbbe5e92f7cca11f0d",
+      "distributed_sha256": "c50833b13471764f1967e652a0685c091836b78cf50b65797c3b43249d2460b5",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/GameFolderHelper.cpp",
+        "sha256": "0027edcc8fb4c33eab83de22aa951e32ebceb1292b202005b0ef5f8b537e1ee6"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/ResourceBlob.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "10897315241c9acd7d21fd52ccf04f216d65d791237de8065bda7dc9f230881c",
+      "distributed_sha256": "702ab0462c6f1eb8b9ed1ec8a710e311f38496a41743c6ae9f56acbeac6b310e",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceBlob.cpp",
+        "sha256": "9d51a35293910fbb4ff0eb107fad22886ef8c2d99216f8ff0550ddab9bb232f1"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/ResourceMap.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "eb4170437f12e0cda26830a479e68c55bc481cb489394869fe425754c6a1e627",
+      "distributed_sha256": "85e491bcc1b7d570d4c95b8da2d506c79926a012dbd89b3b41db5dff0a01b484",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMap.cpp",
+        "sha256": "6339af78db8c33e7f7bfa448dc7a9e8e88ba3026ec7f285c3b03e1a6084fea23"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/SCISourceCodeFormatter.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "90da9e62d461deca0b1af86fb8fe10225fe377483a760e17d82c9a010f14c831",
+      "distributed_sha256": "9d482dfb6fdd4f11be8e76219a4d39dcdbc3ec5fe6261fdc1c52754bb4012fb3",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISourceCodeFormatter.cpp",
+        "sha256": "de518ae2a2f124dc3a2a9e9ceaca5e19f8c8d4a16609566905a49178e76ccf9f"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/SCISyntaxParser.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "d1ad50292bd06756db3a69127046f676bafd22ec1ca06571b07bd0a5b36c34d9",
+      "distributed_sha256": "b4cf935b1d5841f3011bf8b57d8c732f33f585b64469f6e1ef013d21ee0cd49b",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISyntaxParser.cpp",
+        "sha256": "1eb9e60f92700a101d7798dfa87f6d04f191f83e823bf6fbfa9b32e0632f9f24"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/SCO.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "1c295ba1b141ed2d14d4fa5c6d63d1379ff09278a9b1ab490505b527ebe09ce3",
+      "distributed_sha256": "c88d9bee569a707955d56dc6826fe6c53882db17c5ebfd0acb0f8c0638b4e564",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SCO.cpp",
+        "sha256": "47c0b8cefe68573339855c83226eb4f3bb8f3800fd174c075a40f3be1978dc19"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/ScriptOM.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "e9e973ea0967e05d1f657ae9074f214b9e008010be7723f39a50072bee16f0dd",
+      "distributed_sha256": "8f8a2d64688a76853b9a97af6cae271d1b43f35e24b4b7ece21f12679e6fd445",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOM.cpp",
+        "sha256": "5044e926ca41099bbf08288974691cd4b33b0ce96ac175dc89d8b56b96a72b9b"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/Stream.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "24d1bc9f899ab1c17af4e405ecc46a0750ef584ed1c76230eaac77939b269e31",
+      "distributed_sha256": "f01bc6600fa3618947f33fd5ed34c724e348698869873d1f04b645beeb7b2481",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Util/Stream.cpp",
+        "sha256": "e8d5d762ff7f3f0a6ab08672d44ee373a24f7c897a2b3ed274de7a7982a4ea20"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/SyntaxParser.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "7872cb669fa569c0dae0090b4e48e87c16232783fc537a10bf9562dfb4e41b2a",
+      "distributed_sha256": "2be17d6a7f6fb30894f2f49845e64dcefd04bf8c3b6595bc1e4f9d278748720c",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxParser.cpp",
+        "sha256": "fa4ea57ff86a6f16accf48c9e7ea28a5ea795c11411a0a8781f74edc9cc99e24"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/Vocab000.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "a995a94121a1634bd893d53fff40ae509bb8a5dceeb27f46659a6d8096e15933",
+      "distributed_sha256": "026dfe425912ba71745229494bdcc681851b54f4ce3ccb72b5dfc8dedc7e0609",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab000.cpp",
+        "sha256": "e53707346d1f6bb7a6b8ecc0669c8cb50dd5faf966e0744641f167ab105fcc76"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/Vocab99x.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "678b6a02ea39e74bf2441fd389460a969f2f0dbeb3bf8b6deb5fc08004bca176",
+      "distributed_sha256": "6ab2268e45b252928798a92d1b795f890037721dcefd84a77f888b2be850ad29",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab99x.cpp",
+        "sha256": "c45fececad806dd68a9a4a45bda1f53798d5196a272bade1073495642880ab60"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/scii.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "e3c551d22cec38fd2ec12d8700aa5c6b851b3aa2c0bda84a16bdb83430eb59bf",
+      "distributed_sha256": "bb8ab78c9ce3c0c23351adc2d1072dbc4e6b06469c7d3dac7da558d9b4e67d74",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Compile/scii.cpp",
+        "sha256": "ff8120100f2d26cd3a13d8c4a32c032294adc2a1674f06d742b6520cef690c76"
+      }
+    },
+    {
+      "path": "tools/scicompile/patched/util.cpp",
+      "status": "inherited_headless_port_or_local_modification; dated comment added only",
+      "notice_date": "2026-10-06",
+      "pre_notice_sha256": "6429454c60433600842a77ba32174d107ec473adcf5945f6f8fe19d03ce2c180",
+      "distributed_sha256": "3765a41e3943811f393c77afbdc29faba3dd08a8b390065bac751807dcaa33c2",
+      "historical_modification_dates": "not established",
+      "executable_logic_changed_in_publication_revision": false,
+      "upstream_vendor_donor": {
+        "path": "vendor/SCICompanion/SCICompanionLib/Src/Util/util.cpp",
+        "sha256": "8800d02aff45f39792c2ce33b39ba9375dd4df936afeebc9b53d780fe9e1b56d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PAIRED_SOURCE_AND_EMITTED_HOST",
+  "compile_receipt_sha256": "473d8fb1546d9802825055e4c92b9a6024262be948bdc053d05fea3d3d93a0e1",
+  "paired_test_methods": 10,
+  "p09_methods": 3,
+  "p10_methods": 6,
+  "cross_chapter_methods": 1,
+  "cross_chapter_corrected_route": "Actual Open and arrival before walking through the original front door; production unchanged.",
+  "source_emitted_scope": "New pure owner/controller methods interpreted from source; legacy and mixed-ASM host methods execute emitted code in both backends.",
+  "canonical_readers_and_actual_input": true,
+  "original_card_and_both_cue_families_restore": true,
+  "p10_before_p09": true,
+  "independent_static_review": true,
+  "native_acceptance": false,
+  "native_save_files_tested": false,
+  "player_release": false,
+  "paired_test_harness_in_this_public_component": true,
+  "private_evidence_omitted": true,
+  "public_reproduction_command_scope": "reproduce.py checks exact source/compile/resource identity only; testing/run_suite.py cold-builds and executes all ten current paired gameplay methods.",
+  "remaining_gameplay": [
+    "P11",
+    "P12",
+    "P13",
+    "P14"
+  ],
+  "prior_private_terminal_receipt_sha256": {
+    "evidence/p09-active.json": "32c7f6bf3a958e1876867a35c0935643f0db912c65a5d63fce0ec5d87c1abced",
+    "evidence/p10-final-verification.json": "bdb710f76f60f78b4f125d8174e9716ce728ce324645ad085dea0842fa1a3290",
+    "evidence/coexistence-r2-tests.json": "7c9abde0d9e179bbd1a34a2cb70f8cb142b1165f76c8197c3c8d2d8da62a0678"
+  },
+  "public_terminal_receipt_sha256": {
+    "testing/verification/PUBLIC-REGRESSION-RESULT.json": "a3c5145d818c6312a1c11b5c311d9a3b7e7f3d3519009d140242c846405dd15e"
+  },
+  "portable_regression": {
+    "status": "PASS",
+    "methods": 10,
+    "seconds": 2860.142,
+    "fresh_empty_evidence_directory": true,
+    "inputs_unchanged": true,
+    "exact_outputs_unchanged": true,
+    "original_harness_files_byte_identical": 33,
+    "guide": "testing/README.md",
+    "result": "testing/verification/PUBLIC-REGRESSION-RESULT.json",
+    "source_backed_scope": "Explicit selected methods in testing/tests/source_host.py; remaining campaign methods execute emitted code."
+  }
+}

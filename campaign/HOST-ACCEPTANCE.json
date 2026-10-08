@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SCOPED_REPAIR_SOURCE_EMITTED_AND_LAYOUT",
+  "compile_receipt_sha256": "148c1068ffa166fa373b46233beb104ae19199fd86940de93b26335d41d8d702",
+  "current_paired_repair_methods": 2,
+  "current_full_ten_method_suite_rerun": false,
+  "historical_baseline": "repair/history/HOST-ACCEPTANCE.json",
+  "portable_repair_receipt": "repair/VERIFICATION.json",
+  "native_bounded_functional_observations": "repair/NATIVE-COVERAGE.md",
+  "native_replay_or_capture_included": false,
+  "runtime_package": false,
+  "whole_game_acceptance": false,
+  "remaining_gameplay": [
+    "P11",
+    "P12",
+    "P13",
+    "P14"
+  ]
+}

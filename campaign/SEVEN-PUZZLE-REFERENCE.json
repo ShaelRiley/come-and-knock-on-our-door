@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "source_bank": "CaKoOD-WIP-Source-20261007-r3",
+  "component": "p07-host",
+  "manifest": "progress/manifests/COMPONENTS.json",
+  "manifest_sha256": "39e824e8d16d49149c2d5a5f7bce46387fb70b159e62b06726b123d404cd08f7",
+  "component_path_count": 1572,
+  "mapped_reference_paths": 1572,
+  "byte_identical_reference_paths": 1571,
+  "public_metadata_difference": [
+    "SOURCE-INPUTS.json"
+  ],
+  "reference_compile_sha256": "0726070988ae657adb3e934960676352561e7b5191cf430355178706526cac4b",
+  "copy_policy": "Reuse the existing audited public component; do not import a second private native tree",
+  "seven_puzzle_native_evidence_included": false
+}

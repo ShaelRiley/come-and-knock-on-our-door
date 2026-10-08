@@ -1,0 +1,16 @@
+{
+  "backend": "source",
+  "native_acceptance": false,
+  "actual_installed_move": true,
+  "occupied_rejected_without_history_change": true,
+  "first_restoration": [
+    0,
+    12
+  ],
+  "rack": [
+    412,
+    413,
+    414
+  ],
+  "compile_receipt_sha256": "473d8fb1546d9802825055e4c92b9a6024262be948bdc053d05fea3d3d93a0e1"
+}

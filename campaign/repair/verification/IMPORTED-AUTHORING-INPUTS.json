@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Additional root authoring modules outside runner identity() directory selection. No test or runner bytes changed after execution.",
+  "files": {
+    "room_render_fix.py": {
+      "sha256": "c6241deea3438e72caae732969774ece96f9a3b8e8c791da3813396d80656e84",
+      "before_evidence": "SOURCE-MANIFEST verified by reproduce.py before the fresh cold copy",
+      "after_evidence": "Rechecked against the work directory, public source and exact native-tested authoring source after terminal completion"
+    },
+    "derive.py": {
+      "sha256": "008ddf43827adb55605dbe7423f71f364e0acefc81cd5165bb09e4348ca0701f",
+      "before_evidence": "SOURCE-MANIFEST verified by reproduce.py before the fresh cold copy",
+      "after_evidence": "Rechecked against the work directory, public source and exact native-tested authoring source after terminal completion"
+    }
+  }
+}

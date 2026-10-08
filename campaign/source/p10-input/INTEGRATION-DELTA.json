@@ -1,0 +1,70 @@
+{
+  "baseline_compile_sha256": "c236c0b5d421ecee11b343ec4d2c9c24779ddfb423ec22cda5f8acd3c020e5f5",
+  "mapping": {
+    "h10Init": 3353,
+    "h10Q": 3354,
+    "h10Valid": 3355,
+    "h10Inv": 3356,
+    "h10Proj": 3357,
+    "h10Save": 3358,
+    "h10Load": 3359,
+    "h10Ctx": 3360,
+    "h10Take": 3361,
+    "h10Txn": 3362,
+    "h10Snap": 3363,
+    "h10Word": 3364,
+    "h10Stop": 3365,
+    "h10UI": 3366
+  },
+  "new_selector_count": 14,
+  "vocabulary_added_bytes": 119,
+  "main_growth_ceiling": 256,
+  "changed_methods": {
+    "main.sc": [
+      "hostActNow",
+      "uiHostAct",
+      "p02ObjectLocation",
+      "uiInventoryAdd",
+      "uiInventoryRemove",
+      "uiInventoryCombine",
+      "uiInventoryCompact",
+      "p02HostInventory",
+      "campaignHeld",
+      "campaignReachable",
+      "h6PublishNative"
+    ],
+    "module983.sc": [
+      "bHeld",
+      "bReachable",
+      "bAppend",
+      "bInventory",
+      "bDispatch",
+      "bPresented",
+      "b8Append"
+    ],
+    "module984.sc": [
+      "qInventory"
+    ],
+    "module987.sc": [
+      "h6ReserveInventory"
+    ],
+    "module989.sc": [
+      "h8SaveReady",
+      "h8ReserveCloth"
+    ],
+    "module990.sc": [
+      "h9Init",
+      "h9Dispatch",
+      "h9InventoryValid",
+      "h9ProjectCard",
+      "h9SaveReady",
+      "h9RestoreCard"
+    ],
+    "module992.sc": []
+  },
+  "domain_methods_literal": true,
+  "active_p09": false,
+  "active_p10": false,
+  "evening_ready": false,
+  "baseline_source": "frozen/baseline"
+}

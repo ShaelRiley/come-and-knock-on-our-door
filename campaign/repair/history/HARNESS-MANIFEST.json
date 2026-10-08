@@ -1,0 +1,138 @@
+{
+  "files": {
+    "tests/test_ready_confirmation.py": {
+      "sha256": "baba624c545311f189c00473c8f8800d0ebf3db62d7755313e20cddf97a16945",
+      "bytes": 4002
+    },
+    "tests/test_rendezvous.py": {
+      "sha256": "835c0ca9dfc1d4f280754e559c629fa6c96cc1b5ed5f5e15cc5f5bec710a95dd",
+      "bytes": 12543
+    },
+    "tests/p06_source_host.py": {
+      "sha256": "f3ff5d675800fdcf06be5ffd1125f0f4978dd36fd1f7a2ffe70fc70f13d0cdd9",
+      "bytes": 2588
+    },
+    "tests/test_p10_reserved_actions.py": {
+      "sha256": "509450948d1d231f2d4ecb2fb393094d6a5b839703990edd535bb7402dfff105",
+      "bytes": 1963
+    },
+    "tests/test_storage_kernel.py": {
+      "sha256": "4a96e8a50e06f88f1acd2c220142c683c9d35bebe1b9d6fd7aa721b0cbb7c44d",
+      "bytes": 3095
+    },
+    "tests/test_practical.py": {
+      "sha256": "6a34829539cd15e2f543332603c8c8299ab11175fc75fe1bce269f56493425f4",
+      "bytes": 13908
+    },
+    "tests/test_contest.py": {
+      "sha256": "97b550b13b1d23b9e8656c86b959a6bbebb532591f4a4e0ed08b08e66784cadd",
+      "bytes": 15007
+    },
+    "tests/test_p09_active.py": {
+      "sha256": "7ea03b25b793c16ef2e1826a0805b7c4b260db712b415709b925c549866155a8",
+      "bytes": 13332
+    },
+    "tests/test_coexistence_r2.py": {
+      "sha256": "68cf04ceb7f0d31ffbccad873c9f11b73bcd49de2832eb67d87b9e98c55e3545",
+      "bytes": 12064
+    },
+    "tests/domain_source_vm.py": {
+      "sha256": "508429540a7aec52e41c987f2a5fe49f2916b2d37721acf69dfee449418144ab",
+      "bytes": 5449
+    },
+    "tests/test_confirmation_boundaries.py": {
+      "sha256": "69bc5d4c26a2272cc7748fe19073255f7d35d78ad365491047961d373c4ef510",
+      "bytes": 11157
+    },
+    "tests/campaign_route.py": {
+      "sha256": "39b247c29a25e0aee8c6441be0e5e5177a0438cda87630f35b0f8f044852b104",
+      "bytes": 3010
+    },
+    "tests/test_cloth.py": {
+      "sha256": "bb2ea760f3035c2330f017ff93375f4b2d912945aed881aae9e1c9d099eb9421",
+      "bytes": 10649
+    },
+    "tests/test_cue_ownership.py": {
+      "sha256": "b297ad2d87e0c88fad047b41013599b85a04a686dc57022232d6405a453b6bf0",
+      "bytes": 31330
+    },
+    "tests/test_p10_active.py": {
+      "sha256": "cc623fb902e9180904fdca685a9e4cf7b22e0868cd15a43b348d41daf8af281c",
+      "bytes": 9021
+    },
+    "tests/test_restore.py": {
+      "sha256": "c1395c6e2cc76ee27c14fe9f50cae0271d11ca4147546d787f02a572a9d9334f",
+      "bytes": 11869
+    },
+    "tests/storage_kernel_profile.py": {
+      "sha256": "40b1f90a9e6c40d8b4aab7c7d43f9da8915a570445da7fd39f688938fd51c2d9",
+      "bytes": 3568
+    },
+    "tests/p06_domain_source_vm.py": {
+      "sha256": "4634fc61960b39804a6a80be0ae085184fb22e85e4730d12a82de2cad2f70557",
+      "bytes": 5337
+    },
+    "tests/test_layout_controls.py": {
+      "sha256": "36eaef9b29d4e21b63116fa7c488b245726c27ef77a331c8a05e445a75b5d085",
+      "bytes": 13509
+    },
+    "tests/host.py": {
+      "sha256": "5f488f00023075204a6e7aadde9b2f167d7095ee55d1eed9e71083f40ee97fbf",
+      "bytes": 3946
+    },
+    "tests/source_host.py": {
+      "sha256": "edd43f68f421a3262513d4ae021c05fcc0b717b6e04bd8708b935835f5df7c49",
+      "bytes": 5710
+    },
+    "tests/test_card_ownership.py": {
+      "sha256": "205680196f82d38a281d9273df206e94ec3ec6b361a7e935d72ab9b34e51ce6d",
+      "bytes": 11439
+    },
+    "tests/test_p10_reorder.py": {
+      "sha256": "72867c26ce73ebe2eb5d8563c4e2a494ab6c86ec79cfd7a2761e88b0d40fe8b2",
+      "bytes": 2556
+    },
+    "tests/test_return_caption.py": {
+      "sha256": "b680f4fc8ad011e38a488ce0c756344412f2218e4bd371c36719fba08c405baa",
+      "bytes": 11241
+    },
+    "tests/p06_support.py": {
+      "sha256": "915d87a3a4b1b8e2403e99f95704f24c4cddf1a75e9b1da4ac436e2c089f3b18",
+      "bytes": 2404
+    },
+    "tests/test_transactions.py": {
+      "sha256": "b8bea423ea2b642d2493c19baec11d3b232627103c81de387ce61ed948b44bdd",
+      "bytes": 10531
+    },
+    "tools/host_vm.py": {
+      "sha256": "c60b7ab67b6fc8b6dcf651479aa75fc975f299485ab85db5886f74a34b4b3738",
+      "bytes": 30764
+    },
+    "tools/source_tools.py": {
+      "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56",
+      "bytes": 1813
+    },
+    "tools/sound_stop_mock.py": {
+      "sha256": "922c4cb3a804fed96a8861dac3331f61d62d2eb457ee48434247b22526b00ed7",
+      "bytes": 1297
+    },
+    "tools/adapt_return_caption.py": {
+      "sha256": "07d6ee13409b56ce8d2917c5ec7dee34f785c68ae11452a271a0110f7834771d",
+      "bytes": 3470
+    },
+    "tools/extract_sci11.py": {
+      "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d",
+      "bytes": 2510
+    },
+    "tools/reference/opcode-tables.json": {
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a",
+      "bytes": 10185
+    },
+    "tools/reference/kernels.json": {
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535",
+      "bytes": 2820
+    }
+  },
+  "adaptations": [],
+  "gameplay_assertions": "Unmodified original test source; corrected cross-chapter route version."
+}

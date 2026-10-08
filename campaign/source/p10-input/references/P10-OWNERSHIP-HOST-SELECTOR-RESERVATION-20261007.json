@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "utc": "2026-10-07T17:43:56.992134+00:00",
+  "scope": "Allocate only14 measured P10 ownership-host names; later domains still require their own reservation-aware numeric assignment. No game source or selector file modified by this report.",
+  "reserved_names": {
+    "h10Init": 3353,
+    "h10Q": 3354,
+    "h10Valid": 3355,
+    "h10Inv": 3356,
+    "h10Proj": 3357,
+    "h10Save": 3358,
+    "h10Load": 3359,
+    "h10Ctx": 3360,
+    "h10Take": 3361,
+    "h10Txn": 3362,
+    "h10Snap": 3363,
+    "h10Word": 3364,
+    "h10Stop": 3365,
+    "h10UI": 3366
+  },
+  "vocab_added_bytes": 119,
+  "selected_base_vocab_bytes": 40082,
+  "with_current_evening_vocab_bytes": 40123,
+  "new_evening_names": {
+    "h8V": 2992,
+    "h8VC": 2993,
+    "h8VD": 2994,
+    "h8VF": 2995,
+    "h8VR": 2996,
+    "h8VA": 2997,
+    "h8VI": 2998
+  },
+  "full_late_domain_union_before": 64173,
+  "full_late_domain_union_after": 64292,
+  "remaining_vocab_bytes_after": 1243,
+  "preserved_reservations": {
+    "P08": [
+      2999
+    ],
+    "P09_future": [
+      3176,
+      3199
+    ],
+    "P10_domain": [
+      3200,
+      3352
+    ]
+  },
+  "inputs_sha256": {
+    "working/p09-card-ownership-foundation/selectors.json": "9e2a6a7106092b04dd8b8996a1ed03e8c89f515da210457f8ff719fb0f0be1eb",
+    "working/p08-evening-validator-extraction/selectors.json": "6ba70c5c59803f861d9f59a78df5b67cfa6e8c60ac1bed7a7df0d806b32ed755"
+  },
+  "maximum_new_host_name_bytes": 8,
+  "Main_net_growth_ceiling_bytes": 256
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "method": "renderCaption",
+    "selector": 247,
+    "parameters": [],
+    "baseline_method_sha256": "bc745275539686c9a8a342996d8b7b2232abce9fa5f2ef0f2ddb9e6ced8b1815",
+    "renderer_method_sha256": "83a8ff93156d26a652ea50430340baa11b411554128dfdce5cb0df1e541c768c",
+    "wrapper_sha256": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
+    "assembly_reads": [
+      "navNoticeTicks",
+      "currentCaption"
+    ]
+  },
+  {
+    "method": "navNoticeRender",
+    "selector": 739,
+    "parameters": [],
+    "baseline_method_sha256": "17ce11016f1f87c450a5f080a5c45f239bf560878417bcb65e12b6f94e42c5ad",
+    "renderer_method_sha256": "acd11c2dc676c099649954647567555c61f654eccccd70fb041dd25559411d46",
+    "wrapper_sha256": "2c7dd59708d1bd5342a8f555f25addbaefd581ce92f34e2026f0eb2ac3777b14",
+    "assembly_reads": [
+      "navNotice"
+    ]
+  },
+  {
+    "method": "h6BaseDrawWorld",
+    "selector": 2005,
+    "parameters": [],
+    "baseline_method_sha256": "25a892cd59c91af478ab1be8c681a39f8a99e2b0976167b9e024cbcabe6b952b",
+    "renderer_method_sha256": "637145f34fdb7bb29567cf31ec2084471f8f6e5f544b5dc75ac254ff9c510046",
+    "wrapper_sha256": "8c6e1fa870c35cbc5e3c57ad519d8dac59905790cb28c41b965651ae487a3121",
+    "assembly_reads": [
+      "onApron",
+      "location",
+      "location",
+      "doorOpen",
+      "presentation",
+      "houseEntered",
+      "presentation",
+      "presentation",
+      "bunnyReady",
+      "presentation",
+      "houseEntered",
+      "bunnyReady",
+      "tray",
+      "wedge",
+      "wedge",
+      "doorOpen",
+      "houseEntered",
+      "location",
+      "location",
+      "location",
+      "location",
+      "location",
+      "location",
+      "location",
+      "location",
+      "location",
+      "onApron",
+      "location",
+      "location",
+      "onApron",
+      "location",
+      "doorOpen"
+    ]
+  },
+  {
+    "method": "roomTitle",
+    "selector": 252,
+    "parameters": [],
+    "baseline_method_sha256": "cd1c0b5a4a0e1525adc6ec25fc134a67fe2a97376f2e91558d64c4a13215303a",
+    "renderer_method_sha256": "b58b4bb9e68d90b0cab29a0a653b9f335ccec47362b94573e9f262de274063cf",
+    "wrapper_sha256": "573fc574bd7011581eceee1fa9196e48e17f238bafc68fe9107b9602527a03e6",
+    "assembly_reads": []
+  },
+  {
+    "method": "blockPerson",
+    "selector": 53,
+    "parameters": [
+      "px",
+      "py",
+      "color",
+      "label"
+    ],
+    "baseline_method_sha256": "2ff989aedfa21728cf2dd9143a397ed337cf1308826ebe4b963b4b72b655513b",
+    "renderer_method_sha256": "b86aed7ea3464be90628e85e945e24b7be38c15ef9044b2a533f789ab3351dde",
+    "wrapper_sha256": "06e85340cb9b7a620f2a4dd1236e6c23e2043d7771859b5b0621f94efdfa8171",
+    "assembly_reads": []
+  },
+  {
+    "method": "drawJack",
+    "selector": 99,
+    "parameters": [],
+    "baseline_method_sha256": "40d1f85c612b3cdfbc0ce9d92b1d1ee41aac5d40e4d2d26911c8d9a48c8e20a8",
+    "renderer_method_sha256": "08b5dc491ed207a109c4de6411725a8eeb7e6786875aa15ae0690d576a3aa199",
+    "wrapper_sha256": "5bd9efc7e214cfd43cc2678af8df9eea9f6bf3b4d31fd3573777ef05e2e8cae6",
+    "assembly_reads": [
+      "motionX",
+      "motionY",
+      "presentation",
+      "motionPhase",
+      "presentation",
+      "presentation",
+      "motionLoop",
+      "presentation",
+      "motionLoop",
+      "motionPose"
+    ]
+  },
+  {
+    "method": "drawLiving",
+    "selector": 344,
+    "parameters": [],
+    "baseline_method_sha256": "ea004de1fca2360bbb3e8e7555bf138414dc8ce6aaf6769995a49e80e5cbdd3e",
+    "renderer_method_sha256": "7e0e1585f45226cbc2308c7d39f9bb99de21fe2675aa3f0780622711231748f9",
+    "wrapper_sha256": "6da22a3f0378d65f0c263c48776f0f41987233155bae4a122fbd8f1e780e19f4",
+    "assembly_reads": []
+  },
+  {
+    "method": "livingPerson",
+    "selector": 361,
+    "parameters": [
+      "who"
+    ],
+    "baseline_method_sha256": "a6e3d1a3fb52b78b87a7b0c9078a4561f69d7948a13b3e25ccbdb728e40ad1ad",
+    "renderer_method_sha256": "7c42afc5dbef839b5eacba3f1b69668ae5a64a76972aac0e893cf095e95c9769",
+    "wrapper_sha256": "aba95c9858f7c2fd7a8aeeef55dd6a6bcb44d9b7aa2dc84124d529fce27ca3c4",
+    "assembly_reads": []
+  },
+  {
+    "method": "neighborPerson",
+    "selector": 422,
+    "parameters": [
+      "who"
+    ],
+    "baseline_method_sha256": "d71d2985c2b0d60965dc9ddcaf0e28c763f3f8a8da500646f9d36835c6914f71",
+    "renderer_method_sha256": "3527231f1efecbc522da271530debbc51af6964e165d8eb0d2c534a009ae5af3",
+    "wrapper_sha256": "0e9352d1baa70a9b915abcfd476b60b2c387f70cafa73da75599652c12d37cee",
+    "assembly_reads": []
+  },
+  {
+    "method": "drawKitchen",
+    "selector": 554,
+    "parameters": [],
+    "baseline_method_sha256": "f65b9c4ae3069ee8959c161705ab35a0dab35eb114c98cc92073eb9d14d04dcd",
+    "renderer_method_sha256": "c71d545730f773d57fe7d31f54126149737b34365a4a80c5f54c7104171a9285",
+    "wrapper_sha256": "e0cbc1a2e565863d01b4b0bdf2f0ffca0e9ff5b3d4bb430fa4eedc0019c4e45c",
+    "assembly_reads": []
+  },
+  {
+    "method": "drawP03Conservatory",
+    "selector": 555,
+    "parameters": [],
+    "baseline_method_sha256": "6e6e9855fb76d86ca8070ac7217e722a325efae92e041286a28c9d6206fc5a30",
+    "renderer_method_sha256": "bc456edcfe87852be3d1be8c3a23fb02c4b21bfd8f0ecb2e55b60d615bcce7da",
+    "wrapper_sha256": "e3cbd734628f072f472ccc6fefcd442eedc71987fe25ac9fff2cb2a51a9dae2e",
+    "assembly_reads": [
+      "p09",
+      "p02CopyStringer",
+      "p03",
+      "p03",
+      "p03",
+      "p03",
+      "motionY"
+    ]
+  },
+  {
+    "method": "p03Rita",
+    "selector": 650,
+    "parameters": [],
+    "baseline_method_sha256": "025ea0884b74188ed0ec53fadf9bb7d203b2f353d0801923cad12984657335d9",
+    "renderer_method_sha256": "d7ea1735ee95ad93980118b8e400eed58d5130cb0eb25e5c0716d0bda12d57da",
+    "wrapper_sha256": "88ef2035290bbe2a76fcf69aa14949b6e68bbf4ac6705ef9f7c704072e3fef9c",
+    "assembly_reads": [
+      "presentation",
+      "presentation",
+      "presentation",
+      "presentation"
+    ]
+  },
+  {
+    "method": "drawSidePassage",
+    "selector": 742,
+    "parameters": [],
+    "baseline_method_sha256": "afcac8a982b99bdd8e81641c8469acdb9f2e4d6b69d15033497cc6835ece7bea",
+    "renderer_method_sha256": "3d0561a30a2b2fa33aac0d33b0cae0f5538e1b4ea66b555cd31aa8d173c530e6",
+    "wrapper_sha256": "a53a2e33879c610cde1261b070caeda705c64906ce7ba009c9b257b3f0b7c101",
+    "assembly_reads": []
+  },
+  {
+    "method": "p04Felix",
+    "selector": 772,
+    "parameters": [],
+    "baseline_method_sha256": "0b57e64d56af76416620f4553c559cfe77799f888562aea0bb74b43f20f89ef6",
+    "renderer_method_sha256": "a3bca7517cac863a83ef7dbedd2cc759d2f1ae350e3aaeae7b8a14821e13373f",
+    "wrapper_sha256": "f33795037dfe3de459e357e29e7fbd62918c1b60a551ae62922fcc1b916d98f0",
+    "assembly_reads": []
+  }
+]

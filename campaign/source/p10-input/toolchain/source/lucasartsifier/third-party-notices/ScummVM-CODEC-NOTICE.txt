@@ -1,0 +1,40 @@
+Historical ScummVM/FreeSCI codec provenance notice
+
+The retained SCICompanion Codec* files adapt algorithms present in historical
+ScummVM/FreeSCI sources. The examined historical ScummVM source grants GPL
+version 2 or later. Its license notice is preserved below. See the companion
+ScummVM-v1.7.0-COPYRIGHT and ScummVM-6ccb7bea-COPYRIGHT files for the copyright
+lists associated with the examined sources. Existing Carl Muckenhoupt,
+Sergey Lapin / FreeSCI, and Andre Beck credits in SCICompanion remain intact.
+Exact original copy revisions have not been conclusively established.
+
+Primary evidence:
+https://github.com/scummvm/scummvm/blob/v1.7.0/engines/sci/decompressor.cpp
+https://github.com/scummvm/scummvm/blob/v1.7.0/engines/sci/decompressor.h
+https://github.com/scummvm/scummvm/blob/v1.7.0/common/dcl.cpp
+https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/engines/sci/scicore/decompress0.cpp
+https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/engines/sci/scicore/decompress01.cpp
+
+Preserved license notice from the examined v1.7.0 sources:
+
+/* ScummVM - Graphic Adventure Engine
+ *
+ * ScummVM is the legal property of its developers, whose names
+ * are too numerous to list here. Please refer to the COPYRIGHT
+ * file distributed with this source distribution.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ */

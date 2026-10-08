@@ -1,0 +1,37 @@
+{
+  "status": "PASS_SCOPED_REPAIR_SOURCE_EMITTED_AND_LAYOUT",
+  "compile_receipt_sha256": "148c1068ffa166fa373b46233beb104ae19199fd86940de93b26335d41d8d702",
+  "changed_methods": [
+    "991:h6BaseDrawWorld",
+    "988:h7DrawBunny",
+    "988:h7ReturnBunny"
+  ],
+  "source_files": 14,
+  "compiled_modules": 14,
+  "exact_output_count": 111,
+  "paired_repair_methods": 2,
+  "seconds": 805.608,
+  "inputs_unchanged": true,
+  "outputs_unchanged": true,
+  "source_backed_scope": "Changed Bunny methods and a narrow source-assembly interpreter for h6BaseDrawWorld, plus the existing selected host/owner methods; other methods execute emitted bytecode.",
+  "native_launch_performed_by_public_checks": false,
+  "native_save_files_included": false,
+  "separate_native_observations": "repair/NATIVE-COVERAGE.md",
+  "current_full_ten_method_suite_rerun": false,
+  "historical_full_suite": {
+    "compile_receipt_sha256": "473d8fb1546d9802825055e4c92b9a6024262be948bdc053d05fea3d3d93a0e1",
+    "methods": 10,
+    "seconds": 2860.142,
+    "result": "testing/verification/PUBLIC-REGRESSION-RESULT.json"
+  },
+  "whole_game_acceptance": false,
+  "P11_plus_implemented_by_this_delta": false,
+  "current_verification_files": {
+    "IMPORTED-AUTHORING-INPUTS.json": "5e26e316bfb83010679ddc5e49725ffca558bd680b6659d4cb0c95bbc4d5137d",
+    "PUBLIC-REPAIR-RESULT.json": "00abd7eff45327a6db8c54008a65d7ca979cb352ab4062315eb16865d953d73d",
+    "PUBLIC-REPAIR-SCOPE.json": "921a0f4b24a25f4872066867ecba357484880ad25476c91b0e8bd5ec1050b40c",
+    "RUNNER-GUARDS.json": "6e3a09f87968177b9ba1cb281ece0232f1477fdf73e9defa86ee431cbe7dd194",
+    "compile-receipt.json": "148c1068ffa166fa373b46233beb104ae19199fd86940de93b26335d41d8d702",
+    "repair.log": "5581ce694317db514882c74f8a264b666a13af1410998cd2d043e87c45f1115f"
+  }
+}

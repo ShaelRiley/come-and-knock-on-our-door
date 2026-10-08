@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "runner": "run_repair.py",
+      "case": "optimized",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optimized Python is forbidden"
+    },
+    {
+      "runner": "run_repair.py",
+      "case": "p09_diagnostic",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "runner": "run_repair.py",
+      "case": "p10_development",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "runner": "run_repair.py",
+      "case": "selector_override",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "runner": "run_suite.py",
+      "case": "optimized",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optimized Python is forbidden"
+    },
+    {
+      "runner": "run_suite.py",
+      "case": "p09_diagnostic",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "runner": "run_suite.py",
+      "case": "p10_development",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    },
+    {
+      "runner": "run_suite.py",
+      "case": "selector_override",
+      "status": "PASS_REJECTED_BEFORE_WORK_CREATION",
+      "reason": "RuntimeError: Optional diagnostic/selector overrides forbidden"
+    }
+  ]
+}

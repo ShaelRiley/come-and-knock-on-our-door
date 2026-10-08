@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "status": "PASS_PUBLIC_CLOSURE_SCAN",
+  "scope": "Every file in the public campaign payload; scan includes binary bytes",
+  "prohibited_match_count": 0,
+  "allowed_temporary_references": [
+    {
+      "path": "source/p10-input/toolchain/scicompile",
+      "matches": 1,
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    },
+    {
+      "path": "source/p10-input/toolchain/source/lucasartsifier/tools/scicompile/BUILD_NOTES.md",
+      "matches": 2,
+      "sha256": "13eb50e80ad3ce918666c33f0a7b91966a7eac9e70dcc7b771a3cc7279b44b97",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    },
+    {
+      "path": "source/p10-input/toolchain/source/lucasartsifier/tools/scicompile/compat/winfile.cpp",
+      "matches": 1,
+      "sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    },
+    {
+      "path": "source/toolchain/scicompile",
+      "matches": 1,
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    },
+    {
+      "path": "source/toolchain/source/lucasartsifier/tools/scicompile/BUILD_NOTES.md",
+      "matches": 2,
+      "sha256": "13eb50e80ad3ce918666c33f0a7b91966a7eac9e70dcc7b771a3cc7279b44b97",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    },
+    {
+      "path": "source/toolchain/source/lucasartsifier/tools/scicompile/compat/winfile.cpp",
+      "matches": 1,
+      "sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449",
+      "classification": "Intentional unchanged compiler default or historical compiler example; no private runtime evidence"
+    }
+  ],
+  "checked_categories": [
+    "Private absolute runtime paths",
+    "Storage identifiers and backing-file references",
+    "Private service URLs and credential headers"
+  ],
+  "raw_native_evidence_included": false,
+  "historical_admin_receipts_included": false,
+  "intentional_repository_path_references": [
+    {
+      "path": "R3-REUSE-MAP.json",
+      "generic_workspace_token_matches": 538,
+      "classification": "Existing repository-relative R3 source/workspace namespace, not an absolute runtime directory",
+      "verified_existing_public_paths": true
+    }
+  ],
+  "scan_timing": "Final scan includes documentation, source, compiler binaries, and reuse map",
+  "terminal_revalidation": {
+    "status": "PASS",
+    "verified_canonical_reuse_references": 688,
+    "verified_repository_workspace_tokens": 538,
+    "compiler_exception_files": 6,
+    "seven_puzzle_manifest_reverified": true,
+    "exact_json_values_only": true
+  }
+}

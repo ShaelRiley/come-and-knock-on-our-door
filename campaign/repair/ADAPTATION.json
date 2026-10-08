@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "status": "PASS_EXACT_PATCH_WITH_PORTABLE_TEST_ADAPTATION",
+  "production_files": [
+    "source/derive.py",
+    "source/room_render_fix.py"
+  ],
+  "production_source_equal_to_native_tested_repair": true,
+  "changed_source_harness": "testing/tests/source_host.py",
+  "added_harness": [
+    "testing/tests/room_paint_source.py",
+    "testing/tests/test_room_render_fix.py"
+  ],
+  "test_adaptations": [
+    {
+      "file": "testing/tests/test_room_render_fix.py",
+      "change": "Reuse existing public test_coexistence_r2 choice_for/read_close helpers; AST-verified identical to the original helper definitions."
+    },
+    {
+      "file": "testing/tests/test_room_render_fix.py",
+      "change": "Read the exact frozen h6BaseDrawWorld method from guarded room_render_fix.OLD instead of an external private fixture path. Assertions unchanged."
+    }
+  ],
+  "existing_frozen_inputs_and_compiler_unchanged": true,
+  "existing_test_files_other_than_source_host_unchanged": true,
+  "full_private_repair_bundle_included": false
+}

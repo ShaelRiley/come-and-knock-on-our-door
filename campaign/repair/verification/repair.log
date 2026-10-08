@@ -1,0 +1,56 @@
+PASS_PUBLIC_SOURCE_COLD_REBUILD 14 sources 111 outputs; paired/native acceptance not asserted
+test_actual_travel_background_and_rejected_frozen_interception (test_room_render_fix.RoomRenderFix.test_actual_travel_background_and_rejected_frozen_interception) ... ROOM_RENDER_BACKEND False
+P01 room 1 steps 3630340
+P02 room 1 steps 21415199
+P03 room 6 steps 34853410
+P04 room 3 steps 47760286
+P05 + VC01 loss room 5 steps 67734939
+P06 + VC02 loss room 0 steps 92320248
+P07 room 2 steps 99432524
+P08 genuine admission room 4 steps 105807037
+SOURCE_PREFIX_REUSE: authenticated same-program ordinary-input emitted P01-P07 admission; no state edits
+ROOM_DRAW False 4 305 [221, 236]
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 2 300 [219]
+REFUSED_FINAL_RETURN False 0
+ROOM_DRAW False 2 300 [219]
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 0 100 []
+ROOM_DRAW False 6 302 [222, 223]
+ROOM_DRAW False 0 100 []
+ROOM_DRAW False 1 101 [218]
+ROOM_DRAW False 4 305 [221, 236]
+PASS_ROOM_RENDER_BACKEND False
+ROOM_RENDER_BACKEND True
+ROOM_DRAW True 4 305 [221, 236]
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 1 101 [218]
+REJECTED_FROZEN_INTERCEPTION [305, 228, 228, 228, 228, 228, 228, 228, 228, 228, 228, 228, 228, 227]
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 2 300 [219]
+REFUSED_FINAL_RETURN True 0
+ROOM_DRAW True 2 300 [219]
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 0 100 []
+ROOM_DRAW True 6 302 [222, 223]
+ROOM_DRAW True 0 100 []
+ROOM_DRAW True 1 101 [218]
+ROOM_DRAW True 4 305 [221, 236]
+PASS_ROOM_RENDER_BACKEND True
+ok
+test_z_genuine_invitation_prefinal_return_and_final_refusal (test_room_render_fix.RoomRenderFix.test_z_genuine_invitation_prefinal_return_and_final_refusal) ... PASS_PREFINAL_INVITED_RETURN False
+PASS_PREFINAL_INVITED_RETURN True
+PASS_FINAL_INVITED_RETURN_REFUSAL_AND_P10 False
+PASS_FINAL_INVITED_RETURN_REFUSAL_AND_P10 True
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 805.596s
+
+OK
+PASS 2 paired methods; native acceptance not asserted
