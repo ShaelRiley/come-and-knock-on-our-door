@@ -25,7 +25,9 @@ def main():
  saved=json.loads((ROOT/MANIFEST).read_text());actual=inventory()
  if saved['files']!=actual:
   expected=saved['files'];changed=sorted(n for n in set(actual)&set(expected) if actual[n]!=expected[n]);raise RuntimeError(json.dumps({'missing':sorted(set(expected)-set(actual)),'extra':sorted(set(actual)-set(expected)),'changed':changed}))
- maps=json.loads((ROOT/'progress/manifests/COMPONENTS.json').read_text())
+ maps={}
+ for group in ('progress','late'):
+  for name,component in json.loads((ROOT/group/'manifests/COMPONENTS.json').read_text()).items():maps[group+'/'+name]=component
  for name,component in maps.items():
   for n,row in component['files'].items():
    safe(n);safe(row['from']);p=ROOT/row['from']

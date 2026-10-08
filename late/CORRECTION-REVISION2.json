@@ -1,0 +1,61 @@
+{
+  "all_component_inputs_expected_outputs_drivers_and_modes_unchanged": true,
+  "all_executable_files_and_modes_unchanged": true,
+  "completed_revision1_distribution_correction": {
+    "affected_components": 8,
+    "changed_dependency_metadata_files": 17,
+    "fresh_host_renderer_compile_static_admission_gates": 3,
+    "fresh_scene_rebuilds": 5,
+    "removed_administrative_inputs": 2,
+    "removed_bytes": 11658,
+    "unaffected_components_reusing_evidence": 6
+  },
+  "correction": "Correct stale correction counts in top-level provenance and clarify historical report references; leave all component authoring and evidence inputs unchanged.",
+  "edition_revision": 2,
+  "fresh_revision2_checks": "Complete physical source diff and modes, logical source mappings, global manifest, distribution disclosure scan, deterministic archive and independent archive Git tree; exact remote artifact readback is recorded separately.",
+  "held_revision0_and_superseded_revision1_preserved_privately": true,
+  "historical_component_reports_unchanged": true,
+  "native_acceptance": false,
+  "playable_release": false,
+  "publication_performed": false,
+  "semantic_build_checks_reexecuted_for_revision2": false,
+  "status": "PASS_DOCUMENTATION_ONLY_REVISION",
+  "superseded_revision1_archive_sha256": "87526bd0b78d40c4693d9808b40370d5f6c52a28ee0c1adbad5f4c08c7e6a73d",
+  "superseded_revision1_git_tree": "384eb2815cc2140205bd0ffeeef6632ae6520610",
+  "unchanged_binding_files": {
+    "late/CORRECTION-REVISION1.json": {
+      "bytes": 11600,
+      "mode": 420,
+      "sha256": "074d1c389aef10c8777893f6d4235392ee3a0fdc01f0e8469d66d446f632b484"
+    },
+    "late/manifests/COMPONENTS.json": {
+      "bytes": 3871556,
+      "mode": 420,
+      "sha256": "b5c4a4aa0fd510240f022844f043da82edd4762f23885166764ab3bf74847108"
+    },
+    "late/manifests/EXPECTED-OUTPUTS.json": {
+      "bytes": 404775,
+      "mode": 420,
+      "sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f"
+    },
+    "late/manifests/NORMALIZED-OUTPUTS.json": {
+      "bytes": 16575,
+      "mode": 420,
+      "sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070"
+    },
+    "late/manifests/OUTPUT-MODES.json": {
+      "bytes": 202598,
+      "mode": 420,
+      "sha256": "6b503495990072cd99f05a7700d05800f60a66d26778c45f4e8e04700d19fc3d"
+    },
+    "late/reproduce.py": {
+      "bytes": 8496,
+      "mode": 420,
+      "sha256": "54c7b04d4870d0021f8f57bd0094e59df7be1ca8e42f077fa8e463ec322b87a4"
+    }
+  },
+  "unchanged_component_count": 14,
+  "unchanged_logical_component_members": 11645,
+  "unchanged_prior_validation_sha256": "ae2ce18a572356692df252cd1506967c750615b9bf9f1f76ebb31bd8d8f6d0d1",
+  "validation_reuse_basis": "Exact component map, every mapped input byte/mode, all expected output/normalization/mode maps, reproduction driver and component result records match revision1. Existing fresh/reused distinctions and isolation limits remain intact."
+}

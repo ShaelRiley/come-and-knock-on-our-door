@@ -1,0 +1,15 @@
+; Foundation only. No context, epoch, receipt, ownership, or player progress is granted.
+(method (h9Init host)
+ (= h9Host host)
+ (if (not p09Initialized) (return (self p09Init:)))
+ (return 1))
+
+; Deliberately closed even after a future P08 evening implementation is rebased.
+; Opening this gate requires the separately reviewed ownership/reader host.
+(method (h9Active) (return 0))
+
+; Consume reserved chair/card targets without routing them into older domains.
+; Return 0 for every earlier target so existing dispatch continues unchanged.
+(method (h9Dispatch action obj target)
+ (return (if (or (and (>= obj 395) (<= obj 399))
+                    (and (>= target 395) (<= target 399))) 1 else 0)))

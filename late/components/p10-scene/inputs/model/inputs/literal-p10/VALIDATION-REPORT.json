@@ -1,0 +1,55 @@
+{
+  "scope": "Plaintext source recovery only. No recovered code import, compile, execution, test run, generation, game launch, or old-project write.",
+  "syntax_checks": [
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/codec.py.txt",
+      "python_ast_parse": "PASS",
+      "static_test_method_definitions": 0
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/generate.py.txt",
+      "python_ast_parse": "PASS",
+      "static_test_method_definitions": 0
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/tests/test_domain.py.txt",
+      "python_ast_parse": "PASS",
+      "static_test_method_definitions": 15
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/tests/test_validation.py.txt",
+      "python_ast_parse": "PASS",
+      "static_test_method_definitions": 3
+    },
+    {
+      "path": "partial/cakood-p10_model.py.txt",
+      "completeness": "Partial P10World, despite syntax being potentially valid.",
+      "validation": "Python AST syntax parsing only. No import, compilation output, or execution.",
+      "status": "PASS",
+      "top_level_classes": [
+        "P10Context",
+        "CaptionResult",
+        "_Receipt",
+        "_Captioned",
+        "P10World"
+      ]
+    },
+    {
+      "validation": "Lexical balanced parentheses and brackets after semicolon comments; no SCI compiler or execution.",
+      "file": "complete/stock-sci/p10-domain-adapter/src/methods.sc.in.txt",
+      "method_count": 56,
+      "errors": [],
+      "unclosed_delimiters": [],
+      "status": "PASS"
+    }
+  ],
+  "existing_staging_file_hashes_preserved": {
+    "PROVENANCE-PARTIAL.json": "dc399a09c7249010c7354d0258398eb164654cc4895caff6380739a08f943ea9",
+    "packets/01-model-part-A.txt": "dff3b68f85f871d2ad0d9e60eea1ce5118b1f17faaff986ff1003be11b2af913",
+    "packets/02-model-part-B.txt": "8b1ad38b0151e10785ab468402434217f6c31b96720aa6de9af4b21fb114aeee",
+    "partial/cakood-p10_model.py.txt": "8bef9f572284ea03eea25c51738952545eb6c5d31e7173a0df82e77228edca63"
+  },
+  "historical_byte_comparison": "Unavailable: sender retains no original file sizes or SHA-256 hashes for the six source artifacts.",
+  "known_line_discrepancy": "Partial model is 327 splitlines. Historical retained read requests covered lines 1-330 and 200-328; sender cannot confirm a missing blank line. No line was inserted.",
+  "completeness": "Five sender-attested complete source files; one explicitly partial model, ending after P10World.rack_correct. All source contents use .txt suffixes."
+}

@@ -1,0 +1,310 @@
+{
+  "p08-evening-ack": {
+    "build/coherent/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "9f3195b2c2c69bedba4d2653d8a00dc201554c5f560529adc16d8041024812f6",
+      "sha256": "70ff410c759344670425938bf0de7e743ee1c851b43eb8019ba7fe4be1ec459a"
+    },
+    "build/coherent/compile-0.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "ec5d7de9e5f54807d314f71b54b59acc146a22c5f9c52cd99764db05025e11d4",
+      "sha256": "6e9f3b052e9556a8f7706dbd3566cdcd056a1ab1dda3def4acf9a55b78aaa6ae"
+    },
+    "build/coherent/compile-980.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "186628f04b1fe28b9a12ef8f0c1d55f3fbb1963d4a6c222d93c679bc4a2728fc",
+      "sha256": "41045902bb781eaa4199533acdc3982f8df4a0e698ac4c0fd144808dedf9011c"
+    },
+    "build/coherent/compile-981.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "9b35f9206ee48a2eeb3539324a272d5dd2b42614e2aec1b541517a943f9b8ce3",
+      "sha256": "24dce0abe3151fd427fcd6d9f8bedb882b1e1e0fea94ef88b2eb771c8d5daca6"
+    },
+    "build/coherent/compile-982.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "ca2bc27937f9cb211cf3ded2e0140f011e41a63d56b820ddc8d1281680c3e88e",
+      "sha256": "aca26229dc6f8e5f1aefb06007fb0417e80a07b657fd2df57f1b72034618f308"
+    },
+    "build/coherent/compile-983.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "f83201cd399666125c4f01afa5b28c47ace6ccb93ad4a11975c85c9986954a50",
+      "sha256": "8f6b06e854c8ed401090fd434cd15f23eb2cc0bdb3dc502741a993f779f68c76"
+    },
+    "build/coherent/compile-984.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "9d128e0804aa6e16ab589f42a20e7e8aed82b4f4d7c990b8833cf0b40a6a2836",
+      "sha256": "ed024390dcf82a65e3a1471f012dfa2b68f10e2dba42c48f8ddf0ef37d2e227e"
+    },
+    "build/coherent/compile-985.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "b1729d9dafd2005afa6d94df20b12e1c4ac2dcc644502dcd8a8d60af4bb2c5bd",
+      "sha256": "be96a38a30ceeb3c7d147944fff8303cd286f6e18ebb9ba4dcf95c3c115327c7"
+    },
+    "build/coherent/compile-986.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "22b7ba76431683ae0ef0d4412ed7160c032344b7675f1ef3f754b5a60ee63bdb",
+      "sha256": "6b1152632133c1858b43eb3f016384cab3a025ffc30c0de07cd69dec1b80f834"
+    },
+    "build/coherent/compile-987.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "1f953ecbc9f613b31ee807ced695716240442ae59d834d10f191db8639612b05",
+      "sha256": "b3cca624177af7123976d8334b342b73600d1796dd59fefe7a27639537055637"
+    },
+    "build/coherent/compile-988.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "acddef1ae7df8e4a37777fba8e41ae9be2031ce347cb4aba215d5346ca89c1bc",
+      "sha256": "90339036d19cc8fba3e7ad99231605ac6f9bbec8fb51205dabc60f5a5cde545d"
+    },
+    "build/coherent/compile-989.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "65aff2457f03da57d1dad635faa38eb1c06e696c4ef4f459a4147d49b357e4db",
+      "sha256": "c1b637704f08b4052d8104f59937b61cafbb4e9c6c9e3b421af9f1512b4cfc94"
+    },
+    "build/coherent/verification-checkpoint/reference/resources.json": {
+      "normalization": "typed-resource-order",
+      "original_sha256": "27fe3a12f6293cfd55f96327b5b229dbcf31841c5626f7e290bc440fbb6684c2",
+      "sha256": "d2e09c24866a6660d0a086804d6740b90295bf44c3170a4c1e0ab6bb48814de2"
+    },
+    "build/coherent/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "9f3195b2c2c69bedba4d2653d8a00dc201554c5f560529adc16d8041024812f6",
+      "sha256": "70ff410c759344670425938bf0de7e743ee1c851b43eb8019ba7fe4be1ec459a"
+    }
+  },
+  "p09-geometry-scaffold": {
+    "build/coherent/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "fda934ae3955456b01d5349c0cc9e70f5c061252eac7dd43aec5e6feb38f3faa",
+      "sha256": "162643c2c31265990af99cc7eb34df0fcefd422ea18b7ae218893a6ea26ee1ec"
+    },
+    "build/coherent/compile-0.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "304b0746a1125a3c9ffee86cc6691f77ec1a26187b9ecdddc6699baf0b4a809d",
+      "sha256": "6b9987e16cee2de05555cef7f918c699cf561b09133ec77e0b8f7fec7e2338ec"
+    },
+    "build/coherent/compile-980.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "1372d715feb6d69f05fc492ab011b693d83aa3dd69770f306bda39248fcc971d",
+      "sha256": "f0c6a797c649169ee1918cd8e97e34aa175339a313147c07ab1f14da07664be0"
+    },
+    "build/coherent/compile-981.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "cdd74d4b59657b8c7613e3ff200d4391b5f41586fef07410c5fc2ecd766d0394",
+      "sha256": "f479db9c6857b9db65907927a6894f0d919517ecf502ee46f8007a727ac773be"
+    },
+    "build/coherent/compile-982.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "ed941e0a8a26d63b0c050b76f172966c22fd068995156b92256590cd259dec1a",
+      "sha256": "dea932e93265b71f25baaf161fe9fbf6b3051547d6d168277a32549bca2aa9e5"
+    },
+    "build/coherent/compile-983.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "8e576f3db0cac2cc7283b5c78689aff05f08a8bb6d9c0d761421f3e963295c98",
+      "sha256": "ad499d9866fa2d8212fb2afbad802f34149377a2dc0b456a81faeb1ba75d4e4f"
+    },
+    "build/coherent/compile-984.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "cfa1a8fdc9341a28c8c1b1c0fe1518241e865c463176d808b047fe907ef77835",
+      "sha256": "8fec98f9973a88f35d6b280dc7f39174dde49c4edaa8d004a591dcbe503f422e"
+    },
+    "build/coherent/compile-985.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "718a1b82528d92b101a7ea6b54683afe8c28740887143fcec100a3fcc93663ba",
+      "sha256": "b60d24aa1e6ad3a54bff810ee8423725caf7df5c2241ee2c7f98ab322ce4574a"
+    },
+    "build/coherent/compile-986.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "2ed5042274b1f2cdf8c54e12e65e7d08b7139156e5e5ab23fbdcdc5e5eb95ef6",
+      "sha256": "1c276c600ba5a11f7cd34c716b59beb4a4362510498a1e11b5687df5fe4dc067"
+    },
+    "build/coherent/compile-987.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "b7352d2f289eb89c979c5862a5d256f41c5b2da7c424223e67119f6c3866c760",
+      "sha256": "238020d5b87f00fc7b349c52b61022132dd910dd5967b441f72ca4fb8a5596b6"
+    },
+    "build/coherent/compile-988.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "d8a45712210b129c27008e1996394247dd3a7ed8749707de9ae4f01976b77813",
+      "sha256": "aeab15f74ea9e6bca688c28b980999916562b9459536febfde8e031d53b04acc"
+    },
+    "build/coherent/compile-989.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "9caefc3fff89ed10e89fac1ac5d071b8f9f094f6ac88bc42f250519b44cb4c1a",
+      "sha256": "40a6cf48b32ab18aa140f28c51849c5f2079b6cf4346cdf5af90568d1e303642"
+    },
+    "build/coherent/compile-990.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "1da9f8cd251d1ac5bb93bc87908785bb0655e2bf42c134be7a44c18ac5cf3d1a",
+      "sha256": "d94261b74ee092290f868d4b44f2fd32a306fa3635f3d2b4b17c86326192106f"
+    },
+    "build/coherent/verification-checkpoint/reference/resources.json": {
+      "normalization": "typed-resource-order",
+      "original_sha256": "0a182dfe6af2a49db83ba6e25a34b3497443bf12e6637831f993219de35e3541",
+      "sha256": "ccdea180c118a227655360cf82c6b81da01628edfc5356c3d211defa72c08640"
+    },
+    "build/coherent/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "fda934ae3955456b01d5349c0cc9e70f5c061252eac7dd43aec5e6feb38f3faa",
+      "sha256": "162643c2c31265990af99cc7eb34df0fcefd422ea18b7ae218893a6ea26ee1ec"
+    }
+  },
+  "p09-host-foundation": {
+    "build/coherent/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "0ea9a06a082cd0d05b6f64c21b473a18c2fff9158559626543a51dc82f1a7516",
+      "sha256": "7e7ae0e99b7637e1e3230b7e3ff88d9c2da5813cacd5bed8190ebb593c3b0bc0"
+    },
+    "build/coherent/compile-0.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "36852a19ae2bcc49e8e78699cfd05c98c9f130950440d6a8e9f7175f9d1d0e74",
+      "sha256": "a11df5984bbca225717133b1af6a6be29baf25c180384cdae3659bcdd2b286fc"
+    },
+    "build/coherent/compile-980.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "44c8d289d6beba43a0e12de486b3cad3c4886f333f8ac1f832e7a21e24505c16",
+      "sha256": "f0c6a797c649169ee1918cd8e97e34aa175339a313147c07ab1f14da07664be0"
+    },
+    "build/coherent/compile-981.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "cf11e833c7649381e7b800f26926a9bad8501b3b16bdf2f3bdc1842ec8c49dd1",
+      "sha256": "f479db9c6857b9db65907927a6894f0d919517ecf502ee46f8007a727ac773be"
+    },
+    "build/coherent/compile-982.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "aaf63ca2073541a981a91c2945a58b8b805aa482cc842ce1d1c82b3fdfd788e6",
+      "sha256": "dea932e93265b71f25baaf161fe9fbf6b3051547d6d168277a32549bca2aa9e5"
+    },
+    "build/coherent/compile-983.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "002aa0d6a2a946f8143949109d2157ecb4389266276e56b652859caff7916916",
+      "sha256": "ad499d9866fa2d8212fb2afbad802f34149377a2dc0b456a81faeb1ba75d4e4f"
+    },
+    "build/coherent/compile-984.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "97d7b086043a60e15cd50bc9382d17654c696600b224f8afc4db5acb3c48c69f",
+      "sha256": "8fec98f9973a88f35d6b280dc7f39174dde49c4edaa8d004a591dcbe503f422e"
+    },
+    "build/coherent/compile-985.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "491d73014875f43f21dc677735b808557c8f0710b8eee904201088f8f1e8e8dd",
+      "sha256": "b60d24aa1e6ad3a54bff810ee8423725caf7df5c2241ee2c7f98ab322ce4574a"
+    },
+    "build/coherent/compile-986.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "8c8c370a3ecb4224a31528e3b7efb2c8d72a6a94eb48a604265603cd44024e6e",
+      "sha256": "1c276c600ba5a11f7cd34c716b59beb4a4362510498a1e11b5687df5fe4dc067"
+    },
+    "build/coherent/compile-987.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "c11d41eadfc668003df626e5804e44c76369bae01b96ffde12d28fbbd0741d9a",
+      "sha256": "238020d5b87f00fc7b349c52b61022132dd910dd5967b441f72ca4fb8a5596b6"
+    },
+    "build/coherent/compile-988.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "eced955c5eabd269dbc1115c7b5e0acf161e58c0b839d88b535fe31faabbfc40",
+      "sha256": "aeab15f74ea9e6bca688c28b980999916562b9459536febfde8e031d53b04acc"
+    },
+    "build/coherent/compile-989.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "3b78b141b0465418672592424aa431ab3480662390a11aa6b7f0f02749bbfb68",
+      "sha256": "40a6cf48b32ab18aa140f28c51849c5f2079b6cf4346cdf5af90568d1e303642"
+    },
+    "build/coherent/compile-990.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "f9f3a902fe97620ae1d18af22473b13fb3c6cae0911f432311e29d501b9f0028",
+      "sha256": "79e647f7ca2b58e81f1642430a8b0eff8a50eddd75937372a52ae325bbda961a"
+    },
+    "build/coherent/verification-checkpoint/reference/resources.json": {
+      "normalization": "typed-resource-order",
+      "original_sha256": "d6323048a30dab4de3551132ca0f535e27b7758be7bc7cea599b0dee2a0047dd",
+      "sha256": "27b534b94dd37fa185d823323135d3509a5c42456d01e9fee54300ae1a3275a1"
+    },
+    "build/coherent/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "0ea9a06a082cd0d05b6f64c21b473a18c2fff9158559626543a51dc82f1a7516",
+      "sha256": "7e7ae0e99b7637e1e3230b7e3ff88d9c2da5813cacd5bed8190ebb593c3b0bc0"
+    }
+  },
+  "scene991-renderer": {
+    "build/coherent/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "54593b38017318b47a66d85a83f3bf82fc3f658c1d2e0787904953dca4be7dfb",
+      "sha256": "74b1fc039592e8b921b340562e88353a42151c6be32fecb1c5d660bb017ba90d"
+    },
+    "build/coherent/compile-0.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "11711d4507306274c4246f469d4d5e8f8c041ff31a1d90491596cd0f90e832cf",
+      "sha256": "6f48c68af7fcde9d7d4ccde271ffd66f6afdf6297ce3d2995bfaa38e7c955650"
+    },
+    "build/coherent/compile-980.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "0898edfdd0afdb542677b3bd37c629062913d371ed00d568aaee8fba38331848",
+      "sha256": "925a815302f79a9d6309c699ea9d9c5b1e42c472005b2f7d962c86fd3ee51a5b"
+    },
+    "build/coherent/compile-981.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "ee8b5b49caee58ead46abda9c2799958a9c69492023d11568f580d971fbd46a6",
+      "sha256": "30fca29c0668b2bc8f2d4e019d9cd90245a12badf3a71a4706d32daad8b44285"
+    },
+    "build/coherent/compile-982.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "d8fbf88c8f7a0e40d2cac07993fedb5125892dcbfe3cf99b3de0017bc18385c4",
+      "sha256": "2a244c6312a9568635e0d8294c963e57781760504e7623f0116594a1c430d445"
+    },
+    "build/coherent/compile-983.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "8c005720039a95e1dea35e121b6dcf40ec2d18f0fa9a68103761cc3e8f1194c1",
+      "sha256": "af9c48b71c51f05364fe6b5b986fb1051a14d4de2878ec8e6b9e5d052b68f58b"
+    },
+    "build/coherent/compile-984.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "a38ef4b6821ce968074e53aecfbd3af5722c97e9258d6a8ae6b4aa95a90da78f",
+      "sha256": "2e512547864855ff94f27ff43d95b7bb8de7b116f6c42c00efa8c19b645dcf1a"
+    },
+    "build/coherent/compile-985.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "bfbddc8f8ebcb8908309c014f97f2e38b98886a969c07f063cf8f1bb0bd8eca0",
+      "sha256": "6b8e99bb4fc3cf6d0dd530f380357145e4c9d58ba26fef4cc054b5aedda18828"
+    },
+    "build/coherent/compile-986.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "7829966e5a7a995ba8ab849695323589b3eff3f11fb8a82fcd89a2fca498e04a",
+      "sha256": "b2e6f84e5405b6584cff2876a053e849a5e2ec49e0fe189ed1ad70454d0fda80"
+    },
+    "build/coherent/compile-987.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "86b14b195a93521d0833237ca62f3f882c4420f726f7f2696e8c89c5b1783aba",
+      "sha256": "f5c094a4ccc81ee797b7654240036daf0e9eee078addb9fb204af77c4301749d"
+    },
+    "build/coherent/compile-988.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "a5bf1768269a566123ae61f613b558bfe0aa6a845cccbc7cc586d165f1493aef",
+      "sha256": "044246595395d7eb441c142677d364dd4654c82e6807ee2929ef8a47c5c01f6c"
+    },
+    "build/coherent/compile-989.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "f8299ae13a566ab7ed3f70c40f2b95555080dd0507b8e5e9844834078316fd88",
+      "sha256": "b8772e170a68bb6a3f8d2a36e9a1310d5c79d4e9a0f31c8530d74f9a5181cb2f"
+    },
+    "build/coherent/compile-990.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "df3fb797cb8b5dc92d4ee0ebdb2f63ad971c8550a9fc71a511da8ac364f21226",
+      "sha256": "c399f9e0f35ccb6910f999a4bfe39481cce2155e16fb73ed6c3ddb091f30daa0"
+    },
+    "build/coherent/compile-991.log": {
+      "normalization": "component-root-text",
+      "original_sha256": "d3745cdc49c6dbf09af0903d1f0a10f241e4c1f343a4d7ab2789042dd1b65f9f",
+      "sha256": "c604b42cf81abe64dfd18a2bf2d911eac2a593ada3b12618acbe0bed9379b1a9"
+    },
+    "build/coherent/verification-checkpoint/reference/resources.json": {
+      "normalization": "typed-resource-order",
+      "original_sha256": "6e4ee62a742afbfa10f39e8e14931c270d2f82b1e2042ef21ed82949f1b009b7",
+      "sha256": "ff491104e9dc84c05ec4bc5b5b02a618285c5052c69c6f27bbe88fbfacca3dad"
+    },
+    "build/coherent/verification-checkpoint/source-provenance/ABI-MAPPINGS.json": {
+      "normalization": "component-root-json",
+      "original_sha256": "54593b38017318b47a66d85a83f3bf82fc3f658c1d2e0787904953dca4be7dfb",
+      "sha256": "74b1fc039592e8b921b340562e88353a42151c6be32fecb1c5d660bb017ba90d"
+    }
+  }
+}

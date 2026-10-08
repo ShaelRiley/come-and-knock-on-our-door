@@ -1,0 +1,6 @@
+                acc={1:lambda:left+right,2:lambda:left-right,3:lambda:left*right,
+                     4:lambda:int(left/right),5:lambda:left-int(left/right)*right,
+                     6:lambda:(left&65535)>>right,7:lambda:left<<right,8:lambda:left^right,
+                     9:lambda:left&right,10:lambda:left|right,13:lambda:int(left==right),
+                     14:lambda:int(left!=right),15:lambda:int(left>right),16:lambda:int(left>=right),
+                     17:lambda:int(left<right),18:lambda:int(left<=right)}[op]()

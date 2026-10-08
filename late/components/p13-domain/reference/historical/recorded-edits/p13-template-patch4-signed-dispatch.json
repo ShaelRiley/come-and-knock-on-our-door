@@ -1,0 +1,30 @@
+{
+  "source_packet": "P13-TEMPLATE-PATCH4-1/1",
+  "operation": "ordered global exact replacements; substrings have no LF delimiters",
+  "replacements": [
+    [
+      "(if (== verb 9) (if (== obj 1)",
+      "(if (== verb 9) (if (== obj -1)"
+    ],
+    [
+      "(if (== obj 2) (return (self p13PullShow:)))",
+      "(if (== obj -2) (return (self p13PullShow:)))"
+    ],
+    [
+      "(if (== obj 3) (return (self p13PullToast:)))",
+      "(if (== obj -3) (return (self p13PullToast:)))"
+    ],
+    [
+      "(and (== verb 7) (>= target 1) (<= target 3))",
+      "(and (== verb 7) (>= target -3) (<= target -1))"
+    ],
+    [
+      "(self p13DeliverPot: target)",
+      "(self p13DeliverPot: (- 0 target))"
+    ],
+    [
+      "(self p13DeliverDisplay: target)",
+      "(self p13DeliverDisplay: (- 0 target))"
+    ]
+  ]
+}

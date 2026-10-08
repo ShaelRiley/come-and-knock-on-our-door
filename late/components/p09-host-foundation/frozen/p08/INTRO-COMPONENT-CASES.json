@@ -1,0 +1,183 @@
+{
+  "status": "PASS_PRODUCER_SOURCE_EMITTED_INTRO_COMPONENT",
+  "completed_cases": 13,
+  "case_receipts": [
+    {
+      "case": "test_intro.Intro.test_01_actual_meeting_partial_close_talk_resume_and_restore",
+      "status": "PASS",
+      "seconds": 90.378,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_negative.IntroNegative.test_02_every_reachable_mask_restores_and_resumes_first_unread",
+      "status": "PASS",
+      "seconds": 1848.607,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_negative.IntroNegative.test_03_voiced_frames_exact_identity_windows_and_graph_accumulator",
+      "status": "PASS",
+      "seconds": 12.282,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_guard.IntroGuard.test_07_earned_pages_skip_receipt_resources_but_new_pages_validate",
+      "status": "PASS",
+      "seconds": 5.05,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_transactions.IntroTransactions.test_04_atomic_queue_failure_uncertainty_and_recovery",
+      "status": "PASS",
+      "seconds": 52.379,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_transactions.IntroTransactions.test_05_corrupt_intro_restore_rejects_before_publishers",
+      "status": "PASS",
+      "seconds": 165.971,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_intro_transactions.IntroTransactions.test_06_real_return_source_crossing_and_reassembly_resume",
+      "status": "PASS",
+      "seconds": 103.221,
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505"
+    },
+    {
+      "case": "test_source_reader.SourceReader.test_01_two_page_source_requires_completed_frames_and_restores_partial",
+      "status": "PASS",
+      "seconds": 100.113,
+      "binding_sha256": "aec868fac3e1cd30f55948c0692ebe42da69fdc2965375e5250cc1c28689d02f"
+    },
+    {
+      "case": "test_source_reader.SourceReader.test_02_actual_overlay_and_slate_dispatch_all_four_sources",
+      "status": "PASS",
+      "seconds": 29.308,
+      "binding_sha256": "aec868fac3e1cd30f55948c0692ebe42da69fdc2965375e5250cc1c28689d02f"
+    },
+    {
+      "case": "test_source_reader.SourceReader.test_03_graph_accumulator_abort_obscured_and_direct_completion",
+      "status": "PASS",
+      "seconds": 21.039,
+      "binding_sha256": "aec868fac3e1cd30f55948c0692ebe42da69fdc2965375e5250cc1c28689d02f"
+    },
+    {
+      "case": "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_04_stale_exact_identity_never_observes_or_repairs",
+      "status": "PASS",
+      "seconds": 66.742,
+      "binding_sha256": "b49b7c44395c4d40657c7c1ba6eae353e47923e7d682443c6d8be986aec93f09"
+    },
+    {
+      "case": "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_05_complete_queue_reservation_and_uncertain_publication",
+      "status": "PASS",
+      "seconds": 9.812,
+      "binding_sha256": "b49b7c44395c4d40657c7c1ba6eae353e47923e7d682443c6d8be986aec93f09"
+    },
+    {
+      "case": "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_06_cancel_partial_and_reject_corrupt_restore",
+      "status": "PASS",
+      "seconds": 124.947,
+      "binding_sha256": "b49b7c44395c4d40657c7c1ba6eae353e47923e7d682443c6d8be986aec93f09"
+    }
+  ],
+  "completed_chunks": [
+    {
+      "receipt": "evidence/intro-optimized-cases-1-2-3-7.json",
+      "sha256": "943c4897407dabbb2966d3bfe307866c00a3600cb98e028f235bc856154c69d5",
+      "completed_cases": [
+        "test_intro.Intro.test_01_actual_meeting_partial_close_talk_resume_and_restore",
+        "test_intro_negative.IntroNegative.test_02_every_reachable_mask_restores_and_resumes_first_unread",
+        "test_intro_negative.IntroNegative.test_03_voiced_frames_exact_identity_windows_and_graph_accumulator",
+        "test_intro_guard.IntroGuard.test_07_earned_pages_skip_receipt_resources_but_new_pages_validate"
+      ],
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505",
+      "scope_note": "Complete passing suite chunk"
+    },
+    {
+      "receipt": "evidence/intro-optimized-cases-4-5-6.json",
+      "sha256": "1e4f3b908109fada2a5f2cb5030c005c25f8fcbfb9f2d5d685693fe1a1622b28",
+      "completed_cases": [
+        "test_intro_transactions.IntroTransactions.test_04_atomic_queue_failure_uncertainty_and_recovery",
+        "test_intro_transactions.IntroTransactions.test_05_corrupt_intro_restore_rejects_before_publishers",
+        "test_intro_transactions.IntroTransactions.test_06_real_return_source_crossing_and_reassembly_resume"
+      ],
+      "binding_sha256": "7a24b96658ca2e104528a519336636f82721390d5840de937becf93de8d97505",
+      "scope_note": "Complete passing suite chunk"
+    },
+    {
+      "receipt": "evidence/source-reader-after-intro-cases.json",
+      "sha256": "5aaa5b07ff44a0ee336e75d7fd862dc5b28277b8a3f67e50173f887d9a767f61",
+      "completed_cases": [
+        "test_source_reader.SourceReader.test_01_two_page_source_requires_completed_frames_and_restores_partial",
+        "test_source_reader.SourceReader.test_02_actual_overlay_and_slate_dispatch_all_four_sources",
+        "test_source_reader.SourceReader.test_03_graph_accumulator_abort_obscured_and_direct_completion"
+      ],
+      "binding_sha256": "aec868fac3e1cd30f55948c0692ebe42da69fdc2965375e5250cc1c28689d02f",
+      "scope_note": "Only completed cases01\u201303 credited; old revision-to1 negative was a no-op after real intro and failed honestly."
+    },
+    {
+      "receipt": "evidence/source-reader-after-intro-corrected-cases.json",
+      "sha256": "2129346172170721810f202b1626466a1b0b811e6e317d793a031052a2248537",
+      "completed_cases": [
+        "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_04_stale_exact_identity_never_observes_or_repairs",
+        "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_05_complete_queue_reservation_and_uncertain_publication",
+        "test_source_reader_after_intro_revision.SourceReaderAfterIntro.test_06_cancel_partial_and_reject_corrupt_restore"
+      ],
+      "binding_sha256": "b49b7c44395c4d40657c7c1ba6eae353e47923e7d682443c6d8be986aec93f09",
+      "scope_note": "Complete passing suite chunk"
+    }
+  ],
+  "compile_receipt_sha256": "60001da819b7408ac13af24e84dd830598048918a6f7220fa3ae06821a5088bf",
+  "modules": {
+    "980": 1592,
+    "981": 12238,
+    "982": 50500,
+    "983": 12748,
+    "984": 11822,
+    "985": 43914,
+    "986": 11756,
+    "987": 31386,
+    "988": 24388,
+    "989": 46886,
+    "0": 64328
+  },
+  "completed_masks": {
+    "emitted": 64,
+    "source": 64,
+    "positive_masks_created_only_by_real_page_navigation_and_display": true
+  },
+  "equivalent_old_new_display_outcomes": "evidence/INTRO-DISPLAY-EQUIVALENCE.json",
+  "domain_methods_literal": 80,
+  "source_scene_tables_preserved": true,
+  "added_host_selectors": {
+    "h8IntroControl": 2984,
+    "h8IntroCheck": 2985,
+    "h8IntroAction": 2986
+  },
+  "remaining_reserved_selectors": [
+    2987,
+    2988,
+    2989,
+    2990,
+    2991,
+    2992,
+    2993,
+    2994,
+    2995,
+    2996,
+    2997,
+    2998,
+    2999
+  ],
+  "native_acceptance": false,
+  "independent_review_pending": true,
+  "remaining": [
+    "independent intro component review",
+    "broader prior transaction/cloth/layout/route combined regressions",
+    "readiness/checklist/final explicit Yes",
+    "successful whole-campaign pre-transition autosave and pending retry/cancel/restore",
+    "E03 actor/owner handoff and genuine later-room VC01/VC02 rematches",
+    "native pixels/timing/input/actual saves/listening QA"
+  ]
+}

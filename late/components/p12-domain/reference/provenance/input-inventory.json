@@ -1,0 +1,242 @@
+[
+  {
+    "bytes": 27204,
+    "sha256": "0cd474faba3820d7a5b30be7fc7f78131141d9866e0288b10a8704fe02553eb5",
+    "target": "historical/literal-read/cakood/p13_model.py"
+  },
+  {
+    "bytes": 7150,
+    "sha256": "6d87734f1741479a8af9c3ad2382337fac98a81080732c7ea18c6457d0bc2cd7",
+    "target": "historical/literal-read/docs/p13-state-contract.md"
+  },
+  {
+    "bytes": 10493,
+    "sha256": "c57fa58087f6bee02079932dc77ebc3fb4be608f333c117b4bf1cbc939bc14bf",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 1326,
+    "sha256": "0cb144a300cd5fa0c4d1e24f98dc13f740e71f290106dbe3f89743b3fe73426a",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/build.sh"
+  },
+  {
+    "bytes": 4705,
+    "sha256": "a4b3d3edf438d207d402e13b7655c1eed88c83bb3893945f84fd7a3af09d05d9",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/validate.py"
+  },
+  {
+    "bytes": 1791,
+    "sha256": "596249049fd4f4f8fe5d3515e06cbace4c7225d389acba58f563ec2e5b7106ac",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/prepare.py"
+  },
+  {
+    "bytes": 4167,
+    "sha256": "1bd56b3418d6c878f708fd607187cbc22896007d9ff3b0223a789cd78086290f",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 6165,
+    "sha256": "91550c4c42a89f1ebd2fae92146ce1fbeb4c9bd1d325e9677dbe4544b5ccf665",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/compiled_vm.py"
+  },
+  {
+    "bytes": 6027,
+    "sha256": "4a37dfc5f52ae9561b696005511e39cbb822c6914b7fe2a62fd9925870d6f166",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 5987,
+    "sha256": "563ef6c4d0b9e737d29f536b29aeced22b94ab4627d1c9d801e982cca1ca2a13",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 19047,
+    "sha256": "2cb3555def38d6289bab66359df7484674beed5116cfac3e8bf17c7770ecae6c",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 679,
+    "sha256": "ebb9444d8f4b2cd79304972558eaa8ec7ac694d297e717505dfeabad4d04f134",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/src/main.sc"
+  },
+  {
+    "bytes": 23913,
+    "sha256": "7c7195fdd4a5ff2b2c922d7fd993c1f429c84c28e3b0087cef183b2c923151da",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/src/methods.sc.in"
+  },
+  {
+    "bytes": 11306,
+    "sha256": "3d45272ea67aa9a7e4c208952da8e895b40c581fff99ec5c81f0b29f3f4c6622",
+    "target": "historical/literal-read-partial/cakood/p12_model.py.part"
+  },
+  {
+    "bytes": 4039,
+    "sha256": "df2697d758a689955ec318f28783e69365e8e9e31e68008baae7192515446b80",
+    "target": "historical/literal-read-partial/tests/test_late_campaign_models.py.lines1-85.part"
+  },
+  {
+    "bytes": 6383,
+    "sha256": "59f45cee3efacafd8ee9c3ecd18e9e440ce668b671b5b0ec838c1e98a515b682",
+    "target": "historical/literal-read-partial/tests/test_late_campaign_models.py.lines197-289.part"
+  },
+  {
+    "bytes": 8677,
+    "sha256": "bcb0cf20805fff5d61f1dd0e7f161c4dfd14cc69bd0792319cf0c804082f0d4e",
+    "target": "historical/literal-read-partial/stock-sci/p12-domain-adapter/src/methods-consumed-prefix.sc.in"
+  },
+  {
+    "bytes": 320,
+    "sha256": "3333f385dd8b01cdf812a996e0a68b8bfd50ae1bfc52c07e3e25c52f4e1dea04",
+    "target": "historical/recorded-edits/p12-test-domain-overlap-check.json"
+  },
+  {
+    "bytes": 328,
+    "sha256": "12810c1ffc9408df22756ffda5144be8fb96eeeef4d534254ff9fa84138d5fdb",
+    "target": "historical/recorded-edits/p12-template-overlap-check.json"
+  },
+  {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target": "component/cakood/__init__.py"
+  },
+  {
+    "bytes": 9871,
+    "sha256": "0371f8899410bbe9f230ad80aace72026328db818a456db4a46d7bf9c8049606",
+    "target": "component/cakood/model.py"
+  },
+  {
+    "bytes": 42729,
+    "sha256": "3dd71164dc0a509c0065c232dba446ef8d2fb113d0d21c11580365d0a4a4ac95",
+    "target": "component/cakood/p02_model.py"
+  },
+  {
+    "bytes": 496,
+    "sha256": "8cf6617d2b9e1b78b3e41ae427ddb4ad1681d19901dc62f18fe97280cbd960e4",
+    "target": "component/cakood/p03_model.py"
+  },
+  {
+    "bytes": 1377,
+    "sha256": "3a99f6092bc07bfff544d90807f6c3d315754f9401fc110c0b6806cd489fc64e",
+    "target": "component/cakood/p04_model.py"
+  },
+  {
+    "bytes": 29001,
+    "sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061",
+    "target": "component/cakood/p09_model.py"
+  },
+  {
+    "bytes": 29118,
+    "sha256": "01505ec8adb19ecad5993a490d1a31ba2c4bd0c729fe5c540a30051260d5295c",
+    "target": "component/cakood/p10_model.py"
+  },
+  {
+    "bytes": 29281,
+    "sha256": "ee0069e2e3e796f351279c5950c0df43b7db130f5bd85eb103c6f38940e88439",
+    "target": "component/cakood/p11_model.py"
+  },
+  {
+    "bytes": 23617,
+    "sha256": "19115a1d55f1380aafe88d0adb45b5a0274290b71abee1d53ac2b996f9a81c89",
+    "target": "component/dependencies/p09-schema.json"
+  },
+  {
+    "bytes": 14992,
+    "sha256": "f5dbf243c16d2d6b480860e1608204d3d174fbb85c10a75f142d13376f711ec7",
+    "target": "component/dependencies/p04-abi.json"
+  },
+  {
+    "bytes": 23775,
+    "sha256": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67",
+    "target": "component/dependencies/p04_numeric_model.py"
+  },
+  {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target": "component/dependencies/__init__.py"
+  },
+  {
+    "bytes": 14115,
+    "sha256": "169432488b093b7d232582c009b0459a1baf5ccaac2a2cf7f8f53bb8c35d7090",
+    "target": "component/dependencies/p03_numeric_model.py"
+  },
+  {
+    "bytes": 2049,
+    "sha256": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136",
+    "target": "component/authority/retained-registry-subset.json"
+  },
+  {
+    "bytes": 210993,
+    "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+    "target": "component/authority/complete-body.md"
+  },
+  {
+    "bytes": 408,
+    "sha256": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3",
+    "target": "component/authority/CURRENT-SCRIPT-REVISION.json"
+  },
+  {
+    "bytes": 31826,
+    "sha256": "62c3329fe59a92d407dbdbd3850966581386be9fcc5ed0c2cd276ed528316bdc",
+    "target": "component/authority/accepted-insult-pairs.json"
+  },
+  {
+    "bytes": 1346630,
+    "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+    "target": "component/authority/full-line-catalog.json"
+  },
+  {
+    "bytes": 417867,
+    "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+    "target": "component/authority/speech-units.json"
+  },
+  {
+    "bytes": 27204,
+    "sha256": "0cd474faba3820d7a5b30be7fc7f78131141d9866e0288b10a8704fe02553eb5",
+    "target": "component/cakood/p13_model.py"
+  },
+  {
+    "bytes": 43625,
+    "sha256": "33f4dcaad73178ffc76cf9368dac97b3e311b2b150ddbc3059ba97af5f565434",
+    "target": "component/dependencies/vc_owner/verbal_contest.py"
+  },
+  {
+    "bytes": 316942,
+    "sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e",
+    "target": "component/dependencies/data/canonical-bindings.json"
+  },
+  {
+    "bytes": 24465,
+    "sha256": "441af1d58b9a83024b03a1dae4baa2a3c20488044678fadd9ddf997e22ea67c5",
+    "target": "component/dependencies/p10-current-manifest.json"
+  },
+  {
+    "bytes": 5337,
+    "sha256": "5a1c96ebdcf701909c3ce4f0abc9ad25dde591eaf75280d727bcffea97f28c8a",
+    "target": "component/dependencies/domain_source_vm.py"
+  },
+  {
+    "bytes": 5337,
+    "sha256": "4634fc61960b39804a6a80be0ae085184fb22e85e4730d12a82de2cad2f70557",
+    "target": "component/dependencies/p06_domain_source_vm.py"
+  },
+  {
+    "bytes": 1813,
+    "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56",
+    "target": "component/dependencies/source_tools.py"
+  },
+  {
+    "bytes": 20350,
+    "sha256": "34ec1b3baed885c403c8de18de7c35b128825d2eb4cc56d71b1c10963788a577",
+    "target": "component/tests/dependency_test_p11_model.py"
+  },
+  {
+    "bytes": 13525,
+    "sha256": "dce607c1392f64f6e73460bee309d933168aa2493d5a59a70f3d3ca56e8f2460",
+    "target": "component/tests/dependency_test_current_contract.py"
+  },
+  {
+    "bytes": 5114,
+    "sha256": "c6005bd6949202da70f2d62115d393fc857ba23748ac490b0859abad456558d7",
+    "target": "component/tests/dependency_test_f01_sincere_listener.py"
+  }
+]

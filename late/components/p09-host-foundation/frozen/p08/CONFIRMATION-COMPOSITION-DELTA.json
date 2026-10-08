@@ -1,0 +1,49 @@
+{
+  "base": "sealed p08-readiness-checklist phase1",
+  "current": "p08-confirmation-final",
+  "changed_compiled_members": [
+    {
+      "file": "0.scr.bin",
+      "before_bytes": 52034,
+      "after_bytes": 52034,
+      "before_sha256": "14f96f7a98f9884b7102a104c073273afdab5917d80703154b52400682a44ac8",
+      "after_sha256": "f4abd0cdca2835d94e82fc5e961912db0dc72437d1012797ee370559af3118fd",
+      "byte_differences": [
+        {
+          "offset": 23621,
+          "old": 236,
+          "new": 237
+        },
+        {
+          "offset": 25990,
+          "old": 236,
+          "new": 237
+        },
+        {
+          "offset": 27724,
+          "old": 236,
+          "new": 237
+        }
+      ]
+    },
+    {
+      "file": "989.scr.bin",
+      "before_bytes": 48102,
+      "after_bytes": 49820,
+      "before_sha256": "969518d6165e39ef33ce3e2f62e01188f0aa1edf560c974e0e18708eb10ce085",
+      "after_sha256": "f21d45c680596e03cf1c873d0f22a69d86a3261e2f57d46cd934702978cf949e",
+      "byte_differences": 21495
+    },
+    {
+      "file": "989.scr.bin.hep",
+      "before_bytes": 2716,
+      "after_bytes": 2796,
+      "before_sha256": "5d2c74a8580a5bf0abae6612baf9fccacbe2dd50ebcd69fe75e8cc186805e7c5",
+      "after_sha256": "b968792061f3eca90770fe3e0bb29d7c2815e2dbc32a8fa80b5df4cf64c6eec7",
+      "byte_differences": 346
+    }
+  ],
+  "new_selectors": 0,
+  "vocab997_growth": 0,
+  "notes": "Main changes only the three existing menu context upper bounds 236 to237; all nine other modules outside Main/989 retain exact script and heap bytes. Domain methods and current scene tables remain exact."
+}

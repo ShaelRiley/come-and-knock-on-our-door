@@ -1,0 +1,182 @@
+{
+  "vocab997_before_bytes": 34852,
+  "vocab997_after_bytes": 34876,
+  "vocab997_growth": 24,
+  "new_selectors": {
+    "h8RAct": 2987,
+    "h8RChk": 2988,
+    "h8RCtl": 2989
+  },
+  "remaining_reserved": [
+    2990,
+    2991,
+    2992,
+    2993,
+    2994,
+    2995,
+    2996,
+    2997,
+    2998,
+    2999
+  ],
+  "compiled_deltas": {
+    "0": {
+      ".scr.bin": {
+        "before_bytes": 52034,
+        "after_bytes": 52034,
+        "changed_offsets": [
+          23621,
+          25990,
+          27724
+        ],
+        "byte_identical": false
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 12292,
+        "after_bytes": 12292,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "980": {
+      ".scr.bin": {
+        "before_bytes": 1374,
+        "after_bytes": 1374,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 216,
+        "after_bytes": 216,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "981": {
+      ".scr.bin": {
+        "before_bytes": 5876,
+        "after_bytes": 5876,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 6362,
+        "after_bytes": 6362,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "982": {
+      ".scr.bin": {
+        "before_bytes": 19674,
+        "after_bytes": 19674,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 30824,
+        "after_bytes": 30824,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "983": {
+      ".scr.bin": {
+        "before_bytes": 11640,
+        "after_bytes": 11640,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 1108,
+        "after_bytes": 1108,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "984": {
+      ".scr.bin": {
+        "before_bytes": 10500,
+        "after_bytes": 10500,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 1322,
+        "after_bytes": 1322,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "985": {
+      ".scr.bin": {
+        "before_bytes": 32238,
+        "after_bytes": 32238,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 11674,
+        "after_bytes": 11674,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "986": {
+      ".scr.bin": {
+        "before_bytes": 10636,
+        "after_bytes": 10636,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 1120,
+        "after_bytes": 1120,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "987": {
+      ".scr.bin": {
+        "before_bytes": 27680,
+        "after_bytes": 27680,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 3706,
+        "after_bytes": 3706,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "988": {
+      ".scr.bin": {
+        "before_bytes": 21498,
+        "after_bytes": 21498,
+        "changed_offsets": [],
+        "byte_identical": true
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 2888,
+        "after_bytes": 2888,
+        "changed_offsets": [],
+        "byte_identical": true
+      }
+    },
+    "989": {
+      ".scr.bin": {
+        "before_bytes": 44414,
+        "after_bytes": 48102,
+        "changed_offsets": null,
+        "byte_identical": false
+      },
+      ".scr.bin.hep": {
+        "before_bytes": 2470,
+        "after_bytes": 2716,
+        "changed_offsets": null,
+        "byte_identical": false
+      }
+    }
+  }
+}

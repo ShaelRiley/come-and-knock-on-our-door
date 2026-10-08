@@ -1,0 +1,14 @@
+{
+  "source_packet": "P13-TEMPLATE-PATCH1-1/1",
+  "operation": "ordered exact replacements; substrings have no leading/trailing LF",
+  "replacements": [
+    [
+      "(if (== verb 9) (switch obj (1 (return (self p13PullServe:))) (2 (return (self p13PullShow:))) (3 (return (self p13PullToast:)))))",
+      "(if (== verb 9) (if (== obj 1) (return (self p13PullServe:))) (if (== obj 2) (return (self p13PullShow:))) (if (== obj 3) (return (self p13PullToast:))))"
+    ],
+    [
+      "(switch index (0 (return OBJ_HOTPOT_POT)) (1 (return OBJ_HANDCART)) (2 (return OBJ_FOLDED_DISPLAY)) (3 (return OBJ_PLEDGE_BOARD)) (4 (return OBJ_GUEST_PROGRAM_CARD)))",
+      "(if (== index 0) (return OBJ_HOTPOT_POT)) (if (== index 1) (return OBJ_HANDCART)) (if (== index 2) (return OBJ_FOLDED_DISPLAY)) (if (== index 3) (return OBJ_PLEDGE_BOARD)) (if (== index 4) (return OBJ_GUEST_PROGRAM_CARD))"
+    ]
+  ]
+}

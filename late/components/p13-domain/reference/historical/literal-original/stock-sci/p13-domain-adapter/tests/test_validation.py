@@ -1,0 +1,93 @@
+"""Independent compiled save rejection, context bounds, and finite route overlays."""
+from test_domain import *
+import random
+del DomainTests,BytecodeTests
+
+def snapshots():
+ w=P13World();out=[w.save()]
+ def act(fn,*args,c=C):getattr(w,fn)(c,*args);out.append(w.save())
+ def show(s,c=C):
+  act('begin_presentation',s,c=c)
+  for token in w._tokens(s):
+   if token in M['speech_unit_ids']:w.acknowledge_presentation(c,w._handle(s),speech_unit_ids=(token,))
+   else:w.acknowledge_presentation(c,w._handle(s),record_id=token)
+   out.append(w.save())
+ act('start',POT,DISPLAY)
+ for source in ('opening','rack','serve_preview','show_preview','toast_preview','program','display_help','board_help'):show(source)
+ show('pot_help',K);act('deliver_pot','house_doorway',c=K);show('wrong_pot',K)
+ w.acknowledge_wrong_visual(K,w.pending_wrong_visual_id);out.append(w.save());act('claim_laugh',c=K)
+ act('give_program',c=P);act('confirm_seating');act('deliver_pot',c=K);act('pull_serve');show('rita_ready');act('deliver_display',c=D);act('open_screen');show('reveal');act('pull_show');act('deliver_board',c=L);act('request_contest',c=B)
+ w.finish_contest_request(w.pending_contest_request_id,True);out.append(w.save());show('attention',B);act('pull_toast',c=B)
+ for req in tuple(w.pending_autosaves):w.acknowledge_autosave(req['request_id']);out.append(w.save())
+ return out
+
+def model_valid(p):
+ try:
+  d=decode_words(list(p.values()));P13World.load(d);return encode_save(d)==p
+ except (ValueError,KeyError,TypeError,IndexError):return False
+
+class ValidationTests(unittest.TestCase):
+ def test_emitted_validator_corrupt_saves_and_exact_model_parity(self):
+  states=[encode_save(s) for s in snapshots()];cases={tuple(p.values()):p for p in states};rng=random.Random(130995)
+  def add(p,changes):q={**p,**changes};cases[tuple(q.values())]=q
+  done=states[-1];empty=states[0]
+  for key in M['persisted_properties']:add(done,{key:-1});add(done,{key:0})
+  for source,id in M['sources'].items():
+   name=M['serials'][id+18];add(done,{'p13'+name+'Hi':0,'p13'+name+'Lo':0})
+   for b in M['receipts'][source]:add(empty,{'p13RevisionLo':3,'p13'+M['serials'][b['slot']]+'Lo':2})
+  for _ in range(220):
+   p=rng.choice(states);key=rng.choice(M['persisted_properties']);add(p,{key:rng.choice((0,1,2,32767))})
+  v=ByteVM();valid=invalid=0
+  for p in cases.values():
+   expected=model_valid(p);v.p.update(p);before=v.persistent();actual=bool(v.call('p13Validate'))
+   self.assertEqual(actual,expected,('save parity',{k:x for k,x in p.items() if x!=done[k]}));self.assertEqual(before,v.persistent())
+   if actual:valid+=1
+   else:invalid+=1
+  (HERE/'evidence/compiled-validation.json').write_text(json.dumps({'scope':'Actual script995 validator with all method-return stack checks','reachable_snapshots':len(states),'distinct_vectors':len(cases),'valid':valid,'rejected':invalid,'instructions_executed':v.machine.steps,'script_sha256':hashlib.sha256(v.machine.blob).hexdigest(),'passed':True},indent=2)+'\n')
+ def test_overlay_all_layout_states_all_cues(self):
+  v=ByteVM();vocab={v:k for k,v in M['preview_vocabulary'].items()};count=0
+  for bits in itertools.product((False,True),repeat=6):
+   c=replace(C,queue_clear=bits[0],lane_clear=bits[1],footprint_clear=bits[2],buffet_at_hatch=bits[3],hatch_visible=bits[4],display_concealed=bits[5]);h=Harness(ByteVM);h.project(c);v=h.v
+   for cue in ORDER:
+    idx=M['words'][cue];fields=[v.call('p13PreviewWord',idx,i) for i in range(4)]
+    actual={'cue':cue,'record_id':R[fields[0]],'load_ids':tuple(vocab[x] for x in fields[2:] if x),'destination_id':vocab[fields[1]],'route_ids':ROUTES,**M['preview_facts']}
+    actual.update(zip(('guest_lane_occupied','gate_lane_occupied','footprint_occupied','buffet_ready'),(bool(v.call('p13PreviewMarker',i)) for i in range(4))))
+    self.assertEqual(actual,h.w.route_preview(c,cue))
+    line=v.call('p13BlockedLayout',idx);expected=h.w.blocked_layout_binding(c,cue)
+    self.assertEqual(R[line] if line else None,expected.get('label_record_id'));count+=1
+  self.assertEqual(count,192)
+  (HERE/'evidence/finite-projection.json').write_text(json.dumps({'layout_states':64,'cue_projections':count,'actual_emitted_bytecode':True,'passed':True},indent=2)+'\n')
+ def test_transport_strict_types_keys_receipt_order_and_corrupt_restore(self):
+  raw=snapshots()[-1]
+  for value in (True,'1',1.1,-1,M['max_serial']+1):
+   bad=copy.deepcopy(raw);bad['state']['revision']=value
+   with self.assertRaises(ValueError):encode_save(bad)
+  for key,value in [('kind','other'),('schema',True),('state',[]),('extra',1)]:
+   bad=copy.deepcopy(raw);bad[key]=value
+   with self.assertRaises(ValueError):encode_save(bad)
+  for key,value in [('wrong_source','reveal'),('autosaves',{'SERVE':True}),('presentations',{'bad':{'serial':1,'receipts':{}}})]:
+   bad=copy.deepcopy(raw);bad['state'][key]=value
+   with self.assertRaises(ValueError):encode_save(bad)
+  bad=copy.deepcopy(raw);p=bad['state']['presentations']['reveal'];p['receipts']=dict(reversed(list(p['receipts'].items())))
+  with self.assertRaises(ValueError):encode_save(bad)
+  for typ in (source_vm.VM,ByteVM):
+   h=Harness(typ);h.serve();p=encode_world(h.w);p['p13PotLo']=0;h.v.p.update(p);self.assertEqual(h.v.call('p13AfterRestore'),0);self.assertEqual(h.v.p['p13ContextValid'],0)
+   self.assertEqual(h.v.p['p13EventCount'],0);self.assertEqual(h.v.p['p13PresentationSource'],0)
+   before=h.v.persistent();h.v.call('p13PullShow');self.assertEqual(CO[h.v.p['p13Code']],'invalid_state');self.assertEqual(before,h.v.persistent())
+ def test_context_handoff_bounds_and_large_inventory_fail_closed(self):
+  base=[4,0,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,0,0,4,4,4,4,4,4,4,1,56,3,1,1,1,1,0,1]
+  handoff=[103,2,1,8,1,1,42,66,3,1,1,1,1,1,0,0,13]
+  for typ in (source_vm.VM,ByteVM):
+   v=typ()
+   for i in range(len(base)-1):
+    if i==29:continue
+    bad=base.copy();bad[i]=-2;bad[-1]=i+1;self.assertEqual(v.call('p13Context',*bad),0)
+   for i,x in ((14,2),(29,57),(30,2),(31,0),(34,0)):
+    bad=base.copy();bad[i]=x;bad[-1]=50+i;self.assertEqual(v.call('p13Context',*bad),0)
+   base[-1]=100;self.assertEqual(v.call('p13Context',*base),1)
+   for obj in (0,93,115,421,32767,oid('jack'),oid('felix'),103,66,42,433):
+    base[-1]+=1;self.assertEqual(v.call('p13Context',*base),1);self.assertEqual(v.call('p13ContextItem',obj),0)
+   base[-1]+=1;self.assertEqual(v.call('p13Context',*base),1);before=v.persistent()
+   for i,x in ((0,42),(1,1),(2,0),(3,7),(4,0),(5,0),(6,103),(7,42),(8,4),(9,0),(10,0),(11,0),(12,0),(13,0),(14,1),(15,1),(16,11)):
+    bad=handoff.copy();bad[i]=x;v.call('p13Handoff',*bad);self.assertEqual(CO[v.p['p13Code']],'invalid_argument');self.assertEqual(before,v.persistent())
+if __name__=='__main__':unittest.main()

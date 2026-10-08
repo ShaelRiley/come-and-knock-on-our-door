@@ -1,0 +1,1793 @@
+{
+  "all_declared_output_modes_verified": true,
+  "all_materialized_inputs_unchanged_after_checks": true,
+  "checks_execution_basis": "Five affected scene builds and retained suites plus three affected host/renderer compile/admission gates rerun in revision1; six unchanged component bindings reuse exact revision0 executions. The unchanged P09 geometry behavior suite is retained, not reexecuted. Existing comprehensive independent reviews are not newly executed.",
+  "compiler_bootstrap_repeated": false,
+  "compiler_build_inputs": 179,
+  "compiler_executable_mappings_checked": 32,
+  "compiler_source_files": 198,
+  "compiler_translation_units": 69,
+  "components": {
+    "p08-evening-ack": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate_routes.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "9c6c4f1001066b1c0192441847cd35cd2b9d904a84766157ebcce3e7773ca267",
+          "seconds": 0.023
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "56295ed9e452d8a096b8d6e124582af515fa1877637732127183067682fd62cc",
+          "seconds": 8.964
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "evidence/emitted_ack_audit.py",
+            "."
+          ],
+          "exit_code": 0,
+          "log_sha256": "7968068a1f8a55660521474fe0d2646cb244b7d379f70a2a1fa6c82e1fbe7006",
+          "seconds": 0.164
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 116,
+        "matched_outputs": 116,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 14
+      },
+      "component_files_sha256": "f9c8cbc1f0e064408201391749492032447582e39709809b567435da12bb8dc1",
+      "fresh_checks": [
+        {
+          "count": 1,
+          "kind": "evening-boundaries-01-cases.json",
+          "receipt_sha256": "cd21a3fe2972e1a359bb0e40e96f5495b2f60c92828af9106a9a9b7f4a513f55"
+        },
+        {
+          "count": 1,
+          "kind": "evening-publisher-observer-cases.json",
+          "receipt_sha256": "1bdf5c639c96eb9af8f37863d18c319e3d9940be6e24c84d10996dd993c3b7be"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "tests/run_evening_boundaries.py",
+                "01"
+              ],
+              "exit_code": 0,
+              "log_sha256": "4343adf26ee297886cd4c651758f041222c9c7697982029d639118c4bbd7bba3",
+              "seconds": 143.15
+            }
+          ],
+          "receipt_sha256": "042921941dd1f4a865961bc051952a7b65c44cffefd2eecf50aba937908a76b3",
+          "suite": "ack01"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "evidence/run_evening_publisher_observer.py"
+              ],
+              "exit_code": 0,
+              "log_sha256": "f792becf410afaa6800d0d3d8252addbafaa7d673fad5aee7d49fb207d3ac0f8",
+              "seconds": 121.904
+            }
+          ],
+          "receipt_sha256": "a58d5ff1e96fa6365b04f2628d2c0e726ca1099459f71eae55337e16fa80bd72",
+          "suite": "publisher"
+        }
+      ],
+      "input_file_count": 283,
+      "input_logical_bytes": 16108702,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "393dc5d31eeafc86c61d72823d5cc7dae4afc8c0ca3ff1178dab1a47c8dc1016",
+        "independent_review_sha256": "40eb472311b22a3ca38b63fce61dfa4443704eebafbb8b4a6c55a8f2d199e676",
+        "native_acceptance": false,
+        "scope": "Accepted14-scenario source/emitted ACK kernel; EveningReady false; actor presentation/handoff/native filesystem unfinished; separately banked, not integrated with P09/renderer",
+        "source_name": "p08-evening-ack-final"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p09-geometry-scaffold": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal"
+          ],
+          "exit_code": 0,
+          "log_sha256": "9f899b9f5c903bf8c8986f82635de4a4dada863d75505e1765c49f1002f97a7c",
+          "seconds": 1.116
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "d1de8ea56f20950444aee5faa29e469db4505ac0053a8fa5a7eb238eef120c72",
+          "seconds": 2.741
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "audit.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "653b4b57fd3684f681a5b679cc6a2f7f39889f36e4b000c353da2788082df532",
+          "seconds": 2.135
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 125,
+        "matched_outputs": 125,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 15
+      },
+      "component_files_sha256": "7b85b405a092aeadab327a2184ba78b54ca085d67e0be52a76fa6be44a4c6ca0",
+      "fresh_checks": [
+        {
+          "count": 12,
+          "execution_revision": 0,
+          "kind": "source_emitted_geometry",
+          "receipt_sha256": "8ea643ee0f0dd6e56bdb1aa206d591b3c43b814f5453de89aaed1b5a02c2de7b",
+          "retained_with_unchanged_game_source_and_outputs": true
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run.py",
+                "test"
+              ],
+              "exit_code": 0,
+              "log_sha256": "5e1a00f5d893ace137e3d4b1389e1bb36df5f000a6ead170c74a985f309a8bc6",
+              "seconds": 354.135
+            }
+          ],
+          "receipt_sha256": "133b9d55fb8d7e5cf5cc330425d9449ca3eac48bc4514ac1b658d02be3f45454",
+          "suite": "all"
+        }
+      ],
+      "input_file_count": 1122,
+      "input_logical_bytes": 53309851,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "e0bf90a590587fa7da41f91a1b39e882ccc7a2438fb1ee534aa8058c8f6f248d",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p09-geometry-scaffold"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p09-host-foundation": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal"
+          ],
+          "exit_code": 0,
+          "log_sha256": "9f899b9f5c903bf8c8986f82635de4a4dada863d75505e1765c49f1002f97a7c",
+          "seconds": 1.566
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "36948e090cd5bedcb22afd4cd5b5b3e669b811f6ba9e03cf23d314689c7de184",
+          "seconds": 3.198
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "audit.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "39903d64a842bd7c3e3c45a8fa4e4885621eaf7a51b8b3a98ed2030b03f4ccb1",
+          "seconds": 1.484
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 120,
+        "matched_outputs": 120,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 15
+      },
+      "component_files_sha256": "27df8cad8edaf1c38cbd23d63bcfc421e5b2cddc5a1c4e94ce8fbfe3deff72e8",
+      "fresh_checks": [],
+      "fresh_test_groups": [],
+      "input_file_count": 699,
+      "input_logical_bytes": 36619641,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "b994591158a913a84def7f4b5f7aa6fe0464b1de48294c2a4d1476fa34dea3e4",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p09-host-foundation"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p10-domain": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "f8ccdf7aed5d3874c617dcbe269772da8a8a134818b2dfb9a799eb1dbf6572c0",
+          "seconds": 0.072
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "d8f2ebb2fc1be9e68a251dbebe17019915eeb9814f28cc5ead21546a02659a4b",
+          "seconds": 0.108
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 6,
+        "matched_outputs": 6,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "6324b6efda80207942e0a8be0c3fcbc225b5b249c234fa722bf62037413ce8fa",
+      "fresh_checks": [
+        {
+          "count": 30,
+          "kind": "domain",
+          "receipt_sha256": "6d517a3b8accc221ce9b7223235d0880213dd458871861c7d62ccc07620a43d2"
+        },
+        {
+          "count": 8,
+          "kind": "finite",
+          "receipt_sha256": "3d43069a7f6d96e0628160f08ea50bfe8fcdf8a39541b825a408269faf676f54"
+        },
+        {
+          "count": 2,
+          "kind": "transport",
+          "receipt_sha256": "742d1243bf46b42d76468494098c140373e74f4718781163103b0203b1d83aeb"
+        },
+        {
+          "count": 40,
+          "kind": "reference",
+          "receipt_sha256": "ef2440fb9d4126372b3c8cb93dd64c8ecd8c1c8558be778d9a32890e43f312c2"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain"
+              ],
+              "exit_code": 0,
+              "log_sha256": "5f37acf132303b0a589ea6e19029e7a9d56d299623e01f9b4f5734a6c86c1c28",
+              "seconds": 79.437
+            }
+          ],
+          "receipt_sha256": "e4440c18987c18e2863a75f0559e3818e32f4e156f09e3d152837d48218fd7a4",
+          "suite": "domain"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "finite"
+              ],
+              "exit_code": 0,
+              "log_sha256": "e70e8e810982614f789399ec9012fe46d12a4079a41d2c90612e2025dce589cd",
+              "seconds": 190.137
+            }
+          ],
+          "receipt_sha256": "b918593d4269c9edad62e62f661a51f73753f93a729611d7531199e876a942ff",
+          "suite": "finite"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "transport"
+              ],
+              "exit_code": 0,
+              "log_sha256": "445740e6df0f0cc0a07722f74698c4773958fb2012a0af66e4f8d56833929050",
+              "seconds": 0.526
+            }
+          ],
+          "receipt_sha256": "40339e286fe911b5429c2034e3de1a58f28d53de7089a30a2539bd5f714f30cd",
+          "suite": "transport"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "reference"
+              ],
+              "exit_code": 0,
+              "log_sha256": "fa2af75e17a30c21c0e484da4e160cfe26f4d144c4edd38477f76bc2982b0490",
+              "seconds": 0.207
+            }
+          ],
+          "receipt_sha256": "47c4dd14366450100200c06293c004fae3646c5870c240f89fcdfe1840953af4",
+          "suite": "reference"
+        }
+      ],
+      "input_file_count": 61,
+      "input_logical_bytes": 5101959,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "977d4b5655b571c4ec7bedd832311d74488841184ad49a47f909ac9ead34a345",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p10-domain-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p10-scene": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.243
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 90.884
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 503,
+        "matched_outputs": 503,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "f6d722f93f0a6323cb228acd585e6ae31d7fba00c1cf53e9b4da0551edd17102",
+      "fresh_checks": [
+        {
+          "count": 23,
+          "execution_revision": 1,
+          "kind": "retained_scene_tests",
+          "receipt_sha256": "0b2e309aa789328fd594e3902c77619c0cc4f5105da9ae718cf31d34a47f7303"
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 636,
+      "input_logical_bytes": 53250076,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "6542abe471271575474514ad65c48e75f3f2536f0d4a74bfffd0daa005e6f316",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p10-scene-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p11-domain": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e43bce62683b887242fd3130bbcacbc0dc7473bbbf60f269b309c8f0d4c84ba5",
+          "seconds": 0.08
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "9089bde22868b5b6c96ca4e4679beea2c85c197579628cc9a7b0648daabd0e8b",
+          "seconds": 0.121
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 6,
+        "matched_outputs": 6,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "b046eec6e43a934c9a4c482d3f2ab1557a937ddda94f328a2b55f5ff7c69c455",
+      "fresh_checks": [
+        {
+          "count": 38,
+          "kind": "domain",
+          "receipt_sha256": "b9f17a38d9a8e335fc03f6280e550584b88bc3466fec1ce51f99e87d75101aee"
+        },
+        {
+          "count": 9,
+          "kind": "adaptations",
+          "receipt_sha256": "c189eb92a92d3def02bbb3866ce462ae51c74e1223ad5c2768a9921af3e63441"
+        },
+        {
+          "count": 5,
+          "kind": "finite",
+          "receipt_sha256": "35ca35605585ea83e1a242b6dd909ecf96c2e561220eb2f0e011f77d02697e9a"
+        },
+        {
+          "count": 2,
+          "kind": "transport",
+          "receipt_sha256": "33965ec51e0cc410b2d014a0eae6c46c75145d1e0119afa866d4d4cf245fafb2"
+        },
+        {
+          "count": 1,
+          "kind": "finite_projection",
+          "receipt_sha256": "4f48ceed77462319e6b553f02ebb84ce8ba90876ad18f6bf74b648f173329879"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain"
+              ],
+              "exit_code": 0,
+              "log_sha256": "94cabf62176a610e6aa8b7627e067d1322ed5cb0f1ef2a67ec4a138eb5c865b0",
+              "seconds": 165.416
+            }
+          ],
+          "receipt_sha256": "dd011977bc709347ddb6c7972855b251b616e042424ef7c6a5d03f9c9c5e365a",
+          "suite": "domain"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "adaptations"
+              ],
+              "exit_code": 0,
+              "log_sha256": "2eb5da4f842bdd70ea20172efe5ab8c24555a50242f38f1798de7e0223417cf6",
+              "seconds": 156.198
+            }
+          ],
+          "receipt_sha256": "cd43e837d11ea749736ea59af6905845104d1d4afd29f70a32981908dfe1ae90",
+          "suite": "adaptations"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "finite"
+              ],
+              "exit_code": 0,
+              "log_sha256": "c655433a56c4ac482c1abd528d8f7691a635bc4a52cf93b591dbd35b759a8c50",
+              "seconds": 13.517
+            }
+          ],
+          "receipt_sha256": "ea34cf4956b6143e5d81b4cb8f393e153c6b69ed60fe3aeb601c7f61828e3243",
+          "suite": "finite"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "transport"
+              ],
+              "exit_code": 0,
+              "log_sha256": "7f120ab278f7d0c87d385f8667e1bde7e1eb305dc1d300ce6658f4564c083849",
+              "seconds": 19.881
+            }
+          ],
+          "receipt_sha256": "19defa5d44ff3659067ceee61606ecc2a382fdf278fb01173958643e359a702e",
+          "suite": "transport"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "finite_projection"
+              ],
+              "exit_code": 0,
+              "log_sha256": "96e041b4a348d70da6a6e1c8e3ecf071470f008e50535eca2cd43640bffaf569",
+              "seconds": 201.528
+            }
+          ],
+          "receipt_sha256": "62e6dd6c5e159fe4747db857be322d611d19e9f987089e19a2afadc206a6701e",
+          "suite": "finite_projection"
+        }
+      ],
+      "input_file_count": 104,
+      "input_logical_bytes": 5520123,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "505a66f1f26f00d80c176c81115a37b326c6a181e8a4dbc1bf01edca6888d33f",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p11-domain-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p11-scene": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.237
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 114.838
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 559,
+        "matched_outputs": 559,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "0e23ec3ed408206245c36440e3fd14c39a0c0e8210cfb160c78fb93cdd5d1e71",
+      "fresh_checks": [
+        {
+          "count": 31,
+          "execution_revision": 1,
+          "kind": "retained_scene_tests",
+          "receipt_sha256": "6d96621447f1d54216f637a816688df3436289e26acd236a7955813b330ae148"
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 678,
+      "input_logical_bytes": 58731282,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "412ff976b2418c65046a029014de08d816fdb29b9db0c92437296547433c5bd9",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p11-scene-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p12-domain": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "84467e6daaf11d48cd37a9cd9aa5873885d5624f2a009a720629a4be64a479fa",
+          "seconds": 0.16
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "0d4740025d08319f8c69789c41c2aed864635f04ebb6f088f0a7d061811de69f",
+          "seconds": 0.197
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 6,
+        "matched_outputs": 6,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "06746ee61aca542405943ae8eb0c61ae1a48dd878590643f648c9969d9c3de13",
+      "fresh_checks": [
+        {
+          "count": 24,
+          "kind": "domain",
+          "receipt_sha256": "8f9f8cd7d603bf3ba958247cd51bcf8ba41a207a7a32234e958f127322732545"
+        },
+        {
+          "count": 7,
+          "kind": "finite",
+          "receipt_sha256": "97bc66573d89eb3a7448137288aa117a43eb0af691dc5592541059f614ee7ead"
+        },
+        {
+          "count": 3,
+          "kind": "transport",
+          "receipt_sha256": "d1ad869ea35070c3a661b148cd21b2618d389ba9694056df8f6a8b0bd6eee0b0"
+        },
+        {
+          "count": 1,
+          "kind": "projection",
+          "receipt_sha256": "0e793bb491a78495e9c899682b943b64b7c272f5abac4fe8bd4e306d3abae118"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain"
+              ],
+              "exit_code": 0,
+              "log_sha256": "2f13407755aec61f0209f8f2493fd66cd2882c11633f4ecea7ea1abc50b039c0",
+              "seconds": 316.099
+            }
+          ],
+          "receipt_sha256": "47b33a85a73d679d83b7ad43da79e84c0ab2159d6b49ebf5dd28c63fc0cd7193",
+          "suite": "domain"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "finite"
+              ],
+              "exit_code": 0,
+              "log_sha256": "196f1f9d0bf8f123ffca731a37964dbbee64fe611152c5716c6716ba1f885d5b",
+              "seconds": 100.378
+            }
+          ],
+          "receipt_sha256": "b86aef10c1999661b0729245eb4d8a866847fbee5adcdff1821ea35759e3b80d",
+          "suite": "finite"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "transport"
+              ],
+              "exit_code": 0,
+              "log_sha256": "82cd4037870ca86307471a0a7398768242c131c01ebaf1b37a3dca1169cda0a6",
+              "seconds": 29.309
+            }
+          ],
+          "receipt_sha256": "9d25bda31bd4d4ff4b0dbce5e4cf43e4d50ebd99fce6b1c89a3211a1f4d88637",
+          "suite": "transport"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "projection"
+              ],
+              "exit_code": 0,
+              "log_sha256": "5c73ffc56bfa0d52352bab4215262a5947db5ef8eff045a9db790183f52de79e",
+              "seconds": 131.311
+            }
+          ],
+          "receipt_sha256": "d181cfa6ef40b836c0f77749ac4d6d4956f48d0d6f74be811fd78a0a3c407752",
+          "suite": "projection"
+        }
+      ],
+      "input_file_count": 335,
+      "input_logical_bytes": 8956951,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "7f5e734f1f4b6cf8c008a5ba5329187cf86eb49223da93b8f7c61254cc0f1824",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p12-domain-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p12-scene": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.405
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 138.98
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 561,
+        "matched_outputs": 561,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "af02ccabb68c4b2f02122041fb84575ebdf610ba9b45552571a6f56481d1877b",
+      "fresh_checks": [
+        {
+          "count": 40,
+          "execution_revision": 1,
+          "kind": "retained_scene_tests",
+          "receipt_sha256": "a554465b252e7dee3ac70623fd3407b3c82c9d3a3eb6cb92ececb56dbf2bf875"
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 1151,
+      "input_logical_bytes": 89734834,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "4853573880b4ee77805158ca0f10ce580dbc6701d70eb694a23dc0f57a03ba38",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p12-scene-reconstruction-v1"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p13-domain": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "1f087cca0fd75aa5b699c944c5bbbf691394a51a89ef4dae4ba1ee33aca5328d",
+          "seconds": 0.418
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "ef4b943939a56012576bdfee0d6561b52ad5e43e5655d8d2ad3657deda78db46",
+          "seconds": 0.242
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 6,
+        "matched_outputs": 6,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "d449cef9824578013480d09d229d9a43d15720e5254929955e1191890e49527b",
+      "fresh_checks": [
+        {
+          "count": 24,
+          "kind": "domain",
+          "receipt_sha256": "2e44b9830d3f7464747abfe782f13052dcb1383453c93c83824b8c936d71864b"
+        },
+        {
+          "count": 5,
+          "kind": "validation",
+          "receipt_sha256": "77537748c3e20b18bc210b8a0269305c1a8ac68a79c6ebcbdcd944e24429fa79"
+        },
+        {
+          "count": 5,
+          "kind": "finite",
+          "receipt_sha256": "290dcb92ad0c830451c54e5554777ff927242a2a114cd8660edc382b17654adc"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain"
+              ],
+              "exit_code": 0,
+              "log_sha256": "f33e9740567c75fa0ca4130818facb30d1f314fad8817076ee5b3efcb049e483",
+              "seconds": 216.441
+            }
+          ],
+          "receipt_sha256": "efa5bcfa4ea59c65971ec3bcb4c9e186c01fd9292e7e66cb6be6d2039b48821e",
+          "suite": "domain"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation"
+              ],
+              "exit_code": 0,
+              "log_sha256": "2db5095479465faf9a5a36c6ae6e153e734f65b02806156a73cdf8ea713af212",
+              "seconds": 111.9
+            }
+          ],
+          "receipt_sha256": "a64c292a13904993fd615e7051f83b21d4a76c08730d05de1f8119e0db189a80",
+          "suite": "validation"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "finite"
+              ],
+              "exit_code": 0,
+              "log_sha256": "31c71a7b4c3b7807a6283fa239ecc63c3690262e1bcda074b59103c8741b05ab",
+              "seconds": 41.181
+            }
+          ],
+          "receipt_sha256": "9c4058c4527d3996c1f8a43cc99530e7fa3e766744abaa9bde9a14e2b32bb447",
+          "suite": "finite"
+        }
+      ],
+      "input_file_count": 395,
+      "input_logical_bytes": 9767785,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "642b9c919a7e5a4033e7fc1268424c096e782d99108a6e04223ca053364799a8",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p13-domain-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p13-scene": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.374
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 165.233
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 558,
+        "matched_outputs": 558,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "23ac8c8b837e04a0fdcb0fd609354bf34fd2a4cdc5de52ec6bcdcee38546fa82",
+      "fresh_checks": [
+        {
+          "count": 36,
+          "execution_revision": 1,
+          "kind": "retained_scene_tests",
+          "receipt_sha256": "ae3e675bbe37c0221253aa8af2c00bf137cd8defa83a7a3062266ed7c2dd1cf0"
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 1198,
+      "input_logical_bytes": 90725641,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "b71445a8118ccf6bd8a4512443f1a60127467c320311ab457b64f3f5dee2effb",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p13-scene-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "p14-domain": {
+      "binding_revalidated_for_revision": 1,
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "generate.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "ae69e0b1fa3d49127598646534f2b2272d5f742e4dbbf1fcba7f3c41be8fba57",
+          "seconds": 0.521
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "b86b2e27fc9919c3e198e8ce3d807f98ce5015013094093041c81a58b55f96f5",
+          "seconds": 1.075
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "f8c6b2bde547bf2b2fe76b36fcaa53eb3f5f81089372d9a4aacbc2b54d2bee62",
+        "expected_outputs": 6,
+        "matched_outputs": 6,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "4e8ebadec4dcd74cbca198f8cafae3ca3e3c5fa4caf9bf5f59dd25afb4b6ae01",
+      "fresh_checks": [
+        {
+          "count": 2,
+          "kind": "domain-00",
+          "receipt_sha256": "0f73a447ed1a6c6a0d4a363d9eb5ee1c5cda9857d8404180b8c22536409f3cfc"
+        },
+        {
+          "count": 2,
+          "kind": "domain-01",
+          "receipt_sha256": "f462273d23a20dc8d856750d08ef16f679e3cf21eca433c9a054cba876e58785"
+        },
+        {
+          "count": 2,
+          "kind": "domain-02",
+          "receipt_sha256": "437e9dd403a7bfe418f5fb68ce2311d6b56db500a9a548fcbf4e3cf52e99f012"
+        },
+        {
+          "count": 2,
+          "kind": "domain-03",
+          "receipt_sha256": "5c030397ff86d2a77abc2c656bbc2935f2938092a1e011edd81d9bcd3023a381"
+        },
+        {
+          "count": 2,
+          "kind": "domain-04",
+          "receipt_sha256": "5fc27599942ff819e2388068221751199e0f0226b41aa0a54353f2f94bfdce75"
+        },
+        {
+          "count": 2,
+          "kind": "domain-05",
+          "receipt_sha256": "f58c2aba05f6bc9ec8b90084bbf469390e6966403b3196374dc3dd3dbf51c4b6"
+        },
+        {
+          "count": 2,
+          "kind": "domain-06",
+          "receipt_sha256": "3e979ad1c59e7607a7f825848bc3a6a2ede0781b7e656c69a9130210221a94c8"
+        },
+        {
+          "count": 2,
+          "kind": "domain-07",
+          "receipt_sha256": "e31187ad97a83262fffd80192f59077775df2463674882b764908c05c265e44b"
+        },
+        {
+          "count": 2,
+          "kind": "domain-08",
+          "receipt_sha256": "4eb7373c41dfd625f1183f7a1f8b5ea46c6d69e1d6f7fe59129e38b7565671e3"
+        },
+        {
+          "count": 2,
+          "kind": "domain-09",
+          "receipt_sha256": "57c5089d38ec5b3ac0f9cb4729865e2b67de06d8124964cd5c8ae527a1216671"
+        },
+        {
+          "count": 2,
+          "kind": "domain-10",
+          "receipt_sha256": "f5b9526c4aaed79432f782403cd3ced91e13c9d56ed8569df3121ed2e2337cb3"
+        },
+        {
+          "count": 2,
+          "kind": "domain-11",
+          "receipt_sha256": "6a0e65ff8ad838711a54a58e41fa97a8140d53b89341fd2e3430457aeb8d7ec9"
+        },
+        {
+          "count": 2,
+          "kind": "domain-12",
+          "receipt_sha256": "306c53ec928f401b4211afc52b6301e10c955e631d19c29ab6eb22f051c88cad"
+        },
+        {
+          "count": 2,
+          "kind": "domain-13",
+          "receipt_sha256": "e3af10d450656cf63b3320d0e82fdf95ba3caa87e3ecf7529132be5ef473949c"
+        },
+        {
+          "count": 1,
+          "kind": "validation-01",
+          "receipt_sha256": "902e844643d8304fabcd00f1f19cfc7a07a17456ac6523ee6fa3f91f681838b5"
+        },
+        {
+          "count": 1,
+          "kind": "validation-02",
+          "receipt_sha256": "8d6fce88d891f1a584c5ccd7e63e12cbfdc5839b43dd08ab557cff58ab8d8f54"
+        },
+        {
+          "count": 1,
+          "kind": "validation-03",
+          "receipt_sha256": "2024b7ee755e85eb6fd2634f274fa8964e99f393e3359ff31dac73bdf1ba4dad"
+        },
+        {
+          "count": 1,
+          "kind": "validation-05",
+          "receipt_sha256": "b1e63e7bd9adf6c5b11319e41b131e384bef43edc285effcb89d146b69cb14ff"
+        },
+        {
+          "count": 1,
+          "kind": "validation-06",
+          "receipt_sha256": "44795654eb50c9a2e356ce28c498e67b27ec20c85c2b3104bb374a0d29c993f4"
+        },
+        {
+          "count": 1,
+          "kind": "validation-07",
+          "receipt_sha256": "cc55f9b5e2056817ca1e95d4c1f7d2ad27014bb70827b3f735c76e6ee85f1b73"
+        }
+      ],
+      "fresh_test_groups": [
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-00"
+              ],
+              "exit_code": 0,
+              "log_sha256": "00278905b53261674db1a111e917ed5c71384c6e8f3c3be238ed340a9e69f8cd",
+              "seconds": 249.917
+            }
+          ],
+          "receipt_sha256": "8bfc091192a49eaa1fe9818563a429beca31556977ba0f52e06eb464cb218a4b",
+          "suite": "domain-00"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-01"
+              ],
+              "exit_code": 0,
+              "log_sha256": "f4d130c5e0230208785cdc398d17e5f56b28c8ec051fb47ac2749d36ccd634fe",
+              "seconds": 12.738
+            }
+          ],
+          "receipt_sha256": "d0395f646d04c70ec7f87ed214be4bd8c2372f5bd8dd7d0a1959eb53fc512708",
+          "suite": "domain-01"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-02"
+              ],
+              "exit_code": 0,
+              "log_sha256": "92397834a6b30e9d39822e9d7ecaacc1c4c8883319aaf5ed7db07cd03b0c7518",
+              "seconds": 64.335
+            }
+          ],
+          "receipt_sha256": "3d62fdab049c629cbfd1e1252052a16404e3c50de126dcf8a604d3bc1312bfa4",
+          "suite": "domain-02"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-03"
+              ],
+              "exit_code": 0,
+              "log_sha256": "a762bebe4d063e36a6693cf3faf7c8d7e2fa932bc4993a8b2f964d9e3711cbd2",
+              "seconds": 7.831
+            }
+          ],
+          "receipt_sha256": "98d8da7345aacbf7147943318b6dc416b7451d7d87c138d79427b1fb9cd7f0fa",
+          "suite": "domain-03"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-04"
+              ],
+              "exit_code": 0,
+              "log_sha256": "1ba5b7530bc643f244ceee0030d5408871b1c23d1442c27040b89094b6acbe13",
+              "seconds": 13.492
+            }
+          ],
+          "receipt_sha256": "049af1df6cc9da254689be882320e4a29c3ce7050eefc2a32e06e107a040028c",
+          "suite": "domain-04"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-05"
+              ],
+              "exit_code": 0,
+              "log_sha256": "8cecb54cbfed9fb03fe17ac0b8c028574b0a97a0475eb3221b06e55e7787ccfc",
+              "seconds": 1.815
+            }
+          ],
+          "receipt_sha256": "91b25fe0408427fb273294918fb0fa821ccded10d754c0f14176f4599849b52f",
+          "suite": "domain-05"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-06"
+              ],
+              "exit_code": 0,
+              "log_sha256": "ad523fe728f308852131047a2dd2359c0e4f9ba247987c8f2174473c58682b0f",
+              "seconds": 3.324
+            }
+          ],
+          "receipt_sha256": "314e1648eacd06234966e411df626925ca2af99a60b57dee5458f25eff3b2a95",
+          "suite": "domain-06"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-07"
+              ],
+              "exit_code": 0,
+              "log_sha256": "14ed0a93a803b9c1347bc38fbbff2dd0cc6d247b916092bce37a23af9aba80d7",
+              "seconds": 2.902
+            }
+          ],
+          "receipt_sha256": "15b12b2507b7ae554d9ecfdadc6950cc2736dbcf3b6d2b59c86402ca63e3d318",
+          "suite": "domain-07"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-08"
+              ],
+              "exit_code": 0,
+              "log_sha256": "90137acbddfc69723da6cee3c0e664d88b2a3380481aa9b70ce49dd158ba456e",
+              "seconds": 3.988
+            }
+          ],
+          "receipt_sha256": "3465e6bbad1375cd2819663e8c28f010e9bced725b931b7e8261e28ca4ff7812",
+          "suite": "domain-08"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-09"
+              ],
+              "exit_code": 0,
+              "log_sha256": "563ece69d5839d15e0cb81bdf86502d947e25c8a6b0c10581ab75432e6643366",
+              "seconds": 19.452
+            }
+          ],
+          "receipt_sha256": "8d931bbcd8f45f1e983783c821452d02a98a22d1e51a22870471e43f9b5f8346",
+          "suite": "domain-09"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-10"
+              ],
+              "exit_code": 0,
+              "log_sha256": "844a7288fb70eb36e59e08316a5f0bc6a723fcc1bcdb81e0fc16f53a7233ab9e",
+              "seconds": 13.48
+            }
+          ],
+          "receipt_sha256": "170968fde1fea016810830147ebf7b87ef5a33a963afebe874c58e01cb361b29",
+          "suite": "domain-10"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-11"
+              ],
+              "exit_code": 0,
+              "log_sha256": "85b4cb9ef8e7251ebeaf532e24a7e34aa5f0e51d78bd7ba461b855040892ff47",
+              "seconds": 20.656
+            }
+          ],
+          "receipt_sha256": "e7861411c24dbb809f7c658f653ba16c44f47c5ede24986b91998f962048c364",
+          "suite": "domain-11"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-12"
+              ],
+              "exit_code": 0,
+              "log_sha256": "40f6af8c966d75f95be11982c8656df1ffc875fcbb059b0b44c8fc271e417de0",
+              "seconds": 0.462
+            }
+          ],
+          "receipt_sha256": "acb5acc4bb94366d374d06e4e833a9fb37880569455ff53aeb85c4e067e42612",
+          "suite": "domain-12"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "domain-13"
+              ],
+              "exit_code": 0,
+              "log_sha256": "6fd1f4fbcd654ffa58b2fdeb14691e685d56d73204a21559b1e868755e2aba06",
+              "seconds": 19.206
+            }
+          ],
+          "receipt_sha256": "5d99424206c0f8a56ef69eb97b1bd05904367d96410ecbba0cb2feea85cad577",
+          "suite": "domain-13"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-01"
+              ],
+              "exit_code": 0,
+              "log_sha256": "05adf20001140a34567e1743db5c493f3c182274487614665e5ca1131c12cd27",
+              "seconds": 59.232
+            }
+          ],
+          "receipt_sha256": "cd30cf2eabc5d23864a4d95a42a9b566a0ce0b6f0ebf2c90b2c0e1636c7bfa3d",
+          "suite": "validation-01"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-02"
+              ],
+              "exit_code": 0,
+              "log_sha256": "dbe0db59777f393015b4a03cfa8769d6aca4a26848504483e84ccb5406781210",
+              "seconds": 0.981
+            }
+          ],
+          "receipt_sha256": "f8d15f30d66f4a84b4617251860abb9169fa410f4c33186564419cfbfc98af69",
+          "suite": "validation-02"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-03"
+              ],
+              "exit_code": 0,
+              "log_sha256": "8c3860453570d1dc505cb1641897664379545c30b6bd0665e737975b0398b07a",
+              "seconds": 127.544
+            }
+          ],
+          "receipt_sha256": "45734c3eebb1d31aca3390778f806e884bed8fe2b479eca6a9a190d08cd851d8",
+          "suite": "validation-03"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-05"
+              ],
+              "exit_code": 0,
+              "log_sha256": "f8e295b00e06f3a5339093a6997ad41ee92ff766f4e52588ec1adcf8d73b98e7",
+              "seconds": 3.4
+            }
+          ],
+          "receipt_sha256": "766d6010360c1d5a2c3cf745d4113b2c0ffdbb6bc3682be66bd7965e576b11d6",
+          "suite": "validation-05"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-06"
+              ],
+              "exit_code": 0,
+              "log_sha256": "e2543aa86299916870fe9495bb8768dbd53a1746fa1be7d55f20b5d294efe270",
+              "seconds": 29.301
+            }
+          ],
+          "receipt_sha256": "b98be249c5fd0c92c2fea511ada10412946c625b7897e67b4baac4165e5ba37f",
+          "suite": "validation-06"
+        },
+        {
+          "commands": [
+            {
+              "command": [
+                "python3",
+                "-B",
+                "run_tests.py",
+                "validation-07"
+              ],
+              "exit_code": 0,
+              "log_sha256": "2b4e8144f8dcd26d07689138716a6f4dedf7b06a5defd8482b55a9ea2c87371b",
+              "seconds": 0.866
+            }
+          ],
+          "receipt_sha256": "ab3e907687f1a164963cd562595f847c3d86b9b1bb60cf16f695fa02b2e7750a",
+          "suite": "validation-07"
+        }
+      ],
+      "input_file_count": 442,
+      "input_logical_bytes": 11312202,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "8dcd4c2ef701a97c302454c299a656e06edc6f5c2ec6d53235a6a6b9bc1b4c21",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p14-domain-reconstruction"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 0
+    },
+    "p14-scene": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "seal-source"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 0.972
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "run.py",
+            "rebuild"
+          ],
+          "exit_code": 0,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "seconds": 249.538
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 560,
+        "matched_outputs": 560,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 0
+      },
+      "component_files_sha256": "03c0bfe24547dba9fb780225009fd7d9d64a5962e7a34b0e89993a0bf0606cfe",
+      "fresh_checks": [
+        {
+          "count": 33,
+          "execution_revision": 1,
+          "kind": "retained_scene_tests",
+          "receipt_sha256": "46e232570bedabbde15932b38e45e4d035f1afdfdaf01c6d0b2e06e324ef100d"
+        },
+        {
+          "count": 80,
+          "execution_revision": 0,
+          "kind": "synthetic_date_lengths",
+          "retained_with_unchanged_game_source_and_outputs": true
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 2977,
+      "input_logical_bytes": 197313069,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "b86c4ad32227e15eb764cb3771ce4b92f0c335f534f790fa8f3fea61c8668cab",
+        "native_acceptance": false,
+        "scope": "Accepted finite source/emitted component; public edition reconstruction verified separately; no production/native acceptance",
+        "source_name": "p14-scene-reconstruction-r1"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    },
+    "scene991-renderer": {
+      "build_commands": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "derive.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "423e8569737652cc4f1ce82c46fbf354d11789ef08bf6e29436e1c243a12a515",
+          "seconds": 0.27
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "build.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "190d81a0479c0167362535e6b59027c62471c997f0043dea5a2cf0d262552cde",
+          "seconds": 2.321
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "audit.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "30a1fa0a5126715ba5b9cd356f99e340679615e056286cad71c1faad6aeaa404",
+          "seconds": 0.52
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "tests/check_milestone.py"
+          ],
+          "exit_code": 0,
+          "log_sha256": "7dbee34458c2b934f72c53afa3b30956f12edca2d9e0343775e2176a4c963660",
+          "seconds": 3.975
+        }
+      ],
+      "comparison": {
+        "expected_manifest_sha256": "ef7cfaf7d18215100b495c44a764d80b226469a23d18a5327ff084a185f7ea7f",
+        "expected_outputs": 123,
+        "matched_outputs": 123,
+        "normalized_manifest_sha256": "df9730704e9f20d836b4e60fd4bdaafe9471da5adbd4c78570ec62914dc26070",
+        "normalized_metadata_outputs": 16
+      },
+      "component_files_sha256": "dc5f2d480eefa0cce33c08f380fadef0010fd1a54a11fda33dea923ae01a59a4",
+      "fresh_checks": [
+        {
+          "count": 20,
+          "execution_revision": 1,
+          "kind": "retained_emitted_equivalence_comparisons",
+          "prior_full_independent_matrix_not_repeated": true,
+          "receipt_sha256": "1d6eb60fb4b181318d12d9eac685b91eaaaaf0a87f3244258e3995e7ecb6f159"
+        }
+      ],
+      "fresh_test_groups": [],
+      "input_file_count": 1564,
+      "input_logical_bytes": 70718298,
+      "native_acceptance": false,
+      "origin": {
+        "accepted_archive_sha256": "af8263a67b723674a4ce7c840c090dda69f27faad5415928c846b64b1ec4b048",
+        "independent_review_sha256": "fbef4fffc433d722c3f154b799215c2d7c8c96fae30ff91ac771f23ff9fdce48",
+        "native_acceptance": false,
+        "scope": "Accepted non-native stateless extraction; P09 remains inactive; production/native integration pending",
+        "source_name": "scene991-extraction-final-r1"
+      },
+      "status": "PASS_RECONSTRUCTION",
+      "verification_execution_revision": 1
+    }
+  },
+  "corrected_admission_checks": {
+    "cases": [
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p10-scene",
+        "negative_log_sha256": "fe0d304cb655243ce491de2e12803fedbca2835e860e594e7453e76df7abffec",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_reintroduced_non_authoring_input"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p11-scene",
+        "negative_log_sha256": "5d53c9751eb820874c44e79723f9d1bbd47e8fc96f3fc7e1c3dd91637e289309",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_stale_pre_correction_dependency_metadata"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p12-scene",
+        "negative_log_sha256": "d22aaff94c74f9035fe9cc7db40bc59dedbeabc7ddfd4e5dcbc1c15c7b553224",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_stale_pre_correction_dependency_metadata"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p13-scene",
+        "negative_log_sha256": "f453a57050e80405d7cde0bb805a04bad79c6ea5772193b1c9838e758553827f",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_stale_pre_correction_dependency_metadata"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p14-scene",
+        "negative_log_sha256": "71afb2c488e387ba0e3a864fb36e3594d26d672b196c62da48e824ab5f0b7e34",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_stale_pre_correction_dependency_metadata"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p09-host-foundation",
+        "negative_log_sha256": "3446164ebeca348c365176621ed1f9686ed7981035c017953b98dc2e13f7df06",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_reintroduced_administrative_receipt"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "p09-geometry-scaffold",
+        "negative_log_sha256": "1d48e3560483bdfb7e12e69113da0fb601e9f43458d3934f8b3a346fc7f429fd",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_reintroduced_administrative_receipt"
+      },
+      {
+        "all_input_bytes_modes_restored": true,
+        "component": "scene991-renderer",
+        "negative_log_sha256": "dc56ea177adabaa60c3fafd0ec9d70f7c96c2e021b27927d08f79e416be9c11e",
+        "positive_admission_before_and_after": true,
+        "rejected": true,
+        "test": "reject_stale_receipt_bound_dependency_inventory"
+      }
+    ],
+    "status": "PASS"
+  },
+  "correction_report": "late/CORRECTION-REVISION1.json",
+  "diagnostic_corrections": "Initial missing public technical guards and historical broad compiler ZIP dependency were corrected without altering semantic assertions. Exact intermediate identities and unique guard revisions are preserved in a separate technical evidence packet.",
+  "documentation_correction_report": "late/CORRECTION-REVISION2.json",
+  "edition_revision": 2,
+  "environment": {
+    "Pillow": "12.3.0",
+    "architecture": "x86_64",
+    "compiler_runtime": "libstdc++, libm, libgcc_s and libc; the source compiler is not bootstrapped here",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "expected_output_files": 3255,
+  "isolation": {
+    "mechanism": "sitecustomize Python audit hook inherited through PYTHONPATH by Python commands",
+    "native_compiler_scope": "Native subprocess file/network system calls are outside the Python hook. All compiler invocations use the exact pinned executable with explicit component-local project, editable SCI source and output paths. Successful byte reproduction demonstrates the supplied local closure; it is not an OS-wide access trace.",
+    "native_trace_attempt": "strace was present, but the execution environment denied PTRACE_TRACEME and PTRACE_SETOPTIONS with Operation not permitted before compiler launch. No escalation or inspection workaround was attempted.",
+    "no_download_or_install_performed": true,
+    "python_network_events_rejected": [
+      "socket.connect",
+      "socket.connect_ex",
+      "socket.bind",
+      "socket.getaddrinfo"
+    ],
+    "python_workspace_reads": "For Python open events beneath /workspace, only the staged public source and declared validation/audit roots were permitted; original working, Library and recovery input roots were rejected. System paths and /tmp were not generally restricted."
+  },
+  "known_limits": [
+    "Separate accepted components have not been composed into a new native-accepted playable campaign.",
+    "E03 actor presentation/final handoff and native filesystem behavior remain open; EveningReady remains false.",
+    "P09 remains inactive; later production hosts and native ownership/save/render/listening remain open.",
+    "P14 arbitrary-date production speech and atomic native owner/witness storage remain open.",
+    "Inherited comprehensive independent reviews are not counted as newly executed tests."
+  ],
+  "native_acceptance": false,
+  "new_component_count": 14,
+  "normalized_metadata_files": 60,
+  "playable_release": false,
+  "public_admission_checks": {
+    "driver_sha256": "54c7b04d4870d0021f8f57bd0094e59df7be1ca8e42f077fa8e463ec322b87a4",
+    "mutated_project_inputs": false,
+    "negative_cases": [
+      {
+        "case": "wrong_sha",
+        "reason": "Source identity differs: input.bin",
+        "rejected": true
+      },
+      {
+        "case": "wrong_size",
+        "reason": "Source identity differs: input.bin",
+        "rejected": true
+      },
+      {
+        "case": "wrong_mode",
+        "reason": "Source identity differs: input.bin",
+        "rejected": true
+      },
+      {
+        "case": "traversal",
+        "reason": "Unsafe relative member",
+        "rejected": true
+      },
+      {
+        "case": "absolute_path",
+        "reason": "Unsafe relative member",
+        "rejected": true
+      },
+      {
+        "case": "symlink",
+        "reason": "Source identity differs: input.bin",
+        "rejected": true
+      }
+    ],
+    "scope": "Public map materialization admission only; no game/native acceptance",
+    "status": "PASS",
+    "valid_bytes_and_executable_mode_preserved": true
+  },
+  "retained_source_fixtures": "All eight existing ScummVM source fixtures and required baseline notices remain byte-identical.",
+  "revision2_validation_basis": "Documentation-only correction. All component input maps, expected output maps, build drivers, executable bytes and modes are identical to revision1. Existing completed build and semantic checks are reused on those exact bindings; package identity and disclosure checks are freshly repeated.",
+  "schema": 1,
+  "snapshot_scope_frozen": "Accepted late components plus separately accepted SceneRenderer991 and P08 ACK; no newer composition",
+  "source_edition_adaptations": [
+    "Required technical input guards retained and rebound to the public subset; private origin identifiers and raw recovery packets excluded.",
+    "P09 required foundation-review input replaced by a public technical acceptance/limits summary.",
+    "P11 retained packaging test uses one deterministic199-member archive of the approved198-file compiler closure; semantic and packaging assertions unchanged.",
+    "P10\u2013P13 generated protected-input metadata, P12 private Audience identifier and the corresponding extension metadata are explicitly adapted; all other generated fields and compiled/content payloads match.",
+    "Known component-root paths and typed-resource inventory ordering are normalized without dropping fields.",
+    "The historical ACK audit requiring a separate predecessor worktree is not claimed as a newly rerun public check; accepted new outputs, current emitted audit and selected current scenarios are verified."
+  ],
+  "source_privacy_scan": "Initial revision was held after a filename audit found a non-game administrative helper; the expanded audit also found an upload receipt. Revision1 removes both and performs complete physical/logical filename, archive-member and disclosure-pattern audits; see DISTRIBUTION-AUDIT.json.",
+  "status": "PASS_CORRECTED_PUBLIC_SOURCE_EDITION_RECONSTRUCTION"
+}

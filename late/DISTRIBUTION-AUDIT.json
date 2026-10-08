@@ -1,0 +1,34 @@
+{
+  "administrative_helper_payloads_remaining": 0,
+  "archive_members_checked": 199,
+  "component_manifest_sha256": "b5c4a4aa0fd510240f022844f043da82edd4762f23885166764ab3bf74847108",
+  "edition_revision": 2,
+  "findings": [],
+  "held_revision0_not_reclassified_as_publishable": true,
+  "hidden_administrative_paths_rejected": true,
+  "logical_component_members_checked": 11645,
+  "new_physical_files_scanned_excluding_this_report": 1251,
+  "new_utf8_files_scanned": 866,
+  "physical_and_logical_filename_audit": true,
+  "raw_conversation_and_credential_scan": true,
+  "status": "PASS_COMPLETE_CORRECTED_DISTRIBUTION_AUDIT",
+  "superseded_revision1_not_current": true,
+  "technical_false_positive_classifications": [
+    {
+      "classification": "exact199-member approved compiler-source archive;198 editable source/license files",
+      "path": "late/components/p11-scene/inputs/compiler-source.zip"
+    },
+    {
+      "classification": "Canonical machine-readable audio binding used by unchanged audio build and verification; no administrative messages or credentials",
+      "path": "inputs/audience-component/reference/audience-audio-handoff.json"
+    },
+    {
+      "classification": "Editable source fragments; no raw message envelopes",
+      "path": "historical literal Python capture-A/capture-B fragments"
+    },
+    {
+      "classification": "Game/bytecode provenance and canonical source/display bindings; no account/transfer receipt data",
+      "path": "compile-receipt and receipt-map data"
+    }
+  ]
+}

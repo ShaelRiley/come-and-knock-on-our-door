@@ -1,0 +1,13 @@
+{
+  "path": "partial/cakood-p10_model.py.txt",
+  "completeness": "Partial P10World, despite syntax being potentially valid.",
+  "validation": "Python AST syntax parsing only. No import, compilation output, or execution.",
+  "status": "PASS",
+  "top_level_classes": [
+    "P10Context",
+    "CaptionResult",
+    "_Receipt",
+    "_Captioned",
+    "P10World"
+  ]
+}

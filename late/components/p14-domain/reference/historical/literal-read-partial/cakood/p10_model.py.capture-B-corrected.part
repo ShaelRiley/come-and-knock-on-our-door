@@ -1,0 +1,197 @@
+    def resume_presentation(self, context: Any, source: str) -> CaptionResult:
+        if type(source) is not str or source not in self.SOURCES:
+            raise ValueError("Unknown presentation source")
+        if source not in self.presentations:
+            return self._result("presentation_not_started")
+        p = self.presentations[source]
+        remaining = self._tokens(source)[len(p.receipts):]
+        if not remaining:
+            return self._result("presentation_complete")
+        block = self._presentation_block(context, source, remaining)
+        if block is not None:
+            return block
+        self.validate()
+        return CaptionResult("", (), "presentation_pending",
+            (self.SOURCES[source],) if not p.receipts else (),
+            remaining if p.receipts else (), self._handle(source))
+
+    def acknowledge_presentation(self, context: Any, presentation_id: str, *,
+            record_id: str | None = None, speech_unit_ids: tuple[str, ...] = ()) -> CaptionResult:
+        if (type(presentation_id) is not str or type(speech_unit_ids) is not tuple
+                or any(type(t) is not str for t in speech_unit_ids)
+                or (record_id is not None and type(record_id) is not str)
+                or (record_id is None) == (not speech_unit_ids)):
+            raise ValueError("Acknowledge one whole displayed record or a speech-unit prefix")
+        source = next((s for s in self.presentations if self._handle(s) == presentation_id), None)
+        if source is None:
+            return self._result("stale_presentation")
+        if record_id is not None and record_id != self.SOURCES[source]:
+            raise ValueError("Record does not belong to this presentation")
+        p = self.presentations[source]
+        expected = self._tokens(source)
+        tokens = expected if record_id else speech_unit_ids
+        if (not tokens or len(set(tokens)) != len(tokens)
+                or any(t not in expected for t in tokens)
+                or (record_id is None and any(t not in self.SPEAKERS for t in tokens))):
+            raise ValueError("Receipt exceeds canonical text")
+        indices = tuple(expected.index(t) for t in tokens)
+        if indices != tuple(range(indices[0], indices[0] + len(indices))):
+            raise ValueError("Speech receipts must be contiguous and in order")
+        new = tuple(t for t in tokens if t not in p.receipts)
+        if not new:
+            return self._result("presentation_already_acknowledged")
+        if new != expected[len(p.receipts):len(p.receipts) + len(new)]:
+            raise ValueError("Earlier text has not been presented")
+        block = self._presentation_block(context, source, new)
+        if block is not None:
+            return block
+        self.revision += 1
+        p.receipts.update({t: self.revision for t in new})
+        self.validate()
+        return CaptionResult("", (Event(self.PUZZLE + "_PRESENTED", "presentation",
+            {"serial": self.revision, "puzzle": self.PUZZLE,
+             "source": source, "canonical_tokens": new}),), "presentation_acknowledged")
+
+    def journal_records(self) -> tuple[str, ...]:
+        return tuple(dict.fromkeys(self.SOURCES[s] for s, p in sorted(
+            self.presentations.items(), key=lambda item: item[1].serial) if self._complete(s)))
+
+    def journal_units(self) -> tuple[str, ...]:
+        return tuple(dict.fromkeys(t for _, p in sorted(self.presentations.items(),
+            key=lambda item: item[1].serial) for t in p.receipts if t in self.SPEAKERS))
+
+    def _validate_captions(self) -> None:
+        if type(self.revision) is not int or self.revision < 0 or type(self.presentations) is not dict:
+            raise ValueError("Invalid presentation ledger")
+        operations: dict[int, str] = {}
+        for source, p in self.presentations.items():
+            if type(source) is not str or source not in self.SOURCES or type(p) is not _Receipt:
+                raise ValueError("Unknown caption source")
+            if type(p.serial) is not int or not 0 < p.serial <= self.revision or type(p.receipts) is not dict:
+                raise ValueError("Invalid presentation serial")
+            if p.serial in operations:
+                raise ValueError("Duplicate source serial")
+            operations[p.serial] = source + ":start"
+            if tuple(p.receipts) != self._tokens(source)[:len(p.receipts)]:
+                raise ValueError("Non-prefix caption receipts")
+            prior = p.serial
+            for token, serial in p.receipts.items():
+                if type(serial) is not int or not p.serial < serial <= self.revision or serial < prior:
+                    raise ValueError("Invalid receipt order")
+                if serial in operations and operations[serial] != source:
+                    raise ValueError("Unrelated operations share a serial")
+                operations[serial] = source
+                prior = serial
+
+    def _validate_serials(self, *names: str) -> None:
+        for name in names:
+            x = getattr(self, name)
+            if type(x) is not int or not 0 <= x <= self.revision:
+                raise ValueError("Invalid " + name)
+
+    def save(self) -> dict[str, Any]:
+        self.validate()
+        state = {k: v for k, v in asdict(self).items() if not k.startswith("_")}
+        return {"kind": self.KIND, "schema": 1, "state": state}
+
+    @classmethod
+    def load(cls, data: Mapping[str, Any], *, context: Any = None):
+        if (type(data) is not dict or set(data) != {"kind", "schema", "state"}
+                or data["kind"] != cls.KIND or type(data["schema"]) is not int or data["schema"] != 1
+                or type(data["state"]) is not dict):
+            raise ValueError("Invalid branch save envelope")
+        expected = {f.name for f in fields(cls) if not f.name.startswith("_")}
+        raw = data["state"]
+        if set(raw) != expected or type(raw.get("presentations")) is not dict:
+            raise ValueError("Unknown or missing branch state")
+        import copy
+        state = copy.deepcopy(raw)
+        for source, p in state["presentations"].items():
+            if type(p) is not dict or set(p) != {"serial", "receipts"}:
+                raise ValueError("Malformed caption receipt")
+            state["presentations"][source] = _Receipt(**p)
+        world = cls(**state)
+        world.validate()
+        if context is not None:
+            world.validate_context(context)
+        return world
+
+
+@dataclass
+class P10World(_Captioned):
+    bread_at: int = 0
+    paper_at: int = 0
+    restored_at: int = 0
+    labels: dict[str, str | None] = field(default_factory=lambda: dict.fromkeys(CUE_IDS))
+    slots: list[str | None] = field(default_factory=lambda: [None, None, None])
+    hint_level: int = 0
+    PUZZLE: ClassVar[str] = "P10"
+    KIND: ClassVar[str] = SAVE_KIND
+    SOURCES: ClassVar[dict[str, str]] = {
+        "intro": "P10.OPEN.001", "plan": "P10.READ.001", "notebook": "P10.READ.002",
+        "tiles": "P10.LOOK.002", "rack": "P10.LOOK.003",
+        "credit": "P10.DIALOGUE.001", "bread_agreement": "P10.DIALOGUE.002"}
+    UNITS: ClassVar[dict[str, tuple[str, ...]]] = RECORD_UNITS
+    SPEAKERS: ClassVar[dict[str, str]] = UNIT_SPEAKERS
+
+    @property
+    def ready(self) -> bool:
+        return self.restored_at > 0
+
+    @property
+    def flags(self) -> frozenset[str]:
+        return frozenset(("CUES_RESTORED",)) if self.ready else frozenset()
+
+    @property
+    def rack_correct(self) -> bool:
+        return tuple(self.labels[x] if x else None for x in self.slots) == ORDER
+
+    @property
+    def reserved_external_items(self) -> frozenset[str]:
+        return frozenset(x for x in self.slots if x in TILE_IDS)
+
+    @property
+    def inventory(self) -> tuple[str, ...]:
+        return tuple(x for x in PAPER_IDS if self.paper_at and x not in self.slots)
+
+    @property
+    def cue_handoff(self) -> dict[str, Any] | None:
+        if not self.ready:
+            return None
+        return {"rack_id": "cue_rack", "location": COURTYARD,
+                "slots": tuple(self.slots), "words": tuple(self.labels[x] if x else None for x in self.slots),
+                "correct_now": self.rack_correct, "known_order": ORDER,
+                "built_in_clips": True, "editable": True, "first_restored_serial": self.restored_at}
+
+    @staticmethod
+    def _context(context: P10Context) -> None:
+        if type(context) is not P10Context:
+            raise ValueError("P10 requires campaign context")
+
+    def _block(self, context: P10Context, room: str | None = None) -> CaptionResult | None:
+        self._context(context)
+        if "EVENING_STARTED" not in context.flags:
+            return self._result("evening_required")
+        if context.on_apron or (room is not None and context.room != room):
+            return self._result("offscreen")
+        if context.contest_active:
+            return self._result("contest_active")
+        return None
+
+    def _presentation_block(self, context: P10Context, source: str, tokens: tuple[str, ...]) -> CaptionResult | None:
+        room = {"plan": LIVING, "rack": COURTYARD}.get(source)
+        block = self._block(context, room)
+        if block is not None:
+            return block
+        if source == "intro" and not self.bread_at:
+            return self._result("snacks_not_discovered")
+        if source == "notebook" and not self.ready:
+            return self._result("cues_not_restored")
+        if source == "tiles" and not (set(TILE_IDS) & context.inventory
+                or (context.room == COURTYARD and self.reserved_external_items)):
+            return self._result("tiles_unavailable")
+        if source == "credit" and not (self.ready and any(x in TILE_IDS for x in self.slots)):
+            return self._result("tile_substitution_required")
+        if source == "bread_agreement" and not self.bread_at:
+            return self._result("snacks_not_discovered")
+        return None

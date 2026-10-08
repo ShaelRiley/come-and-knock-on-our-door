@@ -1,0 +1,11 @@
+# Actual room contents during the companion route
+
+The initial route/layout/gait composition is separately sealed. This gate adds one selector, h8SceneView2921, in989 and derives moving-camera props from pinned exact current render methods. It never assigns Main.location to impersonate a camera and never changes a physical actor room outside the already accepted legal crossing route.
+
+Living cutaways show the actual noticeboard, accepted slips/copy and wedge. Kitchen cutaways use the current P07 equipment/pot query, original unused cloth and tray, and the validated original carrier/credit/returned-cloth owners. The existing single lidded pot stays in the kitchen. Courtyard cutaways reuse the actual current layout, PA wiring/source/credit and accepted markers, including after Jackie has left that room. The garage handcart remains owned by P05 in the garage.
+
+Prop layering follows the accepted geometry-manifest contract: props precede actors, and the named chooser preserves access to every overlapping movable object. Frankie, Bunny and Jackie are drawn once in increasing actual foot-Y order within the current camera. The two companions use their real route positions; Jackie is drawn only in his actual room and outside the apron. Old218/219 idle/talk cels and new237/238 gait cadence remain unchanged. Stopped actors retain actual controls; ordinary movement interactions remain disabled.
+
+Door sill coordinates, scaling and legal room cuts are unchanged from the independently reviewed route. This change does not invent new portal masks or claim that a native frame has been inspected. The current art depicts the actors within the doorway at its existing threshold. Native perspective, opaque overlap with jambs, depth/scaling and animation timing remain explicit visual QA obligations; the offline art sheets and emitted draw traces are bounded evidence only.
+
+The generator pins source methods and changes only their rendering context references. Complete guards protect those basis files. Whole-program compilation and fresh source/emitted tests cover actual scene props, single actor/pot instances, layout while assembled, kitchen-origin invitation, cancellation, restore and all initial three composition cases. Exact reader receipts, readiness and E03 remain later gates.

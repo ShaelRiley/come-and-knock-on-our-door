@@ -1,0 +1,64 @@
+{
+  "status": "PASS_FRESH_COMPILE",
+  "modules": [
+    {
+      "module": 980,
+      "source_sha256": "19b6d711e1a36a91754cc91da44f61191778d93376121f95f464a07cd41df83b",
+      "script_sha256": "401dcd2ebb323fc4e02ee43c21dd47e8b6a9678780e5630c6418cfbbc238bf85",
+      "heap_sha256": "32caaff39e652863acb3114fc06ef5e28551e61f5025823f5b3453f588779c10",
+      "script_bytes": 1374,
+      "heap_bytes": 216,
+      "combined_bytes": 1592,
+      "remaining_segment_bytes": 63943,
+      "class_species": [
+        2
+      ]
+    },
+    {
+      "module": 982,
+      "source_sha256": "0bb41b28cdb41de7bc58a124ffd0813d7c521c960b6afae1b2c3763e2cf0f59f",
+      "script_sha256": "38e202c5c78a84684c2ce725d7ba37867cb8f81fd9f72282ab0a3d1acd9e119a",
+      "heap_sha256": "6bfee97179f33facd12709ab3dd17e77c1ea2444e4b738d0570837e2a44b4d19",
+      "script_bytes": 19058,
+      "heap_bytes": 39506,
+      "combined_bytes": 58566,
+      "remaining_segment_bytes": 6969,
+      "class_species": [
+        4
+      ]
+    },
+    {
+      "module": 0,
+      "source_sha256": "d162068bc2c1820d0c0347e29ccaa8d789d1d8fd4d0f9c017a6bc1167f3298fc",
+      "script_sha256": "f742898a442f8b887da3b9f279daad31e59b8067b504997b9ab50d5bdde7f39c",
+      "heap_sha256": "4107a7bda95430c0c437935c36ddd4c3de3a6d2660abf07a819dcbd630e39c9f",
+      "script_bytes": 50360,
+      "heap_bytes": 12288,
+      "combined_bytes": 62648,
+      "remaining_segment_bytes": 2887,
+      "class_species": [
+        0,
+        1
+      ]
+    }
+  ],
+  "class_owners": [
+    0,
+    0,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986,
+    987,
+    988
+  ],
+  "native_acceptance": false,
+  "runtime_package": false,
+  "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+  "preserved_selectors": 1697,
+  "added_selectors": 0,
+  "subset_fixture": "Byte-identical copied emitted modules0/980/982. Module0 supplies the VM global region only; no main host methods run."
+}

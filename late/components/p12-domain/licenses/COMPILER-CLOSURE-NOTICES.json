@@ -1,0 +1,56 @@
+{
+  "scope": "Exact previously audited R2 necessary headless compiler closure; no new license or publication claim",
+  "source_manifest": "toolchain/SOURCE-MANIFEST.json",
+  "dependency_manifest": "toolchain/COMPILER-DEPENDENCY-CLOSURE.json",
+  "rights_evidence": "docs/COMPILER-RIGHTS.json",
+  "notices": [
+    {
+      "path": "toolchain/source/lucasartsifier/DOWNSTREAM-PACKAGING-NOTICE.md",
+      "sha256": "92eb9f6e080c8558a5f2d535ff1f35020630bd78705932f70ca3ec56d2c15934"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/INHERITED-PORT-CHANGES.diff",
+      "sha256": "b46487c5bff00bf3e3a5be8dcf0a1d9b191afc17174ad267b383508ee238d29e"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/LICENSE",
+      "sha256": "00b7846f206d322193c3ad1406a7cedcd82d36a0ff47a366bae2d77f4dc5d9ba"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/MODIFIED-SOURCE-PROVENANCE.json",
+      "sha256": "2aa4e095fc29a4df3ad6c0fd03c2caa84d6d2dd4b32a55a012869ae8a4851bda"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/NOTICE",
+      "sha256": "c0bb900479fd46e78a946cb7569e7128225667b70d2674b7e9aff490f9f6098c"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/third-party-notices/CRC32-NOTICE.txt",
+      "sha256": "aad5d54f08f993a6f26258ccea83dfe1544c453058eabe94ef6025564c01bba1"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/third-party-notices/ScummVM-CODEC-NOTICE.txt",
+      "sha256": "3556743969bb76313a253e062041a5a5e4fea4727f111764ee88844ad69711fd"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/third-party-notices/fmt-BSD-2-Clause-NOTICE.txt",
+      "sha256": "5f9fa3bf29a622d6b01f58aaa7665b65ccdd0d3df68598a30b097e75d503e2a5"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/LICENSE",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanion/Files/License.txt",
+      "sha256": "1c32b34d8de35c2cb4d9889703b9c6642f3c7998a151f227746f8fe49854740f"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/SCICompanionLib.licenseheader",
+      "sha256": "943e131703cb626a1bd7945a6c586270584e4672b13f2ba97b1fbae884c790b7"
+    },
+    {
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/cpptoml/LICENSE",
+      "sha256": "e020e5d4f3e7c2a49b66822b3c3fb99aba9a04f3d2edb3907c493976436f876c"
+    }
+  ]
+}

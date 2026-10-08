@@ -1,0 +1,22 @@
+; Two-word explicit window over the existing absolute document/page identity.
+; This primitive provides no source, introduction, checklist or unit receipt.
+(method (sdWindowValue field &tmp first count)
+ (= first [sdWindowBounds 0]) (= count [sdWindowBounds 1])
+ (if (or (< field 0) (> field 2)) (return -1))
+ (if (and (== first 0) (== count 0))
+  (return (if (== field 1) sdCount else 0)))
+ (if (or (< sdDocument 973) (> sdDocument 1017) (< first 0) (< count 1)
+  (< sdCount 1) (> sdCount 255) (>= first sdCount) (> count (- sdCount first))) (return -1))
+ (switch field (0 (return first)) (1 (return count)) (2 (return 1))) (return -1))
+(method (sdOpenWindow document first count backPanel backPage backFocus audio &tmp total)
+ ; Reject numeric admission before replacing a live older reader.
+ (if (or (< document 973) (> document 1017) (< first 0) (< count 1)) (return 0))
+ (= total (self sdPageCount: document))
+ (if (or (< total 1) (> total 255) (>= first total) (> count (- total first))) (return 0))
+ (self sdInterrupt: audio 10)
+ (= [sdWindowBounds 0] first) (= [sdWindowBounds 1] count)
+ (= sdCount total) (= sdDocument document) (= sdPage first) (= sdBackPanel backPanel)
+ (= sdBackPage backPage) (= sdBackFocus backFocus) (= sdFailure 0)
+ (= sdActive 1) (= sdFocusAction 11) (self sdMark: 1)
+ (= sdPendingStart 1)
+ (if (not (self sdLoad:)) (= sdActive 0) (return 0)) (return 1))

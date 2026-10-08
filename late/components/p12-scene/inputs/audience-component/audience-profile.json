@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "audience_original_group_v1",
+  "speaker_id": "audience",
+  "display_name": "Audience",
+  "provenance": "New original procedural additive synthesis authored 2026-10-07. No recordings, voice cloning, external models, or imitation of real people. Not a recovered or previously accepted sound.",
+  "description": "Three softly staggered rounded musical tones with independent register, phase and gentle vibrato; restrained communal response. Text determines approximate cadence only, not understandable synthesized words.",
+  "sample_rate": 22050,
+  "gain": 0.18,
+  "harmonics": [1.0, 0.12, 0.035],
+  "pulse_ticks": 7,
+  "gap_ticks": 3,
+  "word_gap_ticks": 3,
+  "lead_ticks": 3,
+  "tail_ticks": 4,
+  "pitch_steps": [0, 1, -1, 2, 0, -2],
+  "attack_seconds": 0.015,
+  "release_seconds": 0.03,
+  "decay": 0.65,
+  "voices": [
+    {"pitch_hz": 142.0, "gain": 0.40, "delay_ticks": 0, "phase": 0.0, "vibrato_hz": 3.1, "vibrato_depth": 0.0020},
+    {"pitch_hz": 179.0, "gain": 0.34, "delay_ticks": 1, "phase": 0.73, "vibrato_hz": 3.7, "vibrato_depth": 0.0025},
+    {"pitch_hz": 227.0, "gain": 0.26, "delay_ticks": 2, "phase": 1.41, "vibrato_hz": 4.3, "vibrato_depth": 0.0020}
+  ],
+  "mouth_policy": "No group or principal mouth animation. Every Sync cue is closed (0).",
+  "runtime_speaker_number": 0,
+  "runtime_lane": 1,
+  "controls": "Existing Voice volume/mute; Audience controls remain laughter-only."
+}

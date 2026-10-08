@@ -1,0 +1,260 @@
+{
+  "kind": "New reconstruction/extraction from accepted Main; not recovered historical991",
+  "moved_direct_dependencies": {
+    "renderCaption": [
+      "p05.hVCHud",
+      "Main.navNoticeRender",
+      "Display"
+    ],
+    "navNoticeRender": [
+      "Display"
+    ],
+    "h6BaseDrawWorld": [
+      "p08.h8LayoutRender",
+      "p05.hFailure",
+      "p05.hFailureWorld",
+      "p05.hCourtRender",
+      "p05.hRenderWorld",
+      "Main.drawSidePassage",
+      "Main.roomTitle",
+      "Main.drawLiving",
+      "Main.drawKitchen",
+      "Main.drawP03Conservatory",
+      "Main.drawBlockout",
+      "Main.drawJack",
+      "DrawCel",
+      "Graph",
+      "Display",
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth"
+    ],
+    "roomTitle": [],
+    "blockPerson": [
+      "Graph",
+      "Display"
+    ],
+    "drawJack": [
+      "p06.h6DrawJack",
+      "Main.motionScale",
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth",
+      "DrawCel"
+    ],
+    "drawLiving": [
+      "Main.drawJack",
+      "Main.livingPerson",
+      "DrawCel",
+      "Display"
+    ],
+    "livingPerson": [
+      "p06.h6FrankieRoom",
+      "p05.hBunnyRoom",
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth",
+      "DrawCel"
+    ],
+    "neighborPerson": [
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth",
+      "DrawCel"
+    ],
+    "drawKitchen": [
+      "p07.h7Render",
+      "p03.p03Towel",
+      "p03.p03Napkin",
+      "p03.p03Ready",
+      "p08.h8Owns",
+      "p07.h7DrawBunny",
+      "p08.h8RenderCloth",
+      "DrawCel",
+      "Display"
+    ],
+    "drawP03Conservatory": [
+      "p09.h9UI",
+      "p03.p03Ready",
+      "p03.p03Padding",
+      "p03.p03Slate",
+      "Main.drawJack",
+      "Main.neighborPerson",
+      "Main.p03Rita",
+      "DrawCel",
+      "Display"
+    ],
+    "p03Rita": [
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth",
+      "DrawCel"
+    ],
+    "drawSidePassage": [
+      "p04.p04Gate",
+      "p04.p04Peg",
+      "p04.p04Bunting",
+      "p04.p04Wedge",
+      "Main.drawJack",
+      "Main.p04Felix",
+      "DrawCel"
+    ],
+    "p04Felix": [
+      "presentation.lane",
+      "presentation.speaker",
+      "presentation.mouth",
+      "DrawCel"
+    ]
+  },
+  "retained_paint_and_frame_methods": {
+    "render": "Frame state, Graph12 flush, acknowledgments and audio-adjacent ordering remain exact Main source",
+    "uiRender": "Reader/modal state writes, local arrays and acknowledgments remain Main-owned",
+    "drawBlockout": "Retained because it rebuilds UI controls, writes uiControlCount and addresses Main local arrays",
+    "drawWorld": "Current P08 route precedence and P06 owner render dispatch remain Main-owned",
+    "uiFrame": "Retained shared UI primitive",
+    "motionScale": "Retained current motion state query; called through original Main receiver",
+    "dialoguePresented": "Acknowledgment authority remains unchanged"
+  },
+  "transitive_boundary": "Expand the moved dependency names recursively within this table. Every boundary dependency remains its original class method/kernel, with unchanged source and exact call order. Main.drawBlockout transitive UI mutation remains on Main. No renderer state caches or substitutes owner results.",
+  "entry_contract": "Main wrapper obtains ScriptID991/export0 and supplies current self as argument1. Original method arguments follow. Renderer has only nine engine header properties and zero local words. All original Main selectors and signatures remain.",
+  "assembly_contract": {
+    "pToa": "Read actual owner property via existing numeric selector; same value in accumulator, unchanged operand stack",
+    "pTos": "Save accumulator in one fresh method-local temp, read actual owner property, push value, restore accumulator; same original stack order",
+    "self": "Load current explicit owner and send unchanged packet byte count; original selector and arguments remain on stack",
+    "preserved": [
+      "branch labels and targets",
+      "kernel argument counts and ordering",
+      "temporary indices and values",
+      "original literals",
+      "current actor and presentation queries"
+    ],
+    "native_limit": "Finite source/emitted comparison and independent global-register sensitivity are not native visuals, audio or native save acceptance"
+  },
+  "transitive_boundary_dependencies": {
+    "renderCaption": [
+      "Display",
+      "p05.hVCHud"
+    ],
+    "navNoticeRender": [
+      "Display"
+    ],
+    "h6BaseDrawWorld": [
+      "Display",
+      "DrawCel",
+      "Graph",
+      "Main.drawBlockout",
+      "Main.motionScale",
+      "p03.p03Napkin",
+      "p03.p03Padding",
+      "p03.p03Ready",
+      "p03.p03Slate",
+      "p03.p03Towel",
+      "p04.p04Bunting",
+      "p04.p04Gate",
+      "p04.p04Peg",
+      "p04.p04Wedge",
+      "p05.hBunnyRoom",
+      "p05.hCourtRender",
+      "p05.hFailure",
+      "p05.hFailureWorld",
+      "p05.hRenderWorld",
+      "p06.h6DrawJack",
+      "p06.h6FrankieRoom",
+      "p07.h7DrawBunny",
+      "p07.h7Render",
+      "p08.h8LayoutRender",
+      "p08.h8Owns",
+      "p08.h8RenderCloth",
+      "p09.h9UI",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "roomTitle": [],
+    "blockPerson": [
+      "Display",
+      "Graph"
+    ],
+    "drawJack": [
+      "DrawCel",
+      "Main.motionScale",
+      "p06.h6DrawJack",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "drawLiving": [
+      "Display",
+      "DrawCel",
+      "Main.motionScale",
+      "p05.hBunnyRoom",
+      "p06.h6DrawJack",
+      "p06.h6FrankieRoom",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "livingPerson": [
+      "DrawCel",
+      "p05.hBunnyRoom",
+      "p06.h6FrankieRoom",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "neighborPerson": [
+      "DrawCel",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "drawKitchen": [
+      "Display",
+      "DrawCel",
+      "p03.p03Napkin",
+      "p03.p03Ready",
+      "p03.p03Towel",
+      "p07.h7DrawBunny",
+      "p07.h7Render",
+      "p08.h8Owns",
+      "p08.h8RenderCloth"
+    ],
+    "drawP03Conservatory": [
+      "Display",
+      "DrawCel",
+      "Main.motionScale",
+      "p03.p03Padding",
+      "p03.p03Ready",
+      "p03.p03Slate",
+      "p06.h6DrawJack",
+      "p09.h9UI",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "p03Rita": [
+      "DrawCel",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "drawSidePassage": [
+      "DrawCel",
+      "Main.motionScale",
+      "p04.p04Bunting",
+      "p04.p04Gate",
+      "p04.p04Peg",
+      "p04.p04Wedge",
+      "p06.h6DrawJack",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ],
+    "p04Felix": [
+      "DrawCel",
+      "presentation.lane",
+      "presentation.mouth",
+      "presentation.speaker"
+    ]
+  }
+}

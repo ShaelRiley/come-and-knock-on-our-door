@@ -1,0 +1,169 @@
+{
+  "canonical_authorities": {
+    "CURRENT-SCRIPT-REVISION.json": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3",
+    "RECOVERY-PROVENANCE.json": "e943cbc164d0864f45d1b4974c60b6d2e5138f4db7a3bb70383857e77bc3270b",
+    "accepted-insult-pairs.json": "62c3329fe59a92d407dbdbd3850966581386be9fcc5ed0c2cd276ed528316bdc",
+    "complete-body.md": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+    "full-line-catalog.json": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+    "retained-registry-subset.json": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136",
+    "speech-units.json": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475"
+  },
+  "claims_excluded": [
+    "P09 playable activation",
+    "P09 native save/load",
+    "native pixels/controller/audio",
+    "full game completion"
+  ],
+  "deferred_gates": [
+    "Rebase onto accepted current P08 E03/storage source with all predicates preserved",
+    "Explicit dense card reservation, sole unsigned original ownership and ordinary saves",
+    "Exact render lease begin/Graph12/ack binding and cancellation",
+    "All five terms units, earliest precise correction, separate resumable success",
+    "Actual Stringer/Rita context with source/unit-specific attendance",
+    "Current UI geometry and controller focus",
+    "Fresh stock-native namespace and route; no P07 route3 changes"
+  ],
+  "foundation_sources": {
+    "frozen/domain": {
+      "role": "literal61 P09 methods, schema, unchanged model and codec; append host only",
+      "version": 4
+    },
+    "frozen/p08": {
+      "archive_sha256": "44e5f42c54dd3ad728f3676b1078e451aaa3991b364d7c98081b3fd4f2288394",
+      "role": "accepted confirmation baseline; later storage/E03 producer excluded",
+      "version": 0
+    },
+    "frozen/scene": {
+      "archive_sha256": "9ad893cdf28a728ca8f647938e532d3f1a9c3267a7aa672e60a12ee1b5262999",
+      "role": "accepted tables/captions/audio; guarded additive rebase into current982",
+      "version": 0
+    },
+    "toolchain": {
+      "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "files": 198,
+      "source": "accepted P13 domain R2 minimal closure"
+    }
+  },
+  "future_host_bridge": {
+    "binding_status": "retained/public; activation context is intentionally not implemented in foundation",
+    "h8ActorRoom": "Use actual castIDs1\u20138; never synthesize rooms",
+    "h8EveningCommitted": "Persistent real E03 completion only; never grant or repair in query",
+    "h8EveningReady": "Current action/presentation permission; may be false while committed stays true"
+  },
+  "historical_host_evidence_only": {
+    "compile.sh": {
+      "method_names": [],
+      "sha256": "9f5192b37549d520304fff96510a837baae1d8f922d0b7005f5b0a2156a370fe"
+    },
+    "compose.py": {
+      "method_names": [
+        "'+name+'",
+        "dExpectedPages",
+        "dPageUnitEnd",
+        "dUnitLabel",
+        "dSourceLabel",
+        "qReserveIndex"
+      ],
+      "sha256": "5feaa5db087520e3ff151c4a0705f935fdedbd9eb686127994b2886d382485b0"
+    },
+    "prepare.py": {
+      "method_names": [
+        "("
+      ],
+      "sha256": "e1944930a1670184a9e99b6dcd1517df0ef15cdc412ddd1fac0a009addc4c67f"
+    },
+    "src/p09-bridge.sc.in": {
+      "method_names": [
+        "dEpochNext",
+        "dOwnersValid",
+        "dValidateHost",
+        "dProject",
+        "dContextMatches",
+        "dCancel",
+        "dRoutesReady",
+        "dQueue",
+        "dCapture",
+        "dInvoke",
+        "dRun",
+        "dTrack",
+        "dReconcile",
+        "dPresented",
+        "dClosed",
+        "dAfterClosed",
+        "dHeld",
+        "dReachable",
+        "dHandles",
+        "dSaveReady",
+        "dAfterRestore",
+        "dFinish",
+        "dPresentAvailablePrefix",
+        "dPaintBegin",
+        "dPaintCommit"
+      ],
+      "sha256": "782e63b856bef4391f60456114a59a0e15ef581d688c2792cb612a535e5cc466"
+    },
+    "src/p09-ui.sc.in": {
+      "method_names": [
+        "dLabel",
+        "dDefaultVerb",
+        "dApproachX",
+        "dApproachY",
+        "dWorldControls",
+        "dDispatch",
+        "dChoices",
+        "dChoice",
+        "dStatus",
+        "dCanSpeak"
+      ],
+      "sha256": "1554ab8d25561ffd1a4bf4922542e05c8fb37054ec9e9028f07ce55e8f25558d"
+    }
+  },
+  "module_dependencies": {
+    "0": [
+      "new p09 property",
+      "p04Initialize -> ScriptID990 export0 -> h9Init",
+      "bridgeActAtArrival -> h9Dispatch refusal only",
+      "campaignHeld/campaignReachable/p02ObjectLocation refuse395\u2013399",
+      "p02SyncInventory guards33-word reservation before object indexing"
+    ],
+    "982": [
+      "existing P08 reader/windows",
+      "accepted P09 arrays appended",
+      "sdRoute/sdPageCount bounds extended to1139",
+      "sdLoad allowlists Text210/Audio921",
+      "hStaticAt regenerated array extents"
+    ],
+    "985": [
+      "only hStaticCount/hStaticFirst metadata differ; hStaticLoad compared identical",
+      "static text resources240/241/244 regenerated from exact20 families"
+    ],
+    "989": [
+      "byte-identical frozen P08; public h8ActorRoom, h8EveningCommitted, h8EveningReady retained"
+    ],
+    "990": [
+      "exact61 domain methods",
+      "new h9Host property",
+      "h9Init initializes only at genuine startup",
+      "h9Active constantfalse",
+      "h9Dispatch consumes own IDs; no P09 progress path"
+    ]
+  },
+  "native_identity_registry": {
+    "card_inventory_reservation": "unallocated; future dense explicit slot, never historical93",
+    "cart": 72,
+    "completed_screen": 81,
+    "courtyard_plan": 83,
+    "display": 42,
+    "host_pot": 92,
+    "own_chair_card": [
+      395,
+      396,
+      397,
+      398,
+      399
+    ],
+    "token": 80,
+    "unsigned_card": 399
+  },
+  "speech_scope": "Original methods and old table prefixes retained; new40 P09 audio/sync files banked. This is not a complete native distribution."
+}

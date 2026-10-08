@@ -1,0 +1,18 @@
+{
+  "kind": "historical comparison anchors, not transcription hashes",
+  "anchors": [
+    {
+      "path": "cakood/p14_model.py",
+      "sha256": "fe490b5141c0cc2e8b834a479f474660e652648db60609b2a325d819b12f72e7"
+    },
+    {
+      "path": "generated native P14 module source",
+      "sha256": "9d32b5779ca5cc6cdc4ab11c9b373fed77e85b47cb2a6d265793e3a94ea6b8fd"
+    },
+    {
+      "path": "compiled P14 script",
+      "sha256": "6eed64b36dd0e1e565aed4de7010481feffcd2cbe1cf741a9d5d811463084a96"
+    }
+  ],
+  "rule": "Compare only corresponding materialized files; never assign artifact hash to a template."
+}

@@ -1,0 +1,59 @@
+{
+  "existing_document_slots": 1593,
+  "existing_page_count": 1552,
+  "existing_scene_script": 982,
+  "inputs": {
+    "p13_scene": {
+      "filename": "P13-Scene-Editable-Component-20261007.zip",
+      "independent_review": {
+        "sha256": "7c7f01a8ed370593ad8ef98701346b31e674efff110bc4407eaa2018b32918b0",
+        "status": "ACCEPT",
+        "version": 0
+      },
+      "sha256": "b71445a8118ccf6bd8a4512443f1a60127467c320311ab457b64f3f5dee2effb",
+      "version": 0
+    },
+    "p14_domain": {
+      "filename": "P14-Editable-Domain-Reconstruction-20261007.zip",
+      "independent_review": {
+        "sha256": "bcdf63c828dca336491faf1afebc5655b12dfe65fd069cbd44ec90de14ee4754",
+        "status": "ACCEPT",
+        "version": 0
+      },
+      "sha256": "8dcd4c2ef701a97c302454c299a656e06edc6f5c2ec6d53235a6a6b9bc1b4c21",
+      "version": 0
+    },
+    "p14_reference": {
+      "independent_review": "ACCEPT",
+      "sha256": "e225ea5f2ba113a12b3cc8b84c3c56fad4778b95a08a717910e9bf12f7227cb1",
+      "version": 2
+    }
+  },
+  "native_acceptance": false,
+  "new_document_span": [
+    1600,
+    1801
+  ],
+  "new_font": 1,
+  "new_script": 999,
+  "new_selectors": 0,
+  "new_species": 0,
+  "new_static_tables": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "new_text": [
+    215,
+    245
+  ],
+  "old_font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "old_selector_values_preserved": true,
+  "selected_date_audio": 927,
+  "static_audio": 926
+}

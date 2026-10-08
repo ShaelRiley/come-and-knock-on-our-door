@@ -1,0 +1,12 @@
+{
+  "cases": [
+    "test_rendezvous.Rendezvous.test_cancel_reverses_each_acquired_boundary",
+    "test_rendezvous.Rendezvous.test_deferred_save_return_save_and_cancelled_load",
+    "test_rendezvous.Rendezvous.test_entry_excludes_restore_teleport_menu_and_failed_gate",
+    "test_rendezvous.Rendezvous.test_keyboard_walk_cancel_and_stale_old_choice",
+    "test_rendezvous.Rendezvous.test_kitchen_origin_preserves_real_invitation_and_reverse",
+    "test_rendezvous.Rendezvous.test_real_entry_legal_edges_actual_owner_and_no_intro",
+    "test_rendezvous.Rendezvous.test_real_garage_listener_is_excluded_until_requested_return",
+    "test_rendezvous.Rendezvous.test_restore_rejects_corrupt_locations_route_and_movement"
+  ]
+}

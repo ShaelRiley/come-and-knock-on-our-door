@@ -1,0 +1,25 @@
+{
+  "base": "accepted inactive P09 foundation",
+  "changed_main_methods": [
+    "uiHostItemLabel",
+    "uiHostShortLabel",
+    "uiHostDefaultVerb",
+    "approachX",
+    "approachY",
+    "uiHostWorldControls",
+    "drawP03Conservatory"
+  ],
+  "new990_methods": [
+    "h9Geo",
+    "h9Label",
+    "h9UI"
+  ],
+  "new990_locals": {
+    "h9G": 80
+  },
+  "main_new_properties": [],
+  "new_saved_viewpoint_state": false,
+  "h9Active": "unchanged constantfalse",
+  "h9Dispatch": "unchanged closed395\u2013399 refusal",
+  "future_rebase": "Apply after foundation deltas to separately accepted P08 E03 source; never replace its989 or storage/readiness code."
+}

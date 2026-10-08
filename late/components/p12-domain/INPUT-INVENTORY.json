@@ -1,0 +1,1474 @@
+{
+  "files": [
+    {
+      "bytes": 408,
+      "path": "reference/component/authority/CURRENT-SCRIPT-REVISION.json",
+      "sha256": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3"
+    },
+    {
+      "bytes": 31826,
+      "path": "reference/component/authority/accepted-insult-pairs.json",
+      "sha256": "62c3329fe59a92d407dbdbd3850966581386be9fcc5ed0c2cd276ed528316bdc"
+    },
+    {
+      "bytes": 210993,
+      "path": "reference/component/authority/complete-body.md",
+      "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c"
+    },
+    {
+      "bytes": 1346630,
+      "path": "reference/component/authority/full-line-catalog.json",
+      "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c"
+    },
+    {
+      "bytes": 2049,
+      "path": "reference/component/authority/retained-registry-subset.json",
+      "sha256": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136"
+    },
+    {
+      "bytes": 417867,
+      "path": "reference/component/authority/speech-units.json",
+      "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475"
+    },
+    {
+      "bytes": 0,
+      "path": "reference/component/cakood/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 9871,
+      "path": "reference/component/cakood/model.py",
+      "sha256": "0371f8899410bbe9f230ad80aace72026328db818a456db4a46d7bf9c8049606"
+    },
+    {
+      "bytes": 42729,
+      "path": "reference/component/cakood/p02_model.py",
+      "sha256": "3dd71164dc0a509c0065c232dba446ef8d2fb113d0d21c11580365d0a4a4ac95"
+    },
+    {
+      "bytes": 496,
+      "path": "reference/component/cakood/p03_model.py",
+      "sha256": "8cf6617d2b9e1b78b3e41ae427ddb4ad1681d19901dc62f18fe97280cbd960e4"
+    },
+    {
+      "bytes": 1377,
+      "path": "reference/component/cakood/p04_model.py",
+      "sha256": "3a99f6092bc07bfff544d90807f6c3d315754f9401fc110c0b6806cd489fc64e"
+    },
+    {
+      "bytes": 29001,
+      "path": "reference/component/cakood/p09_model.py",
+      "sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061"
+    },
+    {
+      "bytes": 29118,
+      "path": "reference/component/cakood/p10_model.py",
+      "sha256": "01505ec8adb19ecad5993a490d1a31ba2c4bd0c729fe5c540a30051260d5295c"
+    },
+    {
+      "bytes": 29281,
+      "path": "reference/component/cakood/p11_model.py",
+      "sha256": "ee0069e2e3e796f351279c5950c0df43b7db130f5bd85eb103c6f38940e88439"
+    },
+    {
+      "bytes": 22766,
+      "path": "reference/component/cakood/p12_model.py",
+      "sha256": "0dae7af7c5ff8a6b843181caf93ec455c89fa68414f04f14c34f207fef241d6d"
+    },
+    {
+      "bytes": 27204,
+      "path": "reference/component/cakood/p13_model.py",
+      "sha256": "0cd474faba3820d7a5b30be7fc7f78131141d9866e0288b10a8704fe02553eb5"
+    },
+    {
+      "bytes": 1020,
+      "path": "reference/component/cakood/verbal_contest.py",
+      "sha256": "c933bd958c1c957257e49b28b008a5a7447aee805f7f4e791517f9ce7447485d"
+    },
+    {
+      "bytes": 0,
+      "path": "reference/component/dependencies/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 316942,
+      "path": "reference/component/dependencies/data/canonical-bindings.json",
+      "sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e"
+    },
+    {
+      "bytes": 5337,
+      "path": "reference/component/dependencies/domain_source_vm.py",
+      "sha256": "5a1c96ebdcf701909c3ce4f0abc9ad25dde591eaf75280d727bcffea97f28c8a"
+    },
+    {
+      "bytes": 14115,
+      "path": "reference/component/dependencies/p03_numeric_model.py",
+      "sha256": "169432488b093b7d232582c009b0459a1baf5ccaac2a2cf7f8f53bb8c35d7090"
+    },
+    {
+      "bytes": 14992,
+      "path": "reference/component/dependencies/p04-abi.json",
+      "sha256": "f5dbf243c16d2d6b480860e1608204d3d174fbb85c10a75f142d13376f711ec7"
+    },
+    {
+      "bytes": 23775,
+      "path": "reference/component/dependencies/p04_numeric_model.py",
+      "sha256": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67"
+    },
+    {
+      "bytes": 5337,
+      "path": "reference/component/dependencies/p06_domain_source_vm.py",
+      "sha256": "4634fc61960b39804a6a80be0ae085184fb22e85e4730d12a82de2cad2f70557"
+    },
+    {
+      "bytes": 23617,
+      "path": "reference/component/dependencies/p09-schema.json",
+      "sha256": "19115a1d55f1380aafe88d0adb45b5a0274290b71abee1d53ac2b996f9a81c89"
+    },
+    {
+      "bytes": 24465,
+      "path": "reference/component/dependencies/p10-current-manifest.json",
+      "sha256": "441af1d58b9a83024b03a1dae4baa2a3c20488044678fadd9ddf997e22ea67c5"
+    },
+    {
+      "bytes": 1813,
+      "path": "reference/component/dependencies/source_tools.py",
+      "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56"
+    },
+    {
+      "bytes": 0,
+      "path": "reference/component/dependencies/vc_owner/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 43625,
+      "path": "reference/component/dependencies/vc_owner/verbal_contest.py",
+      "sha256": "33f4dcaad73178ffc76cf9368dac97b3e311b2b150ddbc3059ba97af5f565434"
+    },
+    {
+      "bytes": 4167,
+      "path": "reference/component/stock-sci/p12-domain-adapter/codec.py",
+      "sha256": "1bd56b3418d6c878f708fd607187cbc22896007d9ff3b0223a789cd78086290f"
+    },
+    {
+      "bytes": 9803,
+      "path": "reference/component/stock-sci/p12-domain-adapter/generate.py",
+      "sha256": "faa2a1ff5cd7988a8a2748dbf72bd6686c0c5957fbce140ea0fc8ab1c50b6791"
+    },
+    {
+      "bytes": 72359,
+      "path": "reference/component/stock-sci/p12-domain-adapter/manifest.json",
+      "sha256": "aa5491a29bde7948aeb10dcdcd01034c05642f920b11d718cddbb95b516bf485"
+    },
+    {
+      "bytes": 23913,
+      "path": "reference/component/stock-sci/p12-domain-adapter/src/methods.sc.in",
+      "sha256": "7c7195fdd4a5ff2b2c922d7fd993c1f429c84c28e3b0087cef183b2c923151da"
+    },
+    {
+      "bytes": 50943,
+      "path": "reference/component/stock-sci/p12-domain-adapter/src/module994.sc",
+      "sha256": "c63c08ec47d70fdd1c2c4b439307d8b69d47dfd57a5db5a7b09b9a227e5e5f6f"
+    },
+    {
+      "bytes": 1647,
+      "path": "reference/component/stock-sci/p12-domain-adapter/tests/source_vm.py",
+      "sha256": "e62f6110e5687d3af0bce3872287f0fe0a6520f6e288c19627d2661cf8be7701"
+    },
+    {
+      "bytes": 18985,
+      "path": "reference/component/stock-sci/p12-domain-adapter/tests/test_domain.py",
+      "sha256": "397574a232fce27b5a1d786c9ea46c69122a7d038d7a95dc8373da3a660638af"
+    },
+    {
+      "bytes": 13525,
+      "path": "reference/component/tests/dependency_test_current_contract.py",
+      "sha256": "dce607c1392f64f6e73460bee309d933168aa2493d5a59a70f3d3ca56e8f2460"
+    },
+    {
+      "bytes": 5114,
+      "path": "reference/component/tests/dependency_test_f01_sincere_listener.py",
+      "sha256": "c6005bd6949202da70f2d62115d393fc857ba23748ac490b0859abad456558d7"
+    },
+    {
+      "bytes": 20350,
+      "path": "reference/component/tests/dependency_test_p11_model.py",
+      "sha256": "34ec1b3baed885c403c8de18de7c35b128825d2eb4cc56d71b1c10963788a577"
+    },
+    {
+      "bytes": 54759,
+      "path": "reference/component/tests/fixtures/p12/canonical-bindings.json",
+      "sha256": "777b7d4bcb2da859aabccbfbeb4731671c17e72dfe248bee897c90addfc59c3d"
+    },
+    {
+      "bytes": 14928,
+      "path": "reference/component/tests/test_p12_current.py",
+      "sha256": "e8afa7faa3a3d50b59fa0adf968e5f1ebfb217258e357a6a6c1230e5b4234b25"
+    },
+    {
+      "bytes": 3039,
+      "path": "reference/component/tests/test_verbal_contest.py",
+      "sha256": "1ff0946ef048fb2ceb7c1a0fe174372515291845fd5485b37a9b7b9256864fb4"
+    },
+    {
+      "bytes": 725,
+      "path": "reference/component/tools/assertions.py",
+      "sha256": "df55187276964311dccf895b4e039c1052f6398324cdab3564f043610a415723"
+    },
+    {
+      "bytes": 2231,
+      "path": "reference/component/tools/check_guards.py",
+      "sha256": "55e4675e3480d7c38bd51d0d61f316db3ad65be03eb0b28fc76ee178d6d0a7ea"
+    },
+    {
+      "bytes": 2155,
+      "path": "reference/component/tools/generate_fixture.py",
+      "sha256": "74a398dac54e76d2ae6c8944367ce2733cc7b1b8c983a350b1e4e51db23172a2"
+    },
+    {
+      "bytes": 1593,
+      "path": "reference/component/tools/probe_literal_start.py",
+      "sha256": "00955c5b3b306e4c0a4c26b0b04930acc10700ead594123bfe1005ffdc0e4b62"
+    },
+    {
+      "bytes": 1229,
+      "path": "reference/component/tools/probe_rescue_variant.py",
+      "sha256": "185ea59a1d752f4a61b40065dc8a564f861ad995b2b9b9ccf98253a40786900e"
+    },
+    {
+      "bytes": 1188,
+      "path": "reference/component/tools/run_tests.py",
+      "sha256": "a71e3b07294796cf87c7e3688106e1a5b4b21d06b6dc55abe21b4e4129a154c8"
+    },
+    {
+      "bytes": 978,
+      "path": "reference/component/tools/verify_inputs.py",
+      "sha256": "31696dc4b906dc3679e138debaef53befbcae0a66f66e5fe6874bf0890881070"
+    },
+    {
+      "bytes": 1654,
+      "path": "reference/component/tools/verify_source.py",
+      "sha256": "e2ef6d4879fda319f248e1bb787669644a9dcc84ba5829275f29ca75edf58b94"
+    },
+    {
+      "bytes": 3257,
+      "path": "reference/freeze_inputs.py",
+      "sha256": "aa307fc7ef5320c75f1fe649229f52aad0d31b1e676275a47076b142fb898922"
+    },
+    {
+      "bytes": 27204,
+      "path": "reference/historical/literal-read/cakood/p13_model.py",
+      "sha256": "0cd474faba3820d7a5b30be7fc7f78131141d9866e0288b10a8704fe02553eb5"
+    },
+    {
+      "bytes": 7150,
+      "path": "reference/historical/literal-read/docs/p13-state-contract.md",
+      "sha256": "6d87734f1741479a8af9c3ad2382337fac98a81080732c7ea18c6457d0bc2cd7"
+    },
+    {
+      "bytes": 1326,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/build.sh",
+      "sha256": "0cb144a300cd5fa0c4d1e24f98dc13f740e71f290106dbe3f89743b3fe73426a"
+    },
+    {
+      "bytes": 4167,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/codec.py",
+      "sha256": "1bd56b3418d6c878f708fd607187cbc22896007d9ff3b0223a789cd78086290f"
+    },
+    {
+      "bytes": 10493,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/generate.py",
+      "sha256": "c57fa58087f6bee02079932dc77ebc3fb4be608f333c117b4bf1cbc939bc14bf"
+    },
+    {
+      "bytes": 1791,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/prepare.py",
+      "sha256": "596249049fd4f4f8fe5d3515e06cbace4c7225d389acba58f563ec2e5b7106ac"
+    },
+    {
+      "bytes": 679,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/src/main.sc",
+      "sha256": "ebb9444d8f4b2cd79304972558eaa8ec7ac694d297e717505dfeabad4d04f134"
+    },
+    {
+      "bytes": 23913,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/src/methods.sc.in",
+      "sha256": "7c7195fdd4a5ff2b2c922d7fd993c1f429c84c28e3b0087cef183b2c923151da"
+    },
+    {
+      "bytes": 6165,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/tests/compiled_vm.py",
+      "sha256": "91550c4c42a89f1ebd2fae92146ce1fbeb4c9bd1d325e9677dbe4544b5ccf665"
+    },
+    {
+      "bytes": 6027,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/tests/source_vm.py",
+      "sha256": "4a37dfc5f52ae9561b696005511e39cbb822c6914b7fe2a62fd9925870d6f166"
+    },
+    {
+      "bytes": 19047,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/tests/test_domain.py",
+      "sha256": "2cb3555def38d6289bab66359df7484674beed5116cfac3e8bf17c7770ecae6c"
+    },
+    {
+      "bytes": 5987,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/tests/test_validation.py",
+      "sha256": "563ef6c4d0b9e737d29f536b29aeced22b94ab4627d1c9d801e982cca1ca2a13"
+    },
+    {
+      "bytes": 4705,
+      "path": "reference/historical/literal-read/stock-sci/p12-domain-adapter/validate.py",
+      "sha256": "a4b3d3edf438d207d402e13b7655c1eed88c83bb3893945f84fd7a3af09d05d9"
+    },
+    {
+      "bytes": 11306,
+      "path": "reference/historical/literal-read-partial/cakood/p12_model.py.part",
+      "sha256": "3d45272ea67aa9a7e4c208952da8e895b40c581fff99ec5c81f0b29f3f4c6622"
+    },
+    {
+      "bytes": 8677,
+      "path": "reference/historical/literal-read-partial/stock-sci/p12-domain-adapter/src/methods-consumed-prefix.sc.in",
+      "sha256": "bcb0cf20805fff5d61f1dd0e7f161c4dfd14cc69bd0792319cf0c804082f0d4e"
+    },
+    {
+      "bytes": 4039,
+      "path": "reference/historical/literal-read-partial/tests/test_late_campaign_models.py.lines1-85.part",
+      "sha256": "df2697d758a689955ec318f28783e69365e8e9e31e68008baae7192515446b80"
+    },
+    {
+      "bytes": 6383,
+      "path": "reference/historical/literal-read-partial/tests/test_late_campaign_models.py.lines197-289.part",
+      "sha256": "59f45cee3efacafd8ee9c3ecd18e9e440ce668b671b5b0ec838c1e98a515b682"
+    },
+    {
+      "bytes": 328,
+      "path": "reference/historical/recorded-edits/p12-template-overlap-check.json",
+      "sha256": "12810c1ffc9408df22756ffda5144be8fb96eeeef4d534254ff9fa84138d5fdb"
+    },
+    {
+      "bytes": 320,
+      "path": "reference/historical/recorded-edits/p12-test-domain-overlap-check.json",
+      "sha256": "3333f385dd8b01cdf812a996e0a68b8bfd50ae1bfc52c07e3e25c52f4e1dea04"
+    },
+    {
+      "bytes": 1546,
+      "path": "reference/package.py",
+      "sha256": "d9441f25de621332a35dcd6577cd0abf09e87f198266c1d19a4d814a0bda2619"
+    },
+    {
+      "bytes": 8513,
+      "path": "reference/provenance/input-inventory.json",
+      "sha256": "3c50e212029154e6ca2f2939d70c1cc769643fb8205d3e4be82feabda4a510dc"
+    },
+    {
+      "bytes": 11460,
+      "path": "reference/provenance/reconstructed-tail.py.txt",
+      "sha256": "fce734cb2d2a219aab5b5295d312f41bd3e7f3efe6df55da6e51c8b67e6d1966"
+    },
+    {
+      "bytes": 1326,
+      "path": "historical/build.sh",
+      "sha256": "0cb144a300cd5fa0c4d1e24f98dc13f740e71f290106dbe3f89743b3fe73426a"
+    },
+    {
+      "bytes": 4167,
+      "path": "historical/codec.py",
+      "sha256": "1bd56b3418d6c878f708fd607187cbc22896007d9ff3b0223a789cd78086290f"
+    },
+    {
+      "bytes": 10493,
+      "path": "historical/generate.py",
+      "sha256": "c57fa58087f6bee02079932dc77ebc3fb4be608f333c117b4bf1cbc939bc14bf"
+    },
+    {
+      "bytes": 1791,
+      "path": "historical/prepare.py",
+      "sha256": "596249049fd4f4f8fe5d3515e06cbace4c7225d389acba58f563ec2e5b7106ac"
+    },
+    {
+      "bytes": 679,
+      "path": "historical/src/main.sc",
+      "sha256": "ebb9444d8f4b2cd79304972558eaa8ec7ac694d297e717505dfeabad4d04f134"
+    },
+    {
+      "bytes": 23913,
+      "path": "historical/src/methods.sc.in",
+      "sha256": "7c7195fdd4a5ff2b2c922d7fd993c1f429c84c28e3b0087cef183b2c923151da"
+    },
+    {
+      "bytes": 6165,
+      "path": "historical/tests/compiled_vm.py",
+      "sha256": "91550c4c42a89f1ebd2fae92146ce1fbeb4c9bd1d325e9677dbe4544b5ccf665"
+    },
+    {
+      "bytes": 6027,
+      "path": "historical/tests/source_vm.py",
+      "sha256": "4a37dfc5f52ae9561b696005511e39cbb822c6914b7fe2a62fd9925870d6f166"
+    },
+    {
+      "bytes": 19047,
+      "path": "historical/tests/test_domain.py",
+      "sha256": "2cb3555def38d6289bab66359df7484674beed5116cfac3e8bf17c7770ecae6c"
+    },
+    {
+      "bytes": 5987,
+      "path": "historical/tests/test_validation.py",
+      "sha256": "563ef6c4d0b9e737d29f536b29aeced22b94ab4627d1c9d801e982cca1ca2a13"
+    },
+    {
+      "bytes": 4705,
+      "path": "historical/validate.py",
+      "sha256": "a4b3d3edf438d207d402e13b7655c1eed88c83bb3893945f84fd7a3af09d05d9"
+    },
+    {
+      "bytes": 24465,
+      "path": "dependencies/p10-current-manifest.json",
+      "sha256": "441af1d58b9a83024b03a1dae4baa2a3c20488044678fadd9ddf997e22ea67c5"
+    },
+    {
+      "bytes": 39166,
+      "path": "dependencies/p11-current-manifest.json",
+      "sha256": "2653be9a70f7b4668107a813abdbb3d5f0afbab7c4fbe169a3f5acf79aede51b"
+    },
+    {
+      "bytes": 1580,
+      "path": "licenses/lucasartsifier-LICENSE.txt",
+      "sha256": "00b7846f206d322193c3ad1406a7cedcd82d36a0ff47a366bae2d77f4dc5d9ba"
+    },
+    {
+      "bytes": 2544,
+      "path": "licenses/lucasartsifier-NOTICE.txt",
+      "sha256": "c0bb900479fd46e78a946cb7569e7128225667b70d2674b7e9aff490f9f6098c"
+    },
+    {
+      "bytes": 17984,
+      "path": "licenses/scicompile-GPL2.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "bytes": 147616,
+      "path": "toolchain/COMPILER-DEPENDENCY-CLOSURE.json",
+      "sha256": "8f735116ee63ca6706631a93ae9cd0ae6c912ff153691cb1f8e2ac356ed293d8"
+    },
+    {
+      "bytes": 2157,
+      "path": "toolchain/README.md",
+      "sha256": "82724b5689801c6d627b8660fb91c476fe6600c98fe49ee0bb4f869be94a865f"
+    },
+    {
+      "bytes": 309547,
+      "path": "toolchain/SOURCE-MANIFEST.json",
+      "sha256": "ff596620dbfc140289fe7ca2b1d1eb39a554ac6c9a20cb626e6e70e3f0e26d9d"
+    },
+    {
+      "bytes": 2501464,
+      "path": "toolchain/scicompile",
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e"
+    },
+    {
+      "bytes": 1813,
+      "path": "toolchain/source/lucasartsifier/DOWNSTREAM-PACKAGING-NOTICE.md",
+      "sha256": "92eb9f6e080c8558a5f2d535ff1f35020630bd78705932f70ca3ec56d2c15934"
+    },
+    {
+      "bytes": 107771,
+      "path": "toolchain/source/lucasartsifier/INHERITED-PORT-CHANGES.diff",
+      "sha256": "b46487c5bff00bf3e3a5be8dcf0a1d9b191afc17174ad267b383508ee238d29e"
+    },
+    {
+      "bytes": 1580,
+      "path": "toolchain/source/lucasartsifier/LICENSE",
+      "sha256": "00b7846f206d322193c3ad1406a7cedcd82d36a0ff47a366bae2d77f4dc5d9ba"
+    },
+    {
+      "bytes": 33172,
+      "path": "toolchain/source/lucasartsifier/MODIFIED-SOURCE-PROVENANCE.json",
+      "sha256": "2aa4e095fc29a4df3ad6c0fd03c2caa84d6d2dd4b32a55a012869ae8a4851bda"
+    },
+    {
+      "bytes": 2544,
+      "path": "toolchain/source/lucasartsifier/NOTICE",
+      "sha256": "c0bb900479fd46e78a946cb7569e7128225667b70d2674b7e9aff490f9f6098c"
+    },
+    {
+      "bytes": 534,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/CRC32-NOTICE.txt",
+      "sha256": "aad5d54f08f993a6f26258ccea83dfe1544c453058eabe94ef6025564c01bba1"
+    },
+    {
+      "bytes": 3778,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/PRIMARY-SOURCES.json",
+      "sha256": "34d729ddfd97193afea51538f5a319c528dcc7cdc70b8469fb592505ec896f19"
+    },
+    {
+      "bytes": 763,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/SCICompanion-GPL2-or-later-header.txt",
+      "sha256": "943e131703cb626a1bd7945a6c586270584e4672b13f2ba97b1fbae884c790b7"
+    },
+    {
+      "bytes": 4276,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/ScummVM-6ccb7bea-COPYRIGHT",
+      "sha256": "b4f4190ee4d1249a2b777b138e3fa4fe12464a0ca38dca59b8798e3d8c689296"
+    },
+    {
+      "bytes": 2056,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/ScummVM-CODEC-NOTICE.txt",
+      "sha256": "3556743969bb76313a253e062041a5a5e4fea4727f111764ee88844ad69711fd"
+    },
+    {
+      "bytes": 4413,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/ScummVM-v1.7.0-COPYRIGHT",
+      "sha256": "aa4b11b424de8a64f0f42d6a5365c223be5fe0aafda125f7cf88ee3b42bcb60c"
+    },
+    {
+      "bytes": 1364,
+      "path": "toolchain/source/lucasartsifier/third-party-notices/fmt-BSD-2-Clause-NOTICE.txt",
+      "sha256": "5f9fa3bf29a622d6b01f58aaa7665b65ccdd0d3df68598a30b097e75d503e2a5"
+    },
+    {
+      "bytes": 11673,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/BUILD_NOTES.md",
+      "sha256": "13eb50e80ad3ce918666c33f0a7b91966a7eac9e70dcc7b771a3cc7279b44b97"
+    },
+    {
+      "bytes": 8237,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/CMakeLists.txt",
+      "sha256": "9810558343eef25b90d2c2466151095bb01c9a7e551628d2e3c50adbdebf7974"
+    },
+    {
+      "bytes": 15000,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/COMPILE_ALL_NOTES.md",
+      "sha256": "4a66bbe12c4eb5491c6c2e76b5c34ba50d1ad8019d9012646a9090f03295bbfe"
+    },
+    {
+      "bytes": 17984,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/LICENSE",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "bytes": 1656,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/AppState.cpp",
+      "sha256": "322eb1baaa47b5a966855e1d73771a2169ad15a8e1b7c77f2c9b5e0e0e3d0816"
+    },
+    {
+      "bytes": 2627,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/AppState.h",
+      "sha256": "3556deddb68045f32a28b9245267b82db3df1e70a01d462dff30ad7b33cc3067"
+    },
+    {
+      "bytes": 5035,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/CCrystalTextBuffer.h",
+      "sha256": "1bf7d5b8ad0f6661fb9735a266b1c203fc31170b5927fb942a720ebda5ac5ae0"
+    },
+    {
+      "bytes": 21894,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/CompileContext.h",
+      "sha256": "bd782f3d7a55cdfd6b95b5a83d9a394eec27c107e4676ddfc173c0b9e5d65de7"
+    },
+    {
+      "bytes": 659,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/ParserActions.h",
+      "sha256": "b44d0952d79cdb203d8653370b96b0faf52f5c3de03db6859672ebcdb95b02a6"
+    },
+    {
+      "bytes": 30458,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/ParserCommon.h",
+      "sha256": "c2adf4c409418f9f58be1e9d00fa8fac57cac967c3d9d6714e630b86ce834055"
+    },
+    {
+      "bytes": 823,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/RemoveScriptDialog.h",
+      "sha256": "b795453293baed0ec19304fbf1bc2714eceb06bd142b14d15ff26c619b9a7955"
+    },
+    {
+      "bytes": 17210,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/ResourceBlob.h",
+      "sha256": "d1871ebd997c84eb6a34d569d72bc738f2ad92ce172fb604aaf5546262200166"
+    },
+    {
+      "bytes": 23746,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/ResourceSources.h",
+      "sha256": "1e53d2006b3931f8d1e4a1c62024747bd79c9a244b40052da9823927fe5bdf86"
+    },
+    {
+      "bytes": 629,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/SCISyntaxParser.h",
+      "sha256": "74889cd798e143c12bcd82023ff380acdae1d1617b84eb1a99f9a20a65b73512"
+    },
+    {
+      "bytes": 1220,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/SaveResourceDialog.h",
+      "sha256": "7bb26a654bdb291984fed4ecf1cac83c9dd8469d4d9a429fc98ecca0bf678d78"
+    },
+    {
+      "bytes": 46440,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/ScriptOM.h",
+      "sha256": "722866406e081443e0a45fa535f21f3d5954bf91fd21f0cdc1caa0176819f115"
+    },
+    {
+      "bytes": 780,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/SourceCodeFormatter.h",
+      "sha256": "a9a2fc58a01c193d3a7c9bfaccd15ce45108ee8bd180c490dc2b2e6cedc2a9ba"
+    },
+    {
+      "bytes": 6038,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/Stream.h",
+      "sha256": "e9c246c3174251323af0cfe6b4e53230c27b72d88dd3fd3ce363e7e8edd1fd5a"
+    },
+    {
+      "bytes": 21493,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/StudioSyntaxParser.h",
+      "sha256": "a7dd541e969aa5597aac718ed38f5b24f170035ac1761145cfabf699aa90c07b"
+    },
+    {
+      "bytes": 627,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/SyntaxContext.h",
+      "sha256": "82605d0dbc55d4210d210932c99d2d0eab520335e44d4210d79efdfdddff8621"
+    },
+    {
+      "bytes": 1288,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/TlHelp32.h",
+      "sha256": "7d8ab65b3b7d2b8c49c36e3a68af36731bd53c73f3f1d53da9c271d5178f1d82"
+    },
+    {
+      "bytes": 5317,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/Vocab000.h",
+      "sha256": "d95dd022b26928c459ac6ff94c71ef380ff58c61b50012bc62f5d1a52d7b6b74"
+    },
+    {
+      "bytes": 1171,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/_parser_prologue.h",
+      "sha256": "c46d7812ec5cda71ea1d0e3ce53c664776f166d3e9d37c99001ac06708b6fc56"
+    },
+    {
+      "bytes": 1637,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/compilelog_compat.cpp",
+      "sha256": "011d1f3129899fa3139772b43edc381e13eef0f65316060fc86a06ad26210d03"
+    },
+    {
+      "bytes": 5689,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/keywords_compat.cpp",
+      "sha256": "18120258d358603cb30ecd44c09f267877d621d3173c13f040f65cc284cc88d3"
+    },
+    {
+      "bytes": 1091,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/linkstubs.cpp",
+      "sha256": "2b8bc910d6f659eb39f45d014007c3b539c9e491c4cc68119aad6f955e739392"
+    },
+    {
+      "bytes": 7376,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/linkstubs2.cpp",
+      "sha256": "e8819fc6fff1862523388f66eea9ac80fa3179b9cdfbd232e2d7fddbe96495f2"
+    },
+    {
+      "bytes": 2565,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/mfc_stubs.h",
+      "sha256": "7b41a59d3d8a686bdde03fbb7d4a2443b791515e85ee6aa2ef6607cb69a85ca6"
+    },
+    {
+      "bytes": 650,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/resource.h",
+      "sha256": "0901a2320167319a7c2dc18d6cec93df290e7f49c9c1beb317900b684e8770e9"
+    },
+    {
+      "bytes": 18437,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/sci.h",
+      "sha256": "87a764127a01f45f316e5eabae879610d2375114790e96607102f8dbef97c3dd"
+    },
+    {
+      "bytes": 9769,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/stdafx.h",
+      "sha256": "7507ee68507ee0697634739f48ba3838b2fbec89de78b8400e094a02fdc48531"
+    },
+    {
+      "bytes": 573,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/sys/poppack.h",
+      "sha256": "bd2c9a359ed5979715d3e3ad516517a36b5da456ed51fd5e0646daaba2144302"
+    },
+    {
+      "bytes": 590,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/sys/pshpack1.h",
+      "sha256": "9216a9bd347468a1e4db32812cb54b6da385110a2164078b101610e81753c7d7"
+    },
+    {
+      "bytes": 22627,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/winfile.cpp",
+      "sha256": "b3fd0655775fc4407d8130397966376d6dc8a11b464205b7e4556ce6c16b0449"
+    },
+    {
+      "bytes": 23444,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/compat/winshim.h",
+      "sha256": "7b71a49b4f1bae3744b963f65de5262d79c9282ce18eebe50165fa865f29b8b9"
+    },
+    {
+      "bytes": 25893,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/main.cpp",
+      "sha256": "c8dacb352d33f2f6fad7d70b7a628144694aa52b16bc47e4e025b683cdbbd595"
+    },
+    {
+      "bytes": 33654,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/AudioCacheResourceSource.cpp",
+      "sha256": "d69a03d709e8efff5edece385cee87e8ae95ba141fda95f72855aa616c118b0e"
+    },
+    {
+      "bytes": 9172,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/AudioResourceSource.cpp",
+      "sha256": "c5aff3bbb16aa34f5bb9ed3bb4f1db02b92e758da8e2006b73644acc20db9d6a"
+    },
+    {
+      "bytes": 60421,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/ClassBrowser.cpp",
+      "sha256": "058c450419a5d9e1e21fade28bd9eeefbdf6681aa05774d4dd705d6a2c03aae0"
+    },
+    {
+      "bytes": 155814,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/Compile.cpp",
+      "sha256": "df91f00c868cc40b01fc40f52e5d2705ec039dfe1a7db776c18e987eecd21865"
+    },
+    {
+      "bytes": 52945,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/CompileContext.cpp",
+      "sha256": "b7a6b463e7e320ce081a73dca3cafd6ee61690086a590ee2b8bbca18673e62e8"
+    },
+    {
+      "bytes": 51781,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/CompiledScript.cpp",
+      "sha256": "234d325da96af2293857e95800c122880db9efa4b06ed1c142e65d5ca4a3580e"
+    },
+    {
+      "bytes": 15718,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/GameFolderHelper.cpp",
+      "sha256": "c50833b13471764f1967e652a0685c091836b78cf50b65797c3b43249d2460b5"
+    },
+    {
+      "bytes": 23597,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/ResourceBlob.cpp",
+      "sha256": "702ab0462c6f1eb8b9ed1ec8a710e311f38496a41743c6ae9f56acbeac6b310e"
+    },
+    {
+      "bytes": 47212,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/ResourceMap.cpp",
+      "sha256": "85e491bcc1b7d570d4c95b8da2d506c79926a012dbd89b3b41db5dff0a01b484"
+    },
+    {
+      "bytes": 63999,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/SCISourceCodeFormatter.cpp",
+      "sha256": "9d482dfb6fdd4f11be8e76219a4d39dcdbc3ec5fe6261fdc1c52754bb4012fb3"
+    },
+    {
+      "bytes": 54653,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/SCISyntaxParser.cpp",
+      "sha256": "b4cf935b1d5841f3011bf8b57d8c732f33f585b64469f6e1ef013d21ee0cd49b"
+    },
+    {
+      "bytes": 26963,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/SCO.cpp",
+      "sha256": "c88d9bee569a707955d56dc6826fe6c53882db17c5ebfd0acb0f8c0638b4e564"
+    },
+    {
+      "bytes": 24182,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/ScriptOM.cpp",
+      "sha256": "8f8a2d64688a76853b9a97af6cae271d1b43f35e24b4b7ece21f12679e6fd445"
+    },
+    {
+      "bytes": 13097,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/Stream.cpp",
+      "sha256": "f01bc6600fa3618947f33fd5ed34c724e348698869873d1f04b645beeb7b2481"
+    },
+    {
+      "bytes": 4176,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/SyntaxParser.cpp",
+      "sha256": "2be17d6a7f6fb30894f2f49845e64dcefd04bf8c3b6595bc1e4f9d278748720c"
+    },
+    {
+      "bytes": 22885,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/Vocab000.cpp",
+      "sha256": "026dfe425912ba71745229494bdcc681851b54f4ce3ccb72b5dfc8dedc7e0609"
+    },
+    {
+      "bytes": 46867,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/Vocab99x.cpp",
+      "sha256": "6ab2268e45b252928798a92d1b795f890037721dcefd84a77f888b2be850ad29"
+    },
+    {
+      "bytes": 27672,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/scii.cpp",
+      "sha256": "bb8ab78c9ce3c0c23351adc2d1072dbc4e6b06469c7d3dac7da558d9b4e67d74"
+    },
+    {
+      "bytes": 36245,
+      "path": "toolchain/source/lucasartsifier/tools/scicompile/patched/util.cpp",
+      "sha256": "3765a41e3943811f393c77afbdc29faba3dd08a8b390065bac751807dcaa33c2"
+    },
+    {
+      "bytes": 557,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanion/Files/License.txt",
+      "sha256": "1c32b34d8de35c2cb4d9889703b9c6642f3c7998a151f227746f8fe49854740f"
+    },
+    {
+      "bytes": 763,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/SCICompanionLib.licenseheader",
+      "sha256": "943e131703cb626a1bd7945a6c586270584e4672b13f2ba97b1fbae884c790b7"
+    },
+    {
+      "bytes": 5610,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/CRC32/crc.cpp",
+      "sha256": "0a977f62a0077378458d2213b0f1e5ca25f751fe7a448bc1fbc6d1ed7718b7a7"
+    },
+    {
+      "bytes": 1763,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/CRC32/crc.h",
+      "sha256": "ade332b7b189d88b2f8ddc1317b63c9c172f3060e958f17573127f8726895ee3"
+    },
+    {
+      "bytes": 1455,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/AutoCompleteSourceTypes.h",
+      "sha256": "36b1827e74cf72ebf750c8a99184bc43dcfbc094a07c1eafa9a89c2e1ab7df8d"
+    },
+    {
+      "bytes": 789,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileCommon.h",
+      "sha256": "240516de78a846f7d45666ed91878fab7786e7c9c4414f9c6e137273c5dd4196"
+    },
+    {
+      "bytes": 5334,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/CompileInterfaces.h",
+      "sha256": "bcbf0289930cc64428688e3305aa241038d5f380210b272dc7a6f22378d2d86f"
+    },
+    {
+      "bytes": 11235,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/CompiledScript.h",
+      "sha256": "6ad6b2ce202fd8e5478fd667ee46122068f86f9b9aa1bc206d2761bbc074cfa7"
+    },
+    {
+      "bytes": 4279,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/DisassembleHelper.cpp",
+      "sha256": "8ade4d5dc4f69dbeca23f77ab6d0d21c237b3e8c3d8aee18833d72104e3472ab"
+    },
+    {
+      "bytes": 1334,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/DisassembleHelper.h",
+      "sha256": "50e29bcccf605f84e66a5d49b85af4a21da1e93b9f404ae9d78b6fe3eb92e4de"
+    },
+    {
+      "bytes": 23863,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Disassembler.cpp",
+      "sha256": "74e80e78085803e17835eae0934332b5e4fed3e1d9e5b2c2e8a54fcdcfc29c96"
+    },
+    {
+      "bytes": 1668,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Disassembler.h",
+      "sha256": "c3531cabe11d9686db0d38a26f5246d603d505ca770a482c74bae2863ba52271"
+    },
+    {
+      "bytes": 6557,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Evaluate.cpp",
+      "sha256": "c8b05542a192b229324c140ee01b972529d2bfc7cd833210a88962b2affe9f8a"
+    },
+    {
+      "bytes": 61309,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/GenerateScriptResource.cpp",
+      "sha256": "4ad6a8a91c4d8ae1dbf195f3799836d173801ba9507fbb7aebf3bd5136a600a4"
+    },
+    {
+      "bytes": 2113,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/NodeTypes.h",
+      "sha256": "43f2adaa2e7001792e17c78f08dbbc0856348e6fed8c085eaa7fcb1aa252ca62"
+    },
+    {
+      "bytes": 5743,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/OperatorTables.cpp",
+      "sha256": "5c4dcc17adaa9532f7ea2f75a4f7f832e1f153a460e71fb8abee93922ab6ef9b"
+    },
+    {
+      "bytes": 1229,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/OperatorTables.h",
+      "sha256": "e908d749861aacad48597b46d9c28abffc5f0184534394dd47d9a22f724b71a8"
+    },
+    {
+      "bytes": 2586,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Operators.h",
+      "sha256": "192153b236c1c928cb8978a3cd8b7d883722c4eec9e7dff3ae4c68f8e0ed84c1"
+    },
+    {
+      "bytes": 9882,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/OutputCodeHelper.cpp",
+      "sha256": "fa4de02700ca8e5eff02d78df4a7f3a288ddb33b1d50c074024fa155027d8422"
+    },
+    {
+      "bytes": 6389,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/OutputCodeHelper.h",
+      "sha256": "b818b129d4aca91a04ce6b2fc34e6b3a453ace922d20fd4cc34ac528b7fded2e"
+    },
+    {
+      "bytes": 1501,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/OutputScriptStrings.cpp",
+      "sha256": "4858d79a189f5e13aa1bd0e0fb8eccdb972c2b8aa6a843d7a6a1036fa2f28c74"
+    },
+    {
+      "bytes": 16121,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/PMachine.cpp",
+      "sha256": "ff30b221e0be816b878d0a16b361ccf396b5e5930af5575ceda2dc0f5ceea2c3"
+    },
+    {
+      "bytes": 6100,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/PMachine.h",
+      "sha256": "97e314d280d4948c76f27c979db139c334221498edc5cbc4552c188e6bf6f21c"
+    },
+    {
+      "bytes": 990,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ParseAutoCompleteContext.cpp",
+      "sha256": "6d8bd3679e5e33846d219144fb63f632f0816523dc2a385e44318da0ed00476b"
+    },
+    {
+      "bytes": 2127,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ParseAutoCompleteContext.h",
+      "sha256": "7d9fcdf747b90711a4d93fe6ab6c6308c59b2e29b415f3ad6069b882454ca422"
+    },
+    {
+      "bytes": 26861,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserActions.h",
+      "sha256": "5cbe4559c6f7653d17e5e0c20f6c2d24b827f84d0c10a4f7c3469f3b2a6b427c"
+    },
+    {
+      "bytes": 1396,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ParserCommon.cpp",
+      "sha256": "e8dcf3637bba86c69be75d017d7256be041f1794676bb99068a774ee8cf6829c"
+    },
+    {
+      "bytes": 1072,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISourceCodeFormatter.h",
+      "sha256": "eaf898e6d178a6197720fe082ef3e0fcfcd1eb9e32405d527f21e1764622b059"
+    },
+    {
+      "bytes": 4592,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SCISyntaxParser.h",
+      "sha256": "bdbccd68971d27730301423b26e8970a6bebc550e0caca285d9eccb4e0df104e"
+    },
+    {
+      "bytes": 7908,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SCO.h",
+      "sha256": "054a38cd61dbf853197b96beafde71e9c262febd0f27545b9a47d4600517c3df"
+    },
+    {
+      "bytes": 22867,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOMAll.h",
+      "sha256": "a190d8caf8cc0f2476c892603d1ef3491c1432e0513706c1746e47bc78285b68"
+    },
+    {
+      "bytes": 1803,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOMInterfaces.h",
+      "sha256": "883b6e1e1f525fb8ca3f52cfc957067cd2f964cf1ec95e0cdc4e993de7a85227"
+    },
+    {
+      "bytes": 1609,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOMSmall.h",
+      "sha256": "528652a7c36bf9aa549254dae550ba8a8224616142459f03623e1cd0d065f213"
+    },
+    {
+      "bytes": 7535,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ScriptOMTraverse.cpp",
+      "sha256": "e7aef9853e5505bc61c949c4129312fd0720948c56fc4544840009d4b3c73513"
+    },
+    {
+      "bytes": 5380,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SourceCodeFormatter.cpp",
+      "sha256": "110d71410d0feb43977505cac36a217be201e220850cbd86c0f116de17ef0c50"
+    },
+    {
+      "bytes": 2775,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SourceCodeFormatter.h",
+      "sha256": "61671d4e00209df1ce1b0265801102a0f113ff74dc305b884a1e255654cce032"
+    },
+    {
+      "bytes": 25474,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/StudioSourceCodeFormatter.cpp",
+      "sha256": "761fa4611e5006966723a91f46c696397b64b3b8f1615cc89e613da677323672"
+    },
+    {
+      "bytes": 1097,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/StudioSourceCodeFormatter.h",
+      "sha256": "bd0ee6d50bd4bdd03d9aacd0da1c0e09e6c6ba1fb8aca810d979f9565e987d33"
+    },
+    {
+      "bytes": 36021,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/StudioSyntaxParser.cpp",
+      "sha256": "1b8b3c1ccfa0d4f5fb3bd90110b13e4c4d01d722e4be00612dca1acb5ab15070"
+    },
+    {
+      "bytes": 11945,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxContext.h",
+      "sha256": "e14628cc7016271369e849d507b6715e76f7d3ac0e9136ce1730dadb88baec2f"
+    },
+    {
+      "bytes": 1191,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/SyntaxParser.h",
+      "sha256": "84a8fb2c7b8a31f178a4c3afb01fc477703561d7aa88c150310b838634292481"
+    },
+    {
+      "bytes": 8101,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Types.cpp",
+      "sha256": "6351a7a0576924b849196bc31919e263105b82ed3413f42f571874520b03596f"
+    },
+    {
+      "bytes": 4820,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/Types.h",
+      "sha256": "d19891a5be9791c7afffbf474e627e9b87bf116ea385943d5617fbb7ba1f630c"
+    },
+    {
+      "bytes": 13485,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ValidateSaid.cpp",
+      "sha256": "8dca426064fd9b2233a92a874c3270ddfbd6acd554effdc3bb9e09b4986bc34f"
+    },
+    {
+      "bytes": 112,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/ValidateSaid.h",
+      "sha256": "6f919af31116e9413d03ebeb5635d72f3c0e3d1cc3765b6d46fde511e028d8d8"
+    },
+    {
+      "bytes": 10843,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Compile/scii.h",
+      "sha256": "9160805228736861f968cc0f63f42eac66c4e9ef4a29e89d71d737c1099658a1"
+    },
+    {
+      "bytes": 34768,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/CppFormat/format.cc",
+      "sha256": "c09cba3f680d507d5252541f62d5ee3dc722eace2f541d7ca309dd109f3e2d28"
+    },
+    {
+      "bytes": 76977,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/CppFormat/format.h",
+      "sha256": "476e76147ecb87b2aeb49e22b47b197edfddc5bbe3d7423d98fa5d4cdf842a01"
+    },
+    {
+      "bytes": 6845,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Dialogs/SCIProps.cpp",
+      "sha256": "d01eeed3009263f1b9b7292bbc076c0709a6d77a73bee86206978dca66569147"
+    },
+    {
+      "bytes": 2620,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Dialogs/SCIProps.h",
+      "sha256": "20c12ff19daf04b98e12640eb48e7f836c906d8b4ba48a8d644133f3154fce84"
+    },
+    {
+      "bytes": 7752,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/FrameComponents/MessageHeaderFile.cpp",
+      "sha256": "b0ae58810a3e7284a8dc199dc75d7f8e75c404cc198e07f128053e3397787d90"
+    },
+    {
+      "bytes": 1603,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/FrameComponents/MessageHeaderFile.h",
+      "sha256": "bca1ecaaee5eac6ed22705d4e34be851444f9eaa4a3dedd3f3c67c9e2be2c246"
+    },
+    {
+      "bytes": 3525,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/FrameComponents/MessageSource.cpp",
+      "sha256": "dadaad248b59c611f6d77204b6b43099c0f0c6efabcb7a514543deb4a7484695"
+    },
+    {
+      "bytes": 1928,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/FrameComponents/MessageSource.h",
+      "sha256": "d7ab57352066ddb3ea705f97f105132330bcfa9bc45934c45c4f44ad921d5792"
+    },
+    {
+      "bytes": 2544,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Audio.h",
+      "sha256": "1e92311b3d218736909f7d9993fe9ed265675d0637d848104574bdc9fc7afd34"
+    },
+    {
+      "bytes": 3973,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioCacheResourceSource.h",
+      "sha256": "37965be15c6c0ea5f51b57fb71b5b6aa2c8b84d174a829a255b59c09e6fdc0b6"
+    },
+    {
+      "bytes": 2138,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioMap.h",
+      "sha256": "10f3d70bfd1787ef746a62e8904e6ad81d8c3986ec6c63bc1313c98af951939c"
+    },
+    {
+      "bytes": 1305,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioNegative.h",
+      "sha256": "f535b986f25b125908cf615258b4b796e31f3055c7782a03d60f5aa66ab2ec39"
+    },
+    {
+      "bytes": 3206,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/AudioResourceSource.h",
+      "sha256": "e481ea07ae5fc80aa3491394b925e3fc1d2fdf2f3311e900ced8e3d7fd56b3a9"
+    },
+    {
+      "bytes": 3089,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Components.cpp",
+      "sha256": "3e09c9af5ba4b1c05afd8ac71d1edfbfa417047d78882f91ba0524418b9a14cc"
+    },
+    {
+      "bytes": 1039,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Components.h",
+      "sha256": "be15275af17d1cdcf2c8b90ae28872ff82b9b9c044f5f2a37e6cfb03fd63e914"
+    },
+    {
+      "bytes": 865,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Cursor.h",
+      "sha256": "658f5258d71eba81bdb5b1b10d88cb2b8f124500bd40221c1fe12ce0a9edb0a5"
+    },
+    {
+      "bytes": 1485,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Font.h",
+      "sha256": "ec0ed73309e3ba486ecfec1c5f30b9a84464f6ecad968dd1f28e20de3218d63c"
+    },
+    {
+      "bytes": 4349,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/GameFolderHelper.h",
+      "sha256": "89783c2d07690658387f823bab0138325246cc1e11b9a0e56ea525ee6519267c"
+    },
+    {
+      "bytes": 2194,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Message.h",
+      "sha256": "102dd2674176a1959e6c109f3130d037fb95ae53ed05b72c1c3455d9c5e25edf"
+    },
+    {
+      "bytes": 3070,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PaletteOperations.h",
+      "sha256": "01b36de71f09f95963a31060c8ad467b8fbdeb7ef4da247e9ac3eb600296e2b1"
+    },
+    {
+      "bytes": 7042,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PatchResourceSource.cpp",
+      "sha256": "dc60dacc24aa029bd8e9752c47d1fac28138c7efd83555af9720d561f17a6ca6"
+    },
+    {
+      "bytes": 2247,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PatchResourceSource.h",
+      "sha256": "051baf14de3284c668d41cd9107d12b5d0ddf1c62c057ecb8d8d05c0fd1b5d97"
+    },
+    {
+      "bytes": 2548,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Pic.h",
+      "sha256": "9cea7e9de9ed4e7246448227dfff888a5d49e52cd1ce558c5236715840e2d014"
+    },
+    {
+      "bytes": 22591,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PicCommands.h",
+      "sha256": "80bc53ffefea99ac05367489198370e571be645a9e327ae722da3eed601426c2"
+    },
+    {
+      "bytes": 1217,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PicCommandsCommon.h",
+      "sha256": "949f29f1f83f79010d76db44d4789bbd823aec95435d4492950930567c55fe50"
+    },
+    {
+      "bytes": 2188,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/PicOperations.h",
+      "sha256": "0eaa6fca0c6d5b0773dce02ee8f4e678577c80674507fe6bc9c78f3edd1560a5"
+    },
+    {
+      "bytes": 5246,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/RasterOperations.h",
+      "sha256": "d60d3bf7b4376adce223e7147ec045f3ec5c635626f62f1f9ec0aebc8774b046"
+    },
+    {
+      "bytes": 7929,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceContainer.cpp",
+      "sha256": "257cffc7c8df06ebe746f53d467bdf6ab5406742b38d31df07b65eb919e53a28"
+    },
+    {
+      "bytes": 14491,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceContainer.h",
+      "sha256": "a24308c1a9a785e8c29f3057d1c2d43c15a56d6990d61e3f1aea538e5a138304"
+    },
+    {
+      "bytes": 3094,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceEntity.cpp",
+      "sha256": "01250494e0f0e02a473979d1791c99c999b8880a47cba0c156a9d5d7c73fdb88"
+    },
+    {
+      "bytes": 5333,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceEntity.h",
+      "sha256": "75c3d3580573690c22cc93b6b61a6274a0a8e43e4f2e074990d8baff71837dad"
+    },
+    {
+      "bytes": 7766,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMap.h",
+      "sha256": "a334b897256680e06bfb5323d40235468c540ebec178f03bfbab6ef1b5bd51d1"
+    },
+    {
+      "bytes": 1242,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMapEvents.h",
+      "sha256": "03d23990837442fd07cf4f89ec356aefa4a9c8ff5df86e70ecb118fb69debffd"
+    },
+    {
+      "bytes": 10988,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMapOperations.cpp",
+      "sha256": "fef06c78b259fa18ab9a5c8988981d8c4008569c16feba5c08b264b194b72830"
+    },
+    {
+      "bytes": 1173,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceMapOperations.h",
+      "sha256": "6489e02110f743003cad9a68c452003ad94172e6caea4ed0c66edc1897c53efb"
+    },
+    {
+      "bytes": 4713,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceRecency.cpp",
+      "sha256": "8e00c9ad44002da243f1aec13216c10de045ac7826a5f9afeda580a5fe7534d7"
+    },
+    {
+      "bytes": 2309,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceRecency.h",
+      "sha256": "054352c6b228e5b78e798ed7643f4dcc8e142bc8687a8dc5dc470c94f42d917d"
+    },
+    {
+      "bytes": 1262,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceSourceFlags.h",
+      "sha256": "7a8f77ad96f669be3d4929a66de2dc4b5c82c0f04ca81329962d716d66bb641d"
+    },
+    {
+      "bytes": 2810,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceSources.cpp",
+      "sha256": "1a3ffd783fb2dc613947b86ae6abe18f35b878a9b9055192e767de6860033e8d"
+    },
+    {
+      "bytes": 5889,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceUtil.cpp",
+      "sha256": "6fa919bfe94ffd11be22fa3a0d6144f42ea6c93a8eb40764ec8a5b23c887d616"
+    },
+    {
+      "bytes": 2278,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/ResourceUtil.h",
+      "sha256": "8857ba33d305900f691868789da759f5c283c46ececb9760cd09e537f228417f"
+    },
+    {
+      "bytes": 9355,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Sound.h",
+      "sha256": "9d07d5326214be999c747cfc3219f0a79c88d5890da66407a205b0f615a84dd7"
+    },
+    {
+      "bytes": 2029,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Sync.h",
+      "sha256": "5787920c1b8bb31167c5e977faf21b2b8d98f6bc5e69b23d96afb286364bf59b"
+    },
+    {
+      "bytes": 5013,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Text.cpp",
+      "sha256": "9b32887a4ef6e1a3b0e53789148524cfa4af50e834aaaafd97e363e3c99939e8"
+    },
+    {
+      "bytes": 2911,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Text.h",
+      "sha256": "a19bc315a4227ca218eba1e3592fc8aaf602e007737dbddcd4ed9d3fe13e8c5d"
+    },
+    {
+      "bytes": 750,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/VersionDetectionHelper.h",
+      "sha256": "c67748efa70011a0be78923ab77106c33435b24c751c53d59da10e498dc0279a"
+    },
+    {
+      "bytes": 6002,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/View.h",
+      "sha256": "d5ed3192ceb12c62058b4192cfed17ec8b6b383ff39cb7bc37f4f8023efb33df"
+    },
+    {
+      "bytes": 5445,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Resources/Vocab99x.h",
+      "sha256": "a1d1c61e5147411f6691325d5d60e37b3193e3d3c01ccd846862bf86295589dd"
+    },
+    {
+      "bytes": 1366,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/AudioProcessingSettings.h",
+      "sha256": "3a294adf85ebeb76f3d8f1b094f13e65f744cb5fa232105e4be095cedc9204e4"
+    },
+    {
+      "bytes": 9926,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/ClassBrowser.h",
+      "sha256": "39e15c49af0581d2252b6d891e564db77afa16503a71a10e268cb5af2bdf17ba"
+    },
+    {
+      "bytes": 3031,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/ClassBrowserInfo.cpp",
+      "sha256": "ae3b6ab606bd66563fd240e88099c0295593718865b825cf6225cb2b76262b64"
+    },
+    {
+      "bytes": 2595,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/ClassBrowserInfo.h",
+      "sha256": "ca2047d310f1942152821b679c79f22d52d471860ed8845b430380f7e24f3924"
+    },
+    {
+      "bytes": 26068,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodeAutoComplete.cpp",
+      "sha256": "17e502b69927020206fd1459b8c2f5d10584b46f329eca5f5d2fd06f2f39259b"
+    },
+    {
+      "bytes": 4093,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodeAutoComplete.h",
+      "sha256": "6bf9800f0f817532bfa14b8bbfba378272c3d194fd4e5d6841f07a34cd9c0028"
+    },
+    {
+      "bytes": 12253,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/Codec.cpp",
+      "sha256": "616eb7119ad52e8d46a07543850ba434eaded2171faa7dcbbecd9acc4c558cdf"
+    },
+    {
+      "bytes": 3035,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/Codec.h",
+      "sha256": "b60ec49271e4344c3e06c7975c3468bd62e24c9bcb4df73a8116a39e9cdd0987"
+    },
+    {
+      "bytes": 9083,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecAlt.cpp",
+      "sha256": "fff1ad9ada53c8790f8924009d1fc98dd878ba19e354c8cd35d5880c0a191533"
+    },
+    {
+      "bytes": 201,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecAlt.h",
+      "sha256": "7f9d78a73d75082f47da6f9e84ba0c8a979bd94f37bfe70884da5dac58220b8c"
+    },
+    {
+      "bytes": 16197,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecDCL.cpp",
+      "sha256": "1b2f8094e64a632c0fe3c0fc18d733462d7ba01612f48db4beadfc72e663de89"
+    },
+    {
+      "bytes": 1400,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecDecompressor.cpp",
+      "sha256": "da36e7c21202ccd7043b0ac966b725c6fb4ed7073b0dd6b4808befd55bcd7c45"
+    },
+    {
+      "bytes": 1756,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecDecompressor.h",
+      "sha256": "4ee3cf29404e8fdacae314c23699e868d0ede4f9c61c3edf8c7970b3d2400fa7"
+    },
+    {
+      "bytes": 2889,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CodecSTAC.cpp",
+      "sha256": "0f8f346cd80bbf7544eb197e74a30be14c7a2b71b244d138a1aa5a4d653fd2d1"
+    },
+    {
+      "bytes": 9550,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CrystalScriptStream.cpp",
+      "sha256": "88f493e5ab12b5822d8c8d2318c88571109423d46924f77914aeb683eaac98df"
+    },
+    {
+      "bytes": 5007,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/CrystalScriptStream.h",
+      "sha256": "ba296fea4b0559e306eca91e22de615a57f0a9c366d0ee6c5d64dfbab2f81048"
+    },
+    {
+      "bytes": 1498,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/DebuggerThread.h",
+      "sha256": "9d0579a2bf4e42033b0e0906a75db0c2ad59731d3510526822021b20198e362c"
+    },
+    {
+      "bytes": 3707,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/DependencyTracker.cpp",
+      "sha256": "0df37669fbe8285b2865bfc1d3316489780355d0d44f39dca78cce2fb92f8b1c"
+    },
+    {
+      "bytes": 1928,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/DependencyTracker.h",
+      "sha256": "e919280bc58253b9c4c35f415124dad0b95a2c428b6bbfabb8f797be0bd106b3"
+    },
+    {
+      "bytes": 893,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/PerfTimer.h",
+      "sha256": "4c3de1541a16be2fac78a2eb9aa52580de585197f7488adb9b9f0642526b742a"
+    },
+    {
+      "bytes": 1268,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/PostBuildThread.h",
+      "sha256": "7a44d59d3d6da8f710dd9dd2a6fe07b9ed2181f95ece964526de3ee8abffcbd6"
+    },
+    {
+      "bytes": 7936,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/RunLogic.cpp",
+      "sha256": "c0d8f7ec38a1c5059e7fdbaed2db4a5670a79e15395dbbd460f808e36aca2e81"
+    },
+    {
+      "bytes": 1943,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/RunLogic.h",
+      "sha256": "465a6b2de745d7f1282735d7a524329a8296edc6e3246c3d2de4b0f0a5ff2c00"
+    },
+    {
+      "bytes": 1850,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/SoundUtil.h",
+      "sha256": "674456dde50a42d06f95d2744f9ca9518eff3763ac66bc649487a61f9bad1490"
+    },
+    {
+      "bytes": 8116,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/StlUtil.h",
+      "sha256": "37572f61918f57c49b880ed50609e3e5e3a300739bdc1f840e6f7455375c63ce"
+    },
+    {
+      "bytes": 3206,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/StringUtil.h",
+      "sha256": "659eff40cf7e241bac12ea29025e3aa94be7e93ee9bbb6b60d91f9cd4551a8ea"
+    },
+    {
+      "bytes": 3497,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/TalkerToViewMap.cpp",
+      "sha256": "07624a2da71cfc9bf1c45d805909cf8ea2002fead50641de5e429a0f03301b8d"
+    },
+    {
+      "bytes": 1142,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/TalkerToViewMap.h",
+      "sha256": "f28317d2bdbe9d4b8f6a670a89ff99a7722e07e5f0aa2da6ee2f2399a55df6a2"
+    },
+    {
+      "bytes": 7662,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/Task.h",
+      "sha256": "ec7a6c0dbcbc81ff752fd4d0d927afc3d86d838ade304179b41d855aeb1750a7"
+    },
+    {
+      "bytes": 7057,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/TokenDatabase.cpp",
+      "sha256": "a6baf1922258c3d4ce796271c69bbdfa604dfa1672fa60f891bbdc3255c27849"
+    },
+    {
+      "bytes": 1628,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/TokenDatabase.h",
+      "sha256": "6bc59e99bd6a8363e6acf2c57590a16fa9de75b1452f129bb8a4a6a2d686227d"
+    },
+    {
+      "bytes": 6677,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/Version.cpp",
+      "sha256": "7358b7a36823e948134596f929a0f8a2f0be81866ab13ed30aed0e6c7363002e"
+    },
+    {
+      "bytes": 3986,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/Version.h",
+      "sha256": "995b15b3ce123d4d9c142de9f24ed9957de09596b3f6075c30ff7ccd11aa1888"
+    },
+    {
+      "bytes": 768,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/WindowsUtil.h",
+      "sha256": "67281ad986c4f78456e4e54a8d06d90c46b0214082d90a7cf5072dbdc64bb2b0"
+    },
+    {
+      "bytes": 872,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/Util/interfaces.h",
+      "sha256": "225c337592feb6ab2f3259f49ce2004b1a7a117ab79aa50e1758bc991caf14bb"
+    },
+    {
+      "bytes": 1056,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/cpptoml/LICENSE",
+      "sha256": "e020e5d4f3e7c2a49b66822b3c3fb99aba9a04f3d2edb3907c493976436f876c"
+    },
+    {
+      "bytes": 47108,
+      "path": "toolchain/source/lucasartsifier/vendor/SCICompanion/SCICompanionLib/Src/cpptoml/cpptoml.h",
+      "sha256": "e2c255bfa5e9b910e0cebd82aaa55f4e97255b7f40a2d155256938952b4109cc"
+    },
+    {
+      "bytes": 851,
+      "path": "docs/COMPILER-BUILD.json",
+      "sha256": "c2cd20c27fd9a7c5722d36c7e3592c9669f0f7f60fab446d4046c46c9eeb871e"
+    },
+    {
+      "bytes": 58060,
+      "path": "docs/COMPILER-RIGHTS.json",
+      "sha256": "c9aeabdc894c847c9a56ec745e1dc75007e9517511eeec706168d7925df84ecd"
+    },
+    {
+      "bytes": 2487,
+      "path": "licenses/COMPILER-CLOSURE-NOTICES.json",
+      "sha256": "cfae7351cc05f383eec1472781ff5af45c5eb11a64ac7e88d3235f94ff2fd85d"
+    }
+  ]
+}

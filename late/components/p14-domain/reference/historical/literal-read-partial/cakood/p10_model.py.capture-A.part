@@ -1,0 +1,55 @@
+    acknowledgments certify only the exact contiguous speech prefix shown.
+    """
+    presentations: dict[str, _Receipt] = field(default_factory=dict)
+    revision: int = 0
+    _epoch: str = field(default_factory=lambda: uuid4().hex, init=False, repr=False, compare=False)
+    PUZZLE: ClassVar[str]
+    KIND: ClassVar[str]
+    SOURCES: ClassVar[dict[str, str]]
+    UNITS: ClassVar[dict[str, tuple[str, ...]]]
+    SPEAKERS: ClassVar[dict[str, str]]
+
+    def _tokens(self, source: str) -> tuple[str, ...]:
+        record = self.SOURCES[source]
+        return self.UNITS.get(record) or (record,)
+
+    def _complete(self, source: str) -> bool:
+        p = self.presentations.get(source)
+        return p is not None and tuple(p.receipts) == self._tokens(source)
+
+    def _handle(self, source: str) -> str:
+        return f"{self.PUZZLE}:{self._epoch}:{source}:{self.presentations[source].serial}"
+
+    def _result(self, code: str, *records: str) -> CaptionResult:
+        self.validate()
+        if any(r not in self.UNITS for r in records):
+            raise ValueError("Unknown canonical record")
+        return CaptionResult("", (), code, tuple(records))
+
+    def _commit(self, code: str, event_id: str, kind: str = "object", *,
+                records: tuple[str, ...] = (), **payload: Any) -> CaptionResult:
+        self.revision += 1
+        self.validate()
+        return CaptionResult("", (Event(event_id, kind,
+            {"serial": self.revision, "puzzle": self.PUZZLE, **payload}),), code, records)
+
+    def _presentation_block(self, context: Any, source: str, tokens: tuple[str, ...]) -> CaptionResult | None:
+        raise NotImplementedError
+
+    def begin_presentation(self, context: Any, source: str) -> CaptionResult:
+        if type(source) is not str or source not in self.SOURCES:
+            raise ValueError("Unknown presentation source")
+        block = self._presentation_block(context, source, self._tokens(source))
+        if block is not None:
+            return block
+        if source in self.presentations:
+            if self._complete(source):
+                return self._result("presentation_complete", self.SOURCES[source])
+            return self.resume_presentation(context, source)
+        self.revision += 1
+        self.presentations[source] = _Receipt(self.revision)
+        shown = self.resume_presentation(context, source)
+        return CaptionResult("", (Event(self.PUZZLE + "_PRESENTATION_QUEUED", "presentation",
+            {"serial": self.revision, "puzzle": self.PUZZLE, "source": source}),),
+            shown.code, shown.line_ids, shown.speech_unit_ids, shown.presentation_id)
+

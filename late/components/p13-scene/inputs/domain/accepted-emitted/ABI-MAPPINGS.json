@@ -1,0 +1,7286 @@
+{
+  "selectors": [
+    {
+      "name": "name",
+      "selector_id": 0
+    },
+    {
+      "name": "p13Initialized",
+      "selector_id": 1
+    },
+    {
+      "name": "p13WrongSource",
+      "selector_id": 2
+    },
+    {
+      "name": "p13RevisionHi",
+      "selector_id": 3
+    },
+    {
+      "name": "p13RevisionLo",
+      "selector_id": 4
+    },
+    {
+      "name": "p13StartHi",
+      "selector_id": 5
+    },
+    {
+      "name": "p13StartLo",
+      "selector_id": 6
+    },
+    {
+      "name": "p13ProgramHi",
+      "selector_id": 7
+    },
+    {
+      "name": "p13ProgramLo",
+      "selector_id": 8
+    },
+    {
+      "name": "p13SeatedHi",
+      "selector_id": 9
+    },
+    {
+      "name": "p13SeatedLo",
+      "selector_id": 10
+    },
+    {
+      "name": "p13PotHi",
+      "selector_id": 11
+    },
+    {
+      "name": "p13PotLo",
+      "selector_id": 12
+    },
+    {
+      "name": "p13ServedHi",
+      "selector_id": 13
+    },
+    {
+      "name": "p13ServedLo",
+      "selector_id": 14
+    },
+    {
+      "name": "p13DisplayHi",
+      "selector_id": 15
+    },
+    {
+      "name": "p13DisplayLo",
+      "selector_id": 16
+    },
+    {
+      "name": "p13ScreenHi",
+      "selector_id": 17
+    },
+    {
+      "name": "p13ScreenLo",
+      "selector_id": 18
+    },
+    {
+      "name": "p13ShowHi",
+      "selector_id": 19
+    },
+    {
+      "name": "p13ShowLo",
+      "selector_id": 20
+    },
+    {
+      "name": "p13BoardHi",
+      "selector_id": 21
+    },
+    {
+      "name": "p13BoardLo",
+      "selector_id": 22
+    },
+    {
+      "name": "p13ToastHi",
+      "selector_id": 23
+    },
+    {
+      "name": "p13ToastLo",
+      "selector_id": 24
+    },
+    {
+      "name": "p13ContestRequestHi",
+      "selector_id": 25
+    },
+    {
+      "name": "p13ContestRequestLo",
+      "selector_id": 26
+    },
+    {
+      "name": "p13WrongHi",
+      "selector_id": 27
+    },
+    {
+      "name": "p13WrongLo",
+      "selector_id": 28
+    },
+    {
+      "name": "p13WrongVisualHi",
+      "selector_id": 29
+    },
+    {
+      "name": "p13WrongVisualLo",
+      "selector_id": 30
+    },
+    {
+      "name": "p13LaughHi",
+      "selector_id": 31
+    },
+    {
+      "name": "p13LaughLo",
+      "selector_id": 32
+    },
+    {
+      "name": "p13ServeSaveHi",
+      "selector_id": 33
+    },
+    {
+      "name": "p13ServeSaveLo",
+      "selector_id": 34
+    },
+    {
+      "name": "p13ShowSaveHi",
+      "selector_id": 35
+    },
+    {
+      "name": "p13ShowSaveLo",
+      "selector_id": 36
+    },
+    {
+      "name": "p13ToastSaveHi",
+      "selector_id": 37
+    },
+    {
+      "name": "p13ToastSaveLo",
+      "selector_id": 38
+    },
+    {
+      "name": "p13AttemptsHi",
+      "selector_id": 39
+    },
+    {
+      "name": "p13AttemptsLo",
+      "selector_id": 40
+    },
+    {
+      "name": "p13OpeningStartHi",
+      "selector_id": 41
+    },
+    {
+      "name": "p13OpeningStartLo",
+      "selector_id": 42
+    },
+    {
+      "name": "p13RackStartHi",
+      "selector_id": 43
+    },
+    {
+      "name": "p13RackStartLo",
+      "selector_id": 44
+    },
+    {
+      "name": "p13ServePreviewStartHi",
+      "selector_id": 45
+    },
+    {
+      "name": "p13ServePreviewStartLo",
+      "selector_id": 46
+    },
+    {
+      "name": "p13ShowPreviewStartHi",
+      "selector_id": 47
+    },
+    {
+      "name": "p13ShowPreviewStartLo",
+      "selector_id": 48
+    },
+    {
+      "name": "p13ToastPreviewStartHi",
+      "selector_id": 49
+    },
+    {
+      "name": "p13ToastPreviewStartLo",
+      "selector_id": 50
+    },
+    {
+      "name": "p13ProgramStartHi",
+      "selector_id": 51
+    },
+    {
+      "name": "p13ProgramStartLo",
+      "selector_id": 52
+    },
+    {
+      "name": "p13PotHelpStartHi",
+      "selector_id": 53
+    },
+    {
+      "name": "p13PotHelpStartLo",
+      "selector_id": 54
+    },
+    {
+      "name": "p13DisplayHelpStartHi",
+      "selector_id": 55
+    },
+    {
+      "name": "p13DisplayHelpStartLo",
+      "selector_id": 56
+    },
+    {
+      "name": "p13BoardHelpStartHi",
+      "selector_id": 57
+    },
+    {
+      "name": "p13BoardHelpStartLo",
+      "selector_id": 58
+    },
+    {
+      "name": "p13RitaReadyStartHi",
+      "selector_id": 59
+    },
+    {
+      "name": "p13RitaReadyStartLo",
+      "selector_id": 60
+    },
+    {
+      "name": "p13RevealStartHi",
+      "selector_id": 61
+    },
+    {
+      "name": "p13RevealStartLo",
+      "selector_id": 62
+    },
+    {
+      "name": "p13AttentionStartHi",
+      "selector_id": 63
+    },
+    {
+      "name": "p13AttentionStartLo",
+      "selector_id": 64
+    },
+    {
+      "name": "p13WrongPotStartHi",
+      "selector_id": 65
+    },
+    {
+      "name": "p13WrongPotStartLo",
+      "selector_id": 66
+    },
+    {
+      "name": "p13WrongPeopleStartHi",
+      "selector_id": 67
+    },
+    {
+      "name": "p13WrongPeopleStartLo",
+      "selector_id": 68
+    },
+    {
+      "name": "p13WrongDisplayStartHi",
+      "selector_id": 69
+    },
+    {
+      "name": "p13WrongDisplayStartLo",
+      "selector_id": 70
+    },
+    {
+      "name": "p13OpeningReceipt1Hi",
+      "selector_id": 71
+    },
+    {
+      "name": "p13OpeningReceipt1Lo",
+      "selector_id": 72
+    },
+    {
+      "name": "p13OpeningReceipt2Hi",
+      "selector_id": 73
+    },
+    {
+      "name": "p13OpeningReceipt2Lo",
+      "selector_id": 74
+    },
+    {
+      "name": "p13OpeningReceipt3Hi",
+      "selector_id": 75
+    },
+    {
+      "name": "p13OpeningReceipt3Lo",
+      "selector_id": 76
+    },
+    {
+      "name": "p13RackReceipt1Hi",
+      "selector_id": 77
+    },
+    {
+      "name": "p13RackReceipt1Lo",
+      "selector_id": 78
+    },
+    {
+      "name": "p13ServePreviewReceipt1Hi",
+      "selector_id": 79
+    },
+    {
+      "name": "p13ServePreviewReceipt1Lo",
+      "selector_id": 80
+    },
+    {
+      "name": "p13ShowPreviewReceipt1Hi",
+      "selector_id": 81
+    },
+    {
+      "name": "p13ShowPreviewReceipt1Lo",
+      "selector_id": 82
+    },
+    {
+      "name": "p13ToastPreviewReceipt1Hi",
+      "selector_id": 83
+    },
+    {
+      "name": "p13ToastPreviewReceipt1Lo",
+      "selector_id": 84
+    },
+    {
+      "name": "p13ProgramReceipt1Hi",
+      "selector_id": 85
+    },
+    {
+      "name": "p13ProgramReceipt1Lo",
+      "selector_id": 86
+    },
+    {
+      "name": "p13PotHelpReceipt1Hi",
+      "selector_id": 87
+    },
+    {
+      "name": "p13PotHelpReceipt1Lo",
+      "selector_id": 88
+    },
+    {
+      "name": "p13DisplayHelpReceipt1Hi",
+      "selector_id": 89
+    },
+    {
+      "name": "p13DisplayHelpReceipt1Lo",
+      "selector_id": 90
+    },
+    {
+      "name": "p13BoardHelpReceipt1Hi",
+      "selector_id": 91
+    },
+    {
+      "name": "p13BoardHelpReceipt1Lo",
+      "selector_id": 92
+    },
+    {
+      "name": "p13RitaReadyReceipt1Hi",
+      "selector_id": 93
+    },
+    {
+      "name": "p13RitaReadyReceipt1Lo",
+      "selector_id": 94
+    },
+    {
+      "name": "p13RevealReceipt1Hi",
+      "selector_id": 95
+    },
+    {
+      "name": "p13RevealReceipt1Lo",
+      "selector_id": 96
+    },
+    {
+      "name": "p13RevealReceipt2Hi",
+      "selector_id": 97
+    },
+    {
+      "name": "p13RevealReceipt2Lo",
+      "selector_id": 98
+    },
+    {
+      "name": "p13RevealReceipt3Hi",
+      "selector_id": 99
+    },
+    {
+      "name": "p13RevealReceipt3Lo",
+      "selector_id": 100
+    },
+    {
+      "name": "p13RevealReceipt4Hi",
+      "selector_id": 101
+    },
+    {
+      "name": "p13RevealReceipt4Lo",
+      "selector_id": 102
+    },
+    {
+      "name": "p13RevealReceipt5Hi",
+      "selector_id": 103
+    },
+    {
+      "name": "p13RevealReceipt5Lo",
+      "selector_id": 104
+    },
+    {
+      "name": "p13AttentionReceipt1Hi",
+      "selector_id": 105
+    },
+    {
+      "name": "p13AttentionReceipt1Lo",
+      "selector_id": 106
+    },
+    {
+      "name": "p13WrongPotReceipt1Hi",
+      "selector_id": 107
+    },
+    {
+      "name": "p13WrongPotReceipt1Lo",
+      "selector_id": 108
+    },
+    {
+      "name": "p13WrongPeopleReceipt1Hi",
+      "selector_id": 109
+    },
+    {
+      "name": "p13WrongPeopleReceipt1Lo",
+      "selector_id": 110
+    },
+    {
+      "name": "p13WrongDisplayReceipt1Hi",
+      "selector_id": 111
+    },
+    {
+      "name": "p13WrongDisplayReceipt1Lo",
+      "selector_id": 112
+    },
+    {
+      "name": "p13ContextValid",
+      "selector_id": 113
+    },
+    {
+      "name": "p13Room",
+      "selector_id": 114
+    },
+    {
+      "name": "p13Apron",
+      "selector_id": 115
+    },
+    {
+      "name": "p13IntroductionClear",
+      "selector_id": 116
+    },
+    {
+      "name": "p13FoodReady",
+      "selector_id": 117
+    },
+    {
+      "name": "p13DisplayStaged",
+      "selector_id": 118
+    },
+    {
+      "name": "p13HelpAccepted",
+      "selector_id": 119
+    },
+    {
+      "name": "p13EveningStarted",
+      "selector_id": 120
+    },
+    {
+      "name": "p13WelcomeCleared",
+      "selector_id": 121
+    },
+    {
+      "name": "p13QueueClear",
+      "selector_id": 122
+    },
+    {
+      "name": "p13BuffetAtHatch",
+      "selector_id": 123
+    },
+    {
+      "name": "p13HatchVisible",
+      "selector_id": 124
+    },
+    {
+      "name": "p13DisplayConcealed",
+      "selector_id": 125
+    },
+    {
+      "name": "p13LaneClear",
+      "selector_id": 126
+    },
+    {
+      "name": "p13FootprintClear",
+      "selector_id": 127
+    },
+    {
+      "name": "p13BoardRoom",
+      "selector_id": 128
+    },
+    {
+      "name": "p13RigRoom",
+      "selector_id": 129
+    },
+    {
+      "name": "p13Connected",
+      "selector_id": 130
+    },
+    {
+      "name": "p13Mic",
+      "selector_id": 131
+    },
+    {
+      "name": "p13Inward",
+      "selector_id": 132
+    },
+    {
+      "name": "p13ContestActive",
+      "selector_id": 133
+    },
+    {
+      "name": "p13VC04Resolved",
+      "selector_id": 134
+    },
+    {
+      "name": "p13BunnyRoom",
+      "selector_id": 135
+    },
+    {
+      "name": "p13FrankieRoom",
+      "selector_id": 136
+    },
+    {
+      "name": "p13MiloRoom",
+      "selector_id": 137
+    },
+    {
+      "name": "p13VivianRoom",
+      "selector_id": 138
+    },
+    {
+      "name": "p13RitaRoom",
+      "selector_id": 139
+    },
+    {
+      "name": "p13FelixRoom",
+      "selector_id": 140
+    },
+    {
+      "name": "p13StringerRoom",
+      "selector_id": 141
+    },
+    {
+      "name": "p13GatePresent",
+      "selector_id": 142
+    },
+    {
+      "name": "p13PegID",
+      "selector_id": 143
+    },
+    {
+      "name": "p13PegRoom",
+      "selector_id": 144
+    },
+    {
+      "name": "p13GateTested",
+      "selector_id": 145
+    },
+    {
+      "name": "p13PegAvailable",
+      "selector_id": 146
+    },
+    {
+      "name": "p13PegEngaged",
+      "selector_id": 147
+    },
+    {
+      "name": "p13GateOpen",
+      "selector_id": 148
+    },
+    {
+      "name": "p13WedgeInGate",
+      "selector_id": 149
+    },
+    {
+      "name": "p13Epoch",
+      "selector_id": 150
+    },
+    {
+      "name": "p13Code",
+      "selector_id": 151
+    },
+    {
+      "name": "p13LineCount",
+      "selector_id": 152
+    },
+    {
+      "name": "p13UnitCount",
+      "selector_id": 153
+    },
+    {
+      "name": "p13EventCount",
+      "selector_id": 154
+    },
+    {
+      "name": "p13ResultHi",
+      "selector_id": 155
+    },
+    {
+      "name": "p13ResultLo",
+      "selector_id": 156
+    },
+    {
+      "name": "p13PresentationSource",
+      "selector_id": 157
+    },
+    {
+      "name": "p13PresentationHi",
+      "selector_id": 158
+    },
+    {
+      "name": "p13PresentationLo",
+      "selector_id": 159
+    },
+    {
+      "name": "p13SerialHi",
+      "selector_id": 160
+    },
+    {
+      "name": "p13SerialLo",
+      "selector_id": 161
+    },
+    {
+      "name": "p13SetSerial",
+      "selector_id": 162
+    },
+    {
+      "name": "p13Capacity",
+      "selector_id": 163
+    },
+    {
+      "name": "p13ReceiptBase",
+      "selector_id": 164
+    },
+    {
+      "name": "p13SourceRecord",
+      "selector_id": 165
+    },
+    {
+      "name": "p13Token",
+      "selector_id": 166
+    },
+    {
+      "name": "p13TokenUnit",
+      "selector_id": 167
+    },
+    {
+      "name": "p13TokenSpeaker",
+      "selector_id": 168
+    },
+    {
+      "name": "p13ActorRoom",
+      "selector_id": 169
+    },
+    {
+      "name": "p13CueSlot",
+      "selector_id": 170
+    },
+    {
+      "name": "p13ContextItem",
+      "selector_id": 171
+    },
+    {
+      "name": "p13Context",
+      "selector_id": 172
+    },
+    {
+      "name": "p13Clear",
+      "selector_id": 173
+    },
+    {
+      "name": "p13Init",
+      "selector_id": 174
+    },
+    {
+      "name": "p13AppendLine",
+      "selector_id": 175
+    },
+    {
+      "name": "p13Line",
+      "selector_id": 176
+    },
+    {
+      "name": "p13Unit",
+      "selector_id": 177
+    },
+    {
+      "name": "p13Event",
+      "selector_id": 178
+    },
+    {
+      "name": "p13EventSerialHi",
+      "selector_id": 179
+    },
+    {
+      "name": "p13EventSerialLo",
+      "selector_id": 180
+    },
+    {
+      "name": "p13EventArg",
+      "selector_id": 181
+    },
+    {
+      "name": "p13Status",
+      "selector_id": 182
+    },
+    {
+      "name": "p13Invalidate",
+      "selector_id": 183
+    },
+    {
+      "name": "p13Start",
+      "selector_id": 184
+    },
+    {
+      "name": "p13CanCommit",
+      "selector_id": 185
+    },
+    {
+      "name": "p13Commit",
+      "selector_id": 186
+    },
+    {
+      "name": "p13Stamp",
+      "selector_id": 187
+    },
+    {
+      "name": "p13Emit",
+      "selector_id": 188
+    },
+    {
+      "name": "p13Present",
+      "selector_id": 189
+    },
+    {
+      "name": "p13Equal",
+      "selector_id": 190
+    },
+    {
+      "name": "p13Earlier",
+      "selector_id": 191
+    },
+    {
+      "name": "p13Count",
+      "selector_id": 192
+    },
+    {
+      "name": "p13Complete",
+      "selector_id": 193
+    },
+    {
+      "name": "p13Pending",
+      "selector_id": 194
+    },
+    {
+      "name": "p13Resume",
+      "selector_id": 195
+    },
+    {
+      "name": "p13BeginInternal",
+      "selector_id": 196
+    },
+    {
+      "name": "p13Begin",
+      "selector_id": 197
+    },
+    {
+      "name": "p13Acknowledge",
+      "selector_id": 198
+    },
+    {
+      "name": "p13SourceRank",
+      "selector_id": 199
+    },
+    {
+      "name": "p13PendingAt",
+      "selector_id": 200
+    },
+    {
+      "name": "p13JournalAt",
+      "selector_id": 201
+    },
+    {
+      "name": "p13AfterRestore",
+      "selector_id": 202
+    },
+    {
+      "name": "p13Scene",
+      "selector_id": 203
+    },
+    {
+      "name": "p13BaseBlock",
+      "selector_id": 204
+    },
+    {
+      "name": "p13WorkingRig",
+      "selector_id": 205
+    },
+    {
+      "name": "p13Block",
+      "selector_id": 206
+    },
+    {
+      "name": "p13Handoff",
+      "selector_id": 207
+    },
+    {
+      "name": "p13Attempt",
+      "selector_id": 208
+    },
+    {
+      "name": "p13RouteFeedback",
+      "selector_id": 209
+    },
+    {
+      "name": "p13GiveProgram",
+      "selector_id": 210
+    },
+    {
+      "name": "p13ConfirmSeating",
+      "selector_id": 211
+    },
+    {
+      "name": "p13DeliverPot",
+      "selector_id": 212
+    },
+    {
+      "name": "p13Cue",
+      "selector_id": 213
+    },
+    {
+      "name": "p13PullServe",
+      "selector_id": 214
+    },
+    {
+      "name": "p13DeliverDisplay",
+      "selector_id": 215
+    },
+    {
+      "name": "p13OpenScreen",
+      "selector_id": 216
+    },
+    {
+      "name": "p13PullShow",
+      "selector_id": 217
+    },
+    {
+      "name": "p13DeliverBoard",
+      "selector_id": 218
+    },
+    {
+      "name": "p13RequestContest",
+      "selector_id": 219
+    },
+    {
+      "name": "p13FinishContestRequest",
+      "selector_id": 220
+    },
+    {
+      "name": "p13PullToast",
+      "selector_id": 221
+    },
+    {
+      "name": "p13AcknowledgeAutosave",
+      "selector_id": 222
+    },
+    {
+      "name": "p13AcknowledgeWrongVisual",
+      "selector_id": 223
+    },
+    {
+      "name": "p13ClaimLaugh",
+      "selector_id": 224
+    },
+    {
+      "name": "p13ProtectFurniture",
+      "selector_id": 225
+    },
+    {
+      "name": "p13Preview",
+      "selector_id": 226
+    },
+    {
+      "name": "p13Hint",
+      "selector_id": 227
+    },
+    {
+      "name": "p13AudioFinished",
+      "selector_id": 228
+    },
+    {
+      "name": "p13Cancel",
+      "selector_id": 229
+    },
+    {
+      "name": "p13Act",
+      "selector_id": 230
+    },
+    {
+      "name": "p13Served",
+      "selector_id": 231
+    },
+    {
+      "name": "p13ShowComplete",
+      "selector_id": 232
+    },
+    {
+      "name": "p13Ready",
+      "selector_id": 233
+    },
+    {
+      "name": "p13RitaConsented",
+      "selector_id": 234
+    },
+    {
+      "name": "p13ContestEligible",
+      "selector_id": 235
+    },
+    {
+      "name": "p13PotDelivered",
+      "selector_id": 236
+    },
+    {
+      "name": "p13DisplayDelivered",
+      "selector_id": 237
+    },
+    {
+      "name": "p13BoardLocation",
+      "selector_id": 238
+    },
+    {
+      "name": "p13InventoryAt",
+      "selector_id": 239
+    },
+    {
+      "name": "p13ReservedAt",
+      "selector_id": 240
+    },
+    {
+      "name": "p13PendingSaveAt",
+      "selector_id": 241
+    },
+    {
+      "name": "p13PendingContestHi",
+      "selector_id": 242
+    },
+    {
+      "name": "p13PendingContestLo",
+      "selector_id": 243
+    },
+    {
+      "name": "p13PendingWrongHi",
+      "selector_id": 244
+    },
+    {
+      "name": "p13PendingWrongLo",
+      "selector_id": 245
+    },
+    {
+      "name": "p13DoneSlot",
+      "selector_id": 246
+    },
+    {
+      "name": "p13ValidateContext",
+      "selector_id": 247
+    },
+    {
+      "name": "p13Validate",
+      "selector_id": 248
+    },
+    {
+      "name": "p13PreviewWord",
+      "selector_id": 249
+    },
+    {
+      "name": "p13PreviewMarker",
+      "selector_id": 250
+    },
+    {
+      "name": "p13BlockedLayout",
+      "selector_id": 251
+    },
+    {
+      "name": "-objID-",
+      "selector_id": 4096
+    },
+    {
+      "name": "-size-",
+      "selector_id": 4097
+    },
+    {
+      "name": "-propDict-",
+      "selector_id": 4098
+    },
+    {
+      "name": "-methDict-",
+      "selector_id": 4099
+    },
+    {
+      "name": "-classScript-",
+      "selector_id": 4100
+    },
+    {
+      "name": "-script-",
+      "selector_id": 4101
+    },
+    {
+      "name": "-super-",
+      "selector_id": 4102
+    },
+    {
+      "name": "-info-",
+      "selector_id": 4103
+    }
+  ],
+  "modules": {
+    "0": {
+      "source": "tools/compiler-main.sc",
+      "sha256": "609d4cb5b0b6872eaeb3c454dab97fd1009abebec04f107a491741043560673d",
+      "local_words": 1,
+      "locals": [
+        {
+          "name": "p10HarnessGlobals",
+          "word_offset": 0,
+          "byte_offset": 0,
+          "word_count": 1,
+          "initial_words": [
+            0
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "P10HarnessRoot",
+          "properties": [
+            {
+              "index": 0,
+              "heap_offset": 6,
+              "selector_id": 4096,
+              "selector": "-objID-",
+              "raw_value": 4660,
+              "signed_value": 4660
+            },
+            {
+              "index": 1,
+              "heap_offset": 8,
+              "selector_id": 4097,
+              "selector": "-size-",
+              "raw_value": 9,
+              "signed_value": 9
+            },
+            {
+              "index": 2,
+              "heap_offset": 10,
+              "selector_id": 4098,
+              "selector": "-propDict-",
+              "raw_value": 8,
+              "signed_value": 8
+            },
+            {
+              "index": 3,
+              "heap_offset": 12,
+              "selector_id": 4099,
+              "selector": "-methDict-",
+              "raw_value": 26,
+              "signed_value": 26
+            },
+            {
+              "index": 4,
+              "heap_offset": 14,
+              "selector_id": 4100,
+              "selector": "-classScript-",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 5,
+              "heap_offset": 16,
+              "selector_id": 4101,
+              "selector": "-script-",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 6,
+              "heap_offset": 18,
+              "selector_id": 4102,
+              "selector": "-super-",
+              "raw_value": 65535,
+              "signed_value": -1
+            },
+            {
+              "index": 7,
+              "heap_offset": 20,
+              "selector_id": 4103,
+              "selector": "-info-",
+              "raw_value": 32768,
+              "signed_value": -32768
+            },
+            {
+              "index": 8,
+              "heap_offset": 22,
+              "selector_id": 0,
+              "selector": "name",
+              "raw_value": 26,
+              "signed_value": 26
+            }
+          ],
+          "methods": []
+        }
+      ],
+      "reference_layout": {
+        "format": "SCI1.1",
+        "script": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p13-domain-reconstruction/build/isolated/compiled/0.scr.bin",
+        "heap": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p13-domain-reconstruction/build/isolated/compiled/0.scr.bin.hep",
+        "script_sha256": "ecda277fb0927c184c60b4e866b2144fabd11f0b1c97a003190667df32804319",
+        "heap_sha256": "9b2313a3e3d1ec2b254684c0f44ab1c1888593de63a69da645bd4c2e85a712c3",
+        "script_relocation_offset": 28,
+        "script_relocations": [],
+        "heap_relocation_offset": 42,
+        "heap_relocations": [
+          22
+        ],
+        "locals_heap_offset": 4,
+        "locals_word_count": 1,
+        "locals": [
+          0
+        ],
+        "exports": [],
+        "objects": [
+          {
+            "name": "P10HarnessRoot",
+            "heap_offset": 6,
+            "property_count": 9,
+            "property_selector_offset": 8,
+            "method_table_offset": 26,
+            "is_class": true,
+            "species": 0,
+            "superclass": 65535,
+            "properties": [
+              {
+                "index": 0,
+                "heap_offset": 6,
+                "selector_id": 4096,
+                "selector": "-objID-",
+                "raw_value": 4660,
+                "signed_value": 4660
+              },
+              {
+                "index": 1,
+                "heap_offset": 8,
+                "selector_id": 4097,
+                "selector": "-size-",
+                "raw_value": 9,
+                "signed_value": 9
+              },
+              {
+                "index": 2,
+                "heap_offset": 10,
+                "selector_id": 4098,
+                "selector": "-propDict-",
+                "raw_value": 8,
+                "signed_value": 8
+              },
+              {
+                "index": 3,
+                "heap_offset": 12,
+                "selector_id": 4099,
+                "selector": "-methDict-",
+                "raw_value": 26,
+                "signed_value": 26
+              },
+              {
+                "index": 4,
+                "heap_offset": 14,
+                "selector_id": 4100,
+                "selector": "-classScript-",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 5,
+                "heap_offset": 16,
+                "selector_id": 4101,
+                "selector": "-script-",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 6,
+                "heap_offset": 18,
+                "selector_id": 4102,
+                "selector": "-super-",
+                "raw_value": 65535,
+                "signed_value": -1
+              },
+              {
+                "index": 7,
+                "heap_offset": 20,
+                "selector_id": 4103,
+                "selector": "-info-",
+                "raw_value": 32768,
+                "signed_value": -32768
+              },
+              {
+                "index": 8,
+                "heap_offset": 22,
+                "selector_id": 0,
+                "selector": "name",
+                "raw_value": 26,
+                "signed_value": 26
+              }
+            ],
+            "methods": []
+          }
+        ],
+        "strings_start": 26
+      }
+    },
+    "995": {
+      "source": "src/module995.sc",
+      "sha256": "30ab37d67b40228ffdcd84c72afe855dc02756f898ab297203035b0eaba46f53",
+      "local_words": 476,
+      "locals": [
+        {
+          "name": "p13Lines",
+          "word_offset": 0,
+          "byte_offset": 0,
+          "word_count": 3,
+          "initial_words": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13Units",
+          "word_offset": 3,
+          "byte_offset": 6,
+          "word_count": 8,
+          "initial_words": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13Events",
+          "word_offset": 11,
+          "byte_offset": 22,
+          "word_count": 2,
+          "initial_words": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13EventArgs",
+          "word_offset": 13,
+          "byte_offset": 26,
+          "word_count": 8,
+          "initial_words": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13EventHi",
+          "word_offset": 21,
+          "byte_offset": 42,
+          "word_count": 2,
+          "initial_words": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13EventLo",
+          "word_offset": 23,
+          "byte_offset": 46,
+          "word_count": 2,
+          "initial_words": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13Held",
+          "word_offset": 25,
+          "byte_offset": 50,
+          "word_count": 435,
+          "initial_words": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "p13Lease",
+          "word_offset": 460,
+          "byte_offset": 920,
+          "word_count": 16,
+          "initial_words": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "P13State",
+          "properties": [
+            {
+              "index": 0,
+              "heap_offset": 956,
+              "selector_id": 4096,
+              "selector": "-objID-",
+              "raw_value": 4660,
+              "signed_value": 4660
+            },
+            {
+              "index": 1,
+              "heap_offset": 958,
+              "selector_id": 4097,
+              "selector": "-size-",
+              "raw_value": 168,
+              "signed_value": 168
+            },
+            {
+              "index": 2,
+              "heap_offset": 960,
+              "selector_id": 4098,
+              "selector": "-propDict-",
+              "raw_value": 10,
+              "signed_value": 10
+            },
+            {
+              "index": 3,
+              "heap_offset": 962,
+              "selector_id": 4099,
+              "selector": "-methDict-",
+              "raw_value": 346,
+              "signed_value": 346
+            },
+            {
+              "index": 4,
+              "heap_offset": 964,
+              "selector_id": 4100,
+              "selector": "-classScript-",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 5,
+              "heap_offset": 966,
+              "selector_id": 4101,
+              "selector": "-script-",
+              "raw_value": 1,
+              "signed_value": 1
+            },
+            {
+              "index": 6,
+              "heap_offset": 968,
+              "selector_id": 4102,
+              "selector": "-super-",
+              "raw_value": 65535,
+              "signed_value": -1
+            },
+            {
+              "index": 7,
+              "heap_offset": 970,
+              "selector_id": 4103,
+              "selector": "-info-",
+              "raw_value": 32768,
+              "signed_value": -32768
+            },
+            {
+              "index": 8,
+              "heap_offset": 972,
+              "selector_id": 0,
+              "selector": "name",
+              "raw_value": 1630,
+              "signed_value": 1630
+            },
+            {
+              "index": 9,
+              "heap_offset": 974,
+              "selector_id": 1,
+              "selector": "p13Initialized",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 10,
+              "heap_offset": 976,
+              "selector_id": 2,
+              "selector": "p13WrongSource",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 11,
+              "heap_offset": 978,
+              "selector_id": 3,
+              "selector": "p13RevisionHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 12,
+              "heap_offset": 980,
+              "selector_id": 4,
+              "selector": "p13RevisionLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 13,
+              "heap_offset": 982,
+              "selector_id": 5,
+              "selector": "p13StartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 14,
+              "heap_offset": 984,
+              "selector_id": 6,
+              "selector": "p13StartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 15,
+              "heap_offset": 986,
+              "selector_id": 7,
+              "selector": "p13ProgramHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 16,
+              "heap_offset": 988,
+              "selector_id": 8,
+              "selector": "p13ProgramLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 17,
+              "heap_offset": 990,
+              "selector_id": 9,
+              "selector": "p13SeatedHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 18,
+              "heap_offset": 992,
+              "selector_id": 10,
+              "selector": "p13SeatedLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 19,
+              "heap_offset": 994,
+              "selector_id": 11,
+              "selector": "p13PotHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 20,
+              "heap_offset": 996,
+              "selector_id": 12,
+              "selector": "p13PotLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 21,
+              "heap_offset": 998,
+              "selector_id": 13,
+              "selector": "p13ServedHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 22,
+              "heap_offset": 1000,
+              "selector_id": 14,
+              "selector": "p13ServedLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 23,
+              "heap_offset": 1002,
+              "selector_id": 15,
+              "selector": "p13DisplayHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 24,
+              "heap_offset": 1004,
+              "selector_id": 16,
+              "selector": "p13DisplayLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 25,
+              "heap_offset": 1006,
+              "selector_id": 17,
+              "selector": "p13ScreenHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 26,
+              "heap_offset": 1008,
+              "selector_id": 18,
+              "selector": "p13ScreenLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 27,
+              "heap_offset": 1010,
+              "selector_id": 19,
+              "selector": "p13ShowHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 28,
+              "heap_offset": 1012,
+              "selector_id": 20,
+              "selector": "p13ShowLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 29,
+              "heap_offset": 1014,
+              "selector_id": 21,
+              "selector": "p13BoardHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 30,
+              "heap_offset": 1016,
+              "selector_id": 22,
+              "selector": "p13BoardLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 31,
+              "heap_offset": 1018,
+              "selector_id": 23,
+              "selector": "p13ToastHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 32,
+              "heap_offset": 1020,
+              "selector_id": 24,
+              "selector": "p13ToastLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 33,
+              "heap_offset": 1022,
+              "selector_id": 25,
+              "selector": "p13ContestRequestHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 34,
+              "heap_offset": 1024,
+              "selector_id": 26,
+              "selector": "p13ContestRequestLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 35,
+              "heap_offset": 1026,
+              "selector_id": 27,
+              "selector": "p13WrongHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 36,
+              "heap_offset": 1028,
+              "selector_id": 28,
+              "selector": "p13WrongLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 37,
+              "heap_offset": 1030,
+              "selector_id": 29,
+              "selector": "p13WrongVisualHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 38,
+              "heap_offset": 1032,
+              "selector_id": 30,
+              "selector": "p13WrongVisualLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 39,
+              "heap_offset": 1034,
+              "selector_id": 31,
+              "selector": "p13LaughHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 40,
+              "heap_offset": 1036,
+              "selector_id": 32,
+              "selector": "p13LaughLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 41,
+              "heap_offset": 1038,
+              "selector_id": 33,
+              "selector": "p13ServeSaveHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 42,
+              "heap_offset": 1040,
+              "selector_id": 34,
+              "selector": "p13ServeSaveLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 43,
+              "heap_offset": 1042,
+              "selector_id": 35,
+              "selector": "p13ShowSaveHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 44,
+              "heap_offset": 1044,
+              "selector_id": 36,
+              "selector": "p13ShowSaveLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 45,
+              "heap_offset": 1046,
+              "selector_id": 37,
+              "selector": "p13ToastSaveHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 46,
+              "heap_offset": 1048,
+              "selector_id": 38,
+              "selector": "p13ToastSaveLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 47,
+              "heap_offset": 1050,
+              "selector_id": 39,
+              "selector": "p13AttemptsHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 48,
+              "heap_offset": 1052,
+              "selector_id": 40,
+              "selector": "p13AttemptsLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 49,
+              "heap_offset": 1054,
+              "selector_id": 41,
+              "selector": "p13OpeningStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 50,
+              "heap_offset": 1056,
+              "selector_id": 42,
+              "selector": "p13OpeningStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 51,
+              "heap_offset": 1058,
+              "selector_id": 43,
+              "selector": "p13RackStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 52,
+              "heap_offset": 1060,
+              "selector_id": 44,
+              "selector": "p13RackStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 53,
+              "heap_offset": 1062,
+              "selector_id": 45,
+              "selector": "p13ServePreviewStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 54,
+              "heap_offset": 1064,
+              "selector_id": 46,
+              "selector": "p13ServePreviewStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 55,
+              "heap_offset": 1066,
+              "selector_id": 47,
+              "selector": "p13ShowPreviewStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 56,
+              "heap_offset": 1068,
+              "selector_id": 48,
+              "selector": "p13ShowPreviewStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 57,
+              "heap_offset": 1070,
+              "selector_id": 49,
+              "selector": "p13ToastPreviewStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 58,
+              "heap_offset": 1072,
+              "selector_id": 50,
+              "selector": "p13ToastPreviewStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 59,
+              "heap_offset": 1074,
+              "selector_id": 51,
+              "selector": "p13ProgramStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 60,
+              "heap_offset": 1076,
+              "selector_id": 52,
+              "selector": "p13ProgramStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 61,
+              "heap_offset": 1078,
+              "selector_id": 53,
+              "selector": "p13PotHelpStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 62,
+              "heap_offset": 1080,
+              "selector_id": 54,
+              "selector": "p13PotHelpStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 63,
+              "heap_offset": 1082,
+              "selector_id": 55,
+              "selector": "p13DisplayHelpStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 64,
+              "heap_offset": 1084,
+              "selector_id": 56,
+              "selector": "p13DisplayHelpStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 65,
+              "heap_offset": 1086,
+              "selector_id": 57,
+              "selector": "p13BoardHelpStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 66,
+              "heap_offset": 1088,
+              "selector_id": 58,
+              "selector": "p13BoardHelpStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 67,
+              "heap_offset": 1090,
+              "selector_id": 59,
+              "selector": "p13RitaReadyStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 68,
+              "heap_offset": 1092,
+              "selector_id": 60,
+              "selector": "p13RitaReadyStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 69,
+              "heap_offset": 1094,
+              "selector_id": 61,
+              "selector": "p13RevealStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 70,
+              "heap_offset": 1096,
+              "selector_id": 62,
+              "selector": "p13RevealStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 71,
+              "heap_offset": 1098,
+              "selector_id": 63,
+              "selector": "p13AttentionStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 72,
+              "heap_offset": 1100,
+              "selector_id": 64,
+              "selector": "p13AttentionStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 73,
+              "heap_offset": 1102,
+              "selector_id": 65,
+              "selector": "p13WrongPotStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 74,
+              "heap_offset": 1104,
+              "selector_id": 66,
+              "selector": "p13WrongPotStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 75,
+              "heap_offset": 1106,
+              "selector_id": 67,
+              "selector": "p13WrongPeopleStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 76,
+              "heap_offset": 1108,
+              "selector_id": 68,
+              "selector": "p13WrongPeopleStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 77,
+              "heap_offset": 1110,
+              "selector_id": 69,
+              "selector": "p13WrongDisplayStartHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 78,
+              "heap_offset": 1112,
+              "selector_id": 70,
+              "selector": "p13WrongDisplayStartLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 79,
+              "heap_offset": 1114,
+              "selector_id": 71,
+              "selector": "p13OpeningReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 80,
+              "heap_offset": 1116,
+              "selector_id": 72,
+              "selector": "p13OpeningReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 81,
+              "heap_offset": 1118,
+              "selector_id": 73,
+              "selector": "p13OpeningReceipt2Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 82,
+              "heap_offset": 1120,
+              "selector_id": 74,
+              "selector": "p13OpeningReceipt2Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 83,
+              "heap_offset": 1122,
+              "selector_id": 75,
+              "selector": "p13OpeningReceipt3Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 84,
+              "heap_offset": 1124,
+              "selector_id": 76,
+              "selector": "p13OpeningReceipt3Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 85,
+              "heap_offset": 1126,
+              "selector_id": 77,
+              "selector": "p13RackReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 86,
+              "heap_offset": 1128,
+              "selector_id": 78,
+              "selector": "p13RackReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 87,
+              "heap_offset": 1130,
+              "selector_id": 79,
+              "selector": "p13ServePreviewReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 88,
+              "heap_offset": 1132,
+              "selector_id": 80,
+              "selector": "p13ServePreviewReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 89,
+              "heap_offset": 1134,
+              "selector_id": 81,
+              "selector": "p13ShowPreviewReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 90,
+              "heap_offset": 1136,
+              "selector_id": 82,
+              "selector": "p13ShowPreviewReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 91,
+              "heap_offset": 1138,
+              "selector_id": 83,
+              "selector": "p13ToastPreviewReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 92,
+              "heap_offset": 1140,
+              "selector_id": 84,
+              "selector": "p13ToastPreviewReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 93,
+              "heap_offset": 1142,
+              "selector_id": 85,
+              "selector": "p13ProgramReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 94,
+              "heap_offset": 1144,
+              "selector_id": 86,
+              "selector": "p13ProgramReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 95,
+              "heap_offset": 1146,
+              "selector_id": 87,
+              "selector": "p13PotHelpReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 96,
+              "heap_offset": 1148,
+              "selector_id": 88,
+              "selector": "p13PotHelpReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 97,
+              "heap_offset": 1150,
+              "selector_id": 89,
+              "selector": "p13DisplayHelpReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 98,
+              "heap_offset": 1152,
+              "selector_id": 90,
+              "selector": "p13DisplayHelpReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 99,
+              "heap_offset": 1154,
+              "selector_id": 91,
+              "selector": "p13BoardHelpReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 100,
+              "heap_offset": 1156,
+              "selector_id": 92,
+              "selector": "p13BoardHelpReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 101,
+              "heap_offset": 1158,
+              "selector_id": 93,
+              "selector": "p13RitaReadyReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 102,
+              "heap_offset": 1160,
+              "selector_id": 94,
+              "selector": "p13RitaReadyReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 103,
+              "heap_offset": 1162,
+              "selector_id": 95,
+              "selector": "p13RevealReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 104,
+              "heap_offset": 1164,
+              "selector_id": 96,
+              "selector": "p13RevealReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 105,
+              "heap_offset": 1166,
+              "selector_id": 97,
+              "selector": "p13RevealReceipt2Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 106,
+              "heap_offset": 1168,
+              "selector_id": 98,
+              "selector": "p13RevealReceipt2Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 107,
+              "heap_offset": 1170,
+              "selector_id": 99,
+              "selector": "p13RevealReceipt3Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 108,
+              "heap_offset": 1172,
+              "selector_id": 100,
+              "selector": "p13RevealReceipt3Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 109,
+              "heap_offset": 1174,
+              "selector_id": 101,
+              "selector": "p13RevealReceipt4Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 110,
+              "heap_offset": 1176,
+              "selector_id": 102,
+              "selector": "p13RevealReceipt4Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 111,
+              "heap_offset": 1178,
+              "selector_id": 103,
+              "selector": "p13RevealReceipt5Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 112,
+              "heap_offset": 1180,
+              "selector_id": 104,
+              "selector": "p13RevealReceipt5Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 113,
+              "heap_offset": 1182,
+              "selector_id": 105,
+              "selector": "p13AttentionReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 114,
+              "heap_offset": 1184,
+              "selector_id": 106,
+              "selector": "p13AttentionReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 115,
+              "heap_offset": 1186,
+              "selector_id": 107,
+              "selector": "p13WrongPotReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 116,
+              "heap_offset": 1188,
+              "selector_id": 108,
+              "selector": "p13WrongPotReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 117,
+              "heap_offset": 1190,
+              "selector_id": 109,
+              "selector": "p13WrongPeopleReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 118,
+              "heap_offset": 1192,
+              "selector_id": 110,
+              "selector": "p13WrongPeopleReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 119,
+              "heap_offset": 1194,
+              "selector_id": 111,
+              "selector": "p13WrongDisplayReceipt1Hi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 120,
+              "heap_offset": 1196,
+              "selector_id": 112,
+              "selector": "p13WrongDisplayReceipt1Lo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 121,
+              "heap_offset": 1198,
+              "selector_id": 113,
+              "selector": "p13ContextValid",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 122,
+              "heap_offset": 1200,
+              "selector_id": 114,
+              "selector": "p13Room",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 123,
+              "heap_offset": 1202,
+              "selector_id": 115,
+              "selector": "p13Apron",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 124,
+              "heap_offset": 1204,
+              "selector_id": 116,
+              "selector": "p13IntroductionClear",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 125,
+              "heap_offset": 1206,
+              "selector_id": 117,
+              "selector": "p13FoodReady",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 126,
+              "heap_offset": 1208,
+              "selector_id": 118,
+              "selector": "p13DisplayStaged",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 127,
+              "heap_offset": 1210,
+              "selector_id": 119,
+              "selector": "p13HelpAccepted",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 128,
+              "heap_offset": 1212,
+              "selector_id": 120,
+              "selector": "p13EveningStarted",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 129,
+              "heap_offset": 1214,
+              "selector_id": 121,
+              "selector": "p13WelcomeCleared",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 130,
+              "heap_offset": 1216,
+              "selector_id": 122,
+              "selector": "p13QueueClear",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 131,
+              "heap_offset": 1218,
+              "selector_id": 123,
+              "selector": "p13BuffetAtHatch",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 132,
+              "heap_offset": 1220,
+              "selector_id": 124,
+              "selector": "p13HatchVisible",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 133,
+              "heap_offset": 1222,
+              "selector_id": 125,
+              "selector": "p13DisplayConcealed",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 134,
+              "heap_offset": 1224,
+              "selector_id": 126,
+              "selector": "p13LaneClear",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 135,
+              "heap_offset": 1226,
+              "selector_id": 127,
+              "selector": "p13FootprintClear",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 136,
+              "heap_offset": 1228,
+              "selector_id": 128,
+              "selector": "p13BoardRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 137,
+              "heap_offset": 1230,
+              "selector_id": 129,
+              "selector": "p13RigRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 138,
+              "heap_offset": 1232,
+              "selector_id": 130,
+              "selector": "p13Connected",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 139,
+              "heap_offset": 1234,
+              "selector_id": 131,
+              "selector": "p13Mic",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 140,
+              "heap_offset": 1236,
+              "selector_id": 132,
+              "selector": "p13Inward",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 141,
+              "heap_offset": 1238,
+              "selector_id": 133,
+              "selector": "p13ContestActive",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 142,
+              "heap_offset": 1240,
+              "selector_id": 134,
+              "selector": "p13VC04Resolved",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 143,
+              "heap_offset": 1242,
+              "selector_id": 135,
+              "selector": "p13BunnyRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 144,
+              "heap_offset": 1244,
+              "selector_id": 136,
+              "selector": "p13FrankieRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 145,
+              "heap_offset": 1246,
+              "selector_id": 137,
+              "selector": "p13MiloRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 146,
+              "heap_offset": 1248,
+              "selector_id": 138,
+              "selector": "p13VivianRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 147,
+              "heap_offset": 1250,
+              "selector_id": 139,
+              "selector": "p13RitaRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 148,
+              "heap_offset": 1252,
+              "selector_id": 140,
+              "selector": "p13FelixRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 149,
+              "heap_offset": 1254,
+              "selector_id": 141,
+              "selector": "p13StringerRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 150,
+              "heap_offset": 1256,
+              "selector_id": 142,
+              "selector": "p13GatePresent",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 151,
+              "heap_offset": 1258,
+              "selector_id": 143,
+              "selector": "p13PegID",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 152,
+              "heap_offset": 1260,
+              "selector_id": 144,
+              "selector": "p13PegRoom",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 153,
+              "heap_offset": 1262,
+              "selector_id": 145,
+              "selector": "p13GateTested",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 154,
+              "heap_offset": 1264,
+              "selector_id": 146,
+              "selector": "p13PegAvailable",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 155,
+              "heap_offset": 1266,
+              "selector_id": 147,
+              "selector": "p13PegEngaged",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 156,
+              "heap_offset": 1268,
+              "selector_id": 148,
+              "selector": "p13GateOpen",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 157,
+              "heap_offset": 1270,
+              "selector_id": 149,
+              "selector": "p13WedgeInGate",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 158,
+              "heap_offset": 1272,
+              "selector_id": 150,
+              "selector": "p13Epoch",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 159,
+              "heap_offset": 1274,
+              "selector_id": 151,
+              "selector": "p13Code",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 160,
+              "heap_offset": 1276,
+              "selector_id": 152,
+              "selector": "p13LineCount",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 161,
+              "heap_offset": 1278,
+              "selector_id": 153,
+              "selector": "p13UnitCount",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 162,
+              "heap_offset": 1280,
+              "selector_id": 154,
+              "selector": "p13EventCount",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 163,
+              "heap_offset": 1282,
+              "selector_id": 155,
+              "selector": "p13ResultHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 164,
+              "heap_offset": 1284,
+              "selector_id": 156,
+              "selector": "p13ResultLo",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 165,
+              "heap_offset": 1286,
+              "selector_id": 157,
+              "selector": "p13PresentationSource",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 166,
+              "heap_offset": 1288,
+              "selector_id": 158,
+              "selector": "p13PresentationHi",
+              "raw_value": 0,
+              "signed_value": 0
+            },
+            {
+              "index": 167,
+              "heap_offset": 1290,
+              "selector_id": 159,
+              "selector": "p13PresentationLo",
+              "raw_value": 0,
+              "signed_value": 0
+            }
+          ],
+          "methods": [
+            {
+              "selector": "p13SerialHi",
+              "selector_id": 160,
+              "code_offset": 718
+            },
+            {
+              "selector": "p13SerialLo",
+              "selector_id": 161,
+              "code_offset": 1461
+            },
+            {
+              "selector": "p13SetSerial",
+              "selector_id": 162,
+              "code_offset": 2205
+            },
+            {
+              "selector": "p13Capacity",
+              "selector_id": 163,
+              "code_offset": 3193
+            },
+            {
+              "selector": "p13ReceiptBase",
+              "selector_id": 164,
+              "code_offset": 3387
+            },
+            {
+              "selector": "p13SourceRecord",
+              "selector_id": 165,
+              "code_offset": 3581
+            },
+            {
+              "selector": "p13Token",
+              "selector_id": 166,
+              "code_offset": 3775
+            },
+            {
+              "selector": "p13TokenUnit",
+              "selector_id": 167,
+              "code_offset": 4182
+            },
+            {
+              "selector": "p13TokenSpeaker",
+              "selector_id": 168,
+              "code_offset": 4454
+            },
+            {
+              "selector": "p13ActorRoom",
+              "selector_id": 169,
+              "code_offset": 4726
+            },
+            {
+              "selector": "p13CueSlot",
+              "selector_id": 170,
+              "code_offset": 4827
+            },
+            {
+              "selector": "p13ContextItem",
+              "selector_id": 171,
+              "code_offset": 4873
+            },
+            {
+              "selector": "p13Context",
+              "selector_id": 172,
+              "code_offset": 6291
+            },
+            {
+              "selector": "p13Clear",
+              "selector_id": 173,
+              "code_offset": 7180
+            },
+            {
+              "selector": "p13Init",
+              "selector_id": 174,
+              "code_offset": 7320
+            },
+            {
+              "selector": "p13AppendLine",
+              "selector_id": 175,
+              "code_offset": 7344
+            },
+            {
+              "selector": "p13Line",
+              "selector_id": 176,
+              "code_offset": 7382
+            },
+            {
+              "selector": "p13Unit",
+              "selector_id": 177,
+              "code_offset": 7405
+            },
+            {
+              "selector": "p13Event",
+              "selector_id": 178,
+              "code_offset": 7428
+            },
+            {
+              "selector": "p13EventSerialHi",
+              "selector_id": 179,
+              "code_offset": 7451
+            },
+            {
+              "selector": "p13EventSerialLo",
+              "selector_id": 180,
+              "code_offset": 7474
+            },
+            {
+              "selector": "p13EventArg",
+              "selector_id": 181,
+              "code_offset": 7497
+            },
+            {
+              "selector": "p13Status",
+              "selector_id": 182,
+              "code_offset": 7541
+            },
+            {
+              "selector": "p13Invalidate",
+              "selector_id": 183,
+              "code_offset": 7561
+            },
+            {
+              "selector": "p13Start",
+              "selector_id": 184,
+              "code_offset": 7598
+            },
+            {
+              "selector": "p13CanCommit",
+              "selector_id": 185,
+              "code_offset": 7642
+            },
+            {
+              "selector": "p13Commit",
+              "selector_id": 186,
+              "code_offset": 7672
+            },
+            {
+              "selector": "p13Stamp",
+              "selector_id": 187,
+              "code_offset": 7703
+            },
+            {
+              "selector": "p13Emit",
+              "selector_id": 188,
+              "code_offset": 7717
+            },
+            {
+              "selector": "p13Present",
+              "selector_id": 189,
+              "code_offset": 7798
+            },
+            {
+              "selector": "p13Equal",
+              "selector_id": 190,
+              "code_offset": 7819
+            },
+            {
+              "selector": "p13Earlier",
+              "selector_id": 191,
+              "code_offset": 7858
+            },
+            {
+              "selector": "p13Count",
+              "selector_id": 192,
+              "code_offset": 7913
+            },
+            {
+              "selector": "p13Complete",
+              "selector_id": 193,
+              "code_offset": 7969
+            },
+            {
+              "selector": "p13Pending",
+              "selector_id": 194,
+              "code_offset": 8002
+            },
+            {
+              "selector": "p13Resume",
+              "selector_id": 195,
+              "code_offset": 8208
+            },
+            {
+              "selector": "p13BeginInternal",
+              "selector_id": 196,
+              "code_offset": 8277
+            },
+            {
+              "selector": "p13Begin",
+              "selector_id": 197,
+              "code_offset": 8412
+            },
+            {
+              "selector": "p13Acknowledge",
+              "selector_id": 198,
+              "code_offset": 8459
+            },
+            {
+              "selector": "p13SourceRank",
+              "selector_id": 199,
+              "code_offset": 8924
+            },
+            {
+              "selector": "p13PendingAt",
+              "selector_id": 200,
+              "code_offset": 9023
+            },
+            {
+              "selector": "p13JournalAt",
+              "selector_id": 201,
+              "code_offset": 9084
+            },
+            {
+              "selector": "p13AfterRestore",
+              "selector_id": 202,
+              "code_offset": 9212
+            },
+            {
+              "selector": "p13Scene",
+              "selector_id": 203,
+              "code_offset": 9259
+            },
+            {
+              "selector": "p13BaseBlock",
+              "selector_id": 204,
+              "code_offset": 9296
+            },
+            {
+              "selector": "p13WorkingRig",
+              "selector_id": 205,
+              "code_offset": 9366
+            },
+            {
+              "selector": "p13Block",
+              "selector_id": 206,
+              "code_offset": 9390
+            },
+            {
+              "selector": "p13Handoff",
+              "selector_id": 207,
+              "code_offset": 9674
+            },
+            {
+              "selector": "p13Attempt",
+              "selector_id": 208,
+              "code_offset": 9960
+            },
+            {
+              "selector": "p13RouteFeedback",
+              "selector_id": 209,
+              "code_offset": 9981
+            },
+            {
+              "selector": "p13GiveProgram",
+              "selector_id": 210,
+              "code_offset": 10060
+            },
+            {
+              "selector": "p13ConfirmSeating",
+              "selector_id": 211,
+              "code_offset": 10247
+            },
+            {
+              "selector": "p13DeliverPot",
+              "selector_id": 212,
+              "code_offset": 10380
+            },
+            {
+              "selector": "p13Cue",
+              "selector_id": 213,
+              "code_offset": 10626
+            },
+            {
+              "selector": "p13PullServe",
+              "selector_id": 214,
+              "code_offset": 10693
+            },
+            {
+              "selector": "p13DeliverDisplay",
+              "selector_id": 215,
+              "code_offset": 10778
+            },
+            {
+              "selector": "p13OpenScreen",
+              "selector_id": 216,
+              "code_offset": 11079
+            },
+            {
+              "selector": "p13PullShow",
+              "selector_id": 217,
+              "code_offset": 11245
+            },
+            {
+              "selector": "p13DeliverBoard",
+              "selector_id": 218,
+              "code_offset": 11330
+            },
+            {
+              "selector": "p13RequestContest",
+              "selector_id": 219,
+              "code_offset": 11554
+            },
+            {
+              "selector": "p13FinishContestRequest",
+              "selector_id": 220,
+              "code_offset": 11708
+            },
+            {
+              "selector": "p13PullToast",
+              "selector_id": 221,
+              "code_offset": 11858
+            },
+            {
+              "selector": "p13AcknowledgeAutosave",
+              "selector_id": 222,
+              "code_offset": 12000
+            },
+            {
+              "selector": "p13AcknowledgeWrongVisual",
+              "selector_id": 223,
+              "code_offset": 12204
+            },
+            {
+              "selector": "p13ClaimLaugh",
+              "selector_id": 224,
+              "code_offset": 12359
+            },
+            {
+              "selector": "p13ProtectFurniture",
+              "selector_id": 225,
+              "code_offset": 12501
+            },
+            {
+              "selector": "p13Preview",
+              "selector_id": 226,
+              "code_offset": 12584
+            },
+            {
+              "selector": "p13Hint",
+              "selector_id": 227,
+              "code_offset": 12635
+            },
+            {
+              "selector": "p13AudioFinished",
+              "selector_id": 228,
+              "code_offset": 12691
+            },
+            {
+              "selector": "p13Cancel",
+              "selector_id": 229,
+              "code_offset": 12715
+            },
+            {
+              "selector": "p13Act",
+              "selector_id": 230,
+              "code_offset": 12846
+            },
+            {
+              "selector": "p13Served",
+              "selector_id": 231,
+              "code_offset": 13130
+            },
+            {
+              "selector": "p13ShowComplete",
+              "selector_id": 232,
+              "code_offset": 13139
+            },
+            {
+              "selector": "p13Ready",
+              "selector_id": 233,
+              "code_offset": 13148
+            },
+            {
+              "selector": "p13RitaConsented",
+              "selector_id": 234,
+              "code_offset": 13157
+            },
+            {
+              "selector": "p13ContestEligible",
+              "selector_id": 235,
+              "code_offset": 13166
+            },
+            {
+              "selector": "p13PotDelivered",
+              "selector_id": 236,
+              "code_offset": 13193
+            },
+            {
+              "selector": "p13DisplayDelivered",
+              "selector_id": 237,
+              "code_offset": 13202
+            },
+            {
+              "selector": "p13BoardLocation",
+              "selector_id": 238,
+              "code_offset": 13211
+            },
+            {
+              "selector": "p13InventoryAt",
+              "selector_id": 239,
+              "code_offset": 13227
+            },
+            {
+              "selector": "p13ReservedAt",
+              "selector_id": 240,
+              "code_offset": 13260
+            },
+            {
+              "selector": "p13PendingSaveAt",
+              "selector_id": 241,
+              "code_offset": 13328
+            },
+            {
+              "selector": "p13PendingContestHi",
+              "selector_id": 242,
+              "code_offset": 13396
+            },
+            {
+              "selector": "p13PendingContestLo",
+              "selector_id": 243,
+              "code_offset": 13399
+            },
+            {
+              "selector": "p13PendingWrongHi",
+              "selector_id": 244,
+              "code_offset": 13402
+            },
+            {
+              "selector": "p13PendingWrongLo",
+              "selector_id": 245,
+              "code_offset": 13418
+            },
+            {
+              "selector": "p13DoneSlot",
+              "selector_id": 246,
+              "code_offset": 13434
+            },
+            {
+              "selector": "p13ValidateContext",
+              "selector_id": 247,
+              "code_offset": 13471
+            },
+            {
+              "selector": "p13Validate",
+              "selector_id": 248,
+              "code_offset": 13600
+            },
+            {
+              "selector": "p13PreviewWord",
+              "selector_id": 249,
+              "code_offset": 14618
+            },
+            {
+              "selector": "p13PreviewMarker",
+              "selector_id": 250,
+              "code_offset": 14742
+            },
+            {
+              "selector": "p13BlockedLayout",
+              "selector_id": 251,
+              "code_offset": 14799
+            }
+          ]
+        }
+      ],
+      "reference_layout": {
+        "format": "SCI1.1",
+        "script": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p13-domain-reconstruction/build/isolated/compiled/995.scr.bin",
+        "heap": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p13-domain-reconstruction/build/isolated/compiled/995.scr.bin.hep",
+        "script_sha256": "38cb636a15150a936ad1c0ce73c18dfec48f5d8ca6bbec42bf27b626c0a40d36",
+        "heap_sha256": "145889c3a210e60a1be3b2366e1ab4d7f5572c1566d9a04c1e9d1b43b589f7ec",
+        "script_relocation_offset": 14870,
+        "script_relocations": [
+          8
+        ],
+        "heap_relocation_offset": 1648,
+        "heap_relocations": [
+          972,
+          1308
+        ],
+        "locals_heap_offset": 4,
+        "locals_word_count": 476,
+        "locals": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "exports": [
+          1292
+        ],
+        "objects": [
+          {
+            "name": "P13State",
+            "heap_offset": 956,
+            "property_count": 168,
+            "property_selector_offset": 10,
+            "method_table_offset": 346,
+            "is_class": true,
+            "species": 1,
+            "superclass": 65535,
+            "properties": [
+              {
+                "index": 0,
+                "heap_offset": 956,
+                "selector_id": 4096,
+                "selector": "-objID-",
+                "raw_value": 4660,
+                "signed_value": 4660
+              },
+              {
+                "index": 1,
+                "heap_offset": 958,
+                "selector_id": 4097,
+                "selector": "-size-",
+                "raw_value": 168,
+                "signed_value": 168
+              },
+              {
+                "index": 2,
+                "heap_offset": 960,
+                "selector_id": 4098,
+                "selector": "-propDict-",
+                "raw_value": 10,
+                "signed_value": 10
+              },
+              {
+                "index": 3,
+                "heap_offset": 962,
+                "selector_id": 4099,
+                "selector": "-methDict-",
+                "raw_value": 346,
+                "signed_value": 346
+              },
+              {
+                "index": 4,
+                "heap_offset": 964,
+                "selector_id": 4100,
+                "selector": "-classScript-",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 5,
+                "heap_offset": 966,
+                "selector_id": 4101,
+                "selector": "-script-",
+                "raw_value": 1,
+                "signed_value": 1
+              },
+              {
+                "index": 6,
+                "heap_offset": 968,
+                "selector_id": 4102,
+                "selector": "-super-",
+                "raw_value": 65535,
+                "signed_value": -1
+              },
+              {
+                "index": 7,
+                "heap_offset": 970,
+                "selector_id": 4103,
+                "selector": "-info-",
+                "raw_value": 32768,
+                "signed_value": -32768
+              },
+              {
+                "index": 8,
+                "heap_offset": 972,
+                "selector_id": 0,
+                "selector": "name",
+                "raw_value": 1630,
+                "signed_value": 1630
+              },
+              {
+                "index": 9,
+                "heap_offset": 974,
+                "selector_id": 1,
+                "selector": "p13Initialized",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 10,
+                "heap_offset": 976,
+                "selector_id": 2,
+                "selector": "p13WrongSource",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 11,
+                "heap_offset": 978,
+                "selector_id": 3,
+                "selector": "p13RevisionHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 12,
+                "heap_offset": 980,
+                "selector_id": 4,
+                "selector": "p13RevisionLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 13,
+                "heap_offset": 982,
+                "selector_id": 5,
+                "selector": "p13StartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 14,
+                "heap_offset": 984,
+                "selector_id": 6,
+                "selector": "p13StartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 15,
+                "heap_offset": 986,
+                "selector_id": 7,
+                "selector": "p13ProgramHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 16,
+                "heap_offset": 988,
+                "selector_id": 8,
+                "selector": "p13ProgramLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 17,
+                "heap_offset": 990,
+                "selector_id": 9,
+                "selector": "p13SeatedHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 18,
+                "heap_offset": 992,
+                "selector_id": 10,
+                "selector": "p13SeatedLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 19,
+                "heap_offset": 994,
+                "selector_id": 11,
+                "selector": "p13PotHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 20,
+                "heap_offset": 996,
+                "selector_id": 12,
+                "selector": "p13PotLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 21,
+                "heap_offset": 998,
+                "selector_id": 13,
+                "selector": "p13ServedHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 22,
+                "heap_offset": 1000,
+                "selector_id": 14,
+                "selector": "p13ServedLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 23,
+                "heap_offset": 1002,
+                "selector_id": 15,
+                "selector": "p13DisplayHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 24,
+                "heap_offset": 1004,
+                "selector_id": 16,
+                "selector": "p13DisplayLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 25,
+                "heap_offset": 1006,
+                "selector_id": 17,
+                "selector": "p13ScreenHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 26,
+                "heap_offset": 1008,
+                "selector_id": 18,
+                "selector": "p13ScreenLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 27,
+                "heap_offset": 1010,
+                "selector_id": 19,
+                "selector": "p13ShowHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 28,
+                "heap_offset": 1012,
+                "selector_id": 20,
+                "selector": "p13ShowLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 29,
+                "heap_offset": 1014,
+                "selector_id": 21,
+                "selector": "p13BoardHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 30,
+                "heap_offset": 1016,
+                "selector_id": 22,
+                "selector": "p13BoardLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 31,
+                "heap_offset": 1018,
+                "selector_id": 23,
+                "selector": "p13ToastHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 32,
+                "heap_offset": 1020,
+                "selector_id": 24,
+                "selector": "p13ToastLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 33,
+                "heap_offset": 1022,
+                "selector_id": 25,
+                "selector": "p13ContestRequestHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 34,
+                "heap_offset": 1024,
+                "selector_id": 26,
+                "selector": "p13ContestRequestLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 35,
+                "heap_offset": 1026,
+                "selector_id": 27,
+                "selector": "p13WrongHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 36,
+                "heap_offset": 1028,
+                "selector_id": 28,
+                "selector": "p13WrongLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 37,
+                "heap_offset": 1030,
+                "selector_id": 29,
+                "selector": "p13WrongVisualHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 38,
+                "heap_offset": 1032,
+                "selector_id": 30,
+                "selector": "p13WrongVisualLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 39,
+                "heap_offset": 1034,
+                "selector_id": 31,
+                "selector": "p13LaughHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 40,
+                "heap_offset": 1036,
+                "selector_id": 32,
+                "selector": "p13LaughLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 41,
+                "heap_offset": 1038,
+                "selector_id": 33,
+                "selector": "p13ServeSaveHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 42,
+                "heap_offset": 1040,
+                "selector_id": 34,
+                "selector": "p13ServeSaveLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 43,
+                "heap_offset": 1042,
+                "selector_id": 35,
+                "selector": "p13ShowSaveHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 44,
+                "heap_offset": 1044,
+                "selector_id": 36,
+                "selector": "p13ShowSaveLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 45,
+                "heap_offset": 1046,
+                "selector_id": 37,
+                "selector": "p13ToastSaveHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 46,
+                "heap_offset": 1048,
+                "selector_id": 38,
+                "selector": "p13ToastSaveLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 47,
+                "heap_offset": 1050,
+                "selector_id": 39,
+                "selector": "p13AttemptsHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 48,
+                "heap_offset": 1052,
+                "selector_id": 40,
+                "selector": "p13AttemptsLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 49,
+                "heap_offset": 1054,
+                "selector_id": 41,
+                "selector": "p13OpeningStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 50,
+                "heap_offset": 1056,
+                "selector_id": 42,
+                "selector": "p13OpeningStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 51,
+                "heap_offset": 1058,
+                "selector_id": 43,
+                "selector": "p13RackStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 52,
+                "heap_offset": 1060,
+                "selector_id": 44,
+                "selector": "p13RackStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 53,
+                "heap_offset": 1062,
+                "selector_id": 45,
+                "selector": "p13ServePreviewStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 54,
+                "heap_offset": 1064,
+                "selector_id": 46,
+                "selector": "p13ServePreviewStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 55,
+                "heap_offset": 1066,
+                "selector_id": 47,
+                "selector": "p13ShowPreviewStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 56,
+                "heap_offset": 1068,
+                "selector_id": 48,
+                "selector": "p13ShowPreviewStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 57,
+                "heap_offset": 1070,
+                "selector_id": 49,
+                "selector": "p13ToastPreviewStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 58,
+                "heap_offset": 1072,
+                "selector_id": 50,
+                "selector": "p13ToastPreviewStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 59,
+                "heap_offset": 1074,
+                "selector_id": 51,
+                "selector": "p13ProgramStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 60,
+                "heap_offset": 1076,
+                "selector_id": 52,
+                "selector": "p13ProgramStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 61,
+                "heap_offset": 1078,
+                "selector_id": 53,
+                "selector": "p13PotHelpStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 62,
+                "heap_offset": 1080,
+                "selector_id": 54,
+                "selector": "p13PotHelpStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 63,
+                "heap_offset": 1082,
+                "selector_id": 55,
+                "selector": "p13DisplayHelpStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 64,
+                "heap_offset": 1084,
+                "selector_id": 56,
+                "selector": "p13DisplayHelpStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 65,
+                "heap_offset": 1086,
+                "selector_id": 57,
+                "selector": "p13BoardHelpStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 66,
+                "heap_offset": 1088,
+                "selector_id": 58,
+                "selector": "p13BoardHelpStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 67,
+                "heap_offset": 1090,
+                "selector_id": 59,
+                "selector": "p13RitaReadyStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 68,
+                "heap_offset": 1092,
+                "selector_id": 60,
+                "selector": "p13RitaReadyStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 69,
+                "heap_offset": 1094,
+                "selector_id": 61,
+                "selector": "p13RevealStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 70,
+                "heap_offset": 1096,
+                "selector_id": 62,
+                "selector": "p13RevealStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 71,
+                "heap_offset": 1098,
+                "selector_id": 63,
+                "selector": "p13AttentionStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 72,
+                "heap_offset": 1100,
+                "selector_id": 64,
+                "selector": "p13AttentionStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 73,
+                "heap_offset": 1102,
+                "selector_id": 65,
+                "selector": "p13WrongPotStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 74,
+                "heap_offset": 1104,
+                "selector_id": 66,
+                "selector": "p13WrongPotStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 75,
+                "heap_offset": 1106,
+                "selector_id": 67,
+                "selector": "p13WrongPeopleStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 76,
+                "heap_offset": 1108,
+                "selector_id": 68,
+                "selector": "p13WrongPeopleStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 77,
+                "heap_offset": 1110,
+                "selector_id": 69,
+                "selector": "p13WrongDisplayStartHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 78,
+                "heap_offset": 1112,
+                "selector_id": 70,
+                "selector": "p13WrongDisplayStartLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 79,
+                "heap_offset": 1114,
+                "selector_id": 71,
+                "selector": "p13OpeningReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 80,
+                "heap_offset": 1116,
+                "selector_id": 72,
+                "selector": "p13OpeningReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 81,
+                "heap_offset": 1118,
+                "selector_id": 73,
+                "selector": "p13OpeningReceipt2Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 82,
+                "heap_offset": 1120,
+                "selector_id": 74,
+                "selector": "p13OpeningReceipt2Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 83,
+                "heap_offset": 1122,
+                "selector_id": 75,
+                "selector": "p13OpeningReceipt3Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 84,
+                "heap_offset": 1124,
+                "selector_id": 76,
+                "selector": "p13OpeningReceipt3Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 85,
+                "heap_offset": 1126,
+                "selector_id": 77,
+                "selector": "p13RackReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 86,
+                "heap_offset": 1128,
+                "selector_id": 78,
+                "selector": "p13RackReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 87,
+                "heap_offset": 1130,
+                "selector_id": 79,
+                "selector": "p13ServePreviewReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 88,
+                "heap_offset": 1132,
+                "selector_id": 80,
+                "selector": "p13ServePreviewReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 89,
+                "heap_offset": 1134,
+                "selector_id": 81,
+                "selector": "p13ShowPreviewReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 90,
+                "heap_offset": 1136,
+                "selector_id": 82,
+                "selector": "p13ShowPreviewReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 91,
+                "heap_offset": 1138,
+                "selector_id": 83,
+                "selector": "p13ToastPreviewReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 92,
+                "heap_offset": 1140,
+                "selector_id": 84,
+                "selector": "p13ToastPreviewReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 93,
+                "heap_offset": 1142,
+                "selector_id": 85,
+                "selector": "p13ProgramReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 94,
+                "heap_offset": 1144,
+                "selector_id": 86,
+                "selector": "p13ProgramReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 95,
+                "heap_offset": 1146,
+                "selector_id": 87,
+                "selector": "p13PotHelpReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 96,
+                "heap_offset": 1148,
+                "selector_id": 88,
+                "selector": "p13PotHelpReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 97,
+                "heap_offset": 1150,
+                "selector_id": 89,
+                "selector": "p13DisplayHelpReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 98,
+                "heap_offset": 1152,
+                "selector_id": 90,
+                "selector": "p13DisplayHelpReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 99,
+                "heap_offset": 1154,
+                "selector_id": 91,
+                "selector": "p13BoardHelpReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 100,
+                "heap_offset": 1156,
+                "selector_id": 92,
+                "selector": "p13BoardHelpReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 101,
+                "heap_offset": 1158,
+                "selector_id": 93,
+                "selector": "p13RitaReadyReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 102,
+                "heap_offset": 1160,
+                "selector_id": 94,
+                "selector": "p13RitaReadyReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 103,
+                "heap_offset": 1162,
+                "selector_id": 95,
+                "selector": "p13RevealReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 104,
+                "heap_offset": 1164,
+                "selector_id": 96,
+                "selector": "p13RevealReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 105,
+                "heap_offset": 1166,
+                "selector_id": 97,
+                "selector": "p13RevealReceipt2Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 106,
+                "heap_offset": 1168,
+                "selector_id": 98,
+                "selector": "p13RevealReceipt2Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 107,
+                "heap_offset": 1170,
+                "selector_id": 99,
+                "selector": "p13RevealReceipt3Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 108,
+                "heap_offset": 1172,
+                "selector_id": 100,
+                "selector": "p13RevealReceipt3Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 109,
+                "heap_offset": 1174,
+                "selector_id": 101,
+                "selector": "p13RevealReceipt4Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 110,
+                "heap_offset": 1176,
+                "selector_id": 102,
+                "selector": "p13RevealReceipt4Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 111,
+                "heap_offset": 1178,
+                "selector_id": 103,
+                "selector": "p13RevealReceipt5Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 112,
+                "heap_offset": 1180,
+                "selector_id": 104,
+                "selector": "p13RevealReceipt5Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 113,
+                "heap_offset": 1182,
+                "selector_id": 105,
+                "selector": "p13AttentionReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 114,
+                "heap_offset": 1184,
+                "selector_id": 106,
+                "selector": "p13AttentionReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 115,
+                "heap_offset": 1186,
+                "selector_id": 107,
+                "selector": "p13WrongPotReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 116,
+                "heap_offset": 1188,
+                "selector_id": 108,
+                "selector": "p13WrongPotReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 117,
+                "heap_offset": 1190,
+                "selector_id": 109,
+                "selector": "p13WrongPeopleReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 118,
+                "heap_offset": 1192,
+                "selector_id": 110,
+                "selector": "p13WrongPeopleReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 119,
+                "heap_offset": 1194,
+                "selector_id": 111,
+                "selector": "p13WrongDisplayReceipt1Hi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 120,
+                "heap_offset": 1196,
+                "selector_id": 112,
+                "selector": "p13WrongDisplayReceipt1Lo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 121,
+                "heap_offset": 1198,
+                "selector_id": 113,
+                "selector": "p13ContextValid",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 122,
+                "heap_offset": 1200,
+                "selector_id": 114,
+                "selector": "p13Room",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 123,
+                "heap_offset": 1202,
+                "selector_id": 115,
+                "selector": "p13Apron",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 124,
+                "heap_offset": 1204,
+                "selector_id": 116,
+                "selector": "p13IntroductionClear",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 125,
+                "heap_offset": 1206,
+                "selector_id": 117,
+                "selector": "p13FoodReady",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 126,
+                "heap_offset": 1208,
+                "selector_id": 118,
+                "selector": "p13DisplayStaged",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 127,
+                "heap_offset": 1210,
+                "selector_id": 119,
+                "selector": "p13HelpAccepted",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 128,
+                "heap_offset": 1212,
+                "selector_id": 120,
+                "selector": "p13EveningStarted",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 129,
+                "heap_offset": 1214,
+                "selector_id": 121,
+                "selector": "p13WelcomeCleared",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 130,
+                "heap_offset": 1216,
+                "selector_id": 122,
+                "selector": "p13QueueClear",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 131,
+                "heap_offset": 1218,
+                "selector_id": 123,
+                "selector": "p13BuffetAtHatch",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 132,
+                "heap_offset": 1220,
+                "selector_id": 124,
+                "selector": "p13HatchVisible",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 133,
+                "heap_offset": 1222,
+                "selector_id": 125,
+                "selector": "p13DisplayConcealed",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 134,
+                "heap_offset": 1224,
+                "selector_id": 126,
+                "selector": "p13LaneClear",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 135,
+                "heap_offset": 1226,
+                "selector_id": 127,
+                "selector": "p13FootprintClear",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 136,
+                "heap_offset": 1228,
+                "selector_id": 128,
+                "selector": "p13BoardRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 137,
+                "heap_offset": 1230,
+                "selector_id": 129,
+                "selector": "p13RigRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 138,
+                "heap_offset": 1232,
+                "selector_id": 130,
+                "selector": "p13Connected",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 139,
+                "heap_offset": 1234,
+                "selector_id": 131,
+                "selector": "p13Mic",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 140,
+                "heap_offset": 1236,
+                "selector_id": 132,
+                "selector": "p13Inward",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 141,
+                "heap_offset": 1238,
+                "selector_id": 133,
+                "selector": "p13ContestActive",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 142,
+                "heap_offset": 1240,
+                "selector_id": 134,
+                "selector": "p13VC04Resolved",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 143,
+                "heap_offset": 1242,
+                "selector_id": 135,
+                "selector": "p13BunnyRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 144,
+                "heap_offset": 1244,
+                "selector_id": 136,
+                "selector": "p13FrankieRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 145,
+                "heap_offset": 1246,
+                "selector_id": 137,
+                "selector": "p13MiloRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 146,
+                "heap_offset": 1248,
+                "selector_id": 138,
+                "selector": "p13VivianRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 147,
+                "heap_offset": 1250,
+                "selector_id": 139,
+                "selector": "p13RitaRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 148,
+                "heap_offset": 1252,
+                "selector_id": 140,
+                "selector": "p13FelixRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 149,
+                "heap_offset": 1254,
+                "selector_id": 141,
+                "selector": "p13StringerRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 150,
+                "heap_offset": 1256,
+                "selector_id": 142,
+                "selector": "p13GatePresent",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 151,
+                "heap_offset": 1258,
+                "selector_id": 143,
+                "selector": "p13PegID",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 152,
+                "heap_offset": 1260,
+                "selector_id": 144,
+                "selector": "p13PegRoom",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 153,
+                "heap_offset": 1262,
+                "selector_id": 145,
+                "selector": "p13GateTested",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 154,
+                "heap_offset": 1264,
+                "selector_id": 146,
+                "selector": "p13PegAvailable",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 155,
+                "heap_offset": 1266,
+                "selector_id": 147,
+                "selector": "p13PegEngaged",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 156,
+                "heap_offset": 1268,
+                "selector_id": 148,
+                "selector": "p13GateOpen",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 157,
+                "heap_offset": 1270,
+                "selector_id": 149,
+                "selector": "p13WedgeInGate",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 158,
+                "heap_offset": 1272,
+                "selector_id": 150,
+                "selector": "p13Epoch",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 159,
+                "heap_offset": 1274,
+                "selector_id": 151,
+                "selector": "p13Code",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 160,
+                "heap_offset": 1276,
+                "selector_id": 152,
+                "selector": "p13LineCount",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 161,
+                "heap_offset": 1278,
+                "selector_id": 153,
+                "selector": "p13UnitCount",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 162,
+                "heap_offset": 1280,
+                "selector_id": 154,
+                "selector": "p13EventCount",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 163,
+                "heap_offset": 1282,
+                "selector_id": 155,
+                "selector": "p13ResultHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 164,
+                "heap_offset": 1284,
+                "selector_id": 156,
+                "selector": "p13ResultLo",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 165,
+                "heap_offset": 1286,
+                "selector_id": 157,
+                "selector": "p13PresentationSource",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 166,
+                "heap_offset": 1288,
+                "selector_id": 158,
+                "selector": "p13PresentationHi",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 167,
+                "heap_offset": 1290,
+                "selector_id": 159,
+                "selector": "p13PresentationLo",
+                "raw_value": 0,
+                "signed_value": 0
+              }
+            ],
+            "methods": [
+              {
+                "selector": "p13SerialHi",
+                "selector_id": 160,
+                "code_offset": 718
+              },
+              {
+                "selector": "p13SerialLo",
+                "selector_id": 161,
+                "code_offset": 1461
+              },
+              {
+                "selector": "p13SetSerial",
+                "selector_id": 162,
+                "code_offset": 2205
+              },
+              {
+                "selector": "p13Capacity",
+                "selector_id": 163,
+                "code_offset": 3193
+              },
+              {
+                "selector": "p13ReceiptBase",
+                "selector_id": 164,
+                "code_offset": 3387
+              },
+              {
+                "selector": "p13SourceRecord",
+                "selector_id": 165,
+                "code_offset": 3581
+              },
+              {
+                "selector": "p13Token",
+                "selector_id": 166,
+                "code_offset": 3775
+              },
+              {
+                "selector": "p13TokenUnit",
+                "selector_id": 167,
+                "code_offset": 4182
+              },
+              {
+                "selector": "p13TokenSpeaker",
+                "selector_id": 168,
+                "code_offset": 4454
+              },
+              {
+                "selector": "p13ActorRoom",
+                "selector_id": 169,
+                "code_offset": 4726
+              },
+              {
+                "selector": "p13CueSlot",
+                "selector_id": 170,
+                "code_offset": 4827
+              },
+              {
+                "selector": "p13ContextItem",
+                "selector_id": 171,
+                "code_offset": 4873
+              },
+              {
+                "selector": "p13Context",
+                "selector_id": 172,
+                "code_offset": 6291
+              },
+              {
+                "selector": "p13Clear",
+                "selector_id": 173,
+                "code_offset": 7180
+              },
+              {
+                "selector": "p13Init",
+                "selector_id": 174,
+                "code_offset": 7320
+              },
+              {
+                "selector": "p13AppendLine",
+                "selector_id": 175,
+                "code_offset": 7344
+              },
+              {
+                "selector": "p13Line",
+                "selector_id": 176,
+                "code_offset": 7382
+              },
+              {
+                "selector": "p13Unit",
+                "selector_id": 177,
+                "code_offset": 7405
+              },
+              {
+                "selector": "p13Event",
+                "selector_id": 178,
+                "code_offset": 7428
+              },
+              {
+                "selector": "p13EventSerialHi",
+                "selector_id": 179,
+                "code_offset": 7451
+              },
+              {
+                "selector": "p13EventSerialLo",
+                "selector_id": 180,
+                "code_offset": 7474
+              },
+              {
+                "selector": "p13EventArg",
+                "selector_id": 181,
+                "code_offset": 7497
+              },
+              {
+                "selector": "p13Status",
+                "selector_id": 182,
+                "code_offset": 7541
+              },
+              {
+                "selector": "p13Invalidate",
+                "selector_id": 183,
+                "code_offset": 7561
+              },
+              {
+                "selector": "p13Start",
+                "selector_id": 184,
+                "code_offset": 7598
+              },
+              {
+                "selector": "p13CanCommit",
+                "selector_id": 185,
+                "code_offset": 7642
+              },
+              {
+                "selector": "p13Commit",
+                "selector_id": 186,
+                "code_offset": 7672
+              },
+              {
+                "selector": "p13Stamp",
+                "selector_id": 187,
+                "code_offset": 7703
+              },
+              {
+                "selector": "p13Emit",
+                "selector_id": 188,
+                "code_offset": 7717
+              },
+              {
+                "selector": "p13Present",
+                "selector_id": 189,
+                "code_offset": 7798
+              },
+              {
+                "selector": "p13Equal",
+                "selector_id": 190,
+                "code_offset": 7819
+              },
+              {
+                "selector": "p13Earlier",
+                "selector_id": 191,
+                "code_offset": 7858
+              },
+              {
+                "selector": "p13Count",
+                "selector_id": 192,
+                "code_offset": 7913
+              },
+              {
+                "selector": "p13Complete",
+                "selector_id": 193,
+                "code_offset": 7969
+              },
+              {
+                "selector": "p13Pending",
+                "selector_id": 194,
+                "code_offset": 8002
+              },
+              {
+                "selector": "p13Resume",
+                "selector_id": 195,
+                "code_offset": 8208
+              },
+              {
+                "selector": "p13BeginInternal",
+                "selector_id": 196,
+                "code_offset": 8277
+              },
+              {
+                "selector": "p13Begin",
+                "selector_id": 197,
+                "code_offset": 8412
+              },
+              {
+                "selector": "p13Acknowledge",
+                "selector_id": 198,
+                "code_offset": 8459
+              },
+              {
+                "selector": "p13SourceRank",
+                "selector_id": 199,
+                "code_offset": 8924
+              },
+              {
+                "selector": "p13PendingAt",
+                "selector_id": 200,
+                "code_offset": 9023
+              },
+              {
+                "selector": "p13JournalAt",
+                "selector_id": 201,
+                "code_offset": 9084
+              },
+              {
+                "selector": "p13AfterRestore",
+                "selector_id": 202,
+                "code_offset": 9212
+              },
+              {
+                "selector": "p13Scene",
+                "selector_id": 203,
+                "code_offset": 9259
+              },
+              {
+                "selector": "p13BaseBlock",
+                "selector_id": 204,
+                "code_offset": 9296
+              },
+              {
+                "selector": "p13WorkingRig",
+                "selector_id": 205,
+                "code_offset": 9366
+              },
+              {
+                "selector": "p13Block",
+                "selector_id": 206,
+                "code_offset": 9390
+              },
+              {
+                "selector": "p13Handoff",
+                "selector_id": 207,
+                "code_offset": 9674
+              },
+              {
+                "selector": "p13Attempt",
+                "selector_id": 208,
+                "code_offset": 9960
+              },
+              {
+                "selector": "p13RouteFeedback",
+                "selector_id": 209,
+                "code_offset": 9981
+              },
+              {
+                "selector": "p13GiveProgram",
+                "selector_id": 210,
+                "code_offset": 10060
+              },
+              {
+                "selector": "p13ConfirmSeating",
+                "selector_id": 211,
+                "code_offset": 10247
+              },
+              {
+                "selector": "p13DeliverPot",
+                "selector_id": 212,
+                "code_offset": 10380
+              },
+              {
+                "selector": "p13Cue",
+                "selector_id": 213,
+                "code_offset": 10626
+              },
+              {
+                "selector": "p13PullServe",
+                "selector_id": 214,
+                "code_offset": 10693
+              },
+              {
+                "selector": "p13DeliverDisplay",
+                "selector_id": 215,
+                "code_offset": 10778
+              },
+              {
+                "selector": "p13OpenScreen",
+                "selector_id": 216,
+                "code_offset": 11079
+              },
+              {
+                "selector": "p13PullShow",
+                "selector_id": 217,
+                "code_offset": 11245
+              },
+              {
+                "selector": "p13DeliverBoard",
+                "selector_id": 218,
+                "code_offset": 11330
+              },
+              {
+                "selector": "p13RequestContest",
+                "selector_id": 219,
+                "code_offset": 11554
+              },
+              {
+                "selector": "p13FinishContestRequest",
+                "selector_id": 220,
+                "code_offset": 11708
+              },
+              {
+                "selector": "p13PullToast",
+                "selector_id": 221,
+                "code_offset": 11858
+              },
+              {
+                "selector": "p13AcknowledgeAutosave",
+                "selector_id": 222,
+                "code_offset": 12000
+              },
+              {
+                "selector": "p13AcknowledgeWrongVisual",
+                "selector_id": 223,
+                "code_offset": 12204
+              },
+              {
+                "selector": "p13ClaimLaugh",
+                "selector_id": 224,
+                "code_offset": 12359
+              },
+              {
+                "selector": "p13ProtectFurniture",
+                "selector_id": 225,
+                "code_offset": 12501
+              },
+              {
+                "selector": "p13Preview",
+                "selector_id": 226,
+                "code_offset": 12584
+              },
+              {
+                "selector": "p13Hint",
+                "selector_id": 227,
+                "code_offset": 12635
+              },
+              {
+                "selector": "p13AudioFinished",
+                "selector_id": 228,
+                "code_offset": 12691
+              },
+              {
+                "selector": "p13Cancel",
+                "selector_id": 229,
+                "code_offset": 12715
+              },
+              {
+                "selector": "p13Act",
+                "selector_id": 230,
+                "code_offset": 12846
+              },
+              {
+                "selector": "p13Served",
+                "selector_id": 231,
+                "code_offset": 13130
+              },
+              {
+                "selector": "p13ShowComplete",
+                "selector_id": 232,
+                "code_offset": 13139
+              },
+              {
+                "selector": "p13Ready",
+                "selector_id": 233,
+                "code_offset": 13148
+              },
+              {
+                "selector": "p13RitaConsented",
+                "selector_id": 234,
+                "code_offset": 13157
+              },
+              {
+                "selector": "p13ContestEligible",
+                "selector_id": 235,
+                "code_offset": 13166
+              },
+              {
+                "selector": "p13PotDelivered",
+                "selector_id": 236,
+                "code_offset": 13193
+              },
+              {
+                "selector": "p13DisplayDelivered",
+                "selector_id": 237,
+                "code_offset": 13202
+              },
+              {
+                "selector": "p13BoardLocation",
+                "selector_id": 238,
+                "code_offset": 13211
+              },
+              {
+                "selector": "p13InventoryAt",
+                "selector_id": 239,
+                "code_offset": 13227
+              },
+              {
+                "selector": "p13ReservedAt",
+                "selector_id": 240,
+                "code_offset": 13260
+              },
+              {
+                "selector": "p13PendingSaveAt",
+                "selector_id": 241,
+                "code_offset": 13328
+              },
+              {
+                "selector": "p13PendingContestHi",
+                "selector_id": 242,
+                "code_offset": 13396
+              },
+              {
+                "selector": "p13PendingContestLo",
+                "selector_id": 243,
+                "code_offset": 13399
+              },
+              {
+                "selector": "p13PendingWrongHi",
+                "selector_id": 244,
+                "code_offset": 13402
+              },
+              {
+                "selector": "p13PendingWrongLo",
+                "selector_id": 245,
+                "code_offset": 13418
+              },
+              {
+                "selector": "p13DoneSlot",
+                "selector_id": 246,
+                "code_offset": 13434
+              },
+              {
+                "selector": "p13ValidateContext",
+                "selector_id": 247,
+                "code_offset": 13471
+              },
+              {
+                "selector": "p13Validate",
+                "selector_id": 248,
+                "code_offset": 13600
+              },
+              {
+                "selector": "p13PreviewWord",
+                "selector_id": 249,
+                "code_offset": 14618
+              },
+              {
+                "selector": "p13PreviewMarker",
+                "selector_id": 250,
+                "code_offset": 14742
+              },
+              {
+                "selector": "p13BlockedLayout",
+                "selector_id": 251,
+                "code_offset": 14799
+              }
+            ]
+          },
+          {
+            "name": "p13State",
+            "heap_offset": 1292,
+            "property_count": 168,
+            "property_selector_offset": 716,
+            "method_table_offset": 716,
+            "is_class": false,
+            "species": 65535,
+            "superclass": 1,
+            "properties": [
+              {
+                "index": 0,
+                "heap_offset": 1292,
+                "selector_id": 0,
+                "selector": "name",
+                "raw_value": 4660,
+                "signed_value": 4660
+              },
+              {
+                "index": 1,
+                "heap_offset": 1294,
+                "selector_id": 319,
+                "selector": "__internal_013f",
+                "raw_value": 168,
+                "signed_value": 168
+              },
+              {
+                "index": 2,
+                "heap_offset": 1296,
+                "selector_id": 53,
+                "selector": "p13PotHelpStartHi",
+                "raw_value": 716,
+                "signed_value": 716
+              },
+              {
+                "index": 3,
+                "heap_offset": 1298,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 716,
+                "signed_value": 716
+              },
+              {
+                "index": 4,
+                "heap_offset": 1300,
+                "selector_id": 399,
+                "selector": "__internal_018f",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 5,
+                "heap_offset": 1302,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 65535,
+                "signed_value": -1
+              },
+              {
+                "index": 6,
+                "heap_offset": 1304,
+                "selector_id": 6656,
+                "selector": "__internal_1a00",
+                "raw_value": 1,
+                "signed_value": 1
+              },
+              {
+                "index": 7,
+                "heap_offset": 1306,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 8,
+                "heap_offset": 1308,
+                "selector_id": 5731,
+                "selector": "__internal_1663",
+                "raw_value": 1639,
+                "signed_value": 1639
+              },
+              {
+                "index": 9,
+                "heap_offset": 1310,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 10,
+                "heap_offset": 1312,
+                "selector_id": 52786,
+                "selector": "__internal_ce32",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 11,
+                "heap_offset": 1314,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 12,
+                "heap_offset": 1316,
+                "selector_id": 309,
+                "selector": "__internal_0135",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 13,
+                "heap_offset": 1318,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 14,
+                "heap_offset": 1320,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 15,
+                "heap_offset": 1322,
+                "selector_id": 42266,
+                "selector": "__internal_a51a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 16,
+                "heap_offset": 1324,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 17,
+                "heap_offset": 1326,
+                "selector_id": 705,
+                "selector": "__internal_02c1",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 18,
+                "heap_offset": 1328,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 19,
+                "heap_offset": 1330,
+                "selector_id": 6658,
+                "selector": "__internal_1a02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 20,
+                "heap_offset": 1332,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 21,
+                "heap_offset": 1334,
+                "selector_id": 7779,
+                "selector": "__internal_1e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 22,
+                "heap_offset": 1336,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 23,
+                "heap_offset": 1338,
+                "selector_id": 46130,
+                "selector": "__internal_b432",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 24,
+                "heap_offset": 1340,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 25,
+                "heap_offset": 1342,
+                "selector_id": 821,
+                "selector": "__internal_0335",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 26,
+                "heap_offset": 1344,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 27,
+                "heap_offset": 1346,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 28,
+                "heap_offset": 1348,
+                "selector_id": 42274,
+                "selector": "__internal_a522",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 29,
+                "heap_offset": 1350,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 30,
+                "heap_offset": 1352,
+                "selector_id": 679,
+                "selector": "__internal_02a7",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 31,
+                "heap_offset": 1354,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 32,
+                "heap_offset": 1356,
+                "selector_id": 6660,
+                "selector": "__internal_1a04",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 33,
+                "heap_offset": 1358,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 34,
+                "heap_offset": 1360,
+                "selector_id": 9827,
+                "selector": "__internal_2663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 35,
+                "heap_offset": 1362,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 36,
+                "heap_offset": 1364,
+                "selector_id": 39474,
+                "selector": "__internal_9a32",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 37,
+                "heap_offset": 1366,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 38,
+                "heap_offset": 1368,
+                "selector_id": 1333,
+                "selector": "__internal_0535",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 39,
+                "heap_offset": 1370,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 40,
+                "heap_offset": 1372,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 41,
+                "heap_offset": 1374,
+                "selector_id": 42282,
+                "selector": "__internal_a52a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 42,
+                "heap_offset": 1376,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 43,
+                "heap_offset": 1378,
+                "selector_id": 653,
+                "selector": "__internal_028d",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 44,
+                "heap_offset": 1380,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 45,
+                "heap_offset": 1382,
+                "selector_id": 6662,
+                "selector": "__internal_1a06",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 46,
+                "heap_offset": 1384,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 47,
+                "heap_offset": 1386,
+                "selector_id": 11875,
+                "selector": "__internal_2e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 48,
+                "heap_offset": 1388,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 49,
+                "heap_offset": 1390,
+                "selector_id": 32818,
+                "selector": "__internal_8032",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 50,
+                "heap_offset": 1392,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 51,
+                "heap_offset": 1394,
+                "selector_id": 1845,
+                "selector": "__internal_0735",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 52,
+                "heap_offset": 1396,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 53,
+                "heap_offset": 1398,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 54,
+                "heap_offset": 1400,
+                "selector_id": 42290,
+                "selector": "__internal_a532",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 55,
+                "heap_offset": 1402,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 56,
+                "heap_offset": 1404,
+                "selector_id": 627,
+                "selector": "__internal_0273",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 57,
+                "heap_offset": 1406,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 58,
+                "heap_offset": 1408,
+                "selector_id": 6664,
+                "selector": "__internal_1a08",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 59,
+                "heap_offset": 1410,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 60,
+                "heap_offset": 1412,
+                "selector_id": 13923,
+                "selector": "__internal_3663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 61,
+                "heap_offset": 1414,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 62,
+                "heap_offset": 1416,
+                "selector_id": 26162,
+                "selector": "__internal_6632",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 63,
+                "heap_offset": 1418,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 64,
+                "heap_offset": 1420,
+                "selector_id": 2357,
+                "selector": "__internal_0935",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 65,
+                "heap_offset": 1422,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 66,
+                "heap_offset": 1424,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 67,
+                "heap_offset": 1426,
+                "selector_id": 42298,
+                "selector": "__internal_a53a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 68,
+                "heap_offset": 1428,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 69,
+                "heap_offset": 1430,
+                "selector_id": 601,
+                "selector": "__internal_0259",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 70,
+                "heap_offset": 1432,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 71,
+                "heap_offset": 1434,
+                "selector_id": 6666,
+                "selector": "__internal_1a0a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 72,
+                "heap_offset": 1436,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 73,
+                "heap_offset": 1438,
+                "selector_id": 15971,
+                "selector": "__internal_3e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 74,
+                "heap_offset": 1440,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 75,
+                "heap_offset": 1442,
+                "selector_id": 19506,
+                "selector": "__internal_4c32",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 76,
+                "heap_offset": 1444,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 77,
+                "heap_offset": 1446,
+                "selector_id": 2869,
+                "selector": "__internal_0b35",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 78,
+                "heap_offset": 1448,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 79,
+                "heap_offset": 1450,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 80,
+                "heap_offset": 1452,
+                "selector_id": 42306,
+                "selector": "__internal_a542",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 81,
+                "heap_offset": 1454,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 82,
+                "heap_offset": 1456,
+                "selector_id": 575,
+                "selector": "__internal_023f",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 83,
+                "heap_offset": 1458,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 84,
+                "heap_offset": 1460,
+                "selector_id": 6668,
+                "selector": "__internal_1a0c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 85,
+                "heap_offset": 1462,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 86,
+                "heap_offset": 1464,
+                "selector_id": 18019,
+                "selector": "__internal_4663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 87,
+                "heap_offset": 1466,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 88,
+                "heap_offset": 1468,
+                "selector_id": 12850,
+                "selector": "__internal_3232",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 89,
+                "heap_offset": 1470,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 90,
+                "heap_offset": 1472,
+                "selector_id": 3381,
+                "selector": "__internal_0d35",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 91,
+                "heap_offset": 1474,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 92,
+                "heap_offset": 1476,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 93,
+                "heap_offset": 1478,
+                "selector_id": 42314,
+                "selector": "__internal_a54a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 94,
+                "heap_offset": 1480,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 95,
+                "heap_offset": 1482,
+                "selector_id": 549,
+                "selector": "__internal_0225",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 96,
+                "heap_offset": 1484,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 97,
+                "heap_offset": 1486,
+                "selector_id": 6670,
+                "selector": "__internal_1a0e",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 98,
+                "heap_offset": 1488,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 99,
+                "heap_offset": 1490,
+                "selector_id": 20067,
+                "selector": "__internal_4e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 100,
+                "heap_offset": 1492,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 101,
+                "heap_offset": 1494,
+                "selector_id": 6194,
+                "selector": "__internal_1832",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 102,
+                "heap_offset": 1496,
+                "selector_id": 15362,
+                "selector": "__internal_3c02",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 103,
+                "heap_offset": 1498,
+                "selector_id": 3893,
+                "selector": "__internal_0f35",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 104,
+                "heap_offset": 1500,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 105,
+                "heap_offset": 1502,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 106,
+                "heap_offset": 1504,
+                "selector_id": 42322,
+                "selector": "__internal_a552",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 107,
+                "heap_offset": 1506,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 108,
+                "heap_offset": 1508,
+                "selector_id": 523,
+                "selector": "__internal_020b",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 109,
+                "heap_offset": 1510,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 110,
+                "heap_offset": 1512,
+                "selector_id": 6672,
+                "selector": "__internal_1a10",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 111,
+                "heap_offset": 1514,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 112,
+                "heap_offset": 1516,
+                "selector_id": 22115,
+                "selector": "__internal_5663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 113,
+                "heap_offset": 1518,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 114,
+                "heap_offset": 1520,
+                "selector_id": 65074,
+                "selector": "__internal_fe32",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 115,
+                "heap_offset": 1522,
+                "selector_id": 15361,
+                "selector": "__internal_3c01",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 116,
+                "heap_offset": 1524,
+                "selector_id": 4405,
+                "selector": "__internal_1135",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 117,
+                "heap_offset": 1526,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 118,
+                "heap_offset": 1528,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 119,
+                "heap_offset": 1530,
+                "selector_id": 42330,
+                "selector": "__internal_a55a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 120,
+                "heap_offset": 1532,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 121,
+                "heap_offset": 1534,
+                "selector_id": 497,
+                "selector": "__internal_01f1",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 122,
+                "heap_offset": 1536,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 123,
+                "heap_offset": 1538,
+                "selector_id": 6674,
+                "selector": "__internal_1a12",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 124,
+                "heap_offset": 1540,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 125,
+                "heap_offset": 1542,
+                "selector_id": 24163,
+                "selector": "__internal_5e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 126,
+                "heap_offset": 1544,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 127,
+                "heap_offset": 1546,
+                "selector_id": 58418,
+                "selector": "__internal_e432",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 128,
+                "heap_offset": 1548,
+                "selector_id": 15361,
+                "selector": "__internal_3c01",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 129,
+                "heap_offset": 1550,
+                "selector_id": 4917,
+                "selector": "__internal_1335",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 130,
+                "heap_offset": 1552,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 131,
+                "heap_offset": 1554,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 132,
+                "heap_offset": 1556,
+                "selector_id": 42338,
+                "selector": "__internal_a562",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 133,
+                "heap_offset": 1558,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 134,
+                "heap_offset": 1560,
+                "selector_id": 471,
+                "selector": "__internal_01d7",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 135,
+                "heap_offset": 1562,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 136,
+                "heap_offset": 1564,
+                "selector_id": 6676,
+                "selector": "__internal_1a14",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 137,
+                "heap_offset": 1566,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 138,
+                "heap_offset": 1568,
+                "selector_id": 26211,
+                "selector": "__internal_6663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 139,
+                "heap_offset": 1570,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 140,
+                "heap_offset": 1572,
+                "selector_id": 51762,
+                "selector": "__internal_ca32",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 141,
+                "heap_offset": 1574,
+                "selector_id": 15361,
+                "selector": "__internal_3c01",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 142,
+                "heap_offset": 1576,
+                "selector_id": 5429,
+                "selector": "__internal_1535",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 143,
+                "heap_offset": 1578,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 144,
+                "heap_offset": 1580,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 145,
+                "heap_offset": 1582,
+                "selector_id": 42346,
+                "selector": "__internal_a56a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 146,
+                "heap_offset": 1584,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 147,
+                "heap_offset": 1586,
+                "selector_id": 445,
+                "selector": "__internal_01bd",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 148,
+                "heap_offset": 1588,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 149,
+                "heap_offset": 1590,
+                "selector_id": 6678,
+                "selector": "__internal_1a16",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 150,
+                "heap_offset": 1592,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 151,
+                "heap_offset": 1594,
+                "selector_id": 28259,
+                "selector": "__internal_6e63",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 152,
+                "heap_offset": 1596,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 153,
+                "heap_offset": 1598,
+                "selector_id": 45106,
+                "selector": "__internal_b032",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 154,
+                "heap_offset": 1600,
+                "selector_id": 15361,
+                "selector": "__internal_3c01",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 155,
+                "heap_offset": 1602,
+                "selector_id": 5941,
+                "selector": "__internal_1735",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 156,
+                "heap_offset": 1604,
+                "selector_id": 12570,
+                "selector": "__internal_311a",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 157,
+                "heap_offset": 1606,
+                "selector_id": 25351,
+                "selector": "__internal_6307",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 158,
+                "heap_offset": 1608,
+                "selector_id": 42354,
+                "selector": "__internal_a572",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 159,
+                "heap_offset": 1610,
+                "selector_id": 12800,
+                "selector": "__internal_3200",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 160,
+                "heap_offset": 1612,
+                "selector_id": 419,
+                "selector": "__internal_01a3",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 161,
+                "heap_offset": 1614,
+                "selector_id": 13628,
+                "selector": "__internal_353c",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 162,
+                "heap_offset": 1616,
+                "selector_id": 6680,
+                "selector": "__internal_1a18",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 163,
+                "heap_offset": 1618,
+                "selector_id": 1841,
+                "selector": "__internal_0731",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 164,
+                "heap_offset": 1620,
+                "selector_id": 30307,
+                "selector": "__internal_7663",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 165,
+                "heap_offset": 1622,
+                "selector_id": 165,
+                "selector": "p13SourceRecord",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 166,
+                "heap_offset": 1624,
+                "selector_id": 38450,
+                "selector": "__internal_9632",
+                "raw_value": 0,
+                "signed_value": 0
+              },
+              {
+                "index": 167,
+                "heap_offset": 1626,
+                "selector_id": 15361,
+                "selector": "__internal_3c01",
+                "raw_value": 0,
+                "signed_value": 0
+              }
+            ],
+            "methods": []
+          }
+        ],
+        "strings_start": 1630
+      }
+    }
+  }
+}

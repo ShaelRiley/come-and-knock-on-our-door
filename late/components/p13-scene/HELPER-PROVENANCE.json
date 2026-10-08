@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "path": "tools/audit_emission.py",
+      "sha256": "e38377bf9855c52f19fbda0118c3b81c65f561e899d4dbf259e8a7314ce301d8",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tools/boolean_audit.py",
+      "sha256": "fae069032e8247d17ed4fc58567712cf4394daeab516d6bac97cfb96aec62c9c",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/extract_sci11.py",
+      "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/generate_static_guards.py",
+      "sha256": "a447aaca72f9f932e772b499cb8bf240ea9dc612d42ab36764a27ae4c21e63d9",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/host_vm.py",
+      "sha256": "210b80964518bed64d19516412e66ea98065454b13751c0c746c146243cf5349",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/pack.py",
+      "sha256": "630b867ba6ef09f16fe226978c18d145ee10c03eca1f19782ece31c5b835db3d",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/reference/kernels.json",
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/reference/opcode-tables.json",
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/resource_codec.py",
+      "sha256": "2a64ed728e6c5c82d9d31053e88634837d3a78d4ee6e8d7e7397e28b55d799d5",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/scicompile",
+      "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/sound_stop_mock.py",
+      "sha256": "922c4cb3a804fed96a8861dac3331f61d62d2eb457ee48434247b22526b00ed7",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tools/source_tools.py",
+      "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tests/EXPECTED-COVERAGE.json",
+      "sha256": "7c2dbe70341cea9668160d4b0d3d60eb70204db71d10fa75422cfa36d5a23d26",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/EXPECTED-TESTS.json",
+      "sha256": "97532c6eb3ed6017768b361e0cb5b800d3974a3622408e690ae96d2a7484a945",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/domain_bridge.py",
+      "sha256": "93f28265d0202a1acadf451a47a0275748bfe438d007844f399b0ff472b655dd",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/host.py",
+      "sha256": "fb7abc0d5f480f65c7fcf26e550e201d6d813b9cf57ea663ca30490f8832f19a",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tests/run_suite.py",
+      "sha256": "60a0bfaa26dad95c10c4f7ac0c3a59e2f0ef266894995c76dfc607244edc499e",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/scene_base_vm.py",
+      "sha256": "8c6e9706beaa1d7aaae5173deb3aac9b81ac829467f98566011feac0eac82635",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tests/scene_vm.py",
+      "sha256": "73b71e363a0e89ab61d5711f14b289b681954b13adebebc79adf9d55c9f37e42",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tests/source_factory.py",
+      "sha256": "9bfb428f293f03a7bbd43d2f507af802787d5b8fd02f5fc7a5da00f1a563481c",
+      "origin": "byte-identical accepted P12 helper"
+    },
+    {
+      "path": "tests/test_bindings.py",
+      "sha256": "2d4c9966c93dc2acfe6feefd02f1560064de306b275a2b9ca5f1a6aff10f5501",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/test_composition.py",
+      "sha256": "65f246b5d45fc70ee3c0e5f8214da446481de7f46ad199b87bf1c174b1886185",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/test_current.py",
+      "sha256": "d425d669349b42212ba0f448a77ae30f3e1d61aefeda324ed68b1b83efa6bcf7",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/test_export.py",
+      "sha256": "41c7ef01f5cd5f062ef113ddd55591b4b7ab72d637a5978104aeb69f5e4f5d82",
+      "origin": "new or adapted P13 component code"
+    },
+    {
+      "path": "tests/test_receipts.py",
+      "sha256": "6d85431267b12e71fff32f200fd80cca1e0598eab05f60df5bcc1f0ee50b512a",
+      "origin": "new or adapted P13 component code"
+    }
+  ]
+}

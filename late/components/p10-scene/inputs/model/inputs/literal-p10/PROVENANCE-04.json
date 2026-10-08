@@ -1,0 +1,11 @@
+{
+  "packet": 4,
+  "source_path": "stock-sci/p10-domain-adapter/generate.py",
+  "basis": "Sender retained an untruncated 2026-10-05 concatenated cat of P10 README, generate.py, prepare.py, build.sh before P11 scaffolding.",
+  "completeness": "Sender-attested complete literal transcription.",
+  "original_byte_count": null,
+  "original_sha256": null,
+  "edits_applied": [],
+  "preserved_historical_detail": "Original 410-429 P10/P11 reservation assertion preserved as received.",
+  "validation": "Python AST syntax parsing only; no recovered imports or execution."
+}

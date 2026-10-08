@@ -1,0 +1,2227 @@
+{
+  "record_receipts": {
+    "P13.OPEN.001": {
+      "record_id": "P13.OPEN.001",
+      "record_number": 1,
+      "document_id": 1500,
+      "pages": [
+        [
+          1500,
+          0
+        ],
+        [
+          1500,
+          1
+        ],
+        [
+          1500,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.OPEN.001.01",
+        "P13.OPEN.001.02",
+        "P13.OPEN.001.03"
+      ],
+      "units": [
+        {
+          "line_id": "P13.OPEN.001.01",
+          "speech_unit_id": 1,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1545
+        },
+        {
+          "line_id": "P13.OPEN.001.02",
+          "speech_unit_id": 2,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1546
+        },
+        {
+          "line_id": "P13.OPEN.001.03",
+          "speech_unit_id": 3,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1547
+        }
+      ]
+    },
+    "P13.LOOK.001": {
+      "record_id": "P13.LOOK.001",
+      "record_number": 2,
+      "document_id": 1501,
+      "pages": [
+        [
+          1501,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LOOK.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.LOOK.001.01",
+          "speech_unit_id": 4,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1548
+        }
+      ]
+    },
+    "P13.LABEL.001": {
+      "record_id": "P13.LABEL.001",
+      "record_number": 3,
+      "document_id": 1502,
+      "pages": [
+        [
+          1502,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LABEL.001"
+      ],
+      "units": []
+    },
+    "P13.LABEL.002": {
+      "record_id": "P13.LABEL.002",
+      "record_number": 4,
+      "document_id": 1503,
+      "pages": [
+        [
+          1503,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LABEL.002"
+      ],
+      "units": []
+    },
+    "P13.LABEL.003": {
+      "record_id": "P13.LABEL.003",
+      "record_number": 5,
+      "document_id": 1504,
+      "pages": [
+        [
+          1504,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LABEL.003"
+      ],
+      "units": []
+    },
+    "P13.READ.001": {
+      "record_id": "P13.READ.001",
+      "record_number": 6,
+      "document_id": 1505,
+      "pages": [
+        [
+          1505,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.001"
+      ],
+      "units": []
+    },
+    "P13.READ.002": {
+      "record_id": "P13.READ.002",
+      "record_number": 7,
+      "document_id": 1506,
+      "pages": [
+        [
+          1506,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.002"
+      ],
+      "units": []
+    },
+    "P13.READ.003": {
+      "record_id": "P13.READ.003",
+      "record_number": 8,
+      "document_id": 1507,
+      "pages": [
+        [
+          1507,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.003"
+      ],
+      "units": []
+    },
+    "P13.INVENTORY.001": {
+      "record_id": "P13.INVENTORY.001",
+      "record_number": 9,
+      "document_id": 1508,
+      "pages": [
+        [
+          1508,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.INVENTORY.001"
+      ],
+      "units": []
+    },
+    "P13.READ.004": {
+      "record_id": "P13.READ.004",
+      "record_number": 10,
+      "document_id": 1509,
+      "pages": [
+        [
+          1509,
+          0
+        ],
+        [
+          1509,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.004"
+      ],
+      "units": []
+    },
+    "P13.INVENTORY.002": {
+      "record_id": "P13.INVENTORY.002",
+      "record_number": 11,
+      "document_id": 1510,
+      "pages": [
+        [
+          1510,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.INVENTORY.002"
+      ],
+      "units": []
+    },
+    "P13.LOOK.002": {
+      "record_id": "P13.LOOK.002",
+      "record_number": 12,
+      "document_id": 1511,
+      "pages": [
+        [
+          1511,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LOOK.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.LOOK.002.01",
+          "speech_unit_id": 5,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1549
+        }
+      ]
+    },
+    "P13.CHOICE.001": {
+      "record_id": "P13.CHOICE.001",
+      "record_number": 13,
+      "document_id": 1512,
+      "pages": [
+        [
+          1512,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.CHOICE.001"
+      ],
+      "units": []
+    },
+    "P13.SUCCESS.001": {
+      "record_id": "P13.SUCCESS.001",
+      "record_number": 14,
+      "document_id": 1513,
+      "pages": [
+        [
+          1513,
+          0
+        ],
+        [
+          1513,
+          1
+        ],
+        [
+          1513,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.001.01",
+        "P13.SUCCESS.001.02",
+        "P13.SUCCESS.001.03"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.001.01",
+          "speech_unit_id": 6,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1550
+        },
+        {
+          "line_id": "P13.SUCCESS.001.02",
+          "speech_unit_id": 7,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1551
+        },
+        {
+          "line_id": "P13.SUCCESS.001.03",
+          "speech_unit_id": 8,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1552
+        }
+      ]
+    },
+    "P13.DIALOGUE.001": {
+      "record_id": "P13.DIALOGUE.001",
+      "record_number": 15,
+      "document_id": 1514,
+      "pages": [
+        [
+          1514,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.DIALOGUE.001.01",
+          "speech_unit_id": 9,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1553
+        }
+      ]
+    },
+    "P13.DIALOGUE.002": {
+      "record_id": "P13.DIALOGUE.002",
+      "record_number": 16,
+      "document_id": 1515,
+      "pages": [
+        [
+          1515,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.DIALOGUE.002.01",
+          "speech_unit_id": 10,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1554
+        }
+      ]
+    },
+    "P13.DIALOGUE.003": {
+      "record_id": "P13.DIALOGUE.003",
+      "record_number": 17,
+      "document_id": 1516,
+      "pages": [
+        [
+          1516,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.DIALOGUE.003.01",
+          "speech_unit_id": 11,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1555
+        }
+      ]
+    },
+    "P13.SUCCESS.002": {
+      "record_id": "P13.SUCCESS.002",
+      "record_number": 18,
+      "document_id": 1517,
+      "pages": [
+        [
+          1517,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.002.01",
+          "speech_unit_id": 12,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1556
+        }
+      ]
+    },
+    "P13.SUCCESS.003": {
+      "record_id": "P13.SUCCESS.003",
+      "record_number": 19,
+      "document_id": 1518,
+      "pages": [
+        [
+          1518,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.003.01",
+          "speech_unit_id": 13,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1557
+        }
+      ]
+    },
+    "P13.FAILURE.001": {
+      "record_id": "P13.FAILURE.001",
+      "record_number": 20,
+      "document_id": 1519,
+      "pages": [
+        [
+          1519,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.001.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.001.01",
+          "speech_unit_id": 14,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1558
+        }
+      ]
+    },
+    "P13.FAILURE.002": {
+      "record_id": "P13.FAILURE.002",
+      "record_number": 21,
+      "document_id": 1520,
+      "pages": [
+        [
+          1520,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.002.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.002.01",
+          "speech_unit_id": 15,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1559
+        }
+      ]
+    },
+    "P13.FAILURE.003": {
+      "record_id": "P13.FAILURE.003",
+      "record_number": 22,
+      "document_id": 1521,
+      "pages": [
+        [
+          1521,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.003.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.003.01",
+          "speech_unit_id": 16,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1560
+        }
+      ]
+    },
+    "P13.FAILURE.004": {
+      "record_id": "P13.FAILURE.004",
+      "record_number": 23,
+      "document_id": 1522,
+      "pages": [
+        [
+          1522,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.004.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.004.01",
+          "speech_unit_id": 17,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1561
+        }
+      ]
+    },
+    "P13.CHOICE.002": {
+      "record_id": "P13.CHOICE.002",
+      "record_number": 24,
+      "document_id": 1523,
+      "pages": [
+        [
+          1523,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.CHOICE.002"
+      ],
+      "units": []
+    },
+    "P13.DIALOGUE.004": {
+      "record_id": "P13.DIALOGUE.004",
+      "record_number": 25,
+      "document_id": 1524,
+      "pages": [
+        [
+          1524,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.004.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.DIALOGUE.004.01",
+          "speech_unit_id": 18,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1562
+        }
+      ]
+    },
+    "P13.CHOICE.003": {
+      "record_id": "P13.CHOICE.003",
+      "record_number": 26,
+      "document_id": 1525,
+      "pages": [
+        [
+          1525,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.CHOICE.003"
+      ],
+      "units": []
+    },
+    "P13.SUCCESS.004": {
+      "record_id": "P13.SUCCESS.004",
+      "record_number": 27,
+      "document_id": 1526,
+      "pages": [
+        [
+          1526,
+          0
+        ],
+        [
+          1526,
+          1
+        ],
+        [
+          1526,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.004.01",
+        "P13.SUCCESS.004.02",
+        "P13.SUCCESS.004.03"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.004.01",
+          "speech_unit_id": 19,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1563
+        },
+        {
+          "line_id": "P13.SUCCESS.004.02",
+          "speech_unit_id": 20,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1564
+        },
+        {
+          "line_id": "P13.SUCCESS.004.03",
+          "speech_unit_id": 21,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1565
+        }
+      ]
+    },
+    "P13.FAILURE.005": {
+      "record_id": "P13.FAILURE.005",
+      "record_number": 28,
+      "document_id": 1527,
+      "pages": [
+        [
+          1527,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.005.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.005.01",
+          "speech_unit_id": 22,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1566
+        }
+      ]
+    },
+    "P13.SUCCESS.005": {
+      "record_id": "P13.SUCCESS.005",
+      "record_number": 29,
+      "document_id": 1528,
+      "pages": [
+        [
+          1528,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.005.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.005.01",
+          "speech_unit_id": 23,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1567
+        }
+      ]
+    },
+    "P13.DIALOGUE.005": {
+      "record_id": "P13.DIALOGUE.005",
+      "record_number": 30,
+      "document_id": 1529,
+      "pages": [
+        [
+          1529,
+          0
+        ],
+        [
+          1529,
+          1
+        ],
+        [
+          1529,
+          2
+        ],
+        [
+          1529,
+          3
+        ],
+        [
+          1529,
+          4
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.005.01",
+        "P13.DIALOGUE.005.02",
+        "P13.DIALOGUE.005.03",
+        "P13.DIALOGUE.005.04",
+        "P13.DIALOGUE.005.05"
+      ],
+      "units": [
+        {
+          "line_id": "P13.DIALOGUE.005.01",
+          "speech_unit_id": 24,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1568
+        },
+        {
+          "line_id": "P13.DIALOGUE.005.02",
+          "speech_unit_id": 25,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1569
+        },
+        {
+          "line_id": "P13.DIALOGUE.005.03",
+          "speech_unit_id": 26,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1570
+        },
+        {
+          "line_id": "P13.DIALOGUE.005.04",
+          "speech_unit_id": 27,
+          "record_pages": [
+            3
+          ],
+          "last_record_page": 3,
+          "unit_document": 1571
+        },
+        {
+          "line_id": "P13.DIALOGUE.005.05",
+          "speech_unit_id": 28,
+          "record_pages": [
+            4
+          ],
+          "last_record_page": 4,
+          "unit_document": 1572
+        }
+      ]
+    },
+    "P13.SUCCESS.006": {
+      "record_id": "P13.SUCCESS.006",
+      "record_number": 31,
+      "document_id": 1530,
+      "pages": [
+        [
+          1530,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.006.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.006.01",
+          "speech_unit_id": 29,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1573
+        }
+      ]
+    },
+    "P13.SUCCESS.007": {
+      "record_id": "P13.SUCCESS.007",
+      "record_number": 32,
+      "document_id": 1531,
+      "pages": [
+        [
+          1531,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.007.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.007.01",
+          "speech_unit_id": 30,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1574
+        }
+      ]
+    },
+    "P13.FAILURE.006": {
+      "record_id": "P13.FAILURE.006",
+      "record_number": 33,
+      "document_id": 1532,
+      "pages": [
+        [
+          1532,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.006.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.006.01",
+          "speech_unit_id": 31,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1575
+        }
+      ]
+    },
+    "P13.SUCCESS.008": {
+      "record_id": "P13.SUCCESS.008",
+      "record_number": 34,
+      "document_id": 1533,
+      "pages": [
+        [
+          1533,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.008.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.008.01",
+          "speech_unit_id": 32,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1576
+        }
+      ]
+    },
+    "P13.SUCCESS.009": {
+      "record_id": "P13.SUCCESS.009",
+      "record_number": 35,
+      "document_id": 1534,
+      "pages": [
+        [
+          1534,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.009.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.SUCCESS.009.01",
+          "speech_unit_id": 33,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1577
+        }
+      ]
+    },
+    "P13.FAILURE.007": {
+      "record_id": "P13.FAILURE.007",
+      "record_number": 36,
+      "document_id": 1535,
+      "pages": [
+        [
+          1535,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.007.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.007.01",
+          "speech_unit_id": 34,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1578
+        }
+      ]
+    },
+    "P13.FAILURE.008": {
+      "record_id": "P13.FAILURE.008",
+      "record_number": 37,
+      "document_id": 1536,
+      "pages": [
+        [
+          1536,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.008.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.008.01",
+          "speech_unit_id": 35,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1579
+        }
+      ]
+    },
+    "P13.FAILURE.009": {
+      "record_id": "P13.FAILURE.009",
+      "record_number": 38,
+      "document_id": 1537,
+      "pages": [],
+      "binding_required": true,
+      "canonical_tokens": [
+        "P13.FAILURE.009.01"
+      ],
+      "units": [
+        {
+          "line_id": "P13.FAILURE.009.01",
+          "speech_unit_id": 36,
+          "record_pages": [],
+          "last_record_page": null,
+          "unit_document": 1580
+        }
+      ]
+    },
+    "P13.HINT.1": {
+      "record_id": "P13.HINT.1",
+      "record_number": 39,
+      "document_id": 1538,
+      "pages": [
+        [
+          1538,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.HINT.1"
+      ],
+      "units": []
+    },
+    "P13.HINT.2": {
+      "record_id": "P13.HINT.2",
+      "record_number": 40,
+      "document_id": 1539,
+      "pages": [
+        [
+          1539,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.HINT.2"
+      ],
+      "units": []
+    },
+    "P13.HINT.3": {
+      "record_id": "P13.HINT.3",
+      "record_number": 41,
+      "document_id": 1540,
+      "pages": [
+        [
+          1540,
+          0
+        ],
+        [
+          1540,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.HINT.3"
+      ],
+      "units": []
+    },
+    "VC04.ENTRY": {
+      "record_id": "VC04.ENTRY",
+      "record_number": 42,
+      "document_id": 1541,
+      "pages": [
+        [
+          1541,
+          0
+        ],
+        [
+          1541,
+          1
+        ],
+        [
+          1541,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "VC04.ENTRY.01",
+        "VC04.ENTRY.02",
+        "VC04.ENTRY.03"
+      ],
+      "units": [
+        {
+          "line_id": "VC04.ENTRY.01",
+          "speech_unit_id": 37,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1581
+        },
+        {
+          "line_id": "VC04.ENTRY.02",
+          "speech_unit_id": 38,
+          "record_pages": [
+            1
+          ],
+          "last_record_page": 1,
+          "unit_document": 1582
+        },
+        {
+          "line_id": "VC04.ENTRY.03",
+          "speech_unit_id": 39,
+          "record_pages": [
+            2
+          ],
+          "last_record_page": 2,
+          "unit_document": 1583
+        }
+      ]
+    },
+    "VC04.REMATCH": {
+      "record_id": "VC04.REMATCH",
+      "record_number": 43,
+      "document_id": 1542,
+      "pages": [
+        [
+          1542,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "VC04.REMATCH.01"
+      ],
+      "units": [
+        {
+          "line_id": "VC04.REMATCH.01",
+          "speech_unit_id": 40,
+          "record_pages": [
+            0
+          ],
+          "last_record_page": 0,
+          "unit_document": 1584
+        }
+      ]
+    },
+    "VC04.NOT_READY": {
+      "record_id": "VC04.NOT_READY",
+      "record_number": 44,
+      "document_id": 1543,
+      "pages": [
+        [
+          1543,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "VC04.NOT_READY"
+      ],
+      "units": []
+    },
+    "VC04.NEED_RESOLUTION": {
+      "record_id": "VC04.NEED_RESOLUTION",
+      "record_number": 45,
+      "document_id": 1544,
+      "pages": [
+        [
+          1544,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "VC04.NEED_RESOLUTION"
+      ],
+      "units": []
+    }
+  },
+  "unit_receipts": {
+    "P13.OPEN.001.01": {
+      "line_id": "P13.OPEN.001.01",
+      "record_id": "P13.OPEN.001",
+      "speech_unit_id": 1,
+      "document_id": 1545,
+      "pages": [
+        [
+          1545,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1500,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "b2a3b8264c0bd47eff623320b740b0fd9d5c124357c89aa5ec82d3a3e93f2c6b"
+    },
+    "P13.OPEN.001.02": {
+      "line_id": "P13.OPEN.001.02",
+      "record_id": "P13.OPEN.001",
+      "speech_unit_id": 2,
+      "document_id": 1546,
+      "pages": [
+        [
+          1546,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1500,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "09873231f2443049146b9fb332c4c3406e1afbf47a190df03fcebaa658f04f93"
+    },
+    "P13.OPEN.001.03": {
+      "line_id": "P13.OPEN.001.03",
+      "record_id": "P13.OPEN.001",
+      "speech_unit_id": 3,
+      "document_id": 1547,
+      "pages": [
+        [
+          1547,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1500,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "5cf45b48bd42a462a0b403110a5ed30e0e5a0cb10adf45824f439d783d0a2e46"
+    },
+    "P13.LOOK.001.01": {
+      "line_id": "P13.LOOK.001.01",
+      "record_id": "P13.LOOK.001",
+      "speech_unit_id": 4,
+      "document_id": 1548,
+      "pages": [
+        [
+          1548,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1501,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "eb87ea35033eecc671200944ba8bf1e155f77f046d817f483f2355b50c9840d5"
+    },
+    "P13.LOOK.002.01": {
+      "line_id": "P13.LOOK.002.01",
+      "record_id": "P13.LOOK.002",
+      "speech_unit_id": 5,
+      "document_id": 1549,
+      "pages": [
+        [
+          1549,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1511,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "b9f1cbaae9f76c8bd83cc9778abd242bf7f65d0d85625e58f1e6b462cf25bcec"
+    },
+    "P13.SUCCESS.001.01": {
+      "line_id": "P13.SUCCESS.001.01",
+      "record_id": "P13.SUCCESS.001",
+      "speech_unit_id": 6,
+      "document_id": 1550,
+      "pages": [
+        [
+          1550,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1513,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "143ae7ef073f77bb133e4c1c7ebbbc652d5424367d6c1114fea3a8483e2e197b"
+    },
+    "P13.SUCCESS.001.02": {
+      "line_id": "P13.SUCCESS.001.02",
+      "record_id": "P13.SUCCESS.001",
+      "speech_unit_id": 7,
+      "document_id": 1551,
+      "pages": [
+        [
+          1551,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1513,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "f108bd308e80ebd962565667bd90baf1445c0899b2c0b71173537f130c6b2ecf"
+    },
+    "P13.SUCCESS.001.03": {
+      "line_id": "P13.SUCCESS.001.03",
+      "record_id": "P13.SUCCESS.001",
+      "speech_unit_id": 8,
+      "document_id": 1552,
+      "pages": [
+        [
+          1552,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1513,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "b5e37fb1c8161e3c2f6f02388678e848f8857f33dcc896f1309c43cdb445852a"
+    },
+    "P13.DIALOGUE.001.01": {
+      "line_id": "P13.DIALOGUE.001.01",
+      "record_id": "P13.DIALOGUE.001",
+      "speech_unit_id": 9,
+      "document_id": 1553,
+      "pages": [
+        [
+          1553,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1514,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "c33ecf2d05e6bb1d69b972620e468b4fa372cc41d4d9b1f047d7ce23aeac6d0e"
+    },
+    "P13.DIALOGUE.002.01": {
+      "line_id": "P13.DIALOGUE.002.01",
+      "record_id": "P13.DIALOGUE.002",
+      "speech_unit_id": 10,
+      "document_id": 1554,
+      "pages": [
+        [
+          1554,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1515,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "faa2e9c43aa014c24ad32e2e08ad57ce3da16b0b3880258b3a22667f6a5b8609"
+    },
+    "P13.DIALOGUE.003.01": {
+      "line_id": "P13.DIALOGUE.003.01",
+      "record_id": "P13.DIALOGUE.003",
+      "speech_unit_id": 11,
+      "document_id": 1555,
+      "pages": [
+        [
+          1555,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1516,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "1b2652423bd029e6f40d3b27242797ec488998f3c68148292103a512295dfb39"
+    },
+    "P13.SUCCESS.002.01": {
+      "line_id": "P13.SUCCESS.002.01",
+      "record_id": "P13.SUCCESS.002",
+      "speech_unit_id": 12,
+      "document_id": 1556,
+      "pages": [
+        [
+          1556,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1517,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "94720ba1563854be2da6abcd69a5f83aadf4201ad62d50de46d6953464a1e93b"
+    },
+    "P13.SUCCESS.003.01": {
+      "line_id": "P13.SUCCESS.003.01",
+      "record_id": "P13.SUCCESS.003",
+      "speech_unit_id": 13,
+      "document_id": 1557,
+      "pages": [
+        [
+          1557,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1518,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "848b5c77aa851ebccc4588d02d960ecfafa97a3dcd0d787f21544d17fce658ef"
+    },
+    "P13.FAILURE.001.01": {
+      "line_id": "P13.FAILURE.001.01",
+      "record_id": "P13.FAILURE.001",
+      "speech_unit_id": 14,
+      "document_id": 1558,
+      "pages": [
+        [
+          1558,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1519,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "9cf050b80f4d6d4d0d8ddf349acfa1acfdc4610015aba8f3a6c6db51ea8a5d25"
+    },
+    "P13.FAILURE.002.01": {
+      "line_id": "P13.FAILURE.002.01",
+      "record_id": "P13.FAILURE.002",
+      "speech_unit_id": 15,
+      "document_id": 1559,
+      "pages": [
+        [
+          1559,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1520,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "a6e53fad0e5773985ad6d6dbe555ada816e21d02d52ac1958a8346276af0506d"
+    },
+    "P13.FAILURE.003.01": {
+      "line_id": "P13.FAILURE.003.01",
+      "record_id": "P13.FAILURE.003",
+      "speech_unit_id": 16,
+      "document_id": 1560,
+      "pages": [
+        [
+          1560,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1521,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "5f8bf76a2716d6d7415b51b03e97df7aefd802782ed9575d01ef7511303616b3"
+    },
+    "P13.FAILURE.004.01": {
+      "line_id": "P13.FAILURE.004.01",
+      "record_id": "P13.FAILURE.004",
+      "speech_unit_id": 17,
+      "document_id": 1561,
+      "pages": [
+        [
+          1561,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1522,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "92f8fec3a93903a3cd7a8bb7c450bbc92ef2e7c216c024a89d607016464f8d77"
+    },
+    "P13.DIALOGUE.004.01": {
+      "line_id": "P13.DIALOGUE.004.01",
+      "record_id": "P13.DIALOGUE.004",
+      "speech_unit_id": 18,
+      "document_id": 1562,
+      "pages": [
+        [
+          1562,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1524,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "fd2658f1b91a5c404d0f4a0fa3a569c378c3a0246f7de9448f69bcdd605025ea"
+    },
+    "P13.SUCCESS.004.01": {
+      "line_id": "P13.SUCCESS.004.01",
+      "record_id": "P13.SUCCESS.004",
+      "speech_unit_id": 19,
+      "document_id": 1563,
+      "pages": [
+        [
+          1563,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1526,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "f0d12b555a2fee214bf7ba7090c62eb5fee0c23611fca203adef781488e46c66"
+    },
+    "P13.SUCCESS.004.02": {
+      "line_id": "P13.SUCCESS.004.02",
+      "record_id": "P13.SUCCESS.004",
+      "speech_unit_id": 20,
+      "document_id": 1564,
+      "pages": [
+        [
+          1564,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1526,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "9db102ad7502e1f34c49dd0c6d36fdc8e55b73d1a5e739fb337d9791e8cea0dc"
+    },
+    "P13.SUCCESS.004.03": {
+      "line_id": "P13.SUCCESS.004.03",
+      "record_id": "P13.SUCCESS.004",
+      "speech_unit_id": 21,
+      "document_id": 1565,
+      "pages": [
+        [
+          1565,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1526,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "0cb244e11bb3d2cf8c50f0fa6ea222a7bca5a355ca7dbc886ff7376acb3df6c9"
+    },
+    "P13.FAILURE.005.01": {
+      "line_id": "P13.FAILURE.005.01",
+      "record_id": "P13.FAILURE.005",
+      "speech_unit_id": 22,
+      "document_id": 1566,
+      "pages": [
+        [
+          1566,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1527,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "116aa986469377352840b8b01278f0cd45828d36d8673279686f93a20046a545"
+    },
+    "P13.SUCCESS.005.01": {
+      "line_id": "P13.SUCCESS.005.01",
+      "record_id": "P13.SUCCESS.005",
+      "speech_unit_id": 23,
+      "document_id": 1567,
+      "pages": [
+        [
+          1567,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1528,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "f0c5282eb7697414c4222adb2bd8a7cda0bc3a6720bf8b126bb362f8d9e08724"
+    },
+    "P13.DIALOGUE.005.01": {
+      "line_id": "P13.DIALOGUE.005.01",
+      "record_id": "P13.DIALOGUE.005",
+      "speech_unit_id": 24,
+      "document_id": 1568,
+      "pages": [
+        [
+          1568,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1529,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "5d496f9a1ebf44da68b109b5e378e724006ea944a93f9a09ccbb0fb65b77c322"
+    },
+    "P13.DIALOGUE.005.02": {
+      "line_id": "P13.DIALOGUE.005.02",
+      "record_id": "P13.DIALOGUE.005",
+      "speech_unit_id": 25,
+      "document_id": 1569,
+      "pages": [
+        [
+          1569,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1529,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "e59e885d11d6814d806d0b39fb245ea7b36c092af0c767877280c742c60daa09"
+    },
+    "P13.DIALOGUE.005.03": {
+      "line_id": "P13.DIALOGUE.005.03",
+      "record_id": "P13.DIALOGUE.005",
+      "speech_unit_id": 26,
+      "document_id": 1570,
+      "pages": [
+        [
+          1570,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1529,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "76584d5cfc7169937c575febf7fe952b7f3993d162193e9392914879173d3795"
+    },
+    "P13.DIALOGUE.005.04": {
+      "line_id": "P13.DIALOGUE.005.04",
+      "record_id": "P13.DIALOGUE.005",
+      "speech_unit_id": 27,
+      "document_id": 1571,
+      "pages": [
+        [
+          1571,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1529,
+          3
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "a88e411b78b34d70532d42ccf6b7c3fec7052482fe56de7967ccf1d288510c05"
+    },
+    "P13.DIALOGUE.005.05": {
+      "line_id": "P13.DIALOGUE.005.05",
+      "record_id": "P13.DIALOGUE.005",
+      "speech_unit_id": 28,
+      "document_id": 1572,
+      "pages": [
+        [
+          1572,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1529,
+          4
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "2b246f8838f0b6a08086776fbd1aee54afca975e018325e4965ca8f6cb6bf360"
+    },
+    "P13.SUCCESS.006.01": {
+      "line_id": "P13.SUCCESS.006.01",
+      "record_id": "P13.SUCCESS.006",
+      "speech_unit_id": 29,
+      "document_id": 1573,
+      "pages": [
+        [
+          1573,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1530,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "d9a86befddd605ef1e60f8b4d055c12fa39e44f4ad409857b6efdf700e586ab0"
+    },
+    "P13.SUCCESS.007.01": {
+      "line_id": "P13.SUCCESS.007.01",
+      "record_id": "P13.SUCCESS.007",
+      "speech_unit_id": 30,
+      "document_id": 1574,
+      "pages": [
+        [
+          1574,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1531,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "cc8b7e36284bfd87df8a7bc2b7a3dc0db4c1839f6edcb8fc4050a3da46cca1a5"
+    },
+    "P13.FAILURE.006.01": {
+      "line_id": "P13.FAILURE.006.01",
+      "record_id": "P13.FAILURE.006",
+      "speech_unit_id": 31,
+      "document_id": 1575,
+      "pages": [
+        [
+          1575,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1532,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "80974d5366fd93394ee18abdd9e80a60e771549be0b30e4a669c34ad1d0bd8a3"
+    },
+    "P13.SUCCESS.008.01": {
+      "line_id": "P13.SUCCESS.008.01",
+      "record_id": "P13.SUCCESS.008",
+      "speech_unit_id": 32,
+      "document_id": 1576,
+      "pages": [
+        [
+          1576,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1533,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "8ac10b222377af9c2eb00fc19ce38129ddf765fbb1ba80d3e9ab6d2e657ad5b9"
+    },
+    "P13.SUCCESS.009.01": {
+      "line_id": "P13.SUCCESS.009.01",
+      "record_id": "P13.SUCCESS.009",
+      "speech_unit_id": 33,
+      "document_id": 1577,
+      "pages": [
+        [
+          1577,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1534,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "d45656b2325e216c60288a4ea40dbf3d53b77fc82756ef24a713319569bbf6a2"
+    },
+    "P13.FAILURE.007.01": {
+      "line_id": "P13.FAILURE.007.01",
+      "record_id": "P13.FAILURE.007",
+      "speech_unit_id": 34,
+      "document_id": 1578,
+      "pages": [
+        [
+          1578,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1535,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "68b963cac4e836d5b77483e8497f72023ddf2ffdd7dbcbc1bb033757b16021e5"
+    },
+    "P13.FAILURE.008.01": {
+      "line_id": "P13.FAILURE.008.01",
+      "record_id": "P13.FAILURE.008",
+      "speech_unit_id": 35,
+      "document_id": 1579,
+      "pages": [
+        [
+          1579,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1536,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "21353a15e9b52dc5fc730c219e3feba249682d20abe98dbc56854fd4a59c984b"
+    },
+    "P13.FAILURE.009.01": {
+      "line_id": "P13.FAILURE.009.01",
+      "record_id": "P13.FAILURE.009",
+      "speech_unit_id": 36,
+      "document_id": 1580,
+      "pages": [],
+      "record_pages": [],
+      "binding_required": true,
+      "source_text_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96"
+    },
+    "VC04.ENTRY.01": {
+      "line_id": "VC04.ENTRY.01",
+      "record_id": "VC04.ENTRY",
+      "speech_unit_id": 37,
+      "document_id": 1581,
+      "pages": [
+        [
+          1581,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1541,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "5e2564c69dc38b57fc9ebede29cfa0d3738ff27dc76b7f680748a6ce46f38682"
+    },
+    "VC04.ENTRY.02": {
+      "line_id": "VC04.ENTRY.02",
+      "record_id": "VC04.ENTRY",
+      "speech_unit_id": 38,
+      "document_id": 1582,
+      "pages": [
+        [
+          1582,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1541,
+          1
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "1e62dd6825d71c5c3b985ca8afb072a7c5a7ed7ddf21927ff5a70905f9a47046"
+    },
+    "VC04.ENTRY.03": {
+      "line_id": "VC04.ENTRY.03",
+      "record_id": "VC04.ENTRY",
+      "speech_unit_id": 39,
+      "document_id": 1583,
+      "pages": [
+        [
+          1583,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1541,
+          2
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "c12502f6495a7f674ff6dc300d2b3626b3fee2d3f39f29c44e8b0c9b841c5929"
+    },
+    "VC04.REMATCH.01": {
+      "line_id": "VC04.REMATCH.01",
+      "record_id": "VC04.REMATCH",
+      "speech_unit_id": 40,
+      "document_id": 1584,
+      "pages": [
+        [
+          1584,
+          0
+        ]
+      ],
+      "record_pages": [
+        [
+          1542,
+          0
+        ]
+      ],
+      "binding_required": false,
+      "source_text_sha256": "811442ea7dde74d2312eeabd5514dc74057ae9654da4d27655cd7643e8a21a78"
+    }
+  },
+  "source_receipts": {
+    "opening": {
+      "source_number": 1,
+      "record_ids": [
+        "P13.OPEN.001"
+      ],
+      "documents": [
+        1500
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.OPEN.001.01",
+        "P13.OPEN.001.02",
+        "P13.OPEN.001.03"
+      ],
+      "token_numbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    "rack": {
+      "source_number": 2,
+      "record_ids": [
+        "P13.LOOK.001"
+      ],
+      "documents": [
+        1501
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.LOOK.001.01"
+      ],
+      "token_numbers": [
+        4
+      ]
+    },
+    "serve_preview": {
+      "source_number": 3,
+      "record_ids": [
+        "P13.READ.001"
+      ],
+      "documents": [
+        1505
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.001"
+      ],
+      "token_numbers": [
+        5
+      ]
+    },
+    "show_preview": {
+      "source_number": 4,
+      "record_ids": [
+        "P13.READ.002"
+      ],
+      "documents": [
+        1506
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.002"
+      ],
+      "token_numbers": [
+        6
+      ]
+    },
+    "toast_preview": {
+      "source_number": 5,
+      "record_ids": [
+        "P13.READ.003"
+      ],
+      "documents": [
+        1507
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.003"
+      ],
+      "token_numbers": [
+        7
+      ]
+    },
+    "program": {
+      "source_number": 6,
+      "record_ids": [
+        "P13.READ.004"
+      ],
+      "documents": [
+        1509
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.READ.004"
+      ],
+      "token_numbers": [
+        8
+      ]
+    },
+    "pot_help": {
+      "source_number": 7,
+      "record_ids": [
+        "P13.DIALOGUE.001"
+      ],
+      "documents": [
+        1514
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.001.01"
+      ],
+      "token_numbers": [
+        9
+      ]
+    },
+    "display_help": {
+      "source_number": 8,
+      "record_ids": [
+        "P13.DIALOGUE.002"
+      ],
+      "documents": [
+        1515
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.002.01"
+      ],
+      "token_numbers": [
+        10
+      ]
+    },
+    "board_help": {
+      "source_number": 9,
+      "record_ids": [
+        "P13.DIALOGUE.003"
+      ],
+      "documents": [
+        1516
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.003.01"
+      ],
+      "token_numbers": [
+        11
+      ]
+    },
+    "rita_ready": {
+      "source_number": 10,
+      "record_ids": [
+        "P13.DIALOGUE.004"
+      ],
+      "documents": [
+        1524
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.004.01"
+      ],
+      "token_numbers": [
+        12
+      ]
+    },
+    "reveal": {
+      "source_number": 11,
+      "record_ids": [
+        "P13.DIALOGUE.005"
+      ],
+      "documents": [
+        1529
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.DIALOGUE.005.01",
+        "P13.DIALOGUE.005.02",
+        "P13.DIALOGUE.005.03",
+        "P13.DIALOGUE.005.04",
+        "P13.DIALOGUE.005.05"
+      ],
+      "token_numbers": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "attention": {
+      "source_number": 12,
+      "record_ids": [
+        "P13.SUCCESS.008"
+      ],
+      "documents": [
+        1533
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.SUCCESS.008.01"
+      ],
+      "token_numbers": [
+        18
+      ]
+    },
+    "wrong_pot": {
+      "source_number": 13,
+      "record_ids": [
+        "P13.FAILURE.001"
+      ],
+      "documents": [
+        1519
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.001.01"
+      ],
+      "token_numbers": [
+        19
+      ]
+    },
+    "wrong_people": {
+      "source_number": 14,
+      "record_ids": [
+        "P13.FAILURE.002"
+      ],
+      "documents": [
+        1520
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.002.01"
+      ],
+      "token_numbers": [
+        20
+      ]
+    },
+    "wrong_display": {
+      "source_number": 15,
+      "record_ids": [
+        "P13.FAILURE.003"
+      ],
+      "documents": [
+        1521
+      ],
+      "binding_required": false,
+      "canonical_tokens": [
+        "P13.FAILURE.003.01"
+      ],
+      "token_numbers": [
+        21
+      ]
+    }
+  },
+  "receipt_semantics": {
+    "full_record_requires_all_pages": true,
+    "unit_requires_all_unit_pages": true,
+    "queue_open_last_page_audio_completion_are_not_display_receipts": true,
+    "full_source_and_unit_authority_distinct": true,
+    "variant_identity_required": true,
+    "partial_selected_unit_never_complete": true
+  }
+}

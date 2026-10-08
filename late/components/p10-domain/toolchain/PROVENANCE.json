@@ -1,0 +1,9 @@
+{
+  "compiler": {
+    "source": "../p08-host-reconstruction/toolchain/scicompile",
+    "destination": "toolchain/scicompile",
+    "sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e"
+  },
+  "installation": false,
+  "upstream_source_manifest": "../p08-host-reconstruction/toolchain/SOURCE-MANIFEST.json"
+}

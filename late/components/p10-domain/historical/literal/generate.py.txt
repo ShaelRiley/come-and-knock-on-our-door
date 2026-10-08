@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Generate numeric bindings and an original isolated stock SCI1.1 P10 adapter."""
+from pathlib import Path
+import hashlib,json,sys
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1]
+sys.path.insert(0,str(ROOT))
+from cakood import p10_model as model
+from cakood.p02_model import ROOMS
+SOURCES={x:i+1 for i,x in enumerate(model.P10World.SOURCES)}
+SERIALS=['Revision','Bread','Paper','Restored']+[x.title().replace('_','')+'Start' for x in SOURCES]
+RECEIPTS={}
+for source in SOURCES:
+ RECEIPTS[source]=[]
+ for i,token in enumerate(model.P10World()._tokens(source)):
+  RECEIPTS[source].append({'slot':len(SERIALS),'token':token})
+  SERIALS.append(source.title().replace('_','')+'Receipt'+str(i+1))
+PROPS=dict.fromkeys(['p10Initialized','p10HintLevel']+['p10Label'+str(i) for i in range(6)]+['p10Slot'+str(i) for i in range(3)]+['p10'+n+l for n in SERIALS for l in ('Hi','Lo')],0)
+PERSISTED=list(PROPS)
+PROPS.update(dict.fromkeys(['p10'+p for p in ('ContextValid','Room','Apron','Evening','KnowOrder','BunnyRoom','FrankieRoom','RitaRoom','ContestActive','ClaimReady','Epoch','Code','LineCount','UnitCount','EventCount','ResultHi','ResultLo','PresentationSource','PresentationHi','PresentationLo')],0))
+CODES={name:i+1 for i,name in enumerate(('evening_required','offscreen','contest_active','snacks_not_discovered','cues_not_restored','tiles_unavailable','tile_substitution_required','speaker_absent','bread_served','plan','tiles','rack','crumbs','no_p10_description','p03_tiles_required','existing_tiles','paper_already_prepared','master_card_required','paper_prepared','cue_unavailable','pencil_required','read_plan_required','label_unchanged','cue_written','cue_already_placed','blank_cue','remove_occupied_cue_first','cue_placed','slot_empty','cue_removed','hint','no_p10_action','presentation_not_started','presentation_complete','presentation_pending','presentation_already_acknowledged','presentation_acknowledged','stale_presentation','invalid_argument','invalid_context','invalid_state','serial_exhausted'))}
+EVENTS={name:i+1 for i,name in enumerate(('P10_PRESENTATION_QUEUED','P10_PRESENTED','P10_BREAD_SERVED','P10_PAPER_PREPARED','P10_CUE_WRITTEN','P10_CUE_PLACED','P10_CUE_REMOVED','P10_HINT'))}
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def table(name,arg,mapping,default=0):
+ return f'(method ({name} {arg} &tmp answer)\n (= answer {default})\n (switch {arg}\n'+''.join(f' ({k} (= answer {v}))\n' for k,v in mapping.items())+') (return answer))\n'
+def main():
+ fixture=json.loads((ROOT/'tests/fixtures/p10/canonical-bindings.json').read_text())
+ registry=json.loads((ROOT/'docs/native-resource-registry.json').read_text())
+ assert 'P10State species14' in registry['scripts']['992']
+ assert 'P10/P11' in registry['object_id_reservations']['410-429']
+ authority=Path('/workspace/shared/cakood/full-script/CURRENT-SCRIPT-REVISION.json')
+ current=json.loads(authority.read_text());assert fixture['catalog_sha256']==current['catalog_sha256'] and current['editorial_revision']==3
+ assert sha(authority.parent/current['catalog'])==current['catalog_sha256']
+ assert sha(authority.parent/current['speech'])==fixture['speech_sha256']
+ assert set(fixture['records'])==set(model.RECORD_UNITS)
+ assert {u['line_id']:u['speaker_id'] for u in fixture['speech_units']}==model.UNIT_SPEAKERS
+ for record,units in model.RECORD_UNITS.items():
+  assert tuple(u['line_id'] for u in fixture['speech_units'] if u['record_id']==record)==units
+ objects=json.loads((HERE.parent/'p09-domain-adapter/manifest.json').read_text())['objects']
+ own=dict(zip(('cue_rack','rack_spring_clips',*model.PAPER_IDS),range(410,415)))
+ assert not set(own.values())&set(objects.values());objects.update(own)
+ assert [objects[x] for x in model.TILE_IDS]==[48,49,50]
+ lines={name:i+1 for i,name in enumerate(fixture['records'])}
+ units={x['line_id']:i+1 for i,x in enumerate(fixture['speech_units'])}
+ tokens={t:i+1 for i,t in enumerate(dict.fromkeys(x['token'] for rs in RECEIPTS.values() for x in rs))}
+ constants=[]
+ for prefix,values in (('OBJ',objects),('CODE',CODES),('EVENT',EVENTS),('SOURCE',SOURCES),('LINE',lines),('UNIT',units),('TOKEN',tokens)):
+  constants += [f'(define {prefix}_{k.upper().replace(".","_")} {v})' for k,v in values.items()]
+ constants += [f'(define ROOM_{k} {v.number})' for k,v in ROOMS.items()]
+ generated=''
+ for limb in ('Hi','Lo'):generated+=table('p10Serial'+limb,'slot',{i:'p10'+n+limb for i,n in enumerate(SERIALS)})
+ generated+='(method (p10SetSerial slot hi lo)\n (switch slot\n'+''.join(f' ({i} (= p10{n}Hi hi) (= p10{n}Lo lo))\n' for i,n in enumerate(SERIALS))+') (return 1))\n'
+ generated+=table('p10Capacity','source',{SOURCES[s]:len(rs) for s,rs in RECEIPTS.items()})
+ generated+=table('p10ReceiptBase','source',{SOURCES[s]:rs[0]['slot'] for s,rs in RECEIPTS.items()})
+ generated+=table('p10SourceRecord','source',{SOURCES[s]:lines[model.P10World.SOURCES[s]] for s in SOURCES})
+ generated+='(method (p10Token source index &tmp answer)\n (= answer 0) (switch source\n'
+ for s,rs in RECEIPTS.items():generated+=f' ({SOURCES[s]} (switch index '+''.join(f' ({i} (= answer {tokens[r["token"]]}))' for i,r in enumerate(rs))+'))\n'
+ generated+=') (return answer))\n'
+ generated+=table('p10TokenUnit','token',{v:units.get(k,0) for k,v in tokens.items()})
+ generated+=table('p10TokenSpeaker','token',{v:objects.get(model.UNIT_SPEAKERS.get(k,''),0) for k,v in tokens.items()})
+ generated+=table('p10CueIndex','obj',{objects[x]:i for i,x in enumerate(model.CUE_IDS)},-1)
+ generated+=table('p10CueAt','index',{i:objects[x] for i,x in enumerate(model.CUE_IDS)})
+ generated+=table('p10LabelAt','index',{i:'p10Label'+str(i) for i in range(6)})
+ generated+=table('p10SlotAt','index',{i:'p10Slot'+str(i) for i in range(3)})
+ for name,n in [('Label',6),('Slot',3)]:
+  generated+=f'(method (p10Set{name} index value) (switch index '+''.join(f'({i} (= p10{name}{i} value))' for i in range(n))+') (return 1))\n'
+ generated+='(method (p10ContextItem obj &tmp valid)\n (if (not p10ContextValid) (return 0)) (= valid 0) (switch obj\n'
+ for name,id in objects.items():
+  if name not in model.FIXED_OBJECTS|set(model.PAPER_IDS):generated+=f' ({id} (= valid 1))\n'
+ generated+=') (if valid (= [p10Held obj] 1) (return 1)) (= p10ContextValid 0) (self p10Clear:) (= p10Code CODE_INVALID_CONTEXT) (return 0))\n'
+ source=';;; Sierra Script 1.0 - (do not remove this comment)\n; Original isolated P10 domain adapter. No canonical prose or campaign mutation.\n(script# 992)\n(public p10State 0)\n(local [p10Lines 3] [p10Units 6] [p10Events 2] [p10EventArgs 8] [p10EventHi 2] [p10EventLo 2] [p10Held 415] [p10Lease 8])\n'+'\n'.join(constants)+'\n'+f'(define P10_SERIAL_COUNT {len(SERIALS)})\n'+f'(define P10_LINE_LIMIT {len(lines)})\n(class P10State\n(properties\n'+'\n'.join(f' {k} {v}' for k,v in PROPS.items())+'\n)\n'+generated+(HERE/'src/methods.sc.in').read_text()+'\n)\n(instance p10State of P10State)\n'
+ (HERE/'src/module992.sc').write_text(source)
+ manifest=dict(scope='Original isolated SCI1.1 domain adapter; native and host integration pending',script=992,export=0,export_name='p10State',standalone_species=1,production_reserved_species=14,objects=objects,own_objects=own,object_aliases={'notebook':'journal'},topic_targets={'bread':1,'cues':2,'credit':3},rooms={k:v.number for k,v in ROOMS.items()},sources=SOURCES,codes=CODES,events=EVENTS,line_ids=lines,speech_unit_ids=units,tokens=tokens,serials=SERIALS,receipts=RECEIPTS,source_bindings=model.P10World.SOURCES,words={v:i+1 for i,v in enumerate(model.ORDER)},cue_ids=list(model.CUE_IDS),persisted_properties=PERSISTED,all_properties=PROPS,max_serial=1073741823,serial_limb_base=32768,line_capacity=3,speech_unit_capacity=6,event_capacity=2,event_arg_capacity=4,external_inventory_capacity=415,model_sha256=sha(ROOT/'cakood/p10_model.py'),fixture_sha256=sha(ROOT/'tests/fixtures/p10/canonical-bindings.json'),registry_sha256=sha(ROOT/'docs/native-resource-registry.json'),source_sha256=sha(HERE/'src/module992.sc'),authority_sha256=sha(authority),gdd_sha256=sha(Path('/workspace/shared/cakood/ending-seam-20261005/current-gdd.txt')),speech_metadata=fixture['speech_units'],cue_handoff={'rack_id':'cue_rack','location':model.COURTYARD,'slots':'current p10SlotAt(0..2) stable IDs','words':'current p10LabelFor(slot identity), not cached completion words','correct_now':'p10RackCorrect()','known_order':list(model.ORDER),'built_in_clips':True,'editable':True,'first_restored_serial':'p10RestoredHi*32768+p10RestoredLo'})
+ (HERE/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+ print(f'Generated script992: {len(source)} bytes; {len(SERIALS)} serials; {len(lines)} records')
+if __name__=='__main__':main()

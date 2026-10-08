@@ -1,0 +1,16 @@
+; Public cross-branch queries. Actor IDs match canonical cast/speech routing.
+; These queries neither initialize nor repair state and never confer visibility.
+(method (h8ActorRoom actor &tmp r t)
+ (if (not h8Host) (return -1))
+ (= r (h8Host p05?)) (= t (h8Host p06?))
+ (if (or (not r) (not t)) (return -1))
+ (switch actor
+  (1 (return (h8Host location?))) (2 (return (if (h8Host p02PlanAgreed?) (r hBunnyRoom?) else (h8Host p02ObjectLocation: 2))))
+  (3 (return (t h6FrankieRoom?))) (4 (return 6))
+  (5 (return (r hMiloRoom?))) (6 (return (t h6VivianRoom?)))
+  (7 (return 6)) (8 (return 3))) (return -1))
+; Reserved public ABI. The actual verified autosave/ACK/E03 owner authority is
+; deliberately not implemented in this geometry component.
+(method (h8EveningCommitted) (return 0))
+(method (h8EveningReady)
+ (return (if (and (self h8EveningCommitted:) (not (self h8ActionBarrier:))) 1 else 0)))

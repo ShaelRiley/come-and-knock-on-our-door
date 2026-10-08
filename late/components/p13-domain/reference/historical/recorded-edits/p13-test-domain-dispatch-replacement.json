@@ -1,0 +1,8 @@
+{
+  "source_packet": "P13-TEST-DOMAIN-PATCH-1/1",
+  "operation": "sole later exact replacement with no LF delimiters",
+  "replacement": {
+    "old": "M['words'].get(args[1],oid(args[1])) if Verb(args[0])==Verb.PULL else oid(args[1]),M['routes'].get(args[2],oid(args[2])) if len(args)>2 and args[2] else 0",
+    "new": "-M['words'][args[1]] if args[1] in M['words'] else oid(args[1]),(-M['routes'][args[2]] if args[2] in M['routes'] else oid(args[2])) if len(args)>2 and args[2] else 0"
+  }
+}

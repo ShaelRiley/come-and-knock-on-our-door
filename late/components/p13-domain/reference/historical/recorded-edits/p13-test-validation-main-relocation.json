@@ -1,0 +1,6 @@
+{
+  "source_packet": "P13-TEST-VALIDATION-PATCH-1/1",
+  "operation": "After route-matrix append delete every occurrence of exact string (one expected) then append exact string",
+  "delete": "if __name__=='__main__':unittest.main()\n",
+  "append": "\nif __name__=='__main__':unittest.main()\n"
+}

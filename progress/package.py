@@ -16,11 +16,11 @@ def main():
   for n,row in sorted(rows.items()):
    p=ROOT/n
    if verify_source.sha(p)!=row['sha256']:raise RuntimeError('Source changed during packaging')
-   i=zipfile.ZipInfo('CaKoOD-WIP-Source-20261007-r2/'+n,date_time=(2026,10,7,0,0,0));i.compress_type=zipfile.ZIP_DEFLATED;i.external_attr=(0o100000|row['mode'])<<16;z.writestr(i,p.read_bytes(),compresslevel=6)
+   i=zipfile.ZipInfo('CaKoOD-WIP-Source-20261007-r3/'+n,date_time=(2026,10,7,0,0,0));i.compress_type=zipfile.ZIP_DEFLATED;i.external_attr=(0o100000|row['mode'])<<16;z.writestr(i,p.read_bytes(),compresslevel=6)
  with zipfile.ZipFile(out) as z:
   if z.testzip() is not None or len(z.infolist())!=len(rows):raise RuntimeError('ZIP inventory/CRC mismatch')
   for n,row in rows.items():
-   i=z.getinfo('CaKoOD-WIP-Source-20261007-r2/'+n)
+   i=z.getinfo('CaKoOD-WIP-Source-20261007-r3/'+n)
    if hashlib.sha256(z.read(i)).hexdigest()!=row['sha256'] or (i.external_attr>>16)&0o777!=row['mode']:raise RuntimeError('ZIP bytes/mode differ')
  verify_source.main()
  print(json.dumps({'archive':out.name,'sha256':verify_source.sha(out),'bytes':out.stat().st_size,'files':len(rows),'native_acceptance':False,'playable_release':False},sort_keys=True))

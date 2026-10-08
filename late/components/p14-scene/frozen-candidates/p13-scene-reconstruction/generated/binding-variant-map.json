@@ -1,0 +1,945 @@
+{
+  "records": [
+    {
+      "record_id": "P13.FAILURE.009",
+      "variant_id": "blocked_001",
+      "local_line_key": 38,
+      "global_line_key": 1585,
+      "document_id": 1585,
+      "document_kind": "variant_record",
+      "dispatch": "scene",
+      "first_page": 97,
+      "page_count": 1,
+      "page_indices": [
+        97
+      ],
+      "kind": "failure",
+      "source_ref": "P13-source.txt",
+      "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+      "source_obligations": [
+        "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+      ],
+      "canonical_provenance": {
+        "id": "P13.FAILURE.009",
+        "puzzle": "P13",
+        "location": "L01 / L02 / L04 / L05",
+        "speaker": "Frankie Maplewood",
+        "kind": "failure",
+        "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "current_text": null,
+        "implementation_status": "authored_gdd_not_implemented",
+        "source_ref": "P13-source.txt",
+        "source_obligations": [
+          "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+        ],
+        "clue_checksum": "6413870bdc9b4b168b7ba5b97a33a1439142df0f4513535115071b52bd90586e",
+        "speaker_id": "frankie",
+        "text_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        }
+      },
+      "canonical_location": "L01 / L02 / L04 / L05",
+      "source_text": "Gate-to-house lane is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_json_sha256": "8212ad3006b9103016575a7e2838d3d1bf99d55b8f9f04fc7549ce72f2dbc91b",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Gate-to-house lane is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_text_sha256": "93775f3e5d2b63d35f9385868b25f7d5d3dec0df99dd5acb46b3fcbd1e3c364f",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P13.FAILURE.009.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice",
+          "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_template_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96",
+          "binding": {
+            "kind": "observed_failed_layout",
+            "label_record_id": "P08.LABEL.001",
+            "label_local_line": 46,
+            "label_provenance": {
+              "id": "P08.LABEL.001",
+              "puzzle": "P08",
+              "location": "L05 Courtyard",
+              "speaker": "Interface",
+              "kind": "label",
+              "trigger": "Display name of existing gate-to-house lane",
+              "text": "Gate-to-house lane",
+              "source_obligations": [
+                "Protected through-traffic lane clearly marked by chevrons"
+              ],
+              "source_ref": "P08-source.txt:3 (Clues and objects)",
+              "implementation_status": "authored_gdd_not_implemented",
+              "current_text": null,
+              "clue_checksum": "0c0b2b2b09a317c470df8a9891d862acb709f72c0e115a8d2e0be09ce307a10c",
+              "speaker_id": "text",
+              "text_sha256": "47cf4d475aa27b7d6cf4e21895014125f190d0b663846a6459959ba51334d215",
+              "dynamic_bindings": {}
+            },
+            "bindings": {
+              "blocked_place_name": "Gate-to-house lane"
+            },
+            "query": "p13BlockedLayout",
+            "no_default": true
+          },
+          "substitution": {
+            "name": "blocked_place_name",
+            "template_char_range": [
+              0,
+              20
+            ],
+            "expanded_char_range": [
+              0,
+              18
+            ],
+            "observed_value": "Gate-to-house lane"
+          },
+          "source_words": 17,
+          "source_characters": 96,
+          "source_utf8_bytes": 96,
+          "canonical_speech_unit": {
+            "line_id": "P13.FAILURE.009.01",
+            "record_id": "P13.FAILURE.009",
+            "speaker_id": "frankie",
+            "speaker": "Frankie Maplewood",
+            "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "dynamic_bindings": {
+              "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+            },
+            "implementation_status": "authored_gdd_not_implemented",
+            "laugh_opportunity": null
+          }
+        }
+      ],
+      "canonical_units": [
+        "P13.FAILURE.009.01"
+      ],
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.001",
+        "label_local_line": 46,
+        "label_provenance": {
+          "id": "P08.LABEL.001",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing gate-to-house lane",
+          "text": "Gate-to-house lane",
+          "source_obligations": [
+            "Protected through-traffic lane clearly marked by chevrons"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "0c0b2b2b09a317c470df8a9891d862acb709f72c0e115a8d2e0be09ce307a10c",
+          "speaker_id": "text",
+          "text_sha256": "47cf4d475aa27b7d6cf4e21895014125f190d0b663846a6459959ba51334d215",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Gate-to-house lane"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "binding_required": false,
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "variant_id": "blocked_002",
+      "local_line_key": 38,
+      "global_line_key": 1586,
+      "document_id": 1586,
+      "document_kind": "variant_record",
+      "dispatch": "scene",
+      "first_page": 98,
+      "page_count": 1,
+      "page_indices": [
+        98
+      ],
+      "kind": "failure",
+      "source_ref": "P13-source.txt",
+      "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+      "source_obligations": [
+        "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+      ],
+      "canonical_provenance": {
+        "id": "P13.FAILURE.009",
+        "puzzle": "P13",
+        "location": "L01 / L02 / L04 / L05",
+        "speaker": "Frankie Maplewood",
+        "kind": "failure",
+        "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "current_text": null,
+        "implementation_status": "authored_gdd_not_implemented",
+        "source_ref": "P13-source.txt",
+        "source_obligations": [
+          "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+        ],
+        "clue_checksum": "6413870bdc9b4b168b7ba5b97a33a1439142df0f4513535115071b52bd90586e",
+        "speaker_id": "frankie",
+        "text_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        }
+      },
+      "canonical_location": "L01 / L02 / L04 / L05",
+      "source_text": "Hatch-side buffet position is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_json_sha256": "ba7a1595c33dc814a122b4e8407f558329969a9e46f7b9bc052902295b64b4b8",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Hatch-side buffet position is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_text_sha256": "33eeb9d08e808624570bf37e1cba2eed84428e893fe4d9242dedd6bf00dfa28f",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P13.FAILURE.009.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice",
+          "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_template_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96",
+          "binding": {
+            "kind": "observed_failed_layout",
+            "label_record_id": "P08.LABEL.002",
+            "label_local_line": 47,
+            "label_provenance": {
+              "id": "P08.LABEL.002",
+              "puzzle": "P08",
+              "location": "L05 Courtyard",
+              "speaker": "Interface",
+              "kind": "label",
+              "trigger": "Display name of existing hatch-side buffet position",
+              "text": "Hatch-side buffet position",
+              "source_obligations": [
+                "Matching tray icon and hatch footprint designate buffet"
+              ],
+              "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+              "implementation_status": "authored_gdd_not_implemented",
+              "current_text": null,
+              "clue_checksum": "ef8a9ed5dfa210834d3b77bae738e0345718aa24a0f78e593f86c1a3644baae6",
+              "speaker_id": "text",
+              "text_sha256": "fa32abe4b14c17882069615b7646b7db620e2147cdca6ead15f3c1cf97063c42",
+              "dynamic_bindings": {}
+            },
+            "bindings": {
+              "blocked_place_name": "Hatch-side buffet position"
+            },
+            "query": "p13BlockedLayout",
+            "no_default": true
+          },
+          "substitution": {
+            "name": "blocked_place_name",
+            "template_char_range": [
+              0,
+              20
+            ],
+            "expanded_char_range": [
+              0,
+              26
+            ],
+            "observed_value": "Hatch-side buffet position"
+          },
+          "source_words": 18,
+          "source_characters": 104,
+          "source_utf8_bytes": 104,
+          "canonical_speech_unit": {
+            "line_id": "P13.FAILURE.009.01",
+            "record_id": "P13.FAILURE.009",
+            "speaker_id": "frankie",
+            "speaker": "Frankie Maplewood",
+            "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "dynamic_bindings": {
+              "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+            },
+            "implementation_status": "authored_gdd_not_implemented",
+            "laugh_opportunity": null
+          }
+        }
+      ],
+      "canonical_units": [
+        "P13.FAILURE.009.01"
+      ],
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.002",
+        "label_local_line": 47,
+        "label_provenance": {
+          "id": "P08.LABEL.002",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing hatch-side buffet position",
+          "text": "Hatch-side buffet position",
+          "source_obligations": [
+            "Matching tray icon and hatch footprint designate buffet"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "ef8a9ed5dfa210834d3b77bae738e0345718aa24a0f78e593f86c1a3644baae6",
+          "speaker_id": "text",
+          "text_sha256": "fa32abe4b14c17882069615b7646b7db620e2147cdca6ead15f3c1cf97063c42",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Hatch-side buffet position"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "binding_required": false,
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "variant_id": "blocked_004",
+      "local_line_key": 38,
+      "global_line_key": 1587,
+      "document_id": 1587,
+      "document_kind": "variant_record",
+      "dispatch": "scene",
+      "first_page": 99,
+      "page_count": 1,
+      "page_indices": [
+        99
+      ],
+      "kind": "failure",
+      "source_ref": "P13-source.txt",
+      "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+      "source_obligations": [
+        "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+      ],
+      "canonical_provenance": {
+        "id": "P13.FAILURE.009",
+        "puzzle": "P13",
+        "location": "L01 / L02 / L04 / L05",
+        "speaker": "Frankie Maplewood",
+        "kind": "failure",
+        "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "current_text": null,
+        "implementation_status": "authored_gdd_not_implemented",
+        "source_ref": "P13-source.txt",
+        "source_obligations": [
+          "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+        ],
+        "clue_checksum": "6413870bdc9b4b168b7ba5b97a33a1439142df0f4513535115071b52bd90586e",
+        "speaker_id": "frankie",
+        "text_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        }
+      },
+      "canonical_location": "L01 / L02 / L04 / L05",
+      "source_text": "Display alcove is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_json_sha256": "97fc72958a3d1b97783a07159059f08527c62e483c0702ef270415ba9e0983ea",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Display alcove is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_text_sha256": "37dcf52583931e0275ed364a3914372d557367d54e638016fbaf237fdff903bb",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P13.FAILURE.009.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice",
+          "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_template_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96",
+          "binding": {
+            "kind": "observed_failed_layout",
+            "label_record_id": "P08.LABEL.004",
+            "label_local_line": 48,
+            "label_provenance": {
+              "id": "P08.LABEL.004",
+              "puzzle": "P08",
+              "location": "L05 Courtyard",
+              "speaker": "Interface",
+              "kind": "label",
+              "trigger": "Display name of existing display alcove",
+              "text": "Display alcove",
+              "source_obligations": [
+                "Panel-shaped footprint and correct concealment side"
+              ],
+              "source_ref": "P08-source.txt:3 (Clues and objects)",
+              "implementation_status": "authored_gdd_not_implemented",
+              "current_text": null,
+              "clue_checksum": "478154cff035b23edb1ea8f203c90cf8174a5bb0139690caecd8117cdf1896d4",
+              "speaker_id": "text",
+              "text_sha256": "b3807eb03d550da2fbd3570f9aba72a129b7468787d8e9902a4d9bd52e93276e",
+              "dynamic_bindings": {}
+            },
+            "bindings": {
+              "blocked_place_name": "Display alcove"
+            },
+            "query": "p13BlockedLayout",
+            "no_default": true
+          },
+          "substitution": {
+            "name": "blocked_place_name",
+            "template_char_range": [
+              0,
+              20
+            ],
+            "expanded_char_range": [
+              0,
+              14
+            ],
+            "observed_value": "Display alcove"
+          },
+          "source_words": 17,
+          "source_characters": 92,
+          "source_utf8_bytes": 92,
+          "canonical_speech_unit": {
+            "line_id": "P13.FAILURE.009.01",
+            "record_id": "P13.FAILURE.009",
+            "speaker_id": "frankie",
+            "speaker": "Frankie Maplewood",
+            "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "dynamic_bindings": {
+              "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+            },
+            "implementation_status": "authored_gdd_not_implemented",
+            "laugh_opportunity": null
+          }
+        }
+      ],
+      "canonical_units": [
+        "P13.FAILURE.009.01"
+      ],
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.004",
+        "label_local_line": 48,
+        "label_provenance": {
+          "id": "P08.LABEL.004",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing display alcove",
+          "text": "Display alcove",
+          "source_obligations": [
+            "Panel-shaped footprint and correct concealment side"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "478154cff035b23edb1ea8f203c90cf8174a5bb0139690caecd8117cdf1896d4",
+          "speaker_id": "text",
+          "text_sha256": "b3807eb03d550da2fbd3570f9aba72a129b7468787d8e9902a4d9bd52e93276e",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Display alcove"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "binding_required": false,
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "variant_id": "blocked_006",
+      "local_line_key": 38,
+      "global_line_key": 1588,
+      "document_id": 1588,
+      "document_kind": "variant_record",
+      "dispatch": "scene",
+      "first_page": 100,
+      "page_count": 1,
+      "page_indices": [
+        100
+      ],
+      "kind": "failure",
+      "source_ref": "P13-source.txt",
+      "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+      "source_obligations": [
+        "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+      ],
+      "canonical_provenance": {
+        "id": "P13.FAILURE.009",
+        "puzzle": "P13",
+        "location": "L01 / L02 / L04 / L05",
+        "speaker": "Frankie Maplewood",
+        "kind": "failure",
+        "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "current_text": null,
+        "implementation_status": "authored_gdd_not_implemented",
+        "source_ref": "P13-source.txt",
+        "source_obligations": [
+          "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+        ],
+        "clue_checksum": "6413870bdc9b4b168b7ba5b97a33a1439142df0f4513535115071b52bd90586e",
+        "speaker_id": "frankie",
+        "text_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        }
+      },
+      "canonical_location": "L01 / L02 / L04 / L05",
+      "source_text": "Kitchen hatch is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_json_sha256": "d81be82e090398b248d713a7ee812541f965c6699c48817df9ae946904a82781",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "Kitchen hatch is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_text_sha256": "e1350754bc8bab4bacd2297473f66f3e560bc15fb223a0d2fcb895b4cc563346",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P13.FAILURE.009.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice",
+          "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_template_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96",
+          "binding": {
+            "kind": "observed_failed_layout",
+            "label_record_id": "P08.LABEL.006",
+            "label_local_line": 49,
+            "label_provenance": {
+              "id": "P08.LABEL.006",
+              "puzzle": "P08",
+              "location": "L05 Courtyard",
+              "speaker": "Interface",
+              "kind": "label",
+              "trigger": "Display name of existing kitchen hatch",
+              "text": "Kitchen hatch",
+              "source_obligations": [
+                "Matching icon and visible service sightline"
+              ],
+              "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+              "implementation_status": "authored_gdd_not_implemented",
+              "current_text": null,
+              "clue_checksum": "37cb6777215665d81847715bd696fd6284e748825afc96d32b09c9bff5fef57e",
+              "speaker_id": "text",
+              "text_sha256": "4fca9e36bfb61f9f890f83ce58741cf89af879695810feeb8ecaab73568f252a",
+              "dynamic_bindings": {}
+            },
+            "bindings": {
+              "blocked_place_name": "Kitchen hatch"
+            },
+            "query": "p13BlockedLayout",
+            "no_default": true
+          },
+          "substitution": {
+            "name": "blocked_place_name",
+            "template_char_range": [
+              0,
+              20
+            ],
+            "expanded_char_range": [
+              0,
+              13
+            ],
+            "observed_value": "Kitchen hatch"
+          },
+          "source_words": 17,
+          "source_characters": 91,
+          "source_utf8_bytes": 91,
+          "canonical_speech_unit": {
+            "line_id": "P13.FAILURE.009.01",
+            "record_id": "P13.FAILURE.009",
+            "speaker_id": "frankie",
+            "speaker": "Frankie Maplewood",
+            "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "dynamic_bindings": {
+              "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+            },
+            "implementation_status": "authored_gdd_not_implemented",
+            "laugh_opportunity": null
+          }
+        }
+      ],
+      "canonical_units": [
+        "P13.FAILURE.009.01"
+      ],
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.006",
+        "label_local_line": 49,
+        "label_provenance": {
+          "id": "P08.LABEL.006",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing kitchen hatch",
+          "text": "Kitchen hatch",
+          "source_obligations": [
+            "Matching icon and visible service sightline"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "37cb6777215665d81847715bd696fd6284e748825afc96d32b09c9bff5fef57e",
+          "speaker_id": "text",
+          "text_sha256": "4fca9e36bfb61f9f890f83ce58741cf89af879695810feeb8ecaab73568f252a",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Kitchen hatch"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "binding_required": false,
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    }
+  ],
+  "units": [
+    {
+      "record_id": "P13.FAILURE.009",
+      "line_id": "P13.FAILURE.009.01",
+      "speech_unit_id": 36,
+      "variant_id": "blocked_001",
+      "local_line_key": 38,
+      "document_id": 1589,
+      "global_line_key": 1589,
+      "document_kind": "variant_unit",
+      "dispatch": "scene",
+      "first_page": 101,
+      "page_count": 1,
+      "page_indices": [
+        101
+      ],
+      "source_record_document": 1585,
+      "source_record_pages": [
+        0
+      ],
+      "canonical_speech_unit": {
+        "line_id": "P13.FAILURE.009.01",
+        "record_id": "P13.FAILURE.009",
+        "speaker_id": "frankie",
+        "speaker": "Frankie Maplewood",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        },
+        "implementation_status": "authored_gdd_not_implemented",
+        "laugh_opportunity": null
+      },
+      "source_text": "Gate-to-house lane is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_sha256": "93775f3e5d2b63d35f9385868b25f7d5d3dec0df99dd5acb46b3fcbd1e3c364f",
+      "binding_required": false,
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.001",
+        "label_local_line": 46,
+        "label_provenance": {
+          "id": "P08.LABEL.001",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing gate-to-house lane",
+          "text": "Gate-to-house lane",
+          "source_obligations": [
+            "Protected through-traffic lane clearly marked by chevrons"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "0c0b2b2b09a317c470df8a9891d862acb709f72c0e115a8d2e0be09ce307a10c",
+          "speaker_id": "text",
+          "text_sha256": "47cf4d475aa27b7d6cf4e21895014125f190d0b663846a6459959ba51334d215",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Gate-to-house lane"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "line_id": "P13.FAILURE.009.01",
+      "speech_unit_id": 36,
+      "variant_id": "blocked_002",
+      "local_line_key": 38,
+      "document_id": 1590,
+      "global_line_key": 1590,
+      "document_kind": "variant_unit",
+      "dispatch": "scene",
+      "first_page": 102,
+      "page_count": 1,
+      "page_indices": [
+        102
+      ],
+      "source_record_document": 1586,
+      "source_record_pages": [
+        0
+      ],
+      "canonical_speech_unit": {
+        "line_id": "P13.FAILURE.009.01",
+        "record_id": "P13.FAILURE.009",
+        "speaker_id": "frankie",
+        "speaker": "Frankie Maplewood",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        },
+        "implementation_status": "authored_gdd_not_implemented",
+        "laugh_opportunity": null
+      },
+      "source_text": "Hatch-side buffet position is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_sha256": "33eeb9d08e808624570bf37e1cba2eed84428e893fe4d9242dedd6bf00dfa28f",
+      "binding_required": false,
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.002",
+        "label_local_line": 47,
+        "label_provenance": {
+          "id": "P08.LABEL.002",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing hatch-side buffet position",
+          "text": "Hatch-side buffet position",
+          "source_obligations": [
+            "Matching tray icon and hatch footprint designate buffet"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:4 (Solution and verbs)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "ef8a9ed5dfa210834d3b77bae738e0345718aa24a0f78e593f86c1a3644baae6",
+          "speaker_id": "text",
+          "text_sha256": "fa32abe4b14c17882069615b7646b7db620e2147cdca6ead15f3c1cf97063c42",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Hatch-side buffet position"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "line_id": "P13.FAILURE.009.01",
+      "speech_unit_id": 36,
+      "variant_id": "blocked_004",
+      "local_line_key": 38,
+      "document_id": 1591,
+      "global_line_key": 1591,
+      "document_kind": "variant_unit",
+      "dispatch": "scene",
+      "first_page": 103,
+      "page_count": 1,
+      "page_indices": [
+        103
+      ],
+      "source_record_document": 1587,
+      "source_record_pages": [
+        0
+      ],
+      "canonical_speech_unit": {
+        "line_id": "P13.FAILURE.009.01",
+        "record_id": "P13.FAILURE.009",
+        "speaker_id": "frankie",
+        "speaker": "Frankie Maplewood",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        },
+        "implementation_status": "authored_gdd_not_implemented",
+        "laugh_opportunity": null
+      },
+      "source_text": "Display alcove is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_sha256": "37dcf52583931e0275ed364a3914372d557367d54e638016fbaf237fdff903bb",
+      "binding_required": false,
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.004",
+        "label_local_line": 48,
+        "label_provenance": {
+          "id": "P08.LABEL.004",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing display alcove",
+          "text": "Display alcove",
+          "source_obligations": [
+            "Panel-shaped footprint and correct concealment side"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "478154cff035b23edb1ea8f203c90cf8174a5bb0139690caecd8117cdf1896d4",
+          "speaker_id": "text",
+          "text_sha256": "b3807eb03d550da2fbd3570f9aba72a129b7468787d8e9902a4d9bd52e93276e",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Display alcove"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    },
+    {
+      "record_id": "P13.FAILURE.009",
+      "line_id": "P13.FAILURE.009.01",
+      "speech_unit_id": 36,
+      "variant_id": "blocked_006",
+      "local_line_key": 38,
+      "document_id": 1592,
+      "global_line_key": 1592,
+      "document_kind": "variant_unit",
+      "dispatch": "scene",
+      "first_page": 104,
+      "page_count": 1,
+      "page_indices": [
+        104
+      ],
+      "source_record_document": 1588,
+      "source_record_pages": [
+        0
+      ],
+      "canonical_speech_unit": {
+        "line_id": "P13.FAILURE.009.01",
+        "record_id": "P13.FAILURE.009",
+        "speaker_id": "frankie",
+        "speaker": "Frankie Maplewood",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        },
+        "implementation_status": "authored_gdd_not_implemented",
+        "laugh_opportunity": null
+      },
+      "source_text": "Kitchen hatch is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_sha256": "e1350754bc8bab4bacd2297473f66f3e560bc15fb223a0d2fcb895b4cc563346",
+      "binding_required": false,
+      "predicate": {
+        "kind": "observed_failed_layout",
+        "label_record_id": "P08.LABEL.006",
+        "label_local_line": 49,
+        "label_provenance": {
+          "id": "P08.LABEL.006",
+          "puzzle": "P08",
+          "location": "L05 Courtyard",
+          "speaker": "Interface",
+          "kind": "label",
+          "trigger": "Display name of existing kitchen hatch",
+          "text": "Kitchen hatch",
+          "source_obligations": [
+            "Matching icon and visible service sightline"
+          ],
+          "source_ref": "P08-source.txt:3 (Clues and objects); P08-source.txt:6 (Wrong feedback)",
+          "implementation_status": "authored_gdd_not_implemented",
+          "current_text": null,
+          "clue_checksum": "37cb6777215665d81847715bd696fd6284e748825afc96d32b09c9bff5fef57e",
+          "speaker_id": "text",
+          "text_sha256": "4fca9e36bfb61f9f890f83ce58741cf89af879695810feeb8ecaab73568f252a",
+          "dynamic_bindings": {}
+        },
+        "bindings": {
+          "blocked_place_name": "Kitchen hatch"
+        },
+        "query": "p13BlockedLayout",
+        "no_default": true
+      },
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    }
+  ],
+  "templates": [
+    {
+      "record_id": "P13.FAILURE.009",
+      "variant_id": null,
+      "local_line_key": 38,
+      "global_line_key": 1537,
+      "document_id": 1537,
+      "document_kind": "record",
+      "dispatch": "scene",
+      "first_page": 48,
+      "page_count": 0,
+      "page_indices": [],
+      "kind": "failure",
+      "source_ref": "P13-source.txt",
+      "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+      "source_obligations": [
+        "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+      ],
+      "canonical_provenance": {
+        "id": "P13.FAILURE.009",
+        "puzzle": "P13",
+        "location": "L01 / L02 / L04 / L05",
+        "speaker": "Frankie Maplewood",
+        "kind": "failure",
+        "trigger": "Overlay detects previously optional furniture move invalidating delivery",
+        "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+        "current_text": null,
+        "implementation_status": "authored_gdd_not_implemented",
+        "source_ref": "P13-source.txt",
+        "source_obligations": [
+          "Same pre-existing spatial prerequisite; actual affected marker highlighted; no pixel-perfect position."
+        ],
+        "clue_checksum": "6413870bdc9b4b168b7ba5b97a33a1439142df0f4513535115071b52bd90586e",
+        "speaker_id": "frankie",
+        "text_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+        "dynamic_bindings": {
+          "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+        }
+      },
+      "canonical_location": "L01 / L02 / L04 / L05",
+      "source_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+      "source_text_json_sha256": "b0327a3397226eec42daf2583ac175cf19637a880b5331033e4f40e6a6d06519",
+      "segments": [
+        {
+          "source_pointer": "/text",
+          "source_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+          "source_text_sha256": "30cd002acd438e1767bb826d4148e704d256332125d627b1d8dd51e76e0efc96",
+          "source_speaker": "Frankie Maplewood",
+          "line_id": "P13.FAILURE.009.01",
+          "speaker_id": "frankie",
+          "role": "cast_voice",
+          "source_words": 16,
+          "source_characters": 98,
+          "source_utf8_bytes": 98,
+          "canonical_speech_unit": {
+            "line_id": "P13.FAILURE.009.01",
+            "record_id": "P13.FAILURE.009",
+            "speaker_id": "frankie",
+            "speaker": "Frankie Maplewood",
+            "text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "caption_text": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load.",
+            "dynamic_bindings": {
+              "blocked_place_name": "The already-failed route or landing-place condition named by the existing overlay."
+            },
+            "implementation_status": "authored_gdd_not_implemented",
+            "laugh_opportunity": null
+          }
+        }
+      ],
+      "canonical_units": [
+        "P13.FAILURE.009.01"
+      ],
+      "predicate": null,
+      "binding_required": true,
+      "source_template": "{blocked_place_name} is blocked. Put the furniture back on its plan mark before we send this load."
+    }
+  ],
+  "query": "p13BlockedLayout",
+  "cues": [
+    1,
+    2
+  ],
+  "no_fallback": true
+}

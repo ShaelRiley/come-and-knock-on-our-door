@@ -1,0 +1,76 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_EMITTED_SOURCE_READER_GATE",
+  "compile_receipt_sha256": "9e60ab9a5ab6059fa78a66bbee5ce6b82da9f88a64c49156dd7e6ac4d8c9e2c7",
+  "binding_sha256": "1304174657bb322258e5b1f57775bd9412587a80d7a6a91f43970124084c417b",
+  "binding_file_sha256": "c0b586e3814ec1431ce9438cf672160f79cbafbfb25163d134dffcbc63d3a531",
+  "completed_cases": 6,
+  "completed_suite_chunks": [
+    {
+      "path": "evidence/source-negative-pilot.log",
+      "sha256": "7d10647a3978f82ec767c9f95e71dd0944f91e3f78902b2d50269c020967053c",
+      "cases": [
+        "test_03_graph_accumulator_abort_obscured_and_direct_completion",
+        "test_04_stale_exact_identity_never_observes_or_repairs",
+        "test_05_complete_queue_reservation_and_uncertain_publication",
+        "test_06_cancel_partial_and_reject_corrupt_restore"
+      ],
+      "seconds": 225.335,
+      "status": "PASS",
+      "binding_sha256": "1304174657bb322258e5b1f57775bd9412587a80d7a6a91f43970124084c417b"
+    },
+    {
+      "path": "evidence/source-final-two.log",
+      "sha256": "fb71ca17b7bef2bf69480852399e64780b2df81a302bcf34376f4bf1630ad198",
+      "cases": [
+        "test_01_two_page_source_requires_completed_frames_and_restores_partial",
+        "test_02_actual_overlay_and_slate_dispatch_all_four_sources"
+      ],
+      "seconds": 67.39,
+      "status": "PASS",
+      "binding_sha256": "1304174657bb322258e5b1f57775bd9412587a80d7a6a91f43970124084c417b"
+    }
+  ],
+  "seconds_total": 292.725,
+  "modules": {
+    "980": 1592,
+    "981": 12238,
+    "982": 50500,
+    "983": 12748,
+    "984": 11822,
+    "985": 43914,
+    "986": 11756,
+    "987": 31386,
+    "988": 24388,
+    "989": 43766,
+    "0": 64328
+  },
+  "source_documents": [
+    988,
+    989,
+    990,
+    1000
+  ],
+  "ordinary_overlay_and_slate_dispatch": true,
+  "stale_identity_mutations_per_backend": 30,
+  "graph_return_profiles": [
+    0,
+    1,
+    -1
+  ],
+  "direct_completion_performs_actual_graph12": true,
+  "domain_methods_literal": 80,
+  "old_route_page_namespace_unchanged": true,
+  "native_acceptance": false,
+  "introduction_accepted": false,
+  "readiness_accepted": false,
+  "autosave_accepted": false,
+  "e03_accepted": false,
+  "remaining": [
+    "independent review of this full source-reader gate",
+    "full affected prior transaction/cloth/restore/route/layout/window regression on combined bytes",
+    "introduction display obligation",
+    "checklist and explicit final choice",
+    "actual native save completion/retry/cancel and E03",
+    "native QA"
+  ]
+}

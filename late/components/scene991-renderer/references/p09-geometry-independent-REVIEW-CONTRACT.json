@@ -1,0 +1,88 @@
+{
+  "activation": "h9Active literal false; h9Dispatch rejects395\u2013399; no earned state or card publication",
+  "actor_bounds_half_open": {
+    "Rita_loop1": [
+      239,
+      66,
+      268,
+      132
+    ],
+    "Stringer_loop1": [
+      159,
+      66,
+      185,
+      128
+    ]
+  },
+  "approaches": {
+    "front_chair_tag": [
+      210,
+      136
+    ],
+    "side": [
+      122,
+      136
+    ]
+  },
+  "draw_dependency": {
+    "accepted_main_sha256": "8d099e2522defc2fbbe5053082ef9e3662b5438451fcff5f6e4343e1813716d7",
+    "accepted_module990_sha256": "c5d8b470580c848516929c5110b823b3db0bf9bb545304929c6b52dc04d9b1cb",
+    "draw_chain": [
+      "drawWorld -> h6BaseDrawWorld",
+      "h6BaseDrawWorld -> selector555 drawP03Conservatory",
+      "drawP03Conservatory -> selector422 neighborPerson(4) -> DrawCel222 loop1",
+      "drawP03Conservatory -> selector650 p03Rita -> DrawCel223 loop1",
+      "drawP03Conservatory -> selector99 drawJack -> motionScale -> DrawCel214/216 selected motionLoop"
+    ],
+    "method_sha256": {
+      "drawJack": "40d1f85c612b3cdfbc0ce9d92b1d1ee41aac5d40e4d2d26911c8d9a48c8e20a8",
+      "drawP03Conservatory": "6e6e9855fb76d86ca8070ac7217e722a325efae92e041286a28c9d6206fc5a30",
+      "drawWorld": "624926167237a0a9b0b1d1ddd89de9357c5607d171da482d9b64c5869b7ac480",
+      "h6BaseDrawWorld": "25a892cd59c91af478ab1be8c681a39f8a99e2b0976167b9e024cbcabe6b952b",
+      "motionScale": "8a75bcd039801eef52dd6b48d61edf185798d4ed08a89dd0f2da1e5dbfc0b790",
+      "neighborPerson": "d71d2985c2b0d60965dc9ddcaf0e28c763f3f8a8da500646f9d36835c6914f71",
+      "p03Rita": "025ea0884b74188ed0ec53fadf9bb7d203b2f353d0801923cad12984657335d9"
+    },
+    "mutation_rejections": [
+      {
+        "mutation": "Stringer loop0",
+        "reason": "Stringer must use view222 loop1, mouth cel, x149 y61 scale108",
+        "rejected_before_pixel_measurement": true
+      },
+      {
+        "mutation": "Rita loop0",
+        "reason": "Rita must use view223 loop1 with the reviewed feet/scale placement",
+        "rejected_before_pixel_measurement": true
+      }
+    ],
+    "scope": "Source geometry acceptance only; no emitted-code execution, native rendering, activation or producer modification",
+    "status": "PASS_EXACT_SOURCE_AND_LOOP1_GUARD"
+  },
+  "loop_change_rule": "Any facing/loop, placement, scaling, resource, or draw-chain change invalidates this accepted geometry. Run draw_source_guard and recompute decoded bounds before adopting the change. Stringer loop0 reaches x158 outside the accepted x159 minimum.",
+  "main_bytes": 64788,
+  "main_free_bytes": 747,
+  "module990_bytes": 14968,
+  "native28_touched": false,
+  "native_acceptance": false,
+  "new_vocab_name_bytes": 22,
+  "not_accepted": [
+    "active gameplay",
+    "E03 rebase",
+    "actual view arrival",
+    "earned observation/source render leases",
+    "card reservation/publication",
+    "native pixels/saves/audio/controller"
+  ],
+  "old_foundation_entries_unchanged": 3901,
+  "producer_edited": false,
+  "selectors": {
+    "h9Geo": 3164,
+    "h9Label": 3165,
+    "h9UI": 3166
+  },
+  "source_sha256": "dad5187bc3b2dc64418cd8d6e0f1b7cba2ce619522d0b7134351b5dc645d18bd",
+  "subject_archive_sha256": "e0bf90a590587fa7da41f91a1b39e882ccc7a2438fb1ee534aa8058c8f6f248d",
+  "subject_version": 0,
+  "verdict": "ACCEPT_INACTIVE_NON_NATIVE_SCAFFOLD",
+  "vocab997_bytes": 37616
+}

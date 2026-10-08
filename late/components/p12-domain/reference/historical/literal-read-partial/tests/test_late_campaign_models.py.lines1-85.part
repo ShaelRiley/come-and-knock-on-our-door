@@ -1,0 +1,85 @@
+"""P12–P14 bounded domain proof, deliberately not native/rendering/audio proof."""
+import copy
+from dataclasses import replace
+from hashlib import sha256
+import itertools
+import json
+from pathlib import Path
+import unittest
+
+from cakood.model import Verb
+from cakood.p04_model import GateHandoff
+from cakood.p10_model import TILE_IDS, ORDER
+from cakood.p12_model import P12World,P12Context,CurrentRig,PEOPLE,COURTYARD,KITCHEN,LIVING,SIDE,PORCH
+from cakood.p12_model import PREREQUISITES as P12REQ
+from cakood.p13_model import P13World,P13Context,PREREQUISITES as P13REQ,PROGRAM,BOARD
+from cakood.p14_model import P14World,P14Context,PREREQUISITES as P14REQ,TERMS,PENCIL,CARD_IDS,CREDIT_ORDER,ASSET_CREDITS,CreditReplay
+from cakood.verbal_contest import VerbalContests,Phase
+from test_verbal_contest import CATALOG,prepared,play,leave
+
+RIG=CurrentRig(COURTYARD,True,'MIC',True)
+ACTORS=tuple((p,COURTYARD) for p in PEOPLE[1:])
+GATE=GateHandoff('hold_open_peg',SIDE,True,True,True,True,False,())
+RACK={'rack_id':'cue_rack','location':COURTYARD,'slots':TILE_IDS,'words':ORDER,'first_restored_serial':1}
+POT={'object_id':'hotpot_pot','room':KITCHEN,'lid_closed':True,'portions':8,'portion_kind':'tasting','includes_jackie':True}
+DISPLAY={'display_id':'folded_display','cart_id':'handcart','location':SIDE,'position':'staging_pocket','folded':True,'padded':True,'covered':True,'undamaged':True,'panel_revealed':False,'rita_reveal_consent':False,'transport_owner':'P13'}
+UNSIGNED={'object_id':TERMS,'location':'inventory','signed':False,'repair_date':None,'signature_owner':'P14','terms_record_id':'P09.READ.002'}
+
+
+def contests(wins=(),losses=()):
+    w=VerbalContests(CATALOG)
+    for enc in (*wins,*losses):
+        prepared(enc,w);play(w,[enc in wins]*3,enc);leave(w)
+    return w
+
+
+def read(w,c,source):
+    p=w.begin_presentation(c,source)
+    if p.presentation_id:
+        w.acknowledge_presentation(c,p.presentation_id,record_id=w.SOURCES[source])
+    return p
+
+
+def clone(w,c=None):return type(w).load(json.loads(json.dumps(w.save())),context=c)
+def actors(c,**updates):return replace(c,npc_locations=tuple({**dict(c.npc_locations),**updates}.items()))
+def c12(vc=None):return P12Context(COURTYARD,flags=P12REQ,npc_locations=ACTORS,rig=RIG,contests=vc or contests(losses=('VC03',)))
+def c13(vc=None):return P13Context(COURTYARD,flags=P13REQ,npc_locations=ACTORS,rig=RIG,contests=vc or contests(losses=('VC04',)),gate=GATE,welcome_cleared=True,queue_clear=True,buffet_at_hatch=True,hatch_visible=True,display_concealed=True,lane_clear=True,footprint_clear=True)
+def c14(vc=None):return P14Context(COURTYARD,flags=P14REQ,inventory=frozenset((TERMS,PENCIL)),npc_locations=ACTORS,rig=RIG,contests=vc or contests(wins=('VC01','VC02','VC03','VC04')),repair_date='the agreed Saturday',vivian_tone='professional')
+
+
+def repair12(c=None,w=None,ask=False):
+    c=c or c12();w=w or P12World();w.start(c,RACK)
+    a=replace(c,on_apron=True);read(w,a,'audience_view' if ask else 'self_view')
+    w.release_catch(a);w.rotate_rack(c);w.order_cards(c,TILE_IDS)
+    return w,c
+
+
+def finish12():
+    w,c=repair12();read(w,c,'introduction');w.commit_introduction(c);w.release_confetti(c)
+    read(w,c,'confetti');read(w,c,'cleanup');w.finish_welcome(c)
+    return w,c
+
+
+def serve13(w=None,c=None):
+    w=w or P13World();c=c or c13();w.start(c,POT,DISPLAY)
+    p=actors(replace(c,room=PORCH),milo=PORCH);w.give_program(p);w.confirm_seating(c)
+    kitchen=actors(replace(c,room=KITCHEN),bunny=KITCHEN)
+    w.deliver_pot(kitchen);w.pull_serve(c)
+    return w,c
+
+
+def show13(w=None,c=None):
+    w,c=serve13(w,c);read(w,c,'rita_ready')
+    side=actors(replace(c,room=SIDE),felix=SIDE,vivian=SIDE)
+    w.deliver_display(side);w.open_screen(c);read(w,c,'reveal');w.pull_show(c)
+    return w,c
+
+
+def finish13(w=None,c=None):
+    w,c=show13(w,c)
+    living=actors(replace(c,room=LIVING),frankie=LIVING);w.deliver_board(living)
+    c=replace(c,board_room=COURTYARD);read(w,c,'attention');w.pull_toast(c)
+    return w,c
+
+
+def approve14(w=None,c=None,order=PEOPLE):

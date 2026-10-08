@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "scope": "Existing physical identities and nearby retained objects. Owner0 means this P08 adapter does not own/name the object, not absence of an older owner. after_towel_layout_owner assumes genuine P03 original towel39 padding; napkin38 variant has separate transaction/cloth cases.",
+  "source_authority": [
+    "inputs/base/src/main.sc:p03Label",
+    "inputs/base/src/module985.sc:hLabel",
+    "snapshot/resources/205.text.bin entries10/32",
+    "inputs/base/src/module987.sc:h6Label,h6Controls,h6Dispatch"
+  ],
+  "domain_handoffs": {
+    "1": [
+      34,
+      36
+    ],
+    "2": [
+      63
+    ],
+    "3": [
+      81
+    ],
+    "5": [
+      40
+    ],
+    "22": "exact original38 or39 selected by validated P03 padding history"
+  },
+  "objects": [
+    {
+      "native": 34,
+      "label": "Ceramic carrier",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 3,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 36,
+      "label": "Rita's ceramic service",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 3,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 40,
+      "label": "Credit slate",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 3,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 38,
+      "label": "Clean spare napkin",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 3,
+      "after_towel_layout_owner": 3
+    },
+    {
+      "native": 39,
+      "label": "Clean tea towel",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 3,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 35,
+      "label": "Ceramic sample tiles",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    },
+    {
+      "native": 43,
+      "label": "KITCHEN PASS",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    },
+    {
+      "native": 45,
+      "label": "Linen hook",
+      "provider": "p03Label",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    },
+    {
+      "native": 63,
+      "label": "PA KIT",
+      "provider": "hLabel",
+      "prior_p08_adapter_owner": 5,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 72,
+      "label": "HANDCART",
+      "provider": "hLabel",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    },
+    {
+      "native": 80,
+      "label": "MINIATURE SCREEN TOKEN",
+      "provider": "h6Label",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    },
+    {
+      "native": 81,
+      "label": "COMPLETED SCREEN",
+      "provider": "h6Label",
+      "prior_p08_adapter_owner": 6,
+      "after_towel_layout_owner": 8
+    },
+    {
+      "native": 83,
+      "label": "COURTYARD PLAN",
+      "provider": "h6Label",
+      "prior_p08_adapter_owner": 0,
+      "after_towel_layout_owner": 0
+    }
+  ],
+  "future_allocations": "116\u2013122 are allocated by the isolated layout-controls component after reconciling the actual prior registry and Main/P05/P06 routes.123 remains unallocated. The retained objects array above intentionally describes the earlier handoff identities only.",
+  "layout_native_allocations": [
+    {
+      "native": 116,
+      "label": "Hatch-side buffet position",
+      "canonical_record": "P08.LABEL.002",
+      "kind": "position",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 117,
+      "label": "Inward-facing speaker position",
+      "canonical_record": "P08.LABEL.003",
+      "kind": "position",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 118,
+      "label": "Display alcove",
+      "canonical_record": "P08.LABEL.004",
+      "kind": "position",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 119,
+      "label": "Gate-to-house lane",
+      "canonical_record": "P08.LABEL.001",
+      "kind": "position",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 120,
+      "label": "Small serving table",
+      "canonical_record": "P08.LABEL.005",
+      "kind": "movable object",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 121,
+      "label": "Kitchen hatch",
+      "canonical_record": "P08.LABEL.006",
+      "kind": "object interface",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    },
+    {
+      "native": 122,
+      "label": "Courtyard plan overlay",
+      "canonical_record": "P08.LABEL.007",
+      "kind": "named chooser",
+      "native_room": 4,
+      "physical_owner": 8,
+      "travel": false
+    }
+  ],
+  "layout_choice_contexts": {
+    "230": "all five named objects",
+    "231": "four canonical positions",
+    "232": "independent PA facing",
+    "233": "ordinary verbs and facing controls",
+    "234": "all movable objects under an overlapping click"
+  },
+  "registry_authority": [
+    "inputs/authority/retained-registry-subset.json: native reservation116\u2013123",
+    "inputs/scene/src/main.sc: actual controls and choice contexts201\u2013228",
+    "inputs/scene/src/module985.sc: PA63 and equipment credit71",
+    "inputs/scene/src/module987.sc: completed screen81, plan83 and miniature80",
+    "inputs/scene/line-document-unit-map.json: canonical P08 labels"
+  ]
+}

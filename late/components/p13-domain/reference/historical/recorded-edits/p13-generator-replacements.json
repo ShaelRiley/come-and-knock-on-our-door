@@ -1,0 +1,15 @@
+{
+  "source_packet": "P13-GENERATOR-PATCHES-1/1",
+  "operation": "ordered exact literal replacement, each original anchor occurs once",
+  "historical_note": "Two earlier attempts used the wrong cwd and raised FileNotFoundError; they did not change the historical file. No other successful historical edits followed.",
+  "replacements": [
+    {
+      "old": " records={x['id']:x for x in fixture['records']};assert set(model.RECORD_UNITS)<=set(records)",
+      "new": " records={x['id']:x for x in fixture['records']};assert set(model.RECORD_UNITS)==set(records)\n records.update({x['id']:x for x in fixture['support_records']})"
+    },
+    {
+      "old": "source_start_offset=18,source_bindings=",
+      "new": "source_start_offset=18,preview_vocabulary={'people':1,'hotpot_pot':2,'folded_display':3,'handcart':4,'pledge_board':5,'buffet':6,'display_footprint':7,'pledge_board_position':8},preview_facts={'pot_fits_hatch':True,'people_use_house':True,'display_fits_hatch':False,'display_requires_folded_width':True,'timer':None},source_bindings="
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# P08 intro continuation: first bounded gate
+
+This revision derives from the frozen independently accepted six-case exact source reader. Three host selectors are added: 2984 h8IntroControl, 2985 h8IntroCheck, 2986 h8IntroAction. Main remains 64,328 bytes. The immutable eighty domain methods and all scene tables remain unchanged.
+
+A genuine completed meeting route opens canonical record 1/document 973. The host reserves the complete six-unit output, all page resources, queue storage and actual actor/session context before committing the literal p08Introduce transaction. Its once serial records an accepted intro intent. A separate mask records successfully presented pages. The first three canonical actors must actually be in the courtyard. No actor location is fabricated.
+
+The six page bits come only from the original full document, with exact document, absolute page, generation, group, route epoch, host lease, revision, complete session, queue identity and actual eight actor rooms. Canonical text/header/parts/speaker/voice/audio fields are checked before and after painting. The sole Graph12 call is synchronous in h8IntroControl(4); its accumulator is ignored. Directly calling that completion entry also performs the flush. Only subsequent consumption records one page bit. Audio completion, opening, menus and independent unit windows grant no bit. Silent source observations retain their original distinct ledger and exact guards.
+
+Closing an incomplete intro retires its live descriptor and frame, while preserving the once intent and earned mask. The reader does not reopen every tick. Talking to Frankie at the actual assembled meeting resumes the first missing page. A later genuine meeting epoch can also resume. Re-presentation reserves canonical resources and queue storage but creates no replacement domain output or once serial. The group counter refuses exhaustion at 32767.
+
+Ordinary whole-campaign restore validates raw intent/mask/descriptor fields before old publishers and then rebinds only the admitted live descriptor to the fresh host lease/session. All frame tokens are retired. Restoring an earlier partial save restores its earlier mask, without importing later display receipts. A closed incomplete intent remains valid while the real route reverses.
+
+This bounded gate does not require intro completion as a new preparation condition. Readiness/checklist/Yes/autosave/E03 remain unavailable; both public evening queries remain false. Rematch admission at later actual actor positions must be verified before E03 integration. Native pixels, speech listening and real save files remain outside this source/emitted gate.

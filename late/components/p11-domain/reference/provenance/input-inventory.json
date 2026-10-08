@@ -1,0 +1,200 @@
+[
+  {
+    "bytes": 9871,
+    "scope": "Accepted unchanged baseline",
+    "sha256": "0371f8899410bbe9f230ad80aace72026328db818a456db4a46d7bf9c8049606",
+    "target": "component/cakood/model.py"
+  },
+  {
+    "bytes": 42729,
+    "scope": "Accepted unchanged baseline",
+    "sha256": "3dd71164dc0a509c0065c232dba446ef8d2fb113d0d21c11580365d0a4a4ac95",
+    "target": "component/cakood/p02_model.py"
+  },
+  {
+    "bytes": 496,
+    "scope": "P10 review candidate pinned dependency; shared caption prefix literal; P03 narrow identity bridge",
+    "sha256": "8cf6617d2b9e1b78b3e41ae427ddb4ad1681d19901dc62f18fe97280cbd960e4",
+    "target": "component/cakood/p03_model.py"
+  },
+  {
+    "bytes": 29118,
+    "scope": "P10 review candidate pinned dependency; shared caption prefix literal; P03 narrow identity bridge",
+    "sha256": "01505ec8adb19ecad5993a490d1a31ba2c4bd0c729fe5c540a30051260d5295c",
+    "target": "component/cakood/p10_model.py"
+  },
+  {
+    "bytes": 29001,
+    "scope": "Recovered accepted P09 reference",
+    "sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061",
+    "target": "component/cakood/p09_model.py"
+  },
+  {
+    "bytes": 23775,
+    "scope": "Accepted numeric P04 sole gate authority",
+    "sha256": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67",
+    "target": "component/dependencies/p04_numeric_model.py"
+  },
+  {
+    "bytes": 14992,
+    "scope": "Accepted numeric P04 ABI",
+    "sha256": "f5dbf243c16d2d6b480860e1608204d3d174fbb85c10a75f142d13376f711ec7",
+    "target": "component/dependencies/p04-abi.json"
+  },
+  {
+    "bytes": 14115,
+    "scope": "Accepted numeric P03 original-tile authority",
+    "sha256": "169432488b093b7d232582c009b0459a1baf5ccaac2a2cf7f8f53bb8c35d7090",
+    "target": "component/dependencies/p03_numeric_model.py"
+  },
+  {
+    "bytes": 23617,
+    "scope": "Current symbolic/native identity evidence",
+    "sha256": "19115a1d55f1380aafe88d0adb45b5a0274290b71abee1d53ac2b996f9a81c89",
+    "target": "component/dependencies/p09-schema.json"
+  },
+  {
+    "bytes": 14508,
+    "scope": "Partial literal P10; never installed as complete",
+    "sha256": "8bef9f572284ea03eea25c51738952545eb6c5d31e7173a0df82e77228edca63",
+    "target": "historical/dependencies/p10-partial-prefix.py.txt"
+  },
+  {
+    "bytes": 2049,
+    "scope": "Current canonical authority",
+    "sha256": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136",
+    "target": "component/authority/retained-registry-subset.json"
+  },
+  {
+    "bytes": 210993,
+    "scope": "Current canonical authority",
+    "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+    "target": "component/authority/complete-body.md"
+  },
+  {
+    "bytes": 408,
+    "scope": "Current canonical authority",
+    "sha256": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3",
+    "target": "component/authority/CURRENT-SCRIPT-REVISION.json"
+  },
+  {
+    "bytes": 31826,
+    "scope": "Current canonical authority",
+    "sha256": "62c3329fe59a92d407dbdbd3850966581386be9fcc5ed0c2cd276ed528316bdc",
+    "target": "component/authority/accepted-insult-pairs.json"
+  },
+  {
+    "bytes": 1346630,
+    "scope": "Current canonical authority",
+    "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+    "target": "component/authority/full-line-catalog.json"
+  },
+  {
+    "bytes": 417867,
+    "scope": "Current canonical authority",
+    "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+    "target": "component/authority/speech-units.json"
+  },
+  {
+    "bytes": 27243,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "48dabcf7c8a3e79d88063df9683d3b0370af7182e44620e564a566b7c11244ec",
+    "target": "historical/cakood/p11_model.py"
+  },
+  {
+    "bytes": 20216,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "da7e197dcd2bded42cdf4e99fe79a047b388caceae0dd1aaa2c91b9bfc58212b",
+    "target": "historical/tests/test_p11_model.py"
+  },
+  {
+    "bytes": 11414,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "7d65e3d950f3b27a252e8d6781cff983cd2b8877c2357896b2a48dbf665b3e1e",
+    "target": "historical/docs/p11-state-contract.md"
+  },
+  {
+    "bytes": 9397,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "f9f310a6fecf35b4bba55db9b0622427f83852241b50345b1d32316fa10b9891",
+    "target": "historical/stock-sci/p11-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 1487,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "10609ed8a9ab2f75caba7384b7a74c2e0ca07ed9faa145abade9b2182ad913a6",
+    "target": "historical/stock-sci/p11-domain-adapter/build.sh"
+  },
+  {
+    "bytes": 4623,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "cc994a7fb84c533e2350c402b3c5fc8bcbb2bed30a1165f30e65e8a016f46500",
+    "target": "historical/stock-sci/p11-domain-adapter/validate.py"
+  },
+  {
+    "bytes": 1791,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "5eb343ec28ebc18188121d6de228a595669a8f71cb4a1900842b6021a97dc85d",
+    "target": "historical/stock-sci/p11-domain-adapter/prepare.py"
+  },
+  {
+    "bytes": 3095,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "db65567977fe17b43f13bea6b1a650e11115404b8051f4bc895e486b6596167e",
+    "target": "historical/stock-sci/p11-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 103,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "5feeb0dc4c766c52ed200554933f6d73d961f6274fe081c976246054efe34f0e",
+    "target": "historical/stock-sci/p11-domain-adapter/game.ini"
+  },
+  {
+    "bytes": 1868,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "28d813763da092bc155dfc11ce9f59b4667bf46ed00be52e2ddce42d6c3f1346",
+    "target": "historical/stock-sci/compiler-boolean-proof/AUTHORING_RULE.md"
+  },
+  {
+    "bytes": 6165,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "95a925064adcccf6234dbe2563d4304ca051a6806623b600319c75c161e48638",
+    "target": "historical/stock-sci/p11-domain-adapter/tests/compiled_vm.py"
+  },
+  {
+    "bytes": 6027,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "7a61690c00d2b7d1c46587afd12de84c7f47a6f9f54eedec35e29df3923dd3e7",
+    "target": "historical/stock-sci/p11-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 5436,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "fcf74ca21a1dd2410d8a31b4599849806b208719be5d2355690c0ca9aa888aef",
+    "target": "historical/stock-sci/p11-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 23554,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "b19dcbefb5d272572f98676e11935fed1ccf91439ebb25d2c6cc71b3c72b078e",
+    "target": "historical/stock-sci/p11-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 2416,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "134b2f251e2ac7978f8ab5d76512554fb191acc65edb1d6d4bff50dd709ccca1",
+    "target": "historical/stock-sci/p11-domain-adapter/tests/test_finite_projection.py"
+  },
+  {
+    "bytes": 681,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "2425c76d6e965b3a1c88a2fb50d74d0f4c3ced3562810f96219d193b3cd5dd3b",
+    "target": "historical/stock-sci/p11-domain-adapter/src/main.sc"
+  },
+  {
+    "bytes": 26513,
+    "scope": "Byte-exact recovered transcription; no original historical hash claim",
+    "sha256": "647f002c949945ae73de75e368fe2a71507bf6ceae4c82e02bb6a4f29307dc34",
+    "target": "historical/stock-sci/p11-domain-adapter/src/methods.sc.in"
+  }
+]

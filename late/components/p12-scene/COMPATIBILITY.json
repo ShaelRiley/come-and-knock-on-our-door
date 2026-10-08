@@ -1,0 +1,85 @@
+{
+  "audience_audio_status": "NEW_ORIGINAL_COMBINED_CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "audience_component": {
+    "outer_sha256": "78d0a6bd6be42d0a96dcb731da3b8c61b1d46b9151ee8e1b23c0074f235fcfaf",
+    "status": "NEW_ORIGINAL_REVIEW_CANDIDATE",
+    "version": 0
+  },
+  "audio": 924,
+  "domain_outer_sha256": "0a7bb6f27ecc01a1311daa304edb48b1454cc908972c1faceb33416a6ddce507",
+  "domain_schema_sha256": "cc986b759fd3dc9e6e079ac989cb75226a9ac29d04cda7a5b6d823228aea1e4e",
+  "domain_version": 2,
+  "predecessor": {
+    "array_hashes": {
+      "sdAudioModules": "9f0f30f3f5d8d32e7b3d848b5cb3bc874085eb8e916bc3583287b4ef4aa3ba59",
+      "sdCounts": "2af9a5192809ed66515bb6162689d773d702f0d1a28f7970e132ee9adb1aa4a7",
+      "sdLegacyVoiceDurations": "72442d301ce5387318ea1bf11cbe1c495994feec118830d75232d0d6cbae7ea9",
+      "sdPageData": "7aebf0519dee54f9498a8d1ca1885d5cfed36b0273b98284711a109113b27582",
+      "sdPageDurations": "8c3935936bf1747a4049af19b3ddf0c11ecc750693dfd3ae2c46ab01ce1b62cc",
+      "sdStarts": "7b59092867167e3f53de9d3b9b96061c19f2c25f42f10b9f23376bb0921ac7fa",
+      "sdTextResources": "02765ffb202de1e336f9e034b7ea492af3ba29f036c90a2a670d6803b98a1800"
+    },
+    "audio_modules": [
+      0,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      921,
+      922,
+      923,
+      939
+    ],
+    "old_audio_files": 1202,
+    "outer_sha256": "412ff976b2418c65046a029014de08d816fdb29b9db0c92437296547433c5bd9",
+    "pages": 1344,
+    "slots": 1374,
+    "source982_sha256": "9e603bac6ad7559428bd536ec219b31e6f34ed5738219db19162fab68c40c354",
+    "texts": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      210,
+      211,
+      212,
+      230
+    ],
+    "version": 0
+  },
+  "prior_scene_revision": {
+    "outer_sha256": "897328ffad656ba17a8b06ad3aec4442ce25fe70a750c4dc3922bb5ed5292343",
+    "version": 0,
+    "workroot_preserved": "p12-scene-reconstruction"
+  },
+  "record_documents": [
+    1400,
+    1429
+  ],
+  "reserved_template_documents": [
+    1407,
+    1408,
+    1437,
+    1438
+  ],
+  "status": "FROZEN_CURRENT_INPUTS",
+  "text": 213,
+  "unit_documents": [
+    1430,
+    1465
+  ],
+  "variant_record_documents": [
+    1466,
+    1477
+  ],
+  "variant_unit_documents": [
+    1478,
+    1489
+  ]
+}

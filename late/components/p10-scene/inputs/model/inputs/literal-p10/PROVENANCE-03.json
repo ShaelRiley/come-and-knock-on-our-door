@@ -1,0 +1,12 @@
+{
+  "assembly": "A bytes followed immediately by B bytes; A terminates with one LF.",
+  "basis": "Complete untruncated 2026-10-05 cat read retained by sender. Sender states no subsequent edits to P10 in that task; only separately created P11 copy changed.",
+  "completeness": "Sender-attested complete file in parts A and B.",
+  "edits_applied": [],
+  "execution": "No recovered source imported, compiled, generated, tested, or executed.",
+  "original_byte_count": null,
+  "original_sha256": null,
+  "packet": 3,
+  "recovery_type": "New literal transcription, not generated implementation.",
+  "source_path": "stock-sci/p10-domain-adapter/src/methods.sc.in"
+}

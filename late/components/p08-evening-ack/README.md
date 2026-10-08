@@ -1,0 +1,3 @@
+# P08 evening ACK public source component
+
+Accepted bounded source/emitted ACK kernel. Successful storage can commit the literal evening ACK and a durable witness; canonical output is reserved as unread intent. EveningCommitted reports persistent history; EveningReady remains false. Actors and physical owners stay at the meeting. E03 actor staging, visible/audible speaker presentation, final handoff and native filesystem behavior remain open. This is separate from the P09 and SceneRenderer components, not a newly integrated game. Use the repository late/reproduce.py p08-evening-ack command. The pinned compiler corresponding source is supplied once by the repository baseline.

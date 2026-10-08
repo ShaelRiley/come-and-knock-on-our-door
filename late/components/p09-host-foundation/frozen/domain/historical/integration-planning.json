@@ -1,0 +1,55 @@
+{
+  "scope": "Read-only compatibility inventory for later P09 rebuilding; no current allocations or game changes made. Historical exporter cannot be executed unchanged against this current predecessor.",
+  "current_982_source_sha256": "5cc42a96ab80cfa0d4163b9a6402cb9a6f022a072e9ec0f06875837944feb472",
+  "current_document_slots": 1018,
+  "current_pages": 1138,
+  "current_text_banks": [
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    230
+  ],
+  "current_audio_modules": [
+    0,
+    912,
+    913,
+    914,
+    915,
+    916,
+    917,
+    918,
+    939
+  ],
+  "retained_historical_p09_proposals": {
+    "record_documents": [
+      1100,
+      1119
+    ],
+    "unit_documents": [
+      1120,
+      1139
+    ],
+    "text": 210,
+    "audio": 921,
+    "domain_script": 990,
+    "domain_species": 12,
+    "card_object": 399
+  },
+  "collision_check": "Proposed P09 documents/line keys, text210, audio921 and script990 are unused in the current compiled predecessor and scene arrays. Card399 is reserved by retained registry; dense reservation mapping must be integrated and tested, not indexed into legacy33-entry arrays.",
+  "required_explicit_adaptations": [
+    "Original extender requires1044..1100 predecessor slots; current has1018. Bind to exact current predecessor instead of weakening membership checks.",
+    "Original Text202..209/audio912..919 predecessor differs: current includes Text202..208 and230; audio912..918 and939. Preserve every current prefix and allowlist.",
+    "Old whole-catalog digest1226a978 differs from current approved3c6a8dc5. Retain literal source unchanged and document working adaptation; no historical wording identity claim.",
+    "Current P09 model fixture is newly regenerated, with original model/tests preserved. Build missing domain metadata from current model/canonical order, never invent missing historical bytes.",
+    "Generated 53P09pages include33full-record and20unit-doc pages; capacity planning must include both, not only33recordpages."
+  ],
+  "nonclaims": [
+    "No P09 port or native acceptance",
+    "No current complete registry reconstruction",
+    "No decision to activate reserved scene renderer991"
+  ]
+}

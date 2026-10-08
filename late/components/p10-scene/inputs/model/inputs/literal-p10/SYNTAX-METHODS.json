@@ -1,0 +1,8 @@
+{
+  "validation": "Lexical balanced parentheses and brackets after semicolon comments; no SCI compiler or execution.",
+  "file": "complete/stock-sci/p10-domain-adapter/src/methods.sc.in.txt",
+  "method_count": 56,
+  "errors": [],
+  "unclosed_delimiters": [],
+  "status": "PASS"
+}

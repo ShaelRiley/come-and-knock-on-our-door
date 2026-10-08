@@ -1,0 +1,80 @@
+{
+  "compile_receipt_sha256": "a97036a03179158fc6cf89abe50a2a6ed8a27c4d50ca07d880d2f841b6b67cdf",
+  "completed_review_cases": [
+    {
+      "case": "test_confirmation_boundaries.ConfirmationBoundaries.test_02_noncontiguous_pages_suspend_restore_represent_and_decline",
+      "seconds": 79.217,
+      "status": "PASS"
+    },
+    {
+      "case": "test_confirmation_boundaries.ConfirmationBoundaries.test_03_exact_frame_identity_windows_and_flush",
+      "seconds": 3.461,
+      "status": "PASS"
+    },
+    {
+      "case": "test_confirmation_boundaries.ConfirmationBoundaries.test_05_atomic_ack_confirm_failure_retry_and_uncertain_recovery",
+      "seconds": 39.137,
+      "status": "PASS"
+    },
+    {
+      "case": "__main__.Independent.test_10_mouse_yes_manual_save_restore_stale_and_mouse_cancel",
+      "seconds": 15.979,
+      "status": "PASS"
+    },
+    {
+      "case": "__main__.Independent.test_11_second_literal_pointer_and_both_enabled_bits",
+      "seconds": 18.765,
+      "status": "PASS"
+    },
+    {
+      "case": "__main__.Independent.test_12_queue_only_one_free_slot_ack_rolls_back_and_retries",
+      "seconds": 5.275,
+      "status": "PASS"
+    },
+    {
+      "case": "__main__.Independent.test_13_partial_page_whole_save_and_raw_peer_admission",
+      "seconds": 47.395,
+      "status": "PASS"
+    },
+    {
+      "case": "test_confirmation_crossings.ConfirmationCrossings.test_07_actual_source_layout_and_return_crossings_cancel_pending",
+      "seconds": 82.245,
+      "status": "PASS"
+    }
+  ],
+  "gate_receipt_sha256": "35d1c2ed002264373328f5c3b2d878c89e012ec8003e5bcf020d8cae9b3d49cf",
+  "harness_corrections": [
+    {
+      "correction": "Normalize only 22 absolute script/heap path strings when comparing relocated ABI output; all other ABI data exact.",
+      "kind": "overbroad byte-exact ABI metadata assertion",
+      "retained": "static-audit-r1.log and audit-r1.py.txt"
+    },
+    {
+      "correction": "Use 32-byte h8RCP instead of 16-byte h8CPP for the 19-byte NUL-terminated duplicate label. Same-text/different-pointer rejection remains required; producer source untouched.",
+      "kind": "too-small reviewer scratch buffer",
+      "retained": "review-cases-r1.json/log and review_cases-r1.py.txt"
+    }
+  ],
+  "native_acceptance": false,
+  "producer_after_sha256": "3b1b46ed7c0398c898add8d0808d163c2aad57f0553aa90ad3c1f549c877adae",
+  "producer_before_sha256": "3b1b46ed7c0398c898add8d0808d163c2aad57f0553aa90ad3c1f549c877adae",
+  "producer_defects": [],
+  "producer_unchanged_files": 561,
+  "remaining_open": [
+    "actual whole-campaign pre-transition storage I/O with failure/retry/cancel/capacity handling",
+    "automatic storage acknowledgment",
+    "E03 actor/ownership transition",
+    "real later-room VC01/VC02 rematches",
+    "native pixels, real device input, save files and listening"
+  ],
+  "reproduced_numeric_expression_pairs": 5,
+  "reproduced_pointer_guard_probes": 10,
+  "scope": "P08 checklist acknowledgment, exact final menu consent, and phase3 durable pending-checkpoint intent; source/emitted harness only",
+  "subject_bytes": 5624372,
+  "subject_library_version": 0,
+  "subject_members": 560,
+  "subject_tree_sha256": "f023fd1146cb87f701bb436397a252cd966a5aae7795e715a80ab322b73d881a",
+  "subject_zip_sha256": "44e5f42c54dd3ad728f3676b1078e451aaa3991b364d7c98081b3fd4f2288394",
+  "verdict": "ACCEPT",
+  "verified_producer_cases": 16
+}

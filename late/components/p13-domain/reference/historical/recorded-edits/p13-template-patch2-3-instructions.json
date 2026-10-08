@@ -1,0 +1,12 @@
+{
+  "patch2": {
+    "source_packet": "P13-TEMPLATE-PATCH2-1/1",
+    "operation": "Within original p13Validate find first line beginning with three spaces then (for ((= other 1)); replace from the three spaces through EOF with supplied validator-tail payload",
+    "failed_attempt": "One prior wrong-cwd FileNotFoundError made no edit"
+  },
+  "patch3": {
+    "source_packet": "P13-TEMPLATE-PATCH3-1/1",
+    "operation": "Append supplied preview payload directly after terminal LF of patch2 result"
+  },
+  "patch4": "Apply ordered global replacements after patch1-3; no later successful template edits retained"
+}

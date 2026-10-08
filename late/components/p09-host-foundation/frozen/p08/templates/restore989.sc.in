@@ -1,0 +1,67 @@
+; Whole-campaign ordinary restore uses public domain loading and validates the
+; original physical projections BEFORE older publishers can normalize evidence.
+(method (h8ActionBarrier)
+ (return (if (or h8Restoring (self h8GlobalBarrier:)) 1 else 0)))
+(method (h8RestoreReject)
+ (= h8Failure 21) (= h8Enabled 0) (= h8RestoreValid 0) (= h8Restoring 0) (= h8Critical 0)
+ ; Failed admission also retires saved audio, input and movement before returning.
+ (if h8Host (h8Host p05RetireTransient:))
+ (return 0))
+(method (h8RestoreBegin host &tmp i p q)
+ (= h8Host host)
+ ; Rebind authoritative singleton references; saved proxy pointers confer no authority.
+ (h8Host p03: (ScriptID 983 0) p04: (ScriptID 984 0) p05: (ScriptID 985 0)
+   p06: (ScriptID 987 0) p07: (ScriptID 988 0)
+   dialogue: (ScriptID 982 0) presentation: (ScriptID 980 0))
+ (= p (h8Host p03?)) (= q (h8Host p04?))
+ (if (or h8Restoring h8Critical h8Failure (!= h8Enabled 1) (!= h8RestoreValid 1)
+  h8Prepared h8ClothPrepared p08Busy p08Loading p08Uncertain
+  (!= p08Initialized 1) (not (or (== h8Lease 1) (== h8Lease 2)))) (return (self h8RestoreReject:)))
+ ; No inventory write occurs before this exact raw-map admission.
+ (if (or (not (self h8OwnersValid:)) (not (self h8ClothRawValid:)) (not (self h8InventoryRawValid:))
+  (not (self h8PublishersReady:)) (not (self h8SupportedHistory:)) (not (self h8LayoutRestore:))) (return (self h8RestoreReject:)))
+ (for ((= i 0)) (< i 108) ((++ i)) (= [h8RestoreWords i] (self p08SaveWord: i)))
+ (= h8Restoring 1) (= h8RestoreValid 0) (= h8Enabled 0)
+ (if (or (not (self p08AfterRestore:)) (not (self p08LoadBegin:))) (return (self h8RestoreReject:)))
+ (for ((= i 0)) (< i 108) ((++ i))
+  (if (not (self p08LoadWord: i [h8RestoreWords i])) (return (self h8RestoreReject:))))
+ (if (!= (self p08LoadFinish: 0) CODE_RESTORED) (return (self h8RestoreReject:)))
+ ; Derived reservation caches are never restored as publication permission.
+ (p b8Prepared: 0) (q q8Prepared: 0)
+ (= h8Prepared 0) (= h8ClothPrepared 0)
+ (return 1))
+(method (h8RestoreFinish &tmp r t u)
+ (if (or (!= h8Restoring 1) h8Critical h8Failure p08Busy p08Loading p08Uncertain p08Ready)
+  (return (self h8RestoreReject:)))
+ (= r (h8Host p05?)) (= t (h8Host p06?)) (= u (h8Host p07?))
+ (if (or (!= (r hRestoreValid?) 1) (!= (t h6RestoreValid?) 1) (!= (u h7RestoreValid?) 1)
+  (not (self h8PublishersReady:)) (not (self h8OwnersValid:)) (not (self h8ClothRawValid:)) (not (self h8InventoryRawValid:)))
+  (return (self h8RestoreReject:)))
+ ; Existing p05RetireTransient has now drained native input and stopped PCM/Sync.
+ ; The lease is recycled only after retirement; it is not a process-global nonce.
+ (= h8Lease (if (== h8Lease 1) 2 else 1))
+ (if (not (self p08BindSession: 0 0 0 0 0 0 0 h8Lease)) (return (self h8RestoreReject:)))
+ (if (or (not (self h8ProjectContext:)) (!= (self p08ValidateCurrent: 1) 0))
+  (return (self h8RestoreReject:)))
+ ; The saved numeric chooser counter can restart only after the existing
+ ; synchronous native input/audio retirement. There are no registered UI callbacks.
+ (= [h8UI 0] 0)
+ (= h8RestoreValid 1) (= h8Restoring 0) (= h8Enabled 1)
+ (return 1))
+
+; This bounded host has no introduction, source-reader, hint or readiness route yet.
+; Reject unsupported histories rather than converting their receipts into authority.
+(method (h8SupportedHistory &tmp i)
+ (if (or [p08Words S_EVENING_STARTED] [p08Words S_HINT_LEVEL] [p08Words S_PENDING_PHASE]
+  [p08Words S_ONCE_INTRO] [p08Words (+ S_ONCE_INTRO 1)]
+  [p08Words S_ONCE_EVENING] [p08Words (+ S_ONCE_EVENING 1)]) (return 0))
+ (for ((= i S_REQUEST_SERIAL)) (< i S_PLACE_CERAMIC_CARRIER) ((++ i))
+  (if [p08Words i] (return 0))) (return 1))
+; A rejected saved chooser cannot be trusted to release its own music guard.
+; This recovery-only load path cannot publish gameplay or imply save success.
+(method (h8Recover &tmp music)
+ (if (or h8Critical h8Restoring (and (not h8Failure) h8RestoreValid)) (return 0))
+ (h8Host p05RetireTransient:)
+ (= music (ScriptID 981 0)) (if music (music stop:))
+ (RestoreGame 0 -1 0)
+ (return 0))

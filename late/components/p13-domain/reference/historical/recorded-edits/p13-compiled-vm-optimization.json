@@ -1,0 +1,10 @@
+{
+  "source_packet": "P13-COMPILED-VM-PATCH-1/1",
+  "import_old": "import json, struct, re, sys, hashlib",
+  "import_new": "import json, struct, re, sys, hashlib, operator",
+  "block_start": "                acc={1:lambda:left+right",
+  "block_end_inclusive": "[op]()",
+  "block_new": "                acc=BINARY[op](left,right)",
+  "insert_before": "\nclass Compiled:",
+  "insert_payload": "\nBINARY={1:operator.add,2:operator.sub,3:operator.mul,4:lambda a,b:int(a/b),5:lambda a,b:a-int(a/b)*b,\n 6:lambda a,b:(a&65535)>>b,7:operator.lshift,8:operator.xor,9:operator.and_,10:operator.or_,\n 13:lambda a,b:int(a==b),14:lambda a,b:int(a!=b),15:lambda a,b:int(a>b),16:lambda a,b:int(a>=b),\n 17:lambda a,b:int(a<b),18:lambda a,b:int(a<=b)}\n"
+}

@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "line_id": "P12.DIALOGUE.003.01.page01",
+  "speaker": "audience",
+  "speaker_id": "audience",
+  "display_name": "Audience",
+  "text": "We understood the meal, the trial, and what isn’t promised. Say it to them.",
+  "profile_id": "audience_original_group_v1",
+  "profile_sha256": "636099225faa800975cbd5afd7689754654bed8dca9711ee2f48fb0355746031",
+  "duration_ticks": 316,
+  "sample_rate": 22050,
+  "pulses": [
+    {
+      "start": 3,
+      "end": 10,
+      "step": 0,
+      "source_start": 0,
+      "source_end": 2,
+      "word": "We"
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "step": 1,
+      "source_start": 3,
+      "source_end": 13,
+      "word": "understood"
+    },
+    {
+      "start": 29,
+      "end": 36,
+      "step": -1,
+      "source_start": 3,
+      "source_end": 13,
+      "word": "understood"
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "step": 2,
+      "source_start": 3,
+      "source_end": 13,
+      "word": "understood"
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "step": 0,
+      "source_start": 14,
+      "source_end": 17,
+      "word": "the"
+    },
+    {
+      "start": 71,
+      "end": 78,
+      "step": -2,
+      "source_start": 18,
+      "source_end": 22,
+      "word": "meal"
+    },
+    {
+      "start": 95,
+      "end": 101,
+      "step": 0,
+      "source_start": 24,
+      "source_end": 27,
+      "word": "the"
+    },
+    {
+      "start": 109,
+      "end": 115,
+      "step": 1,
+      "source_start": 28,
+      "source_end": 33,
+      "word": "trial"
+    },
+    {
+      "start": 132,
+      "end": 139,
+      "step": -1,
+      "source_start": 35,
+      "source_end": 38,
+      "word": "and"
+    },
+    {
+      "start": 147,
+      "end": 154,
+      "step": 2,
+      "source_start": 39,
+      "source_end": 43,
+      "word": "what"
+    },
+    {
+      "start": 162,
+      "end": 170,
+      "step": 0,
+      "source_start": 44,
+      "source_end": 49,
+      "word": "isn’t"
+    },
+    {
+      "start": 178,
+      "end": 184,
+      "step": -4,
+      "source_start": 50,
+      "source_end": 58,
+      "word": "promised"
+    },
+    {
+      "start": 189,
+      "end": 196,
+      "step": -2,
+      "source_start": 50,
+      "source_end": 58,
+      "word": "promised"
+    },
+    {
+      "start": 201,
+      "end": 209,
+      "step": -1,
+      "source_start": 50,
+      "source_end": 58,
+      "word": "promised"
+    },
+    {
+      "start": 234,
+      "end": 240,
+      "step": -1,
+      "source_start": 60,
+      "source_end": 63,
+      "word": "Say"
+    },
+    {
+      "start": 248,
+      "end": 256,
+      "step": 2,
+      "source_start": 64,
+      "source_end": 66,
+      "word": "it"
+    },
+    {
+      "start": 264,
+      "end": 272,
+      "step": 0,
+      "source_start": 67,
+      "source_end": 69,
+      "word": "to"
+    },
+    {
+      "start": 280,
+      "end": 287,
+      "step": -4,
+      "source_start": 70,
+      "source_end": 74,
+      "word": "them"
+    }
+  ],
+  "mouth_events": [
+    {
+      "tick": 0,
+      "pose": 0
+    },
+    {
+      "tick": 316,
+      "pose": 0
+    }
+  ],
+  "runtime_speaker_number": 0,
+  "approximate_syllables": true,
+  "intelligible_words": false,
+  "mouth_view": null,
+  "sync": "Audio36 DoAudio(6) position at 60 Hz"
+}

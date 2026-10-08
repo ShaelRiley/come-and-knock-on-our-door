@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "module982": {
+    "module": 982,
+    "source_sha256": "f3a3d4a1270f09bf0c0d849f10a8d49192773f6caea1f8dd4162558e3f1f4eef",
+    "script_sha256": "91fc357a289368c9c82bea9f42f44d4cc330a2bc65e58d7223e45082400203b9",
+    "heap_sha256": "7314ebb623b7a160f14bb915db32647943a9e4bcbde90ae4d76c4ce51c3de9a6",
+    "script_bytes": 19706,
+    "heap_bytes": 33990,
+    "combined_bytes": 53698,
+    "remaining_segment_bytes": 11837,
+    "class_species": [
+      4
+    ]
+  },
+  "primitive_bounds": [
+    973,
+    1017
+  ],
+  "new_p10_presentation_API": false,
+  "scope": "Composition fixture only; no complete-source host or native authority"
+}

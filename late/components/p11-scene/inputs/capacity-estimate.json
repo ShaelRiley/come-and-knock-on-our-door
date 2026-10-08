@@ -1,0 +1,61 @@
+{
+  "status": "CAPACITY_ESTIMATE_ONLY_NOT_ALLOCATION_OR_COMPILE_PROOF",
+  "utc": "2026-10-07T05:57:03.303943+00:00",
+  "authority_catalog_sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+  "pagination": "Actual accepted50-column/3-line caption helper; source-preserving segments",
+  "rows": [
+    {
+      "puzzle": "P10",
+      "records": 23,
+      "speech_units": 20,
+      "record_pages": 30,
+      "unit_page_copies_if_each_unit_has_route": 20,
+      "table_bytes_with_unit_copies": 1272
+    },
+    {
+      "puzzle": "P11",
+      "records": 23,
+      "speech_units": 32,
+      "record_pages": 40,
+      "unit_page_copies_if_each_unit_has_route": 32,
+      "table_bytes_with_unit_copies": 1804
+    },
+    {
+      "puzzle": "P12",
+      "records": 29,
+      "speech_units": 36,
+      "record_pages": 46,
+      "unit_page_copies_if_each_unit_has_route": 36,
+      "table_bytes_with_unit_copies": 2064
+    },
+    {
+      "puzzle": "P13",
+      "records": 41,
+      "speech_units": 36,
+      "record_pages": 53,
+      "unit_page_copies_if_each_unit_has_route": 36,
+      "table_bytes_with_unit_copies": 2266
+    },
+    {
+      "puzzle": "P14",
+      "records": 56,
+      "speech_units": 43,
+      "record_pages": 71,
+      "unit_page_copies_if_each_unit_has_route": 46,
+      "table_bytes_with_unit_copies": 2970
+    }
+  ],
+  "incremental_table_bytes_for_p10_p14": 10376,
+  "exclusions": [
+    "Any gaps in document-ID namespace",
+    "Transition and contest records outside chapter-prefixed records",
+    "Additional schema/host properties and methods",
+    "Compiler padding and changed instruction widths"
+  ],
+  "assessment": "P09 source/compiled baseline51486 plus these10376 minimum table bytes approaches61862 before excluded costs. Track actual compiled982 segment limits at each new scene exporter; no guarantee the complete game fits monolith. Full-script content must never be omitted to satisfy size.",
+  "future_option_not_implemented": {
+    "description": "For newly allocated P10\u2013P14 scenes, explicit unit windows may reference the complete parent record rows, avoiding duplicate unit page tuples. Existing P09 routes and all earlier arrays remain frozen. Requires reviewed host/unit mapping and source receipt semantics.",
+    "potential_duplicate_page_word_savings": 3740,
+    "no_current_source_or_artifact_change": true
+  }
+}

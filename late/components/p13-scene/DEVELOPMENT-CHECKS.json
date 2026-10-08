@@ -1,0 +1,16 @@
+{
+  "scope": "Development diagnostic preservation, not gate evidence",
+  "checks": [
+    {
+      "kind": "initial test assertions",
+      "finding": "Three test expectations needed adjustment: normalized display case, epoch advancement for changed actor context, and occupied-buffet rejection before SHOW layout binding. Accepted domain behavior and canonical words were unchanged.",
+      "resolution": "Tests assert normalized display, exact current epoch semantics and invalid-context fail-closed behavior. Full 36-test suite subsequently passed."
+    },
+    {
+      "kind": "source admission",
+      "finding": "Negative probe final source admission rejected a generated tools/__pycache__/source_tools.cpython-312.pyc with Cached Python input. Its writer was not established.",
+      "action": "Removed only that generated cache; no source/input bytes were changed. Added no-bytecode-write initialization to the new emission-audit and checkpoint entry points to make direct invocation robust. Repeating the clean relocation and negative admission gates.",
+      "stale_pass_claimed": false
+    }
+  ]
+}

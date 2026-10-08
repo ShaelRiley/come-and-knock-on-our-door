@@ -1,0 +1,217 @@
+{
+  "base_compile_sha256": "b5ad2086d19b8fec265642fb98bc74976f954d0aa8df0a76f24740e3d00b613b",
+  "current_compile_sha256": "1084a2d862744f9fccdf7720468cf9206730267896d974990b472ddc0ef5f016",
+  "changes": [
+    {
+      "module": "main.sc",
+      "changed_old_methods": [
+        {
+          "name": "writeSave",
+          "base_sha256": "771ace59686bca6fff9bcd2f78baa0c7986c33464613607d0201b14b96a55454",
+          "route_sha256": "4be0c95184a1bdab68283990e4e8a789b3572457df0664f11839a86ded2b1814"
+        },
+        {
+          "name": "readSave",
+          "base_sha256": "689c1409c8dc2ee4e2436d8035dd2415a04b7cc65c7ed003b0ca39ad303a304d",
+          "route_sha256": "97755cad92971ae9d1f71f3cd7e32a46d9f983fb156f92d6f8ac6e94d87452b1"
+        },
+        {
+          "name": "input",
+          "base_sha256": "0b1cbe708e9bdb10603d106c87ac5ac6a1d625c8300e11ed2f6a4e0e83546b8e",
+          "route_sha256": "6c6d86712101598caba4bce8616c8d69f702c2ca0df0ef86563bea77ba76b21c"
+        },
+        {
+          "name": "advance",
+          "base_sha256": "65b218c45b0f66db06ea9dfdfe0c9e3a3063076d94226d5ff9d83945b006aa24",
+          "route_sha256": "86a11ecc82371a3c9c6db89a84a730c2d569b77f970ca2e5ab765939a5a1601a"
+        },
+        {
+          "name": "uiHostWorldControls",
+          "base_sha256": "f2dbac6dd2effef1a7f9a28713913e3c81a10efb8e46a384c36739c1bc6f23e2",
+          "route_sha256": "583d4fe9c6eba22de83f26846dd84379c8fefdaf57d769c7c690f055b9880d9c"
+        },
+        {
+          "name": "hostActNow",
+          "base_sha256": "10b3bb9a98113777a7d54422150a201c48111081a53412e2a29306d5c568f21e",
+          "route_sha256": "08945af2834ac25b7563352eb826d64e0cb40ad3a2b19207096dafb2f9f78dd1"
+        },
+        {
+          "name": "drawWorld",
+          "base_sha256": "18b72de6d1bdd749e89789fa6e1c1d64ab4cfe851f91345fecf575a72a391cab",
+          "route_sha256": "624926167237a0a9b0b1d1ddd89de9357c5607d171da482d9b64c5869b7ac480"
+        },
+        {
+          "name": "p02ObjectLocation",
+          "base_sha256": "a4a651fc2656c4334e6f6ad2e295d15054dc8b5efd913295b7a86d5433b7e42b",
+          "route_sha256": "45b51f1419db5ac4d16978472cc16e08adf554ab1f50799f09f7f45525bbd03d"
+        },
+        {
+          "name": "p02Walk",
+          "base_sha256": "310f8d3ad58183822eb2a57e95d5f86decb82a48db96506e40c461ec8e76f2bc",
+          "route_sha256": "984bd112e4db07ab207f0ee79b18d47b5edd008f041a23f49fa79f1060fce1be"
+        },
+        {
+          "name": "uiAddControl",
+          "base_sha256": "8546cbe8ab3e8c91ff6f6173f85ef601bc1a7e2fc6a4689b6ca665309004f663",
+          "route_sha256": "74d241458eef11907af137b1a5c590cf74cc1fa436955cebc5586811ff79ab4d"
+        },
+        {
+          "name": "bridgeActAtArrival",
+          "base_sha256": "a02f7de09ebf5d2555c7d20ae3451b06ccc99f0c1995e67b02ffc105e6b1be69",
+          "route_sha256": "d6e1edf07bcacf0ab061da9d7442cf4ac9352c780f1a3322efc043b772299135"
+        },
+        {
+          "name": "uiHostChoice",
+          "base_sha256": "aa55d8ad2f5fb6a5dd3a8cfabc066aa9ae277d05ba59990c25f4d9accafc3556",
+          "route_sha256": "fc5ed225d39b128573ee1452f47871c23d9d86868a1db8801c2703058e64c698"
+        },
+        {
+          "name": "uiHostConfirm",
+          "base_sha256": "d7a97ce0f6f1e4f492ca9d87c876d4bb41fd1dfcc265a2e48f512dc5b7fcafbe",
+          "route_sha256": "92db390dc2413989efbbcc02768f0ad9d6062d66c40c36d82590351f159f7c03"
+        },
+        {
+          "name": "livingPerson",
+          "base_sha256": "6b64c76d8fcbab6a5f1dcc17e0621b7613ca0cc49238732bc452b1ed4f5bf194",
+          "route_sha256": "a6e3d1a3fb52b78b87a7b0c9078a4561f69d7948a13b3e25ccbdb728e40ad1ad"
+        },
+        {
+          "name": "dialogueCanSpeak",
+          "base_sha256": "3358b944233a849f95f49bd2c8b589d91c0ff06b3cf7bb2eb22b58b7bdbbc606",
+          "route_sha256": "afa0934086f286d0168c82f0887067bc1bf92f0e8bee04e03cf2ac2c25c08039"
+        },
+        {
+          "name": "p05Transition",
+          "base_sha256": "68a57f1eb31f9eb1acd63a0bce46f3cce009a35c21cee8c56ee60fbf4a3d65cb",
+          "route_sha256": "5611d01d025d383cb611ced81b99ecefad7381891714f661c5696830e2326a2f"
+        },
+        {
+          "name": "p05RetireTransient",
+          "base_sha256": "a0071c36932659d5743cf1bc5af5ae97cce254267130add91668e6616a36b56d",
+          "route_sha256": "7f57d78a7f5e30c8b82757262930e41a02f46b370e41df777cc2c3d7b6481225"
+        }
+      ],
+      "added_methods": []
+    },
+    {
+      "module": "module985.sc",
+      "changed_old_methods": [
+        {
+          "name": "hPhysicalValid",
+          "base_sha256": "a00b57a7c7417c00a29e13dfc7fa0c3239952c71b2e61442d3fd7937390ccfb9",
+          "route_sha256": "294ad019361c5e9b81416b8c3dfc37d5577649a2f20dfb9c560e29d47c149928"
+        }
+      ],
+      "added_methods": []
+    },
+    {
+      "module": "module987.sc",
+      "changed_old_methods": [
+        {
+          "name": "h6OwnersValid",
+          "base_sha256": "c3c06e9a7119a8f9f9ac505ec87927e2d01236260539d4c0eb7bcde9a1841844",
+          "route_sha256": "6bd08b0e5424be45cbf6d2040d36dd8b93dd7c7e05c0fb03b30765800c6bb528"
+        }
+      ],
+      "added_methods": []
+    },
+    {
+      "module": "module988.sc",
+      "changed_old_methods": [
+        {
+          "name": "h7PhysicalValid",
+          "base_sha256": "14ecad00724f9dcc783eedc1e114646d70c61a5b5e53da46dbac9a5c10fb1660",
+          "route_sha256": "aaefa43f35f7dcbd93d15403f7c57e2de5074261ad3571055f2d28c60d6e357e"
+        }
+      ],
+      "added_methods": []
+    },
+    {
+      "module": "module989.sc",
+      "changed_old_methods": [
+        {
+          "name": "h8SaveReady",
+          "base_sha256": "6d65309744af007c804c5bc9e158eec884bce3c81ac329194e72773e7ef45c13",
+          "route_sha256": "c065607dfcdd14072c1d6141c6112bfb35e20e49401552710d5b73f60d5f7534"
+        },
+        {
+          "name": "h8RestoreBegin",
+          "base_sha256": "9ffbf51768635e3ae3b18ccc7ee1af9337386feed31ce123f04b1bb7fb37bd28",
+          "route_sha256": "92e3b217ea0e7ba72cbb3f9d7b05be3b0b800477ebe17f63263609b8056a14f6"
+        }
+      ],
+      "added_methods": [
+        "h8RouteActor",
+        "h8RouteActorValid",
+        "h8RouteArm",
+        "h8RouteBlock",
+        "h8RouteBusy",
+        "h8RouteCamera",
+        "h8RouteCanSpeak",
+        "h8RouteCancel",
+        "h8RouteChoice",
+        "h8RouteControls",
+        "h8RouteCut",
+        "h8RouteDrawActor",
+        "h8RouteEntry",
+        "h8RouteFacing",
+        "h8RouteFacts",
+        "h8RouteInput",
+        "h8RouteInvite",
+        "h8RouteLast",
+        "h8RouteMeeting",
+        "h8RouteMode",
+        "h8RoutePoint",
+        "h8RoutePose",
+        "h8RouteRender",
+        "h8RouteRetire",
+        "h8RouteRoom",
+        "h8RouteSave",
+        "h8RouteSaveValid",
+        "h8RouteTick",
+        "h8RouteTravel",
+        "h8RouteValid",
+        "h8RouteValue"
+      ]
+    }
+  ],
+  "literal_domain_methods_preserved": 80,
+  "added_selectors": {
+    "h8RouteMode": 2890,
+    "h8RouteBusy": 2891,
+    "h8RouteEntry": 2892,
+    "h8RoutePoint": 2893,
+    "h8RouteLast": 2894,
+    "h8RouteValid": 2895,
+    "h8RouteActorValid": 2896,
+    "h8RouteInvite": 2897,
+    "h8RouteTick": 2898,
+    "h8RouteCancel": 2899,
+    "h8RouteRetire": 2900,
+    "h8RouteRender": 2901,
+    "h8RouteValue": 2902,
+    "h8RouteCamera": 2903,
+    "h8RouteDrawActor": 2904,
+    "h8RouteInput": 2905,
+    "h8RouteSave": 2906,
+    "h8RouteBlock": 2907,
+    "h8RouteMeeting": 2908,
+    "h8RouteFacts": 2909,
+    "h8RouteActor": 2910,
+    "h8RouteTravel": 2911,
+    "h8RouteCanSpeak": 2912,
+    "h8RouteControls": 2913,
+    "h8RouteCut": 2914,
+    "h8RouteRoom": 2915,
+    "h8RouteSaveValid": 2916,
+    "h8RouteArm": 2917,
+    "h8RouteChoice": 2918,
+    "h8RoutePose": 2919,
+    "h8RouteFacing": 2920
+  },
+  "old_selectors_unchanged": true,
+  "original_resources": {
+    "218": "0386c5740dd4eab145e2f0353ac4961bbc5340262e367b139acdf30187d81964",
+    "219": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c"
+  }
+}

@@ -1,0 +1,86 @@
+"""Actual compiled save validator versus model, with corrupt native words and transport."""
+from test_domain import P10World,C,RACK,KNOWN,replace,COURTYARD,TILE_IDS,PAPER_IDS,ORDER,M,encode_world,encode_save,decode_words,Compiled,source_vm,HERE,hashlib,json,unittest,copy,itertools
+
+def snapshots():
+ out=[]
+ def add(w):out.append(encode_world(w))
+ w=P10World();add(w)
+ r=w.introduce(C);add(w)
+ for u in w._tokens('intro'):w.acknowledge_presentation(C,r.presentation_id,speech_unit_ids=(u,));add(w)
+ r=w.begin_presentation(C,'plan');add(w);w.acknowledge_presentation(C,r.presentation_id,record_id='P10.READ.001');add(w)
+ w.prepare_paper(C);add(w)
+ for ids in (TILE_IDS,PAPER_IDS):
+  for obj,word in zip(ids,ORDER):w.write(C,obj,word);add(w)
+ for i,obj in enumerate(TILE_IDS):w.place(RACK,obj,i);add(w)
+ for source in ('tiles','rack','credit','bread_agreement','notebook'):
+  ctx=replace(RACK,rita_room=COURTYARD);r=w.begin_presentation(ctx,source);add(w)
+  for token in w._tokens(source):
+   kw={'speech_unit_ids':(token,)} if token in M['speech_unit_ids'] else {'record_id':token}
+   w.acknowledge_presentation(ctx,r.presentation_id,**kw);add(w)
+ for i in range(3):w.remove(RACK,i);add(w)
+ for i,obj in enumerate(PAPER_IDS):w.place(RACK,obj,i);add(w)
+ w.write(RACK,PAPER_IDS[0],None);add(w);w.hint(RACK,3);add(w)
+ for revision in (32766,32767,32768,M['max_serial']):
+  w=P10World(revision=revision);add(w)
+  if revision<M['max_serial']-2:w.introduce(C);add(w)
+ return out
+
+def model_verdict(p):
+ try:
+  data=decode_words([p[k] for k in M['persisted_properties']])
+  if encode_save(data)!=p:return 0
+  P10World.load(data);return 1
+ except (ValueError,TypeError,KeyError):return 0
+
+class ValidationTests(unittest.TestCase):
+ def test_compiled_validator_against_model_and_corrupt_words(self):
+  valid=snapshots();corpus=[('reachable',s) for s in valid]
+  seeds=[valid[0],valid[len(valid)//2],max(valid,key=lambda p:sum(bool(v) for v in p.values()))]
+  for seed in seeds:
+   for key in M['persisted_properties']:
+    for value in (-1,0,1,2,32767):
+     p=seed.copy();p[key]=value;corpus.append((key+'='+str(value),p))
+  # Pairwise caption collisions, duplicate rack objects and nonprefix receipts.
+  for a,b in itertools.combinations(range(4,len(M['serials'])),2):
+   if (a+b)%7:continue
+   p=seeds[-1].copy()
+   for limb in ('Hi','Lo'):p['p10'+M['serials'][a]+limb]=p['p10'+M['serials'][b]+limb]
+   corpus.append((f'collision-{a}-{b}',p))
+  machine=Compiled(HERE,992,source_vm.DEFAULTS);seen=set();accepted=rejected=0
+  for label,p in corpus:
+   key=tuple(p.values())
+   if key in seen:continue
+   seen.add(key);expected=model_verdict(p);allprops=source_vm.DEFAULTS.copy();allprops.update(p)
+   actual=machine.execute('p10Validate',allprops)
+   if actual!=expected:
+    machine.trace=[];machine.execute('p10Validate',allprops)
+    (HERE/'evidence/validation-failure.json').write_text(json.dumps(dict(label=label,expected=expected,actual=actual,properties=p,trace=machine.trace),indent=2))
+   self.assertEqual(actual,expected,(label,p))
+   accepted+=expected;rejected+=not expected
+  for p in valid:
+   v=source_vm.VM();v.p.update(p);self.assertEqual(v.call('p10Validate'),1)
+  report=dict(scope='Actual emitted SCI1.1 validator versus accepted Python save model; no native playability claim',reachable_states=len(valid),unique_checks=len(seen),accepted=accepted,rejected=rejected,strict_stack_balance=True,executed_instructions=machine.steps,compiled_sha256=hashlib.sha256(machine.blob).hexdigest(),mismatches=0)
+  (HERE/'evidence/compiled-validation.json').write_text(json.dumps(report,indent=2)+'\n')
+ def test_strict_transport_types_and_fields(self):
+  pristine=P10World().save()
+  for mutation in (lambda d:d.update(schema=True),lambda d:d['state'].update(revision=True),lambda d:d['state'].update(revision=M['max_serial']+1),lambda d:d['state'].update(unknown=1),lambda d:d['state'].update(hint_level=True),lambda d:d['state']['labels'].update({TILE_IDS[0]:True}),lambda d:d['state'].update(slots=[True,None,None]),lambda d:d['state'].update(labels={})):
+   value=copy.deepcopy(pristine);mutation(value)
+   with self.assertRaises(ValueError):encode_save(value)
+  w=P10World();r=w.introduce(C);w.acknowledge_presentation(C,r.presentation_id,speech_unit_ids=('P10.OPEN.001.01','P10.OPEN.001.02'))
+  for mutation in (lambda d:d['state']['presentations']['intro'].update(serial=0),lambda d:d['state']['presentations']['intro']['receipts'].update({'P10.OPEN.001.01':0}),lambda d:d['state']['presentations']['intro'].update(receipts={'P10.OPEN.001.02':3,'P10.OPEN.001.01':3})):
+   value=w.save();mutation(value)
+   with self.assertRaises(ValueError):encode_save(value)
+  words=list(encode_world(w).values())
+  for value in (True,-1,32768,'0'):
+   bad=words.copy();bad[2]=value
+   with self.assertRaises(ValueError):decode_words(bad)
+  with self.assertRaises(ValueError):decode_words(words[:-1])
+ def test_corrupt_restore_drains_callbacks_and_fails_closed(self):
+  from test_domain import ByteVM,Harness,CO,oid
+  for typ in (source_vm.VM,ByteVM):
+   h=Harness(typ);h.prepare();before=h.v.persistent();h.v.p['p10Slot0']=oid(TILE_IDS[0]);h.v.p['p10Slot1']=oid(TILE_IDS[0])
+   self.assertEqual(h.v.call('p10AfterRestore'),0);self.assertEqual(h.v.p['p10ContextValid'],0)
+   h.v.call('p10Write',oid(TILE_IDS[0]),1);self.assertEqual(CO[h.v.p['p10Code']],'invalid_state')
+   self.assertEqual(h.v.p['p10EventCount'],0)
+
+if __name__=='__main__':unittest.main()

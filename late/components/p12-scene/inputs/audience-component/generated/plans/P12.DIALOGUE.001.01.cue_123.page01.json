@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "line_id": "P12.DIALOGUE.001.01.cue_123.page01",
+  "speaker": "audience",
+  "speaker_id": "audience",
+  "display_name": "Audience",
+  "text": "SERVE, SHOW, TOAST. That’s what we can see. We assumed whoever put them there had a reason.",
+  "profile_id": "audience_original_group_v1",
+  "profile_sha256": "636099225faa800975cbd5afd7689754654bed8dca9711ee2f48fb0355746031",
+  "duration_ticks": 377,
+  "sample_rate": 22050,
+  "pulses": [
+    {
+      "start": 3,
+      "end": 9,
+      "step": 0,
+      "source_start": 0,
+      "source_end": 5,
+      "word": "SERVE"
+    },
+    {
+      "start": 26,
+      "end": 34,
+      "step": 1,
+      "source_start": 7,
+      "source_end": 11,
+      "word": "SHOW"
+    },
+    {
+      "start": 51,
+      "end": 57,
+      "step": -3,
+      "source_start": 13,
+      "source_end": 18,
+      "word": "TOAST"
+    },
+    {
+      "start": 82,
+      "end": 90,
+      "step": 2,
+      "source_start": 20,
+      "source_end": 26,
+      "word": "That’s"
+    },
+    {
+      "start": 98,
+      "end": 105,
+      "step": 0,
+      "source_start": 27,
+      "source_end": 31,
+      "word": "what"
+    },
+    {
+      "start": 113,
+      "end": 120,
+      "step": -2,
+      "source_start": 32,
+      "source_end": 34,
+      "word": "we"
+    },
+    {
+      "start": 128,
+      "end": 134,
+      "step": 0,
+      "source_start": 35,
+      "source_end": 38,
+      "word": "can"
+    },
+    {
+      "start": 142,
+      "end": 150,
+      "step": -1,
+      "source_start": 39,
+      "source_end": 42,
+      "word": "see"
+    },
+    {
+      "start": 175,
+      "end": 182,
+      "step": -1,
+      "source_start": 44,
+      "source_end": 46,
+      "word": "We"
+    },
+    {
+      "start": 190,
+      "end": 197,
+      "step": 2,
+      "source_start": 47,
+      "source_end": 54,
+      "word": "assumed"
+    },
+    {
+      "start": 202,
+      "end": 210,
+      "step": 0,
+      "source_start": 47,
+      "source_end": 54,
+      "word": "assumed"
+    },
+    {
+      "start": 215,
+      "end": 221,
+      "step": -2,
+      "source_start": 47,
+      "source_end": 54,
+      "word": "assumed"
+    },
+    {
+      "start": 229,
+      "end": 235,
+      "step": 0,
+      "source_start": 55,
+      "source_end": 62,
+      "word": "whoever"
+    },
+    {
+      "start": 240,
+      "end": 247,
+      "step": 1,
+      "source_start": 55,
+      "source_end": 62,
+      "word": "whoever"
+    },
+    {
+      "start": 255,
+      "end": 261,
+      "step": -1,
+      "source_start": 63,
+      "source_end": 66,
+      "word": "put"
+    },
+    {
+      "start": 269,
+      "end": 276,
+      "step": 2,
+      "source_start": 67,
+      "source_end": 71,
+      "word": "them"
+    },
+    {
+      "start": 284,
+      "end": 292,
+      "step": 0,
+      "source_start": 72,
+      "source_end": 77,
+      "word": "there"
+    },
+    {
+      "start": 300,
+      "end": 307,
+      "step": -2,
+      "source_start": 78,
+      "source_end": 81,
+      "word": "had"
+    },
+    {
+      "start": 315,
+      "end": 322,
+      "step": 0,
+      "source_start": 82,
+      "source_end": 83,
+      "word": "a"
+    },
+    {
+      "start": 330,
+      "end": 336,
+      "step": -1,
+      "source_start": 84,
+      "source_end": 90,
+      "word": "reason"
+    },
+    {
+      "start": 341,
+      "end": 348,
+      "step": -3,
+      "source_start": 84,
+      "source_end": 90,
+      "word": "reason"
+    }
+  ],
+  "mouth_events": [
+    {
+      "tick": 0,
+      "pose": 0
+    },
+    {
+      "tick": 377,
+      "pose": 0
+    }
+  ],
+  "runtime_speaker_number": 0,
+  "approximate_syllables": true,
+  "intelligible_words": false,
+  "mouth_view": null,
+  "sync": "Audio36 DoAudio(6) position at 60 Hz"
+}

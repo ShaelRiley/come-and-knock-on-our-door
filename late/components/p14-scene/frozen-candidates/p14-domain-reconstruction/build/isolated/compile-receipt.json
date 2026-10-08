@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FRESH_COMPILE",
+  "modules": [
+    {
+      "module": 0,
+      "source_sha256": "609d4cb5b0b6872eaeb3c454dab97fd1009abebec04f107a491741043560673d",
+      "script_sha256": "ecda277fb0927c184c60b4e866b2144fabd11f0b1c97a003190667df32804319",
+      "heap_sha256": "9b2313a3e3d1ec2b254684c0f44ab1c1888593de63a69da645bd4c2e85a712c3",
+      "combined_bytes": 78,
+      "class_species": [
+        0
+      ]
+    },
+    {
+      "module": 996,
+      "source_sha256": "1558d1f63f72c58b10d040cbce3c38ea557edadce23ef47c465d144749c12c70",
+      "script_sha256": "4f2e285619338b309a5a84e23c69f3a4b2768dbab820e1c58c6660198cfdbe7a",
+      "heap_sha256": "5991f872998fb57eb4cee566c147b651beede6c29c90a5bb82df3c9e4593a188",
+      "combined_bytes": 43654,
+      "class_species": [
+        1
+      ]
+    }
+  ],
+  "class_owners": [
+    0,
+    996
+  ],
+  "isolated_species": 1,
+  "production_reserved_species": 18,
+  "production_integrated": false,
+  "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+  "native_acceptance": false,
+  "runtime_package": false,
+  "selector_sha256": "42fcb67cb7804d82131884452b36cdddae319f7a76a97b36f38f75279f5a49af",
+  "abi_sha256": "552d26911fc09d8a8955f4e18f2692f15345730202fbca5364a8c1fce8066e7a",
+  "schema_sha256": "fe75ef9cad9103f7080567eae9146d5a7836b8500c408a9f522b21d49f703cc2"
+}

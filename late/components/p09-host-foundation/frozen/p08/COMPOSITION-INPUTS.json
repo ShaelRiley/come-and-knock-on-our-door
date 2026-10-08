@@ -1,0 +1,15 @@
+{
+  "layout_compile": "e463b52ac57deedec18b30230a1da27a11f6036f8094297787aca340a255c0c4",
+  "route_compile": "1084a2d862744f9fccdf7720468cf9206730267896d974990b472ddc0ef5f016",
+  "layout_archive": "e4f3da8a65e824b43f0027c0b29dd2a6f285ce45011fae7ffb110ed9032ddc34",
+  "route_archive": "2ed88abee82cf9cdabbc7078a73300f547428ce617cb73c8a639c4cfd98687b9",
+  "scope": "new editable composition; component tests are historical inputs, not combined acceptance",
+  "gait_resources": [
+    237,
+    238
+  ],
+  "corrections": [
+    "Milo target28 x62",
+    "Porch object16 label and rectangle above rail"
+  ]
+}

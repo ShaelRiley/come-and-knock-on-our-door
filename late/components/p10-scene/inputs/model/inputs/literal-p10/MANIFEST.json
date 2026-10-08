@@ -1,0 +1,163 @@
+{
+  "format": "p10-literal-recovery-v1",
+  "created_utc": "2026-10-07T05:09:00Z",
+  "provenance_note": "All measurements are current transcription measurements; historical original hashes and sizes are unknown.",
+  "files": [
+    {
+      "path": "PROVENANCE-03.json",
+      "size_bytes": 749,
+      "splitlines": 13,
+      "sha256": "e203d9a6be995c3eda4e1ee37c6ce9ceb24edc1666e48b143341bbd0bcfcb059"
+    },
+    {
+      "path": "PROVENANCE-04.json",
+      "size_bytes": 567,
+      "splitlines": 11,
+      "sha256": "95e759b901a92a85bff2b94ea324184c43c069e4d329bc133fb28de24a4d0cfe"
+    },
+    {
+      "path": "PROVENANCE-05.json",
+      "size_bytes": 549,
+      "splitlines": 11,
+      "sha256": "da203adf8b428354346adb1b2670aad07ddd8ec5984aaefd77903334467c9c88"
+    },
+    {
+      "path": "PROVENANCE-06.json",
+      "size_bytes": 615,
+      "splitlines": 11,
+      "sha256": "3c995502cb4b7dad8b366adfccbd8c9b55763ba54fe2ad797c49c5ecb55f68b5"
+    },
+    {
+      "path": "PROVENANCE-07.json",
+      "size_bytes": 522,
+      "splitlines": 10,
+      "sha256": "d52fb506428cd704ab5ddbf6dd711dba832711d4e614d7e293621a553201f65d"
+    },
+    {
+      "path": "PROVENANCE-PARTIAL.json",
+      "size_bytes": 796,
+      "splitlines": 15,
+      "sha256": "dc399a09c7249010c7354d0258398eb164654cc4895caff6380739a08f943ea9"
+    },
+    {
+      "path": "README-RECOVERY.txt",
+      "size_bytes": 1385,
+      "splitlines": 24,
+      "sha256": "8bcd4107e7011f6c0010f3371b41cc30402ca7d8ed0044c835c0dac6e62083e1"
+    },
+    {
+      "path": "SYNTAX-METHODS.json",
+      "size_bytes": 280,
+      "splitlines": 8,
+      "sha256": "a96be7a9bdff26cc5e87ddab838d6bd6371ee6ec75499d69038b457baa263064"
+    },
+    {
+      "path": "SYNTAX-PARTIAL-MODEL.json",
+      "size_bytes": 361,
+      "splitlines": 13,
+      "sha256": "394cb37b7404ab2073bdd75d652acd6cc45698f40e0f226dd87db4870dda3dc8"
+    },
+    {
+      "path": "VALIDATION-REPORT.json",
+      "size_bytes": 2527,
+      "splitlines": 55,
+      "sha256": "4dd114c92fbfca87c8119a0191fefe789ee6e9fae0ddd1a5ed4c5c8deff52f0b"
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/codec.py.txt",
+      "size_bytes": 4113,
+      "splitlines": 68,
+      "sha256": "904843a109bd37e3f4e300f68ceca77ba7a92324ea29b390a87ba90f89ce02e9"
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/generate.py.txt",
+      "size_bytes": 8711,
+      "splitlines": 75,
+      "sha256": "1ff762c2ecbb4a6c6a3cacc4df7379fa4061313766cef71b602c98eb440938a0"
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/src/methods.sc.in.txt",
+      "size_bytes": 22984,
+      "splitlines": 350,
+      "sha256": "dd585cbfb0a84665e63c17a4f3786706c7e89ec375b9a22e4aba32b044c927ac"
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/tests/test_domain.py.txt",
+      "size_bytes": 19969,
+      "splitlines": 266,
+      "sha256": "0e9ffd1ee59409d109d48a21748bee7838dcdbd41994fd96dc064ce02227a3cb"
+    },
+    {
+      "path": "complete/stock-sci/p10-domain-adapter/tests/test_validation.py.txt",
+      "size_bytes": 5448,
+      "splitlines": 86,
+      "sha256": "6dba347d5dbca05ebdd966fd85db83a9be27eab8c58c6b59ffd8d72b6fc7fb26"
+    },
+    {
+      "path": "packets/01-model-part-A.txt",
+      "size_bytes": 8037,
+      "splitlines": 199,
+      "sha256": "dff3b68f85f871d2ad0d9e60eea1ce5118b1f17faaff986ff1003be11b2af913"
+    },
+    {
+      "path": "packets/02-model-part-B.txt",
+      "size_bytes": 6468,
+      "splitlines": 128,
+      "sha256": "8b1ad38b0151e10785ab468402434217f6c31b96720aa6de9af4b21fb114aeee"
+    },
+    {
+      "path": "packets/03-methods-part-A.txt",
+      "size_bytes": 10416,
+      "splitlines": 153,
+      "sha256": "1d4dd09778345422283ba6d54a227bf8e502c7dc65d1aea6170fdc72a322aaa0"
+    },
+    {
+      "path": "packets/03-methods-part-B.txt",
+      "size_bytes": 12568,
+      "splitlines": 197,
+      "sha256": "65f6a982ab18d35d6ab4edfd3f6c2e218eb35770d0ff82d46675fbabcaacaa22"
+    },
+    {
+      "path": "packets/04-generate.py.txt",
+      "size_bytes": 8711,
+      "splitlines": 75,
+      "sha256": "1ff762c2ecbb4a6c6a3cacc4df7379fa4061313766cef71b602c98eb440938a0"
+    },
+    {
+      "path": "packets/05-codec.py.txt",
+      "size_bytes": 4113,
+      "splitlines": 68,
+      "sha256": "904843a109bd37e3f4e300f68ceca77ba7a92324ea29b390a87ba90f89ce02e9"
+    },
+    {
+      "path": "packets/06-test_domain-part-A.py.txt",
+      "size_bytes": 8150,
+      "splitlines": 117,
+      "sha256": "4075beff5423d17bbd5c919b363a4f755b11a53567e282c5cc0b1ea803155014"
+    },
+    {
+      "path": "packets/06-test_domain-part-B.py.txt",
+      "size_bytes": 11819,
+      "splitlines": 149,
+      "sha256": "0dc6b6dc6ff62b6f7588a725480ae2233229654cca1b207ce84322bb2b205a49"
+    },
+    {
+      "path": "packets/07-test_validation.py.txt",
+      "size_bytes": 5448,
+      "splitlines": 86,
+      "sha256": "6dba347d5dbca05ebdd966fd85db83a9be27eab8c58c6b59ffd8d72b6fc7fb26"
+    },
+    {
+      "path": "packets/08-provenance-and-completeness.txt",
+      "size_bytes": 2615,
+      "splitlines": 13,
+      "sha256": "5a4be17e1fa7e586f94f7a9fd46c22704dfd6c8f2e578f4ed854e859cc60b029"
+    },
+    {
+      "path": "partial/cakood-p10_model.py.txt",
+      "size_bytes": 14508,
+      "splitlines": 327,
+      "sha256": "8bef9f572284ea03eea25c51738952545eb6c5d31e7173a0df82e77228edca63"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source_packet": "P13-TEMPLATE-BASE-RECIPE-1/1",
+  "source_boundary": "P12 (method (p12Clear inclusive to (method (p12WordFor exclusive; supplied prefix is already this slice",
+  "delete_start_inclusive": "(method (p12RackIndex",
+  "delete_end_exclusive": "(method (p12Pending source",
+  "ordered_global_replacements": [
+    [
+      "p12",
+      "p13"
+    ],
+    [
+      "P12",
+      "P13"
+    ],
+    [
+      "(+ source 7)",
+      "(+ source 18)"
+    ],
+    [
+      "(+ i 7)",
+      "(+ i 18)"
+    ],
+    [
+      "(+ j 7)",
+      "(+ j 18)"
+    ],
+    [
+      "source 11",
+      "source 15"
+    ],
+    [
+      "i 11",
+      "i 15"
+    ],
+    [
+      "j 11",
+      "j 15"
+    ],
+    [
+      "rank 11",
+      "rank 15"
+    ],
+    [
+      "i 12",
+      "i 16"
+    ],
+    [
+      "(< i 1)",
+      "(< i 2)"
+    ],
+    [
+      "(< i 4)",
+      "(< i 8)"
+    ],
+    [
+      "(>= p13EventCount 1)",
+      "(>= p13EventCount 2)"
+    ]
+  ],
+  "append": "Three authored P13 segments directly after the existing terminal LF"
+}

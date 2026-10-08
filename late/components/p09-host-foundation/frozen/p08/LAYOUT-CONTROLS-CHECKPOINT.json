@@ -1,0 +1,33 @@
+{
+  "checkpoint": "layout-controls-source-compile",
+  "status": "SOURCE_COMPILED_FUNCTIONAL_GATE_PENDING",
+  "compile_receipt_sha256": "99e13a18b97384d15d9af7a64acbdf2e0191ec83f0a6ec14e9fc68f2d867d419",
+  "new_selectors": {
+    "h8LayoutActive": 2946,
+    "h8LayoutLabel": 2947,
+    "h8LayoutTarget": 2948,
+    "h8LayoutCel": 2949,
+    "h8LayoutRect": 2950,
+    "h8LayoutApproach": 2951,
+    "h8LayoutControl": 2952,
+    "h8LayoutControls": 2953,
+    "h8LayoutRender": 2954,
+    "h8LayoutHit": 2955,
+    "h8LayoutRetire": 2956,
+    "h8LayoutMenu": 2957,
+    "h8LayoutFirst": 2958,
+    "h8LayoutChoice": 2959,
+    "h8LayoutDispatch": 2960,
+    "h8UIReserve": 2961,
+    "h8UIPublish": 2962,
+    "h8UIRun": 2963,
+    "h8LayoutRestore": 2964
+  },
+  "main_bytes": 63648,
+  "script989_bytes": 29726,
+  "main_delta_from_geometry": 268,
+  "domain_methods_literal": 80,
+  "native_acceptance": false,
+  "save_io_verified": false,
+  "functional_gate": "Not run on these bytes yet; source/compile preservation only"
+}

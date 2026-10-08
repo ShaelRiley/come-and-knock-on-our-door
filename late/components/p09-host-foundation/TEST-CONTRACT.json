@@ -1,0 +1,29 @@
+{
+  "selected_cases": 8,
+  "execution_modes": [
+    "new/changed source methods with other actual emitted modules",
+    "independent actual emitted SCI bytecode"
+  ],
+  "groups": [
+    "4 P09 foundation tests: genuine boot/init/query, reserved targets refused before prior dispatch, ordinary P01/travel/save/restore, all old scene routes plus53 appended pages",
+    "2 accepted assembly tests: named layout/overlap recovery and ordinary save/restore/reversible return",
+    "1 current accepted auto-intro test: partial close, actual Talk resume, ordinary restore",
+    "1 accepted confirmation test: exact checklist, explicit Yes, pending checkpoint, restore and cancel"
+  ],
+  "no_synthetic_p09_progress": true,
+  "historical_exploration_findings": [
+    {
+      "case": "initial new all-prior-scenes test",
+      "finding": "Two existing P08 hard-coded aliases971/972 return3/2 pages although their raw sdCounts entries arezero. Test corrected to preserve those exact current semantics; game code unchanged."
+    },
+    {
+      "case": "historical test_composition_initial.test_01_legal_route_gait_frames_and_moving_input",
+      "finding": "This early test predates the accepted auto-intro host: it wrongly expects no domain serial/intro changes after meeting arrival. Current accepted test_intro instead verifies the real automatic document973 and its durable partial/resume behavior. The older assertion remains unchanged as historical evidence, excluded from current acceptance."
+    }
+  ],
+  "limitations": [
+    "No stock-native execution",
+    "Kernel mocks do not establish physical pixels, audible speech, controller or native saved-game compatibility",
+    "P09 ownership, readers, geometry, native route, and activation remain deferred"
+  ]
+}

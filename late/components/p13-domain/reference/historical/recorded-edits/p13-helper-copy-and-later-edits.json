@@ -1,0 +1,49 @@
+{
+  "source_packet": "P13-HELPER-COPY-RECIPE-1/1",
+  "source_paths": [
+    "build.sh",
+    "prepare.py",
+    "validate.py",
+    "src/main.sc",
+    "tests/source_vm.py",
+    "tests/compiled_vm.py"
+  ],
+  "operation": "Sequential global replacements for each retained P12 helper; not all replacements occur in every helper. Preserve direct P13 game.ini separately because original P12 game.ini read is unavailable.",
+  "replacements": [
+    [
+      "p12",
+      "p13"
+    ],
+    [
+      "P12",
+      "P13"
+    ],
+    [
+      "994",
+      "995"
+    ],
+    [
+      "species16",
+      "species17"
+    ],
+    [
+      "'production_reserved_species':16",
+      "'production_reserved_species':17"
+    ]
+  ],
+  "later_main_line": "        (helper p13Context: 4 0 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 0 0 4 4 4 4 4 4 4 1 56 3 1 1 1 1 0 1)\n",
+  "later_validate_replacements": [
+    [
+      "== 20",
+      "== 37"
+    ],
+    [
+      "= 20",
+      "= 37"
+    ],
+    [
+      "source = (HERE/'src/module995.sc').read_text()",
+      "source = re.sub(r';[^\\n]*', '', (HERE/'src/module995.sc').read_text())"
+    ]
+  ]
+}

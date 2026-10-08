@@ -1,0 +1,18 @@
+
+class RouteMatrixTests(unittest.TestCase):
+ def test_all_premature_deliveries_at_each_canonical_stage(self):
+  w=P13World();states=[w.save()]
+  def act(fn,*args,c=C):getattr(w,fn)(c,*args);states.append(w.save())
+  def show(s,c=C):w.begin_presentation(c,s);w.acknowledge_presentation(c,w._handle(s),record_id=w.SOURCES[s]);states.append(w.save())
+  act('start',POT,DISPLAY);act('give_program',c=P);act('confirm_seating');act('deliver_pot',c=K);act('pull_serve');show('rita_ready');act('deliver_display',c=D);act('open_screen');show('reveal');act('pull_show');act('deliver_board',c=L);show('attention',B);act('pull_toast',c=B)
+  cases=[('give_program','p13GiveProgram',(),P),('confirm_seating','p13ConfirmSeating',(),C),('deliver_pot','p13DeliverPot',(),K),('pull_serve','p13PullServe',(),C),('deliver_display','p13DeliverDisplay',(),D),('open_screen','p13OpenScreen',(),C),('pull_show','p13PullShow',(),C),('deliver_board','p13DeliverBoard',(),L),('request_contest','p13RequestContest',(),C),('begin_presentation','p13Begin',('attention',),C),('pull_toast','p13PullToast',(),C)]
+  count=0
+  for state in states:
+   for fn,method,args,c in cases:
+    h=Harness(ByteVM,P13World.load(state));cc=replace(c,board_room=COURTYARD if h.w.board_at else LIVING);h.action(fn,method,*args,c=cc);count+=1
+  # Fixed objects and symbolic route/cue tokens occupy different dispatch namespaces.
+  for typ in (source_vm.VM,ByteVM):
+   h=Harness(typ);h.start()
+   for verb,obj,target in [(Verb.PULL,'front_door',None),(Verb.PULL,'bunny',None),(Verb.PULL,'bench',None),(Verb.USE,'hotpot_pot','front_door'),(Verb.USE,'folded_display','bunny'),(Verb.PULL,'SERVE',None),(Verb.PULL,'SHOW',None),(Verb.PULL,'TOAST',None),(Verb.USE,'hotpot_pot','house_doorway')]:
+    h.action('dispatch','p13Act',verb,obj,target,c=K if verb==Verb.USE else C)
+  (HERE/'evidence/route-matrix.json').write_text(json.dumps({'canonical_stages':len(states),'candidate_operations':len(cases),'compiled_model_comparisons':count,'symbolic_dispatch_namespace_checked':True,'passed':True},indent=2)+'\n')

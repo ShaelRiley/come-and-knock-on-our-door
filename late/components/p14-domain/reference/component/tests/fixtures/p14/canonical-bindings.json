@@ -1,0 +1,3583 @@
+{
+  "scope": "NEW current-canonical fixture, every record/unit field retained",
+  "editorial_revision": 3,
+  "catalog_sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+  "speech_sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+  "gdd_sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+  "records": [
+    {
+      "id": "P14.OPEN.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Ensemble",
+      "kind": "dialogue",
+      "trigger": "Pledge board and eight named cards available after ALL_VC_WON",
+      "text": [
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Good supper. Now the promises. Each card goes to the person named on it."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "I was hoping the food might speak for itself."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "It did. It made no offer to wash up."
+        }
+      ],
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Eight named cards, seven NPC approvals and Jackie confirmation; no extra hidden collection.",
+        "The four eventual wins are required before this final commitment sequence; missing wins are plainly listed and remain recoverable."
+      ],
+      "clue_checksum": "ecae553cad6991525ec9c69cadea2f389e6e8635506f1e77248cec479c545e99",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "ensemble",
+      "text_sha256": "97e53da8fb5f97a085999845c2b6b0738e2c06e917e57fd884f5ab8cb3af8b6b",
+      "dynamic_bindings": {},
+      "authorized_mechanics_extension": true,
+      "extension_source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md"
+    },
+    {
+      "id": "P14.CARD.jack",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Jackie Tree portrait/name card",
+      "text": "Jackie Tree: Cooking and kitchen cleanup.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "text",
+      "text_sha256": "9e813d9aaae58b759c6025d87f06f51058f0b6e0cd9163d209b9aab69648237d",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.jack",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Jackie Tree pledge card",
+      "text": "Jackie Tree pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "text",
+      "text_sha256": "0b3875bec59773140a10600dc324faf96e53cded85efcc56e54934b7c5d1effb",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.jack",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Confirm Jackie card on board",
+      "text": "I’ll cook and clean the kitchen. Even the pans I can hide inside larger pans.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "2e58e77dee502f30b6fd0b3207d26f6062556eec505b101433cc8e2cbd10c7c0",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "ab15d2786c3c91ca9aee59f597fe0d3ebb4a21bf67a71c48cd867e3a92b2f80b",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.jack",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Wrong pledge assignment to Jackie on board",
+      "text": "My card is cooking and cleanup. This one belongs to the name at the top.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "8505d8841309e1a6552b0b47e922d32c12c36764c4b44f1c686c3392ff0f77d1",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.CARD.bunny",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Bunny Easter portrait/name card",
+      "text": "Bunny Easter: Accurate invitations and the agreed guest count.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "39a6c6cf793bf1742274c0487f8964beaf66ddc776c3d2b417d8d8556860de64",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.bunny",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Bunny Easter pledge card",
+      "text": "Bunny Easter pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "ecda73d1efaf5f6e6473c1f630b399748cdda147ee2a8b66c9997302303e2902",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.bunny",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Bunny Easter",
+      "kind": "success",
+      "trigger": "Give correct named card to Bunny Easter",
+      "text": "Accurate invitations and the agreed guest count. I’ll invite them to the evening we’re actually having. How novel.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "bunny",
+      "text_sha256": "b0487cfa1752ef5ec56604fc63376465ba828a5361debc01fe3baa325162d4ee",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "029014a45fabfd2a83823a98ad067875d882c44f0697a13326f4657965d214ee",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.bunny",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Bunny Easter",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Bunny Easter",
+      "text": "Invitations and guest count. That’s mine. I know everybody; it doesn’t mean I’ve offered to do everything.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "bunny",
+      "text_sha256": "d5c25fb28515df81cec5d8014e44e71a6b8e80a3d80302b05999c0e829801e24",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "aac9a4c7d4d30eddec9cf4f22049b48ba0d0049b2589152b454cace3fc4c45c5",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CARD.frankie",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Frankie Maplewood portrait/name card",
+      "text": "Frankie Maplewood: The shared plan and written terms.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "663c23178412013f2370210fe3eb66651f5b4f56ed7bd0df375e0f0074f234bb",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.frankie",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Frankie Maplewood pledge card",
+      "text": "Frankie Maplewood pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "2c419230544179318e944fd5fd783e60066d029ce64e89f6b88ee380b32c55fb",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.frankie",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "success",
+      "trigger": "Give correct named card to Frankie Maplewood",
+      "text": "The shared plan and written terms. I’ll write down the jobs. “But it’s in your handwriting” will not make it my washing-up.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "frankie",
+      "text_sha256": "ab8d2ad7b67e0dbb5a4068aa482946083b62cfbdfe616f0dffc3dadd2880bb45",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "e9a2740f15a44f880d75b096ac9df1f999c76e02237e2f89a867a5b1bc67b5e6",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.frankie",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Frankie Maplewood",
+      "text": "The shared plan and written terms are mine. This card belongs to the name at the top.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "frankie",
+      "text_sha256": "356ea91e55c5c58ecce91b76d350314e6e745eaac634774595fbfee74d0d19cc",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.CARD.milo",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Milo Pennant portrait/name card",
+      "text": "Milo Pennant: Loaned sound equipment and the agreed volume.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "a5d7fca993f38e816bc4971ee9a8d340dd452d2db06cd8cfdbf1e7a769a08689",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.milo",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Milo Pennant pledge card",
+      "text": "Milo Pennant pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "e2e9752610764a203de4581ce58ecdfd4cbbdfae73fb657258a6158400cb99a6",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.milo",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Milo Pennant",
+      "kind": "success",
+      "trigger": "Give correct named card to Milo Pennant",
+      "text": "My sound equipment, at the agreed volume. Good lord. I’ve finished talking and I’m still here.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "milo",
+      "text_sha256": "5aa554506bb0d998493f97166bbd4188a57a770a911e563485d9ec18aa031be9",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "5efd52b71581f5e4a2a5aab6d628c313313e693c2911b4e3e632f91f14fe2b17",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.milo",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Milo Pennant",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Milo Pennant",
+      "text": "Sound equipment and the agreed volume. That’s my card. I’m trying to make a smaller promise; don’t distract me.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "milo",
+      "text_sha256": "eca35db908ae06f3629ea3df9616696915e3dce178318b99858509c0747525f7",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "5459c97b37403451bd3cbc5f46dbe9ecdaf2eaf0534ee45607f26e33a36c16be",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CARD.vivian",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Vivian Voss portrait/name card",
+      "text": "Vivian Voss: Tonight’s styling and a later conversation about possible work. No guaranteed booking.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "d9ff323237db9e6a6d8bd32a25bcb0562f58232588f4930fe9b316c4c9c4a00d",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.vivian",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Vivian Voss pledge card",
+      "text": "Vivian Voss pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "dbe990b05d2a49878773190935f6d29f14c02a9b3eab016d5ff284532ae7debd",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.vivian",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Vivian Voss",
+      "kind": "success",
+      "trigger": "Give correct named card to Vivian Voss",
+      "text": "Tonight’s styling, and a later conversation. No guaranteed booking. There. Even my small print looks good.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "vivian",
+      "text_sha256": "dccadcd5cbf6ecdd03730597f230ce5675544c30abffe03ba7c8bc58b71f149d",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "f58d9eacd7733dc97b9e9ceecb39ea2b50b9b2621d1f168a5960f420546fd83e",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.vivian",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Vivian Voss",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Vivian Voss",
+      "text": "Tonight’s styling, then a conversation about possible work. No booking promised. I’m not available by the paragraph.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "vivian",
+      "text_sha256": "add156d39460a6c77706064410303916747d2df87cfcec637dc241192c42563c",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "fc94ffb37618a0ce60c5035d1938eb6b1c38306d24bba4421a6992e32512df81",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CARD.rita",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Rita Stringer portrait/name card",
+      "text": "Rita Stringer: Ceramic service and display, credited to Rita Stringer.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "541a50daac6422fe475c7875e893b496a6c1885a86d65acfbf37c948ba3f9737",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.rita",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Rita Stringer pledge card",
+      "text": "Rita Stringer pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "e2ccd936c9b8ee461a14af874e116bfdd46335e4523a2f664a1d15cd9fcda687",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.rita",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Rita Stringer",
+      "kind": "success",
+      "trigger": "Give correct named card to Rita Stringer",
+      "text": "My ceramic service and display, credited to Rita Stringer. That’s mine. I’ve practised the modest little nod.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "rita",
+      "text_sha256": "0c27a69404deaf81bcdc19ecc14a90ca650cc9820f7c587006dac5828c581fbb",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "d6b6ddb67da2d547ef230e40020d302ff78e5662ed37d542183d8a70d856ffc8",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.rita",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Rita Stringer",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Rita Stringer",
+      "text": "Ceramic service and display. Rita Stringer. My name’s on the plates; there’s no need to look at my husband.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "rita",
+      "text_sha256": "b3b77b4899ae930cd2150f8baee9ed73e275d99327a866ad83b09d45ef5324a0",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "8bf474b766d3207084faa224b0c7bb19a19214a5ffb5f356eb29f1b418a6f1ca",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CARD.felix",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Felix Bunt portrait/name card",
+      "text": "Felix Bunt: The tested gate and the agreed scheduled repair work.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "8dee4447ae501898aa907236575d6735ad7d97afce55c470282b3ce0c6023ab9",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.felix",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Felix Bunt pledge card",
+      "text": "Felix Bunt pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "c2408623d26f24837fe47014b7f136bc447dc6659368b46c83d3e6499cd6930f",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.felix",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Felix Bunt",
+      "kind": "success",
+      "trigger": "Give correct named card to Felix Bunt",
+      "text": "The tested gate and the agreed scheduled repair work. I’d make a speech, but you’ve seen the gate.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "felix",
+      "text_sha256": "7734fbd11bc0e5048a6195c8246bb4fb14d4d18f02f8519439ee70e1fa634909",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "1d764d52dfb7b76bb58ca3fcc7157b8326390772495f0f0133e38aaefcbbbc13",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.felix",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Felix Bunt",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Felix Bunt",
+      "text": "The tested gate and the scheduled repair work. Those are my jobs. I’m wearing a tool belt, not a chain of office.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "felix",
+      "text_sha256": "c77c0ece82967e7c5b308dab4d7c55457ea123f46a0752a3bce6f8a727d2ed72",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "f30a944e579dba4ce2641b2e81997e3705671961c6bccd49c55d568dc2661939",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CARD.stringer",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Pledge card",
+      "kind": "read",
+      "trigger": "Read existing Mr. Stringer portrait/name card",
+      "text": "Mr. Stringer: Renewal commitment and funding and scheduling the agreed repair.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Distinct name/portrait and canonical concrete responsibility; no extra duties."
+      ],
+      "clue_checksum": "b38114c7373dbf5d85d026b7dc8f79a50066095f3fb713e335ad42ec3745a920",
+      "speaker_id": "text",
+      "text_sha256": "1732518140288605396b5a222192f1ece1ce07dd19083e09c266d685d0b1e1fd",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.LABEL.stringer",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Inventory label for existing Mr. Stringer pledge card",
+      "text": "Mr. Stringer pledge",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Internal named card identity unchanged."
+      ],
+      "clue_checksum": "7a56ffd5de8925eaccbdb5355c81e23373ae2288e43ede613cd00dfaff847827",
+      "speaker_id": "text",
+      "text_sha256": "b7f844de5a4c2943dba3cb1054764592688c2299f6fc879af891462d5931fe5f",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.APPROVE.stringer",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Mr. Stringer",
+      "kind": "success",
+      "trigger": "Give correct named card to Mr. Stringer",
+      "text": "Renewal, and I fund and schedule the agreed repair. Yes, both. Frankie is looking at the gap after “and.”",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Approval of canonical duties only; card returned/approved for board; no additional condition."
+      ],
+      "clue_checksum": "77cbbfb6035d6fb6a45b7bb1a3abe416bfcbae8f67426ef64689b694d53bec73",
+      "speaker_id": "stringer",
+      "text_sha256": "49cfb8d846eccac073c06014a9d328a24aeb9872aa6a8331dceef2f03916037a",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "4fe99f68594081f36b214c95578ff6b2b7db55515fd6ea7e6aebb96cea7c4df9",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.WRONG.stringer",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Mr. Stringer",
+      "kind": "failure",
+      "trigger": "Give unrelated pledge card to Mr. Stringer",
+      "text": "Renewal, repair funding and scheduling. That’s my card. I can express a view on the cooking, but apparently that isn’t a contribution.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Wrong card returned; no previous approvals cancelled; named duty correction."
+      ],
+      "clue_checksum": "776a1642b9de550039aa9635e83c65d34d47657a931954466cc6bf5240707043",
+      "speaker_id": "stringer",
+      "text_sha256": "61f527dd1d436e99fe16394c422bcf94f5a352b4f35df36b3a89138c5971ace8",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "e696444a604153373bed408ef8146ea4663f89baa5527ee3e5141e395e344994",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.SUCCESS.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Use approved cards on board",
+      "text": "Approved, and pinned under the right name. No one has accidentally acquired a spouse.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Other approved cards pinned; no signature forged; eight approvals required."
+      ],
+      "clue_checksum": "c299d020c79148ded7eb5916d82ca6df6cc644da55d27cec6ee74cb948f546aa",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "a2b25e0b4d898d35218356dd8e6b559335c38a8d51efa998fe32c41efe1d0b94",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "0962f697b678352b81a40408e17d2513ef82ef57e5d204de49fea58dfcafb378",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.FAILURE.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "failure",
+      "trigger": "Try to pin unapproved nonplayer card",
+      "text": "Ask the person named on it first. Being legible isn’t the same as agreeing.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Named contributor approval required; no coercion or forged approvals."
+      ],
+      "clue_checksum": "8afb2b89ccee0a930c6f42d62d007eb615d0d6e0f6c5a8ae1dbec071cf748641",
+      "speaker_id": "frankie",
+      "text_sha256": "c9cf1a17fc4695f49511a64c1901d32fb69ac1d6cc8293ac667c9bd2842c8809",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.CHOICE.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Warm existing toast tone",
+      "text": "To the people who made room for each other.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Tone changes presentation only."
+      ],
+      "clue_checksum": "8ddce4ecd3b2baba3ead272cc3d88ff45ac3c95aea919ece58664cbcdf7622e2",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "0ba35d48f0b30a01af537d854cc963b1a43f5b5693fe89fd3db4d25610a5b1c8",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.DIALOGUE.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "dialogue",
+      "trigger": "Warm toast",
+      "text": "I thought keeping everyone happy meant saying yes to everything. Thank you for helping me do the things I actually promised. To our home, and everyone who helped us make room.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Honest growth; no new commitment; no laugh over sincere gratitude."
+      ],
+      "clue_checksum": "361dd6943fe9369a82342cb6174ccff1a2437b76776b195a3c92cc755d206367",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "4bb4fc7554c369251fe134f97955ad3f5d4b6cb8d057e5a1010c410fcb49f10b",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.CHOICE.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Dry existing toast tone",
+      "text": "To promises with names on them.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Alternative tone same mechanics and ending."
+      ],
+      "clue_checksum": "e7c05e58cff881ee6c644c64d756ea75c5f52ba466084dbc003fe9c222f19dd7",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "6240dcf86bb59070544db4c9f8d2579d8c92cebee6474f62f6036a2671ac9f1b",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.DIALOGUE.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "dialogue",
+      "trigger": "Dry toast",
+      "text": "To eight people who came for three different evenings and stayed for the same one. Thank you. Next time I’ll ask you before saying you’d be delighted.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Alternative same gratitude and lesson; no new event."
+      ],
+      "clue_checksum": "4955d73ae5af3511194f09337c803127347a2d2a11820e5b5692110f4e6682d0",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "14f95758b424f45d3510f88eec26a00a0cb283717f39334d9178878bbef52699",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "2cbd4e755a5363c93fddc3aab0070a70c8cb89c40d2a54d39367decd6128d537",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.CHOICE.003",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "choice",
+      "trigger": "Give P09 card and select agreed concrete terms",
+      "text": "Will you sign the renewal and repair terms we discussed?",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Exact existing conduct-based commitments only."
+      ],
+      "clue_checksum": "b25a266d03425ebf2fd87315630df98348afb1287f760505e9589c49ca797534",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "7afa3baef9af6375c55ccd6b0531d7eb32ed146f52eca8ce286e2937913b884e",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.DIALOGUE.003",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Ensemble",
+      "kind": "dialogue",
+      "trigger": "Stringer accepts agreed terms and signs",
+      "text": [
+        {
+          "speaker": "Mr. Stringer",
+          "text": "Care for the house. The agreed guests and noise. Renewal confirmed, and the promised repair funded and scheduled."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Those are the standards for the household. Our private relationships are our own."
+        },
+        {
+          "speaker": "Mr. Stringer",
+          "text": "Yes. I’ll judge how you look after the place."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "Good. No box for “who’s kissing whom.” I checked."
+        },
+        {
+          "speaker": "Mr. Stringer",
+          "text": "I gathered."
+        }
+      ],
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Conduct-based signature, no orientation confirmation/disclosure; signed openly voluntarily, date still final handoff."
+      ],
+      "clue_checksum": "50aeab7198bccb1383c2d4ecf46f019e3508be960d8976f618ee20ea03307ab7",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "ensemble",
+      "text_sha256": "30847709c31f255b21c000d896589056ed4d0a3ea5b8a547183a6bd7791be9e0",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "accdb3945836a0964f959c7611c4cc37f149828faecb39a63e5ce5068ec67937",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.FAILURE.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "failure",
+      "trigger": "Attempt forged or coerced signature rather than approved handoff",
+      "text": "It needs his agreement and his signature. We’ve spent the evening getting the words right. I’m not borrowing his name now.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "No forgery, theft, blackmail, coercion accepted."
+      ],
+      "clue_checksum": "5baf76f8c59f16a5c26c1f60e03fb004d42ce849f8234e917358f196f26c85b2",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "jack",
+      "text_sha256": "aaeb9fd3b102e3dea3e67e3550f8363235e369976d91eabc6c21a95a18a73121",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.SUCCESS.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Jackie Tree",
+      "kind": "success",
+      "trigger": "Signature pinned publicly",
+      "text": "Signed and pinned. Renewal, and the agreed repair. I can stop wondering what his smile means.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Concrete commitment visibly signed/pinned; no real legal guarantee."
+      ],
+      "clue_checksum": "a5e10a3e3293e7645b6165f9bd407eb8a2bee894b6bafdce923a418e580f8cd7",
+      "speaker_id": "jack",
+      "text_sha256": "009b06d8be15b2cf132c900696f048ab2c89ce7cc79ab30f36667756f36b10ae",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "d41c447e155935fef71c8238cc4ad0f329e138056009e2ec889399f9becac92e",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources.",
+      "presentation_correction": "Independent review: this unchanged line is Jackie’s relief about Stringer, not Stringer referring to himself."
+    },
+    {
+      "id": "P14.SUCCESS.003",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "success",
+      "trigger": "Give grease pencil for agreed date and readback",
+      "text": "I’ll add the repair date we agreed. Then I’m reading the whole card back. We’re leaving nothing cropped.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Date uses canonical in-fiction selected date, not actual calendar action; pencil returned afterward."
+      ],
+      "clue_checksum": "e2df9766ee246fb113b9dde38a2dcc3937f87491b939a2e7f9fd8204992b49c1",
+      "speaker_id": "frankie",
+      "text_sha256": "6acf611fe0a49a7f44ca71cb8e9a32939f71176fd65e5d875dd3d3907c3b670e",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.READ.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "read",
+      "trigger": "Final dated card readback",
+      "text": "Renewal commitment confirmed. The agreed repair is funded and scheduled for {repair_date}. We care for the house and keep the agreed guest and noise arrangements. Everyone has heard the whole agreement.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Render existing selected in-fiction date field alongside readback, not invented by language pass. Final text binds same date value; no external calendar."
+      ],
+      "clue_checksum": "76c9b7e39ee97e5bfb3efa6cfdb435d5cd3dbfaf0da86870fb25e8479ed33680",
+      "speaker_id": "frankie",
+      "text_sha256": "f5b99f342619e311458e206a9e87deb27c216e4c738334e83d901cd3bb553f75",
+      "dynamic_bindings": {
+        "repair_date": "The date selected on the existing in-fiction repair card; not a real calendar event."
+      }
+    },
+    {
+      "id": "P14.SUCCESS.004",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Frankie Maplewood",
+      "kind": "success",
+      "trigger": "Return pencil and complete final readback within the ALL_VC_WON-gated final sequence",
+      "text": "There. Your pencil. Our copy. Keep both.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Pencil returned, COMMITMENTS_SIGNED and GAME_COMPLETE after this handoff.",
+        "GAME_COMPLETE still requires the original signature/date/readback handoff, after the four-win entry gate."
+      ],
+      "clue_checksum": "89cc3ad23134cdd6b3a1a728ca80d768e333b1965318e673878617ba377342a1",
+      "speaker_id": "frankie",
+      "text_sha256": "a7702f202c2694387b6f394db826d382e7f7cda40645c1df3ce974cc28ee79f9",
+      "dynamic_bindings": {},
+      "authorized_mechanics_extension": true,
+      "extension_source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md"
+    },
+    {
+      "id": "P14.DIALOGUE.004",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Vivian Voss",
+      "kind": "dialogue",
+      "trigger": "Closing variant from existing professional choice",
+      "text": "We’ll talk about possible work another day. Tonight you delivered the supper. I’ve met producers who couldn’t manage lunch.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "P06 professional tone, no guaranteed booking or mechanics change."
+      ],
+      "clue_checksum": "dee4928a5c140658e2ec44c479855e4364e9b89226832d67432de553b20aebc0",
+      "speaker_id": "vivian",
+      "text_sha256": "024c3fe807c3a65679ea1779ddb7e78ea5a01da714cd512f5056996a1c008b14",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "6653565aacee849d1da435788fe3ec836d40d627d21f07610c339f8b30be4363",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.DIALOGUE.005",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Vivian Voss",
+      "kind": "dialogue",
+      "trigger": "Closing variant from existing friendly choice",
+      "text": "Another conversation, another day. I’d like to see what you’re like when you aren’t preventing three things from falling over.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "P06 friendly tone, same outcome."
+      ],
+      "clue_checksum": "60805d1940921175119510cba8c663f14438bc699f44dd5938c71ae5f730e617",
+      "speaker_id": "vivian",
+      "text_sha256": "fb5573766e4c27d285285a279794f670c479779bff1eb4f83c8ff6a48ce3d6ae",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "5413afab66645319e832b3b3750a8ab6d39568701eeaebc5fd21fa8b59d28063",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.DIALOGUE.006",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Vivian Voss",
+      "kind": "dialogue",
+      "trigger": "Closing variant from existing cautiously romantic choice",
+      "text": "I’d like that other conversation. We can decide what to call it when you aren’t holding a tray between us.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Optional mutual interest, not promised date/reward or altered ending."
+      ],
+      "clue_checksum": "d2310417c85e42867caaa6c4085884e2a09b469355d13b4e68c368bcf17f8964",
+      "speaker_id": "vivian",
+      "text_sha256": "60d7ee2e7c1bc8735f9b46ffa4f3e8d8f025471451e027e96f49879b24901de6",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "362522ce8850e1b097593be0229b8b1e18d17a6eb8202df25a3a3e8d4f792b44",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.ENDING.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Ensemble",
+      "kind": "dialogue",
+      "trigger": "Existing unposed meal and household reflection",
+      "text": [
+        {
+          "speaker": "Bunny Easter",
+          "text": "Rita got the house right."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Our doors aren’t those colors."
+        },
+        {
+          "speaker": "Bunny Easter",
+          "text": "Not the doors. Us."
+        },
+        {
+          "speaker": "Frankie Maplewood",
+          "text": "There’s enough room at the table."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "There is."
+        }
+      ],
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Quiet warmth, panel likeness in shared home not copied objects; no emotional punchline/laugh."
+      ],
+      "clue_checksum": "ffcdfdeff2c43175ee09760cc5b9aca6074e02ba8196d0cf70b6a3ce62771afa",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "ensemble",
+      "text_sha256": "d9c25af1c4601b51705911f1e7f30490ce51eef6c62d73552bda7f45a52ffe9a",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.ENDING.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Ensemble",
+      "kind": "dialogue",
+      "trigger": "Quiet living-room tag; Milo new flyer",
+      "text": [
+        {
+          "speaker": "Milo Pennant",
+          "text": "Mutual Benefit Supper. I’ve kept it very simple."
+        },
+        {
+          "speaker": "Jackie Tree",
+          "text": "Put “It’s a meal” underneath. In very large letters."
+        }
+      ],
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Flyer exact title, all three roommates reach for same pencil visually; Jackie turns to physical audience once; LAF14 then household theme."
+      ],
+      "clue_checksum": "4410ead0525e8da04816db1142ea6b7faa660f8d2ede7f48e3b6d425ad9df9a0",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "ensemble",
+      "text_sha256": "53410c9cfdc2b63dc40a1e7d259ef8e422efd26aee0fa0a0f074f7364096f10c",
+      "dynamic_bindings": {},
+      "supersedes_text_sha256": "358c73ddde459c903f4454b70ceeb4f0c92ed884b35e8fb613436cca4dc796aa",
+      "editorial_revision": 2,
+      "revision_status": "Language revision 2 proposal; not yet applied to game sources."
+    },
+    {
+      "id": "P14.READ.002",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Milo’s new flyer",
+      "kind": "read",
+      "trigger": "Look at closing flyer",
+      "text": "Mutual Benefit Supper",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Existing final flyer only; no sequel quest or new party mechanic."
+      ],
+      "clue_checksum": "e457d4a73c7162969c2c158cb49bebc3eb557ba6754755eed7822dcecba5169a",
+      "speaker_id": "text",
+      "text_sha256": "eebce833535529ed359863e59ffdba7ee21b888352806e076c39c72cd5d60b0b",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.SYSTEM.001",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Interface",
+      "kind": "system",
+      "trigger": "Existing optional return-to-save completion choice",
+      "text": "Revisit the evening before the finale",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Loads prior save for optional observations, clearly not changing ending; use only if existing option exposed."
+      ],
+      "clue_checksum": "c3409a83dcd90735b3d38df1c018e19d9d0a7e96b4206fa0396ddedcf8693224",
+      "speaker_id": "text",
+      "text_sha256": "ca7e9627a4515435696eef4a7fda5ecce9eaf8f10f9d44ac3ba9d7e4a51c5675",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.HINT.1",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 1",
+      "text": "Match each promise to the person who actually made it.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Optional requested hint; no automatic speech or progression."
+      ],
+      "clue_checksum": "7f1082b72c15c8a5577af75295db638f76c6345d5106e4b9bbd01c391b47487c",
+      "speaker_id": "text",
+      "text_sha256": "fb47b8a3273ace82c4da91a11689807b27cc5db46c337e1f8cd17b4ba57856ab",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.HINT.2",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 2",
+      "text": "The notebook and portrait cards pair every name with a practical responsibility. Stringer’s unsigned terms card is still yours to give him.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Optional requested hint; no automatic speech or progression."
+      ],
+      "clue_checksum": "7f1082b72c15c8a5577af75295db638f76c6345d5106e4b9bbd01c391b47487c",
+      "speaker_id": "text",
+      "text_sha256": "d1a02b76762435c390c839b421cafd77228db0e2af3e9e797ef3723279411a18",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "P14.HINT.3",
+      "puzzle": "P14",
+      "location": "L05 / L01",
+      "speaker": "Hint",
+      "kind": "hint",
+      "trigger": "Request hint level 3",
+      "text": "Get the seven other named cards approved, confirm Jackie’s cooking-and-cleanup card, and pin all eight. Give Stringer the agreed renewal and repair card to sign. Finally, give Frankie the grease pencil to record and read back the agreed date.",
+      "current_text": null,
+      "implementation_status": "authored_gdd_not_implemented",
+      "source_ref": "P14-source.txt",
+      "source_obligations": [
+        "Optional requested hint; no automatic speech or progression."
+      ],
+      "clue_checksum": "7f1082b72c15c8a5577af75295db638f76c6345d5106e4b9bbd01c391b47487c",
+      "name_revision": "Jackie Tree; internal jack identifiers unchanged",
+      "speaker_id": "text",
+      "text_sha256": "f593f844c4c25746cb5841b7965da37db3f8b06d7b5064456d00d6c76cb02ec6",
+      "dynamic_bindings": {}
+    },
+    {
+      "id": "VC.NOTEBOOK.WINS",
+      "puzzle": "VC_SHARED",
+      "location": "Current contest or notebook",
+      "speaker": "Interface",
+      "kind": "read",
+      "trigger": "Read the competition progress page",
+      "text": "Contest wins: {won_count}/4.\nStill to win: {missing_contest_names}.\nYour learned replies remain available.",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Use only the canonical learned-state, score, result, saved-deck and four-win rules.",
+        "No time limit, item loss, random damage or hidden affection effect."
+      ],
+      "editorial_revision": 3,
+      "dynamic_bindings": {
+        "won_count": "Render the existing competition state or accepted pair field named here; never invent a new game value.",
+        "missing_contest_names": "Render the existing competition state or accepted pair field named here; never invent a new game value."
+      },
+      "clue_checksum": "87fdd19b4b562fec664fbf1c400b8a1ba107a64ff90410b357501986ff443880",
+      "text_sha256": "867f80a5e3a5ef638f1e1f917d56cc0e0cc3e34762e680f5ffd13dd0e9ed3da0"
+    },
+    {
+      "id": "VC.GATE.MISSING_WINS",
+      "puzzle": "VC_SHARED",
+      "location": "Current contest or notebook",
+      "speaker": "Interface",
+      "kind": "system",
+      "trigger": "Attempt to enter P14 final commitment sequence without ALL_VC_WON",
+      "text": "Before the final commitments, win the remaining contests: {missing_contest_names}. Practice and rematches are still available.",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Use only the canonical learned-state, score, result, saved-deck and four-win rules.",
+        "No time limit, item loss, random damage or hidden affection effect."
+      ],
+      "editorial_revision": 3,
+      "dynamic_bindings": {
+        "missing_contest_names": "Render the existing competition state or accepted pair field named here; never invent a new game value."
+      },
+      "clue_checksum": "87fdd19b4b562fec664fbf1c400b8a1ba107a64ff90410b357501986ff443880",
+      "text_sha256": "3883da1adb04c56bc54e1c674194678d76427eb5273f8ee98994d1d278486529"
+    },
+    {
+      "id": "VC.GATE.ALL_WON",
+      "puzzle": "VC_SHARED",
+      "location": "Current contest or notebook",
+      "speaker": "Interface",
+      "kind": "system",
+      "trigger": "Read final-gate progress with ALL_VC_WON true",
+      "text": "All four contests won. The final commitments can begin.",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Use only the canonical learned-state, score, result, saved-deck and four-win rules.",
+        "No time limit, item loss, random damage or hidden affection effect."
+      ],
+      "editorial_revision": 3,
+      "dynamic_bindings": {},
+      "clue_checksum": "87fdd19b4b562fec664fbf1c400b8a1ba107a64ff90410b357501986ff443880",
+      "text_sha256": "fda034fdc0bd1c2939291c5fdc08ef974bab709166a3b0d53d23174552553312"
+    },
+    {
+      "id": "END.CREDIT.TITLE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Come and Knock on Our Door",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "640c2a953eacb7b6d4b8806a2edff79de5a4b18747ff6aaa6c47281c59932536"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.STUDIO",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "IN-UNIVERSE TELEVISION CREDITS\nA Half-a-Wall Television production\nRecorded at Knock Twice Studios",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "82473c1cd93c215d6fd035a844cda042a809e6dcbf7798466c02e32a9020269f"
+    },
+    {
+      "id": "END.CREDIT.REAL.CREATION",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "GAME CREATION\nCreated and creatively directed by Shael Riley\nWith AI assistance from dot",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "e3c24834cc357eb604c4f07ab8313f6e5a90c81ee7e7cd9a213966b40abdcad8"
+    },
+    {
+      "id": "END.CREDIT.CAST",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "THE CAST\nJackie Tree\nBunny Easter\nFrankie Maplewood\nMr. Stringer\nMilo Pennant\nVivian Voss\nRita Stringer\nFelix Bunt",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "6dd57f295f2867ea068fa046ecbd9aac38d23a64e22324a8e0635fb2777985dc"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.HEADER",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "FICTIONAL AI WRITERS’ ROOM",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "5829fabf09dd12d5f8cb38dd927ab30f9cbee8937a556272c11f2d44fefb00fb"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.HEAD",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Head writer\nNed Still — Laconic Absurdist",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "6b74a34573e69e6a43256739505927a9d7c0e97d41abcce6912737a84978cd00"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.ASSISTANT",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Assistant head writer\nQuinn Keyes — Interactive Comedy Auteur",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "cee111e4a3671b6f4ba59541ab4808a14b1e06fe85ae3b4cca482d68166059ee"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.CLUB",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Roxy Bellows — Veteran Club Comic",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "7bf507756f52c78e80945f118250d5d14a3ecdb4a8dc0ec3e05a5028ebb79d99"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.SOCIAL",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Perry Quibble — Social-Friction Architect",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "2a02c1efcf69a4086f833c986e316e5e7adabc9b790d216c8824635b1424bee1"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.META",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Kit Glitch — Meta-Satirical Gremlin",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "a8ea78f76422fe12e1f63654223779387b33c8a2234ed19f60c74c974092d4e3"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.ENSEMBLE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Bea Bunch — Veteran Ensemble Sitcom Writer",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "f9fcd23b3051fb7b4d26c8641c7c9f6c643c80ec348acb6ada2ea37fd783df98"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.ADVENTURE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Ada Branch — Adventure Game Story Consultant",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "341e001d5111d27e776843f7d1d0ec39bbb08ae31a18a2582a37c002ab075510"
+    },
+    {
+      "id": "END.CREDIT.WRITERS.OUTSIDER",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Mira Aside — Incisive Outsider Satirist",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "52e60a958a9ce2eeedc8558c1923755b9851127c6474fe669b47338331ec6945"
+    },
+    {
+      "id": "END.CREDIT.REAL.PRODUCTION",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "WRITING, DESIGN, ART, ANIMATION, PROGRAMMING AND MUSIC PRODUCTION\nShael Riley, with AI assistance from dot",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "392b2f766403570010139d82ae1f758b06d3a068d815945da3dd5825a6b52545"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.PRODUCERS",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "FICTIONAL TELEVISION PRODUCTION CREW\nExecutive producer — Cora N. Proper\nProducer — Sid Down\nDirector — Vera Fewtakes\nFirst assistant director — Stan D. By",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "72118c7cdaf064633eda40856c6ea394910757684d66f5e14248bb1dad82cfb1"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.FLOOR",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Production manager — Penny Pending\nFloor manager — Flo Stopit\nStage manager — Gordon Quietly",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "c32a8db62ad11d7157d9b55a48e4d13c7cc0c8b08c17093fa04242a770d22a62"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.CAMERA",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Director of photography — Iris Wide\nCamera operators — Pan Left and Dolly Back\nLighting director — Amber Watt",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "bf281dcb6e8da12128cf05cd6bf6fb972ecd21bf306b814200a41b41afdcf4ee"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.SOUND",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Sound supervisor — Russell Less\nBoom operator — Mick Justabove\nRe-recording mixer — Hugh Again",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "305ebabc53dad3e4958d631b35ddff114333fcd7b6378f16c6bc193548fec38a"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.ART",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Art director — Clara Space\nSet designer — Olive Littleroom\nConstruction coordinator — Al Wedge\nProperties — Noel Wasnt",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "e78f13c67e0da1c7177cceb2289608f012f7a946b59e718809afa7439d5d8786"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.WARDROBE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Wardrobe — Lena Crease\nHair and makeup — Bea Ready",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "31e9e663de0ff8300bca900233eb244973928aacb14e3c15e7e11ac0a04a67cf"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.POST",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Continuity — Mabel Checkagain\nScript supervisor — Dotty Margin\nEditor — Edith Cutaway\nTitle design — Max Letters",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "a5c3062da53981d46035ebc2f14aaf397e59b5bcd52c4ec7fda55fe95d116d5b"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.PRODUCTION",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Audience coordinator — Otis Oncue\nWarm-up performer — Terry Nearlyready\nCatering — Pat Portions\nTransport — Van Eventually\nProduction accountant — Phil Invoice\nSafety coordinator — Beryl Beforeyoudo",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "cb5c72b14f95c616fa131d933ae5bf7da7258ca2dc577927f225b405d96f63dc"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.MUSIC",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Music by Haru Suno",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "8ce18f9f44d91875d494397b00ebac771f07d52083462a7ae204e835e13218e4"
+    },
+    {
+      "id": "END.CREDIT.FICTIONAL.AUDIENCE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Recorded in front of a studio audience\nwho could see the instructions",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": true,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "57eb0084277ad86c53838299191ab6c8a233449d26d4aec5b784ad3d84566bf7"
+    },
+    {
+      "id": "END.CREDIT.REAL.ASSISTANCE",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "REAL GAME ACKNOWLEDGMENTS\nAI assistance — dot, powered by OpenAI",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "8f429fdbddf50df64a7f5e4686961238b3234154d8af3901f0d66424b3741a61"
+    },
+    {
+      "id": "END.CREDIT.THANKS",
+      "puzzle": "END_CREDITS",
+      "location": "Ending/credits",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Approved post-completion credit roll/replay, at this ordered block",
+      "text": "Thank you for playing",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Fictional production names remain identified as in-universe.",
+        "Actual credits must stay truthful and retain required shipped-asset acknowledgments.",
+        "Haru Suno is fictional; source-generation provenance remains in production records."
+      ],
+      "editorial_revision": 3,
+      "fictional": false,
+      "clue_checksum": "9f0cf0771868cf2327860d16165ccc86523c5e9844fd73ec77307efb7f1b2236",
+      "text_sha256": "c105ccaffc9578aeb7d81f31ba8425e154dbe9873ecf63252c19b355037f478e"
+    },
+    {
+      "id": "END.FREEZE",
+      "puzzle": "END_CREDITS",
+      "location": "Final living-room tag",
+      "speaker": "Stage direction",
+      "kind": "stage",
+      "trigger": "After GAME_COMPLETE and the existing final flyer/pencil tag",
+      "text": "Hold the happy ensemble expression as an original freeze-frame. The physical studio audience cheers, laughs and applauds. Let the celebration settle under the end-title music, then begin the credit roll.",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Preserve the existing final plot and earlier quiet meal.",
+        "Post-completion presentation only; no extra puzzle, timer or input test.",
+        "Use only cleared shipped audience assets and serialized audio ownership."
+      ],
+      "editorial_revision": 3,
+      "presentation": "nonspoken_action_direction",
+      "clue_checksum": "fdd78d39c0d2fd0f56e181aa36d488f09d894dc72fa8b81c525196463ccb42f3",
+      "text_sha256": "e9931b20138574f9fd542b1b95128b1f04af357056ff3fdd37664ee39b2830d5"
+    },
+    {
+      "id": "END.UI.PAUSE",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: PAUSE",
+      "text": "Pause credits",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "0cb0aaa98178f4c379270250cf4ac45fa739656c7ceaf78713c9039c3c8a89b8"
+    },
+    {
+      "id": "END.UI.CONTINUE",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: CONTINUE",
+      "text": "Continue credits",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "76046511c7e1a089666caf6af2bcca4a2b0287aad46f14869637beec74c6ebd9"
+    },
+    {
+      "id": "END.UI.SKIP",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: SKIP",
+      "text": "Skip credits",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "5c4a8188186ab7ed48d52f190d4ea88ae07bb2d1827c07b18d33f100f17aed90"
+    },
+    {
+      "id": "END.UI.REPLAY",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: REPLAY",
+      "text": "Replay ending credits",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "dfc80ee57cee013431515ece8e91b269c10e53c6f390467bf546e4b2c3d0ad7e"
+    },
+    {
+      "id": "END.UI.ACKNOWLEDGMENTS",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: ACKNOWLEDGMENTS",
+      "text": "Full acknowledgments",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "33e546d60c74a6e54696a1ddf5d6d7c4f2f358c731a4cd609ddc66a4f951f014"
+    },
+    {
+      "id": "END.UI.RETURN",
+      "puzzle": "END_CREDITS",
+      "location": "Credits/menu",
+      "speaker": "Interface",
+      "kind": "label",
+      "trigger": "Canonical post-completion roll or replay control: RETURN",
+      "text": "Return to the menu",
+      "current_text": null,
+      "implementation_status": "authored_for_authorized_extension_not_yet_implemented",
+      "source_ref": "/workspace/shared/cakood/verbal-competitions-update/CANONICAL-CONTRACT.md",
+      "source_obligations": [
+        "Pause, skip, readable text, mute and replay preserve the invoking session and completion state."
+      ],
+      "editorial_revision": 3,
+      "clue_checksum": "2500a76fef16ae521b10a05428b3ea9395a578243ea731769a632f86112976fc",
+      "text_sha256": "b4b1ed4a1271ec76ebb2de215ea6bf312a3a51f495090246584bde583d2b02d9"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.01",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/Benboncan/sounds/82386/",
+      "text": "Moderately Amusing.wav — Benboncan\nhttps://freesound.org/people/Benboncan/sounds/82386/\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/Benboncan/sounds/82386/"
+      },
+      "text_sha256": "0dbc312a4669626e38237393bc51450121ab5c33b9e7832f66ea4768fc8b7cda"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.02",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/FunWithSound/sounds/381375/",
+      "text": "Laugh Crowd 1.mp3 — FunWithSound\nhttps://freesound.org/people/FunWithSound/sounds/381375/\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/FunWithSound/sounds/381375/"
+      },
+      "text_sha256": "82a81186828ed7521cd00db91b8a2bd1d42d6ef2751f3c01e808e9d7d420f9d6"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.03",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/lonemonk/sounds/72842/",
+      "text": "Approx 800 Laugh 1.wav — lonemonk\nhttps://freesound.org/people/lonemonk/sounds/72842/\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/lonemonk/sounds/72842/"
+      },
+      "text_sha256": "5ad3f7571492421d36282a13e28a39f6162b1ec98d53db82689b7e4bdd2a58ec"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.04",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/lonemonk/sounds/72843/",
+      "text": "Approx 800 Laughter Only 1.wav — lonemonk\nhttps://freesound.org/people/lonemonk/sounds/72843/\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/lonemonk/sounds/72843/"
+      },
+      "text_sha256": "14f6437632b322c0d44dc44670e56acc109cb9ebd4eb2e7bb3d13bdba1145351"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.05",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/mglennsound/sounds/678668/",
+      "text": "AF Crowd Small Laugh.wav — mglennsound\nhttps://freesound.org/people/mglennsound/sounds/678668/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/mglennsound/sounds/678668/"
+      },
+      "text_sha256": "e203759d0e3975c2dfe7fdc65f1433108bfdb3e7478c7f2e5b29363a90ada336"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.06",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/mglennsound/sounds/678669/",
+      "text": "AF Crowd Small Laugh_2.wav — mglennsound\nhttps://freesound.org/people/mglennsound/sounds/678669/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/mglennsound/sounds/678669/"
+      },
+      "text_sha256": "9173deaa187f02b90ba1c363f1840a3f0f1db11ebab7b278702ab9d4a58d1770"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.07",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/mglennsound/sounds/678670/",
+      "text": "AF Crowd Small Laugh_3.wav — mglennsound\nhttps://freesound.org/people/mglennsound/sounds/678670/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/mglennsound/sounds/678670/"
+      },
+      "text_sha256": "bf03f7c3309d0dcc2593e9a3220a2e66d4728dafef33f25a811ea7c9ad02eaf7"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.08",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763954/",
+      "text": "CRWDLaff_Crowd Laughing, Reaction, Small_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763954/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763954/"
+      },
+      "text_sha256": "046689f76b5bdb816508ed837ff74e606c0696404f9918554b23cf301e3c2709"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.09",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763960/",
+      "text": "CRWDLaff_Short Polite Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763960/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763960/"
+      },
+      "text_sha256": "7cf767e04c9dc8a0395ada9c15d97022a5ad92ff77aa3a95828b1c8c4e22fa72"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.10",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763961/",
+      "text": "CRWDLaff_Short Polite Laugh 02_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763961/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763961/"
+      },
+      "text_sha256": "7d79f5556a4c558f4f7de2626ece8a07bda36331dd8b1d980210f909ad3edbbd"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.11",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763962/",
+      "text": "CRWDLaff_Short Polite Laugh 03_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763962/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763962/"
+      },
+      "text_sha256": "07f53862e42e4e91fe9d4fdef0b4cb1b6ef57fecabeb0a3562a6c2e32c191510"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.12",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/snakebarney/sounds/138112/",
+      "text": "Small Crowd Laughing — snakebarney\nhttps://freesound.org/people/snakebarney/sounds/138112/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/snakebarney/sounds/138112/"
+      },
+      "text_sha256": "0ca57f46974c3a392ee99d1575eee7b0225eb84c3fe08e4f1f9461f2a0bec05f"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.13",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763956/",
+      "text": "CRWDLaff_Short Genuine Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763956/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763956/"
+      },
+      "text_sha256": "55a76617fbbd78974906a1b8205d9917edd412b7c14bdb04bbcfc749749e491c"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.14",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763957/",
+      "text": "CRWDLaff_Short Genuine Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763957/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763957/"
+      },
+      "text_sha256": "c79d8d1b1352d0ec5d6c3216a3fe63fe0b0009a919676cb6c8fa0699490815ac"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.15",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763958/",
+      "text": "CRWDLaff_Short Genuine Laugh, Reaction_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763958/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763958/"
+      },
+      "text_sha256": "68d528d92a1806b937d886be4f777f8fbde4c9ce5d22351f62286fb2c4605333"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.16",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763950/",
+      "text": "CRWDLaff_Crowd Laughing, Reaction 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763950/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763950/"
+      },
+      "text_sha256": "454956c906eb8e2756a8043160e59e50dc4d0bccbbf358730baf07d1ce65bc28"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.17",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763951/",
+      "text": "CRWDLaff_Crowd Laughing, Reaction 02_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763951/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763951/"
+      },
+      "text_sha256": "dcdee2649f8c59ee1f5f6d53128e982da2e27a85b6f77208668e61326b02c11f"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.18",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763952/",
+      "text": "CRWDLaff_Crowd Laughing, Reaction 03_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763952/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763952/"
+      },
+      "text_sha256": "be9e5d24a1f5a9376e72137bca40161b30b44f3c970f2569bbce7c4eb8df5a72"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.19",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/ShangusBurger/sounds/763959/",
+      "text": "CRWDLaff_Short Hearty Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav — ShangusBurger\nhttps://freesound.org/people/ShangusBurger/sounds/763959/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/ShangusBurger/sounds/763959/"
+      },
+      "text_sha256": "e320c8d67f4ef6e965e4647f926df4bee77284ae02fcd7a0e1e5155986e0f183"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.20",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/FunWithSound/sounds/588394/",
+      "text": "Laugh Crowd Soft.mp3 — FunWithSound\nhttps://freesound.org/people/FunWithSound/sounds/588394/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/FunWithSound/sounds/588394/"
+      },
+      "text_sha256": "94d6675ac0e22893632de64290e82c59175d0e7da8b94ca0b27864cdacdac0ff"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.21",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/HowardV/sounds/581528/",
+      "text": "live audience comedy show genuine laughter_moderate.wav — HowardV\nhttps://freesound.org/people/HowardV/sounds/581528/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/HowardV/sounds/581528/"
+      },
+      "text_sha256": "ec057d149b101c39a750182c7f40168b8d8234c20b01b2297552af7f60b382f0"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.22",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/Nox_Sound/sounds/752711/",
+      "text": "Voice_Crowd_Small_Expression_Laugh_Stereo — Nox_Sound\nhttps://freesound.org/people/Nox_Sound/sounds/752711/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/Nox_Sound/sounds/752711/"
+      },
+      "text_sha256": "e1139beff8ef84d17e0af0af8697999e84385b6b4e6df0ddc5e1441fddcff89f"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.23",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/freesound/sounds/25296/",
+      "text": "Laughs_ses2.wav — freesound\nhttps://freesound.org/people/freesound/sounds/25296/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/freesound/sounds/25296/"
+      },
+      "text_sha256": "f2b96a5b7fa036525a26d2e5173aed72dd21fc2a749fa5e9b5d545fd1c0a82b9"
+    },
+    {
+      "id": "END.ASSET.AUDIENCE.24",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/kikorurelas/sounds/767470/",
+      "text": "Female crowd laughing — kikorurelas\nhttps://freesound.org/people/kikorurelas/sounds/767470/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/audience/clean-bank-v2/CREDITS.md",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/kikorurelas/sounds/767470/"
+      },
+      "text_sha256": "84b2d1dbcf889138eb1dee9e53e50a141e278328fe3d900b1aa6f709159d33a8"
+    },
+    {
+      "id": "END.ASSET.FOLEY.01",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/Caitlin_100/sounds/365483/",
+      "text": "Closing a window.mp3 — Caitlin_100\nhttps://freesound.org/people/Caitlin_100/sounds/365483/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/Caitlin_100/sounds/365483/"
+      },
+      "text_sha256": "49c73d54fef595e96756d25b735d29e2410743c7b7bb798bdbc3eef8bb1f256d"
+    },
+    {
+      "id": "END.ASSET.FOLEY.02",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/Karla_Bezuidenhout/sounds/708683/",
+      "text": "SFX WNDWWood_INT_Closing Window_Group 29_OWSFX — Karla_Bezuidenhout\nhttps://freesound.org/people/Karla_Bezuidenhout/sounds/708683/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/Karla_Bezuidenhout/sounds/708683/"
+      },
+      "text_sha256": "b2625d01733fa1a34fa3f3c2029f1cba2e6f79e4fd00cd67d4624d66c90e57a3"
+    },
+    {
+      "id": "END.ASSET.FOLEY.03",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/slamaxu/sounds/509878/",
+      "text": "pickup_paper.wav — slamaxu\nhttps://freesound.org/people/slamaxu/sounds/509878/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/slamaxu/sounds/509878/"
+      },
+      "text_sha256": "cb1826608088e803fa40d696869173216bf1c6bd8c9ae2fd66b075643b2bcc59"
+    },
+    {
+      "id": "END.ASSET.FOLEY.04",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/scholzi982/sounds/566189/",
+      "text": "Pickup_Note_01.wav — scholzi982\nhttps://freesound.org/people/scholzi982/sounds/566189/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/scholzi982/sounds/566189/"
+      },
+      "text_sha256": "6ce1e06dbd24e3122e7825b9d8d27085a4ed452fd9a81f4dbae5325f22807e2b"
+    },
+    {
+      "id": "END.ASSET.FOLEY.05",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/piedo/sounds/214693/",
+      "text": "wooden door opening.wav — piedo\nhttps://freesound.org/people/piedo/sounds/214693/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/piedo/sounds/214693/"
+      },
+      "text_sha256": "099159ad6342d81fd7fb57f268908b6fca552ba3a56ee596c740a92e51461cad"
+    },
+    {
+      "id": "END.ASSET.FOLEY.06",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/IENBA/sounds/607911/",
+      "text": "Wooden Door Open and Close — IENBA\nhttps://freesound.org/people/IENBA/sounds/607911/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/IENBA/sounds/607911/"
+      },
+      "text_sha256": "7d2bf313e136dd4f08f6d15bc7207ac3013f8476403d3f51c5171ff4b0617f7d"
+    },
+    {
+      "id": "END.ASSET.FOLEY.07",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://freesound.org/people/qubodup/sounds/805208/",
+      "text": "Opening modern window — qubodup\nhttps://freesound.org/people/qubodup/sounds/805208/\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://freesound.org/people/qubodup/sounds/805208/"
+      },
+      "text_sha256": "1ce569337fe28d262b1c9245bf87155e5cd51df887c960f62d15c706f0311a70"
+    },
+    {
+      "id": "END.ASSET.FOLEY.08",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://kenney.nl/assets/impact-sounds",
+      "text": "Impact Sounds 1.0 — Kenney / Kenney Vleugels\nhttps://kenney.nl/assets/impact-sounds\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://kenney.nl/assets/impact-sounds"
+      },
+      "text_sha256": "4607363b767e78725d90e441276638af7283f306a20f3d47a888abc2ff31c73d"
+    },
+    {
+      "id": "END.ASSET.FOLEY.09",
+      "puzzle": "ASSET_ACKNOWLEDGMENTS",
+      "location": "Credits/full acknowledgments",
+      "speaker": "Credits",
+      "kind": "credit",
+      "trigger": "Build includes an asset derived from https://kenney.nl/assets/rpg-audio",
+      "text": "RPG Audio — Kenney / Kenney Vleugels\nhttps://kenney.nl/assets/rpg-audio\nCC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/\nAdapted: excerpts, mono conversion, filtering, level adjustment, fades and resampling.",
+      "current_text": null,
+      "implementation_status": "build_conditional_acknowledgment_not_a_shipping_claim",
+      "source_ref": "/workspace/scratch/32bd9b8d7d14/come-and-knock-on-our-door/assets/audio-candidates/everyday-foley-v1/CREDITS.txt",
+      "source_obligations": [
+        "Include this exact acknowledgment only if its source asset is in the final shipped-asset manifest.",
+        "Do not imply endorsement or that audition-only material ships.",
+        "Retain source title, author, source/license URLs and adaptation details without comic rewriting.",
+        "Use lossless long-token wrapping and complete pagination at 48 columns; preserve every URL character without inserted hyphens or truncation."
+      ],
+      "clue_checksum": "10b11516ca65f32319d22b813c8f54e7bb227c39f46e44f2cf485a6d80cf24bc",
+      "build_applicability": {
+        "source_url_in_shipped_asset_manifest": "https://kenney.nl/assets/rpg-audio"
+      },
+      "text_sha256": "3fd892c49f7b429e7f78b4076f9b2e89c7d6b8f53887d734c6ffd4dad93a6f2c"
+    }
+  ],
+  "speech_units": [
+    {
+      "line_id": "P14.OPEN.001.01",
+      "record_id": "P14.OPEN.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Good supper. Now the promises. Each card goes to the person named on it.",
+      "caption_text": "Good supper. Now the promises. Each card goes to the person named on it.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.OPEN.001.02",
+      "record_id": "P14.OPEN.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "I was hoping the food might speak for itself.",
+      "caption_text": "I was hoping the food might speak for itself.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.OPEN.001.03",
+      "record_id": "P14.OPEN.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "It did. It made no offer to wash up.",
+      "caption_text": "It did. It made no offer to wash up.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.APPROVE.jack.01",
+      "record_id": "P14.APPROVE.jack",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "I’ll cook and clean the kitchen. Even the pans I can hide inside larger pans.",
+      "caption_text": "I’ll cook and clean the kitchen. Even the pans I can hide inside larger pans.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.jack.01",
+      "record_id": "P14.WRONG.jack",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "My card is cooking and cleanup. This one belongs to the name at the top.",
+      "caption_text": "My card is cooking and cleanup. This one belongs to the name at the top.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.bunny.01",
+      "record_id": "P14.APPROVE.bunny",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Accurate invitations and the agreed guest count. I’ll invite them to the evening we’re actually having. How novel.",
+      "caption_text": "Accurate invitations and the agreed guest count. I’ll invite them to the evening we’re actually having. How novel.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.bunny.01",
+      "record_id": "P14.WRONG.bunny",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Invitations and guest count. That’s mine. I know everybody; it doesn’t mean I’ve offered to do everything.",
+      "caption_text": "Invitations and guest count. That’s mine. I know everybody; it doesn’t mean I’ve offered to do everything.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.frankie.01",
+      "record_id": "P14.APPROVE.frankie",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "The shared plan and written terms. I’ll write down the jobs. “But it’s in your handwriting” will not make it my washing-up.",
+      "caption_text": "The shared plan and written terms. I’ll write down the jobs. “But it’s in your handwriting” will not make it my washing-up.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.frankie.01",
+      "record_id": "P14.WRONG.frankie",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "The shared plan and written terms are mine. This card belongs to the name at the top.",
+      "caption_text": "The shared plan and written terms are mine. This card belongs to the name at the top.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.milo.01",
+      "record_id": "P14.APPROVE.milo",
+      "speaker_id": "milo",
+      "speaker": "Milo Pennant",
+      "text": "My sound equipment, at the agreed volume. Good lord. I’ve finished talking and I’m still here.",
+      "caption_text": "My sound equipment, at the agreed volume. Good lord. I’ve finished talking and I’m still here.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.milo.01",
+      "record_id": "P14.WRONG.milo",
+      "speaker_id": "milo",
+      "speaker": "Milo Pennant",
+      "text": "Sound equipment and the agreed volume. That’s my card. I’m trying to make a smaller promise; don’t distract me.",
+      "caption_text": "Sound equipment and the agreed volume. That’s my card. I’m trying to make a smaller promise; don’t distract me.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.vivian.01",
+      "record_id": "P14.APPROVE.vivian",
+      "speaker_id": "vivian",
+      "speaker": "Vivian Voss",
+      "text": "Tonight’s styling, and a later conversation. No guaranteed booking. There. Even my small print looks good.",
+      "caption_text": "Tonight’s styling, and a later conversation. No guaranteed booking. There. Even my small print looks good.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.vivian.01",
+      "record_id": "P14.WRONG.vivian",
+      "speaker_id": "vivian",
+      "speaker": "Vivian Voss",
+      "text": "Tonight’s styling, then a conversation about possible work. No booking promised. I’m not available by the paragraph.",
+      "caption_text": "Tonight’s styling, then a conversation about possible work. No booking promised. I’m not available by the paragraph.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.rita.01",
+      "record_id": "P14.APPROVE.rita",
+      "speaker_id": "rita",
+      "speaker": "Rita Stringer",
+      "text": "My ceramic service and display, credited to Rita Stringer. That’s mine. I’ve practised the modest little nod.",
+      "caption_text": "My ceramic service and display, credited to Rita Stringer. That’s mine. I’ve practised the modest little nod.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.rita.01",
+      "record_id": "P14.WRONG.rita",
+      "speaker_id": "rita",
+      "speaker": "Rita Stringer",
+      "text": "Ceramic service and display. Rita Stringer. My name’s on the plates; there’s no need to look at my husband.",
+      "caption_text": "Ceramic service and display. Rita Stringer. My name’s on the plates; there’s no need to look at my husband.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.felix.01",
+      "record_id": "P14.APPROVE.felix",
+      "speaker_id": "felix",
+      "speaker": "Felix Bunt",
+      "text": "The tested gate and the agreed scheduled repair work. I’d make a speech, but you’ve seen the gate.",
+      "caption_text": "The tested gate and the agreed scheduled repair work. I’d make a speech, but you’ve seen the gate.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.felix.01",
+      "record_id": "P14.WRONG.felix",
+      "speaker_id": "felix",
+      "speaker": "Felix Bunt",
+      "text": "The tested gate and the scheduled repair work. Those are my jobs. I’m wearing a tool belt, not a chain of office.",
+      "caption_text": "The tested gate and the scheduled repair work. Those are my jobs. I’m wearing a tool belt, not a chain of office.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.APPROVE.stringer.01",
+      "record_id": "P14.APPROVE.stringer",
+      "speaker_id": "stringer",
+      "speaker": "Mr. Stringer",
+      "text": "Renewal, and I fund and schedule the agreed repair. Yes, both. Frankie is looking at the gap after “and.”",
+      "caption_text": "Renewal, and I fund and schedule the agreed repair. Yes, both. Frankie is looking at the gap after “and.”",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.WRONG.stringer.01",
+      "record_id": "P14.WRONG.stringer",
+      "speaker_id": "stringer",
+      "speaker": "Mr. Stringer",
+      "text": "Renewal, repair funding and scheduling. That’s my card. I can express a view on the cooking, but apparently that isn’t a contribution.",
+      "caption_text": "Renewal, repair funding and scheduling. That’s my card. I can express a view on the cooking, but apparently that isn’t a contribution.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.SUCCESS.001.01",
+      "record_id": "P14.SUCCESS.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Approved, and pinned under the right name. No one has accidentally acquired a spouse.",
+      "caption_text": "Approved, and pinned under the right name. No one has accidentally acquired a spouse.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.FAILURE.001.01",
+      "record_id": "P14.FAILURE.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Ask the person named on it first. Being legible isn’t the same as agreeing.",
+      "caption_text": "Ask the person named on it first. Being legible isn’t the same as agreeing.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.001.01",
+      "record_id": "P14.DIALOGUE.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "I thought keeping everyone happy meant saying yes to everything. Thank you for helping me do the things I actually promised. To our home, and everyone who helped us make room.",
+      "caption_text": "I thought keeping everyone happy meant saying yes to everything. Thank you for helping me do the things I actually promised. To our home, and everyone who helped us make room.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.002.01",
+      "record_id": "P14.DIALOGUE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "To eight people who came for three different evenings and stayed for the same one. Thank you. Next time I’ll ask you before saying you’d be delighted.",
+      "caption_text": "To eight people who came for three different evenings and stayed for the same one. Thank you. Next time I’ll ask you before saying you’d be delighted.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 1,
+        "beat": "after_line",
+        "canonical_cue_id": null,
+        "canonical_binding_role": null,
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    },
+    {
+      "line_id": "P14.DIALOGUE.003.01",
+      "record_id": "P14.DIALOGUE.003",
+      "speaker_id": "stringer",
+      "speaker": "Mr. Stringer",
+      "text": "Care for the house. The agreed guests and noise. Renewal confirmed, and the promised repair funded and scheduled.",
+      "caption_text": "Care for the house. The agreed guests and noise. Renewal confirmed, and the promised repair funded and scheduled.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.003.02",
+      "record_id": "P14.DIALOGUE.003",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Those are the standards for the household. Our private relationships are our own.",
+      "caption_text": "Those are the standards for the household. Our private relationships are our own.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.003.03",
+      "record_id": "P14.DIALOGUE.003",
+      "speaker_id": "stringer",
+      "speaker": "Mr. Stringer",
+      "text": "Yes. I’ll judge how you look after the place.",
+      "caption_text": "Yes. I’ll judge how you look after the place.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.003.04",
+      "record_id": "P14.DIALOGUE.003",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Good. No box for “who’s kissing whom.” I checked.",
+      "caption_text": "Good. No box for “who’s kissing whom.” I checked.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.003.05",
+      "record_id": "P14.DIALOGUE.003",
+      "speaker_id": "stringer",
+      "speaker": "Mr. Stringer",
+      "text": "I gathered.",
+      "caption_text": "I gathered.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.FAILURE.002.01",
+      "record_id": "P14.FAILURE.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "It needs his agreement and his signature. We’ve spent the evening getting the words right. I’m not borrowing his name now.",
+      "caption_text": "It needs his agreement and his signature. We’ve spent the evening getting the words right. I’m not borrowing his name now.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.SUCCESS.002.01",
+      "record_id": "P14.SUCCESS.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Signed and pinned. Renewal, and the agreed repair. I can stop wondering what his smile means.",
+      "caption_text": "Signed and pinned. Renewal, and the agreed repair. I can stop wondering what his smile means.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.SUCCESS.003.01",
+      "record_id": "P14.SUCCESS.003",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "I’ll add the repair date we agreed. Then I’m reading the whole card back. We’re leaving nothing cropped.",
+      "caption_text": "I’ll add the repair date we agreed. Then I’m reading the whole card back. We’re leaving nothing cropped.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.READ.001.01",
+      "record_id": "P14.READ.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "Renewal commitment confirmed. The agreed repair is funded and scheduled for {repair_date}. We care for the house and keep the agreed guest and noise arrangements. Everyone has heard the whole agreement.",
+      "caption_text": "Renewal commitment confirmed. The agreed repair is funded and scheduled for {repair_date}. We care for the house and keep the agreed guest and noise arrangements. Everyone has heard the whole agreement.",
+      "dynamic_bindings": {
+        "repair_date": "The date selected on the existing in-fiction repair card; not a real calendar event."
+      },
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.SUCCESS.004.01",
+      "record_id": "P14.SUCCESS.004",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "There. Your pencil. Our copy. Keep both.",
+      "caption_text": "There. Your pencil. Our copy. Keep both.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.004.01",
+      "record_id": "P14.DIALOGUE.004",
+      "speaker_id": "vivian",
+      "speaker": "Vivian Voss",
+      "text": "We’ll talk about possible work another day. Tonight you delivered the supper. I’ve met producers who couldn’t manage lunch.",
+      "caption_text": "We’ll talk about possible work another day. Tonight you delivered the supper. I’ve met producers who couldn’t manage lunch.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.005.01",
+      "record_id": "P14.DIALOGUE.005",
+      "speaker_id": "vivian",
+      "speaker": "Vivian Voss",
+      "text": "Another conversation, another day. I’d like to see what you’re like when you aren’t preventing three things from falling over.",
+      "caption_text": "Another conversation, another day. I’d like to see what you’re like when you aren’t preventing three things from falling over.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.DIALOGUE.006.01",
+      "record_id": "P14.DIALOGUE.006",
+      "speaker_id": "vivian",
+      "speaker": "Vivian Voss",
+      "text": "I’d like that other conversation. We can decide what to call it when you aren’t holding a tray between us.",
+      "caption_text": "I’d like that other conversation. We can decide what to call it when you aren’t holding a tray between us.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.001.01",
+      "record_id": "P14.ENDING.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Rita got the house right.",
+      "caption_text": "Rita got the house right.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.001.02",
+      "record_id": "P14.ENDING.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Our doors aren’t those colors.",
+      "caption_text": "Our doors aren’t those colors.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.001.03",
+      "record_id": "P14.ENDING.001",
+      "speaker_id": "bunny",
+      "speaker": "Bunny Easter",
+      "text": "Not the doors. Us.",
+      "caption_text": "Not the doors. Us.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.001.04",
+      "record_id": "P14.ENDING.001",
+      "speaker_id": "frankie",
+      "speaker": "Frankie Maplewood",
+      "text": "There’s enough room at the table.",
+      "caption_text": "There’s enough room at the table.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.001.05",
+      "record_id": "P14.ENDING.001",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "There is.",
+      "caption_text": "There is.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.002.01",
+      "record_id": "P14.ENDING.002",
+      "speaker_id": "milo",
+      "speaker": "Milo Pennant",
+      "text": "Mutual Benefit Supper. I’ve kept it very simple.",
+      "caption_text": "Mutual Benefit Supper. I’ve kept it very simple.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": null
+    },
+    {
+      "line_id": "P14.ENDING.002.02",
+      "record_id": "P14.ENDING.002",
+      "speaker_id": "jack",
+      "speaker": "Jackie Tree",
+      "text": "Put “It’s a meal” underneath. In very large letters.",
+      "caption_text": "Put “It’s a meal” underneath. In very large letters.",
+      "dynamic_bindings": {},
+      "implementation_status": "authored_gdd_not_implemented",
+      "laugh_opportunity": {
+        "strength": 2,
+        "beat": "after_line",
+        "canonical_cue_id": "LAF14",
+        "canonical_binding_role": "alternative_to_physical_payoff",
+        "double_fire_allowed": false,
+        "editorial_only": true,
+        "runtime_policy": "Existing separately authorized speech/laugh presentation policy; never alter puzzle state. Suppress on quiet repeats, boundaries, apparent injury or sincere follow-up."
+      }
+    }
+  ],
+  "source_bindings": {
+    "opening": "P14.OPEN.001",
+    "approve:jack": "P14.APPROVE.jack",
+    "approve:bunny": "P14.APPROVE.bunny",
+    "approve:frankie": "P14.APPROVE.frankie",
+    "approve:milo": "P14.APPROVE.milo",
+    "approve:vivian": "P14.APPROVE.vivian",
+    "approve:rita": "P14.APPROVE.rita",
+    "approve:felix": "P14.APPROVE.felix",
+    "approve:stringer": "P14.APPROVE.stringer",
+    "card:jack": "P14.CARD.jack",
+    "card:bunny": "P14.CARD.bunny",
+    "card:frankie": "P14.CARD.frankie",
+    "card:milo": "P14.CARD.milo",
+    "card:vivian": "P14.CARD.vivian",
+    "card:rita": "P14.CARD.rita",
+    "card:felix": "P14.CARD.felix",
+    "card:stringer": "P14.CARD.stringer",
+    "warm_toast": "P14.DIALOGUE.001",
+    "dry_toast": "P14.DIALOGUE.002",
+    "signature": "P14.DIALOGUE.003",
+    "date": "P14.SUCCESS.003",
+    "readback": "P14.READ.001",
+    "return_pencil": "P14.SUCCESS.004",
+    "closing:professional": "P14.DIALOGUE.004",
+    "closing:friendly": "P14.DIALOGUE.005",
+    "closing:cautiously_romantic": "P14.DIALOGUE.006",
+    "meal": "P14.ENDING.001",
+    "tag": "P14.ENDING.002",
+    "credit:END.CREDIT.TITLE": "END.CREDIT.TITLE",
+    "credit:END.CREDIT.FICTIONAL.STUDIO": "END.CREDIT.FICTIONAL.STUDIO",
+    "credit:END.CREDIT.REAL.CREATION": "END.CREDIT.REAL.CREATION",
+    "credit:END.CREDIT.CAST": "END.CREDIT.CAST",
+    "credit:END.CREDIT.WRITERS.HEADER": "END.CREDIT.WRITERS.HEADER",
+    "credit:END.CREDIT.WRITERS.HEAD": "END.CREDIT.WRITERS.HEAD",
+    "credit:END.CREDIT.WRITERS.ASSISTANT": "END.CREDIT.WRITERS.ASSISTANT",
+    "credit:END.CREDIT.WRITERS.CLUB": "END.CREDIT.WRITERS.CLUB",
+    "credit:END.CREDIT.WRITERS.SOCIAL": "END.CREDIT.WRITERS.SOCIAL",
+    "credit:END.CREDIT.WRITERS.META": "END.CREDIT.WRITERS.META",
+    "credit:END.CREDIT.WRITERS.ENSEMBLE": "END.CREDIT.WRITERS.ENSEMBLE",
+    "credit:END.CREDIT.WRITERS.ADVENTURE": "END.CREDIT.WRITERS.ADVENTURE",
+    "credit:END.CREDIT.WRITERS.OUTSIDER": "END.CREDIT.WRITERS.OUTSIDER",
+    "credit:END.CREDIT.REAL.PRODUCTION": "END.CREDIT.REAL.PRODUCTION",
+    "credit:END.CREDIT.FICTIONAL.PRODUCERS": "END.CREDIT.FICTIONAL.PRODUCERS",
+    "credit:END.CREDIT.FICTIONAL.FLOOR": "END.CREDIT.FICTIONAL.FLOOR",
+    "credit:END.CREDIT.FICTIONAL.CAMERA": "END.CREDIT.FICTIONAL.CAMERA",
+    "credit:END.CREDIT.FICTIONAL.SOUND": "END.CREDIT.FICTIONAL.SOUND",
+    "credit:END.CREDIT.FICTIONAL.ART": "END.CREDIT.FICTIONAL.ART",
+    "credit:END.CREDIT.FICTIONAL.WARDROBE": "END.CREDIT.FICTIONAL.WARDROBE",
+    "credit:END.CREDIT.FICTIONAL.POST": "END.CREDIT.FICTIONAL.POST",
+    "credit:END.CREDIT.FICTIONAL.PRODUCTION": "END.CREDIT.FICTIONAL.PRODUCTION",
+    "credit:END.CREDIT.FICTIONAL.MUSIC": "END.CREDIT.FICTIONAL.MUSIC",
+    "credit:END.CREDIT.FICTIONAL.AUDIENCE": "END.CREDIT.FICTIONAL.AUDIENCE",
+    "credit:END.CREDIT.REAL.ASSISTANCE": "END.CREDIT.REAL.ASSISTANCE",
+    "credit:END.CREDIT.THANKS": "END.CREDIT.THANKS",
+    "credit:END.ASSET.AUDIENCE.01": "END.ASSET.AUDIENCE.01",
+    "credit:END.ASSET.AUDIENCE.02": "END.ASSET.AUDIENCE.02",
+    "credit:END.ASSET.AUDIENCE.03": "END.ASSET.AUDIENCE.03",
+    "credit:END.ASSET.AUDIENCE.04": "END.ASSET.AUDIENCE.04",
+    "credit:END.ASSET.AUDIENCE.05": "END.ASSET.AUDIENCE.05",
+    "credit:END.ASSET.AUDIENCE.06": "END.ASSET.AUDIENCE.06",
+    "credit:END.ASSET.AUDIENCE.07": "END.ASSET.AUDIENCE.07",
+    "credit:END.ASSET.AUDIENCE.08": "END.ASSET.AUDIENCE.08",
+    "credit:END.ASSET.AUDIENCE.09": "END.ASSET.AUDIENCE.09",
+    "credit:END.ASSET.AUDIENCE.10": "END.ASSET.AUDIENCE.10",
+    "credit:END.ASSET.AUDIENCE.11": "END.ASSET.AUDIENCE.11",
+    "credit:END.ASSET.AUDIENCE.12": "END.ASSET.AUDIENCE.12",
+    "credit:END.ASSET.AUDIENCE.13": "END.ASSET.AUDIENCE.13",
+    "credit:END.ASSET.AUDIENCE.14": "END.ASSET.AUDIENCE.14",
+    "credit:END.ASSET.AUDIENCE.15": "END.ASSET.AUDIENCE.15",
+    "credit:END.ASSET.AUDIENCE.16": "END.ASSET.AUDIENCE.16",
+    "credit:END.ASSET.AUDIENCE.17": "END.ASSET.AUDIENCE.17",
+    "credit:END.ASSET.AUDIENCE.18": "END.ASSET.AUDIENCE.18",
+    "credit:END.ASSET.AUDIENCE.19": "END.ASSET.AUDIENCE.19",
+    "credit:END.ASSET.AUDIENCE.20": "END.ASSET.AUDIENCE.20",
+    "credit:END.ASSET.AUDIENCE.21": "END.ASSET.AUDIENCE.21",
+    "credit:END.ASSET.AUDIENCE.22": "END.ASSET.AUDIENCE.22",
+    "credit:END.ASSET.AUDIENCE.23": "END.ASSET.AUDIENCE.23",
+    "credit:END.ASSET.AUDIENCE.24": "END.ASSET.AUDIENCE.24",
+    "credit:END.ASSET.FOLEY.01": "END.ASSET.FOLEY.01",
+    "credit:END.ASSET.FOLEY.02": "END.ASSET.FOLEY.02",
+    "credit:END.ASSET.FOLEY.03": "END.ASSET.FOLEY.03",
+    "credit:END.ASSET.FOLEY.04": "END.ASSET.FOLEY.04",
+    "credit:END.ASSET.FOLEY.05": "END.ASSET.FOLEY.05",
+    "credit:END.ASSET.FOLEY.06": "END.ASSET.FOLEY.06",
+    "credit:END.ASSET.FOLEY.07": "END.ASSET.FOLEY.07",
+    "credit:END.ASSET.FOLEY.08": "END.ASSET.FOLEY.08",
+    "credit:END.ASSET.FOLEY.09": "END.ASSET.FOLEY.09"
+  },
+  "record_units": {
+    "P14.OPEN.001": [
+      "P14.OPEN.001.01",
+      "P14.OPEN.001.02",
+      "P14.OPEN.001.03"
+    ],
+    "P14.CARD.jack": [],
+    "P14.LABEL.jack": [],
+    "P14.APPROVE.jack": [
+      "P14.APPROVE.jack.01"
+    ],
+    "P14.WRONG.jack": [
+      "P14.WRONG.jack.01"
+    ],
+    "P14.CARD.bunny": [],
+    "P14.LABEL.bunny": [],
+    "P14.APPROVE.bunny": [
+      "P14.APPROVE.bunny.01"
+    ],
+    "P14.WRONG.bunny": [
+      "P14.WRONG.bunny.01"
+    ],
+    "P14.CARD.frankie": [],
+    "P14.LABEL.frankie": [],
+    "P14.APPROVE.frankie": [
+      "P14.APPROVE.frankie.01"
+    ],
+    "P14.WRONG.frankie": [
+      "P14.WRONG.frankie.01"
+    ],
+    "P14.CARD.milo": [],
+    "P14.LABEL.milo": [],
+    "P14.APPROVE.milo": [
+      "P14.APPROVE.milo.01"
+    ],
+    "P14.WRONG.milo": [
+      "P14.WRONG.milo.01"
+    ],
+    "P14.CARD.vivian": [],
+    "P14.LABEL.vivian": [],
+    "P14.APPROVE.vivian": [
+      "P14.APPROVE.vivian.01"
+    ],
+    "P14.WRONG.vivian": [
+      "P14.WRONG.vivian.01"
+    ],
+    "P14.CARD.rita": [],
+    "P14.LABEL.rita": [],
+    "P14.APPROVE.rita": [
+      "P14.APPROVE.rita.01"
+    ],
+    "P14.WRONG.rita": [
+      "P14.WRONG.rita.01"
+    ],
+    "P14.CARD.felix": [],
+    "P14.LABEL.felix": [],
+    "P14.APPROVE.felix": [
+      "P14.APPROVE.felix.01"
+    ],
+    "P14.WRONG.felix": [
+      "P14.WRONG.felix.01"
+    ],
+    "P14.CARD.stringer": [],
+    "P14.LABEL.stringer": [],
+    "P14.APPROVE.stringer": [
+      "P14.APPROVE.stringer.01"
+    ],
+    "P14.WRONG.stringer": [
+      "P14.WRONG.stringer.01"
+    ],
+    "P14.SUCCESS.001": [
+      "P14.SUCCESS.001.01"
+    ],
+    "P14.FAILURE.001": [
+      "P14.FAILURE.001.01"
+    ],
+    "P14.CHOICE.001": [],
+    "P14.DIALOGUE.001": [
+      "P14.DIALOGUE.001.01"
+    ],
+    "P14.CHOICE.002": [],
+    "P14.DIALOGUE.002": [
+      "P14.DIALOGUE.002.01"
+    ],
+    "P14.CHOICE.003": [],
+    "P14.DIALOGUE.003": [
+      "P14.DIALOGUE.003.01",
+      "P14.DIALOGUE.003.02",
+      "P14.DIALOGUE.003.03",
+      "P14.DIALOGUE.003.04",
+      "P14.DIALOGUE.003.05"
+    ],
+    "P14.FAILURE.002": [
+      "P14.FAILURE.002.01"
+    ],
+    "P14.SUCCESS.002": [
+      "P14.SUCCESS.002.01"
+    ],
+    "P14.SUCCESS.003": [
+      "P14.SUCCESS.003.01"
+    ],
+    "P14.READ.001": [
+      "P14.READ.001.01"
+    ],
+    "P14.SUCCESS.004": [
+      "P14.SUCCESS.004.01"
+    ],
+    "P14.DIALOGUE.004": [
+      "P14.DIALOGUE.004.01"
+    ],
+    "P14.DIALOGUE.005": [
+      "P14.DIALOGUE.005.01"
+    ],
+    "P14.DIALOGUE.006": [
+      "P14.DIALOGUE.006.01"
+    ],
+    "P14.ENDING.001": [
+      "P14.ENDING.001.01",
+      "P14.ENDING.001.02",
+      "P14.ENDING.001.03",
+      "P14.ENDING.001.04",
+      "P14.ENDING.001.05"
+    ],
+    "P14.ENDING.002": [
+      "P14.ENDING.002.01",
+      "P14.ENDING.002.02"
+    ],
+    "P14.READ.002": [],
+    "P14.SYSTEM.001": [],
+    "P14.HINT.1": [],
+    "P14.HINT.2": [],
+    "P14.HINT.3": [],
+    "VC.NOTEBOOK.WINS": [],
+    "VC.GATE.MISSING_WINS": [],
+    "VC.GATE.ALL_WON": [],
+    "END.CREDIT.TITLE": [],
+    "END.CREDIT.FICTIONAL.STUDIO": [],
+    "END.CREDIT.REAL.CREATION": [],
+    "END.CREDIT.CAST": [],
+    "END.CREDIT.WRITERS.HEADER": [],
+    "END.CREDIT.WRITERS.HEAD": [],
+    "END.CREDIT.WRITERS.ASSISTANT": [],
+    "END.CREDIT.WRITERS.CLUB": [],
+    "END.CREDIT.WRITERS.SOCIAL": [],
+    "END.CREDIT.WRITERS.META": [],
+    "END.CREDIT.WRITERS.ENSEMBLE": [],
+    "END.CREDIT.WRITERS.ADVENTURE": [],
+    "END.CREDIT.WRITERS.OUTSIDER": [],
+    "END.CREDIT.REAL.PRODUCTION": [],
+    "END.CREDIT.FICTIONAL.PRODUCERS": [],
+    "END.CREDIT.FICTIONAL.FLOOR": [],
+    "END.CREDIT.FICTIONAL.CAMERA": [],
+    "END.CREDIT.FICTIONAL.SOUND": [],
+    "END.CREDIT.FICTIONAL.ART": [],
+    "END.CREDIT.FICTIONAL.WARDROBE": [],
+    "END.CREDIT.FICTIONAL.POST": [],
+    "END.CREDIT.FICTIONAL.PRODUCTION": [],
+    "END.CREDIT.FICTIONAL.MUSIC": [],
+    "END.CREDIT.FICTIONAL.AUDIENCE": [],
+    "END.CREDIT.REAL.ASSISTANCE": [],
+    "END.CREDIT.THANKS": [],
+    "END.FREEZE": [],
+    "END.UI.PAUSE": [],
+    "END.UI.CONTINUE": [],
+    "END.UI.SKIP": [],
+    "END.UI.REPLAY": [],
+    "END.UI.ACKNOWLEDGMENTS": [],
+    "END.UI.RETURN": [],
+    "END.ASSET.AUDIENCE.01": [],
+    "END.ASSET.AUDIENCE.02": [],
+    "END.ASSET.AUDIENCE.03": [],
+    "END.ASSET.AUDIENCE.04": [],
+    "END.ASSET.AUDIENCE.05": [],
+    "END.ASSET.AUDIENCE.06": [],
+    "END.ASSET.AUDIENCE.07": [],
+    "END.ASSET.AUDIENCE.08": [],
+    "END.ASSET.AUDIENCE.09": [],
+    "END.ASSET.AUDIENCE.10": [],
+    "END.ASSET.AUDIENCE.11": [],
+    "END.ASSET.AUDIENCE.12": [],
+    "END.ASSET.AUDIENCE.13": [],
+    "END.ASSET.AUDIENCE.14": [],
+    "END.ASSET.AUDIENCE.15": [],
+    "END.ASSET.AUDIENCE.16": [],
+    "END.ASSET.AUDIENCE.17": [],
+    "END.ASSET.AUDIENCE.18": [],
+    "END.ASSET.AUDIENCE.19": [],
+    "END.ASSET.AUDIENCE.20": [],
+    "END.ASSET.AUDIENCE.21": [],
+    "END.ASSET.AUDIENCE.22": [],
+    "END.ASSET.AUDIENCE.23": [],
+    "END.ASSET.AUDIENCE.24": [],
+    "END.ASSET.FOLEY.01": [],
+    "END.ASSET.FOLEY.02": [],
+    "END.ASSET.FOLEY.03": [],
+    "END.ASSET.FOLEY.04": [],
+    "END.ASSET.FOLEY.05": [],
+    "END.ASSET.FOLEY.06": [],
+    "END.ASSET.FOLEY.07": [],
+    "END.ASSET.FOLEY.08": [],
+    "END.ASSET.FOLEY.09": []
+  }
+}

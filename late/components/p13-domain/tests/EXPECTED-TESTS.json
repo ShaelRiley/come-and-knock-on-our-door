@@ -1,0 +1,42 @@
+{
+  "domain": [
+    "test_domain.BytecodeTests.test_actual_microphone_and_attention_text_needed_for_toast",
+    "test_domain.BytecodeTests.test_all_reveal_prefixes_restore_stale_audio_and_show_barrier",
+    "test_domain.BytecodeTests.test_board_actual_projection_queue_and_vc04_request_lifecycle",
+    "test_domain.BytecodeTests.test_checkpoint_failed_stale_duplicate_restore_do_not_undo_cues",
+    "test_domain.BytecodeTests.test_consent_screen_current_gate_and_speakers",
+    "test_domain.BytecodeTests.test_exact_order_deliveries_three_durable_saves_loss_suffices",
+    "test_domain.BytecodeTests.test_guests_queue_actual_helpers_and_current_layout",
+    "test_domain.BytecodeTests.test_handoff_prerequisites_single_object_ownership",
+    "test_domain.BytecodeTests.test_protected_furniture_dispatch_hints_and_preview",
+    "test_domain.BytecodeTests.test_serial_carry_exhaustion_signed_words_and_cancel",
+    "test_domain.BytecodeTests.test_sources_all_prefixes_and_current_speaker_receipts",
+    "test_domain.BytecodeTests.test_wrong_routes_first_visual_laugh_no_load_reset",
+    "test_domain.DomainTests.test_actual_microphone_and_attention_text_needed_for_toast",
+    "test_domain.DomainTests.test_all_reveal_prefixes_restore_stale_audio_and_show_barrier",
+    "test_domain.DomainTests.test_board_actual_projection_queue_and_vc04_request_lifecycle",
+    "test_domain.DomainTests.test_checkpoint_failed_stale_duplicate_restore_do_not_undo_cues",
+    "test_domain.DomainTests.test_consent_screen_current_gate_and_speakers",
+    "test_domain.DomainTests.test_exact_order_deliveries_three_durable_saves_loss_suffices",
+    "test_domain.DomainTests.test_guests_queue_actual_helpers_and_current_layout",
+    "test_domain.DomainTests.test_handoff_prerequisites_single_object_ownership",
+    "test_domain.DomainTests.test_protected_furniture_dispatch_hints_and_preview",
+    "test_domain.DomainTests.test_serial_carry_exhaustion_signed_words_and_cancel",
+    "test_domain.DomainTests.test_sources_all_prefixes_and_current_speaker_receipts",
+    "test_domain.DomainTests.test_wrong_routes_first_visual_laugh_no_load_reset"
+  ],
+  "validation": [
+    "test_validation.RouteMatrixTests.test_all_premature_deliveries_at_each_canonical_stage",
+    "test_validation.ValidationTests.test_context_handoff_bounds_and_large_inventory_fail_closed",
+    "test_validation.ValidationTests.test_emitted_validator_corrupt_saves_and_exact_model_parity",
+    "test_validation.ValidationTests.test_overlay_all_layout_states_all_cues",
+    "test_validation.ValidationTests.test_transport_strict_types_keys_receipt_order_and_corrupt_restore"
+  ],
+  "finite": [
+    "test_finite.FiniteTests.test_all_ordinary_save_snapshots_restart_actual_bytecode",
+    "test_finite.FiniteTests.test_emitted_bad_opcode_stack_packet_and_strict_arity_rejected",
+    "test_finite.FiniteTests.test_every_mutating_boundary_exhausts_atomically",
+    "test_finite.FiniteTests.test_pending_save_io_failure_then_verified_success_and_boolean_trust",
+    "test_finite.FiniteTests.test_serial_limb_carry_and_last_handoff"
+  ]
+}

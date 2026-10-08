@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_MATCH",
+  "overlap_bytes": 56,
+  "sha256": "898f8fda06af18cfff4e1ffb78e886d48218e4a4591e8007fc6f5999d725ff7a",
+  "overlap_text": "  self.v.call(native,*native_args);return self.check(r)\n",
+  "assembly": "early range plus later range with its first duplicate line omitted",
+  "no_execution": true
+}

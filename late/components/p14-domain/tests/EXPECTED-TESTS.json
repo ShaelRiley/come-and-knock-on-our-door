@@ -1,0 +1,76 @@
+{
+  "domain-00": [
+    "test_domain.DomainTests.test_all_closing_tones_and_all_canonical_credits_require_text",
+    "test_domain.BytecodeTests.test_all_closing_tones_and_all_canonical_credits_require_text"
+  ],
+  "domain-01": [
+    "test_domain.DomainTests.test_all_eight_approval_receipts_and_wrong_recipients",
+    "test_domain.BytecodeTests.test_all_eight_approval_receipts_and_wrong_recipients"
+  ],
+  "domain-02": [
+    "test_domain.DomainTests.test_different_approval_pin_orders_restore_and_unique_ownership",
+    "test_domain.BytecodeTests.test_different_approval_pin_orders_restore_and_unique_ownership"
+  ],
+  "domain-03": [
+    "test_domain.DomainTests.test_dispatch_hints_and_invalid_signed_word_arguments",
+    "test_domain.BytecodeTests.test_dispatch_hints_and_invalid_signed_word_arguments"
+  ],
+  "domain-04": [
+    "test_domain.DomainTests.test_every_canonical_task_and_actual_win_gate",
+    "test_domain.BytecodeTests.test_every_canonical_task_and_actual_win_gate"
+  ],
+  "domain-05": [
+    "test_domain.DomainTests.test_exact_first_wins_later_losses_and_other_timeline",
+    "test_domain.BytecodeTests.test_exact_first_wins_later_losses_and_other_timeline"
+  ],
+  "domain-06": [
+    "test_domain.DomainTests.test_finale_requires_completion_and_selects_exact_shipped_assets",
+    "test_domain.BytecodeTests.test_finale_requires_completion_and_selects_exact_shipped_assets"
+  ],
+  "domain-07": [
+    "test_domain.DomainTests.test_handoff_metadata_unicode_date_and_serial_limb_boundaries",
+    "test_domain.BytecodeTests.test_handoff_metadata_unicode_date_and_serial_limb_boundaries"
+  ],
+  "domain-08": [
+    "test_domain.DomainTests.test_invalid_receipt_prefixes_cancel_and_stale_leases_preserve_state",
+    "test_domain.BytecodeTests.test_invalid_receipt_prefixes_cancel_and_stale_leases_preserve_state"
+  ],
+  "domain-09": [
+    "test_domain.DomainTests.test_pause_restore_resume_and_skip_every_finale_phase",
+    "test_domain.BytecodeTests.test_pause_restore_resume_and_skip_every_finale_phase"
+  ],
+  "domain-10": [
+    "test_domain.DomainTests.test_pencil_date_readback_return_and_completion_before_finale",
+    "test_domain.BytecodeTests.test_pencil_date_readback_return_and_completion_before_finale"
+  ],
+  "domain-11": [
+    "test_domain.DomainTests.test_quiet_meal_tag_receipts_freeze_and_effects_exactly_once",
+    "test_domain.BytecodeTests.test_quiet_meal_tag_receipts_freeze_and_effects_exactly_once"
+  ],
+  "domain-12": [
+    "test_domain.DomainTests.test_record_and_unit_mapping_keeps_exact_quiet_canonical_line",
+    "test_domain.BytecodeTests.test_record_and_unit_mapping_keeps_exact_quiet_canonical_line"
+  ],
+  "domain-13": [
+    "test_domain.DomainTests.test_signature_requires_whole_five_unit_consent_with_stale_restore",
+    "test_domain.BytecodeTests.test_signature_requires_whole_five_unit_consent_with_stale_restore"
+  ],
+  "validation-01": [
+    "test_validation.ValidationTests.test_all_caption_prefixes_restore_and_real_actor_receipts"
+  ],
+  "validation-02": [
+    "test_validation.ValidationTests.test_context_transport_rejects_unsealed_corrupt_and_fake_owner_inputs"
+  ],
+  "validation-03": [
+    "test_validation.ValidationTests.test_credit_replay_is_detached_preserves_invoking_session_on_return"
+  ],
+  "validation-05": [
+    "test_validation.ValidationTests.test_exhausted_imported_credit_cursor_cannot_commit_invalid_state"
+  ],
+  "validation-06": [
+    "test_validation.ValidationTests.test_native_replay_envelope_exact_snapshot_pause_load_cancel_and_finish"
+  ],
+  "validation-07": [
+    "test_validation.ValidationTests.test_strict_codec_schema_types_causal_gates_and_restore_failure"
+  ]
+}

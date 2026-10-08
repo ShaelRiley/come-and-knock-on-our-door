@@ -1,0 +1,107 @@
+{
+  "format": "SCI1.1",
+  "script": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p14-domain-reconstruction/build/isolated/compiled/0.scr.bin",
+  "heap": "/workspace/scratch/32bd9b8d7d14/recovery-cakood-20261006-2300/working/p14-domain-reconstruction/build/isolated/compiled/0.scr.bin.hep",
+  "script_sha256": "ecda277fb0927c184c60b4e866b2144fabd11f0b1c97a003190667df32804319",
+  "heap_sha256": "9b2313a3e3d1ec2b254684c0f44ab1c1888593de63a69da645bd4c2e85a712c3",
+  "script_relocation_offset": 28,
+  "script_relocations": [],
+  "heap_relocation_offset": 42,
+  "heap_relocations": [
+    22
+  ],
+  "locals_heap_offset": 4,
+  "locals_word_count": 1,
+  "locals": [
+    0
+  ],
+  "exports": [],
+  "objects": [
+    {
+      "name": "P10HarnessRoot",
+      "heap_offset": 6,
+      "property_count": 9,
+      "property_selector_offset": 8,
+      "method_table_offset": 26,
+      "is_class": true,
+      "species": 0,
+      "superclass": 65535,
+      "properties": [
+        {
+          "index": 0,
+          "heap_offset": 6,
+          "selector_id": 4096,
+          "selector": "-objID-",
+          "raw_value": 4660,
+          "signed_value": 4660
+        },
+        {
+          "index": 1,
+          "heap_offset": 8,
+          "selector_id": 4097,
+          "selector": "-size-",
+          "raw_value": 9,
+          "signed_value": 9
+        },
+        {
+          "index": 2,
+          "heap_offset": 10,
+          "selector_id": 4098,
+          "selector": "-propDict-",
+          "raw_value": 8,
+          "signed_value": 8
+        },
+        {
+          "index": 3,
+          "heap_offset": 12,
+          "selector_id": 4099,
+          "selector": "-methDict-",
+          "raw_value": 26,
+          "signed_value": 26
+        },
+        {
+          "index": 4,
+          "heap_offset": 14,
+          "selector_id": 4100,
+          "selector": "-classScript-",
+          "raw_value": 0,
+          "signed_value": 0
+        },
+        {
+          "index": 5,
+          "heap_offset": 16,
+          "selector_id": 4101,
+          "selector": "-script-",
+          "raw_value": 0,
+          "signed_value": 0
+        },
+        {
+          "index": 6,
+          "heap_offset": 18,
+          "selector_id": 4102,
+          "selector": "-super-",
+          "raw_value": 65535,
+          "signed_value": -1
+        },
+        {
+          "index": 7,
+          "heap_offset": 20,
+          "selector_id": 4103,
+          "selector": "-info-",
+          "raw_value": 32768,
+          "signed_value": -32768
+        },
+        {
+          "index": 8,
+          "heap_offset": 22,
+          "selector_id": 0,
+          "selector": "name",
+          "raw_value": 26,
+          "signed_value": 26
+        }
+      ],
+      "methods": []
+    }
+  ],
+  "strings_start": 26
+}

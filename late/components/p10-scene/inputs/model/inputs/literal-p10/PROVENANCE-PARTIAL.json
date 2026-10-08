@@ -1,0 +1,14 @@
+{
+  "join": "PartB follows partA unfinished acknowledge_presentation guard, using overlapping retained explicit read.",
+  "new_partial_sha256": "8bef9f572284ea03eea25c51738952545eb6c5d31e7173a0df82e77228edca63",
+  "original_file_hash_known": false,
+  "received_utc": "2026-10-07T04:47Z",
+  "retained_read_date": "2026-10-05",
+  "scope": "Partial file only. Complete CaptionResult, _Receipt, _Captioned definitions and beginning of P10World through rack_correct. No model execution.",
+  "source_path": "cakood/p10_model.py",
+  "transcription_correction": {
+    "applied_to_partial_assembly": true,
+    "explicit_sender_correction": "frankie",
+    "original_packet_A": "P10.FAILURE.003.01 speaker jack"
+  }
+}

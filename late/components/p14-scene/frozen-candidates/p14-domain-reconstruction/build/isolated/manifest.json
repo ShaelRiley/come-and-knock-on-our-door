@@ -1,0 +1,23 @@
+{
+  "format": "SCI1.1 uncompressed little-endian VGA",
+  "resources": [
+    {
+      "type": 6,
+      "number": 996,
+      "offset": 0,
+      "size": 8,
+      "sha256": "844dc9a8bd0e00aed87d1dbad6491f6ebe475af9dd3329eb8a1bf3ce5de3e9eb"
+    },
+    {
+      "type": 6,
+      "number": 997,
+      "offset": 18,
+      "size": 21710,
+      "sha256": "470c870d2329c32b1c5dfd4aa77514119484e6f89833911e9b370f582d93ddcc"
+    }
+  ],
+  "files": {
+    "resource.map": "c0438c6719709a2440f0739e329bb52cade3c7b7938594746b30eb9b9acdc494",
+    "resource.000": "02658a8892c367dd738993af370f8edc4e01305aa582b4e6ba1d1c7fffc50219"
+  }
+}

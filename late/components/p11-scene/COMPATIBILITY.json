@@ -1,0 +1,66 @@
+{
+  "audio": 923,
+  "domain_outer_sha256": "505a66f1f26f00d80c176c81115a37b326c6a181e8a4dbc1bf01edca6888d33f",
+  "domain_schema_sha256": "2653be9a70f7b4668107a813abdbb3d5f0afbab7c4fbe169a3f5acf79aede51b",
+  "domain_version": 2,
+  "predecessor": {
+    "array_hashes": {
+      "sdAudioModules": "86046bb6aeae3f1c89491fb9297072d68d3c61bcf177792a279a05f799bcbc91",
+      "sdCounts": "45cb2926880cadd7fcfbd1249544ec74e31978d85d77187c342a7f37addbc9a9",
+      "sdLegacyVoiceDurations": "72442d301ce5387318ea1bf11cbe1c495994feec118830d75232d0d6cbae7ea9",
+      "sdPageData": "b1e79da35a659d0b894a234a51b3acedf64cd5a7f9a4cec10e5f4f0189d96c22",
+      "sdPageDurations": "fe7e8b5437c4224ea4cf5624ed02ba32edfa116a043d23d76062b80e6a84fc8a",
+      "sdStarts": "0993b9c09ffad40fe753a072b6c221d2c94a6ebfe7878c2576a9a730a0ed866f",
+      "sdTextResources": "8e419deddbdfbc08a62c106e23c880687804a8fa35e929cbfff676f10708813f"
+    },
+    "audio_modules": [
+      0,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      921,
+      922,
+      939
+    ],
+    "old_audio_files": 1108,
+    "outer_sha256": "6542abe471271575474514ad65c48e75f3f2536f0d4a74bfffd0daa005e6f316",
+    "pages": 1241,
+    "slots": 1243,
+    "source982_sha256": "8e1d999c5a09e46e2cde48a119c9ca9177f45d57a7dc10ef3b80c4f5ce996c9e",
+    "texts": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      210,
+      211,
+      230
+    ],
+    "version": 0
+  },
+  "record_documents": [
+    1300,
+    1325
+  ],
+  "status": "FROZEN_CURRENT_INPUTS",
+  "text": 212,
+  "unit_documents": [
+    1326,
+    1361
+  ],
+  "variant_record_documents": [
+    1362,
+    1365
+  ],
+  "variant_unit_documents": [
+    1366,
+    1373
+  ]
+}

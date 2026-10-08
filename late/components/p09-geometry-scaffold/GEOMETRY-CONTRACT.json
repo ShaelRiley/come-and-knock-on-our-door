@@ -1,0 +1,249 @@
+{
+  "schema": 1,
+  "status": "INACTIVE_MEASURED_SCAFFOLD",
+  "world_size": [
+    320,
+    144
+  ],
+  "background": 302,
+  "font": 0,
+  "palette": 999,
+  "viewpoint_state": "No new saved state; future view selection must follow actual arrival at the measured point.",
+  "controls": [
+    {
+      "id": 395,
+      "rect": [
+        72,
+        149,
+        112,
+        159
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 5,
+      "label": "Tagged chairs"
+    },
+    {
+      "id": 395,
+      "rect": [
+        72,
+        185,
+        112,
+        225
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 5,
+      "label": "Tagged chairs"
+    },
+    {
+      "id": 396,
+      "rect": [
+        76,
+        149,
+        88,
+        159
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 5,
+      "label": "CHAIR TAG"
+    },
+    {
+      "id": 396,
+      "rect": [
+        76,
+        185,
+        88,
+        196
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 5,
+      "label": "CHAIR TAG"
+    },
+    {
+      "id": 396,
+      "rect": [
+        76,
+        209,
+        88,
+        220
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 5,
+      "label": "CHAIR TAG"
+    },
+    {
+      "id": 397,
+      "rect": [
+        132,
+        185,
+        144,
+        255
+      ],
+      "approach": [
+        210,
+        136
+      ],
+      "default": 0,
+      "label": "FRONT VIEW"
+    },
+    {
+      "id": 398,
+      "rect": [
+        132,
+        87,
+        144,
+        157
+      ],
+      "approach": [
+        122,
+        136
+      ],
+      "default": 0,
+      "label": "SIDE VIEW"
+    }
+  ],
+  "tag_shapes": [
+    {
+      "rect": [
+        78,
+        150,
+        86,
+        158
+      ],
+      "thread": [
+        155,
+        73,
+        78
+      ]
+    },
+    {
+      "rect": [
+        78,
+        186,
+        86,
+        194
+      ],
+      "thread": [
+        190,
+        73,
+        78
+      ]
+    },
+    {
+      "rect": [
+        78,
+        210,
+        86,
+        218
+      ],
+      "thread": [
+        214,
+        73,
+        78
+      ]
+    }
+  ],
+  "tag_provenance": "NEW code-native Graph rectangles/threads attached to existing background chairs; never claimed recovered art. No new resource IDs.",
+  "labels": {
+    "395": "Tagged chairs",
+    "396": "CHAIR TAG",
+    "397": "CONSERVATORY FRONT",
+    "398": "CONSERVATORY SIDE",
+    "399": "Renewal and repair card"
+  },
+  "label_authority": {
+    "395": "P09.LABEL.001",
+    "399": "P09.INVENTORY.001",
+    "396": "retained dLabel literal",
+    "397": "retained dLabel literal",
+    "398": "retained dLabel literal"
+  },
+  "chair_tag_reader": "P09.READ.001",
+  "chair_tag_text": "HOUSE LOT — THREE",
+  "actor_cels": {
+    "jackie_walk": 214,
+    "jackie_mouth": 216,
+    "stringer": 222,
+    "rita": 223
+  },
+  "actor_draws": {
+    "stringer": {
+      "cast": 4,
+      "loop": 1,
+      "xy": [
+        149,
+        61
+      ],
+      "scale": 108
+    },
+    "rita": {
+      "cast": 7,
+      "loop": 1,
+      "feet": [
+        252,
+        130
+      ]
+    }
+  },
+  "occlusion": "Suppress every candidate hit rectangle intersecting the conservative current Jackie body, or current Stringer/Rita opaque union when actual h8ActorRoom places that cast in6. Controls are frame-derived and never stored as story state.",
+  "query_contract": {
+    "h8ActorRoom": "actual cast ownership, no substitute rooms",
+    "h8EveningCommitted": "real persistent E03 history required for both static tags and controls",
+    "h8EveningReady": "current action availability required for controls only; static tags do not disappear merely because movement makes actions unavailable",
+    "h9Active": "constantfalse preserved"
+  },
+  "suppression": [
+    "opening",
+    "paused",
+    "menuOpen",
+    "onApron",
+    "uiPanel",
+    "bridgeReaderActive",
+    "uiFailure",
+    "bridgeFailure",
+    "not location6",
+    "missing p08",
+    "not committed",
+    "inactive foundation"
+  ],
+  "input_semantics": {
+    "normal": "Existing selected verb preserved. Default Walk reaches the measured target; future bounded dispatch must map chairs/tag to Look and viewpoint to its observation only after actual arrival. Foundation currently consumes all395–399 without progress.",
+    "right_click": "Existing uiInput cancels the sentence and calls uiHostDefaultVerb: chairs/tag5, front/side0; unsupported Give/Use never auto-executes. A modal right-click closes the modal instead of world action.",
+    "overlap": "Half-open rectangles; current uiHit scans in reverse, so later tag controls win over broad chair regions. Actor/Jackie intersections are omitted before publication.",
+    "keyboard": "Retains existing focus and Enter semantics; native controller acceptance deferred."
+  },
+  "deferred": [
+    "Opening h9Active",
+    "Real view-arrival state and exact source leases",
+    "Card publication and dense reservation",
+    "Any changes to actual actor ownership or later actor render routing",
+    "Native pixels, controller and audible verification"
+  ],
+  "historical_geometry_rejected": {
+    "front": [
+      242,
+      136
+    ],
+    "reason": "Overlaps current Rita cels",
+    "floor_control_bottom": 143,
+    "reason2": "132–143 gives only7pixels after existing4pixel padding, below8pixel font height"
+  },
+  "control_only_suppression": [
+    "motionPhase",
+    "not h8EveningReady"
+  ]
+}

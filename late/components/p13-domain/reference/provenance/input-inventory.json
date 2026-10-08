@@ -1,0 +1,704 @@
+[
+  {
+    "bytes": 1326,
+    "pinned": true,
+    "sha256": "d39b32be755bbe2435cba77231076363533647a9c1b6f4b72e23ffa5e04d2f21",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/build.sh"
+  },
+  {
+    "bytes": 3613,
+    "pinned": true,
+    "sha256": "0c19befb470075dcfd002c1c960805cfae51945981d48027cf69f301ec45193c",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 10341,
+    "pinned": true,
+    "sha256": "a910063d064c76acb4d8fdb8415d7ce3cd94eafb1019d88f0dcb18684d9abf8c",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 68,
+    "pinned": true,
+    "sha256": "59de939e4ced746350ec4284e6e16d33053436073ab60d085475725c0d8c1f10",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/object-bindings.json"
+  },
+  {
+    "bytes": 1791,
+    "pinned": true,
+    "sha256": "079b8a9cc6e35e9c9839096bfce412c89e9be7bcf20077fb6be305bad670dfdd",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/prepare.py"
+  },
+  {
+    "bytes": 679,
+    "pinned": true,
+    "sha256": "e810148e8c36103687b7d4d7faacd1c34bef05ee19f0aed6c1f61450dd492bb7",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/src/main.sc"
+  },
+  {
+    "bytes": 30947,
+    "pinned": true,
+    "sha256": "5133a559e476a3629c4b3173e8b8d38fc4192e17985c71a5a89f171ba6f3fd27",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/src/methods.sc.in"
+  },
+  {
+    "bytes": 6165,
+    "pinned": true,
+    "sha256": "c0d3da803b0f07629008c9b7bd8a965553ea9fdf18be7e6013b3b451ce511792",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/tests/compiled_vm.py"
+  },
+  {
+    "bytes": 6027,
+    "pinned": true,
+    "sha256": "fee5193056ddc769ccfbc0d4fd44ae8c2fa679547d8894fd9c8702f60b738b03",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 23211,
+    "pinned": true,
+    "sha256": "b9a3b126d42076dfbb595702e5ab5df5392bab4125984f7c10a749022ebbea3d",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 6721,
+    "pinned": true,
+    "sha256": "7246d83277d6f50a40cd3d1d7529a80d4781dbf08a05ad1a58b33a3edc3a8d57",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 4705,
+    "pinned": true,
+    "sha256": "e5782721a194235c9fa05397443abb97551bc0f1bfc81d783bca88bf39dc792c",
+    "target": "historical/literal-original/stock-sci/p13-domain-adapter/validate.py"
+  },
+  {
+    "bytes": 1326,
+    "pinned": true,
+    "sha256": "d39b32be755bbe2435cba77231076363533647a9c1b6f4b72e23ffa5e04d2f21",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/build.sh"
+  },
+  {
+    "bytes": 3613,
+    "pinned": true,
+    "sha256": "0c19befb470075dcfd002c1c960805cfae51945981d48027cf69f301ec45193c",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 103,
+    "pinned": true,
+    "sha256": "e92b1d49ac2f7210ef2db161a639b8544861bd0109198753c534856878ad6ee8",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/game.ini"
+  },
+  {
+    "bytes": 10700,
+    "pinned": true,
+    "sha256": "79c534bf4753020cc7f8aceb014ee84b0eeb3c0dacdfe00e5106612327f8e23e",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 68,
+    "pinned": true,
+    "sha256": "59de939e4ced746350ec4284e6e16d33053436073ab60d085475725c0d8c1f10",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/object-bindings.json"
+  },
+  {
+    "bytes": 1791,
+    "pinned": true,
+    "sha256": "079b8a9cc6e35e9c9839096bfce412c89e9be7bcf20077fb6be305bad670dfdd",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/prepare.py"
+  },
+  {
+    "bytes": 714,
+    "pinned": true,
+    "sha256": "5870ad43fb9b4485210db94524ba171326e6a128c6b1df1120f26b22e8129db0",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/src/main.sc"
+  },
+  {
+    "bytes": 32218,
+    "pinned": true,
+    "sha256": "d648f712f29432786225f1484c9862018b2949fc1af3728d0a4524a0557ce47e",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/src/methods.sc.in"
+  },
+  {
+    "bytes": 6030,
+    "pinned": true,
+    "sha256": "4a1dad677440e4bfeaee28fc2a149c3a2dce3983e13e4f7c586b0fab5e3cb3f3",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/tests/compiled_vm.py"
+  },
+  {
+    "bytes": 6027,
+    "pinned": true,
+    "sha256": "fee5193056ddc769ccfbc0d4fd44ae8c2fa679547d8894fd9c8702f60b738b03",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 23222,
+    "pinned": true,
+    "sha256": "b43fef575ce2a8c1c7c239866e124c98d35780c26ef9565a412dafa0e477d8d3",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 8775,
+    "pinned": true,
+    "sha256": "27eb79efd550913a7413bc93fc8842630bb232fa316e1e9d181523e67814dd84",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 4729,
+    "pinned": true,
+    "sha256": "a8cb8e27d662732aecc04da0c4a6169133c9ecd69c1a82ab2156faa0e1593be8",
+    "target": "historical/literal-final/stock-sci/p13-domain-adapter/validate.py"
+  },
+  {
+    "bytes": 27204,
+    "pinned": true,
+    "sha256": "0cd474faba3820d7a5b30be7fc7f78131141d9866e0288b10a8704fe02553eb5",
+    "target": "historical/literal-read/cakood/p13_model.py"
+  },
+  {
+    "bytes": 7150,
+    "pinned": true,
+    "sha256": "6d87734f1741479a8af9c3ad2382337fac98a81080732c7ea18c6457d0bc2cd7",
+    "target": "historical/literal-read/docs/p13-state-contract.md"
+  },
+  {
+    "bytes": 1868,
+    "pinned": true,
+    "sha256": "28d813763da092bc155dfc11ce9f59b4667bf46ed00be52e2ddce42d6c3f1346",
+    "target": "historical/literal-read/stock-sci/compiler-boolean-proof/AUTHORING_RULE.md"
+  },
+  {
+    "bytes": 1326,
+    "pinned": true,
+    "sha256": "0cb144a300cd5fa0c4d1e24f98dc13f740e71f290106dbe3f89743b3fe73426a",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/build.sh"
+  },
+  {
+    "bytes": 4167,
+    "pinned": true,
+    "sha256": "1bd56b3418d6c878f708fd607187cbc22896007d9ff3b0223a789cd78086290f",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 10493,
+    "pinned": true,
+    "sha256": "c57fa58087f6bee02079932dc77ebc3fb4be608f333c117b4bf1cbc939bc14bf",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 1791,
+    "pinned": true,
+    "sha256": "596249049fd4f4f8fe5d3515e06cbace4c7225d389acba58f563ec2e5b7106ac",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/prepare.py"
+  },
+  {
+    "bytes": 679,
+    "pinned": true,
+    "sha256": "ebb9444d8f4b2cd79304972558eaa8ec7ac694d297e717505dfeabad4d04f134",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/src/main.sc"
+  },
+  {
+    "bytes": 23913,
+    "pinned": true,
+    "sha256": "7c7195fdd4a5ff2b2c922d7fd993c1f429c84c28e3b0087cef183b2c923151da",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/src/methods.sc.in"
+  },
+  {
+    "bytes": 6165,
+    "pinned": true,
+    "sha256": "91550c4c42a89f1ebd2fae92146ce1fbeb4c9bd1d325e9677dbe4544b5ccf665",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/compiled_vm.py"
+  },
+  {
+    "bytes": 6027,
+    "pinned": true,
+    "sha256": "4a37dfc5f52ae9561b696005511e39cbb822c6914b7fe2a62fd9925870d6f166",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 19047,
+    "pinned": true,
+    "sha256": "2cb3555def38d6289bab66359df7484674beed5116cfac3e8bf17c7770ecae6c",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 5987,
+    "pinned": true,
+    "sha256": "563ef6c4d0b9e737d29f536b29aeced22b94ab4627d1c9d801e982cca1ca2a13",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 4705,
+    "pinned": true,
+    "sha256": "a4b3d3edf438d207d402e13b7655c1eed88c83bb3893945f84fd7a3af09d05d9",
+    "target": "historical/literal-read/stock-sci/p12-domain-adapter/validate.py"
+  },
+  {
+    "bytes": 103,
+    "pinned": true,
+    "sha256": "e92b1d49ac2f7210ef2db161a639b8544861bd0109198753c534856878ad6ee8",
+    "target": "historical/literal-read/stock-sci/p13-domain-adapter/game.ini"
+  },
+  {
+    "bytes": 11306,
+    "pinned": true,
+    "sha256": "3d45272ea67aa9a7e4c208952da8e895b40c581fff99ec5c81f0b29f3f4c6622",
+    "target": "historical/literal-read-partial/cakood/p12_model.py.part"
+  },
+  {
+    "bytes": 8677,
+    "pinned": true,
+    "sha256": "bcb0cf20805fff5d61f1dd0e7f161c4dfd14cc69bd0792319cf0c804082f0d4e",
+    "target": "historical/literal-read-partial/stock-sci/p12-domain-adapter/src/methods-consumed-prefix.sc.in"
+  },
+  {
+    "bytes": 4039,
+    "pinned": true,
+    "sha256": "df2697d758a689955ec318f28783e69365e8e9e31e68008baae7192515446b80",
+    "target": "historical/literal-read-partial/tests/test_late_campaign_models.py.lines1-85.part"
+  },
+  {
+    "bytes": 6383,
+    "pinned": true,
+    "sha256": "59f45cee3efacafd8ee9c3ecd18e9e440ce668b671b5b0ec838c1e98a515b682",
+    "target": "historical/literal-read-partial/tests/test_late_campaign_models.py.lines197-289.part"
+  },
+  {
+    "bytes": 31025,
+    "pinned": true,
+    "sha256": "f7ea1f2204aa314764ee3f6c704f6fc8642390c843b8de45e5b12e90544341b6",
+    "target": "historical/literal-derived/stock-sci/p13-domain-adapter/src/methods-after-patch1.sc.in"
+  },
+  {
+    "bytes": 31117,
+    "pinned": true,
+    "sha256": "b1980694839ad57974c1ca421bcef27251a82393ace74c463427d5460773f152",
+    "target": "historical/literal-derived/stock-sci/p13-domain-adapter/src/methods-after-patch2.sc.in"
+  },
+  {
+    "bytes": 32201,
+    "pinned": true,
+    "sha256": "74b9d60831ff98036d72321c764dd2be3c6eb1359f7a221cec7216876ebfe2a6",
+    "target": "historical/literal-derived/stock-sci/p13-domain-adapter/src/methods-after-patch3.sc.in"
+  },
+  {
+    "bytes": 8379,
+    "pinned": true,
+    "sha256": "95eafcfbe07efcfa1d9fb58a6e2d778a75ba6c4e80fa9bc809aab200fd29599d",
+    "target": "historical/literal-derived/stock-sci/p13-domain-adapter/src/methods-base.sc.in"
+  },
+  {
+    "bytes": 328,
+    "pinned": true,
+    "sha256": "12810c1ffc9408df22756ffda5144be8fb96eeeef4d534254ff9fa84138d5fdb",
+    "target": "historical/recorded-edits/p12-template-overlap-check.json"
+  },
+  {
+    "bytes": 320,
+    "pinned": true,
+    "sha256": "3333f385dd8b01cdf812a996e0a68b8bfd50ae1bfc52c07e3e25c52f4e1dea04",
+    "target": "historical/recorded-edits/p12-test-domain-overlap-check.json"
+  },
+  {
+    "bytes": 743,
+    "pinned": true,
+    "sha256": "7928af4ffc0d0fdb0dd70627dd527ae8eaed15cf0a04c7e2caff93430f5600e1",
+    "target": "historical/recorded-edits/p13-compiled-vm-optimization.json"
+  },
+  {
+    "bytes": 529,
+    "pinned": true,
+    "sha256": "dbd9b84e7c576f0a81027a352a1200cdc4f6c376a6f107d690ae32db7f074728",
+    "target": "historical/recorded-edits/p13-compiled-vm-original-arithmetic-block.txt"
+  },
+  {
+    "bytes": 1059,
+    "pinned": true,
+    "sha256": "deee92ee3d1aa2da59f6de252d70f024fda6261208ab30799f86c014bf320ce2",
+    "target": "historical/recorded-edits/p13-generator-replacements.json"
+  },
+  {
+    "bytes": 1100,
+    "pinned": true,
+    "sha256": "96e65260a171265c2d43a53b7a87a3d537140aeb07e0dcb32d770271db6561d6",
+    "target": "historical/recorded-edits/p13-helper-copy-and-later-edits.json"
+  },
+  {
+    "bytes": 906,
+    "pinned": true,
+    "sha256": "9f9b2d410fff66157c2a2b0ff7f1c2cf6e9c93d907ace20e07d93a6abfb438f5",
+    "target": "historical/recorded-edits/p13-readme-acceptance-insertion.md"
+  },
+  {
+    "bytes": 1020,
+    "pinned": true,
+    "sha256": "fc98d5e6144870f2783eeca39e8466e89bada9c61e0b3ded513a5323063950b9",
+    "target": "historical/recorded-edits/p13-template-base-recipe.json"
+  },
+  {
+    "bytes": 892,
+    "pinned": true,
+    "sha256": "b5763b9cf8f4435a33d129de44ea9e1ed40984c5ece79411070ed8eb7edc7220",
+    "target": "historical/recorded-edits/p13-template-patch1-switch-returns.json"
+  },
+  {
+    "bytes": 612,
+    "pinned": true,
+    "sha256": "7dc676d1c0ca3ba0b0be6ef53c1452bcfdcbca14092d520ace4033d356c92722",
+    "target": "historical/recorded-edits/p13-template-patch2-3-instructions.json"
+  },
+  {
+    "bytes": 637,
+    "pinned": true,
+    "sha256": "e0394581184e712bd7f1907ca9931ec3b22dffc36cdd176920521a29fe482a34",
+    "target": "historical/recorded-edits/p13-template-patch2-validator-tail.txt"
+  },
+  {
+    "bytes": 1084,
+    "pinned": true,
+    "sha256": "5d25825885dc792aea20e06897767b1d2bd72c1ffcd34fab752a14a60770e0ea",
+    "target": "historical/recorded-edits/p13-template-patch3-preview-append.txt"
+  },
+  {
+    "bytes": 816,
+    "pinned": true,
+    "sha256": "c2187d6acfadf53a015785292cc455b462232bc91bef3f4cd1653bc61aeb39f7",
+    "target": "historical/recorded-edits/p13-template-patch4-signed-dispatch.json"
+  },
+  {
+    "bytes": 492,
+    "pinned": true,
+    "sha256": "c2e90fa30ec721450d068ff7b5e2904dc261f9182a7de21687e2175ee08d9f6c",
+    "target": "historical/recorded-edits/p13-test-domain-dispatch-replacement.json"
+  },
+  {
+    "bytes": 295,
+    "pinned": true,
+    "sha256": "87dee46435d622ef93c89f68bd0f19a3982e653b31d9ec0d5a1cacec7ac19bf2",
+    "target": "historical/recorded-edits/p13-test-validation-main-relocation.json"
+  },
+  {
+    "bytes": 2053,
+    "pinned": true,
+    "sha256": "7134fb9b65a27df726f73d132796724f007aa06c68e4cd44f6accc5c96903608",
+    "target": "historical/recorded-edits/p13-test-validation-route-matrix-append.txt"
+  },
+  {
+    "bytes": 0,
+    "pinned": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target": "component/cakood/__init__.py"
+  },
+  {
+    "bytes": 9871,
+    "pinned": true,
+    "sha256": "0371f8899410bbe9f230ad80aace72026328db818a456db4a46d7bf9c8049606",
+    "target": "component/cakood/model.py"
+  },
+  {
+    "bytes": 42729,
+    "pinned": true,
+    "sha256": "3dd71164dc0a509c0065c232dba446ef8d2fb113d0d21c11580365d0a4a4ac95",
+    "target": "component/cakood/p02_model.py"
+  },
+  {
+    "bytes": 496,
+    "pinned": true,
+    "sha256": "8cf6617d2b9e1b78b3e41ae427ddb4ad1681d19901dc62f18fe97280cbd960e4",
+    "target": "component/cakood/p03_model.py"
+  },
+  {
+    "bytes": 1377,
+    "pinned": true,
+    "sha256": "3a99f6092bc07bfff544d90807f6c3d315754f9401fc110c0b6806cd489fc64e",
+    "target": "component/cakood/p04_model.py"
+  },
+  {
+    "bytes": 29001,
+    "pinned": true,
+    "sha256": "632aec0cb4c8cb6136c33b60c33610bc2d7ea922d5c0e874c82f786c6089d061",
+    "target": "component/cakood/p09_model.py"
+  },
+  {
+    "bytes": 29118,
+    "pinned": true,
+    "sha256": "01505ec8adb19ecad5993a490d1a31ba2c4bd0c729fe5c540a30051260d5295c",
+    "target": "component/cakood/p10_model.py"
+  },
+  {
+    "bytes": 29281,
+    "pinned": true,
+    "sha256": "ee0069e2e3e796f351279c5950c0df43b7db130f5bd85eb103c6f38940e88439",
+    "target": "component/cakood/p11_model.py"
+  },
+  {
+    "bytes": 22766,
+    "pinned": true,
+    "sha256": "0dae7af7c5ff8a6b843181caf93ec455c89fa68414f04f14c34f207fef241d6d",
+    "target": "component/cakood/p12_model.py"
+  },
+  {
+    "bytes": 27363,
+    "pinned": false,
+    "sha256": "2eab5cf17b3926a44a22343d07fc46d50da0d04e2dd8e0ebfb1aefe2558ceb03",
+    "target": "component/cakood/p13_model.py"
+  },
+  {
+    "bytes": 1020,
+    "pinned": true,
+    "sha256": "c933bd958c1c957257e49b28b008a5a7447aee805f7f4e791517f9ce7447485d",
+    "target": "component/cakood/verbal_contest.py"
+  },
+  {
+    "bytes": 0,
+    "pinned": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target": "component/dependencies/__init__.py"
+  },
+  {
+    "bytes": 316942,
+    "pinned": true,
+    "sha256": "cd11fda0a88847aa2d6650acf76d8a606ac9f62004dd18090f61033d69c7851e",
+    "target": "component/dependencies/data/canonical-bindings.json"
+  },
+  {
+    "bytes": 5337,
+    "pinned": true,
+    "sha256": "5a1c96ebdcf701909c3ce4f0abc9ad25dde591eaf75280d727bcffea97f28c8a",
+    "target": "component/dependencies/domain_source_vm.py"
+  },
+  {
+    "bytes": 14115,
+    "pinned": true,
+    "sha256": "169432488b093b7d232582c009b0459a1baf5ccaac2a2cf7f8f53bb8c35d7090",
+    "target": "component/dependencies/p03_numeric_model.py"
+  },
+  {
+    "bytes": 14992,
+    "pinned": true,
+    "sha256": "f5dbf243c16d2d6b480860e1608204d3d174fbb85c10a75f142d13376f711ec7",
+    "target": "component/dependencies/p04-abi.json"
+  },
+  {
+    "bytes": 23775,
+    "pinned": true,
+    "sha256": "304d580b2ae3f6f57d235344d2b09eeac7c68b6b38e3df72278c280c82f1cf67",
+    "target": "component/dependencies/p04_numeric_model.py"
+  },
+  {
+    "bytes": 5337,
+    "pinned": true,
+    "sha256": "4634fc61960b39804a6a80be0ae085184fb22e85e4730d12a82de2cad2f70557",
+    "target": "component/dependencies/p06_domain_source_vm.py"
+  },
+  {
+    "bytes": 23617,
+    "pinned": true,
+    "sha256": "19115a1d55f1380aafe88d0adb45b5a0274290b71abee1d53ac2b996f9a81c89",
+    "target": "component/dependencies/p09-schema.json"
+  },
+  {
+    "bytes": 24465,
+    "pinned": true,
+    "sha256": "441af1d58b9a83024b03a1dae4baa2a3c20488044678fadd9ddf997e22ea67c5",
+    "target": "component/dependencies/p10-current-manifest.json"
+  },
+  {
+    "bytes": 1813,
+    "pinned": true,
+    "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56",
+    "target": "component/dependencies/source_tools.py"
+  },
+  {
+    "bytes": 0,
+    "pinned": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "target": "component/dependencies/vc_owner/__init__.py"
+  },
+  {
+    "bytes": 43625,
+    "pinned": true,
+    "sha256": "33f4dcaad73178ffc76cf9368dac97b3e311b2b150ddbc3059ba97af5f565434",
+    "target": "component/dependencies/vc_owner/verbal_contest.py"
+  },
+  {
+    "bytes": 408,
+    "pinned": true,
+    "sha256": "5747ac477d563d7c91940f636cdacf3b83d9b734138d3691857d19a396c3c7d3",
+    "target": "component/authority/CURRENT-SCRIPT-REVISION.json"
+  },
+  {
+    "bytes": 31826,
+    "pinned": true,
+    "sha256": "62c3329fe59a92d407dbdbd3850966581386be9fcc5ed0c2cd276ed528316bdc",
+    "target": "component/authority/accepted-insult-pairs.json"
+  },
+  {
+    "bytes": 210993,
+    "pinned": true,
+    "sha256": "18e2eb1a300cc1ac1192916441b640ca6134af619ee17eb424637b4dde28647c",
+    "target": "component/authority/complete-body.md"
+  },
+  {
+    "bytes": 1346630,
+    "pinned": true,
+    "sha256": "3c6a8dc5a4afacd9704a79f84044d6dad623aa596df9e7638c8dff29e607150c",
+    "target": "component/authority/full-line-catalog.json"
+  },
+  {
+    "bytes": 2049,
+    "pinned": true,
+    "sha256": "455b2bb18ed3231d97ba6fe805781452997e97bf715368c4fea4b4aa5e9a3136",
+    "target": "component/authority/retained-registry-subset.json"
+  },
+  {
+    "bytes": 417867,
+    "pinned": true,
+    "sha256": "d143242b3d56f57331b0adfb73481425792c0757f57bc0c01a1b94561527c475",
+    "target": "component/authority/speech-units.json"
+  },
+  {
+    "bytes": 725,
+    "pinned": true,
+    "sha256": "df55187276964311dccf895b4e039c1052f6398324cdab3564f043610a415723",
+    "target": "component/tools/assertions.py"
+  },
+  {
+    "bytes": 3039,
+    "pinned": true,
+    "sha256": "1ff0946ef048fb2ceb7c1a0fe174372515291845fd5485b37a9b7b9256864fb4",
+    "target": "component/tests/test_verbal_contest.py"
+  },
+  {
+    "bytes": 14928,
+    "pinned": true,
+    "sha256": "e8afa7faa3a3d50b59fa0adf968e5f1ebfb217258e357a6a6c1230e5b4234b25",
+    "target": "historical/accepted-p12/test_p12_current.py"
+  },
+  {
+    "bytes": 37443,
+    "pinned": true,
+    "sha256": "dd4f0fa187cff9b22df3218b0a5cfc0dd87d7a3d7f26ee1ffb0b324f8dfda215",
+    "target": "component/cakood/p08_model.py"
+  },
+  {
+    "bytes": 17131,
+    "pinned": true,
+    "sha256": "5b673ca1d72718130b8d43c6c78e46c0c3060cd2ab6d313bfed874c2120ef1ff",
+    "target": "component/dependencies/p07_owner/DESIGN.md"
+  },
+  {
+    "bytes": 4829,
+    "pinned": true,
+    "sha256": "de59390d20ecdf5d52c6543976fe2879b2c4c1ab1c31c11bfe456b7149f5a9f4",
+    "target": "component/dependencies/p07_owner/REVISION-2.md"
+  },
+  {
+    "bytes": 81,
+    "pinned": true,
+    "sha256": "8dbd96e34069224c8bd0a1fe61ac6a8ce963ce79db62d7fed0211bfa7dec812e",
+    "target": "component/dependencies/p07_owner/cakood/__init__.py"
+  },
+  {
+    "bytes": 56215,
+    "pinned": true,
+    "sha256": "a6c5fda3cdfbf36cd2d7607189f370878d1c9c3f390758534ecf3a907d199b81",
+    "target": "component/dependencies/p07_owner/cakood/canonical-bindings.json"
+  },
+  {
+    "bytes": 7742,
+    "pinned": true,
+    "sha256": "68afabf7f58397cfdbabaa040e11a0a8405c251fe0a296e9797929237ca2a355",
+    "target": "component/dependencies/p07_owner/cakood/composition.py"
+  },
+  {
+    "bytes": 37433,
+    "pinned": true,
+    "sha256": "826b8c124775cdfafe53c127c9a78c5959ae95d7f29888fce7ae780cc2120e89",
+    "target": "component/dependencies/p07_owner/cakood/p07_model.py"
+  },
+  {
+    "bytes": 6562,
+    "pinned": true,
+    "sha256": "bf2499ee1bc0c0276f2776ce42ce470fbaeaddd8ee61c5b44debf3f22136bce2",
+    "target": "component/dependencies/p07-current-domain/manifest.json"
+  },
+  {
+    "bytes": 20415,
+    "pinned": true,
+    "sha256": "3d091dbad11b56dca88848226f93ff4667b5f2cfe7193dca9db6adf02f9dbe23",
+    "target": "component/dependencies/p07-current-domain/layout.json"
+  },
+  {
+    "bytes": 41178,
+    "pinned": true,
+    "sha256": "947541e4376ca2f73dd497a8ce2885c52276cfc912af7fe98efd81da6b12f956",
+    "target": "component/dependencies/p07-current-domain/module988.sc"
+  },
+  {
+    "bytes": 7016,
+    "pinned": true,
+    "sha256": "6b07e4ecbe86b7daedff99af784fd1e0f8ac1979c21a4efcbcf89091935c5dbb",
+    "target": "component/dependencies/p07-current-domain/ABI.md"
+  },
+  {
+    "bytes": 4623,
+    "pinned": true,
+    "sha256": "876b084292290f5c64190e1ce8bfe896a3a016840c29d399c1e818e5c417533f",
+    "target": "component/dependencies/p07-current-domain/HOST-CONTRACT.md"
+  },
+  {
+    "bytes": 39166,
+    "pinned": true,
+    "sha256": "2653be9a70f7b4668107a813abdbb3d5f0afbab7c4fbe169a3f5acf79aede51b",
+    "target": "component/dependencies/p11-current-manifest.json"
+  },
+  {
+    "bytes": 3613,
+    "pinned": false,
+    "sha256": "0c19befb470075dcfd002c1c960805cfae51945981d48027cf69f301ec45193c",
+    "target": "component/stock-sci/p13-domain-adapter/codec.py"
+  },
+  {
+    "bytes": 10191,
+    "pinned": false,
+    "sha256": "38ee7d4099d84e1eb0fbdd23a4a251d25889512b638992c1b433ca8aab9a579f",
+    "target": "component/stock-sci/p13-domain-adapter/generate.py"
+  },
+  {
+    "bytes": 68,
+    "pinned": false,
+    "sha256": "59de939e4ced746350ec4284e6e16d33053436073ab60d085475725c0d8c1f10",
+    "target": "component/stock-sci/p13-domain-adapter/object-bindings.json"
+  },
+  {
+    "bytes": 32218,
+    "pinned": false,
+    "sha256": "d648f712f29432786225f1484c9862018b2949fc1af3728d0a4524a0557ce47e",
+    "target": "component/stock-sci/p13-domain-adapter/src/methods.sc.in"
+  },
+  {
+    "bytes": 1647,
+    "pinned": false,
+    "sha256": "155c4412557ff8d4539ab1a3ffb589265d33399e20db03b2806926b5c68db21c",
+    "target": "component/stock-sci/p13-domain-adapter/tests/source_vm.py"
+  },
+  {
+    "bytes": 23225,
+    "pinned": false,
+    "sha256": "338187eaba76069ce7d6fd031d9b91731b367d29a02e78a1c1900ff2f689f2a0",
+    "target": "component/stock-sci/p13-domain-adapter/tests/test_domain.py"
+  },
+  {
+    "bytes": 8966,
+    "pinned": false,
+    "sha256": "d6a87ceb7608180fae8fc17d7341d71132c36fefc8abbcd2419628b541ce2b4d",
+    "target": "component/stock-sci/p13-domain-adapter/tests/test_validation.py"
+  },
+  {
+    "bytes": 71663,
+    "pinned": true,
+    "sha256": "6f7e452867184b37f419e006911ca9edf4811a5cfc4478146c7161fc8099169e",
+    "target": "component/dependencies/p07-current-host/module988.sc"
+  }
+]

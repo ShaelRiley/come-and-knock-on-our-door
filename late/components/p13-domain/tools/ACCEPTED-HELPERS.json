@@ -1,0 +1,45 @@
+{
+  "status": "BYTE_IDENTICAL_COPIES",
+  "files": [
+    {
+      "source": "P12 accepted revision3/tools/host_vm.py",
+      "destination": "tools/host_vm.py",
+      "sha256": "210b80964518bed64d19516412e66ea98065454b13751c0c746c146243cf5349"
+    },
+    {
+      "source": "P12 accepted revision3/tools/extract_sci11.py",
+      "destination": "tools/extract_sci11.py",
+      "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d"
+    },
+    {
+      "source": "P12 accepted revision3/tools/pack.py",
+      "destination": "tools/pack.py",
+      "sha256": "630b867ba6ef09f16fe226978c18d145ee10c03eca1f19782ece31c5b835db3d"
+    },
+    {
+      "source": "P12 accepted revision3/tools/source_tools.py",
+      "destination": "tools/source_tools.py",
+      "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56"
+    },
+    {
+      "source": "P12 accepted revision3/tools/domain_source_vm.py",
+      "destination": "tools/domain_source_vm.py",
+      "sha256": "5a1c96ebdcf701909c3ce4f0abc9ad25dde591eaf75280d727bcffea97f28c8a"
+    },
+    {
+      "source": "P12 accepted revision3/tools/p06_domain_source_vm.py",
+      "destination": "tools/p06_domain_source_vm.py",
+      "sha256": "4634fc61960b39804a6a80be0ae085184fb22e85e4730d12a82de2cad2f70557"
+    },
+    {
+      "source": "P12 accepted revision3/tools/reference/opcode-tables.json",
+      "destination": "tools/reference/opcode-tables.json",
+      "sha256": "31080702b6e3f8220742fe5826aa811829944a0564feb43b70ddf8c2c661491a"
+    },
+    {
+      "source": "P12 accepted revision3/tools/reference/kernels.json",
+      "destination": "tools/reference/kernels.json",
+      "sha256": "d86ce2f3fb76e2d8ea09fd507716f4fa66440a70ea242b4378fb9b01a574e535"
+    }
+  ]
+}
