@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "revision": "r17",
+  "status": "PUBLIC_SOURCE_WIP_BOUNDED_EVIDENCE",
+  "base_commit": "6942753fc0081abc483c0cf99a122e1c542d75bd",
+  "compile_receipt_sha256": "529836a5bed4111ec7917e94c9e40ac63d1d92bccf51fba6c26502f5fac1fda1",
+  "canonical_main_sha256": "da6b9e59a328eb9f0f87d4c4f75f1431c94a42eeb9204c538db1e97761e8c492",
+  "module0_script_sha256": "6bb6a8b7f4b2684e0bc98e06281768cacf0e5dd1524533205e16f03c15d35373",
+  "source_change": {
+    "methods": [
+      "audioTrace",
+      "hostTrace",
+      "speechTrace"
+    ],
+    "production_default": "CSV writers disabled",
+    "testMode_changed": false,
+    "new_player_diagnostic_controls": false,
+    "changed_script_bytes": 11,
+    "byte_replacements": [
+      {
+        "offset": 1699,
+        "before": "62ac00",
+        "after": "350048"
+      },
+      {
+        "offset": 16451,
+        "before": "39035b0401",
+        "after": "3500481818"
+      },
+      {
+        "offset": 36608,
+        "before": "633e18",
+        "after": "350048"
+      }
+    ]
+  },
+  "previously_completed_candidate_checks": {
+    "production_compile": "PASS",
+    "independent_cold_output_identity": "PASS",
+    "exact_11_byte_and_effective_layout_certificate": "PASS",
+    "bounded_normal_callers": {
+      "status": "PASS",
+      "case_count": 12,
+      "scope": "Fresh boot, speech, settings, observation, menus and normal save/restore chooser cancellation; no full route or native state modeled"
+    },
+    "diagnostic_original_output_identity": "PASS",
+    "diagnostic_behavior": "NOT_RERUN"
+  },
+  "layout_scope": {
+    "all_heaps_and_other_scripts_unchanged": true,
+    "effective_selectors_properties_locals_exports_method_addresses_strings_relocations_unchanged": true,
+    "raw_extractor_exception": "Two cakood instance property labels/IDs are artifacts of a nonexistent selector table read from the changed script bytes. The portable verifier permits only the exact two recorded artifacts and checks unchanged inherited selectors and all other layout fields."
+  },
+  "native_observation_summary": {
+    "status": "BOUNDED_PASS",
+    "covered": [
+      "New game and ordinary speech/mouth presentation",
+      "No incidental trace CSV creation during covered play",
+      "Normal F2/F3 save and restore",
+      "One untouched r16 save restore and new r17 save restores",
+      "Earned VC03 win and subsequent restore"
+    ],
+    "P12_through_ending": "UNRUN",
+    "complete_campaign_acceptance": false,
+    "universal_save_compatibility_claimed": false
+  },
+  "public_packaging_execution": {
+    "compile": "NOT_RUN",
+    "tests": "NOT_RUN",
+    "runtime": "NOT_RUN",
+    "portable_verifier": "ADAPTED_SOURCE_NOT_RERUN",
+    "public_cold_build": "NOT_RERUN"
+  },
+  "rights_provenance": "Unchanged from r16, including individual art-origin record gaps and music ownership qualifications"
+}

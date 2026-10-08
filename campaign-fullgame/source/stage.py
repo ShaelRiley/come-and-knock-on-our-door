@@ -5,6 +5,7 @@ H=Path(__file__).resolve().parent;B=H/'build/coherent';O=H/'stage';G=O/'game'
 assert not O.exists(),'Refuse staged program overwrite'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 c=json.loads((B/'compile-receipt.json').read_text());assert c['status']=='PASS_FRESH_COMPILE'
+assert c.get('diagnostic_traces') is False and c.get('trace_mode')=='production-disabled'
 assert {r['module'] for r in c['modules']}=={0,*range(980,1000)}
 sys.path.insert(0,str(H/'tools'));from resource_codec import encode,decode
 resources={}
@@ -23,5 +24,5 @@ m,v=encode(resources);assert decode(m,v)==resources
 (G/'resource.map').write_bytes(m);(G/'resource.000').write_bytes(v)
 files={p.name:{'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(G.iterdir())}
 assert len(files)==1713
-r={'status':'STATIC_STAGED_UNLAUNCHED_FULLGAME','compile_sha256':sha(B/'compile-receipt.json'),'files':files,'typed_resources':len(resources),'audio_manifest_sha256':sha(H/'AUDIO-INVENTORY.json'),'credit_selection_sha256':sha(H/'P14-CREDIT-URLS.json'),'source_mode':'editable_canonical_public_inputs','native_acceptance':False,'genuine_campaign_acceptance':False,'save_compatibility':'New game required; no prior native-save migration claimed'}
+r={'status':'STATIC_STAGED_UNLAUNCHED_FULLGAME','compile_sha256':sha(B/'compile-receipt.json'),'files':files,'typed_resources':len(resources),'audio_manifest_sha256':sha(H/'AUDIO-INVENTORY.json'),'credit_selection_sha256':sha(H/'P14-CREDIT-URLS.json'),'source_mode':'editable_canonical_public_inputs','native_acceptance':False,'genuine_campaign_acceptance':False,'save_compatibility':'Bounded ordinary native save/restore checked separately; no universal save compatibility claim'}
 (O/'GAME-MANIFEST.json').write_text(json.dumps(r,indent=2)+'\n');print(r['status'],len(files),len(resources),sha(O/'GAME-MANIFEST.json'))

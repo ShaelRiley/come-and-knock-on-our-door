@@ -7,8 +7,8 @@
       "executable": false
     },
     "CHECKPOINT.json": {
-      "sha256": "98e8a8bada5d475128951ee662c9ed7a6b1c124f1f189a0782d76b5f016d3779",
-      "bytes": 806,
+      "sha256": "8ada3419132fdd9b65e786880f37835b80f266dfba6e70b8588a0419f63db264",
+      "bytes": 842,
       "executable": false
     },
     "CREDITS-AND-RIGHTS.txt": {
@@ -22,8 +22,8 @@
       "executable": false
     },
     "OUTPUT-PINS.json": {
-      "sha256": "1b20b5891b08452cf4d9014d70957a8435a0e565c8756be26ccf81d5d4a57559",
-      "bytes": 411240,
+      "sha256": "8017b701425ce0741cb9c95e4e500e71599673f73a169ca9a30c5816168b1c0c",
+      "bytes": 411405,
       "executable": false
     },
     "PRIVACY-AUDIT.json": {
@@ -32,12 +32,12 @@
       "executable": false
     },
     "README.md": {
-      "sha256": "487ed180dbdf030d532ba1de04261f0f8b6fdb63e6bc73724a24463f8882eca5",
-      "bytes": 5699,
+      "sha256": "859d070e285e954238c21a3cc76f5d35ae6a3803f18fabc051f16a0af9b96d39",
+      "bytes": 5087,
       "executable": false
     },
     "SOURCE-MANIFEST.json": {
-      "sha256": "6b58c392cd0ef95774290cdffc9dfbae68d77fb4945bd14b99e575540cdedbf1",
+      "sha256": "616ad02b732f650b5905cf33f5e927d304ae6896e1e27145800aeebe5b87b25b",
       "bytes": 364385,
       "executable": false
     },
@@ -9212,8 +9212,8 @@
       "executable": false
     },
     "source/build.py": {
-      "sha256": "8db364b34d96230f5481fd34d8fe8e1ccff5fa8aebf93a0c1cbcfda3b292bc47",
-      "bytes": 8669,
+      "sha256": "30c913a1bfc980c5debd4d888a22e69d6649729a593c4a40ca2bf0366f6bc939",
+      "bytes": 8726,
       "executable": false
     },
     "source/selectors.json": {
@@ -9222,8 +9222,8 @@
       "executable": false
     },
     "source/src/main.sc": {
-      "sha256": "2c438234cba959f62f5875fa83294e1f8a72bab671a65b854e6aad5e40285160",
-      "bytes": 348618,
+      "sha256": "da6b9e59a328eb9f0f87d4c4f75f1431c94a42eeb9204c538db1e97761e8c492",
+      "bytes": 349086,
       "executable": false
     },
     "source/src/module980.sc": {
@@ -9327,8 +9327,8 @@
       "executable": false
     },
     "source/stage.py": {
-      "sha256": "f9661422b3805b169b77da762d5b83888f2538fd7e0be21e5ee8d36d962ecea1",
-      "bytes": 2294,
+      "sha256": "f23c4de48bfea2a8bee46e6141780e4263355bfdde1b3befbc97199ee0823b79",
+      "bytes": 2421,
       "executable": false
     },
     "source/toolchain/COMPILER-DEPENDENCY-CLOSURE.json": {
@@ -10372,8 +10372,8 @@
       "executable": false
     },
     "testing/run_static.py": {
-      "sha256": "a1441f25cacb4108badb2ddd99e8cc255d776299842fda554a1a80dceaaa1208",
-      "bytes": 7971,
+      "sha256": "27fba27fcbe94c9fa7c8a3fb711769e5dcb3be34290cc180966cff250fe66139",
+      "bytes": 7977,
       "executable": false
     },
     "testing/scenes/contest.json": {
@@ -10449,6 +10449,21 @@
     "verify_payload.py": {
       "sha256": "92bdd090a0eed6815c073cbdce9ee06c45669c0c4529d9ff7a3c678a5049bfd0",
       "bytes": 783,
+      "executable": false
+    },
+    "testing/verify_trace_delta.py": {
+      "sha256": "54106f6a4aab3993d41332ba744d1ab0010a057a1dd0cd4831923d5035a08e68",
+      "bytes": 8434,
+      "executable": false
+    },
+    "verification/README.md": {
+      "sha256": "d305c8132db2c7b4bd4cd9b795cef301b46f677ad90838746c96dbb45a7c3a1a",
+      "bytes": 911,
+      "executable": false
+    },
+    "verification/R17-STATUS.json": {
+      "sha256": "89e70d693ecece36d9161329afd51bd637ca876afdd8c961c170b14efa5c24ae",
+      "bytes": 2848,
       "executable": false
     }
   },

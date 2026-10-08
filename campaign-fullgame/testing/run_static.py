@@ -15,7 +15,7 @@ from source_tools import tokens
 from resource_codec import decode
 from inspect_view import decode_view
 sha=lambda b:hashlib.sha256(b).hexdigest()
-res=decode((G/'resource.map').read_bytes(),(G/'resource.000').read_bytes());receipt=json.loads((R/'build/coherent/compile-receipt.json').read_text());assert sha((R/'build/coherent/compile-receipt.json').read_bytes())=='b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48'
+res=decode((G/'resource.map').read_bytes(),(G/'resource.000').read_bytes());receipt=json.loads((R/'build/coherent/compile-receipt.json').read_text());assert sha((R/'build/coherent/compile-receipt.json').read_bytes())==json.loads((C/'OUTPUT-PINS.json').read_text())['compile_receipt_sha256']
 sourcepins={}
 for row in receipt['modules']:
  n=row['module'];p=R/'src'/('main.sc' if n==0 else f'module{n}.sc');assert sha(p.read_bytes())==row['source_sha256'];sourcepins[p.name]=row['source_sha256'];assert sha(res[2,n])==row['script_sha256'] and sha(res[17,n])==row['heap_sha256']

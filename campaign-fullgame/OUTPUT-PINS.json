@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "status": "WIP_SOURCE_OUTPUT_IDENTITY_ONLY",
-  "compile_receipt_sha256": "b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48",
+  "status": "R17_REFERENCE_OUTPUT_IDENTITY_PUBLIC_REBUILD_NOT_RERUN",
+  "compile_receipt_sha256": "529836a5bed4111ec7917e94c9e40ac63d1d92bccf51fba6c26502f5fac1fda1",
   "outputs": {
-    "compile-receipt.json": "b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48",
+    "compile-receipt.json": "529836a5bed4111ec7917e94c9e40ac63d1d92bccf51fba6c26502f5fac1fda1",
     "selector-list.json": "7946cedd6b6266055a88a0bce695e9773b502a8e675bf3b7e6511fb7406c76e9",
     "selector-aliases.json": "34598eb2cbf0d42f8d4582529fb3e5c07d99e471cb05cc649230da3e0ddc675c",
-    "selector-alias-ledger.json": "faff9990521e52a28ffdc1b3b582e2112f69524011ea78e3a68b6ff539f15fae",
+    "selector-alias-ledger.json": "c6e63a88292a276943d1f533f9aa88e0ea190bdf7adecd4c3407ba9d09addbf3",
     "resource.map": "e4057d6e37854c56465b605cb1e66de3f9868a7ea707cf7964b974582fc09337",
     "resource.000": "5eb2298ecb878362a54df08c6435381d023621ed6c1afe6674a45290a0906a32",
     "manifest.json": "08f15a380c70b21ad8566c324a7df939fdf471fde439e98622fbe0371c7a61d7",
     "game.ini": "021d967151a34fb25b9e43c319aea197fd523675bf8a7174ce4141a41a4a51a4",
     "verification-checkpoint/reference/resources.json": "3bb42a18a0c65f2eb786315137c2832b51d7f2a47773c6bc8eb5482f83f1c777",
-    "compiled/0.scr.bin": "83df2667474627be8b598a677912f6cd2e8abc33867635074a0c5fbb5f248d69",
+    "compiled/0.scr.bin": "6bb6a8b7f4b2684e0bc98e06281768cacf0e5dd1524533205e16f03c15d35373",
     "compiled/0.scr.bin.hep": "945d334de1ac53a73f9c449d9892804cdffacb67340daa90b7691e43726d8753",
     "compiled/980.scr.bin": "1472980f5712bc475818152d5a027d9f79f643eaf559284988040d7593ea1dec",
     "compiled/980.scr.bin.hep": "8a9f4f4cfff7de09de038bb76c2657cbdb83f7b404585df93987d9fc76535168",
@@ -54,7 +54,7 @@
     "compiled/998.scr.bin.hep": "2bfc0b02663c345fa6b45f6bf4f44f9751cf389be63ec8ff99b8bb3775bcea52",
     "compiled/999.scr.bin": "d19fabb220d267855149bde4d06f8ad8291c59fb21dc61d9ebc1238c06971c62",
     "compiled/999.scr.bin.hep": "4160fbe36c5e13bc471bf92d3e2d3bf765372223224c59324753437c616f6422",
-    "src/main.sc": "2c438234cba959f62f5875fa83294e1f8a72bab671a65b854e6aad5e40285160",
+    "src/main.sc": "da6b9e59a328eb9f0f87d4c4f75f1431c94a42eeb9204c538db1e97761e8c492",
     "src/module980.sc": "3b143cc5904f65434df230c0b79e0773bdc937d76e9decb68f0013715ac51257",
     "src/module981.sc": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc",
     "src/module982.sc": "06a12391814b37a2b9c4ad349458d205b123095c76ef5823c82a29dd8c02ee08",
@@ -1875,7 +1875,7 @@
     "speech/@0Q33G01.001": "302cc19913339a993e6a0f10914d8bc9bd1f8f25a683cc7e7ba1d2919a20c280",
     "speech/@0Q33H01.001": "cc9b1d48adab79d06a21b5c7736b9f5712db1109355642900f2f0c7e2e559b40"
   },
-  "normalized_abi_sha256": "6145895ae946c2b2a0a3a80df4f7c8e50ccf8eca0b62c256189c336cb4152a7f",
+  "normalized_abi_sha256": "0b1f2483096a99561a5559f0f5a97b8393977aa6850d25cf81816a1fdd728c60",
   "canonical_sources": {
     "module981.sc": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc",
     "module983.sc": "90f4fb86964c9790d663ddc90dfe440dd6c2b15b84a283420f9a9790119b8658",
@@ -1883,7 +1883,7 @@
     "module991.sc": "d9bc696e08465698f9e2af26b7d2591b3c3ce882d2540e28164dd91e41c905d2",
     "module996.sc": "4bb5fe2155da7a237d1b1947501b79940039f734d7e126c219d489f0b8615924",
     "module999.sc": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8",
-    "main.sc": "2c438234cba959f62f5875fa83294e1f8a72bab671a65b854e6aad5e40285160",
+    "main.sc": "da6b9e59a328eb9f0f87d4c4f75f1431c94a42eeb9204c538db1e97761e8c492",
     "module987.sc": "e0ce36506c0a0d3832e52847e8db3841fa4b6d05d2ecfd55af39a33cd11a1c3f",
     "module984.sc": "8416e814fefbc3bbe7f6cb714a364b0248eb98ccc481380e7837b0e774028e1d",
     "module997.sc": "6a7af389c667508ff66f5d7bc3cbea1ed660bbc2c8c7d381db9c3032842a9761",
@@ -8746,7 +8746,7 @@
       "bytes": 230834
     },
     "resource.000": {
-      "sha256": "c9f74df9395487de529825fe76ff7e4fecffab9c7a2ae5fafc701b98c8000008",
+      "sha256": "9caae592a65bc1e9565a39e3cbc43f1586c77401861ac4ff2d41847aa6bbd1f4",
       "bytes": 2639744
     },
     "resource.map": {
@@ -8755,5 +8755,6 @@
     }
   },
   "full_causal_route_acceptance": false,
-  "native_acceptance": false
+  "native_acceptance": false,
+  "reference_scope": "Pins read from the previously compiled and certified r17 candidate; the public builder adaptation has not been rerun."
 }

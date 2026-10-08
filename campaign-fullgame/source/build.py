@@ -107,7 +107,7 @@ def build():
  for (t,n),data in resources.items():
   name=f'{n:03}.{suffix[t]}.bin';(C/'assets/resources'/name).write_bytes(data);inventory.append(dict(type=t,number=n,extracted_path=name,size=len(data),sha256=hashlib.sha256(data).hexdigest()))
  dump(C/'reference/resources.json',inventory);dump(C/'source-provenance/ABI-MAPPINGS.json',abi);dump(B/'ABI-MAPPINGS.json',abi)
- dump(B/'compile-receipt.json',dict(status='PASS_FRESH_COMPILE',modules=rows,class_owners=owners,native_acceptance=False,runtime_package=False,compiler_sha256=sha(compiler)))
+ dump(B/'compile-receipt.json',dict(status='PASS_FRESH_COMPILE',diagnostic_traces=False,trace_mode='production-disabled',modules=rows,class_owners=owners,native_acceptance=False,runtime_package=False,compiler_sha256=sha(compiler)))
  pack.validate_resources(B)
  print('PASS_FRESH_COMPILE',[(r['module'],r['combined_bytes']) for r in rows])
 if __name__=='__main__':
