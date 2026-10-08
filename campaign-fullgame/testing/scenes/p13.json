@@ -1,0 +1,1420 @@
+{
+  "component": "p13",
+  "pages": [
+    {
+      "text": "I SAID I COULD BRING EVERYONE TOGETHER. I SHOULD\nHAVE SPECIFIED A DOORWAY.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 1,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU DID. THE SAME ONE.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 2,
+      "audio_module": 925
+    },
+    {
+      "text": "THREE LOADS. THREE OPENINGS. USE THE CUES.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 5,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 3,
+      "audio_module": 925
+    },
+    {
+      "text": "EACH CUE SHOWS THE LOAD, ITS ROUTE AND ANY BLOCKED\nLANE BEFORE WE MOVE. NOBODY GOES UNTIL WE CHOOSE.\nI CAN TAKE A BREATH WITHOUT MISSING DINNER.",
+      "record_id": "P13.LOOK.001",
+      "resource": 214,
+      "entry": 6,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 4,
+      "audio_module": 925
+    },
+    {
+      "text": "HOUSE DOORWAY",
+      "record_id": "P13.LABEL.001",
+      "resource": 214,
+      "entry": 8,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "KITCHEN HATCH",
+      "record_id": "P13.LABEL.002",
+      "resource": 214,
+      "entry": 9,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SIDE GATE",
+      "record_id": "P13.LABEL.003",
+      "resource": 214,
+      "entry": 10,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SERVE. PEOPLE: HOUSE DOORWAY, THEN REAR ARCH.\nLIDDED POT: KITCHEN HATCH TO BUFFET. KEEP THE\nGUEST LANE CLEAR.",
+      "record_id": "P13.READ.001",
+      "resource": 214,
+      "entry": 12,
+      "header_entry": 11,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW. FOLDED DISPLAY ON HANDCART: SIDE GATE TO\nDISPLAY ALCOVE. GATE HELD ON ITS PEG. REVEAL AFTER\nDINNER, WHEN RITA IS READY.",
+      "record_id": "P13.READ.002",
+      "resource": 214,
+      "entry": 13,
+      "header_entry": 11,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "TOAST. PLEDGE BOARD: HOUSE DOORWAY AFTER THE GUEST\nQUEUE CLEARS. CALL ATTENTION WITH THE MICROPHONE,\nTHEN PULL THE TOAST CUE.",
+      "record_id": "P13.READ.003",
+      "resource": 214,
+      "entry": 14,
+      "header_entry": 11,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GUEST-PROGRAM CARD",
+      "record_id": "P13.INVENTORY.001",
+      "resource": 214,
+      "entry": 15,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MILO GREETS AT THE FRONT DOOR. GUESTS USE THE\nLIVING-ROOM REAR ARCH TO REACH THEIR COURTYARD\nPLACES. ONCE THE QUEUE IS CLEAR, MILO TAKES HIS",
+      "record_id": "P13.READ.004",
+      "resource": 214,
+      "entry": 16,
+      "header_entry": 15,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PLACE. SERVE, SHOW, TOAST.",
+      "record_id": "P13.READ.004",
+      "resource": 214,
+      "entry": 17,
+      "header_entry": 15,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BLANK PLEDGE BOARD",
+      "record_id": "P13.INVENTORY.002",
+      "resource": 214,
+      "entry": 18,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "EIGHT PLACES FOR EIGHT ACTUAL COMMITMENTS. I'VE\nNEVER SEEN A BLANK BOARD LOOK SO MUCH LIKE\nFRANKIE.",
+      "record_id": "P13.LOOK.002",
+      "resource": 214,
+      "entry": 19,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 925
+    },
+    {
+      "text": "PLEASE GREET AT THE FRONT DOOR. SEND EVERYONE\nTHROUGH THE REAR ARCH. THEN JOIN US.",
+      "record_id": "P13.CHOICE.001",
+      "resource": 214,
+      "entry": 20,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "FRONT DOOR, LIVING ROOM, REAR ARCH. EVERYONE TO\nTHEIR COURTYARD PLACES, THEN I SIT DOWN.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 22,
+      "header_entry": 21,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 6,
+      "audio_module": 925
+    },
+    {
+      "text": "NO LITTLE SPEECH IN THE DOORWAY.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 23,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 7,
+      "audio_module": 925
+    },
+    {
+      "text": "MAY I SAY \"THIS WAY\"? I'VE GOT TO LET SOME OF IT\nOUT.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 24,
+      "header_entry": 21,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 8,
+      "audio_module": 925
+    },
+    {
+      "text": "THE LIDDED POT GOES THROUGH THE HATCH, STRAIGHT TO\nTHE BUFFET. I'LL HELP YOU PASS IT.",
+      "record_id": "P13.DIALOGUE.001",
+      "resource": 214,
+      "entry": 25,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 9,
+      "audio_module": 925
+    },
+    {
+      "text": "FOLDED DISPLAY, ON THE CART, THROUGH THE SIDE\nGATE. PROPER PEG IN. RITA SAYS WHEN.",
+      "record_id": "P13.DIALOGUE.002",
+      "resource": 214,
+      "entry": 27,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 10,
+      "audio_module": 925
+    },
+    {
+      "text": "I'LL BRING THE BOARD THROUGH THE HOUSE ONCE THE\nGUEST QUEUE CLEARS. THEN WE CAN CALL THE TOAST.",
+      "record_id": "P13.DIALOGUE.003",
+      "resource": 214,
+      "entry": 28,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 11,
+      "audio_module": 925
+    },
+    {
+      "text": "STRAIGHT THROUGH. FRANKIE'S CLEARED THE BUFFET AND\nOPENED THE BOWLS. THERE'S SUPPER.",
+      "record_id": "P13.SUCCESS.002",
+      "resource": 214,
+      "entry": 29,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 12,
+      "audio_module": 925
+    },
+    {
+      "text": "SERVE COMPLETE. EIGHT TASTING BOWLS. MINE'S ONE OF\nTHEM. BUNNY CAN STOP COUNTING MY SPOONFULS.",
+      "record_id": "P13.SUCCESS.003",
+      "resource": 214,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 925
+    },
+    {
+      "text": "THE GUEST QUEUE IS IN THE WAY. THE HATCH PUTS US\nSTRAIGHT OVER THE BUFFET. BACK TO THE KITCHEN.",
+      "record_id": "P13.FAILURE.001",
+      "resource": 214,
+      "entry": 31,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 14,
+      "audio_module": 925
+    },
+    {
+      "text": "PEOPLE USE THE HOUSE DOOR AND REAR ARCH. DINNER\nGOES THROUGH THE HATCH. IF WE CONFUSE THOSE, I'LL\nHAVE TO GARNISH MILO.",
+      "record_id": "P13.FAILURE.002",
+      "resource": 214,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 925
+    },
+    {
+      "text": "EVEN FOLDED, THE DISPLAY IS WIDER THAN THE HATCH.\nUSE THE SIDE GATE. WE'RE NOT SERVING RITA'S WORK\nIN SLICES.",
+      "record_id": "P13.FAILURE.003",
+      "resource": 214,
+      "entry": 33,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 16,
+      "audio_module": 925
+    },
+    {
+      "text": "DINNER FIRST. HUNGRY PEOPLE LOOK AT CERAMIC BOWLS\nFOR THE WRONG REASON.",
+      "record_id": "P13.FAILURE.004",
+      "resource": 214,
+      "entry": 35,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 17,
+      "audio_module": 925
+    },
+    {
+      "text": "ARE YOU READY TO SHOW EVERYONE YOUR PANEL?",
+      "record_id": "P13.CHOICE.002",
+      "resource": 214,
+      "entry": 36,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YES. BRING IT THROUGH THE SIDE GATE. ONCE IT'S IN\nPLACE, OPEN THE SCREEN. I'D LIKE TO TELL THEM\nABOUT IT MYSELF.",
+      "record_id": "P13.DIALOGUE.004",
+      "resource": 214,
+      "entry": 37,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 18,
+      "audio_module": 925
+    },
+    {
+      "text": "FELIX, VIVIAN, PLEASE BRING THE FOLDED DISPLAY\nTHROUGH THE PEGGED SIDE GATE.",
+      "record_id": "P13.CHOICE.003",
+      "resource": 214,
+      "entry": 38,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GATE HELD. FOLDED WIDTH CLEAR. BRINGING IT\nTHROUGH.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 39,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 19,
+      "audio_module": 925
+    },
+    {
+      "text": "INTO THE MARKED FOOTPRINT. KEEP IT CONCEALED\nBEHIND THE SCREEN.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 41,
+      "header_entry": 40,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 20,
+      "audio_module": 925
+    },
+    {
+      "text": "THANK YOU FOR NOTICING THE GATE. EVEN IF I HAD TO\nSAY IT MYSELF.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 42,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 21,
+      "audio_module": 925
+    },
+    {
+      "text": "WAIT UNTIL THE DISPLAY IS IN ITS MARKED PLACE. AT\nPRESENT, WE'D BE UNVEILING THE WALL.",
+      "record_id": "P13.FAILURE.005",
+      "resource": 214,
+      "entry": 43,
+      "header_entry": 40,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 22,
+      "audio_module": 925
+    },
+    {
+      "text": "OPENING THE VIEWING SIDE. RITA, IT'S YOURS.",
+      "record_id": "P13.SUCCESS.005",
+      "resource": 214,
+      "entry": 44,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 23,
+      "audio_module": 925
+    },
+    {
+      "text": "I MADE THIS FOR THE HOUSE. THREE DOORS, ONE TABLE.\nI TRIED SEPARATE TABLES. IT LOOKED LONELY.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 45,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 24,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU PUT US IN IT.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 46,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 25,
+      "audio_module": 925
+    },
+    {
+      "text": "I PUT ROOM FOR YOU IN IT. YOU CAN DECIDE WHERE TO\nSIT.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 47,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 26,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU MADE ALL THAT?",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 49,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 27,
+      "audio_module": 925
+    },
+    {
+      "text": "YES. YOU'VE BEEN EATING OFF MY OTHER WORK FOR\nYEARS. I WANTED ONE YOU COULDN'T PUT GRAVY ON.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 50,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 28,
+      "audio_module": 925
+    },
+    {
+      "text": "SHOW COMPLETE. RITA'S PANEL, PRESENTED BY RITA. I\nDIDN'T HAVE TO EXPLAIN A SINGLE THING ON HER\nBEHALF.",
+      "record_id": "P13.SUCCESS.006",
+      "resource": 214,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 29,
+      "audio_module": 925
+    },
+    {
+      "text": "I'LL TAKE THE BOARD THROUGH THE HOUSE. THE ROUTE'S\nCLEAR NOW.",
+      "record_id": "P13.SUCCESS.007",
+      "resource": 214,
+      "entry": 52,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 30,
+      "audio_module": 925
+    },
+    {
+      "text": "MILO MUST GET EVERYONE SEATED FIRST. THEN I CAN\nCARRY THE BOARD THROUGH THE HOUSE. IT'S WIDE\nENOUGH WITHOUT A GUEST ON EACH END.",
+      "record_id": "P13.FAILURE.006",
+      "resource": 214,
+      "entry": 53,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 31,
+      "audio_module": 925
+    },
+    {
+      "text": "EVERYONE, A MOMENT. WE'VE FED YOU AND SHOWN YOU\nRITA'S WORK. NOW LET'S SAY WHAT WE'RE ACTUALLY\nAGREEING TO.",
+      "record_id": "P13.SUCCESS.008",
+      "resource": 214,
+      "entry": 54,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 925
+    },
+    {
+      "text": "TOAST. EVERYBODY HERE, BOARD READY. NO ONE HAS TO\nPROMISE ANYTHING THEY DIDN'T AGREE TO.",
+      "record_id": "P13.SUCCESS.009",
+      "resource": 214,
+      "entry": 55,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 33,
+      "audio_module": 925
+    },
+    {
+      "text": "FOOD FIRST, THEN RITA'S PRESENTATION. THE PROMISES\nWILL KEEP UNTIL WE'VE KEPT THOSE TWO.",
+      "record_id": "P13.FAILURE.007",
+      "resource": 214,
+      "entry": 56,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 34,
+      "audio_module": 925
+    },
+    {
+      "text": "THAT'S IN USE. IF I MOVE IT NOW, SOMEBODY WILL\nSPEND THE REST OF SUPPER HOLDING THEIR BOWL AND\nBEING POLITE ABOUT IT.",
+      "record_id": "P13.FAILURE.008",
+      "resource": 214,
+      "entry": 57,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 35,
+      "audio_module": 925
+    },
+    {
+      "text": "USE THE THREE ROUTES YOU PREPARED, IN SERVE, SHOW,\nTOAST ORDER.",
+      "record_id": "P13.HINT.1",
+      "resource": 214,
+      "entry": 59,
+      "header_entry": 58,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PEOPLE USE THE HOUSE DOOR. FOOD GOES STRAIGHT\nTHROUGH THE KITCHEN HATCH. THE WIDE DISPLAY NEEDS\nTHE SIDE GATE.",
+      "record_id": "P13.HINT.2",
+      "resource": 214,
+      "entry": 60,
+      "header_entry": 58,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GIVE MILO THE PROGRAM TO SEAT EVERYONE. PASS THE\nLIDDED POT THROUGH THE HATCH AND PULL SERVE. GET\nRITA'S PERMISSION, SEND THE DISPLAY THROUGH THE",
+      "record_id": "P13.HINT.3",
+      "resource": 214,
+      "entry": 61,
+      "header_entry": 58,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PEGGED GATE, OPEN THE SCREEN AND PULL SHOW. SEND\nFRANKIE WITH THE BOARD THROUGH THE CLEAR HOUSE,\nUSE THE MICROPHONE, AND PULL TOAST.",
+      "record_id": "P13.HINT.3",
+      "resource": 214,
+      "entry": 62,
+      "header_entry": 58,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SUPPER HAS BEEN SERVED, RITA HAS PRESENTED HER\nWORK, AND THE BOARD IS HERE. WHO GETS THE\nCEREMONIAL FLOURISH?",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 63,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 36,
+      "audio_module": 925
+    },
+    {
+      "text": "A BRIEF HOUSEHOLD-LED TOAST, OR YOUR LIMITED\nINTRODUCTION. THE ACTUAL COMMITMENTS STAY AS\nAGREED.",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 64,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 37,
+      "audio_module": 925
+    },
+    {
+      "text": "YES. JUST THE FORM OF THE TOAST. PRACTICE FIRST,\nOR BEGIN?",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 65,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 38,
+      "audio_module": 925
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC04.REMATCH",
+      "resource": 214,
+      "entry": 66,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 39,
+      "audio_module": 925
+    },
+    {
+      "text": "SERVE SUPPER, LET RITA PRESENT HER WORK, AND BRING\nTHE PLEDGE BOARD HERE FIRST.",
+      "record_id": "VC04.NOT_READY",
+      "resource": 214,
+      "entry": 67,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPLETE ONE CONTEST ATTEMPT WITH MR. STRINGER\nBEFORE THE TOAST IS READY. THE MEAL, PRESENTATION\nAND BOARD DELIVERY REMAIN COMPLETE.",
+      "record_id": "VC04.NEED_RESOLUTION",
+      "resource": 214,
+      "entry": 68,
+      "header_entry": 7,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "I SAID I COULD BRING EVERYONE TOGETHER. I SHOULD\nHAVE SPECIFIED A DOORWAY.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 1,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU DID. THE SAME ONE.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 2,
+      "audio_module": 925
+    },
+    {
+      "text": "THREE LOADS. THREE OPENINGS. USE THE CUES.",
+      "record_id": "P13.OPEN.001",
+      "resource": 214,
+      "entry": 5,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 3,
+      "audio_module": 925
+    },
+    {
+      "text": "EACH CUE SHOWS THE LOAD, ITS ROUTE AND ANY BLOCKED\nLANE BEFORE WE MOVE. NOBODY GOES UNTIL WE CHOOSE.\nI CAN TAKE A BREATH WITHOUT MISSING DINNER.",
+      "record_id": "P13.LOOK.001",
+      "resource": 214,
+      "entry": 6,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 4,
+      "audio_module": 925
+    },
+    {
+      "text": "EIGHT PLACES FOR EIGHT ACTUAL COMMITMENTS. I'VE\nNEVER SEEN A BLANK BOARD LOOK SO MUCH LIKE\nFRANKIE.",
+      "record_id": "P13.LOOK.002",
+      "resource": 214,
+      "entry": 19,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 925
+    },
+    {
+      "text": "FRONT DOOR, LIVING ROOM, REAR ARCH. EVERYONE TO\nTHEIR COURTYARD PLACES, THEN I SIT DOWN.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 22,
+      "header_entry": 21,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 6,
+      "audio_module": 925
+    },
+    {
+      "text": "NO LITTLE SPEECH IN THE DOORWAY.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 23,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 7,
+      "audio_module": 925
+    },
+    {
+      "text": "MAY I SAY \"THIS WAY\"? I'VE GOT TO LET SOME OF IT\nOUT.",
+      "record_id": "P13.SUCCESS.001",
+      "resource": 214,
+      "entry": 24,
+      "header_entry": 21,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 8,
+      "audio_module": 925
+    },
+    {
+      "text": "THE LIDDED POT GOES THROUGH THE HATCH, STRAIGHT TO\nTHE BUFFET. I'LL HELP YOU PASS IT.",
+      "record_id": "P13.DIALOGUE.001",
+      "resource": 214,
+      "entry": 25,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 9,
+      "audio_module": 925
+    },
+    {
+      "text": "FOLDED DISPLAY, ON THE CART, THROUGH THE SIDE\nGATE. PROPER PEG IN. RITA SAYS WHEN.",
+      "record_id": "P13.DIALOGUE.002",
+      "resource": 214,
+      "entry": 27,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 10,
+      "audio_module": 925
+    },
+    {
+      "text": "I'LL BRING THE BOARD THROUGH THE HOUSE ONCE THE\nGUEST QUEUE CLEARS. THEN WE CAN CALL THE TOAST.",
+      "record_id": "P13.DIALOGUE.003",
+      "resource": 214,
+      "entry": 28,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 11,
+      "audio_module": 925
+    },
+    {
+      "text": "STRAIGHT THROUGH. FRANKIE'S CLEARED THE BUFFET AND\nOPENED THE BOWLS. THERE'S SUPPER.",
+      "record_id": "P13.SUCCESS.002",
+      "resource": 214,
+      "entry": 29,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 12,
+      "audio_module": 925
+    },
+    {
+      "text": "SERVE COMPLETE. EIGHT TASTING BOWLS. MINE'S ONE OF\nTHEM. BUNNY CAN STOP COUNTING MY SPOONFULS.",
+      "record_id": "P13.SUCCESS.003",
+      "resource": 214,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 925
+    },
+    {
+      "text": "THE GUEST QUEUE IS IN THE WAY. THE HATCH PUTS US\nSTRAIGHT OVER THE BUFFET. BACK TO THE KITCHEN.",
+      "record_id": "P13.FAILURE.001",
+      "resource": 214,
+      "entry": 31,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 14,
+      "audio_module": 925
+    },
+    {
+      "text": "PEOPLE USE THE HOUSE DOOR AND REAR ARCH. DINNER\nGOES THROUGH THE HATCH. IF WE CONFUSE THOSE, I'LL\nHAVE TO GARNISH MILO.",
+      "record_id": "P13.FAILURE.002",
+      "resource": 214,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 925
+    },
+    {
+      "text": "EVEN FOLDED, THE DISPLAY IS WIDER THAN THE HATCH.\nUSE THE SIDE GATE. WE'RE NOT SERVING RITA'S WORK\nIN SLICES.",
+      "record_id": "P13.FAILURE.003",
+      "resource": 214,
+      "entry": 33,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 16,
+      "audio_module": 925
+    },
+    {
+      "text": "DINNER FIRST. HUNGRY PEOPLE LOOK AT CERAMIC BOWLS\nFOR THE WRONG REASON.",
+      "record_id": "P13.FAILURE.004",
+      "resource": 214,
+      "entry": 35,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 17,
+      "audio_module": 925
+    },
+    {
+      "text": "YES. BRING IT THROUGH THE SIDE GATE. ONCE IT'S IN\nPLACE, OPEN THE SCREEN. I'D LIKE TO TELL THEM\nABOUT IT MYSELF.",
+      "record_id": "P13.DIALOGUE.004",
+      "resource": 214,
+      "entry": 37,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 18,
+      "audio_module": 925
+    },
+    {
+      "text": "GATE HELD. FOLDED WIDTH CLEAR. BRINGING IT\nTHROUGH.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 39,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 19,
+      "audio_module": 925
+    },
+    {
+      "text": "INTO THE MARKED FOOTPRINT. KEEP IT CONCEALED\nBEHIND THE SCREEN.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 41,
+      "header_entry": 40,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 20,
+      "audio_module": 925
+    },
+    {
+      "text": "THANK YOU FOR NOTICING THE GATE. EVEN IF I HAD TO\nSAY IT MYSELF.",
+      "record_id": "P13.SUCCESS.004",
+      "resource": 214,
+      "entry": 42,
+      "header_entry": 26,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 21,
+      "audio_module": 925
+    },
+    {
+      "text": "WAIT UNTIL THE DISPLAY IS IN ITS MARKED PLACE. AT\nPRESENT, WE'D BE UNVEILING THE WALL.",
+      "record_id": "P13.FAILURE.005",
+      "resource": 214,
+      "entry": 43,
+      "header_entry": 40,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 22,
+      "audio_module": 925
+    },
+    {
+      "text": "OPENING THE VIEWING SIDE. RITA, IT'S YOURS.",
+      "record_id": "P13.SUCCESS.005",
+      "resource": 214,
+      "entry": 44,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 23,
+      "audio_module": 925
+    },
+    {
+      "text": "I MADE THIS FOR THE HOUSE. THREE DOORS, ONE TABLE.\nI TRIED SEPARATE TABLES. IT LOOKED LONELY.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 45,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 24,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU PUT US IN IT.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 46,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 25,
+      "audio_module": 925
+    },
+    {
+      "text": "I PUT ROOM FOR YOU IN IT. YOU CAN DECIDE WHERE TO\nSIT.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 47,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 26,
+      "audio_module": 925
+    },
+    {
+      "text": "YOU MADE ALL THAT?",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 49,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 27,
+      "audio_module": 925
+    },
+    {
+      "text": "YES. YOU'VE BEEN EATING OFF MY OTHER WORK FOR\nYEARS. I WANTED ONE YOU COULDN'T PUT GRAVY ON.",
+      "record_id": "P13.DIALOGUE.005",
+      "resource": 214,
+      "entry": 50,
+      "header_entry": 34,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 28,
+      "audio_module": 925
+    },
+    {
+      "text": "SHOW COMPLETE. RITA'S PANEL, PRESENTED BY RITA. I\nDIDN'T HAVE TO EXPLAIN A SINGLE THING ON HER\nBEHALF.",
+      "record_id": "P13.SUCCESS.006",
+      "resource": 214,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 29,
+      "audio_module": 925
+    },
+    {
+      "text": "I'LL TAKE THE BOARD THROUGH THE HOUSE. THE ROUTE'S\nCLEAR NOW.",
+      "record_id": "P13.SUCCESS.007",
+      "resource": 214,
+      "entry": 52,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 30,
+      "audio_module": 925
+    },
+    {
+      "text": "MILO MUST GET EVERYONE SEATED FIRST. THEN I CAN\nCARRY THE BOARD THROUGH THE HOUSE. IT'S WIDE\nENOUGH WITHOUT A GUEST ON EACH END.",
+      "record_id": "P13.FAILURE.006",
+      "resource": 214,
+      "entry": 53,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 31,
+      "audio_module": 925
+    },
+    {
+      "text": "EVERYONE, A MOMENT. WE'VE FED YOU AND SHOWN YOU\nRITA'S WORK. NOW LET'S SAY WHAT WE'RE ACTUALLY\nAGREEING TO.",
+      "record_id": "P13.SUCCESS.008",
+      "resource": 214,
+      "entry": 54,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 925
+    },
+    {
+      "text": "TOAST. EVERYBODY HERE, BOARD READY. NO ONE HAS TO\nPROMISE ANYTHING THEY DIDN'T AGREE TO.",
+      "record_id": "P13.SUCCESS.009",
+      "resource": 214,
+      "entry": 55,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 33,
+      "audio_module": 925
+    },
+    {
+      "text": "FOOD FIRST, THEN RITA'S PRESENTATION. THE PROMISES\nWILL KEEP UNTIL WE'VE KEPT THOSE TWO.",
+      "record_id": "P13.FAILURE.007",
+      "resource": 214,
+      "entry": 56,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 34,
+      "audio_module": 925
+    },
+    {
+      "text": "THAT'S IN USE. IF I MOVE IT NOW, SOMEBODY WILL\nSPEND THE REST OF SUPPER HOLDING THEIR BOWL AND\nBEING POLITE ABOUT IT.",
+      "record_id": "P13.FAILURE.008",
+      "resource": 214,
+      "entry": 57,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 35,
+      "audio_module": 925
+    },
+    {
+      "text": "SUPPER HAS BEEN SERVED, RITA HAS PRESENTED HER\nWORK, AND THE BOARD IS HERE. WHO GETS THE\nCEREMONIAL FLOURISH?",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 63,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 36,
+      "audio_module": 925
+    },
+    {
+      "text": "A BRIEF HOUSEHOLD-LED TOAST, OR YOUR LIMITED\nINTRODUCTION. THE ACTUAL COMMITMENTS STAY AS\nAGREED.",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 64,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 37,
+      "audio_module": 925
+    },
+    {
+      "text": "YES. JUST THE FORM OF THE TOAST. PRACTICE FIRST,\nOR BEGIN?",
+      "record_id": "VC04.ENTRY",
+      "resource": 214,
+      "entry": 65,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 38,
+      "audio_module": 925
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC04.REMATCH",
+      "resource": 214,
+      "entry": 66,
+      "header_entry": 48,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 39,
+      "audio_module": 925
+    },
+    {
+      "text": "GATE-TO-HOUSE LANE IS BLOCKED. PUT THE FURNITURE\nBACK ON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 69,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 40,
+      "audio_module": 925
+    },
+    {
+      "text": "HATCH-SIDE BUFFET POSITION IS BLOCKED. PUT THE\nFURNITURE BACK ON ITS PLAN MARK BEFORE WE SEND\nTHIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 70,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 41,
+      "audio_module": 925
+    },
+    {
+      "text": "DISPLAY ALCOVE IS BLOCKED. PUT THE FURNITURE BACK\nON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 71,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 42,
+      "audio_module": 925
+    },
+    {
+      "text": "KITCHEN HATCH IS BLOCKED. PUT THE FURNITURE BACK\nON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 72,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 43,
+      "audio_module": 925
+    },
+    {
+      "text": "GATE-TO-HOUSE LANE IS BLOCKED. PUT THE FURNITURE\nBACK ON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 69,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 40,
+      "audio_module": 925
+    },
+    {
+      "text": "HATCH-SIDE BUFFET POSITION IS BLOCKED. PUT THE\nFURNITURE BACK ON ITS PLAN MARK BEFORE WE SEND\nTHIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 70,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 41,
+      "audio_module": 925
+    },
+    {
+      "text": "DISPLAY ALCOVE IS BLOCKED. PUT THE FURNITURE BACK\nON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 71,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 42,
+      "audio_module": 925
+    },
+    {
+      "text": "KITCHEN HATCH IS BLOCKED. PUT THE FURNITURE BACK\nON ITS PLAN MARK BEFORE WE SEND THIS LOAD.",
+      "record_id": "P13.FAILURE.009",
+      "resource": 214,
+      "entry": 72,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 43,
+      "audio_module": 925
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0PP0101.001",
+      "sync_file": "#0PP0101.001",
+      "audio_sha256": "9de5f20208a107348e1aa101b53e526b16dbb9931f05c7772e44f28d4294dcba",
+      "sync_sha256": "fc2ec776a63b5ac76af1b35425978f3e878982e61181d671fccd081d4e25d9f0"
+    },
+    {
+      "audio_file": "@0PP0201.001",
+      "sync_file": "#0PP0201.001",
+      "audio_sha256": "ca39b9c34206e39f2921504a423ad4cefbe6c0afc46171bd32fbfbcf9bf9d3f5",
+      "sync_sha256": "ecc96b3a7c542cb1daa537ffedcc5290ffa210cb7dff8ab5741a6d6662282751"
+    },
+    {
+      "audio_file": "@0PP0301.001",
+      "sync_file": "#0PP0301.001",
+      "audio_sha256": "76f469574a80cf75fab07d5f578e0dc6612ab2b224767d224e05311c3dc7bf66",
+      "sync_sha256": "06f55cd55a13f5eda7a1f1c1a9548906ab6b3b46c922d56521ebd947247e3bfd"
+    },
+    {
+      "audio_file": "@0PP0401.001",
+      "sync_file": "#0PP0401.001",
+      "audio_sha256": "c3d4917377c2c14aeb4721ef6c3b37752f4549d86207e2635f9eecfcd3d5f267",
+      "sync_sha256": "d26e379362c8f7ce287ce47cc63ae588e0ec6f5a53f7719bac7776b4cf53119d"
+    },
+    {
+      "audio_file": "@0PP0501.001",
+      "sync_file": "#0PP0501.001",
+      "audio_sha256": "7e1dda7ed9938fa9e8065ada20ee96ab8e3c2b9798e9fffd1815ef946a824e40",
+      "sync_sha256": "fa7bae951e16809e485fad91681878216dad109d849b1cd1f7bd769f7412efd3"
+    },
+    {
+      "audio_file": "@0PP0601.001",
+      "sync_file": "#0PP0601.001",
+      "audio_sha256": "a5a8fcee732d2ecfec509a5a0e9f34ce7d90e4409139341293d3279452d6885d",
+      "sync_sha256": "de31c9c3d2a26faf9eb6e3801c7001d78b895bfd60b0fd9e989a025dcc04a6bd"
+    },
+    {
+      "audio_file": "@0PP0701.001",
+      "sync_file": "#0PP0701.001",
+      "audio_sha256": "c8654890b8bd89be884ce5537e486356629efaa8b38fbf5c8bb78b9901c0a7df",
+      "sync_sha256": "ebf94b532005b5b34fc8be774d4aac5902aa7d48d2ee95153c28511f390ceeb5"
+    },
+    {
+      "audio_file": "@0PP0801.001",
+      "sync_file": "#0PP0801.001",
+      "audio_sha256": "88188681f3af21b9e487f8ba56fa268b5ba4f7391eedd55a4da746715ebcd217",
+      "sync_sha256": "9a5675c17e2881b66b54a88b9653c904630e367eeb9d3c017be28e870f3ec762"
+    },
+    {
+      "audio_file": "@0PP0901.001",
+      "sync_file": "#0PP0901.001",
+      "audio_sha256": "343c501ab8b0b4f375a107f328f9c70a9dcdd39102829e5dbb232abe47b80def",
+      "sync_sha256": "477db117e07d591fe6222854ff20431b005a00e60f5e2b7d6801af90f4d3069f"
+    },
+    {
+      "audio_file": "@0PP0A01.001",
+      "sync_file": "#0PP0A01.001",
+      "audio_sha256": "ca0945238eb1414165584670f783144c86e9cd868c7559f02db428a68a9886e3",
+      "sync_sha256": "deb7b3518cbd4c3d2f1f865484a2661629ddd24e055b46f53a1ad6d562d780bf"
+    },
+    {
+      "audio_file": "@0PP0B01.001",
+      "sync_file": "#0PP0B01.001",
+      "audio_sha256": "826847091bf85fe302c355963f4eac48bfdb2fa764bb22f2b2b2ee5fd8377d98",
+      "sync_sha256": "523969a7c91921ccf2e538dd4b5df8e9785e682798abe829b226ea48ffb7bf1c"
+    },
+    {
+      "audio_file": "@0PP0C01.001",
+      "sync_file": "#0PP0C01.001",
+      "audio_sha256": "c39fa1d6d3bf4fa0a8295018a2e6aa9e68a9c24a6f09cd6f41dee247b737fb2f",
+      "sync_sha256": "9d559668359345b650edd14e8781c3eae8c1dd1bb0a02f02bf8595fe1fb7e687"
+    },
+    {
+      "audio_file": "@0PP0D01.001",
+      "sync_file": "#0PP0D01.001",
+      "audio_sha256": "19e190b95f82f32f2ea4ee64232af3ae54078a8db89440bb79de86ef41571a86",
+      "sync_sha256": "e6a21da2d8a9473ac00b6f3ac9ac656fd6cfbd3d1bcea2a77accce9e7c57adac"
+    },
+    {
+      "audio_file": "@0PP0E01.001",
+      "sync_file": "#0PP0E01.001",
+      "audio_sha256": "661fc3232c691ee679819a1d3e8dcd7f8b554962417cdc13894f8a682b629a71",
+      "sync_sha256": "85201603ba699ac130ee346b92bf1115d012fe4614a4a7b1d849f5cfe0616bd7"
+    },
+    {
+      "audio_file": "@0PP0F01.001",
+      "sync_file": "#0PP0F01.001",
+      "audio_sha256": "3b51931ba89c237e5a984e8033b6012777ff8ca508d66179fd4ad735fdd5cbbd",
+      "sync_sha256": "40c313902758670bcbccbbfa3bd52117ba5b790a9cfb26b6b6bc34b872f1dfcd"
+    },
+    {
+      "audio_file": "@0PP0G01.001",
+      "sync_file": "#0PP0G01.001",
+      "audio_sha256": "b868b709f546f94cbe75f41faff42f5d9db6318c32ac52cfbbe7ce703d457f15",
+      "sync_sha256": "b9198f43fe2b08340364b92c5e5e0f2badf88d5deb635da2cc0f20c9743f4d7c"
+    },
+    {
+      "audio_file": "@0PP0H01.001",
+      "sync_file": "#0PP0H01.001",
+      "audio_sha256": "215ef84da98974afe1a67ed9db7164884b46e471586e155d6a31289942d794e6",
+      "sync_sha256": "9cd18f7078e9f5bdf93af95167a6e4f3e781b2eeb972f938bad3fbe72aa55611"
+    },
+    {
+      "audio_file": "@0PP0I01.001",
+      "sync_file": "#0PP0I01.001",
+      "audio_sha256": "f0996ac4016b324ebe63112726ed4e8b32d77b70084c833d6be0e114861eb900",
+      "sync_sha256": "7abf6b9a95394fee9eed3864141243c86d25a696c7934bdfb301dd74194b57c8"
+    },
+    {
+      "audio_file": "@0PP0J01.001",
+      "sync_file": "#0PP0J01.001",
+      "audio_sha256": "eed337ba10e8597123568dc2207532dcefc7c5222fd449e5665a3c7ee1f1b895",
+      "sync_sha256": "16d3eb88f14fc98125d15fd006d4435fee58a21d0a7a96d345000d08a9b0099d"
+    },
+    {
+      "audio_file": "@0PP0K01.001",
+      "sync_file": "#0PP0K01.001",
+      "audio_sha256": "e40e99e26f9ba1049c356ee4e0011aae0c242f6c7bcf29f289d269e1963d9f32",
+      "sync_sha256": "3c9a9c4fa37a5e8c14705c8de5e32824b79fb041094c5c5ce473afbc1c944442"
+    },
+    {
+      "audio_file": "@0PP0L01.001",
+      "sync_file": "#0PP0L01.001",
+      "audio_sha256": "28aa41e12e0ddd291c3fadf7990a9ba07c2cb2e7334b4a655bd5eee72fe54351",
+      "sync_sha256": "7154d5d28f83f9524387f605ff1494657ebb41eb3b32ddee0ddf7ddf561308c6"
+    },
+    {
+      "audio_file": "@0PP0M01.001",
+      "sync_file": "#0PP0M01.001",
+      "audio_sha256": "ee3e4f1d003d8130e994245253821c6d2c3f956c117ef6a255f64c4e7f194613",
+      "sync_sha256": "24556d33b2d33769e55099dcb1ae0983fc0df9bfbfc8e7b4a17d058bdbb725b4"
+    },
+    {
+      "audio_file": "@0PP0N01.001",
+      "sync_file": "#0PP0N01.001",
+      "audio_sha256": "9cd38dc172c058a13c912e7635929de787d2d5f01d1c050764892b5f43ec8af1",
+      "sync_sha256": "b95e6e8342bcb6d0761a615fadf89c0a9f05f26969a96c2d1700a88c309176f1"
+    },
+    {
+      "audio_file": "@0PP0O01.001",
+      "sync_file": "#0PP0O01.001",
+      "audio_sha256": "a220946057dfa9fa0969032a66e83a36c1d8fcb27444d9b67649f929e89a8540",
+      "sync_sha256": "33018200a155d4020b903c70a5bc7483d2ee482f991a5eab2832371b3f3c1bf2"
+    },
+    {
+      "audio_file": "@0PP0P01.001",
+      "sync_file": "#0PP0P01.001",
+      "audio_sha256": "e756da47e11fce6dfdaf4e8648513bc61672753ec963c65d3faf7385e0a2ede0",
+      "sync_sha256": "30e5b35e44e069461d9963d38a29228e953005f45f33a397495e5d6ab3c346e6"
+    },
+    {
+      "audio_file": "@0PP0Q01.001",
+      "sync_file": "#0PP0Q01.001",
+      "audio_sha256": "a489bcc97c6df23f1e27a2d6ea660366806721ad659a6a413c98acb70ff05f80",
+      "sync_sha256": "2f38e02b3e76e61239d747bbe4acbd77c50ee942a8627f0ac274a047525804d5"
+    },
+    {
+      "audio_file": "@0PP0R01.001",
+      "sync_file": "#0PP0R01.001",
+      "audio_sha256": "51af45c974b7329a87f4762147040d36556a41948a627c5d99981a3da6c744fe",
+      "sync_sha256": "75de7343124c75529fbdb8920c48c14c251bc2b3cc2b676e895e7fa12611f4f4"
+    },
+    {
+      "audio_file": "@0PP0S01.001",
+      "sync_file": "#0PP0S01.001",
+      "audio_sha256": "fc18d5d142474a6dd57da9460a5176878e84e43ac6897814d22bde8543cb201b",
+      "sync_sha256": "c59847168eec6d3fc6c61591a5dda36f0d392e078f321693d0536080c4d81585"
+    },
+    {
+      "audio_file": "@0PP0T01.001",
+      "sync_file": "#0PP0T01.001",
+      "audio_sha256": "5a1f1bcc25cf4f759566c484d32a51b40966a42ba8faad92d38af007d391377e",
+      "sync_sha256": "8b570b0493b13c7b87c30c308074a0a8ca2e2ca36c5165126d3fbb569e0e548f"
+    },
+    {
+      "audio_file": "@0PP0U01.001",
+      "sync_file": "#0PP0U01.001",
+      "audio_sha256": "118ea8cafa2e38816dd5d9088c30d43133d2a57ba2a80331bf19001c847b50cd",
+      "sync_sha256": "9c956eee57112de1d3b8af8698861e9750673d44420e1b929e433587671e301b"
+    },
+    {
+      "audio_file": "@0PP0V01.001",
+      "sync_file": "#0PP0V01.001",
+      "audio_sha256": "73e74fd9ffd9089c1af3d4ff2501b615ac84038e5a771519e42a4c95f0d81cd7",
+      "sync_sha256": "38cbbc5a0af10e4056491fc8b5e521f2ae81235daa5b9d80bd59d563186ce7e0"
+    },
+    {
+      "audio_file": "@0PP0W01.001",
+      "sync_file": "#0PP0W01.001",
+      "audio_sha256": "554a43c2b74456bce166dac1daadadceec03ee22dcae6b0b1e8fcbe0e5922948",
+      "sync_sha256": "1f9fbb3891e63ff0371aa06d8ecb9a68b0e2e85cd365d9cbc14a94eaa60b00c7"
+    },
+    {
+      "audio_file": "@0PP0X01.001",
+      "sync_file": "#0PP0X01.001",
+      "audio_sha256": "080c645e7954f747d54c2c9899984270db8de4ae1983db87dc9284f9a658e075",
+      "sync_sha256": "24934b7cc6dfc319670d4e94a8efcf24516da501c78762597f0f06df9901d5d5"
+    },
+    {
+      "audio_file": "@0PP0Y01.001",
+      "sync_file": "#0PP0Y01.001",
+      "audio_sha256": "399620554d16e46ff803899351de093017a55192ae92df4c01f7f6ce21d9365c",
+      "sync_sha256": "28d4ec20453c986c5c2b48571f0f840fa69174e5abf1bec6d2520feae45bbb34"
+    },
+    {
+      "audio_file": "@0PP0Z01.001",
+      "sync_file": "#0PP0Z01.001",
+      "audio_sha256": "b75cc07e72ca675e8fc68dbebd353beb1e6d6b65390562401549980c29afd1e9",
+      "sync_sha256": "43e41d11a589b39f9bc6a6de607e6db4923fcd0f5f026fc368d73615e564e947"
+    },
+    {
+      "audio_file": "@0PP1001.001",
+      "sync_file": "#0PP1001.001",
+      "audio_sha256": "50ea1e61287f7c5cb4de70a97e210d1d56830b000371831ef02a7b3eac7e7a76",
+      "sync_sha256": "35b824c0ca87a2defd7c6ac54c38c3a78f80ac50de49e5c857786cc776865ae7"
+    },
+    {
+      "audio_file": "@0PP1101.001",
+      "sync_file": "#0PP1101.001",
+      "audio_sha256": "5893e6f3bb78b1ae140710d6ae75f2bad16834662c9a3940de0692e747ccf9c8",
+      "sync_sha256": "38ddb2f6bcced615061d821543d77db005f6d980bfb5ff2a8aaf0a2671de2afd"
+    },
+    {
+      "audio_file": "@0PP1201.001",
+      "sync_file": "#0PP1201.001",
+      "audio_sha256": "0b1c49fd31793cc410be500cb028880081b4d5522ec30339df486e2af332232d",
+      "sync_sha256": "858c9c834dd6f4a175297f4708e4cad5ce77ca882127ad1aa8df1d824b9ee3fc"
+    },
+    {
+      "audio_file": "@0PP1301.001",
+      "sync_file": "#0PP1301.001",
+      "audio_sha256": "d16643c96665f026a7e32cb8085d2c23164b6a96c4eff6b9022b4bf661b04306",
+      "sync_sha256": "4eed3bf0910102742ee05ae2876975e613137dea56e587e2eaa3ca46b24475ac"
+    },
+    {
+      "audio_file": "@0PP1401.001",
+      "sync_file": "#0PP1401.001",
+      "audio_sha256": "c04e75ba2fabb0e62240470d2424d1cb03c3283651bc1569b307cb5094b1c7fa",
+      "sync_sha256": "4c428b1b8b9c20937b0c18465af9f3aef46dc2d7348d8becb6b2e82aa69c4d3c"
+    },
+    {
+      "audio_file": "@0PP1501.001",
+      "sync_file": "#0PP1501.001",
+      "audio_sha256": "cb905c93d93067e4eae5742d1e24e0723b1fbd5986d3f3a04285878e5fcb13ef",
+      "sync_sha256": "c9b6fae339621f223f4d8a3e95ce8a368c7ecc74e6645c8901a09a8bfcf137ac"
+    },
+    {
+      "audio_file": "@0PP1601.001",
+      "sync_file": "#0PP1601.001",
+      "audio_sha256": "e948fa9d7bc53fdb2d409e31df8db14c004ddb05b7d7bb5f3efab5763e087f57",
+      "sync_sha256": "61d91aacb7374421b29dd124241ad8bcdec5148e6076335d15e3e124c6dba7fc"
+    },
+    {
+      "audio_file": "@0PP1701.001",
+      "sync_file": "#0PP1701.001",
+      "audio_sha256": "ede4d30d6a567c4fee79b14ef76c448a476ffbdb39784f87f6232ad3a0628da5",
+      "sync_sha256": "4a6bfaf1e9a417cdb1645e2acdddcab2958fceea9a3d19519b7e9143a2b90d68"
+    }
+  ]
+}

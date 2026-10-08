@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EXACT_BOUNDED_REGENERATION",
+  "scope": "Bounded deterministic asset regeneration; no runtime or campaign-state claim",
+  "date": "2026-10-08",
+  "selection": "all",
+  "file_count": 1318,
+  "mismatch_count": 0,
+  "missing_count": 0,
+  "expected_manifest_sha256": "dda49baa8f4fe4441474ef3363817bd2d437b8b0664fff1017b59ac7dbfd6bd5",
+  "tested_environment": {
+    "python": "3.12.14",
+    "Pillow": "12.3.0"
+  },
+  "output_matches_bundled_inputs": true,
+  "native_acceptance": false
+}

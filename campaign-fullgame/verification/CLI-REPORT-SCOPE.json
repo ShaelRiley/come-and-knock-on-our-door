@@ -1,0 +1,9 @@
+{
+  "status": "PASS_DISTINCT_VERIFIER_REPORT_SCOPES",
+  "check_existing_status": "PASS_PUBLIC_OUTPUT_IDENTITY",
+  "check_existing_cold_start_claim": "NOT_ASSERTED_BY_OUTPUT_IDENTITY_CHECK",
+  "fresh_out_status": "PASS_PUBLIC_CANONICAL_COLD_REBUILD",
+  "fresh_out_source_only_start": true,
+  "program_source_or_output_change": false,
+  "native_acceptance": false
+}

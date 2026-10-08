@@ -1,0 +1,710 @@
+{
+  "component": "p09",
+  "pages": [
+    {
+      "text": "ALL THREE OUT OF THE HOUSE. FINISHED BY TOMORROW.",
+      "record_id": "P09.OPEN.001",
+      "resource": 210,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 1,
+      "audio_module": 921
+    },
+    {
+      "text": "ALL THREE? I'M THE ONE WHO CAN COOK. WHY AM I\nBEING EVICTED IN A SET?",
+      "record_id": "P09.OPEN.001",
+      "resource": 210,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 2,
+      "audio_module": 921
+    },
+    {
+      "text": "TAGGED CHAIRS",
+      "record_id": "P09.LABEL.001",
+      "resource": 210,
+      "entry": 5,
+      "header_entry": 4,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "HOUSE LOT  -  THREE",
+      "record_id": "P09.READ.001",
+      "resource": 210,
+      "entry": 7,
+      "header_entry": 6,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THREE CHAIRS, EACH WITH A TAG. THOSE HAD BETTER BE\nTHE THREE THINGS LEAVING. I'LL ASK HIM BEFORE I\nSTART PACKING CUTLERY.",
+      "record_id": "P09.LOOK.001",
+      "resource": 210,
+      "entry": 8,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 3,
+      "audio_module": 921
+    },
+    {
+      "text": "WHAT ARE THE THREE THINGS LEAVING?",
+      "record_id": "P09.CHOICE.001",
+      "resource": 210,
+      "entry": 9,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE CHAIRS. RITA NEEDS THE SPACE FOR HER CERAMICS\nCLASS.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 10,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 4,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CHAIRS. YOU COULD HAVE SAID CHAIRS.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 11,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 921
+    },
+    {
+      "text": "I DID. BEFORE YOU STARTED LISTENING.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 12,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 6,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU'RE THROWING US OUT TONIGHT!",
+      "record_id": "P09.CHOICE.002",
+      "resource": 210,
+      "entry": 13,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CHAIRS, JACKIE. THOSE THREE CHAIRS. NOBODY IS\nTHROWING YOU OUT TONIGHT.",
+      "record_id": "P09.FAILURE.001",
+      "resource": 210,
+      "entry": 14,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 7,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU DO ENJOY SAYING THINGS LIKE THAT FROM BEHIND A\nWALL. THE CHAIRS ARE LEAVING SO MY CLASS CAN FIT.",
+      "record_id": "P09.FAILURE.001",
+      "resource": 210,
+      "entry": 16,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 8,
+      "audio_module": 921
+    },
+    {
+      "text": "WHAT WOULD MAKE TONIGHT A SUCCESS FOR THE\nHOUSEHOLD?",
+      "record_id": "P09.CHOICE.003",
+      "resource": 210,
+      "entry": 17,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CARE FOR THE HOUSE. KEEP THE AGREED GUESTS AND\nNOISE. USE THE COURTYARD RESPONSIBLY.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 18,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 9,
+      "audio_module": 921
+    },
+    {
+      "text": "AND IN EXCHANGE: THE RENEWAL COMMITMENT, AND YOU\nFUND AND SCHEDULE THE PROMISED REPAIR.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 19,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 10,
+      "audio_module": 921
+    },
+    {
+      "text": "I PREFER NOT TO PUT IT AS \"IN EXCHANGE.\"",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 20,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 11,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU DO ON RENT DAY.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 21,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 12,
+      "audio_module": 921
+    },
+    {
+      "text": "VERY WELL. THE RENEWAL COMMITMENT, AND I FUND AND\nSCHEDULE THE AGREED REPAIR. BRING THIS CARD FOR\nTHE TOAST.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 22,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 13,
+      "audio_module": 921
+    },
+    {
+      "text": "RENEWAL AND REPAIR CARD",
+      "record_id": "P09.INVENTORY.001",
+      "resource": 210,
+      "entry": 23,
+      "header_entry": 4,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "HOUSEHOLD: CARE FOR THE HOUSE; KEEP THE AGREED\nGUEST AND NOISE ARRANGEMENTS. MR. STRINGER:\nCONFIRM RENEWAL AND FUND AND SCHEDULE THE AGREED",
+      "record_id": "P09.READ.002",
+      "resource": 210,
+      "entry": 25,
+      "header_entry": 24,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPAIR. REPAIR DATE: TO BE AGREED AND RECORDED.\nSIGNATURE: MR. STRINGER.",
+      "record_id": "P09.READ.002",
+      "resource": 210,
+      "entry": 26,
+      "header_entry": 24,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OUR DUTIES. HIS DUTIES. SPACES FOR THE DATE AND\nHIS SIGNATURE. IT'S ALMOST INDECENT SEEING HIS\nHALF WRITTEN DOWN.",
+      "record_id": "P09.LOOK.002",
+      "resource": 210,
+      "entry": 27,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 14,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU BOTH WANT RITA TO HAVE ROOM FOR HER CLASS.",
+      "record_id": "P09.CHOICE.004",
+      "resource": 210,
+      "entry": 28,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU WANT THE CLASS HERE?",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 29,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 15,
+      "audio_module": 921
+    },
+    {
+      "text": "OF COURSE. I ONLY DISLIKE MOVING THE CHAIRS.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 16,
+      "audio_module": 921
+    },
+    {
+      "text": "I THOUGHT YOU DISLIKED THE CLASS.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 31,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 17,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CLASS HAS NEVER ASKED ME TO LIFT IT.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 18,
+      "audio_module": 921
+    },
+    {
+      "text": "IT'S A CHAIR TAG. I CAN LEAVE IT ATTACHED AND ASK\nHIM. BURNING IT WOULD MAKE ME THE ONLY PERSON HERE\nACTUALLY THREATENING THE FURNITURE.",
+      "record_id": "P09.FAILURE.002",
+      "resource": 210,
+      "entry": 33,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 19,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CHAIRS ARE LEAVING. WE AREN'T. I'VE GOT THE\nUNSIGNED TERMS CARD; WE STILL HAVE AN EVENING TO\nPUT ON.",
+      "record_id": "P09.SUCCESS.001",
+      "resource": 210,
+      "entry": 34,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 921
+    },
+    {
+      "text": "FIND OUT WHAT \"ALL THREE\" ACTUALLY MEANS.",
+      "record_id": "P09.HINT.1",
+      "resource": 210,
+      "entry": 36,
+      "header_entry": 35,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE TAG IS HANGING FROM ONE OF THREE MATCHING\nCHAIRS.",
+      "record_id": "P09.HINT.2",
+      "resource": 210,
+      "entry": 37,
+      "header_entry": 35,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ASK STRINGER WHAT THE THREE THINGS LEAVING ARE, OR\nLOOK AT THE TAGGED CHAIRS. THEN DISCUSS THE\nHOUSEHOLD PLAN AND TAKE THE UNSIGNED RENEWAL AND",
+      "record_id": "P09.HINT.3",
+      "resource": 210,
+      "entry": 38,
+      "header_entry": 35,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPAIR CARD.",
+      "record_id": "P09.HINT.3",
+      "resource": 210,
+      "entry": 39,
+      "header_entry": 35,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ALL THREE OUT OF THE HOUSE. FINISHED BY TOMORROW.",
+      "record_id": "P09.OPEN.001",
+      "resource": 210,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 1,
+      "audio_module": 921
+    },
+    {
+      "text": "ALL THREE? I'M THE ONE WHO CAN COOK. WHY AM I\nBEING EVICTED IN A SET?",
+      "record_id": "P09.OPEN.001",
+      "resource": 210,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 2,
+      "audio_module": 921
+    },
+    {
+      "text": "THREE CHAIRS, EACH WITH A TAG. THOSE HAD BETTER BE\nTHE THREE THINGS LEAVING. I'LL ASK HIM BEFORE I\nSTART PACKING CUTLERY.",
+      "record_id": "P09.LOOK.001",
+      "resource": 210,
+      "entry": 8,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 3,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CHAIRS. RITA NEEDS THE SPACE FOR HER CERAMICS\nCLASS.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 10,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 4,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CHAIRS. YOU COULD HAVE SAID CHAIRS.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 11,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 921
+    },
+    {
+      "text": "I DID. BEFORE YOU STARTED LISTENING.",
+      "record_id": "P09.DIALOGUE.001",
+      "resource": 210,
+      "entry": 12,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 6,
+      "audio_module": 921
+    },
+    {
+      "text": "CHAIRS, JACKIE. THOSE THREE CHAIRS. NOBODY IS\nTHROWING YOU OUT TONIGHT.",
+      "record_id": "P09.FAILURE.001",
+      "resource": 210,
+      "entry": 14,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 7,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU DO ENJOY SAYING THINGS LIKE THAT FROM BEHIND A\nWALL. THE CHAIRS ARE LEAVING SO MY CLASS CAN FIT.",
+      "record_id": "P09.FAILURE.001",
+      "resource": 210,
+      "entry": 16,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 8,
+      "audio_module": 921
+    },
+    {
+      "text": "CARE FOR THE HOUSE. KEEP THE AGREED GUESTS AND\nNOISE. USE THE COURTYARD RESPONSIBLY.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 18,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 9,
+      "audio_module": 921
+    },
+    {
+      "text": "AND IN EXCHANGE: THE RENEWAL COMMITMENT, AND YOU\nFUND AND SCHEDULE THE PROMISED REPAIR.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 19,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 10,
+      "audio_module": 921
+    },
+    {
+      "text": "I PREFER NOT TO PUT IT AS \"IN EXCHANGE.\"",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 20,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 11,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU DO ON RENT DAY.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 21,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 12,
+      "audio_module": 921
+    },
+    {
+      "text": "VERY WELL. THE RENEWAL COMMITMENT, AND I FUND AND\nSCHEDULE THE AGREED REPAIR. BRING THIS CARD FOR\nTHE TOAST.",
+      "record_id": "P09.DIALOGUE.002",
+      "resource": 210,
+      "entry": 22,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 13,
+      "audio_module": 921
+    },
+    {
+      "text": "OUR DUTIES. HIS DUTIES. SPACES FOR THE DATE AND\nHIS SIGNATURE. IT'S ALMOST INDECENT SEEING HIS\nHALF WRITTEN DOWN.",
+      "record_id": "P09.LOOK.002",
+      "resource": 210,
+      "entry": 27,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 14,
+      "audio_module": 921
+    },
+    {
+      "text": "YOU WANT THE CLASS HERE?",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 29,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 15,
+      "audio_module": 921
+    },
+    {
+      "text": "OF COURSE. I ONLY DISLIKE MOVING THE CHAIRS.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 16,
+      "audio_module": 921
+    },
+    {
+      "text": "I THOUGHT YOU DISLIKED THE CLASS.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 31,
+      "header_entry": 15,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 17,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CLASS HAS NEVER ASKED ME TO LIFT IT.",
+      "record_id": "P09.DIALOGUE.003",
+      "resource": 210,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 18,
+      "audio_module": 921
+    },
+    {
+      "text": "IT'S A CHAIR TAG. I CAN LEAVE IT ATTACHED AND ASK\nHIM. BURNING IT WOULD MAKE ME THE ONLY PERSON HERE\nACTUALLY THREATENING THE FURNITURE.",
+      "record_id": "P09.FAILURE.002",
+      "resource": 210,
+      "entry": 33,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 19,
+      "audio_module": 921
+    },
+    {
+      "text": "THE CHAIRS ARE LEAVING. WE AREN'T. I'VE GOT THE\nUNSIGNED TERMS CARD; WE STILL HAVE AN EVENING TO\nPUT ON.",
+      "record_id": "P09.SUCCESS.001",
+      "resource": 210,
+      "entry": 34,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 921
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0PL0101.001",
+      "sync_file": "#0PL0101.001",
+      "audio_sha256": "5421c50e945961fa3b0c658ebf452fd12cc62c3a27020642465cb656181f8232",
+      "sync_sha256": "79b5d1ad3d01178710e08bcc0fcc14d8c86e7f2be3be1b49e4700e54b726ac9a"
+    },
+    {
+      "audio_file": "@0PL0201.001",
+      "sync_file": "#0PL0201.001",
+      "audio_sha256": "a392fdccb028030fa8db23e822bb1fb524acfc5664344498f19154d6eebb4efc",
+      "sync_sha256": "0ecd31168157a53a84cdf8d8d54d25fae8f80f4cde39ca28b294751778d259d2"
+    },
+    {
+      "audio_file": "@0PL0301.001",
+      "sync_file": "#0PL0301.001",
+      "audio_sha256": "7eb1d6caaf447f59ee1e0781cf810355b399dceec3dff481faec162eb46934bf",
+      "sync_sha256": "b9634a6a692416554d6db29e1c616db3417023d3d7ee2f847129fe740b0493e4"
+    },
+    {
+      "audio_file": "@0PL0401.001",
+      "sync_file": "#0PL0401.001",
+      "audio_sha256": "1ba31d440c59f82db323b0b0e6422b38081e711e6d9c5aea1e9b31fd9621a9e9",
+      "sync_sha256": "e65f1510137721235c86312b1344b13c36149c84bda05db15d26dc5938e47cfb"
+    },
+    {
+      "audio_file": "@0PL0501.001",
+      "sync_file": "#0PL0501.001",
+      "audio_sha256": "e6042665d6697a338937f9602f7fa29de3cdea187fd0ae616990768d4dbfd5df",
+      "sync_sha256": "707ccdf3d2b8944447253c46e5a248c3d6837bd91229ad72be611b4b8645ebee"
+    },
+    {
+      "audio_file": "@0PL0601.001",
+      "sync_file": "#0PL0601.001",
+      "audio_sha256": "7985504f2a6c0c7d2ed71843409580601947609c20f202c84acd1875638ef987",
+      "sync_sha256": "ddcd41c531dc05c36d0b42723269412134f028ebc149644d87336e5ae56561b7"
+    },
+    {
+      "audio_file": "@0PL0701.001",
+      "sync_file": "#0PL0701.001",
+      "audio_sha256": "0dc5d87b895089585297e1841cd21af1a7320ab1a90813ef57834f98c55ffd8e",
+      "sync_sha256": "da6f6c9b2321b69770cb854dea41fd7997a6c5e2aabd683f03c7a580daf0f802"
+    },
+    {
+      "audio_file": "@0PL0801.001",
+      "sync_file": "#0PL0801.001",
+      "audio_sha256": "4bd6bedc457a7a05da8ce5bc3838cfeb8c9b0a4eb09cb2065db51b6f7a53efbb",
+      "sync_sha256": "ece38bf58e7d65fe63f8f65b8f74ed19a18c5347df0a732fca1cec172f7f5792"
+    },
+    {
+      "audio_file": "@0PL0901.001",
+      "sync_file": "#0PL0901.001",
+      "audio_sha256": "1a9d2413bb67bc985cd885c5110e764cfa43b1b20f285d26a7d7d2954207d0d1",
+      "sync_sha256": "9e608f4fd61d779a74ec7ee603ac24cc426503195ba27cf206a1754ed2de3048"
+    },
+    {
+      "audio_file": "@0PL0A01.001",
+      "sync_file": "#0PL0A01.001",
+      "audio_sha256": "74441e449b71e2bcd2f2b10c10360e6a2f79428b1caaaaa1e1391c3cb628daea",
+      "sync_sha256": "a54582d45380aa3a353d7b1f7611dd00284f816530b87ccc995dae6e5bc2d783"
+    },
+    {
+      "audio_file": "@0PL0B01.001",
+      "sync_file": "#0PL0B01.001",
+      "audio_sha256": "63df08f2a616cb8fcd4fc8fd827e4e4b8afcbbf84a89895fa920634ae2240c4c",
+      "sync_sha256": "e4e83c4c1400a46c81f0c3f7b944cce976d82ff72a30dde6d90c8fe563dae01d"
+    },
+    {
+      "audio_file": "@0PL0C01.001",
+      "sync_file": "#0PL0C01.001",
+      "audio_sha256": "620e5f2f35bb845b037205011679f8cf26a7779c8bff6f34ea963e661ac25444",
+      "sync_sha256": "c6434e71f62a2d53551e8b122d0a8d0d7f70d86e1264d5f045b034a55db7f3aa"
+    },
+    {
+      "audio_file": "@0PL0D01.001",
+      "sync_file": "#0PL0D01.001",
+      "audio_sha256": "68c0d89132f40bcc723d00a6a90f12bfd075b67b18bb77346e004c47453c38a7",
+      "sync_sha256": "43bd22d6d81818f0a8004ab5d53ea9179b00a0f8372d3a928fdb8266d905a1a9"
+    },
+    {
+      "audio_file": "@0PL0E01.001",
+      "sync_file": "#0PL0E01.001",
+      "audio_sha256": "355a49d841c8f7c40c7de82b9414ae5ef9b2794f702c429ee447a36fb7705c8a",
+      "sync_sha256": "61c398fc904a02d1daa31596f340f7403211d28c6ab19e5e6c0b9c7ad5dd1857"
+    },
+    {
+      "audio_file": "@0PL0F01.001",
+      "sync_file": "#0PL0F01.001",
+      "audio_sha256": "ecf2896dc56c7bde4f8ba54b1664efdf53b84722fefaebc4a3f14fedadf288a5",
+      "sync_sha256": "af08ab8c0913b4c194a7f43c8045b30ff1acd084bd0c0c3540d184f887ee8af7"
+    },
+    {
+      "audio_file": "@0PL0G01.001",
+      "sync_file": "#0PL0G01.001",
+      "audio_sha256": "c1f18c3dfd0cfd76a6807ba289ba04b4a831379456e6508ff0d052ae50781178",
+      "sync_sha256": "59c9d76916bfd8a7de668c95ddc067a815dc17f8b061cfa42b67ca25b0507917"
+    },
+    {
+      "audio_file": "@0PL0H01.001",
+      "sync_file": "#0PL0H01.001",
+      "audio_sha256": "d81ac84921615e361269dcdfb67f6791801773c04f42a318dabac571477c180d",
+      "sync_sha256": "40d7fbd4c8a1c4472f2cf8ba9c7a16d1565f22be4d7aa5499252795bde2f2650"
+    },
+    {
+      "audio_file": "@0PL0I01.001",
+      "sync_file": "#0PL0I01.001",
+      "audio_sha256": "b35b5182ff1ed7ebc62a9d1d85d233ee1002b3c9a9f697167905593bf4a154d4",
+      "sync_sha256": "102b5c22b00473c08b1a775c4272eb6ee7a5895d935a5bb3b7fe307c9f4c18d8"
+    },
+    {
+      "audio_file": "@0PL0J01.001",
+      "sync_file": "#0PL0J01.001",
+      "audio_sha256": "412911ae45a5be41706e438cc8e119e2a18aa95e725a1c5415ec3baaf3055dfe",
+      "sync_sha256": "2f451cd18f448f46c0d71d95948bc92837cc385924f022d851ba88c02c76f0c7"
+    },
+    {
+      "audio_file": "@0PL0K01.001",
+      "sync_file": "#0PL0K01.001",
+      "audio_sha256": "6fbbf7e6db36e006e2613e15a76919254fa6d5d19d292c0441534006c2d6fd4e",
+      "sync_sha256": "cedd974da0de2e089aef3dcb42157f6e0c43c520ecffc036d68d8d0e8c002876"
+    }
+  ]
+}

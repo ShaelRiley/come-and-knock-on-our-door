@@ -1,0 +1,1424 @@
+{
+  "component": "p05",
+  "pages": [
+    {
+      "text": "TONIGHT, THE FULL PENNANT SOUND EXPERIENCE.",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 1,
+      "audio_module": 915
+    },
+    {
+      "text": "MILO PENNANT PRESENTS TOMORROW, SLIGHTLY AHEAD OF\nSCHEDULE.",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 2,
+      "audio_module": 915
+    },
+    {
+      "text": "DOES IT PLAY ANYTHING WITHOUT YOU IN IT?",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 5,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 3,
+      "audio_module": 915
+    },
+    {
+      "text": "IT CAN.",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 6,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 4,
+      "audio_module": 915
+    },
+    {
+      "text": "HAVE YOU TRIED?",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 7,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 915
+    },
+    {
+      "text": "I DON'T SEE WHY YOU'RE MAKING THAT SOUND LIKE A\nFEATURE.",
+      "record_id": "P05.SCENE.001",
+      "resource": 205,
+      "entry": 8,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 6,
+      "audio_module": 915
+    },
+    {
+      "text": "PA KIT",
+      "record_id": "P05.LABEL.001",
+      "resource": 205,
+      "entry": 10,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ALL THE EQUIPMENT FOR BEING HEARD. MILO IS\nRELUCTANT TO LEAVE THAT TO THE EQUIPMENT.",
+      "record_id": "P05.LOOK.001",
+      "resource": 205,
+      "entry": 11,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 7,
+      "audio_module": 915
+    },
+    {
+      "text": "INPUT SELECTOR",
+      "record_id": "P05.LABEL.002",
+      "resource": 205,
+      "entry": 12,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "TWO BIG SETTINGS: TAPE PLAYS MILO'S RECORDING; MIC\nLETS SOMEBODY ELSE SPEAK. YOU CAN SEE WHY HE\nPREFERS TAPE.",
+      "record_id": "P05.LOOK.002",
+      "resource": 205,
+      "entry": 13,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 8,
+      "audio_module": 915
+    },
+    {
+      "text": "TAPE [TAPE ICON]\nMIC [MICROPHONE ICON]",
+      "record_id": "P05.READ.001",
+      "resource": 205,
+      "entry": 15,
+      "header_entry": 14,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MICROPHONE",
+      "record_id": "P05.LABEL.003",
+      "resource": 205,
+      "entry": 16,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE MICROPHONE HAS A CABLE WITH THREE DOTS ON THE\nPLUG. THERE'S A SOCKET HERE WITH THE SAME THREE\nDOTS.",
+      "record_id": "P05.LOOK.003",
+      "resource": 205,
+      "entry": 17,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 9,
+      "audio_module": 915
+    },
+    {
+      "text": "MIC SOCKET",
+      "record_id": "P05.LABEL.004",
+      "resource": 205,
+      "entry": 18,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MIC. THREE DOTS, LIKE THE MICROPHONE PLUG. THEY\nMATCH WITHOUT MILO HAVING TO INTRODUCE THEM.",
+      "record_id": "P05.LOOK.004",
+      "resource": 205,
+      "entry": 19,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 10,
+      "audio_module": 915
+    },
+    {
+      "text": "MIC\n. . .",
+      "record_id": "P05.READ.002",
+      "resource": 205,
+      "entry": 21,
+      "header_entry": 20,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LOUDSPEAKER",
+      "record_id": "P05.LABEL.005",
+      "resource": 205,
+      "entry": 22,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE FRONT GRILLE SENDS THE SOUND TOWARD WHOEVER IT\nFACES. EXCELLENT EQUIPMENT, ONCE WE POINT IT AT\nOUR ACTUAL LISTENER.",
+      "record_id": "P05.LOOK.005",
+      "resource": 205,
+      "entry": 23,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 11,
+      "audio_module": 915
+    },
+    {
+      "text": "SPEAKER SWIVEL HANDLE",
+      "record_id": "P05.LABEL.006",
+      "resource": 205,
+      "entry": 24,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE SWIVEL HANDLE TURNS THE SPEAKER TOWARD THE\nLISTENING MARK. UNLIKE MILO, IT CAN BE REDIRECTED\nBY HAND.",
+      "record_id": "P05.LOOK.006",
+      "resource": 205,
+      "entry": 25,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 12,
+      "audio_module": 915
+    },
+    {
+      "text": "MARKED LISTENING POSITION",
+      "record_id": "P05.LABEL.007",
+      "resource": 205,
+      "entry": 26,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE PLACE TO STAND FOR THE TEST. THE SPEAKER'S\nFRONT GRILLE NEEDS TO FACE WHOEVER STANDS HERE.",
+      "record_id": "P05.LOOK.007",
+      "resource": 205,
+      "entry": 27,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 915
+    },
+    {
+      "text": "MILO'S SLOGAN TAPE",
+      "record_id": "P05.LABEL.008",
+      "resource": 205,
+      "entry": 28,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MILO SAYING HIS OWN NAME ON A LOOP. AN ENTIRE\nSECOND MAN, AND NEITHER OF THEM LISTENS.",
+      "record_id": "P05.LOOK.008",
+      "resource": 205,
+      "entry": 29,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 14,
+      "audio_module": 915
+    },
+    {
+      "text": "MILO PENNANT PRESENTS TOMORROW, SLIGHTLY AHEAD OF\nSCHEDULE.",
+      "record_id": "P05.DIALOGUE.001",
+      "resource": 205,
+      "entry": 3,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 15,
+      "audio_module": 915
+    },
+    {
+      "text": "EQUIPMENT CREDIT SLATE",
+      "record_id": "P05.LABEL.009",
+      "resource": 205,
+      "entry": 30,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "AN EQUIPMENT CREDIT SLATE. THERE'S ROOM TO\nDESCRIBE MILO'S ACTUAL LOAN, EVEN WITH HIS NAME ON\nIT.",
+      "record_id": "P05.LOOK.009",
+      "resource": 205,
+      "entry": 31,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 16,
+      "audio_module": 915
+    },
+    {
+      "text": "HANDCART",
+      "record_id": "P05.LABEL.010",
+      "resource": 205,
+      "entry": 32,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE HANDCART COMES WITH THE LOAN AND STAYS\nAVAILABLE AFTER THE PA MOVES. TWO WHEELS, NO\nOPENING REMARKS.",
+      "record_id": "P05.LOOK.010",
+      "resource": 205,
+      "entry": 33,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 17,
+      "audio_module": 915
+    },
+    {
+      "text": "THREE DOTS TO THREE DOTS. THE MICROPHONE IS\nCONNECTED.",
+      "record_id": "P05.SUCCESS.001",
+      "resource": 205,
+      "entry": 34,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 18,
+      "audio_module": 915
+    },
+    {
+      "text": "MIC SELECTED. MILO WILL HAVE TO SAY HIS OWN NAME\nIN PERSON.",
+      "record_id": "P05.SUCCESS.002",
+      "resource": 205,
+      "entry": 35,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 19,
+      "audio_module": 915
+    },
+    {
+      "text": "THE GRILLE FACES THE LISTENING MARK NOW.",
+      "record_id": "P05.SUCCESS.003",
+      "resource": 205,
+      "entry": 36,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 915
+    },
+    {
+      "text": "WILL YOU STAND ON THE LISTENING MARK AND TELL US\nWHETHER THE WORDS ARE CLEAR?",
+      "record_id": "P05.CHOICE.001",
+      "resource": 205,
+      "entry": 37,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YES. I'LL STAND ON THE LISTENING MARK AND LISTEN\nFOR EVERY WORD.",
+      "record_id": "P05.DIALOGUE.002",
+      "resource": 205,
+      "entry": 39,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 21,
+      "audio_module": 915
+    },
+    {
+      "text": "JUST ONE COMPLETE SENTENCE.",
+      "record_id": "P05.DIALOGUE.002",
+      "resource": 205,
+      "entry": 40,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 22,
+      "audio_module": 915
+    },
+    {
+      "text": "GOOD. I'M NOT REVIEWING THE WHOLE OF TOMORROW.",
+      "record_id": "P05.DIALOGUE.002",
+      "resource": 205,
+      "entry": 41,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 23,
+      "audio_module": 915
+    },
+    {
+      "text": "COULD YOU LISTEN FROM YOUR MARKED POSITION WHILE I\nTEST THE MICROPHONE?",
+      "record_id": "P05.CHOICE.002",
+      "resource": 205,
+      "entry": 42,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "READY.",
+      "record_id": "P05.DIALOGUE.003",
+      "resource": 205,
+      "entry": 44,
+      "header_entry": 43,
+      "speaker_id": "audience",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "I'LL GO BACK TO THE MICROPHONE. TELL ME IF THE\nWHOLE SENTENCE COMES THROUGH.",
+      "record_id": "P05.DIALOGUE.003",
+      "resource": 205,
+      "entry": 45,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 24,
+      "audio_module": 915
+    },
+    {
+      "text": "TONIGHT, EIGHT OF US ARE HAVING SUPPER IN THE\nCOURTYARD.",
+      "record_id": "P05.CHOICE.003",
+      "resource": 205,
+      "entry": 46,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "TONIGHT, EIGHT OF US ARE HAVING SUPPER IN THE\nCOURTYARD.",
+      "record_id": "P05.DIALOGUE.004",
+      "resource": 205,
+      "entry": 46,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 25,
+      "audio_module": 915
+    },
+    {
+      "text": "EVERY WORD WAS CLEAR. EIGHT PEOPLE, SUPPER,\nCOURTYARD.",
+      "record_id": "P05.SUCCESS.004",
+      "resource": 205,
+      "entry": 47,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 26,
+      "audio_module": 915
+    },
+    {
+      "text": "CLEAR, BALANCED, INTIMATE.",
+      "record_id": "P05.SUCCESS.004",
+      "resource": 205,
+      "entry": 48,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 27,
+      "audio_module": 915
+    },
+    {
+      "text": "YES, MILO. IT EVEN WORKS WHEN YOU AREN'T TALKING.",
+      "record_id": "P05.SUCCESS.004",
+      "resource": 205,
+      "entry": 49,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 28,
+      "audio_module": 915
+    },
+    {
+      "text": "EVERY WORD WAS CLEAR.",
+      "record_id": "P05.SUCCESS.005",
+      "resource": 205,
+      "entry": 50,
+      "header_entry": 43,
+      "speaker_id": "audience",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CLEAR: EVERY WORD WAS CLEAR.",
+      "record_id": "P05.SYSTEM.001",
+      "resource": 205,
+      "entry": 52,
+      "header_entry": 51,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT SOCKET DOESN'T FIT. THE MICROPHONE PLUG HAS\nTHREE DOTS; THE MIC SOCKET HAS THE SAME THREE\nDOTS. I'LL MATCH THEM RATHER THAN TRY TO ENLARGE",
+      "record_id": "P05.FAILURE.001",
+      "resource": 205,
+      "entry": 53,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 29,
+      "audio_module": 915
+    },
+    {
+      "text": "MILO'S EQUIPMENT.",
+      "record_id": "P05.FAILURE.001",
+      "resource": 205,
+      "entry": 54,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 30,
+      "audio_module": 915
+    },
+    {
+      "text": "I CAN HEAR A VOICE, BUT NO CLEAR WORDS. THE GRILLE\nPOINTS AWAY FROM ME.",
+      "record_id": "P05.FAILURE.002",
+      "resource": 205,
+      "entry": 55,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 31,
+      "audio_module": 915
+    },
+    {
+      "text": "I'LL TURN IT TOWARD YOUR LISTENING MARK.",
+      "record_id": "P05.FAILURE.002",
+      "resource": 205,
+      "entry": 56,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 915
+    },
+    {
+      "text": "YES. I'D LIKE TO BE IGNORED FACE-TO-FACE.",
+      "record_id": "P05.FAILURE.002",
+      "resource": 205,
+      "entry": 57,
+      "header_entry": 38,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 33,
+      "audio_module": 915
+    },
+    {
+      "text": "WE CAN HEAR SOUND, BUT NOT CLEAR WORDS. TURN THE\nFRONT GRILLE TOWARD OUR LISTENING MARK.",
+      "record_id": "P05.FAILURE.003",
+      "resource": 205,
+      "entry": 58,
+      "header_entry": 43,
+      "speaker_id": "audience",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "UNCLEAR: TURN THE FRONT GRILLE TOWARD OUR\nLISTENING MARK.",
+      "record_id": "P05.SYSTEM.002",
+      "resource": 205,
+      "entry": 59,
+      "header_entry": 51,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SOUND EQUIPMENT COURTESY OF MILO PENNANT",
+      "record_id": "P05.CHOICE.004",
+      "resource": 205,
+      "entry": 60,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SOUND EQUIPMENT COURTESY OF MILO PENNANT",
+      "record_id": "P05.READ.003",
+      "resource": 205,
+      "entry": 60,
+      "header_entry": 61,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "\"SOUND EQUIPMENT COURTESY OF MILO PENNANT.\" NOT \"A\nMILO PENNANT EVENING\"?",
+      "record_id": "P05.DIALOGUE.005",
+      "resource": 205,
+      "entry": 62,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 34,
+      "audio_module": 915
+    },
+    {
+      "text": "THE EQUIPMENT, MILO. IT WORKS. PEOPLE CAN HEAR IT.",
+      "record_id": "P05.DIALOGUE.005",
+      "resource": 205,
+      "entry": 63,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 35,
+      "audio_module": 915
+    },
+    {
+      "text": "VERY WELL. LEAVE MY NAME A DECENT SIZE.",
+      "record_id": "P05.DIALOGUE.005",
+      "resource": 205,
+      "entry": 64,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 36,
+      "audio_module": 915
+    },
+    {
+      "text": "A MAN OF YOUR STANDING MUST HAVE WONDERFUL SOUND.",
+      "record_id": "P05.FAILURE.004",
+      "resource": 205,
+      "entry": 65,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 37,
+      "audio_module": 915
+    },
+    {
+      "text": "SAY THE FIRST BIT AGAIN.",
+      "record_id": "P05.FAILURE.004",
+      "resource": 205,
+      "entry": 66,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 38,
+      "audio_module": 915
+    },
+    {
+      "text": "WE STILL NEED TO TEST IT.",
+      "record_id": "P05.FAILURE.004",
+      "resource": 205,
+      "entry": 67,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 39,
+      "audio_module": 915
+    },
+    {
+      "text": "OF COURSE. I JUST WANTED TO HEAR IT ONCE BEFORE WE\nFOUND OUT WHETHER THE MICROPHONE WORKS.",
+      "record_id": "P05.FAILURE.004",
+      "resource": 205,
+      "entry": 68,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 40,
+      "audio_module": 915
+    },
+    {
+      "text": "WILL YOU GREET PEOPLE FOR OUR SUPPER? EIGHT\nCONTRIBUTORS, FOOD, AND A CONVERSATION ABOUT\nPOSSIBLE FUTURE WORK. NO PARTNERSHIP PROMISES",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 69,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 41,
+      "audio_module": 915
+    },
+    {
+      "text": "TONIGHT.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 70,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 42,
+      "audio_module": 915
+    },
+    {
+      "text": "NO GRAND LAUNCH?",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 71,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 43,
+      "audio_module": 915
+    },
+    {
+      "text": "SUPPER.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 72,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 44,
+      "audio_module": 915
+    },
+    {
+      "text": "CAN I AT LEAST ANNOUNCE THE OPENING?",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 73,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 45,
+      "audio_module": 915
+    },
+    {
+      "text": "THE FRONT DOOR.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 74,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 46,
+      "audio_module": 915
+    },
+    {
+      "text": "I CAN MAKE PEOPLE FEEL WANTED.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 75,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 47,
+      "audio_module": 915
+    },
+    {
+      "text": "I KNOW.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 76,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 48,
+      "audio_module": 915
+    },
+    {
+      "text": "ALL RIGHT. I WANT THIS ONE TO WORK.",
+      "record_id": "P05.DIALOGUE.006",
+      "resource": 205,
+      "entry": 77,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 49,
+      "audio_module": 915
+    },
+    {
+      "text": "THE PA AND THE HANDCART ARE YOURS TO USE.",
+      "record_id": "P05.DIALOGUE.007",
+      "resource": 205,
+      "entry": 78,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 50,
+      "audio_module": 915
+    },
+    {
+      "text": "THANK YOU. LET'S MOVE THE PA TO THE COURTYARD.",
+      "record_id": "P05.DIALOGUE.007",
+      "resource": 205,
+      "entry": 79,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 51,
+      "audio_module": 915
+    },
+    {
+      "text": "I'LL LEAVE THE HANDCART AVAILABLE HERE. A\nSURPRISINGLY VERSATILE PART OF THE PACKAGE.",
+      "record_id": "P05.DIALOGUE.007",
+      "resource": 205,
+      "entry": 80,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 52,
+      "audio_module": 915
+    },
+    {
+      "text": "SOUND CHECKED. MILO'S GREETER ROLE AGREED. PA\nMOVED TO THE COURTYARD; HANDCART AVAILABLE IN THE\nGARAGE.",
+      "record_id": "P05.SUCCESS.006",
+      "resource": 205,
+      "entry": 82,
+      "header_entry": 81,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CHECK WHICH SOURCE IS PLAYING, THEN CHECK WHERE\nTHE SPEAKER IS SENDING IT.",
+      "record_id": "P05.HINT.1",
+      "resource": 205,
+      "entry": 84,
+      "header_entry": 83,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "TAPE PLAYS THE RECORDING; MIC USES THE MICROPHONE.\nMATCH THE THREE-DOT PLUG TO THE MIC SOCKET, AND\nTURN THE FRONT GRILLE TOWARD THE LISTENER.",
+      "record_id": "P05.HINT.2",
+      "resource": 205,
+      "entry": 85,
+      "header_entry": 83,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONNECT THE MICROPHONE TO THE MATCHING MIC SOCKET,\nSELECT MIC, AND TURN THE GRILLE TOWARD BUNNY OR\nTHE INVITED AUDIENCE. TEST A FULL SENTENCE, THEN",
+      "record_id": "P05.HINT.3",
+      "resource": 205,
+      "entry": 86,
+      "header_entry": 83,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CREDIT MILO'S EQUIPMENT AND AGREE HIS GREETER\nROLE.",
+      "record_id": "P05.HINT.3",
+      "resource": 205,
+      "entry": 87,
+      "header_entry": 83,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LET'S SETTLE WHO GETS THE SPOKEN FLOURISH. THE\nTRUTHFUL EQUIPMENT CREDIT STAYS EXACTLY AS AGREED.",
+      "record_id": "VC01.ENTRY",
+      "resource": 205,
+      "entry": 88,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 53,
+      "audio_module": 915
+    },
+    {
+      "text": "ONLY THE LAST WORD. THE SOUNDCHECK, LOAN AND\nGREETER JOB STAY AGREED.",
+      "record_id": "VC01.ENTRY",
+      "resource": 205,
+      "entry": 89,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 54,
+      "audio_module": 915
+    },
+    {
+      "text": "AGREED. PRACTICE FIRST, OR BEGIN WHEN YOU'RE\nREADY?",
+      "record_id": "VC01.ENTRY",
+      "resource": 205,
+      "entry": 90,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 55,
+      "audio_module": 915
+    },
+    {
+      "text": "I YIELD. YOU GET THE CONCISE INTRODUCTION.",
+      "record_id": "VC01.WIN",
+      "resource": 205,
+      "entry": 91,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 56,
+      "audio_module": 915
+    },
+    {
+      "text": "SOUND EQUIPMENT COURTESY OF MILO PENNANT. THANK\nYOU, MILO.",
+      "record_id": "VC01.WIN",
+      "resource": 205,
+      "entry": 92,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 57,
+      "audio_module": 915
+    },
+    {
+      "text": "I YIELD THE LAST WORD. A BRIEF, TRUTHFUL FLOURISH,\nWITH THE EXACT EQUIPMENT CREDIT.",
+      "record_id": "VC01.LOSS",
+      "resource": 205,
+      "entry": 93,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 58,
+      "audio_module": 915
+    },
+    {
+      "text": "SOUND EQUIPMENT COURTESY OF MILO PENNANT. I'M\nPLEASED TO LEND IT FOR TONIGHT'S SUPPER AND\nCOLLABORATION TRIAL.",
+      "record_id": "VC01.LOSS",
+      "resource": 205,
+      "entry": 94,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 59,
+      "audio_module": 915
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC01.REMATCH",
+      "resource": 205,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 60,
+      "audio_module": 915
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC01.KO.OPPONENT",
+      "resource": 205,
+      "entry": 96,
+      "header_entry": 0,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 61,
+      "audio_module": 915
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC01.KO.JACKIE",
+      "resource": 205,
+      "entry": 96,
+      "header_entry": 4,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 62,
+      "audio_module": 915
+    },
+    {
+      "text": "JACKIE AND HIS OPPONENT REMAIN STANDING, FACE TO\nFACE. WILLING ONLOOKERS GATHER AROUND THEM. THE\nROOM DIMS AROUND A THEATRICAL SPOTLIGHT. METERS",
+      "record_id": "VC01.STAGE",
+      "resource": 205,
+      "entry": 98,
+      "header_entry": 97,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW NAMES, NUMBERS AND COMPOSURE COLOR. A LANDED\nLINE PRODUCES A BRIEF NON-CONTACT WINCE; AT ZERO,\nSHOW KO AND THE LOSER'S SOCIAL GROAN BEFORE ANY",
+      "record_id": "VC01.STAGE",
+      "resource": 205,
+      "entry": 99,
+      "header_entry": 97,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "QUEUED AUDIENCE RESPONSE. RESTORE THE UNDERLYING\nROOM POSITIONS ON EXIT.",
+      "record_id": "VC01.STAGE",
+      "resource": 205,
+      "entry": 100,
+      "header_entry": 97,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "FINISH THE SOUNDCHECK AND AGREE THE TRUTHFUL LOAN\nAND GREETER ROLE FIRST.",
+      "record_id": "VC01.NOT_READY",
+      "resource": 205,
+      "entry": 101,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE SOUNDCHECK AND ROLE ARE AGREED. COMPLETE ONE\nCONTEST ATTEMPT WITH MILO TO FINISH THIS\nPREPARATION; EITHER RESULT PERMITS PRACTICAL",
+      "record_id": "VC01.NEED_RESOLUTION",
+      "resource": 205,
+      "entry": 102,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PROGRESS.",
+      "record_id": "VC01.NEED_RESOLUTION",
+      "resource": 205,
+      "entry": 103,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0PF0101.001",
+      "sync_file": "#0PF0101.001",
+      "audio_sha256": "f218546c78e7bba8b4edea3423a9ebdecf9f4946a8cd4404ed1f0b74c50175eb",
+      "sync_sha256": "1111842fd835a227b9f6a4eed4ead7d09e39eac3ddafd1bce067f5d22ffb9d20"
+    },
+    {
+      "audio_file": "@0PF0201.001",
+      "sync_file": "#0PF0201.001",
+      "audio_sha256": "ece5a6d6faf714b4535c2d8da0e79e6e3fd6267fa9043aa80406fddfc30e2688",
+      "sync_sha256": "2cba8030f3810d4548ad8ecbcffd618ced04d409f42c425f091d88a908a888ec"
+    },
+    {
+      "audio_file": "@0PF0301.001",
+      "sync_file": "#0PF0301.001",
+      "audio_sha256": "2775e7ec38a560d60edb94e123a35d04d6b310bb4a0f097abbda6822522d2425",
+      "sync_sha256": "646251bd774d8af287ebc140adcedc4205566759ccef526504f8035e05fb19e7"
+    },
+    {
+      "audio_file": "@0PF0401.001",
+      "sync_file": "#0PF0401.001",
+      "audio_sha256": "70b93b116963ef39eacbf12f7c29ddfe74f3437688ccd6935bc2f9d4d351b3bd",
+      "sync_sha256": "f3f2c3322f7a03a08f651e23bf3faf2ed1e95736265f4a1269766020b400ecad"
+    },
+    {
+      "audio_file": "@0PF0501.001",
+      "sync_file": "#0PF0501.001",
+      "audio_sha256": "f9cb166cd596a27944f70fd64684862a3c1a35b2c4f45d257f39a15c9950802e",
+      "sync_sha256": "6eaab380998b9eea79b6d28f7a6c042d422234031b7565ecc6d5d46df5a5f042"
+    },
+    {
+      "audio_file": "@0PF0601.001",
+      "sync_file": "#0PF0601.001",
+      "audio_sha256": "b74ad1557ea2560030f3edb8e548f82f69e87a2e293504242a410243ba7d0d1f",
+      "sync_sha256": "8e9c91157a964dde3af9c114839310d55c4617d289f5c8800990b79458465a0e"
+    },
+    {
+      "audio_file": "@0PF0701.001",
+      "sync_file": "#0PF0701.001",
+      "audio_sha256": "99797cd0f5a7eae53f77b3a0b2bee75e3234cc450a3f18d9a99f723951243038",
+      "sync_sha256": "a6aca4c58342697f35fa432e7203204e5e36f8a269b6a50c8f276e730d7cec0f"
+    },
+    {
+      "audio_file": "@0PF0801.001",
+      "sync_file": "#0PF0801.001",
+      "audio_sha256": "a7d40e2d8cd19ba8b992f5210041a4b630682b1c1adee1b4c9787653ed8db449",
+      "sync_sha256": "a9b97279f229adfb8e4ea9dd388a8a9001b890e6ab8df31d83930858e9f4ead3"
+    },
+    {
+      "audio_file": "@0PF0901.001",
+      "sync_file": "#0PF0901.001",
+      "audio_sha256": "64298ef262a44fa53aebc6a5b129733dc944d401275f1f9c4684a660de4dac9f",
+      "sync_sha256": "628df2d94d7f99eea7244cad802ef49aa07fb5d355e5b5f76f58735d15305eb4"
+    },
+    {
+      "audio_file": "@0PF0A01.001",
+      "sync_file": "#0PF0A01.001",
+      "audio_sha256": "1a1a9c97395ad344d4b72065ddc7382d9b61b6dd6e12faa8fcd28eeab2b569d8",
+      "sync_sha256": "30c2a16c6ade19445c5d506b45124006e61b03538dbc6cbc36cc7bcd9461a048"
+    },
+    {
+      "audio_file": "@0PF0B01.001",
+      "sync_file": "#0PF0B01.001",
+      "audio_sha256": "14cd21e91a5497ec8d907edcbb1788ca9a19a37e7562956799142d3994b665d6",
+      "sync_sha256": "fc326571ac17f8699ad65a838654dbbd73d04a2db12db5c3d6213e70628b4036"
+    },
+    {
+      "audio_file": "@0PF0C01.001",
+      "sync_file": "#0PF0C01.001",
+      "audio_sha256": "c900a289c8bf2cedadcedd9a792b0b2bcf5a141754bd8e3644c4f470e0118da9",
+      "sync_sha256": "c63f652f9d5b2eb27a359ccb60551b2dc234141dba5602443aeb56da1439513e"
+    },
+    {
+      "audio_file": "@0PF0D01.001",
+      "sync_file": "#0PF0D01.001",
+      "audio_sha256": "51ee63f06fe9fe77b9b0ea781283fc10e3c041fa91485355e75cfce8447af2e2",
+      "sync_sha256": "c7de62f31fde447e66a8cb7760da9db057edda94ce89ee22ee89983b39f2f24f"
+    },
+    {
+      "audio_file": "@0PF0E01.001",
+      "sync_file": "#0PF0E01.001",
+      "audio_sha256": "916afb4d59a69c58b03115a8e340d6e3d2b5c6af926e47fe6369873073e6996d",
+      "sync_sha256": "dbea71eb89a8d090a318cd0701317857f37497ed73bcf8eb9b2ac71eb8a4e339"
+    },
+    {
+      "audio_file": "@0PF0F01.001",
+      "sync_file": "#0PF0F01.001",
+      "audio_sha256": "ece5a6d6faf714b4535c2d8da0e79e6e3fd6267fa9043aa80406fddfc30e2688",
+      "sync_sha256": "2cba8030f3810d4548ad8ecbcffd618ced04d409f42c425f091d88a908a888ec"
+    },
+    {
+      "audio_file": "@0PF0G01.001",
+      "sync_file": "#0PF0G01.001",
+      "audio_sha256": "cdbb69bc65168ec544ad420c16c3f7bd5a36391f7929ad2092040ee765c240e6",
+      "sync_sha256": "d97f601cf46e602db821923190435e779e892da9fe368b8b0a0cd01793a705ad"
+    },
+    {
+      "audio_file": "@0PF0H01.001",
+      "sync_file": "#0PF0H01.001",
+      "audio_sha256": "59c9ca56ef99991daee417e0c10694d91e1f6f8ebd4129de0c59e27ed7ba545e",
+      "sync_sha256": "6b0569feb24ea61b65a8202c3439bdbb7fb18dafcef68f442ca061751b66c796"
+    },
+    {
+      "audio_file": "@0PF0I01.001",
+      "sync_file": "#0PF0I01.001",
+      "audio_sha256": "74ed68d884778e4972d3c09b97face4b582e3a408d8ccb077575764b506406ee",
+      "sync_sha256": "9a142ea591ef70b434e8c2615fe9012db1ed752d7fcf9bf16197275a47b01cfd"
+    },
+    {
+      "audio_file": "@0PF0J01.001",
+      "sync_file": "#0PF0J01.001",
+      "audio_sha256": "71d1cd0774c6df5bb331991fc525e4bd1ef6224543e4fa98bc3ac674db93b201",
+      "sync_sha256": "7fc8fa423eaca5f43720e8ed88c1e9af783469f2de8bf15c5debd78b7d1c665a"
+    },
+    {
+      "audio_file": "@0PF0K01.001",
+      "sync_file": "#0PF0K01.001",
+      "audio_sha256": "d6036f8e15d2c71baed4d8b9875432bc5f1ca06a8e3c7861fc0e2746691eb9db",
+      "sync_sha256": "8d0ca7228e46f1c3e21f2c3162cd7fa34bd29c9b106b94ed8430b0ade105c1a9"
+    },
+    {
+      "audio_file": "@0PF0L01.001",
+      "sync_file": "#0PF0L01.001",
+      "audio_sha256": "5531feb70d0058cfbb3b1098840d3799fc32999a50149260cc69445c3326b774",
+      "sync_sha256": "afa6aea97bd776deee6954138b667368822b9252839f35b8990f6a074c7f4734"
+    },
+    {
+      "audio_file": "@0PF0M01.001",
+      "sync_file": "#0PF0M01.001",
+      "audio_sha256": "f56a163509e33a51377a2b73162d28d53f911b53a6ff4bf1790ea1ffff015906",
+      "sync_sha256": "a31b565d29c8a9a145c4bdb39461e3b26f60ebd52ac6f70d72f725cbd27050f5"
+    },
+    {
+      "audio_file": "@0PF0N01.001",
+      "sync_file": "#0PF0N01.001",
+      "audio_sha256": "89ef3e20d078a3fb85b330cc89ba91becb44362dadd8338a0fabd8c0107712ac",
+      "sync_sha256": "26db845d2c84cf06f31a9908c3e5ad2520618764a1e6f0c434e117ceb6a8e691"
+    },
+    {
+      "audio_file": "@0PF0O01.001",
+      "sync_file": "#0PF0O01.001",
+      "audio_sha256": "b395f8704d053016e5337218824c0456e644684586ea7d07d2e838e5a2afc3b0",
+      "sync_sha256": "a93c7351b30f63bce6ba464aafd589db1f305575fbf8072f16367a0044e31167"
+    },
+    {
+      "audio_file": "@0PF0P01.001",
+      "sync_file": "#0PF0P01.001",
+      "audio_sha256": "2a53be4a8370d9d649cd44f1a85f318b42f30cfea52cbb932db8f1406cce313c",
+      "sync_sha256": "e2296a31bdcf01914effac299215ca82f150a7474eee8f76bb4778789adda40d"
+    },
+    {
+      "audio_file": "@0PF0Q01.001",
+      "sync_file": "#0PF0Q01.001",
+      "audio_sha256": "238953e4dc5f9e16ab7248ae763a0ab77af042b4705cb77729eda0cc73d388e5",
+      "sync_sha256": "5454088724e2168e5b77376383f54975c84f1cf67afb187cf27ff8ffdca3c04e"
+    },
+    {
+      "audio_file": "@0PF0R01.001",
+      "sync_file": "#0PF0R01.001",
+      "audio_sha256": "7f1ee1b20c0979ef728d705910fba44868bda12c2f29bd864cbd23a6d27deecb",
+      "sync_sha256": "c5785bb8e1b18215a4624a2d342b30e2406b15e2dc81c80ff862e316eb616c32"
+    },
+    {
+      "audio_file": "@0PF0S01.001",
+      "sync_file": "#0PF0S01.001",
+      "audio_sha256": "01009e43e56e4115ae0ee555b44a7280eb5f5aa87d15d37c58cff9bc023bedf1",
+      "sync_sha256": "c50e43bb3fe39090386aa9eadb378a13232a2f43e9fe82ff6af9c18add098813"
+    },
+    {
+      "audio_file": "@0PF0T01.001",
+      "sync_file": "#0PF0T01.001",
+      "audio_sha256": "acc9d6592d25564bae67fda3525a507c2fc18e83f8642fda088d557542ac74c9",
+      "sync_sha256": "1da0efa60f2005db4997f0944fcb7c4803a67f0d8261dfd9bf7333cbdc7c95af"
+    },
+    {
+      "audio_file": "@0PF0U01.001",
+      "sync_file": "#0PF0U01.001",
+      "audio_sha256": "7796b1215571190b045f209491ff437c0156e82458e6a2ca6b649e67b0c7c304",
+      "sync_sha256": "bb751b291337f801b25fb506f3240d2fca46bb28a80769c15df81994eb4caccd"
+    },
+    {
+      "audio_file": "@0PF0V01.001",
+      "sync_file": "#0PF0V01.001",
+      "audio_sha256": "7e0d15947a02fca05a2ed3e6e135d5657d43b8e70e2e67d31f06f42aa91f7d1f",
+      "sync_sha256": "1f7399ca5c6baee8e8c7724632d382766c4102f85cfb56f50a109b253c98d062"
+    },
+    {
+      "audio_file": "@0PF0W01.001",
+      "sync_file": "#0PF0W01.001",
+      "audio_sha256": "aa69ebd95a32f6c776832dab00b57683fec1ab3ba7808803e3dd24375cf040bb",
+      "sync_sha256": "3fae378d08a2bf7a85cd2c2d55f5d6a0e5f1d4ece4b238e74da68ed5f6bb4263"
+    },
+    {
+      "audio_file": "@0PF0X01.001",
+      "sync_file": "#0PF0X01.001",
+      "audio_sha256": "552559c836e8505fe9700d6192a114adcb3cd561b627ed0185f13445b0a97523",
+      "sync_sha256": "2704e087c54b52041732b6e5ab9b756f9b3c7c3c90da3ba4a33f28b66f7a988d"
+    },
+    {
+      "audio_file": "@0PF0Y01.001",
+      "sync_file": "#0PF0Y01.001",
+      "audio_sha256": "8c214c7549b50da7a0830cfe7eeca8a02ff5a1202276a87048f2b06e92f8a523",
+      "sync_sha256": "2c2270bf7afbb04ef5d14bd444200415b1b2cee26fcc725a2140e7f5fc232608"
+    },
+    {
+      "audio_file": "@0PF0Z01.001",
+      "sync_file": "#0PF0Z01.001",
+      "audio_sha256": "25dc471a797ec8103c846f9365db6a39c089cf9525df354582e96c50973055b8",
+      "sync_sha256": "c857fb0c1b8de075a76238c2465f5f777f2c86a7fb056eb77d953cb0aad9e61f"
+    },
+    {
+      "audio_file": "@0PF1001.001",
+      "sync_file": "#0PF1001.001",
+      "audio_sha256": "61ff642564144da05ef3d961594837d154c5a8edf74f55ede706fabc94dba75e",
+      "sync_sha256": "f7bfbe8fb9085f4cc5ed7f5eb69eb43233c75d98b8aad7e665e5893353dafac4"
+    },
+    {
+      "audio_file": "@0PF1101.001",
+      "sync_file": "#0PF1101.001",
+      "audio_sha256": "8c6c7da0760b6cfb3b2944dd42dcf39000445240b502834b7c556f4a6ffd8787",
+      "sync_sha256": "f7f2226e1e667f2c8a2e1639783edabafe1ac04a28fa7ad684868a98cd184cbb"
+    },
+    {
+      "audio_file": "@0PF1201.001",
+      "sync_file": "#0PF1201.001",
+      "audio_sha256": "cc13bfb3c11db4396063a8d64dd2931c355d757a2fdfe039bfcd8915d532d1fe",
+      "sync_sha256": "7ecd4321192082d22eac2c9a1e836ace89e54b2bd998dd06bd2d855b070a5104"
+    },
+    {
+      "audio_file": "@0PF1301.001",
+      "sync_file": "#0PF1301.001",
+      "audio_sha256": "0385b598e34a688fc4107f52dfe1f01851c7be2de91195ffbf9b4b1144ed440b",
+      "sync_sha256": "fa6393915ed500cec9a03526f7e5146412843d442713d6b9b4cbd0e729f2c4f3"
+    },
+    {
+      "audio_file": "@0PF1401.001",
+      "sync_file": "#0PF1401.001",
+      "audio_sha256": "903f2314d9d105a3d41b08b7d5f4c7bc2390828ef3a4fe36ea986dc209fa7abd",
+      "sync_sha256": "1a29c41510c108b0f340654bdb402637f751577d8b2122207934d1ae57cf2886"
+    },
+    {
+      "audio_file": "@0PF1501.001",
+      "sync_file": "#0PF1501.001",
+      "audio_sha256": "d48e14257ff41c528304f3fc1158547ad2fc8a5829df31e76437c5eeb54e2b15",
+      "sync_sha256": "7e97341541050fa197996ea110163ca3c5cc546200a994044112de595f54506a"
+    },
+    {
+      "audio_file": "@0PF1601.001",
+      "sync_file": "#0PF1601.001",
+      "audio_sha256": "c5fe4b0cfd7ad13ec9d5e3be0bf879f48513c357c53b2e27e68123d373902b0f",
+      "sync_sha256": "327f6dc0c83215b16c13b2dc8492072c607f97e670bcfdffca317a31fdba686a"
+    },
+    {
+      "audio_file": "@0PF1701.001",
+      "sync_file": "#0PF1701.001",
+      "audio_sha256": "c247c70e72d69aeaf9b5942d04f852f862444fd27680ce06d698d80cc3c5eb6f",
+      "sync_sha256": "3a76dfeb026f6e933cc5581457b6ee86c81c7bd0c256a1366492b779052d0be7"
+    },
+    {
+      "audio_file": "@0PF1801.001",
+      "sync_file": "#0PF1801.001",
+      "audio_sha256": "5a2eb41225643a1dc6fac7f23eb33f1dde938dfdb524c772a885927243b57f79",
+      "sync_sha256": "c501cd2e0e729e48028ed79b13424106986a476026616dad3c09bc4bad7bdaa6"
+    },
+    {
+      "audio_file": "@0PF1901.001",
+      "sync_file": "#0PF1901.001",
+      "audio_sha256": "a95cf330bffc2d6ae430ce60d3e821fe2ec5dd36a62b6128a10dc41bd538300d",
+      "sync_sha256": "22b625d4b28aa358887e42a7a328bbb76cac0a3c2f127e63cf4d81b481a2fbe0"
+    },
+    {
+      "audio_file": "@0PF1A01.001",
+      "sync_file": "#0PF1A01.001",
+      "audio_sha256": "35e9df628cf6f21ba535965f7a1dfec593f2077cf6ce48bdde3bd1b63a1b25b4",
+      "sync_sha256": "381dd609a0f418ad1f4d7ab2af87601fb32568ed39b5e6bdb2ce265dbacab779"
+    },
+    {
+      "audio_file": "@0PF1B01.001",
+      "sync_file": "#0PF1B01.001",
+      "audio_sha256": "cc8b91eda6bc70a2f55f444624250a702a4158c10552ed209fd3007bc17e11c9",
+      "sync_sha256": "e2361beaf7a31c855ea1f87c02a0b6c6f8371e94d8ec855cbe7e829edc71dfa4"
+    },
+    {
+      "audio_file": "@0PF1C01.001",
+      "sync_file": "#0PF1C01.001",
+      "audio_sha256": "72492bd953a63494ea2dcff05c523430568dadd49a48de630d4698f0f8d19499",
+      "sync_sha256": "9fd12acc13b6898c9a451fe3cdd61f017e0264107f1d28a53c530ead13ece351"
+    },
+    {
+      "audio_file": "@0PF1D01.001",
+      "sync_file": "#0PF1D01.001",
+      "audio_sha256": "10afc92f49009ec5802c2639284bb0f91719d37590419564b3ade50dcd496ee5",
+      "sync_sha256": "4d29506bec1a68fd3aa09d9d7bb1df3322e9a182dd0b3666581dc61638e9332e"
+    },
+    {
+      "audio_file": "@0PF1E01.001",
+      "sync_file": "#0PF1E01.001",
+      "audio_sha256": "689da6b84b96d6d101270100316ed2ebf579803cfb527c5c254adac1c984dbd9",
+      "sync_sha256": "119e62a0ff327d075d38ee44643041d3ef5c62a7a5823822daaf46f7fd6ea82d"
+    },
+    {
+      "audio_file": "@0PF1F01.001",
+      "sync_file": "#0PF1F01.001",
+      "audio_sha256": "f946e399af08bf2cbe7cb383c7c7eefad6a01f9cdbe54df157462eb70db5de35",
+      "sync_sha256": "54a4247028379bc5e571048ed5170422d7f160ac50b6134cb6c5cd5b9fe82ee1"
+    },
+    {
+      "audio_file": "@0PF1G01.001",
+      "sync_file": "#0PF1G01.001",
+      "audio_sha256": "a309d5fa596e2789be58fa45e29be2d7e1972add29b08809b03c41fb4c3587f2",
+      "sync_sha256": "ca465741166db276ae26fdaf352b5562170e7e70024470a4064720fe4dae1f5b"
+    },
+    {
+      "audio_file": "@0PF1H01.001",
+      "sync_file": "#0PF1H01.001",
+      "audio_sha256": "b76d694f1e80401f574a303ab7c44643c4e388aeab3b8b2e21597d8d229c8b51",
+      "sync_sha256": "8e1513aee4a6d07065a06bddfa9de1d139ee265d21b3cd82b4b8acf4e334d073"
+    },
+    {
+      "audio_file": "@0PF1I01.001",
+      "sync_file": "#0PF1I01.001",
+      "audio_sha256": "af79c68afd4e62f8bc13307cf0a22bd2f14c43b3790263e7489cd2d1fb4e97c0",
+      "sync_sha256": "2ed5e974375763c3a99308d98552c490bdccb1f4ee823e72bdd164cf24bfe9f7"
+    },
+    {
+      "audio_file": "@0PF1J01.001",
+      "sync_file": "#0PF1J01.001",
+      "audio_sha256": "28cce061ff7bca6fe7e06273a7073658c259daead33f11def66293280d975922",
+      "sync_sha256": "77c75fe1a51b0db4269277bed332864a6a33904628d68832a3d2b0e66d387bb8"
+    },
+    {
+      "audio_file": "@0PF1K01.001",
+      "sync_file": "#0PF1K01.001",
+      "audio_sha256": "b90815f8c363d0000551c931e54d06dee65c06e1d8d71024f186e11e9244046f",
+      "sync_sha256": "4331b816a3e1270eb2cbe4d453e1fa83fa6bf01dec7aad3946fffa5d917042be"
+    },
+    {
+      "audio_file": "@0PF1L01.001",
+      "sync_file": "#0PF1L01.001",
+      "audio_sha256": "c3f1b9bd95f11d7e08f8492a9859a674e8fcc46006e7dca6f5eb7869f415a04b",
+      "sync_sha256": "217f55a5eb9f90bbcca03cb06a97d4689d2097786c340820c503f2ed02f2ddf6"
+    },
+    {
+      "audio_file": "@0PF1M01.001",
+      "sync_file": "#0PF1M01.001",
+      "audio_sha256": "3d1d6ce1f27441da76e9f7740c50328c4dbca1b4ce10235f41e8765c0a472e08",
+      "sync_sha256": "99345ee2975b3da0a8244ffa7ae2779a57ebf50d74ecf3d98d6f4edca10e1a6e"
+    },
+    {
+      "audio_file": "@0PF1N01.001",
+      "sync_file": "#0PF1N01.001",
+      "audio_sha256": "ccdabb7cdde44caa4f632094078f96d1c826d0527c317a3da4437b7a5e1dde6a",
+      "sync_sha256": "7c854320ed29fcdc32b3f7f7fb78b120972aeef68cdaa1997518551408e3363b"
+    },
+    {
+      "audio_file": "@0PF1O01.001",
+      "sync_file": "#0PF1O01.001",
+      "audio_sha256": "3c0bdedbff5219c3a3fbf7af566e8726b4c8c38c05147d51387783a3a6b41b65",
+      "sync_sha256": "51820b69114d7e6e6b0294d15b5bf2c42cc3060d3c2fd3b6fd9aaf74f6ff80aa"
+    },
+    {
+      "audio_file": "@0PF1P01.001",
+      "sync_file": "#0PF1P01.001",
+      "audio_sha256": "e33d5d4e1923dae935dc38d7d3836efda5e47f4d0b6aeaaffd113fecfe8b5753",
+      "sync_sha256": "065d2040176a2dbcaf7996c21fb12403989b4250f3fd517960f9ca4ec78c7116"
+    },
+    {
+      "audio_file": "@0PF1Q01.001",
+      "sync_file": "#0PF1Q01.001",
+      "audio_sha256": "32bc167c98a1386463b7f06373fcc58b842a2fd7abcdb6b9e8b49d1d2d2f6f50",
+      "sync_sha256": "579c7e0efddbfc9f5975aa101eca7989b718d52f7650a1457409a7d2cd527e63"
+    }
+  ]
+}

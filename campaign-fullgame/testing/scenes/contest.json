@@ -1,0 +1,5674 @@
+{
+  "component": "contest",
+  "pages": [
+    {
+      "text": "SHOUTING MATCH",
+      "record_id": "VC.UI.TITLE",
+      "resource": 230,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPOSURE",
+      "record_id": "VC.UI.COMPOSURE",
+      "resource": 230,
+      "entry": 2,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "KO",
+      "record_id": "VC.UI.KO",
+      "resource": 230,
+      "entry": 3,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PRACTICE",
+      "record_id": "VC.UI.PRACTICE",
+      "resource": 230,
+      "entry": 4,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPETE",
+      "record_id": "VC.UI.START",
+      "resource": 230,
+      "entry": 5,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REMATCH",
+      "record_id": "VC.UI.REMATCH",
+      "resource": 230,
+      "entry": 6,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "READ THE RECAP",
+      "record_id": "VC.UI.RECAP",
+      "resource": 230,
+      "entry": 7,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REVIEW REPLIES",
+      "record_id": "VC.UI.NOTEBOOK",
+      "resource": 230,
+      "entry": 8,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CHOOSE A LEARNED REPLY",
+      "record_id": "VC.UI.CHOOSE",
+      "resource": 230,
+      "entry": 9,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YIELD THIS EXCHANGE",
+      "record_id": "VC.UI.YIELD_EXCHANGE",
+      "resource": 230,
+      "entry": 10,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YIELD THIS CONTEST",
+      "record_id": "VC.UI.YIELD_CONTEST",
+      "resource": 230,
+      "entry": 11,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CLOSE",
+      "record_id": "VC.UI.CLOSE",
+      "resource": 230,
+      "entry": 12,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BACK",
+      "record_id": "VC.UI.BACK",
+      "resource": 230,
+      "entry": 13,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BOTH OF YOU BEGIN WITH THREE COMPOSURE POINTS. A\nMATCHING REPLY COSTS YOUR OPPONENT ONE POINT. A\nWRONG REPLY OR A YIELDED EXCHANGE COSTS YOU ONE.",
+      "record_id": "VC.TUTORIAL.POINTS",
+      "resource": 230,
+      "entry": 14,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE FIRST PERSON AT ZERO YIELDS THE AGREED TOPIC.",
+      "record_id": "VC.TUTORIAL.POINTS",
+      "resource": 230,
+      "entry": 15,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THERE IS NO TIME LIMIT. YOU CAN REVIEW YOUR\nNOTEBOOK BEFORE CHOOSING A REPLY.",
+      "record_id": "VC.TUTORIAL.PACE",
+      "resource": 230,
+      "entry": 16,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WHEN YOU READ OR HEAR A LINE, IT IS RECORDED. ITS\nREPLY IS LEARNED SEPARATELY. PRACTICE AND THE\nRECAP TEACH THE MATCHES YOU STILL NEED.",
+      "record_id": "VC.TUTORIAL.LEARNING",
+      "resource": 230,
+      "entry": 17,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "A LOSS KEEPS YOUR ITEMS, LEARNED REPLIES AND\nPRACTICAL PROGRESS. REMATCHES STAY AVAILABLE. WIN\nALL FOUR CONTESTS BEFORE THE FINAL COMMITMENTS.",
+      "record_id": "VC.TUTORIAL.PROGRESS",
+      "resource": 230,
+      "entry": 18,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SKIPPING SPEECH, PAUSING, OPENING A MENU, SAVING\nOR LOADING DOES NOT YIELD AN EXCHANGE. USE THE\nLABELED YIELD OPTION IF YOU WANT TO CONCEDE.",
+      "record_id": "VC.TUTORIAL.SKIP",
+      "resource": 230,
+      "entry": 19,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PRACTICE IS UNSCORED. READ THE LINE AND ITS\nMATCHING REPLY, THEN TRY THE EXCHANGE. THE RECAP\nEXPLAINS HOW THE WORDS ANSWER EACH OTHER.",
+      "record_id": "VC.PRACTICE.INTRO",
+      "resource": 230,
+      "entry": 20,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THERE ARE REPLIES TO LEARN BEFORE THIS CONTEST.\nPRACTICE WILL TEACH THE MISSING MATERIAL,\nINCLUDING ANY EARLIER LINES YOU HAVE NOT MET YET.",
+      "record_id": "VC.PRACTICE.NEEDED",
+      "resource": 230,
+      "entry": 21,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU HAVE LEARNED THIS CONTEST'S FULL REPLY POOL.\nYOU CAN COMPETE, PRACTICE AGAIN OR REVIEW THE\nNOTEBOOK.",
+      "record_id": "VC.PRACTICE.READY",
+      "resource": 230,
+      "entry": 22,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS THE LINE. NO SCORE IN PRACTICE;\nTHE MATCH IS RECORDED IN YOUR NOTEBOOK.",
+      "record_id": "VC.PRACTICE.CORRECT",
+      "resource": 230,
+      "entry": 23,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS A DIFFERENT LINE. NO PENALTY.\nREAD THE MATCHING REPLY AND THE EXPLANATION, THEN\nTRY AGAIN.",
+      "record_id": "VC.PRACTICE.MISMATCH",
+      "resource": 230,
+      "entry": 24,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE RECORDED.",
+      "record_id": "VC.LEARN.SETUP",
+      "resource": 230,
+      "entry": 25,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLY LEARNED.",
+      "record_id": "VC.LEARN.REPLY",
+      "resource": 230,
+      "entry": 26,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ALREADY IN YOUR NOTEBOOK. YOU CAN READ IT AGAIN.",
+      "record_id": "VC.LEARN.ALREADY",
+      "resource": 230,
+      "entry": 27,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE SO SLOW ON THE UPTAKE, THE ECHO\nFINISHES BEFORE YOU ANSWER.\nREPLY: YOUR ECHO GETS MORE PRACTICE THAN THE REST",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 28,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OF US.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 29,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR BIG ENTRANCE HAS THE ELEGANCE OF\nTROUSERS CAUGHT IN A DRAWER.\nREPLY: YOURS TAKES LONGER, AND EVERYONE STILL",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WISHES YOU'D ZIP IT.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 31,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT\nOF THE FIRST.\nREPLY: YOU ONLY WANT IT SO NOBODY CAN CHECK THE",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MIDDLE.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 33,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE A REHEARSAL THAT SOMEHOW GOT AN\nAUDIENCE.\nREPLY: YOU'RE AN INTERVAL THAT THINKS IT'S THE",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 34,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 35,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU SAY YES SO OFTEN I COULD SELL TICKETS TO\nYOUR NOD.\nREPLY: YOU'D SELL THE SEATS AND ASK ME TO STAND.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 36,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING\nWHICH WAY IT POINTS.\nREPLY: YOU'D PUT YOUR NAME ON IT AND CALL IT A",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 37,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PARADE.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 38,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.\nREPLY: THEN STOP ARRANGING YOURSELF AROUND ME.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 39,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.\nREPLY: YOURS IS MAKING EVERYONE ELSE STAND ASIDE.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 40,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR POSTURE COULD MAKE A COAT HANGER GIVE\nUP.\nREPLY: YOURS COULD PUT A CREASE IN SOUP.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 41,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH\nTAKES ITSELF SERIOUSLY.\nREPLY: YOU'RE WHAT HAPPENS WHEN THE SIGNATURE",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 42,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COVERS THE DRAWING.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 43,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D HANG A CURTAIN OVER THE DOOR AND CALL\nTHE ROOM FINISHED.\nREPLY: YOU'D CALL THE PEOPLE STUCK OUTSIDE A",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 44,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WAITING LIST.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 45,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU THINK GOOD TASTE IS WHATEVER FITS ON\nYOUR PLATE.\nREPLY: YOU THINK IT MEANS MAKING EVERYONE ASK",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 46,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WHERE YOU GOT IT.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 47,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU MADE CARRYING A PANEL LOOK LIKE A PUBLIC\nINQUIRY.\nREPLY: YOU SUPPLIED THE OPENING STATEMENT.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 48,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: I COULD HAVE DONE THAT WITH ONE HAND TIED\nBEHIND MY BACK.\nREPLY: YES, BUT THEN WHO'D POINT AT YOUR",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 49,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "HANDIWORK?",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 50,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D ASK FOR DIRECTIONS WHILE STANDING IN\nTHE DOORWAY.\nREPLY: YOU'D STAND THERE UNTIL SOMEONE ASKED.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE A DEMONSTRATION OF WHY INSTRUCTIONS\nHAVE PICTURES.\nREPLY: YOU'RE THE REASON THE PICTURES DON'T HAVE",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 52,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SOUND.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 53,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: WITHOUT YOUR FRIENDS, YOU'D STILL BE WEDGED\nIN THAT DOORWAY.\nREPLY: AND YOU'D STILL BE TRYING TO SQUEEZE YOUR",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 54,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OPINION IN BESIDE ME.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 55,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU THINK STANDING NEAR USEFUL PEOPLE MAKES\nYOU USEFUL.\nREPLY: YOU THINK STANDING IN FRONT OF THEM MAKES",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 56,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU IN CHARGE.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 57,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: SOME PEOPLE KNOW WHEN A SPEECH HAS GONE ON\nLONG ENOUGH.\nREPLY: SHALL I FETCH ONE?",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 58,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU CALL THAT A TOAST? I'VE HAD WIND WITH\nMORE CEREMONY.\nREPLY: AT LEAST THEY KNOW WHICH END MY SPEECH IS",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 59,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMING FROM.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 60,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU TURN EVERY SIMPLE INSTRUCTION INTO A\nDISCUSSION.\nREPLY: YOURS BECOME SUGGESTIONS THE MOMENT YOU",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 61,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WANT ANOTHER HELPING.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 62,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D FORGET YOUR OWN SUPPER IF NOBODY PUT\nYOUR NAME ON IT.\nREPLY: YOURS COULD LOSE ITS LABEL; WE'D FOLLOW THE",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 63,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPLAINTS.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 64,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU COULDN'T KEEP TO THE POINT IF IT WAS\nMARKED ON THE FLOOR.\nREPLY: YOU'D STAND ON IT AND COMPLAIN THERE WASN'T",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 65,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ROOM FOR ANYONE ELSE.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 66,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR IDEA OF RESPONSIBILITY IS HANDING\nSOMEONE A CLOTH.\nREPLY: YOURS IS WAITING UNTIL THEY'VE FINISHED",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 67,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE POINTING OUT THE DUST.",
+      "record_id": "VC.NOTEBOOK.PAIR",
+      "resource": 230,
+      "entry": 68,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE SO SLOW ON THE UPTAKE, THE ECHO\nFINISHES BEFORE YOU ANSWER.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 69,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR BIG ENTRANCE HAS THE ELEGANCE OF\nTROUSERS CAUGHT IN A DRAWER.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 71,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT\nOF THE FIRST.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 72,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE A REHEARSAL THAT SOMEHOW GOT AN\nAUDIENCE.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 73,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU SAY YES SO OFTEN I COULD SELL TICKETS TO\nYOUR NOD.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 74,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING\nWHICH WAY IT POINTS.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 75,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 76,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 77,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR POSTURE COULD MAKE A COAT HANGER GIVE\nUP.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 78,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH\nTAKES ITSELF SERIOUSLY.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 79,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D HANG A CURTAIN OVER THE DOOR AND CALL\nTHE ROOM FINISHED.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 80,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU THINK GOOD TASTE IS WHATEVER FITS ON\nYOUR PLATE.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 81,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU MADE CARRYING A PANEL LOOK LIKE A PUBLIC\nINQUIRY.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 82,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: I COULD HAVE DONE THAT WITH ONE HAND TIED\nBEHIND MY BACK.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 83,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D ASK FOR DIRECTIONS WHILE STANDING IN\nTHE DOORWAY.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 84,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'RE A DEMONSTRATION OF WHY INSTRUCTIONS\nHAVE PICTURES.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 85,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: WITHOUT YOUR FRIENDS, YOU'D STILL BE WEDGED\nIN THAT DOORWAY.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 86,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU THINK STANDING NEAR USEFUL PEOPLE MAKES\nYOU USEFUL.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 87,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: SOME PEOPLE KNOW WHEN A SPEECH HAS GONE ON\nLONG ENOUGH.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 88,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU CALL THAT A TOAST? I'VE HAD WIND WITH\nMORE CEREMONY.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 89,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU TURN EVERY SIMPLE INSTRUCTION INTO A\nDISCUSSION.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 90,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU'D FORGET YOUR OWN SUPPER IF NOBODY PUT\nYOUR NAME ON IT.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 91,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOU COULDN'T KEEP TO THE POINT IF IT WAS\nMARKED ON THE FLOOR.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 92,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LINE: YOUR IDEA OF RESPONSIBILITY IS HANDING\nSOMEONE A CLOTH.\nREPLY NOT LEARNED YET. PRACTICE OR READ THE",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 93,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RECAP.",
+      "record_id": "VC.NOTEBOOK.SETUP_ONLY",
+      "resource": 230,
+      "entry": 70,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 0/4.\nSTILL TO WIN: MILO PENNANT, VIVIAN VOSS, FELIX\nBUNT, MR. STRINGER.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 94,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 1/4.\nSTILL TO WIN: VIVIAN VOSS, FELIX BUNT, MR.\nSTRINGER.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 96,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 1/4.\nSTILL TO WIN: MILO PENNANT, FELIX BUNT, MR.\nSTRINGER.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 97,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: FELIX BUNT, MR. STRINGER.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 98,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 1/4.\nSTILL TO WIN: MILO PENNANT, VIVIAN VOSS, MR.\nSTRINGER.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 99,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: VIVIAN VOSS, MR. STRINGER.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 100,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: MILO PENNANT, MR. STRINGER.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 101,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 3/4.\nSTILL TO WIN: MR. STRINGER.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 102,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 1/4.\nSTILL TO WIN: MILO PENNANT, VIVIAN VOSS, FELIX\nBUNT.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 103,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 95,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: VIVIAN VOSS, FELIX BUNT.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 104,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: MILO PENNANT, FELIX BUNT.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 105,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 3/4.\nSTILL TO WIN: FELIX BUNT.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 106,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 2/4.\nSTILL TO WIN: MILO PENNANT, VIVIAN VOSS.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 107,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 3/4.\nSTILL TO WIN: VIVIAN VOSS.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 108,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST WINS: 3/4.\nSTILL TO WIN: MILO PENNANT.\nYOUR LEARNED REPLIES REMAIN AVAILABLE.",
+      "record_id": "VC.NOTEBOOK.WINS",
+      "resource": 230,
+      "entry": 109,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS THE LINE. MILO PENNANT LOSES\nONE COMPOSURE POINT.",
+      "record_id": "VC.RESULT.HIT_OPPONENT",
+      "resource": 230,
+      "entry": 110,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS THE LINE. VIVIAN VOSS LOSES ONE\nCOMPOSURE POINT.",
+      "record_id": "VC.RESULT.HIT_OPPONENT",
+      "resource": 230,
+      "entry": 111,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS THE LINE. FELIX BUNT LOSES ONE\nCOMPOSURE POINT.",
+      "record_id": "VC.RESULT.HIT_OPPONENT",
+      "resource": 230,
+      "entry": 112,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY ANSWERS THE LINE. MR. STRINGER LOSES\nONE COMPOSURE POINT.",
+      "record_id": "VC.RESULT.HIT_OPPONENT",
+      "resource": 230,
+      "entry": 113,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT REPLY DOES NOT ANSWER THIS LINE. JACKIE LOSES\nONE COMPOSURE POINT.",
+      "record_id": "VC.RESULT.HIT_JACKIE",
+      "resource": 230,
+      "entry": 114,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "EXCHANGE YIELDED. JACKIE LOSES ONE COMPOSURE\nPOINT.",
+      "record_id": "VC.RESULT.YIELD_EXCHANGE",
+      "resource": 230,
+      "entry": 115,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "JACKIE WINS THIS CONTEST. THIS WIN IS RECORDED.",
+      "record_id": "VC.RESULT.WIN",
+      "resource": 230,
+      "entry": 116,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MILO PENNANT WINS THIS ATTEMPT. YOUR LEARNING AND\nPRACTICAL PROGRESS ARE KEPT.",
+      "record_id": "VC.RESULT.LOSS",
+      "resource": 230,
+      "entry": 117,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "VIVIAN VOSS WINS THIS ATTEMPT. YOUR LEARNING AND\nPRACTICAL PROGRESS ARE KEPT.",
+      "record_id": "VC.RESULT.LOSS",
+      "resource": 230,
+      "entry": 118,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "FELIX BUNT WINS THIS ATTEMPT. YOUR LEARNING AND\nPRACTICAL PROGRESS ARE KEPT.",
+      "record_id": "VC.RESULT.LOSS",
+      "resource": 230,
+      "entry": 119,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MR. STRINGER WINS THIS ATTEMPT. YOUR LEARNING AND\nPRACTICAL PROGRESS ARE KEPT.",
+      "record_id": "VC.RESULT.LOSS",
+      "resource": 230,
+      "entry": 120,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU YIELDED THIS CONTEST. MILO PENNANT WINS THIS\nATTEMPT. YOU CAN PRACTICE OR REMATCH.",
+      "record_id": "VC.RESULT.YIELD_CONTEST",
+      "resource": 230,
+      "entry": 121,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU YIELDED THIS CONTEST. VIVIAN VOSS WINS THIS\nATTEMPT. YOU CAN PRACTICE OR REMATCH.",
+      "record_id": "VC.RESULT.YIELD_CONTEST",
+      "resource": 230,
+      "entry": 122,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU YIELDED THIS CONTEST. FELIX BUNT WINS THIS\nATTEMPT. YOU CAN PRACTICE OR REMATCH.",
+      "record_id": "VC.RESULT.YIELD_CONTEST",
+      "resource": 230,
+      "entry": 123,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU YIELDED THIS CONTEST. MR. STRINGER WINS THIS\nATTEMPT. YOU CAN PRACTICE OR REMATCH.",
+      "record_id": "VC.RESULT.YIELD_CONTEST",
+      "resource": 230,
+      "entry": 124,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR EARLIER WIN STILL COUNTS. THIS RESULT CANNOT\nCHANGE ANYTHING ALREADY SAID OR UNDO YOUR\nPRACTICAL PROGRESS.",
+      "record_id": "VC.RESULT.EARLIER_WIN",
+      "resource": 230,
+      "entry": 125,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PRACTICE, REVIEW THE REPLIES, OR ASK FOR A\nREMATCH. THE NEXT ATTEMPT STARTS WITH THREE POINTS\nEACH.",
+      "record_id": "VC.RESULT.REMATCH",
+      "resource": 230,
+      "entry": 126,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, VIVIAN VOSS, FELIX BUNT,\nMR. STRINGER. PRACTICE AND REMATCHES ARE STILL",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 127,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 128,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: VIVIAN VOSS, FELIX BUNT, MR. STRINGER.\nPRACTICE AND REMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 129,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, FELIX BUNT, MR. STRINGER.\nPRACTICE AND REMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 130,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: FELIX BUNT, MR. STRINGER. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 131,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, VIVIAN VOSS, MR. STRINGER.\nPRACTICE AND REMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 132,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: VIVIAN VOSS, MR. STRINGER. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 133,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, MR. STRINGER. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 134,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MR. STRINGER. PRACTICE AND REMATCHES ARE\nSTILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 135,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, VIVIAN VOSS, FELIX BUNT.\nPRACTICE AND REMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 136,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: VIVIAN VOSS, FELIX BUNT. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 137,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, FELIX BUNT. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 138,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: FELIX BUNT. PRACTICE AND REMATCHES ARE\nSTILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 139,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT, VIVIAN VOSS. PRACTICE AND\nREMATCHES ARE STILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 140,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: VIVIAN VOSS. PRACTICE AND REMATCHES ARE\nSTILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 141,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEFORE THE FINAL COMMITMENTS, WIN THE REMAINING\nCONTESTS: MILO PENNANT. PRACTICE AND REMATCHES ARE\nSTILL AVAILABLE.",
+      "record_id": "VC.GATE.MISSING_WINS",
+      "resource": 230,
+      "entry": 142,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ALL FOUR CONTESTS WON. THE FINAL COMMITMENTS CAN\nBEGIN.",
+      "record_id": "VC.GATE.ALL_WON",
+      "resource": 230,
+      "entry": 143,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CONTEST RESUMED FROM THE SAVED POSITION. YOUR\nPOINTS, REPLY CHOICES AND REMAINING LINES ARE\nUNCHANGED.",
+      "record_id": "VC.RESUME",
+      "resource": 230,
+      "entry": 144,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE SCREEN WORKS, AND WE'VE AGREED TONIGHT'S JOB.\nSHALL WE SETTLE WHO GETS THE STYLISTIC LAST WORD\nON THE WELCOME?",
+      "record_id": "VC02.ENTRY",
+      "resource": 230,
+      "entry": 146,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 1,
+      "audio_module": 939
+    },
+    {
+      "text": "ONLY THE WELCOME FLOURISH. YOUR EQUIPMENT AND OUR\nOTHER AGREEMENTS STAY SEPARATE.",
+      "record_id": "VC02.ENTRY",
+      "resource": 230,
+      "entry": 148,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 2,
+      "audio_module": 939
+    },
+    {
+      "text": "YES. PRACTICE FIRST, IF YOU LIKE.",
+      "record_id": "VC02.ENTRY",
+      "resource": 230,
+      "entry": 149,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 3,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE STYLISTIC LAST WORD.",
+      "record_id": "VC02.WIN",
+      "resource": 230,
+      "entry": 150,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 4,
+      "audio_module": 939
+    },
+    {
+      "text": "A CLEAR WELCOME, ROOM TO MOVE, AND A PLACE FOR\nEVERYONE. THAT'S HOW I'D LIKE TO PRESENT IT.",
+      "record_id": "VC02.WIN",
+      "resource": 230,
+      "entry": 151,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 5,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE STYLISTIC LAST WORD. I'LL ACCEPT YOUR\nCONCISE WELCOME DIRECTION.",
+      "record_id": "VC02.LOSS",
+      "resource": 230,
+      "entry": 152,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 6,
+      "audio_module": 939
+    },
+    {
+      "text": "KEEP THE FIRST VIEW CLEAR, LEAVE ROOM FOR PEOPLE\nTO ENTER, AND LET THE WELCOME SPEAK FOR ITSELF.",
+      "record_id": "VC02.LOSS",
+      "resource": 230,
+      "entry": 153,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 7,
+      "audio_module": 939
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC02.REMATCH",
+      "resource": 230,
+      "entry": 154,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 8,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC02.KO.OPPONENT",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 9,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC02.KO.JACKIE",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 10,
+      "audio_module": 939
+    },
+    {
+      "text": "JACKIE AND HIS OPPONENT REMAIN STANDING, FACE TO\nFACE. WILLING ONLOOKERS GATHER AROUND THEM. THE\nROOM DIMS AROUND A THEATRICAL SPOTLIGHT. METERS",
+      "record_id": "VC02.STAGE",
+      "resource": 230,
+      "entry": 157,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW NAMES, NUMBERS AND COMPOSURE COLOR. A LANDED\nLINE PRODUCES A BRIEF NON-CONTACT WINCE; AT ZERO,\nSHOW KO AND THE LOSER'S SOCIAL GROAN BEFORE ANY",
+      "record_id": "VC02.STAGE",
+      "resource": 230,
+      "entry": 158,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "QUEUED AUDIENCE RESPONSE. RESTORE THE UNDERLYING\nROOM POSITIONS ON EXIT.",
+      "record_id": "VC02.STAGE",
+      "resource": 230,
+      "entry": 159,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "EVERYONE IS SAFE, AND THE DISPLAY IS STAGED. SHALL\nWE SETTLE HOW WE TELL THE STORY?",
+      "record_id": "VC03.ENTRY",
+      "resource": 230,
+      "entry": 161,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 11,
+      "audio_module": 939
+    },
+    {
+      "text": "A CONCISE HOUSEHOLD ACCOUNT, OR YOUR MORE\nELABORATE VERSION. BUNNY AND FRANKIE GET THEIR\nCREDIT EITHER WAY.",
+      "record_id": "VC03.ENTRY",
+      "resource": 230,
+      "entry": 162,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 12,
+      "audio_module": 939
+    },
+    {
+      "text": "ALL FOUR OF US. AGREED. WE CAN PRACTICE BEFORE IT\nCOUNTS.",
+      "record_id": "VC03.ENTRY",
+      "resource": 230,
+      "entry": 163,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 13,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH\nEVERYBODY CREDITED.",
+      "record_id": "VC03.WIN",
+      "resource": 230,
+      "entry": 164,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 14,
+      "audio_module": 939
+    },
+    {
+      "text": "FELIX AND I SUPPORTED THE DISPLAY. BUNNY SECURED\nTHE GATE, FRANKIE RELEASED THE CATCH, AND TOGETHER\nWE GOT IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.WIN",
+      "resource": 230,
+      "entry": 165,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH THE\nWHOLE TEAM CREDITED.",
+      "record_id": "VC03.LOSS",
+      "resource": 230,
+      "entry": 166,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 16,
+      "audio_module": 939
+    },
+    {
+      "text": "JACKIE AND I KEPT THE DISPLAY SUPPORTED. BUNNY\nSECURED THE GATE; FRANKIE RELEASED THE CATCH. WITH\nALL FOUR DOING THEIR PART, WE FOLDED AND LOWERED",
+      "record_id": "VC03.LOSS",
+      "resource": 230,
+      "entry": 167,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 17,
+      "audio_module": 939
+    },
+    {
+      "text": "IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.LOSS",
+      "resource": 230,
+      "entry": 168,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 18,
+      "audio_module": 939
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC03.REMATCH",
+      "resource": 230,
+      "entry": 154,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 19,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC03.KO.OPPONENT",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 20,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC03.KO.JACKIE",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 21,
+      "audio_module": 939
+    },
+    {
+      "text": "JACKIE AND HIS OPPONENT REMAIN STANDING, FACE TO\nFACE. WILLING ONLOOKERS GATHER AROUND THEM. THE\nROOM DIMS AROUND A THEATRICAL SPOTLIGHT. METERS",
+      "record_id": "VC03.STAGE",
+      "resource": 230,
+      "entry": 157,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW NAMES, NUMBERS AND COMPOSURE COLOR. A LANDED\nLINE PRODUCES A BRIEF NON-CONTACT WINCE; AT ZERO,\nSHOW KO AND THE LOSER'S SOCIAL GROAN BEFORE ANY",
+      "record_id": "VC03.STAGE",
+      "resource": 230,
+      "entry": 158,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "QUEUED AUDIENCE RESPONSE. RESTORE THE UNDERLYING\nROOM POSITIONS ON EXIT.",
+      "record_id": "VC03.STAGE",
+      "resource": 230,
+      "entry": 159,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SUPPER HAS BEEN SERVED, RITA HAS PRESENTED HER\nWORK, AND THE BOARD IS HERE. WHO GETS THE\nCEREMONIAL FLOURISH?",
+      "record_id": "VC04.ENTRY",
+      "resource": 230,
+      "entry": 170,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 22,
+      "audio_module": 939
+    },
+    {
+      "text": "A BRIEF HOUSEHOLD-LED TOAST, OR YOUR LIMITED\nINTRODUCTION. THE ACTUAL COMMITMENTS STAY AS\nAGREED.",
+      "record_id": "VC04.ENTRY",
+      "resource": 230,
+      "entry": 171,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 23,
+      "audio_module": 939
+    },
+    {
+      "text": "YES. JUST THE FORM OF THE TOAST. PRACTICE FIRST,\nOR BEGIN?",
+      "record_id": "VC04.ENTRY",
+      "resource": 230,
+      "entry": 172,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 24,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE CEREMONIAL FLOURISH. THE HOUSEHOLD CAN\nLEAD THE TOAST.",
+      "record_id": "VC04.WIN",
+      "resource": 230,
+      "entry": 173,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 25,
+      "audio_module": 939
+    },
+    {
+      "text": "THEN WE'LL KEEP IT BRIEF AND LET EACH PERSON AGREE\nTO THEIR OWN PROMISE.",
+      "record_id": "VC04.WIN",
+      "resource": 230,
+      "entry": 174,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 26,
+      "audio_module": 939
+    },
+    {
+      "text": "I YIELD THE CEREMONIAL FLOURISH. THE ACTUAL\nCOMMITMENTS STAY UNCHANGED.",
+      "record_id": "VC04.LOSS",
+      "resource": 230,
+      "entry": 175,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 27,
+      "audio_module": 939
+    },
+    {
+      "text": "THEN LET ME ACKNOWLEDGE THE HOUSEHOLD AND EVERYONE\nWHO CONTRIBUTED. THE TOAST MAY PROCEED WHEN ALL\nITS REQUIREMENTS ARE READY.",
+      "record_id": "VC04.LOSS",
+      "resource": 230,
+      "entry": 176,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 28,
+      "audio_module": 939
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC04.REMATCH",
+      "resource": 230,
+      "entry": 154,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 29,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC04.KO.OPPONENT",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 30,
+      "audio_module": 939
+    },
+    {
+      "text": "OHHH.",
+      "record_id": "VC04.KO.JACKIE",
+      "resource": 230,
+      "entry": 155,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 31,
+      "audio_module": 939
+    },
+    {
+      "text": "JACKIE AND HIS OPPONENT REMAIN STANDING, FACE TO\nFACE. WILLING ONLOOKERS GATHER AROUND THEM. THE\nROOM DIMS AROUND A THEATRICAL SPOTLIGHT. METERS",
+      "record_id": "VC04.STAGE",
+      "resource": 230,
+      "entry": 157,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SHOW NAMES, NUMBERS AND COMPOSURE COLOR. A LANDED\nLINE PRODUCES A BRIEF NON-CONTACT WINCE; AT ZERO,\nSHOW KO AND THE LOSER'S SOCIAL GROAN BEFORE ANY",
+      "record_id": "VC04.STAGE",
+      "resource": 230,
+      "entry": 158,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "QUEUED AUDIENCE RESPONSE. RESTORE THE UNDERLYING\nROOM POSITIONS ON EXIT.",
+      "record_id": "VC04.STAGE",
+      "resource": 230,
+      "entry": 159,
+      "header_entry": 156,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "AGREE TONIGHT'S SCOPE AND DEMONSTRATE THE WORKING\nSCREEN FIRST.",
+      "record_id": "VC02.NOT_READY",
+      "resource": 230,
+      "entry": 177,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE SCREEN AND SCOPE ARE AGREED. COMPLETE ONE\nCONTEST ATTEMPT WITH VIVIAN TO FINISH THIS\nPREPARATION; EITHER RESULT PERMITS PRACTICAL",
+      "record_id": "VC02.NEED_RESOLUTION",
+      "resource": 230,
+      "entry": 178,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PROGRESS.",
+      "record_id": "VC02.NEED_RESOLUTION",
+      "resource": 230,
+      "entry": 179,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE DISPLAY MUST BE SAFELY STAGED AND THE RESCUE\nCONVERSATION FINISHED FIRST.",
+      "record_id": "VC03.NOT_READY",
+      "resource": 230,
+      "entry": 180,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPLETE ONE CONTEST ATTEMPT WITH FELIX BEFORE THE\nFINAL PUBLIC INTRODUCTION. YOU CAN STILL INSPECT\nTHE CLUES AND REHEARSE.",
+      "record_id": "VC03.NEED_RESOLUTION",
+      "resource": 230,
+      "entry": 181,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SERVE SUPPER, LET RITA PRESENT HER WORK, AND BRING\nTHE PLEDGE BOARD HERE FIRST.",
+      "record_id": "VC04.NOT_READY",
+      "resource": 230,
+      "entry": 182,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "COMPLETE ONE CONTEST ATTEMPT WITH MR. STRINGER\nBEFORE THE TOAST IS READY. THE MEAL, PRESENTATION\nAND BOARD DELIVERY REMAIN COMPLETE.",
+      "record_id": "VC04.NEED_RESOLUTION",
+      "resource": 230,
+      "entry": 183,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 0/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 184,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 1/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 185,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 2/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 186,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 3/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 187,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 4/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 188,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 5/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 189,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 6/6. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 190,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 0/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 191,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 1/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 192,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 2/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 193,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 3/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 194,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 4/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 195,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 5/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 196,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 6/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 197,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 7/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 198,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 8/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 199,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 9/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 200,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 10/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 201,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 11/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 202,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 12/12. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 203,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 0/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 204,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 1/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 205,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 2/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 206,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 3/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 207,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 4/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 208,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 5/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 209,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 6/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 210,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 7/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 211,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 8/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 212,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 9/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 213,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 10/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 214,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 11/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 215,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 12/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 216,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 13/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 217,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 14/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 218,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 15/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 219,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 16/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 220,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 17/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 221,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 18/18. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 222,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 0/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 223,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 1/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 224,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 2/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 225,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 3/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 226,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 4/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 227,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 5/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 228,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 6/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 229,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 7/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 230,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 8/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 231,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 9/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 232,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 10/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 233,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 11/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 234,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 12/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 235,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 13/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 236,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 14/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 237,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 15/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 238,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 16/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 239,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 17/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 240,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 18/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 241,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 19/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 242,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 20/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 243,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 21/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 244,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 22/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 245,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 23/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 246,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "REPLIES LEARNED FOR THIS CONTEST: 24/24. PRACTICE\nTEACHES EVERY MISSING MATCH.",
+      "record_id": "VC.NOTEBOOK.POOL",
+      "resource": 230,
+      "entry": 247,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 32,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 33,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 34,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 35,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE SO SLOW ON THE UPTAKE, THE ECHO FINISHES\nBEFORE YOU ANSWER.",
+      "record_id": "IR01.SETUP",
+      "resource": 230,
+      "entry": 249,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 36,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR ECHO GETS MORE PRACTICE THAN THE REST OF US.",
+      "record_id": "IR01.REPLY",
+      "resource": 230,
+      "entry": 252,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 37,
+      "audio_module": 939
+    },
+    {
+      "text": "THE ECHO'S SUPPOSED SUPERIORITY COMES FROM THE\nSPEAKER NEVER STOPPING.",
+      "record_id": "IR01.RECAP",
+      "resource": 230,
+      "entry": 253,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 38,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 39,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 40,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 41,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR BIG ENTRANCE HAS THE ELEGANCE OF TROUSERS\nCAUGHT IN A DRAWER.",
+      "record_id": "IR02.SETUP",
+      "resource": 230,
+      "entry": 254,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 42,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS TAKES LONGER, AND EVERYONE STILL WISHES\nYOU'D ZIP IT.",
+      "record_id": "IR02.REPLY",
+      "resource": 230,
+      "entry": 255,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 43,
+      "audio_module": 939
+    },
+    {
+      "text": "THE TROUSERS CUE A ZIP, REDIRECTED TO THE\nSPEAKER'S UNENDING MOUTH.",
+      "record_id": "IR02.RECAP",
+      "resource": 230,
+      "entry": 256,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 44,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 45,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 46,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 47,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU WANT THE LAST WORD BEFORE YOU'VE THOUGHT OF\nTHE FIRST.",
+      "record_id": "IR03.SETUP",
+      "resource": 230,
+      "entry": 257,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 48,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU ONLY WANT IT SO NOBODY CAN CHECK THE MIDDLE.",
+      "record_id": "IR03.REPLY",
+      "resource": 230,
+      "entry": 258,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 49,
+      "audio_module": 939
+    },
+    {
+      "text": "FIRST AND LAST WORDS EXPOSE THE SPEAKER'S WISH TO\nKEEP THE MIDDLE UNEXAMINED.",
+      "record_id": "IR03.RECAP",
+      "resource": 230,
+      "entry": 259,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 50,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 51,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 52,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 53,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE A REHEARSAL THAT SOMEHOW GOT AN AUDIENCE.",
+      "record_id": "IR04.SETUP",
+      "resource": 230,
+      "entry": 260,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 54,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE AN INTERVAL THAT THINKS IT'S THE SHOW.",
+      "record_id": "IR04.REPLY",
+      "resource": 230,
+      "entry": 261,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 55,
+      "audio_module": 939
+    },
+    {
+      "text": "THE STAGE HIERARCHY IS REVERSED: THE CRITIC IS\nONLY THE INTERRUPTION BETWEEN WORTHWHILE PARTS.",
+      "record_id": "IR04.RECAP",
+      "resource": 230,
+      "entry": 262,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 56,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 57,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 58,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 59,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU SAY YES SO OFTEN I COULD SELL TICKETS TO YOUR\nNOD.",
+      "record_id": "IR05.SETUP",
+      "resource": 230,
+      "entry": 263,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 60,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D SELL THE SEATS AND ASK ME TO STAND.",
+      "record_id": "IR05.REPLY",
+      "resource": 230,
+      "entry": 264,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 61,
+      "audio_module": 939
+    },
+    {
+      "text": "SELLING THE AGREEABLE MAN'S NOD BECOMES PROFITING\nWHILE MAKING HIM GIVE UP HIS SEAT.",
+      "record_id": "IR05.RECAP",
+      "resource": 230,
+      "entry": 265,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 250,
+      "speaker_id": "milo",
+      "speaker_number": 5,
+      "voice_index": 62,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 63,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 64,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 65,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU COULDN'T FOLLOW AN ARROW WITHOUT ASKING WHICH\nWAY IT POINTS.",
+      "record_id": "IR06.SETUP",
+      "resource": 230,
+      "entry": 266,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 66,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D PUT YOUR NAME ON IT AND CALL IT A PARADE.",
+      "record_id": "IR06.REPLY",
+      "resource": 230,
+      "entry": 267,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 67,
+      "audio_module": 939
+    },
+    {
+      "text": "FOLLOWING A DIRECTION IS INFLATED INTO LEADING AND\nNAMING A PUBLIC PROCESSION.",
+      "record_id": "IR06.RECAP",
+      "resource": 230,
+      "entry": 268,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.",
+      "record_id": "IR07.SETUP",
+      "resource": 230,
+      "entry": 269,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.",
+      "record_id": "IR07.SETUP",
+      "resource": 230,
+      "entry": 269,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 68,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.",
+      "record_id": "IR07.SETUP",
+      "resource": 230,
+      "entry": 269,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 69,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU HAVE THE PRESENCE OF A TABLE THAT NEEDS\nCLEARING.",
+      "record_id": "IR07.SETUP",
+      "resource": 230,
+      "entry": 269,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 70,
+      "audio_module": 939
+    },
+    {
+      "text": "THEN STOP ARRANGING YOURSELF AROUND ME.",
+      "record_id": "IR07.REPLY",
+      "resource": 230,
+      "entry": 270,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 71,
+      "audio_module": 939
+    },
+    {
+      "text": "A TABLE IS SOMETHING THE SPEAKER ARRANGES THEIR\nPOSITION AROUND; THE SUPPOSED NOBODY IS CENTRAL.",
+      "record_id": "IR07.RECAP",
+      "resource": 230,
+      "entry": 271,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.",
+      "record_id": "IR08.SETUP",
+      "resource": 230,
+      "entry": 272,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.",
+      "record_id": "IR08.SETUP",
+      "resource": 230,
+      "entry": 272,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 72,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.",
+      "record_id": "IR08.SETUP",
+      "resource": 230,
+      "entry": 272,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 73,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR IDEA OF AN ENTRANCE IS GETTING STUCK\nSIDEWAYS.",
+      "record_id": "IR08.SETUP",
+      "resource": 230,
+      "entry": 272,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 74,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS IS MAKING EVERYONE ELSE STAND ASIDE.",
+      "record_id": "IR08.REPLY",
+      "resource": 230,
+      "entry": 273,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 75,
+      "audio_module": 939
+    },
+    {
+      "text": "BOTH LINES CONCERN AN ENTRANCE; PHYSICAL\nAWKWARDNESS BECOMES SOCIAL MONOPOLIZING.",
+      "record_id": "IR08.RECAP",
+      "resource": 230,
+      "entry": 274,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR POSTURE COULD MAKE A COAT HANGER GIVE UP.",
+      "record_id": "IR09.SETUP",
+      "resource": 230,
+      "entry": 275,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR POSTURE COULD MAKE A COAT HANGER GIVE UP.",
+      "record_id": "IR09.SETUP",
+      "resource": 230,
+      "entry": 275,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 76,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR POSTURE COULD MAKE A COAT HANGER GIVE UP.",
+      "record_id": "IR09.SETUP",
+      "resource": 230,
+      "entry": 275,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 77,
+      "audio_module": 939
+    },
+    {
+      "text": "YOUR POSTURE COULD MAKE A COAT HANGER GIVE UP.",
+      "record_id": "IR09.SETUP",
+      "resource": 230,
+      "entry": 275,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 78,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS COULD PUT A CREASE IN SOUP.",
+      "record_id": "IR09.REPLY",
+      "resource": 230,
+      "entry": 276,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 79,
+      "audio_module": 939
+    },
+    {
+      "text": "THE CLOTHING/POSTURE CRITICISM IS REVERSED INTO\nRIDICULOUS STIFFNESS.",
+      "record_id": "IR09.RECAP",
+      "resource": 230,
+      "entry": 277,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH TAKES\nITSELF SERIOUSLY.",
+      "record_id": "IR10.SETUP",
+      "resource": 230,
+      "entry": 278,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH TAKES\nITSELF SERIOUSLY.",
+      "record_id": "IR10.SETUP",
+      "resource": 230,
+      "entry": 278,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 80,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH TAKES\nITSELF SERIOUSLY.",
+      "record_id": "IR10.SETUP",
+      "resource": 230,
+      "entry": 278,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 81,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE WHAT HAPPENS WHEN THE ROUGH SKETCH TAKES\nITSELF SERIOUSLY.",
+      "record_id": "IR10.SETUP",
+      "resource": 230,
+      "entry": 278,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 82,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE WHAT HAPPENS WHEN THE SIGNATURE COVERS THE\nDRAWING.",
+      "record_id": "IR10.REPLY",
+      "resource": 230,
+      "entry": 279,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 83,
+      "audio_module": 939
+    },
+    {
+      "text": "THE ROUGH DRAWING IS CONTRASTED WITH A CREATOR\nWHOSE SELF-ADVERTISING OBSCURES THE WORK.",
+      "record_id": "IR10.RECAP",
+      "resource": 230,
+      "entry": 280,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D HANG A CURTAIN OVER THE DOOR AND CALL THE\nROOM FINISHED.",
+      "record_id": "IR11.SETUP",
+      "resource": 230,
+      "entry": 281,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D HANG A CURTAIN OVER THE DOOR AND CALL THE\nROOM FINISHED.",
+      "record_id": "IR11.SETUP",
+      "resource": 230,
+      "entry": 281,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 84,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D HANG A CURTAIN OVER THE DOOR AND CALL THE\nROOM FINISHED.",
+      "record_id": "IR11.SETUP",
+      "resource": 230,
+      "entry": 281,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 85,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D HANG A CURTAIN OVER THE DOOR AND CALL THE\nROOM FINISHED.",
+      "record_id": "IR11.SETUP",
+      "resource": 230,
+      "entry": 281,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 86,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D CALL THE PEOPLE STUCK OUTSIDE A WAITING\nLIST.",
+      "record_id": "IR11.REPLY",
+      "resource": 230,
+      "entry": 282,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 87,
+      "audio_module": 939
+    },
+    {
+      "text": "A BLOCKED DOORWAY'S STRANDED PEOPLE ARE REBRANDED\nAS EVIDENCE OF POPULARITY.",
+      "record_id": "IR11.RECAP",
+      "resource": 230,
+      "entry": 283,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU THINK GOOD TASTE IS WHATEVER FITS ON YOUR\nPLATE.",
+      "record_id": "IR12.SETUP",
+      "resource": 230,
+      "entry": 284,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU THINK GOOD TASTE IS WHATEVER FITS ON YOUR\nPLATE.",
+      "record_id": "IR12.SETUP",
+      "resource": 230,
+      "entry": 284,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 88,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU THINK GOOD TASTE IS WHATEVER FITS ON YOUR\nPLATE.",
+      "record_id": "IR12.SETUP",
+      "resource": 230,
+      "entry": 284,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 89,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU THINK GOOD TASTE IS WHATEVER FITS ON YOUR\nPLATE.",
+      "record_id": "IR12.SETUP",
+      "resource": 230,
+      "entry": 284,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 90,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU THINK IT MEANS MAKING EVERYONE ASK WHERE YOU\nGOT IT.",
+      "record_id": "IR12.REPLY",
+      "resource": 230,
+      "entry": 285,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 91,
+      "audio_module": 939
+    },
+    {
+      "text": "FOOD TASTE IS CONTRASTED WITH AESTHETIC TASTE USED\nMAINLY TO ATTRACT INQUIRIES AND ADMIRATION.",
+      "record_id": "IR12.RECAP",
+      "resource": 230,
+      "entry": 286,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU MADE CARRYING A PANEL LOOK LIKE A PUBLIC\nINQUIRY.",
+      "record_id": "IR13.SETUP",
+      "resource": 230,
+      "entry": 287,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU MADE CARRYING A PANEL LOOK LIKE A PUBLIC\nINQUIRY.",
+      "record_id": "IR13.SETUP",
+      "resource": 230,
+      "entry": 287,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 92,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU MADE CARRYING A PANEL LOOK LIKE A PUBLIC\nINQUIRY.",
+      "record_id": "IR13.SETUP",
+      "resource": 230,
+      "entry": 287,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 93,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU SUPPLIED THE OPENING STATEMENT.",
+      "record_id": "IR13.REPLY",
+      "resource": 230,
+      "entry": 288,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 94,
+      "audio_module": 939
+    },
+    {
+      "text": "AN INQUIRY NEEDS A STATEMENT; THE SELF-IMPORTANT\nNARRATOR SUPPLIED IT.",
+      "record_id": "IR13.RECAP",
+      "resource": 230,
+      "entry": 289,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "I COULD HAVE DONE THAT WITH ONE HAND TIED BEHIND\nMY BACK.",
+      "record_id": "IR14.SETUP",
+      "resource": 230,
+      "entry": 290,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "I COULD HAVE DONE THAT WITH ONE HAND TIED BEHIND\nMY BACK.",
+      "record_id": "IR14.SETUP",
+      "resource": 230,
+      "entry": 290,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 95,
+      "audio_module": 939
+    },
+    {
+      "text": "I COULD HAVE DONE THAT WITH ONE HAND TIED BEHIND\nMY BACK.",
+      "record_id": "IR14.SETUP",
+      "resource": 230,
+      "entry": 290,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 96,
+      "audio_module": 939
+    },
+    {
+      "text": "YES, BUT THEN WHO'D POINT AT YOUR HANDIWORK?",
+      "record_id": "IR14.REPLY",
+      "resource": 230,
+      "entry": 291,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 97,
+      "audio_module": 939
+    },
+    {
+      "text": "THE SUPPOSEDLY SPARE HAND IS NEEDED TO ADVERTISE\nTHE SPEAKER'S OWN WORK.",
+      "record_id": "IR14.RECAP",
+      "resource": 230,
+      "entry": 292,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D ASK FOR DIRECTIONS WHILE STANDING IN THE\nDOORWAY.",
+      "record_id": "IR15.SETUP",
+      "resource": 230,
+      "entry": 293,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D ASK FOR DIRECTIONS WHILE STANDING IN THE\nDOORWAY.",
+      "record_id": "IR15.SETUP",
+      "resource": 230,
+      "entry": 293,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 98,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D ASK FOR DIRECTIONS WHILE STANDING IN THE\nDOORWAY.",
+      "record_id": "IR15.SETUP",
+      "resource": 230,
+      "entry": 293,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 99,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D STAND THERE UNTIL SOMEONE ASKED.",
+      "record_id": "IR15.REPLY",
+      "resource": 230,
+      "entry": 294,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 100,
+      "audio_module": 939
+    },
+    {
+      "text": "BLOCKING A DOORWAY THROUGH UNCERTAINTY BECOMES\nBLOCKING IT TO SOLICIT EXPERTISE.",
+      "record_id": "IR15.RECAP",
+      "resource": 230,
+      "entry": 295,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE A DEMONSTRATION OF WHY INSTRUCTIONS HAVE\nPICTURES.",
+      "record_id": "IR16.SETUP",
+      "resource": 230,
+      "entry": 296,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'RE A DEMONSTRATION OF WHY INSTRUCTIONS HAVE\nPICTURES.",
+      "record_id": "IR16.SETUP",
+      "resource": 230,
+      "entry": 296,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 101,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE A DEMONSTRATION OF WHY INSTRUCTIONS HAVE\nPICTURES.",
+      "record_id": "IR16.SETUP",
+      "resource": 230,
+      "entry": 296,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 102,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'RE THE REASON THE PICTURES DON'T HAVE SOUND.",
+      "record_id": "IR16.REPLY",
+      "resource": 230,
+      "entry": 297,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 103,
+      "audio_module": 939
+    },
+    {
+      "text": "PICTURES' SILENCE IS THE ADVANTAGE OVER AN EXPERT\nWHO KEEPS EXPLAINING.",
+      "record_id": "IR16.RECAP",
+      "resource": 230,
+      "entry": 298,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WITHOUT YOUR FRIENDS, YOU'D STILL BE WEDGED IN\nTHAT DOORWAY.",
+      "record_id": "IR17.SETUP",
+      "resource": 230,
+      "entry": 299,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WITHOUT YOUR FRIENDS, YOU'D STILL BE WEDGED IN\nTHAT DOORWAY.",
+      "record_id": "IR17.SETUP",
+      "resource": 230,
+      "entry": 299,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 104,
+      "audio_module": 939
+    },
+    {
+      "text": "WITHOUT YOUR FRIENDS, YOU'D STILL BE WEDGED IN\nTHAT DOORWAY.",
+      "record_id": "IR17.SETUP",
+      "resource": 230,
+      "entry": 299,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 105,
+      "audio_module": 939
+    },
+    {
+      "text": "AND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION\nIN BESIDE ME.",
+      "record_id": "IR17.REPLY",
+      "resource": 230,
+      "entry": 300,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 106,
+      "audio_module": 939
+    },
+    {
+      "text": "THE WEDGED BODY BECOMES THE GAP INTO WHICH THE\nCRITIC KEEPS SQUEEZING AN OPINION.",
+      "record_id": "IR17.RECAP",
+      "resource": 230,
+      "entry": 301,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU THINK STANDING NEAR USEFUL PEOPLE MAKES YOU\nUSEFUL.",
+      "record_id": "IR18.SETUP",
+      "resource": 230,
+      "entry": 302,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU THINK STANDING NEAR USEFUL PEOPLE MAKES YOU\nUSEFUL.",
+      "record_id": "IR18.SETUP",
+      "resource": 230,
+      "entry": 302,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 107,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU THINK STANDING NEAR USEFUL PEOPLE MAKES YOU\nUSEFUL.",
+      "record_id": "IR18.SETUP",
+      "resource": 230,
+      "entry": 302,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 108,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU THINK STANDING IN FRONT OF THEM MAKES YOU IN\nCHARGE.",
+      "record_id": "IR18.REPLY",
+      "resource": 230,
+      "entry": 303,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 109,
+      "audio_module": 939
+    },
+    {
+      "text": "NEAR USEFUL PEOPLE VERSUS IN FRONT OF THEM\nDISTINGUISHES BORROWED COMPETENCE FROM CLAIMED\nAUTHORITY.",
+      "record_id": "IR18.RECAP",
+      "resource": 230,
+      "entry": 304,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SOME PEOPLE KNOW WHEN A SPEECH HAS GONE ON LONG\nENOUGH.",
+      "record_id": "IR19.SETUP",
+      "resource": 230,
+      "entry": 305,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SOME PEOPLE KNOW WHEN A SPEECH HAS GONE ON LONG\nENOUGH.",
+      "record_id": "IR19.SETUP",
+      "resource": 230,
+      "entry": 305,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 110,
+      "audio_module": 939
+    },
+    {
+      "text": "SHALL I FETCH ONE?",
+      "record_id": "IR19.REPLY",
+      "resource": 230,
+      "entry": 306,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 111,
+      "audio_module": 939
+    },
+    {
+      "text": "THE REPLY TAKES 'SOME PEOPLE' LITERALLY AND\nSUGGESTS NONE OF THOSE USEFUL PEOPLE IS SPEAKING.",
+      "record_id": "IR19.RECAP",
+      "resource": 230,
+      "entry": 307,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU CALL THAT A TOAST? I'VE HAD WIND WITH MORE\nCEREMONY.",
+      "record_id": "IR20.SETUP",
+      "resource": 230,
+      "entry": 308,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU CALL THAT A TOAST? I'VE HAD WIND WITH MORE\nCEREMONY.",
+      "record_id": "IR20.SETUP",
+      "resource": 230,
+      "entry": 308,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 112,
+      "audio_module": 939
+    },
+    {
+      "text": "AT LEAST THEY KNOW WHICH END MY SPEECH IS COMING\nFROM.",
+      "record_id": "IR20.REPLY",
+      "resource": 230,
+      "entry": 309,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 113,
+      "audio_module": 939
+    },
+    {
+      "text": "THE SPEAKER'S COMPARISON WITH WIND IDENTIFIES THE\nEMBARRASSING SOURCE OF HIS OWN SPEECH.",
+      "record_id": "IR20.RECAP",
+      "resource": 230,
+      "entry": 310,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU TURN EVERY SIMPLE INSTRUCTION INTO A\nDISCUSSION.",
+      "record_id": "IR21.SETUP",
+      "resource": 230,
+      "entry": 311,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU TURN EVERY SIMPLE INSTRUCTION INTO A\nDISCUSSION.",
+      "record_id": "IR21.SETUP",
+      "resource": 230,
+      "entry": 311,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 114,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS BECOME SUGGESTIONS THE MOMENT YOU WANT\nANOTHER HELPING.",
+      "record_id": "IR21.REPLY",
+      "resource": 230,
+      "entry": 312,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 115,
+      "audio_module": 939
+    },
+    {
+      "text": "THE INSTRUCTION-MAKER TREATS HIS OWN APPETITE AS\nAN EXCEPTION.",
+      "record_id": "IR21.RECAP",
+      "resource": 230,
+      "entry": 313,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D FORGET YOUR OWN SUPPER IF NOBODY PUT YOUR\nNAME ON IT.",
+      "record_id": "IR22.SETUP",
+      "resource": 230,
+      "entry": 314,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU'D FORGET YOUR OWN SUPPER IF NOBODY PUT YOUR\nNAME ON IT.",
+      "record_id": "IR22.SETUP",
+      "resource": 230,
+      "entry": 314,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 116,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS COULD LOSE ITS LABEL; WE'D FOLLOW THE\nCOMPLAINTS.",
+      "record_id": "IR22.REPLY",
+      "resource": 230,
+      "entry": 315,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 117,
+      "audio_module": 939
+    },
+    {
+      "text": "A NAME LABEL IDENTIFIES ONE BOWL; THE COMPLAINING\nEATER IDENTIFIES THE OTHER.",
+      "record_id": "IR22.RECAP",
+      "resource": 230,
+      "entry": 316,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU COULDN'T KEEP TO THE POINT IF IT WAS MARKED ON\nTHE FLOOR.",
+      "record_id": "IR23.SETUP",
+      "resource": 230,
+      "entry": 317,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOU COULDN'T KEEP TO THE POINT IF IT WAS MARKED ON\nTHE FLOOR.",
+      "record_id": "IR23.SETUP",
+      "resource": 230,
+      "entry": 317,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 118,
+      "audio_module": 939
+    },
+    {
+      "text": "YOU'D STAND ON IT AND COMPLAIN THERE WASN'T ROOM\nFOR ANYONE ELSE.",
+      "record_id": "IR23.REPLY",
+      "resource": 230,
+      "entry": 318,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 119,
+      "audio_module": 939
+    },
+    {
+      "text": "THE RHETORICAL POINT BECOMES A FLOOR MARK\nMONOPOLIZED BY THE SPEAKER.",
+      "record_id": "IR23.RECAP",
+      "resource": 230,
+      "entry": 319,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR IDEA OF RESPONSIBILITY IS HANDING SOMEONE A\nCLOTH.",
+      "record_id": "IR24.SETUP",
+      "resource": 230,
+      "entry": 320,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR IDEA OF RESPONSIBILITY IS HANDING SOMEONE A\nCLOTH.",
+      "record_id": "IR24.SETUP",
+      "resource": 230,
+      "entry": 320,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 120,
+      "audio_module": 939
+    },
+    {
+      "text": "YOURS IS WAITING UNTIL THEY'VE FINISHED BEFORE\nPOINTING OUT THE DUST.",
+      "record_id": "IR24.REPLY",
+      "resource": 230,
+      "entry": 321,
+      "header_entry": 147,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 121,
+      "audio_module": 939
+    },
+    {
+      "text": "DELEGATED CLEANING IS ANSWERED BY CRITICISM THAT\nWAITS UNTIL THE WORK IS DONE.",
+      "record_id": "IR24.RECAP",
+      "resource": 230,
+      "entry": 322,
+      "header_entry": 248,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOURS IS\nMAKING EVERYONE ELSE STAND ASIDE..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 323,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D STAND\nTHERE UNTIL SOMEONE ASKED..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 324,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOURS TAKES\nLONGER, AND EVERYONE STILL WISHES YOU'D ZIP IT..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 325,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 326,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOURS TAKES\nLONGER, AND EVERYONE STILL WISHES YOU'D ZIP IT.\nYOU'D CALL THE PEOPLE STUCK OUTSIDE A WAITING",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 327,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LIST..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 328,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: AND YOU'D\nSTILL BE TRYING TO SQUEEZE YOUR OPINION IN BESIDE\nME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 329,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOURS TAKES\nLONGER, AND EVERYONE STILL WISHES YOU'D ZIP IT.\nAND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 330,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "IN BESIDE ME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 331,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST.\nAND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 332,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "IN BESIDE ME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 331,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOURS TAKES\nLONGER, AND EVERYONE STILL WISHES YOU'D ZIP IT.\nYOU'D CALL THE PEOPLE STUCK OUTSIDE A WAITING",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 327,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "LIST.\nAND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION\nIN BESIDE ME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 333,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'RE THE\nREASON THE PICTURES DON'T HAVE SOUND..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 334,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 326,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: AND YOU'D\nSTILL BE TRYING TO SQUEEZE YOUR OPINION IN BESIDE\nME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 329,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST.\nAND YOU'D STILL BE TRYING TO SQUEEZE YOUR OPINION",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 332,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "IN BESIDE ME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 331,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'RE WHAT\nHAPPENS WHEN THE SIGNATURE COVERS THE DRAWING..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 335,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 326,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D STAND\nTHERE UNTIL SOMEONE ASKED..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 324,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: YOU'D CALL\nTHE PEOPLE STUCK OUTSIDE A WAITING LIST.\nYOU'D STAND THERE UNTIL SOMEONE ASKED..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 336,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "OTHER LEARNED REPLIES THAT ALSO FIT: THEN STOP\nARRANGING YOURSELF AROUND ME..",
+      "record_id": "VC.NOTEBOOK.ALTERNATIVES",
+      "resource": 230,
+      "entry": 337,
+      "header_entry": 0,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WE CAN TRY A FEW LINES TOGETHER BEFORE IT COUNTS.",
+      "record_id": "VC.LEARN.TIERA",
+      "resource": 230,
+      "entry": 338,
+      "header_entry": 251,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 122,
+      "audio_module": 939
+    },
+    {
+      "text": "WE CAN READ THE LINES AND REPLIES FIRST. THIS PART\nIS PRACTICE.",
+      "record_id": "VC.LEARN.TIERB",
+      "resource": 230,
+      "entry": 339,
+      "header_entry": 145,
+      "speaker_id": "vivian",
+      "speaker_number": 6,
+      "voice_index": 123,
+      "audio_module": 939
+    },
+    {
+      "text": "EVERYONE IS SAFE. IF YOU WANT, WE CAN REHEARSE THE\nWORDS BEFORE COMPETING.",
+      "record_id": "VC.LEARN.TIERC",
+      "resource": 230,
+      "entry": 340,
+      "header_entry": 160,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 124,
+      "audio_module": 939
+    },
+    {
+      "text": "WE CAN REHEARSE THE EXCHANGE FIRST. NOTHING IS\nBEING CONCEDED IN PRACTICE.",
+      "record_id": "VC.LEARN.TIERD",
+      "resource": 230,
+      "entry": 341,
+      "header_entry": 169,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 125,
+      "audio_module": 939
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0Q30101.001",
+      "sync_file": "#0Q30101.001",
+      "audio_sha256": "c069a897b60e413ccd56b87bc9f83dcfc7bd54b73bba016e8764afe7e8e7f3c5",
+      "sync_sha256": "691e5de40859013198e01c5299cf240ca51ab77bfbfdb3aa4dc19f6c56758198"
+    },
+    {
+      "audio_file": "@0Q30201.001",
+      "sync_file": "#0Q30201.001",
+      "audio_sha256": "ca464e3f389f93e11098bfde8f2b8ca3e11e1c8f75445c55864f95bbb210af36",
+      "sync_sha256": "6de05b97b77f7eac01d6f55ff2c71a723ec8b7b01c96d35291eed35f6579e44d"
+    },
+    {
+      "audio_file": "@0Q30301.001",
+      "sync_file": "#0Q30301.001",
+      "audio_sha256": "5fd0983cb24add91fa9f498d6ca267a1f70b1d4438b497e4ea8f8e735d3e27ad",
+      "sync_sha256": "b50ac5a995c51c543f0b06b24a30a2c1da1d63aa01ff69af1919077d0778803b"
+    },
+    {
+      "audio_file": "@0Q30401.001",
+      "sync_file": "#0Q30401.001",
+      "audio_sha256": "f3157a7e94f75f9d5fcc62f10e9b8eded7b2498f46a07a96ce16d72a8b742c3c",
+      "sync_sha256": "711726f82a951f342906e723da91c3e8cec7d27caf03fa7370c80bfca5ffe8d4"
+    },
+    {
+      "audio_file": "@0Q30501.001",
+      "sync_file": "#0Q30501.001",
+      "audio_sha256": "dd69a2478fedfc2a309bac2d96fd35af3386afb3891924008ce27d60b9024a4a",
+      "sync_sha256": "c768f1a7c997bfda2dac13d24c1a5a65329e7969f823d29ea0636882c0e6f215"
+    },
+    {
+      "audio_file": "@0Q30601.001",
+      "sync_file": "#0Q30601.001",
+      "audio_sha256": "c4489c70d14565459c31d2525eebc51e4bb97c9a9b7f8bfb87842938827b6367",
+      "sync_sha256": "d85e6036b073c3f7e8cf1c8daf20719d9dcb2b49ad95cb0c02209e4b32b71ca7"
+    },
+    {
+      "audio_file": "@0Q30701.001",
+      "sync_file": "#0Q30701.001",
+      "audio_sha256": "699deb3860b9ed16d274e1856bd4809feb6ef55ede187fd7306aab74e8a50f3e",
+      "sync_sha256": "782604511c90519cfe4ff561f1a913c4bbc374aa50281a74dc975d7ee4d0794c"
+    },
+    {
+      "audio_file": "@0Q30801.001",
+      "sync_file": "#0Q30801.001",
+      "audio_sha256": "ae43f624f088d7463a826accb9fa03c16c531168c2e60b48ee5b1f41f684a1b6",
+      "sync_sha256": "b8c18035f14b23c8a21b8cfd2cf599c83b42e6ecfcaadb34e9a80871b267f8ab"
+    },
+    {
+      "audio_file": "@0Q30901.001",
+      "sync_file": "#0Q30901.001",
+      "audio_sha256": "03381f9488822a85148a89575187449ada60c4e8973508c39964333bdc0ce319",
+      "sync_sha256": "4664b99d40250f247bd44a640b74444b02bd19bf61badd832ef18e673133e9b9"
+    },
+    {
+      "audio_file": "@0Q30A01.001",
+      "sync_file": "#0Q30A01.001",
+      "audio_sha256": "32bc167c98a1386463b7f06373fcc58b842a2fd7abcdb6b9e8b49d1d2d2f6f50",
+      "sync_sha256": "579c7e0efddbfc9f5975aa101eca7989b718d52f7650a1457409a7d2cd527e63"
+    },
+    {
+      "audio_file": "@0Q30B01.001",
+      "sync_file": "#0Q30B01.001",
+      "audio_sha256": "0d409dfb972dc907de6b22abc1f8fb6cac935b225467c13753702b1648460089",
+      "sync_sha256": "9738398660ad26a79e0ce239d7602ae9e65e0d1f287e18e62a5e92d4f44ab508"
+    },
+    {
+      "audio_file": "@0Q30C01.001",
+      "sync_file": "#0Q30C01.001",
+      "audio_sha256": "48ab45df9b161717f802e5cd4a2fdb98444ce5a8735d69a1eb9aa0df90af0ef8",
+      "sync_sha256": "af981923a44595769d75c748eae6d3bd68e1bc2bc136c54b4131343091e7f6b7"
+    },
+    {
+      "audio_file": "@0Q30D01.001",
+      "sync_file": "#0Q30D01.001",
+      "audio_sha256": "96915d63a47faa71bf4542e8060c808d6298e950ed0f1dcbe79b60e4bf57109a",
+      "sync_sha256": "07bf72bf19285d1c4064e4952bbd2287f3b90773f8ef637ede57c8190130269b"
+    },
+    {
+      "audio_file": "@0Q30E01.001",
+      "sync_file": "#0Q30E01.001",
+      "audio_sha256": "2091b2121033dfc76251cd1968a600c81dcb499dfb31bc62a32ac2c6fb6b3779",
+      "sync_sha256": "36c63abaf2f15c0ce9b8b32547a99e372c8626c6daa6292f92e1b8f24e6daeb1"
+    },
+    {
+      "audio_file": "@0Q30F01.001",
+      "sync_file": "#0Q30F01.001",
+      "audio_sha256": "381905eb2a2b56063eb52a235925086186342f4bafaf2e6cc7f9c88c69a7bde2",
+      "sync_sha256": "45f6eb7a1ca2af9814843ce10abe11eb5fb1820730397cd2772659c19d3cc15d"
+    },
+    {
+      "audio_file": "@0Q30G01.001",
+      "sync_file": "#0Q30G01.001",
+      "audio_sha256": "9aa70dc28160b4231954b1559c2d916b23635856c8ee64c5ac7b8d0ce1615231",
+      "sync_sha256": "7f656aeb1c59f7928521a8bfe3f5e29c849c57ea9698e3de27d46321e66209b7"
+    },
+    {
+      "audio_file": "@0Q30H01.001",
+      "sync_file": "#0Q30H01.001",
+      "audio_sha256": "6ff6b06b7210c9a2a7129c46db9db8ca9da4b4180aa1f1f82afbc7792ff4d7b5",
+      "sync_sha256": "b5ddb5edf5b0c232b6b1accb174f1a4702e947ca8242fc6e30fe2607200532d1"
+    },
+    {
+      "audio_file": "@0Q30I01.001",
+      "sync_file": "#0Q30I01.001",
+      "audio_sha256": "225ff4c1805e0a60368487fa0b167034d471e633a81b7abe1c1306cd277b4625",
+      "sync_sha256": "7f53c8b74924e6441ee3bf8944d19a735bff2a5c2e1a64294d62c50a3c103e3e"
+    },
+    {
+      "audio_file": "@0Q30J01.001",
+      "sync_file": "#0Q30J01.001",
+      "audio_sha256": "d68ae77bee90a6c24d48b1fbaf7da562b09ffdfb9635aa6341001d16333dbf26",
+      "sync_sha256": "97b20d021ed1775a40cc6842c522af4164eac9a4f3c8d468c17556589babd876"
+    },
+    {
+      "audio_file": "@0Q30K01.001",
+      "sync_file": "#0Q30K01.001",
+      "audio_sha256": "8449afd67609d04e2a83f96957f8642de8b1d0bd74b5f93d3066dc1b6b2a9c53",
+      "sync_sha256": "50741b4a87e65ec4f3b0fe2aa3ddde3c66ddb5792d6d38a3a9e6d7c165f73c8f"
+    },
+    {
+      "audio_file": "@0Q30L01.001",
+      "sync_file": "#0Q30L01.001",
+      "audio_sha256": "32bc167c98a1386463b7f06373fcc58b842a2fd7abcdb6b9e8b49d1d2d2f6f50",
+      "sync_sha256": "579c7e0efddbfc9f5975aa101eca7989b718d52f7650a1457409a7d2cd527e63"
+    },
+    {
+      "audio_file": "@0Q30M01.001",
+      "sync_file": "#0Q30M01.001",
+      "audio_sha256": "50ea1e61287f7c5cb4de70a97e210d1d56830b000371831ef02a7b3eac7e7a76",
+      "sync_sha256": "35b824c0ca87a2defd7c6ac54c38c3a78f80ac50de49e5c857786cc776865ae7"
+    },
+    {
+      "audio_file": "@0Q30N01.001",
+      "sync_file": "#0Q30N01.001",
+      "audio_sha256": "5893e6f3bb78b1ae140710d6ae75f2bad16834662c9a3940de0692e747ccf9c8",
+      "sync_sha256": "38ddb2f6bcced615061d821543d77db005f6d980bfb5ff2a8aaf0a2671de2afd"
+    },
+    {
+      "audio_file": "@0Q30O01.001",
+      "sync_file": "#0Q30O01.001",
+      "audio_sha256": "0b1c49fd31793cc410be500cb028880081b4d5522ec30339df486e2af332232d",
+      "sync_sha256": "858c9c834dd6f4a175297f4708e4cad5ce77ca882127ad1aa8df1d824b9ee3fc"
+    },
+    {
+      "audio_file": "@0Q30P01.001",
+      "sync_file": "#0Q30P01.001",
+      "audio_sha256": "bd070234bf707732e2195a800bd1dea87e4d05d79f23e2e18f492a9556c1d317",
+      "sync_sha256": "dcb17fe317ba54a61c979eeb43831c5ed7bb4fcd7c9afd44e92a44de4d490af3"
+    },
+    {
+      "audio_file": "@0Q30Q01.001",
+      "sync_file": "#0Q30Q01.001",
+      "audio_sha256": "88075991be799d260c0883ec0f18f1b50d3eb357a1fc5e48b0b33b4b4e7f53e4",
+      "sync_sha256": "f8c60e4b7ae837e93d4bf5a34597d5141cc52a0b98a7ea3561b830d8947b6ad2"
+    },
+    {
+      "audio_file": "@0Q30R01.001",
+      "sync_file": "#0Q30R01.001",
+      "audio_sha256": "55248c76529047089434ea05889f08b7577606a82e0f06ad240f509e611c72f6",
+      "sync_sha256": "f0ceaad1b8a874f383049edc350f1224f59666c8fc67a75f8947f48511fe7294"
+    },
+    {
+      "audio_file": "@0Q30S01.001",
+      "sync_file": "#0Q30S01.001",
+      "audio_sha256": "5cb28071557fd70a6c113ca43c2699573acb5e670924b94dbccbadbeea097e0f",
+      "sync_sha256": "25c101013e4afc87e680ee7f660e5528947ce7725753f9bc81214bbb89472267"
+    },
+    {
+      "audio_file": "@0Q30T01.001",
+      "sync_file": "#0Q30T01.001",
+      "audio_sha256": "d16643c96665f026a7e32cb8085d2c23164b6a96c4eff6b9022b4bf661b04306",
+      "sync_sha256": "4eed3bf0910102742ee05ae2876975e613137dea56e587e2eaa3ca46b24475ac"
+    },
+    {
+      "audio_file": "@0Q30U01.001",
+      "sync_file": "#0Q30U01.001",
+      "audio_sha256": "646c4aa25b0389d020b7dd8f69b7f88510726f858e84182144db6781222eeab0",
+      "sync_sha256": "11179eb1320a61479d83ff81214d19de3cd33fb291c6cf0a54e6a1216769827b"
+    },
+    {
+      "audio_file": "@0Q30V01.001",
+      "sync_file": "#0Q30V01.001",
+      "audio_sha256": "32bc167c98a1386463b7f06373fcc58b842a2fd7abcdb6b9e8b49d1d2d2f6f50",
+      "sync_sha256": "579c7e0efddbfc9f5975aa101eca7989b718d52f7650a1457409a7d2cd527e63"
+    },
+    {
+      "audio_file": "@0Q30W01.001",
+      "sync_file": "#0Q30W01.001",
+      "audio_sha256": "6dd761697fa96446e0584a59caa7ac6acaa0de51e589cfe7aa6b49acc5118f14",
+      "sync_sha256": "9c03d200fe087b889af5f7df26df4aec47c9de53ea06ab0b198801b4aca4fa01"
+    },
+    {
+      "audio_file": "@0Q30X01.001",
+      "sync_file": "#0Q30X01.001",
+      "audio_sha256": "5acc59353c66b607c13f47be0d2da94822ce3796e589877c390a29bc70fc1e9b",
+      "sync_sha256": "b0254d43b3d36bc12f8f6a22c70bb934db792cc08a869559870990f64a02b941"
+    },
+    {
+      "audio_file": "@0Q30Y01.001",
+      "sync_file": "#0Q30Y01.001",
+      "audio_sha256": "0348dc8a1ee7fc41e79ba1464c850b26d95a6aa7f522a49fdf131991268303b0",
+      "sync_sha256": "b3583cd0c55eb46a340b08d1ce4a7534c9304fc7aeb3136c0dc4e5f0d2dff16a"
+    },
+    {
+      "audio_file": "@0Q30Z01.001",
+      "sync_file": "#0Q30Z01.001",
+      "audio_sha256": "fbe38c31f7ed204f530e2e439da1104912c46b27b185acc20fa2ca2fe0f759d1",
+      "sync_sha256": "2b89bc59edfcaf53418e7f752e2d9ea08c307673e045ea25e02eab91b863c0de"
+    },
+    {
+      "audio_file": "@0Q31001.001",
+      "sync_file": "#0Q31001.001",
+      "audio_sha256": "d90beb5bc8d40ba18b0ce6289ba8534f3e726c340eed007e227efe5db6c627c7",
+      "sync_sha256": "35acbe21c58290b9ce432f7df8b886dc300ae6cbd47d3a2f687cf499b24d3e5d"
+    },
+    {
+      "audio_file": "@0Q31101.001",
+      "sync_file": "#0Q31101.001",
+      "audio_sha256": "322c126cc166a98781cba2c2d7422c8d8a2cb48a6dbfde1e08ca6fc694c23ed4",
+      "sync_sha256": "c8430eabab148c177c6a4433f84cdff87891529a5ae5ba4b96c796a13e53e2f7"
+    },
+    {
+      "audio_file": "@0Q31201.001",
+      "sync_file": "#0Q31201.001",
+      "audio_sha256": "5f48d548f68b70da589bba12170a6d66c20984ffdfc7ca9fb97dc9898c21368b",
+      "sync_sha256": "9693e7de6687b131f3f010ebba17a2c1cd27584872c3788cbee2f6b1e76c9c18"
+    },
+    {
+      "audio_file": "@0Q31301.001",
+      "sync_file": "#0Q31301.001",
+      "audio_sha256": "6d2e1de1cd6fb12c5c93a2a6cb0837070a19b5c8cc142cdafc11d2bd038ff6bc",
+      "sync_sha256": "e53d4751507322f6bbd3177ae45a35fca42b30f573cfc11fb1c096fc39dad287"
+    },
+    {
+      "audio_file": "@0Q31401.001",
+      "sync_file": "#0Q31401.001",
+      "audio_sha256": "eb809407fc553bbf3686c9556cfbca8ca22be6223db68b6534ce6636aa308408",
+      "sync_sha256": "90284ca387e786723c464d57a2cb940e93550c39a1449a5bfd36c185c8d098ba"
+    },
+    {
+      "audio_file": "@0Q31501.001",
+      "sync_file": "#0Q31501.001",
+      "audio_sha256": "4f8c00d7b9219b6309a131c3290029f457d1eede274a766a9ed1d13b8a5383d8",
+      "sync_sha256": "8d305729f3d48f40ae814050603944687dcf25a8ab20a84db6b59fbaa3b0fcc1"
+    },
+    {
+      "audio_file": "@0Q31601.001",
+      "sync_file": "#0Q31601.001",
+      "audio_sha256": "5756b44687d9c25c90b23c887941a10137cad7305cd62a78b653e80af0385631",
+      "sync_sha256": "ab6e380420d4c5c0706fbc57c220361a7e0340ca675a6054e50afbd7d1ebe76d"
+    },
+    {
+      "audio_file": "@0Q31701.001",
+      "sync_file": "#0Q31701.001",
+      "audio_sha256": "80953b8635f5253375f4e4b07d4db2dce1ad493c9db72cb4b9b4c4805c79c4eb",
+      "sync_sha256": "230e3bd14d917c4a1edc00612cb3b66cc573ef267e1850443f6343d71e362c69"
+    },
+    {
+      "audio_file": "@0Q31801.001",
+      "sync_file": "#0Q31801.001",
+      "audio_sha256": "f197d3f8a7e8458319165121893f2a10411f3b125b0e67fe8269078b32b018cd",
+      "sync_sha256": "d0cec45b326dec334b522cc4e3a23e3559ae716062a3b66b04780cd1210f6ad9"
+    },
+    {
+      "audio_file": "@0Q31901.001",
+      "sync_file": "#0Q31901.001",
+      "audio_sha256": "eb05e05bee1e589c95651b47b5afb5e8c28ddd4990e14e5c3c1658091f2336fe",
+      "sync_sha256": "0807fbf0f853d23b1dd2dd8400bf525228c0c68b94811ba0c48f78a96cffb512"
+    },
+    {
+      "audio_file": "@0Q31A01.001",
+      "sync_file": "#0Q31A01.001",
+      "audio_sha256": "ecdec4e7df609ab43d535414779e3948ebc63b80002926aa6472cfb04afcdefa",
+      "sync_sha256": "6ee86b1d7ffdef53a5e987265b658e7e1a9b5f7a8eed04337c4bee5b803f2937"
+    },
+    {
+      "audio_file": "@0Q31B01.001",
+      "sync_file": "#0Q31B01.001",
+      "audio_sha256": "c7dfc7890b73d3a96c17bdd70fd59208a2ce27586c59a18b2ce6e9ba9ba60b2d",
+      "sync_sha256": "b2e23357db752f033c52592db0e4b49ecf9cb1bde661599f31e872408e7fbe84"
+    },
+    {
+      "audio_file": "@0Q31C01.001",
+      "sync_file": "#0Q31C01.001",
+      "audio_sha256": "309ed17070c6e55f27f917bd38bb0c295f540e3541e9090f420a3a84b30f4075",
+      "sync_sha256": "34fec5272a9d4fe4ae47839f4f1c64362188638383bffdc4ae2020aba1584317"
+    },
+    {
+      "audio_file": "@0Q31D01.001",
+      "sync_file": "#0Q31D01.001",
+      "audio_sha256": "730303865419cf9f28515e55312b10b44b8237a8495cbb7562a56f88ca487929",
+      "sync_sha256": "482cb3ae5c8c1aa693ab6cdb33b9bb5744be618c3ab17ed704c9087229c427f4"
+    },
+    {
+      "audio_file": "@0Q31E01.001",
+      "sync_file": "#0Q31E01.001",
+      "audio_sha256": "847fb9efe25dcb88873954510a23eec79047597288411bfb4577840957c7c610",
+      "sync_sha256": "995231a2d9f58690356221e76ead3baca3e3fc72a58c4ec90446318f392d1253"
+    },
+    {
+      "audio_file": "@0Q31F01.001",
+      "sync_file": "#0Q31F01.001",
+      "audio_sha256": "672f14e83690de5012513a6ee46b0195f8833f9e5a688bb16b97a22061aa90ad",
+      "sync_sha256": "53c63c505ffdb184a58028502a7ef5f7cf355c14c8cd830fe1faab3feff8b579"
+    },
+    {
+      "audio_file": "@0Q31G01.001",
+      "sync_file": "#0Q31G01.001",
+      "audio_sha256": "e0a4d60469a46380209e7dcf7836e507c478664aa1b412941ddc344e084a762a",
+      "sync_sha256": "e914e79baf576842f0b28509740321e05659442a1d4aefd98664a69be6006022"
+    },
+    {
+      "audio_file": "@0Q31H01.001",
+      "sync_file": "#0Q31H01.001",
+      "audio_sha256": "9f39ae7205c169c538e17c8886768505d32e39a9001b3fbf8668567e18455158",
+      "sync_sha256": "accea226bce42bb4d8a2445597395f32b86fa42df871ea9031bbb586cb6c763c"
+    },
+    {
+      "audio_file": "@0Q31I01.001",
+      "sync_file": "#0Q31I01.001",
+      "audio_sha256": "eebccac73e2e8e8b0831fa64af242e3a7a4200a07b9e5f4014ded8bf4047c32c",
+      "sync_sha256": "0de7b2e97427ea652bbbc884a6c508850b7a03c7c1d3c11c3f89aa988d41de51"
+    },
+    {
+      "audio_file": "@0Q31J01.001",
+      "sync_file": "#0Q31J01.001",
+      "audio_sha256": "677597d50ff0a1e585c1ee82e9ccffc046295b9832fa7330c37fbfb74618d2ab",
+      "sync_sha256": "621baa1a52f12d2b29f434f36fba12147d6a93a5618acbbace69f725cd5e1581"
+    },
+    {
+      "audio_file": "@0Q31K01.001",
+      "sync_file": "#0Q31K01.001",
+      "audio_sha256": "7a73924c33647ddabd1217e3d85d84bbc46d25c381b057322f78fb22b1dafc63",
+      "sync_sha256": "8a374f27f041bc454d204f5bef04de232937695ee1c3d818d4a3170418b28b45"
+    },
+    {
+      "audio_file": "@0Q31L01.001",
+      "sync_file": "#0Q31L01.001",
+      "audio_sha256": "bc9183b51411d3a327b99b9faa94cafad3dbafd3188d7c062bf798e9c6c04b69",
+      "sync_sha256": "ebd05bfc615c5564f6287e5160b5471576d5585d80851fd5b347a684ec83b34a"
+    },
+    {
+      "audio_file": "@0Q31M01.001",
+      "sync_file": "#0Q31M01.001",
+      "audio_sha256": "0f326157aed0b4ede759b58706f75af12a88d0f3049c79adef2743f41aefc466",
+      "sync_sha256": "854f7e2705949f04e3c8b0a3fbc21c1b87b08b4e2f71bb6ea9febbdf0cc3d49b"
+    },
+    {
+      "audio_file": "@0Q31N01.001",
+      "sync_file": "#0Q31N01.001",
+      "audio_sha256": "aeb0bd3d3c896bb4b1336478761b90fa55fcbc930cd8bc0e671b5c9aacd48583",
+      "sync_sha256": "cfe58a1ce275ba22f0cd5f8c22d0dd264515ddcf58ad4e093bcb4ec2862d38fb"
+    },
+    {
+      "audio_file": "@0Q31O01.001",
+      "sync_file": "#0Q31O01.001",
+      "audio_sha256": "2ea08fc4115efae3ce27e6d8f83ea0eacfd7c882ad6526b7a12d8ea2291a39cf",
+      "sync_sha256": "5c62d7a8c7cfc5e5c846df67fde555a76778f515f6c44529b1e08b9d4f3b05eb"
+    },
+    {
+      "audio_file": "@0Q31P01.001",
+      "sync_file": "#0Q31P01.001",
+      "audio_sha256": "ebfff09bda4926fbd23a0829aa6f2a6621a895e94e75f36a23f32e9a2c5fc101",
+      "sync_sha256": "bb67ed02a1c4d22aa1f29be4294ab39a83c5237830403fd8a6f4cd346eb61ca1"
+    },
+    {
+      "audio_file": "@0Q31Q01.001",
+      "sync_file": "#0Q31Q01.001",
+      "audio_sha256": "412882bbdb6122e2224905e38e7a425330caced673950c43a7c6c054e6843c83",
+      "sync_sha256": "df584c3a575e2337191efe17c4998cfbf499eec272bf6ac0d0622e3916ce4373"
+    },
+    {
+      "audio_file": "@0Q31R01.001",
+      "sync_file": "#0Q31R01.001",
+      "audio_sha256": "e55319f6367a749280154593b3af19b5d00f2961d0b5372298425c0c23914d4a",
+      "sync_sha256": "40e6393ee9b820b9892cbf17f4dbfc15ad219ce9ff3abe045ac2e64a1e725ec4"
+    },
+    {
+      "audio_file": "@0Q31S01.001",
+      "sync_file": "#0Q31S01.001",
+      "audio_sha256": "e75e2006813c441345732f3405e04e1d85c38082ae685659cabe9e78334d2f96",
+      "sync_sha256": "889200a0d90cd2453f847669a54cf2b9dd8863f84e2d71fdafc5b31461417d86"
+    },
+    {
+      "audio_file": "@0Q31T01.001",
+      "sync_file": "#0Q31T01.001",
+      "audio_sha256": "0d06ab38448522c0959b17bad1786cb7f8e448c36c4de0113af9059af101a59d",
+      "sync_sha256": "a925d95505a5ea19a3b70dadd3ecde48709ba48fa51b4254d009c6c6e93e1e26"
+    },
+    {
+      "audio_file": "@0Q31U01.001",
+      "sync_file": "#0Q31U01.001",
+      "audio_sha256": "0726677d79edf05121dde83a4427f1d222ec04c6d171693d594f2da907f6238c",
+      "sync_sha256": "d277fc30047ea1ee3849efee61fb60bc84b02e61b5566bd072fbb13da7435f24"
+    },
+    {
+      "audio_file": "@0Q31V01.001",
+      "sync_file": "#0Q31V01.001",
+      "audio_sha256": "cd3b74dac6e73cd839a4a48f76bc445d3998830239e9398c36eb1d1e98d1da82",
+      "sync_sha256": "6ccaef2a80e0cc642133a80b2ca93e2fa7168b8d4ca6d4dc6bd9a078fa8fb42c"
+    },
+    {
+      "audio_file": "@0Q31W01.001",
+      "sync_file": "#0Q31W01.001",
+      "audio_sha256": "19f801c768cc0a5879592a3e24dabfe26fb9dc34c742442740bcb1e16ffd3031",
+      "sync_sha256": "f1a12832bd4cdb3d2aa8c0da8949ce16963b11d82f061c7307d87f2711f562ca"
+    },
+    {
+      "audio_file": "@0Q31X01.001",
+      "sync_file": "#0Q31X01.001",
+      "audio_sha256": "4dc2aaf4dda3b60d958885476c8ef1b69f362ebfcac5610177b4097bdbb426cb",
+      "sync_sha256": "481aa4e5129641aebf1594bb71c9710c61b8af7a3524f82fa4782e417cc6a834"
+    },
+    {
+      "audio_file": "@0Q31Y01.001",
+      "sync_file": "#0Q31Y01.001",
+      "audio_sha256": "08d19ea2450764794bacf912a1f97b1883a897ff16c120219d1fad117ebc5efa",
+      "sync_sha256": "58d3d73e94c75c757a7cbd3e3ba11ebd13106828ced8c730c02779feb7942a25"
+    },
+    {
+      "audio_file": "@0Q31Z01.001",
+      "sync_file": "#0Q31Z01.001",
+      "audio_sha256": "b2662faf020b11cb501bdf2e23c88a439f0bfb83991e72546301ce26ddae30a1",
+      "sync_sha256": "309e0eb96affa2707794f2dc5263432b18d190ddf7baee09442d603ebc30011a"
+    },
+    {
+      "audio_file": "@0Q32001.001",
+      "sync_file": "#0Q32001.001",
+      "audio_sha256": "efdecf94ce6129fb0b8bcdd6e737507bad2868627d7a4b3a549cc22e95d71297",
+      "sync_sha256": "7bf54417425f657ee41de832a6da9150cbdaf765d6b95db567b5c6f959fe7bf9"
+    },
+    {
+      "audio_file": "@0Q32101.001",
+      "sync_file": "#0Q32101.001",
+      "audio_sha256": "53f1e76a99b183eb8072f0d1d93eacb9778367dc87797e2ccab34f30b19965f4",
+      "sync_sha256": "f2f218e41e3104196101e21ed10e0a5f43e2787e9bc678d390f5744fbb7384da"
+    },
+    {
+      "audio_file": "@0Q32201.001",
+      "sync_file": "#0Q32201.001",
+      "audio_sha256": "ce92919fdb97402c680fba8bcf53e13b22f51e236787569a0e85c2aafcbd2d5c",
+      "sync_sha256": "825459234343120044f38cccc78026989d0dacddfa7fd2ed10355b819d1c9e2e"
+    },
+    {
+      "audio_file": "@0Q32301.001",
+      "sync_file": "#0Q32301.001",
+      "audio_sha256": "ac114b0d615f9ff5ab242a782f04eefd33bfc6001981c77c2438b04f1cb66c49",
+      "sync_sha256": "30cb36c5189719b811288b2fe3959b0d0c0642d136915ccab5926c8b0ffd5514"
+    },
+    {
+      "audio_file": "@0Q32401.001",
+      "sync_file": "#0Q32401.001",
+      "audio_sha256": "fdb19cdbc303ed4e87f1fe5da7c7af596354bdba3af0ed987b77e88f36289435",
+      "sync_sha256": "a77a30d35c996dacf91e35adf3762661da17ede26923736d12245c03928c1a98"
+    },
+    {
+      "audio_file": "@0Q32501.001",
+      "sync_file": "#0Q32501.001",
+      "audio_sha256": "dc184b43fdc8a8ca1cafd0222fc19caf7b71abd8a4aec583f2a9de993429195e",
+      "sync_sha256": "5fbb4c569e269892e465655a704dedb4769d4a69de9e40c6666990b36be8b57f"
+    },
+    {
+      "audio_file": "@0Q32601.001",
+      "sync_file": "#0Q32601.001",
+      "audio_sha256": "cb0844d8ff056591779c83795698773b0c232a3c8035aa5c881c7a0201723103",
+      "sync_sha256": "cec613d3cdbd130d2255feacf11936298694345234f35887e25d718eec661928"
+    },
+    {
+      "audio_file": "@0Q32701.001",
+      "sync_file": "#0Q32701.001",
+      "audio_sha256": "b169145df8b78fca78e9721010eaaaac7380653fa6ee2c071b31b129a8b71637",
+      "sync_sha256": "6271d50fdde5c3b22b83e66f90bf366b7d891b7ee36467d449636446b39af21e"
+    },
+    {
+      "audio_file": "@0Q32801.001",
+      "sync_file": "#0Q32801.001",
+      "audio_sha256": "4a9bedc1d554b11106b36dd8715677dbc42832a4f0efdc0d6061f1d41f1e5f5f",
+      "sync_sha256": "6d976f71587bdfdeaed0b5ddb1019305bc8e159e1546e13956203bbcec44fc70"
+    },
+    {
+      "audio_file": "@0Q32901.001",
+      "sync_file": "#0Q32901.001",
+      "audio_sha256": "1152cee71a801e9fcdd67e64537c403cf584434dbf5b9d2ce57a31ab0e4e3952",
+      "sync_sha256": "6d58b1c4626cab832894a45fe916a93b08fe8cf609387832c75bb5a1bedb2169"
+    },
+    {
+      "audio_file": "@0Q32A01.001",
+      "sync_file": "#0Q32A01.001",
+      "audio_sha256": "ad8929211d73d97018850eb607c188312e2401e92fc05de4b5cd0bd3345f1571",
+      "sync_sha256": "dce02d55751ee0c687465434cd766b8b769dffdeb8d02db7e8b5b393c3ffa0f8"
+    },
+    {
+      "audio_file": "@0Q32B01.001",
+      "sync_file": "#0Q32B01.001",
+      "audio_sha256": "91342f2f8031c1f2c84f51e0bbe3ff2e329623bd73b96a881d8c9e63146a9cb1",
+      "sync_sha256": "712045f5814dc28d0df066fe8af619942103f1e1b74877f6e865f9739bd7fdc2"
+    },
+    {
+      "audio_file": "@0Q32C01.001",
+      "sync_file": "#0Q32C01.001",
+      "audio_sha256": "f4432b035f67ba7e1d69d11852e3af8d1ce2e868f741b4f345a3f10f7bff28b0",
+      "sync_sha256": "bc98ca1d3405aa0950a5cec850af713b57b3e8a26b6a6b0874ecb4a0a63259aa"
+    },
+    {
+      "audio_file": "@0Q32D01.001",
+      "sync_file": "#0Q32D01.001",
+      "audio_sha256": "96f28cae6c18a18f5670245800b9f306828236d35673db6672781b89a10a76d8",
+      "sync_sha256": "c01333f492316a6bed56fd8f413aa8d0c8c06995db7104a018fbf61df1122796"
+    },
+    {
+      "audio_file": "@0Q32E01.001",
+      "sync_file": "#0Q32E01.001",
+      "audio_sha256": "7381d32a3dceefdbc97e498094322606f0da12002767d8765d68e939c8ead01c",
+      "sync_sha256": "4cc039d54767c659322696e566b58cd6d9fc2b05b1196b0d87627f3806baf3e1"
+    },
+    {
+      "audio_file": "@0Q32F01.001",
+      "sync_file": "#0Q32F01.001",
+      "audio_sha256": "8f8dd5fc7470e7d2d0fdcd82bd87e5666af94bcdeba5ac895cfa0652fe141591",
+      "sync_sha256": "e9bd4c7ac31a3de0d73062446f236bbcd8b76d95fe9cf2b110d394bdfff57996"
+    },
+    {
+      "audio_file": "@0Q32G01.001",
+      "sync_file": "#0Q32G01.001",
+      "audio_sha256": "5ba4ac597b6d70ea8f6d2f1f8715c264568396de70f95ae4911e03b85fe9131e",
+      "sync_sha256": "39e627d31749b9f1ae6c9005fb9fb405632ee9f841aeb0d56d6cca79a698dc69"
+    },
+    {
+      "audio_file": "@0Q32H01.001",
+      "sync_file": "#0Q32H01.001",
+      "audio_sha256": "4d738e4f0d99dbc2f5bf7ccb9bde4a85c39e4c67a86716d59d29efdd365d04fa",
+      "sync_sha256": "1ba08ac9561bf705c916d68d57d7e83251c810f2445b23e402f8ca5fb3b62953"
+    },
+    {
+      "audio_file": "@0Q32I01.001",
+      "sync_file": "#0Q32I01.001",
+      "audio_sha256": "3d06eefdfb514c1e6825af2e10d8421b2d05fe7bf4c6547a366a9c4837ece4dd",
+      "sync_sha256": "998cbd78b790dbe4021782dc96f069976b970482aada4f9c728759ec7e19e84c"
+    },
+    {
+      "audio_file": "@0Q32J01.001",
+      "sync_file": "#0Q32J01.001",
+      "audio_sha256": "2ff7c3192d0ca7912ef97d5aa0696ea722a95fd11678c1cbffe1f76817df2c72",
+      "sync_sha256": "627ebd0241af9a8e136d405d5bc07429d5bf257399ee8536041e7418f48e4c95"
+    },
+    {
+      "audio_file": "@0Q32K01.001",
+      "sync_file": "#0Q32K01.001",
+      "audio_sha256": "09190e82c9638100cd39c2572c63d0563556df54f5f2ed8ead92d874d1bc630c",
+      "sync_sha256": "ec9bd9560a493abc945a62cad71d8c7190e276f58f6236382605453a3ae4721b"
+    },
+    {
+      "audio_file": "@0Q32L01.001",
+      "sync_file": "#0Q32L01.001",
+      "audio_sha256": "815693643dbc3f40a5bf1eb32db59720bf3d23e3db945dcca7bae65a3cc2d359",
+      "sync_sha256": "7463ee4c5487c935ab00d012c3820892ea66b459e57e8dcbe4f8701c74bc9b9c"
+    },
+    {
+      "audio_file": "@0Q32M01.001",
+      "sync_file": "#0Q32M01.001",
+      "audio_sha256": "33622f7b930b40f12a0458e3ee215cc5aa6fa5e9033b4c3dc9e5e0814bdc0f71",
+      "sync_sha256": "592c2f38c5e246587a608d3b835c56870111c20dd4b5d2b7deee89d2a7cb8aed"
+    },
+    {
+      "audio_file": "@0Q32N01.001",
+      "sync_file": "#0Q32N01.001",
+      "audio_sha256": "332a1c50270d44f1e79415f48ac50cf299122cc4d89d30867f5c74e4598f097e",
+      "sync_sha256": "c68c2f438307f32e354dc109f125e4ecf98e30f45126e47f40942153f223048c"
+    },
+    {
+      "audio_file": "@0Q32O01.001",
+      "sync_file": "#0Q32O01.001",
+      "audio_sha256": "f5416fca70bfc0cc0e9dbca9a3b37057542568c6ec2bd3bd05ada386b0c8f48d",
+      "sync_sha256": "ccfce07113b518505f2d1f98ef85631e918cf8c01277135ce783f64782ede8a7"
+    },
+    {
+      "audio_file": "@0Q32P01.001",
+      "sync_file": "#0Q32P01.001",
+      "audio_sha256": "c12d11a332cb6c55d59f4073b9654aa8c6c5592706e7fbd771ff0b0bc2ff92e5",
+      "sync_sha256": "a22cc15d0219b68fa5c2c119e1c4c2a455cc29164375f944cfcd278ff8c8ce60"
+    },
+    {
+      "audio_file": "@0Q32Q01.001",
+      "sync_file": "#0Q32Q01.001",
+      "audio_sha256": "0575213a33fe454314a276625e44f1f2cdf273bb5a7b3598246369ec85fcc2e3",
+      "sync_sha256": "17cef74bc71a2ce45abbdc52be4d36f5f8e4c32594f20b675917f5d8eab72303"
+    },
+    {
+      "audio_file": "@0Q32R01.001",
+      "sync_file": "#0Q32R01.001",
+      "audio_sha256": "6bfc3fc8c74f126ca0fa20a60df1a12a2739847aebef1a413793d4ab460e2a69",
+      "sync_sha256": "7bbb7f636f1060d4c2c26c7feadd7da22017cc89d7605aadc2d5cca92c08d293"
+    },
+    {
+      "audio_file": "@0Q32S01.001",
+      "sync_file": "#0Q32S01.001",
+      "audio_sha256": "9a3531051d797b65ea2d5c44cc52b787ce799ae5f800ce6d03b31bcb25edf312",
+      "sync_sha256": "b865a4a940b3c49db9627ec0d8ae05528d29d755548ec364aaa1ed9e5e5d0f54"
+    },
+    {
+      "audio_file": "@0Q32T01.001",
+      "sync_file": "#0Q32T01.001",
+      "audio_sha256": "dc2c3b8b5db763f76a93f137b9a0fe5ceb9f03a18f07368d01c0b1223becbf35",
+      "sync_sha256": "35e05f490d2b777d23a9110c9c1b2b9255b3780e0ed2d64045afced77abc5574"
+    },
+    {
+      "audio_file": "@0Q32U01.001",
+      "sync_file": "#0Q32U01.001",
+      "audio_sha256": "cd4ee4a3e1e3dee2e139eea9654eb1e2011707f55c40a447b2a06bda434a14fa",
+      "sync_sha256": "8c67996554a70727b2823dfead741faae61f1deae2bb769b1208ee42ac51e5e5"
+    },
+    {
+      "audio_file": "@0Q32V01.001",
+      "sync_file": "#0Q32V01.001",
+      "audio_sha256": "5dae2c48146ff1286d442eec27e2eb4b4fec3377188840ce549879a24249373c",
+      "sync_sha256": "88d408427a522fb40248bca90ea7f9de8ff3b709f0dfcf011b7aa805ed2bf89b"
+    },
+    {
+      "audio_file": "@0Q32W01.001",
+      "sync_file": "#0Q32W01.001",
+      "audio_sha256": "b761dcd0152382773c57155fe414882fa30f23d65dc4d207951fe232b98225b6",
+      "sync_sha256": "cb33d460be94298398600ea531b3c5fd2206fa21e57c0b8ead3da0ea6755461c"
+    },
+    {
+      "audio_file": "@0Q32X01.001",
+      "sync_file": "#0Q32X01.001",
+      "audio_sha256": "f2df00390217d240870776f0e8d3ec26ef4ff56a830a858a1d94266a441221fb",
+      "sync_sha256": "068ee2291d4ae1b72d6ea7b3e87a625f4f6899663b6ba1b1f5190f472450ead9"
+    },
+    {
+      "audio_file": "@0Q32Y01.001",
+      "sync_file": "#0Q32Y01.001",
+      "audio_sha256": "f31f2ad26b7ca68e21478ef1ec39a04cc028533e491e37fb5fff1e5e50fd8818",
+      "sync_sha256": "8c4251f88674f0a68c0b2438396bf7576261c821a80552206731720e683b5081"
+    },
+    {
+      "audio_file": "@0Q32Z01.001",
+      "sync_file": "#0Q32Z01.001",
+      "audio_sha256": "12ecb81034189033c38c544df275486330d253c842a7f652733ccb8cddc3536b",
+      "sync_sha256": "5df17b3c3fe62309d81ae0bcb83a1d7c536917339187e0bb11df235fc5ebdeee"
+    },
+    {
+      "audio_file": "@0Q33001.001",
+      "sync_file": "#0Q33001.001",
+      "audio_sha256": "2cc165ab450900a0f7061f2bed3119ddc12de9f52f0c7dc8326e044a856c45b9",
+      "sync_sha256": "d60884115fab5188898bf1dec670b25b198a245b327953c004ab79579cb717c4"
+    },
+    {
+      "audio_file": "@0Q33101.001",
+      "sync_file": "#0Q33101.001",
+      "audio_sha256": "43ea343506634f82f8b861b4441d008471b1b6c7bbad9e879e170ec6a426f556",
+      "sync_sha256": "824417262dcd413c2e98fcfea802733c0b355c5f9155c8fbf7c89c0e5ee72c05"
+    },
+    {
+      "audio_file": "@0Q33201.001",
+      "sync_file": "#0Q33201.001",
+      "audio_sha256": "984f69119f2acf08d7eb8f8da9cacb21f2285df85dcf3a80cb529a63d183a204",
+      "sync_sha256": "cc923f1f37381fce6b1f4ea473a26ff61be53ac8eed3cfbe58aab14145553dc8"
+    },
+    {
+      "audio_file": "@0Q33301.001",
+      "sync_file": "#0Q33301.001",
+      "audio_sha256": "a99461967229f9a77a52f954e2c0b83912c13010e27b4a7193beb83b880cf652",
+      "sync_sha256": "d5cae20c86cbec80e2c92e8b3ffe9365700480c3bbccdea59d60289dc1a2a97d"
+    },
+    {
+      "audio_file": "@0Q33401.001",
+      "sync_file": "#0Q33401.001",
+      "audio_sha256": "50da8311903c85a30d6f31618be59c0fd6f8adb22309b6a0fcf1153138731cda",
+      "sync_sha256": "75f8446b4ae501a426fc390594657411849be51de9beef7db51f5c7fc726c50d"
+    },
+    {
+      "audio_file": "@0Q33501.001",
+      "sync_file": "#0Q33501.001",
+      "audio_sha256": "ffb0b03acdaa4f1e668a82dfce06b81864336e1db4c2b14a0a747278d0229e54",
+      "sync_sha256": "5149b84dcdb2e8b8ac897dd4fd9473a62071df6e38bdc2f2ea019ff44f90a713"
+    },
+    {
+      "audio_file": "@0Q33601.001",
+      "sync_file": "#0Q33601.001",
+      "audio_sha256": "f28999bddade4ca00590424d7a9a8f15b3067660a7fbe4e5695d34397fb05769",
+      "sync_sha256": "fd4434ed9299a9ff26b9e04efd5f2e8a5d2a0fde2aa47496032064e9a181b37c"
+    },
+    {
+      "audio_file": "@0Q33701.001",
+      "sync_file": "#0Q33701.001",
+      "audio_sha256": "cd7041745af483fa53eb159ec44cc02d4e33e08ac67658fcc314981003181200",
+      "sync_sha256": "78772f8cb77f0b4ffa7be62994752221658f7e5242d7c23a1d807c42ec6a9f8c"
+    },
+    {
+      "audio_file": "@0Q33801.001",
+      "sync_file": "#0Q33801.001",
+      "audio_sha256": "c655a27008ec80eda045ddae66c3b7653ef90f6d694919f3c808f2c57d81a32f",
+      "sync_sha256": "6f255b0ca72edc5b96ecd2e759ae2b20236c49c7dffe823b515839fc69f80026"
+    },
+    {
+      "audio_file": "@0Q33901.001",
+      "sync_file": "#0Q33901.001",
+      "audio_sha256": "3e0343cb9466ce7256294b843ca00bcf4681790b6fa06b518dbc430a2d1df0c9",
+      "sync_sha256": "f2778262af91d76a52e13009662becdc4705d22282e8fb59263b22a10024c037"
+    },
+    {
+      "audio_file": "@0Q33A01.001",
+      "sync_file": "#0Q33A01.001",
+      "audio_sha256": "0fbdd67f38111ddbbf4b437d0a5b3be38f8d1a886d7b14a8296127c035ebb788",
+      "sync_sha256": "f593507e7c8f5519799517d61da2ae7430efe1f45c4e3ba1630ef67b7d10b50f"
+    },
+    {
+      "audio_file": "@0Q33B01.001",
+      "sync_file": "#0Q33B01.001",
+      "audio_sha256": "68d1697cdc6d5480d149205129e3a78eee2c9ba9281c1fe6f0d76afbc00a2e97",
+      "sync_sha256": "e982fd41ffbf51b49d967e8de6ac0a1f768c4a501bab89e1a4cfeffb6698a49c"
+    },
+    {
+      "audio_file": "@0Q33C01.001",
+      "sync_file": "#0Q33C01.001",
+      "audio_sha256": "25612e023b777909c13c0acb92e4fa7c8700042dac1708f70ea76821e9628138",
+      "sync_sha256": "19aa73aab8e7c3c85e04d4902013f102b346b6d56dd5459f5c861b3936fdde33"
+    },
+    {
+      "audio_file": "@0Q33D01.001",
+      "sync_file": "#0Q33D01.001",
+      "audio_sha256": "8148541c6def11a516b5e9da5d2d4b787ca0b605b6c92d1c43ac2521707a3036",
+      "sync_sha256": "c9a4a2a7c4757159b11e0387788fe2c4c04fd1348495e266fefe66bf0f8c0c43"
+    },
+    {
+      "audio_file": "@0Q33E01.001",
+      "sync_file": "#0Q33E01.001",
+      "audio_sha256": "6bab31edcfa947aba76e3b5b32339258933f3ac52f95e94ae39cc16f3c8d7fb7",
+      "sync_sha256": "7662b3c461af10a838c333742a28ab16da1713a5cf6166670c41de0a48daeea3"
+    },
+    {
+      "audio_file": "@0Q33F01.001",
+      "sync_file": "#0Q33F01.001",
+      "audio_sha256": "7f4102c738b321f23bfe5f97d2658693f099a69eea87a6d38c00e5334fb266c4",
+      "sync_sha256": "9700790115b57d0774d0e9931e1721af0a26a1008f8cb847ec1701e0d6d8481e"
+    },
+    {
+      "audio_file": "@0Q33G01.001",
+      "sync_file": "#0Q33G01.001",
+      "audio_sha256": "302cc19913339a993e6a0f10914d8bc9bd1f8f25a683cc7e7ba1d2919a20c280",
+      "sync_sha256": "cd42564ffa320b7a6590de817e1e41a3f35ea2f179b77f4a6bee721d9a572460"
+    },
+    {
+      "audio_file": "@0Q33H01.001",
+      "sync_file": "#0Q33H01.001",
+      "audio_sha256": "cc9b1d48adab79d06a21b5c7736b9f5712db1109355642900f2f0c7e2e559b40",
+      "sync_sha256": "b666c45839171f332970bffbc9663858dc70f1b6a653f643f6d2bbdd2185837e"
+    }
+  ]
+}

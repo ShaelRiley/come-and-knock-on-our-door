@@ -1,0 +1,2309 @@
+{
+  "status": "PASS_BOUNDED_STATIC_ASSET_REFERENCE_CLOSURE",
+  "source_manifest_sha256": "6b58c392cd0ef95774290cdffc9dfbae68d77fb4945bd14b99e575540cdedbf1",
+  "test_script_sha256": "a1441f25cacb4108badb2ddd99e8cc255d776299842fda554a1a80dceaaa1208",
+  "compile_receipt_sha256": "b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48",
+  "canonical_source_hashes": {
+    "module980.sc": "3b143cc5904f65434df230c0b79e0773bdc937d76e9decb68f0013715ac51257",
+    "module981.sc": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc",
+    "module982.sc": "06a12391814b37a2b9c4ad349458d205b123095c76ef5823c82a29dd8c02ee08",
+    "module983.sc": "90f4fb86964c9790d663ddc90dfe440dd6c2b15b84a283420f9a9790119b8658",
+    "module984.sc": "8416e814fefbc3bbe7f6cb714a364b0248eb98ccc481380e7837b0e774028e1d",
+    "module985.sc": "3131945f91d394b838ea31b75d0fe9e198963e660d6d1358e6a42646d09f5952",
+    "module986.sc": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81",
+    "module987.sc": "e0ce36506c0a0d3832e52847e8db3841fa4b6d05d2ecfd55af39a33cd11a1c3f",
+    "module988.sc": "d8959a86ae63c68ba472e9f1a575576df116ffdd6c47a2b4fffeb8d41e1ab77e",
+    "module989.sc": "656948a33928fdad9b9eb49ec9d7e29ac3c7a64603d8c9e9f0ee0b3968d8c48f",
+    "module990.sc": "a27f685ed6bf2ff03e26cdad914b03c89bf6c8824aee3af40d9889a67e2efae3",
+    "module991.sc": "d9bc696e08465698f9e2af26b7d2591b3c3ce882d2540e28164dd91e41c905d2",
+    "module992.sc": "369a317ff0cd269fa86ea0fed923e8f5de8639d562c2fa2968fbe455d5b520f6",
+    "module993.sc": "7f658a331b596af8b2f2152cf44e680580e582e2c03491e1e064fa8dd44c0662",
+    "module994.sc": "f662b45b1373b413ec0f1a5d555d414ab5302de70b6a99ddd22fc0f5d33646c3",
+    "module995.sc": "0ae7bff3c11ff3bfcd8cc94a4f4fb9e6e203da726d7796cb17aa0efb6027fb80",
+    "module996.sc": "4bb5fe2155da7a237d1b1947501b79940039f734d7e126c219d489f0b8615924",
+    "module997.sc": "6a7af389c667508ff66f5d7bc3cbea1ed660bbc2c8c7d381db9c3032842a9761",
+    "module998.sc": "7ccb00fd393aef15f32824068f9e69f0e3d09a69a790555cd59638a7d4794848",
+    "module999.sc": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8",
+    "main.sc": "2c438234cba959f62f5875fa83294e1f8a72bab671a65b854e6aad5e40285160"
+  },
+  "packed21modules_match_compile_receipt": true,
+  "direct_source_references": [
+    {
+      "source": "module980.sc",
+      "kind": "Audio36",
+      "filename": "@0PB0101.001"
+    },
+    {
+      "source": "module980.sc",
+      "kind": "Audio36",
+      "filename": "@0PB0101.001"
+    },
+    {
+      "source": "module980.sc",
+      "kind": "Audio36",
+      "filename": "@0PR3D01.001"
+    },
+    {
+      "source": "module982.sc",
+      "kind": "GetFarText",
+      "resource": 215,
+      "entry": null
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 10
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 12
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 16
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 18
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 22
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 24
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 26
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 28
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 30
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 205,
+      "entry": 32
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 229,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 304,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 14,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 15,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 13,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 12,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 305,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 11,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 13,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 12,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 0
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 1
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 2
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 3
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 4
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 5
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 6
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 7
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 8
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 9
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 10
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 11
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 12
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 13
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 14
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 15
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 16
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 17
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 18
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 19
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 20
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 21
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 22
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 23
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 24
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 25
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 26
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 27
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 28
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 29
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 30
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 31
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 32
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 33
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 34
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 35
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 36
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 37
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 38
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 39
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 40
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 41
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 42
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 43
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 44
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 45
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 46
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 47
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 48
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 49
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 50
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 51
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 52
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 53
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 54
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 55
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 56
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 57
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 58
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 59
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": 60
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "resource": 242,
+      "entry": null
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 331,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 331,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 219,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 331,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 330,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 221,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 330,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "view": 214,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 236,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 330,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 216,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 214,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 331,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 331,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 231,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 232,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 232,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 230,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module987.sc",
+      "kind": "DrawCel",
+      "view": 232,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module988.sc",
+      "kind": "DrawCel",
+      "view": 219,
+      "loop": null,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 305,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 11,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 13,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 12,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 101,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 213,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 300,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 8,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 233,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 212,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module990.sc",
+      "kind": "GetFarText",
+      "resource": 210,
+      "entry": 9
+    },
+    {
+      "source": "module990.sc",
+      "kind": "GetFarText",
+      "resource": 210,
+      "entry": 13
+    },
+    {
+      "source": "module990.sc",
+      "kind": "GetFarText",
+      "resource": 210,
+      "entry": 17
+    },
+    {
+      "source": "module990.sc",
+      "kind": "GetFarText",
+      "resource": 210,
+      "entry": 28
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 101,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 220,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 213,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 218,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 219,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 222,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 221,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 300,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 212,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 1,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 4,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 303,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": 2,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": 3,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 226,
+      "loop": 0,
+      "cel": 5,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 213,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 225,
+      "loop": null,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "view": 330,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 219,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 218,
+      "loop": 0,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 223,
+      "loop": 1,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 241,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 241,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 241,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 241,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 239,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module993.sc",
+      "kind": "DrawCel",
+      "view": 240,
+      "loop": 0,
+      "cel": null,
+      "fully_literal": false
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 228,
+      "loop": 0,
+      "cel": 6,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 221,
+      "loop": 1,
+      "cel": 0,
+      "fully_literal": true
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "module996.sc",
+      "kind": "DrawCel",
+      "view": 234,
+      "loop": 0,
+      "cel": 9,
+      "fully_literal": true
+    },
+    {
+      "source": "module996.sc",
+      "kind": "DrawCel",
+      "view": 227,
+      "loop": 0,
+      "cel": 7,
+      "fully_literal": true
+    },
+    {
+      "source": "module996.sc",
+      "kind": "DrawCel",
+      "view": 224,
+      "loop": 0,
+      "cel": 10,
+      "fully_literal": true
+    },
+    {
+      "source": "main.sc",
+      "kind": "Sound",
+      "resource": 1
+    },
+    {
+      "source": "main.sc",
+      "kind": "Sound",
+      "resource": 102
+    },
+    {
+      "source": "main.sc",
+      "kind": "Sound",
+      "resource": 3
+    }
+  ],
+  "direct_reference_counts": {
+    "Audio36": 3,
+    "GetFarText": 77,
+    "DrawCel": 177,
+    "Sound": 3
+  },
+  "manifest_checks": [
+    {
+      "manifest": "scenes/contest.json",
+      "sha256": "68b7e423d47b52a44fa98293ad67db282721ab595b098281e9de6f9fd21d5d7a",
+      "pages": 447,
+      "voiced_page_references": 125,
+      "speakers": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "manifest": "scenes/p05.json",
+      "sha256": "785a21c1f69a8653ffb2d687dccbe52b13f92f344267a60493a326a96edf5bae",
+      "pages": 95,
+      "voiced_page_references": 62,
+      "speakers": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "manifest": "scenes/p07.json",
+      "sha256": "7bd4052203d66a4a06ae6f13892fae1c2f6e4600172310dedae6d2c2ec92d3a9",
+      "pages": 136,
+      "voiced_page_references": 84,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "manifest": "scenes/p08.json",
+      "sha256": "b65d1ae9716bb25d79f77e5f4704fe8f7ab7e539806f7cf0988b19154d5c5f8d",
+      "pages": 68,
+      "voiced_page_references": 41,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "manifest": "scenes/p09.json",
+      "sha256": "812d4bc4c619b2a654670befc27a18907fd2ae1a5c53cd6292f843408a092c59",
+      "pages": 53,
+      "voiced_page_references": 40,
+      "speakers": [
+        0,
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "manifest": "scenes/p10.json",
+      "sha256": "32e8c00c9d2a838b1c777e2bbbe1f174c3efc62f7ea6ee1f9e51f76b31faa0c0",
+      "pages": 50,
+      "voiced_page_references": 40,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "manifest": "scenes/p11.json",
+      "sha256": "bda55eca379e7db233f8d58dfd3c2ab0166d37e2202e2c1f710595ca9879b607",
+      "pages": 103,
+      "voiced_page_references": 94,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "manifest": "scenes/p12.json",
+      "sha256": "87bd06300af59444a7b3f9fa79a7b91ce44df400cad0c3186fbbe47f37efaab8",
+      "pages": 103,
+      "voiced_page_references": 92,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "manifest": "scenes/p13.json",
+      "sha256": "208271f49d0cf2ff599e293b0fdee4b5d7bb935ebbd7ce0718d381e7d6f831d8",
+      "pages": 105,
+      "voiced_page_references": 86,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "manifest": "scenes/p14.json",
+      "sha256": "146e833f398940ac8fc810541b5fd9e836396292e3a639a64db49508082ffea6",
+      "pages": 286,
+      "voiced_page_references": 88,
+      "speakers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "total_authored_pages_checked": 1446,
+  "total_voiced_page_references_checked": 752,
+  "manifest_text_comparison_differences": [],
+  "computed_references_not_proven_by_this_scan": [
+    {
+      "source": "module980.sc",
+      "kind": "DoAudio",
+      "reason": "computed audio tuple",
+      "expression": [
+        "module",
+        "noun",
+        "verb",
+        "condition",
+        "seq"
+      ]
+    },
+    {
+      "source": "module980.sc",
+      "kind": "DoAudio",
+      "reason": "computed audio tuple",
+      "expression": [
+        "module",
+        "noun",
+        "verb",
+        "condition",
+        "seq"
+      ]
+    },
+    {
+      "source": "module980.sc",
+      "kind": "DoAudio",
+      "reason": "computed audio tuple",
+      "expression": [
+        "laughModule",
+        "laughNoun",
+        "laughVerb",
+        "laughCond",
+        "laughSeq"
+      ]
+    },
+    {
+      "source": "module980.sc",
+      "kind": "DoAudio",
+      "reason": "computed audio tuple",
+      "expression": [
+        "927",
+        "noun",
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "source": "module982.sc",
+      "kind": "GetFarText",
+      "reason": "computed text bank",
+      "expression": [
+        "sdResource",
+        "sdEntry"
+      ]
+    },
+    {
+      "source": "module982.sc",
+      "kind": "GetFarText",
+      "reason": "computed text bank",
+      "expression": [
+        "sdResource",
+        "sdHeader"
+      ]
+    },
+    {
+      "source": "module985.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        "view",
+        "facing",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module985.sc",
+      "kind": "GetFarText",
+      "reason": "computed text bank",
+      "expression": [
+        [
+          "if",
+          [
+            "<",
+            "chunk",
+            "480"
+          ],
+          "240",
+          "else",
+          [
+            "if",
+            [
+              "<",
+              "chunk",
+              "960"
+            ],
+            "241",
+            "else",
+            [
+              "if",
+              [
+                "<",
+                "chunk",
+                "1440"
+              ],
+              "244",
+              "else",
+              "245"
+            ]
+          ]
+        ],
+        [
+          "mod",
+          "chunk",
+          "480"
+        ]
+      ]
+    },
+    {
+      "source": "module989.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        "view",
+        "loop",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        "view",
+        "loop",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module991.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        "view",
+        "loop",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module994.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        [
+          "self",
+          "h12SuccessorView:",
+          "i"
+        ],
+        "1",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module995.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        [
+          [
+            "ScriptID",
+            "994",
+            "0"
+          ],
+          "h12SuccessorView:",
+          "i"
+        ],
+        "1",
+        "mouth"
+      ]
+    },
+    {
+      "source": "module996.sc",
+      "kind": "DrawCel",
+      "reason": "computed view",
+      "expression": [
+        [
+          [
+            "ScriptID",
+            "994",
+            "0"
+          ],
+          "h12SuccessorView:",
+          "i"
+        ],
+        "1",
+        "mouth"
+      ]
+    }
+  ],
+  "speaker_registry_range": [
+    0,
+    8
+  ],
+  "malformed_resource_rejections": 3,
+  "full_causal_route_acceptance": false,
+  "native_acceptance": false,
+  "required_fonts_palette_GM_present": true,
+  "limitations": [
+    "Literal high-level calls and Sound defaults are checked. Symbolic assembly operands and computed resource/cel selections are not exhaustively statically evaluated.",
+    "Authored reader manifests cover P05\u2013P14 and shared Contest, not an independent re-proof of P01\u2013P04 source tables. The full inherited audio/resource bytes are separately hash-bound to the current source checkpoint.",
+    "Manifest audio tuples, sync pairs, speaker IDs and text-entry bounds are checked; actual runtime route selection, eligibility and frame/receipt timing remain separate.",
+    "Native display/audio/input acceptance is not claimed."
+  ]
+}

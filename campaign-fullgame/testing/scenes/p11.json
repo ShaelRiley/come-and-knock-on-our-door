@@ -1,0 +1,1422 @@
+{
+  "component": "p11",
+  "pages": [
+    {
+      "text": "HOLD. THE WING HAS OPENED.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 1,
+      "audio_module": 923
+    },
+    {
+      "text": "I CAN SEE THAT.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 2,
+      "audio_module": 923
+    },
+    {
+      "text": "CAN YOU SEE THE CORNER?",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 4,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 3,
+      "audio_module": 923
+    },
+    {
+      "text": "I COULD IDENTIFY IT BLINDFOLDED.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 5,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 4,
+      "audio_module": 923
+    },
+    {
+      "text": "IT'S A MOVING EXHIBIT.",
+      "record_id": "P11.CHOICE.001",
+      "resource": 212,
+      "entry": 6,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "JACKIE? YOU SAID YOU WERE STUCK. ARE YOU HURT?",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 8,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 5,
+      "audio_module": 923
+    },
+    {
+      "text": "WE'RE UNHURT. THE DISPLAY WING HAS US WEDGED IN.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 9,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 6,
+      "audio_module": 923
+    },
+    {
+      "text": "KEEP SUPPORTING IT. BUNNY CAN REACH THE PEG; I CAN\nREACH THE CATCH.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 11,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 7,
+      "audio_module": 923
+    },
+    {
+      "text": "IT'S A MOVING EXHIBIT.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 6,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 8,
+      "audio_module": 923
+    },
+    {
+      "text": "LOVELY. SHALL WE HELP, OR WAIT FOR THE NEXT\nPERFORMANCE?",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 12,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 9,
+      "audio_module": 923
+    },
+    {
+      "text": "I'D LIKE PEOPLE TO TRUST A REPAIR BECAUSE IT\nWORKS. NOT BECAUSE I'VE MADE A SPEECH.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 13,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 10,
+      "audio_module": 923
+    },
+    {
+      "text": "YOU DO LIKE THE SPEECH.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 14,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 11,
+      "audio_module": 923
+    },
+    {
+      "text": "I LIKE PEOPLE KNOWING I DID THE WORK.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 15,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 12,
+      "audio_module": 923
+    },
+    {
+      "text": "I KEEP SAYING I CAN MANAGE EVERYTHING.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 16,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 923
+    },
+    {
+      "text": "YOU CAN MANAGE THIS END. I CAN MANAGE THAT END.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 17,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 14,
+      "audio_module": 923
+    },
+    {
+      "text": "AND WE CAN ASK THEM TO MANAGE THE REST.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 18,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 923
+    },
+    {
+      "text": "THE CATCH HAS TWO ARROWS POINTING INWARD. RELEASE\nIT AND THE WING FOLDS. WE'RE CARRYING THE WIDE\nVERSION FOR NO EXTRA MONEY.",
+      "record_id": "P11.LOOK.001",
+      "resource": 212,
+      "entry": 19,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 16,
+      "audio_module": 923
+    },
+    {
+      "text": "THE GATE'S PROPER HOLD-OPEN PEG IS ON THE FAR\nSIDE. BUNNY CAN REACH IT FROM THE PORCH.",
+      "record_id": "P11.LOOK.002",
+      "resource": 212,
+      "entry": 20,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 17,
+      "audio_module": 923
+    },
+    {
+      "text": "FRANKIE CAN REACH THE CATCH FROM THE COURTYARD. I\nCAN REACH PLYWOOD WITH PARTS OF MYSELF I NORMALLY\nKEEP PRIVATE.",
+      "record_id": "P11.LOOK.003",
+      "resource": 212,
+      "entry": 21,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 18,
+      "audio_module": 923
+    },
+    {
+      "text": "BUNNY, PLEASE PUT THE GATE'S HOLD-OPEN PEG IN.",
+      "record_id": "P11.CHOICE.002",
+      "resource": 212,
+      "entry": 22,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GATE PEGGED. IT CAN'T SWING INTO YOU.",
+      "record_id": "P11.SUCCESS.001",
+      "resource": 212,
+      "entry": 23,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 19,
+      "audio_module": 923
+    },
+    {
+      "text": "THANK YOU. I WAS RUNNING OUT OF PLACES TO BE HIT.",
+      "record_id": "P11.SUCCESS.001",
+      "resource": 212,
+      "entry": 24,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 923
+    },
+    {
+      "text": "THE PROPER PEG IS ALREADY IN. GOOD. ONE BIT OF\nTHIS DOESN'T NEED AN ELBOW.",
+      "record_id": "P11.SUCCESS.002",
+      "resource": 212,
+      "entry": 25,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 21,
+      "audio_module": 923
+    },
+    {
+      "text": "FRANKIE, PLEASE RELEASE THE CATCH WITH THE INWARD\nARROWS.",
+      "record_id": "P11.CHOICE.003",
+      "resource": 212,
+      "entry": 26,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CATCH RELEASED. NOW PULL THE DISPLAY HANDLE WITH\nFELIX. FOLD IT ONTO THE PADDED STOPS.",
+      "record_id": "P11.SUCCESS.003",
+      "resource": 212,
+      "entry": 27,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 22,
+      "audio_module": 923
+    },
+    {
+      "text": "FOLD IT, DON'T FORCE IT. THE CATCH RELEASES THE\nWING. THE PASSAGE WON'T WIDEN JUST BECAUSE WE MAKE\nTHAT NOISE.",
+      "record_id": "P11.FAILURE.001",
+      "resource": 212,
+      "entry": 28,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 23,
+      "audio_module": 923
+    },
+    {
+      "text": "WE NEED THE GATE HELD ON ITS PROPER PEG. BUNNY CAN\nREACH IT FROM THAT SIDE.",
+      "record_id": "P11.FAILURE.002",
+      "resource": 212,
+      "entry": 29,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 24,
+      "audio_module": 923
+    },
+    {
+      "text": "THE WING CATCH IS STILL FASTENED. ASK FRANKIE TO\nRELEASE THE ONE WITH THE INWARD ARROWS.",
+      "record_id": "P11.FAILURE.003",
+      "resource": 212,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 25,
+      "audio_module": 923
+    },
+    {
+      "text": "SET IT BACK ON THE CART.",
+      "record_id": "P11.CHOICE.004",
+      "resource": 212,
+      "entry": 31,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BACK ON THE PADDED CART. SAFELY. WE CAN WALK ROUND\nAND SORT IT OUT WITHOUT HAVING A CONVERSATION\nTHROUGH WOOD.",
+      "record_id": "P11.SUCCESS.004",
+      "resource": 212,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 26,
+      "audio_module": 923
+    },
+    {
+      "text": "TOGETHER. FOLD. ONTO THE PADDED STOPS. DOWN TO THE\nCART.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 33,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 27,
+      "audio_module": 923
+    },
+    {
+      "text": "LOVELY. I CAN BE A MAN AGAIN INSTEAD OF A SHELF.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 34,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 28,
+      "audio_module": 923
+    },
+    {
+      "text": "SHALL WE MOVE IT TOGETHER THIS TIME?",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 35,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 29,
+      "audio_module": 923
+    },
+    {
+      "text": "YES, PLEASE.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 36,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 30,
+      "audio_module": 923
+    },
+    {
+      "text": "TUCK IT INTO THAT RECESS. THE WALL HIDES IT UNTIL\nI'M READY. THANK YOU, ALL OF YOU.",
+      "record_id": "P11.SUCCESS.006",
+      "resource": 212,
+      "entry": 38,
+      "header_entry": 37,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 31,
+      "audio_module": 923
+    },
+    {
+      "text": "FOLDED AND PADDED ON THE CART, HIDDEN BEHIND THE\nHOUSE WALL. FROM THIS SIDE YOU'D NEVER KNOW IT HAD\nHAD TWO MEN STUCK TO IT.",
+      "record_id": "P11.LOOK.004",
+      "resource": 212,
+      "entry": 39,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 923
+    },
+    {
+      "text": "YOU HAVE ENOUGH STRENGTH. YOU NEED HELP ON BOTH\nSIDES.",
+      "record_id": "P11.HINT.1",
+      "resource": 212,
+      "entry": 41,
+      "header_entry": 40,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE GATE NEEDS ITS HOLD-OPEN PEG ENGAGED; THE WING\nNEEDS ITS INWARD-ARROW CATCH RELEASED. THEY'RE\nREACHABLE FROM OPPOSITE SIDES.",
+      "record_id": "P11.HINT.2",
+      "resource": 212,
+      "entry": 42,
+      "header_entry": 40,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "ASK BUNNY TO ENGAGE THE GATE PEG AND FRANKIE TO\nRELEASE THE WING CATCH, IN EITHER ORDER. THEN PULL\nTHE DISPLAY HANDLE WITH FELIX AND LOWER IT ONTO",
+      "record_id": "P11.HINT.3",
+      "resource": 212,
+      "entry": 43,
+      "header_entry": 40,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE CART. YOU CAN SET IT BACK FIRST WHENEVER YOU\nLIKE.",
+      "record_id": "P11.HINT.3",
+      "resource": 212,
+      "entry": 44,
+      "header_entry": 40,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "EVERYONE IS SAFE, AND THE DISPLAY IS STAGED. SHALL\nWE SETTLE HOW WE TELL THE STORY?",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 45,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 33,
+      "audio_module": 923
+    },
+    {
+      "text": "A CONCISE HOUSEHOLD ACCOUNT, OR YOUR MORE\nELABORATE VERSION. BUNNY AND FRANKIE GET THEIR\nCREDIT EITHER WAY.",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 46,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 34,
+      "audio_module": 923
+    },
+    {
+      "text": "ALL FOUR OF US. AGREED. WE CAN PRACTICE BEFORE IT\nCOUNTS.",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 47,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 35,
+      "audio_module": 923
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC03.REMATCH",
+      "resource": 212,
+      "entry": 48,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 36,
+      "audio_module": 923
+    },
+    {
+      "text": "THE DISPLAY MUST BE SAFELY STAGED AND THE RESCUE\nCONVERSATION FINISHED FIRST.",
+      "record_id": "VC03.NOT_READY",
+      "resource": 212,
+      "entry": 50,
+      "header_entry": 49,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "HOLD. THE WING HAS OPENED.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 1,
+      "audio_module": 923
+    },
+    {
+      "text": "I CAN SEE THAT.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 2,
+      "audio_module": 923
+    },
+    {
+      "text": "CAN YOU SEE THE CORNER?",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 4,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 3,
+      "audio_module": 923
+    },
+    {
+      "text": "I COULD IDENTIFY IT BLINDFOLDED.",
+      "record_id": "P11.OPEN.001",
+      "resource": 212,
+      "entry": 5,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 4,
+      "audio_module": 923
+    },
+    {
+      "text": "JACKIE? YOU SAID YOU WERE STUCK. ARE YOU HURT?",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 8,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 5,
+      "audio_module": 923
+    },
+    {
+      "text": "WE'RE UNHURT. THE DISPLAY WING HAS US WEDGED IN.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 9,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 6,
+      "audio_module": 923
+    },
+    {
+      "text": "KEEP SUPPORTING IT. BUNNY CAN REACH THE PEG; I CAN\nREACH THE CATCH.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 11,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 7,
+      "audio_module": 923
+    },
+    {
+      "text": "IT'S A MOVING EXHIBIT.",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 6,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 8,
+      "audio_module": 923
+    },
+    {
+      "text": "LOVELY. SHALL WE HELP, OR WAIT FOR THE NEXT\nPERFORMANCE?",
+      "record_id": "P11.DIALOGUE.001",
+      "resource": 212,
+      "entry": 12,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 9,
+      "audio_module": 923
+    },
+    {
+      "text": "I'D LIKE PEOPLE TO TRUST A REPAIR BECAUSE IT\nWORKS. NOT BECAUSE I'VE MADE A SPEECH.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 13,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 10,
+      "audio_module": 923
+    },
+    {
+      "text": "YOU DO LIKE THE SPEECH.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 14,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 11,
+      "audio_module": 923
+    },
+    {
+      "text": "I LIKE PEOPLE KNOWING I DID THE WORK.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 15,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 12,
+      "audio_module": 923
+    },
+    {
+      "text": "I KEEP SAYING I CAN MANAGE EVERYTHING.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 16,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 923
+    },
+    {
+      "text": "YOU CAN MANAGE THIS END. I CAN MANAGE THAT END.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 17,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 14,
+      "audio_module": 923
+    },
+    {
+      "text": "AND WE CAN ASK THEM TO MANAGE THE REST.",
+      "record_id": "P11.DIALOGUE.002",
+      "resource": 212,
+      "entry": 18,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 923
+    },
+    {
+      "text": "THE CATCH HAS TWO ARROWS POINTING INWARD. RELEASE\nIT AND THE WING FOLDS. WE'RE CARRYING THE WIDE\nVERSION FOR NO EXTRA MONEY.",
+      "record_id": "P11.LOOK.001",
+      "resource": 212,
+      "entry": 19,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 16,
+      "audio_module": 923
+    },
+    {
+      "text": "THE GATE'S PROPER HOLD-OPEN PEG IS ON THE FAR\nSIDE. BUNNY CAN REACH IT FROM THE PORCH.",
+      "record_id": "P11.LOOK.002",
+      "resource": 212,
+      "entry": 20,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 17,
+      "audio_module": 923
+    },
+    {
+      "text": "FRANKIE CAN REACH THE CATCH FROM THE COURTYARD. I\nCAN REACH PLYWOOD WITH PARTS OF MYSELF I NORMALLY\nKEEP PRIVATE.",
+      "record_id": "P11.LOOK.003",
+      "resource": 212,
+      "entry": 21,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 18,
+      "audio_module": 923
+    },
+    {
+      "text": "GATE PEGGED. IT CAN'T SWING INTO YOU.",
+      "record_id": "P11.SUCCESS.001",
+      "resource": 212,
+      "entry": 23,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 19,
+      "audio_module": 923
+    },
+    {
+      "text": "THANK YOU. I WAS RUNNING OUT OF PLACES TO BE HIT.",
+      "record_id": "P11.SUCCESS.001",
+      "resource": 212,
+      "entry": 24,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 923
+    },
+    {
+      "text": "THE PROPER PEG IS ALREADY IN. GOOD. ONE BIT OF\nTHIS DOESN'T NEED AN ELBOW.",
+      "record_id": "P11.SUCCESS.002",
+      "resource": 212,
+      "entry": 25,
+      "header_entry": 7,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 21,
+      "audio_module": 923
+    },
+    {
+      "text": "CATCH RELEASED. NOW PULL THE DISPLAY HANDLE WITH\nFELIX. FOLD IT ONTO THE PADDED STOPS.",
+      "record_id": "P11.SUCCESS.003",
+      "resource": 212,
+      "entry": 27,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 22,
+      "audio_module": 923
+    },
+    {
+      "text": "FOLD IT, DON'T FORCE IT. THE CATCH RELEASES THE\nWING. THE PASSAGE WON'T WIDEN JUST BECAUSE WE MAKE\nTHAT NOISE.",
+      "record_id": "P11.FAILURE.001",
+      "resource": 212,
+      "entry": 28,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 23,
+      "audio_module": 923
+    },
+    {
+      "text": "WE NEED THE GATE HELD ON ITS PROPER PEG. BUNNY CAN\nREACH IT FROM THAT SIDE.",
+      "record_id": "P11.FAILURE.002",
+      "resource": 212,
+      "entry": 29,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 24,
+      "audio_module": 923
+    },
+    {
+      "text": "THE WING CATCH IS STILL FASTENED. ASK FRANKIE TO\nRELEASE THE ONE WITH THE INWARD ARROWS.",
+      "record_id": "P11.FAILURE.003",
+      "resource": 212,
+      "entry": 30,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 25,
+      "audio_module": 923
+    },
+    {
+      "text": "BACK ON THE PADDED CART. SAFELY. WE CAN WALK ROUND\nAND SORT IT OUT WITHOUT HAVING A CONVERSATION\nTHROUGH WOOD.",
+      "record_id": "P11.SUCCESS.004",
+      "resource": 212,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 26,
+      "audio_module": 923
+    },
+    {
+      "text": "TOGETHER. FOLD. ONTO THE PADDED STOPS. DOWN TO THE\nCART.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 33,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 27,
+      "audio_module": 923
+    },
+    {
+      "text": "LOVELY. I CAN BE A MAN AGAIN INSTEAD OF A SHELF.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 34,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 28,
+      "audio_module": 923
+    },
+    {
+      "text": "SHALL WE MOVE IT TOGETHER THIS TIME?",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 35,
+      "header_entry": 10,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 29,
+      "audio_module": 923
+    },
+    {
+      "text": "YES, PLEASE.",
+      "record_id": "P11.SUCCESS.005",
+      "resource": 212,
+      "entry": 36,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 30,
+      "audio_module": 923
+    },
+    {
+      "text": "TUCK IT INTO THAT RECESS. THE WALL HIDES IT UNTIL\nI'M READY. THANK YOU, ALL OF YOU.",
+      "record_id": "P11.SUCCESS.006",
+      "resource": 212,
+      "entry": 38,
+      "header_entry": 37,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 31,
+      "audio_module": 923
+    },
+    {
+      "text": "FOLDED AND PADDED ON THE CART, HIDDEN BEHIND THE\nHOUSE WALL. FROM THIS SIDE YOU'D NEVER KNOW IT HAD\nHAD TWO MEN STUCK TO IT.",
+      "record_id": "P11.LOOK.004",
+      "resource": 212,
+      "entry": 39,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 923
+    },
+    {
+      "text": "EVERYONE IS SAFE, AND THE DISPLAY IS STAGED. SHALL\nWE SETTLE HOW WE TELL THE STORY?",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 45,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 33,
+      "audio_module": 923
+    },
+    {
+      "text": "A CONCISE HOUSEHOLD ACCOUNT, OR YOUR MORE\nELABORATE VERSION. BUNNY AND FRANKIE GET THEIR\nCREDIT EITHER WAY.",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 46,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 34,
+      "audio_module": 923
+    },
+    {
+      "text": "ALL FOUR OF US. AGREED. WE CAN PRACTICE BEFORE IT\nCOUNTS.",
+      "record_id": "VC03.ENTRY",
+      "resource": 212,
+      "entry": 47,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 35,
+      "audio_module": 923
+    },
+    {
+      "text": "A REMATCH, ON THE SAME NARROW TERMS. WE CAN\nPRACTICE FIRST.",
+      "record_id": "VC03.REMATCH",
+      "resource": 212,
+      "entry": 48,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 36,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH\nEVERYBODY CREDITED.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 37,
+      "audio_module": 923
+    },
+    {
+      "text": "FELIX AND I SUPPORTED THE DISPLAY. BUNNY SECURED\nTHE GATE, FRANKIE RELEASED THE CATCH, AND TOGETHER\nWE GOT IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 52,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 38,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH\nEVERYBODY CREDITED.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 39,
+      "audio_module": 923
+    },
+    {
+      "text": "FELIX AND I SUPPORTED THE DISPLAY. BUNNY WAS READY\nAT THE ALREADY SECURED GATE, FRANKIE RELEASED THE\nCATCH, AND TOGETHER WE GOT IT SAFELY ONTO THE",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 53,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 40,
+      "audio_module": 923
+    },
+    {
+      "text": "CART.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 54,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 41,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH THE\nWHOLE TEAM CREDITED.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 55,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 42,
+      "audio_module": 923
+    },
+    {
+      "text": "JACKIE AND I KEPT THE DISPLAY SUPPORTED. BUNNY\nSECURED THE GATE; FRANKIE RELEASED THE CATCH. WITH\nALL FOUR DOING THEIR PART, WE FOLDED AND LOWERED",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 56,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 43,
+      "audio_module": 923
+    },
+    {
+      "text": "IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 57,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 44,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH THE\nWHOLE TEAM CREDITED.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 55,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 45,
+      "audio_module": 923
+    },
+    {
+      "text": "JACKIE AND I KEPT THE DISPLAY SUPPORTED. THE GATE\nWAS SECURED IN ADVANCE, WITH BUNNY READY ON THAT\nSIDE; FRANKIE RELEASED THE CATCH. WITH ALL FOUR",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 58,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 46,
+      "audio_module": 923
+    },
+    {
+      "text": "DOING THEIR PART, WE FOLDED AND LOWERED IT SAFELY\nONTO THE CART.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 59,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 47,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH\nEVERYBODY CREDITED.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 37,
+      "audio_module": 923
+    },
+    {
+      "text": "FELIX AND I SUPPORTED THE DISPLAY. BUNNY SECURED\nTHE GATE, FRANKIE RELEASED THE CATCH, AND TOGETHER\nWE GOT IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 52,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 38,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH\nEVERYBODY CREDITED.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 51,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 39,
+      "audio_module": 923
+    },
+    {
+      "text": "FELIX AND I SUPPORTED THE DISPLAY. BUNNY WAS READY\nAT THE ALREADY SECURED GATE, FRANKIE RELEASED THE\nCATCH, AND TOGETHER WE GOT IT SAFELY ONTO THE",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 53,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 40,
+      "audio_module": 923
+    },
+    {
+      "text": "CART.",
+      "record_id": "VC03.WIN",
+      "resource": 212,
+      "entry": 54,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 41,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH THE\nWHOLE TEAM CREDITED.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 55,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 42,
+      "audio_module": 923
+    },
+    {
+      "text": "JACKIE AND I KEPT THE DISPLAY SUPPORTED. BUNNY\nSECURED THE GATE; FRANKIE RELEASED THE CATCH. WITH\nALL FOUR DOING THEIR PART, WE FOLDED AND LOWERED",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 56,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 43,
+      "audio_module": 923
+    },
+    {
+      "text": "IT SAFELY ONTO THE CART.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 57,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 44,
+      "audio_module": 923
+    },
+    {
+      "text": "I YIELD THE ACCOUNT. TELL IT YOUR WAY, WITH THE\nWHOLE TEAM CREDITED.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 55,
+      "header_entry": 2,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 45,
+      "audio_module": 923
+    },
+    {
+      "text": "JACKIE AND I KEPT THE DISPLAY SUPPORTED. THE GATE\nWAS SECURED IN ADVANCE, WITH BUNNY READY ON THAT\nSIDE; FRANKIE RELEASED THE CATCH. WITH ALL FOUR",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 58,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 46,
+      "audio_module": 923
+    },
+    {
+      "text": "DOING THEIR PART, WE FOLDED AND LOWERED IT SAFELY\nONTO THE CART.",
+      "record_id": "VC03.LOSS",
+      "resource": 212,
+      "entry": 59,
+      "header_entry": 0,
+      "speaker_id": "felix",
+      "speaker_number": 8,
+      "voice_index": 47,
+      "audio_module": 923
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0PN0101.001",
+      "sync_file": "#0PN0101.001",
+      "audio_sha256": "bc6b3110de90d2b1afbed1d20e68a6f78b4793acf151299f09579d8786ddc763",
+      "sync_sha256": "51095360fae8e8fcec6fd0fe98fcbc5c6f55b404b459f2111904afb4614648ba"
+    },
+    {
+      "audio_file": "@0PN0201.001",
+      "sync_file": "#0PN0201.001",
+      "audio_sha256": "39c2d927c9237c640c785626bf5ea3f25e64c3b21d0199e4b703eaea83ff33de",
+      "sync_sha256": "6cde6102e96fd32dfcc226d9dc71e878cf25d304466c7f560c8378cf28bf269c"
+    },
+    {
+      "audio_file": "@0PN0301.001",
+      "sync_file": "#0PN0301.001",
+      "audio_sha256": "324ab34189997532008a962643a3bb4f0e5dcef8238547876ae5f2c76a4dbf5e",
+      "sync_sha256": "a184df7a5597cea53d8e31306b8ef8106acaa0e436b568ef26d4aab4bf805dde"
+    },
+    {
+      "audio_file": "@0PN0401.001",
+      "sync_file": "#0PN0401.001",
+      "audio_sha256": "f99bef192cb3e5e794e17f72d8aa0a923fb8c4dc56b51e6e0545dd2be6c75502",
+      "sync_sha256": "5b15845dbb1f26331b2604b45ab456b801946ff1e865e2385ef24e693a08c94a"
+    },
+    {
+      "audio_file": "@0PN0501.001",
+      "sync_file": "#0PN0501.001",
+      "audio_sha256": "3cd6ecbdf780e8910a74438fa9bfe51979492cb99de3da56107ea140152ba182",
+      "sync_sha256": "089fdcac121c49b5ae36c9bb781f28eeac91134af8b3174fc1d701b168b47ff4"
+    },
+    {
+      "audio_file": "@0PN0601.001",
+      "sync_file": "#0PN0601.001",
+      "audio_sha256": "9833f4b927a3c5e6f0a76438ed4c88df3782c994934c63ef18abfff3f951416c",
+      "sync_sha256": "b547f42920f8272e98f731cd17abb97b26d75b688bfb3c59748c9723ac88636c"
+    },
+    {
+      "audio_file": "@0PN0701.001",
+      "sync_file": "#0PN0701.001",
+      "audio_sha256": "e13d83dc858d52d3fb8c94a301a7d03aa66a9e9ae13a12497dee118ed03c13bb",
+      "sync_sha256": "40bb2ab743abd2bcf4e82422cb19aece1aee0b1be8e00a7ad2ce6c841833b6c8"
+    },
+    {
+      "audio_file": "@0PN0801.001",
+      "sync_file": "#0PN0801.001",
+      "audio_sha256": "a315c03daa5a491cc317620ef298ca9c5f03e2d89dd18605b436bd5623127d20",
+      "sync_sha256": "4c3677417c3584062d84b3ed29bb7702a57958b70af573bf452c7afee2bc0942"
+    },
+    {
+      "audio_file": "@0PN0901.001",
+      "sync_file": "#0PN0901.001",
+      "audio_sha256": "0cc188cca21a2f01ddab67a86f9026491ab6afb951f9b9c3a6149429843d3678",
+      "sync_sha256": "99e98c26662701d33ced6eeaff0abb47b84171ce2bcb3c2df36518a669355431"
+    },
+    {
+      "audio_file": "@0PN0A01.001",
+      "sync_file": "#0PN0A01.001",
+      "audio_sha256": "8e4e0528837a63477aeae572b051d571f04bb07086a156ed77a0ae906c4aaed7",
+      "sync_sha256": "67946d9eafff6aca5320e4dcfb6fc581c0d23da526fbb58dc5fa2ba5d942ca05"
+    },
+    {
+      "audio_file": "@0PN0B01.001",
+      "sync_file": "#0PN0B01.001",
+      "audio_sha256": "833d6a5937d08acd542a834708e0341ee22468e36a08e1d0baa292e7ad5ad4de",
+      "sync_sha256": "ac7691e6644338c340c8c83af887161f541ba639db435dfa64135347b87b4292"
+    },
+    {
+      "audio_file": "@0PN0C01.001",
+      "sync_file": "#0PN0C01.001",
+      "audio_sha256": "92196046b47a8e1506a2a99548fa443030170cc49c77508ba7e0d10227c99fc4",
+      "sync_sha256": "abb803840d90208fcf4ed48267efebbfdba73ef570694e4f39bb2da0a7e657bd"
+    },
+    {
+      "audio_file": "@0PN0D01.001",
+      "sync_file": "#0PN0D01.001",
+      "audio_sha256": "775d8f6360c35045cc6163f6179e6b7124b421b705491e25ef507b341390277c",
+      "sync_sha256": "87c3b3d7a5350d981acd5d68d3c92ea073c88e4295d1eef86864d8b9432c61bd"
+    },
+    {
+      "audio_file": "@0PN0E01.001",
+      "sync_file": "#0PN0E01.001",
+      "audio_sha256": "435f0fe9829b3fc34cc168911a06003625b88ca81b73820e8dd23bc0d449d048",
+      "sync_sha256": "ff6cbf81fa0f9e3489e8e0b95fcca97ce83d80af0cfcab9976b270c76793c0e3"
+    },
+    {
+      "audio_file": "@0PN0F01.001",
+      "sync_file": "#0PN0F01.001",
+      "audio_sha256": "0b258c9cca892e84492822cd03ae565aaf2d944a20ff548f55a404f401f6170c",
+      "sync_sha256": "aa5bf6af647b07733679b3a4c12b94d5e02775c7cd9823a062d3e3987271e899"
+    },
+    {
+      "audio_file": "@0PN0G01.001",
+      "sync_file": "#0PN0G01.001",
+      "audio_sha256": "72090ef428ca62b8e1651e3d6aef52c05902a887f21976369caa9d3c3ffeca63",
+      "sync_sha256": "62c78b975223d36de6075a2ffa2c8627a13a514ed7e14af3ff69e9d8a91d065e"
+    },
+    {
+      "audio_file": "@0PN0H01.001",
+      "sync_file": "#0PN0H01.001",
+      "audio_sha256": "b04676d26cad540dbfa9db774a138684febc2d0187dba4758a4352d7353f05ed",
+      "sync_sha256": "b89192dee44aa325b8ac4dac3ebdefcb58e93949238e1e209b544b7bedd4b9b0"
+    },
+    {
+      "audio_file": "@0PN0I01.001",
+      "sync_file": "#0PN0I01.001",
+      "audio_sha256": "96d2f27cf705706421cb503adf9f84bbc229c021e6bc29dd85b3fed3de32ef33",
+      "sync_sha256": "38cf542d656e69c468c04a15a329e7dc76b184986be36fd925aba225036437d1"
+    },
+    {
+      "audio_file": "@0PN0J01.001",
+      "sync_file": "#0PN0J01.001",
+      "audio_sha256": "588ecde5504f50fa77a63be3a25136d69da45183871923538f051d83d9da9918",
+      "sync_sha256": "73c45a6fca26e8b3043d0e823a4da37e54ece418f5d6c206c8318c0ca99bf369"
+    },
+    {
+      "audio_file": "@0PN0K01.001",
+      "sync_file": "#0PN0K01.001",
+      "audio_sha256": "144ce326205e564e0ecf89fb4f192eb0dcd64b45ce863b10f102730e42f8e0ee",
+      "sync_sha256": "7a8006d936b371d5c7ec8660855fa4e03062a9c684e44308aae855d6d86667bb"
+    },
+    {
+      "audio_file": "@0PN0L01.001",
+      "sync_file": "#0PN0L01.001",
+      "audio_sha256": "e074d078455386e75df5fa3a4a874ee1072350c81d5e29a8f1cd8c8cbf06fe5f",
+      "sync_sha256": "7814910c1114bdac47e41c909b5c7b3654f8ab4152a2633f807dbfe0168d7b42"
+    },
+    {
+      "audio_file": "@0PN0M01.001",
+      "sync_file": "#0PN0M01.001",
+      "audio_sha256": "7640111573d38a92bb3b314d2c9e4f1cd55de8a82f2f524d3ed163bd6211a29a",
+      "sync_sha256": "c1e0b46eedee1317d30c131cdcb4f4b276b3a4728eaa9edead43c20fe1d93f6e"
+    },
+    {
+      "audio_file": "@0PN0N01.001",
+      "sync_file": "#0PN0N01.001",
+      "audio_sha256": "1fa8613d3481953543f8230e10029f09dbfad1b4d125bc6eeaf86d1564140139",
+      "sync_sha256": "a97b8ebe337f6a26495b587e16527112186936ca922d4b04fba45f597422fd4d"
+    },
+    {
+      "audio_file": "@0PN0O01.001",
+      "sync_file": "#0PN0O01.001",
+      "audio_sha256": "a0a7f60cee33a2a3e7fce0f82e009452a5525cbe2d69a725484444c707a715a0",
+      "sync_sha256": "6dd95b3a743d860904736423928f0231c0263f0b04d85cc5ef511b9167ba1db7"
+    },
+    {
+      "audio_file": "@0PN0P01.001",
+      "sync_file": "#0PN0P01.001",
+      "audio_sha256": "6655f55a458bce015edf4e9653ecddaf2b5f855dc720c82a130b0e38719ff14a",
+      "sync_sha256": "5b419545aa7a68a6a8f1c4d52aadf8364e76b4211f6527fa50519aafa19d0287"
+    },
+    {
+      "audio_file": "@0PN0Q01.001",
+      "sync_file": "#0PN0Q01.001",
+      "audio_sha256": "2e66f7d7d079e4e4c80d85892c6f8febf780ffe5a6b75594d067365c7a642609",
+      "sync_sha256": "a3d53e407dabd9eee2d7cc423680ac6f41490aff9c960052c008dc9846d15637"
+    },
+    {
+      "audio_file": "@0PN0R01.001",
+      "sync_file": "#0PN0R01.001",
+      "audio_sha256": "75c09bb1966f3dd4aedffc0cfbd83800f5fe669f7eec17a2cbc46b2bbaf65e5c",
+      "sync_sha256": "56236b1f22910cf007e04fd26bc928c526ba772282efec397352fb942d781b1e"
+    },
+    {
+      "audio_file": "@0PN0S01.001",
+      "sync_file": "#0PN0S01.001",
+      "audio_sha256": "e63338f1ac81564133e95e752ec9d07350b60f6515fb44d0ffa2122acdb34e5b",
+      "sync_sha256": "7bdad9bc1ff1b394a793907e236063057806d8943f33394b79e4a6e0bfb02848"
+    },
+    {
+      "audio_file": "@0PN0T01.001",
+      "sync_file": "#0PN0T01.001",
+      "audio_sha256": "836a21fac2893f448b7229023fb5cc59341d152ac2cdaba6a8c64b41d0a656ed",
+      "sync_sha256": "2e73c5309578519e16b2cb3b8a7bad9f3c9c872ca501deb545dbe115ca348ed6"
+    },
+    {
+      "audio_file": "@0PN0U01.001",
+      "sync_file": "#0PN0U01.001",
+      "audio_sha256": "1badca38069f75e88cb62f2d426a0af4e6ebca3e32eea9865b4936473fd5aac5",
+      "sync_sha256": "ab6b171f0fe429f5a7e48d30c6cd4522d83c1883912933360303bde8cb2f2ed7"
+    },
+    {
+      "audio_file": "@0PN0V01.001",
+      "sync_file": "#0PN0V01.001",
+      "audio_sha256": "1cea4690d19496c0e8bc68a411ace7f98ca5583f572008ffc07f5e012d299ed5",
+      "sync_sha256": "ebb1ab434d4b493ba14724c36d7f0c2c303617d1a031ed69ce8bb7a9e06c2f43"
+    },
+    {
+      "audio_file": "@0PN0W01.001",
+      "sync_file": "#0PN0W01.001",
+      "audio_sha256": "b5cb2b84fa9dcadb3443b53e93c6f144c75b6ad85a600b47d4d40ff24eb2a402",
+      "sync_sha256": "000f7d9b213eb376fd029b598da5769babd36db66f36fc2f46fc1aa352d3cd76"
+    },
+    {
+      "audio_file": "@0PN0X01.001",
+      "sync_file": "#0PN0X01.001",
+      "audio_sha256": "0d409dfb972dc907de6b22abc1f8fb6cac935b225467c13753702b1648460089",
+      "sync_sha256": "9738398660ad26a79e0ce239d7602ae9e65e0d1f287e18e62a5e92d4f44ab508"
+    },
+    {
+      "audio_file": "@0PN0Y01.001",
+      "sync_file": "#0PN0Y01.001",
+      "audio_sha256": "48ab45df9b161717f802e5cd4a2fdb98444ce5a8735d69a1eb9aa0df90af0ef8",
+      "sync_sha256": "af981923a44595769d75c748eae6d3bd68e1bc2bc136c54b4131343091e7f6b7"
+    },
+    {
+      "audio_file": "@0PN0Z01.001",
+      "sync_file": "#0PN0Z01.001",
+      "audio_sha256": "96915d63a47faa71bf4542e8060c808d6298e950ed0f1dcbe79b60e4bf57109a",
+      "sync_sha256": "07bf72bf19285d1c4064e4952bbd2287f3b90773f8ef637ede57c8190130269b"
+    },
+    {
+      "audio_file": "@0PN1001.001",
+      "sync_file": "#0PN1001.001",
+      "audio_sha256": "d68ae77bee90a6c24d48b1fbaf7da562b09ffdfb9635aa6341001d16333dbf26",
+      "sync_sha256": "97b20d021ed1775a40cc6842c522af4164eac9a4f3c8d468c17556589babd876"
+    },
+    {
+      "audio_file": "@0PN1101.001",
+      "sync_file": "#0PN1101.001",
+      "audio_sha256": "2091b2121033dfc76251cd1968a600c81dcb499dfb31bc62a32ac2c6fb6b3779",
+      "sync_sha256": "36c63abaf2f15c0ce9b8b32547a99e372c8626c6daa6292f92e1b8f24e6daeb1"
+    },
+    {
+      "audio_file": "@0PN1201.001",
+      "sync_file": "#0PN1201.001",
+      "audio_sha256": "381905eb2a2b56063eb52a235925086186342f4bafaf2e6cc7f9c88c69a7bde2",
+      "sync_sha256": "45f6eb7a1ca2af9814843ce10abe11eb5fb1820730397cd2772659c19d3cc15d"
+    },
+    {
+      "audio_file": "@0PN1301.001",
+      "sync_file": "#0PN1301.001",
+      "audio_sha256": "2091b2121033dfc76251cd1968a600c81dcb499dfb31bc62a32ac2c6fb6b3779",
+      "sync_sha256": "36c63abaf2f15c0ce9b8b32547a99e372c8626c6daa6292f92e1b8f24e6daeb1"
+    },
+    {
+      "audio_file": "@0PN1401.001",
+      "sync_file": "#0PN1401.001",
+      "audio_sha256": "e8036d1aeaade2764f57505f6859cfa1f052b10df45e84a9dea85734d39b3182",
+      "sync_sha256": "64cab0047cf776c9a6ca82f4965aeddd26ce8d74fd3d740893d21e0199c1e294"
+    },
+    {
+      "audio_file": "@0PN1501.001",
+      "sync_file": "#0PN1501.001",
+      "audio_sha256": "32bc167c98a1386463b7f06373fcc58b842a2fd7abcdb6b9e8b49d1d2d2f6f50",
+      "sync_sha256": "579c7e0efddbfc9f5975aa101eca7989b718d52f7650a1457409a7d2cd527e63"
+    },
+    {
+      "audio_file": "@0PN1601.001",
+      "sync_file": "#0PN1601.001",
+      "audio_sha256": "9aa70dc28160b4231954b1559c2d916b23635856c8ee64c5ac7b8d0ce1615231",
+      "sync_sha256": "7f656aeb1c59f7928521a8bfe3f5e29c849c57ea9698e3de27d46321e66209b7"
+    },
+    {
+      "audio_file": "@0PN1701.001",
+      "sync_file": "#0PN1701.001",
+      "audio_sha256": "6ff6b06b7210c9a2a7129c46db9db8ca9da4b4180aa1f1f82afbc7792ff4d7b5",
+      "sync_sha256": "b5ddb5edf5b0c232b6b1accb174f1a4702e947ca8242fc6e30fe2607200532d1"
+    },
+    {
+      "audio_file": "@0PN1801.001",
+      "sync_file": "#0PN1801.001",
+      "audio_sha256": "225ff4c1805e0a60368487fa0b167034d471e633a81b7abe1c1306cd277b4625",
+      "sync_sha256": "7f53c8b74924e6441ee3bf8944d19a735bff2a5c2e1a64294d62c50a3c103e3e"
+    },
+    {
+      "audio_file": "@0PN1901.001",
+      "sync_file": "#0PN1901.001",
+      "audio_sha256": "9aa70dc28160b4231954b1559c2d916b23635856c8ee64c5ac7b8d0ce1615231",
+      "sync_sha256": "7f656aeb1c59f7928521a8bfe3f5e29c849c57ea9698e3de27d46321e66209b7"
+    },
+    {
+      "audio_file": "@0PN1A01.001",
+      "sync_file": "#0PN1A01.001",
+      "audio_sha256": "a74012604e927019d069a5c0191866364b2cae78f29783181bf168fc066cea92",
+      "sync_sha256": "efcb850ebca9449ffd87995a80bea36081c0d40358e485f98bd8d2815e4f0c89"
+    },
+    {
+      "audio_file": "@0PN1B01.001",
+      "sync_file": "#0PN1B01.001",
+      "audio_sha256": "3db55bd9242c5c76972bd58867b30d5b5276ee78ab480da17daf5c7941611e60",
+      "sync_sha256": "4c81acd4efb9486e431496c4920486474d117a51dcaa1bb1bd37c2ff1383293a"
+    }
+  ]
+}

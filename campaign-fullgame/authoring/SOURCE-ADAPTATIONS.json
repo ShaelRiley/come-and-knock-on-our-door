@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-08",
+  "new_blanket_license": false,
+  "adaptations": [
+    {
+      "public_file": "voice.py",
+      "historical_source_sha256": "f18641f3704602f1a6b3315ff6e46a044ba30b94b8ed71f29ea78ee80a165110",
+      "changes": "Function-only extraction; prototype controller/audition entrypoint removed."
+    },
+    {
+      "public_file": "audience.py",
+      "historical_source_sha256": "7f4cb97029074a40c5e19e81e55ff7fbbd4a7b2a7e319c66a841f9a9dbc11a5f",
+      "changes": "Function-only extraction; runtime observed-order lookup removed."
+    },
+    {
+      "public_file": "cadence.py",
+      "historical_source_sha256": "c8db3fa947506758d3f870831aad568a92d952be85ab38f2869940d6771b5ced",
+      "changes": "Local import and output path adaptation; atom algorithm unchanged."
+    },
+    {
+      "public_file": "physical_views.py",
+      "historical_source_sha256": "8fe6e09a408dce7c00e2201cb2520b9b14422d381bc0c1832b0d572661559eeb",
+      "changes": "Portable input/output wrapper; preview and historical report removed; pixel algorithm unchanged."
+    }
+  ]
+}

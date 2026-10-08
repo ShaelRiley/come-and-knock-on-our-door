@@ -1,0 +1,1001 @@
+{
+  "component": "p08",
+  "pages": [
+    {
+      "text": "EVERYTHING'S READY. THE BUFFET SHOULD BE THE FIRST\nTHING THE GUESTS SEE.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 1,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 1,
+      "audio_module": 918
+    },
+    {
+      "text": "I SHOULD BE THE FIRST THING. I INVITED THEM.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 3,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 2,
+      "audio_module": 918
+    },
+    {
+      "text": "AND THEIR FIRST STEP LANDS WHERE? THE BUFFET,\nSOUND AND DISPLAY CAN'T ALL HAVE THE DOORWAY.\nDOORWAYS ARE FOR WALKING.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 5,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 3,
+      "audio_module": 918
+    },
+    {
+      "text": "YOU STAND IN THEM WHEN YOU'RE RIGHT.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 6,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 4,
+      "audio_module": 918
+    },
+    {
+      "text": "SO EVERYBODY HEARS. NOW LET'S LEAVE THIS ONE\nCLEAR.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 7,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 5,
+      "audio_module": 918
+    },
+    {
+      "text": "RIGHT. THE PLANS SHOW WHERE EVERYTHING FITS.",
+      "record_id": "P08.SCENE.001",
+      "resource": 208,
+      "entry": 8,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 6,
+      "audio_module": 918
+    },
+    {
+      "text": "GATE-TO-HOUSE LANE",
+      "record_id": "P08.LABEL.001",
+      "resource": 208,
+      "entry": 10,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CHEVRONS MARK THE CLEAR GATE-TO-HOUSE LANE. GUESTS\nMUST BE ABLE TO GET PAST THE FIRST PERSON WHO\nWANTS TO EXPLAIN SOMETHING.",
+      "record_id": "P08.LOOK.001",
+      "resource": 208,
+      "entry": 11,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 7,
+      "audio_module": 918
+    },
+    {
+      "text": "HATCH-SIDE BUFFET POSITION",
+      "record_id": "P08.LABEL.002",
+      "resource": 208,
+      "entry": 12,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE TRAY MARK IS BELOW THE KITCHEN HATCH: FOOD\nTHROUGH THE HATCH, BUFFET UNDERNEATH. MY COOKING\nCAN MAKE AN ENTRANCE WITHOUT ME BLOCKING THE DOOR.",
+      "record_id": "P08.LOOK.002",
+      "resource": 208,
+      "entry": 13,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 8,
+      "audio_module": 918
+    },
+    {
+      "text": "INWARD-FACING SPEAKER POSITION",
+      "record_id": "P08.LABEL.003",
+      "resource": 208,
+      "entry": 14,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE SOUND MARK IS BY THE WALL. THE SPEAKER FACES\nINWARD TOWARD OUR COURTYARD AND THE HOUSE. THE\nNEIGHBOR IS ALLOWED TO HAVE A DIFFERENT EVENING.",
+      "record_id": "P08.LOOK.003",
+      "resource": 208,
+      "entry": 15,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 9,
+      "audio_module": 918
+    },
+    {
+      "text": "DISPLAY ALCOVE",
+      "record_id": "P08.LABEL.004",
+      "resource": 208,
+      "entry": 16,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "A PANEL-SHAPED FOOTPRINT IN THE ALCOVE. VIVIAN'S\nMARK SHOWS WHERE THE SCREEN CONCEALS IT FROM\nARRIVING GUESTS.",
+      "record_id": "P08.LOOK.004",
+      "resource": 208,
+      "entry": 17,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 10,
+      "audio_module": 918
+    },
+    {
+      "text": "SMALL SERVING TABLE",
+      "record_id": "P08.LABEL.005",
+      "resource": 208,
+      "entry": 18,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "A SERVING TABLE I CAN PUSH OR PULL UNDER THE\nHATCH, INTO THE TRAY FOOTPRINT. EASIER TO MOVE\nTHAN A GUEST WHO HAS STARTED TELLING YOU",
+      "record_id": "P08.LOOK.005",
+      "resource": 208,
+      "entry": 19,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 11,
+      "audio_module": 918
+    },
+    {
+      "text": "SOMETHING.",
+      "record_id": "P08.LOOK.005",
+      "resource": 208,
+      "entry": 20,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 12,
+      "audio_module": 918
+    },
+    {
+      "text": "KITCHEN HATCH",
+      "record_id": "P08.LABEL.006",
+      "resource": 208,
+      "entry": 21,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE KITCHEN HATCH AND BUFFET POSITION SHARE A TRAY\nSYMBOL. KEEP THE HATCH IN CLEAR VIEW. I WANT\nPEOPLE ADMIRING THE FOOD BEFORE THEY START ASKING",
+      "record_id": "P08.LOOK.006",
+      "resource": 208,
+      "entry": 22,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 13,
+      "audio_module": 918
+    },
+    {
+      "text": "WHAT'S IN IT.",
+      "record_id": "P08.LOOK.006",
+      "resource": 208,
+      "entry": 23,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 14,
+      "audio_module": 918
+    },
+    {
+      "text": "COURTYARD PLAN OVERLAY",
+      "record_id": "P08.LABEL.007",
+      "resource": 208,
+      "entry": 24,
+      "header_entry": 9,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THREE PLACEMENTS, ONE CLEAR ROUTE: BUFFET AT THE\nHATCH, SOUND FACING INWARD, SCREEN AT THE DISPLAY\nALCOVE. KEEP THE CHEVRONS EMPTY.",
+      "record_id": "P08.LOOK.007",
+      "resource": 208,
+      "entry": 25,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 15,
+      "audio_module": 918
+    },
+    {
+      "text": "GATE TO HOUSE: KEEP THE CHEVRON-MARKED LANE CLEAR.",
+      "record_id": "P08.READ.001",
+      "resource": 208,
+      "entry": 27,
+      "header_entry": 26,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SCREEN AT THE MARKED SIDE OF THE DISPLAY ALCOVE.\nHIDE THE DISPLAY FROM ARRIVALS. KEEP THE KITCHEN\nHATCH VISIBLE.",
+      "record_id": "P08.READ.002",
+      "resource": 208,
+      "entry": 28,
+      "header_entry": 26,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "TRAY: BUFFET BELOW THE HATCH\nSOUND: SPEAKER AT THE WALL, FACING INWARD\nPANEL: SCREENED DISPLAY ALCOVE",
+      "record_id": "P08.READ.003",
+      "resource": 208,
+      "entry": 30,
+      "header_entry": 29,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "CHEVRONS: CLEAR WALKING LANE",
+      "record_id": "P08.READ.003",
+      "resource": 208,
+      "entry": 31,
+      "header_entry": 29,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE CARRIER IS AT THE BUFFET BELOW THE HATCH.\nRITA'S PLATES CAN BE LAID OUT HERE.",
+      "record_id": "P08.SUCCESS.001",
+      "resource": 208,
+      "entry": 32,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 16,
+      "audio_module": 918
+    },
+    {
+      "text": "PLATES LAID OUT. THE PADDING'S FREE TO GO BACK TO\nTHE KITCHEN.",
+      "record_id": "P08.SUCCESS.002",
+      "resource": 208,
+      "entry": 33,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 17,
+      "audio_module": 918
+    },
+    {
+      "text": "TEA TOWEL RETURNED TO THE KITCHEN LINEN HOOK.",
+      "record_id": "P08.SYSTEM.001",
+      "resource": 208,
+      "entry": 35,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "SPARE NAPKIN RETURNED TO THE KITCHEN LINEN HOOK.",
+      "record_id": "P08.SYSTEM.002",
+      "resource": 208,
+      "entry": 36,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE PA IS AT THE MARKED WALL, FACING INTO THE\nCOURTYARD. AN ANNOUNCEMENT OF SUPPER FOR PEOPLE\nWHO ARE ACTUALLY GETTING SOME.",
+      "record_id": "P08.SUCCESS.003",
+      "resource": 208,
+      "entry": 37,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 18,
+      "audio_module": 918
+    },
+    {
+      "text": "THE SCREEN CONCEALS THE DISPLAY ALCOVE. THE GATE\nLANE AND KITCHEN VIEW STAY CLEAR.",
+      "record_id": "P08.SUCCESS.004",
+      "resource": 208,
+      "entry": 38,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 19,
+      "audio_module": 918
+    },
+    {
+      "text": "THE SERVING TABLE IS UNDER THE HATCH, INSIDE THE\nTRAY FOOTPRINT.",
+      "record_id": "P08.SUCCESS.005",
+      "resource": 208,
+      "entry": 39,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 20,
+      "audio_module": 918
+    },
+    {
+      "text": "THE SERVING TABLE IS UNDER THE HATCH, INSIDE THE\nTRAY FOOTPRINT.",
+      "record_id": "P08.SUCCESS.006",
+      "resource": 208,
+      "entry": 39,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 21,
+      "audio_module": 918
+    },
+    {
+      "text": "RITA'S NAME, RIGHT BESIDE HER WORK. THE CREDIT\nGETS TO STAY ON SHOW AFTER I COVER EVERYTHING ELSE\nIN GRAVY.",
+      "record_id": "P08.SUCCESS.007",
+      "resource": 208,
+      "entry": 40,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 22,
+      "audio_module": 918
+    },
+    {
+      "text": "CERAMIC SERVICE BY RITA STRINGER.",
+      "record_id": "P08.READ.004",
+      "resource": 208,
+      "entry": 42,
+      "header_entry": 41,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THAT BLOCKS THE GATE-TO-HOUSE LANE. MOVE IT OFF\nTHE CHEVRONS SO PEOPLE CAN WALK THROUGH. WE CAN'T\nASK THEM TO ARRIVE SIDEWAYS.",
+      "record_id": "P08.FAILURE.001",
+      "resource": 208,
+      "entry": 43,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 23,
+      "audio_module": 918
+    },
+    {
+      "text": "THAT HIDES THE KITCHEN HATCH. MOVE THE SCREEN TO\nTHE MARKED DISPLAY ALCOVE; ONLY RITA'S DISPLAY\nNEEDS HIDING. IF BUNNY CAN'T SEE DINNER, I'LL",
+      "record_id": "P08.FAILURE.002",
+      "resource": 208,
+      "entry": 44,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 24,
+      "audio_module": 918
+    },
+    {
+      "text": "NEVER HEAR THE END OF IT.",
+      "record_id": "P08.FAILURE.002",
+      "resource": 208,
+      "entry": 45,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 25,
+      "audio_module": 918
+    },
+    {
+      "text": "THE GRILLE POINTS AT THE NEIGHBOR. TURN IT INWARD,\nTOWARD OUR COURTYARD AND THE HOUSE. AT THE MOMENT\nOUR BEST SEAT IS NEXT DOOR.",
+      "record_id": "P08.FAILURE.003",
+      "resource": 208,
+      "entry": 46,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 26,
+      "audio_module": 918
+    },
+    {
+      "text": "ARRIVALS CAN SEE THE DISPLAY BEFORE RITA HAS\nCHOSEN HER MOMENT. USE VIVIAN'S MARKED SIDE OF THE\nALCOVE. RITA HASN'T PRACTISED LOOKING MODEST FOR",
+      "record_id": "P08.FAILURE.004",
+      "resource": 208,
+      "entry": 47,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 27,
+      "audio_module": 918
+    },
+    {
+      "text": "NOTHING.",
+      "record_id": "P08.FAILURE.004",
+      "resource": 208,
+      "entry": 48,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 28,
+      "audio_module": 918
+    },
+    {
+      "text": "BUFFET AT HATCH: READY\nPA AT WALL, FACING INWARD: READY\nDISPLAY ALCOVE SCREENED: READY",
+      "record_id": "P08.SYSTEM.003",
+      "resource": 208,
+      "entry": 50,
+      "header_entry": 49,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GATE-TO-HOUSE LANE: CLEAR",
+      "record_id": "P08.SYSTEM.003",
+      "resource": 208,
+      "entry": 51,
+      "header_entry": 49,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "WE CAN GET THROUGH. WE CAN HEAR. WE CAN SERVE.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 52,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 29,
+      "audio_module": 918
+    },
+    {
+      "text": "IT WORKS.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 53,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 30,
+      "audio_module": 918
+    },
+    {
+      "text": "AND EVERYBODY I INVITED IS COMING TO THE SAME\nEVENING.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 54,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 31,
+      "audio_module": 918
+    },
+    {
+      "text": "WITH ROOM TO GET THEIR SUPPER WITHOUT TURNING\nSIDEWAYS.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 55,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 32,
+      "audio_module": 918
+    },
+    {
+      "text": "RITA'S PANEL STAYS HIDDEN UNTIL AFTER THE MEAL,\nWHEN SHE PRESENTS IT.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 56,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 33,
+      "audio_module": 918
+    },
+    {
+      "text": "AGREED.",
+      "record_id": "P08.DIALOGUE.001",
+      "resource": 208,
+      "entry": 57,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 34,
+      "audio_module": 918
+    },
+    {
+      "text": "WE'RE READY TO START.",
+      "record_id": "P08.CHOICE.001",
+      "resource": 208,
+      "entry": 58,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BUFFET AND RITA'S CREDIT AT THE HATCH. SOUND\nFACING INWARD. SCREEN IN THE ALCOVE. GATE LANE\nCLEAR.",
+      "record_id": "P08.DIALOGUE.002",
+      "resource": 208,
+      "entry": 59,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 35,
+      "audio_module": 918
+    },
+    {
+      "text": "AND EIGHT TASTING PORTIONS READY IN THE KITCHEN.",
+      "record_id": "P08.DIALOGUE.002",
+      "resource": 208,
+      "entry": 60,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 36,
+      "audio_module": 918
+    },
+    {
+      "text": "GOOD. SHALL WE BEGIN?",
+      "record_id": "P08.DIALOGUE.002",
+      "resource": 208,
+      "entry": 61,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 37,
+      "audio_module": 918
+    },
+    {
+      "text": "BEGIN THE EVENING?\nPEOPLE WILL MOVE TO THEIR EVENING POSITIONS.\nESSENTIAL AREAS AND ITEMS WILL REMAIN ACCESSIBLE.",
+      "record_id": "P08.SYSTEM.004",
+      "resource": 208,
+      "entry": 62,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "YOUR GAME WILL BE AUTOSAVED BEFORE THE CHANGE.",
+      "record_id": "P08.SYSTEM.004",
+      "resource": 208,
+      "entry": 63,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "BEGIN THE EVENING.",
+      "record_id": "P08.CHOICE.002",
+      "resource": 208,
+      "entry": 64,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "NOT YET.",
+      "record_id": "P08.CHOICE.003",
+      "resource": 208,
+      "entry": 65,
+      "header_entry": 0,
+      "speaker_id": "jack",
+      "speaker_number": 1,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "STILL PREPARING. TALK TO FRANKIE WHEN YOU'RE READY\nTO BEGIN.",
+      "record_id": "P08.SYSTEM.005",
+      "resource": 208,
+      "entry": 66,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "GAME SAVED. THE EVENING IS BEGINNING.",
+      "record_id": "P08.SYSTEM.006",
+      "resource": 208,
+      "entry": 67,
+      "header_entry": 34,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "USE THE PLANS TO GIVE EACH ACTIVITY ITS OWN PLACE,\nWITH A CLEAR ROUTE BETWEEN THE GATE AND HOUSE.",
+      "record_id": "P08.HINT.1",
+      "resource": 208,
+      "entry": 69,
+      "header_entry": 68,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "MATCH TRAY TO BUFFET, SOUND TO PA, AND PANEL TO\nTHE SCREENED ALCOVE. THE CHEVRON LANE STAYS EMPTY.",
+      "record_id": "P08.HINT.2",
+      "resource": 208,
+      "entry": 70,
+      "header_entry": 68,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "PUT THE CARRIER AND SERVING TABLE UNDER THE HATCH,\nWITH RITA'S CREDIT BESIDE THE PLATES. PLACE THE PA\nAT THE WALL FACING THE HOUSE, AND THE SCREEN AT",
+      "record_id": "P08.HINT.3",
+      "resource": 208,
+      "entry": 71,
+      "header_entry": 68,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "THE MARKED DISPLAY ALCOVE. KEEP THE GATE LANE\nCLEAR, THEN TELL FRANKIE YOU'RE READY.",
+      "record_id": "P08.HINT.3",
+      "resource": 208,
+      "entry": 72,
+      "header_entry": 68,
+      "speaker_id": "text",
+      "speaker_number": 0,
+      "voice_index": 0,
+      "audio_module": 0
+    },
+    {
+      "text": "RITA AND I ARE GOING BACK TO THE CONSERVATORY TO\nFINISH SOMETHING. WE'LL BE CLOSE BY.",
+      "record_id": "TRANSITION.P08.01",
+      "resource": 208,
+      "entry": 74,
+      "header_entry": 73,
+      "speaker_id": "stringer",
+      "speaker_number": 4,
+      "voice_index": 38,
+      "audio_module": 918
+    },
+    {
+      "text": "WE'LL BRING MY DISPLAY WHEN IT'S TIME. KEEP ITS\nPLACE HIDDEN FOR ME.",
+      "record_id": "TRANSITION.P08.01",
+      "resource": 208,
+      "entry": 76,
+      "header_entry": 75,
+      "speaker_id": "rita",
+      "speaker_number": 7,
+      "voice_index": 39,
+      "audio_module": 918
+    },
+    {
+      "text": "I'LL PUT OUT THE WELCOME SNACKS IN THE KITCHEN.",
+      "record_id": "TRANSITION.P08.01",
+      "resource": 208,
+      "entry": 77,
+      "header_entry": 2,
+      "speaker_id": "bunny",
+      "speaker_number": 2,
+      "voice_index": 40,
+      "audio_module": 918
+    },
+    {
+      "text": "I'LL CHECK OUR CUES AT THE LIVING-ROOM BOARD.",
+      "record_id": "TRANSITION.P08.01",
+      "resource": 208,
+      "entry": 78,
+      "header_entry": 4,
+      "speaker_id": "frankie",
+      "speaker_number": 3,
+      "voice_index": 41,
+      "audio_module": 918
+    }
+  ],
+  "speech": [
+    {
+      "audio_file": "@0PI0101.001",
+      "sync_file": "#0PI0101.001",
+      "audio_sha256": "33bafa37541ac16e94e0bcb145e78c173e5bb8e24798c38fcd09885bf7f75959",
+      "sync_sha256": "b0a99347b28f582284df67d8a375be0bb18ba2a6bc6376d87b715bf3aabcd9f6"
+    },
+    {
+      "audio_file": "@0PI0201.001",
+      "sync_file": "#0PI0201.001",
+      "audio_sha256": "76c84e95236cc0cf9a77f0df0a5340fc469e59d4289b46bacc595e0e678491e1",
+      "sync_sha256": "60f6677922b1632b642385a9d8ab2ee0598404f9787b87d876e7c8399cc2456e"
+    },
+    {
+      "audio_file": "@0PI0301.001",
+      "sync_file": "#0PI0301.001",
+      "audio_sha256": "42a0b00d987dffe562aa0362123b8a022ccf9171ce74fc138a852d30bb8aabf5",
+      "sync_sha256": "ae1098d0aee44c8493d88a9238b5bc71bb97c57f6bba2ee14f51c4f64f51540b"
+    },
+    {
+      "audio_file": "@0PI0401.001",
+      "sync_file": "#0PI0401.001",
+      "audio_sha256": "bf41048774f5ddfaae166538469944241f8513d01bd91571935abee0e704635e",
+      "sync_sha256": "2990f5e46bd84d05d93004e7e4063acba737b1ba36162b2d6b8d1e0909bca12a"
+    },
+    {
+      "audio_file": "@0PI0501.001",
+      "sync_file": "#0PI0501.001",
+      "audio_sha256": "55ed2b7fe4b6edf51a7b1a629d7e1697ee8e24b4ea6891cdb4c2457c44bc49e7",
+      "sync_sha256": "2df9247bfb7d3753c7e011567834b1e8363abee81558637e5c509f17994511dd"
+    },
+    {
+      "audio_file": "@0PI0601.001",
+      "sync_file": "#0PI0601.001",
+      "audio_sha256": "8ff523398f60c0d4f6336ecd3b4a12bcb2732297d9c6e43260241d193e90cd1a",
+      "sync_sha256": "59d54204e6d38ff624e1f4ac5be389e0b5acf01f11e3eb81bac2437e121ecb47"
+    },
+    {
+      "audio_file": "@0PI0701.001",
+      "sync_file": "#0PI0701.001",
+      "audio_sha256": "ac3f77e111ff4a81cdcb1dcb37405490d6939b81096e2afe7a1b8e5c6ce3d714",
+      "sync_sha256": "d972190514b0ac854c7d46c916cf40df326641b9868fb9df494646c8811e4021"
+    },
+    {
+      "audio_file": "@0PI0801.001",
+      "sync_file": "#0PI0801.001",
+      "audio_sha256": "d259e90125bedc45d73f3ecc4c4b4cfdd4d3932ed664cac3529af3d887b398d2",
+      "sync_sha256": "bc08e8bd341471e9e911ef7fd2f1c44ff1f34a640fe01c0ebf3046403d556ecb"
+    },
+    {
+      "audio_file": "@0PI0901.001",
+      "sync_file": "#0PI0901.001",
+      "audio_sha256": "2dd4f5387af5f9d504ffbc12aa266a3f964d0c92d4289d0aeb1d95432d1d6154",
+      "sync_sha256": "30523a76fdc1894554812f3b1c4ac45f196ed0dd40f0e9bcd5329c0bd2519143"
+    },
+    {
+      "audio_file": "@0PI0A01.001",
+      "sync_file": "#0PI0A01.001",
+      "audio_sha256": "bf2da1db0777b54eb491101d884122d9b11ac224de5a779e5418d639fed2ec0f",
+      "sync_sha256": "9d57f0fbe5d0670e3b4511879c5bf6bb6d43342a15757b38bb409dabb4092207"
+    },
+    {
+      "audio_file": "@0PI0B01.001",
+      "sync_file": "#0PI0B01.001",
+      "audio_sha256": "f130c8a089caa552d87e63e7df6bc97e087e078f26f54138effeccd86db6b087",
+      "sync_sha256": "a8d15474827a6bea06dbb874f689988fc9f8d41cd69172060a241f75a1fabeb9"
+    },
+    {
+      "audio_file": "@0PI0C01.001",
+      "sync_file": "#0PI0C01.001",
+      "audio_sha256": "17117b6bf4e76bce8eacd7770a8e88f5319d84c757c8f4d2a98838c6cbb98faa",
+      "sync_sha256": "ada77ad6a7df981d83e7e11b1c5c735944175800ec0e05f8e9c36cf93373bffb"
+    },
+    {
+      "audio_file": "@0PI0D01.001",
+      "sync_file": "#0PI0D01.001",
+      "audio_sha256": "44f731e495ec13701d926c969002d55e5eeced317df4d3b9d74fe6b981f332e9",
+      "sync_sha256": "74d69f19088149aa13f3bf749a24a3b76482c9d0ae72500e71623af09ea60cba"
+    },
+    {
+      "audio_file": "@0PI0E01.001",
+      "sync_file": "#0PI0E01.001",
+      "audio_sha256": "7e3676543ec198491ac0abcca054aa30c7c2dbf2a5acce4b5f605580dad16e1c",
+      "sync_sha256": "f8c8488cb711319fe09c89dce7548375c031eb9a32edbb23589f394f4fb71478"
+    },
+    {
+      "audio_file": "@0PI0F01.001",
+      "sync_file": "#0PI0F01.001",
+      "audio_sha256": "9fd4c1e19227189a091b938a054384747e643d7e0e6cf0574ca05511130c06e7",
+      "sync_sha256": "88c6c0e06ec420995cad1699271a5735abefc7b7945da72fff0763f8cb4b0902"
+    },
+    {
+      "audio_file": "@0PI0G01.001",
+      "sync_file": "#0PI0G01.001",
+      "audio_sha256": "a6349c23e2eca340391bc5c9d4f65b85d3ef1d8e075e51827a42915c56aac4ac",
+      "sync_sha256": "f33f661c601412c0f5ae5d570651fba390b09a8cbb98432204e0b47ef8e9361c"
+    },
+    {
+      "audio_file": "@0PI0H01.001",
+      "sync_file": "#0PI0H01.001",
+      "audio_sha256": "6284c1419e4fe94a43c332f89a8cc21f6035c75b0542b29298d66a1b521e6b62",
+      "sync_sha256": "def6876dc5589fca1b66667ad67f282e9c3c35c012f547418de7e0e38ca8f42d"
+    },
+    {
+      "audio_file": "@0PI0I01.001",
+      "sync_file": "#0PI0I01.001",
+      "audio_sha256": "6c679fd939d3d75e40d10060c7cba7be8797a46e12fd7a9893ea86cd6e37a475",
+      "sync_sha256": "f201bd5671839408e2cf06578f8482bd292bd1d86eef58afe683c69768dfd862"
+    },
+    {
+      "audio_file": "@0PI0J01.001",
+      "sync_file": "#0PI0J01.001",
+      "audio_sha256": "7b788c167e32690879e4cfc54d4c5544257f76ac67917580f515f32203fec6a3",
+      "sync_sha256": "6a3d71c5218fe88369b1c566c7142849deea5b6cf361f6c4e0d0738e8fdc4db1"
+    },
+    {
+      "audio_file": "@0PI0K01.001",
+      "sync_file": "#0PI0K01.001",
+      "audio_sha256": "164db6c217325d9d0a5088063e594fcc4ededd0ac0666b5ce4e43c913bca3c88",
+      "sync_sha256": "2d787050431244d3807757719a20584445cdb4c42655a013f153e96e67eee0d0"
+    },
+    {
+      "audio_file": "@0PI0L01.001",
+      "sync_file": "#0PI0L01.001",
+      "audio_sha256": "164db6c217325d9d0a5088063e594fcc4ededd0ac0666b5ce4e43c913bca3c88",
+      "sync_sha256": "2d787050431244d3807757719a20584445cdb4c42655a013f153e96e67eee0d0"
+    },
+    {
+      "audio_file": "@0PI0M01.001",
+      "sync_file": "#0PI0M01.001",
+      "audio_sha256": "4592eb574dd0b1d81ddc7085c6dc889a9ef9337697964142b547026dceb38cfe",
+      "sync_sha256": "65c55f6e4c42f5df0bd9ca552c7cb8e9c33263d39f7cae2a67c432239a0ebae8"
+    },
+    {
+      "audio_file": "@0PI0N01.001",
+      "sync_file": "#0PI0N01.001",
+      "audio_sha256": "cde0821d56433c291effbc9e89fcfb0372d8a88b72772ae3d32774eca6367a6d",
+      "sync_sha256": "6ad1fcea1b41fac1365f88f2ef3cd90071bdcaf7ad56b11e707cb05fc5673ec9"
+    },
+    {
+      "audio_file": "@0PI0O01.001",
+      "sync_file": "#0PI0O01.001",
+      "audio_sha256": "3d0ba98166751830e1a86859d14124f8f8cbed1ecc671aae54473787864da5c8",
+      "sync_sha256": "521089acf2c95d33d4cad542dd8d2388d2a82ad56cf79c4cd043b4eb8351378d"
+    },
+    {
+      "audio_file": "@0PI0P01.001",
+      "sync_file": "#0PI0P01.001",
+      "audio_sha256": "854158ba9ae5dd23f8bab8a343a4aec24ac808cf6bf39563cc9f112886e63057",
+      "sync_sha256": "b4a445649212d5722c57917bd57643efe837a0cc4ab9217ae44a04c461733836"
+    },
+    {
+      "audio_file": "@0PI0Q01.001",
+      "sync_file": "#0PI0Q01.001",
+      "audio_sha256": "2fb0fb0bdfd8af4500a8ff2588ba0a2f2c9c7f91a100e35e4b54301c26d075b9",
+      "sync_sha256": "93302e2956f7499c941df5eaaaf2b0300f414d0296d422681a972af63a4e76e1"
+    },
+    {
+      "audio_file": "@0PI0R01.001",
+      "sync_file": "#0PI0R01.001",
+      "audio_sha256": "dea1614a7dd3da040fc443f2b2b083d5c25e0450059cc506d26296cea9f5a119",
+      "sync_sha256": "7c74beaa6a38ee84b8015438114ac5e395eb601686fb1c884726639c0fa51dea"
+    },
+    {
+      "audio_file": "@0PI0S01.001",
+      "sync_file": "#0PI0S01.001",
+      "audio_sha256": "c5fe4b0cfd7ad13ec9d5e3be0bf879f48513c357c53b2e27e68123d373902b0f",
+      "sync_sha256": "327f6dc0c83215b16c13b2dc8492072c607f97e670bcfdffca317a31fdba686a"
+    },
+    {
+      "audio_file": "@0PI0T01.001",
+      "sync_file": "#0PI0T01.001",
+      "audio_sha256": "e600fb8908dd24012e5821a0e3b8a9aa975941e0b8a542c39eb12a73e535584a",
+      "sync_sha256": "45b0c47cf51e5ee84d1518ddeb34414dfaf20b8558579bd821966eb56ed62cac"
+    },
+    {
+      "audio_file": "@0PI0U01.001",
+      "sync_file": "#0PI0U01.001",
+      "audio_sha256": "2198675ed115b84c8de43e709cac9cac4746f283f5ad8a238a9ec1915922acbb",
+      "sync_sha256": "cff734b438b00d2631a7d8174ed664e04ddda76ef702d3cc44ae915ee4ab75ad"
+    },
+    {
+      "audio_file": "@0PI0V01.001",
+      "sync_file": "#0PI0V01.001",
+      "audio_sha256": "31bcd8ff416553490336366dc9db8cc3722445d5241f8cad8df84793e2a589d0",
+      "sync_sha256": "00711e403853892925f4315a79b3366250e4cd62863561e0c267311d65c21cf5"
+    },
+    {
+      "audio_file": "@0PI0W01.001",
+      "sync_file": "#0PI0W01.001",
+      "audio_sha256": "90bd110a5ae8371aa5f4f27241de1bb565fbad0f5abca3d245ffd38b4ff896b7",
+      "sync_sha256": "3e02ad210e29de917a5f921829717e9f21a48e1b1ecef2e8b3bf36386f6dcaa7"
+    },
+    {
+      "audio_file": "@0PI0X01.001",
+      "sync_file": "#0PI0X01.001",
+      "audio_sha256": "cce0b7e5ea456e082c0d0251b74157d4c167800d1a1b64eeaa0f9011efca28ea",
+      "sync_sha256": "a67ad52f1c63ab9851c5d6d70c898bab46800f29cb56f32c67e741f281f847d5"
+    },
+    {
+      "audio_file": "@0PI0Y01.001",
+      "sync_file": "#0PI0Y01.001",
+      "audio_sha256": "99983d2a42e0a57639998e455c810e9ccc2ebeb052d661835afd7a1eb36b871a",
+      "sync_sha256": "3d4cbff5d996a5771b66fccd09725b28a4b8f6c91aaaae97d87a8df4bc44f675"
+    },
+    {
+      "audio_file": "@0PI0Z01.001",
+      "sync_file": "#0PI0Z01.001",
+      "audio_sha256": "df6f65680b5aaf9684f6d1c9bd9482153a2080055afa345a68eb42e7a817ffa5",
+      "sync_sha256": "5c5050c2d56aad9acf45de22746b71ff855c9bdaca604b3182bf279d342dc125"
+    },
+    {
+      "audio_file": "@0PI1001.001",
+      "sync_file": "#0PI1001.001",
+      "audio_sha256": "07e370f75f176f093103e06b2b7fe89a892f7c6ea8ee6529f37e7cacd938d80c",
+      "sync_sha256": "9885b0072c9c90f3744e0cb8b3f42dbfe5a8995a471de22169cd2d50b6985614"
+    },
+    {
+      "audio_file": "@0PI1101.001",
+      "sync_file": "#0PI1101.001",
+      "audio_sha256": "30766e9d383b70ebbebc8d7439c60b0b1450deaab0d249b823affe00a435ab15",
+      "sync_sha256": "ac5595d9e8cf12eec144a1fd5cb647b6544ccf8507bf8ffc4436fcbec8292060"
+    },
+    {
+      "audio_file": "@0PI1201.001",
+      "sync_file": "#0PI1201.001",
+      "audio_sha256": "bdf69f37379a48118481134e098511dc0978055f8fad4702a5f46c51edff4aa8",
+      "sync_sha256": "8e7f6c7e47a040f0aea4a999c69633e466aff786e2460ce787c79bd3ffeacf15"
+    },
+    {
+      "audio_file": "@0PI1301.001",
+      "sync_file": "#0PI1301.001",
+      "audio_sha256": "efeb03063e90046cae1c0581cfaa59ad90cf91eec51b8138842c14c387529c4c",
+      "sync_sha256": "ec8aa7c59ce123ae715bc1e75599c243aa678015704e9c92a2815d18ce7d3896"
+    },
+    {
+      "audio_file": "@0PI1401.001",
+      "sync_file": "#0PI1401.001",
+      "audio_sha256": "2b48f8818b9d0c34e4e5fe63ea14467d341f87cfb85710de784f242534d8eaff",
+      "sync_sha256": "f0890667c193851fde760d667b27f06db55835a83783ca1e7a88d58ca76b9556"
+    },
+    {
+      "audio_file": "@0PI1501.001",
+      "sync_file": "#0PI1501.001",
+      "audio_sha256": "18b72ae01a1ecdca5ae6a0333c3f57872921e68fbb7ba237ed3770b37c487554",
+      "sync_sha256": "22e151da6f8d1974fff74d4c291c47c89ae480af451143968025440e1a27f6f3"
+    }
+  ]
+}

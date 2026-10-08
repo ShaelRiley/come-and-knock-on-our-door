@@ -1,0 +1,9 @@
+# Downstream source packaging, 2026-10-06
+
+This CaKoOD source snapshot packages the dependency closure of the pinned headless scicompile executable. The upstream LICENSE and NOTICE remain unchanged. Their statements about an untracked vendor directory describe the upstream lucasartsifier distribution; this downstream snapshot deliberately includes the exact required SCICompanion source/header files and their applicable notices. It does not include the SCICompanion GUI distribution, proprietary Prof-UIS, Sierra game data, unused CrystalEdit implementations, GUI resources, caches or build products.
+
+The complete CMake translation-unit list and actual GNU C++ dependency files determine this closure. The source manifests identify every retained and omitted file; the compiler-build receipt records the clean rebuild and executable comparison. GNU/system headers and runtime libraries are system dependencies rather than bundled source. No dependency is fetched by CMake.
+
+Upstream revisions: lucasartsifier 45068351290ffd90e74186c69322d200fa60cafd; SCICompanion f1a603b48b1aa7abf94f78574a8f69a653e2ca62. This snapshot includes the inherited Linux compatibility port and local compiler changes; the revision numbers alone are not the modified-source identity. See MODIFIED-SOURCE-PROVENANCE.json and the exact source manifest. The retained upstream BUILD_NOTES.md and COMPILE_ALL_NOTES.md are historical port documentation, not a fresh acceptance report.
+
+The headless derivative is GPL-2.0-or-later. Bundled CppFormat, cpptoml, CRC code and any identified historical codec contributions retain their individual terms and notices. See the repository's THIRD-PARTY.md and docs/COMPILER-RIGHTS.json. No blanket game license or blanket license for every file in the full upstream vendor repository is asserted.

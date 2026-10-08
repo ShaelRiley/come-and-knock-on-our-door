@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "credit_urls": [
+    "https://freesound.org/people/ShangusBurger/sounds/763960/",
+    "https://freesound.org/people/ShangusBurger/sounds/763956/",
+    "https://freesound.org/people/ShangusBurger/sounds/763959/",
+    "https://freesound.org/people/piedo/sounds/214693/",
+    "https://freesound.org/people/IENBA/sounds/607911/",
+    "https://kenney.nl/assets/impact-sounds"
+  ],
+  "masks": [
+    4352,
+    24584,
+    2
+  ],
+  "mandatory_cards": 26,
+  "asset_cards": 6,
+  "total_cards": 32,
+  "selected_records": [
+    "END.ASSET.AUDIENCE.09",
+    "END.ASSET.AUDIENCE.13",
+    "END.ASSET.AUDIENCE.19",
+    "END.ASSET.FOLEY.05",
+    "END.ASSET.FOLEY.06",
+    "END.ASSET.FOLEY.08"
+  ],
+  "recordings": [
+    {
+      "filename": "@0PK0101.001",
+      "title": "CRWDLaff_Short Polite Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav",
+      "creator": "Shane Vincent / ShangusBurger",
+      "source_url": "https://freesound.org/people/ShangusBurger/sounds/763960/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "2ab817f7e66ade28b13d3039bd99256c4cafa5841bf99fd178101b0b040f09ba",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PK0201.001",
+      "title": "CRWDLaff_Short Genuine Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav",
+      "creator": "Shane Vincent / ShangusBurger",
+      "source_url": "https://freesound.org/people/ShangusBurger/sounds/763956/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "d08b4de6f00dade6c1854340fb6cdab8ddd664046f8ac0295de2844f72dc2f61",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PK0301.001",
+      "title": "CRWDLaff_Short Hearty Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav",
+      "creator": "Shane Vincent / ShangusBurger",
+      "source_url": "https://freesound.org/people/ShangusBurger/sounds/763959/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "46108b69067e7c67220650335c4937e23443c9849c7a972a77fb9cf7f577a919",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0101.001",
+      "title": "footstep_wood_a",
+      "creator": "Kenney / Kenney Vleugels",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "223f5a112cf30eeb252f6f034157814dd966fcfa91977a1d0d3ed60a782a197e",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0201.001",
+      "title": "footstep_wood_b",
+      "creator": "Kenney / Kenney Vleugels",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "693d2d95582516dd9c5ee884b5697bd05161f16b7efc57815320c0be944e6e08",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0301.001",
+      "title": "door_wood_open_a",
+      "creator": "piedo",
+      "source_url": "https://freesound.org/people/piedo/sounds/214693/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "8d32d610e04a5a23ba7e6fc27580f3fb84885637698d67b7d8968e967e3b5dbd",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0401.001",
+      "title": "door_wood_close_a",
+      "creator": "IENBA",
+      "source_url": "https://freesound.org/people/IENBA/sounds/607911/",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "7732b18511cab657e67b5fe0ac14e6dd6874efd6a12a1ee95618412ccb8837c2",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0501.001",
+      "title": "wood_object_contact_a",
+      "creator": "Kenney / Kenney Vleugels",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "064d0a6a0cd0442a3d1041e165ab4b5cf476c6a7490ae6177f8c7f6818de4c90",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    },
+    {
+      "filename": "@0PU0601.001",
+      "title": "wood_object_contact_b",
+      "creator": "Kenney / Kenney Vleugels",
+      "source_url": "https://kenney.nl/assets/impact-sounds",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "a3a27840871c3400e5cbdb930fcd08bcc783d283fd501179ca8a720d2106f98a",
+      "modifications": "Source selection/cropping, mono resampling, fades and level changes; Freesound public HQ MP3 previews, not source WAV masters"
+    }
+  ],
+  "selection_status": "EXACT_RECOGNIZED_URLS_FOR_CENSUSED_ASSETS",
+  "final_package_bound": false,
+  "scope": "Six credited source URLs for nine exact retained CC0 payloads. Source-checkpoint asset selection only; no runtime acceptance or new game license."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "AUDITED_PUBLIC_SOURCE_WIP",
+  "project": "Come and Knock on Our Door",
+  "revision": "r16",
+  "game_format": "SCI1.1",
+  "module_count": 21,
+  "compile_receipt_sha256": "b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48",
+  "frozen_source_seal_sha256": "28d19dc5e66ac5dbf66fe2d59aa03047dba41d8b2f92ece3c5228ae653c0db79",
+  "frozen_stage_manifest_sha256": "5cae4a0ea58e6fd1ef6049f7e04bb0dc7ca734aff21c4bf553c48bb195320fb7",
+  "public_baseline_commit": "625721dabd07fc8320aa96c288436181a30d3bdd",
+  "cold_exact_rebuild": true,
+  "portable_static_tests": true,
+  "complete_causal_route_acceptance": false,
+  "native_ending_acceptance": false,
+  "runtime_engine_included": false,
+  "save_compatibility_claimed": false,
+  "current_game_binary_distribution": false
+}

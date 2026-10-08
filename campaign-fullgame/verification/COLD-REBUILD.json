@@ -1,0 +1,16 @@
+{
+  "status": "PASS_PUBLIC_CANONICAL_COLD_REBUILD",
+  "source_manifest_sha256": "6b58c392cd0ef95774290cdffc9dfbae68d77fb4945bd14b99e575540cdedbf1",
+  "source_input_files": 2032,
+  "compile_receipt_sha256": "b3f839512100c06368ce903ecc018bad8ac600ce6ccf647401f693b50c56ce48",
+  "canonical_sources": 21,
+  "exact_build_outputs": 1871,
+  "exact_current_stage_files": 1713,
+  "normalized_abi_sha256": "6145895ae946c2b2a0a3a80df4f7c8e50ccf8eca0b62c256189c336cb4152a7f",
+  "all_stage_file_bytes_identical": true,
+  "source_only_start": true,
+  "compiled_scripts_copied_as_inputs": false,
+  "runtime_bundled": false,
+  "full_causal_route_acceptance": false,
+  "native_acceptance": false
+}
