@@ -1,0 +1,162 @@
+{
+  "cues": [
+    {
+      "cue": 100,
+      "hook": "Main opening card/tick/held plus A04 paired suffixes160\u2013168"
+    },
+    {
+      "cue": 101,
+      "hook": "Main P01/P02 before p02PlanAgreed"
+    },
+    {
+      "cue": 102,
+      "hook": "Main living room location1 after agreement"
+    },
+    {
+      "cue": 103,
+      "hook": "Main kitchen location2; completed988 p07Projection0 bit2 selects reduced row1"
+    },
+    {
+      "cue": 104,
+      "hook": "Main porch location0; exact authored alias101 preserves parser"
+    },
+    {
+      "cue": 105,
+      "hook": "Main side passage location3;984 p04Ready or987 p06Projection0 bit4 selects reduced row1"
+    },
+    {
+      "cue": 106,
+      "hook": "Main courtyard location4;989 h8V17 index8 selects reduced row1"
+    },
+    {
+      "cue": 107,
+      "hook": "Main garage location5 before985 p05Flags bit2"
+    },
+    {
+      "cue": 108,
+      "hook": "Garage after genuine sincere role agreement"
+    },
+    {
+      "cue": 109,
+      "hook": "Main conservatory location6 before983 p03Approved"
+    },
+    {
+      "cue": 110,
+      "hook": "Conservatory after genuine credit agreement"
+    },
+    {
+      "cue": 111,
+      "hook": "989 committed evening receipt h8V14 indices39/40"
+    },
+    {
+      "cue": 112,
+      "hook": "990 p09IntroStart or992 p10IntroStart after evening"
+    },
+    {
+      "cue": 113,
+      "hook": "993 p11Present1 first rescue ownership"
+    },
+    {
+      "cue": 114,
+      "hook": "993 p11SincereComplete"
+    },
+    {
+      "cue": 115,
+      "hook": "994 p12Present1 rack handoff before full consequential words"
+    },
+    {
+      "cue": 116,
+      "hook": "994 p12Complete9 and p12Ready after speech; independent of confetti"
+    },
+    {
+      "cue": 117,
+      "hook": "995 p13Present1"
+    },
+    {
+      "cue": 118,
+      "hook": "995 p13Ready; preserved under P14 commitments"
+    },
+    {
+      "cue": 119,
+      "hook": "996 p14Ready/GAME_COMPLETE; full2892tick cadence, early phase5 queues121"
+    },
+    {
+      "cue": 120,
+      "hook": "Main living-room apron; other families use own reduced row"
+    },
+    {
+      "cue": 121,
+      "hook": "996 phase5 after completion and quiet cadence;997 replay independently admits credits"
+    },
+    {
+      "cue": 122,
+      "hook": "Committed P02 reveal101\u2192102"
+    },
+    {
+      "cue": 123,
+      "hook": "Earned Ready106\u2192111"
+    },
+    {
+      "cue": 124,
+      "hook": "Actual rescue111/112\u2192113"
+    },
+    {
+      "cue": 125,
+      "hook": "Collection completion116\u2192117"
+    },
+    {
+      "cue": 126,
+      "hook": "GAME_COMPLETE118\u2192119"
+    },
+    {
+      "cue": 127,
+      "hook": "Coordinated rescue113\u2192114 or113\u2192115"
+    },
+    {
+      "cue": 128,
+      "hook": "994 genuine event8 confetti; finishes to116; consumed without replay on restore"
+    },
+    {
+      "cue": 129,
+      "hook": "994 presentation source9 while consequential words pending; source-authored silence holds until genuine completion"
+    },
+    {
+      "cue": 140,
+      "hook": "Accepted base contest source; runtime152 one-clock family"
+    },
+    {
+      "cue": 141,
+      "hook": "985 committed VC01 Milo encounter color"
+    },
+    {
+      "cue": 142,
+      "hook": "985 committed VC02 porch encounter color"
+    },
+    {
+      "cue": 143,
+      "hook": "985 committed VC03 late scene encounter color"
+    },
+    {
+      "cue": 144,
+      "hook": "985 committed VC04 promises encounter color"
+    },
+    {
+      "cue": 145,
+      "hook": "985 genuine TURN thinking state on152, response returns opponent row"
+    },
+    {
+      "cue": 146,
+      "hook": "Optional response accent disabled; no audible coverage claimed"
+    },
+    {
+      "cue": 147,
+      "hook": "Optional result accent disabled; no audible coverage claimed"
+    }
+  ],
+  "committed_hook": "Main p02HostEvent and993\u2013997 pXXEmit pass stored revision/event/args;944 rechecks against actual domain arrays.985 retains genuine contest ledger.",
+  "poll": "24 bounded scalar observations; changed intent only dispatches. No full domain/catalog verification on unchanged frames.",
+  "lifecycle": "One Sound owner, source-derived gates, latest-target coalescing, static/active-table guards at admission or lifecycle boundaries; source validation and owner/generation terminal checks.",
+  "source_gate_limits": "See generated/FULL-SCORE-CATALOG.json edges: exact worst_source_wait_ticks, gate positions and source harmony. Empty-key is not proof of zero synth tail; native review remains required.",
+  "listening": "UNPERFORMED: model audio input unsupported; objective audition clips are provided separately.",
+  "native_acceptance": false
+}

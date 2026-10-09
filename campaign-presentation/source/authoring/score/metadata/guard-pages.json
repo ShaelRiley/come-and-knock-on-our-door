@@ -1,0 +1,32 @@
+{
+  "allocation": {
+    "resources": [
+      248,
+      260,
+      261
+    ],
+    "new_resources": [],
+    "guard_word_semantics": "Complete decimal exact-word comparison retained; no omitted field, saved readiness flag or weaker digest substitution.",
+    "primary": 248,
+    "overflow": [
+      260,
+      261
+    ],
+    "soft_size_ceiling_bytes": 60000,
+    "hard_size_ceiling_bytes": 65535
+  },
+  "protected_prefixes": [
+    {
+      "resource": 260,
+      "bytes": 19965,
+      "sha256": "385219c2803bc2deb1915c472d9f602257edda15b8eaa84ae16ec590c705fc8d",
+      "purpose": "Existing SCRIPT950 transport guard prefix; all original entries and indices retained exactly."
+    },
+    {
+      "resource": 261,
+      "bytes": 18997,
+      "sha256": "4de84befaacbbac7f79df5b40e32cd9b27d5a7464f6d8c6e327ee591c74b4828",
+      "purpose": "Existing SCRIPT951 transport guard prefix; all original entries and indices retained exactly."
+    }
+  ]
+}

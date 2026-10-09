@@ -1,0 +1,398 @@
+# CaKoOD audience and foley credits
+
+These credits accompany the recorded audience and contact-audio component. No endorsement by any source creator is implied. Candidate classification and rights/technical admission do not mean user auditory acceptance.
+
+## Audience sources
+
+All 24 sources were recovered from the historical bank as public HQ MP3 preview files. Original lossless masters were not acquired. Every source contributes exactly one stable performance identity. No pitch/crop derivatives are counted as extra performances.
+
+### Take 1: CRWDLaff_Short Polite Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763960/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.09
+Adaptation: preserved existing cleared reference bytes, full original preview duration; no new subjective acceptance claimed. Source window 0.000000–3.267982 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 2: CRWDLaff_Short Genuine Laugh 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763956/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.13
+Adaptation: preserved existing cleared reference bytes, full original preview duration; no new subjective acceptance claimed. Source window 0.000000–2.926168 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 3: CRWDLaff_Short Hearty Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763959/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.19
+Adaptation: preserved existing cleared reference bytes, full original preview duration; no new subjective acceptance claimed. Source window 0.000000–6.283991 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 4: AF Crowd Small Laugh.wav
+Creator: mglennsound
+Source: https://freesound.org/people/mglennsound/sounds/678668/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.05
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–1.728027 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 5: AF Crowd Small Laugh_2.wav
+Creator: mglennsound
+Source: https://freesound.org/people/mglennsound/sounds/678669/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.06
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.698685 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 6: AF Crowd Small Laugh_3.wav
+Creator: mglennsound
+Source: https://freesound.org/people/mglennsound/sounds/678670/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.07
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.474694 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 7: CRWDLaff_Crowd Laughing, Reaction, Small_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763954/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.08
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.182993 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 8: CRWDLaff_Short Polite Laugh 02_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763961/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.10
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.207574 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 9: CRWDLaff_Short Polite Laugh 03_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763962/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.11
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.789252 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 10: Small Crowd Laughing
+Creator: snakebarney
+Source: https://freesound.org/people/snakebarney/sounds/138112/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.12
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–4.566667 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 11: CRWDLaff_Short Genuine Laugh_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763957/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.14
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.650295 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 12: CRWDLaff_Short Genuine Laugh, Reaction_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763958/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.15
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–6.699728 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 13: CRWDLaff_Crowd Laughing, Reaction 01_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763950/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.16
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–6.480771 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 14: CRWDLaff_Crowd Laughing, Reaction 02_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763951/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.17
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–4.061270 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 15: CRWDLaff_Crowd Laughing, Reaction 03_ShaneVincent_GSC24_BIN-AmbeoVR.wav
+Creator: Shane Vincent / ShangusBurger
+Source: https://freesound.org/people/ShangusBurger/sounds/763952/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.18
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–5.751519 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 16: Laugh Crowd Soft.mp3
+Creator: FunWithSound
+Source: https://freesound.org/people/FunWithSound/sounds/588394/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.20
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–1.687347 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 17: Moderately Amusing.wav
+Creator: Benboncan
+Source: https://freesound.org/people/Benboncan/sounds/82386/
+License: CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Existing credit record: END.ASSET.AUDIENCE.01
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–3.680907 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 18: Laugh Crowd 1.mp3
+Creator: FunWithSound
+Source: https://freesound.org/people/FunWithSound/sounds/381375/
+License: CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Existing credit record: END.ASSET.AUDIENCE.02
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–3.317551 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 19: live audience comedy show genuine laughter_moderate.wav
+Creator: HowardV
+Source: https://freesound.org/people/HowardV/sounds/581528/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.21
+Adaptation: one excerpt per source, low-energy endpoint between3–7s; subjective boundary review unperformed. Source window 0.000000–5.160000 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 20: Voice_Crowd_Small_Expression_Laugh_Stereo
+Creator: Nox_Sound
+Source: https://freesound.org/people/Nox_Sound/sounds/752711/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.22
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–3.217370 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 21: Laughs_ses2.wav
+Creator: freesound
+Source: https://freesound.org/people/freesound/sounds/25296/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.23
+Adaptation: one excerpt per source, low-energy endpoint between3–7s; subjective boundary review unperformed. Source window 0.000000–4.520000 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 22: Approx 800 Laugh 1.wav
+Creator: lonemonk
+Source: https://freesound.org/people/lonemonk/sounds/72842/
+License: CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Existing credit record: END.ASSET.AUDIENCE.03
+Adaptation: complete source take; only20ms edge safety fades. Source window 0.000000–2.449705 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 23: Approx 800 Laughter Only 1.wav
+Creator: lonemonk
+Source: https://freesound.org/people/lonemonk/sounds/72843/
+License: CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+Existing credit record: END.ASSET.AUDIENCE.04
+Adaptation: one excerpt per source, low-energy endpoint between3–7s; subjective boundary review unperformed. Source window 0.000000–4.080000 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+### Take 24: Female crowd laughing
+Creator: kikorurelas
+Source: https://freesound.org/people/kikorurelas/sounds/767470/
+License: CC0-1.0 — http://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.AUDIENCE.24
+Adaptation: one excerpt per source, low-energy endpoint between3–7s; subjective boundary review unperformed. Source window 0.000000–6.100000 seconds; mono PCM16 at 22050 Hz. New derivatives use DC removal, 80 Hz high-pass / 6 kHz low-pass filtering, gain adjustment and protective fades. Existing module920 references retain exact prior bytes.
+
+## Finale applause and cheer
+
+Applause — Blender Foundation; applause-section cut submitted by LeeZH.
+Source: https://opengameart.org/content/applause
+Underlying work: Yo Frankie! end-game sound, https://opengameart.org/content/endgame
+License: Creative Commons Attribution 3.0 — https://creativecommons.org/licenses/by/3.0/
+Recorded file: applause.wav; source SHA256 d8d44ae50a16ba4218c1861c8fa236c481c2caf56195883edc81f89919fb6958.
+Changes: mono downmix and 22050 Hz PCM16 conversion, DC removal, high/low-pass filtering, gain adjustment, 20 ms edge fades, and mixing with the CC0 Shane Vincent/ShangusBurger hearty laugh credited as take3 above. Output duration 7.645170 seconds. No synthesized crowd or old completion chime is used for this take.
+Output: @0PT0101.001; SHA256 3925694a22fe0908ed61f5fdd2c92858e6826813dfefbfe3009f8e4508b9a6b9.
+A supplementary visible credit panel is integrated by the composer at the existing real-game acknowledgments card in campaign and detached credits replay. Protected canonical credit records remain unchanged.
+
+## Contact and material foley
+
+### Take 301: tray_clatter_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/metalPot1.ogg
+Source excerpt: 0.081859–1.351565 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 302: tray_clatter_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/metalPot2.ogg
+Source excerpt: 0.106213–0.734785 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 303: cloth_handle_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/cloth1.ogg
+Source excerpt: 0.024853–0.585215 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 304: cloth_handle_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/cloth2.ogg
+Source excerpt: 0.047664–0.382086 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 305: paper_pickup_a
+Creator: slamaxu
+Source: https://freesound.org/people/slamaxu/sounds/509878/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.03
+Original file: sources/freesound_509878_hq_preview.mp3
+Source excerpt: 0.137914–1.090385 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 306: paper_pickup_b
+Creator: scholzi982
+Source: https://freesound.org/people/scholzi982/sounds/566189/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.04
+Original file: sources/freesound_566189_hq_preview.mp3
+Source excerpt: 0.033605–0.908299 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 307: page_turn_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/bookFlip1.ogg
+Source excerpt: 0.066259–0.716644 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 308: page_turn_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/bookFlip2.ogg
+Source excerpt: 0.000000–0.407347 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 309: door_mechanism_open_c
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/doorOpen_1.ogg
+Source excerpt: 0.001315–0.896825 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 310: door_mechanism_close_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Original file: sources/kenney_rpg_page/Audio/doorClose_1.ogg
+Source excerpt: 0.000000–0.441814 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 311: footstep_concrete_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/footstep_concrete_000.ogg
+Source excerpt: 0.000000–0.071655 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 312: footstep_concrete_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/footstep_concrete_002.ogg
+Source excerpt: 0.000000–0.081859 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 313: footstep_carpet_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/footstep_carpet_000.ogg
+Source excerpt: 0.000000–0.097460 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 314: footstep_carpet_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/footstep_carpet_001.ogg
+Source excerpt: 0.000000–0.099138 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 315: impact_soft_a
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/impactSoft_medium_000.ogg
+Source excerpt: 0.000000–0.097007 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 316: impact_soft_b
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.08
+Original file: sources/kenney_impact_page/Audio/impactSoft_medium_001.ogg
+Source excerpt: 0.000000–0.157959 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 317: window_open_a
+Creator: qubodup
+Source: https://freesound.org/people/qubodup/sounds/805208/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.07
+Original file: sources/freesound_805208_hq_preview.mp3
+Source excerpt: 0.002585–1.288027 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 318: window_wood_close_a
+Creator: Karla_Bezuidenhout
+Source: https://freesound.org/people/Karla_Bezuidenhout/sounds/708683/
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.02
+Original file: sources/freesound_708683_hq_preview.mp3
+Source excerpt: 2.591020–3.224989 seconds.
+Changes: FFmpeg decoded/downmixed/resampled to mono 22050 Hz; 45 Hz two-pole high-pass; relative 5 ms RMS silence trim with 6 ms pre-roll and 30 ms tail; 2 ms onset and 15 ms endpoint fade; family peak ceiling with gain increase capped at 18 dB; deterministic PCM16 quantization. Runtime PCM bytes preserved from the recovered foley bank.
+
+### Take 319: metalClick.ogg
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Changes: full file, mono 22050 Hz PCM16, DC removal, high/low-pass filtering, gain and protective edge fades.
+
+### Take 320: metalLatch.ogg
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Changes: full file, mono 22050 Hz PCM16, DC removal, high/low-pass filtering, gain and protective edge fades.
+
+### Take 321: creak1.ogg
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Changes: full file, mono 22050 Hz PCM16, DC removal, high/low-pass filtering, gain and protective edge fades.
+
+### Take 322: creak2.ogg
+Creator: Kenney / Kenney Vleugels
+Source: https://kenney.nl/assets/rpg-audio
+License: CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Existing credit record: END.ASSET.FOLEY.09
+Changes: full file, mono 22050 Hz PCM16, DC removal, high/low-pass filtering, gain and protective edge fades.
+
+### Take 323: authored_ceramic_contact_1
+Creator: CaKoOD production
+Source: Original project-authored synthesis in build_assets.py
+License: Original project-authored synthesis; no third-party recording
+Existing credit record: Original project production credit
+Authored modal ceramic contact synthesis, 0.26 seconds. This is synthetic object foley, not a claimed live recording or audience performance.
+
+### Take 324: authored_ceramic_contact_2
+Creator: CaKoOD production
+Source: Original project-authored synthesis in build_assets.py
+License: Original project-authored synthesis; no third-party recording
+Existing credit record: Original project production credit
+Authored modal ceramic contact synthesis, 0.26 seconds. This is synthetic object foley, not a claimed live recording or audience performance.
+
+## Inherited recordings and scope
+
+Module920 takes1–3 and module930 takes1–6 remain byte-identical to the paired checkpoint. Existing full-game credits and license/source qualifications must accompany them. Newly packaged carpet steps313/314 and window-close318 are admitted assets but intentionally have no current gameplay event mapping: the apron material is not established and no committed window-close action exists.
+
+Source page snapshots, source bytes, hashes and modifications are included in the source package. Sources fetched during research but absent from ASSET-MANIFEST.json are not used in the runtime payload. Direct Freesound request403 results were preserved; historical Library recovery provided the bank without bypassing access restrictions.

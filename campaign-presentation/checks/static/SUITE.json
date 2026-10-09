@@ -1,0 +1,38 @@
+{
+  "status": "PASS_BOUNDED_STATIC_NOT_NATIVE",
+  "scope": "BOUNDED_STATIC_NOT_NATIVE",
+  "cases": [
+    {
+      "case": "pins",
+      "exit_code": 0,
+      "wall_seconds": 0.26514556699839886,
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "max_rss_kib": 16780,
+      "receipt_sha256": "54747e395c02a3b81db9c9d7a5a72236371d30bb3caa17f1d013441527ece91c"
+    },
+    {
+      "case": "preservation",
+      "exit_code": 0,
+      "wall_seconds": 0.41539181501138955,
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "max_rss_kib": 20948,
+      "receipt_sha256": "e2ba99dc031521b3e995f02d20b22c43482b418d10ea4c5e1082950d16bb4c37"
+    },
+    {
+      "case": "opening",
+      "exit_code": 0,
+      "wall_seconds": 0.06444386599468999,
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "max_rss_kib": 12416,
+      "receipt_sha256": "2db2989277fb9c2af4d3f13fe08bb3670c8c79af505cd615e46365d393592a96"
+    },
+    {
+      "case": "credits",
+      "exit_code": 0,
+      "wall_seconds": 0.06433786600246094,
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "max_rss_kib": 11904,
+      "receipt_sha256": "da8abdb9bc043dc1a334ed7ef0331def9ecb4c59dd335b963b980457b71a55a4"
+    }
+  ]
+}

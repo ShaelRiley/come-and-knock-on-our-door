@@ -1,0 +1,139 @@
+{
+  "files": {
+    "ALL-64-POSES-2X.png": "d78f9e6e0031ab5c7642036b6fc9a3b976f628185e618570c4c94449a2447114",
+    "ALL-8-FREEZES-2X.png": "b6c7b541a18d247e254098780fd414238861d32174d61ff0d05168403f76a644",
+    "ALL-8-FREEZES-NATIVE.png": "5b054253023661e325137349c533a8a5e84adc4f0d0f979de8aea1f98fef4be3",
+    "SHARED-TITLE-4X.png": "42b51d7864d3dcc3578fcea4cdec900ef539f0135ab0dd24a06bd09f58ef5a3e",
+    "SHARED-TITLE-NATIVE.png": "2a73598b54f6e71e040ff328ce59ed42799d6e219db8c71d8ea3b6df437e47d5"
+  },
+  "notes": [
+    "All64 action cels at the same native scale, enlarged2x without resampling blur.",
+    "Static chairs/bench are composited from their single separate loops.",
+    "Both title cards use the same250/3 cel; not counted as cast action poses."
+  ],
+  "rows": [
+    {
+      "loop0_common_size": [
+        53,
+        79
+      ],
+      "resource_sha256": "a232ba9035ec1de427be916b5958fc0e67fbc74757b0c3728a6044fe8f0d43f9",
+      "row": 0,
+      "slug": "jackie",
+      "stable_prop_loops": [],
+      "view": 245
+    },
+    {
+      "loop0_common_size": [
+        55,
+        79
+      ],
+      "resource_sha256": "84f8cc349b72ebb8f1b933ba2c6b21c6ac79090685ceab9aaab1bb8c2e90bd2b",
+      "row": 1,
+      "slug": "bunny",
+      "stable_prop_loops": [],
+      "view": 246
+    },
+    {
+      "loop0_common_size": [
+        44,
+        79
+      ],
+      "resource_sha256": "d6663207f4941872183adb7424e4908d02af317151fcc307e8e250117ece9d53",
+      "row": 2,
+      "slug": "frankie",
+      "stable_prop_loops": [],
+      "view": 247
+    },
+    {
+      "loop0_common_size": [
+        49,
+        83
+      ],
+      "resource_sha256": "4296b3295390cc516e8ce8711822f5c1a9ea05a1e90eba98e9929e132a815122",
+      "row": 3,
+      "slug": "stringer",
+      "stable_prop_loops": [
+        {
+          "cels": 1,
+          "derive_from_cel": 0,
+          "draw": [
+            83,
+            97
+          ],
+          "draw_before_loop0": true,
+          "loop": 3,
+          "pixel_provenance": "ONCE_DERIVED_VISIBLE_CEL0_PIXELS_NO_HIDDEN_PIXEL_SYNTHESIS",
+          "purpose": "Two stable chairs",
+          "size": [
+            71,
+            38
+          ]
+        }
+      ],
+      "view": 248
+    },
+    {
+      "loop0_common_size": [
+        65,
+        78
+      ],
+      "resource_sha256": "289273e6a762f446691055c785d3e08719cf2bf67b96d67116ccc43ca2397cd5",
+      "row": 4,
+      "slug": "milo",
+      "stable_prop_loops": [],
+      "view": 249
+    },
+    {
+      "loop0_common_size": [
+        44,
+        80
+      ],
+      "resource_sha256": "75e97c7f00463559a6d0b611dac3730071d08a93dea0929873456d9cbde98513",
+      "row": 5,
+      "slug": "vivian",
+      "stable_prop_loops": [],
+      "view": 250
+    },
+    {
+      "loop0_common_size": [
+        45,
+        80
+      ],
+      "resource_sha256": "abc2eabdb392f94a825c7793d0f284a9ac86b50c1c9c71b7e09bb781e4965a2f",
+      "row": 6,
+      "slug": "rita",
+      "stable_prop_loops": [
+        {
+          "cels": 1,
+          "derive_from_cel": null,
+          "draw": [
+            82,
+            93
+          ],
+          "draw_before_loop0": true,
+          "loop": 3,
+          "pixel_provenance": "NEW_GENERATED_MATCHED_PROP_RECONSTRUCTION_INCLUDING_PREVIOUSLY_OCCLUDED_PIXELS",
+          "purpose": "Stable matched workbench, newly reconstructed complete prop",
+          "size": [
+            34,
+            36
+          ]
+        }
+      ],
+      "view": 251
+    },
+    {
+      "loop0_common_size": [
+        49,
+        80
+      ],
+      "resource_sha256": "3939734bf0a8d87182f9b95c7268a2ae281d6d8d8e683d217d2bea2b8241ff41",
+      "row": 7,
+      "slug": "felix",
+      "stable_prop_loops": [],
+      "view": 252
+    }
+  ],
+  "status": "OFFLINE_PIXEL_PROOFS_NOT_NATIVE_RUNTIME_ACCEPTANCE"
+}

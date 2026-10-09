@@ -1,0 +1,270 @@
+{
+  "alpha_proof": "proof/vivian/four-background-alpha-2x.png",
+  "cells": [
+    {
+      "cel": 0,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1497
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        103,
+        57,
+        137,
+        135
+      ],
+      "native_transparent_pixels": 2023,
+      "source_alpha_bbox": [
+        140,
+        22,
+        344,
+        496
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 55100,
+      "source_pixels_alpha_below128": 141508,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 1,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1582
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        102,
+        57,
+        140,
+        135
+      ],
+      "native_transparent_pixels": 1938,
+      "source_alpha_bbox": [
+        104,
+        22,
+        335,
+        496
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 58471,
+      "source_pixels_alpha_below128": 138137,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 2,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1598
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        102,
+        57,
+        137,
+        135
+      ],
+      "native_transparent_pixels": 1922,
+      "source_alpha_bbox": [
+        72,
+        22,
+        282,
+        496
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 59587,
+      "source_pixels_alpha_below128": 137021,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 3,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1600
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        103,
+        56,
+        134,
+        135
+      ],
+      "native_transparent_pixels": 1920,
+      "source_alpha_bbox": [
+        59,
+        22,
+        248,
+        497
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 59104,
+      "source_pixels_alpha_below128": 137504,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 4,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1552
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        102,
+        56,
+        135,
+        135
+      ],
+      "native_transparent_pixels": 1968,
+      "source_alpha_bbox": [
+        109,
+        10,
+        314,
+        488
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 57513,
+      "source_pixels_alpha_below128": 139095,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 5,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1736
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        98,
+        56,
+        142,
+        135
+      ],
+      "native_transparent_pixels": 1784,
+      "source_alpha_bbox": [
+        83,
+        10,
+        350,
+        488
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 64548,
+      "source_pixels_alpha_below128": 132060,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 6,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1595
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        101,
+        56,
+        141,
+        135
+      ],
+      "native_transparent_pixels": 1925,
+      "source_alpha_bbox": [
+        48,
+        9,
+        287,
+        488
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 59275,
+      "source_pixels_alpha_below128": 137333,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 7,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1660
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        102,
+        55,
+        141,
+        135
+      ],
+      "native_transparent_pixels": 1860,
+      "source_alpha_bbox": [
+        38,
+        5,
+        275,
+        488
+      ],
+      "source_alpha_max": 254,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 61338,
+      "source_pixels_alpha_below128": 135270,
+      "transparent_composite_pixels_equal_actual_background": true
+    }
+  ],
+  "common_cel_size": [
+    44,
+    80
+  ],
+  "fixed_screen_anchor": [
+    118,
+    134
+  ],
+  "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+  "one_common_scale": 0.16455696202531644,
+  "resource_bytes": 62113,
+  "resource_sha256": "75e97c7f00463559a6d0b611dac3730071d08a93dea0929873456d9cbde98513",
+  "slug": "vivian",
+  "source_alpha_range": [
+    0,
+    254
+  ],
+  "source_corners_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "source_master_sha256": "0e0b87c9957a983f793cb16cd9e1dedc3039a37ea3c846bbad3a60810e2d248d",
+  "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+}

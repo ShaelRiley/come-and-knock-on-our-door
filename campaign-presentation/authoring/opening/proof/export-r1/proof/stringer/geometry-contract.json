@@ -1,0 +1,110 @@
+{
+  "action_cel_starts": [
+    0,
+    24,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 302,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Mr. Stringer",
+  "common_transparent_crop_screen": [
+    94,
+    52,
+    143,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      94,
+      52
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      49,
+      83
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      188,
+      28
+    ],
+    "loop": 1,
+    "purpose": "Canonical geometric freeze motif",
+    "size": [
+      111,
+      90
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      188,
+      62
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      108,
+      40
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    118,
+    134
+  ],
+  "slug": "stringer",
+  "source_identity_view": 222,
+  "stable_prop_loops": [
+    {
+      "cels": 1,
+      "derive_from_cel": 0,
+      "draw": [
+        83,
+        97
+      ],
+      "draw_before_loop0": true,
+      "loop": 3,
+      "pixel_provenance": "ONCE_DERIVED_VISIBLE_CEL0_PIXELS_NO_HIDDEN_PIXEL_SYNTHESIS",
+      "purpose": "Two stable chairs",
+      "size": [
+        71,
+        38
+      ]
+    }
+  ],
+  "uniform_scale": 0.1984732824427481,
+  "view": 248
+}

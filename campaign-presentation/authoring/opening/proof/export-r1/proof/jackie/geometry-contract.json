@@ -1,0 +1,93 @@
+{
+  "action_cel_starts": [
+    0,
+    18,
+    36,
+    54,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 300,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Jackie Tree",
+  "common_transparent_crop_screen": [
+    105,
+    56,
+    158,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      105,
+      56
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      53,
+      79
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      110,
+      56
+    ],
+    "loop": 1,
+    "purpose": "Teal offset final silhouette",
+    "size": [
+      43,
+      79
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      178,
+      63
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      132,
+      16
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    122,
+    134
+  ],
+  "slug": "jackie",
+  "source_identity_view": 214,
+  "stable_prop_loops": [],
+  "uniform_scale": 0.156312625250501,
+  "view": 245
+}

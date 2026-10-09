@@ -1,0 +1,136 @@
+{
+  "action_cel_starts": [
+    0,
+    24,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 100,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Vivian Voss",
+  "common_transparent_crop_screen": [
+    98,
+    55,
+    142,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      98,
+      55
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      44,
+      80
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      186,
+      32
+    ],
+    "loop": 1,
+    "purpose": "Canonical geometric freeze motif",
+    "size": [
+      113,
+      83
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      200,
+      62
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      84,
+      40
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    118,
+    134
+  ],
+  "shared_title": {
+    "accent_rectangles": [
+      {
+        "palette_index": 4,
+        "rect": [
+          18,
+          10,
+          302,
+          12
+        ]
+      },
+      {
+        "palette_index": 4,
+        "rect": [
+          40,
+          116,
+          280,
+          119
+        ]
+      },
+      {
+        "palette_index": 37,
+        "rect": [
+          80,
+          125,
+          240,
+          127
+        ]
+      }
+    ],
+    "cels": 1,
+    "draw": [
+      16,
+      30
+    ],
+    "loop": 3,
+    "purpose": "Come and Knock on Our Door; cards0and9 only",
+    "scene_background_palette_index": 10,
+    "size": [
+      288,
+      72
+    ]
+  },
+  "slug": "vivian",
+  "source_identity_view": 236,
+  "stable_prop_loops": [],
+  "uniform_scale": 0.16455696202531644,
+  "view": 250
+}

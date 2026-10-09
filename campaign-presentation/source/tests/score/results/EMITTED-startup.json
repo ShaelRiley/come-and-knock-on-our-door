@@ -1,0 +1,25 @@
+{
+  "case": "startup",
+  "native_acceptance": false,
+  "compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "result": {
+    "start_cue": 101,
+    "unchanged_frame_instructions": [
+      1953,
+      1953,
+      1953,
+      1953,
+      1953
+    ],
+    "unchanged_guard_calls": 0,
+    "initial_owner_admission_instructions": 1618218,
+    "changed_request_instructions": 629,
+    "alias_restarts": 0,
+    "max_active_parsers": 1,
+    "scope": "Genuine startup/P01; subsequent alias and edge are explicit audio-component calls, no changed campaign facts"
+  },
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 58.14510794599482,
+  "max_rss_kib": 135212
+}

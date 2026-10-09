@@ -1,0 +1,93 @@
+{
+  "action_cel_starts": [
+    0,
+    24,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 101,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Bunny Easter",
+  "common_transparent_crop_screen": [
+    94,
+    56,
+    149,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      94,
+      56
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      55,
+      79
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      195,
+      25
+    ],
+    "loop": 1,
+    "purpose": "Canonical geometric freeze motif",
+    "size": [
+      95,
+      95
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      200,
+      62
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      84,
+      40
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    118,
+    134
+  ],
+  "slug": "bunny",
+  "source_identity_view": 219,
+  "stable_prop_loops": [],
+  "uniform_scale": 0.15885947046843177,
+  "view": 246
+}

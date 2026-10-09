@@ -1,0 +1,6111 @@
+{
+  "resource_id": 152,
+  "source_resource": 140,
+  "name": "MUS11_CONTEST_TRANSITION_READY_CANDIDATE",
+  "boundaries": [
+    8,
+    16.5,
+    24,
+    32,
+    40,
+    48.5,
+    56,
+    64,
+    72,
+    78,
+    84,
+    88,
+    96,
+    104,
+    112.5,
+    120,
+    128,
+    132
+  ],
+  "breath_beats": 0.35,
+  "rationale": "PRESENTATION_B's eight-beat call/answer clauses get an authored duration-only release and breath. The final quarter-beat flourishes remain intact; use the next tonic arrival before16.5/48.5/112.5 instead of16/48/112. In the sustained TOGETHER_A middle, use72,78,84,88 instead of cutting the long C at80:72 follows the C7(b9) phrase,78 is the actual Eb/G-to-Abmaj7 boundary,84 follows the first Bb9sus4 answer,88 is the authored C7 link. The78-to83 sustained C is preserved in full.",
+  "roles": [
+    {
+      "name": "BASS",
+      "channel": 0,
+      "program": 33,
+      "volume": 118,
+      "pan": 64,
+      "voices": 1
+    },
+    {
+      "name": "KEYS",
+      "channel": 1,
+      "program": 4,
+      "volume": 107,
+      "pan": 49,
+      "voices": 2
+    },
+    {
+      "name": "TEXTURE",
+      "channel": 2,
+      "program": 48,
+      "volume": 70,
+      "pan": 75,
+      "voices": 2
+    },
+    {
+      "name": "LEAD",
+      "channel": 3,
+      "program": 61,
+      "volume": 112,
+      "pan": 55,
+      "voices": 1
+    },
+    {
+      "name": "REPLY",
+      "channel": 4,
+      "program": 59,
+      "volume": 109,
+      "pan": 75,
+      "voices": 1
+    },
+    {
+      "name": "GUITAR",
+      "channel": 5,
+      "program": 27,
+      "volume": 96,
+      "pan": 82,
+      "voices": 2
+    },
+    {
+      "name": "ACCENT",
+      "channel": 6,
+      "program": 11,
+      "volume": 94,
+      "pan": 40,
+      "voices": 2
+    },
+    {
+      "name": "KIT",
+      "channel": 9,
+      "program": 0,
+      "volume": 106,
+      "pan": 64,
+      "voices": 4
+    }
+  ],
+  "loop": {
+    "start_tick": 12,
+    "end_tick": 3972,
+    "natural_key_release_before_end_ticks": 12
+  },
+  "source_manifest": "MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+  "notes": [
+    {
+      "channel": 0,
+      "on": 12,
+      "off": 49,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 19,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 12,
+      "off": 19,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 12,
+      "off": 15,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 27,
+      "off": 34,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 27,
+      "off": 30,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 3,
+      "on": 42,
+      "off": 49,
+      "pitch": 75,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 42,
+      "off": 45,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 42,
+      "off": 45,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 57,
+      "off": 64,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 57,
+      "off": 60,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 72,
+      "off": 109,
+      "pitch": 48,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 72,
+      "off": 79,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 72,
+      "off": 75,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 72,
+      "off": 75,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 87,
+      "off": 92,
+      "pitch": 56,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 87,
+      "off": 92,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 87,
+      "off": 94,
+      "pitch": 82,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 87,
+      "off": 90,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 3,
+      "on": 102,
+      "off": 109,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 102,
+      "off": 105,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 102,
+      "off": 105,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 117,
+      "off": 124,
+      "pitch": 79,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 117,
+      "off": 120,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 3,
+      "on": 124,
+      "off": 131,
+      "pitch": 80,
+      "velocity": 76
+    },
+    {
+      "channel": 0,
+      "on": 132,
+      "off": 169,
+      "pitch": 40,
+      "velocity": 62
+    },
+    {
+      "channel": 3,
+      "on": 132,
+      "off": 146,
+      "pitch": 79,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 132,
+      "off": 135,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 132,
+      "off": 135,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 147,
+      "off": 150,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 162,
+      "off": 167,
+      "pitch": 55,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 162,
+      "off": 167,
+      "pitch": 62,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 162,
+      "off": 165,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 162,
+      "off": 165,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 177,
+      "off": 180,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 192,
+      "off": 229,
+      "pitch": 47,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 192,
+      "off": 195,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 192,
+      "off": 195,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 207,
+      "off": 210,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 222,
+      "off": 225,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 222,
+      "off": 225,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 237,
+      "off": 241,
+      "pitch": 67,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 237,
+      "off": 240,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 252,
+      "off": 274,
+      "pitch": 37,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 252,
+      "off": 259,
+      "pitch": 53,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 252,
+      "off": 259,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 3,
+      "on": 252,
+      "off": 259,
+      "pitch": 66,
+      "velocity": 85
+    },
+    {
+      "channel": 9,
+      "on": 252,
+      "off": 255,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 252,
+      "off": 255,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 267,
+      "off": 274,
+      "pitch": 87,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 267,
+      "off": 270,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 282,
+      "off": 285,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 282,
+      "off": 285,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 289,
+      "off": 296,
+      "pitch": 77,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 297,
+      "off": 311,
+      "pitch": 36,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 297,
+      "off": 304,
+      "pitch": 75,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 297,
+      "off": 300,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 3,
+      "on": 304,
+      "off": 311,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 312,
+      "off": 334,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 312,
+      "off": 319,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 5,
+      "on": 312,
+      "off": 317,
+      "pitch": 65,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 312,
+      "off": 317,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 312,
+      "off": 315,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 312,
+      "off": 315,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 3,
+      "on": 319,
+      "off": 326,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 1,
+      "on": 327,
+      "off": 332,
+      "pitch": 53,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 327,
+      "off": 332,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 327,
+      "off": 334,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 327,
+      "off": 330,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 3,
+      "on": 334,
+      "off": 341,
+      "pitch": 59,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 342,
+      "off": 364,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 342,
+      "off": 349,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 342,
+      "off": 345,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 342,
+      "off": 345,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 349,
+      "off": 356,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 3,
+      "on": 357,
+      "off": 364,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 357,
+      "off": 360,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 3,
+      "on": 364,
+      "off": 371,
+      "pitch": 71,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 372,
+      "off": 409,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 3,
+      "on": 372,
+      "off": 379,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 372,
+      "off": 375,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 372,
+      "off": 375,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 387,
+      "off": 394,
+      "pitch": 86,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 387,
+      "off": 390,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 402,
+      "off": 407,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 402,
+      "off": 407,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 402,
+      "off": 405,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 402,
+      "off": 405,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 409,
+      "off": 416,
+      "pitch": 76,
+      "velocity": 78
+    },
+    {
+      "channel": 3,
+      "on": 417,
+      "off": 424,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 417,
+      "off": 420,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 3,
+      "on": 424,
+      "off": 431,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 432,
+      "off": 469,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 432,
+      "off": 439,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 432,
+      "off": 435,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 432,
+      "off": 435,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 3,
+      "on": 439,
+      "off": 446,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 3,
+      "on": 447,
+      "off": 454,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 447,
+      "off": 450,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 3,
+      "on": 454,
+      "off": 461,
+      "pitch": 55,
+      "velocity": 78
+    },
+    {
+      "channel": 3,
+      "on": 462,
+      "off": 469,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 462,
+      "off": 465,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 462,
+      "off": 465,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 3,
+      "on": 469,
+      "off": 476,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 3,
+      "on": 477,
+      "off": 484,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 477,
+      "off": 480,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 3,
+      "on": 484,
+      "off": 491,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 492,
+      "off": 496,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 492,
+      "off": 496,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 492,
+      "off": 496,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 3,
+      "on": 492,
+      "off": 496,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 492,
+      "off": 495,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 492,
+      "off": 495,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 507,
+      "off": 514,
+      "pitch": 70,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 507,
+      "off": 510,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 3,
+      "on": 522,
+      "off": 529,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 522,
+      "off": 525,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 522,
+      "off": 525,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 537,
+      "off": 551,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 537,
+      "off": 548,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 537,
+      "off": 548,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 537,
+      "off": 544,
+      "pitch": 74,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 537,
+      "off": 540,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 552,
+      "off": 581,
+      "pitch": 50,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 552,
+      "off": 559,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 552,
+      "off": 555,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 552,
+      "off": 555,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 567,
+      "off": 572,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 567,
+      "off": 572,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 567,
+      "off": 574,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 567,
+      "off": 570,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 582,
+      "off": 610,
+      "pitch": 44,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 582,
+      "off": 593,
+      "pitch": 60,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 582,
+      "off": 593,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 582,
+      "off": 589,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 582,
+      "off": 585,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 582,
+      "off": 585,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 597,
+      "off": 600,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 612,
+      "off": 626,
+      "pitch": 44,
+      "velocity": 62
+    },
+    {
+      "channel": 3,
+      "on": 612,
+      "off": 619,
+      "pitch": 72,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 612,
+      "off": 615,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 612,
+      "off": 615,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 0,
+      "on": 627,
+      "off": 655,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 627,
+      "off": 638,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 627,
+      "off": 638,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 627,
+      "off": 634,
+      "pitch": 71,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 627,
+      "off": 630,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 642,
+      "off": 647,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 642,
+      "off": 647,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 642,
+      "off": 645,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 642,
+      "off": 645,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 657,
+      "off": 660,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 672,
+      "off": 686,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 672,
+      "off": 675,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 672,
+      "off": 675,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 0,
+      "on": 687,
+      "off": 715,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 687,
+      "off": 698,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 687,
+      "off": 698,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 687,
+      "off": 690,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 702,
+      "off": 705,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 702,
+      "off": 705,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 717,
+      "off": 720,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 732,
+      "off": 754,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 732,
+      "off": 739,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 732,
+      "off": 739,
+      "pitch": 64,
+      "velocity": 51
+    },
+    {
+      "channel": 3,
+      "on": 732,
+      "off": 739,
+      "pitch": 72,
+      "velocity": 77
+    },
+    {
+      "channel": 9,
+      "on": 732,
+      "off": 735,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 732,
+      "off": 735,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 747,
+      "off": 754,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 747,
+      "off": 750,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 3,
+      "on": 762,
+      "off": 769,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 762,
+      "off": 765,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 762,
+      "off": 765,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 777,
+      "off": 791,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 777,
+      "off": 780,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 792,
+      "off": 814,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 5,
+      "on": 792,
+      "off": 797,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 792,
+      "off": 797,
+      "pitch": 76,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 792,
+      "off": 795,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 792,
+      "off": 795,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 807,
+      "off": 812,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 807,
+      "off": 812,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 807,
+      "off": 810,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 822,
+      "off": 844,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 822,
+      "off": 825,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 822,
+      "off": 825,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 837,
+      "off": 840,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 852,
+      "off": 889,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 9,
+      "on": 852,
+      "off": 855,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 852,
+      "off": 855,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 867,
+      "off": 870,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 882,
+      "off": 887,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 882,
+      "off": 887,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 882,
+      "off": 885,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 882,
+      "off": 885,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 897,
+      "off": 900,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 912,
+      "off": 949,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 912,
+      "off": 915,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 912,
+      "off": 915,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 927,
+      "off": 930,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 942,
+      "off": 945,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 942,
+      "off": 945,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 957,
+      "off": 960,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 972,
+      "off": 1009,
+      "pitch": 41,
+      "velocity": 44
+    },
+    {
+      "channel": 9,
+      "on": 972,
+      "off": 975,
+      "pitch": 36,
+      "velocity": 38
+    },
+    {
+      "channel": 9,
+      "on": 972,
+      "off": 975,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 4,
+      "on": 987,
+      "off": 994,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 987,
+      "off": 990,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 4,
+      "on": 1002,
+      "off": 1009,
+      "pitch": 75,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1002,
+      "off": 1005,
+      "pitch": 38,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 1002,
+      "off": 1005,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 1017,
+      "off": 1024,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1017,
+      "off": 1020,
+      "pitch": 42,
+      "velocity": 13
+    },
+    {
+      "channel": 0,
+      "on": 1032,
+      "off": 1069,
+      "pitch": 48,
+      "velocity": 40
+    },
+    {
+      "channel": 4,
+      "on": 1032,
+      "off": 1039,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1032,
+      "off": 1035,
+      "pitch": 36,
+      "velocity": 38
+    },
+    {
+      "channel": 9,
+      "on": 1032,
+      "off": 1035,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 4,
+      "on": 1047,
+      "off": 1054,
+      "pitch": 82,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1047,
+      "off": 1050,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 4,
+      "on": 1062,
+      "off": 1069,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1062,
+      "off": 1065,
+      "pitch": 38,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 1062,
+      "off": 1065,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 1077,
+      "off": 1084,
+      "pitch": 79,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1077,
+      "off": 1080,
+      "pitch": 42,
+      "velocity": 14
+    },
+    {
+      "channel": 4,
+      "on": 1084,
+      "off": 1091,
+      "pitch": 80,
+      "velocity": 76
+    },
+    {
+      "channel": 0,
+      "on": 1092,
+      "off": 1129,
+      "pitch": 40,
+      "velocity": 44
+    },
+    {
+      "channel": 4,
+      "on": 1092,
+      "off": 1106,
+      "pitch": 79,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 1092,
+      "off": 1095,
+      "pitch": 36,
+      "velocity": 38
+    },
+    {
+      "channel": 9,
+      "on": 1092,
+      "off": 1095,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 9,
+      "on": 1107,
+      "off": 1110,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 9,
+      "on": 1122,
+      "off": 1125,
+      "pitch": 38,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 1122,
+      "off": 1125,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 9,
+      "on": 1137,
+      "off": 1140,
+      "pitch": 42,
+      "velocity": 13
+    },
+    {
+      "channel": 0,
+      "on": 1152,
+      "off": 1189,
+      "pitch": 47,
+      "velocity": 40
+    },
+    {
+      "channel": 9,
+      "on": 1152,
+      "off": 1155,
+      "pitch": 36,
+      "velocity": 38
+    },
+    {
+      "channel": 9,
+      "on": 1152,
+      "off": 1155,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 1167,
+      "off": 1170,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 9,
+      "on": 1182,
+      "off": 1185,
+      "pitch": 38,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 1182,
+      "off": 1185,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 1197,
+      "off": 1201,
+      "pitch": 67,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 1197,
+      "off": 1200,
+      "pitch": 42,
+      "velocity": 14
+    },
+    {
+      "channel": 0,
+      "on": 1212,
+      "off": 1234,
+      "pitch": 37,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 1212,
+      "off": 1219,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 1212,
+      "off": 1219,
+      "pitch": 65,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 1212,
+      "off": 1219,
+      "pitch": 66,
+      "velocity": 85
+    },
+    {
+      "channel": 9,
+      "on": 1212,
+      "off": 1215,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1212,
+      "off": 1215,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 1227,
+      "off": 1234,
+      "pitch": 87,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 1227,
+      "off": 1230,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 1242,
+      "off": 1245,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1242,
+      "off": 1245,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 1249,
+      "off": 1256,
+      "pitch": 77,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 1257,
+      "off": 1271,
+      "pitch": 36,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 1257,
+      "off": 1264,
+      "pitch": 75,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 1257,
+      "off": 1260,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 1264,
+      "off": 1271,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 1272,
+      "off": 1294,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 1272,
+      "off": 1279,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 5,
+      "on": 1272,
+      "off": 1277,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 1272,
+      "off": 1277,
+      "pitch": 77,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1272,
+      "off": 1275,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1272,
+      "off": 1275,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 4,
+      "on": 1279,
+      "off": 1286,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 1,
+      "on": 1287,
+      "off": 1292,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1287,
+      "off": 1292,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 1287,
+      "off": 1294,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 1287,
+      "off": 1290,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 4,
+      "on": 1294,
+      "off": 1301,
+      "pitch": 59,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 1302,
+      "off": 1324,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 1302,
+      "off": 1309,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 1302,
+      "off": 1305,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1302,
+      "off": 1305,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 1309,
+      "off": 1316,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 4,
+      "on": 1317,
+      "off": 1324,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 1317,
+      "off": 1320,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 4,
+      "on": 1324,
+      "off": 1331,
+      "pitch": 71,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 1332,
+      "off": 1369,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 4,
+      "on": 1332,
+      "off": 1339,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1332,
+      "off": 1335,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1332,
+      "off": 1335,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 1347,
+      "off": 1354,
+      "pitch": 86,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1347,
+      "off": 1350,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 1362,
+      "off": 1367,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1362,
+      "off": 1367,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1362,
+      "off": 1365,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1362,
+      "off": 1365,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 1369,
+      "off": 1376,
+      "pitch": 76,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 1377,
+      "off": 1384,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1377,
+      "off": 1380,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 1384,
+      "off": 1391,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 1392,
+      "off": 1429,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 1392,
+      "off": 1399,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1392,
+      "off": 1395,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1392,
+      "off": 1395,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 4,
+      "on": 1399,
+      "off": 1406,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 1407,
+      "off": 1414,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1407,
+      "off": 1410,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 4,
+      "on": 1414,
+      "off": 1421,
+      "pitch": 55,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 1422,
+      "off": 1429,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1422,
+      "off": 1425,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1422,
+      "off": 1425,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 1429,
+      "off": 1436,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 1437,
+      "off": 1444,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 1437,
+      "off": 1440,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 4,
+      "on": 1444,
+      "off": 1451,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 1452,
+      "off": 1456,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 1452,
+      "off": 1456,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 1452,
+      "off": 1456,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 1452,
+      "off": 1456,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1452,
+      "off": 1455,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1452,
+      "off": 1455,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 1467,
+      "off": 1474,
+      "pitch": 70,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1467,
+      "off": 1470,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 4,
+      "on": 1482,
+      "off": 1489,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1482,
+      "off": 1485,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1482,
+      "off": 1485,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 1497,
+      "off": 1511,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 1497,
+      "off": 1508,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1497,
+      "off": 1508,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 1497,
+      "off": 1504,
+      "pitch": 74,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1497,
+      "off": 1500,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 1512,
+      "off": 1541,
+      "pitch": 50,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 1512,
+      "off": 1519,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1512,
+      "off": 1515,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1512,
+      "off": 1515,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 1527,
+      "off": 1532,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1527,
+      "off": 1532,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 1527,
+      "off": 1534,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1527,
+      "off": 1530,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 1542,
+      "off": 1570,
+      "pitch": 44,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 1542,
+      "off": 1553,
+      "pitch": 60,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1542,
+      "off": 1553,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 1542,
+      "off": 1549,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 1542,
+      "off": 1545,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1542,
+      "off": 1545,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1557,
+      "off": 1560,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 1572,
+      "off": 1586,
+      "pitch": 44,
+      "velocity": 62
+    },
+    {
+      "channel": 4,
+      "on": 1572,
+      "off": 1579,
+      "pitch": 72,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 1572,
+      "off": 1575,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1572,
+      "off": 1575,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 0,
+      "on": 1587,
+      "off": 1615,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 1587,
+      "off": 1598,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1587,
+      "off": 1598,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 1587,
+      "off": 1594,
+      "pitch": 71,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 1587,
+      "off": 1590,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 1602,
+      "off": 1607,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1602,
+      "off": 1607,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1602,
+      "off": 1605,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1602,
+      "off": 1605,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1617,
+      "off": 1620,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 1632,
+      "off": 1646,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 1632,
+      "off": 1635,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1632,
+      "off": 1635,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 0,
+      "on": 1647,
+      "off": 1675,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 1647,
+      "off": 1658,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1647,
+      "off": 1658,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1647,
+      "off": 1650,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 1662,
+      "off": 1665,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1662,
+      "off": 1665,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1677,
+      "off": 1680,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 1692,
+      "off": 1714,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 1692,
+      "off": 1699,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 1692,
+      "off": 1699,
+      "pitch": 64,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 1692,
+      "off": 1699,
+      "pitch": 72,
+      "velocity": 77
+    },
+    {
+      "channel": 9,
+      "on": 1692,
+      "off": 1695,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1692,
+      "off": 1695,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 1707,
+      "off": 1714,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 1707,
+      "off": 1710,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 4,
+      "on": 1722,
+      "off": 1729,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 1722,
+      "off": 1725,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1722,
+      "off": 1725,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 1737,
+      "off": 1751,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 1737,
+      "off": 1740,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 1752,
+      "off": 1774,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 5,
+      "on": 1752,
+      "off": 1757,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 1752,
+      "off": 1757,
+      "pitch": 76,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1752,
+      "off": 1755,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1752,
+      "off": 1755,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 1767,
+      "off": 1772,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1767,
+      "off": 1772,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1767,
+      "off": 1770,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 1782,
+      "off": 1804,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 1782,
+      "off": 1785,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1782,
+      "off": 1785,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1797,
+      "off": 1800,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 1812,
+      "off": 1849,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 9,
+      "on": 1812,
+      "off": 1815,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1812,
+      "off": 1815,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 1827,
+      "off": 1830,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 1842,
+      "off": 1847,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1842,
+      "off": 1847,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1842,
+      "off": 1845,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1842,
+      "off": 1845,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1857,
+      "off": 1860,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 1872,
+      "off": 1909,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 1872,
+      "off": 1875,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1872,
+      "off": 1875,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 1887,
+      "off": 1890,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 1902,
+      "off": 1905,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1902,
+      "off": 1905,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1917,
+      "off": 1920,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 1932,
+      "off": 1946,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 1932,
+      "off": 1939,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 1932,
+      "off": 1939,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 9,
+      "on": 1932,
+      "off": 1935,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1932,
+      "off": 1935,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 1936,
+      "off": 1991,
+      "pitch": 68,
+      "velocity": 76
+    },
+    {
+      "channel": 0,
+      "on": 1947,
+      "off": 1975,
+      "pitch": 46,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 1947,
+      "off": 1958,
+      "pitch": 56,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 1947,
+      "off": 1958,
+      "pitch": 62,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 1947,
+      "off": 1950,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 1962,
+      "off": 1965,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 1962,
+      "off": 1965,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 1977,
+      "off": 1980,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 1992,
+      "off": 2021,
+      "pitch": 53,
+      "velocity": 57
+    },
+    {
+      "channel": 3,
+      "on": 1992,
+      "off": 2006,
+      "pitch": 67,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 1992,
+      "off": 1995,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 1992,
+      "off": 1995,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 2007,
+      "off": 2012,
+      "pitch": 56,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2007,
+      "off": 2012,
+      "pitch": 62,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 2007,
+      "off": 2021,
+      "pitch": 67,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2007,
+      "off": 2010,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 2022,
+      "off": 2050,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 2022,
+      "off": 2033,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2022,
+      "off": 2033,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 2022,
+      "off": 2081,
+      "pitch": 74,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2022,
+      "off": 2025,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2022,
+      "off": 2025,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2037,
+      "off": 2040,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2052,
+      "off": 2089,
+      "pitch": 43,
+      "velocity": 62
+    },
+    {
+      "channel": 9,
+      "on": 2052,
+      "off": 2055,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2052,
+      "off": 2055,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 2067,
+      "off": 2070,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 2082,
+      "off": 2087,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2082,
+      "off": 2087,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 2082,
+      "off": 2110,
+      "pitch": 74,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 2082,
+      "off": 2085,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2082,
+      "off": 2085,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2097,
+      "off": 2100,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 2112,
+      "off": 2126,
+      "pitch": 50,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2112,
+      "off": 2115,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2112,
+      "off": 2115,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 0,
+      "on": 2127,
+      "off": 2155,
+      "pitch": 36,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 2127,
+      "off": 2138,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2127,
+      "off": 2138,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 2127,
+      "off": 2161,
+      "pitch": 73,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 2127,
+      "off": 2130,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 2142,
+      "off": 2145,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2142,
+      "off": 2145,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2157,
+      "off": 2160,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2172,
+      "off": 2194,
+      "pitch": 36,
+      "velocity": 48
+    },
+    {
+      "channel": 3,
+      "on": 2172,
+      "off": 2186,
+      "pitch": 73,
+      "velocity": 85
+    },
+    {
+      "channel": 9,
+      "on": 2172,
+      "off": 2175,
+      "pitch": 36,
+      "velocity": 43
+    },
+    {
+      "channel": 9,
+      "on": 2172,
+      "off": 2175,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 3,
+      "on": 2187,
+      "off": 2201,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 2187,
+      "off": 2190,
+      "pitch": 42,
+      "velocity": 16
+    },
+    {
+      "channel": 3,
+      "on": 2202,
+      "off": 2216,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 2202,
+      "off": 2205,
+      "pitch": 38,
+      "velocity": 35
+    },
+    {
+      "channel": 9,
+      "on": 2202,
+      "off": 2205,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 0,
+      "on": 2217,
+      "off": 2231,
+      "pitch": 35,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2217,
+      "off": 2220,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 0,
+      "on": 2232,
+      "off": 2254,
+      "pitch": 43,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2232,
+      "off": 2235,
+      "pitch": 36,
+      "velocity": 43
+    },
+    {
+      "channel": 9,
+      "on": 2232,
+      "off": 2235,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 3,
+      "on": 2247,
+      "off": 2261,
+      "pitch": 70,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 2247,
+      "off": 2250,
+      "pitch": 42,
+      "velocity": 17
+    },
+    {
+      "channel": 0,
+      "on": 2262,
+      "off": 2284,
+      "pitch": 41,
+      "velocity": 45
+    },
+    {
+      "channel": 3,
+      "on": 2262,
+      "off": 2290,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 2262,
+      "off": 2265,
+      "pitch": 38,
+      "velocity": 35
+    },
+    {
+      "channel": 9,
+      "on": 2262,
+      "off": 2265,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 2277,
+      "off": 2280,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 0,
+      "on": 2292,
+      "off": 2306,
+      "pitch": 41,
+      "velocity": 48
+    },
+    {
+      "channel": 3,
+      "on": 2292,
+      "off": 2306,
+      "pitch": 72,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 2292,
+      "off": 2295,
+      "pitch": 36,
+      "velocity": 43
+    },
+    {
+      "channel": 9,
+      "on": 2292,
+      "off": 2295,
+      "pitch": 42,
+      "velocity": 23
+    },
+    {
+      "channel": 0,
+      "on": 2307,
+      "off": 2335,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 3,
+      "on": 2307,
+      "off": 2341,
+      "pitch": 70,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 2307,
+      "off": 2310,
+      "pitch": 42,
+      "velocity": 16
+    },
+    {
+      "channel": 9,
+      "on": 2322,
+      "off": 2325,
+      "pitch": 38,
+      "velocity": 35
+    },
+    {
+      "channel": 9,
+      "on": 2322,
+      "off": 2325,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 2337,
+      "off": 2340,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 0,
+      "on": 2352,
+      "off": 2389,
+      "pitch": 44,
+      "velocity": 45
+    },
+    {
+      "channel": 3,
+      "on": 2352,
+      "off": 2500,
+      "pitch": 72,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 2352,
+      "off": 2355,
+      "pitch": 36,
+      "velocity": 43
+    },
+    {
+      "channel": 9,
+      "on": 2352,
+      "off": 2355,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 9,
+      "on": 2367,
+      "off": 2370,
+      "pitch": 42,
+      "velocity": 17
+    },
+    {
+      "channel": 9,
+      "on": 2382,
+      "off": 2385,
+      "pitch": 38,
+      "velocity": 35
+    },
+    {
+      "channel": 9,
+      "on": 2382,
+      "off": 2385,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 2397,
+      "off": 2400,
+      "pitch": 42,
+      "velocity": 15
+    },
+    {
+      "channel": 0,
+      "on": 2412,
+      "off": 2449,
+      "pitch": 44,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 2412,
+      "off": 2419,
+      "pitch": 60,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 2412,
+      "off": 2419,
+      "pitch": 67,
+      "velocity": 51
+    },
+    {
+      "channel": 9,
+      "on": 2412,
+      "off": 2415,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2412,
+      "off": 2415,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 2427,
+      "off": 2430,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 2442,
+      "off": 2445,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2442,
+      "off": 2445,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2457,
+      "off": 2460,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 2472,
+      "off": 2501,
+      "pitch": 51,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2472,
+      "off": 2475,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2472,
+      "off": 2475,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 2487,
+      "off": 2492,
+      "pitch": 60,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2487,
+      "off": 2492,
+      "pitch": 67,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 2487,
+      "off": 2490,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 2502,
+      "off": 2521,
+      "pitch": 46,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 2502,
+      "off": 2513,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2502,
+      "off": 2513,
+      "pitch": 68,
+      "velocity": 46
+    },
+    {
+      "channel": 3,
+      "on": 2502,
+      "off": 2521,
+      "pitch": 68,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 2502,
+      "off": 2505,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2502,
+      "off": 2505,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2517,
+      "off": 2520,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2532,
+      "off": 2569,
+      "pitch": 46,
+      "velocity": 62
+    },
+    {
+      "channel": 3,
+      "on": 2532,
+      "off": 2546,
+      "pitch": 68,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 2532,
+      "off": 2535,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2532,
+      "off": 2535,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 3,
+      "on": 2547,
+      "off": 2587,
+      "pitch": 68,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 2547,
+      "off": 2550,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 2562,
+      "off": 2567,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2562,
+      "off": 2567,
+      "pitch": 68,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 2562,
+      "off": 2565,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2562,
+      "off": 2565,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2577,
+      "off": 2580,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 2592,
+      "off": 2629,
+      "pitch": 53,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2592,
+      "off": 2595,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2592,
+      "off": 2595,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 2607,
+      "off": 2610,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 2622,
+      "off": 2625,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2622,
+      "off": 2625,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2637,
+      "off": 2640,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2652,
+      "off": 2674,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 2652,
+      "off": 2659,
+      "pitch": 64,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 2652,
+      "off": 2659,
+      "pitch": 70,
+      "velocity": 51
+    },
+    {
+      "channel": 9,
+      "on": 2652,
+      "off": 2655,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2652,
+      "off": 2655,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 2667,
+      "off": 2670,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 2682,
+      "off": 2685,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2682,
+      "off": 2685,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 2697,
+      "off": 2711,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2697,
+      "off": 2700,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 2712,
+      "off": 2734,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 5,
+      "on": 2712,
+      "off": 2717,
+      "pitch": 76,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 2712,
+      "off": 2717,
+      "pitch": 82,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2712,
+      "off": 2715,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2712,
+      "off": 2715,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 2727,
+      "off": 2732,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2727,
+      "off": 2732,
+      "pitch": 70,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 2727,
+      "off": 2730,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 2742,
+      "off": 2764,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2742,
+      "off": 2745,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2742,
+      "off": 2745,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2757,
+      "off": 2760,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2772,
+      "off": 2809,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 9,
+      "on": 2772,
+      "off": 2775,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2772,
+      "off": 2775,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 2787,
+      "off": 2790,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 2802,
+      "off": 2807,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2802,
+      "off": 2807,
+      "pitch": 70,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 2802,
+      "off": 2805,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2802,
+      "off": 2805,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2817,
+      "off": 2820,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 2832,
+      "off": 2869,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 2832,
+      "off": 2835,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 2832,
+      "off": 2835,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 2847,
+      "off": 2850,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 2862,
+      "off": 2865,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 2862,
+      "off": 2865,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 2877,
+      "off": 2880,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 2892,
+      "off": 2929,
+      "pitch": 41,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 2892,
+      "off": 2899,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 2892,
+      "off": 2899,
+      "pitch": 68,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 2892,
+      "off": 2895,
+      "pitch": 36,
+      "velocity": 49
+    },
+    {
+      "channel": 9,
+      "on": 2892,
+      "off": 2895,
+      "pitch": 42,
+      "velocity": 26
+    },
+    {
+      "channel": 4,
+      "on": 2907,
+      "off": 2914,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2907,
+      "off": 2910,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 2922,
+      "off": 2929,
+      "pitch": 75,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2922,
+      "off": 2925,
+      "pitch": 38,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 2922,
+      "off": 2925,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 4,
+      "on": 2937,
+      "off": 2944,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2937,
+      "off": 2940,
+      "pitch": 42,
+      "velocity": 17
+    },
+    {
+      "channel": 0,
+      "on": 2952,
+      "off": 2989,
+      "pitch": 48,
+      "velocity": 52
+    },
+    {
+      "channel": 4,
+      "on": 2952,
+      "off": 2959,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2952,
+      "off": 2955,
+      "pitch": 36,
+      "velocity": 49
+    },
+    {
+      "channel": 9,
+      "on": 2952,
+      "off": 2955,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 1,
+      "on": 2967,
+      "off": 2972,
+      "pitch": 63,
+      "velocity": 41
+    },
+    {
+      "channel": 1,
+      "on": 2967,
+      "off": 2972,
+      "pitch": 68,
+      "velocity": 41
+    },
+    {
+      "channel": 4,
+      "on": 2967,
+      "off": 2974,
+      "pitch": 82,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2967,
+      "off": 2970,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 2982,
+      "off": 2989,
+      "pitch": 84,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2982,
+      "off": 2985,
+      "pitch": 38,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 2982,
+      "off": 2985,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 4,
+      "on": 2997,
+      "off": 3004,
+      "pitch": 79,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 2997,
+      "off": 3000,
+      "pitch": 42,
+      "velocity": 18
+    },
+    {
+      "channel": 4,
+      "on": 3004,
+      "off": 3011,
+      "pitch": 80,
+      "velocity": 76
+    },
+    {
+      "channel": 0,
+      "on": 3012,
+      "off": 3049,
+      "pitch": 40,
+      "velocity": 56
+    },
+    {
+      "channel": 4,
+      "on": 3012,
+      "off": 3026,
+      "pitch": 79,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 3012,
+      "off": 3015,
+      "pitch": 36,
+      "velocity": 49
+    },
+    {
+      "channel": 9,
+      "on": 3012,
+      "off": 3015,
+      "pitch": 42,
+      "velocity": 26
+    },
+    {
+      "channel": 9,
+      "on": 3027,
+      "off": 3030,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 1,
+      "on": 3042,
+      "off": 3047,
+      "pitch": 62,
+      "velocity": 41
+    },
+    {
+      "channel": 1,
+      "on": 3042,
+      "off": 3047,
+      "pitch": 67,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 3042,
+      "off": 3045,
+      "pitch": 38,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 3042,
+      "off": 3045,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 9,
+      "on": 3057,
+      "off": 3060,
+      "pitch": 42,
+      "velocity": 17
+    },
+    {
+      "channel": 0,
+      "on": 3072,
+      "off": 3109,
+      "pitch": 47,
+      "velocity": 52
+    },
+    {
+      "channel": 9,
+      "on": 3072,
+      "off": 3075,
+      "pitch": 36,
+      "velocity": 49
+    },
+    {
+      "channel": 9,
+      "on": 3072,
+      "off": 3075,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 3087,
+      "off": 3090,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 9,
+      "on": 3102,
+      "off": 3105,
+      "pitch": 38,
+      "velocity": 41
+    },
+    {
+      "channel": 9,
+      "on": 3102,
+      "off": 3105,
+      "pitch": 42,
+      "velocity": 25
+    },
+    {
+      "channel": 4,
+      "on": 3117,
+      "off": 3121,
+      "pitch": 67,
+      "velocity": 79
+    },
+    {
+      "channel": 9,
+      "on": 3117,
+      "off": 3120,
+      "pitch": 42,
+      "velocity": 18
+    },
+    {
+      "channel": 0,
+      "on": 3132,
+      "off": 3154,
+      "pitch": 37,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 3132,
+      "off": 3139,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 3132,
+      "off": 3139,
+      "pitch": 65,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 3132,
+      "off": 3139,
+      "pitch": 66,
+      "velocity": 85
+    },
+    {
+      "channel": 9,
+      "on": 3132,
+      "off": 3135,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3132,
+      "off": 3135,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 3147,
+      "off": 3154,
+      "pitch": 87,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 3147,
+      "off": 3150,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 3162,
+      "off": 3165,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3162,
+      "off": 3165,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 3169,
+      "off": 3176,
+      "pitch": 77,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 3177,
+      "off": 3191,
+      "pitch": 36,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 3177,
+      "off": 3184,
+      "pitch": 75,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 3177,
+      "off": 3180,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 3184,
+      "off": 3191,
+      "pitch": 72,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 3192,
+      "off": 3214,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 3192,
+      "off": 3199,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 5,
+      "on": 3192,
+      "off": 3197,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 3192,
+      "off": 3197,
+      "pitch": 77,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3192,
+      "off": 3195,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3192,
+      "off": 3195,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 4,
+      "on": 3199,
+      "off": 3206,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 1,
+      "on": 3207,
+      "off": 3212,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3207,
+      "off": 3212,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 3207,
+      "off": 3214,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 3207,
+      "off": 3210,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 4,
+      "on": 3214,
+      "off": 3221,
+      "pitch": 59,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 3222,
+      "off": 3244,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 3222,
+      "off": 3229,
+      "pitch": 63,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 3222,
+      "off": 3225,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3222,
+      "off": 3225,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 3229,
+      "off": 3236,
+      "pitch": 65,
+      "velocity": 82
+    },
+    {
+      "channel": 4,
+      "on": 3237,
+      "off": 3244,
+      "pitch": 68,
+      "velocity": 82
+    },
+    {
+      "channel": 9,
+      "on": 3237,
+      "off": 3240,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 4,
+      "on": 3244,
+      "off": 3251,
+      "pitch": 71,
+      "velocity": 82
+    },
+    {
+      "channel": 0,
+      "on": 3252,
+      "off": 3289,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 4,
+      "on": 3252,
+      "off": 3259,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3252,
+      "off": 3255,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3252,
+      "off": 3255,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 3267,
+      "off": 3274,
+      "pitch": 86,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3267,
+      "off": 3270,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 3282,
+      "off": 3287,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3282,
+      "off": 3287,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3282,
+      "off": 3285,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3282,
+      "off": 3285,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 3289,
+      "off": 3296,
+      "pitch": 76,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 3297,
+      "off": 3304,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3297,
+      "off": 3300,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 4,
+      "on": 3304,
+      "off": 3311,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 3312,
+      "off": 3349,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 3312,
+      "off": 3319,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3312,
+      "off": 3315,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3312,
+      "off": 3315,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 4,
+      "on": 3319,
+      "off": 3326,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 3327,
+      "off": 3334,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3327,
+      "off": 3330,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 4,
+      "on": 3334,
+      "off": 3341,
+      "pitch": 55,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 3342,
+      "off": 3349,
+      "pitch": 59,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3342,
+      "off": 3345,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3342,
+      "off": 3345,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 4,
+      "on": 3349,
+      "off": 3356,
+      "pitch": 64,
+      "velocity": 78
+    },
+    {
+      "channel": 4,
+      "on": 3357,
+      "off": 3364,
+      "pitch": 67,
+      "velocity": 78
+    },
+    {
+      "channel": 9,
+      "on": 3357,
+      "off": 3360,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 4,
+      "on": 3364,
+      "off": 3371,
+      "pitch": 71,
+      "velocity": 78
+    },
+    {
+      "channel": 0,
+      "on": 3372,
+      "off": 3376,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 3372,
+      "off": 3376,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 3372,
+      "off": 3376,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 3372,
+      "off": 3376,
+      "pitch": 72,
+      "velocity": 76
+    },
+    {
+      "channel": 9,
+      "on": 3372,
+      "off": 3375,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3372,
+      "off": 3375,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 3387,
+      "off": 3394,
+      "pitch": 70,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3387,
+      "off": 3390,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 4,
+      "on": 3402,
+      "off": 3409,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3402,
+      "off": 3405,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3402,
+      "off": 3405,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 3417,
+      "off": 3431,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 3417,
+      "off": 3428,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3417,
+      "off": 3428,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 3417,
+      "off": 3424,
+      "pitch": 74,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3417,
+      "off": 3420,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 3432,
+      "off": 3461,
+      "pitch": 50,
+      "velocity": 57
+    },
+    {
+      "channel": 4,
+      "on": 3432,
+      "off": 3439,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3432,
+      "off": 3435,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3432,
+      "off": 3435,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 3447,
+      "off": 3452,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3447,
+      "off": 3452,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 3447,
+      "off": 3454,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3447,
+      "off": 3450,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 3462,
+      "off": 3490,
+      "pitch": 44,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 3462,
+      "off": 3473,
+      "pitch": 60,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3462,
+      "off": 3473,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 3462,
+      "off": 3469,
+      "pitch": 72,
+      "velocity": 73
+    },
+    {
+      "channel": 9,
+      "on": 3462,
+      "off": 3465,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3462,
+      "off": 3465,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3477,
+      "off": 3480,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 3492,
+      "off": 3506,
+      "pitch": 44,
+      "velocity": 62
+    },
+    {
+      "channel": 4,
+      "on": 3492,
+      "off": 3499,
+      "pitch": 72,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 3492,
+      "off": 3495,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3492,
+      "off": 3495,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 0,
+      "on": 3507,
+      "off": 3535,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 3507,
+      "off": 3518,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3507,
+      "off": 3518,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 4,
+      "on": 3507,
+      "off": 3514,
+      "pitch": 71,
+      "velocity": 70
+    },
+    {
+      "channel": 9,
+      "on": 3507,
+      "off": 3510,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 3522,
+      "off": 3527,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3522,
+      "off": 3527,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3522,
+      "off": 3525,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3522,
+      "off": 3525,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3537,
+      "off": 3540,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 3552,
+      "off": 3566,
+      "pitch": 44,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 3552,
+      "off": 3555,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3552,
+      "off": 3555,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 0,
+      "on": 3567,
+      "off": 3595,
+      "pitch": 43,
+      "velocity": 56
+    },
+    {
+      "channel": 1,
+      "on": 3567,
+      "off": 3578,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3567,
+      "off": 3578,
+      "pitch": 65,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3567,
+      "off": 3570,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 3582,
+      "off": 3585,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3582,
+      "off": 3585,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3597,
+      "off": 3600,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 3612,
+      "off": 3634,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 3612,
+      "off": 3619,
+      "pitch": 59,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 3612,
+      "off": 3619,
+      "pitch": 64,
+      "velocity": 51
+    },
+    {
+      "channel": 4,
+      "on": 3612,
+      "off": 3619,
+      "pitch": 72,
+      "velocity": 77
+    },
+    {
+      "channel": 9,
+      "on": 3612,
+      "off": 3615,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3612,
+      "off": 3615,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 4,
+      "on": 3627,
+      "off": 3634,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 3627,
+      "off": 3630,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 4,
+      "on": 3642,
+      "off": 3649,
+      "pitch": 76,
+      "velocity": 74
+    },
+    {
+      "channel": 9,
+      "on": 3642,
+      "off": 3645,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3642,
+      "off": 3645,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 0,
+      "on": 3657,
+      "off": 3671,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 3657,
+      "off": 3660,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 3672,
+      "off": 3694,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 5,
+      "on": 3672,
+      "off": 3677,
+      "pitch": 71,
+      "velocity": 55
+    },
+    {
+      "channel": 5,
+      "on": 3672,
+      "off": 3677,
+      "pitch": 76,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3672,
+      "off": 3675,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3672,
+      "off": 3675,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 3687,
+      "off": 3692,
+      "pitch": 59,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3687,
+      "off": 3692,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3687,
+      "off": 3690,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 0,
+      "on": 3702,
+      "off": 3724,
+      "pitch": 35,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 3702,
+      "off": 3705,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3702,
+      "off": 3705,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3717,
+      "off": 3720,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 3732,
+      "off": 3769,
+      "pitch": 36,
+      "velocity": 62
+    },
+    {
+      "channel": 9,
+      "on": 3732,
+      "off": 3735,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3732,
+      "off": 3735,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 3747,
+      "off": 3750,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 1,
+      "on": 3762,
+      "off": 3767,
+      "pitch": 58,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3762,
+      "off": 3767,
+      "pitch": 64,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3762,
+      "off": 3765,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3762,
+      "off": 3765,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3777,
+      "off": 3780,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 3792,
+      "off": 3829,
+      "pitch": 43,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 3792,
+      "off": 3795,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3792,
+      "off": 3795,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 9,
+      "on": 3807,
+      "off": 3810,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 3822,
+      "off": 3825,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3822,
+      "off": 3825,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3837,
+      "off": 3840,
+      "pitch": 42,
+      "velocity": 20
+    },
+    {
+      "channel": 0,
+      "on": 3852,
+      "off": 3889,
+      "pitch": 41,
+      "velocity": 62
+    },
+    {
+      "channel": 1,
+      "on": 3852,
+      "off": 3859,
+      "pitch": 56,
+      "velocity": 51
+    },
+    {
+      "channel": 1,
+      "on": 3852,
+      "off": 3859,
+      "pitch": 63,
+      "velocity": 51
+    },
+    {
+      "channel": 9,
+      "on": 3852,
+      "off": 3855,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3852,
+      "off": 3855,
+      "pitch": 42,
+      "velocity": 29
+    },
+    {
+      "channel": 9,
+      "on": 3867,
+      "off": 3870,
+      "pitch": 42,
+      "velocity": 21
+    },
+    {
+      "channel": 9,
+      "on": 3882,
+      "off": 3885,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3882,
+      "off": 3885,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3897,
+      "off": 3900,
+      "pitch": 42,
+      "velocity": 19
+    },
+    {
+      "channel": 0,
+      "on": 3912,
+      "off": 3949,
+      "pitch": 48,
+      "velocity": 57
+    },
+    {
+      "channel": 9,
+      "on": 3912,
+      "off": 3915,
+      "pitch": 36,
+      "velocity": 55
+    },
+    {
+      "channel": 9,
+      "on": 3912,
+      "off": 3915,
+      "pitch": 42,
+      "velocity": 32
+    },
+    {
+      "channel": 1,
+      "on": 3927,
+      "off": 3932,
+      "pitch": 56,
+      "velocity": 46
+    },
+    {
+      "channel": 1,
+      "on": 3927,
+      "off": 3932,
+      "pitch": 63,
+      "velocity": 46
+    },
+    {
+      "channel": 9,
+      "on": 3927,
+      "off": 3930,
+      "pitch": 42,
+      "velocity": 22
+    },
+    {
+      "channel": 9,
+      "on": 3942,
+      "off": 3945,
+      "pitch": 38,
+      "velocity": 45
+    },
+    {
+      "channel": 9,
+      "on": 3942,
+      "off": 3945,
+      "pitch": 42,
+      "velocity": 27
+    },
+    {
+      "channel": 9,
+      "on": 3957,
+      "off": 3960,
+      "pitch": 42,
+      "velocity": 20
+    }
+  ],
+  "note_count": 790,
+  "edited_note_count": 19,
+  "edits": [
+    {
+      "channel": 3,
+      "pitch": 67,
+      "velocity": 79,
+      "original_on_smf": 3792,
+      "original_off_smf": 3907,
+      "new_on_smf": 3792,
+      "new_off_smf": 3864,
+      "phrase_boundary_smf": 4032,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 56,
+      "velocity": 51,
+      "original_on_smf": 7872,
+      "original_off_smf": 7978,
+      "new_on_smf": 7872,
+      "new_off_smf": 7944,
+      "phrase_boundary_smf": 8112,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 63,
+      "velocity": 51,
+      "original_on_smf": 7872,
+      "original_off_smf": 7978,
+      "new_on_smf": 7872,
+      "new_off_smf": 7944,
+      "phrase_boundary_smf": 8112,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 3,
+      "pitch": 72,
+      "velocity": 76,
+      "original_on_smf": 7872,
+      "original_off_smf": 7987,
+      "new_on_smf": 7872,
+      "new_off_smf": 7944,
+      "phrase_boundary_smf": 8112,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 62,
+      "original_on_smf": 7872,
+      "original_off_smf": 8472,
+      "new_on_smf": 7872,
+      "new_off_smf": 7944,
+      "phrase_boundary_smf": 8112,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 4,
+      "pitch": 67,
+      "velocity": 79,
+      "original_on_smf": 19152,
+      "original_off_smf": 19267,
+      "new_on_smf": 19152,
+      "new_off_smf": 19224,
+      "phrase_boundary_smf": 19392,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 56,
+      "velocity": 51,
+      "original_on_smf": 23232,
+      "original_off_smf": 23338,
+      "new_on_smf": 23232,
+      "new_off_smf": 23304,
+      "phrase_boundary_smf": 23472,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 63,
+      "velocity": 51,
+      "original_on_smf": 23232,
+      "original_off_smf": 23338,
+      "new_on_smf": 23232,
+      "new_off_smf": 23304,
+      "phrase_boundary_smf": 23472,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 4,
+      "pitch": 72,
+      "velocity": 76,
+      "original_on_smf": 23232,
+      "original_off_smf": 23347,
+      "new_on_smf": 23232,
+      "new_off_smf": 23304,
+      "phrase_boundary_smf": 23472,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 62,
+      "original_on_smf": 23232,
+      "original_off_smf": 23832,
+      "new_on_smf": 23232,
+      "new_off_smf": 23304,
+      "phrase_boundary_smf": 23472,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 3,
+      "pitch": 73,
+      "velocity": 79,
+      "original_on_smf": 34032,
+      "original_off_smf": 34738,
+      "new_on_smf": 34032,
+      "new_off_smf": 34584,
+      "phrase_boundary_smf": 34752,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 3,
+      "pitch": 70,
+      "velocity": 78,
+      "original_on_smf": 36912,
+      "original_off_smf": 37623,
+      "new_on_smf": 36912,
+      "new_off_smf": 37464,
+      "phrase_boundary_smf": 37632,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 56,
+      "original_on_smf": 40032,
+      "original_off_smf": 40474,
+      "new_on_smf": 40032,
+      "new_off_smf": 40344,
+      "phrase_boundary_smf": 40512,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 3,
+      "pitch": 68,
+      "velocity": 73,
+      "original_on_smf": 40032,
+      "original_off_smf": 40503,
+      "new_on_smf": 40032,
+      "new_off_smf": 40344,
+      "phrase_boundary_smf": 40512,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 4,
+      "pitch": 67,
+      "velocity": 79,
+      "original_on_smf": 49872,
+      "original_off_smf": 49987,
+      "new_on_smf": 49872,
+      "new_off_smf": 49944,
+      "phrase_boundary_smf": 50112,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 56,
+      "velocity": 51,
+      "original_on_smf": 53952,
+      "original_off_smf": 54058,
+      "new_on_smf": 53952,
+      "new_off_smf": 54024,
+      "phrase_boundary_smf": 54192,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 1,
+      "pitch": 63,
+      "velocity": 51,
+      "original_on_smf": 53952,
+      "original_off_smf": 54058,
+      "new_on_smf": 53952,
+      "new_off_smf": 54024,
+      "phrase_boundary_smf": 54192,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 4,
+      "pitch": 72,
+      "velocity": 76,
+      "original_on_smf": 53952,
+      "original_off_smf": 54067,
+      "new_on_smf": 53952,
+      "new_off_smf": 54024,
+      "phrase_boundary_smf": 54192,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    },
+    {
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 62,
+      "original_on_smf": 53952,
+      "original_off_smf": 54552,
+      "new_on_smf": 53952,
+      "new_off_smf": 54024,
+      "phrase_boundary_smf": 54192,
+      "reason": [
+        "New phrase-ending release; existing source remains unchanged"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "boundary_beat": 8,
+      "keyoff_tick": 241,
+      "next_event_tick": 252,
+      "dispatch_first": 243,
+      "dispatch_last": 249,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 20
+    },
+    {
+      "boundary_beat": 16.5,
+      "keyoff_tick": 496,
+      "next_event_tick": 507,
+      "dispatch_first": 498,
+      "dispatch_last": 504,
+      "bridge_resource": 150,
+      "rationale": "Complete Cmaj9 terminal flourish and its next Fm7 tonic arrival; C7 redirects the new breath toward Fmajor",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 21
+    },
+    {
+      "boundary_beat": 24,
+      "keyoff_tick": 720,
+      "next_event_tick": 732,
+      "dispatch_first": 722,
+      "dispatch_last": 729,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 22
+    },
+    {
+      "boundary_beat": 32,
+      "keyoff_tick": 960,
+      "next_event_tick": 972,
+      "dispatch_first": 962,
+      "dispatch_last": 969,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 23
+    },
+    {
+      "boundary_beat": 40,
+      "keyoff_tick": 1201,
+      "next_event_tick": 1212,
+      "dispatch_first": 1203,
+      "dispatch_last": 1209,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 24
+    },
+    {
+      "boundary_beat": 48.5,
+      "keyoff_tick": 1456,
+      "next_event_tick": 1467,
+      "dispatch_first": 1458,
+      "dispatch_last": 1464,
+      "bridge_resource": 150,
+      "rationale": "Complete Cmaj9 terminal flourish and its next Fm7 tonic arrival; C7 redirects the new breath toward Fmajor",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 25
+    },
+    {
+      "boundary_beat": 56,
+      "keyoff_tick": 1680,
+      "next_event_tick": 1692,
+      "dispatch_first": 1682,
+      "dispatch_last": 1689,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 26
+    },
+    {
+      "boundary_beat": 64,
+      "keyoff_tick": 1920,
+      "next_event_tick": 1932,
+      "dispatch_first": 1922,
+      "dispatch_last": 1929,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 27
+    },
+    {
+      "boundary_beat": 72,
+      "keyoff_tick": 2161,
+      "next_event_tick": 2172,
+      "dispatch_first": 2163,
+      "dispatch_last": 2169,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 28
+    },
+    {
+      "boundary_beat": 78,
+      "keyoff_tick": 2341,
+      "next_event_tick": 2352,
+      "dispatch_first": 2343,
+      "dispatch_last": 2349,
+      "bridge_resource": 154,
+      "rationale": "Eb/G ending shares G/Bb with Gm7; continue ii\u2013V into F",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 29
+    },
+    {
+      "boundary_beat": 84,
+      "keyoff_tick": 2521,
+      "next_event_tick": 2532,
+      "dispatch_first": 2523,
+      "dispatch_last": 2529,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 30
+    },
+    {
+      "boundary_beat": 88,
+      "keyoff_tick": 2640,
+      "next_event_tick": 2652,
+      "dispatch_first": 2642,
+      "dispatch_last": 2649,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 31
+    },
+    {
+      "boundary_beat": 96,
+      "keyoff_tick": 2880,
+      "next_event_tick": 2892,
+      "dispatch_first": 2882,
+      "dispatch_last": 2889,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 32
+    },
+    {
+      "boundary_beat": 104,
+      "keyoff_tick": 3121,
+      "next_event_tick": 3132,
+      "dispatch_first": 3123,
+      "dispatch_last": 3129,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 33
+    },
+    {
+      "boundary_beat": 112.5,
+      "keyoff_tick": 3376,
+      "next_event_tick": 3387,
+      "dispatch_first": 3378,
+      "dispatch_last": 3384,
+      "bridge_resource": 150,
+      "rationale": "Complete Cmaj9 terminal flourish and its next Fm7 tonic arrival; C7 redirects the new breath toward Fmajor",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 34
+    },
+    {
+      "boundary_beat": 120,
+      "keyoff_tick": 3600,
+      "next_event_tick": 3612,
+      "dispatch_first": 3602,
+      "dispatch_last": 3609,
+      "bridge_resource": 149,
+      "rationale": "Em7 upper structure or G7 local dominant receives Cmaj7\u2192C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 35
+    },
+    {
+      "boundary_beat": 128,
+      "keyoff_tick": 3840,
+      "next_event_tick": 3852,
+      "dispatch_first": 3842,
+      "dispatch_last": 3849,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 36
+    },
+    {
+      "boundary_beat": 132,
+      "keyoff_tick": 3960,
+      "next_event_tick": 3972,
+      "dispatch_first": 3962,
+      "dispatch_last": 3969,
+      "bridge_resource": 150,
+      "rationale": "Source C7/C7(b9), Bb9sus4, or Fm7 turnaround connects through C7",
+      "held_keys_at_dispatch": 0,
+      "release_reverb_silence_proven": false,
+      "cue": 37
+    }
+  ],
+  "first_attack": 12,
+  "native_sha256": "e1c8dcb0be10558b21b3a7f6935bd012f63e06d255a41251e6c0930b19b53f05",
+  "midi_sha256": "a8b3cac4d7701a2b504ece831c7b467dcf04ed910ac178fcff3b3eb22b4006b4",
+  "duration_seconds": 66.201324,
+  "worst_wait_ticks": 257,
+  "worst_wait_seconds": 4.283419,
+  "poll_max_ticks": 2,
+  "original_resources_unchanged": true,
+  "native_runtime_tested": false,
+  "human_listening_accepted": false,
+  "live_permission": false
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
+  "status": "COMPLETE_PRESENTATION_SOURCE_CANDIDATE",
+  "save_lineage": "CAKOOD_PRESENTATION_COMPLETE_CANDIDATE_20261009_R1",
+  "new_game_required": true,
+  "source_modules": 46,
+  "typed_static_inputs": 162,
+  "audio_files": 1757,
+  "opening_performed_poses": 64,
+  "credit_cards": 58,
+  "fictional_writers": 8,
+  "objective_checks": {
+    "fresh_coherent_compile": "PASS",
+    "protected_core_and_inventory": "PASS",
+    "opening_indexed_visual_review": "PASS",
+    "emitted_opening_projection": "PASS",
+    "credit_overlay_readers": "PASS_UNIT_FIXTURE",
+    "laf11_bounded_wait": "PASS_UNIT_FIXTURE",
+    "score": "PASS_SIX_BOUNDED_FRESH_PROCESS_EMITTED_CASES",
+    "cold_rebuild_and_staged_closure": "PASS_BYTE_IDENTICAL_TO_TESTED_FINAL_COMPILE"
+  },
+  "unperformed": [
+    "Native full presentation candidate, genuine campaign and ending acceptance",
+    "Subjective listening: audio-input modality unavailable; numerical checks are not a substitute"
+  ],
+  "limitations": [
+    "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
+    "Credits replay is detached credits-only replay; it does not replay or re-claim campaign ending reactions.",
+    "Some source cues expose long natural transition windows. Requests keep gameplay responsive while the single music owner reaches the exact admitted boundary."
+  ],
+  "public_package_contents": [
+    "Editable SCI source and all runtime assets",
+    "Pinned compiler plus corresponding source and licenses",
+    "Editable opening masters, prompts, palette/font references and exporter",
+    "Source-labeled recorded audience/Foley inputs and adaptation records",
+    "Accepted-direction MIDI/native score inputs and portable generators",
+    "Portable bounded checks and explicit status"
+  ],
+  "excluded": [
+    "Private native saves, native proof files and operating protocols",
+    "Private planning/review notes",
+    "Intermediate playable releases"
+  ],
+  "compiled_receipt_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "staged_game_manifest_sha256": "dd335390d46d3316d4246afbab62e104514ad21820502d01f4d3460f25bb3c80"
+}

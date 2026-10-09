@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_OFFICIAL_BROWSER_TEXT_CAPTURE",
+  "captured_utc": "2026-10-09T06:18:00Z",
+  "files": [
+    {
+      "file": "CC-BY-4.0.txt",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "bytes": 18840,
+      "sha256": "68be9cf5a93b63862c99da786b54894b4e30bfeb33806259a77f0c88a73f40d5"
+    },
+    {
+      "file": "CC-BY-3.0.txt",
+      "url": "https://creativecommons.org/licenses/by/3.0/legalcode",
+      "bytes": 23606,
+      "sha256": "92193e8a34b7b1c7be6aff498013b952aa214fd4417160c42d3671c7b250db5b"
+    },
+    {
+      "file": "CC0-1.0.txt",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "bytes": 12767,
+      "sha256": "c57553417c92fa26e5811736a0a6f8386e84fe5b6ce0c8e401841086088af980"
+    }
+  ],
+  "scope": "Offline reference copies of all official page lines; page navigation retained. No source license changed. Direct HTTP returned403, while the official browser read succeeded."
+}

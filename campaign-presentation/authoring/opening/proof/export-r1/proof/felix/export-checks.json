@@ -1,0 +1,690 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/felix-sheet-r3.png",
+    "master_version": "r3",
+    "prompt": "../prompts/felix-sheet-r1.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Reviewed actual source. Measured upright human height cel0 excluding furniture. Explicit shoe ROI avoids chair/bench feet when measuring source anchors.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "felix",
+    "source_anchors": [
+      [
+        186.5,
+        496
+      ],
+      [
+        192.5,
+        496
+      ],
+      [
+        191.5,
+        496
+      ],
+      [
+        191.5,
+        496
+      ],
+      [
+        195.0,
+        496
+      ],
+      [
+        199.0,
+        496
+      ],
+      [
+        198.5,
+        496
+      ],
+      [
+        199.0,
+        496
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "source_shoe_x_roi": [
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ],
+      [
+        70,
+        310
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 480
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 426,
+    "headroom": 21453,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      31360,
+      9416,
+      2880
+    ],
+    "total_bytes": 44082
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/felix/loop00-cel00-indexed.png",
+      "indexed_sha256": "8b8718e3a1bb21e3e02c90e2f156aa4b71a62845fa0842bed6181fbbf5a7ae79",
+      "loop": 0,
+      "pixel_sha256": "eff6da4a123eec683361c74824abcb8af9d8045b1a2a082233741041425c7022",
+      "rgba_path": "cels/felix/loop00-cel00-rgba.png",
+      "rgba_sha256": "edd03b0ac19369f0be5dac605dd21a2573c52e1989fa2ad0dc1cf5acf37b4e60",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/felix/loop00-cel01-indexed.png",
+      "indexed_sha256": "afb83347b6352b8b1674e1aa74a2ae69d54021b9c1fa101d1fd127060878544c",
+      "loop": 0,
+      "pixel_sha256": "3845706355e09c1b179d62ed02ef16c84adbea1f4c474dd8ccdc48c07fa59c8f",
+      "rgba_path": "cels/felix/loop00-cel01-rgba.png",
+      "rgba_sha256": "cdcd26731c66b440163584be00b1ee3846a7c1be9aba76a241341714efc3ba64",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/felix/loop00-cel02-indexed.png",
+      "indexed_sha256": "df3f11c5f59a3635a25399c7aaafea2d3700855802de68fcd074dc7d1556594f",
+      "loop": 0,
+      "pixel_sha256": "637aa2b66a1d267b963561bf7e235ca29bade5086925af09198e9ab6b80a543c",
+      "rgba_path": "cels/felix/loop00-cel02-rgba.png",
+      "rgba_sha256": "6889c93330f70230482867e9c7bf45196ca1882f5dca929dada36c9bc0d4b5ca",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/felix/loop00-cel03-indexed.png",
+      "indexed_sha256": "d97fb871d62e903e24f3f67129370ef8c90f80077ed8e51b393ce1b7b4e1ac1d",
+      "loop": 0,
+      "pixel_sha256": "57e16d6759eed85fb4f784d0a8cb686b6f69b01d0fb8137b22873265f41156f6",
+      "rgba_path": "cels/felix/loop00-cel03-rgba.png",
+      "rgba_sha256": "0686ce7ccde39fb64f55f65e3e4fd05a6128a490aff35f50d23d9b647ae7ae46",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/felix/loop00-cel04-indexed.png",
+      "indexed_sha256": "ab0136e149e6e3a17fec3b81ae414e3f0e88eb62c1f69c98e8e3c0cc12251296",
+      "loop": 0,
+      "pixel_sha256": "335c17e5b30bd41fe37646bc462a602341d30ee76cbd829c51677c5855fcdaef",
+      "rgba_path": "cels/felix/loop00-cel04-rgba.png",
+      "rgba_sha256": "57b0ba849bc24e55f551ea0555071654fdaade663328758f1dd9d3b8a14be34a",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/felix/loop00-cel05-indexed.png",
+      "indexed_sha256": "fe75a11e4c3a21e7adb34bcc9dfd5d517208ecb4ede1951fe9aaaa138316ff9e",
+      "loop": 0,
+      "pixel_sha256": "364fd1f709c175f8d18511dc193ddeb5f441a045d1266cd61fdaf72707978ae7",
+      "rgba_path": "cels/felix/loop00-cel05-rgba.png",
+      "rgba_sha256": "f082453939f05e755251fca19cfa0f1b470863a9b905fe7c496a8e12a64e0845",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/felix/loop00-cel06-indexed.png",
+      "indexed_sha256": "47e59e424d1cdeced52d2e124bf0426caca131db77a1402d29d0518c71455fc0",
+      "loop": 0,
+      "pixel_sha256": "fe1a296bd11fad381fdec9fd707a16dd4713a182be05cb5f1a5effac87bf572f",
+      "rgba_path": "cels/felix/loop00-cel06-rgba.png",
+      "rgba_sha256": "9a24370bd35cbf9bf3a801744a73fc0ff7f2ceb8583fc99b0681860146d0daa7",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/felix/loop00-cel07-indexed.png",
+      "indexed_sha256": "47347f022ab86c3aa5c77328e060f0f8b8f282aba67c78c642582c12a1c342be",
+      "loop": 0,
+      "pixel_sha256": "7130ef6dfa2a3b0379070aeb19280034f3271badc5e6144a54b23b9dbd725242",
+      "rgba_path": "cels/felix/loop00-cel07-rgba.png",
+      "rgba_sha256": "df7d851c296743cd102306acbbc790231cba1a99eedc0a4e3aa6ffa0e7d4ba06",
+      "size": [
+        49,
+        80
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/felix/loop01-cel00-indexed.png",
+      "indexed_sha256": "7e1c3284ea0edb5b0bc276a6425ba9c18aa1dae05a480880d8da6ef7c309bbb4",
+      "loop": 1,
+      "pixel_sha256": "2f57ca93740a775065abaac6c8467bd2ad2cb52f0d0f96debd62a1487228c738",
+      "rgba_path": "cels/felix/loop01-cel00-rgba.png",
+      "rgba_sha256": "03514de58ce3f6609ccd341bcbf61e97dfe14226241472d23a93e77c00d6783c",
+      "size": [
+        107,
+        88
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/felix/loop02-cel00-indexed.png",
+      "indexed_sha256": "25f527d2bd18a44632e955b3037bac9a72e32b4e3452be427032dcf76bd58196",
+      "loop": 2,
+      "pixel_sha256": "5e142bedc74293e46ef6917cf20dd5ce81bf89116bd1277b892c551cf9607630",
+      "rgba_path": "cels/felix/loop02-cel00-rgba.png",
+      "rgba_sha256": "ef4ce04b94496265f204c393e4bd53deb920cca441cf7fa0b432699e45ed71b9",
+      "size": [
+        72,
+        40
+      ]
+    }
+  ],
+  "character": "Felix Bunt",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 2134035,
+          "edit_target": null,
+          "exact_prompt": "prompts/felix-sheet-r1.txt",
+          "generation_reference": "input-references/felix-exact-generation-reference.png",
+          "master": "masters/felix-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "93586f088b0618b6908c45397a56f7de28621d153ff88b4ecf12f2abd8ee2a2c",
+          "sha256": "1cbf96232a2a472b50bf3b67c7d5631960c9f43b4b3b5cc3e8dcb38d712332dc",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/felix-exact-generation-reference.png",
+      "qualification": "accepted stable-body component; actual costume is brown brimmed work hat, blue-gray shirt, olive/brown trousers and tool belt, superseding stale ochre/suspenders wording",
+      "sha256": "102a6c3b1d9a30a70b722b0f6f00184fe6ee663bcef77a20d0811e0341d75c2b",
+      "source": "input-references/felix-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "225-felix-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "0ac11f0630540603af643751aad027aa75e15bf76a90ea53c253cf6b1ab6ab18",
+          "file": "225-felix-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            11,
+            1,
+            41,
+            79
+          ],
+          "pixels_sha256": "da719a0c7911e9b68742f88f0e8ac57f7618c2de8c74abcd65839688b7a2962b",
+          "sha256": "7b04bfde49d2b173ef8cb003fd24eecef7a08e6be5376e01df04f3ecad7a9edb",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "225-felix-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "e2a180662ab9072d3aedbc4dfa3c001c938359c45cff74a81c8d13d3a2ad4c3f",
+          "file": "225-felix-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            12,
+            1,
+            42,
+            79
+          ],
+          "pixels_sha256": "d2f719e562f9a999c6bbfe7b2ff989c57c7d3139611335952db7c76f29afa3b1",
+          "sha256": "9965cdd0b05a00b259f09fac58487ddaea74a2a7d488e8babcebe010525d9a97",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "felix",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/225.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "9089c06bb25195b56d5f8a430e910abbd844d47c021875baa5f5c4d265844f94",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 225
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "303-side-passage-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "213f41712310201aecfbb994ef84581564f20df000d2aef1db1a020a08c2c740",
+          "file": "303-side-passage-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "a923a6247bb7f0fae69020afd8fe8a37de4de61e1206d5ad516695b3da02a284",
+          "sha256": "cd200a10470fd6720d58ec20cb837981e350a8fd8e5db872c3f9c9c561432644",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "side-passage",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/303.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "14243a5b546abc88dc134b2835a94a26e0b75ce24157a7ac19b86b68509eba1d",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 303
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1
+  ],
+  "master_sha256": "1cbf96232a2a472b50bf3b67c7d5631960c9f43b4b3b5cc3e8dcb38d712332dc",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r3",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/felix-sheet-r1.txt",
+  "prompt_sha256": "93586f088b0618b6908c45397a56f7de28621d153ff88b4ecf12f2abd8ee2a2c",
+  "resource_bytes": 44082,
+  "resource_path": "resources/252.view.bin",
+  "resource_sha256": "3939734bf0a8d87182f9b95c7268a2ae281d6d8d8e683d217d2bea2b8241ff41",
+  "slug": "felix",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "8556ab9db3012cdb00f70a57f80b832cd1c5947429086432bb4b9cded5652d77",
+      "screen_opaque_bbox": [
+        100,
+        57,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        72,
+        17,
+        309,
+        497
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        186.5,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        186.5,
+        496
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "6e3fa4092b1dae61426424ffd82e9ca32c262ce3a18d2b2831453e72c4f6fec7",
+      "screen_opaque_bbox": [
+        102,
+        55,
+        142,
+        135
+      ],
+      "source_alpha_bbox": [
+        91,
+        10,
+        338,
+        497
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        192.5,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        576.5,
+        496
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "705cbb64312c3e554184cc85173185ed536def862a3db8ecdf1a0bcd4f80cf32",
+      "screen_opaque_bbox": [
+        102,
+        56,
+        146,
+        135
+      ],
+      "source_alpha_bbox": [
+        89,
+        16,
+        362,
+        497
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        191.5,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        959.5,
+        496
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "ac2110e6ec46ff0a5971f2a2ed19c17167a72387b48eb4106dbf238c6b3892d1",
+      "screen_opaque_bbox": [
+        101,
+        59,
+        143,
+        135
+      ],
+      "source_alpha_bbox": [
+        86,
+        34,
+        342,
+        497
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        191.5,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        1343.5,
+        496
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "127d18cd5241008a6844d77f1c62e7d68acea80691bf67f9600d8ebdbac14e3b",
+      "screen_opaque_bbox": [
+        97,
+        56,
+        137,
+        135
+      ],
+      "source_alpha_bbox": [
+        63,
+        12,
+        311,
+        497
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        195.0,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        195.0,
+        1008
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "38fd610cd9d7a82bd36ee8c0f3d506a4ebf0b2cfcb49a99f2885a21a815bf0f0",
+      "screen_opaque_bbox": [
+        97,
+        57,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        68,
+        18,
+        318,
+        497
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        199.0,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        583.0,
+        1008
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "12b5e6079b8a96db4c5e3fea4815c283c35f51ff1d1e5ca363f3aa2fc92215c6",
+      "screen_opaque_bbox": [
+        98,
+        56,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        71,
+        14,
+        322,
+        497
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        198.5,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        966.5,
+        1008
+      ],
+      "uniform_scale": 0.1625
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "08d9bc7f0d06f358557c5ceb34a322e91ad7542ee871a183f63849d7fd086c40",
+      "screen_opaque_bbox": [
+        99,
+        57,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        77,
+        17,
+        323,
+        497
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        199.0,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        1351.0,
+        1008
+      ],
+      "uniform_scale": 0.1625
+    }
+  ],
+  "source_master": "masters/felix-sheet-r3.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 252
+}

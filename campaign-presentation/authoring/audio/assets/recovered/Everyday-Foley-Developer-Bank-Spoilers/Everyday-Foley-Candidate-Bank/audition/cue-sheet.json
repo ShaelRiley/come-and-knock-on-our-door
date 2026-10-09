@@ -1,0 +1,115 @@
+[
+  {
+    "label": "Doors",
+    "start_seconds": 0.5,
+    "end_seconds": 2.998,
+    "assets": [
+      "door_wood_open_a",
+      "door_wood_open_b",
+      "door_wood_close_a",
+      "door_mechanism_close_b"
+    ]
+  },
+  {
+    "label": "Windows",
+    "start_seconds": 3.988,
+    "end_seconds": 8.688,
+    "assets": [
+      "window_open_a",
+      "window_wood_close_a",
+      "window_close_b"
+    ]
+  },
+  {
+    "label": "Metal object clatters",
+    "start_seconds": 9.678,
+    "end_seconds": 12.727,
+    "assets": [
+      "tray_clatter_a",
+      "tray_clatter_b",
+      "tray_clatter_c"
+    ]
+  },
+  {
+    "label": "Wooden objects",
+    "start_seconds": 13.717,
+    "end_seconds": 14.153,
+    "assets": [
+      "wood_object_contact_a",
+      "wood_object_contact_b"
+    ]
+  },
+  {
+    "label": "Wood footsteps",
+    "start_seconds": 15.143,
+    "end_seconds": 15.537,
+    "assets": [
+      "footstep_wood_a",
+      "footstep_wood_b"
+    ]
+  },
+  {
+    "label": "Carpet footsteps",
+    "start_seconds": 16.527,
+    "end_seconds": 17.299,
+    "assets": [
+      "footstep_carpet_a",
+      "footstep_carpet_b",
+      "footstep_carpet_c"
+    ]
+  },
+  {
+    "label": "Concrete footsteps",
+    "start_seconds": 18.289,
+    "end_seconds": 18.683,
+    "assets": [
+      "footstep_concrete_a",
+      "footstep_concrete_b"
+    ]
+  },
+  {
+    "label": "Soft impacts",
+    "start_seconds": 19.673,
+    "end_seconds": 20.168,
+    "assets": [
+      "impact_soft_a",
+      "impact_soft_b"
+    ]
+  },
+  {
+    "label": "Hard impacts",
+    "start_seconds": 21.158,
+    "end_seconds": 21.743,
+    "assets": [
+      "impact_hard_a",
+      "impact_hard_b"
+    ]
+  },
+  {
+    "label": "Paper handling",
+    "start_seconds": 22.733,
+    "end_seconds": 24.8,
+    "assets": [
+      "paper_pickup_a",
+      "paper_pickup_b"
+    ]
+  },
+  {
+    "label": "Cloth handling",
+    "start_seconds": 25.79,
+    "end_seconds": 26.925,
+    "assets": [
+      "cloth_handle_a",
+      "cloth_handle_b"
+    ]
+  },
+  {
+    "label": "Pages",
+    "start_seconds": 27.915,
+    "end_seconds": 29.213,
+    "assets": [
+      "page_turn_a",
+      "page_turn_b"
+    ]
+  }
+]

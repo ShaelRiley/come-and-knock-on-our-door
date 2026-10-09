@@ -1,0 +1,110 @@
+{
+  "action_cel_starts": [
+    0,
+    24,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 302,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Rita Stringer",
+  "common_transparent_crop_screen": [
+    92,
+    55,
+    137,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      92,
+      55
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      45,
+      80
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      185,
+      26
+    ],
+    "loop": 1,
+    "purpose": "Canonical geometric freeze motif",
+    "size": [
+      116,
+      88
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      188,
+      62
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      108,
+      40
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    118,
+    134
+  ],
+  "slug": "rita",
+  "source_identity_view": 223,
+  "stable_prop_loops": [
+    {
+      "cels": 1,
+      "derive_from_cel": null,
+      "draw": [
+        82,
+        93
+      ],
+      "draw_before_loop0": true,
+      "loop": 3,
+      "pixel_provenance": "NEW_GENERATED_MATCHED_PROP_RECONSTRUCTION_INCLUDING_PREVIOUSLY_OCCLUDED_PIXELS",
+      "purpose": "Stable matched workbench, newly reconstructed complete prop",
+      "size": [
+        34,
+        36
+      ]
+    }
+  ],
+  "uniform_scale": 0.1729490022172949,
+  "view": 251
+}

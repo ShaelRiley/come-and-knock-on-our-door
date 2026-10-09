@@ -1,0 +1,89 @@
+{
+  "schema": "CAKOOD_AUDIENCE_APRON_ART_R1",
+  "master": "masters/audience-apron-background-r1.png",
+  "master_sha256": "e415f2448421e1e29c99a5559eb77cfe2358ee8160f71d248e3ed58c10b0e9ee",
+  "prompt": "prompts/audience-apron-background-r1.txt",
+  "prompt_sha256": "895a48b610462d8ba2d483bd1ff2e1924b76e3fba2000bd87013a40f1dda9294",
+  "one_shared_background": true,
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generated_lettering": false,
+  "less_than_arrow_source": {
+    "resource": "VIEW102",
+    "sha256": "9ffacb480ba6070315869784f6752a6469184ca2e0b437dcbc96e9074d15b179",
+    "crop": [
+      8,
+      68,
+      14,
+      77
+    ]
+  },
+  "hotspots_unchanged": {
+    "return": [
+      8,
+      102,
+      112,
+      134
+    ],
+    "audience": [
+      161,
+      52,
+      307,
+      130
+    ],
+    "notes": [
+      160,
+      2,
+      211,
+      12
+    ]
+  },
+  "resources": [
+    {
+      "view": 102,
+      "path": "audience-apron-r1/102.view.bin",
+      "sha256": "3e57f74ca80aab39c2355808c617900bdd93f70a0cfe30236dabcc7376150cd8",
+      "bytes": 46150,
+      "loop": 0,
+      "cel": 0,
+      "size": [
+        320,
+        144
+      ],
+      "draw": [
+        0,
+        0
+      ],
+      "return_label": "SAME PORCH",
+      "decoded_pixel_equality": true,
+      "opaque_palette_range": [
+        0,
+        217
+      ]
+    },
+    {
+      "view": 103,
+      "path": "audience-apron-r1/103.view.bin",
+      "sha256": "758ffae11a60eedbce4315e48b1c1693e072f514de41ffebca38c86dde75dcb8",
+      "bytes": 46150,
+      "loop": 0,
+      "cel": 0,
+      "size": [
+        320,
+        144
+      ],
+      "draw": [
+        0,
+        0
+      ],
+      "return_label": "SAME LIVING",
+      "decoded_pixel_equality": true,
+      "opaque_palette_range": [
+        0,
+        217
+      ]
+    }
+  ],
+  "scope": "Replaces current prototype audience-apron pixels only; no new interaction or source edits.",
+  "native_verified": false
+}

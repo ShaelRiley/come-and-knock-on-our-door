@@ -1,0 +1,536 @@
+{
+  "schema": 1,
+  "transports": [
+    {
+      "cue": 101,
+      "aliases": [
+        101,
+        104
+      ],
+      "sound": 101,
+      "module": 950,
+      "guard": 260,
+      "sha256": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57",
+      "table_sha256": "02fb53aae26f9f12a36a82a31bf1817d58d8797ded34e9d27c0fc0c28e7e0d4e",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 103,
+      "aliases": [
+        103
+      ],
+      "sound": 103,
+      "module": 951,
+      "guard": 261,
+      "sha256": "8c204a7cd45f43984774079be7c4f5a5264be26af95d1094adeeb4556376d843",
+      "table_sha256": "065865546ca8bde123d4290d7167ba71e2bcdeea2ba011dd0aa304720637fbf3",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 105,
+      "aliases": [
+        105
+      ],
+      "sound": 105,
+      "module": 952,
+      "guard": 262,
+      "sha256": "d6d0d94ef1ba8bf555e1b04711cd382107fe4c8f2545b171d1bbdc7ed676a777",
+      "table_sha256": "4e85de6ed9c317cd0a328718056963ab344253a74bc9909ac5a6247cb65acb2b",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 106,
+      "aliases": [
+        106
+      ],
+      "sound": 106,
+      "module": 953,
+      "guard": 263,
+      "sha256": "bf4ce04560edc4a33e2a760b54d9bba9bc9e6ea562f8999ef3d169e2e64c0623",
+      "table_sha256": "7db7f095e371fda0bd544e449df0786dcfb73467dc5f60f4a0d9d533cd687a50",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 107,
+      "aliases": [
+        107
+      ],
+      "sound": 107,
+      "module": 954,
+      "guard": 264,
+      "sha256": "04be79f63a50c8f92d113b8ecf19d51a9bb7eac89a5b991ed6564cdc254ad700",
+      "table_sha256": "1d24d106483c9001d001e9a5fe1a3916db00371d1286b38083ad14a95df928b5",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 108,
+      "aliases": [
+        108
+      ],
+      "sound": 108,
+      "module": 955,
+      "guard": 265,
+      "sha256": "00d6cffedddfb78230f74da4c287f493ef94738a44d1dd094c333c6f784c20a4",
+      "table_sha256": "a03b6043d951069d70a444cf13eca191694dea5e88ece7168ca7c8f654984d71",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 109,
+      "aliases": [
+        109
+      ],
+      "sound": 109,
+      "module": 956,
+      "guard": 266,
+      "sha256": "b57415d5456dff33843dc6352c957a5340bb3a17661fd7a8b5ce3c6a8326db5b",
+      "table_sha256": "f9b22a2143e58f18110274ceb997a93c032c54931dedde1dbf85403f64a50aff",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 110,
+      "aliases": [
+        110
+      ],
+      "sound": 110,
+      "module": 957,
+      "guard": 267,
+      "sha256": "00d10e35ee3e4c94519720bf6ccd8eb535e670489368d45e2672de9ffd0fa054",
+      "table_sha256": "2e58eee736410efd70d9adecc90d8a68e3d407947da2b3a0941b5c9f583c1910",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 111,
+      "aliases": [
+        111
+      ],
+      "sound": 111,
+      "module": 958,
+      "guard": 268,
+      "sha256": "08a6c486917b34e6ba91b3415ba80dcd252b73e83b8fce7d837664f85c5a1c9b",
+      "table_sha256": "4bca81120166f3c0b721211476a188c90d736d133e35460b68ed56884af2ede2",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 112,
+      "aliases": [
+        112
+      ],
+      "sound": 112,
+      "module": 959,
+      "guard": 269,
+      "sha256": "5c82895f9cb0cb346eac442d948dead0c16ddf9d21de5d8b0c04423442005aa7",
+      "table_sha256": "9709bd3bc6b62efd33fb0d65ec86d67435e00bf6d1dd8a1cfcfbef2d89ec8278",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 113,
+      "aliases": [
+        113
+      ],
+      "sound": 113,
+      "module": 960,
+      "guard": 270,
+      "sha256": "30c75e60f49a5d4cbbf2714e67db9bad1bedb508411e06ea01033aabe7848c82",
+      "table_sha256": "434dfb14da989c23d61c88fa94f458464c7e041dd6455c696ac35692dfbcba9a",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 114,
+      "aliases": [
+        114
+      ],
+      "sound": 114,
+      "module": 961,
+      "guard": 271,
+      "sha256": "7da4c7a17bcfe95159ff3ebd0b747ec3b88746e3f84f176fd8a94d58b09d6f1a",
+      "table_sha256": "4f931d73e9c8eab1b7e89500ecbc77a5c8b2a4d9405f0d794645450a3e9f074e",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 115,
+      "aliases": [
+        115
+      ],
+      "sound": 115,
+      "module": 962,
+      "guard": 272,
+      "sha256": "7975f2a5498eeddd66212ecc8e4553cd2884b3a510689e98cca754e900421d59",
+      "table_sha256": "70713a0c70f21eb227915f79db9bfc6607dd70cd4609e5ae4e4a4ae9b472791c",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 116,
+      "aliases": [
+        116
+      ],
+      "sound": 116,
+      "module": 963,
+      "guard": 273,
+      "sha256": "00ba9c8f454c27996d8f4b03ee1bbd4b56dbc323c582e2232a2a5a74907c0680",
+      "table_sha256": "3e7b8ab595985ee5e02f3a733858982d26d65a4fc153dd10e06dfb34cadced0d",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 117,
+      "aliases": [
+        117
+      ],
+      "sound": 117,
+      "module": 964,
+      "guard": 274,
+      "sha256": "a22eeb062bdeed4d1f8a2ed833787017b36fe048895680409a16d1fd3929109c",
+      "table_sha256": "5dfb06906d2a39108092b37bf519b031a66feaa1c16a2a0e20551fd1a0dfa94d",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 118,
+      "aliases": [
+        118
+      ],
+      "sound": 118,
+      "module": 965,
+      "guard": 275,
+      "sha256": "c90ad7f5a326401f8b1e3a024d11237c44c6a3581adaba42b24fd7844c083900",
+      "table_sha256": "3f2d26e3bfae6dc6417fbd11ee30e0d2ec402f7a29868a42f2913b0967b4a2ea",
+      "full_gain": [
+        110,
+        107,
+        70,
+        112,
+        109,
+        96,
+        94,
+        98
+      ],
+      "reduced_gain": [
+        99,
+        83,
+        0,
+        71,
+        73,
+        44,
+        0,
+        59
+      ]
+    },
+    {
+      "cue": 120,
+      "aliases": [
+        120
+      ],
+      "sound": 120,
+      "module": 966,
+      "guard": 276,
+      "sha256": "fbb3168e375acb49f3cf0a21aa891797d04c35fcf8fd87cd5d6b58439edf6e34",
+      "table_sha256": "a9e8f8f82c2ab7f923b5d1c406a3742d9db2f223cb8023118202e54b5bc660b1",
+      "full_gain": [
+        92,
+        90,
+        59,
+        94,
+        92,
+        81,
+        79,
+        82
+      ],
+      "reduced_gain": [
+        83,
+        70,
+        0,
+        60,
+        62,
+        37,
+        0,
+        49
+      ]
+    }
+  ],
+  "composition_edits": false,
+  "reduced_gain_status": "Role-wise accepted HOME reduction balance; final composed listening gate remains required",
+  "native_acceptance": false
+}

@@ -1,0 +1,167 @@
+{
+  "941": {
+    "homeVerify": 1,
+    "homeValidate": 2
+  },
+  "942": {
+    "contestVerify": 1,
+    "contestValidate": 2
+  },
+  "943": {
+    "rbVerify": 0,
+    "rbAdvanceGeneration": 1,
+    "rbCurrent": 2,
+    "rbTransport": 3,
+    "rbStatic": 4,
+    "rbRetire": 5,
+    "rbFail": 6,
+    "rbStartBed": 7,
+    "rbInit": 8,
+    "rbRequest": 9,
+    "rbContext": 10,
+    "rbEvent": 11,
+    "rbHostCommitted": 12,
+    "rbPreference": 13,
+    "rbStartBridge": 14,
+    "rbBridgeRead": 15,
+    "rbBridgePoll": 16,
+    "rbPoll": 17,
+    "rbBeforeChooser": 18,
+    "rbAfterChooser": 19,
+    "rbValidate": 20,
+    "rbRestoreBegin": 21,
+    "rbRestoreResume": 22,
+    "rbStatus": 23,
+    "rbDisable": 24,
+    "rbAvailable": 25,
+    "rbRestoreReject": 26,
+    "rbHomeRequest": 27,
+    "rbUiState": 28,
+    "rbFailed": 29,
+    "rbCanRetry": 30,
+    "rbHostStatus": 31,
+    "rbRetry": 32,
+    "rbDrawStatus": 33,
+    "rbSaveAdmit": 34,
+    "rbLoadChooser": 35,
+    "rbAdmitProduction": 36,
+    "rbScoreRequest": 37,
+    "rbPresentation": 38,
+    "rbPresentationPosition": 39
+  },
+  "944": {
+    "psInit": 0,
+    "psCommitted": 1,
+    "psPoll": 2,
+    "psPreferences": 3,
+    "psOpeningBegin": 4,
+    "psOpeningPosition": 5,
+    "psOpeningHold": 6,
+    "psOpeningNext": 7,
+    "psOpeningFinish": 8,
+    "psSaveAdmit": 9,
+    "psBeforeChooser": 10,
+    "psAfterChooser": 11,
+    "psRestoreBegin": 12,
+    "psRestoreResume": 13,
+    "psReplayBegin": 14,
+    "psReplayEnd": 15,
+    "psRead": 16,
+    "psStop": 17
+  },
+  "948": {
+    "pmVerify": 0,
+    "pmCue": 1,
+    "pmEdge": 2,
+    "pmReaction": 3,
+    "pmTake": 4,
+    "pmFoley": 5,
+    "pmOpening": 6,
+    "pmHeader": 7
+  },
+  "950": {
+    "cue101ReadyTransport": 0,
+    "cue101Verify": 1,
+    "cue101Validate": 2
+  },
+  "951": {
+    "cue103ReadyTransport": 0,
+    "cue103Verify": 1,
+    "cue103Validate": 2
+  },
+  "952": {
+    "cue105ReadyTransport": 0,
+    "cue105Verify": 1,
+    "cue105Validate": 2
+  },
+  "953": {
+    "cue106ReadyTransport": 0,
+    "cue106Verify": 1,
+    "cue106Validate": 2
+  },
+  "954": {
+    "cue107ReadyTransport": 0,
+    "cue107Verify": 1,
+    "cue107Validate": 2
+  },
+  "955": {
+    "cue108ReadyTransport": 0,
+    "cue108Verify": 1,
+    "cue108Validate": 2
+  },
+  "956": {
+    "cue109ReadyTransport": 0,
+    "cue109Verify": 1,
+    "cue109Validate": 2
+  },
+  "957": {
+    "cue110ReadyTransport": 0,
+    "cue110Verify": 1,
+    "cue110Validate": 2
+  },
+  "958": {
+    "cue111ReadyTransport": 0,
+    "cue111Verify": 1,
+    "cue111Validate": 2
+  },
+  "959": {
+    "cue112ReadyTransport": 0,
+    "cue112Verify": 1,
+    "cue112Validate": 2
+  },
+  "960": {
+    "cue113ReadyTransport": 0,
+    "cue113Verify": 1,
+    "cue113Validate": 2
+  },
+  "961": {
+    "cue114ReadyTransport": 0,
+    "cue114Verify": 1,
+    "cue114Validate": 2
+  },
+  "962": {
+    "cue115ReadyTransport": 0,
+    "cue115Verify": 1,
+    "cue115Validate": 2
+  },
+  "963": {
+    "cue116ReadyTransport": 0,
+    "cue116Verify": 1,
+    "cue116Validate": 2
+  },
+  "964": {
+    "cue117ReadyTransport": 0,
+    "cue117Verify": 1,
+    "cue117Validate": 2
+  },
+  "965": {
+    "cue118ReadyTransport": 0,
+    "cue118Verify": 1,
+    "cue118Validate": 2
+  },
+  "966": {
+    "cue120ReadyTransport": 0,
+    "cue120Verify": 1,
+    "cue120Validate": 2
+  }
+}

@@ -1,0 +1,2179 @@
+{
+  "all_eight_acceptance": false,
+  "characters": [
+    "jackie",
+    "bunny",
+    "frankie",
+    "stringer",
+    "milo",
+    "vivian",
+    "rita",
+    "felix"
+  ],
+  "native_verified": false,
+  "results": [
+    {
+      "alpha_proof": "proof/jackie/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1547
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            108,
+            57,
+            151,
+            135
+          ],
+          "native_transparent_pixels": 2640,
+          "source_alpha_bbox": [
+            65,
+            28,
+            343,
+            527
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 62587,
+          "source_pixels_alpha_below128": 133979,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1623
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            106,
+            57,
+            153,
+            135
+          ],
+          "native_transparent_pixels": 2564,
+          "source_alpha_bbox": [
+            46,
+            28,
+            347,
+            527
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66091,
+          "source_pixels_alpha_below128": 130475,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1571,
+            78
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            105,
+            58,
+            158,
+            135
+          ],
+          "native_transparent_pixels": 2538,
+          "source_alpha_bbox": [
+            34,
+            30,
+            372,
+            522
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67772,
+          "source_pixels_alpha_below128": 149428,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1506,
+            63
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            107,
+            60,
+            151,
+            135
+          ],
+          "native_transparent_pixels": 2618,
+          "source_alpha_bbox": [
+            26,
+            45,
+            307,
+            524
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 64075,
+          "source_pixels_alpha_below128": 111857,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1600
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            105,
+            72,
+            153,
+            135
+          ],
+          "native_transparent_pixels": 2587,
+          "source_alpha_bbox": [
+            52,
+            98,
+            360,
+            506
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65346,
+          "source_pixels_alpha_below128": 131220,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1607
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            106,
+            68,
+            151,
+            135
+          ],
+          "native_transparent_pixels": 2580,
+          "source_alpha_bbox": [
+            69,
+            78,
+            361,
+            505
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66118,
+          "source_pixels_alpha_below128": 130448,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1640
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            107,
+            56,
+            152,
+            135
+          ],
+          "native_transparent_pixels": 2547,
+          "source_alpha_bbox": [
+            54,
+            9,
+            346,
+            513
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67032,
+          "source_pixels_alpha_below128": 129534,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1627
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            106,
+            56,
+            149,
+            135
+          ],
+          "native_transparent_pixels": 2560,
+          "source_alpha_bbox": [
+            64,
+            7,
+            334,
+            512
+          ],
+          "source_alpha_max": 255,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66277,
+          "source_pixels_alpha_below128": 130289,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        53,
+        79
+      ],
+      "fixed_screen_anchor": [
+        122,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.156312625250501,
+      "resource_bytes": 39431,
+      "resource_sha256": "a232ba9035ec1de427be916b5958fc0e67fbc74757b0c3728a6044fe8f0d43f9",
+      "slug": "jackie",
+      "source_alpha_range": [
+        0,
+        255
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "5d33c364895417125283c308460e98c0a07b0e1c72c8834af386f0ac8e8029d6",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/bunny/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1599
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            104,
+            57,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 2746,
+          "source_alpha_bbox": [
+            80,
+            16,
+            315,
+            507
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63024,
+          "source_pixels_alpha_below128": 133584,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1400
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            103,
+            57,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 2945,
+          "source_alpha_bbox": [
+            72,
+            17,
+            298,
+            507
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 55420,
+          "source_pixels_alpha_below128": 141188,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1681
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            94,
+            56,
+            149,
+            135
+          ],
+          "native_transparent_pixels": 2664,
+          "source_alpha_bbox": [
+            31,
+            16,
+            380,
+            508
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66404,
+          "source_pixels_alpha_below128": 130204,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1551
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            99,
+            57,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 2794,
+          "source_alpha_bbox": [
+            88,
+            18,
+            349,
+            508
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 61430,
+          "source_pixels_alpha_below128": 135178,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1605
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            60,
+            142,
+            135
+          ],
+          "native_transparent_pixels": 2740,
+          "source_alpha_bbox": [
+            65,
+            24,
+            339,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63641,
+          "source_pixels_alpha_below128": 132967,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1598
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            59,
+            143,
+            135
+          ],
+          "native_transparent_pixels": 2747,
+          "source_alpha_bbox": [
+            57,
+            19,
+            340,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63153,
+          "source_pixels_alpha_below128": 133455,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1590
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            96,
+            58,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 2755,
+          "source_alpha_bbox": [
+            71,
+            14,
+            351,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63283,
+          "source_pixels_alpha_below128": 133325,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1609
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            58,
+            142,
+            135
+          ],
+          "native_transparent_pixels": 2736,
+          "source_alpha_bbox": [
+            75,
+            17,
+            356,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63326,
+          "source_pixels_alpha_below128": 133282,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        55,
+        79
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.15885947046843177,
+      "resource_bytes": 47571,
+      "resource_sha256": "84f8cc349b72ebb8f1b933ba2c6b21c6ac79090685ceab9aaab1bb8c2e90bd2b",
+      "slug": "bunny",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "23168b61db6539b171021bbf5a3eb5b512f67ae735eef51db38b9943e4dc491c",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/frankie/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1735
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            57,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 1741,
+          "source_alpha_bbox": [
+            113,
+            24,
+            359,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63216,
+          "source_pixels_alpha_below128": 133392,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1739
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            58,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 1737,
+          "source_alpha_bbox": [
+            94,
+            31,
+            347,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63418,
+          "source_pixels_alpha_below128": 133190,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1715
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            99,
+            58,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 1761,
+          "source_alpha_bbox": [
+            80,
+            32,
+            316,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 62185,
+          "source_pixels_alpha_below128": 134423,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1734
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            58,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 1742,
+          "source_alpha_bbox": [
+            71,
+            31,
+            314,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 62800,
+          "source_pixels_alpha_below128": 133808,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1902
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            96,
+            56,
+            140,
+            135
+          ],
+          "native_transparent_pixels": 1574,
+          "source_alpha_bbox": [
+            110,
+            9,
+            373,
+            486
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 68877,
+          "source_pixels_alpha_below128": 127731,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1892
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            56,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 1584,
+          "source_alpha_bbox": [
+            101,
+            12,
+            357,
+            486
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 69114,
+          "source_pixels_alpha_below128": 127494,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1852
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            56,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 1624,
+          "source_alpha_bbox": [
+            95,
+            13,
+            344,
+            486
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67321,
+          "source_pixels_alpha_below128": 129287,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1904
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            56,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 1572,
+          "source_alpha_bbox": [
+            74,
+            12,
+            330,
+            486
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 69491,
+          "source_pixels_alpha_below128": 127117,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        44,
+        79
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.16560509554140126,
+      "resource_bytes": 42952,
+      "resource_sha256": "d6663207f4941872183adb7424e4908d02af317151fcc307e8e250117ece9d53",
+      "slug": "frankie",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "fd262bb7e97fb26b2c5d636c1ef40d22edb7eaa9a6b7bb94e2694a9be1537b6c",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/stringer/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1586
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            100,
+            57,
+            136,
+            135
+          ],
+          "native_transparent_pixels": 2481,
+          "source_alpha_bbox": [
+            23,
+            47,
+            381,
+            443
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65697,
+          "source_pixels_alpha_below128": 130911,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1636
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            61,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 2431,
+          "source_alpha_bbox": [
+            41,
+            71,
+            377,
+            444
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65767,
+          "source_pixels_alpha_below128": 130841,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1527
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            94,
+            70,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 2540,
+          "source_alpha_bbox": [
+            26,
+            117,
+            368,
+            444
+          ],
+          "source_alpha_max": 253,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63805,
+          "source_pixels_alpha_below128": 132803,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1536
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            100,
+            69,
+            143,
+            135
+          ],
+          "native_transparent_pixels": 2531,
+          "source_alpha_bbox": [
+            16,
+            111,
+            366,
+            443
+          ],
+          "source_alpha_max": 253,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 63881,
+          "source_pixels_alpha_below128": 132727,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1566
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            62,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 2501,
+          "source_alpha_bbox": [
+            19,
+            64,
+            380,
+            429
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66252,
+          "source_pixels_alpha_below128": 130356,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1539
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            104,
+            54,
+            133,
+            135
+          ],
+          "native_transparent_pixels": 2528,
+          "source_alpha_bbox": [
+            31,
+            24,
+            383,
+            429
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 64621,
+          "source_pixels_alpha_below128": 131987,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1676
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            52,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 2391,
+          "source_alpha_bbox": [
+            28,
+            13,
+            372,
+            428
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 68229,
+          "source_pixels_alpha_below128": 128379,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1647
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            52,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 2420,
+          "source_alpha_bbox": [
+            15,
+            13,
+            367,
+            428
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66646,
+          "source_pixels_alpha_below128": 129962,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        49,
+        83
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.1984732824427481,
+      "resource_bytes": 50022,
+      "resource_sha256": "4296b3295390cc516e8ce8711822f5c1a9ea05a1e90eba98e9929e132a815122",
+      "slug": "stringer",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "070216dd03eae79f7500c9316cbe235009c33a8df520cbfd7202ceda5f12e289",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/milo/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1427
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            57,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 3643,
+          "source_alpha_bbox": [
+            87,
+            15,
+            292,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 53984,
+          "source_pixels_alpha_below128": 142624,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1514
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            57,
+            148,
+            135
+          ],
+          "native_transparent_pixels": 3556,
+          "source_alpha_bbox": [
+            63,
+            16,
+            350,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 57431,
+          "source_pixels_alpha_below128": 139177,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1437
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            58,
+            136,
+            135
+          ],
+          "native_transparent_pixels": 3633,
+          "source_alpha_bbox": [
+            67,
+            26,
+            285,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 54525,
+          "source_pixels_alpha_below128": 115459,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1711
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            85,
+            57,
+            146,
+            135
+          ],
+          "native_transparent_pixels": 3359,
+          "source_alpha_bbox": [
+            32,
+            13,
+            409,
+            494
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 64985,
+          "source_pixels_alpha_below128": 158247,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1698
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            91,
+            58,
+            150,
+            135
+          ],
+          "native_transparent_pixels": 3372,
+          "source_alpha_bbox": [
+            24,
+            12,
+            388,
+            483
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 64500,
+          "source_pixels_alpha_below128": 140300,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1726
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            90,
+            59,
+            148,
+            135
+          ],
+          "native_transparent_pixels": 3344,
+          "source_alpha_bbox": [
+            10,
+            16,
+            367,
+            483
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65321,
+          "source_pixels_alpha_below128": 123095,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1726
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            90,
+            59,
+            146,
+            135
+          ],
+          "native_transparent_pixels": 3344,
+          "source_alpha_bbox": [
+            16,
+            15,
+            360,
+            483
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65409,
+          "source_pixels_alpha_below128": 131199,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1627
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            59,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 3443,
+          "source_alpha_bbox": [
+            52,
+            16,
+            329,
+            483
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 62061,
+          "source_pixels_alpha_below128": 134547,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        65,
+        78
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.16216216216216217,
+      "resource_bytes": 54039,
+      "resource_sha256": "289273e6a762f446691055c785d3e08719cf2bf67b96d67116ccc43ca2397cd5",
+      "slug": "milo",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "876069a0152bc8b63e741ef8522a36954fca3a488946d267c372a75c6ffad722",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/vivian/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1497
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            103,
+            57,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 2023,
+          "source_alpha_bbox": [
+            140,
+            22,
+            344,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 55100,
+          "source_pixels_alpha_below128": 141508,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1582
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            57,
+            140,
+            135
+          ],
+          "native_transparent_pixels": 1938,
+          "source_alpha_bbox": [
+            104,
+            22,
+            335,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 58471,
+          "source_pixels_alpha_below128": 138137,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1598
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            57,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 1922,
+          "source_alpha_bbox": [
+            72,
+            22,
+            282,
+            496
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 59587,
+          "source_pixels_alpha_below128": 137021,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1600
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            103,
+            56,
+            134,
+            135
+          ],
+          "native_transparent_pixels": 1920,
+          "source_alpha_bbox": [
+            59,
+            22,
+            248,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 59104,
+          "source_pixels_alpha_below128": 137504,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1552
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            56,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 1968,
+          "source_alpha_bbox": [
+            109,
+            10,
+            314,
+            488
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 57513,
+          "source_pixels_alpha_below128": 139095,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1736
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            56,
+            142,
+            135
+          ],
+          "native_transparent_pixels": 1784,
+          "source_alpha_bbox": [
+            83,
+            10,
+            350,
+            488
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 64548,
+          "source_pixels_alpha_below128": 132060,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1595
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            56,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 1925,
+          "source_alpha_bbox": [
+            48,
+            9,
+            287,
+            488
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 59275,
+          "source_pixels_alpha_below128": 137333,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1660
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            55,
+            141,
+            135
+          ],
+          "native_transparent_pixels": 1860,
+          "source_alpha_bbox": [
+            38,
+            5,
+            275,
+            488
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 61338,
+          "source_pixels_alpha_below128": 135270,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        44,
+        80
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.16455696202531644,
+      "resource_bytes": 62113,
+      "resource_sha256": "75e97c7f00463559a6d0b611dac3730071d08a93dea0929873456d9cbde98513",
+      "slug": "vivian",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "0e0b87c9957a983f793cb16cd9e1dedc3039a37ea3c846bbad3a60810e2d248d",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/rita/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1698
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            92,
+            57,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 1902,
+          "source_alpha_bbox": [
+            49,
+            44,
+            355,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 77534,
+          "source_pixels_alpha_below128": 119074,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1599
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            103,
+            57,
+            134,
+            135
+          ],
+          "native_transparent_pixels": 2001,
+          "source_alpha_bbox": [
+            44,
+            44,
+            328,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 71782,
+          "source_pixels_alpha_below128": 124826,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1638
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            99,
+            57,
+            134,
+            135
+          ],
+          "native_transparent_pixels": 1962,
+          "source_alpha_bbox": [
+            41,
+            44,
+            322,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 72828,
+          "source_pixels_alpha_below128": 123780,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1678
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            56,
+            134,
+            135
+          ],
+          "native_transparent_pixels": 1922,
+          "source_alpha_bbox": [
+            38,
+            41,
+            316,
+            495
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 73633,
+          "source_pixels_alpha_below128": 122975,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1712
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            99,
+            57,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 1888,
+          "source_alpha_bbox": [
+            49,
+            24,
+            351,
+            475
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 77143,
+          "source_pixels_alpha_below128": 119465,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1689
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            95,
+            59,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 1911,
+          "source_alpha_bbox": [
+            44,
+            39,
+            361,
+            474
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 77538,
+          "source_pixels_alpha_below128": 119070,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1664
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            55,
+            135,
+            135
+          ],
+          "native_transparent_pixels": 1936,
+          "source_alpha_bbox": [
+            40,
+            17,
+            329,
+            475
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 74331,
+          "source_pixels_alpha_below128": 122277,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1718
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            55,
+            136,
+            135
+          ],
+          "native_transparent_pixels": 1882,
+          "source_alpha_bbox": [
+            37,
+            15,
+            336,
+            474
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 76594,
+          "source_pixels_alpha_below128": 120014,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        45,
+        80
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.1729490022172949,
+      "resource_bytes": 45030,
+      "resource_sha256": "abc2eabdb392f94a825c7793d0f284a9ac86b50c1c9c71b7e09bb781e4965a2f",
+      "slug": "rita",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "ce0f099db2f0cd1cf8ad4cbca4bb9f957e1b57fb0d579d18d083aa1fb79b9c5c",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    },
+    {
+      "alpha_proof": "proof/felix/four-background-alpha-2x.png",
+      "cells": [
+        {
+          "cel": 0,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1734
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            100,
+            57,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 2186,
+          "source_alpha_bbox": [
+            72,
+            17,
+            309,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 65917,
+          "source_pixels_alpha_below128": 130691,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 1,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1768
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            55,
+            142,
+            135
+          ],
+          "native_transparent_pixels": 2152,
+          "source_alpha_bbox": [
+            91,
+            10,
+            338,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66524,
+          "source_pixels_alpha_below128": 130084,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 2,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1786
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            102,
+            56,
+            146,
+            135
+          ],
+          "native_transparent_pixels": 2134,
+          "source_alpha_bbox": [
+            89,
+            16,
+            362,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67429,
+          "source_pixels_alpha_below128": 129179,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 3,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1741
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            101,
+            59,
+            143,
+            135
+          ],
+          "native_transparent_pixels": 2179,
+          "source_alpha_bbox": [
+            86,
+            34,
+            342,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 66088,
+          "source_pixels_alpha_below128": 130520,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 4,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1773
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            56,
+            137,
+            135
+          ],
+          "native_transparent_pixels": 2147,
+          "source_alpha_bbox": [
+            63,
+            12,
+            311,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67251,
+          "source_pixels_alpha_below128": 129357,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 5,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1789
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            97,
+            57,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 2131,
+          "source_alpha_bbox": [
+            68,
+            18,
+            318,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67742,
+          "source_pixels_alpha_below128": 128866,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 6,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1782
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            98,
+            56,
+            138,
+            135
+          ],
+          "native_transparent_pixels": 2138,
+          "source_alpha_bbox": [
+            71,
+            14,
+            322,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67586,
+          "source_pixels_alpha_below128": 129022,
+          "transparent_composite_pixels_equal_actual_background": true
+        },
+        {
+          "cel": 7,
+          "decoded_indexed_pixels_equal": true,
+          "native_8connected_component_sizes": [
+            1779
+          ],
+          "native_alpha_values": [
+            0,
+            255
+          ],
+          "native_screen_opaque_bbox": [
+            99,
+            57,
+            139,
+            135
+          ],
+          "native_transparent_pixels": 2141,
+          "source_alpha_bbox": [
+            77,
+            17,
+            323,
+            497
+          ],
+          "source_alpha_max": 254,
+          "source_alpha_min": 0,
+          "source_border_opaque_pixel_count": 0,
+          "source_pixels_alpha_atleast128": 67266,
+          "source_pixels_alpha_below128": 129342,
+          "transparent_composite_pixels_equal_actual_background": true
+        }
+      ],
+      "common_cel_size": [
+        49,
+        80
+      ],
+      "fixed_screen_anchor": [
+        118,
+        134
+      ],
+      "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+      "one_common_scale": 0.1625,
+      "resource_bytes": 44082,
+      "resource_sha256": "3939734bf0a8d87182f9b95c7268a2ae281d6d8d8e683d217d2bea2b8241ff41",
+      "slug": "felix",
+      "source_alpha_range": [
+        0,
+        254
+      ],
+      "source_corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_master_sha256": "1cbf96232a2a472b50bf3b67c7d5631960c9f43b4b3b5cc3e8dcb38d712332dc",
+      "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+    }
+  ],
+  "status": "PARTIAL_EXPORT_SOURCE_AND_PIXEL_GATES_PASS"
+}

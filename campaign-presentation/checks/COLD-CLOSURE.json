@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COLD_REPRODUCIBLE_STAGE",
+  "compile_receipt_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "modules": 46,
+  "typed_resources": 254,
+  "audio_files": 1757,
+  "game_manifest_sha256": "dd335390d46d3316d4246afbab62e104514ad21820502d01f4d3460f25bb3c80",
+  "same_emitted_bytes_as_tested_candidate": true,
+  "all_runtime_assets_exact": true,
+  "legacy_opening_views_absent": true,
+  "native_launched": false,
+  "native_acceptance": false
+}

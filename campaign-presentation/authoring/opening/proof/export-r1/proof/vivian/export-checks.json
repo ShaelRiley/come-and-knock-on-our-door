@@ -1,0 +1,684 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/vivian-sheet-r4.png",
+    "master_version": "r4",
+    "prompt": "../prompts/vivian-visible-swatches-r3.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Reviewed corrected r4: both teal and cream swatches visible in all8 sourcecels. One source anatomyheight474; individual paired-shoe anchors registered to screeny134.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "vivian",
+    "source_anchors": [
+      [
+        232.5,
+        495
+      ],
+      [
+        202.0,
+        495
+      ],
+      [
+        169.0,
+        495
+      ],
+      [
+        153.0,
+        496
+      ],
+      [
+        211.0,
+        487
+      ],
+      [
+        206.0,
+        487
+      ],
+      [
+        151.0,
+        487
+      ],
+      [
+        140.5,
+        487
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 474
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 478,
+    "headroom": 3422,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      28160,
+      9379,
+      3360,
+      20736
+    ],
+    "total_bytes": 62113
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/vivian/loop00-cel00-indexed.png",
+      "indexed_sha256": "c38a1497b0173568313658f89d540671d6298ecf6e01737cbff1c05b56f2de92",
+      "loop": 0,
+      "pixel_sha256": "c7b0f2f6691f246a6fa4ff1115f16d8eb4b1c2b86abe86ff77fe054502c5fbd9",
+      "rgba_path": "cels/vivian/loop00-cel00-rgba.png",
+      "rgba_sha256": "c0237b8c6c38223a17651dc000358c7505601284b1a46dc0ccf3a33baed4ee61",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/vivian/loop00-cel01-indexed.png",
+      "indexed_sha256": "0f9c4a601e40dc1919c36120f985a5b9988beaad9663074f3490c0a57b1308b0",
+      "loop": 0,
+      "pixel_sha256": "7a52119b310d8db301ce2c093f327b2296b83965de9bfc986e042dd948f8a2f0",
+      "rgba_path": "cels/vivian/loop00-cel01-rgba.png",
+      "rgba_sha256": "fd53cb6c03bac624c91e25f6b6da48875fd871cfcc8acc78603cff3451571de6",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/vivian/loop00-cel02-indexed.png",
+      "indexed_sha256": "34325f5267edde194431ec7d3c9f93da9ace3187b77385bfb54f44fb24596446",
+      "loop": 0,
+      "pixel_sha256": "1a1e79405dd498c2deab3731f5c2b9f0d9e42dc2f7db4b2cc4bb681daa2cfa0d",
+      "rgba_path": "cels/vivian/loop00-cel02-rgba.png",
+      "rgba_sha256": "fad8fd1b2f898a038107feb690c42ba697d7205a39d481f3f4800e170476d734",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/vivian/loop00-cel03-indexed.png",
+      "indexed_sha256": "a2633a49dd0da8674033d08f582200deaafd0882eb674fdd3a375b7d81fa47ee",
+      "loop": 0,
+      "pixel_sha256": "1092195cbcf6baab8163053ee4ac65c532584fc66730de29a1a2080da0cee9c6",
+      "rgba_path": "cels/vivian/loop00-cel03-rgba.png",
+      "rgba_sha256": "d144390441fcc00e54ae7c9e0bbebf979b94d0724c20c06af2bb7e5670ca82df",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/vivian/loop00-cel04-indexed.png",
+      "indexed_sha256": "648d3570e842fb88df3ae8dfbc2ae1e81f3a79ae12f5bf3573c1c79b48742fac",
+      "loop": 0,
+      "pixel_sha256": "03d6381d862f12b01d38faf771c5a88035f7a6c41da06d52e6a0dacd83fbe6e5",
+      "rgba_path": "cels/vivian/loop00-cel04-rgba.png",
+      "rgba_sha256": "277ef137155d56d4f1e79265c8b85626461b3dd60fb7651f62c6a0702b957561",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/vivian/loop00-cel05-indexed.png",
+      "indexed_sha256": "9c841909b5bf477b837aada48c139802ce1456a8ffe0ddb760c7eb359605f631",
+      "loop": 0,
+      "pixel_sha256": "4cfc5911a5ced503241d311da267ec6bb9b6452af3d643171e4dbd6bc99bb3f3",
+      "rgba_path": "cels/vivian/loop00-cel05-rgba.png",
+      "rgba_sha256": "984a66a10fc6dd17e5671e8d1e1533094789c5ab564ea065cbf8e3cc3f341205",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/vivian/loop00-cel06-indexed.png",
+      "indexed_sha256": "b604e318954f94060b88f3de5dda553c69c40b050ca71e1e327e3edcd4419623",
+      "loop": 0,
+      "pixel_sha256": "83e6f51106953dfa8985899d7f3c0137f4f24034fda29f13ed48b7db82cb1bbd",
+      "rgba_path": "cels/vivian/loop00-cel06-rgba.png",
+      "rgba_sha256": "eaa700203768d18a2f72dac484bc962f07bd8ecbe85a350ede91c1d7ddb942da",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/vivian/loop00-cel07-indexed.png",
+      "indexed_sha256": "006845a4c1edf2c513ccd8ed7a4c75b2467133011dc9a2ed08d79b46df2f5b4d",
+      "loop": 0,
+      "pixel_sha256": "673dcfaedd750e11e79d29eae8e8eb33c3dfeb754d752b63e85fa63e37b63f5f",
+      "rgba_path": "cels/vivian/loop00-cel07-rgba.png",
+      "rgba_sha256": "9e326d20e35079cac325d7ef131d4ce5f6d1e0d22673d6a1a0c532c48cad3ce4",
+      "size": [
+        44,
+        80
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/vivian/loop01-cel00-indexed.png",
+      "indexed_sha256": "b158ac2355f84c1c3426584963e919dfe7982157ab12e276d83bb8d98b7ecdd8",
+      "loop": 1,
+      "pixel_sha256": "2bb5a6620d100753097c986edbb9ef8abaac3c687c72479273412d0a281f96f0",
+      "rgba_path": "cels/vivian/loop01-cel00-rgba.png",
+      "rgba_sha256": "eded8dc30c4092e39847e18c836d26b0c8a570d417f283e930cd6b12bbd7bda6",
+      "size": [
+        113,
+        83
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/vivian/loop02-cel00-indexed.png",
+      "indexed_sha256": "5bfff2c80cbc98a770ef1857a6d6fce306ce562e6f74bb9bc73606eb3343d6f4",
+      "loop": 2,
+      "pixel_sha256": "911687f134839536acf7c8fe56fc25ef199708424e5db422ae73dc41d30e5590",
+      "rgba_path": "cels/vivian/loop02-cel00-rgba.png",
+      "rgba_sha256": "162dea1170dfe55243722a03629f48ff46572838c8d7cf29e8b0e1b1aba7a8f9",
+      "size": [
+        84,
+        40
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/vivian/loop03-cel00-indexed.png",
+      "indexed_sha256": "e88b84256e634526faacac6ad2e6eaa5f165cd9e30a5ee47581d677ebbf32c21",
+      "loop": 3,
+      "pixel_sha256": "f2d21c8242d4bb8f1b6655863cd8bda0112513e4042a132ec3671e4a4e1da274",
+      "rgba_path": "cels/vivian/loop03-cel00-rgba.png",
+      "rgba_sha256": "d3c96c05dbc09855295e09f633f4329bba1e145a8a3b61a8e58ee05397eb126a",
+      "size": [
+        288,
+        72
+      ]
+    }
+  ],
+  "character": "Vivian Voss",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1942960,
+          "edit_target": "masters/vivian-sheet-r2.png",
+          "exact_prompt": "prompts/vivian-visible-swatches-r3.txt",
+          "generation_reference": null,
+          "master": "masters/vivian-sheet-r4.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "00efcd3ddaab36699bf08d587ea7646dd8105eee6141df50319b36cdb8692b2e",
+          "sha256": "0e0b87c9957a983f793cb16cd9e1dedc3039a37ea3c846bbad3a60810e2d248d",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1910124,
+          "edit_target": null,
+          "exact_prompt": "prompts/vivian-sheet-r1.txt",
+          "generation_reference": "input-references/vivian-exact-generation-reference.png",
+          "master": "masters/vivian-sheet-r2.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "d12da3e9e0ca1b20aa9a90234b361535374de54c2b3c64d2ac725abc8381dee4",
+          "sha256": "cc097a4193625c80e2524a6df1d93fb75773e1e92a354f4fee6f7e080eb5f5c5",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/vivian-exact-generation-reference.png",
+      "qualification": "accepted reconstruction; actual costume is plum vest over cream blouse and plum trousers, superseding stale jacket wording",
+      "sha256": "8ce956077f33ddde7a8f075bf83622faec6f1ea35596c40bedb986fad625de9e",
+      "source": "input-references/vivian-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        4,
+        4
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "236-vivian-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "b85703d31e978f07f26367191c47f07a9e870512ab138aeb2aa123150f7fd291",
+          "file": "236-vivian-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            11,
+            3,
+            40,
+            78
+          ],
+          "pixels_sha256": "778ad12ec34123aac43db60347996db2470d64bfbbaf693dbe56ff09a375f868",
+          "sha256": "a2eef102cb8f4c4a8ff4c8d8571facd1a75a9bd1b03b5f50e4ca08b8f2fcf452",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "236-vivian-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "751ae2e45cd5440e91deb76862158c063492114f76e53581816d64a76c72ff80",
+          "file": "236-vivian-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            12,
+            3,
+            41,
+            78
+          ],
+          "pixels_sha256": "e81390deebf7abe6ccfc7732102cfaa797686a5a1a8a3551ec615aaaa9d8f23d",
+          "sha256": "f207d27ae759ca4387792e2bdf40c3d415292d20daa69781e94b324d95339259",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "vivian",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/236.view.bin",
+      "source_bytes": 33618,
+      "source_sha256": "16e7b984909b7a47fe348476cc2ba525024b69f87d82ca516801d57a1fb704b2",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 236
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "100-porch-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "e0d38169e08e2c9036513ab4e6460df31e13057ff230bc606ba1afe40d64b506",
+          "file": "100-porch-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "40940044f31bc973dad938475ec8ab78953427308c5eb472e9821cda5bdcb267",
+          "sha256": "dd2e59b367398a136eb8609baf77860ac00d6784430523114154d7fd25fac36a",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "porch",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/100.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "5492d69090c6c6a63bed3810a1171c9f9334e44e9c64c0713c086fd95129e231",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 100
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1,
+    1
+  ],
+  "master_sha256": "0e0b87c9957a983f793cb16cd9e1dedc3039a37ea3c846bbad3a60810e2d248d",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r4",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/vivian-visible-swatches-r3.txt",
+  "prompt_sha256": "00efcd3ddaab36699bf08d587ea7646dd8105eee6141df50319b36cdb8692b2e",
+  "resource_bytes": 62113,
+  "resource_path": "resources/250.view.bin",
+  "resource_sha256": "75e97c7f00463559a6d0b611dac3730071d08a93dea0929873456d9cbde98513",
+  "slug": "vivian",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "0f1816c189aaa2bb2064b342ff1648746871fe058eec9ff9d153dfd5ce391be9",
+      "screen_opaque_bbox": [
+        103,
+        57,
+        137,
+        135
+      ],
+      "source_alpha_bbox": [
+        140,
+        22,
+        344,
+        496
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        232.5,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        232.5,
+        495
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "b1c8b5ef2a0c4c4682fa70fe974028f10035e3d2d5f4cd4e24bcac700e5fcab8",
+      "screen_opaque_bbox": [
+        102,
+        57,
+        140,
+        135
+      ],
+      "source_alpha_bbox": [
+        104,
+        22,
+        335,
+        496
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        202.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        586.0,
+        495
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "f8c85c273df56218214d8a3db0d82194c9e746a15cdaa3dae43386170d64f26c",
+      "screen_opaque_bbox": [
+        102,
+        57,
+        137,
+        135
+      ],
+      "source_alpha_bbox": [
+        72,
+        22,
+        282,
+        496
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        169.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        937.0,
+        495
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "3143daeaaff24516e0dfa8e13c9501bcea16b58f5770ec5c23dab61c5c771c4c",
+      "screen_opaque_bbox": [
+        103,
+        56,
+        134,
+        135
+      ],
+      "source_alpha_bbox": [
+        59,
+        22,
+        248,
+        497
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        153.0,
+        496
+      ],
+      "source_shoe_anchor_sheet": [
+        1305.0,
+        496
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "8d259019321793b377724511e57101bb94ab9bcbe93b085394abf4b4e7890172",
+      "screen_opaque_bbox": [
+        102,
+        56,
+        135,
+        135
+      ],
+      "source_alpha_bbox": [
+        109,
+        10,
+        314,
+        488
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        211.0,
+        487
+      ],
+      "source_shoe_anchor_sheet": [
+        211.0,
+        999
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "ab3fda279c6c982000de139b1ae85b1bc6c611e072782958a536b20cb178e6b5",
+      "screen_opaque_bbox": [
+        98,
+        56,
+        142,
+        135
+      ],
+      "source_alpha_bbox": [
+        83,
+        10,
+        350,
+        488
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        206.0,
+        487
+      ],
+      "source_shoe_anchor_sheet": [
+        590.0,
+        999
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "adf82d02e9b5ef525a117ce00f69489a70fc78198103b312089b3b3b09df524c",
+      "screen_opaque_bbox": [
+        101,
+        56,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        48,
+        9,
+        287,
+        488
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        151.0,
+        487
+      ],
+      "source_shoe_anchor_sheet": [
+        919.0,
+        999
+      ],
+      "uniform_scale": 0.16455696202531644
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "187c2243aed6cb9fd916c001060f17363e9f0ce3311471d7d5fcda66a7103e7c",
+      "screen_opaque_bbox": [
+        102,
+        55,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        38,
+        5,
+        275,
+        488
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        140.5,
+        487
+      ],
+      "source_shoe_anchor_sheet": [
+        1292.5,
+        999
+      ],
+      "uniform_scale": 0.16455696202531644
+    }
+  ],
+  "source_master": "masters/vivian-sheet-r4.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 250
+}

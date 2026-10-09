@@ -1,0 +1,84 @@
+{
+  "allocation": {
+    "sound": 220,
+    "name": "BRIDGE_PORCH_F_TO_CONSERVATORY_G",
+    "no_other_conditional_sounds": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
+    ]
+  },
+  "derivation": {
+    "source_resource": 153,
+    "source_path": "source/assets/resources/153.sound.bin",
+    "source_sha256": "f0ceebf883a1aa0e1abc323a31484e2ed5c3f24352d0bc847020f134238df008",
+    "pitch_change_semitones": 2,
+    "source_harmony": "Gm7 to C7",
+    "derived_harmony": "Am7 to D7 resolving to G target",
+    "preserve_exactly": [
+      "event timing",
+      "velocity",
+      "controller events",
+      "program events",
+      "tempo",
+      "source153 bytes"
+    ],
+    "derivative_hash_requirement": "Record generated220 bytes and transformation proof before admission; no clipping or percussion-key transposition."
+  },
+  "edges": [
+    {
+      "source": 104,
+      "target": 109,
+      "connector": 220,
+      "evidence": "Main p02Exit room0 porch object16 reaches room6 conservatory; before p03Approved."
+    },
+    {
+      "source": 104,
+      "target": 110,
+      "connector": 220,
+      "evidence": "Same legal travel; after committed p03Approved."
+    },
+    {
+      "source": 109,
+      "target": 110,
+      "connector": 220,
+      "evidence": "SCRIPT983 p03GiveSlate sets p03Approved only on actual approved-credit commit; differing note arrangement requires an explicit admitted transition."
+    }
+  ]
+}

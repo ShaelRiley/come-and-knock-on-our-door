@@ -1,0 +1,656 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/jackie-sheet-r1.png",
+    "master_version": "r1",
+    "prompt": "../prompts/jackie-sheet-r1.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Reviewed actual master. Shoe-span center from lowest40source rows; fixed bottom-most sole pixel. Upright height measured cel0 head/hair through sole, exclusive of props; same scale retained through all poses. Jackie cel2/3 split moved to empty x1124 seam to retain entire airborne lid. Cel4 registration anchor y snaps one native pixel downward after nearest sampling dropped the original sole tip; no scale or pixel alteration.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      122,
+      134
+    ],
+    "slug": "jackie",
+    "source_anchors": [
+      [
+        158.0,
+        526
+      ],
+      [
+        150.5,
+        526
+      ],
+      [
+        142.5,
+        521
+      ],
+      [
+        126.0,
+        523
+      ],
+      [
+        164.5,
+        498.6025641025641
+      ],
+      [
+        177.0,
+        504
+      ],
+      [
+        155.5,
+        512
+      ],
+      [
+        166.0,
+        511
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        362,
+        543
+      ],
+      [
+        362,
+        0,
+        724,
+        543
+      ],
+      [
+        724,
+        0,
+        1124,
+        543
+      ],
+      [
+        1124,
+        0,
+        1448,
+        543
+      ],
+      [
+        0,
+        543,
+        362,
+        1086
+      ],
+      [
+        362,
+        543,
+        724,
+        1086
+      ],
+      [
+        724,
+        543,
+        1086,
+        1086
+      ],
+      [
+        1086,
+        543,
+        1448,
+        1086
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 499
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 426,
+    "headroom": 26104,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      33496,
+      3397,
+      2112
+    ],
+    "total_bytes": 39431
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/jackie/loop00-cel00-indexed.png",
+      "indexed_sha256": "271862369281a52db25e4d835dca962145c17b70478986274447db68a69464d4",
+      "loop": 0,
+      "pixel_sha256": "75cb818ee7e7aed307fec036f33d1d322a290b19307ce0cc550ae95ad9488ce2",
+      "rgba_path": "cels/jackie/loop00-cel00-rgba.png",
+      "rgba_sha256": "e5c0f87f44852107167c070187e89f62151956687c9c5de37d5d19d98cd929dc",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/jackie/loop00-cel01-indexed.png",
+      "indexed_sha256": "d499de947d296738381d7ec0a6e3bd10781b7ba74d77dd820112e7685a5b8a51",
+      "loop": 0,
+      "pixel_sha256": "88923a2e6e537f8a173c3ec55f2cd91aeba41ac9d377c7a62632d03edf7bee37",
+      "rgba_path": "cels/jackie/loop00-cel01-rgba.png",
+      "rgba_sha256": "e58f7e0881cf19b079e1a85ea6acce207c8edb4789bdfbecd354195469374986",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/jackie/loop00-cel02-indexed.png",
+      "indexed_sha256": "e2b9b81e434f6f6e98098b8d9fdb32ebc905b6f9f1dc9d425abc9de2294fcc44",
+      "loop": 0,
+      "pixel_sha256": "d4a6da8c6ba961e75a403edd54927ceadea5830932e25c0bf678d924f01d27e5",
+      "rgba_path": "cels/jackie/loop00-cel02-rgba.png",
+      "rgba_sha256": "2674beb594e499d56ba5841bf22359390d29811b74b610b698fa0d309c5792c0",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/jackie/loop00-cel03-indexed.png",
+      "indexed_sha256": "a1f6b2a6581d65336700f825b0fed75ee504c37ff1dbd1e7c0adf3ddb1002be7",
+      "loop": 0,
+      "pixel_sha256": "7da3751b2a67f1770b35610f8c9048d1f4a0182cb5f3cc53020420503c3c730f",
+      "rgba_path": "cels/jackie/loop00-cel03-rgba.png",
+      "rgba_sha256": "d190667d2baf132983985c0e4c5ba162ca53e775af001174ea2e58480eddb827",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/jackie/loop00-cel04-indexed.png",
+      "indexed_sha256": "1bf908836170e9981ad9a83ff83c624f25e44bbe8a2e9d52d02a610f02dc4baa",
+      "loop": 0,
+      "pixel_sha256": "ed25e06fa3c45f8ee390f02562e3c7973581b3f1c140e246504cf291d7ce5401",
+      "rgba_path": "cels/jackie/loop00-cel04-rgba.png",
+      "rgba_sha256": "ed5691b5e1c47dd26db4cdf2f7d0a66ee3dce15bc8c176dc39cde47ec50c136e",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/jackie/loop00-cel05-indexed.png",
+      "indexed_sha256": "dfffdb6c00862b1ff81b9e5c3de2a6539359c2df822d5bc1348e48727f035650",
+      "loop": 0,
+      "pixel_sha256": "36f1c8df387daf8590525d7ad1bfac2451701930b102d77167e0973a39a892e6",
+      "rgba_path": "cels/jackie/loop00-cel05-rgba.png",
+      "rgba_sha256": "18bb7a872815c42a07e9c7c61fff0923dfe67128913c8815af3eb9a6cbd4a154",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/jackie/loop00-cel06-indexed.png",
+      "indexed_sha256": "61e08983e4f682f3438d31aeda1fd25a1d3dcae671514f8d563eaea81aeea628",
+      "loop": 0,
+      "pixel_sha256": "d87bc450db872fb88be04092ffa668f4c34010282ee43cf740bbe39ce5467f59",
+      "rgba_path": "cels/jackie/loop00-cel06-rgba.png",
+      "rgba_sha256": "7a8814b24141f4f937139ef2447f62a3ab9dfbe14d62cec3985ac21795334300",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/jackie/loop00-cel07-indexed.png",
+      "indexed_sha256": "c6f2fade4549dc70dac00b9bd819ad3d554811bd28b0e96f1377c8920a2c5bed",
+      "loop": 0,
+      "pixel_sha256": "87c5ffe70c52e2c5c8f8007cffb060e099c48928890770a92f6f764b391b3084",
+      "rgba_path": "cels/jackie/loop00-cel07-rgba.png",
+      "rgba_sha256": "acd55b5ba69b79dd385647bb24bbe88dd2ca2ffee785c8cc49bebf202c65dc4d",
+      "size": [
+        53,
+        79
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/jackie/loop01-cel00-indexed.png",
+      "indexed_sha256": "b0133e5456ba921d61fbad99220637b6cafc2a783ef037ef2a1fe52b1734ed60",
+      "loop": 1,
+      "pixel_sha256": "7c516d5274df90c42178340258ad07ee7f495f71bb61340feed82a72f39a77fb",
+      "rgba_path": "cels/jackie/loop01-cel00-rgba.png",
+      "rgba_sha256": "e5a228306d68f97cbe3ddd8d553674c21685a0ba08c069d00a16d5b1952b9dc2",
+      "size": [
+        43,
+        79
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/jackie/loop02-cel00-indexed.png",
+      "indexed_sha256": "15f9c10826e21aa4b4405e544a5887eb4c8969267389b34de60b63fb71d84b62",
+      "loop": 2,
+      "pixel_sha256": "056f3928826cad40516c0b46a02ea90b1f5e8804f928602e624622c89991c5f0",
+      "rgba_path": "cels/jackie/loop02-cel00-rgba.png",
+      "rgba_sha256": "27512a166790d350619d4ec18210222be62ef89fdd1ecc48766c7ad4063e6377",
+      "size": [
+        132,
+        16
+      ]
+    }
+  ],
+  "character": "Jackie Tree",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1396115,
+          "edit_target": null,
+          "exact_prompt": "prompts/jackie-sheet-r1.txt",
+          "generation_reference": "input-references/jackie-exact-generation-reference.png",
+          "master": "masters/jackie-sheet-r1.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "e1c9b5112c2e5203b229f5447b10017c46bc51d2090e799983e140b623a580ac",
+          "sha256": "5d33c364895417125283c308460e98c0a07b0e1c72c8834af386f0ac8e8029d6",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/jackie-exact-generation-reference.png",
+      "qualification": "accepted master; teal polo, cream collar/cuffs, blue-violet trousers",
+      "sha256": "088f3af4218b1b4b25a438df0e23620040ae5875dc493994fc3b17ebe36c0d37",
+      "source": "input-references/jackie-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        5,
+        5
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "214-jackie-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "cb0066c3e4c7e78904e223307c6e0e06f9b412ac1898949ffa7573cc10c9cc6a",
+          "file": "214-jackie-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            11,
+            1,
+            38,
+            79
+          ],
+          "pixels_sha256": "5f78b6f76f090ff406e273f9732b34283b9f3e3b2c206bd0f1f23464826e80bd",
+          "sha256": "64494bc6598edfd6083efdfd44ccd5c1e96b8abe615c35d5f042832fdddb354d",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "214-jackie-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "c6458834b5bd1c50d269806a5027352cbf1f082415aa9eb31471bdd68554b9a3",
+          "file": "214-jackie-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            15,
+            1,
+            42,
+            79
+          ],
+          "pixels_sha256": "b3b25f6eac914542b1da70ab49d8d445cd1e281aee8732a892aaabbd5ec2c807",
+          "sha256": "e93b14d882805b357176e328d0aba6396a63a1ba30f78cb3d5af378a29cff03a",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "jackie",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/214.view.bin",
+      "source_bytes": 42010,
+      "source_sha256": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 214
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "300-kitchen-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "b4894e8d182a00d1e92461143d099d6e5bf550dbf429b0104536ac8d06b5ce26",
+          "file": "300-kitchen-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "4d36eab5c8eaddb85bfbe51604e6686f830db023b34d1db4e2aa1d2bd7508d3d",
+          "sha256": "2c4f4da6832f7c0d1b95a808401de7873788821edf31ed6605703e387fb1b361",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "kitchen",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/300.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 300
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1
+  ],
+  "master_sha256": "5d33c364895417125283c308460e98c0a07b0e1c72c8834af386f0ac8e8029d6",
+  "master_size": [
+    1448,
+    1086
+  ],
+  "master_version": "r1",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/jackie-sheet-r1.txt",
+  "prompt_sha256": "e1c9b5112c2e5203b229f5447b10017c46bc51d2090e799983e140b623a580ac",
+  "resource_bytes": 39431,
+  "resource_path": "resources/245.view.bin",
+  "resource_sha256": "a232ba9035ec1de427be916b5958fc0e67fbc74757b0c3728a6044fe8f0d43f9",
+  "slug": "jackie",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "ddf2a9954a32c7d1762253907f1f603efa14d778322fe195ad805e57a73bf5fc",
+      "screen_opaque_bbox": [
+        108,
+        57,
+        151,
+        135
+      ],
+      "source_alpha_bbox": [
+        65,
+        28,
+        343,
+        527
+      ],
+      "source_rect": [
+        0,
+        0,
+        362,
+        543
+      ],
+      "source_shoe_anchor_cell": [
+        158.0,
+        526
+      ],
+      "source_shoe_anchor_sheet": [
+        158.0,
+        526
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "682a0b88a3147e1233e0e1d24c8ae86c374c6552186b94f212509c9af5bfc332",
+      "screen_opaque_bbox": [
+        106,
+        57,
+        153,
+        135
+      ],
+      "source_alpha_bbox": [
+        46,
+        28,
+        347,
+        527
+      ],
+      "source_rect": [
+        362,
+        0,
+        724,
+        543
+      ],
+      "source_shoe_anchor_cell": [
+        150.5,
+        526
+      ],
+      "source_shoe_anchor_sheet": [
+        512.5,
+        526
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "bfa2a6b64a8a2e8b9d33a02a14d25b3c4fc82ce8894f8d210039d8ced2d156c5",
+      "screen_opaque_bbox": [
+        105,
+        58,
+        158,
+        135
+      ],
+      "source_alpha_bbox": [
+        34,
+        30,
+        372,
+        522
+      ],
+      "source_rect": [
+        724,
+        0,
+        1124,
+        543
+      ],
+      "source_shoe_anchor_cell": [
+        142.5,
+        521
+      ],
+      "source_shoe_anchor_sheet": [
+        866.5,
+        521
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "1697244ff22dddf2ea0028526a8cb401f51ac2ee9774a38b7e168c4f6e367cff",
+      "screen_opaque_bbox": [
+        107,
+        60,
+        151,
+        135
+      ],
+      "source_alpha_bbox": [
+        26,
+        45,
+        307,
+        524
+      ],
+      "source_rect": [
+        1124,
+        0,
+        1448,
+        543
+      ],
+      "source_shoe_anchor_cell": [
+        126.0,
+        523
+      ],
+      "source_shoe_anchor_sheet": [
+        1250.0,
+        523
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "461a6ab1939749ffb2d92d45187e60800724f5961337b2203e78c4759d06f3df",
+      "screen_opaque_bbox": [
+        105,
+        72,
+        153,
+        135
+      ],
+      "source_alpha_bbox": [
+        52,
+        98,
+        360,
+        506
+      ],
+      "source_rect": [
+        0,
+        543,
+        362,
+        1086
+      ],
+      "source_shoe_anchor_cell": [
+        164.5,
+        498.6025641025641
+      ],
+      "source_shoe_anchor_sheet": [
+        164.5,
+        1041.602564102564
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "f5922de1355e0219f10d3026983aacc4e20ec590d2034adb14c164a1618944fc",
+      "screen_opaque_bbox": [
+        106,
+        68,
+        151,
+        135
+      ],
+      "source_alpha_bbox": [
+        69,
+        78,
+        361,
+        505
+      ],
+      "source_rect": [
+        362,
+        543,
+        724,
+        1086
+      ],
+      "source_shoe_anchor_cell": [
+        177.0,
+        504
+      ],
+      "source_shoe_anchor_sheet": [
+        539.0,
+        1047
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "eef4936816cfa2666f8fc621700993444f000c1767c6334d9434bdedc4c092ec",
+      "screen_opaque_bbox": [
+        107,
+        56,
+        152,
+        135
+      ],
+      "source_alpha_bbox": [
+        54,
+        9,
+        346,
+        513
+      ],
+      "source_rect": [
+        724,
+        543,
+        1086,
+        1086
+      ],
+      "source_shoe_anchor_cell": [
+        155.5,
+        512
+      ],
+      "source_shoe_anchor_sheet": [
+        879.5,
+        1055
+      ],
+      "uniform_scale": 0.156312625250501
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "7511fbb74bdc42d3463ae2eb5fe9f882fc39a24224fe80800a8c7e011bd7a215",
+      "screen_opaque_bbox": [
+        106,
+        56,
+        149,
+        135
+      ],
+      "source_alpha_bbox": [
+        64,
+        7,
+        334,
+        512
+      ],
+      "source_rect": [
+        1086,
+        543,
+        1448,
+        1086
+      ],
+      "source_shoe_anchor_cell": [
+        166.0,
+        511
+      ],
+      "source_shoe_anchor_sheet": [
+        1252.0,
+        1054
+      ],
+      "uniform_scale": 0.156312625250501
+    }
+  ],
+  "source_master": "masters/jackie-sheet-r1.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 245
+}

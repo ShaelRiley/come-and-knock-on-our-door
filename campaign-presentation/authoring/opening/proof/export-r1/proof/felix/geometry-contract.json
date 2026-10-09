@@ -1,0 +1,93 @@
+{
+  "action_cel_starts": [
+    0,
+    24,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108
+  ],
+  "background_view": 303,
+  "canvas": [
+    320,
+    200
+  ],
+  "card_end_exclusive": 360,
+  "character": "Felix Bunt",
+  "common_transparent_crop_screen": [
+    97,
+    55,
+    146,
+    135
+  ],
+  "controls_band": [
+    0,
+    144,
+    320,
+    200
+  ],
+  "freeze_panel": [
+    166,
+    0,
+    320,
+    144
+  ],
+  "freeze_panel_palette_index": 10,
+  "freeze_start": 120,
+  "loop0": {
+    "cels": 8,
+    "draw": [
+      97,
+      55
+    ],
+    "loop": 0,
+    "purpose": "Eight distinct performed action poses; cel7 freezes",
+    "size": [
+      49,
+      80
+    ]
+  },
+  "loop1": {
+    "cels": 1,
+    "draw": [
+      190,
+      25
+    ],
+    "loop": 1,
+    "purpose": "Canonical geometric freeze motif",
+    "size": [
+      107,
+      88
+    ]
+  },
+  "loop2": {
+    "cels": 1,
+    "draw": [
+      206,
+      62
+    ],
+    "loop": 2,
+    "purpose": "Exact name in unmodified original font0 glyph shapes",
+    "size": [
+      72,
+      40
+    ]
+  },
+  "nominal_upright_height": 78,
+  "scene": [
+    320,
+    144
+  ],
+  "schema": "CAKOOD_OPENING_GEOMETRY_R2",
+  "screen_feet": [
+    118,
+    134
+  ],
+  "slug": "felix",
+  "source_identity_view": 225,
+  "stable_prop_loops": [],
+  "uniform_scale": 0.1625,
+  "view": 252
+}

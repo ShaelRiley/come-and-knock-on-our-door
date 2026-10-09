@@ -1,0 +1,1385 @@
+{
+  "method": "4kHz mono exported candidates,1s window every0.25s, exact/scaled overlap screen; not perceptual audition",
+  "pairs": [
+    {
+      "source_a": 138112,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.152789
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.141479
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.125839
+    },
+    {
+      "source_a": 678668,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.123432
+    },
+    {
+      "source_a": 763957,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.122446
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.11843
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.117202
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.117096
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.116476
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.1161
+    },
+    {
+      "source_a": 763950,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.109756
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.107532
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.106754
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.106565
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.10581
+    },
+    {
+      "source_a": 763959,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.105512
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.103022
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.101545
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.0983
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.098084
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.098034
+    },
+    {
+      "source_a": 72843,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.097842
+    },
+    {
+      "source_a": 138112,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.097463
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.096761
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.096285
+    },
+    {
+      "source_a": 763961,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.0961
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.095769
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.095763
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.094997
+    },
+    {
+      "source_a": 763951,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.094755
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.094273
+    },
+    {
+      "source_a": 72843,
+      "source_b": 138112,
+      "max_one_second_correlation": 0.094049
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.093805
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.093064
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.092962
+    },
+    {
+      "source_a": 763952,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.092815
+    },
+    {
+      "source_a": 138112,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.092446
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.091823
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.091717
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.09167
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.090861
+    },
+    {
+      "source_a": 763957,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.09085
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.090212
+    },
+    {
+      "source_a": 25296,
+      "source_b": 72842,
+      "max_one_second_correlation": 0.090162
+    },
+    {
+      "source_a": 82386,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.089697
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.089628
+    },
+    {
+      "source_a": 72842,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.089123
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.087931
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.087764
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.087515
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.087487
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.087486
+    },
+    {
+      "source_a": 25296,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.087198
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.087028
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.087005
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.086855
+    },
+    {
+      "source_a": 72842,
+      "source_b": 138112,
+      "max_one_second_correlation": 0.086716
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.08671
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.086353
+    },
+    {
+      "source_a": 763959,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.086329
+    },
+    {
+      "source_a": 72842,
+      "source_b": 82386,
+      "max_one_second_correlation": 0.086256
+    },
+    {
+      "source_a": 25296,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.086251
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.086145
+    },
+    {
+      "source_a": 72843,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.085838
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.08569
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.085608
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.085522
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.085472
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.085411
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.085276
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.085262
+    },
+    {
+      "source_a": 138112,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.08519
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.085159
+    },
+    {
+      "source_a": 25296,
+      "source_b": 138112,
+      "max_one_second_correlation": 0.084961
+    },
+    {
+      "source_a": 138112,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.084939
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.084917
+    },
+    {
+      "source_a": 763957,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.084769
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.084679
+    },
+    {
+      "source_a": 82386,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.083937
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.08391
+    },
+    {
+      "source_a": 25296,
+      "source_b": 381375,
+      "max_one_second_correlation": 0.083786
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.083728
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.082949
+    },
+    {
+      "source_a": 678668,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.082948
+    },
+    {
+      "source_a": 25296,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.082845
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.082491
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.082449
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.082417
+    },
+    {
+      "source_a": 72842,
+      "source_b": 72843,
+      "max_one_second_correlation": 0.082355
+    },
+    {
+      "source_a": 72843,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.082329
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.08214
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.081858
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.081561
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.081533
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.081499
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.081392
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.081196
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.081189
+    },
+    {
+      "source_a": 82386,
+      "source_b": 381375,
+      "max_one_second_correlation": 0.08101
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.080981
+    },
+    {
+      "source_a": 72842,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.08088
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.080871
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.080823
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.080758
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.080625
+    },
+    {
+      "source_a": 82386,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.08046
+    },
+    {
+      "source_a": 763958,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.080207
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.080205
+    },
+    {
+      "source_a": 72842,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.080192
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.080174
+    },
+    {
+      "source_a": 581528,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.080113
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.079774
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.079746
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.079537
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.079456
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.079215
+    },
+    {
+      "source_a": 763957,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.078901
+    },
+    {
+      "source_a": 72843,
+      "source_b": 381375,
+      "max_one_second_correlation": 0.078784
+    },
+    {
+      "source_a": 25296,
+      "source_b": 72843,
+      "max_one_second_correlation": 0.078765
+    },
+    {
+      "source_a": 72842,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.078554
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.07849
+    },
+    {
+      "source_a": 82386,
+      "source_b": 138112,
+      "max_one_second_correlation": 0.078138
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.077808
+    },
+    {
+      "source_a": 25296,
+      "source_b": 82386,
+      "max_one_second_correlation": 0.077585
+    },
+    {
+      "source_a": 381375,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.077468
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.077455
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.077401
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.077215
+    },
+    {
+      "source_a": 25296,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.077147
+    },
+    {
+      "source_a": 381375,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.077017
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.077009
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.076874
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.076847
+    },
+    {
+      "source_a": 581528,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.076778
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.076493
+    },
+    {
+      "source_a": 381375,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.076483
+    },
+    {
+      "source_a": 763958,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.076421
+    },
+    {
+      "source_a": 678669,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.076402
+    },
+    {
+      "source_a": 763957,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.07633
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.076323
+    },
+    {
+      "source_a": 381375,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.076289
+    },
+    {
+      "source_a": 678668,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.076002
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.075886
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.07586
+    },
+    {
+      "source_a": 763959,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.075361
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.074973
+    },
+    {
+      "source_a": 72842,
+      "source_b": 381375,
+      "max_one_second_correlation": 0.074813
+    },
+    {
+      "source_a": 581528,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.074745
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.074697
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.074387
+    },
+    {
+      "source_a": 82386,
+      "source_b": 581528,
+      "max_one_second_correlation": 0.073871
+    },
+    {
+      "source_a": 763956,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.073769
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.07344
+    },
+    {
+      "source_a": 72842,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.073261
+    },
+    {
+      "source_a": 72843,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.07321
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.073162
+    },
+    {
+      "source_a": 25296,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.072824
+    },
+    {
+      "source_a": 763958,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.072508
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.072424
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.072363
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.072064
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.071934
+    },
+    {
+      "source_a": 763958,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.0715
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.071467
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.071455
+    },
+    {
+      "source_a": 763957,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.071435
+    },
+    {
+      "source_a": 138112,
+      "source_b": 381375,
+      "max_one_second_correlation": 0.071401
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.071387
+    },
+    {
+      "source_a": 678669,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.071365
+    },
+    {
+      "source_a": 763958,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.070919
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.070856
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.070465
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.070438
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.070426
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.070418
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.070108
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.069997
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.069986
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.069739
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.069597
+    },
+    {
+      "source_a": 763959,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.069552
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.069452
+    },
+    {
+      "source_a": 752711,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.069428
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.069306
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.069289
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.069138
+    },
+    {
+      "source_a": 381375,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.069136
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.069
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.068924
+    },
+    {
+      "source_a": 763952,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.068919
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.068878
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.068465
+    },
+    {
+      "source_a": 25296,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.06839
+    },
+    {
+      "source_a": 72843,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.06821
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.068129
+    },
+    {
+      "source_a": 581528,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.068103
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.068027
+    },
+    {
+      "source_a": 72843,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.067608
+    },
+    {
+      "source_a": 678670,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.067521
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.067515
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.067363
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.067198
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.066566
+    },
+    {
+      "source_a": 82386,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.066099
+    },
+    {
+      "source_a": 138112,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.06608
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.06601
+    },
+    {
+      "source_a": 763956,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.065917
+    },
+    {
+      "source_a": 763960,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.065495
+    },
+    {
+      "source_a": 763950,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.065351
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.064846
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.064424
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.064196
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.063934
+    },
+    {
+      "source_a": 381375,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.063919
+    },
+    {
+      "source_a": 82386,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.06389
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763952,
+      "max_one_second_correlation": 0.063679
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.063482
+    },
+    {
+      "source_a": 752711,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.063362
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.062747
+    },
+    {
+      "source_a": 678669,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.062738
+    },
+    {
+      "source_a": 72842,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.062664
+    },
+    {
+      "source_a": 581528,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.062657
+    },
+    {
+      "source_a": 25296,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.062556
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.06233
+    },
+    {
+      "source_a": 381375,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.062282
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.062104
+    },
+    {
+      "source_a": 763960,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.061948
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.061762
+    },
+    {
+      "source_a": 763960,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.061745
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.061358
+    },
+    {
+      "source_a": 581528,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.061112
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763957,
+      "max_one_second_correlation": 0.060695
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.060032
+    },
+    {
+      "source_a": 72842,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.059658
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.058947
+    },
+    {
+      "source_a": 763954,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.058729
+    },
+    {
+      "source_a": 72843,
+      "source_b": 82386,
+      "max_one_second_correlation": 0.057802
+    },
+    {
+      "source_a": 678670,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.057609
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.057508
+    },
+    {
+      "source_a": 763951,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.056856
+    },
+    {
+      "source_a": 82386,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.056604
+    },
+    {
+      "source_a": 678668,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.05641
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763956,
+      "max_one_second_correlation": 0.056264
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.05539
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.054004
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763950,
+      "max_one_second_correlation": 0.051962
+    },
+    {
+      "source_a": 678670,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.04935
+    },
+    {
+      "source_a": 381375,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.049188
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.049083
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.048909
+    },
+    {
+      "source_a": 72842,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.046695
+    },
+    {
+      "source_a": 678669,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.045999
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763959,
+      "max_one_second_correlation": 0.04595
+    },
+    {
+      "source_a": 581528,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.045829
+    },
+    {
+      "source_a": 72843,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.045483
+    },
+    {
+      "source_a": 25296,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.043494
+    },
+    {
+      "source_a": 588394,
+      "source_b": 678669,
+      "max_one_second_correlation": 0.043325
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763958,
+      "max_one_second_correlation": 0.043252
+    },
+    {
+      "source_a": 763954,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.043142
+    },
+    {
+      "source_a": 588394,
+      "source_b": 678670,
+      "max_one_second_correlation": 0.042925
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.041791
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763951,
+      "max_one_second_correlation": 0.041472
+    },
+    {
+      "source_a": 588394,
+      "source_b": 752711,
+      "max_one_second_correlation": 0.041167
+    },
+    {
+      "source_a": 588394,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.04077
+    },
+    {
+      "source_a": 138112,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.038287
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763960,
+      "max_one_second_correlation": 0.038224
+    },
+    {
+      "source_a": 763962,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.037878
+    },
+    {
+      "source_a": 82386,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.03636
+    },
+    {
+      "source_a": 763961,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.036061
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763961,
+      "max_one_second_correlation": 0.031756
+    },
+    {
+      "source_a": 72843,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.030669
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763954,
+      "max_one_second_correlation": 0.026896
+    },
+    {
+      "source_a": 138112,
+      "source_b": 588394,
+      "max_one_second_correlation": 0.025471
+    },
+    {
+      "source_a": 678668,
+      "source_b": 763962,
+      "max_one_second_correlation": 0.02284
+    },
+    {
+      "source_a": 588394,
+      "source_b": 678668,
+      "max_one_second_correlation": 0.020141
+    },
+    {
+      "source_a": 588394,
+      "source_b": 767470,
+      "max_one_second_correlation": 0.016568
+    }
+  ]
+}

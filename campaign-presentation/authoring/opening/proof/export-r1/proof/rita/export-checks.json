@@ -1,0 +1,1652 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/rita-sheet-r4.png",
+    "master_version": "r4",
+    "prompt": "../prompts/rita-one-handle-r4.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Actual corrected master inspected. One source anatomy scale, individual shoe anchors. Milo explicit empty seamsx1100top andx400bottom preserve crossing fans without clipping.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "rita",
+    "source_anchors": [
+      [
+        258.0,
+        494
+      ],
+      [
+        236.0,
+        494
+      ],
+      [
+        234.5,
+        494
+      ],
+      [
+        225.5,
+        494
+      ],
+      [
+        253.0,
+        474
+      ],
+      [
+        254.0,
+        473
+      ],
+      [
+        233.5,
+        474
+      ],
+      [
+        237.0,
+        473
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "stable_prop": {
+      "actor_keep_masks": [
+        "../references/stable-prop-masks/rita-r4-actor-00-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-01-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-02-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-03-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-04-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-05-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-06-mask.png",
+        "../references/stable-prop-masks/rita-r4-actor-07-mask.png"
+      ],
+      "purpose": "Stable matched workbench, newly reconstructed complete prop",
+      "registration_notes": "Complete bench alpha bounds617x666. One prop scale36/666 maps frontleft tabletop projection near(82,98), crossbar near(90,116), frontfeet near(98,128); matches visible sourcecel0 table/foot geometry while hidden right portions are explicitly new generated pixels.",
+      "replacement_master": "../masters/rita-bench-layer-r1.png",
+      "replacement_new_reconstruction": true,
+      "replacement_prompt": "../prompts/rita-bench-layer-r1.txt",
+      "replacement_screen_anchor": [
+        82,
+        93
+      ],
+      "replacement_source_anchor": [
+        218,
+        578
+      ],
+      "replacement_uniform_scale": 0.05405405405405406,
+      "review_status": "EXPLICIT_NATIVE_MASKS_VISUALLY_REVIEWED",
+      "row_boundaries": [
+        {
+          "cel": 0,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              26
+            ],
+            [
+              40,
+              26
+            ],
+            [
+              41,
+              26
+            ],
+            [
+              42,
+              25
+            ],
+            [
+              43,
+              25
+            ],
+            [
+              44,
+              25
+            ],
+            [
+              45,
+              25
+            ],
+            [
+              46,
+              25
+            ],
+            [
+              47,
+              25
+            ],
+            [
+              48,
+              25
+            ],
+            [
+              49,
+              24
+            ],
+            [
+              50,
+              24
+            ],
+            [
+              51,
+              24
+            ],
+            [
+              52,
+              24
+            ],
+            [
+              53,
+              24
+            ],
+            [
+              54,
+              24
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              56,
+              23
+            ],
+            [
+              57,
+              23
+            ],
+            [
+              58,
+              23
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              26
+            ],
+            [
+              61,
+              34
+            ],
+            [
+              62,
+              34
+            ]
+          ]
+        },
+        {
+          "cel": 1,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              26
+            ],
+            [
+              40,
+              26
+            ],
+            [
+              41,
+              26
+            ],
+            [
+              42,
+              26
+            ],
+            [
+              43,
+              25
+            ],
+            [
+              44,
+              25
+            ],
+            [
+              45,
+              25
+            ],
+            [
+              46,
+              25
+            ],
+            [
+              47,
+              25
+            ],
+            [
+              48,
+              24
+            ],
+            [
+              49,
+              24
+            ],
+            [
+              50,
+              24
+            ],
+            [
+              51,
+              24
+            ],
+            [
+              52,
+              24
+            ],
+            [
+              53,
+              24
+            ],
+            [
+              54,
+              24
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              56,
+              23
+            ],
+            [
+              57,
+              23
+            ],
+            [
+              58,
+              23
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              26
+            ],
+            [
+              61,
+              29
+            ],
+            [
+              62,
+              33
+            ]
+          ]
+        },
+        {
+          "cel": 2,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              24
+            ],
+            [
+              40,
+              24
+            ],
+            [
+              41,
+              24
+            ],
+            [
+              42,
+              24
+            ],
+            [
+              43,
+              24
+            ],
+            [
+              44,
+              23
+            ],
+            [
+              45,
+              23
+            ],
+            [
+              46,
+              23
+            ],
+            [
+              47,
+              23
+            ],
+            [
+              48,
+              23
+            ],
+            [
+              49,
+              23
+            ],
+            [
+              50,
+              23
+            ],
+            [
+              51,
+              23
+            ],
+            [
+              52,
+              23
+            ],
+            [
+              53,
+              23
+            ],
+            [
+              54,
+              23
+            ],
+            [
+              55,
+              22
+            ],
+            [
+              56,
+              22
+            ],
+            [
+              57,
+              22
+            ],
+            [
+              58,
+              22
+            ],
+            [
+              59,
+              23
+            ],
+            [
+              60,
+              25
+            ],
+            [
+              61,
+              29
+            ],
+            [
+              62,
+              33
+            ]
+          ]
+        },
+        {
+          "cel": 3,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              25
+            ],
+            [
+              40,
+              25
+            ],
+            [
+              41,
+              24
+            ],
+            [
+              42,
+              24
+            ],
+            [
+              43,
+              24
+            ],
+            [
+              44,
+              24
+            ],
+            [
+              45,
+              24
+            ],
+            [
+              46,
+              24
+            ],
+            [
+              47,
+              23
+            ],
+            [
+              48,
+              23
+            ],
+            [
+              49,
+              23
+            ],
+            [
+              50,
+              23
+            ],
+            [
+              51,
+              23
+            ],
+            [
+              52,
+              23
+            ],
+            [
+              53,
+              23
+            ],
+            [
+              54,
+              23
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              56,
+              23
+            ],
+            [
+              57,
+              23
+            ],
+            [
+              58,
+              23
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              26
+            ],
+            [
+              61,
+              29
+            ],
+            [
+              62,
+              33
+            ]
+          ]
+        },
+        {
+          "cel": 4,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              25
+            ],
+            [
+              40,
+              25
+            ],
+            [
+              41,
+              25
+            ],
+            [
+              42,
+              25
+            ],
+            [
+              43,
+              24
+            ],
+            [
+              44,
+              24
+            ],
+            [
+              45,
+              24
+            ],
+            [
+              46,
+              24
+            ],
+            [
+              47,
+              24
+            ],
+            [
+              48,
+              23
+            ],
+            [
+              49,
+              23
+            ],
+            [
+              50,
+              23
+            ],
+            [
+              51,
+              23
+            ],
+            [
+              52,
+              23
+            ],
+            [
+              53,
+              23
+            ],
+            [
+              54,
+              23
+            ],
+            [
+              55,
+              22
+            ],
+            [
+              56,
+              22
+            ],
+            [
+              57,
+              22
+            ],
+            [
+              58,
+              23
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              25
+            ],
+            [
+              61,
+              32
+            ],
+            [
+              62,
+              29
+            ]
+          ]
+        },
+        {
+          "cel": 5,
+          "removed_detached_remnants": [
+            [
+              62,
+              30
+            ],
+            [
+              62,
+              29
+            ]
+          ],
+          "row_left_boundaries": [
+            [
+              39,
+              28
+            ],
+            [
+              40,
+              28
+            ],
+            [
+              41,
+              27
+            ],
+            [
+              42,
+              27
+            ],
+            [
+              43,
+              27
+            ],
+            [
+              44,
+              26
+            ],
+            [
+              45,
+              26
+            ],
+            [
+              46,
+              26
+            ],
+            [
+              47,
+              26
+            ],
+            [
+              48,
+              26
+            ],
+            [
+              49,
+              22
+            ],
+            [
+              50,
+              26
+            ],
+            [
+              51,
+              26
+            ],
+            [
+              52,
+              25
+            ],
+            [
+              53,
+              25
+            ],
+            [
+              54,
+              25
+            ],
+            [
+              55,
+              25
+            ],
+            [
+              56,
+              24
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              58,
+              25
+            ],
+            [
+              59,
+              26
+            ],
+            [
+              60,
+              27
+            ],
+            [
+              61,
+              33
+            ],
+            [
+              62,
+              29
+            ]
+          ]
+        },
+        {
+          "cel": 6,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              25
+            ],
+            [
+              40,
+              25
+            ],
+            [
+              41,
+              25
+            ],
+            [
+              42,
+              25
+            ],
+            [
+              43,
+              25
+            ],
+            [
+              44,
+              25
+            ],
+            [
+              45,
+              24
+            ],
+            [
+              46,
+              24
+            ],
+            [
+              47,
+              24
+            ],
+            [
+              48,
+              24
+            ],
+            [
+              49,
+              24
+            ],
+            [
+              50,
+              24
+            ],
+            [
+              51,
+              23
+            ],
+            [
+              52,
+              23
+            ],
+            [
+              53,
+              23
+            ],
+            [
+              54,
+              23
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              56,
+              23
+            ],
+            [
+              57,
+              23
+            ],
+            [
+              58,
+              23
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              25
+            ],
+            [
+              61,
+              32
+            ],
+            [
+              62,
+              29
+            ]
+          ]
+        },
+        {
+          "cel": 7,
+          "removed_detached_remnants": [],
+          "row_left_boundaries": [
+            [
+              39,
+              26
+            ],
+            [
+              40,
+              26
+            ],
+            [
+              41,
+              26
+            ],
+            [
+              42,
+              25
+            ],
+            [
+              43,
+              26
+            ],
+            [
+              44,
+              25
+            ],
+            [
+              45,
+              25
+            ],
+            [
+              46,
+              25
+            ],
+            [
+              47,
+              24
+            ],
+            [
+              48,
+              24
+            ],
+            [
+              49,
+              22
+            ],
+            [
+              50,
+              24
+            ],
+            [
+              51,
+              24
+            ],
+            [
+              52,
+              23
+            ],
+            [
+              53,
+              23
+            ],
+            [
+              54,
+              23
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              56,
+              23
+            ],
+            [
+              57,
+              23
+            ],
+            [
+              58,
+              24
+            ],
+            [
+              59,
+              24
+            ],
+            [
+              60,
+              26
+            ],
+            [
+              61,
+              30
+            ],
+            [
+              62,
+              29
+            ]
+          ]
+        }
+      ],
+      "separation_reviewed": true,
+      "source_cel": 0,
+      "source_prop_mask": "../references/stable-prop-masks/rita-r4-visible-prop-mask.png"
+    },
+    "stable_prop_status": "STABLE_PROP_LOOP3",
+    "target_upright_height": 78,
+    "upright_height_source": 451
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 478,
+    "headroom": 20505,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      28800,
+      10208,
+      4320,
+      1224
+    ],
+    "total_bytes": 45030
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/rita/loop00-cel00-indexed.png",
+      "indexed_sha256": "d6d4c7c592d3dbb8974b8264d40c01e9d30fcc5fa1f0f1ad3e31bd564204fdcf",
+      "loop": 0,
+      "pixel_sha256": "80fa97a4868980963dedc701d77157d2e4afff7b64feacd977a2defc045a553c",
+      "rgba_path": "cels/rita/loop00-cel00-rgba.png",
+      "rgba_sha256": "ea6d615fb323988f03b2e51a76bf40a9adba73cd24936289c963b147c6abf4a7",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/rita/loop00-cel01-indexed.png",
+      "indexed_sha256": "975f97617c91a52baf72e3a0c6a1f1a9d152ae019e59fdef2f548009c8061012",
+      "loop": 0,
+      "pixel_sha256": "fc461b8aa91cd5ca93306f93fdb7e6792d86abe294cd1bc5946d80feeb8a48dc",
+      "rgba_path": "cels/rita/loop00-cel01-rgba.png",
+      "rgba_sha256": "50fd6fa708b346a049ec46ec1552d8306afe5927caab0e2ccaf83cfd242882d2",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/rita/loop00-cel02-indexed.png",
+      "indexed_sha256": "7102f1576bef9106ae19a769da75e2ae136a88b3ebb4ffaa263d3e09beb477b1",
+      "loop": 0,
+      "pixel_sha256": "aa6b16bda9bc197fa3b50b7448d0157e70ef308a133c964a1436c5939dedf13b",
+      "rgba_path": "cels/rita/loop00-cel02-rgba.png",
+      "rgba_sha256": "1d8246d9d210cb862259f2dd00af94a5dca41ca8c5e58500183dd3b37d3eaccb",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/rita/loop00-cel03-indexed.png",
+      "indexed_sha256": "89d072eb8415aca315fe7f95872eaca70543fe5acfc6648c5349ec872b08a8e5",
+      "loop": 0,
+      "pixel_sha256": "f60a4364e58f5a77aa908bf66fd0d33fccb26deae3754993711fe41150073980",
+      "rgba_path": "cels/rita/loop00-cel03-rgba.png",
+      "rgba_sha256": "065a670b47dd9feec10577960bc90a39dd740364ac03930ba3ac27ad0f2c3c99",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/rita/loop00-cel04-indexed.png",
+      "indexed_sha256": "930f66118d3570e157def5331fc3e5a255f906b6300bf60bf07e4fad42807fb3",
+      "loop": 0,
+      "pixel_sha256": "8793c6a25b4d00e694cab8efeece9d773f8760b8060200de98590050069f0695",
+      "rgba_path": "cels/rita/loop00-cel04-rgba.png",
+      "rgba_sha256": "33f17deb28a2c030fa5535f281ac50d8bc29a5f7da00b29b462d41b4a86c982c",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/rita/loop00-cel05-indexed.png",
+      "indexed_sha256": "ebe7621c1d850b8f490f50603c7c1f3d8e108b821a91dfc4e32ffb920217984b",
+      "loop": 0,
+      "pixel_sha256": "706f5ed73842bf1e5ec6f7a66f8c6b9b79fd75d83d359dae6fde024a32322964",
+      "rgba_path": "cels/rita/loop00-cel05-rgba.png",
+      "rgba_sha256": "e0a3d1a95cbcbfb944944a0dd29eff473fbb54ff1473ba21de8b522f58468c7c",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/rita/loop00-cel06-indexed.png",
+      "indexed_sha256": "a53ba16c9ec6d5423e3cc7fa04c0262451f838db307de8ebfcaff8ae95a41400",
+      "loop": 0,
+      "pixel_sha256": "c5885261d9f935b15f76488514bceb00069be84922b043bf63b1135b126f3810",
+      "rgba_path": "cels/rita/loop00-cel06-rgba.png",
+      "rgba_sha256": "3bb3053b6088ef0b5194c3dd0b69f09630159a881d5e30a087e5df0b665b0e25",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/rita/loop00-cel07-indexed.png",
+      "indexed_sha256": "5340b927c1eb5f8be0933ac979ed9c5ab7ca7e89554c17ce06683562c78fe0ee",
+      "loop": 0,
+      "pixel_sha256": "e6d36516e7cc159d2e6772b60eb7bd8905fe792c3dd65a49a8e7a81a2fcddfa4",
+      "rgba_path": "cels/rita/loop00-cel07-rgba.png",
+      "rgba_sha256": "83cf4caffa63d33a03f928b9d2eb74f3b6bf55e114d41030e3f46002970c265b",
+      "size": [
+        45,
+        80
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/rita/loop01-cel00-indexed.png",
+      "indexed_sha256": "828617205e60643d784b9fe7e63c9a576b8619796e98b43dd51160453c1d6816",
+      "loop": 1,
+      "pixel_sha256": "9b6f8306e7146ce1f090827dd3d50bf65d9110b4b4e332b13b5d2ec4fd7b11f4",
+      "rgba_path": "cels/rita/loop01-cel00-rgba.png",
+      "rgba_sha256": "de320d39c4f02091b4c1c77255431ba9ce0300104527d0ac5d396c3823c97a6c",
+      "size": [
+        116,
+        88
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/rita/loop02-cel00-indexed.png",
+      "indexed_sha256": "b0d5c10e5ea7e5af44948a92e18209a71f3dc9c183e2a2b8d21454ce22bd3090",
+      "loop": 2,
+      "pixel_sha256": "83b1f1c9c12a6a022514923a6bbc360b443e3af2f41c88c25b8ade18ee39aa98",
+      "rgba_path": "cels/rita/loop02-cel00-rgba.png",
+      "rgba_sha256": "eb63697f019075b564d8d4e6f24d539ea409fddeba7ec546fb27dec611ec8476",
+      "size": [
+        108,
+        40
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/rita/loop03-cel00-indexed.png",
+      "indexed_sha256": "30b38a5366a02ea8925d458ffc8621eea728f932705c02e67760ffea15bfbadd",
+      "loop": 3,
+      "pixel_sha256": "3453466c3e7dab68609b819a818a11ab1c87cf448a77f387e323e3df750ffdc6",
+      "rgba_path": "cels/rita/loop03-cel00-rgba.png",
+      "rgba_sha256": "91e33c5dc24926f253589044f54c4a857675d016f231440fda56e12bd43a18f3",
+      "size": [
+        34,
+        36
+      ]
+    }
+  ],
+  "character": "Rita Stringer",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1968614,
+          "edit_target": "masters/rita-sheet-r3.png",
+          "exact_prompt": "prompts/rita-one-handle-r4.txt",
+          "master": "masters/rita-sheet-r4.png",
+          "new_reconstructed_hidden_pixels": false,
+          "original_output_preserved": true,
+          "prompt_sha256": "fc4607643e39fccec2801d02006d41cb5ee9c02fc08b58c727e5e1b51964b806",
+          "sha256": "ce0f099db2f0cd1cf8ad4cbca4bb9f957e1b57fb0d579d18d083aa1fb79b9c5c",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1906410,
+          "edit_target": null,
+          "exact_prompt": "prompts/rita-sheet-r1.txt",
+          "generation_reference": "input-references/rita-exact-generation-reference.png",
+          "master": "masters/rita-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "aec8b44e60970aced11148147232cb84f905a29ec46564a32dfb890f49322d2c",
+          "sha256": "6061fbc40d52fbd47849aa44b84362c074a79f37bd2311f96a3a6f31ddde08bc",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ],
+      [
+        {
+          "bytes": 381269,
+          "edit_target": "masters/rita-sheet-r4.png",
+          "exact_prompt": "prompts/rita-bench-layer-r1.txt",
+          "master": "masters/rita-bench-layer-r1.png",
+          "new_reconstructed_hidden_pixels": true,
+          "original_output_preserved": true,
+          "prompt_sha256": "e588cf5047a1f6afc70a7da860a6bb730943dca78556016ab6d9d59ad91682c5",
+          "sha256": "c14162ac76dcf020e410cdb3cacf80017fa6c9b10d7113df8e725a6e33dcb73a",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1968614,
+          "edit_target": "masters/rita-sheet-r3.png",
+          "exact_prompt": "prompts/rita-one-handle-r4.txt",
+          "master": "masters/rita-sheet-r4.png",
+          "new_reconstructed_hidden_pixels": false,
+          "original_output_preserved": true,
+          "prompt_sha256": "fc4607643e39fccec2801d02006d41cb5ee9c02fc08b58c727e5e1b51964b806",
+          "sha256": "ce0f099db2f0cd1cf8ad4cbca4bb9f957e1b57fb0d579d18d083aa1fb79b9c5c",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1906410,
+          "edit_target": null,
+          "exact_prompt": "prompts/rita-sheet-r1.txt",
+          "generation_reference": "input-references/rita-exact-generation-reference.png",
+          "master": "masters/rita-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "aec8b44e60970aced11148147232cb84f905a29ec46564a32dfb890f49322d2c",
+          "sha256": "6061fbc40d52fbd47849aa44b84362c074a79f37bd2311f96a3a6f31ddde08bc",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/rita-exact-generation-reference.png",
+      "qualification": "audited native preview; exact retained223 cel to decode after GO, inherited historical origin qualification",
+      "sha256": "d30b796d593fcede20f5d089291e0cdaaa8b57fa58f2389d6066ed8dea6f5128",
+      "source": "input-references/rita-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "223-rita-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "14ec0be3e58f0dcf1272d66cb74181fdd399472afcb3af1cca176996e72e0a2c",
+          "file": "223-rita-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            11,
+            6,
+            41,
+            79
+          ],
+          "pixels_sha256": "e940bdf39f596fe1e04f7a01f0a1b3914b186e11cc3eb5c08ca10a937990ec44",
+          "sha256": "014aa0ef240b4ac1d365b1b5805f8a9a31954f198e9414dbe7b8f6771dc2c6e9",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "223-rita-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "d30b796d593fcede20f5d089291e0cdaaa8b57fa58f2389d6066ed8dea6f5128",
+          "file": "223-rita-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            12,
+            6,
+            42,
+            79
+          ],
+          "pixels_sha256": "ab8c81cc3e80e1d39e9d5eec068c2e4f4a3e7eefaedcbac60762be5ff5150bf4",
+          "sha256": "b94dc4c902188f6cb0885a144d1c04a79c0881a7de7e43f8001543c684d483d8",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "rita",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/223.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "ebc8d979656fe9724cbc7c2549a2fada60f5e844248d00644ed8706e0ba1e6c1",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 223
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "302-conservatory-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "48cd3384a0be4628674067747c6e4dbf2b437d26660a02ce5a3571959811e756",
+          "file": "302-conservatory-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "9a78f41d3802c57a19cf0de4b5575b6814b81fcf6a85124d68dce1082e911a4f",
+          "sha256": "9f9a337c56b59a1468f9e20b2ddc2e89b45398a26a4b1cd293101d658b25055f",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "conservatory",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/302.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "730f9c00a603717e3d8e05e5357814cae26bc20364d840747fe19b131eabbd10",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 302
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1,
+    1
+  ],
+  "master_sha256": "ce0f099db2f0cd1cf8ad4cbca4bb9f957e1b57fb0d579d18d083aa1fb79b9c5c",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r4",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/rita-one-handle-r4.txt",
+  "prompt_sha256": "fc4607643e39fccec2801d02006d41cb5ee9c02fc08b58c727e5e1b51964b806",
+  "resource_bytes": 45030,
+  "resource_path": "resources/251.view.bin",
+  "resource_sha256": "abc2eabdb392f94a825c7793d0f284a9ac86b50c1c9c71b7e09bb781e4965a2f",
+  "slug": "rita",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "fc54618cbd2730081d49eb846a5ca35aa93f5a8a6252dd1044b51c87ad472d9f",
+      "screen_opaque_bbox": [
+        82,
+        57,
+        135,
+        135
+      ],
+      "source_alpha_bbox": [
+        49,
+        44,
+        355,
+        495
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        258.0,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        258.0,
+        494
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "c9c4ddd59e3c15866814fb75fef53848ea2cc03b438ad0efe9dd4c837f4340c2",
+      "screen_opaque_bbox": [
+        85,
+        57,
+        134,
+        135
+      ],
+      "source_alpha_bbox": [
+        44,
+        44,
+        328,
+        495
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        236.0,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        620.0,
+        494
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "50d1cac05a7ec228029ece892d5219a11186cc95b2c04091ef3b48b08fad140c",
+      "screen_opaque_bbox": [
+        85,
+        57,
+        134,
+        135
+      ],
+      "source_alpha_bbox": [
+        41,
+        44,
+        322,
+        495
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        234.5,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        1002.5,
+        494
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "7014e80c2644b12198fe34cb2d953b2225aefdabc7d1091e21e6b023add9f4f1",
+      "screen_opaque_bbox": [
+        86,
+        56,
+        134,
+        135
+      ],
+      "source_alpha_bbox": [
+        38,
+        41,
+        316,
+        495
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        225.5,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        1377.5,
+        494
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "6d2acb4fb54be1a1ec3770cfe69c2f3b3f917055c3159e43f8593a6065593a8e",
+      "screen_opaque_bbox": [
+        83,
+        57,
+        135,
+        135
+      ],
+      "source_alpha_bbox": [
+        49,
+        24,
+        351,
+        475
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        253.0,
+        474
+      ],
+      "source_shoe_anchor_sheet": [
+        253.0,
+        986
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "ab164650ffe8f988702eb7695669146ed9c512c835d31e751394e37e24a5f1a5",
+      "screen_opaque_bbox": [
+        82,
+        59,
+        137,
+        135
+      ],
+      "source_alpha_bbox": [
+        44,
+        39,
+        361,
+        474
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        254.0,
+        473
+      ],
+      "source_shoe_anchor_sheet": [
+        638.0,
+        985
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "9059113dc476092a35ef828ea4ecb20828b06595c9d9869a9f4ed52ccb3624be",
+      "screen_opaque_bbox": [
+        85,
+        55,
+        135,
+        135
+      ],
+      "source_alpha_bbox": [
+        40,
+        17,
+        329,
+        475
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        233.5,
+        474
+      ],
+      "source_shoe_anchor_sheet": [
+        1001.5,
+        986
+      ],
+      "uniform_scale": 0.1729490022172949
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "537b1d44850f881810e7f091f449849127ff4ac7e5ce5c086d57af9d59b296b3",
+      "screen_opaque_bbox": [
+        84,
+        55,
+        136,
+        135
+      ],
+      "source_alpha_bbox": [
+        37,
+        15,
+        336,
+        474
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        237.0,
+        473
+      ],
+      "source_shoe_anchor_sheet": [
+        1389.0,
+        985
+      ],
+      "uniform_scale": 0.1729490022172949
+    }
+  ],
+  "source_master": "masters/rita-sheet-r4.png",
+  "stable_prop_derivation": {
+    "actor_keep_masks": [
+      {
+        "cel": 0,
+        "path": "references/stable-prop-masks/rita-r4-actor-00-mask.png",
+        "sha256": "3fefdc921f9da34e8b1213f9b7997755f1a42cd0d182f5c6ea3c3bb3fe264a99"
+      },
+      {
+        "cel": 1,
+        "path": "references/stable-prop-masks/rita-r4-actor-01-mask.png",
+        "sha256": "8ddd7602f322fb7c460689d0f339b6e8f251a3d47852dd0a64fd426b979c2efb"
+      },
+      {
+        "cel": 2,
+        "path": "references/stable-prop-masks/rita-r4-actor-02-mask.png",
+        "sha256": "e46aff34964551630375bfd5544402cfa9e711edadc7f03a2c798a2c1cf5ef5e"
+      },
+      {
+        "cel": 3,
+        "path": "references/stable-prop-masks/rita-r4-actor-03-mask.png",
+        "sha256": "594cccacece36e7c86cb3ecc0a2db5169aad40449ffb5a292fc6c7e65838bdb9"
+      },
+      {
+        "cel": 4,
+        "path": "references/stable-prop-masks/rita-r4-actor-04-mask.png",
+        "sha256": "1b44314c3f31fbf09e1b0367c4dca27a59fb1ac66ee10082b7709e48512aaed5"
+      },
+      {
+        "cel": 5,
+        "path": "references/stable-prop-masks/rita-r4-actor-05-mask.png",
+        "sha256": "fac9095b3b08af8d280457ef1e44256bad9f6f4cd8efa49efcb58d517f328a80"
+      },
+      {
+        "cel": 6,
+        "path": "references/stable-prop-masks/rita-r4-actor-06-mask.png",
+        "sha256": "de5369dc5b2f59a5b3cbe9060d8bdb116a98a8b002c94727df8d2f92905e72aa"
+      },
+      {
+        "cel": 7,
+        "path": "references/stable-prop-masks/rita-r4-actor-07-mask.png",
+        "sha256": "8b4587450800e2b316bb73449d73bfb4cb1b39d40dc958f0d8bb7397f7063bff"
+      }
+    ],
+    "draw": [
+      82,
+      93
+    ],
+    "native_palette_pixels_sha256": "3453466c3e7dab68609b819a818a11ab1c87cf448a77f387e323e3df750ffdc6",
+    "purpose": "Stable matched workbench, newly reconstructed complete prop",
+    "replacement_master": "masters/rita-bench-layer-r1.png",
+    "replacement_master_sha256": "c14162ac76dcf020e410cdb3cacf80017fa6c9b10d7113df8e725a6e33dcb73a",
+    "replacement_prompt": "prompts/rita-bench-layer-r1.txt",
+    "replacement_prompt_sha256": "e588cf5047a1f6afc70a7da860a6bb730943dca78556016ab6d9d59ad91682c5",
+    "replacement_screen_anchor": [
+      82,
+      93
+    ],
+    "replacement_source_anchor": [
+      218,
+      578
+    ],
+    "replacement_uniform_scale": 0.05405405405405406,
+    "size": [
+      34,
+      36
+    ],
+    "source_cel": null,
+    "source_cel0_exact_recomposition": true,
+    "source_cel0_exact_recomposition_meaning": "Original actor/visible-prop masks partition sourcecel0 exactly; the new generated replacement intentionally changes the static prop pixels.",
+    "source_prop_mask": "references/stable-prop-masks/rita-r4-visible-prop-mask.png",
+    "source_prop_mask_sha256": "a8c5a6fb3c21a2d3d7d4656336479c2ca9d0efc49f72d269fd66b81cc2a886e2",
+    "status": "NEW_GENERATED_MATCHED_PROP_RECONSTRUCTION_INCLUDING_PREVIOUSLY_OCCLUDED_PIXELS",
+    "visible_original_prop_pixels_sha256": "a1a317704ed4682d229da1690ffbf218b0cf1f2f7be895823ff320e8828c678b"
+  },
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 251
+}

@@ -1,0 +1,32 @@
+{
+  "case": "transports",
+  "native_acceptance": false,
+  "compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "result": {
+    "cues": [
+      101,
+      103,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      120
+    ],
+    "actual_emitted_expression_queries": 816,
+    "scope": "Isolated emitted transport table units, not campaign/native acceptance"
+  },
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 17.093379094992997,
+  "max_rss_kib": 59768
+}

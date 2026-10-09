@@ -1,0 +1,2191 @@
+{
+  "status": "38_SOURCE_CANDIDATES_NOT_NATIVE_ACCEPTANCE",
+  "cues": [
+    {
+      "resource_id": 100,
+      "cue_id": "MUS01_OPENING",
+      "duration_seconds": 60.0012,
+      "gdd_binding": {
+        "episode": "E00",
+        "autoplay_seconds": 60,
+        "opening_only": true
+      },
+      "loop": null,
+      "midi_path": "midi/MUS01_OPENING.mid",
+      "native_payload_path": "native/100.sound.bin",
+      "sha256": {
+        "midi": "6f1ef330262c3f6a0b7365c40e6dc075e99f5a0f13e706a7f8e9e2e5a67d808e",
+        "native": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906"
+      }
+    },
+    {
+      "resource_id": 101,
+      "cue_id": "MUS01_INVITATION",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episodes": [
+          "E01"
+        ],
+        "puzzles": [
+          "P01",
+          "P02"
+        ],
+        "locations": [
+          "L03",
+          "L01"
+        ]
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS01_INVITATION.mid",
+      "native_payload_path": "native/101.sound.bin",
+      "sha256": {
+        "midi": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "native": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57"
+      }
+    },
+    {
+      "resource_id": 102,
+      "cue_id": "MUS02_HOUSE_LIVING",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L01"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS02_HOUSE_LIVING.mid",
+      "native_payload_path": "native/102.sound.bin",
+      "sha256": {
+        "midi": "0c91c0d0aa85c217cb4390fb6886706c7fb58ad79cd8b3f41016e46bd8a4c65a",
+        "native": "c5cfdab4fe4953f6129de9db62b2282d083aa07c843d568ba771d0cccb2ce1ad"
+      }
+    },
+    {
+      "resource_id": 103,
+      "cue_id": "MUS02_HOUSE_KITCHEN",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L02",
+        "puzzle": "P07"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS02_HOUSE_KITCHEN.mid",
+      "native_payload_path": "native/103.sound.bin",
+      "sha256": {
+        "midi": "ce58f9a0adb44371d676110c63a82bc6b293d597dd6c7ed7752541b6fd0b4148",
+        "native": "8c204a7cd45f43984774079be7c4f5a5264be26af95d1094adeeb4556376d843"
+      }
+    },
+    {
+      "resource_id": 104,
+      "cue_id": "MUS03_PORCH",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L03"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_PORCH.mid",
+      "native_payload_path": "native/104.sound.bin",
+      "sha256": {
+        "midi": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "native": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57"
+      }
+    },
+    {
+      "resource_id": 105,
+      "cue_id": "MUS03_SIDE_PASSAGE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L04",
+        "puzzles": [
+          "P04",
+          "P06"
+        ]
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_SIDE_PASSAGE.mid",
+      "native_payload_path": "native/105.sound.bin",
+      "sha256": {
+        "midi": "0e659f402e14ce47e66304b5cd9158d90e54cb2df15e17af099c56b3f41a34c5",
+        "native": "d6d0d94ef1ba8bf555e1b04711cd382107fe4c8f2545b171d1bbdc7ed676a777"
+      }
+    },
+    {
+      "resource_id": 106,
+      "cue_id": "MUS03_COURTYARD",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L05",
+        "puzzle": "P08"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_COURTYARD.mid",
+      "native_payload_path": "native/106.sound.bin",
+      "sha256": {
+        "midi": "659c87f5b2f227078c882162944fe9a8e283fab4f426171589aa6a64a811294c",
+        "native": "bf4ce04560edc4a33e2a760b54d9bba9bc9e6ea562f8999ef3d169e2e64c0623"
+      }
+    },
+    {
+      "resource_id": 107,
+      "cue_id": "MUS04_MILO_SHOWY",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L06",
+        "puzzle": "P05",
+        "state": "before sincere agreement"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS04_MILO_SHOWY.mid",
+      "native_payload_path": "native/107.sound.bin",
+      "sha256": {
+        "midi": "2920e63c4b59441751318704eb533651b597ba4fb519dfb3599b0a26a38cf2bf",
+        "native": "04be79f63a50c8f92d113b8ecf19d51a9bb7eac89a5b991ed6564cdc254ad700"
+      }
+    },
+    {
+      "resource_id": 108,
+      "cue_id": "MUS04_MILO_SINCERE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L06",
+        "puzzle": "P05",
+        "state": "after committed sincere agreement"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS04_MILO_SINCERE.mid",
+      "native_payload_path": "native/108.sound.bin",
+      "sha256": {
+        "midi": "aadb64dd0a1286a83701b057aed47575de96dc4fe50c7fad7d91875808b2019a",
+        "native": "00d6cffedddfb78230f74da4c287f493ef94738a44d1dd094c333c6f784c20a4"
+      }
+    },
+    {
+      "resource_id": 109,
+      "cue_id": "MUS05_STRINGERS_PRECISE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L07",
+        "puzzle": "P03",
+        "state": "before credit"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS05_STRINGERS_PRECISE.mid",
+      "native_payload_path": "native/109.sound.bin",
+      "sha256": {
+        "midi": "7d32f797e90d1cf15fbf0567aa369bb4898e9843de3e9140a5214f98bd225048",
+        "native": "b57415d5456dff33843dc6352c957a5340bb3a17661fd7a8b5ce3c6a8326db5b"
+      }
+    },
+    {
+      "resource_id": 110,
+      "cue_id": "MUS05_STRINGERS_CREDITED",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L07",
+        "puzzle": "P03",
+        "state": "credit committed"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS05_STRINGERS_CREDITED.mid",
+      "native_payload_path": "native/110.sound.bin",
+      "sha256": {
+        "midi": "b609cb55ca44ce206a5fac8301d87307d0d1235d4f1d4ae2b78b1f1a8fa57a7e",
+        "native": "00d10e35ee3e4c94519720bf6ccd8eb535e670489368d45e2672de9ffd0fa054"
+      }
+    },
+    {
+      "resource_id": 111,
+      "cue_id": "MUS06_SUPPER_COMPOSURE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E03",
+        "puzzles": [
+          "P08_READY",
+          "P09",
+          "P10"
+        ],
+        "state": "surface composure"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS06_SUPPER_COMPOSURE.mid",
+      "native_payload_path": "native/111.sound.bin",
+      "sha256": {
+        "midi": "791087d1f542827a3cc76059a2ab3e8a295ef3a868d4fc2037e331aa747c08d5",
+        "native": "08a6c486917b34e6ba91b3415ba80dcd252b73e83b8fce7d837664f85c5a1c9b"
+      }
+    },
+    {
+      "resource_id": 112,
+      "cue_id": "MUS06_SUPPER_PRESSURE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E03",
+        "puzzles": [
+          "P09",
+          "P10"
+        ],
+        "state": "comic pressure, no countdown"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS06_SUPPER_PRESSURE.mid",
+      "native_payload_path": "native/112.sound.bin",
+      "sha256": {
+        "midi": "20726b28b3afdba86539c9e4382d5740b33f276004a19d0336f7cade532babb3",
+        "native": "5c82895f9cb0cb346eac442d948dead0c16ddf9d21de5d8b0c04423442005aa7"
+      }
+    },
+    {
+      "resource_id": 113,
+      "cue_id": "MUS07_RESCUE_PRESSURE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E04",
+        "puzzle": "P11",
+        "state": "stable pressure, no death timer"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS07_RESCUE_PRESSURE.mid",
+      "native_payload_path": "native/113.sound.bin",
+      "sha256": {
+        "midi": "3e79adb175db559b173cfd6944ee2469e641b78a91f3b1c307a1b920e3ba895c",
+        "native": "30c75e60f49a5d4cbbf2714e67db9bad1bedb508411e06ea01033aabe7848c82"
+      }
+    },
+    {
+      "resource_id": 114,
+      "cue_id": "MUS07_RESCUE_COORDINATED",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E04",
+        "puzzle": "P11",
+        "state": "help accepted"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS07_RESCUE_COORDINATED.mid",
+      "native_payload_path": "native/114.sound.bin",
+      "sha256": {
+        "midi": "669dd80240d21927c1959b5574696f84c8c5e3adb26e93e4d4a397d4930cdef5",
+        "native": "7da4c7a17bcfe95159ff3ebd0b747ec3b88746e3f84f176fd8a94d58b09d6f1a"
+      }
+    },
+    {
+      "resource_id": 115,
+      "cue_id": "MUS08_MICROPHONE_PREPARATION",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E05",
+        "puzzle": "P12",
+        "state": "before truth; no future reveal"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS08_MICROPHONE_PREPARATION.mid",
+      "native_payload_path": "native/115.sound.bin",
+      "sha256": {
+        "midi": "29488d874b96b20e81f7782e3a15e80af2bfbf966f52103347d9620dc1c52925",
+        "native": "7975f2a5498eeddd66212ecc8e4553cd2884b3a510689e98cca754e900421d59"
+      }
+    },
+    {
+      "resource_id": 116,
+      "cue_id": "MUS08_MICROPHONE_HONEST",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E05",
+        "puzzle": "P12",
+        "state": "truth already committed; use speech-owned gap first"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS08_MICROPHONE_HONEST.mid",
+      "native_payload_path": "native/116.sound.bin",
+      "sha256": {
+        "midi": "b879c9ff8aacabba76c6b24e8a9388afe087a042fd65eab4487b49781a47ca72",
+        "native": "00ba9c8f454c27996d8f4b03ee1bbd4b56dbc323c582e2232a2a5a74907c0680"
+      }
+    },
+    {
+      "resource_id": 117,
+      "cue_id": "MUS09_THREE_DOORS_ROUTING",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E06",
+        "puzzle": "P13",
+        "state": "routing underway; no answer predicted"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS09_THREE_DOORS_ROUTING.mid",
+      "native_payload_path": "native/117.sound.bin",
+      "sha256": {
+        "midi": "8dbaba81601da4bc48c0d461ac3deb12c245b06f9182d16776843a91353d74d9",
+        "native": "a22eeb062bdeed4d1f8a2ed833787017b36fe048895680409a16d1fd3929109c"
+      }
+    },
+    {
+      "resource_id": 118,
+      "cue_id": "MUS09_THREE_DOORS_PROMISES",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E06",
+        "puzzles": [
+          "P13",
+          "P14"
+        ],
+        "state": "earned routing, stated promises"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS09_THREE_DOORS_PROMISES.mid",
+      "native_payload_path": "native/118.sound.bin",
+      "sha256": {
+        "midi": "ffcfbbfdc4b5343f14df855b79654cb8812d3a5640ec1054c62ab88410f2a554",
+        "native": "c90ad7f5a326401f8b1e3a024d11237c44c6a3581adaba42b24fd7844c083900"
+      }
+    },
+    {
+      "resource_id": 119,
+      "cue_id": "MUS10_HOUSEHOLD_QUIET",
+      "duration_seconds": 48.200964,
+      "gdd_binding": {
+        "episode": "E07",
+        "puzzle": "P14",
+        "state": "committed ending only"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS10_HOUSEHOLD_QUIET.mid",
+      "native_payload_path": "native/119.sound.bin",
+      "sha256": {
+        "midi": "9bbc36bffa9acb0bbc20de5c04d85fe18e11d3e9e31d706bd83516f4299d9cce",
+        "native": "c440aff798c2f4ea87c4a103f57dd3e64e8db43962ca65d3aa948dbe01db4cb7"
+      }
+    },
+    {
+      "resource_id": 120,
+      "cue_id": "MUS_AUDIENCE_EXPOSED",
+      "duration_seconds": 19.483723,
+      "gdd_binding": {
+        "state": "HOME-compatible exposed-stage color only; other families use their own reduced mask"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 1169,
+        "natural_key_release_before_end_ticks": 22
+      },
+      "midi_path": "midi/MUS_AUDIENCE_EXPOSED.mid",
+      "native_payload_path": "native/120.sound.bin",
+      "sha256": {
+        "midi": "d92188a05518efc69c8fe73505b39751808ccd7632b4b2c5de601f739168b148",
+        "native": "fbb3168e375acb49f3cf0a21aa891797d04c35fcf8fd87cd5d6b58439edf6e34"
+      }
+    },
+    {
+      "resource_id": 121,
+      "cue_id": "MUS10_FULL_END_CREDITS",
+      "duration_seconds": 139.486123,
+      "gdd_binding": {
+        "episode": "E07",
+        "state": "after GAME_COMPLETE, pencil tag, happy freeze and audience celebration",
+        "credit_music": "extended household-theme reprise; pause/skip/replay preserve completion"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS10_FULL_END_CREDITS.mid",
+      "native_payload_path": "native/121.sound.bin",
+      "sha256": {
+        "midi": "badf39786d4aa8e3935308acb2d9e4f99fd0d09a8ca7915308e85da81e22fa0e",
+        "native": "bbf9662ecf780a8cd85df111ac8fd31a9fbc088977ea96eb08e40040cde2db99"
+      }
+    },
+    {
+      "resource_id": 122,
+      "cue_id": "BRIDGE_INVITATION_HOUSE",
+      "duration_seconds": 8.766842,
+      "gdd_binding": {
+        "event": "P02 committed reveal"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_INVITATION_HOUSE.mid",
+      "native_payload_path": "native/122.sound.bin",
+      "sha256": {
+        "midi": "d126df0e3939311d993a4f3bd61f3c716c233c0e5d254e8f8145d035c45aba30",
+        "native": "9eae7821a4e28e71fdc78cf9a3dbcf8ee5d0f5cbb531cf525492cd2c51dac2ed"
+      }
+    },
+    {
+      "resource_id": 123,
+      "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+      "duration_seconds": 8.866844,
+      "gdd_binding": {
+        "event": "E03 explicit Ready"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_EXPLORATION_SUPPER.mid",
+      "native_payload_path": "native/123.sound.bin",
+      "sha256": {
+        "midi": "d8d72b16b68a4e2884115583e44d8de713563c8dbba9a2c22bba99ec7d910895",
+        "native": "848d4364a4d4a3321246095e6f0e8a794503329bbcc7fa985c303b60d9257fa6"
+      }
+    },
+    {
+      "resource_id": 124,
+      "cue_id": "BRIDGE_SUPPER_RESCUE",
+      "duration_seconds": 8.83351,
+      "gdd_binding": {
+        "event": "E04 scene ownership"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_SUPPER_RESCUE.mid",
+      "native_payload_path": "native/124.sound.bin",
+      "sha256": {
+        "midi": "80609d3db9cc510bc7fe4fdff8625db024f68ef1f1f8c46134694240d72a302c",
+        "native": "bf722fd4fca9b367c360d8a41dacda8a55bf334cdc4639996fc771ed9ed26aff"
+      }
+    },
+    {
+      "resource_id": 125,
+      "cue_id": "BRIDGE_MICROPHONE_DOORS",
+      "duration_seconds": 9.083515,
+      "gdd_binding": {
+        "event": "E05 complete then E06"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_MICROPHONE_DOORS.mid",
+      "native_payload_path": "native/125.sound.bin",
+      "sha256": {
+        "midi": "a320ce644cc5fc3539b52fffab2925582c947d719873a48edf439169fd0eaeef",
+        "native": "45d351d929e276b9cccde26806d0ae63f7fb7c141174464bd22966ddf57741ce"
+      }
+    },
+    {
+      "resource_id": 126,
+      "cue_id": "BRIDGE_PROMISES_QUIET",
+      "duration_seconds": 9.466856,
+      "gdd_binding": {
+        "event": "P14 committed completion"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_PROMISES_QUIET.mid",
+      "native_payload_path": "native/126.sound.bin",
+      "sha256": {
+        "midi": "5397140b92b0a9dd2f78cf93950a4ffcaa1837d3741dba5251e031a349f0442f",
+        "native": "b88439d5476c6b8f1c3b8310778f0301e5b9121b8c9987730258ebf52546783d"
+      }
+    },
+    {
+      "resource_id": 127,
+      "cue_id": "PASSAGE_RESCUE_RESOLUTION",
+      "duration_seconds": 8.766842,
+      "gdd_binding": {
+        "event": "P11 committed help/completion"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_RESCUE_RESOLUTION.mid",
+      "native_payload_path": "native/127.sound.bin",
+      "sha256": {
+        "midi": "5fca5c009966ea12aa8b5f67c0ee950e6b7793509e0657da56c08c8d5757dbaf",
+        "native": "ef8515613e8880e515a21f6f5da2baf089c4392f24bf298304135fe7dfaae52e"
+      }
+    },
+    {
+      "resource_id": 128,
+      "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+      "duration_seconds": 9.083515,
+      "gdd_binding": {
+        "event": "P12 collective response after consequential words"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_CONFETTI_RESPONSE.mid",
+      "native_payload_path": "native/128.sound.bin",
+      "sha256": {
+        "midi": "576d38601d94696f6add98e9ed0cd5418e714f9d9488f2c25f7810205f64db01",
+        "native": "5d207676e28b1216d5668881d253a2e3f280c920c596bdd2fd9a87ec376c7f4b"
+      }
+    },
+    {
+      "resource_id": 129,
+      "cue_id": "PASSAGE_SPEECH_SPACE",
+      "duration_seconds": 17.983693,
+      "gdd_binding": {
+        "event": "P12 consequential words; scene-owned silence may extend"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_SPEECH_SPACE.mid",
+      "native_payload_path": "native/129.sound.bin",
+      "sha256": {
+        "midi": "091699cac1b33debfa3dc0543102f763868b1de79b74a7c83b7b7c4f1ad7cc37",
+        "native": "cf41d4b5024780f9dba738aa8ed7cbd019753124bb52fa5086554bf1d66049b2"
+      }
+    },
+    {
+      "resource_id": 140,
+      "cue_id": "MUS11_VERBAL_COMPETITIONS_BASE",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounters": {
+          "VC01": {
+            "opponent": "Milo",
+            "puzzle": "P05",
+            "location": "L06"
+          },
+          "VC02": {
+            "opponent": "Vivian",
+            "puzzle": "P06",
+            "location": "L03"
+          },
+          "VC03": {
+            "opponent": "Felix",
+            "after_puzzle": "P11 safe rescue",
+            "before_puzzle": "P12 public introduction",
+            "location": "L04"
+          },
+          "VC04": {
+            "opponent": "Mr. Stringer",
+            "after": "P13 served/revealed/board delivered",
+            "before": "toast",
+            "location": "L05"
+          }
+        },
+        "meaning": "face-to-face verbal competition, not physical fighting"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VERBAL_COMPETITIONS_BASE.mid",
+      "native_payload_path": "native/140.sound.bin",
+      "sha256": {
+        "midi": "4b886f7d9611e3a616ea727fee3a2554cd222f12ea88ee7076efaf3b2bf3aab1",
+        "native": "ff2e436be33b506c3ac8e4ef5957522720ef459348f8e0872534e448712de985"
+      }
+    },
+    {
+      "resource_id": 141,
+      "cue_id": "MUS11_VC01_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC01",
+        "encounter_contract": {
+          "opponent": "Milo",
+          "puzzle": "P05",
+          "location": "L06"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC01_COLOR.mid",
+      "native_payload_path": "native/141.sound.bin",
+      "sha256": {
+        "midi": "63aa7e71eea96be2f7824a43709927d62e89d4d680093aa0c3aa6b796d6046fc",
+        "native": "33acfb9fa91dd99591b066870b053b1f17bb4d92b330559894bfad702a4575ef"
+      }
+    },
+    {
+      "resource_id": 142,
+      "cue_id": "MUS11_VC02_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC02",
+        "encounter_contract": {
+          "opponent": "Vivian",
+          "puzzle": "P06",
+          "location": "L03"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC02_COLOR.mid",
+      "native_payload_path": "native/142.sound.bin",
+      "sha256": {
+        "midi": "aeb7386bd2bc5abecb860307e1a8d6f0b5903df1fa447dff73ad3b1983cedadc",
+        "native": "721071570115f367c812eb18a1d900687a495414277daf69da08a5c0442c660a"
+      }
+    },
+    {
+      "resource_id": 143,
+      "cue_id": "MUS11_VC03_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC03",
+        "encounter_contract": {
+          "opponent": "Felix",
+          "after_puzzle": "P11 safe rescue",
+          "before_puzzle": "P12 public introduction",
+          "location": "L04"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC03_COLOR.mid",
+      "native_payload_path": "native/143.sound.bin",
+      "sha256": {
+        "midi": "2ea3cbd9e190701f1f0ac5e93aef163f022574eda67c104fe51513b90aa97390",
+        "native": "1c3fb8aad052f93ed3d639a8a7ecbb1f9a96f8e6471cba2ff4e13f7a98b01eaa"
+      }
+    },
+    {
+      "resource_id": 144,
+      "cue_id": "MUS11_VC04_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC04",
+        "encounter_contract": {
+          "opponent": "Mr. Stringer",
+          "after": "P13 served/revealed/board delivered",
+          "before": "toast",
+          "location": "L05"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC04_COLOR.mid",
+      "native_payload_path": "native/144.sound.bin",
+      "sha256": {
+        "midi": "89054f518e2f9e048d177b03ffe585795ec03e89d10e1ad1f0cee0516522e1d0",
+        "native": "6a60021f908f37494929203c73812ac2de59719c8b848d83e062cdb852c7030a"
+      }
+    },
+    {
+      "resource_id": 145,
+      "cue_id": "MUS11_THINKING_TURN",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "any",
+        "encounter_contract": null,
+        "state": "low-density thinking/turn",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_THINKING_TURN.mid",
+      "native_payload_path": "native/145.sound.bin",
+      "sha256": {
+        "midi": "de6cf120162d12be6b51fac0ccc95ba68116f0b2dd833fba60d075a59b6cccb6",
+        "native": "e09659f8a22bcf65bc71d2d8a4b147ea0e45d4c1e9617c9bc09a341d18b87cd7"
+      }
+    },
+    {
+      "resource_id": 146,
+      "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+      "duration_seconds": 0.566678,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "event": "VC_RESPONSE_COMMITTED",
+        "single_fire_key": "encounter + attempt serial + exchange/result serial",
+        "semantic": "social result only, no physical impact or injury"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS11_RESPONSE_PUNCTUATION.mid",
+      "native_payload_path": "native/146.sound.bin",
+      "sha256": {
+        "midi": "b3d247be058328266ea9a63e1f7dbc63ce3f84e88ff16a8b4808e990127f8a33",
+        "native": "8539b15bc452d4314fac7caa178904994a887a6b226e5b8feb267ecd2566128f"
+      }
+    },
+    {
+      "resource_id": 147,
+      "cue_id": "MUS11_SOCIAL_RESULT",
+      "duration_seconds": 0.866684,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "event": "VC_KO_COMMITTED",
+        "single_fire_key": "encounter + attempt serial + exchange/result serial",
+        "semantic": "social result only, no physical impact or injury"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS11_SOCIAL_RESULT.mid",
+      "native_payload_path": "native/147.sound.bin",
+      "sha256": {
+        "midi": "74e947e87909cd0120f56855b1214958c8ed3030337a7cc76f3bfd7d1a9e5ab1",
+        "native": "75c9fb2451e8ecfd97c3c331df357c0c863e889d5fb7a145f4150426933d9554"
+      }
+    }
+  ],
+  "identity_summary": {
+    "semantic_cue_resources": 38,
+    "distinct_midi_hashes": 37,
+    "distinct_native_hashes": 37,
+    "alias": [
+      101,
+      104
+    ],
+    "alias_reason": "The preserved composition recipe intentionally uses identical porch/HOME/HOME/0/0/112 parameters; differing cue IDs and story bindings do not create distinct music. Not an R3 harness replacement.",
+    "composition_source": "inputs/composition-generators/compose_full_score_v4.py:73,76",
+    "not_distinct_compositions_claim": "Contest140..145 also share note/program/expression clock with differing gain rows; byte uniqueness is not a count of unrelated compositions."
+  },
+  "production_binding": {
+    "production_manifest": "inputs/music/analysis/score-index.json",
+    "historical_pin_manifest": "inputs/accepted-v4/SOURCE-PACKET.json",
+    "source_packet_sha256": "9ff74eac0597c3b65a76332b26064a9a781cf5c5bc48b30c5dde90a5253fd705",
+    "pair_checks": 76,
+    "pair_failures": 0,
+    "checks": [
+      {
+        "cue_id": "MUS01_OPENING",
+        "resource_id": 100,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS01_OPENING.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS01_OPENING.mid",
+        "sha256": "6f1ef330262c3f6a0b7365c40e6dc075e99f5a0f13e706a7f8e9e2e5a67d808e",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS01_OPENING",
+        "resource_id": 100,
+        "kind": "native",
+        "component_path": "inputs/music/native/100.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/100.sound.bin",
+        "sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS01_INVITATION",
+        "resource_id": 101,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS01_INVITATION.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS01_INVITATION.mid",
+        "sha256": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS01_INVITATION",
+        "resource_id": 101,
+        "kind": "native",
+        "component_path": "inputs/music/native/101.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/101.sound.bin",
+        "sha256": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS02_HOUSE_LIVING",
+        "resource_id": 102,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS02_HOUSE_LIVING.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS02_HOUSE_LIVING.mid",
+        "sha256": "0c91c0d0aa85c217cb4390fb6886706c7fb58ad79cd8b3f41016e46bd8a4c65a",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS02_HOUSE_LIVING",
+        "resource_id": 102,
+        "kind": "native",
+        "component_path": "inputs/music/native/102.sound.bin",
+        "stored_at": "assets/102.sound.bin",
+        "sha256": "c5cfdab4fe4953f6129de9db62b2282d083aa07c843d568ba771d0cccb2ce1ad",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS02_HOUSE_KITCHEN",
+        "resource_id": 103,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS02_HOUSE_KITCHEN.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS02_HOUSE_KITCHEN.mid",
+        "sha256": "ce58f9a0adb44371d676110c63a82bc6b293d597dd6c7ed7752541b6fd0b4148",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS02_HOUSE_KITCHEN",
+        "resource_id": 103,
+        "kind": "native",
+        "component_path": "inputs/music/native/103.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/103.sound.bin",
+        "sha256": "8c204a7cd45f43984774079be7c4f5a5264be26af95d1094adeeb4556376d843",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_PORCH",
+        "resource_id": 104,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS03_PORCH.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS01_INVITATION.mid",
+        "sha256": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_PORCH",
+        "resource_id": 104,
+        "kind": "native",
+        "component_path": "inputs/music/native/104.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/101.sound.bin",
+        "sha256": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_SIDE_PASSAGE",
+        "resource_id": 105,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS03_SIDE_PASSAGE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS03_SIDE_PASSAGE.mid",
+        "sha256": "0e659f402e14ce47e66304b5cd9158d90e54cb2df15e17af099c56b3f41a34c5",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_SIDE_PASSAGE",
+        "resource_id": 105,
+        "kind": "native",
+        "component_path": "inputs/music/native/105.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/105.sound.bin",
+        "sha256": "d6d0d94ef1ba8bf555e1b04711cd382107fe4c8f2545b171d1bbdc7ed676a777",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_COURTYARD",
+        "resource_id": 106,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS03_COURTYARD.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS03_COURTYARD.mid",
+        "sha256": "659c87f5b2f227078c882162944fe9a8e283fab4f426171589aa6a64a811294c",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS03_COURTYARD",
+        "resource_id": 106,
+        "kind": "native",
+        "component_path": "inputs/music/native/106.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/106.sound.bin",
+        "sha256": "bf4ce04560edc4a33e2a760b54d9bba9bc9e6ea562f8999ef3d169e2e64c0623",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS04_MILO_SHOWY",
+        "resource_id": 107,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS04_MILO_SHOWY.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS04_MILO_SHOWY.mid",
+        "sha256": "2920e63c4b59441751318704eb533651b597ba4fb519dfb3599b0a26a38cf2bf",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS04_MILO_SHOWY",
+        "resource_id": 107,
+        "kind": "native",
+        "component_path": "inputs/music/native/107.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/107.sound.bin",
+        "sha256": "04be79f63a50c8f92d113b8ecf19d51a9bb7eac89a5b991ed6564cdc254ad700",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS04_MILO_SINCERE",
+        "resource_id": 108,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS04_MILO_SINCERE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS04_MILO_SINCERE.mid",
+        "sha256": "aadb64dd0a1286a83701b057aed47575de96dc4fe50c7fad7d91875808b2019a",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS04_MILO_SINCERE",
+        "resource_id": 108,
+        "kind": "native",
+        "component_path": "inputs/music/native/108.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/108.sound.bin",
+        "sha256": "00d6cffedddfb78230f74da4c287f493ef94738a44d1dd094c333c6f784c20a4",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS05_STRINGERS_PRECISE",
+        "resource_id": 109,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS05_STRINGERS_PRECISE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS05_STRINGERS_PRECISE.mid",
+        "sha256": "7d32f797e90d1cf15fbf0567aa369bb4898e9843de3e9140a5214f98bd225048",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS05_STRINGERS_PRECISE",
+        "resource_id": 109,
+        "kind": "native",
+        "component_path": "inputs/music/native/109.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/109.sound.bin",
+        "sha256": "b57415d5456dff33843dc6352c957a5340bb3a17661fd7a8b5ce3c6a8326db5b",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS05_STRINGERS_CREDITED",
+        "resource_id": 110,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS05_STRINGERS_CREDITED.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS05_STRINGERS_CREDITED.mid",
+        "sha256": "b609cb55ca44ce206a5fac8301d87307d0d1235d4f1d4ae2b78b1f1a8fa57a7e",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS05_STRINGERS_CREDITED",
+        "resource_id": 110,
+        "kind": "native",
+        "component_path": "inputs/music/native/110.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/110.sound.bin",
+        "sha256": "00d10e35ee3e4c94519720bf6ccd8eb535e670489368d45e2672de9ffd0fa054",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS06_SUPPER_COMPOSURE",
+        "resource_id": 111,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS06_SUPPER_COMPOSURE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS06_SUPPER_COMPOSURE.mid",
+        "sha256": "791087d1f542827a3cc76059a2ab3e8a295ef3a868d4fc2037e331aa747c08d5",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS06_SUPPER_COMPOSURE",
+        "resource_id": 111,
+        "kind": "native",
+        "component_path": "inputs/music/native/111.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/111.sound.bin",
+        "sha256": "08a6c486917b34e6ba91b3415ba80dcd252b73e83b8fce7d837664f85c5a1c9b",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS06_SUPPER_PRESSURE",
+        "resource_id": 112,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS06_SUPPER_PRESSURE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS06_SUPPER_PRESSURE.mid",
+        "sha256": "20726b28b3afdba86539c9e4382d5740b33f276004a19d0336f7cade532babb3",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS06_SUPPER_PRESSURE",
+        "resource_id": 112,
+        "kind": "native",
+        "component_path": "inputs/music/native/112.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/112.sound.bin",
+        "sha256": "5c82895f9cb0cb346eac442d948dead0c16ddf9d21de5d8b0c04423442005aa7",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS07_RESCUE_PRESSURE",
+        "resource_id": 113,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS07_RESCUE_PRESSURE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS07_RESCUE_PRESSURE.mid",
+        "sha256": "3e79adb175db559b173cfd6944ee2469e641b78a91f3b1c307a1b920e3ba895c",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS07_RESCUE_PRESSURE",
+        "resource_id": 113,
+        "kind": "native",
+        "component_path": "inputs/music/native/113.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/113.sound.bin",
+        "sha256": "30c75e60f49a5d4cbbf2714e67db9bad1bedb508411e06ea01033aabe7848c82",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS07_RESCUE_COORDINATED",
+        "resource_id": 114,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS07_RESCUE_COORDINATED.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS07_RESCUE_COORDINATED.mid",
+        "sha256": "669dd80240d21927c1959b5574696f84c8c5e3adb26e93e4d4a397d4930cdef5",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS07_RESCUE_COORDINATED",
+        "resource_id": 114,
+        "kind": "native",
+        "component_path": "inputs/music/native/114.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/114.sound.bin",
+        "sha256": "7da4c7a17bcfe95159ff3ebd0b747ec3b88746e3f84f176fd8a94d58b09d6f1a",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS08_MICROPHONE_PREPARATION",
+        "resource_id": 115,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS08_MICROPHONE_PREPARATION.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS08_MICROPHONE_PREPARATION.mid",
+        "sha256": "29488d874b96b20e81f7782e3a15e80af2bfbf966f52103347d9620dc1c52925",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS08_MICROPHONE_PREPARATION",
+        "resource_id": 115,
+        "kind": "native",
+        "component_path": "inputs/music/native/115.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/115.sound.bin",
+        "sha256": "7975f2a5498eeddd66212ecc8e4553cd2884b3a510689e98cca754e900421d59",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS08_MICROPHONE_HONEST",
+        "resource_id": 116,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS08_MICROPHONE_HONEST.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS08_MICROPHONE_HONEST.mid",
+        "sha256": "b879c9ff8aacabba76c6b24e8a9388afe087a042fd65eab4487b49781a47ca72",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS08_MICROPHONE_HONEST",
+        "resource_id": 116,
+        "kind": "native",
+        "component_path": "inputs/music/native/116.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/116.sound.bin",
+        "sha256": "00ba9c8f454c27996d8f4b03ee1bbd4b56dbc323c582e2232a2a5a74907c0680",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS09_THREE_DOORS_ROUTING",
+        "resource_id": 117,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS09_THREE_DOORS_ROUTING.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS09_THREE_DOORS_ROUTING.mid",
+        "sha256": "8dbaba81601da4bc48c0d461ac3deb12c245b06f9182d16776843a91353d74d9",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS09_THREE_DOORS_ROUTING",
+        "resource_id": 117,
+        "kind": "native",
+        "component_path": "inputs/music/native/117.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/117.sound.bin",
+        "sha256": "a22eeb062bdeed4d1f8a2ed833787017b36fe048895680409a16d1fd3929109c",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS09_THREE_DOORS_PROMISES",
+        "resource_id": 118,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS09_THREE_DOORS_PROMISES.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS09_THREE_DOORS_PROMISES.mid",
+        "sha256": "ffcfbbfdc4b5343f14df855b79654cb8812d3a5640ec1054c62ab88410f2a554",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS09_THREE_DOORS_PROMISES",
+        "resource_id": 118,
+        "kind": "native",
+        "component_path": "inputs/music/native/118.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/118.sound.bin",
+        "sha256": "c90ad7f5a326401f8b1e3a024d11237c44c6a3581adaba42b24fd7844c083900",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS10_HOUSEHOLD_QUIET",
+        "resource_id": 119,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS10_HOUSEHOLD_QUIET.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS10_HOUSEHOLD_QUIET.mid",
+        "sha256": "9bbc36bffa9acb0bbc20de5c04d85fe18e11d3e9e31d706bd83516f4299d9cce",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS10_HOUSEHOLD_QUIET",
+        "resource_id": 119,
+        "kind": "native",
+        "component_path": "inputs/music/native/119.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/119.sound.bin",
+        "sha256": "c440aff798c2f4ea87c4a103f57dd3e64e8db43962ca65d3aa948dbe01db4cb7",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS_AUDIENCE_EXPOSED",
+        "resource_id": 120,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS_AUDIENCE_EXPOSED.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS_AUDIENCE_EXPOSED.mid",
+        "sha256": "d92188a05518efc69c8fe73505b39751808ccd7632b4b2c5de601f739168b148",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS_AUDIENCE_EXPOSED",
+        "resource_id": 120,
+        "kind": "native",
+        "component_path": "inputs/music/native/120.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/120.sound.bin",
+        "sha256": "fbb3168e375acb49f3cf0a21aa891797d04c35fcf8fd87cd5d6b58439edf6e34",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS10_FULL_END_CREDITS",
+        "resource_id": 121,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS10_FULL_END_CREDITS.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS10_FULL_END_CREDITS.mid",
+        "sha256": "badf39786d4aa8e3935308acb2d9e4f99fd0d09a8ca7915308e85da81e22fa0e",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS10_FULL_END_CREDITS",
+        "resource_id": 121,
+        "kind": "native",
+        "component_path": "inputs/music/native/121.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/121.sound.bin",
+        "sha256": "bbf9662ecf780a8cd85df111ac8fd31a9fbc088977ea96eb08e40040cde2db99",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_INVITATION_HOUSE",
+        "resource_id": 122,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/BRIDGE_INVITATION_HOUSE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/BRIDGE_INVITATION_HOUSE.mid",
+        "sha256": "d126df0e3939311d993a4f3bd61f3c716c233c0e5d254e8f8145d035c45aba30",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_INVITATION_HOUSE",
+        "resource_id": 122,
+        "kind": "native",
+        "component_path": "inputs/music/native/122.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/122.sound.bin",
+        "sha256": "9eae7821a4e28e71fdc78cf9a3dbcf8ee5d0f5cbb531cf525492cd2c51dac2ed",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+        "resource_id": 123,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/BRIDGE_EXPLORATION_SUPPER.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/BRIDGE_EXPLORATION_SUPPER.mid",
+        "sha256": "d8d72b16b68a4e2884115583e44d8de713563c8dbba9a2c22bba99ec7d910895",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+        "resource_id": 123,
+        "kind": "native",
+        "component_path": "inputs/music/native/123.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/123.sound.bin",
+        "sha256": "848d4364a4d4a3321246095e6f0e8a794503329bbcc7fa985c303b60d9257fa6",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_SUPPER_RESCUE",
+        "resource_id": 124,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/BRIDGE_SUPPER_RESCUE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/BRIDGE_SUPPER_RESCUE.mid",
+        "sha256": "80609d3db9cc510bc7fe4fdff8625db024f68ef1f1f8c46134694240d72a302c",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_SUPPER_RESCUE",
+        "resource_id": 124,
+        "kind": "native",
+        "component_path": "inputs/music/native/124.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/124.sound.bin",
+        "sha256": "bf722fd4fca9b367c360d8a41dacda8a55bf334cdc4639996fc771ed9ed26aff",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_MICROPHONE_DOORS",
+        "resource_id": 125,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/BRIDGE_MICROPHONE_DOORS.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/BRIDGE_MICROPHONE_DOORS.mid",
+        "sha256": "a320ce644cc5fc3539b52fffab2925582c947d719873a48edf439169fd0eaeef",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_MICROPHONE_DOORS",
+        "resource_id": 125,
+        "kind": "native",
+        "component_path": "inputs/music/native/125.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/125.sound.bin",
+        "sha256": "45d351d929e276b9cccde26806d0ae63f7fb7c141174464bd22966ddf57741ce",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_PROMISES_QUIET",
+        "resource_id": 126,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/BRIDGE_PROMISES_QUIET.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/BRIDGE_PROMISES_QUIET.mid",
+        "sha256": "5397140b92b0a9dd2f78cf93950a4ffcaa1837d3741dba5251e031a349f0442f",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "BRIDGE_PROMISES_QUIET",
+        "resource_id": 126,
+        "kind": "native",
+        "component_path": "inputs/music/native/126.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/126.sound.bin",
+        "sha256": "b88439d5476c6b8f1c3b8310778f0301e5b9121b8c9987730258ebf52546783d",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_RESCUE_RESOLUTION",
+        "resource_id": 127,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/PASSAGE_RESCUE_RESOLUTION.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/PASSAGE_RESCUE_RESOLUTION.mid",
+        "sha256": "5fca5c009966ea12aa8b5f67c0ee950e6b7793509e0657da56c08c8d5757dbaf",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_RESCUE_RESOLUTION",
+        "resource_id": 127,
+        "kind": "native",
+        "component_path": "inputs/music/native/127.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/127.sound.bin",
+        "sha256": "ef8515613e8880e515a21f6f5da2baf089c4392f24bf298304135fe7dfaae52e",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+        "resource_id": 128,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/PASSAGE_CONFETTI_RESPONSE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/PASSAGE_CONFETTI_RESPONSE.mid",
+        "sha256": "576d38601d94696f6add98e9ed0cd5418e714f9d9488f2c25f7810205f64db01",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+        "resource_id": 128,
+        "kind": "native",
+        "component_path": "inputs/music/native/128.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/128.sound.bin",
+        "sha256": "5d207676e28b1216d5668881d253a2e3f280c920c596bdd2fd9a87ec376c7f4b",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_SPEECH_SPACE",
+        "resource_id": 129,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/PASSAGE_SPEECH_SPACE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/PASSAGE_SPEECH_SPACE.mid",
+        "sha256": "091699cac1b33debfa3dc0543102f763868b1de79b74a7c83b7b7c4f1ad7cc37",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "PASSAGE_SPEECH_SPACE",
+        "resource_id": 129,
+        "kind": "native",
+        "component_path": "inputs/music/native/129.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/129.sound.bin",
+        "sha256": "cf41d4b5024780f9dba738aa8ed7cbd019753124bb52fa5086554bf1d66049b2",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VERBAL_COMPETITIONS_BASE",
+        "resource_id": 140,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_VERBAL_COMPETITIONS_BASE.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_VERBAL_COMPETITIONS_BASE.mid",
+        "sha256": "4b886f7d9611e3a616ea727fee3a2554cd222f12ea88ee7076efaf3b2bf3aab1",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VERBAL_COMPETITIONS_BASE",
+        "resource_id": 140,
+        "kind": "native",
+        "component_path": "inputs/music/native/140.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/140.sound.bin",
+        "sha256": "ff2e436be33b506c3ac8e4ef5957522720ef459348f8e0872534e448712de985",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC01_COLOR",
+        "resource_id": 141,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_VC01_COLOR.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_VC01_COLOR.mid",
+        "sha256": "63aa7e71eea96be2f7824a43709927d62e89d4d680093aa0c3aa6b796d6046fc",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC01_COLOR",
+        "resource_id": 141,
+        "kind": "native",
+        "component_path": "inputs/music/native/141.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/141.sound.bin",
+        "sha256": "33acfb9fa91dd99591b066870b053b1f17bb4d92b330559894bfad702a4575ef",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC02_COLOR",
+        "resource_id": 142,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_VC02_COLOR.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_VC02_COLOR.mid",
+        "sha256": "aeb7386bd2bc5abecb860307e1a8d6f0b5903df1fa447dff73ad3b1983cedadc",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC02_COLOR",
+        "resource_id": 142,
+        "kind": "native",
+        "component_path": "inputs/music/native/142.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/142.sound.bin",
+        "sha256": "721071570115f367c812eb18a1d900687a495414277daf69da08a5c0442c660a",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC03_COLOR",
+        "resource_id": 143,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_VC03_COLOR.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_VC03_COLOR.mid",
+        "sha256": "2ea3cbd9e190701f1f0ac5e93aef163f022574eda67c104fe51513b90aa97390",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC03_COLOR",
+        "resource_id": 143,
+        "kind": "native",
+        "component_path": "inputs/music/native/143.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/143.sound.bin",
+        "sha256": "1c3fb8aad052f93ed3d639a8a7ecbb1f9a96f8e6471cba2ff4e13f7a98b01eaa",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC04_COLOR",
+        "resource_id": 144,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_VC04_COLOR.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_VC04_COLOR.mid",
+        "sha256": "89054f518e2f9e048d177b03ffe585795ec03e89d10e1ad1f0cee0516522e1d0",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_VC04_COLOR",
+        "resource_id": 144,
+        "kind": "native",
+        "component_path": "inputs/music/native/144.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/144.sound.bin",
+        "sha256": "6a60021f908f37494929203c73812ac2de59719c8b848d83e062cdb852c7030a",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_THINKING_TURN",
+        "resource_id": 145,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_THINKING_TURN.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_THINKING_TURN.mid",
+        "sha256": "de6cf120162d12be6b51fac0ccc95ba68116f0b2dd833fba60d075a59b6cccb6",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_THINKING_TURN",
+        "resource_id": 145,
+        "kind": "native",
+        "component_path": "inputs/music/native/145.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/145.sound.bin",
+        "sha256": "e09659f8a22bcf65bc71d2d8a4b147ea0e45d4c1e9617c9bc09a341d18b87cd7",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+        "resource_id": 146,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_RESPONSE_PUNCTUATION.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_RESPONSE_PUNCTUATION.mid",
+        "sha256": "b3d247be058328266ea9a63e1f7dbc63ce3f84e88ff16a8b4808e990127f8a33",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+        "resource_id": 146,
+        "kind": "native",
+        "component_path": "inputs/music/native/146.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/146.sound.bin",
+        "sha256": "8539b15bc452d4314fac7caa178904994a887a6b226e5b8feb267ecd2566128f",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_SOCIAL_RESULT",
+        "resource_id": 147,
+        "kind": "midi",
+        "component_path": "inputs/music/midi/MUS11_SOCIAL_RESULT.mid",
+        "stored_at": "progress/components/music-r3/inputs/music/midi/MUS11_SOCIAL_RESULT.mid",
+        "sha256": "74e947e87909cd0120f56855b1214958c8ed3030337a7cc76f3bfd7d1a9e5ab1",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      },
+      {
+        "cue_id": "MUS11_SOCIAL_RESULT",
+        "resource_id": 147,
+        "kind": "native",
+        "component_path": "inputs/music/native/147.sound.bin",
+        "stored_at": "progress/components/music-r3/inputs/music/native/147.sound.bin",
+        "sha256": "75c9fb2451e8ecfd97c3c331df357c0c863e889d5fb7a145f4150426933d9554",
+        "matched": [
+          "production_score_index",
+          "cue_manifest",
+          "deduplicated_component_map",
+          "historical_MUS11_R2_source_packet"
+        ]
+      }
+    ],
+    "metadata_checks": [
+      {
+        "path": "inputs/music/analysis/MUS01_OPENING-manifest.json",
+        "current_sha256": "90aee407302df5b86ad3a872f903b47eb5b2dd2e702e5a6fbcea4c4766a27648",
+        "historical_sha256": "90aee407302df5b86ad3a872f903b47eb5b2dd2e702e5a6fbcea4c4766a27648",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS01_INVITATION-manifest.json",
+        "current_sha256": "8616bd10f1e469473e7bbcf579b111cd1bf9722bf59a2983d7436b47417b909c",
+        "historical_sha256": "8616bd10f1e469473e7bbcf579b111cd1bf9722bf59a2983d7436b47417b909c",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS02_HOUSE_LIVING-manifest.json",
+        "current_sha256": "fb7e0b8ec1f4b3f408afac20131e2e26e05397239d6b8cbf14a923d3b74f43be",
+        "historical_sha256": "fb7e0b8ec1f4b3f408afac20131e2e26e05397239d6b8cbf14a923d3b74f43be",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS02_HOUSE_KITCHEN-manifest.json",
+        "current_sha256": "00f50de700eee0bec1dfc293685cb0a403f9386bb32465051527eaa1b27a7ba3",
+        "historical_sha256": "00f50de700eee0bec1dfc293685cb0a403f9386bb32465051527eaa1b27a7ba3",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS03_PORCH-manifest.json",
+        "current_sha256": "351c80ae20d64274d02c82947546a4aee7c34d56958955ba84df089b4f1df994",
+        "historical_sha256": "351c80ae20d64274d02c82947546a4aee7c34d56958955ba84df089b4f1df994",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS03_SIDE_PASSAGE-manifest.json",
+        "current_sha256": "6a7791b2ca592753cd785a99d95677b04d8e4bcc352376d269f82bef7e66c67b",
+        "historical_sha256": "6a7791b2ca592753cd785a99d95677b04d8e4bcc352376d269f82bef7e66c67b",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS03_COURTYARD-manifest.json",
+        "current_sha256": "e83b0c9ecde141fe0f14c2a9cef3ad6ecb9590cfa6894f096e047d388b07932c",
+        "historical_sha256": "e83b0c9ecde141fe0f14c2a9cef3ad6ecb9590cfa6894f096e047d388b07932c",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS04_MILO_SHOWY-manifest.json",
+        "current_sha256": "556b16960afc106e4224e640df494796ac007908236dbf96b80f4c3cb3db3007",
+        "historical_sha256": "556b16960afc106e4224e640df494796ac007908236dbf96b80f4c3cb3db3007",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS04_MILO_SINCERE-manifest.json",
+        "current_sha256": "db323259c64518b87ff8be4df0144cad165ddcbc67c61b4762ba52be5bf83844",
+        "historical_sha256": "db323259c64518b87ff8be4df0144cad165ddcbc67c61b4762ba52be5bf83844",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS05_STRINGERS_PRECISE-manifest.json",
+        "current_sha256": "928020c35b606fbd773f4b66c38cabbb04bec48ea70ab005d25fd6f62c9db8e5",
+        "historical_sha256": "928020c35b606fbd773f4b66c38cabbb04bec48ea70ab005d25fd6f62c9db8e5",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS05_STRINGERS_CREDITED-manifest.json",
+        "current_sha256": "53f29d676c84e32ac4d5e6f04a5a19dc0cf5e7058ac9b689b81617e23c5db3b8",
+        "historical_sha256": "53f29d676c84e32ac4d5e6f04a5a19dc0cf5e7058ac9b689b81617e23c5db3b8",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS06_SUPPER_COMPOSURE-manifest.json",
+        "current_sha256": "e64dfd9664b23c2b58a9602357eb70a3b11e28ac8c1986563097acf92126e967",
+        "historical_sha256": "e64dfd9664b23c2b58a9602357eb70a3b11e28ac8c1986563097acf92126e967",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS06_SUPPER_PRESSURE-manifest.json",
+        "current_sha256": "702e29953dbb1e0b663f17ea460613428dea0d2180de2e1ca5658ce8eeb13c75",
+        "historical_sha256": "702e29953dbb1e0b663f17ea460613428dea0d2180de2e1ca5658ce8eeb13c75",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS07_RESCUE_PRESSURE-manifest.json",
+        "current_sha256": "08f0b27cee1408804e8f0a87fc703c4917ebd655b7e274537211c44ceb6b7caa",
+        "historical_sha256": "08f0b27cee1408804e8f0a87fc703c4917ebd655b7e274537211c44ceb6b7caa",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS07_RESCUE_COORDINATED-manifest.json",
+        "current_sha256": "c0f687ce0249bbf6cabe392863d5be325e44c0577fc48208a3182db6f69e89d5",
+        "historical_sha256": "c0f687ce0249bbf6cabe392863d5be325e44c0577fc48208a3182db6f69e89d5",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS08_MICROPHONE_PREPARATION-manifest.json",
+        "current_sha256": "069adeef365b1726dcdf88a44874e00da30fdf11ce0cd2fc6505f690877b51ed",
+        "historical_sha256": "069adeef365b1726dcdf88a44874e00da30fdf11ce0cd2fc6505f690877b51ed",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS08_MICROPHONE_HONEST-manifest.json",
+        "current_sha256": "0244b1f0c9f216d0cbdfd1e63937eca2519653e56d8d3c717238bd37d958a721",
+        "historical_sha256": "0244b1f0c9f216d0cbdfd1e63937eca2519653e56d8d3c717238bd37d958a721",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS09_THREE_DOORS_ROUTING-manifest.json",
+        "current_sha256": "9aa45245c1a5a96c4d1b28547b05717e7ab862364106870b21c7cf998b250cb4",
+        "historical_sha256": "9aa45245c1a5a96c4d1b28547b05717e7ab862364106870b21c7cf998b250cb4",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS09_THREE_DOORS_PROMISES-manifest.json",
+        "current_sha256": "ac3067b855d8ff43e60dc43f70a5982f72c7199786e50143fe01ba156b75ecad",
+        "historical_sha256": "ac3067b855d8ff43e60dc43f70a5982f72c7199786e50143fe01ba156b75ecad",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS10_HOUSEHOLD_QUIET-manifest.json",
+        "current_sha256": "657e1a1ebdf8c7ac1c0abd86c32d2b8f31200ec0aa8996fad93feea1b16cbd05",
+        "historical_sha256": "657e1a1ebdf8c7ac1c0abd86c32d2b8f31200ec0aa8996fad93feea1b16cbd05",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS_AUDIENCE_EXPOSED-manifest.json",
+        "current_sha256": "171087333e005607d49355950f7b4edab920ea444ce7783cc5f6d734546a2692",
+        "historical_sha256": "171087333e005607d49355950f7b4edab920ea444ce7783cc5f6d734546a2692",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS10_FULL_END_CREDITS-manifest.json",
+        "current_sha256": "454f519b34abf962166475ee2f62bc904b5907b07fa76e10a2ebe6697bf63694",
+        "historical_sha256": "454f519b34abf962166475ee2f62bc904b5907b07fa76e10a2ebe6697bf63694",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/BRIDGE_INVITATION_HOUSE-manifest.json",
+        "current_sha256": "a52f8794b2ba24099a325be9d942d8ac1f04518d3a0990fd8cbde01f7d53f154",
+        "historical_sha256": "a52f8794b2ba24099a325be9d942d8ac1f04518d3a0990fd8cbde01f7d53f154",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/BRIDGE_EXPLORATION_SUPPER-manifest.json",
+        "current_sha256": "725547bd4bf09a75d3843e432c1da6466caa245491a1193e95ce9ee362de9105",
+        "historical_sha256": "725547bd4bf09a75d3843e432c1da6466caa245491a1193e95ce9ee362de9105",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/BRIDGE_SUPPER_RESCUE-manifest.json",
+        "current_sha256": "e206539d0370248ee3d62dd2872b0d365326a757bb10387b140b557a1c31afb0",
+        "historical_sha256": "e206539d0370248ee3d62dd2872b0d365326a757bb10387b140b557a1c31afb0",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/BRIDGE_MICROPHONE_DOORS-manifest.json",
+        "current_sha256": "7a828f91b4be9be909dfe218dae11e8a6542fc8ce2a4e0ea7932384e902cf898",
+        "historical_sha256": "7a828f91b4be9be909dfe218dae11e8a6542fc8ce2a4e0ea7932384e902cf898",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/BRIDGE_PROMISES_QUIET-manifest.json",
+        "current_sha256": "0567ac68e8b33f8c21d50aee1908b82355c028913b2b83b3cdfcfaee5b00c979",
+        "historical_sha256": "0567ac68e8b33f8c21d50aee1908b82355c028913b2b83b3cdfcfaee5b00c979",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/PASSAGE_RESCUE_RESOLUTION-manifest.json",
+        "current_sha256": "1d5b864eb7ca2c57991fc973c8151eedad0efbe0e1781aaebb9b5b9ba5a24116",
+        "historical_sha256": "1d5b864eb7ca2c57991fc973c8151eedad0efbe0e1781aaebb9b5b9ba5a24116",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/PASSAGE_CONFETTI_RESPONSE-manifest.json",
+        "current_sha256": "ba8a8c789b5c4725666af3bf23cde774f36edef63403b5946c5ccd659f3be8d0",
+        "historical_sha256": "ba8a8c789b5c4725666af3bf23cde774f36edef63403b5946c5ccd659f3be8d0",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/PASSAGE_SPEECH_SPACE-manifest.json",
+        "current_sha256": "75dac801ea5f4cabb7e45cabaa1a15a52705e0a282af510ace8d20b7d85e98d6",
+        "historical_sha256": "75dac801ea5f4cabb7e45cabaa1a15a52705e0a282af510ace8d20b7d85e98d6",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_VERBAL_COMPETITIONS_BASE-manifest.json",
+        "current_sha256": "0bfe8dc50315d3f9bd7b734886a1226d1fc2611327ae9ee1e008ee47d9639f71",
+        "historical_sha256": "0bfe8dc50315d3f9bd7b734886a1226d1fc2611327ae9ee1e008ee47d9639f71",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_VC01_COLOR-manifest.json",
+        "current_sha256": "dbfa0f7d7111349e32a3787a88a9f992315435c16ecf795565b7d2a95ae9f697",
+        "historical_sha256": "dbfa0f7d7111349e32a3787a88a9f992315435c16ecf795565b7d2a95ae9f697",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_VC02_COLOR-manifest.json",
+        "current_sha256": "a51f12332c11da4b0ac9dc8607024ad2b4ecd752ea1559395b97464ef3a4171a",
+        "historical_sha256": "a51f12332c11da4b0ac9dc8607024ad2b4ecd752ea1559395b97464ef3a4171a",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_VC03_COLOR-manifest.json",
+        "current_sha256": "fa96f30b95bef61254cf335669cc230e7e6ea2c4ea5868b9d8c4ed5caaf58a64",
+        "historical_sha256": "fa96f30b95bef61254cf335669cc230e7e6ea2c4ea5868b9d8c4ed5caaf58a64",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_VC04_COLOR-manifest.json",
+        "current_sha256": "1c83a9b423207efca4a2cdff8f333acefa09b328c1e511e824fe247501206a4c",
+        "historical_sha256": "1c83a9b423207efca4a2cdff8f333acefa09b328c1e511e824fe247501206a4c",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_THINKING_TURN-manifest.json",
+        "current_sha256": "560fd7a3e023c44c69a7e18a121646ee84983300ba83b89d5f240c3268b6e618",
+        "historical_sha256": "560fd7a3e023c44c69a7e18a121646ee84983300ba83b89d5f240c3268b6e618",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_RESPONSE_PUNCTUATION-manifest.json",
+        "current_sha256": "01ea244b43cff678ffafbd8d52dd85b683bdf4d498882e2f02f60c7733d4d96d",
+        "historical_sha256": "01ea244b43cff678ffafbd8d52dd85b683bdf4d498882e2f02f60c7733d4d96d",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/MUS11_SOCIAL_RESULT-manifest.json",
+        "current_sha256": "cb79a8a5c32372f1917328684589f14a7f9b2bf48a3cb778e454a6aa95491de6",
+        "historical_sha256": "cb79a8a5c32372f1917328684589f14a7f9b2bf48a3cb778e454a6aa95491de6",
+        "identical": true
+      },
+      {
+        "path": "inputs/composition-generators/compose_full_score_v4.py",
+        "current_sha256": "c47fed4450bf93fffdff40f2e25f8c336076893da9fd8056fe182dc8cf3c2dd7",
+        "historical_sha256": "949b80ef55ee0b8289f705c0549778f24ca2e0a2a34953c3fca2070f9f82fae9",
+        "identical": false
+      },
+      {
+        "path": "inputs/composition-generators/score_v4_core.py",
+        "current_sha256": "63bc2f0e8afca31fa4b45ca1646590fdca733d0cc3bb35f67263e75af5ea21f5",
+        "historical_sha256": "63bc2f0e8afca31fa4b45ca1646590fdca733d0cc3bb35f67263e75af5ea21f5",
+        "identical": true
+      },
+      {
+        "path": "inputs/music/analysis/score-index.json",
+        "current_sha256": "cb2c7e3fa173ae785a0084255f815bdb20b6014fcc3cd5e26ede41b623aa1cd2",
+        "historical_sha256": "435628d53ee83b9e725f14c3a67b9f57ee50d66585c77a336104a9a8f9c09df2",
+        "identical": false
+      },
+      {
+        "path": "inputs/music/analysis/full-score-plan.json",
+        "current_sha256": "79578e6c75023fc58896e3c6efced2a95b675e8595f8a3d2f88485963b06163e",
+        "historical_sha256": "52b37e49c5520156be541714b74616ee64e811717ae4a237a8cb2a49d5b41dfc",
+        "identical": false
+      }
+    ],
+    "limit": "Recovered score-index/full-score-plan container hashes differ from the historical SOURCE-PACKET. All38 retained cue manifests and all76 asset pairs are checked separately; no assertion that the recovered containers are byte-identical to the old archive."
+  }
+}

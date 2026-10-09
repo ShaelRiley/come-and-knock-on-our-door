@@ -1,0 +1,681 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/milo-sheet-r5.png",
+    "master_version": "r5",
+    "prompt": "../prompts/strict-alpha-r5.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Actual corrected master inspected. One source anatomy scale, individual shoe anchors. Milo explicit empty seamsx1100top andx400bottom preserve crossing fans without clipping.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "milo",
+    "source_anchors": [
+      [
+        192.0,
+        495
+      ],
+      [
+        167.0,
+        495
+      ],
+      [
+        175.5,
+        495
+      ],
+      [
+        235.0,
+        493
+      ],
+      [
+        196.0,
+        482
+      ],
+      [
+        184.0,
+        482
+      ],
+      [
+        191.0,
+        482
+      ],
+      [
+        187.0,
+        482
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1100,
+        512
+      ],
+      [
+        1100,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        400,
+        1024
+      ],
+      [
+        400,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 481
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 426,
+    "headroom": 11496,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      40560,
+      9213,
+      3840
+    ],
+    "total_bytes": 54039
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/milo/loop00-cel00-indexed.png",
+      "indexed_sha256": "d084fc03ff5b239bd63d5bf77895cd04abd8dea9991b5a07748e80c3e7a42b9b",
+      "loop": 0,
+      "pixel_sha256": "92887c463633c3c8a367578ff0c095caf11924534969690d5df44537bd92d6aa",
+      "rgba_path": "cels/milo/loop00-cel00-rgba.png",
+      "rgba_sha256": "4348ea2d75a8d38b31c3a17f83aaa4e9c3e7df4c1f2a48858e1b8f67e0cb7fbc",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/milo/loop00-cel01-indexed.png",
+      "indexed_sha256": "5f1a97152c185941b15573099afa70f45c49e3854e5e04914835312af30d201b",
+      "loop": 0,
+      "pixel_sha256": "29a88e0829fa6b4f79da2e24fc37643e5782c6fcfd2652e047c183c091994352",
+      "rgba_path": "cels/milo/loop00-cel01-rgba.png",
+      "rgba_sha256": "9f0cac59a8583e1e27ad8e3a31d93d4a15cdca74594da29da11799edd541b24a",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/milo/loop00-cel02-indexed.png",
+      "indexed_sha256": "df654d6641abf778a6c3f356935cab162330a68b0efad44a77d7f656865ba56b",
+      "loop": 0,
+      "pixel_sha256": "248250f66802a0df57ad9e37a1f81ea645453f6007f8921b663e482b3b98b452",
+      "rgba_path": "cels/milo/loop00-cel02-rgba.png",
+      "rgba_sha256": "841b838fca69a950a8733ac3b6d3acdc7ede721808afb3fe453b67a1bcb9caa4",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/milo/loop00-cel03-indexed.png",
+      "indexed_sha256": "3da681f4cc99936f2359cabce5a53f60a5f1d515ed092b7a5d3b8d3c9de4617a",
+      "loop": 0,
+      "pixel_sha256": "df8a6b75d4437326234758c342f83f65e9dce44348f8afd5b1ce9edb542fc1cf",
+      "rgba_path": "cels/milo/loop00-cel03-rgba.png",
+      "rgba_sha256": "a167432582dc546f4c76004f0f6dbf3b6246c2f1c1e7b31245eec26816687ca9",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/milo/loop00-cel04-indexed.png",
+      "indexed_sha256": "4fb4e01f03ec5eee2bb135214c3b256a1fbdd6c1b9431c4d94bfe71ded4f02f4",
+      "loop": 0,
+      "pixel_sha256": "5205b73e4ad55e3e019f4ca22a2a028b36af37238b005ca8b434b766df04b757",
+      "rgba_path": "cels/milo/loop00-cel04-rgba.png",
+      "rgba_sha256": "f248537b6bf73f29654718e0378213c919dbcc7874373a6e5c45be60f0cb9ee0",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/milo/loop00-cel05-indexed.png",
+      "indexed_sha256": "696fc5ac1fe2bc4aacdca85c62e7a9e72a37e95cc3949f3d7a3a4a16fefbdef7",
+      "loop": 0,
+      "pixel_sha256": "f3a9ce272e3b7722daab022a6beeafe6ec47f1fca9eb976cdc72cefddb1f23c9",
+      "rgba_path": "cels/milo/loop00-cel05-rgba.png",
+      "rgba_sha256": "2b4bae9dd3731208ded6341d058fa7dc2eabb1f6f0a932675221a75b90b10d6d",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/milo/loop00-cel06-indexed.png",
+      "indexed_sha256": "63a6dc8aee29ae4bf60c342ff83033e2ff4b6470b94da4fd7649be1b468185b0",
+      "loop": 0,
+      "pixel_sha256": "0ef2099132f2ad501a31dfe55726a9f2bb77ac25d04235e9caf7285c2cc17c3c",
+      "rgba_path": "cels/milo/loop00-cel06-rgba.png",
+      "rgba_sha256": "98112f70b8a2236250026b0c8698100082c981203d854245b6e46162be1e9d7a",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/milo/loop00-cel07-indexed.png",
+      "indexed_sha256": "2f791c39879a6afbaff29ea471da6359e14e2f763ecdaec067f165386d87d133",
+      "loop": 0,
+      "pixel_sha256": "c734160227cfb3e2c8080bada469a9c79cc662e29d70afcd242ac5dc72ed53f9",
+      "rgba_path": "cels/milo/loop00-cel07-rgba.png",
+      "rgba_sha256": "083c3f5ac1232d03c46a89f630745afb11de2dff9b61625c7ab50f63bbb2b58c",
+      "size": [
+        65,
+        78
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/milo/loop01-cel00-indexed.png",
+      "indexed_sha256": "5598866296aa7fd9554232ee105a12e72096ba176b3961f321a4b7150cd75701",
+      "loop": 1,
+      "pixel_sha256": "d56b53ed7404a4027173034819acf67a043ba88da12689f62783155447441770",
+      "rgba_path": "cels/milo/loop01-cel00-rgba.png",
+      "rgba_sha256": "6d6b93839ed76716ddcdb756e6cc8f0b43be11abee8f37e55de9ae14b8f855af",
+      "size": [
+        111,
+        83
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/milo/loop02-cel00-indexed.png",
+      "indexed_sha256": "95f4de1e88378317804dc155bf89184cd868880a69cde0d17777cd17e35cc735",
+      "loop": 2,
+      "pixel_sha256": "fc6fa55a69cb3f9aa97530bb976a7f687a4630ce4fabe76a878a908d9e0a4013",
+      "rgba_path": "cels/milo/loop02-cel00-rgba.png",
+      "rgba_sha256": "0cd856e02cb30439a01661b84c284778a189155b5b49c2f16473b4614b35955d",
+      "size": [
+        96,
+        40
+      ]
+    }
+  ],
+  "character": "Milo Pennant",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1956051,
+          "edit_target": "masters/milo-sheet-r4.png",
+          "exact_prompt": "prompts/strict-alpha-r5.txt",
+          "master": "masters/milo-sheet-r5.png",
+          "new_reconstructed_hidden_pixels": false,
+          "original_output_preserved": true,
+          "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+          "sha256": "876069a0152bc8b63e741ef8522a36954fca3a488946d267c372a75c6ffad722",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 2125037,
+          "edit_target": "masters/milo-sheet-r3.png",
+          "exact_prompt": "prompts/milo-grin-r4.txt",
+          "generation_reference": null,
+          "master": "masters/milo-sheet-r4.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "f99f19d944b58eef5b083424655aed4669237fb7fb9dd6e8e6e2acc98c21e57c",
+          "sha256": "5e2849ebf30e373e6ea31e6bbcf51d4aec87c010fe48f1705d234f170921ea87",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1924336,
+          "edit_target": null,
+          "exact_prompt": "prompts/milo-sheet-r1.txt",
+          "generation_reference": "input-references/milo-exact-generation-reference.png",
+          "master": "masters/milo-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "b785d75bbebdfce54644c739e8b7ab35a357928ae99bf6078c7e6ae0f7da1058",
+          "sha256": "c342d28bdda3ec8ee17a6bbe62e6089be8e61fb316dd0e2a0567331c30208535",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/milo-exact-generation-reference.png",
+      "qualification": "retained in-game cel enlarged; inherited historical origin qualification",
+      "sha256": "de5c7bc90e32d797edf5d019eed5ac5bc5bc091ab1d041fd4b47e3c77b01a7e0",
+      "source": "input-references/milo-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "221-milo-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "de5c7bc90e32d797edf5d019eed5ac5bc5bc091ab1d041fd4b47e3c77b01a7e0",
+          "file": "221-milo-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            12,
+            3,
+            40,
+            79
+          ],
+          "pixels_sha256": "f9e7e9bc38073f6f7459a985d717e306db22d2d10d42e13a60170132e1c3f794",
+          "sha256": "cf423fb6c70b1eedb56cf1469994678367f754641ca74ad16938ab72456db3d7",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "221-milo-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "87d7f401688b97ef33bc8ab2d163d86e13e15444d8314d20a4f01f54a02c8067",
+          "file": "221-milo-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            13,
+            3,
+            41,
+            79
+          ],
+          "pixels_sha256": "682e3fdec59f9277da3b634dcaec231594c188fcc6500c94efe9448293671866",
+          "sha256": "f9388aa0a53dae0d964fe5456f47bab24457bd8879b87f20aecdd2555e5579f9",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "milo",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/221.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 221
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "304-garage-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "0949879d04f2d7cb6fe40ad591f838c20f05388502ec5d853894c89bfa7424d4",
+          "file": "304-garage-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "dc12a1bddd7468bad0b88434965767e3263f805c9fa2d4932d12fea425806747",
+          "sha256": "4f1f03a8f6f8c386f561fe7f4bbc9fb230e4b4b440abb1b18eed39366ab8b6f4",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "garage",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/304.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 304
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1
+  ],
+  "master_sha256": "876069a0152bc8b63e741ef8522a36954fca3a488946d267c372a75c6ffad722",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r5",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/strict-alpha-r5.txt",
+  "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+  "resource_bytes": 54039,
+  "resource_path": "resources/249.view.bin",
+  "resource_sha256": "289273e6a762f446691055c785d3e08719cf2bf67b96d67116ccc43ca2397cd5",
+  "slug": "milo",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "1aa68ae663425817ef190a0a34946d7aa3d0dd47853994d671ad05c66e5cff3e",
+      "screen_opaque_bbox": [
+        101,
+        57,
+        135,
+        135
+      ],
+      "source_alpha_bbox": [
+        87,
+        15,
+        292,
+        496
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        192.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        192.0,
+        495
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "e2fe9ad4a3b88ae39722f546a7fd82188ea7dbba49a17f5bfe85388049b54e7e",
+      "screen_opaque_bbox": [
+        102,
+        57,
+        148,
+        135
+      ],
+      "source_alpha_bbox": [
+        63,
+        16,
+        350,
+        496
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        167.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        551.0,
+        495
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "4311c52322cdc806a619128a0a114337fd33e0a4c54083d9dd1c772883656056",
+      "screen_opaque_bbox": [
+        101,
+        58,
+        136,
+        135
+      ],
+      "source_alpha_bbox": [
+        67,
+        26,
+        285,
+        496
+      ],
+      "source_rect": [
+        768,
+        0,
+        1100,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        175.5,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        943.5,
+        495
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "b740ec85b31f4d48386d930bf3650fa0ced167747d9b7725c1fbb68904abdded",
+      "screen_opaque_bbox": [
+        85,
+        57,
+        146,
+        135
+      ],
+      "source_alpha_bbox": [
+        32,
+        13,
+        409,
+        494
+      ],
+      "source_rect": [
+        1100,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        235.0,
+        493
+      ],
+      "source_shoe_anchor_sheet": [
+        1335.0,
+        493
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "87971a7dbbcbf0d3e08c0ff00170f6c702db8a2a08e5bbb75eecb16fa9a275cb",
+      "screen_opaque_bbox": [
+        91,
+        58,
+        150,
+        135
+      ],
+      "source_alpha_bbox": [
+        24,
+        12,
+        388,
+        483
+      ],
+      "source_rect": [
+        0,
+        512,
+        400,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        196.0,
+        482
+      ],
+      "source_shoe_anchor_sheet": [
+        196.0,
+        994
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "f653105c4252cd996f5f11f67ad0f32ce9e9bf6c6aeb81a257ebcf7ed84f46ec",
+      "screen_opaque_bbox": [
+        90,
+        59,
+        148,
+        135
+      ],
+      "source_alpha_bbox": [
+        10,
+        16,
+        367,
+        483
+      ],
+      "source_rect": [
+        400,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        184.0,
+        482
+      ],
+      "source_shoe_anchor_sheet": [
+        584.0,
+        994
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "c68be87935d494f43dc7cccbc56fa2c1f5949c91c2912d117f8a0e22c4e6539d",
+      "screen_opaque_bbox": [
+        90,
+        59,
+        146,
+        135
+      ],
+      "source_alpha_bbox": [
+        16,
+        15,
+        360,
+        483
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        191.0,
+        482
+      ],
+      "source_shoe_anchor_sheet": [
+        959.0,
+        994
+      ],
+      "uniform_scale": 0.16216216216216217
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "e7e94e6816457915941b2fe5d2c05666e6ccc7cc4f2fbcc694608988108d19d2",
+      "screen_opaque_bbox": [
+        97,
+        59,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        52,
+        16,
+        329,
+        483
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        187.0,
+        482
+      ],
+      "source_shoe_anchor_sheet": [
+        1339.0,
+        994
+      ],
+      "uniform_scale": 0.16216216216216217
+    }
+  ],
+  "source_master": "masters/milo-sheet-r5.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 249
+}

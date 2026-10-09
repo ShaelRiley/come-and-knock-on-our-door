@@ -1,0 +1,82 @@
+[
+  {
+    "file": "SCICompanion-distribution-License.txt",
+    "url": "https://github.com/icefallgames/SCICompanion/blob/f1a603b48b1aa7abf94f78574a8f69a653e2ca62/SCICompanion/Files/License.txt",
+    "upstream_git_blob_sha1": "b1ac4de8782a8b52198cd1c941200d1b119b1e0f",
+    "local_sha256": "1c32b34d8de35c2cb4d9889703b9c6642f3c7998a151f227746f8fe49854740f",
+    "bytes": 557,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "cpptoml-LICENSE",
+    "url": "https://github.com/icefallgames/SCICompanion/blob/f1a603b48b1aa7abf94f78574a8f69a653e2ca62/SCICompanionLib/Src/cpptoml/LICENSE",
+    "upstream_git_blob_sha1": "8802c4fa5a361f2a599fc0274ae705297c16e8d2",
+    "local_sha256": "e020e5d4f3e7c2a49b66822b3c3fb99aba9a04f3d2edb3907c493976436f876c",
+    "bytes": 1056,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-v1.7.0-decompressor.cpp",
+    "url": "https://github.com/scummvm/scummvm/blob/v1.7.0/engines/sci/decompressor.cpp",
+    "upstream_git_blob_sha1": "e65ff148de69cb15d0ec02e750da1343acf30f53",
+    "local_sha256": "8a8e141a7784739d4b1bd06d8fcfffba0ce4296882b277f0c667a1a334df31c7",
+    "bytes": 17242,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-v1.7.0-decompressor.h",
+    "url": "https://github.com/scummvm/scummvm/blob/v1.7.0/engines/sci/decompressor.h",
+    "upstream_git_blob_sha1": "dab35fa41c07b45c4f6d958d82c40a52dbc267dc",
+    "local_sha256": "309b05882384bd63881290533942723c910e8cea6b7cd2e730166627436c6b06",
+    "bytes": 5323,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-v1.7.0-dcl.cpp",
+    "url": "https://github.com/scummvm/scummvm/blob/v1.7.0/common/dcl.cpp",
+    "upstream_git_blob_sha1": "bb4e283de554c9b69c26b7397e26682f262a7fd7",
+    "local_sha256": "f4254e89b4ccbb62937d51b5c8ab05bf1ea8247e9c530ae615554e8f58dbe670",
+    "bytes": 18116,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-v1.7.0-COPYRIGHT",
+    "url": "https://github.com/scummvm/scummvm/blob/v1.7.0/COPYRIGHT",
+    "upstream_git_blob_sha1": "2050c6d98f68f1928d181ead5b08f04fa0ec61f5",
+    "local_sha256": "aa4b11b424de8a64f0f42d6a5365c223be5fe0aafda125f7cf88ee3b42bcb60c",
+    "bytes": 4413,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-6ccb7bea-decompress0.cpp",
+    "url": "https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/engines/sci/scicore/decompress0.cpp",
+    "upstream_git_blob_sha1": "fda253b31e2534633474371a7baac8dfc9b7e8c7",
+    "local_sha256": "905a5f90ab1b18144c9dbbc2fc094d29237f088a1cf8ac075200420ff4922f15",
+    "bytes": 9555,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-6ccb7bea-decompress01.cpp",
+    "url": "https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/engines/sci/scicore/decompress01.cpp",
+    "upstream_git_blob_sha1": "9cdb02f9cb36b8f11bee639b366fa75fcf3e1d1d",
+    "local_sha256": "25d581b96444b03e23b0b1ea8ccbecb17cca5f4933b4e8e71ca24ead9f802978",
+    "bytes": 14418,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-6ccb7bea-decompress1.cpp",
+    "url": "https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/engines/sci/scicore/decompress1.cpp",
+    "upstream_git_blob_sha1": "06b7f0510381c071ba225883efd99e7fec81d046",
+    "local_sha256": "62ea0f22a29b9c9dd2f01c4b11f173292ae75349c5e3e64f1aa15f7bc6a28e22",
+    "bytes": 10411,
+    "exact_git_blob_match": true
+  },
+  {
+    "file": "scummvm-6ccb7bea-COPYRIGHT",
+    "url": "https://github.com/scummvm/scummvm/blob/6ccb7bea5b1ec48b4a212ff94464d687f9730b08/COPYRIGHT",
+    "upstream_git_blob_sha1": "f8a091c61b1953adb991dff381b772eb212ebbe8",
+    "local_sha256": "b4f4190ee4d1249a2b777b138e3fa4fe12464a0ca38dca59b8798e3d8c689296",
+    "bytes": 4276,
+    "exact_git_blob_match": true
+  }
+]

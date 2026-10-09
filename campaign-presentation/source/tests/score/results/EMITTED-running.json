@@ -1,0 +1,81 @@
+{
+  "case": "running",
+  "native_acceptance": false,
+  "compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "result": {
+    "kind": "running",
+    "saved": {
+      "now": 6950,
+      "card": 4,
+      "tick": 207,
+      "held": 0,
+      "opening": 1,
+      "initialized": 0,
+      "initCount": 0,
+      "uiFailure": 0,
+      "host_unavailable": 0,
+      "director": [
+        1,
+        100,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "broker": [
+        160,
+        4,
+        151,
+        0,
+        3,
+        0,
+        1,
+        0
+      ],
+      "native_tick": 1287,
+      "native_pauses": 1,
+      "native_gain": 0
+    },
+    "restored": {
+      "now": 13312,
+      "card": 4,
+      "tick": 247,
+      "held": 0,
+      "opening": 1,
+      "initialized": 0,
+      "initCount": 0,
+      "uiFailure": 0,
+      "host_unavailable": 0,
+      "director": [
+        1,
+        100,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "broker": [
+        160,
+        4,
+        151,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "native_tick": 1329,
+      "native_pauses": 0,
+      "native_gain": 100
+    },
+    "max_parsers": 1,
+    "instructions": 132469164,
+    "scope": "Actual Main native-kernel-model Save/Restore; no native file created"
+  },
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 167.62983020799584,
+  "max_rss_kib": 249464
+}

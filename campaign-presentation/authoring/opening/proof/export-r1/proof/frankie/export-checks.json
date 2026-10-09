@@ -1,0 +1,694 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/frankie-sheet-r5.png",
+    "master_version": "r5",
+    "prompt": "../prompts/strict-alpha-r5.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Actual corrected master inspected. One source anatomy scale, individual shoe anchors. Milo explicit empty seamsx1100top andx400bottom preserve crossing fans without clipping.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "frankie",
+    "source_anchors": [
+      [
+        236.0,
+        494
+      ],
+      [
+        225.0,
+        494
+      ],
+      [
+        198.0,
+        494
+      ],
+      [
+        196.5,
+        495
+      ],
+      [
+        244.5,
+        485
+      ],
+      [
+        232.0,
+        485
+      ],
+      [
+        221.5,
+        485
+      ],
+      [
+        204.0,
+        485
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 471
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 426,
+    "headroom": 22583,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      27808,
+      9918,
+      4800
+    ],
+    "total_bytes": 42952
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/frankie/loop00-cel00-indexed.png",
+      "indexed_sha256": "4f2f86880dc598a894fb97d221d7f2ea478483d62a5765ed926e97d712a044c8",
+      "loop": 0,
+      "pixel_sha256": "64eb922f000abb99893f4130f7afaba2c56f5355c7b4e3d19d9a8d198ce1ccce",
+      "rgba_path": "cels/frankie/loop00-cel00-rgba.png",
+      "rgba_sha256": "2ab7c5918ff37682326cbac179a7b8694631911fece30fe945c891ac88a1159a",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/frankie/loop00-cel01-indexed.png",
+      "indexed_sha256": "f0e4ce83780777910497cca02efc6d2062976fe1fed0b99e3c9d2cbfe3539c48",
+      "loop": 0,
+      "pixel_sha256": "3c4e36611633cc3d7c476f9a2c0eecb9d331a7783b5e8206cdcb3a4b88861350",
+      "rgba_path": "cels/frankie/loop00-cel01-rgba.png",
+      "rgba_sha256": "ad5e6b2326ba35999469eef7aeeaef55693a01138dacc5e12c88146ca3892b68",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/frankie/loop00-cel02-indexed.png",
+      "indexed_sha256": "1e0409c89a4f2f10ed92f3d2e0ecfcac81f314b8ac9b1eecb9a9f57c39600576",
+      "loop": 0,
+      "pixel_sha256": "30d49d66340cacf8e4ca3352c16a6279905314ad93b3e83b3ca9ced511f39f68",
+      "rgba_path": "cels/frankie/loop00-cel02-rgba.png",
+      "rgba_sha256": "93db5d80193bfd725a0f4abe4c2bbb3fa52ac3b48efde9e0dd353b1b4d59a821",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/frankie/loop00-cel03-indexed.png",
+      "indexed_sha256": "056ebbc8e12b48bb671eb7b3a1317a61e7185f4dd21261a7c5113d7fe1e3fd55",
+      "loop": 0,
+      "pixel_sha256": "cf3ea38104e9f114a9b63d06ec25b54a47b5caed5fbf79cbb44cc8070c1e9220",
+      "rgba_path": "cels/frankie/loop00-cel03-rgba.png",
+      "rgba_sha256": "c12638ccfbcf696f3e44a8e6b4a54882e4d32b98cae82667c6cc19cc6c0b477d",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/frankie/loop00-cel04-indexed.png",
+      "indexed_sha256": "69e127eea12e7aeffe0720061b3784250d5ac9dcbb8bfb48fa028b05fc50ef09",
+      "loop": 0,
+      "pixel_sha256": "052cc7b7d51a77fe8269d84fcc0b59fe1794226e04472f135793534df8954454",
+      "rgba_path": "cels/frankie/loop00-cel04-rgba.png",
+      "rgba_sha256": "a15f89620f598f8eafb01786164ae5a31ed7ab2a88da112b636344e7459b3294",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/frankie/loop00-cel05-indexed.png",
+      "indexed_sha256": "e0c023fc4dedbde5004c4c23357ca941c4a6f67aac8137250a9444ccd918417e",
+      "loop": 0,
+      "pixel_sha256": "0b4babf61a2f4d17f2602e9aaee46d53ff76c2275b41f3d75da76ae0c87dae0e",
+      "rgba_path": "cels/frankie/loop00-cel05-rgba.png",
+      "rgba_sha256": "828c53a409bef72081d9ffc93fd77f90970ee60e9d7987ab30e5d59308f8a0b5",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/frankie/loop00-cel06-indexed.png",
+      "indexed_sha256": "586fe920fb288e85a98694bff522d66383952e2cd2057a5898e4dbf86f498afa",
+      "loop": 0,
+      "pixel_sha256": "9d589431e32f793d4f16d628503f4d9c13840f259d7569516b8a3c90b61a3649",
+      "rgba_path": "cels/frankie/loop00-cel06-rgba.png",
+      "rgba_sha256": "13aa3fe6ed5fb507357980d3eb8760807eb2b062ad8482a14b412ea31f51f357",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/frankie/loop00-cel07-indexed.png",
+      "indexed_sha256": "441e2f875756adb4594ebde5bf3cc69e1ef200bda811e3e7fb23b4d4b4026cab",
+      "loop": 0,
+      "pixel_sha256": "b63e9305e0b923ae513e6044ae0558ecfa7b27fc3185bb2eedc86b969ad7b8dd",
+      "rgba_path": "cels/frankie/loop00-cel07-rgba.png",
+      "rgba_sha256": "bab02fee55909ecd930066dffe6b8f98d9944ba09b45c2fc3995330d7403b9cb",
+      "size": [
+        44,
+        79
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/frankie/loop01-cel00-indexed.png",
+      "indexed_sha256": "ff842236348743e7b6b6cf8994b207b72ad5d5c8fb132762078ecbb7e956572f",
+      "loop": 1,
+      "pixel_sha256": "5f6aae00a95568d6ffd110ab8dbf0b14e3f75115d35a17c07648abb722dfa34a",
+      "rgba_path": "cels/frankie/loop01-cel00-rgba.png",
+      "rgba_sha256": "4a3136abf0ddf505f59d1c4c5f64275f205f5fe8f34dcbee39d11489dd541d94",
+      "size": [
+        114,
+        87
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/frankie/loop02-cel00-indexed.png",
+      "indexed_sha256": "42f827d6f7acd068013e80c2ecd21b78fe93f16820828d49d0179d83b336b33b",
+      "loop": 2,
+      "pixel_sha256": "30329b6e6095dd8197eb14bd8e22ef64403c92a3b38516a3934f97b62ad3d5fb",
+      "rgba_path": "cels/frankie/loop02-cel00-rgba.png",
+      "rgba_sha256": "392ae6ed8df53428e9cccc8dccb67bffd68be4f978097c98b97c19cbc7cc0c4a",
+      "size": [
+        120,
+        40
+      ]
+    }
+  ],
+  "character": "Frankie Maplewood",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1811513,
+          "edit_target": "masters/frankie-sheet-r4.png",
+          "exact_prompt": "prompts/strict-alpha-r5.txt",
+          "master": "masters/frankie-sheet-r5.png",
+          "new_reconstructed_hidden_pixels": false,
+          "original_output_preserved": true,
+          "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+          "sha256": "fd262bb7e97fb26b2c5d636c1ef40d22edb7eaa9a6b7bb94e2694a9be1537b6c",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 2021770,
+          "edit_target": "masters/frankie-sheet-r3.png",
+          "exact_prompt": "prompts/frankie-level-backing-r4.txt",
+          "generation_reference": null,
+          "master": "masters/frankie-sheet-r4.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "db968fa4accfb16345cc0cabbaf27fdb784d34b5f6637ace12ef8524b3d16354",
+          "sha256": "37eb1a19006e0a062ed0d5760fc95a96b87581c2bae7edfa9b317f250244ff9e",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1775879,
+          "edit_target": "masters/frankie-sheet-r2.png",
+          "exact_prompt": "prompts/frankie-frame-r3.txt",
+          "generation_reference": null,
+          "master": "masters/frankie-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "b003c5078c9fb304fd059e5e48e08054a573642f97020f72128dfc9b4537a098",
+          "sha256": "dd4b81cfdd18f0203b54c3925e3d5aa3cf27742206217de4bf52a209452302a6",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1777112,
+          "edit_target": null,
+          "exact_prompt": "prompts/frankie-sheet-r1.txt",
+          "generation_reference": "input-references/frankie-exact-generation-reference.png",
+          "master": "masters/frankie-sheet-r2.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "e633b0f9ec87076da783fcd214798ca711221f458fc026a192df04b32f2811ab",
+          "sha256": "1167191fed138be70efc8800491b54d090b560b6fef96690631d4faf65651cae",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/frankie-exact-generation-reference.png",
+      "qualification": "accepted walk master; clearly brunette, mustard blouse, dark green trousers",
+      "sha256": "45629e6a64b9289268f1b207263f280dec583cefd4ec09df8d596fbf5dc2d6da",
+      "source": "input-references/frankie-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "218-frankie-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "db9406272fb83bd9bb3419d5622a5fa86e66a99861c56edc8239ea0be516cf7a",
+          "file": "218-frankie-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            14,
+            3,
+            38,
+            79
+          ],
+          "pixels_sha256": "5e9397bd09c6c0346cc6a713194dd8159aa8abb3a6574dea495013b2e43618ff",
+          "sha256": "e3a27afb3121233d37dce3c3ac954441b4d2e6446f19413c15bc6334cc9bdf87",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "218-frankie-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "4eb4575e683343e49e0bf38585de82e7dbf819ad8a26669764aa97ddef94e406",
+          "file": "218-frankie-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            15,
+            3,
+            39,
+            79
+          ],
+          "pixels_sha256": "8533436a2c5070a0c32cba3dc384d64f11332c7438f8a5bd30b14d949b6b584f",
+          "sha256": "bb2d87ff0ba81c202b125c31cce00acccac83e86471af448293ef5e1f1e874f4",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "frankie",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/218.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "0386c5740dd4eab145e2f0353ac4961bbc5340262e367b139acdf30187d81964",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 218
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "101-living-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "5d5a4b5a79a81d5c68e27dae85e10ae2a8de449c7d0a0bbf8692c33e66ff7233",
+          "file": "101-living-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "f9b727e7fdc72921fe432a0ab0288e16ded842d31a7a20bc3eddd55da40f77de",
+          "sha256": "06dd3233e4267bcf59d64ce6585df1bc3d6cc4d8c35d336ed3cfd44d674cf98a",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "living",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/101.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "da557d99d916d3842b558ab8bd15dd1af0d1be0c0d55dfe36f5cbf7ac6cf3103",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 101
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1
+  ],
+  "master_sha256": "fd262bb7e97fb26b2c5d636c1ef40d22edb7eaa9a6b7bb94e2694a9be1537b6c",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r5",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/strict-alpha-r5.txt",
+  "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+  "resource_bytes": 42952,
+  "resource_path": "resources/247.view.bin",
+  "resource_sha256": "d6663207f4941872183adb7424e4908d02af317151fcc307e8e250117ece9d53",
+  "slug": "frankie",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "58611d39f935c7b77cac19513206ab807c7d27f707cf817cfedde3e383fb63d4",
+      "screen_opaque_bbox": [
+        98,
+        57,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        113,
+        24,
+        359,
+        495
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        236.0,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        236.0,
+        494
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "a1732535857aa4132ece19a958c700de675e4dc5edf58f6ef17857a11ecb6754",
+      "screen_opaque_bbox": [
+        97,
+        58,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        94,
+        31,
+        347,
+        495
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        225.0,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        609.0,
+        494
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "93316e347c534ecb9f1d80757105cf921759b9be973b6471278e38ada520ed77",
+      "screen_opaque_bbox": [
+        99,
+        58,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        80,
+        32,
+        316,
+        495
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        198.0,
+        494
+      ],
+      "source_shoe_anchor_sheet": [
+        966.0,
+        494
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "28550f7f68ca3ef28248323c6c7a2dc03a9a17e9b7d94c4142a4c6c4c1b81141",
+      "screen_opaque_bbox": [
+        98,
+        58,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        71,
+        31,
+        314,
+        496
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        196.5,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        1348.5,
+        495
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "54853588b7323500bb2c8103dd4f1f12798df89755a482b0534f5787c3d04f18",
+      "screen_opaque_bbox": [
+        96,
+        56,
+        140,
+        135
+      ],
+      "source_alpha_bbox": [
+        110,
+        9,
+        373,
+        486
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        244.5,
+        485
+      ],
+      "source_shoe_anchor_sheet": [
+        244.5,
+        997
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "bb5ad63eb368b08ba34b5bd3b9b140200524f223b26bf06ced978daa26ae47cd",
+      "screen_opaque_bbox": [
+        97,
+        56,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        101,
+        12,
+        357,
+        486
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        232.0,
+        485
+      ],
+      "source_shoe_anchor_sheet": [
+        616.0,
+        997
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "c1420887b44a6a06955c1a5f0954a047f587d8ad27c24a548b4ead94cb199141",
+      "screen_opaque_bbox": [
+        97,
+        56,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        95,
+        13,
+        344,
+        486
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        221.5,
+        485
+      ],
+      "source_shoe_anchor_sheet": [
+        989.5,
+        997
+      ],
+      "uniform_scale": 0.16560509554140126
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "613ae7eb013269be44dde3c45a44db5b47213f86ac1534e9ab7d929c3c5f3cf5",
+      "screen_opaque_bbox": [
+        97,
+        56,
+        139,
+        135
+      ],
+      "source_alpha_bbox": [
+        74,
+        12,
+        330,
+        486
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        204.0,
+        485
+      ],
+      "source_shoe_anchor_sheet": [
+        1356.0,
+        997
+      ],
+      "uniform_scale": 0.16560509554140126
+    }
+  ],
+  "source_master": "masters/frankie-sheet-r5.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 247
+}

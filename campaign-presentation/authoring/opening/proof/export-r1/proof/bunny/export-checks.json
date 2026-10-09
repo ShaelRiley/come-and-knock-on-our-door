@@ -1,0 +1,669 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/bunny-sheet-r2.png",
+    "master_version": "r2",
+    "prompt": "../prompts/bunny-alpha-r2.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Reviewed actual master. Shoe-span center from lowest40source rows; fixed bottom-most sole pixel. Upright height measured cel0 head/hair through sole, exclusive of props; same scale retained through all poses. Jackie cel2/3 split moved to empty x1124 seam to retain entire airborne lid.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "bunny",
+    "source_anchors": [
+      [
+        173.0,
+        506
+      ],
+      [
+        171.0,
+        506
+      ],
+      [
+        184.5,
+        507
+      ],
+      [
+        210.0,
+        507
+      ],
+      [
+        193.5,
+        495
+      ],
+      [
+        187.0,
+        495
+      ],
+      [
+        211.5,
+        495
+      ],
+      [
+        209.0,
+        495
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "stable_prop_status": "NO_STABLE_PROP",
+    "target_upright_height": 78,
+    "upright_height_source": 491
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 426,
+    "headroom": 17964,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      34760,
+      9025,
+      3360
+    ],
+    "total_bytes": 47571
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/bunny/loop00-cel00-indexed.png",
+      "indexed_sha256": "187ce69a7193dbcdebc3c7076e79fbe4600d3b9ddc71b78d7cb5d96332df03d1",
+      "loop": 0,
+      "pixel_sha256": "87d86e8627c80398d347578cc101c46dfad0261693536d3d7e754cece40a140d",
+      "rgba_path": "cels/bunny/loop00-cel00-rgba.png",
+      "rgba_sha256": "1f3e0acea3c724165e2cf6ef2c043d7e5836f5ef397a6126ea62e331a44e51d3",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/bunny/loop00-cel01-indexed.png",
+      "indexed_sha256": "2806349b73980966e7405275ce937ecbeb35733e54479849001e0bdaaebe1f40",
+      "loop": 0,
+      "pixel_sha256": "c3f03b725ef708bd222995f8c3eb8fe3a91951a93755c1791835e0b1358c559c",
+      "rgba_path": "cels/bunny/loop00-cel01-rgba.png",
+      "rgba_sha256": "21fde71fc2999a0a7ece28e96efb0c620c47957c4d3b6646b183500d763f611c",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/bunny/loop00-cel02-indexed.png",
+      "indexed_sha256": "4a2f4b474610d66e26bf844cad1990b042a82cf679305b2506f9ea6ab4572761",
+      "loop": 0,
+      "pixel_sha256": "21726ecb13a9a6d8571050f1f88ad20c586171c9636a6c81608fd56dcf2f735a",
+      "rgba_path": "cels/bunny/loop00-cel02-rgba.png",
+      "rgba_sha256": "bc50b9988c9cfde2a64d5668076de0f5610c5fb34de0b424adbf1c0a4929751d",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/bunny/loop00-cel03-indexed.png",
+      "indexed_sha256": "e5be7e8b6cff8d33bee809c2c39a1d972e29c600eb768708476c6d7f28a2237f",
+      "loop": 0,
+      "pixel_sha256": "562ed542b144d7a546496de24fc08c2a431983ff8da8a25d8ba17d48a3d13498",
+      "rgba_path": "cels/bunny/loop00-cel03-rgba.png",
+      "rgba_sha256": "1b63cfaed5ed73a4a9db7af4ee6f24cc1fa1d2d97bed0bd1a28fc9eab49cea15",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/bunny/loop00-cel04-indexed.png",
+      "indexed_sha256": "a44c12db654869ee0fd72e48704f8054552f716e1b0bc4641c44d0a3161a6d28",
+      "loop": 0,
+      "pixel_sha256": "b45d4f93593ccfce3e2f59ce16f864cc75421557020b4aab18ebda57e404dbb8",
+      "rgba_path": "cels/bunny/loop00-cel04-rgba.png",
+      "rgba_sha256": "6e59228fbe5815ec548decdc676a69808edb1a264c678aed204235eb824e82d0",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/bunny/loop00-cel05-indexed.png",
+      "indexed_sha256": "db31ee082a9bbd74d5cc2dbb8d917f52c5c194f335bbc7c18bd34048e208ee1d",
+      "loop": 0,
+      "pixel_sha256": "631c29dc78225493b1a52d1cca871ee7de5901e714489157b49112126dacc69e",
+      "rgba_path": "cels/bunny/loop00-cel05-rgba.png",
+      "rgba_sha256": "01c91e5c87212d45b56cd6662b88fd49b0233c30b884b40d41784ab9930c7427",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/bunny/loop00-cel06-indexed.png",
+      "indexed_sha256": "c698a3cb75dbfa5ca4e49c02327f4e528c182f4364c31b0c75dc0300a275f87d",
+      "loop": 0,
+      "pixel_sha256": "c62f3bbbc18c4ab4c8dbe9c3f46f155c292ffb5e111fccc360f9d8f21f7b518c",
+      "rgba_path": "cels/bunny/loop00-cel06-rgba.png",
+      "rgba_sha256": "2d0d46c7312e64706ca1456c9d8e6cee964f823256c6a11e6c03cba3ca7ca47a",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/bunny/loop00-cel07-indexed.png",
+      "indexed_sha256": "ba78a91a2a7f05c1dc1e773ee8633bbed6b812ae12432a1f03010ef71cabbc1f",
+      "loop": 0,
+      "pixel_sha256": "782589f658eee103160ea759178f7406a0f26802972f990e2ea05388082d94dc",
+      "rgba_path": "cels/bunny/loop00-cel07-rgba.png",
+      "rgba_sha256": "720ab33cd983df6212875c5ff74b43eb68fe4b6c5cde09da076da21892431f23",
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/bunny/loop01-cel00-indexed.png",
+      "indexed_sha256": "c2f6ada52de5ccb72462c0b4f0631b68b9111d6d8caff4d4e50c07f5194f7a20",
+      "loop": 1,
+      "pixel_sha256": "82922e1da2d40dfbec668e7e9595c1f1ea0b4f1e9f552a6bdddaf5391754d9be",
+      "rgba_path": "cels/bunny/loop01-cel00-rgba.png",
+      "rgba_sha256": "6e6202d4d6481858d6649ccab3d40b6dc9baa5886cd8508f6107a3a6ed07670e",
+      "size": [
+        95,
+        95
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/bunny/loop02-cel00-indexed.png",
+      "indexed_sha256": "1b4025777e2d096cd3740127cdb7f1f4db49905453391da3a60294e01f7e9b46",
+      "loop": 2,
+      "pixel_sha256": "3768ee8e6340ab0ea354991e2bfb8068604ac76df0b5d79270c66024af3354fe",
+      "rgba_path": "cels/bunny/loop02-cel00-rgba.png",
+      "rgba_sha256": "0df81387049020a058869e4edb9835dfbff4a86a5e2e14eea480ca784d45da3e",
+      "size": [
+        84,
+        40
+      ]
+    }
+  ],
+  "character": "Bunny Easter",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1940102,
+          "edit_target": "masters/bunny-sheet-r1.png",
+          "exact_prompt": "prompts/bunny-alpha-r2.txt",
+          "generation_reference": null,
+          "master": "masters/bunny-sheet-r2.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "e96847f9091bc1bb1b3c81a54cb0a48f8a51c7caca21ac6e16b7149665d1d73b",
+          "sha256": "23168b61db6539b171021bbf5a3eb5b512f67ae735eef51db38b9943e4dc491c",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        },
+        {
+          "bytes": 1978401,
+          "edit_target": null,
+          "exact_prompt": "prompts/bunny-sheet-r1.txt",
+          "generation_reference": "input-references/bunny-exact-generation-reference.png",
+          "master": "masters/bunny-sheet-r1.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "c62fff17cdf08e258f2ceea04893e72af83c662facd80fb9371222dd6142a9fb",
+          "sha256": "fc74fccfb19601a66ed1738a13e7521ce50f6344d4b8fb48e34eaf39e13f4a73",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/bunny-exact-generation-reference.png",
+      "qualification": "accepted walk master; blonde, coral blouse, cream trousers",
+      "sha256": "0ba8f91b8050426bf0021eacf31438a93ec9346a2c0b7f6180d89a22197b80f4",
+      "source": "input-references/bunny-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "219-bunny-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "fe276ce7d2ad391bd6f496a6eeff9b2bb18477579ffbeae42d3ccfdd78ce7a07",
+          "file": "219-bunny-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            13,
+            4,
+            43,
+            79
+          ],
+          "pixels_sha256": "711a13162d9d57d0a53fa11325f938b8ee6b8b1828ed8d809b0741ec59332d11",
+          "sha256": "2f22bedce26420fc3811c27afc54ef3fc3190d49df8a4a7d555cc255ea93944e",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "219-bunny-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "331e24dccbe96fb75ce01e014216b60fe860863e29062f1625ca9d2a48474aa4",
+          "file": "219-bunny-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            10,
+            4,
+            40,
+            79
+          ],
+          "pixels_sha256": "721d021bcd13fc87b5e0c3a7aef38b9d772cc864040df4364c3b03c03a562788",
+          "sha256": "5ed32e3b09a36d4529a0b7bcb186c1138bb016e2087d924b5bc7c0cae5c68bab",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "bunny",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/219.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 219
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "101-living-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "5d5a4b5a79a81d5c68e27dae85e10ae2a8de449c7d0a0bbf8692c33e66ff7233",
+          "file": "101-living-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "f9b727e7fdc72921fe432a0ab0288e16ded842d31a7a20bc3eddd55da40f77de",
+          "sha256": "06dd3233e4267bcf59d64ce6585df1bc3d6cc4d8c35d336ed3cfd44d674cf98a",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "living",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/101.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "da557d99d916d3842b558ab8bd15dd1af0d1be0c0d55dfe36f5cbf7ac6cf3103",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 101
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1
+  ],
+  "master_sha256": "23168b61db6539b171021bbf5a3eb5b512f67ae735eef51db38b9943e4dc491c",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r2",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/bunny-alpha-r2.txt",
+  "prompt_sha256": "e96847f9091bc1bb1b3c81a54cb0a48f8a51c7caca21ac6e16b7149665d1d73b",
+  "resource_bytes": 47571,
+  "resource_path": "resources/246.view.bin",
+  "resource_sha256": "84f8cc349b72ebb8f1b933ba2c6b21c6ac79090685ceab9aaab1bb8c2e90bd2b",
+  "slug": "bunny",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "063775abedbeabe0298142342d4b33eed6ab83835f96bf357b80913e63df2b25",
+      "screen_opaque_bbox": [
+        104,
+        57,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        80,
+        16,
+        315,
+        507
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        173.0,
+        506
+      ],
+      "source_shoe_anchor_sheet": [
+        173.0,
+        506
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "9dee67c24d71595c4923c84f552b7b8bc438d05a00e4348348ab8b4d01c5d5a2",
+      "screen_opaque_bbox": [
+        103,
+        57,
+        138,
+        135
+      ],
+      "source_alpha_bbox": [
+        72,
+        17,
+        298,
+        507
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        171.0,
+        506
+      ],
+      "source_shoe_anchor_sheet": [
+        555.0,
+        506
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "d9c7b7d0d9711e9ce9b49053cd130253fe5634f2dc7d9f792cd07599cf23dcd0",
+      "screen_opaque_bbox": [
+        94,
+        56,
+        149,
+        135
+      ],
+      "source_alpha_bbox": [
+        31,
+        16,
+        380,
+        508
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        184.5,
+        507
+      ],
+      "source_shoe_anchor_sheet": [
+        952.5,
+        507
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "99cc1e20e6bc7a6e5377bc54bcb78875a58e43af721683de740a3a07e825e1e3",
+      "screen_opaque_bbox": [
+        99,
+        57,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        88,
+        18,
+        349,
+        508
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        210.0,
+        507
+      ],
+      "source_shoe_anchor_sheet": [
+        1362.0,
+        507
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "4b05faad25f79889b719cd95721eaa8a91298e690e167a0100d490b4bcfe5084",
+      "screen_opaque_bbox": [
+        98,
+        60,
+        142,
+        135
+      ],
+      "source_alpha_bbox": [
+        65,
+        24,
+        339,
+        496
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        193.5,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        193.5,
+        1007
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "dfd871e9c75d1be0302472ebcaa41621ff38a1ca1891166c29b337bb29ac1ee8",
+      "screen_opaque_bbox": [
+        98,
+        59,
+        143,
+        135
+      ],
+      "source_alpha_bbox": [
+        57,
+        19,
+        340,
+        496
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        187.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        571.0,
+        1007
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "b9a74cc69d917a14b09170019996360ceb3773953184ddce41ca3675045f99a2",
+      "screen_opaque_bbox": [
+        96,
+        58,
+        141,
+        135
+      ],
+      "source_alpha_bbox": [
+        71,
+        14,
+        351,
+        496
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        211.5,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        979.5,
+        1007
+      ],
+      "uniform_scale": 0.15885947046843177
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "760945491a3e5863d8514386cec9269de029015a9819000b4e702f637af5ef71",
+      "screen_opaque_bbox": [
+        97,
+        58,
+        142,
+        135
+      ],
+      "source_alpha_bbox": [
+        75,
+        17,
+        356,
+        496
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        209.0,
+        495
+      ],
+      "source_shoe_anchor_sheet": [
+        1361.0,
+        1007
+      ],
+      "uniform_scale": 0.15885947046843177
+    }
+  ],
+  "source_master": "masters/bunny-sheet-r2.png",
+  "stable_prop_derivation": null,
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 246
+}

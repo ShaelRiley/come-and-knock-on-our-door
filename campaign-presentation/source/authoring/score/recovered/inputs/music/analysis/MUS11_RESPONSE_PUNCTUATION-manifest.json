@@ -1,0 +1,60 @@
+{
+  "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+  "resource_id": 146,
+  "category": "reserved_accent_one_shot_candidate",
+  "bpm": 120,
+  "duration_seconds": 0.566678,
+  "loop": null,
+  "roles": [
+    {
+      "name": "ACCENT",
+      "channel": 7,
+      "program": 115,
+      "volume": 91,
+      "pan": 64,
+      "voices": 1
+    }
+  ],
+  "native_payload_path": "native/146.sound.bin",
+  "midi_path": "midi/MUS11_RESPONSE_PUNCTUATION.mid",
+  "native_payload_bytes": 65,
+  "source_trace": [
+    {
+      "source_stem": "B04S02",
+      "source_note_id": 811,
+      "source_pitch": 72,
+      "source_beat": 48.4875,
+      "transformation": "source evenly spaced call rhythm uniformly condensed to single-pitch woodblock punctuation; melodic contour intentionally removed, not literal source melody",
+      "output_pitch": 76,
+      "output_seconds": 0
+    },
+    {
+      "source_stem": "B04S02",
+      "source_note_id": 813,
+      "source_pitch": 75,
+      "source_beat": 48.99166666666667,
+      "transformation": "source evenly spaced call rhythm uniformly condensed to single-pitch woodblock punctuation; melodic contour intentionally removed, not literal source melody",
+      "output_pitch": 76,
+      "output_seconds": 0.2
+    }
+  ],
+  "sha256": {
+    "midi": "b3d247be058328266ea9a63e1f7dbc63ce3f84e88ff16a8b4808e990127f8a33",
+    "native": "8539b15bc452d4314fac7caa178904994a887a6b226e5b8feb267ecd2566128f"
+  },
+  "max_held_notes": 1,
+  "maximum_quantization_error_us": 2081.6666666666665,
+  "gdd_binding": {
+    "family": "MUS11_VERBAL_COMPETITIONS",
+    "event": "VC_RESPONSE_COMMITTED",
+    "single_fire_key": "encounter + attempt serial + exchange/result serial",
+    "semantic": "social result only, no physical impact or injury"
+  },
+  "routing": "Optional MIDI punctuation occupies the reserved ACCENT function; integration must prove spare native channel/isolation and existing stinger lifecycle. Do not stack players or add an instrument role beyond the eight-role budget. Never write shared percussion-channel9 controllers from this cue. Existing voice groan and optional crowd reaction are serialized separately on the one PCM lane.",
+  "lifecycle": "Consume once after committed outcome; never on selection preview, reread, restore or repeated input. Clear stale pending cue on context change. Musical timing never delays or determines correctness. Skip/duck if it would cover a consequential line.",
+  "validation": {
+    "native_runtime_tested": false,
+    "human_listening_approved": false,
+    "note_balance": true
+  }
+}

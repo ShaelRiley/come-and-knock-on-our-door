@@ -1,0 +1,654 @@
+{
+  "status": "SOURCE_REFERENCE_EXTRACTION_ONLY",
+  "source_root": "presentation-paired-checkpoint-20261009/r1/source/assets/resources",
+  "palette_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "extraction_script_sha256": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+  "decoder_sha256": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+  "references": [
+    {
+      "view": 214,
+      "slug": "jackie",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/214.view.bin",
+      "source_sha256": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+      "source_bytes": 42010,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        5,
+        5
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            11,
+            1,
+            38,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "5f78b6f76f090ff406e273f9732b34283b9f3e3b2c206bd0f1f23464826e80bd",
+          "file": "214-jackie-loop00-cel00.png",
+          "sha256": "64494bc6598edfd6083efdfd44ccd5c1e96b8abe615c35d5f042832fdddb354d",
+          "enlarged_file": "214-jackie-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "cb0066c3e4c7e78904e223307c6e0e06f9b412ac1898949ffa7573cc10c9cc6a"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            15,
+            1,
+            42,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "b3b25f6eac914542b1da70ab49d8d445cd1e281aee8732a892aaabbd5ec2c807",
+          "file": "214-jackie-loop01-cel00.png",
+          "sha256": "e93b14d882805b357176e328d0aba6396a63a1ba30f78cb3d5af378a29cff03a",
+          "enlarged_file": "214-jackie-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "c6458834b5bd1c50d269806a5027352cbf1f082415aa9eb31471bdd68554b9a3"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 219,
+      "slug": "bunny",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/219.view.bin",
+      "source_sha256": "ebcc27aae756cc50189f93a91604ddec1bca74c93a02565ed1746e0d37092c6c",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            13,
+            4,
+            43,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "711a13162d9d57d0a53fa11325f938b8ee6b8b1828ed8d809b0741ec59332d11",
+          "file": "219-bunny-loop00-cel00.png",
+          "sha256": "2f22bedce26420fc3811c27afc54ef3fc3190d49df8a4a7d555cc255ea93944e",
+          "enlarged_file": "219-bunny-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "fe276ce7d2ad391bd6f496a6eeff9b2bb18477579ffbeae42d3ccfdd78ce7a07"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            10,
+            4,
+            40,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "721d021bcd13fc87b5e0c3a7aef38b9d772cc864040df4364c3b03c03a562788",
+          "file": "219-bunny-loop01-cel00.png",
+          "sha256": "5ed32e3b09a36d4529a0b7bcb186c1138bb016e2087d924b5bc7c0cae5c68bab",
+          "enlarged_file": "219-bunny-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "331e24dccbe96fb75ce01e014216b60fe860863e29062f1625ca9d2a48474aa4"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 218,
+      "slug": "frankie",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/218.view.bin",
+      "source_sha256": "0386c5740dd4eab145e2f0353ac4961bbc5340262e367b139acdf30187d81964",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            14,
+            3,
+            38,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "5e9397bd09c6c0346cc6a713194dd8159aa8abb3a6574dea495013b2e43618ff",
+          "file": "218-frankie-loop00-cel00.png",
+          "sha256": "e3a27afb3121233d37dce3c3ac954441b4d2e6446f19413c15bc6334cc9bdf87",
+          "enlarged_file": "218-frankie-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "db9406272fb83bd9bb3419d5622a5fa86e66a99861c56edc8239ea0be516cf7a"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            15,
+            3,
+            39,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "8533436a2c5070a0c32cba3dc384d64f11332c7438f8a5bd30b14d949b6b584f",
+          "file": "218-frankie-loop01-cel00.png",
+          "sha256": "bb2d87ff0ba81c202b125c31cce00acccac83e86471af448293ef5e1f1e874f4",
+          "enlarged_file": "218-frankie-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "4eb4575e683343e49e0bf38585de82e7dbf819ad8a26669764aa97ddef94e406"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 222,
+      "slug": "stringer",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/222.view.bin",
+      "source_sha256": "a8b5861ebf27e91faff854f19ba8aa8760c75182e1ee8f7b46498d153a9631e5",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            11,
+            6,
+            41,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "0adb62a3c4aff60a1bab630506c4b0b3dd897f3ada219d726ffe1496c2a3447a",
+          "file": "222-stringer-loop00-cel00.png",
+          "sha256": "2ec16c3f846aeb8ffbeff6cef6e0cbfbb6cda2b43e7474479b1c6e2c6b21b85d",
+          "enlarged_file": "222-stringer-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "ca74cbc5fb514c10499ccfca415bde735330f60aa6aba272234bab0d1427400a"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            12,
+            6,
+            42,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "ce48be7714ffa5d4b7aa91c05b8c49daf0acc13f62fb36944b47ef52efac3f5d",
+          "file": "222-stringer-loop01-cel00.png",
+          "sha256": "79246a1b25709792ade00b78e9b621c29146ca82b70373307bb3ba5782a9cfb1",
+          "enlarged_file": "222-stringer-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "aaaf85ab853480406c2f43ca1a08afda8f04d7f58ca4bd3066ce16503c6473cd"
+        }
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved."
+    },
+    {
+      "view": 221,
+      "slug": "milo",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/221.view.bin",
+      "source_sha256": "07293fd86fdff160086d009b9c88433ce50b1d900783e7760f166718538e8c34",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            12,
+            3,
+            40,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "f9e7e9bc38073f6f7459a985d717e306db22d2d10d42e13a60170132e1c3f794",
+          "file": "221-milo-loop00-cel00.png",
+          "sha256": "cf423fb6c70b1eedb56cf1469994678367f754641ca74ad16938ab72456db3d7",
+          "enlarged_file": "221-milo-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "de5c7bc90e32d797edf5d019eed5ac5bc5bc091ab1d041fd4b47e3c77b01a7e0"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            13,
+            3,
+            41,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "682e3fdec59f9277da3b634dcaec231594c188fcc6500c94efe9448293671866",
+          "file": "221-milo-loop01-cel00.png",
+          "sha256": "f9388aa0a53dae0d964fe5456f47bab24457bd8879b87f20aecdd2555e5579f9",
+          "enlarged_file": "221-milo-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "87d7f401688b97ef33bc8ab2d163d86e13e15444d8314d20a4f01f54a02c8067"
+        }
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved."
+    },
+    {
+      "view": 236,
+      "slug": "vivian",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/236.view.bin",
+      "source_sha256": "16e7b984909b7a47fe348476cc2ba525024b69f87d82ca516801d57a1fb704b2",
+      "source_bytes": 33618,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        4,
+        4
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            11,
+            3,
+            40,
+            78
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "778ad12ec34123aac43db60347996db2470d64bfbbaf693dbe56ff09a375f868",
+          "file": "236-vivian-loop00-cel00.png",
+          "sha256": "a2eef102cb8f4c4a8ff4c8d8571facd1a75a9bd1b03b5f50e4ca08b8f2fcf452",
+          "enlarged_file": "236-vivian-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "b85703d31e978f07f26367191c47f07a9e870512ab138aeb2aa123150f7fd291"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            12,
+            3,
+            41,
+            78
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "e81390deebf7abe6ccfc7732102cfaa797686a5a1a8a3551ec615aaaa9d8f23d",
+          "file": "236-vivian-loop01-cel00.png",
+          "sha256": "f207d27ae759ca4387792e2bdf40c3d415292d20daa69781e94b324d95339259",
+          "enlarged_file": "236-vivian-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "751ae2e45cd5440e91deb76862158c063492114f76e53581816d64a76c72ff80"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 223,
+      "slug": "rita",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/223.view.bin",
+      "source_sha256": "ebc8d979656fe9724cbc7c2549a2fada60f5e844248d00644ed8706e0ba1e6c1",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            11,
+            6,
+            41,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "e940bdf39f596fe1e04f7a01f0a1b3914b186e11cc3eb5c08ca10a937990ec44",
+          "file": "223-rita-loop00-cel00.png",
+          "sha256": "014aa0ef240b4ac1d365b1b5805f8a9a31954f198e9414dbe7b8f6771dc2c6e9",
+          "enlarged_file": "223-rita-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "14ec0be3e58f0dcf1272d66cb74181fdd399472afcb3af1cca176996e72e0a2c"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            12,
+            6,
+            42,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "ab8c81cc3e80e1d39e9d5eec068c2e4f4a3e7eefaedcbac60762be5ff5150bf4",
+          "file": "223-rita-loop01-cel00.png",
+          "sha256": "b94dc4c902188f6cb0885a144d1c04a79c0881a7de7e43f8001543c684d483d8",
+          "enlarged_file": "223-rita-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "d30b796d593fcede20f5d089291e0cdaaa8b57fa58f2389d6066ed8dea6f5128"
+        }
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved."
+    },
+    {
+      "view": 225,
+      "slug": "felix",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/225.view.bin",
+      "source_sha256": "9089c06bb25195b56d5f8a430e910abbd844d47c021875baa5f5c4d265844f94",
+      "source_bytes": 25226,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        3,
+        3
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            11,
+            1,
+            41,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "da719a0c7911e9b68742f88f0e8ac57f7618c2de8c74abcd65839688b7a2962b",
+          "file": "225-felix-loop00-cel00.png",
+          "sha256": "7b04bfde49d2b173ef8cb003fd24eecef7a08e6be5376e01df04f3ecad7a9edb",
+          "enlarged_file": "225-felix-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "0ac11f0630540603af643751aad027aa75e15bf76a90ea53c253cf6b1ab6ab18"
+        },
+        {
+          "loop": 1,
+          "cel": 0,
+          "size": [
+            52,
+            80
+          ],
+          "opaque_bbox": [
+            12,
+            1,
+            42,
+            79
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "d2f719e562f9a999c6bbfe7b2ff989c57c7d3139611335952db7c76f29afa3b1",
+          "file": "225-felix-loop01-cel00.png",
+          "sha256": "9965cdd0b05a00b259f09fac58487ddaea74a2a7d488e8babcebe010525d9a97",
+          "enlarged_file": "225-felix-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "e2a180662ab9072d3aedbc4dfa3c001c938359c45cff74a81c8d13d3a2ad4c3f"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 100,
+      "slug": "porch",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/100.view.bin",
+      "source_sha256": "5492d69090c6c6a63bed3810a1171c9f9334e44e9c64c0713c086fd95129e231",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "40940044f31bc973dad938475ec8ab78953427308c5eb472e9821cda5bdcb267",
+          "file": "100-porch-loop00-cel00.png",
+          "sha256": "dd2e59b367398a136eb8609baf77860ac00d6784430523114154d7fd25fac36a",
+          "enlarged_file": "100-porch-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "e0d38169e08e2c9036513ab4e6460df31e13057ff230bc606ba1afe40d64b506"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 101,
+      "slug": "living",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/101.view.bin",
+      "source_sha256": "da557d99d916d3842b558ab8bd15dd1af0d1be0c0d55dfe36f5cbf7ac6cf3103",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "f9b727e7fdc72921fe432a0ab0288e16ded842d31a7a20bc3eddd55da40f77de",
+          "file": "101-living-loop00-cel00.png",
+          "sha256": "06dd3233e4267bcf59d64ce6585df1bc3d6cc4d8c35d336ed3cfd44d674cf98a",
+          "enlarged_file": "101-living-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "5d5a4b5a79a81d5c68e27dae85e10ae2a8de449c7d0a0bbf8692c33e66ff7233"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 300,
+      "slug": "kitchen",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/300.view.bin",
+      "source_sha256": "f34b5b44590ba0174e53c91e960c934bc42ca580f2548f652f213b9b691b18e2",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "4d36eab5c8eaddb85bfbe51604e6686f830db023b34d1db4e2aa1d2bd7508d3d",
+          "file": "300-kitchen-loop00-cel00.png",
+          "sha256": "2c4f4da6832f7c0d1b95a808401de7873788821edf31ed6605703e387fb1b361",
+          "enlarged_file": "300-kitchen-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "b4894e8d182a00d1e92461143d099d6e5bf550dbf429b0104536ac8d06b5ce26"
+        }
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved."
+    },
+    {
+      "view": 302,
+      "slug": "conservatory",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/302.view.bin",
+      "source_sha256": "730f9c00a603717e3d8e05e5357814cae26bc20364d840747fe19b131eabbd10",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "9a78f41d3802c57a19cf0de4b5575b6814b81fcf6a85124d68dce1082e911a4f",
+          "file": "302-conservatory-loop00-cel00.png",
+          "sha256": "9f9a337c56b59a1468f9e20b2ddc2e89b45398a26a4b1cd293101d658b25055f",
+          "enlarged_file": "302-conservatory-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "48cd3384a0be4628674067747c6e4dbf2b437d26660a02ce5a3571959811e756"
+        }
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved."
+    },
+    {
+      "view": 303,
+      "slug": "side-passage",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/303.view.bin",
+      "source_sha256": "14243a5b546abc88dc134b2835a94a26e0b75ce24157a7ac19b86b68509eba1d",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "a923a6247bb7f0fae69020afd8fe8a37de4de61e1206d5ad516695b3da02a284",
+          "file": "303-side-passage-loop00-cel00.png",
+          "sha256": "cd200a10470fd6720d58ec20cb837981e350a8fd8e5db872c3f9c9c561432644",
+          "enlarged_file": "303-side-passage-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "213f41712310201aecfbb994ef84581564f20df000d2aef1db1a020a08c2c740"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    },
+    {
+      "view": 304,
+      "slug": "garage",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/304.view.bin",
+      "source_sha256": "b1e3a5a376ae19896113199f51163801efb10cc73fb2e624177ea71b40519b63",
+      "source_bytes": 46150,
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "loops": [
+        1
+      ],
+      "outputs": [
+        {
+          "loop": 0,
+          "cel": 0,
+          "size": [
+            320,
+            144
+          ],
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "clear_key": 255,
+          "pixels_sha256": "dc12a1bddd7468bad0b88434965767e3263f805c9fa2d4932d12fea425806747",
+          "file": "304-garage-loop00-cel00.png",
+          "sha256": "4f1f03a8f6f8c386f561fe7f4bbc9fb230e4b4b440abb1b18eed39366ab8b6f4",
+          "enlarged_file": "304-garage-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "0949879d04f2d7cb6fe40ad591f838c20f05388502ec5d853894c89bfa7424d4"
+        }
+      ],
+      "origin_qualification": "Current retained source; extraction establishes byte provenance, not a new creation claim."
+    }
+  ]
+}

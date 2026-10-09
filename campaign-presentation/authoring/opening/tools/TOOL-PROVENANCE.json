@@ -1,0 +1,20 @@
+{
+  "status": "COPIED_CURRENT_R17_CANONICAL_LITERAL_CODEC_NO_NATIVE_CHANGES",
+  "sources": [
+    {
+      "source": "public-r17-cold-verification-20261009/r17-checkout/campaign-fullgame/authoring/view_writer.py",
+      "local": "opening-animation-art-20261009-r2/tools/view_writer.py",
+      "sha256": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f",
+      "bytes": 3603
+    },
+    {
+      "source": "public-r17-cold-verification-20261009/r17-checkout/campaign-fullgame/testing/inspect_view.py",
+      "local": "opening-animation-art-20261009-r2/tools/inspect_view.py",
+      "sha256": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+      "bytes": 3519
+    }
+  ],
+  "references_manifest_sha256": "b8d59ea04a1e9d3ea50b18b3303dfe45f5701949aaee8d7a0002bab1b463ca8c",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642"
+}

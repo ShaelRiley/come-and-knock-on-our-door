@@ -1,0 +1,3066 @@
+{
+  "original_cues": [
+    {
+      "resource_id": 100,
+      "cue_id": "MUS01_OPENING",
+      "duration_seconds": 60.0012,
+      "gdd_binding": {
+        "episode": "E00",
+        "autoplay_seconds": 60,
+        "opening_only": true
+      },
+      "loop": null,
+      "midi_path": "midi/MUS01_OPENING.mid",
+      "native_payload_path": "native/100.sound.bin",
+      "sha256": {
+        "midi": "6f1ef330262c3f6a0b7365c40e6dc075e99f5a0f13e706a7f8e9e2e5a67d808e",
+        "native": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906"
+      }
+    },
+    {
+      "resource_id": 101,
+      "cue_id": "MUS01_INVITATION",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episodes": [
+          "E01"
+        ],
+        "puzzles": [
+          "P01",
+          "P02"
+        ],
+        "locations": [
+          "L03",
+          "L01"
+        ]
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS01_INVITATION.mid",
+      "native_payload_path": "native/101.sound.bin",
+      "sha256": {
+        "midi": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "native": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57"
+      }
+    },
+    {
+      "resource_id": 102,
+      "cue_id": "MUS02_HOUSE_LIVING",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L01"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS02_HOUSE_LIVING.mid",
+      "native_payload_path": "native/102.sound.bin",
+      "sha256": {
+        "midi": "0c91c0d0aa85c217cb4390fb6886706c7fb58ad79cd8b3f41016e46bd8a4c65a",
+        "native": "c5cfdab4fe4953f6129de9db62b2282d083aa07c843d568ba771d0cccb2ce1ad"
+      }
+    },
+    {
+      "resource_id": 103,
+      "cue_id": "MUS02_HOUSE_KITCHEN",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L02",
+        "puzzle": "P07"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS02_HOUSE_KITCHEN.mid",
+      "native_payload_path": "native/103.sound.bin",
+      "sha256": {
+        "midi": "ce58f9a0adb44371d676110c63a82bc6b293d597dd6c7ed7752541b6fd0b4148",
+        "native": "8c204a7cd45f43984774079be7c4f5a5264be26af95d1094adeeb4556376d843"
+      }
+    },
+    {
+      "resource_id": 104,
+      "cue_id": "MUS03_PORCH",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L03"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_PORCH.mid",
+      "native_payload_path": "native/104.sound.bin",
+      "sha256": {
+        "midi": "41ccebda902bd9b0e34fcc41ff475f966217eb1c49c7100df567bb70c0bb9158",
+        "native": "087eb966e7c1939523ebf877ea4f580d932d6e80ca9410872387541c363deb57"
+      }
+    },
+    {
+      "resource_id": 105,
+      "cue_id": "MUS03_SIDE_PASSAGE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L04",
+        "puzzles": [
+          "P04",
+          "P06"
+        ]
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_SIDE_PASSAGE.mid",
+      "native_payload_path": "native/105.sound.bin",
+      "sha256": {
+        "midi": "0e659f402e14ce47e66304b5cd9158d90e54cb2df15e17af099c56b3f41a34c5",
+        "native": "d6d0d94ef1ba8bf555e1b04711cd382107fe4c8f2545b171d1bbdc7ed676a777"
+      }
+    },
+    {
+      "resource_id": 106,
+      "cue_id": "MUS03_COURTYARD",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L05",
+        "puzzle": "P08"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS03_COURTYARD.mid",
+      "native_payload_path": "native/106.sound.bin",
+      "sha256": {
+        "midi": "659c87f5b2f227078c882162944fe9a8e283fab4f426171589aa6a64a811294c",
+        "native": "bf4ce04560edc4a33e2a760b54d9bba9bc9e6ea562f8999ef3d169e2e64c0623"
+      }
+    },
+    {
+      "resource_id": 107,
+      "cue_id": "MUS04_MILO_SHOWY",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L06",
+        "puzzle": "P05",
+        "state": "before sincere agreement"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS04_MILO_SHOWY.mid",
+      "native_payload_path": "native/107.sound.bin",
+      "sha256": {
+        "midi": "2920e63c4b59441751318704eb533651b597ba4fb519dfb3599b0a26a38cf2bf",
+        "native": "04be79f63a50c8f92d113b8ecf19d51a9bb7eac89a5b991ed6564cdc254ad700"
+      }
+    },
+    {
+      "resource_id": 108,
+      "cue_id": "MUS04_MILO_SINCERE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L06",
+        "puzzle": "P05",
+        "state": "after committed sincere agreement"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS04_MILO_SINCERE.mid",
+      "native_payload_path": "native/108.sound.bin",
+      "sha256": {
+        "midi": "aadb64dd0a1286a83701b057aed47575de96dc4fe50c7fad7d91875808b2019a",
+        "native": "00d6cffedddfb78230f74da4c287f493ef94738a44d1dd094c333c6f784c20a4"
+      }
+    },
+    {
+      "resource_id": 109,
+      "cue_id": "MUS05_STRINGERS_PRECISE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L07",
+        "puzzle": "P03",
+        "state": "before credit"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS05_STRINGERS_PRECISE.mid",
+      "native_payload_path": "native/109.sound.bin",
+      "sha256": {
+        "midi": "7d32f797e90d1cf15fbf0567aa369bb4898e9843de3e9140a5214f98bd225048",
+        "native": "b57415d5456dff33843dc6352c957a5340bb3a17661fd7a8b5ce3c6a8326db5b"
+      }
+    },
+    {
+      "resource_id": 110,
+      "cue_id": "MUS05_STRINGERS_CREDITED",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E02",
+        "location": "L07",
+        "puzzle": "P03",
+        "state": "credit committed"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS05_STRINGERS_CREDITED.mid",
+      "native_payload_path": "native/110.sound.bin",
+      "sha256": {
+        "midi": "b609cb55ca44ce206a5fac8301d87307d0d1235d4f1d4ae2b78b1f1a8fa57a7e",
+        "native": "00d10e35ee3e4c94519720bf6ccd8eb535e670489368d45e2672de9ffd0fa054"
+      }
+    },
+    {
+      "resource_id": 111,
+      "cue_id": "MUS06_SUPPER_COMPOSURE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E03",
+        "puzzles": [
+          "P08_READY",
+          "P09",
+          "P10"
+        ],
+        "state": "surface composure"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS06_SUPPER_COMPOSURE.mid",
+      "native_payload_path": "native/111.sound.bin",
+      "sha256": {
+        "midi": "791087d1f542827a3cc76059a2ab3e8a295ef3a868d4fc2037e331aa747c08d5",
+        "native": "08a6c486917b34e6ba91b3415ba80dcd252b73e83b8fce7d837664f85c5a1c9b"
+      }
+    },
+    {
+      "resource_id": 112,
+      "cue_id": "MUS06_SUPPER_PRESSURE",
+      "duration_seconds": 72.201444,
+      "gdd_binding": {
+        "episode": "E03",
+        "puzzles": [
+          "P09",
+          "P10"
+        ],
+        "state": "comic pressure, no countdown"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4332,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS06_SUPPER_PRESSURE.mid",
+      "native_payload_path": "native/112.sound.bin",
+      "sha256": {
+        "midi": "20726b28b3afdba86539c9e4382d5740b33f276004a19d0336f7cade532babb3",
+        "native": "5c82895f9cb0cb346eac442d948dead0c16ddf9d21de5d8b0c04423442005aa7"
+      }
+    },
+    {
+      "resource_id": 113,
+      "cue_id": "MUS07_RESCUE_PRESSURE",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E04",
+        "puzzle": "P11",
+        "state": "stable pressure, no death timer"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS07_RESCUE_PRESSURE.mid",
+      "native_payload_path": "native/113.sound.bin",
+      "sha256": {
+        "midi": "3e79adb175db559b173cfd6944ee2469e641b78a91f3b1c307a1b920e3ba895c",
+        "native": "30c75e60f49a5d4cbbf2714e67db9bad1bedb508411e06ea01033aabe7848c82"
+      }
+    },
+    {
+      "resource_id": 114,
+      "cue_id": "MUS07_RESCUE_COORDINATED",
+      "duration_seconds": 70.918085,
+      "gdd_binding": {
+        "episode": "E04",
+        "puzzle": "P11",
+        "state": "help accepted"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4255,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS07_RESCUE_COORDINATED.mid",
+      "native_payload_path": "native/114.sound.bin",
+      "sha256": {
+        "midi": "669dd80240d21927c1959b5574696f84c8c5e3adb26e93e4d4a397d4930cdef5",
+        "native": "7da4c7a17bcfe95159ff3ebd0b747ec3b88746e3f84f176fd8a94d58b09d6f1a"
+      }
+    },
+    {
+      "resource_id": 115,
+      "cue_id": "MUS08_MICROPHONE_PREPARATION",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E05",
+        "puzzle": "P12",
+        "state": "before truth; no future reveal"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS08_MICROPHONE_PREPARATION.mid",
+      "native_payload_path": "native/115.sound.bin",
+      "sha256": {
+        "midi": "29488d874b96b20e81f7782e3a15e80af2bfbf966f52103347d9620dc1c52925",
+        "native": "7975f2a5498eeddd66212ecc8e4553cd2884b3a510689e98cca754e900421d59"
+      }
+    },
+    {
+      "resource_id": 116,
+      "cue_id": "MUS08_MICROPHONE_HONEST",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E05",
+        "puzzle": "P12",
+        "state": "truth already committed; use speech-owned gap first"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS08_MICROPHONE_HONEST.mid",
+      "native_payload_path": "native/116.sound.bin",
+      "sha256": {
+        "midi": "b879c9ff8aacabba76c6b24e8a9388afe087a042fd65eab4487b49781a47ca72",
+        "native": "00ba9c8f454c27996d8f4b03ee1bbd4b56dbc323c582e2232a2a5a74907c0680"
+      }
+    },
+    {
+      "resource_id": 117,
+      "cue_id": "MUS09_THREE_DOORS_ROUTING",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E06",
+        "puzzle": "P13",
+        "state": "routing underway; no answer predicted"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS09_THREE_DOORS_ROUTING.mid",
+      "native_payload_path": "native/117.sound.bin",
+      "sha256": {
+        "midi": "8dbaba81601da4bc48c0d461ac3deb12c245b06f9182d16776843a91353d74d9",
+        "native": "a22eeb062bdeed4d1f8a2ed833787017b36fe048895680409a16d1fd3929109c"
+      }
+    },
+    {
+      "resource_id": 118,
+      "cue_id": "MUS09_THREE_DOORS_PROMISES",
+      "duration_seconds": 73.534804,
+      "gdd_binding": {
+        "episode": "E06",
+        "puzzles": [
+          "P13",
+          "P14"
+        ],
+        "state": "earned routing, stated promises"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 4412,
+        "natural_key_release_before_end_ticks": 11
+      },
+      "midi_path": "midi/MUS09_THREE_DOORS_PROMISES.mid",
+      "native_payload_path": "native/118.sound.bin",
+      "sha256": {
+        "midi": "ffcfbbfdc4b5343f14df855b79654cb8812d3a5640ec1054c62ab88410f2a554",
+        "native": "c90ad7f5a326401f8b1e3a024d11237c44c6a3581adaba42b24fd7844c083900"
+      }
+    },
+    {
+      "resource_id": 119,
+      "cue_id": "MUS10_HOUSEHOLD_QUIET",
+      "duration_seconds": 48.200964,
+      "gdd_binding": {
+        "episode": "E07",
+        "puzzle": "P14",
+        "state": "committed ending only"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS10_HOUSEHOLD_QUIET.mid",
+      "native_payload_path": "native/119.sound.bin",
+      "sha256": {
+        "midi": "9bbc36bffa9acb0bbc20de5c04d85fe18e11d3e9e31d706bd83516f4299d9cce",
+        "native": "c440aff798c2f4ea87c4a103f57dd3e64e8db43962ca65d3aa948dbe01db4cb7"
+      }
+    },
+    {
+      "resource_id": 120,
+      "cue_id": "MUS_AUDIENCE_EXPOSED",
+      "duration_seconds": 19.483723,
+      "gdd_binding": {
+        "state": "HOME-compatible exposed-stage color only; other families use their own reduced mask"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 1169,
+        "natural_key_release_before_end_ticks": 22
+      },
+      "midi_path": "midi/MUS_AUDIENCE_EXPOSED.mid",
+      "native_payload_path": "native/120.sound.bin",
+      "sha256": {
+        "midi": "d92188a05518efc69c8fe73505b39751808ccd7632b4b2c5de601f739168b148",
+        "native": "fbb3168e375acb49f3cf0a21aa891797d04c35fcf8fd87cd5d6b58439edf6e34"
+      }
+    },
+    {
+      "resource_id": 121,
+      "cue_id": "MUS10_FULL_END_CREDITS",
+      "duration_seconds": 139.486123,
+      "gdd_binding": {
+        "episode": "E07",
+        "state": "after GAME_COMPLETE, pencil tag, happy freeze and audience celebration",
+        "credit_music": "extended household-theme reprise; pause/skip/replay preserve completion"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS10_FULL_END_CREDITS.mid",
+      "native_payload_path": "native/121.sound.bin",
+      "sha256": {
+        "midi": "badf39786d4aa8e3935308acb2d9e4f99fd0d09a8ca7915308e85da81e22fa0e",
+        "native": "bbf9662ecf780a8cd85df111ac8fd31a9fbc088977ea96eb08e40040cde2db99"
+      }
+    },
+    {
+      "resource_id": 122,
+      "cue_id": "BRIDGE_INVITATION_HOUSE",
+      "duration_seconds": 8.766842,
+      "gdd_binding": {
+        "event": "P02 committed reveal"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_INVITATION_HOUSE.mid",
+      "native_payload_path": "native/122.sound.bin",
+      "sha256": {
+        "midi": "d126df0e3939311d993a4f3bd61f3c716c233c0e5d254e8f8145d035c45aba30",
+        "native": "9eae7821a4e28e71fdc78cf9a3dbcf8ee5d0f5cbb531cf525492cd2c51dac2ed"
+      }
+    },
+    {
+      "resource_id": 123,
+      "cue_id": "BRIDGE_EXPLORATION_SUPPER",
+      "duration_seconds": 8.866844,
+      "gdd_binding": {
+        "event": "E03 explicit Ready"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_EXPLORATION_SUPPER.mid",
+      "native_payload_path": "native/123.sound.bin",
+      "sha256": {
+        "midi": "d8d72b16b68a4e2884115583e44d8de713563c8dbba9a2c22bba99ec7d910895",
+        "native": "848d4364a4d4a3321246095e6f0e8a794503329bbcc7fa985c303b60d9257fa6"
+      }
+    },
+    {
+      "resource_id": 124,
+      "cue_id": "BRIDGE_SUPPER_RESCUE",
+      "duration_seconds": 8.83351,
+      "gdd_binding": {
+        "event": "E04 scene ownership"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_SUPPER_RESCUE.mid",
+      "native_payload_path": "native/124.sound.bin",
+      "sha256": {
+        "midi": "80609d3db9cc510bc7fe4fdff8625db024f68ef1f1f8c46134694240d72a302c",
+        "native": "bf722fd4fca9b367c360d8a41dacda8a55bf334cdc4639996fc771ed9ed26aff"
+      }
+    },
+    {
+      "resource_id": 125,
+      "cue_id": "BRIDGE_MICROPHONE_DOORS",
+      "duration_seconds": 9.083515,
+      "gdd_binding": {
+        "event": "E05 complete then E06"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_MICROPHONE_DOORS.mid",
+      "native_payload_path": "native/125.sound.bin",
+      "sha256": {
+        "midi": "a320ce644cc5fc3539b52fffab2925582c947d719873a48edf439169fd0eaeef",
+        "native": "45d351d929e276b9cccde26806d0ae63f7fb7c141174464bd22966ddf57741ce"
+      }
+    },
+    {
+      "resource_id": 126,
+      "cue_id": "BRIDGE_PROMISES_QUIET",
+      "duration_seconds": 9.466856,
+      "gdd_binding": {
+        "event": "P14 committed completion"
+      },
+      "loop": null,
+      "midi_path": "midi/BRIDGE_PROMISES_QUIET.mid",
+      "native_payload_path": "native/126.sound.bin",
+      "sha256": {
+        "midi": "5397140b92b0a9dd2f78cf93950a4ffcaa1837d3741dba5251e031a349f0442f",
+        "native": "b88439d5476c6b8f1c3b8310778f0301e5b9121b8c9987730258ebf52546783d"
+      }
+    },
+    {
+      "resource_id": 127,
+      "cue_id": "PASSAGE_RESCUE_RESOLUTION",
+      "duration_seconds": 8.766842,
+      "gdd_binding": {
+        "event": "P11 committed help/completion"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_RESCUE_RESOLUTION.mid",
+      "native_payload_path": "native/127.sound.bin",
+      "sha256": {
+        "midi": "5fca5c009966ea12aa8b5f67c0ee950e6b7793509e0657da56c08c8d5757dbaf",
+        "native": "ef8515613e8880e515a21f6f5da2baf089c4392f24bf298304135fe7dfaae52e"
+      }
+    },
+    {
+      "resource_id": 128,
+      "cue_id": "PASSAGE_CONFETTI_RESPONSE",
+      "duration_seconds": 9.083515,
+      "gdd_binding": {
+        "event": "P12 collective response after consequential words"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_CONFETTI_RESPONSE.mid",
+      "native_payload_path": "native/128.sound.bin",
+      "sha256": {
+        "midi": "576d38601d94696f6add98e9ed0cd5418e714f9d9488f2c25f7810205f64db01",
+        "native": "5d207676e28b1216d5668881d253a2e3f280c920c596bdd2fd9a87ec376c7f4b"
+      }
+    },
+    {
+      "resource_id": 129,
+      "cue_id": "PASSAGE_SPEECH_SPACE",
+      "duration_seconds": 17.983693,
+      "gdd_binding": {
+        "event": "P12 consequential words; scene-owned silence may extend"
+      },
+      "loop": null,
+      "midi_path": "midi/PASSAGE_SPEECH_SPACE.mid",
+      "native_payload_path": "native/129.sound.bin",
+      "sha256": {
+        "midi": "091699cac1b33debfa3dc0543102f763868b1de79b74a7c83b7b7c4f1ad7cc37",
+        "native": "cf41d4b5024780f9dba738aa8ed7cbd019753124bb52fa5086554bf1d66049b2"
+      }
+    },
+    {
+      "resource_id": 140,
+      "cue_id": "MUS11_VERBAL_COMPETITIONS_BASE",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounters": {
+          "VC01": {
+            "opponent": "Milo",
+            "puzzle": "P05",
+            "location": "L06"
+          },
+          "VC02": {
+            "opponent": "Vivian",
+            "puzzle": "P06",
+            "location": "L03"
+          },
+          "VC03": {
+            "opponent": "Felix",
+            "after_puzzle": "P11 safe rescue",
+            "before_puzzle": "P12 public introduction",
+            "location": "L04"
+          },
+          "VC04": {
+            "opponent": "Mr. Stringer",
+            "after": "P13 served/revealed/board delivered",
+            "before": "toast",
+            "location": "L05"
+          }
+        },
+        "meaning": "face-to-face verbal competition, not physical fighting"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VERBAL_COMPETITIONS_BASE.mid",
+      "native_payload_path": "native/140.sound.bin",
+      "sha256": {
+        "midi": "4b886f7d9611e3a616ea727fee3a2554cd222f12ea88ee7076efaf3b2bf3aab1",
+        "native": "ff2e436be33b506c3ac8e4ef5957522720ef459348f8e0872534e448712de985"
+      }
+    },
+    {
+      "resource_id": 141,
+      "cue_id": "MUS11_VC01_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC01",
+        "encounter_contract": {
+          "opponent": "Milo",
+          "puzzle": "P05",
+          "location": "L06"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC01_COLOR.mid",
+      "native_payload_path": "native/141.sound.bin",
+      "sha256": {
+        "midi": "63aa7e71eea96be2f7824a43709927d62e89d4d680093aa0c3aa6b796d6046fc",
+        "native": "33acfb9fa91dd99591b066870b053b1f17bb4d92b330559894bfad702a4575ef"
+      }
+    },
+    {
+      "resource_id": 142,
+      "cue_id": "MUS11_VC02_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC02",
+        "encounter_contract": {
+          "opponent": "Vivian",
+          "puzzle": "P06",
+          "location": "L03"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC02_COLOR.mid",
+      "native_payload_path": "native/142.sound.bin",
+      "sha256": {
+        "midi": "aeb7386bd2bc5abecb860307e1a8d6f0b5903df1fa447dff73ad3b1983cedadc",
+        "native": "721071570115f367c812eb18a1d900687a495414277daf69da08a5c0442c660a"
+      }
+    },
+    {
+      "resource_id": 143,
+      "cue_id": "MUS11_VC03_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC03",
+        "encounter_contract": {
+          "opponent": "Felix",
+          "after_puzzle": "P11 safe rescue",
+          "before_puzzle": "P12 public introduction",
+          "location": "L04"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC03_COLOR.mid",
+      "native_payload_path": "native/143.sound.bin",
+      "sha256": {
+        "midi": "2ea3cbd9e190701f1f0ac5e93aef163f022574eda67c104fe51513b90aa97390",
+        "native": "1c3fb8aad052f93ed3d639a8a7ecbb1f9a96f8e6471cba2ff4e13f7a98b01eaa"
+      }
+    },
+    {
+      "resource_id": 144,
+      "cue_id": "MUS11_VC04_COLOR",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "VC04",
+        "encounter_contract": {
+          "opponent": "Mr. Stringer",
+          "after": "P13 served/revealed/board delivered",
+          "before": "toast",
+          "location": "L05"
+        },
+        "state": "opponent color",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_VC04_COLOR.mid",
+      "native_payload_path": "native/144.sound.bin",
+      "sha256": {
+        "midi": "89054f518e2f9e048d177b03ffe585795ec03e89d10e1ad1f0cee0516522e1d0",
+        "native": "6a60021f908f37494929203c73812ac2de59719c8b848d83e062cdb852c7030a"
+      }
+    },
+    {
+      "resource_id": 145,
+      "cue_id": "MUS11_THINKING_TURN",
+      "duration_seconds": 66.201324,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "events": [
+          "VC_ENTER",
+          "VC_TURN",
+          "VC_RESPONSE_COMMITTED",
+          "VC_KO_COMMITTED",
+          "VC_EXIT"
+        ],
+        "encounter": "any",
+        "encounter_contract": null,
+        "state": "low-density thinking/turn",
+        "same_note_program_expression_clock_as": "MUS11_VERBAL_COMPETITIONS_BASE"
+      },
+      "loop": {
+        "start_tick": 12,
+        "end_tick": 3972,
+        "natural_key_release_before_end_ticks": 12
+      },
+      "midi_path": "midi/MUS11_THINKING_TURN.mid",
+      "native_payload_path": "native/145.sound.bin",
+      "sha256": {
+        "midi": "de6cf120162d12be6b51fac0ccc95ba68116f0b2dd833fba60d075a59b6cccb6",
+        "native": "e09659f8a22bcf65bc71d2d8a4b147ea0e45d4c1e9617c9bc09a341d18b87cd7"
+      }
+    },
+    {
+      "resource_id": 146,
+      "cue_id": "MUS11_RESPONSE_PUNCTUATION",
+      "duration_seconds": 0.566678,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "event": "VC_RESPONSE_COMMITTED",
+        "single_fire_key": "encounter + attempt serial + exchange/result serial",
+        "semantic": "social result only, no physical impact or injury"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS11_RESPONSE_PUNCTUATION.mid",
+      "native_payload_path": "native/146.sound.bin",
+      "sha256": {
+        "midi": "b3d247be058328266ea9a63e1f7dbc63ce3f84e88ff16a8b4808e990127f8a33",
+        "native": "8539b15bc452d4314fac7caa178904994a887a6b226e5b8feb267ecd2566128f"
+      }
+    },
+    {
+      "resource_id": 147,
+      "cue_id": "MUS11_SOCIAL_RESULT",
+      "duration_seconds": 0.866684,
+      "gdd_binding": {
+        "family": "MUS11_VERBAL_COMPETITIONS",
+        "event": "VC_KO_COMMITTED",
+        "single_fire_key": "encounter + attempt serial + exchange/result serial",
+        "semantic": "social result only, no physical impact or injury"
+      },
+      "loop": null,
+      "midi_path": "midi/MUS11_SOCIAL_RESULT.mid",
+      "native_payload_path": "native/147.sound.bin",
+      "sha256": {
+        "midi": "74e947e87909cd0120f56855b1214958c8ed3030337a7cc76f3bfd7d1a9e5ab1",
+        "native": "75c9fb2451e8ecfd97c3c331df357c0c863e889d5fb7a145f4150426933d9554"
+      }
+    }
+  ],
+  "opening_suffixes": [
+    {
+      "card": 1,
+      "resource_id": 160,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 360,
+      "end_tick": 3240,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b64"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "f513751e09c770dcc4b1a5a4619bde8d5cceed147b03269612ae80180a42bf6f",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 2,
+      "resource_id": 161,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 720,
+      "end_tick": 2880,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b6e"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 0,
+          "pitch": 43,
+          "velocity": 60
+        },
+        {
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 79
+        }
+      ],
+      "native_sha256": "b0edf2b7678ae0f007fb373d303f391e28231c970f18ab5db266c0aca64f9040",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 3,
+      "resource_id": 162,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1080,
+      "end_tick": 2520,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 74,
+          "velocity": 72
+        }
+      ],
+      "native_sha256": "4a76b8e46af12d4d39e0d01891020377f9cb5f303dd051c938e2da966ed9d967",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 4,
+      "resource_id": 163,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1440,
+      "end_tick": 2160,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "807e17bf990043bff7efd815a4b0880d6bdc7f1c9e7a1aa91cf40991189b925f",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 5,
+      "resource_id": 164,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1800,
+      "end_tick": 1800,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b69"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "d3f73aeb9407787c015efdc66ec6659a54b245fad4ca470bb49e0148932cf5e4",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 6,
+      "resource_id": 165,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2160,
+      "end_tick": 1440,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b5e"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 0,
+          "pitch": 43,
+          "velocity": 60
+        },
+        {
+          "channel": 4,
+          "pitch": 74,
+          "velocity": 75
+        }
+      ],
+      "native_sha256": "459c059a54f52f22c9786923042454c7bc0d770ac794791458d7c592f54523bf",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 7,
+      "resource_id": 166,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2520,
+      "end_tick": 1080,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b62"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "328c226b12c69bc646c5053b769c81d2bc5e7f80756f7da4a6835932ff95a020",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 8,
+      "resource_id": 167,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2880,
+      "end_tick": 720,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b64"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 74,
+          "velocity": 74
+        }
+      ],
+      "native_sha256": "463fa23dd98e8adceacdfe12a769629327414b3c2e77ade2b77adb8703ee9acd",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 9,
+      "resource_id": 168,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 3240,
+      "end_tick": 360,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 66
+        }
+      ],
+      "native_sha256": "2c24fc40542f2103b9c0ae3ac0e3643cc7a8c33f33450a62c1c662fe29b5987d",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    }
+  ],
+  "admitted_cues": [
+    100,
+    102,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
+  "transitions": "R3 two-family proof only; complete score graph deferred until native gate",
+  "bulk_transports_deferred": [
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966
+  ],
+  "pcm_metadata_present": true,
+  "native_acceptance": false
+}

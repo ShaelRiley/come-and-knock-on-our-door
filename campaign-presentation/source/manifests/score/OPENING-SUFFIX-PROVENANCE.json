@@ -1,0 +1,2204 @@
+{
+  "schema": 1,
+  "original": {
+    "resource_id": 100,
+    "cue_id": "MUS01_OPENING",
+    "duration_seconds": 60.0012,
+    "gdd_binding": {
+      "episode": "E00",
+      "autoplay_seconds": 60,
+      "opening_only": true
+    },
+    "loop": null,
+    "midi_path": "midi/MUS01_OPENING.mid",
+    "native_payload_path": "native/100.sound.bin",
+    "sha256": {
+      "midi": "6f1ef330262c3f6a0b7365c40e6dc075e99f5a0f13e706a7f8e9e2e5a67d808e",
+      "native": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906"
+    }
+  },
+  "suffixes": [
+    {
+      "card": 1,
+      "resource_id": 160,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 360,
+      "end_tick": 3240,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b64"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "f513751e09c770dcc4b1a5a4619bde8d5cceed147b03269612ae80180a42bf6f",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 2,
+      "resource_id": 161,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 720,
+      "end_tick": 2880,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b6e"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 0,
+          "pitch": 43,
+          "velocity": 60
+        },
+        {
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 79
+        }
+      ],
+      "native_sha256": "b0edf2b7678ae0f007fb373d303f391e28231c970f18ab5db266c0aca64f9040",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 3,
+      "resource_id": 162,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1080,
+      "end_tick": 2520,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 74,
+          "velocity": 72
+        }
+      ],
+      "native_sha256": "4a76b8e46af12d4d39e0d01891020377f9cb5f303dd051c938e2da966ed9d967",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 4,
+      "resource_id": 163,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1440,
+      "end_tick": 2160,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b64"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "807e17bf990043bff7efd815a4b0880d6bdc7f1c9e7a1aa91cf40991189b925f",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 5,
+      "resource_id": 164,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 1800,
+      "end_tick": 1800,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b69"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "d3f73aeb9407787c015efdc66ec6659a54b245fad4ca470bb49e0148932cf5e4",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 6,
+      "resource_id": 165,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2160,
+      "end_tick": 1440,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b5e"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 0,
+          "pitch": 43,
+          "velocity": 60
+        },
+        {
+          "channel": 4,
+          "pitch": 74,
+          "velocity": 75
+        }
+      ],
+      "native_sha256": "459c059a54f52f22c9786923042454c7bc0d770ac794791458d7c592f54523bf",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 7,
+      "resource_id": 166,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2520,
+      "end_tick": 1080,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b62"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [],
+      "native_sha256": "328c226b12c69bc646c5053b769c81d2bc5e7f80756f7da4a6835932ff95a020",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 8,
+      "resource_id": 167,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 2880,
+      "end_tick": 720,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b64"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 74,
+          "velocity": 74
+        }
+      ],
+      "native_sha256": "463fa23dd98e8adceacdfe12a769629327414b3c2e77ade2b77adb8703ee9acd",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    },
+    {
+      "card": 9,
+      "resource_id": 168,
+      "source_resource": 100,
+      "source_sha256": "7ca33efb45bcccb6d49cccf695a83a7722512906435b5f5e6ad3c1bdb4677906",
+      "offset_ticks": 3240,
+      "end_tick": 360,
+      "initial_controllers": [
+        {
+          "channel": 0,
+          "message": "b00100"
+        },
+        {
+          "channel": 0,
+          "message": "b0076e"
+        },
+        {
+          "channel": 0,
+          "message": "b00a40"
+        },
+        {
+          "channel": 0,
+          "message": "b00b7f"
+        },
+        {
+          "channel": 0,
+          "message": "b04000"
+        },
+        {
+          "channel": 0,
+          "message": "c021"
+        },
+        {
+          "channel": 0,
+          "message": "e00040"
+        },
+        {
+          "channel": 1,
+          "message": "b10100"
+        },
+        {
+          "channel": 1,
+          "message": "b1076b"
+        },
+        {
+          "channel": 1,
+          "message": "b10a31"
+        },
+        {
+          "channel": 1,
+          "message": "b10b7f"
+        },
+        {
+          "channel": 1,
+          "message": "b14000"
+        },
+        {
+          "channel": 1,
+          "message": "c104"
+        },
+        {
+          "channel": 1,
+          "message": "e10040"
+        },
+        {
+          "channel": 2,
+          "message": "b20100"
+        },
+        {
+          "channel": 2,
+          "message": "b20746"
+        },
+        {
+          "channel": 2,
+          "message": "b20a4b"
+        },
+        {
+          "channel": 2,
+          "message": "b20b7f"
+        },
+        {
+          "channel": 2,
+          "message": "b24000"
+        },
+        {
+          "channel": 2,
+          "message": "c230"
+        },
+        {
+          "channel": 2,
+          "message": "e20040"
+        },
+        {
+          "channel": 3,
+          "message": "b30100"
+        },
+        {
+          "channel": 3,
+          "message": "b30770"
+        },
+        {
+          "channel": 3,
+          "message": "b30a37"
+        },
+        {
+          "channel": 3,
+          "message": "b30b60"
+        },
+        {
+          "channel": 3,
+          "message": "b34000"
+        },
+        {
+          "channel": 3,
+          "message": "c33b"
+        },
+        {
+          "channel": 3,
+          "message": "e30040"
+        },
+        {
+          "channel": 4,
+          "message": "b40100"
+        },
+        {
+          "channel": 4,
+          "message": "b4076d"
+        },
+        {
+          "channel": 4,
+          "message": "b40a4b"
+        },
+        {
+          "channel": 4,
+          "message": "b40b60"
+        },
+        {
+          "channel": 4,
+          "message": "b44000"
+        },
+        {
+          "channel": 4,
+          "message": "c449"
+        },
+        {
+          "channel": 4,
+          "message": "e40040"
+        },
+        {
+          "channel": 5,
+          "message": "b50100"
+        },
+        {
+          "channel": 5,
+          "message": "b50760"
+        },
+        {
+          "channel": 5,
+          "message": "b50a52"
+        },
+        {
+          "channel": 5,
+          "message": "b50b7f"
+        },
+        {
+          "channel": 5,
+          "message": "b54000"
+        },
+        {
+          "channel": 5,
+          "message": "c51b"
+        },
+        {
+          "channel": 5,
+          "message": "e50040"
+        },
+        {
+          "channel": 6,
+          "message": "b60100"
+        },
+        {
+          "channel": 6,
+          "message": "b6075e"
+        },
+        {
+          "channel": 6,
+          "message": "b60a28"
+        },
+        {
+          "channel": 6,
+          "message": "b60b7f"
+        },
+        {
+          "channel": 6,
+          "message": "b64000"
+        },
+        {
+          "channel": 6,
+          "message": "c60b"
+        },
+        {
+          "channel": 6,
+          "message": "e60040"
+        },
+        {
+          "channel": 9,
+          "message": "b90100"
+        },
+        {
+          "channel": 9,
+          "message": "b90762"
+        },
+        {
+          "channel": 9,
+          "message": "b90a40"
+        },
+        {
+          "channel": 9,
+          "message": "b90b7f"
+        },
+        {
+          "channel": 9,
+          "message": "b94000"
+        },
+        {
+          "channel": 9,
+          "message": "c900"
+        },
+        {
+          "channel": 9,
+          "message": "e90040"
+        }
+      ],
+      "carried_notes": [
+        {
+          "channel": 3,
+          "pitch": 76,
+          "velocity": 66
+        }
+      ],
+      "native_sha256": "2c24fc40542f2103b9c0ae3ac0e3643cc7a8c33f33450a62c1c662fe29b5987d",
+      "derivation": "Exact source suffix, latest pre-cut controllers, rearticulation of only held pre-cut notes. No added preroll, quantization, composition or retiming.",
+      "native_accepted": false
+    }
+  ]
+}

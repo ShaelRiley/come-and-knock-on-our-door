@@ -1,0 +1,511 @@
+{
+  "schema": "CAKOOD_COMPLETE_PRESENTATION_SOURCE_COVERAGE_V1",
+  "status": "COMPLETE_ASSETS_AND_SOURCE_GATES",
+  "fixture_categories": [],
+  "requirements": {
+    "opening": {
+      "views": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "distinct_action_poses": 64,
+      "reduced_motion": "same final pose/name/motif; shared player controls",
+      "status": "SOURCE_AND_ASSET_COMPLETE"
+    },
+    "score": {
+      "sound_cues": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "new_transport_modules": [
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966
+      ],
+      "basis": "Accepted V4 composition/R3 transport, exact named connectors and native finite terminal edges",
+      "optional_disabled": [
+        146,
+        147
+      ],
+      "status": "SOURCE_AND_ASSET_COMPLETE"
+    },
+    "audience": {
+      "finale_audio36": [
+        929,
+        1,
+        1,
+        0,
+        1
+      ],
+      "source": "Recorded applause/cheer and hearty laugh, with own lifecycle",
+      "duration_seconds": 7.64517,
+      "status": "SOURCE_AND_ASSET_COMPLETE"
+    },
+    "foley": {
+      "source_event_rows": 83,
+      "new_audio36_files": 24,
+      "materials": [
+        "wood",
+        "hard floor",
+        "door/window",
+        "metal",
+        "cloth/paper",
+        "authored ceramic contact"
+      ],
+      "unmapped_retained_takes": [
+        313,
+        314,
+        318
+      ],
+      "status": "SOURCE_AND_ASSET_COMPLETE"
+    },
+    "laugh_pool": {
+      "distinct_source_performances": 24,
+      "tier_counts": [
+        8,
+        8,
+        8
+      ],
+      "last_actual_audible_performances_excluded": 5,
+      "status": "SOURCE_AND_ASSET_COMPLETE"
+    }
+  },
+  "bound_inputs": [
+    {
+      "path": "AUDIENCE-ART-MANIFEST.json",
+      "sha256": "82f02ae1cd5056b1fb7c2c284578b4e47403638dab471c97ca88a1f2a79950a0"
+    },
+    {
+      "path": "AUDIENCE-COMPONENT-IMPORT.json",
+      "sha256": "992baef8c53d299760960fc817f1a8271663fb8f2ceab644dedebb4d5b2f20d1"
+    },
+    {
+      "path": "AUDIO-INVENTORY.json",
+      "sha256": "94f0a79d9ec86b3b17972024879f0ceb92d99e326584f443a1be2db87ba53f8d"
+    },
+    {
+      "path": "BUILD-PROFILE.json",
+      "sha256": "708d8755a16bde54675c8ded193548eff187529c825c6e2a028a463bda0d4e5b"
+    },
+    {
+      "path": "CORE-PRESERVATION.json",
+      "sha256": "3ec70e96da441c7e285e858a5908a04a3563cf9b9298132d32f12727cf2e9c8f"
+    },
+    {
+      "path": "CREDITS.txt",
+      "sha256": "62982e738996b11038075ee36d34d4e670484eee11ae8402812e4f7aee6e0416"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "9de40481abc5670d0c51257605b9cbd21cc469a1d74e57dbc5ace209ed4a2b71"
+    },
+    {
+      "path": "OPENING-ASSET-MANIFEST.json",
+      "sha256": "2b1998bc79e314cf81f3a459076c33ab667fb1e4ef50dee25fc435841eb3069c"
+    },
+    {
+      "path": "P14-CREDIT-URLS.json",
+      "sha256": "df508e139332a1c9fc7236b2936bebbd9c5c33f2369b859d69d44285dd27c571"
+    },
+    {
+      "path": "RESOURCE-INVENTORY.json",
+      "sha256": "2f1fd02d3b0e2591b0fcea3e8677ccbd7e62038045e88e1a9400de075c109a81"
+    },
+    {
+      "path": "SCORE-COMPONENT-IMPORT.json",
+      "sha256": "a87f913e47df6580077433b28c8a24ec7acb9ca5913c7c8ce05b606820120f95"
+    },
+    {
+      "path": "SOURCE-ORDER.json",
+      "sha256": "a58bb56a84cb26b80f40b78fdf5931029a70ddf54525cde2d5042982c30f0bbc"
+    },
+    {
+      "path": "build.py",
+      "sha256": "9004fb8880041e257eb64202d2b98c20a64dd6824306d7abe9f61ea5d61f6fd3"
+    },
+    {
+      "path": "manifests/audience/ASSET-MANIFEST.json",
+      "sha256": "f00ba61f81ab09ac0e8a69cec4f0bf896527797ec880edb604c4f3853470523d"
+    },
+    {
+      "path": "manifests/audience/FOLEY-EVENT-MAP.json",
+      "sha256": "96b764a2b35d997d959aaf605a2d60562a332023e62fc3197204bc495862cf11"
+    },
+    {
+      "path": "manifests/audience/pcm-metadata.json",
+      "sha256": "10381bdeabdc87d25ecc4b873c7e8987a7e51c00f3e6a75cfbb61e8bda493df5"
+    },
+    {
+      "path": "manifests/score/101-tables.json",
+      "sha256": "02fb53aae26f9f12a36a82a31bf1817d58d8797ded34e9d27c0fc0c28e7e0d4e"
+    },
+    {
+      "path": "manifests/score/103-tables.json",
+      "sha256": "065865546ca8bde123d4290d7167ba71e2bcdeea2ba011dd0aa304720637fbf3"
+    },
+    {
+      "path": "manifests/score/105-tables.json",
+      "sha256": "4e85de6ed9c317cd0a328718056963ab344253a74bc9909ac5a6247cb65acb2b"
+    },
+    {
+      "path": "manifests/score/106-tables.json",
+      "sha256": "7db7f095e371fda0bd544e449df0786dcfb73467dc5f60f4a0d9d533cd687a50"
+    },
+    {
+      "path": "manifests/score/107-tables.json",
+      "sha256": "1d24d106483c9001d001e9a5fe1a3916db00371d1286b38083ad14a95df928b5"
+    },
+    {
+      "path": "manifests/score/108-tables.json",
+      "sha256": "a03b6043d951069d70a444cf13eca191694dea5e88ece7168ca7c8f654984d71"
+    },
+    {
+      "path": "manifests/score/109-tables.json",
+      "sha256": "f9b22a2143e58f18110274ceb997a93c032c54931dedde1dbf85403f64a50aff"
+    },
+    {
+      "path": "manifests/score/110-tables.json",
+      "sha256": "2e58eee736410efd70d9adecc90d8a68e3d407947da2b3a0941b5c9f583c1910"
+    },
+    {
+      "path": "manifests/score/111-tables.json",
+      "sha256": "4bca81120166f3c0b721211476a188c90d736d133e35460b68ed56884af2ede2"
+    },
+    {
+      "path": "manifests/score/112-tables.json",
+      "sha256": "9709bd3bc6b62efd33fb0d65ec86d67435e00bf6d1dd8a1cfcfbef2d89ec8278"
+    },
+    {
+      "path": "manifests/score/113-tables.json",
+      "sha256": "434dfb14da989c23d61c88fa94f458464c7e041dd6455c696ac35692dfbcba9a"
+    },
+    {
+      "path": "manifests/score/114-tables.json",
+      "sha256": "4f931d73e9c8eab1b7e89500ecbc77a5c8b2a4d9405f0d794645450a3e9f074e"
+    },
+    {
+      "path": "manifests/score/115-tables.json",
+      "sha256": "70713a0c70f21eb227915f79db9bfc6607dd70cd4609e5ae4e4a4ae9b472791c"
+    },
+    {
+      "path": "manifests/score/116-tables.json",
+      "sha256": "3e7b8ab595985ee5e02f3a733858982d26d65a4fc153dd10e06dfb34cadced0d"
+    },
+    {
+      "path": "manifests/score/117-tables.json",
+      "sha256": "5dfb06906d2a39108092b37bf519b031a66feaa1c16a2a0e20551fd1a0dfa94d"
+    },
+    {
+      "path": "manifests/score/118-tables.json",
+      "sha256": "3f2d26e3bfae6dc6417fbd11ee30e0d2ec402f7a29868a42f2913b0967b4a2ea"
+    },
+    {
+      "path": "manifests/score/120-tables.json",
+      "sha256": "a9e8f8f82c2ab7f923b5d1c406a3742d9db2f223cb8023118202e54b5bc660b1"
+    },
+    {
+      "path": "manifests/score/BROKER-GUARD-CHUNKS.json",
+      "sha256": "f12e86a13f929211057f3e09c05ff6605521c8471d7d160de0a3ee6d7e492222"
+    },
+    {
+      "path": "manifests/score/CONNECTOR220-PROVENANCE.json",
+      "sha256": "df63c2404efcc39c9221962b522ab963d01c9b9946eca09a006c04ff739a6baf"
+    },
+    {
+      "path": "manifests/score/FULL-BROKER-TABLES.json",
+      "sha256": "315a6a84837e088a4082f904d7bc094175330ab5eb0f38dcbd439bbcfb1d0e8f"
+    },
+    {
+      "path": "manifests/score/FULL-SCORE-CATALOG.json",
+      "sha256": "66285823f5395fe077eba590e59b55a03bff0bc7b4a141e3ed8bd27ef1798f33"
+    },
+    {
+      "path": "manifests/score/LOOP-TRANSPORTS.json",
+      "sha256": "aaeb363c240671f507d1e4cb419e6db3a4118f272b80dbe00647a760b62bcc33"
+    },
+    {
+      "path": "manifests/score/OPENING-RECOVERY-TABLES.json",
+      "sha256": "4836b60b46f906171626965f7329d77fdb426bd531d2b231cc0cea4f8b06461f"
+    },
+    {
+      "path": "manifests/score/OPENING-SUFFIX-PROVENANCE.json",
+      "sha256": "c0dc7cffa99a721781c9441c886a73c3c513627323bfcc4be4c973a00f345d3f"
+    },
+    {
+      "path": "manifests/score/PHASE-A-CATALOG.json",
+      "sha256": "2c312d50f96fa7a9a07367a67a7e5035d5abeab0c3945606635bdf6264411b27"
+    },
+    {
+      "path": "manifests/score/api.json",
+      "sha256": "fcdd14d62451b2ab5e52bd8014c57a123f5eb4520e7ba913eb91be73fbad5b82"
+    },
+    {
+      "path": "rights/licenses/CC-BY-3.0.txt",
+      "sha256": "92193e8a34b7b1c7be6aff498013b952aa214fd4417160c42d3671c7b250db5b"
+    },
+    {
+      "path": "rights/licenses/CC-BY-4.0.txt",
+      "sha256": "68be9cf5a93b63862c99da786b54894b4e30bfeb33806259a77f0c88a73f40d5"
+    },
+    {
+      "path": "rights/licenses/CC0-1.0.txt",
+      "sha256": "c57553417c92fa26e5811736a0a6f8386e84fe5b6ce0c8e401841086088af980"
+    },
+    {
+      "path": "rights/licenses/LICENSE-SOURCE-MANIFEST.json",
+      "sha256": "ce8ce4aaa7bcb4d224fff6d748d86a7d319266474ae2515d8e062191cad28149"
+    },
+    {
+      "path": "selectors.json",
+      "sha256": "8eb358eacedfcced8919055b9e062f33276761c0443242cef8bff679735b823a"
+    },
+    {
+      "path": "src/main.sc",
+      "sha256": "4932440f1544814b425dbfc1b07cca98916c99c8839f6b167568e9012d01910e"
+    },
+    {
+      "path": "src/module941.sc",
+      "sha256": "6041e821f26fab4dd8e2728dd64a237eb4993b818a92ad11284db1ababdc114c"
+    },
+    {
+      "path": "src/module942.sc",
+      "sha256": "f318c4b82fafad36e547f402e84c2ee6255e98fe07f1da4142b662345a7c76bb"
+    },
+    {
+      "path": "src/module943.sc",
+      "sha256": "44fda1a7a12388f1d327dd0dc53b0c4ae1c5cab042a036c05d52067cf66a396d"
+    },
+    {
+      "path": "src/module944.sc",
+      "sha256": "a80a5a5d193de3e7eb81119f0c845052b19da09a484d671bc2d4b2e738a2819e"
+    },
+    {
+      "path": "src/module945.sc",
+      "sha256": "877191c372b8eb83c69ef8af59cde1e206a4df955cf2be3acaea024fd7e3f952"
+    },
+    {
+      "path": "src/module946.sc",
+      "sha256": "f2e04a07fa72cc2a3ccaa13434daa9631554c871dfd41dcf4876e65c1dc4b405"
+    },
+    {
+      "path": "src/module948.sc",
+      "sha256": "073b0cd899362ba8c7526ae6dabd9a0b0ee4012eb3b65c55d1cc264dbe9587b9"
+    },
+    {
+      "path": "src/module950.sc",
+      "sha256": "fcaf01a9ce2ce0cb3c8f431cd7e3ee6e01d210a8418d31b8f431b1354bcad6d3"
+    },
+    {
+      "path": "src/module951.sc",
+      "sha256": "68ad78ca7105fbecab2e66ed7aaa07a25ff8224f3ac290e53d23752e6ebe1c44"
+    },
+    {
+      "path": "src/module952.sc",
+      "sha256": "d050a522aec725db0484dbbff49ac8c272d50f5f80bc17507730e71d1a7caa7b"
+    },
+    {
+      "path": "src/module953.sc",
+      "sha256": "03e724dd2fbda24edb08549d3fdbb5a572dcd440fa8e17420acbfe3356ac4dbe"
+    },
+    {
+      "path": "src/module954.sc",
+      "sha256": "b8ab5b55241c7eb002870ea6bfa5a155b57ebabbde3e27111c1388bc9aa33897"
+    },
+    {
+      "path": "src/module955.sc",
+      "sha256": "bbb4b9d95f65f0be46b0e0e72a46e7753c9eda65acc4ea20f9c157ff29dff7a0"
+    },
+    {
+      "path": "src/module956.sc",
+      "sha256": "57f75232589541037d6669434df4f681085e6b362a354970b81c85a63e5505e9"
+    },
+    {
+      "path": "src/module957.sc",
+      "sha256": "02f7e14845f16f2b3a9b1d358f928a08ce7a2d406291597810f6a4e420da6e7e"
+    },
+    {
+      "path": "src/module958.sc",
+      "sha256": "972f17c54004e2d5dbd5e9c9c7655fc9aa799634ad15301cb553f8aa813f9cd5"
+    },
+    {
+      "path": "src/module959.sc",
+      "sha256": "1560e6afee71482d118726cf84ec6997a51cfcf312c7f05f338b4be84385d217"
+    },
+    {
+      "path": "src/module960.sc",
+      "sha256": "56ff2a8c0101ef85f5028e3731400a2d088cfc26747163d37e52f44a6268d58f"
+    },
+    {
+      "path": "src/module961.sc",
+      "sha256": "0f3e93e15d894a4d5e08d7216609ed17e83ae665e377faf9dded84195a16e2bd"
+    },
+    {
+      "path": "src/module962.sc",
+      "sha256": "21abac14863c948d5763416b41234211b301df6a1ffeb1310bba6d4434cf22e8"
+    },
+    {
+      "path": "src/module963.sc",
+      "sha256": "825e5ff4b4295aca0401128e19eb9504901f0e4044ff45d9b2c540846826b248"
+    },
+    {
+      "path": "src/module964.sc",
+      "sha256": "f62cd21a815fbec1a160ab4d6fa18b499afceda296bb286aaf0181d0c51cadf0"
+    },
+    {
+      "path": "src/module965.sc",
+      "sha256": "fe43355b74486eaac683367dd5a60a1d5e0b8fd27e7c7ceff366010046e1f1af"
+    },
+    {
+      "path": "src/module966.sc",
+      "sha256": "fd40227ed90219ef898bbf65ca872d99dadfe3c8a003ea16dc7c43a6c3396ba1"
+    },
+    {
+      "path": "src/module970.sc",
+      "sha256": "074df6dc189e8c700d5dd1ea533a3dd6eab5b50dc51e6581e7997ae0869dbac6"
+    },
+    {
+      "path": "src/module980.sc",
+      "sha256": "2cdf2806066956bed4146e6f71e291dde2ac8ed02e8b158b1cd9eaeb668d96a7"
+    },
+    {
+      "path": "src/module981.sc",
+      "sha256": "fbf454d0e945cf82007b7b746d9edffd63eb42a87c17af59c69d4a6a894f05bc"
+    },
+    {
+      "path": "src/module982.sc",
+      "sha256": "06a12391814b37a2b9c4ad349458d205b123095c76ef5823c82a29dd8c02ee08"
+    },
+    {
+      "path": "src/module983.sc",
+      "sha256": "0459f448e12d10d544d5a0194c1233743130be97caf2032569c479fe4d2d92b6"
+    },
+    {
+      "path": "src/module984.sc",
+      "sha256": "7b287cef97aa6c572f7a6ce3c47e88316a973e328f0e75f6a20353efa4eba4e4"
+    },
+    {
+      "path": "src/module985.sc",
+      "sha256": "515acb27068fc593663ca07a4787c1ac634e3ff1fc0c0d1594642e68a076c8d0"
+    },
+    {
+      "path": "src/module986.sc",
+      "sha256": "9dfbe07a0092eff89b0b919706d8e82a743b30ec9615906953e68fc85655bb81"
+    },
+    {
+      "path": "src/module987.sc",
+      "sha256": "ce612440ab4b9cb32dbec25f7c974cdfecf5ce52b900311e36a2d4f78f6081f3"
+    },
+    {
+      "path": "src/module988.sc",
+      "sha256": "b4f2ab912a696ff4beddffd83ee9e743e610bb273f25e5eca8317caeb2e5b267"
+    },
+    {
+      "path": "src/module989.sc",
+      "sha256": "f214e47ec2a9c6b947adc91de9fb9d070cc2af73869db85d3ee37d2566c23da7"
+    },
+    {
+      "path": "src/module990.sc",
+      "sha256": "a27f685ed6bf2ff03e26cdad914b03c89bf6c8824aee3af40d9889a67e2efae3"
+    },
+    {
+      "path": "src/module991.sc",
+      "sha256": "d9bc696e08465698f9e2af26b7d2591b3c3ce882d2540e28164dd91e41c905d2"
+    },
+    {
+      "path": "src/module992.sc",
+      "sha256": "28165b5cbabdb7417d226c8ec1a95c66e52336122ca97775cf866dd8af08c22f"
+    },
+    {
+      "path": "src/module993.sc",
+      "sha256": "4d2046f5d82ec8b3333c7edfc30fd29bd733f0727aafa9115707f041f572da48"
+    },
+    {
+      "path": "src/module994.sc",
+      "sha256": "43c85dce7c77a07c9afc79a9f329c42837dee2b2de68c35d75c20683e414b797"
+    },
+    {
+      "path": "src/module995.sc",
+      "sha256": "8a7eaefedf04153dd53b5fdf9ebef63d6b17acd68810e26371056787db89ce0c"
+    },
+    {
+      "path": "src/module996.sc",
+      "sha256": "f926829519e5167c6bf2c9e366d0c55a22e4f549cf655494fcca8dcbe48f9a29"
+    },
+    {
+      "path": "src/module997.sc",
+      "sha256": "b4f7877a6eadae2e74ae574bb827aad897a0517791aff660c5a05a8f230962ca"
+    },
+    {
+      "path": "src/module998.sc",
+      "sha256": "7ccb00fd393aef15f32824068f9e69f0e3d09a69a790555cd59638a7d4794848"
+    },
+    {
+      "path": "src/module999.sc",
+      "sha256": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8"
+    },
+    {
+      "path": "stage.py",
+      "sha256": "a377a770ebca75934dd9f8e313cea5434e28f9cfc0c0d414fa30f7062f371314"
+    }
+  ],
+  "validation": {
+    "coherent_compile": "PASS_FINAL_R5",
+    "portable_component_checks": "PASSED_WITH_SCOPE_LIMITS",
+    "native_full_candidate": "UNPERFORMED",
+    "genuine_campaign_ending": "UNPERFORMED",
+    "subjective_listening": "UNPERFORMED_UNSUPPORTED_AUDIO_INPUT",
+    "coherent_compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+    "score_six_portable_emitted_cases": "PASS_BOUND_TO_FINAL_R5_COMPILE"
+  },
+  "save_lineage": "CAKOOD_PRESENTATION_COMPLETE_CANDIDATE_20261009_R1",
+  "music_picture_authority": "Main visual authority; exact observed native clock pair, no timer completion or seek",
+  "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim."
+}

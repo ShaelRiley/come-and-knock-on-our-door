@@ -1,0 +1,20 @@
+{
+  "case": "finite",
+  "native_acceptance": false,
+  "compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "result": {
+    "quiet_preserved_ticks": 2892,
+    "credits_entered_at_real_end": true,
+    "speech_gap": [
+      265,
+      676
+    ],
+    "uncommitted_truth_blocked": true,
+    "max_parsers": 1,
+    "scope": "Music-only emitted units; no campaign/save admission claim"
+  },
+  "status": "PASS",
+  "exit_code": 0,
+  "elapsed_seconds": 0.2476943770016078,
+  "max_rss_kib": 45628
+}

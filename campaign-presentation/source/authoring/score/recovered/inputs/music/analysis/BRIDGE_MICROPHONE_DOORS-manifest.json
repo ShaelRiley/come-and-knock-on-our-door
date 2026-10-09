@@ -1,0 +1,1925 @@
+{
+  "cue_id": "BRIDGE_MICROPHONE_DOORS",
+  "resource_id": 125,
+  "bpm": 108,
+  "swing_offbeat_fraction": 0.6,
+  "beats": 16,
+  "bars": 4.0,
+  "style": "together",
+  "duration_seconds": 9.083515,
+  "loop": null,
+  "roles": [
+    {
+      "name": "BASS",
+      "channel": 0,
+      "program": 33,
+      "volume": 110,
+      "pan": 64,
+      "voices": 1
+    },
+    {
+      "name": "KEYS",
+      "channel": 1,
+      "program": 4,
+      "volume": 107,
+      "pan": 49,
+      "voices": 2
+    },
+    {
+      "name": "TEXTURE",
+      "channel": 2,
+      "program": 48,
+      "volume": 70,
+      "pan": 75,
+      "voices": 2
+    },
+    {
+      "name": "LEAD",
+      "channel": 3,
+      "program": 59,
+      "volume": 112,
+      "pan": 55,
+      "voices": 1
+    },
+    {
+      "name": "REPLY",
+      "channel": 4,
+      "program": 73,
+      "volume": 109,
+      "pan": 75,
+      "voices": 1
+    },
+    {
+      "name": "GUITAR",
+      "channel": 5,
+      "program": 27,
+      "volume": 96,
+      "pan": 82,
+      "voices": 2
+    },
+    {
+      "name": "ACCENT",
+      "channel": 6,
+      "program": 11,
+      "volume": 94,
+      "pan": 40,
+      "voices": 2
+    },
+    {
+      "name": "KIT",
+      "channel": 9,
+      "program": 0,
+      "volume": 98,
+      "pan": 64,
+      "voices": 4
+    }
+  ],
+  "notes": [
+    {
+      "beat": 0.36041666666666666,
+      "duration": 0.5700000000000001,
+      "unswung_beat": 0.0,
+      "unswung_duration": 0.475,
+      "channel": 3,
+      "pitch": 60,
+      "velocity": 68,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 495,
+        "source_pitch": 67,
+        "source_beat": 75.95,
+        "source_duration": 0.66875,
+        "transposition": -7,
+        "source_grid_beat": 11.0,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 1.3604166666666666,
+      "duration": 0.5700000000000001,
+      "unswung_beat": 1.0,
+      "unswung_duration": 0.4750000000000001,
+      "channel": 3,
+      "pitch": 60,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 502,
+        "source_pitch": 67,
+        "source_beat": 76.94791666666667,
+        "source_duration": 0.66875,
+        "transposition": -7,
+        "source_grid_beat": 12.0,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 1.9604166666666667,
+      "duration": 1.9639999999999995,
+      "unswung_beat": 1.5,
+      "unswung_duration": 1.9699999999999998,
+      "channel": 3,
+      "pitch": 60,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 505,
+        "source_pitch": 67,
+        "source_beat": 77.61666666666666,
+        "source_duration": 2.00625,
+        "transposition": -7,
+        "source_grid_beat": 12.5,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 0.9604166666666667,
+      "duration": 0.3799999999999999,
+      "unswung_beat": 0.5,
+      "unswung_duration": 0.475,
+      "channel": 3,
+      "pitch": 63,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 499,
+        "source_pitch": 70,
+        "source_beat": 76.61875,
+        "source_duration": 0.32916666666666666,
+        "transposition": -7,
+        "source_grid_beat": 11.5,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 3.9604166666666667,
+      "duration": 0.38000000000000034,
+      "unswung_beat": 3.5,
+      "unswung_duration": 0.4750000000000001,
+      "channel": 3,
+      "pitch": 64,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 515,
+        "source_pitch": 71,
+        "source_beat": 79.62291666666667,
+        "source_duration": 0.32708333333333334,
+        "transposition": -7,
+        "source_grid_beat": 14.5,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 5.960416666666666,
+      "duration": 1.3820000000000006,
+      "unswung_beat": 5.5,
+      "unswung_duration": 1.4775,
+      "channel": 3,
+      "pitch": 64,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 536,
+        "source_pitch": 71,
+        "source_beat": 81.62916666666666,
+        "source_duration": 1.325,
+        "transposition": -7,
+        "source_grid_beat": 16.5,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 4.360416666666667,
+      "duration": 0.5699999999999994,
+      "unswung_beat": 4.0,
+      "unswung_duration": 0.47499999999999964,
+      "channel": 3,
+      "pitch": 65,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 521,
+        "source_pitch": 72,
+        "source_beat": 79.95,
+        "source_duration": 0.66875,
+        "transposition": -7,
+        "source_grid_beat": 15.0,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 5.360416666666667,
+      "duration": 0.5699999999999994,
+      "unswung_beat": 5.0,
+      "unswung_duration": 0.47499999999999964,
+      "channel": 3,
+      "pitch": 65,
+      "velocity": 65,
+      "source": {
+        "motif": "TOGETHER_B",
+        "stem": "B05S05",
+        "source_note_id": 528,
+        "source_pitch": 72,
+        "source_beat": 80.96041666666666,
+        "source_duration": 0.66875,
+        "transposition": -7,
+        "source_grid_beat": 16.0,
+        "source_offset": 11,
+        "scale": 1.0,
+        "grid_reference": 64.96041666666666,
+        "rhythm": "Audited source-aware grid then common swing; phrase-scale transformation applies equally to melody and harmony; no guard chopping"
+      },
+      "gesture": "whole source-derived phrase"
+    },
+    {
+      "beat": 0.36041666666666666,
+      "duration": 0.6799999999999999,
+      "unswung_beat": 0,
+      "unswung_duration": 0.6,
+      "channel": 1,
+      "pitch": 60,
+      "velocity": 42,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 6.960416666666666,
+      "duration": 0.30400000000000027,
+      "unswung_beat": 6.5,
+      "unswung_duration": 0.3799999999999999,
+      "channel": 1,
+      "pitch": 60,
+      "velocity": 38,
+      "source": null,
+      "gesture": "source harmonic change"
+    },
+    {
+      "beat": 0.36041666666666666,
+      "duration": 0.6799999999999999,
+      "unswung_beat": 0,
+      "unswung_duration": 0.6,
+      "channel": 1,
+      "pitch": 63,
+      "velocity": 42,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 2.9604166666666667,
+      "duration": 0.31999999999999984,
+      "unswung_beat": 2.5,
+      "unswung_duration": 0.3999999999999999,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 13.960416666666667,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 13.5,
+      "unswung_duration": 0.41999999999999993,
+      "channel": 1,
+      "pitch": 58,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 2.9604166666666667,
+      "duration": 0.31999999999999984,
+      "unswung_beat": 2.5,
+      "unswung_duration": 0.3999999999999999,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 5.960416666666666,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 5.5,
+      "unswung_duration": 0.41999999999999993,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 13.960416666666667,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 13.5,
+      "unswung_duration": 0.41999999999999993,
+      "channel": 1,
+      "pitch": 64,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 0.36041666666666666,
+      "duration": 0.10799999999999998,
+      "unswung_beat": 0,
+      "unswung_duration": 0.09,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 22,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 1.3604166666666666,
+      "duration": 0.1080000000000001,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09000000000000008,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 1.9604166666666667,
+      "duration": 0.07200000000000006,
+      "unswung_beat": 1.5,
+      "unswung_duration": 0.09000000000000008,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 2.3604166666666666,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 2,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 3.3604166666666666,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 3,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 3.9604166666666667,
+      "duration": 0.07199999999999962,
+      "unswung_beat": 3.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 4.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 4,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 22,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 5.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 5.960416666666666,
+      "duration": 0.07200000000000006,
+      "unswung_beat": 5.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 6.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 6,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 7.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 7,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 7.960416666666666,
+      "duration": 0.07200000000000006,
+      "unswung_beat": 7.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 8.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 8,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 17,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 9.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 9,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 19,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 9.960416666666667,
+      "duration": 0.07200000000000095,
+      "unswung_beat": 9.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 13,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 10.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 10,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 18,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 11.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 11,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 19,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 11.960416666666667,
+      "duration": 0.07200000000000095,
+      "unswung_beat": 11.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 13,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 12.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 12,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 22,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 13.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 13,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 13.960416666666667,
+      "duration": 0.07200000000000095,
+      "unswung_beat": 13.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 14.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 14,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 23,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 15.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 15,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 24,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 15.960416666666667,
+      "duration": 0.07199999999999918,
+      "unswung_beat": 15.5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 42,
+      "velocity": 16,
+      "source": null,
+      "gesture": "one shared pocket"
+    },
+    {
+      "beat": 0.36041666666666666,
+      "duration": 0.12,
+      "unswung_beat": 0,
+      "unswung_duration": 0.1,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 2.3604166666666666,
+      "duration": 0.1200000000000001,
+      "unswung_beat": 2,
+      "unswung_duration": 0.10000000000000009,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 4.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 4,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 6.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 6,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 8.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 8,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 28,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 10.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 10,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 28,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 12.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 12,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 14.360416666666667,
+      "duration": 0.11999999999999922,
+      "unswung_beat": 14,
+      "unswung_duration": 0.09999999999999964,
+      "channel": 9,
+      "pitch": 36,
+      "velocity": 35,
+      "source": null,
+      "gesture": "grounded broad pulse"
+    },
+    {
+      "beat": 1.3604166666666666,
+      "duration": 0.1080000000000001,
+      "unswung_beat": 1,
+      "unswung_duration": 0.09000000000000008,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 3.3604166666666666,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 3,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 5.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 5,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 7.360416666666667,
+      "duration": 0.10799999999999965,
+      "unswung_beat": 7,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 9.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 9,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 17,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 11.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 11,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 17,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 13.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 13,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 15.360416666666667,
+      "duration": 0.10800000000000054,
+      "unswung_beat": 15,
+      "unswung_duration": 0.08999999999999986,
+      "channel": 9,
+      "pitch": 37,
+      "velocity": 22,
+      "source": null,
+      "gesture": "restrained backbeat"
+    },
+    {
+      "beat": 5.960416666666666,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 5.5,
+      "unswung_duration": 0.41999999999999993,
+      "channel": 1,
+      "pitch": 59,
+      "velocity": 38,
+      "source": null,
+      "gesture": "sparse chord-aware comp"
+    },
+    {
+      "beat": 6.360416666666667,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 6,
+      "unswung_duration": 0.28000000000000025,
+      "channel": 5,
+      "pitch": 71,
+      "velocity": 37,
+      "source": null,
+      "gesture": "single guitar answer"
+    },
+    {
+      "beat": 6.360416666666667,
+      "duration": 0.3360000000000003,
+      "unswung_beat": 6,
+      "unswung_duration": 0.28000000000000025,
+      "channel": 5,
+      "pitch": 76,
+      "velocity": 37,
+      "source": null,
+      "gesture": "single guitar answer"
+    },
+    {
+      "beat": 0.36041666666666666,
+      "duration": 1.3,
+      "unswung_beat": 0,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 51,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 2.3604166666666666,
+      "duration": 0.5639999999999996,
+      "unswung_beat": 2,
+      "unswung_duration": 0.46999999999999975,
+      "channel": 0,
+      "pitch": 51,
+      "velocity": 47,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 2.9604166666666667,
+      "duration": 0.9039999999999999,
+      "unswung_beat": 2.5,
+      "unswung_duration": 0.9199999999999999,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 46,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 10.360416666666667,
+      "duration": 1.3000000000000007,
+      "unswung_beat": 10,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 37,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 12.360416666666667,
+      "duration": 1.3000000000000007,
+      "unswung_beat": 12,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 36,
+      "velocity": 51,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 4.360416666666667,
+      "duration": 1.2999999999999998,
+      "unswung_beat": 4,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 51,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 5.960416666666666,
+      "duration": 0.37600000000000033,
+      "unswung_beat": 5.5,
+      "unswung_duration": 0.46999999999999975,
+      "channel": 0,
+      "pitch": 40,
+      "velocity": 46,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 6.960416666666666,
+      "duration": 0.9039999999999999,
+      "unswung_beat": 6.5,
+      "unswung_duration": 0.9199999999999999,
+      "channel": 0,
+      "pitch": 40,
+      "velocity": 46,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 8.360416666666667,
+      "duration": 1.3000000000000007,
+      "unswung_beat": 8,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 40,
+      "velocity": 40,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 6.360416666666667,
+      "duration": 0.5640000000000001,
+      "unswung_beat": 6,
+      "unswung_duration": 0.46999999999999975,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 47,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 14.360416666666667,
+      "duration": 1.3000000000000007,
+      "unswung_beat": 14,
+      "unswung_duration": 1.25,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 47,
+      "source": null,
+      "gesture": "source-harmony-aware bass"
+    },
+    {
+      "beat": 6.960416666666666,
+      "duration": 0.30400000000000027,
+      "unswung_beat": 6.5,
+      "unswung_duration": 0.3799999999999999,
+      "channel": 1,
+      "pitch": 67,
+      "velocity": 38,
+      "source": null,
+      "gesture": "source harmonic change"
+    }
+  ],
+  "note_count": 71,
+  "harmony": [
+    {
+      "beat": 0,
+      "root_pc": 8,
+      "bass_pc": 8,
+      "quality": "major",
+      "label": "Eb",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "stem_id": "B05S01",
+          "note_id": 285,
+          "pitch": 39,
+          "beat": 75.9625,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 864,
+          "pitch": 51,
+          "beat": 75.91458333333334,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 866,
+          "pitch": 67,
+          "beat": 75.91458333333334,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 858,
+          "pitch": 58,
+          "beat": 73.91875,
+          "duration": 2.9916666666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1679,
+          "pitch": 63,
+          "beat": 75.92708333333333,
+          "duration": 0.66875,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1680,
+          "pitch": 67,
+          "beat": 75.92708333333333,
+          "duration": 0.66875,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1687,
+          "pitch": 70,
+          "beat": 76.59583333333333,
+          "duration": 0.9958333333333333,
+          "channel": 1
+        }
+      ],
+      "interpretation": "Eb/G/Bb. Bass F at12 is a passing/suspended inversion then returns to Eb at12\u2154, not necessarily a separately rooted Fm chord.",
+      "source_ternary_grid_beat": 11,
+      "normalized_straight_grid_beat": 11.0,
+      "source_motif": "TOGETHER_B",
+      "source_harmony_beat": 11.0,
+      "transposition": -7,
+      "scale": 1.0
+    },
+    {
+      "beat": 2.5,
+      "root_pc": 0,
+      "bass_pc": 0,
+      "quality": "dominant",
+      "label": "G7",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "stem_id": "B05S09",
+          "note_id": 564,
+          "pitch": 43,
+          "beat": 78.58958333333334,
+          "duration": 1.325,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 565,
+          "pitch": 59,
+          "beat": 78.58958333333334,
+          "duration": 1.3375,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 568,
+          "pitch": 62,
+          "beat": 78.58958333333334,
+          "duration": 1.3375,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 567,
+          "pitch": 65,
+          "beat": 78.58958333333334,
+          "duration": 1.3375,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 506,
+          "pitch": 71,
+          "beat": 78.6125,
+          "duration": 0.32916666666666666,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 507,
+          "pitch": 62,
+          "beat": 78.6125,
+          "duration": 0.3416666666666667,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S01",
+          "note_id": 291,
+          "pitch": 34,
+          "beat": 78.6375,
+          "duration": 0.32916666666666666,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S01",
+          "note_id": 293,
+          "pitch": 31,
+          "beat": 78.96666666666667,
+          "duration": 0.6666666666666666,
+          "channel": 0
+        }
+      ],
+      "interpretation": "G/B/D/F. Standalone Bass hits Bb at13\u2154 before G at14; preserve or intentionally simplify this source anticipation rather than infer Bb as the sustained chord.",
+      "source_ternary_grid_beat": 13.666666666666666,
+      "normalized_straight_grid_beat": 13.5,
+      "source_motif": "TOGETHER_B",
+      "source_harmony_beat": 13.5,
+      "transposition": -7,
+      "scale": 1.0
+    },
+    {
+      "beat": 4.0,
+      "root_pc": 5,
+      "bass_pc": 5,
+      "quality": "minor",
+      "label": "Cm",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "stem_id": "B05S01",
+          "note_id": 297,
+          "pitch": 36,
+          "beat": 79.9625,
+          "duration": 0.66875,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 521,
+          "pitch": 72,
+          "beat": 79.95,
+          "duration": 0.66875,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 519,
+          "pitch": 63,
+          "beat": 79.95,
+          "duration": 0.66875,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 522,
+          "pitch": 67,
+          "beat": 79.95,
+          "duration": 1.6791666666666667,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1706,
+          "pitch": 36,
+          "beat": 79.925,
+          "duration": 2.0083333333333333,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1704,
+          "pitch": 63,
+          "beat": 79.925,
+          "duration": 0.66875,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1721,
+          "pitch": 67,
+          "beat": 80.92291666666667,
+          "duration": 0.66875,
+          "channel": 1
+        }
+      ],
+      "interpretation": "C/Eb/G",
+      "source_ternary_grid_beat": 15,
+      "normalized_straight_grid_beat": 15.0,
+      "source_motif": "TOGETHER_B",
+      "source_harmony_beat": 15.0,
+      "transposition": -7,
+      "scale": 1.0
+    },
+    {
+      "beat": 5.5,
+      "root_pc": 4,
+      "bass_pc": 4,
+      "quality": "ambiguous_third",
+      "label": "B bass/lead with conflicting minor and major thirds",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "stem_id": "B05S01",
+          "note_id": 299,
+          "pitch": 35,
+          "beat": 81.62916666666666,
+          "duration": 0.3416666666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S01",
+          "note_id": 301,
+          "pitch": 35,
+          "beat": 81.97083333333333,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1739,
+          "pitch": 35,
+          "beat": 81.59375,
+          "duration": 2.3354166666666667,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1734,
+          "pitch": 62,
+          "beat": 81.59375,
+          "duration": 0.9979166666666667,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1735,
+          "pitch": 66,
+          "beat": 81.59375,
+          "duration": 0.9979166666666667,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1736,
+          "pitch": 59,
+          "beat": 81.59375,
+          "duration": 0.9979166666666667,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 533,
+          "pitch": 59,
+          "beat": 81.62916666666666,
+          "duration": 0.9979166666666667,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 535,
+          "pitch": 63,
+          "beat": 81.62916666666666,
+          "duration": 0.9979166666666667,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 534,
+          "pitch": 66,
+          "beat": 81.62916666666666,
+          "duration": 0.9979166666666667,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 536,
+          "pitch": 71,
+          "beat": 81.62916666666666,
+          "duration": 1.325,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 915,
+          "pitch": 59,
+          "beat": 81.59375,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 914,
+          "pitch": 71,
+          "beat": 81.59375,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        }
+      ],
+      "interpretation": "Brass has B/D/F#; Woodwind has B/Eb(=D#)/F#. Strings retain C-minor notes while B enters. Only B and F# are common and unambiguous here. Do not silently claim exact Bm or B-major harmony.",
+      "source_ternary_grid_beat": 16.666666666666668,
+      "normalized_straight_grid_beat": 16.5,
+      "source_motif": "TOGETHER_B",
+      "source_harmony_beat": 16.5,
+      "transposition": -7,
+      "scale": 1.0
+    },
+    {
+      "beat": 6.5,
+      "root_pc": 0,
+      "bass_pc": 4,
+      "quality": "major_inversion",
+      "label": "G/B",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "stem_id": "B05S01",
+          "note_id": 301,
+          "pitch": 35,
+          "beat": 81.97083333333333,
+          "duration": 0.9979166666666667,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1744,
+          "pitch": 55,
+          "beat": 82.58958333333334,
+          "duration": 1.3375,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1743,
+          "pitch": 59,
+          "beat": 82.58958333333334,
+          "duration": 1.3375,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1747,
+          "pitch": 62,
+          "beat": 82.58958333333334,
+          "duration": 2.3333333333333335,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S09",
+          "note_id": 1745,
+          "pitch": 67,
+          "beat": 82.58958333333334,
+          "duration": 2.3333333333333335,
+          "channel": 1
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 925,
+          "pitch": 47,
+          "beat": 82.58958333333334,
+          "duration": 0.32916666666666666,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 924,
+          "pitch": 55,
+          "beat": 82.58958333333334,
+          "duration": 0.32916666666666666,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 928,
+          "pitch": 59,
+          "beat": 82.58958333333334,
+          "duration": 0.32916666666666666,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S08",
+          "note_id": 927,
+          "pitch": 62,
+          "beat": 82.58958333333334,
+          "duration": 0.32916666666666666,
+          "channel": 0
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 540,
+          "pitch": 62,
+          "beat": 82.62708333333333,
+          "duration": 0.32916666666666666,
+          "channel": 2
+        },
+        {
+          "stem_id": "B05S05",
+          "note_id": 541,
+          "pitch": 67,
+          "beat": 82.62708333333333,
+          "duration": 0.32916666666666666,
+          "channel": 2
+        }
+      ],
+      "interpretation": "B bass with G/B/D upper triad; clear resolution of preceding mixed-third region.",
+      "source_ternary_grid_beat": 17.666666666666668,
+      "normalized_straight_grid_beat": 17.5,
+      "source_motif": "TOGETHER_B",
+      "source_harmony_beat": 17.5,
+      "transposition": -7,
+      "scale": 1.0
+    },
+    {
+      "beat": 12,
+      "root_pc": 0,
+      "label": "C7 into F",
+      "quality": "dominant",
+      "origin": "authored link between complete source phrases"
+    }
+  ],
+  "sections": [
+    [
+      0.36041666666666666,
+      "SOURCE_FRAGMENT_RESPONSE"
+    ]
+  ],
+  "section_cues": [
+    {
+      "cue": 2,
+      "tick": 12,
+      "label": "SOURCE_FRAGMENT_RESPONSE",
+      "is_global_safe_gate": false
+    }
+  ],
+  "source_motif_uses": [
+    {
+      "motif": "TOGETHER_B",
+      "stem": "B05S05",
+      "start_beat": 0,
+      "span": 12,
+      "channel": 3,
+      "transpose": -7,
+      "scale": 1.0,
+      "source_offset": 11,
+      "note_ids": [
+        495,
+        499,
+        502,
+        505,
+        515,
+        521,
+        528,
+        536
+      ],
+      "lead_ownership": "whole phrase/explicit source fragment, not note-by-note hocket",
+      "velocity_curve": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "source_audit": "verified_source_note_events_with_explicit_mixed_third_uncertainty"
+    }
+  ],
+  "expression_timeline": [
+    {
+      "source_tick": 173,
+      "native_tick": 12,
+      "channel": 3,
+      "controller": 11,
+      "value": 90
+    },
+    {
+      "source_tick": 653,
+      "native_tick": 45,
+      "channel": 3,
+      "controller": 11,
+      "value": 96
+    },
+    {
+      "source_tick": 1133,
+      "native_tick": 79,
+      "channel": 3,
+      "controller": 11,
+      "value": 103
+    },
+    {
+      "source_tick": 1613,
+      "native_tick": 112,
+      "channel": 3,
+      "controller": 11,
+      "value": 100
+    },
+    {
+      "source_tick": 2093,
+      "native_tick": 145,
+      "channel": 3,
+      "controller": 11,
+      "value": 98
+    },
+    {
+      "source_tick": 4013,
+      "native_tick": 279,
+      "channel": 3,
+      "controller": 11,
+      "value": 110
+    }
+  ],
+  "initial_controllers": {
+    "0": {
+      "cc7": 110,
+      "cc10": 64,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "1": {
+      "cc7": 107,
+      "cc10": 49,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "2": {
+      "cc7": 70,
+      "cc10": 75,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "3": {
+      "cc7": 112,
+      "cc10": 55,
+      "cc11": 100,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "4": {
+      "cc7": 109,
+      "cc10": 75,
+      "cc11": 100,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "5": {
+      "cc7": 96,
+      "cc10": 82,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "6": {
+      "cc7": 94,
+      "cc10": 40,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    },
+    "9": {
+      "cc7": 98,
+      "cc10": 64,
+      "cc11": 127,
+      "cc64": 0,
+      "pitch_bend": 8192
+    }
+  },
+  "tempo_map": [
+    {
+      "source_tick": 0,
+      "source_us": 0.0,
+      "microseconds_per_quarter": 555556,
+      "bpm": 107.99991360006912
+    }
+  ],
+  "gdd_binding": {
+    "event": "E05 complete then E06"
+  },
+  "annotations": [
+    "One explicit swing map per cue; source-specific rhythmic grids preserve ornaments and pickup phase.",
+    "Small ensemble and phrase-level dropout/reentry; distinct accompaniment vocabularies by setting.",
+    "No note is cut, split or rearticulated to manufacture a native safety gap.",
+    "This composed serial link is event-owned and never required for puzzle correctness. Tempo changes occur only as authored source events; target scene must match final tempo and harmonic entry."
+  ],
+  "speech_windows": [],
+  "initial_guard": {
+    "cue": 1,
+    "guard_tick": 6,
+    "attack_tick": 12,
+    "loop_origin_tick": 12,
+    "metadata_basis": "Actual earliest exported note attack; section markers are not global safe gates"
+  },
+  "natural_role_key_windows": {
+    "0": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 12,
+        "first_possible_guard": 3,
+        "last_possible_guard": 6
+      },
+      {
+        "key_silent_start": 55,
+        "next_attack": 79,
+        "first_possible_guard": 58,
+        "last_possible_guard": 73
+      },
+      {
+        "key_silent_start": 129,
+        "next_attack": 145,
+        "first_possible_guard": 132,
+        "last_possible_guard": 139
+      },
+      {
+        "key_silent_start": 189,
+        "next_attack": 199,
+        "first_possible_guard": 192,
+        "last_possible_guard": 193
+      },
+      {
+        "key_silent_start": 262,
+        "next_attack": 279,
+        "first_possible_guard": 265,
+        "last_possible_guard": 273
+      },
+      {
+        "key_silent_start": 322,
+        "next_attack": 345,
+        "first_possible_guard": 325,
+        "last_possible_guard": 339
+      },
+      {
+        "key_silent_start": 389,
+        "next_attack": 412,
+        "first_possible_guard": 392,
+        "last_possible_guard": 406
+      },
+      {
+        "key_silent_start": 455,
+        "next_attack": 479,
+        "first_possible_guard": 458,
+        "last_possible_guard": 473
+      },
+      {
+        "key_silent_start": 522,
+        "next_attack": 545,
+        "first_possible_guard": 525,
+        "last_possible_guard": 539
+      }
+    ],
+    "1": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 12,
+        "first_possible_guard": 3,
+        "last_possible_guard": 6
+      },
+      {
+        "key_silent_start": 35,
+        "next_attack": 99,
+        "first_possible_guard": 38,
+        "last_possible_guard": 93
+      },
+      {
+        "key_silent_start": 109,
+        "next_attack": 199,
+        "first_possible_guard": 112,
+        "last_possible_guard": 193
+      },
+      {
+        "key_silent_start": 210,
+        "next_attack": 232,
+        "first_possible_guard": 213,
+        "last_possible_guard": 226
+      },
+      {
+        "key_silent_start": 242,
+        "next_attack": 465,
+        "first_possible_guard": 245,
+        "last_possible_guard": 459
+      },
+      {
+        "key_silent_start": 477,
+        "next_attack": 545,
+        "first_possible_guard": 480,
+        "last_possible_guard": 539
+      }
+    ],
+    "2": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 545,
+        "first_possible_guard": 3,
+        "last_possible_guard": 539
+      }
+    ],
+    "3": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 12,
+        "first_possible_guard": 3,
+        "last_possible_guard": 6
+      },
+      {
+        "key_silent_start": 164,
+        "next_attack": 179,
+        "first_possible_guard": 167,
+        "last_possible_guard": 173
+      },
+      {
+        "key_silent_start": 245,
+        "next_attack": 545,
+        "first_possible_guard": 248,
+        "last_possible_guard": 539
+      }
+    ],
+    "4": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 545,
+        "first_possible_guard": 3,
+        "last_possible_guard": 539
+      }
+    ],
+    "5": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 212,
+        "first_possible_guard": 3,
+        "last_possible_guard": 206
+      },
+      {
+        "key_silent_start": 223,
+        "next_attack": 545,
+        "first_possible_guard": 226,
+        "last_possible_guard": 539
+      }
+    ],
+    "6": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 545,
+        "first_possible_guard": 3,
+        "last_possible_guard": 539
+      }
+    ],
+    "9": [
+      {
+        "key_silent_start": 0,
+        "next_attack": 12,
+        "first_possible_guard": 3,
+        "last_possible_guard": 6
+      },
+      {
+        "key_silent_start": 16,
+        "next_attack": 45,
+        "first_possible_guard": 19,
+        "last_possible_guard": 39
+      },
+      {
+        "key_silent_start": 49,
+        "next_attack": 65,
+        "first_possible_guard": 52,
+        "last_possible_guard": 59
+      },
+      {
+        "key_silent_start": 68,
+        "next_attack": 79,
+        "first_possible_guard": 71,
+        "last_possible_guard": 73
+      },
+      {
+        "key_silent_start": 83,
+        "next_attack": 112,
+        "first_possible_guard": 86,
+        "last_possible_guard": 106
+      },
+      {
+        "key_silent_start": 116,
+        "next_attack": 132,
+        "first_possible_guard": 119,
+        "last_possible_guard": 126
+      },
+      {
+        "key_silent_start": 134,
+        "next_attack": 145,
+        "first_possible_guard": 137,
+        "last_possible_guard": 139
+      },
+      {
+        "key_silent_start": 149,
+        "next_attack": 179,
+        "first_possible_guard": 152,
+        "last_possible_guard": 173
+      },
+      {
+        "key_silent_start": 182,
+        "next_attack": 199,
+        "first_possible_guard": 185,
+        "last_possible_guard": 193
+      },
+      {
+        "key_silent_start": 201,
+        "next_attack": 212,
+        "first_possible_guard": 204,
+        "last_possible_guard": 206
+      },
+      {
+        "key_silent_start": 216,
+        "next_attack": 245,
+        "first_possible_guard": 219,
+        "last_possible_guard": 239
+      },
+      {
+        "key_silent_start": 249,
+        "next_attack": 265,
+        "first_possible_guard": 252,
+        "last_possible_guard": 259
+      },
+      {
+        "key_silent_start": 268,
+        "next_attack": 279,
+        "first_possible_guard": 271,
+        "last_possible_guard": 273
+      },
+      {
+        "key_silent_start": 283,
+        "next_attack": 312,
+        "first_possible_guard": 286,
+        "last_possible_guard": 306
+      },
+      {
+        "key_silent_start": 316,
+        "next_attack": 332,
+        "first_possible_guard": 319,
+        "last_possible_guard": 326
+      },
+      {
+        "key_silent_start": 334,
+        "next_attack": 345,
+        "first_possible_guard": 337,
+        "last_possible_guard": 339
+      },
+      {
+        "key_silent_start": 349,
+        "next_attack": 379,
+        "first_possible_guard": 352,
+        "last_possible_guard": 373
+      },
+      {
+        "key_silent_start": 382,
+        "next_attack": 399,
+        "first_possible_guard": 385,
+        "last_possible_guard": 393
+      },
+      {
+        "key_silent_start": 401,
+        "next_attack": 412,
+        "first_possible_guard": 404,
+        "last_possible_guard": 406
+      },
+      {
+        "key_silent_start": 416,
+        "next_attack": 445,
+        "first_possible_guard": 419,
+        "last_possible_guard": 439
+      },
+      {
+        "key_silent_start": 449,
+        "next_attack": 465,
+        "first_possible_guard": 452,
+        "last_possible_guard": 459
+      },
+      {
+        "key_silent_start": 468,
+        "next_attack": 479,
+        "first_possible_guard": 471,
+        "last_possible_guard": 473
+      },
+      {
+        "key_silent_start": 483,
+        "next_attack": 512,
+        "first_possible_guard": 486,
+        "last_possible_guard": 506
+      },
+      {
+        "key_silent_start": 516,
+        "next_attack": 532,
+        "first_possible_guard": 519,
+        "last_possible_guard": 526
+      },
+      {
+        "key_silent_start": 534,
+        "next_attack": 545,
+        "first_possible_guard": 537,
+        "last_possible_guard": 539
+      }
+    ]
+  },
+  "max_held_notes": 6,
+  "native_payload_bytes": 920,
+  "native_payload_path": "native/125.sound.bin",
+  "midi_path": "midi/BRIDGE_MICROPHONE_DOORS.mid",
+  "sha256": {
+    "midi": "a320ce644cc5fc3539b52fffab2925582c947d719873a48edf439169fd0eaeef",
+    "native": "45d351d929e276b9cccde26806d0ae63f7fb7c141174464bd22966ddf57741ce"
+  },
+  "maximum_quantization_error_us": 8302.3,
+  "validation": {
+    "source_bytes_and_events_checked": true,
+    "note_balance": true,
+    "native_runtime_tested": false,
+    "human_listening_approved": false
+  },
+  "status": "COMPOSED_FROM_USER_APPROVED_V3_PRINCIPLES; this full cue is not individually listening/native approved",
+  "native_contract": "One musical sequence clock. No global-safe meaning assigned to section cues. Use natural per-role key/tail windows and tested muted-role clearing/positive-gain ramps; no blanket bar chop. CC11 timeline is explicit because SCI remap does not cache expression. Cross-family swaps use authored musical transitions. One PCM speech/laughter/foley lane remains separate."
+}

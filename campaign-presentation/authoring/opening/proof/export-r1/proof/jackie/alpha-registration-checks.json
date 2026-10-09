@@ -1,0 +1,272 @@
+{
+  "alpha_proof": "proof/jackie/four-background-alpha-2x.png",
+  "cells": [
+    {
+      "cel": 0,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1547
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        108,
+        57,
+        151,
+        135
+      ],
+      "native_transparent_pixels": 2640,
+      "source_alpha_bbox": [
+        65,
+        28,
+        343,
+        527
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 62587,
+      "source_pixels_alpha_below128": 133979,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 1,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1623
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        106,
+        57,
+        153,
+        135
+      ],
+      "native_transparent_pixels": 2564,
+      "source_alpha_bbox": [
+        46,
+        28,
+        347,
+        527
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 66091,
+      "source_pixels_alpha_below128": 130475,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 2,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1571,
+        78
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        105,
+        58,
+        158,
+        135
+      ],
+      "native_transparent_pixels": 2538,
+      "source_alpha_bbox": [
+        34,
+        30,
+        372,
+        522
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 67772,
+      "source_pixels_alpha_below128": 149428,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 3,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1506,
+        63
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        107,
+        60,
+        151,
+        135
+      ],
+      "native_transparent_pixels": 2618,
+      "source_alpha_bbox": [
+        26,
+        45,
+        307,
+        524
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 64075,
+      "source_pixels_alpha_below128": 111857,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 4,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1600
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        105,
+        72,
+        153,
+        135
+      ],
+      "native_transparent_pixels": 2587,
+      "source_alpha_bbox": [
+        52,
+        98,
+        360,
+        506
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 65346,
+      "source_pixels_alpha_below128": 131220,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 5,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1607
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        106,
+        68,
+        151,
+        135
+      ],
+      "native_transparent_pixels": 2580,
+      "source_alpha_bbox": [
+        69,
+        78,
+        361,
+        505
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 66118,
+      "source_pixels_alpha_below128": 130448,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 6,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1640
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        107,
+        56,
+        152,
+        135
+      ],
+      "native_transparent_pixels": 2547,
+      "source_alpha_bbox": [
+        54,
+        9,
+        346,
+        513
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 67032,
+      "source_pixels_alpha_below128": 129534,
+      "transparent_composite_pixels_equal_actual_background": true
+    },
+    {
+      "cel": 7,
+      "decoded_indexed_pixels_equal": true,
+      "native_8connected_component_sizes": [
+        1627
+      ],
+      "native_alpha_values": [
+        0,
+        255
+      ],
+      "native_screen_opaque_bbox": [
+        106,
+        56,
+        149,
+        135
+      ],
+      "native_transparent_pixels": 2560,
+      "source_alpha_bbox": [
+        64,
+        7,
+        334,
+        512
+      ],
+      "source_alpha_max": 255,
+      "source_alpha_min": 0,
+      "source_border_opaque_pixel_count": 0,
+      "source_pixels_alpha_atleast128": 66277,
+      "source_pixels_alpha_below128": 130289,
+      "transparent_composite_pixels_equal_actual_background": true
+    }
+  ],
+  "common_cel_size": [
+    53,
+    79
+  ],
+  "fixed_screen_anchor": [
+    122,
+    134
+  ],
+  "meaning": "Binary output alpha has no semitransparent halo; every transparent pixel composites to exact background. Components are measured, not automatically removed. Visual review must distinguish detached prop pixels from unwanted fragments.",
+  "one_common_scale": 0.156312625250501,
+  "resource_bytes": 39431,
+  "resource_sha256": "a232ba9035ec1de427be916b5958fc0e67fbc74757b0c3728a6044fe8f0d43f9",
+  "slug": "jackie",
+  "source_alpha_range": [
+    0,
+    255
+  ],
+  "source_corners_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "source_master_sha256": "5d33c364895417125283c308460e98c0a07b0e1c72c8834af386f0ac8e8029d6",
+  "status": "ALPHA_CROP_REGISTRATION_AND_DECODE_GATES_PASS"
+}

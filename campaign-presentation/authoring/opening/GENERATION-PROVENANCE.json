@@ -1,0 +1,295 @@
+{
+  "schema": "CAKOOD_NEW_OPENING_GENERATION_PROVENANCE_R2",
+  "status": "GENERATED_MASTER_CANDIDATES_NATIVE_SEMANTIC_EXPORT_REVIEW_IN_PROGRESS",
+  "created_utc": "2026-10-09",
+  "not_lost_historical_masters": true,
+  "source_references": {
+    "jackie": {
+      "source": "input-references/jackie-exact-generation-reference.png",
+      "archive_path": "input-references/jackie-exact-generation-reference.png",
+      "sha256": "088f3af4218b1b4b25a438df0e23620040ae5875dc493994fc3b17ebe36c0d37",
+      "qualification": "accepted master; teal polo, cream collar/cuffs, blue-violet trousers"
+    },
+    "bunny": {
+      "source": "input-references/bunny-exact-generation-reference.png",
+      "archive_path": "input-references/bunny-exact-generation-reference.png",
+      "sha256": "0ba8f91b8050426bf0021eacf31438a93ec9346a2c0b7f6180d89a22197b80f4",
+      "qualification": "accepted walk master; blonde, coral blouse, cream trousers"
+    },
+    "frankie": {
+      "source": "input-references/frankie-exact-generation-reference.png",
+      "archive_path": "input-references/frankie-exact-generation-reference.png",
+      "sha256": "45629e6a64b9289268f1b207263f280dec583cefd4ec09df8d596fbf5dc2d6da",
+      "qualification": "accepted walk master; clearly brunette, mustard blouse, dark green trousers"
+    },
+    "stringer": {
+      "source": "input-references/stringer-exact-generation-reference.png",
+      "archive_path": "input-references/stringer-exact-generation-reference.png",
+      "sha256": "aaaf85ab853480406c2f43ca1a08afda8f04d7f58ca4bd3066ce16503c6473cd",
+      "qualification": "retained in-game cel; inherited historical origin qualification"
+    },
+    "milo": {
+      "source": "input-references/milo-exact-generation-reference.png",
+      "archive_path": "input-references/milo-exact-generation-reference.png",
+      "sha256": "de5c7bc90e32d797edf5d019eed5ac5bc5bc091ab1d041fd4b47e3c77b01a7e0",
+      "qualification": "retained in-game cel enlarged; inherited historical origin qualification"
+    },
+    "vivian": {
+      "source": "input-references/vivian-exact-generation-reference.png",
+      "archive_path": "input-references/vivian-exact-generation-reference.png",
+      "sha256": "8ce956077f33ddde7a8f075bf83622faec6f1ea35596c40bedb986fad625de9e",
+      "qualification": "accepted reconstruction; actual costume is plum vest over cream blouse and plum trousers, superseding stale jacket wording"
+    },
+    "rita": {
+      "source": "input-references/rita-exact-generation-reference.png",
+      "archive_path": "input-references/rita-exact-generation-reference.png",
+      "sha256": "d30b796d593fcede20f5d089291e0cdaaa8b57fa58f2389d6066ed8dea6f5128",
+      "qualification": "audited native preview; exact retained223 cel to decode after GO, inherited historical origin qualification"
+    },
+    "felix": {
+      "source": "input-references/felix-exact-generation-reference.png",
+      "archive_path": "input-references/felix-exact-generation-reference.png",
+      "sha256": "102a6c3b1d9a30a70b722b0f6f00184fe6ee663bcef77a20d0811e0341d75c2b",
+      "qualification": "accepted stable-body component; actual costume is brown brimmed work hat, blue-gray shirt, olive/brown trousers and tool belt, superseding stale ochre/suspenders wording"
+    }
+  },
+  "generations": [
+    {
+      "master": "masters/jackie-sheet-r1.png",
+      "sha256": "5d33c364895417125283c308460e98c0a07b0e1c72c8834af386f0ac8e8029d6",
+      "bytes": 1396115,
+      "exact_prompt": "prompts/jackie-sheet-r1.txt",
+      "prompt_sha256": "e1c9b5112c2e5203b229f5447b10017c46bc51d2090e799983e140b623a580ac",
+      "generation_reference": "input-references/jackie-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/bunny-sheet-r1.png",
+      "sha256": "fc74fccfb19601a66ed1738a13e7521ce50f6344d4b8fb48e34eaf39e13f4a73",
+      "bytes": 1978401,
+      "exact_prompt": "prompts/bunny-sheet-r1.txt",
+      "prompt_sha256": "c62fff17cdf08e258f2ceea04893e72af83c662facd80fb9371222dd6142a9fb",
+      "generation_reference": "input-references/bunny-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/bunny-sheet-r2.png",
+      "sha256": "23168b61db6539b171021bbf5a3eb5b512f67ae735eef51db38b9943e4dc491c",
+      "bytes": 1940102,
+      "exact_prompt": "prompts/bunny-alpha-r2.txt",
+      "prompt_sha256": "e96847f9091bc1bb1b3c81a54cb0a48f8a51c7caca21ac6e16b7149665d1d73b",
+      "generation_reference": null,
+      "edit_target": "masters/bunny-sheet-r1.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/frankie-sheet-r2.png",
+      "sha256": "1167191fed138be70efc8800491b54d090b560b6fef96690631d4faf65651cae",
+      "bytes": 1777112,
+      "exact_prompt": "prompts/frankie-sheet-r1.txt",
+      "prompt_sha256": "e633b0f9ec87076da783fcd214798ca711221f458fc026a192df04b32f2811ab",
+      "generation_reference": "input-references/frankie-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/vivian-sheet-r2.png",
+      "sha256": "cc097a4193625c80e2524a6df1d93fb75773e1e92a354f4fee6f7e080eb5f5c5",
+      "bytes": 1910124,
+      "exact_prompt": "prompts/vivian-sheet-r1.txt",
+      "prompt_sha256": "d12da3e9e0ca1b20aa9a90234b361535374de54c2b3c64d2ac725abc8381dee4",
+      "generation_reference": "input-references/vivian-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/stringer-sheet-r3.png",
+      "sha256": "070216dd03eae79f7500c9316cbe235009c33a8df520cbfd7202ceda5f12e289",
+      "bytes": 1852562,
+      "exact_prompt": "prompts/stringer-sheet-r1.txt",
+      "prompt_sha256": "bc9ad77acad0e19074cbd869dd4023be7ec7632cc7fc567db334a3a856523eea",
+      "generation_reference": "input-references/stringer-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/milo-sheet-r3.png",
+      "sha256": "c342d28bdda3ec8ee17a6bbe62e6089be8e61fb316dd0e2a0567331c30208535",
+      "bytes": 1924336,
+      "exact_prompt": "prompts/milo-sheet-r1.txt",
+      "prompt_sha256": "b785d75bbebdfce54644c739e8b7ab35a357928ae99bf6078c7e6ae0f7da1058",
+      "generation_reference": "input-references/milo-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/rita-sheet-r3.png",
+      "sha256": "6061fbc40d52fbd47849aa44b84362c074a79f37bd2311f96a3a6f31ddde08bc",
+      "bytes": 1906410,
+      "exact_prompt": "prompts/rita-sheet-r1.txt",
+      "prompt_sha256": "aec8b44e60970aced11148147232cb84f905a29ec46564a32dfb890f49322d2c",
+      "generation_reference": "input-references/rita-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/felix-sheet-r3.png",
+      "sha256": "1cbf96232a2a472b50bf3b67c7d5631960c9f43b4b3b5cc3e8dcb38d712332dc",
+      "bytes": 2134035,
+      "exact_prompt": "prompts/felix-sheet-r1.txt",
+      "prompt_sha256": "93586f088b0618b6908c45397a56f7de28621d153ff88b4ecf12f2abd8ee2a2c",
+      "generation_reference": "input-references/felix-exact-generation-reference.png",
+      "edit_target": null,
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/frankie-sheet-r3.png",
+      "sha256": "dd4b81cfdd18f0203b54c3925e3d5aa3cf27742206217de4bf52a209452302a6",
+      "bytes": 1775879,
+      "exact_prompt": "prompts/frankie-frame-r3.txt",
+      "prompt_sha256": "b003c5078c9fb304fd059e5e48e08054a573642f97020f72128dfc9b4537a098",
+      "generation_reference": null,
+      "edit_target": "masters/frankie-sheet-r2.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/frankie-sheet-r4.png",
+      "sha256": "37eb1a19006e0a062ed0d5760fc95a96b87581c2bae7edfa9b317f250244ff9e",
+      "bytes": 2021770,
+      "exact_prompt": "prompts/frankie-level-backing-r4.txt",
+      "prompt_sha256": "db968fa4accfb16345cc0cabbaf27fdb784d34b5f6637ace12ef8524b3d16354",
+      "generation_reference": null,
+      "edit_target": "masters/frankie-sheet-r3.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/vivian-sheet-r4.png",
+      "sha256": "0e0b87c9957a983f793cb16cd9e1dedc3039a37ea3c846bbad3a60810e2d248d",
+      "bytes": 1942960,
+      "exact_prompt": "prompts/vivian-visible-swatches-r3.txt",
+      "prompt_sha256": "00efcd3ddaab36699bf08d587ea7646dd8105eee6141df50319b36cdb8692b2e",
+      "generation_reference": null,
+      "edit_target": "masters/vivian-sheet-r2.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/milo-sheet-r4.png",
+      "sha256": "5e2849ebf30e373e6ea31e6bbcf51d4aec87c010fe48f1705d234f170921ea87",
+      "bytes": 2125037,
+      "exact_prompt": "prompts/milo-grin-r4.txt",
+      "prompt_sha256": "f99f19d944b58eef5b083424655aed4669237fb7fb9dd6e8e6e2acc98c21e57c",
+      "generation_reference": null,
+      "edit_target": "masters/milo-sheet-r3.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "model": "tool-selected,not asserted",
+      "original_output_preserved": true
+    },
+    {
+      "master": "masters/rita-sheet-r4.png",
+      "sha256": "ce0f099db2f0cd1cf8ad4cbca4bb9f957e1b57fb0d579d18d083aa1fb79b9c5c",
+      "bytes": 1968614,
+      "exact_prompt": "prompts/rita-one-handle-r4.txt",
+      "prompt_sha256": "fc4607643e39fccec2801d02006d41cb5ee9c02fc08b58c727e5e1b51964b806",
+      "edit_target": "masters/rita-sheet-r3.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "original_output_preserved": true,
+      "new_reconstructed_hidden_pixels": false
+    },
+    {
+      "master": "masters/frankie-sheet-r5.png",
+      "sha256": "fd262bb7e97fb26b2c5d636c1ef40d22edb7eaa9a6b7bb94e2694a9be1537b6c",
+      "bytes": 1811513,
+      "exact_prompt": "prompts/strict-alpha-r5.txt",
+      "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+      "edit_target": "masters/frankie-sheet-r4.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "original_output_preserved": true,
+      "new_reconstructed_hidden_pixels": false
+    },
+    {
+      "master": "masters/milo-sheet-r5.png",
+      "sha256": "876069a0152bc8b63e741ef8522a36954fca3a488946d267c372a75c6ffad722",
+      "bytes": 1956051,
+      "exact_prompt": "prompts/strict-alpha-r5.txt",
+      "prompt_sha256": "57be7e2850e988ed4270c4ba19cdfb0f4e03b5e7e1fa677277bdb4eb51953af3",
+      "edit_target": "masters/milo-sheet-r4.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "original_output_preserved": true,
+      "new_reconstructed_hidden_pixels": false
+    },
+    {
+      "master": "masters/rita-bench-layer-r1.png",
+      "sha256": "c14162ac76dcf020e410cdb3cacf80017fa6c9b10d7113df8e725a6e33dcb73a",
+      "bytes": 381269,
+      "exact_prompt": "prompts/rita-bench-layer-r1.txt",
+      "prompt_sha256": "e588cf5047a1f6afc70a7da860a6bb730943dca78556016ab6d9d59ad91682c5",
+      "edit_target": "masters/rita-sheet-r4.png",
+      "transparent_background_requested": true,
+      "tool": "builtin image_gen.imagegen",
+      "original_output_preserved": true,
+      "new_reconstructed_hidden_pixels": true
+    },
+    {
+      "master": "masters/audience-apron-background-r1.png",
+      "sha256": "e415f2448421e1e29c99a5559eb77cfe2358ee8160f71d248e3ed58c10b0e9ee",
+      "bytes": 2255388,
+      "exact_prompt": "prompts/audience-apron-background-r1.txt",
+      "prompt_sha256": "895a48b610462d8ba2d483bd1ff2e1924b76e3fba2000bd87013a40f1dda9294",
+      "generation_reference": [
+        "input-references/audience102-layout-guide.png",
+        "references/101-living-loop00-cel00.png"
+      ],
+      "transparent_background_requested": false,
+      "tool": "builtin image_gen.imagegen",
+      "original_output_preserved": true,
+      "scope": "Explicitly approved bounded audience102/103replacement,one shared background"
+    }
+  ],
+  "costume_corrections": [
+    "Vivian retains actual accepted plum vest over cream blouse and plum trousers, replacing stale jacket prose.",
+    "Felix retains actual accepted brown brimmed work hat, blue-gray rolled-sleeve shirt, olive/brown trousers and tool belt, replacing stale cap/ochre-shirt/suspenders prose."
+  ],
+  "qualifications": "Inherited221\u2013223/300/302historical origin gaps remain; no blanket individual creation clearance is asserted. Source extraction is not a recovered editable master."
+}

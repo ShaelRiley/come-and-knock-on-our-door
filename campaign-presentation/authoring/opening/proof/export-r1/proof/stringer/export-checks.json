@@ -1,0 +1,933 @@
+{
+  "accepted_registration": {
+    "generation_provenance_file": "../GENERATION-PROVENANCE.json",
+    "master": "../masters/stringer-sheet-r3.png",
+    "master_version": "r3",
+    "prompt": "../prompts/stringer-sheet-r1.txt",
+    "prompt_provenance_status": "HASH_VERIFIED_FULL_GENERATION_LINEAGE",
+    "registration_notes": "Reviewed actual source. Measured upright human height cel0 excluding furniture. Explicit shoe ROI avoids chair/bench feet when measuring source anchors.",
+    "registration_reviewed": true,
+    "screen_anchor": [
+      118,
+      134
+    ],
+    "slug": "stringer",
+    "source_anchors": [
+      [
+        203.0,
+        438
+      ],
+      [
+        209.0,
+        443
+      ],
+      [
+        194.5,
+        443
+      ],
+      [
+        181.0,
+        440
+      ],
+      [
+        201.5,
+        428
+      ],
+      [
+        211.0,
+        428
+      ],
+      [
+        193.5,
+        427
+      ],
+      [
+        192.5,
+        427
+      ]
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        384,
+        512
+      ],
+      [
+        384,
+        0,
+        768,
+        512
+      ],
+      [
+        768,
+        0,
+        1152,
+        512
+      ],
+      [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      [
+        0,
+        512,
+        384,
+        1024
+      ],
+      [
+        384,
+        512,
+        768,
+        1024
+      ],
+      [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      [
+        1152,
+        512,
+        1536,
+        1024
+      ]
+    ],
+    "source_shoe_x_roi": [
+      [
+        138,
+        270
+      ],
+      [
+        148,
+        272
+      ],
+      [
+        136,
+        254
+      ],
+      [
+        116,
+        250
+      ],
+      [
+        136,
+        267
+      ],
+      [
+        148,
+        275
+      ],
+      [
+        131,
+        257
+      ],
+      [
+        128,
+        258
+      ]
+    ],
+    "stable_prop": {
+      "actor_keep_masks": [
+        "../references/stable-prop-masks/stringer-actor-00-mask.png",
+        "../references/stable-prop-masks/stringer-actor-01-mask.png",
+        "../references/stable-prop-masks/stringer-actor-02-mask.png",
+        "../references/stable-prop-masks/stringer-actor-03-mask.png",
+        "../references/stable-prop-masks/stringer-actor-04-mask.png",
+        "../references/stable-prop-masks/stringer-actor-05-mask.png",
+        "../references/stable-prop-masks/stringer-actor-06-mask.png",
+        "../references/stable-prop-masks/stringer-actor-07-mask.png"
+      ],
+      "mask_derivation": "Native explicit visible-pixel selection, sourcecel0 prop complement; no hidden pixels synthesized",
+      "purpose": "Two stable chairs",
+      "review_status": "EXPLICIT_NATIVE_MASKS_VISUALLY_REVIEWED",
+      "row_boundaries": {
+        "1": [
+          [
+            0,
+            42,
+            0,
+            73
+          ],
+          [
+            42,
+            46,
+            15,
+            53
+          ],
+          [
+            46,
+            76,
+            24,
+            49
+          ],
+          [
+            76,
+            83,
+            24,
+            51
+          ]
+        ],
+        "2": [
+          [
+            0,
+            42,
+            0,
+            73
+          ],
+          [
+            42,
+            45,
+            12,
+            51
+          ],
+          [
+            45,
+            76,
+            25,
+            49
+          ],
+          [
+            76,
+            83,
+            24,
+            51
+          ]
+        ],
+        "3": [
+          [
+            0,
+            43,
+            0,
+            73
+          ],
+          [
+            43,
+            46,
+            24,
+            56
+          ],
+          [
+            46,
+            76,
+            25,
+            49
+          ],
+          [
+            76,
+            83,
+            25,
+            51
+          ]
+        ],
+        "4": [
+          [
+            0,
+            41,
+            0,
+            73
+          ],
+          [
+            41,
+            44,
+            16,
+            48
+          ],
+          [
+            44,
+            76,
+            24,
+            49
+          ],
+          [
+            76,
+            83,
+            24,
+            51
+          ]
+        ],
+        "5": [
+          [
+            0,
+            42,
+            0,
+            73
+          ],
+          [
+            42,
+            46,
+            22,
+            51
+          ],
+          [
+            46,
+            76,
+            25,
+            48
+          ],
+          [
+            76,
+            83,
+            24,
+            51
+          ]
+        ],
+        "6": [
+          [
+            0,
+            43,
+            0,
+            73
+          ],
+          [
+            43,
+            76,
+            25,
+            50
+          ],
+          [
+            76,
+            83,
+            24,
+            51
+          ]
+        ]
+      },
+      "separation_reviewed": true,
+      "source_cel": 0,
+      "source_prop_mask": "../references/stable-prop-masks/stringer-stable-prop-mask.png"
+    },
+    "stable_prop_status": "STABLE_PROP_LOOP3",
+    "target_upright_height": 78,
+    "upright_height_source": 393
+  },
+  "all_action_cels_distinct": true,
+  "budget": {
+    "header_table_bytes": 478,
+    "headroom": 15513,
+    "limit": 65535,
+    "loop_pixel_bytes": [
+      32536,
+      9990,
+      4320,
+      2698
+    ],
+    "total_bytes": 50022
+  },
+  "cel_files": [
+    {
+      "cel": 0,
+      "indexed_path": "cels/stringer/loop00-cel00-indexed.png",
+      "indexed_sha256": "0def1597e105e790940f4d97826582c451aee1de5e0ce4764a771631dcc41a2c",
+      "loop": 0,
+      "pixel_sha256": "9fb8929701d80f5cf74960ba0cf6692e96e5d545754ee048b98e3dc7748996c5",
+      "rgba_path": "cels/stringer/loop00-cel00-rgba.png",
+      "rgba_sha256": "4e0d045e96b5b95b1e8aa5ebe6a8dd0b56b2edca2fcf117577c74abe913fbaee",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 1,
+      "indexed_path": "cels/stringer/loop00-cel01-indexed.png",
+      "indexed_sha256": "2b44f9b8ab3bcd766b6db57259741b406f4ee1031fd55dbb1bbb93ced12d7fff",
+      "loop": 0,
+      "pixel_sha256": "24a9c63fb8ae0cf57463cf554626fbb4b2df86491d1e69f0082936f31860dbd1",
+      "rgba_path": "cels/stringer/loop00-cel01-rgba.png",
+      "rgba_sha256": "938fd47f235260a53c0b8648fd8e3cbdd1e90b4f7d24255d95b64b8477269e38",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 2,
+      "indexed_path": "cels/stringer/loop00-cel02-indexed.png",
+      "indexed_sha256": "0dc6a6d81fbcc928f9bcff0acb4315fab842b08078e225cc635533841488f20c",
+      "loop": 0,
+      "pixel_sha256": "f9834885c8999ce86924e5f755130d460a244f128bf876adb06e56c6a0d8b1cd",
+      "rgba_path": "cels/stringer/loop00-cel02-rgba.png",
+      "rgba_sha256": "38c52a5b32d3da48e31bfe4afe19833917e2fd87330043a65f0aa4008daadf3f",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 3,
+      "indexed_path": "cels/stringer/loop00-cel03-indexed.png",
+      "indexed_sha256": "67584912a323bc20e98899012ac0fc22508c3a1c6affcb94b6f0c3a3eca16bcd",
+      "loop": 0,
+      "pixel_sha256": "8512343f8ba5f5a25876e6fdd5c07badc896880d0646f96ec1ae9d74634d767c",
+      "rgba_path": "cels/stringer/loop00-cel03-rgba.png",
+      "rgba_sha256": "d9f55182475cf9276a6f3c7c901ab3fe3e00a00e44a6d706d73bc14f3373f831",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 4,
+      "indexed_path": "cels/stringer/loop00-cel04-indexed.png",
+      "indexed_sha256": "1902f93686ba8a2b9f6c2b361791b7ef558be7f55b2d1cb0090fcabe673d9e29",
+      "loop": 0,
+      "pixel_sha256": "cfb4e6fc302c7e1e59dc1efc0eebc26c0b4d5fb2fc3772c97fbeb35910fe196e",
+      "rgba_path": "cels/stringer/loop00-cel04-rgba.png",
+      "rgba_sha256": "8ebe1b4e1a9a703886fb7616947c91de478e2ca2d3b0e7451017eddcbe6d5ba8",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 5,
+      "indexed_path": "cels/stringer/loop00-cel05-indexed.png",
+      "indexed_sha256": "26ad06327e76ce5793c130ecfe829eb70a565a40e9476b5e1f6d5d92a32b66df",
+      "loop": 0,
+      "pixel_sha256": "310650461ca36e86f3a16ba01d065d50715873361d982ef6bb0d104f9b7caa99",
+      "rgba_path": "cels/stringer/loop00-cel05-rgba.png",
+      "rgba_sha256": "f587cd809f19eb6f22ad6e3a3764c9f3ac2b9598b3dffbc9a92950e9c50f2483",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 6,
+      "indexed_path": "cels/stringer/loop00-cel06-indexed.png",
+      "indexed_sha256": "0ab01123dca42d5ccdeceeda9fcb6ebd0495a980bac5097b678072ce45682f57",
+      "loop": 0,
+      "pixel_sha256": "29d9f577dc48e7db7062f7913f9735e5fe8bc1dc29fdcc4d362b5bb79b07f34f",
+      "rgba_path": "cels/stringer/loop00-cel06-rgba.png",
+      "rgba_sha256": "29088c7d229e5cd190cbb6c230a6ca13e81d99c20036b796afb9ce88a9099934",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 7,
+      "indexed_path": "cels/stringer/loop00-cel07-indexed.png",
+      "indexed_sha256": "b3cacaf3a6f236e626536050eb27979977374842380d1d88a82cb8c1040c7efa",
+      "loop": 0,
+      "pixel_sha256": "bd1424d63177488aba37e9db83c6b4a22447d48df0f84022f6f1e427a1bcd0ee",
+      "rgba_path": "cels/stringer/loop00-cel07-rgba.png",
+      "rgba_sha256": "c73caa81c593cc2a301a75913a56d7c13b4c472e3f9ca0b7ea9da5cd6c683b28",
+      "size": [
+        49,
+        83
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/stringer/loop01-cel00-indexed.png",
+      "indexed_sha256": "d74fd202319dad1ac3f432decdd23d8d5abe731c2f84ea16c9c184b8dbc69bf9",
+      "loop": 1,
+      "pixel_sha256": "d595cbf289817a6a25a3b34794e9139eea9aeed1e0d95c0de9776bde7ba90fc3",
+      "rgba_path": "cels/stringer/loop01-cel00-rgba.png",
+      "rgba_sha256": "ba5c3ac213471a72fd5b8a7ceddd0705559aa6e4db9915252b2114b0aabc3ab9",
+      "size": [
+        111,
+        90
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/stringer/loop02-cel00-indexed.png",
+      "indexed_sha256": "f07fa7c507e4d39dfa3115c53d25f1780ddce248a8358a60d7987acf96e2c5b6",
+      "loop": 2,
+      "pixel_sha256": "afc2a83aca45a526f2c74dd414e47619e7dfc8adc23581a397cf841fdb8eb1f5",
+      "rgba_path": "cels/stringer/loop02-cel00-rgba.png",
+      "rgba_sha256": "1e356c385014d6bfbed53ce1d7ba93a1211eb6444f7a8b3becb59a108c71bebd",
+      "size": [
+        108,
+        40
+      ]
+    },
+    {
+      "cel": 0,
+      "indexed_path": "cels/stringer/loop03-cel00-indexed.png",
+      "indexed_sha256": "95d5b34a41e14e5fbc6f14a2f66c2e4a7dde4a3bc150cd3cba1066e5d72798f3",
+      "loop": 3,
+      "pixel_sha256": "0e637f34e88bf7ec76a1a048ec80462a9f772e542d43f37ad5d7684052937640",
+      "rgba_path": "cels/stringer/loop03-cel00-rgba.png",
+      "rgba_sha256": "bc2afeeec8549b1a8a493fd3788696163b2284089b256f582a76df4510c1ba4a",
+      "size": [
+        71,
+        38
+      ]
+    }
+  ],
+  "character": "Mr. Stringer",
+  "config_path": "tools/export-config-all-eight-r1.json",
+  "config_sha256": "927fde9254c29d451b1febb3649ee6452485160d48c03e397c99f56accead340",
+  "font0_sha256": "2b31daed762755f6b96baba9dbe0cec65b70d029c017fe6b9295240c0c7c7fbc",
+  "generation_lineage": {
+    "generation_chains_newest_first": [
+      [
+        {
+          "bytes": 1852562,
+          "edit_target": null,
+          "exact_prompt": "prompts/stringer-sheet-r1.txt",
+          "generation_reference": "input-references/stringer-exact-generation-reference.png",
+          "master": "masters/stringer-sheet-r3.png",
+          "model": "tool-selected,not asserted",
+          "original_output_preserved": true,
+          "prompt_sha256": "bc9ad77acad0e19074cbd869dd4023be7ec7632cc7fc567db334a3a856523eea",
+          "sha256": "070216dd03eae79f7500c9316cbe235009c33a8df520cbfd7202ceda5f12e289",
+          "tool": "builtin image_gen.imagegen",
+          "transparent_background_requested": true
+        }
+      ]
+    ],
+    "path": "GENERATION-PROVENANCE.json",
+    "sha256": "3931b7b3aa8edb248ca6730be0de58d6150adb0781e44bff659556470f215d8c",
+    "source_reference": {
+      "archive_path": "input-references/stringer-exact-generation-reference.png",
+      "qualification": "retained in-game cel; inherited historical origin qualification",
+      "sha256": "aaaf85ab853480406c2f43ca1a08afda8f04d7f58ca4bd3066ce16503c6473cd",
+      "source": "input-references/stringer-exact-generation-reference.png"
+    }
+  },
+  "independent_decode_byte_equal": true,
+  "inherited_references": [
+    {
+      "loops": [
+        3,
+        3
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "222-stringer-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "ca74cbc5fb514c10499ccfca415bde735330f60aa6aba272234bab0d1427400a",
+          "file": "222-stringer-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            11,
+            6,
+            41,
+            79
+          ],
+          "pixels_sha256": "0adb62a3c4aff60a1bab630506c4b0b3dd897f3ada219d726ffe1496c2a3447a",
+          "sha256": "2ec16c3f846aeb8ffbeff6cef6e0cbfbb6cda2b43e7474479b1c6e2c6b21b85d",
+          "size": [
+            52,
+            80
+          ]
+        },
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "222-stringer-loop01-cel00-10x-transparent.png",
+          "enlarged_sha256": "aaaf85ab853480406c2f43ca1a08afda8f04d7f58ca4bd3066ce16503c6473cd",
+          "file": "222-stringer-loop01-cel00.png",
+          "loop": 1,
+          "opaque_bbox": [
+            12,
+            6,
+            42,
+            79
+          ],
+          "pixels_sha256": "ce48be7714ffa5d4b7aa91c05b8c49daf0acc13f62fb36944b47ef52efac3f5d",
+          "sha256": "79246a1b25709792ade00b78e9b621c29146ca82b70373307bb3ba5782a9cfb1",
+          "size": [
+            52,
+            80
+          ]
+        }
+      ],
+      "slug": "stringer",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/222.view.bin",
+      "source_bytes": 25226,
+      "source_sha256": "a8b5861ebf27e91faff854f19ba8aa8760c75182e1ee8f7b46498d153a9631e5",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 222
+    },
+    {
+      "loops": [
+        1
+      ],
+      "origin_qualification": "Historical user-project bytes established; individual creation receipts remain incomplete. Inherited qualification preserved.",
+      "outputs": [
+        {
+          "cel": 0,
+          "clear_key": 255,
+          "enlarged_file": "302-conservatory-loop00-cel00-10x-transparent.png",
+          "enlarged_sha256": "48cd3384a0be4628674067747c6e4dbf2b437d26660a02ce5a3571959811e756",
+          "file": "302-conservatory-loop00-cel00.png",
+          "loop": 0,
+          "opaque_bbox": [
+            0,
+            0,
+            320,
+            144
+          ],
+          "pixels_sha256": "9a78f41d3802c57a19cf0de4b5575b6814b81fcf6a85124d68dce1082e911a4f",
+          "sha256": "9f9a337c56b59a1468f9e20b2ddc2e89b45398a26a4b1cd293101d658b25055f",
+          "size": [
+            320,
+            144
+          ]
+        }
+      ],
+      "slug": "conservatory",
+      "source": "presentation-paired-checkpoint-20261009/r1/source/assets/resources/302.view.bin",
+      "source_bytes": 46150,
+      "source_sha256": "730f9c00a603717e3d8e05e5357814cae26bc20364d840747fe19b131eabbd10",
+      "status": "EXTRACTED_CURRENT_COMPILED_PIXELS_NOT_RECOVERED_MASTER",
+      "view": 302
+    }
+  ],
+  "loops": [
+    8,
+    1,
+    1,
+    1
+  ],
+  "master_sha256": "070216dd03eae79f7500c9316cbe235009c33a8df520cbfd7202ceda5f12e289",
+  "master_size": [
+    1536,
+    1024
+  ],
+  "master_version": "r3",
+  "native_animation_verified": false,
+  "new_pixels": "All action pixels derive from the recorded new generated master. Motifs use code-native geometry except Jackie final-alpha silhouette. Lettering uses exact original font0 bits. Stringer chairs derive once from visible cel0; Rita replacement bench is explicitly new generated reconstruction including previously occluded regions. No claim of recovered lost245\u2013252 bytes.",
+  "palette999_sha256": "432ddf6a8f2ae34d7bdfd5c9c226ee0ba5e1e8e178bf851b59cb76f6ea5c0642",
+  "performed_choreography_reviewed": false,
+  "prompt_path": "prompts/stringer-sheet-r1.txt",
+  "prompt_sha256": "bc9ad77acad0e19074cbd869dd4023be7ec7632cc7fc567db334a3a856523eea",
+  "resource_bytes": 50022,
+  "resource_path": "resources/248.view.bin",
+  "resource_sha256": "4296b3295390cc516e8ce8711822f5c1a9ea05a1e90eba98e9929e132a815122",
+  "slug": "stringer",
+  "source_crops": [
+    {
+      "cel": 0,
+      "native_pixels_sha256": "45ace4a7f2cac2b3f9a005a47fd33b53328dd5248aae3e98f069845eb126594a",
+      "screen_opaque_bbox": [
+        83,
+        57,
+        154,
+        135
+      ],
+      "source_alpha_bbox": [
+        23,
+        47,
+        381,
+        443
+      ],
+      "source_rect": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        203.0,
+        438
+      ],
+      "source_shoe_anchor_sheet": [
+        203.0,
+        438
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 1,
+      "native_pixels_sha256": "e83e5d8f84d460af25e50661309de3448bc5b17b05fb5d39056463d5b2d28460",
+      "screen_opaque_bbox": [
+        85,
+        61,
+        152,
+        135
+      ],
+      "source_alpha_bbox": [
+        41,
+        71,
+        377,
+        444
+      ],
+      "source_rect": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        209.0,
+        443
+      ],
+      "source_shoe_anchor_sheet": [
+        593.0,
+        443
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 2,
+      "native_pixels_sha256": "f8bf59c278b5af5d19bbed8af1f895e780ad616328b1c9208c36f4941ecf405c",
+      "screen_opaque_bbox": [
+        85,
+        70,
+        153,
+        135
+      ],
+      "source_alpha_bbox": [
+        26,
+        117,
+        368,
+        444
+      ],
+      "source_rect": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        194.5,
+        443
+      ],
+      "source_shoe_anchor_sheet": [
+        962.5,
+        443
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 3,
+      "native_pixels_sha256": "cf046e47931e6fb2b281b373126849ea404d36ef039bd736b0b5b20f21c3f1a0",
+      "screen_opaque_bbox": [
+        86,
+        69,
+        155,
+        135
+      ],
+      "source_alpha_bbox": [
+        16,
+        111,
+        366,
+        443
+      ],
+      "source_rect": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "source_shoe_anchor_cell": [
+        181.0,
+        440
+      ],
+      "source_shoe_anchor_sheet": [
+        1333.0,
+        440
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 4,
+      "native_pixels_sha256": "9f96d59b661c3d0bd7a65d4a423b62a754b0898d072ec10b2aaf3643a8093ab8",
+      "screen_opaque_bbox": [
+        82,
+        62,
+        154,
+        135
+      ],
+      "source_alpha_bbox": [
+        19,
+        64,
+        380,
+        429
+      ],
+      "source_rect": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        201.5,
+        428
+      ],
+      "source_shoe_anchor_sheet": [
+        201.5,
+        940
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 5,
+      "native_pixels_sha256": "ccdccc442652007aee14978d36011ec8c891befe2a02d3865856c3eb48120e2e",
+      "screen_opaque_bbox": [
+        83,
+        54,
+        153,
+        135
+      ],
+      "source_alpha_bbox": [
+        31,
+        24,
+        383,
+        429
+      ],
+      "source_rect": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        211.0,
+        428
+      ],
+      "source_shoe_anchor_sheet": [
+        595.0,
+        940
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 6,
+      "native_pixels_sha256": "33fbbe69c544d2aee24e2d2e00a7f51565d1cb2fde667c77c4aed26325037df3",
+      "screen_opaque_bbox": [
+        86,
+        52,
+        154,
+        135
+      ],
+      "source_alpha_bbox": [
+        28,
+        13,
+        372,
+        428
+      ],
+      "source_rect": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        193.5,
+        427
+      ],
+      "source_shoe_anchor_sheet": [
+        961.5,
+        939
+      ],
+      "uniform_scale": 0.1984732824427481
+    },
+    {
+      "cel": 7,
+      "native_pixels_sha256": "e6e7f966672b002fdcd138a6f8cfabb767a3bed6d241ae0e092916866cce3422",
+      "screen_opaque_bbox": [
+        83,
+        52,
+        153,
+        135
+      ],
+      "source_alpha_bbox": [
+        15,
+        13,
+        367,
+        428
+      ],
+      "source_rect": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "source_shoe_anchor_cell": [
+        192.5,
+        427
+      ],
+      "source_shoe_anchor_sheet": [
+        1344.5,
+        939
+      ],
+      "uniform_scale": 0.1984732824427481
+    }
+  ],
+  "source_master": "masters/stringer-sheet-r3.png",
+  "stable_prop_derivation": {
+    "actor_keep_masks": [
+      {
+        "cel": 0,
+        "path": "references/stable-prop-masks/stringer-actor-00-mask.png",
+        "sha256": "0362c2fde161e46f8ed5d91b9ef6be23a62726a2fe808c9f581876921572c496"
+      },
+      {
+        "cel": 1,
+        "path": "references/stable-prop-masks/stringer-actor-01-mask.png",
+        "sha256": "341b37971c7ff444ba4f17afee50abcae7580426232588274b20967bf3ae55a8"
+      },
+      {
+        "cel": 2,
+        "path": "references/stable-prop-masks/stringer-actor-02-mask.png",
+        "sha256": "ecf3b97e369b35663b02c3af9beb040e25e0a5d33286d8d5b4134c72beeee48e"
+      },
+      {
+        "cel": 3,
+        "path": "references/stable-prop-masks/stringer-actor-03-mask.png",
+        "sha256": "a0da438cb5f5a7cd7ce8fc8b0bbcf8932d892c3b82a419e4d7de5c0900e78348"
+      },
+      {
+        "cel": 4,
+        "path": "references/stable-prop-masks/stringer-actor-04-mask.png",
+        "sha256": "1e4931fe93789887f0c7a8350c16176d8e6f5f57a89169892647b07c056e75ba"
+      },
+      {
+        "cel": 5,
+        "path": "references/stable-prop-masks/stringer-actor-05-mask.png",
+        "sha256": "b325b07678e4c51922488f91585a25697704d268f97f9ffd563dc76cd37f46c5"
+      },
+      {
+        "cel": 6,
+        "path": "references/stable-prop-masks/stringer-actor-06-mask.png",
+        "sha256": "461508aa7f4f120b77d2204176038c00f899ac6317df93ba614ebbf07d08a7d4"
+      },
+      {
+        "cel": 7,
+        "path": "references/stable-prop-masks/stringer-actor-07-mask.png",
+        "sha256": "918bcc6ffa3932a56d597f19f87babf41afeaf9e8b3cc2d538ed04e86dc3e235"
+      }
+    ],
+    "draw": [
+      83,
+      97
+    ],
+    "native_palette_pixels_sha256": "0e637f34e88bf7ec76a1a048ec80462a9f772e542d43f37ad5d7684052937640",
+    "purpose": "Two stable chairs",
+    "size": [
+      71,
+      38
+    ],
+    "source_cel": 0,
+    "source_cel0_exact_recomposition": true,
+    "source_prop_mask": "references/stable-prop-masks/stringer-stable-prop-mask.png",
+    "source_prop_mask_sha256": "39929ce8b791945208c693f7f4c59dfee61bfcc401cc24622bb249536704b207",
+    "status": "ONCE_DERIVED_VISIBLE_CEL0_PIXELS_NO_HIDDEN_PIXEL_SYNTHESIS"
+  },
+  "status": "STRUCTURAL_PIXEL_CLOSURE_PASS_VISUAL_AND_NATIVE_ACCEPTANCE_PENDING",
+  "tool_hashes": {
+    "export_opening.py": "dcca716d4de0bd5bf4d4199f8471dd4836c8fc1b9f5598675da69b179a98827c",
+    "extract_references.py": "a5f5db14bc424bb9c34055b9609cb335e2bb1bf93b4a9dddd2de9215480d4fcb",
+    "inspect_view.py": "d8034293b95e8a43fa9949c601fdf48f625a0dfbfda9f660920d9ffa783e781f",
+    "view_writer.py": "e95406f87745e5753147031efd34f4b4740470b332e9f6a929c2b7d0d9ea4d2f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "python": "3.12.14"
+  },
+  "view": 248
+}
