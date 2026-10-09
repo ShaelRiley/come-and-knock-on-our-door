@@ -133,7 +133,7 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "708d8755a16bde54675c8ded193548eff187529c825c6e2a028a463bda0d4e5b"
+      "sha256": "299dbc07de2bb4e06039491e5d50284ad87916bb8123625b23ac005ef07f169d"
     },
     {
       "path": "CORE-PRESERVATION.json",
@@ -321,11 +321,11 @@
     },
     {
       "path": "src/module943.sc",
-      "sha256": "44fda1a7a12388f1d327dd0dc53b0c4ae1c5cab042a036c05d52067cf66a396d"
+      "sha256": "ffbe1b26ffa07cd6ac36d33f3ca3cf8a4bd03d9f098a667b39a653de5019bf6f"
     },
     {
       "path": "src/module944.sc",
-      "sha256": "a80a5a5d193de3e7eb81119f0c845052b19da09a484d671bc2d4b2e738a2819e"
+      "sha256": "3aa3090474d44c87f187a8c527d1cf92d9816ee1d3306485f7f35af11bbe18b3"
     },
     {
       "path": "src/module945.sc",
@@ -497,15 +497,15 @@
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_FINAL_R5",
-    "portable_component_checks": "PASSED_WITH_SCOPE_LIMITS",
-    "native_full_candidate": "UNPERFORMED",
-    "genuine_campaign_ending": "UNPERFORMED",
-    "subjective_listening": "UNPERFORMED_UNSUPPORTED_AUDIO_INPUT",
-    "coherent_compile_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
-    "score_six_portable_emitted_cases": "PASS_BOUND_TO_FINAL_R5_COMPILE"
+    "coherent_compile": "PASS_FRESH_COMPILE_ORDINARY_FINITE_FIX_R1",
+    "runtime_behavior": "UNVERIFIED",
+    "portable_component_checks": "UNRUN_FOR_THIS_CANDIDATE",
+    "native_full_candidate": "UNRUN_FOR_THIS_CANDIDATE",
+    "genuine_campaign_ending": "UNRUN_FOR_THIS_CANDIDATE",
+    "subjective_listening": "UNPERFORMED",
+    "coherent_compile_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_COMPLETE_CANDIDATE_20261009_R1",
-  "music_picture_authority": "Main visual authority; exact observed native clock pair, no timer completion or seek",
+  "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
+  "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim."
 }

@@ -43,7 +43,7 @@ def main():
  src=c.replace_proc(src,'psPoll','''(procedure (psPoll host now)
  (if (or (not (psHost host)) psRestoring psChooser) (return 0))
  (psObserve host)
- (if (and psPassage (== (rbStatus 0) psPassage) (== ((ScriptID 0 1) signal?) 255))
+ (if (and psPassage (== (rbStatus 0) psPassage) (== (rbStatus 26) 1))
   (= psPassage 0) (= psDirty 1))
  (if (and psDirty (not (host opening?))) (psResolve host 0))
  (psPreferences host)

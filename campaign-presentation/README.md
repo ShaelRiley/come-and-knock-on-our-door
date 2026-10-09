@@ -1,4 +1,6 @@
-# Come and Knock on Our Door: presentation source candidate
+# Come and Knock on Our Door: ordinary finite-MIDI correction
+
+This revision corrects ordinary finite-MIDI completion. All 46 modules compile. A scoped native observation completed a genuine New Game, full opening, P01/P02 and normal save/restore without a music warning; full-game acceptance remains incomplete. Start a genuine New Game in the separate CAKOOD_ORDINARY_FINITE_FIX_20261009_R1 save lineage. See FINITE-MIDI-FIX.md for the exact contract and build hashes, and FINITE-MIDI-NATIVE-STATUS.md for the scoped observation and remaining work.
 
 This is an editable work-in-progress source snapshot. It combines the performed opening, approved-direction full score, natural audience reactions and material-specific Foley with the existing campaign. It is a new save lineage and must begin with a genuine New Game.
 
@@ -8,7 +10,6 @@ Build the exact candidate with Python 3 and the bundled pinned Linux x86-64 comp
 
     cd source
     python build.py --candidate
-    python stage.py --candidate
 
 The builder checks exact source/resource/audio membership, protected resource identities, the original class universe and the 65,535-byte script/heap limit. It refuses a partial presentation or timing-fixture art. Staging creates an unlaunched candidate and refuses to overwrite a prior stage.
 
@@ -18,6 +19,6 @@ Third-party licenses and source qualifications are in CREDITS-AND-RIGHTS.txt, LI
 
 The complete source contains 46 SCI modules, 64 distinct opening action poses, 24 source-labeled audience performances, material Foley, the recorded final applause mixture and 58 credit cards. The staged candidate includes the same credits and offline license texts beside its game files.
 
-Editable art/audio inputs are under authoring/. Editable score inputs and portable score checks are under source/authoring/score and source/tests/score. See source/tests/README.md for bounded checks. Every archived file is pinned in PUBLIC-MANIFEST.json. Runtime assets are included, so the game build does not fetch external content. Optional asset regeneration uses the dependencies named in each authoring README.
+Editable art/audio inputs are under authoring/. Editable score inputs and portable score checks are under source/authoring/score and source/tests/score. See source/tests/README.md for bounded checks. Project source and asset files are pinned in PUBLIC-MANIFEST.json. PUBLIC-PROVENANCE-REVISION.json records the historical baseline sanitization; its earlier compiler and runtime claims do not apply to this correction. Runtime assets are included, so the game build does not fetch external content. Optional asset regeneration uses the dependencies named in each authoring README.
 
 The ending’s music preserves the 48.2-second quiet-household cadence even if the player reaches early credits quickly; credits music then enters at actual completion. Next and Skip remain responsive, and all text/credits remain available when music is muted.

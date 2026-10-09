@@ -1,9 +1,9 @@
 {
-  "status": "SANITIZED_EDITABLE_PUBLIC_WIP_SOURCE_PROVENANCE_R2",
+  "status": "ORDINARY_FINITE_MIDI_FIX_R1_SCOPED_NATIVE_OBSERVATION",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -21,6 +21,16 @@
       "sha256": "62982e738996b11038075ee36d34d4e670484eee11ae8402812e4f7aee6e0416"
     },
     {
+      "path": "FINITE-MIDI-FIX.md",
+      "bytes": 6523,
+      "sha256": "591793f29d1464aa6b0cf87390804e4d8247317f8b4af52ebd1d4adf62d2ad22"
+    },
+    {
+      "path": "FINITE-MIDI-NATIVE-STATUS.md",
+      "bytes": 1659,
+      "sha256": "c6e9829876a2f9e746530956b4828713930dcb8c3fb5e2a6f92e9efa0c8f6603"
+    },
+    {
       "path": "LICENSE.md",
       "bytes": 1196,
       "sha256": "9de40481abc5670d0c51257605b9cbd21cc469a1d74e57dbc5ace209ed4a2b71"
@@ -32,13 +42,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2728,
-      "sha256": "74b00df3bccd8b3dfbfbad60e1147b1c81138163bafb4f65a615f5fb99b93419"
+      "bytes": 3350,
+      "sha256": "78b03b0387e20b6d954849d3f948c0784e277910c61e28541f1e12c822346c27"
     },
     {
       "path": "STATUS.json",
-      "bytes": 2220,
-      "sha256": "92e22fccb8d30bc339e7700b467abd1a35768a649d77ff49398b3161f5106aa4"
+      "bytes": 3761,
+      "sha256": "b08a16eabc6f44e4c6f52d4e3bc93720fab1018af26c34ea6400a0383ee438f9"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -59,6 +69,11 @@
       "path": "authoring/audio/README.md",
       "bytes": 804,
       "sha256": "3f25a44080231f251bbb319c02783a16a5282c409689c1404796d3f111501c3f"
+    },
+    {
+      "path": "authoring/audio/assets/recovered/CaKoOD-clean-laughter-24-source-candidates.zip",
+      "bytes": 8628517,
+      "sha256": "5e3ed37adf551da246bb7c806ab126b7dc05662f9d310ab22f9e52da65685588"
     },
     {
       "path": "authoring/audio/assets/recovered/CaKoOD-clean-laughter-24-source-candidates/manifest.json",
@@ -336,9 +351,9 @@
       "sha256": "d66ecf455cac7d0ce846034489497ae9498151737145032feba9ca96d5976e0f"
     },
     {
-      "path": "authoring/audio/assets/recovered/CaKoOD-clean-laughter-24-source-candidates.zip",
-      "bytes": 8628517,
-      "sha256": "5e3ed37adf551da246bb7c806ab126b7dc05662f9d310ab22f9e52da65685588"
+      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers.zip",
+      "bytes": 3229341,
+      "sha256": "7f41791a331724fd0c28a15502a5378220054faba89c28f693de2fde05afbd41"
     },
     {
       "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/audition/Everyday-Foley-Audition.wav",
@@ -616,6 +631,11 @@
       "sha256": "735728aa7b9d76fcc75de4049d4c8e839d7913585499c6961b082e2ddeb2bd2c"
     },
     {
+      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_impact_page.zip",
+      "bytes": 800850,
+      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+    },
+    {
       "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_impact_page/Audio/footstep_carpet_000.ogg",
       "bytes": 6353,
       "sha256": "b9524658b52a99a20590f8feefc103088637fd13ea8ec35811aee785e1f2f330"
@@ -686,9 +706,9 @@
       "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
     },
     {
-      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_impact_page.zip",
-      "bytes": 800850,
-      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_rpg_page.zip",
+      "bytes": 964837,
+      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b"
     },
     {
       "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_rpg_page/Audio/bookFlip1.ogg",
@@ -744,16 +764,6 @@
       "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_rpg_page/License.txt",
       "bytes": 478,
       "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
-    },
-    {
-      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers/Everyday-Foley-Candidate-Bank/sources/kenney_rpg_page.zip",
-      "bytes": 964837,
-      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b"
-    },
-    {
-      "path": "authoring/audio/assets/recovered/Everyday-Foley-Developer-Bank-Spoilers.zip",
-      "bytes": 3229341,
-      "sha256": "7f41791a331724fd0c28a15502a5378220054faba89c28f693de2fde05afbd41"
     },
     {
       "path": "authoring/audio/assets/source/10680-2.html",
@@ -849,6 +859,16 @@
       "path": "authoring/audio/assets/source/group_giggling.ogg",
       "bytes": 150305,
       "sha256": "2155db34a3d62290d3dfcb6429cfda2af4e3ff736d3b86bdebb78100598b95fe"
+    },
+    {
+      "path": "authoring/audio/assets/source/impact-sounds.html",
+      "bytes": 1232,
+      "sha256": "c2f43ba1e0e81037973a773a5e173fd3ded22d19142156593f76f1ff016dfadc"
+    },
+    {
+      "path": "authoring/audio/assets/source/impact-sounds.zip",
+      "bytes": 800850,
+      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
     },
     {
       "path": "authoring/audio/assets/source/impact-sounds/Audio/footstep_carpet_000.ogg",
@@ -1506,16 +1526,6 @@
       "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
     },
     {
-      "path": "authoring/audio/assets/source/impact-sounds.html",
-      "bytes": 1232,
-      "sha256": "c2f43ba1e0e81037973a773a5e173fd3ded22d19142156593f76f1ff016dfadc"
-    },
-    {
-      "path": "authoring/audio/assets/source/impact-sounds.zip",
-      "bytes": 800850,
-      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
-    },
-    {
       "path": "authoring/audio/assets/source/laugh.html",
       "bytes": 4313,
       "sha256": "1811e5efea68053238af703692c926047b33a4e8fc664842f657c684db7f9802"
@@ -1529,6 +1539,16 @@
       "path": "authoring/audio/assets/source/public-preview-receipt.json",
       "bytes": 3,
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "authoring/audio/assets/source/rpg-audio.html",
+      "bytes": 1220,
+      "sha256": "1837957eb836e6f95e791029d329bd7d6e52af1e2bae35b2b333a08a3087ef87"
+    },
+    {
+      "path": "authoring/audio/assets/source/rpg-audio.zip",
+      "bytes": 964837,
+      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b"
     },
     {
       "path": "authoring/audio/assets/source/rpg-audio/Audio/beltHandle1.ogg",
@@ -1794,16 +1814,6 @@
       "path": "authoring/audio/assets/source/rpg-audio/Preview.ogg",
       "bytes": 321120,
       "sha256": "631d554d100779c7896699bb4727807d4ca365ca850dc79216157cf31dae4b6a"
-    },
-    {
-      "path": "authoring/audio/assets/source/rpg-audio.html",
-      "bytes": 1220,
-      "sha256": "1837957eb836e6f95e791029d329bd7d6e52af1e2bae35b2b333a08a3087ef87"
-    },
-    {
-      "path": "authoring/audio/assets/source/rpg-audio.zip",
-      "bytes": 964837,
-      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b"
     },
     {
       "path": "authoring/audio/build_assets.py",
@@ -4026,6 +4036,16 @@
       "sha256": "270e8eb666dcb766044e0e19052ccaa414878498baa9c8e311160bb247658495"
     },
     {
+      "path": "checks/finite-midi-fix/candidate-compile-receipt.json",
+      "bytes": 22266,
+      "sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0"
+    },
+    {
+      "path": "checks/finite-midi-fix/layout-comparison.json",
+      "bytes": 13017,
+      "sha256": "218a06409629f77c13f0f7fb228b151edbee6b1d67a08117b9c886a3bd6c720e"
+    },
+    {
       "path": "checks/presentation/credit-overlay-fixed.json",
       "bytes": 175,
       "sha256": "2538d8add2e97eb84548767633ce14d9b674839968a700d45dfe4ac570f1f05c"
@@ -4237,8 +4257,8 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2394,
-      "sha256": "708d8755a16bde54675c8ded193548eff187529c825c6e2a028a463bda0d4e5b"
+      "bytes": 2397,
+      "sha256": "299dbc07de2bb4e06039491e5d50284ad87916bb8123625b23ac005ef07f169d"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
@@ -4252,8 +4272,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 15896,
-      "sha256": "8f03dc43b7037d74f7f117a7c4431e8584f63f9fde598f54daa6140014d795a7"
+      "bytes": 15940,
+      "sha256": "bbdbdd2c0a2cdc76fe4479e3c2b5ac236043d13432bef59046eebe91c7bbca67"
     },
     {
       "path": "source/LICENSE.md",
@@ -14167,8 +14187,8 @@
     },
     {
       "path": "source/authoring/score/build_director.py",
-      "bytes": 7313,
-      "sha256": "fc00e7c255dba96ab3f078ff0a17ed5eaec34847c97912f781baa696829e1fe5"
+      "bytes": 7300,
+      "sha256": "b1e151aef3ff657d8354bcbca8ced275df141113c8134c5b7bdcf3d6c71ac3be"
     },
     {
       "path": "source/authoring/score/derive_loop_transports.py",
@@ -14427,13 +14447,13 @@
     },
     {
       "path": "source/authoring/score/generated/module943.sc",
-      "bytes": 137727,
-      "sha256": "44fda1a7a12388f1d327dd0dc53b0c4ae1c5cab042a036c05d52067cf66a396d"
+      "bytes": 141160,
+      "sha256": "ffbe1b26ffa07cd6ac36d33f3ca3cf8a4bd03d9f098a667b39a653de5019bf6f"
     },
     {
       "path": "source/authoring/score/generated/module944.sc",
-      "bytes": 22057,
-      "sha256": "a80a5a5d193de3e7eb81119f0c845052b19da09a484d671bc2d4b2e738a2819e"
+      "bytes": 22044,
+      "sha256": "3aa3090474d44c87f187a8c527d1cf92d9816ee1d3306485f7f35af11bbe18b3"
     },
     {
       "path": "source/authoring/score/generated/module948.sc",
@@ -15537,8 +15557,8 @@
     },
     {
       "path": "source/authoring/score/src/full-broker.inc",
-      "bytes": 8087,
-      "sha256": "27c97df09d8a92fdbb619ae9853d6f18c628fe4d71eb464e4f72e02cf14570a4"
+      "bytes": 8515,
+      "sha256": "6d0fe894962f4e7299675123bb446e932c1eeddab999a438d8544498bf5b2b96"
     },
     {
       "path": "source/authoring/score/src/full-director.inc",
@@ -15547,8 +15567,8 @@
     },
     {
       "path": "source/authoring/score/src/full-finite.inc",
-      "bytes": 5522,
-      "sha256": "a69d949a20fedea17b97b1e0bf756afdb2fc80a0b7e70b5b8d3faeb725ab633e"
+      "bytes": 5877,
+      "sha256": "c792672870fac7372dbe5a5ed95db233cd6da6eacae1312e5b38a905a83f8de3"
     },
     {
       "path": "source/authoring/score/src/metadata-procedures.inc",
@@ -15567,8 +15587,8 @@
     },
     {
       "path": "source/authoring/score/src/module943.sc",
-      "bytes": 58246,
-      "sha256": "acc87abe33f37e979256cebb23225effda577a0758b9d4d23f7ea8e2d1bcfa99"
+      "bytes": 60909,
+      "sha256": "2dee326fa0ca22beb0816a2812412b4c2e1b9b93bbda1bd42fe95427917eb6c0"
     },
     {
       "path": "source/authoring/score/src/module944.sc",
@@ -15587,8 +15607,8 @@
     },
     {
       "path": "source/authoring/score/src/presentation-broker.inc",
-      "bytes": 10853,
-      "sha256": "4fde68604d151065e927234517deb66f58a85ee3313776fcff4ef50f58856410"
+      "bytes": 12388,
+      "sha256": "9cd837bbfd6d82b3520007d324b70fe65fe726653697b4165497e729a3a1a8b3"
     },
     {
       "path": "source/authoring/score/src/presentation-locals.inc",
@@ -15812,13 +15832,13 @@
     },
     {
       "path": "source/src/module943.sc",
-      "bytes": 137727,
-      "sha256": "44fda1a7a12388f1d327dd0dc53b0c4ae1c5cab042a036c05d52067cf66a396d"
+      "bytes": 141160,
+      "sha256": "ffbe1b26ffa07cd6ac36d33f3ca3cf8a4bd03d9f098a667b39a653de5019bf6f"
     },
     {
       "path": "source/src/module944.sc",
-      "bytes": 22057,
-      "sha256": "a80a5a5d193de3e7eb81119f0c845052b19da09a484d671bc2d4b2e738a2819e"
+      "bytes": 22044,
+      "sha256": "3aa3090474d44c87f187a8c527d1cf92d9816ee1d3306485f7f35af11bbe18b3"
     },
     {
       "path": "source/src/module945.sc",
@@ -17169,5 +17189,7 @@
   "runtime_generated_outputs_included": false,
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
-  "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3"
+  "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
+  "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
+  "runtime_behavior": "SCOPED_NEW_GAME_OPENING_P01_P02_SAVE_RESTORE_OBSERVED_PASS; FULL_GAME_ACCEPTANCE_INCOMPLETE"
 }

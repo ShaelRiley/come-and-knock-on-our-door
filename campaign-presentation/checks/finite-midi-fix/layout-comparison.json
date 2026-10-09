@@ -1,0 +1,516 @@
+{
+  "schema": "CAKOOD_FINITE_FIX_STATIC_LAYOUT_V1",
+  "baseline_compile_receipt_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
+  "candidate_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
+  "compiler_sha256": "608071057b3502f4e9df530ef8c946e32d1cab8d99c809c2733928360ee49a0e",
+  "module_count": 46,
+  "unchanged_script_and_heap_modules": [
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    986,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    941,
+    942,
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    948,
+    945,
+    946,
+    970,
+    0
+  ],
+  "changed_modules": [
+    {
+      "module": 943,
+      "source_sha256": "ffbe1b26ffa07cd6ac36d33f3ca3cf8a4bd03d9f098a667b39a653de5019bf6f",
+      "script_before_sha256": "96e2f38306c6dc1092ac7be3132fa2a6fb5fb2a3c7954efaf12864781b8f0923",
+      "script_after_sha256": "eb5a7268ca58fd68a00ed4336ce869bef93c6a4f1f1ca2323a73e14fd9e860c3",
+      "heap_before_sha256": "82d51e6a4098e5aab43a34c3b5d5e2cbd1fe1401c9e853cac7c4eeb8f9732df3",
+      "heap_after_sha256": "82d51e6a4098e5aab43a34c3b5d5e2cbd1fe1401c9e853cac7c4eeb8f9732df3",
+      "heap_byte_identical": true,
+      "combined_bytes_before": 62306,
+      "combined_bytes_after": 63282,
+      "combined_bytes_delta": 976,
+      "remaining_combined_byte_budget": 2253,
+      "local_words": 21969,
+      "local_declarations_initial_values_identical": true,
+      "classes_identical": true,
+      "objects_identical": true,
+      "exports": [
+        {
+          "index": 0,
+          "name": "rbVerify",
+          "before_offset": 88,
+          "after_offset": 88,
+          "delta": 0
+        },
+        {
+          "index": 1,
+          "name": "rbAdvanceGeneration",
+          "before_offset": 2271,
+          "after_offset": 2271,
+          "delta": 0
+        },
+        {
+          "index": 2,
+          "name": "rbCurrent",
+          "before_offset": 2324,
+          "after_offset": 2324,
+          "delta": 0
+        },
+        {
+          "index": 3,
+          "name": "rbTransport",
+          "before_offset": 2350,
+          "after_offset": 2350,
+          "delta": 0
+        },
+        {
+          "index": 4,
+          "name": "rbStatic",
+          "before_offset": 2359,
+          "after_offset": 2359,
+          "delta": 0
+        },
+        {
+          "index": 5,
+          "name": "rbRetire",
+          "before_offset": 2398,
+          "after_offset": 2398,
+          "delta": 0
+        },
+        {
+          "index": 6,
+          "name": "rbFail",
+          "before_offset": 2524,
+          "after_offset": 2524,
+          "delta": 0
+        },
+        {
+          "index": 7,
+          "name": "rbStartBed",
+          "before_offset": 2565,
+          "after_offset": 2565,
+          "delta": 0
+        },
+        {
+          "index": 8,
+          "name": "rbInit",
+          "before_offset": 2836,
+          "after_offset": 2836,
+          "delta": 0
+        },
+        {
+          "index": 9,
+          "name": "rbRequest",
+          "before_offset": 2962,
+          "after_offset": 2962,
+          "delta": 0
+        },
+        {
+          "index": 10,
+          "name": "rbContext",
+          "before_offset": 3175,
+          "after_offset": 3175,
+          "delta": 0
+        },
+        {
+          "index": 11,
+          "name": "rbEvent",
+          "before_offset": 3309,
+          "after_offset": 3309,
+          "delta": 0
+        },
+        {
+          "index": 12,
+          "name": "rbHostCommitted",
+          "before_offset": 4072,
+          "after_offset": 4072,
+          "delta": 0
+        },
+        {
+          "index": 13,
+          "name": "rbPreference",
+          "before_offset": 4174,
+          "after_offset": 4174,
+          "delta": 0
+        },
+        {
+          "index": 14,
+          "name": "rbStartBridge",
+          "before_offset": 4412,
+          "after_offset": 4412,
+          "delta": 0
+        },
+        {
+          "index": 15,
+          "name": "rbBridgeRead",
+          "before_offset": 4627,
+          "after_offset": 4627,
+          "delta": 0
+        },
+        {
+          "index": 16,
+          "name": "rbBridgePoll",
+          "before_offset": 4680,
+          "after_offset": 4900,
+          "delta": 220
+        },
+        {
+          "index": 17,
+          "name": "rbPoll",
+          "before_offset": 4988,
+          "after_offset": 5298,
+          "delta": 310
+        },
+        {
+          "index": 18,
+          "name": "rbBeforeChooser",
+          "before_offset": 5506,
+          "after_offset": 5816,
+          "delta": 310
+        },
+        {
+          "index": 19,
+          "name": "rbAfterChooser",
+          "before_offset": 5679,
+          "after_offset": 5989,
+          "delta": 310
+        },
+        {
+          "index": 20,
+          "name": "rbValidate",
+          "before_offset": 5858,
+          "after_offset": 6168,
+          "delta": 310
+        },
+        {
+          "index": 21,
+          "name": "rbRestoreBegin",
+          "before_offset": 7071,
+          "after_offset": 7381,
+          "delta": 310
+        },
+        {
+          "index": 22,
+          "name": "rbRestoreResume",
+          "before_offset": 7349,
+          "after_offset": 7659,
+          "delta": 310
+        },
+        {
+          "index": 23,
+          "name": "rbStatus",
+          "before_offset": 8162,
+          "after_offset": 8472,
+          "delta": 310
+        },
+        {
+          "index": 24,
+          "name": "rbDisable",
+          "before_offset": 8524,
+          "after_offset": 8888,
+          "delta": 364
+        },
+        {
+          "index": 25,
+          "name": "rbAvailable",
+          "before_offset": 8556,
+          "after_offset": 8920,
+          "delta": 364
+        },
+        {
+          "index": 26,
+          "name": "rbRestoreReject",
+          "before_offset": 8661,
+          "after_offset": 9025,
+          "delta": 364
+        },
+        {
+          "index": 27,
+          "name": "rbHomeRequest",
+          "before_offset": 8768,
+          "after_offset": 9132,
+          "delta": 364
+        },
+        {
+          "index": 28,
+          "name": "rbUiState",
+          "before_offset": 8824,
+          "after_offset": 9188,
+          "delta": 364
+        },
+        {
+          "index": 29,
+          "name": "rbFailed",
+          "before_offset": 9095,
+          "after_offset": 9459,
+          "delta": 364
+        },
+        {
+          "index": 30,
+          "name": "rbCanRetry",
+          "before_offset": 9105,
+          "after_offset": 9469,
+          "delta": 364
+        },
+        {
+          "index": 31,
+          "name": "rbHostStatus",
+          "before_offset": 9115,
+          "after_offset": 9479,
+          "delta": 364
+        },
+        {
+          "index": 32,
+          "name": "rbRetry",
+          "before_offset": 9184,
+          "after_offset": 9548,
+          "delta": 364
+        },
+        {
+          "index": 33,
+          "name": "rbDrawStatus",
+          "before_offset": 9243,
+          "after_offset": 9607,
+          "delta": 364
+        },
+        {
+          "index": 34,
+          "name": "rbSaveAdmit",
+          "before_offset": 9373,
+          "after_offset": 9737,
+          "delta": 364
+        },
+        {
+          "index": 35,
+          "name": "rbLoadChooser",
+          "before_offset": 9440,
+          "after_offset": 9804,
+          "delta": 364
+        },
+        {
+          "index": 36,
+          "name": "rbAdmitProduction",
+          "before_offset": 9498,
+          "after_offset": 9862,
+          "delta": 364
+        },
+        {
+          "index": 37,
+          "name": "rbScoreRequest",
+          "before_offset": 9939,
+          "after_offset": 10303,
+          "delta": 364
+        },
+        {
+          "index": 38,
+          "name": "rbPresentation",
+          "before_offset": 9952,
+          "after_offset": 10316,
+          "delta": 364
+        },
+        {
+          "index": 39,
+          "name": "rbPresentationPosition",
+          "before_offset": 10616,
+          "after_offset": 11094,
+          "delta": 478
+        }
+      ],
+      "script_relocation_offset_before": 18358,
+      "script_relocation_offset_after": 19334,
+      "script_relocations_before": [],
+      "script_relocations_after": [],
+      "heap_relocation_offset_unchanged": true,
+      "heap_relocations_unchanged": true
+    },
+    {
+      "module": 944,
+      "source_sha256": "3aa3090474d44c87f187a8c527d1cf92d9816ee1d3306485f7f35af11bbe18b3",
+      "script_before_sha256": "263a9cbe750fe9ee489826c25180927ed93f22070a605a88e450c41eca559f20",
+      "script_after_sha256": "6257fdea2615df3696dcc1b6ca2a9da7ffdd2f1f5d7be14e2819e5d05f92e27e",
+      "heap_before_sha256": "b022831ecc23fa0e14600bd20378081271c32ec791b3e8b337b42d0374e02bba",
+      "heap_after_sha256": "b022831ecc23fa0e14600bd20378081271c32ec791b3e8b337b42d0374e02bba",
+      "heap_byte_identical": true,
+      "combined_bytes_before": 6908,
+      "combined_bytes_after": 6904,
+      "combined_bytes_delta": -4,
+      "remaining_combined_byte_budget": 58631,
+      "local_words": 64,
+      "local_declarations_initial_values_identical": true,
+      "classes_identical": true,
+      "objects_identical": true,
+      "exports": [
+        {
+          "index": 0,
+          "name": "psInit",
+          "before_offset": 44,
+          "after_offset": 44,
+          "delta": 0
+        },
+        {
+          "index": 1,
+          "name": "psCommitted",
+          "before_offset": 184,
+          "after_offset": 184,
+          "delta": 0
+        },
+        {
+          "index": 2,
+          "name": "psPoll",
+          "before_offset": 667,
+          "after_offset": 667,
+          "delta": 0
+        },
+        {
+          "index": 3,
+          "name": "psPreferences",
+          "before_offset": 838,
+          "after_offset": 834,
+          "delta": -4
+        },
+        {
+          "index": 4,
+          "name": "psOpeningBegin",
+          "before_offset": 1126,
+          "after_offset": 1122,
+          "delta": -4
+        },
+        {
+          "index": 5,
+          "name": "psOpeningPosition",
+          "before_offset": 1339,
+          "after_offset": 1335,
+          "delta": -4
+        },
+        {
+          "index": 6,
+          "name": "psOpeningHold",
+          "before_offset": 1379,
+          "after_offset": 1375,
+          "delta": -4
+        },
+        {
+          "index": 7,
+          "name": "psOpeningNext",
+          "before_offset": 1452,
+          "after_offset": 1448,
+          "delta": -4
+        },
+        {
+          "index": 8,
+          "name": "psOpeningFinish",
+          "before_offset": 1558,
+          "after_offset": 1554,
+          "delta": -4
+        },
+        {
+          "index": 9,
+          "name": "psSaveAdmit",
+          "before_offset": 1891,
+          "after_offset": 1887,
+          "delta": -4
+        },
+        {
+          "index": 10,
+          "name": "psBeforeChooser",
+          "before_offset": 2090,
+          "after_offset": 2086,
+          "delta": -4
+        },
+        {
+          "index": 11,
+          "name": "psAfterChooser",
+          "before_offset": 2314,
+          "after_offset": 2310,
+          "delta": -4
+        },
+        {
+          "index": 12,
+          "name": "psRestoreBegin",
+          "before_offset": 2383,
+          "after_offset": 2379,
+          "delta": -4
+        },
+        {
+          "index": 13,
+          "name": "psRestoreResume",
+          "before_offset": 2586,
+          "after_offset": 2582,
+          "delta": -4
+        },
+        {
+          "index": 14,
+          "name": "psReplayBegin",
+          "before_offset": 2827,
+          "after_offset": 2823,
+          "delta": -4
+        },
+        {
+          "index": 15,
+          "name": "psReplayEnd",
+          "before_offset": 2960,
+          "after_offset": 2956,
+          "delta": -4
+        },
+        {
+          "index": 16,
+          "name": "psRead",
+          "before_offset": 3124,
+          "after_offset": 3120,
+          "delta": -4
+        },
+        {
+          "index": 17,
+          "name": "psStop",
+          "before_offset": 3226,
+          "after_offset": 3222,
+          "delta": -4
+        }
+      ],
+      "script_relocation_offset_before": 6768,
+      "script_relocation_offset_after": 6764,
+      "script_relocations_before": [],
+      "script_relocations_after": [],
+      "heap_relocation_offset_unchanged": true,
+      "heap_relocations_unchanged": true
+    }
+  ],
+  "all_local_declarations_offsets_counts_initial_words_unchanged": true,
+  "all_class_layouts_unchanged": true,
+  "selector_names_ids_and_aliases_unchanged": true,
+  "static_resource_map_unchanged": true,
+  "save_compatibility": "NOT_ESTABLISHED; script export and internal code addresses changed. Use genuine New Game and separate save lineage; do not restore predecessor saves."
+}
