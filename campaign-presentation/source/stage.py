@@ -29,7 +29,7 @@ m,v=encode(resources);assert decode(m,v)==resources
 files={p.name:{'bytes':p.stat().st_size,'sha256':sha(p)} for p in sorted(G.iterdir())}
 assert len(files)==config['audio_files']+2
 r={'status':'STATIC_STAGED_UNLAUNCHED_FINISHING_CANDIDATE','phase':config['phase'],'fixture_category':config.get('fixture_category'),'release_eligible':config['phase']=='C','compile_sha256':sha(B/'compile-receipt.json'),'files':files,'typed_resources':len(resources),'audio_manifest_sha256':sha(H/'AUDIO-INVENTORY.json'),'credit_selection_sha256':sha(H/'P14-CREDIT-URLS.json'),'source_mode':'editable_canonical_finishing_inputs','checkpoint_contract':'A04_EXACT_VISUAL_NATIVE_PAIR','native_acceptance':False,'genuine_campaign_acceptance':False,'save_compatibility':config['save_lineage']+'; genuine New Game only; all predecessor saves belong to separate lineages'}
-shutil.copy2(H/'CREDITS.txt',O/'CREDITS.txt')
-shutil.copy2(H/'LICENSE.md',O/'LICENSE.md')
+for name in ('CREDITS.txt','LICENSE.md','PLAYER-GUIDE.md','RIGHTS-CONTEXT.md'):
+ shutil.copy2(H/'player-package'/name,O/name)
 shutil.copytree(H/'rights',O/'rights')
 (O/'GAME-MANIFEST.json').write_text(json.dumps(r,indent=2)+'\n');print(r['status'],len(files),len(resources),sha(O/'GAME-MANIFEST.json'))

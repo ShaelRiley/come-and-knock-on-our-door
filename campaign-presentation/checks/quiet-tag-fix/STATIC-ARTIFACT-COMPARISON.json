@@ -1,0 +1,279 @@
+{
+  "status": "PASS_COMPILE_AND_STATIC_ARTIFACT_COMPARISON_ONLY",
+  "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
+  "native_acceptance": false,
+  "runtime_validation": "NOT_RUN",
+  "save_compatibility": "UNPROVED; do not load accepted-lineage saves in this candidate",
+  "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
+  "new_compile_receipt_sha256": "afc13f32aaf19d338aef7e2ea5df77f4db9f3b9c866fdef5c1cb7a1763d96c78",
+  "compiled_modules": 46,
+  "changed_source_inputs": [
+    "BUILD-PROFILE.json",
+    "FINAL-COVERAGE-MANIFEST.json",
+    "player-package/CREDITS.txt",
+    "player-package/LICENSE.md",
+    "player-package/PLAYER-GUIDE.md",
+    "player-package/RIGHTS-CONTEXT.md",
+    "src/module996.sc",
+    "src/module999.sc",
+    "stage.py"
+  ],
+  "changed_emitted_binaries": [
+    "build/coherent/compiled/996.scr.bin"
+  ],
+  "unchanged_all_heaps": true,
+  "unchanged_locals_declarations_values_offsets": true,
+  "unchanged_exports_selectors_class_owners_object_layouts": true,
+  "method_address_changes": [
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Save",
+      "old": 43642,
+      "new": 43633,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Load",
+      "old": 43699,
+      "new": 43690,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Stored",
+      "old": 43770,
+      "new": 43761,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14HistoryValid",
+      "old": 43812,
+      "new": 43803,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14RawRoom",
+      "old": 43873,
+      "new": 43864,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Retire",
+      "old": 43911,
+      "new": 43902,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Open",
+      "old": 44017,
+      "new": 44008,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14ReaderCheck",
+      "old": 44357,
+      "new": 44348,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Frame",
+      "old": 45107,
+      "new": 45098,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Voice",
+      "old": 45938,
+      "new": 45929,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14ControlOwn",
+      "old": 46186,
+      "new": 46177,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Control",
+      "old": 46219,
+      "new": 46210,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Controls",
+      "old": 46274,
+      "new": 46265,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Draw",
+      "old": 46578,
+      "new": 46569,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14MenuFrame",
+      "old": 47488,
+      "new": 47479,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Effect",
+      "old": 47787,
+      "new": 47778,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14Record",
+      "old": 47954,
+      "new": 47945,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14PageUnit",
+      "old": 47964,
+      "new": 47955,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14PersistWord",
+      "old": 47976,
+      "new": 47967,
+      "delta": -9
+    },
+    {
+      "module": 996,
+      "object": "P14State",
+      "selector": "h14ReactionFrame",
+      "old": 47987,
+      "new": 47978,
+      "delta": -9
+    }
+  ],
+  "script_relocation_changes": [
+    {
+      "module": 996,
+      "relocation_table_offset": [
+        48332,
+        48322
+      ],
+      "relocations": [
+        {
+          "old": 46360,
+          "new": 46351,
+          "delta": -9
+        },
+        {
+          "old": 46564,
+          "new": 46555,
+          "delta": -9
+        },
+        {
+          "old": 47225,
+          "new": 47216,
+          "delta": -9
+        },
+        {
+          "old": 47273,
+          "new": 47264,
+          "delta": -9
+        },
+        {
+          "old": 47460,
+          "new": 47451,
+          "delta": -9
+        }
+      ]
+    }
+  ],
+  "module996_combined_bytes": [
+    56758,
+    56750
+  ],
+  "source_changes": [
+    {
+      "path": "source/BUILD-PROFILE.json",
+      "before_sha256": "299dbc07de2bb4e06039491e5d50284ad87916bb8123625b23ac005ef07f169d",
+      "after_sha256": "63e80613fad5741babf146c3e8a43a79663a5dff965e809edba201d624d15ffe"
+    },
+    {
+      "path": "source/FINAL-COVERAGE-MANIFEST.json",
+      "before_sha256": "bbdbdd2c0a2cdc76fe4479e3c2b5ac236043d13432bef59046eebe91c7bbca67",
+      "after_sha256": "cece6573cfc5c9fb226cda027b299d0d2aaf5079ddd30a299a15513741a26ab0"
+    },
+    {
+      "path": "source/player-package/CREDITS.txt",
+      "before_sha256": null,
+      "after_sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
+    },
+    {
+      "path": "source/player-package/LICENSE.md",
+      "before_sha256": null,
+      "after_sha256": "9d2ab9431a806a05e7d502cdcb1171b7afd1722b66d4668cead8557c26a6b44e"
+    },
+    {
+      "path": "source/player-package/PLAYER-GUIDE.md",
+      "before_sha256": null,
+      "after_sha256": "e515e3d00c3850fabb6257353a504159ceb3ed8268eebf928badf016a45403fa"
+    },
+    {
+      "path": "source/player-package/RIGHTS-CONTEXT.md",
+      "before_sha256": null,
+      "after_sha256": "b4fa080432c8522866c1464c3c735d8fabc3d75c3f2f5ae3e290c3c5785001ae"
+    },
+    {
+      "path": "source/src/module996.sc",
+      "before_sha256": "f926829519e5167c6bf2c9e366d0c55a22e4f549cf655494fcca8dcbe48f9a29",
+      "after_sha256": "20fa4113340d47e84b872cc8ddbe913f34faf6cf606c7e565f23609328194821"
+    },
+    {
+      "path": "source/src/module999.sc",
+      "before_sha256": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8",
+      "after_sha256": "e2be68da29fd5894729638d1ccb7d4962db98bc166d8a58a68d415fad0533787"
+    },
+    {
+      "path": "source/stage.py",
+      "before_sha256": "a377a770ebca75934dd9f8e313cea5434e28f9cfc0c0d414fa30f7062f371314",
+      "after_sha256": "824e1f56280f36494e06c6a965fd62eeafee0ee77d78b3cb134686d3cd8bd1c8"
+    }
+  ],
+  "module996_script_before_sha256": "37552f6620809cf9366407fc3e45322e0d056f3631484f39a79431576fb7277d",
+  "module996_script_after_sha256": "cba990f1ac45a6e775bae0bc648dcf7e56d3811614c36b0a821c9aa219c6f802",
+  "documentation_overlay": "Five sealed files verified against review/docs-DELTA-MANIFEST.json; stage.py not executed"
+}

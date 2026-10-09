@@ -1,5 +1,5 @@
 ;;; Sierra Script 1.0 - (do not remove this comment)
-; New class-free P14 presentation data. Ending director remains unimplemented.
+; Class-free P14 presentation data for the ending director.
 (script# 999)
 (public finaleBankAt 0 finaleDateClear 1 finaleDateBegin 2 finaleDateChar 3 finaleDateValidate 4 finaleDateInfo 5 finaleDateCopy 6 finaleDateRawChar 7 finaleOwnerWord 8 finaleRecord 9 finalePageUnit 10 finaleHistory 11)
 (local

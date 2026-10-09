@@ -1,9 +1,9 @@
 {
-  "status": "ORDINARY_FINITE_MIDI_FIX_R1_SCOPED_NATIVE_OBSERVATION",
+  "status": "QUIET_TAG_FIX_COMPILE_ONLY_UNACCEPTED_SOURCE",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
+  "compiled_receipt_sha256": "afc13f32aaf19d338aef7e2ea5df77f4db9f3b9c866fdef5c1cb7a1763d96c78",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -41,14 +41,19 @@
       "sha256": "b05d6ef5ef127f5cc0b42613530d30313ee8b48d615bc186594685e037e1bcb5"
     },
     {
+      "path": "QUIET-TAG-FIX.md",
+      "bytes": 3547,
+      "sha256": "8ad5e21e3de51694cb131a0012f44fe0df5a359f50af69d5ae2b4d679d9b7fda"
+    },
+    {
       "path": "README.md",
-      "bytes": 3350,
-      "sha256": "78b03b0387e20b6d954849d3f948c0784e277910c61e28541f1e12c822346c27"
+      "bytes": 3543,
+      "sha256": "431bdd306735d49a4181375911f416ba5ac2c96649c15bec72b955a260f1c83f"
     },
     {
       "path": "STATUS.json",
-      "bytes": 3761,
-      "sha256": "b08a16eabc6f44e4c6f52d4e3bc93720fab1018af26c34ea6400a0383ee438f9"
+      "bytes": 4383,
+      "sha256": "a1135910e41286d6b9a0c0c1b5944b210abb6757a71c18fe5b75492ca36c8d5e"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4116,6 +4121,16 @@
       "sha256": "f16e540e1f3eb91db07d6c76daeee261b4c74eea2ffa04640b244454bff32e47"
     },
     {
+      "path": "checks/quiet-tag-fix/STATIC-ARTIFACT-COMPARISON.json",
+      "bytes": 7088,
+      "sha256": "19aeb2ddd778e59710167991ae6f09fed15b022fef8339227dd07e461126887f"
+    },
+    {
+      "path": "checks/quiet-tag-fix/compile-receipt.json",
+      "bytes": 22266,
+      "sha256": "afc13f32aaf19d338aef7e2ea5df77f4db9f3b9c866fdef5c1cb7a1763d96c78"
+    },
+    {
       "path": "checks/score/EMITTED-finite.json",
       "bytes": 522,
       "sha256": "6ff878044f36adbec4dbe5f67b69cdb5ee082785dfa1784fbef6c89ec50465d6"
@@ -4257,8 +4272,8 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2397,
-      "sha256": "299dbc07de2bb4e06039491e5d50284ad87916bb8123625b23ac005ef07f169d"
+      "bytes": 2380,
+      "sha256": "63e80613fad5741babf146c3e8a43a79663a5dff965e809edba201d624d15ffe"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
@@ -4272,8 +4287,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 15940,
-      "sha256": "bbdbdd2c0a2cdc76fe4479e3c2b5ac236043d13432bef59046eebe91c7bbca67"
+      "bytes": 16509,
+      "sha256": "cece6573cfc5c9fb226cda027b299d0d2aaf5079ddd30a299a15513741a26ab0"
     },
     {
       "path": "source/LICENSE.md",
@@ -15771,6 +15786,26 @@
       "sha256": "fcdd14d62451b2ab5e52bd8014c57a123f5eb4520e7ba913eb91be73fbad5b82"
     },
     {
+      "path": "source/player-package/CREDITS.txt",
+      "bytes": 38597,
+      "sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
+    },
+    {
+      "path": "source/player-package/LICENSE.md",
+      "bytes": 1470,
+      "sha256": "9d2ab9431a806a05e7d502cdcb1171b7afd1722b66d4668cead8557c26a6b44e"
+    },
+    {
+      "path": "source/player-package/PLAYER-GUIDE.md",
+      "bytes": 4922,
+      "sha256": "e515e3d00c3850fabb6257353a504159ceb3ed8268eebf928badf016a45403fa"
+    },
+    {
+      "path": "source/player-package/RIGHTS-CONTEXT.md",
+      "bytes": 2158,
+      "sha256": "b4fa080432c8522866c1464c3c735d8fabc3d75c3f2f5ae3e290c3c5785001ae"
+    },
+    {
       "path": "source/rights/ART-PROVENANCE.json",
       "bytes": 57363,
       "sha256": "cc14acf0da3ed1cb548f16af3b6fdd561050911ac63e793c525e9d7fec61a3f8"
@@ -16027,8 +16062,8 @@
     },
     {
       "path": "source/src/module996.sc",
-      "bytes": 159628,
-      "sha256": "f926829519e5167c6bf2c9e366d0c55a22e4f549cf655494fcca8dcbe48f9a29"
+      "bytes": 159629,
+      "sha256": "20fa4113340d47e84b872cc8ddbe913f34faf6cf606c7e565f23609328194821"
     },
     {
       "path": "source/src/module997.sc",
@@ -16042,13 +16077,13 @@
     },
     {
       "path": "source/src/module999.sc",
-      "bytes": 47735,
-      "sha256": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8"
+      "bytes": 47716,
+      "sha256": "e2be68da29fd5894729638d1ccb7d4962db98bc166d8a58a68d415fad0533787"
     },
     {
       "path": "source/stage.py",
-      "bytes": 3156,
-      "sha256": "a377a770ebca75934dd9f8e313cea5434e28f9cfc0c0d414fa30f7062f371314"
+      "bytes": 3192,
+      "sha256": "824e1f56280f36494e06c6a965fd62eeafee0ee77d78b3cb134686d3cd8bd1c8"
     },
     {
       "path": "source/tests/README.md",
@@ -17190,6 +17225,6 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
-  "runtime_behavior": "SCOPED_NEW_GAME_OPENING_P01_P02_SAVE_RESTORE_OBSERVED_PASS; FULL_GAME_ACCEPTANCE_INCOMPLETE"
+  "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
+  "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE; FULL_GAME_NATIVE_VERIFICATION_INCOMPLETE"
 }

@@ -133,7 +133,7 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "299dbc07de2bb4e06039491e5d50284ad87916bb8123625b23ac005ef07f169d"
+      "sha256": "63e80613fad5741babf146c3e8a43a79663a5dff965e809edba201d624d15ffe"
     },
     {
       "path": "CORE-PRESERVATION.json",
@@ -477,7 +477,7 @@
     },
     {
       "path": "src/module996.sc",
-      "sha256": "f926829519e5167c6bf2c9e366d0c55a22e4f549cf655494fcca8dcbe48f9a29"
+      "sha256": "20fa4113340d47e84b872cc8ddbe913f34faf6cf606c7e565f23609328194821"
     },
     {
       "path": "src/module997.sc",
@@ -489,11 +489,27 @@
     },
     {
       "path": "src/module999.sc",
-      "sha256": "b69c4e117164b9320b6d266a9108430100ffb7356e4d8767d0987b5b100ea9e8"
+      "sha256": "e2be68da29fd5894729638d1ccb7d4962db98bc166d8a58a68d415fad0533787"
     },
     {
       "path": "stage.py",
-      "sha256": "a377a770ebca75934dd9f8e313cea5434e28f9cfc0c0d414fa30f7062f371314"
+      "sha256": "824e1f56280f36494e06c6a965fd62eeafee0ee77d78b3cb134686d3cd8bd1c8"
+    },
+    {
+      "path": "player-package/CREDITS.txt",
+      "sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
+    },
+    {
+      "path": "player-package/LICENSE.md",
+      "sha256": "9d2ab9431a806a05e7d502cdcb1171b7afd1722b66d4668cead8557c26a6b44e"
+    },
+    {
+      "path": "player-package/PLAYER-GUIDE.md",
+      "sha256": "e515e3d00c3850fabb6257353a504159ceb3ed8268eebf928badf016a45403fa"
+    },
+    {
+      "path": "player-package/RIGHTS-CONTEXT.md",
+      "sha256": "b4fa080432c8522866c1464c3c735d8fabc3d75c3f2f5ae3e290c3c5785001ae"
     }
   ],
   "validation": {

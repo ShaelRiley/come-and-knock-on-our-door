@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "ORDINARY_FINITE_MIDI_FIX_SCOPED_NATIVE_OBSERVATION_PASS",
-  "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
+  "status": "QUIET_TAG_FIX_COMPILE_ONLY_UNACCEPTED",
+  "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -12,22 +12,26 @@
   "objective_checks": {
     "fresh_coherent_compile": "PASS_46_MODULES",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_layout_comparison": "PASS_IDENTIFIED_CODE_ADDRESS_CHANGES",
-    "runtime_behavior": "SCOPED_NEW_GAME_OPENING_P01_P02_SAVE_RESTORE_OBSERVED_PASS"
+    "static_artifact_comparison": "PASS_ONLY_MODULE996_SCRIPT_CHANGED_ALL_HEAPS_UNCHANGED",
+    "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE"
   },
   "unperformed": [
-    "Full-game native acceptance and native ending completion",
-    "Portable game-model or internal test-harness execution for this revision",
-    "Exact cue identity and subjective acoustic/listening assessment",
-    "Timing/performance acceptance"
+    "Native execution and native acceptance for this candidate",
+    "Staging or player-package creation for this candidate",
+    "Full-game native verification, including the ending",
+    "Save/restore acceptance for this candidate",
+    "Portable game-model and internal test-harness execution for this candidate",
+    "Exact cue/audio identity, subjective listening and timing/performance assessment"
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
     "Credits replay is detached credits-only replay; it does not replay or re-claim campaign ending reactions.",
     "Some source cues expose long natural transition windows. Requests keep gameplay responsive while the single music owner reaches the exact admitted boundary.",
     "Bridge gain still opens only in its existing ticks6–8 window; gain-window polish is outside this correction.",
-    "Predecessor-save compatibility is unestablished because script export/internal addresses changed. Start a genuine New Game in this separate lineage.",
-    "The P02 music warning did not recur in the scoped native observation; this does not establish exact cue identity or wider campaign correctness."
+    "Previous P01/P02 opening and save/restore observations apply only to the earlier finite-MIDI build, not this changed candidate.",
+    "Save compatibility is unproved: module996 method addresses and script relocation entries changed despite unchanged heaps.",
+    "Native ending verification remains incomplete; this does not mean the ending is unimplemented.",
+    "Player-package files are source templates; stage.py has not been executed for this candidate."
   ],
   "public_package_contents": [
     "Editable SCI source and all runtime assets",
@@ -42,15 +46,22 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
-  "baseline_compile_receipt_sha256": "d9c8806a330a5b2b485dd3b449028ee1c6bc966a7808d7f411b938c45a7a106a",
-  "revision_report": "FINITE-MIDI-FIX.md",
+  "compiled_receipt_sha256": "afc13f32aaf19d338aef7e2ea5df77f4db9f3b9c866fdef5c1cb7a1763d96c78",
+  "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
+  "revision_report": "QUIET-TAG-FIX.md",
   "native_acceptance": false,
-  "scoped_native_observation": {
-    "date": "2026-10-09",
-    "observed": "A genuine New Game completed the full opening, P01 and P02, followed by F2 save, a REVEAL setting change, F3 restore, and normal exit. Music remained ON and no music warning appeared during this scoped observation.",
-    "limits": "This is a scoped observed pass, not full-game native acceptance. Native verification of the campaign ending remains incomplete; this is a verification limit, not an implementation omission. Exact cue identity, acoustic quality, subjective listening and timing/performance acceptance are not claimed. Portable game-model and internal test harnesses were not run for this revision.",
-    "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0–1.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
-    "summary": "FINITE-MIDI-NATIVE-STATUS.md"
-  }
+  "staging_performed": false,
+  "save_compatibility": "UNPROVED; do not import predecessor saves",
+  "historical_native_observations": [
+    {
+      "date": "2026-10-09",
+      "observed": "A genuine New Game completed the full opening, P01 and P02, followed by F2 save, a REVEAL setting change, F3 restore, and normal exit. Music remained ON and no music warning appeared during this scoped observation.",
+      "limits": "This is a scoped observed pass, not full-game native acceptance. Native verification of the campaign ending remains incomplete; this is a verification limit, not an implementation omission. Exact cue identity, acoustic quality, subjective listening and timing/performance acceptance are not claimed. Portable game-model and internal test harnesses were not run for this revision.",
+      "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0–1.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
+      "summary": "FINITE-MIDI-NATIVE-STATUS.md",
+      "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
+      "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
+      "applies_to_current_candidate": false
+    }
+  ]
 }

@@ -2249,7 +2249,7 @@
  (if (not [h14Owner 0]) (return 1))
  ; Only the quiet tag needs a new room. Milo accompanies the actual exit.
  (if (and (== p14Phase 3) (== [h14Owner 2] 4) (== before 4) (== (h location?) 1)
-  (== (h p02Exit: obj) 1) (== (h p02Revision?) (+ revision 1)))
+  (== obj OBJ_EXIT_LIVING) (== (h p02Revision?) (+ revision 1)))
   (= [h14Owner 3] revision) (= [h14Owner 4] (+ revision 1)) (= [h14Owner 2] 1))
  (self h14Retire:) (return (self h14Valid:)))
 (method (h14Save)
