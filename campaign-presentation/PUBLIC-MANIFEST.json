@@ -1,9 +1,9 @@
 {
-  "status": "RECONSTRUCTED_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
+  "status": "SIDE_SCORE_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "afc13f32aaf19d338aef7e2ea5df77f4db9f3b9c866fdef5c1cb7a1763d96c78",
+  "compiled_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3748,
-      "sha256": "d478d9f38fe0e1353bc90e8263b6fdfde0446f4dafb0e09a1bef8ae245ff76c2"
+      "bytes": 3930,
+      "sha256": "b50696192fbabb7ebd89dc4aee163582eb8da232a53e3e0372caaa3c0c1fa4f9"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -56,9 +56,14 @@
       "sha256": "98e4e0d1b94127bfba568e0627c7dabd96f328587b80ce70f2ee984417807c55"
     },
     {
+      "path": "SIDE-SCORE-FIX.md",
+      "bytes": 2854,
+      "sha256": "407721351b6b80debbd17459667d6c1af268e50f5154610f910986611a5a7d11"
+    },
+    {
       "path": "STATUS.json",
-      "bytes": 4521,
-      "sha256": "005d8af08be74871c4b3e1fec52caaf4c874ebd304c5e09e984d4f4a765a177c"
+      "bytes": 5644,
+      "sha256": "cfb61122928700f619b3c7687b64a72ee076c946a1ef024f02449a254eeb5c53"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4277,13 +4282,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2380,
-      "sha256": "63e80613fad5741babf146c3e8a43a79663a5dff965e809edba201d624d15ffe"
+      "bytes": 2379,
+      "sha256": "a6cf1b7789d415a19740a91d0298ce9fbc4c2e37db68fb2e32df0e682dc42a59"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 312871,
-      "sha256": "ed28ca6133385443b93f3569d0fff8a0e7712987de951820c993c9e81e883114"
+      "bytes": 314518,
+      "sha256": "76ad2033f457cd6100e08b62b8c9bc34fc121a52c395fe2e086f5a8449caea37"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4293,7 +4298,7 @@
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
       "bytes": 16509,
-      "sha256": "b062edae5950add7a71493029699fd315f4bd906aee31f46318b846132f1eb4c"
+      "sha256": "6d53acfe367e7f8f189bcdd543015834685ce6867a43d10b8a6c2f8ac0c20af7"
     },
     {
       "path": "source/LICENSE.md",
@@ -14493,7 +14498,7 @@
     {
       "path": "source/authoring/score/generated/module952.sc",
       "bytes": 98619,
-      "sha256": "d050a522aec725db0484dbbff49ac8c272d50f5f80bc17507730e71d1a7caa7b"
+      "sha256": "8bed55dfd251d7b7e9db81d0cb694dafd08aaa7cf4af7eef84f937f3706fd2a3"
     },
     {
       "path": "source/authoring/score/generated/module953.sc",
@@ -14597,8 +14602,8 @@
     },
     {
       "path": "source/authoring/score/recovered/generate.py",
-      "bytes": 13508,
-      "sha256": "84c64d9047967047f4135200b2faa50c644c2d226d5f3345ecbaa93dde7128eb"
+      "bytes": 13849,
+      "sha256": "526ccdf9e67a9af02ef5668842318944ce8f0c6d30ff4f8d51f1fc54bab49006"
     },
     {
       "path": "source/authoring/score/recovered/generated/101-tables.json",
@@ -15908,7 +15913,7 @@
     {
       "path": "source/src/module952.sc",
       "bytes": 98619,
-      "sha256": "d050a522aec725db0484dbbff49ac8c272d50f5f80bc17507730e71d1a7caa7b"
+      "sha256": "8bed55dfd251d7b7e9db81d0cb694dafd08aaa7cf4af7eef84f937f3706fd2a3"
     },
     {
       "path": "source/src/module953.sc",
@@ -16042,8 +16047,8 @@
     },
     {
       "path": "source/src/module991.sc",
-      "bytes": 85828,
-      "sha256": "d9bc696e08465698f9e2af26b7d2591b3c3ce882d2540e28164dd91e41c905d2"
+      "bytes": 85782,
+      "sha256": "68a18fd5b5bdc9aae4c84d930a7cfc11546a00bce07d6d84d5bd8ed50d277f8f"
     },
     {
       "path": "source/src/module992.sc",
@@ -16117,8 +16122,8 @@
     },
     {
       "path": "source/tests/run_static_checks.py",
-      "bytes": 6033,
-      "sha256": "1b74cd0f6645046d26f5e46c28edf2e4f89015fcd57a6ae678364cbe5902062b"
+      "bytes": 7648,
+      "sha256": "bfde4e47c8ddbaa94db92ec3c4cae2390be83c720dca3654989b6303f0248bbb"
     },
     {
       "path": "source/tests/score/README.md",
@@ -17235,7 +17240,8 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
-  "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE; FULL_GAME_NATIVE_VERIFICATION_INCOMPLETE",
-  "current_reconstruction_report": "RECONSTRUCTION-20261010.md"
+  "save_lineage": "CAKOOD_SIDE_SCORE_FIX_UNACCEPTED_20261010_R1",
+  "runtime_behavior": "SCOPED_NATIVE_OPENING_P01_P04_PASS; FULL_GAME_NATIVE_VERIFICATION_INCOMPLETE",
+  "current_reconstruction_report": "RECONSTRUCTION-20261010.md",
+  "current_fix_report": "SIDE-SCORE-FIX.md"
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Portable bounded source/asset checks. One fresh process per independent case."""
 from pathlib import Path
-import argparse,hashlib,json,subprocess,sys,time,traceback
+import argparse,ast,hashlib,json,re,subprocess,sys,time,traceback
 sys.dont_write_bytecode=True
 S=Path(__file__).resolve().parents[1]
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
@@ -31,7 +31,27 @@ try:
   audio=json.loads((S/'AUDIO-INVENTORY.json').read_text());assert audio['file_count']==len(audio['files'])==profile['audio_files'];assert set(audio['files'])=={p.name for p in (S/'assets/audio').iterdir()}
   for name,row in audio['files'].items():
    q=S/'assets/audio'/name;assert q.stat().st_size==row['bytes'] and sha(q)==row['sha256'],name
-  report.update(resources=len(inventory),audio_files=len(audio['files']),protected=len(profile['protected_inputs']))
+  # Compare every loop transport's actual admission operand with the approved
+  # catalog, across canonical and authoring sources. A wrong operand can compile
+  # cleanly while refusing the real sound object in the native engine.
+  sys.path.insert(0,str(S/'tools'));from source_tools import methods
+  loops=json.loads((S/'authoring/score/generated/LOOP-TRANSPORTS.json').read_text())['transports']
+  number=json.loads((S/'selectors.json').read_text())['number'];admissions=0
+  for row in loops:
+   for directory in ['src','authoring/score/generated']:
+    transport_methods=methods((S/directory/f"module{row['module']}.sc").read_text())
+    for method_name in ['rawPosition','observeHistory','start']:
+     body=re.sub(r';[^\n]*','',transport_methods[method_name])
+     match=re.search(rf'pushi\s+{number}\s+push0\s+(?:lap\s+1|pToa\s+musicBed)\s+send\s+4\s+push\s+ldi\s+(\d+)\s+ne\?',body)
+     assert match and int(match[1])==row['sound'],(directory,row['module'],method_name,'sound admission')
+     admissions+=1
+  # Exercise the generator's collision using its isolated pure function only.
+  # No model harness, score regeneration or native state changes are involved.
+  tree=ast.parse((S/'authoring/score/recovered/generate.py').read_text())
+  fn=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='remap_instruction_constants')
+  namespace={'re':re};exec(compile(ast.Module(body=[fn],type_ignores=[]),'constant-remap','exec'),namespace)
+  assert namespace['remap_instruction_constants']('ldi 140\nldi 105\n',{140:105,105:190})=='ldi 105\nldi 190\n'
+  report.update(resources=len(inventory),audio_files=len(audio['files']),protected=len(profile['protected_inputs']),score_owner_admissions=admissions)
  elif a.case=='preservation':
   sys.path.insert(0,str(S/'tools'));from source_tools import methods
   pins=json.loads((S/'CORE-PRESERVATION.json').read_text());count=0

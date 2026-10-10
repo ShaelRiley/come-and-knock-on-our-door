@@ -1122,7 +1122,7 @@
             push0
             callk Display, 16
             pushi 8
-            lofss "interaction remain available. Test PCM is"
+            lofss "interaction remain available."
             pushi 100
             pushi 5
             pushi 22
@@ -1132,7 +1132,7 @@
             push0
             callk Display, 16
             pushi 8
-            lofss "synthetic, not a final human audience recording."
+            lofss "New reactions will remain silent."
             pushi 100
             pushi 5
             pushi 32
@@ -1147,7 +1147,7 @@
             eq?
             bnt L_24ca
             pushi 8
-            lofss "Audience sound ON. New reactions use a synthetic"
+            lofss "Audience sound ON. New earned reactions play."
             pushi 100
             pushi 5
             pushi 12
@@ -1157,7 +1157,7 @@
             push0
             callk Display, 16
             pushi 8
-            lofss "test chuff. Consumed reactions are not replayed."
+            lofss "Consumed reactions are not replayed."
             pushi 100
             pushi 5
             pushi 22
@@ -1167,7 +1167,7 @@
             push0
             callk Display, 16
             pushi 8
-            lofss "This is not a final human audience recording."
+            lofss "Captions and audience interaction remain."
             pushi 100
             pushi 5
             pushi 32

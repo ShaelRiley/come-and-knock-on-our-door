@@ -852,7 +852,7 @@
             pToa musicBed
             send 4
             push
-            ldi 190
+            ldi 105
             ne?
             bnt label_04b6
             ldi 0
@@ -1232,7 +1232,7 @@
             pToa musicBed
             send 4
             push
-            ldi 190
+            ldi 105
             ne?
             bnt label_0748
             pushi 679 ; selector/constant failHistory
@@ -1879,7 +1879,7 @@
             lap 1
             send 4
             push
-            ldi 190
+            ldi 105
             ne?
             bnt label_0bfa
             label_0bf7: ldi 0

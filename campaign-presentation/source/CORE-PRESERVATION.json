@@ -1383,7 +1383,6 @@
       "h9Continue": "7f3e4ac6a8e1a9861786c169c22ab595639f8cefbb0cdecbd0e8a86f08b21bc9"
     },
     "module991.sc": {
-      "renderCaption": "83a8ff93156d26a652ea50430340baa11b411554128dfdce5cb0df1e541c768c",
       "navNoticeRender": "acd11c2dc676c099649954647567555c61f654eccccd70fb041dd25559411d46",
       "h6BaseDrawWorld": "f86d154bcc4be845e7a09fd17593d272ca0373a44df24acca5d3544656962f77",
       "roomTitle": "b58b4bb9e68d90b0cab29a0a653b9f335ccec47362b94573e9f262de274063cf",
@@ -6472,7 +6471,35 @@
       "baseline_sha256": "4c0e013d91f6beb2da362de10e68d82f7fe22f69edeeaf4c76455e9a196c4395",
       "candidate_sha256": "7a13715b275100d189071dde6407a128a916d0f7c8bca7f487e1d3a93d6eb391",
       "reason": "QUIET-TAG-FIX.md: use original OBJ_EXIT_LIVING after host travel; no other guard changes."
+    },
+    {
+      "file": "module991.sc",
+      "method": "renderCaption",
+      "baseline_sha256": "83a8ff93156d26a652ea50430340baa11b411554128dfdce5cb0df1e541c768c",
+      "candidate_sha256": "115bf0eab7a7319e9eeaa1d61975d35f7df22cf98875edc92c8e68a842c6ec05",
+      "reason": "Remove obsolete synthetic test-sound captions after recorded audience assets were imported. Only player wording changes; reaction consumption and controls remain identical."
+    },
+    {
+      "file": "module952.sc",
+      "method": "rawPosition",
+      "baseline_sha256": "1002b62220d0c8fdfb72277964a869179ae912719170f4d5e9cef54e07a8aee2",
+      "candidate_sha256": "29b8d56536184d1f9997ee89a36ba7929d4545f1233d7879b64497d9911fb6f2",
+      "reason": "SIDE-SCORE-FIX.md: check sound 105 rather than window count 190; preserve all lifecycle and history validation."
+    },
+    {
+      "file": "module952.sc",
+      "method": "observeHistory",
+      "baseline_sha256": "60d5f0df5d5d76207dc034c05936b3e158c16e3bda7852f41668ee7ced052362",
+      "candidate_sha256": "b3f4c7bc0465cb1dca0590d51710925d53fee18bc7b5fc8f99ba4ae97ec74834",
+      "reason": "SIDE-SCORE-FIX.md: check sound 105 rather than window count 190; preserve all lifecycle and history validation."
+    },
+    {
+      "file": "module952.sc",
+      "method": "start",
+      "baseline_sha256": "ce06bd754284d0a6fd03133cd16a032f6fa5f10ad6625b12f2e50ea5bd4ebce3",
+      "candidate_sha256": "9eb4632d85a84a4fc2e4a6ed3884e153beb13fa6e828cdfef1bc550014b3cea1",
+      "reason": "SIDE-SCORE-FIX.md: check sound 105 rather than window count 190; preserve all lifecycle and history validation."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned."
 }

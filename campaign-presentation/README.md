@@ -1,6 +1,6 @@
 # Come and Knock on Our Door: reconstructed candidate, native acceptance pending
 
-All 46 modules compile. A fresh October 10 reconstruction reproduced the exact compiler receipt and staged 1,759 game files with 254 typed resources. Native full-game acceptance remains pending. See RECONSTRUCTION-20261010.md for the current objective checks. Save compatibility is unproved; use the separate CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1 lineage and a genuine New Game for future validation. See QUIET-TAG-FIX.md for the correction, compiler/static evidence and remaining work.
+All 46 modules compile. The October 10 reconstruction reproduced the original compiler receipt and staged 1,759 game files with 254 typed resources. A native route then exposed a side-passage score identity bug. The corrected candidate compiles and stages, with all four bounded static cases passing, including 102 transport identity checks. See SIDE-SCORE-FIX.md and STATUS.json for the current evidence. Native full-game acceptance remains pending. Save compatibility is unproved; use the separate CAKOOD_SIDE_SCORE_FIX_UNACCEPTED_20261010_R1 lineage and a genuine New Game for validation. QUIET-TAG-FIX.md and RECONSTRUCTION-20261010.md retain the earlier scoped results.
 
 This is an editable work-in-progress source snapshot. It combines the performed opening, approved-direction full score, natural audience reactions and material-specific Foley with the existing campaign. It is a new save lineage and must begin with a genuine New Game.
 

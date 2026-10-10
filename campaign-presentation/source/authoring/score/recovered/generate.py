@@ -77,14 +77,20 @@ def guards(prefix,textid,rows):
 def local(rows):
  return '\n'.join(f' [{n} {len(v)}] = [ '+' '.join(str(x)for x in v)+' ]'for n,v,_ in rows)
 
+def remap_instruction_constants(body, values):
+ # Match original operands once. A replacement resource can equal a different
+ # template operand (105 is both a real resource and the old window count).
+ # Sequential substitutions would incorrectly remap the new resource again.
+ return re.sub(r'\b(ldi|pushi) ('+'|'.join(str(n) for n in values)+r')(?=\s*(?:;|\n))',
+  lambda match:match[1]+' '+str(values[int(match[2])]),body)
+
 def transport(n,module,textid,prefix):
  m,t,notes=derive(n);rows=[(k,v,k in('currentGains','targetGains'))for k,v in t.items()];maxstate=5 if n==152 else 1
  # Accepted43-method port. Every instruction remains ordinary SCI source. New
  # timing constants and all locals are independently derived from new resource.
  s=(H/'inputs/accepted-v4/generated/module940.sc').read_text();body=s[s.index('(instance contestTransport'):]
  body=body.replace('contestTransport',prefix+'ReadyTransport').replace('vcVerifyTables',prefix+'Verify')
- for old,new in {140:n,3972:m['loop']['end_tick'],3848:m['loop']['end_tick']-124,3964:m['loop']['end_tick']-8,105:len(t['keyWindows'])//5}.items():
-  body=re.sub(r'\b(ldi|pushi) '+str(old)+r'(?=\s*(?:;|\n))',lambda match:match[1]+' '+str(new),body)
+ body=remap_instruction_constants(body,{140:n,3972:m['loop']['end_tick'],3848:m['loop']['end_tick']-124,3964:m['loop']['end_tick']-8,105:len(t['keyWindows'])//5})
  body=body.replace('(> state 5)',f'(> state {maxstate})')
  a=body.index('(method (start ');b=body.index('(method (setMuted ',a)
  start=body[a:b].replace('lsp 2\n            ldi 5\n            gt?',f'lsp 2\n            ldi {maxstate}\n            gt?')
