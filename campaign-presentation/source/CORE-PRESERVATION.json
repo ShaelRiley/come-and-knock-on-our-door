@@ -28,7 +28,6 @@
       "renderCaption": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
       "p02HostP01Act": "cd7871eaebff16dd8acd66880a414dfd2b1aec7528bbdc617a16bb1954820e48",
       "uiHostItemLabel": "d531580ccaffcbc7c2abb89f8c0166201d24ad268ef4552f30ff4836553b5821",
-      "uiHostShortLabel": "3aec47d7e8c54f32d397cda92a0de9a3869c5fdf1d694e60f0958908fe7cbdff",
       "uiHostIsReturn": "a59cc18da4557607e6c450c8a403f3b1f0001768474bbd1df418db439ebd9168",
       "uiHostDefaultVerb": "13e5036efef047d1f1413d6297a8d2805f9ac2ef30705e90715331b1cfdc7990",
       "uiHostWorldControls": "a725d21555d811dc4d22fb81cdec92b35f8a0bda0aa86e4f4e106c8b5e1cda1b",
@@ -6499,6 +6498,13 @@
       "baseline_sha256": "ce06bd754284d0a6fd03133cd16a032f6fa5f10ad6625b12f2e50ea5bd4ebce3",
       "candidate_sha256": "9eb4632d85a84a4fc2e4a6ed3884e153beb13fa6e828cdfef1bc550014b3cea1",
       "reason": "SIDE-SCORE-FIX.md: check sound 105 rather than window count 190; preserve all lifecycle and history validation."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiHostShortLabel",
+      "baseline_sha256": "3aec47d7e8c54f32d397cda92a0de9a3869c5fdf1d694e60f0958908fe7cbdff",
+      "candidate_sha256": "c2552cb34dfbf05c8499f14942a7ef532ccbdd93950f8d5736a6d5a0c088bfe0",
+      "reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned."

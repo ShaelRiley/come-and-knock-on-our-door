@@ -1,0 +1,15 @@
+# Presentation labels: native acceptance pending
+
+Ordinary native testing of the side-score correction reached P05, recorded a genuine first contest win, and completed the PA loan. Save/restore passed during the first scored exchange; a fresh process restored the completed P05 loan. P06's scope, friendly collaboration tone, invitation answer and three-page sheet permission were also exercised. These observations apply to compile receipt e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789, not the label correction described below. Neither candidate has complete campaign acceptance.
+
+Two visible labels needed correction. Before the evening cue-rack owner activated, the three ceramic samples appeared as ITEM in inventory. main.sc uiHostShortLabel now uses the existing T1, T2 and T3 labels in that earlier period. Inventory identities, ownership, collection and puzzle logic are unchanged.
+
+The contest practice catalog exposed IR01–IR24 reference codes. Text resource 242 now supplies short topics drawn from the approved setups, such as ECHO, DRAWER and CURTAIN. Entering a topic still displays the complete unchanged setup, retort and recap. Every topic fits the existing four-word SCI buffer: at most seven ASCII bytes plus NUL. The first 37 strings, containing menu commands and approved retorts, retain their exact original bytes. The editable topic source and bounded exporter are in authoring/contest-menu/. No SCI contest logic, learning gates, response IDs or scored results changed.
+
+CORE-PRESERVATION.json explicitly records the reviewed host-label method change. RESOURCE-INVENTORY.json and FINAL-COVERAGE-MANIFEST.json pin the changed resource and editable sources. The existing bounded pins check verifies the topics, buffer limit and protected text prefix.
+
+The host script changes code addresses. Predecessor saves remain preserved but compatibility is unproved. Acceptance requires a genuine New Game with an empty, separate save directory in lineage CAKOOD_PRESENTATION_LABEL_FIX_UNACCEPTED_20261010_R1. Static compilation or staging cannot establish that pass. No unfinished player release is published.
+
+Runtime testing uses an unmodified official ScummVM v2026.3.0 at fed42f2068dcafc6aafa1c28c77e4c88def74b66, built with SCI, FluidSynth and PNG. Subjective listening remains unperformed; technical sound capture and the game's clarity card do not constitute human listening. Historical asset attribution and rights qualifications are unchanged.
+
+Fresh corrected compilation passes all 46 modules. Compile receipt SHA256: 3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e. Independent staging verifies 1,759 game files, 254 typed resources, four player documents and eight rights files. All four bounded static cases pass. Compared with the side-score candidate, only 0.scr.bin changes among the 92 compiled script/heap artifacts; the other 91 are byte-identical. Text resource 242 changes only its 24 short topic strings. These are static passes, not native campaign acceptance.

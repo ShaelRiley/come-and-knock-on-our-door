@@ -133,11 +133,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "a6cf1b7789d415a19740a91d0298ce9fbc4c2e37db68fb2e32df0e682dc42a59"
+      "sha256": "9e4ee94db058e2c815950f1fab79fa3811457bb23a6fd85a6f3d0b10057132a1"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "76ad2033f457cd6100e08b62b8c9bc34fc121a52c395fe2e086f5a8449caea37"
+      "sha256": "285a2599a29fd0e8f2b7efb006ca1d4fe82f36c05d826f6f6ee8ef032a4687fd"
     },
     {
       "path": "CREDITS.txt",
@@ -157,7 +157,7 @@
     },
     {
       "path": "RESOURCE-INVENTORY.json",
-      "sha256": "2f1fd02d3b0e2591b0fcea3e8677ccbd7e62038045e88e1a9400de075c109a81"
+      "sha256": "6ea9a0ce33c9393f20d804c6a617784ae459fb1ccdbccc04fd6768c8422528e2"
     },
     {
       "path": "SCORE-COMPONENT-IMPORT.json",
@@ -309,7 +309,7 @@
     },
     {
       "path": "src/main.sc",
-      "sha256": "4932440f1544814b425dbfc1b07cca98916c99c8839f6b167568e9012d01910e"
+      "sha256": "c702925c6bd9f36963c02830de011953edbe4c2e2d89b0bc86119d805a742d3d"
     },
     {
       "path": "src/module941.sc",
@@ -510,6 +510,14 @@
     {
       "path": "player-package/RIGHTS-CONTEXT.md",
       "sha256": "b4fa080432c8522866c1464c3c735d8fabc3d75c3f2f5ae3e290c3c5785001ae"
+    },
+    {
+      "path": "../authoring/contest-menu/labels.json",
+      "sha256": "fe164b9d075181243b30184f569c29f4615f26911b861ed90acbf254a174fd89"
+    },
+    {
+      "path": "../authoring/contest-menu/export.py",
+      "sha256": "5a2bd7b694d9ea28464511a72408da076b914a894163e5125e66546422abbf9f"
     }
   ],
   "validation": {

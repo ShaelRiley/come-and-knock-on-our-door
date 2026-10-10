@@ -28,6 +28,13 @@ try:
   for row in inventory:
    if (row['type'],row['number']) in {(6,996),(6,997)}:continue # generated and identity-checked by the compiler build
    q=S/'assets/resources'/row['extracted_path'];assert q.stat().st_size==row['size'] and sha(q)==row['sha256'],q.name
+  topics=json.loads((S/'../authoring/contest-menu/labels.json').read_text())
+  slots=(S/'assets/resources/242.text.bin').read_bytes().split(b'\0')
+  assert len(slots)==62 and slots[-1]==b''
+  assert [r['pair_id'] for r in topics['labels']]==[f'IR{i:02d}' for i in range(1,25)]
+  assert slots[37:61]==[r['label'].encode('ascii') for r in topics['labels']]
+  assert all(0<len(label)<=7 for label in slots[37:61]),'four-word SCI setup buffers'
+  assert hashlib.sha256(b'\0'.join(slots[:37])+b'\0').hexdigest()==topics['protected_prefix_sha256'],'approved retorts and menu commands'
   audio=json.loads((S/'AUDIO-INVENTORY.json').read_text());assert audio['file_count']==len(audio['files'])==profile['audio_files'];assert set(audio['files'])=={p.name for p in (S/'assets/audio').iterdir()}
   for name,row in audio['files'].items():
    q=S/'assets/audio'/name;assert q.stat().st_size==row['bytes'] and sha(q)==row['sha256'],name

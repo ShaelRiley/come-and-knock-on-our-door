@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "SIDE_SCORE_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_SIDE_SCORE_FIX_UNACCEPTED_20261010_R1",
+  "status": "PRESENTATION_LABEL_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_LABEL_FIX_UNACCEPTED_20261010_R1",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,16 +10,16 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_SIDE_SCORE_FIX",
+    "fresh_coherent_compile": "PASS_46_MODULES_PRESENTATION_LABEL_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_MODULE952_SCRIPT_AND_MODULE991_SCRIPT_HEAP_CHANGED_89_OTHER_ARTIFACTS_BYTE_IDENTICAL",
-    "runtime_behavior": "SCOPED_NATIVE_PASS_OPENING_P01_P04_AND_GENUINE_P01_SAVE_RESTORE_P04_SAVE; FULL_CAMPAIGN_PENDING",
+    "static_artifact_comparison": "PASS_ONLY_HOST_SCRIPT_CHANGED_91_OTHER_COMPILED_ARTIFACTS_BYTE_IDENTICAL",
+    "runtime_behavior": "NEW_LABEL_CANDIDATE_UNRUN; PREDECESSOR_SCOPED_NATIVE_P01_P05_VC01_AND_P06_COLLABORATION_PASS",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
-    "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_SOUND_IDENTITY_CHECKS"
+    "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS"
   },
   "unperformed": [
-    "Native P05-P14, all four required contest wins, ending and credits for this candidate",
-    "Fresh-process P04 restore for this candidate",
+    "Fresh New Game start-to-finish native acceptance of this label candidate, all four required contest wins, ending and credits",
+    "Critical save/restore on this changed host candidate",
     "Subjective listening and acoustic quality assessment"
   ],
   "limitations": [
@@ -44,9 +44,9 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
+  "compiled_receipt_sha256": "3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
-  "revision_report": "SIDE-SCORE-FIX.md",
+  "revision_report": "PRESENTATION-LABEL-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
   "save_compatibility": "UNPROVED; do not import predecessor saves",
@@ -74,6 +74,11 @@
       "candidate_compile_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
       "observed": "An ordinary New Game completed the full automatic opening and P01-P04 with Music ON. P01 save, setting change and restore passed. After the side-passage gate success, a genuine P04 save succeeded and no music warning appeared. Corrected Audience OFF/ON captions were observed and Audience ON was restored.",
       "limits": "This is scoped verification only; no full-game or ending pass. Native artifacts and saves remain private. Generic labels on the three sample tiles need a presentation correction."
+    },
+    {
+      "candidate_compile_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
+      "observed": "P05 and genuine VC01 win passed with Music ON. Mid-contest save/restore preserved the score and pending committed retort. A fresh process restored the completed PA loan. P06 scope, friendly tone, mixer invitation/answer and full sheet permission were exercised.",
+      "limits": "Scoped predecessor observations only; this label candidate requires a fresh New Game. No complete campaign or ending pass."
     }
   ]
 }

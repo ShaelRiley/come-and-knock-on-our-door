@@ -2879,6 +2879,10 @@ creditReducedMotion 0
 
 (if (and p05 (>= arg1 63) (<= arg1 72)) (return (p05 hShortLabel: arg1)))
 
+        ; The samples can be carried before the evening cue-rack owner activates.
+        ; Keep their physical identities legible throughout that earlier route.
+        (if (and (>= arg1 48) (<= arg1 50))
+            (return ((ScriptID 992 0) h10Label: arg1)))
         (if (== arg1 62) (return "BUNT."))
         (asm
             lsp 1

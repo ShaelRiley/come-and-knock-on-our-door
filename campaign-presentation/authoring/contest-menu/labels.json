@@ -1,0 +1,130 @@
+{
+  "schema": "CAKOOD_CONTEST_MENU_LABELS_V1",
+  "resource": 242,
+  "first_slot": 37,
+  "max_data_bytes": 7,
+  "buffer_words": 4,
+  "protected_prefix_sha256": "7504782c9cee25b6c071ef18c6aa630ae8b71a32f39dd2d868e988994506e0bd",
+  "labels": [
+    {
+      "pair_id": "IR01",
+      "label": "ECHO",
+      "setup": "You're so slow on the uptake, the echo finishes before you answer."
+    },
+    {
+      "pair_id": "IR02",
+      "label": "DRAWER",
+      "setup": "Your big entrance has the elegance of trousers caught in a drawer."
+    },
+    {
+      "pair_id": "IR03",
+      "label": "FIRST",
+      "setup": "You want the last word before you've thought of the first."
+    },
+    {
+      "pair_id": "IR04",
+      "label": "SHOW",
+      "setup": "You're a rehearsal that somehow got an audience."
+    },
+    {
+      "pair_id": "IR05",
+      "label": "TICKETS",
+      "setup": "You say yes so often I could sell tickets to your nod."
+    },
+    {
+      "pair_id": "IR06",
+      "label": "ARROW",
+      "setup": "You couldn't follow an arrow without asking which way it points."
+    },
+    {
+      "pair_id": "IR07",
+      "label": "TABLE",
+      "setup": "You have the presence of a table that needs clearing."
+    },
+    {
+      "pair_id": "IR08",
+      "label": "ENTRY",
+      "setup": "Your idea of an entrance is getting stuck sideways."
+    },
+    {
+      "pair_id": "IR09",
+      "label": "HANGER",
+      "setup": "Your posture could make a coat hanger give up."
+    },
+    {
+      "pair_id": "IR10",
+      "label": "SKETCH",
+      "setup": "You're what happens when the rough sketch takes itself seriously."
+    },
+    {
+      "pair_id": "IR11",
+      "label": "CURTAIN",
+      "setup": "You'd hang a curtain over the door and call the room finished."
+    },
+    {
+      "pair_id": "IR12",
+      "label": "TASTE",
+      "setup": "You think good taste is whatever fits on your plate."
+    },
+    {
+      "pair_id": "IR13",
+      "label": "INQUIRY",
+      "setup": "You made carrying a panel look like a public inquiry."
+    },
+    {
+      "pair_id": "IR14",
+      "label": "ONEHAND",
+      "setup": "I could have done that with one hand tied behind my back."
+    },
+    {
+      "pair_id": "IR15",
+      "label": "DOORWAY",
+      "setup": "You'd ask for directions while standing in the doorway."
+    },
+    {
+      "pair_id": "IR16",
+      "label": "PICTURE",
+      "setup": "You're a demonstration of why instructions have pictures."
+    },
+    {
+      "pair_id": "IR17",
+      "label": "FRIENDS",
+      "setup": "Without your friends, you'd still be wedged in that doorway."
+    },
+    {
+      "pair_id": "IR18",
+      "label": "USEFUL",
+      "setup": "You think standing near useful people makes you useful."
+    },
+    {
+      "pair_id": "IR19",
+      "label": "SPEECH",
+      "setup": "Some people know when a speech has gone on long enough."
+    },
+    {
+      "pair_id": "IR20",
+      "label": "TOAST",
+      "setup": "You call that a toast? I've had wind with more ceremony."
+    },
+    {
+      "pair_id": "IR21",
+      "label": "DEBATE",
+      "setup": "You turn every simple instruction into a discussion."
+    },
+    {
+      "pair_id": "IR22",
+      "label": "SUPPER",
+      "setup": "You'd forget your own supper if nobody put your name on it."
+    },
+    {
+      "pair_id": "IR23",
+      "label": "POINT",
+      "setup": "You couldn't keep to the point if it was marked on the floor."
+    },
+    {
+      "pair_id": "IR24",
+      "label": "DUST",
+      "setup": "Your idea of responsibility is handing someone a cloth."
+    }
+  ]
+}
