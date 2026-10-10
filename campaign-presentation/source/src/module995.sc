@@ -4,6 +4,7 @@
 (public p13State 0)
 (local [p13Lines 3] [p13Units 8] [p13Events 2] [p13EventArgs 8] [p13EventHi 2] [p13EventLo 2] [p13Held 435] [p13Lease 16]
 [h13Lease 4] [h13History 2064] [h13PotHistory 199] [h13Actors 84] [h13Edges 1792] [h13Cargo 4] [h13Work 12] [h13Cross 8] [h13Paint 8] [h13Pickup 4] [h13DeliveryFrames 4] [h13Deliveries 40] [h13InputPaint 7] [h13Witness 7] [h13ServePaint 3] [h13Facts 36] [h13Reader 24] [h13Voice 4] [h13Selected 1] [h13WrongPaint 20] [h13ScenePaint 9]
+[h13RenderMemo 1]
 )
 (define OBJ_FRONT_DOOR 1)
 (define OBJ_BUNNY 2)
@@ -1323,6 +1324,8 @@
  (for ((= i 0)) (< i 199) ((++ i))
   (if (!= [h13PotHistory i] ((ScriptID 988 0) p07Read: i)) (return 0))) (return 1))
 (method (h13Valid &tmp h i b j e room revision)
+ (if (!= self (ScriptID 995 0)) (return 0))
+ (if (and [h13RenderMemo 0] ((ScriptID 993 0) h11ReadMemo:)) (return 1))
  (if (or (!= self (ScriptID 995 0)) (!= [h13Lease 0] 1) (not (self h13Historical:)) (not (self p13Validate:))) (return 0))
  (= h (ScriptID 0 0))
  (if (or (< [h13Lease 1] 1) (> [h13Lease 1] (h p02Revision?)) (< [h13Lease 2] 0) (> [h13Lease 2] 127)
@@ -1354,6 +1357,7 @@
  (for ((= i 1)) (<= i 4) ((++ i)) (if (not (self h13DeliveryValid: i)) (return 0)))
  (for ((= i 0)) (< i 4) ((++ i))
   (if (!= [h13DeliveryFrames i] [h13Deliveries (+ (* i 10) 4)]) (return 0)))
+ (if ((ScriptID 993 0) h11ReadMemo:) (= [h13RenderMemo 0] 1))
  (return 1))
 (method (h13Room obj &tmp i)
  (= i (self h13Index: obj))
@@ -2502,5 +2506,14 @@
 
 
 
+
+(method (h13RenderReset)
+ (if (!= self (ScriptID 995 0)) (return 0))
+ (= [h13RenderMemo 0] 0) (return 1))
+(method (h13RenderClose &tmp used)
+ (if (!= self (ScriptID 995 0)) (return 0))
+ (= used [h13RenderMemo 0]) (= [h13RenderMemo 0] 0)
+ (if (not used) (return 1))
+ (return (self h13Valid:)))
 )
 (instance p13State of P13State)

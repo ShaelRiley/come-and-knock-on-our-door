@@ -16,6 +16,7 @@
 [h14Owner 8] [h14Facts 31] [h14Date 81] [h14Edit 5] [h14EditChars 80] [h14EditText 43] [h14Reader 24] [h14Selected 1] [h14Freeze 4] [h14MenuPaint 8]
 
 [h14Reaction 8]
+[h14RenderMemo 1]
 )
 (define OBJ_FRONT_DOOR 1)
 (define OBJ_BUNNY 2)
@@ -2201,6 +2202,8 @@
   (not (h opening?)) (not (h paused?)) (not (h menuOpen?)) (not (h uiFailure?)) (not (h bridgeFailure?))
   (not ((ScriptID 985 0) hBarrier:)) (not ((ScriptID 987 0) h6Barrier:)))))
 (method (h14Valid &tmp i p h)
+ (if (!= self (ScriptID 996 0)) (return 0))
+ (if (and [h14RenderMemo 0] ((ScriptID 993 0) h11ReadMemo:)) (return 1))
  (= p (ScriptID 995 0)) (= h (ScriptID 0 0))
  (if (or (!= [h14Owner 0] 1) (not (self p14Validate:)) (not (p h13ReadyPhysical:))
   (!= (p h13BoundaryCount:) 2046) (not ((ScriptID 990 0) h9OwnershipValid:))) (return 0))
@@ -2210,6 +2213,7 @@
  (if (== [h14Owner 2] 1)
   (if (or (< p14Phase 3) (!= [h14Owner 4] (+ [h14Owner 3] 1))
    (< [h14Owner 3] [h14Owner 1]) (> [h14Owner 4] (h p02Revision?))) (return 0)))
+ (if ((ScriptID 993 0) h11ReadMemo:) (= [h14RenderMemo 0] 1))
  (return 1))
 (method (h14Room obj)
  (if (< ((ScriptID 995 0) h13Index: obj) 0) (return -2))
@@ -2497,5 +2501,14 @@
  (if (a lane?) (return 0))
  (= [h14Reaction 0] 0)
  (return (self h14Effect: 1)))
+
+(method (h14RenderReset)
+ (if (!= self (ScriptID 996 0)) (return 0))
+ (= [h14RenderMemo 0] 0) (return 1))
+(method (h14RenderClose &tmp used)
+ (if (!= self (ScriptID 996 0)) (return 0))
+ (= used [h14RenderMemo 0]) (= [h14RenderMemo 0] 0)
+ (if (not used) (return 1))
+ (return (self h14Valid:)))
 )
 (instance p14State of P14State)

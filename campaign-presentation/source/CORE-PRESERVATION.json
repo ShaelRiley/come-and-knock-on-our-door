@@ -106,7 +106,6 @@
       "uiCycle": "2adb4a6ae550e07aeef8533da4a303099675b0030d1ba827d396a2308a65db67",
       "uiArrow": "d12b9347f2fa4a03b5564c23b616ae05dd66ae7542d49bb6328ec5c013ef97ed",
       "uiPointer": "992bcc40081905bb7d2ff48c615f613bf1692c5c4191e6e5f7f69009b044f286",
-      "uiCancelSentence": "2a593ead800d37e3cef8c65852e9baec257405154310584e8e68dc934ca61e43",
       "uiChooseObject": "b71a94e083fb445e27f3120f2e52cd2f21090aa51b80868ba235830b016442d9",
       "uiClearChoices": "f4eda24c7afa4ae636dac00fbc4cac04d0da6e89d5f5ee6921a0d5a8c380eb97",
       "uiAddChoice": "daf19309d12be0a63559c9d0931426b7ed922a2738b49fbe3d9c053ccafd4133",
@@ -118,7 +117,6 @@
       "uiClose": "8e0b3e6f1c7f6e7e36a44e095cb742666e5fbbb0c9abf0d7fd44e80825c93a14",
       "uiTurnPage": "66c850d14fad531ad57d1f0dd11542ed27c8bea1c7191549eae05bd0c293b435",
       "uiActivate": "386fce98e9deed17c84c586ff90643a9aaef48f9f6aa5e0bc79823e0dd90648f",
-      "uiInput": "3c537715d961a2b4ffdd9dc6844e8d299a3a44aea3af3e60c1e8b52b5b08eba8",
       "uiComposeSentence": "5488dc22f014ce73752ea93980e32da934f7e2bdcc38430b3c53933f9e529827",
       "uiFrame": "968587728f9e0e58aa0b5a51f004cb239b2c88c82a7978a611bb012c3ec545ab",
       "uiRender": "52ca4cb93122b7c22243eddb13fd20325f4c39085502c70f477d29fc0d2e32a4",
@@ -1622,10 +1620,8 @@
       "h11ReadAbort": "dacb73dc7e2e9ba99938f51249a0cdd9bfc98c9e6d442f1b44dce733bd766945",
       "h11ReadStrict": "960311e47abd6a533c9a680f8ae9f55724a39306e2bcf605290f2319564c2e60",
       "h11ReadBoundary": "54ecb27ef1e9e87c5e1669180806923a1c73a2c3564c4fdc69bb892c419df679",
-      "h11ReadBegin": "e0f427a5483fc95e29c05c495592e2e40150140c149d282f8bfa81514b92f11c",
       "h11ReadResume": "22518ccff721b1977df3cc3f961a045b73e3cb3d60b0b8a30c8a04308ac08485",
       "h11ReadMemo": "f24159d7b0af87c3cc0217475ccabd41dda936d1c7f777d0e23f143e37b84341",
-      "h11ReadEnd": "12e30b3028fc45af20bc0d648b528dce0b063f5e1ac4819a22c024694e009bfc",
       "h11ReadFinish": "e4ab1abd89b8a6a02b20c2d2a93783957b98fba64c7f3490c7e0c3f3fc0323a9",
       "h11VoiceAdmission": "56cab0e9d21c92ad46f94546472b6822de6a6c5468a62e01d5f21f36c39ea585",
       "h11VoiceMouth": "4c0ec9f3b3bfe189b776c3ddf755a3924394d7b6eea0a6a57ad6b18241d72260",
@@ -1763,7 +1759,6 @@
       "h12SuccessorEdge": "ea5a6281c40592d9ef335bb22d7874592153a88bd1d08cf0c2dc5a7d70677ab6",
       "h12PredecessorValid": "ac939b6cd437416e63f51b928fffa5997bd55f2133ca2dae6f64c7bceee00ed5",
       "h12OriginalRoom": "d37222af95e715e0b57706ee29cf5cd6167e3421bb0fb0c1112136f264a6c609",
-      "h12SuccessorValid": "3d9bc16486f4441c4db67d6690e61bcc8cf79e36f020276e34b3e635b24b16bc",
       "h12SuccessorRoom": "0c03fcb2ec540d03d0d80cdeb9542613b517928682af98d1e1e4023e6419319b",
       "h12SuccessorAcquire": "8cbdc752f6d28b8943dfea3f37d6fae2235f43bc867da8073bcd4cc334efdfee",
       "h12SuccessorRetire": "96acf51da45ca059b53d445c2041358f7837136d3dd4fa778782f7c706662bdc",
@@ -1896,7 +1891,6 @@
       "h13Bit": "ebe4e8ab0a05dc2d663e86ed0f4071053980f61d728be062687a6353a5a29cd3",
       "h13Baseline": "e49a255126e4e65a7f7e514c68268b06e0b107b897c46422c4a6172796532ee9",
       "h13Historical": "26716bc86042a4b0671eb6c4c04aeb0f4f2a9d83adff772d5fe6876fcdbfdc3b",
-      "h13Valid": "609c914780719571116caa34c646ae023ba26e6fdd3461c7777664b1ec96be88",
       "h13Room": "65ab3a307240112611d21694eb373155fb582cc0932fdfabc149634c8fc3a7ab",
       "h13Owns": "3a93b7587769b3a48feb29b3ddb23f152fc16fc744ae244485c1b3b3ce8cef72",
       "h13Location": "545d5fdca10020c77a452d32b982c5b1b41f49dcdb590398edb55e0da139145d",
@@ -2088,7 +2082,6 @@
       "h14Choice": "cea233b6cc9b3de47057d3bbf3d86b1dd7082d71cf6acd439391b9415f8d7bd2",
       "h14Has": "7e53508c8b221d29a843a50fad24f31f00693388ecccfb8db61801e410a1cfb9",
       "h14Base": "e511f5a9919ae0b0ecd710e8cdec4c4fe3df0792d77b121844b3655a497bf233",
-      "h14Valid": "f06352bd3f5f2d70bc8bb0f5189704bd7c808ccf4814d21d21584859ffc0340f",
       "h14Room": "5188fa967c919cc4195f24015fd1d71ebb6ab0e065565c4d13bf63e447fb22c1",
       "h14Owns": "b35feca1c33bc36bf19155f34440635fc45f63f7a073e4d5558a53333c1db97d",
       "h14Held": "da947ee576b08c11ad3430cb141b87979b6a244cf53f1306cefe23f0042b1619",
@@ -6505,6 +6498,55 @@
       "baseline_sha256": "3aec47d7e8c54f32d397cda92a0de9a3869c5fdf1d694e60f0958908fe7cbdff",
       "candidate_sha256": "c2552cb34dfbf05c8499f14942a7ef532ccbdd93950f8d5736a6d5a0c088bfe0",
       "reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiCancelSentence",
+      "baseline_sha256": "2a593ead800d37e3cef8c65852e9baec257405154310584e8e68dc934ca61e43",
+      "candidate_sha256": "134712bc89525698e60374318deb920fbd0a848443788ea4bdf0c0e7f27ce55d",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: retain accompanied travel for a real room-exit shortcut; other sentence cancellation and every route/ownership/arrival guard remain in place."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiInput",
+      "baseline_sha256": "3c537715d961a2b4ffdd9dc6844e8d299a3a44aea3af3e60c1e8b52b5b08eba8",
+      "candidate_sha256": "8542d13a1e10e98aab497492f8174ef94493ea6d6ba42b8826e5f81652213c81",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: retain accompanied travel for a real room-exit shortcut; other sentence cancellation and every route/ownership/arrival guard remain in place."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12SuccessorValid",
+      "baseline_sha256": "3d9bc16486f4441c4db67d6690e61bcc8cf79e36f020276e34b3e635b24b16bc",
+      "candidate_sha256": "1241bfe91814b04ed9818457f6a964a6bac9b3b1f64ec1559093a3b82b495f03",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13Valid",
+      "baseline_sha256": "609c914780719571116caa34c646ae023ba26e6fdd3461c7777664b1ec96be88",
+      "candidate_sha256": "6fbcaf1dfca650563c9c9a053fac7ccd6e446c42d2c9d8a2cc36adbba1cbcf03",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Valid",
+      "baseline_sha256": "f06352bd3f5f2d70bc8bb0f5189704bd7c808ccf4814d21d21584859ffc0340f",
+      "candidate_sha256": "506894cf0ff12c9be027763381c1316ef2981e09b140b943105fff874ef7476b",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+    },
+    {
+      "file": "module993.sc",
+      "method": "h11ReadBegin",
+      "baseline_sha256": "e0f427a5483fc95e29c05c495592e2e40150140c149d282f8bfa81514b92f11c",
+      "candidate_sha256": "9a36c83bf41ee83ee922e45dc3e79d7c8814d6aa7bda932172d7b041d75693c5",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+    },
+    {
+      "file": "module993.sc",
+      "method": "h11ReadEnd",
+      "baseline_sha256": "12e30b3028fc45af20bc0d648b528dce0b063f5e1ac4819a22c024694e009bfc",
+      "candidate_sha256": "6883af64b516b115b40db6bad6cb998af0b246096ed109070036d195e01aa2ea",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned."

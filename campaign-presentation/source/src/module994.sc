@@ -12,6 +12,7 @@
 [h12VoiceFrame 8]
 
 [h12LaughEvent 9]
+[h12RenderMemo 1]
 )
 (define OBJ_FRONT_DOOR 1)
 (define OBJ_BUNNY 2)
@@ -1575,6 +1576,8 @@
  (return (s h8ActorRoom: (self h12SuccessorSpeaker: i))))
 (method (h12SuccessorValid &tmp h i b j e room rev phases)
  (if (!= self (ScriptID 994 0)) (return 0))
+ (if (and [h12RenderMemo 0] ((ScriptID 993 0) h11ReadMemo:)) (return 1))
+ (if (!= self (ScriptID 994 0)) (return 0))
  (if (not [h12Lease 0]) (return 0)) (= h (ScriptID 0 0))
  (if (or (< [h12Lease 0] 1) (> [h12Lease 0] 2) (< [h12Lease 1] 1)
   (> [h12Lease 1] (h p02Revision?)) (< [h12Lease 2] 0) (> [h12Lease 2] 7)
@@ -1609,6 +1612,7 @@
     (< [h12Actors (+ b 7)] rev) (< [h12Actors (+ b 7)] [h12Actors (+ b 3)])
     (> [h12Actors (+ b 7)] (h p02Revision?))) (return 0))
   else (if [h12Actors (+ b 7)] (return 0))))
+ (if ((ScriptID 993 0) h11ReadMemo:) (= [h12RenderMemo 0] 1))
  (return 1))
 (method (h12SuccessorRoom obj &tmp i)
  (= i (self h12SuccessorIndex: obj)) (if (or (< i 0) (not [h12Lease 0])) (return -2))
@@ -2117,5 +2121,14 @@
  (return 1))
 
 
+
+(method (h12RenderReset)
+ (if (!= self (ScriptID 994 0)) (return 0))
+ (= [h12RenderMemo 0] 0) (return 1))
+(method (h12RenderClose &tmp used)
+ (if (!= self (ScriptID 994 0)) (return 0))
+ (= used [h12RenderMemo 0]) (= [h12RenderMemo 0] 0)
+ (if (not used) (return 1))
+ (return (self h12SuccessorValid:)))
 )
 (instance p12State of P12State)

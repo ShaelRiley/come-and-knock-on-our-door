@@ -106,7 +106,7 @@ def build():
  pack.pack_resources(resources,B)
  numbers=config['compile_order']
  if len(numbers)!=len(set(numbers)) or set(numbers)!=set(config['modules']):raise RuntimeError('compile order membership')
- (B/'game.ini').write_text('[Game]\nName=Come and Knock on Our Door - full campaign source candidate\nLanguage=sci\n[Script]\nn000=main\n'+''.join(f'n{n}=module{n}\n' for n in numbers if n))
+ (B/'game.ini').write_text('[Game]\nName=Come and Knock on Our Door\nLanguage=sci\n[Script]\nn000=main\n'+''.join(f'n{n}=module{n}\n' for n in numbers if n))
  (B/'src').mkdir(exist_ok=True);(B/'compiled').mkdir(exist_ok=True)
  for stale in (B/'src').glob('*.sco'):stale.unlink()
  for name,text in compiler_sources.items():(B/'src'/name).write_text(text)

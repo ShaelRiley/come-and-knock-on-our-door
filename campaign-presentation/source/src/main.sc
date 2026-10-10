@@ -6294,13 +6294,20 @@ creditReducedMotion 0
     )
 
     ; Delivered offset0x5ea5; 13 original instructions
-    (method (uiCancelSentence)
+    (method (uiCancelSentence travelObject &tmp keepTravel)
+ ; Only the world shortcut supplies an exit. Ordinary Escape/back/cancellation
+ ; calls supply no argument and keep the original cancellation behavior.
+ (= keepTravel (and argc (not uiPanel) (not onApron) (not opening)
+  (not paused) (not menuOpen) (!= (self p02Exit: travelObject) -1)
+  (== (self uiHostDefaultVerb: travelObject) 0)
+  (not (and (== travelObject 19) p04 (or (== location 3) (== location 4))
+   (!= (p04 p04Gate?) 1)))))
 ((ScriptID 996 0) h14Retire:)
 
 ((ScriptID 995 0) h13Retire:)
-((ScriptID 995 0) h13Cancel:)
+(if (not keepTravel) ((ScriptID 995 0) h13Cancel:))
 
-((ScriptID 994 0) h12SuccessorCancel:)
+(if (not keepTravel) ((ScriptID 994 0) h12SuccessorCancel:))
 
         (asm
             pushi 377
@@ -7210,8 +7217,17 @@ creditReducedMotion 0
             self 4
             jmp L_66c1
             L_6648: pushi 277
-            push0
-            self 4
+            push1
+            lst 0
+            ldi 0
+            ge?
+            bnt Handoff_no_shortcut_hit
+            lat 0
+            lali 228
+            jmp Handoff_shortcut_argument
+            Handoff_no_shortcut_hit: ldi 0
+            Handoff_shortcut_argument: push
+            self 6
             lst 0
             ldi 0
             ge?

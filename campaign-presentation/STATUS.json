@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "AUDIO36_FILENAME_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_AUDIO36_FIX_UNACCEPTED_20261010_R1",
+  "status": "HANDOFF_RENDER_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_HANDOFF_RENDER_FIX_UNACCEPTED_20261010_R1",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,19 +10,22 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_AUDIO36_FILENAME_FIX",
+    "fresh_coherent_compile": "PASS_46_MODULES_HANDOFF_RENDER_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ALL_92_COMPILED_ARTIFACTS_BYTE_IDENTICAL_TO_LABEL_CANDIDATE",
-    "runtime_behavior": "NEW_LABEL_CANDIDATE_UNRUN; PREDECESSOR_SCOPED_NATIVE_P01_P05_VC01_AND_P06_COLLABORATION_PASS",
+    "static_artifact_comparison": "PASS_84_UNCHANGED_COMPILED_ARTIFACTS_8_DECLARED_SCRIPT_HEAP_CHANGES",
+    "runtime_behavior": "CURRENT_CHANGED_SCI_UNRUN; PREDECESSOR_DISCOVERY_P01_P11_AND_VC01_VC02_VC03_PASS",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
-    "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS"
+    "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS",
+    "render_validation": "PASS_ORIGINAL_STRICT_PREDICATE_BODIES_PRESERVED_AND_UNCHANGED_MAIN_PUBLICATION_GUARD"
   },
   "unperformed": [
-    "Fresh New Game start-to-finish native acceptance of this label candidate, all four required contest wins, ending and credits",
-    "Critical save/restore on this changed host candidate",
-    "Subjective listening and acoustic quality assessment"
+    "Fresh New Game start-to-finish acceptance of the changed handoff/render candidate, all fourteen puzzles, all four contest wins, complete ending and 58 credits",
+    "Native regression of right-click accompaniment and P13 deliveries on the changed host",
+    "Native responsiveness and critical save/restore on this changed candidate",
+    "Subjective listening and acoustic quality assessment",
+    "Steam Deck hardware testing"
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
@@ -46,7 +49,7 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "a45e3344bd4ac61c9251dcca5cb5ee72116efce514ad9f3d7da9e0290a755fcb",
+  "compiled_receipt_sha256": "faaedb895b5f7428f929dd37f4415b93a68e37602e67a32446682093c37d71cc",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
@@ -86,6 +89,14 @@
       "candidate_compile_receipt_sha256": "3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e",
       "observed": "Genuine New Game opening, P01-P05 and VC01 passed with Music ON. P01, P04 and mid-contest restore passed; P05 saved. T1-T3 inventory labels and ECHO/DRAWER practice topics were observed. Native metal-click lookup warning identified the hexadecimal/base36 filename mismatch.",
       "limits": "No complete campaign or ending pass. Corrected audio files require native regression and full acceptance. No subjective listening claim."
+    },
+    {
+      "candidate_compile_receipt_sha256": "a45e3344bd4ac61c9251dcca5cb5ee72116efce514ad9f3d7da9e0290a755fcb",
+      "observed": "Discovery route through P11 and three real contest wins. Genuine P09, P10, supported-display P11 and third-win saves/restores were exercised. A P12 invitation followed by a right-click exit cancelled pending accompaniment; with the successor active, walking and redraws were very slow.",
+      "source_cause": "World shortcut resets unconditionally cancelled the descendant request; descendant validators repeated whole predecessor/actor scans during the same render window.",
+      "correction": "HANDOFF-AND-RENDER-FIX.md. Strict predicate bodies and actual progression/acknowledgement guards preserved. Changed SCI has compiled and staged, but native testing has not yet run.",
+      "limits": "No complete game or ending pass; old-save compatibility unproved; no subjective listening. Private protocols and saves are excluded."
     }
-  ]
+  ],
+  "current_fix_report": "HANDOFF-AND-RENDER-FIX.md"
 }
