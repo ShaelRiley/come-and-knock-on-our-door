@@ -1,0 +1,190 @@
+{
+  "schema": "CAKOOD_AUDIO36_FILENAME_CORRECTION_V1",
+  "basis": "Unmodified official ScummVM fed42f2068dcafc6aafa1c28c77e4c88def74b66 resource.cpp convertPatchNameBase36; native warning (932,19,1,0,1)",
+  "changes": [
+    {
+      "old": "@0PV1001.001",
+      "new": "@0PV0G01.001",
+      "tuple": [
+        931,
+        16,
+        1,
+        0,
+        1
+      ],
+      "sha256": "058fba2f6c3e588607cd5cf72b54b549a5083b9125358cbe8cefb78122a71e61"
+    },
+    {
+      "old": "@0PV1101.001",
+      "new": "@0PV0H01.001",
+      "tuple": [
+        931,
+        17,
+        1,
+        0,
+        1
+      ],
+      "sha256": "9adc4c8636586d8923353f5398c3b99b1060ac4a0f1e73f63ea9a1ee5e3adf65"
+    },
+    {
+      "old": "@0PV1201.001",
+      "new": "@0PV0I01.001",
+      "tuple": [
+        931,
+        18,
+        1,
+        0,
+        1
+      ],
+      "sha256": "09251eb70cc9d0d04e1a611ee3c9109bb6dc845629e2091a9c72bdde203fe08c"
+    },
+    {
+      "old": "@0PV1301.001",
+      "new": "@0PV0J01.001",
+      "tuple": [
+        931,
+        19,
+        1,
+        0,
+        1
+      ],
+      "sha256": "83bd757cd342bbf26cb26a271b34d27d384c8358024aaef7f4082f5cc8513e31"
+    },
+    {
+      "old": "@0PV1401.001",
+      "new": "@0PV0K01.001",
+      "tuple": [
+        931,
+        20,
+        1,
+        0,
+        1
+      ],
+      "sha256": "ede425f8f94041845f169ccd6669d4db0edb384d090a2bc52184239bfd69636f"
+    },
+    {
+      "old": "@0PV1501.001",
+      "new": "@0PV0L01.001",
+      "tuple": [
+        931,
+        21,
+        1,
+        0,
+        1
+      ],
+      "sha256": "e4cd5704e5972be571488d378a77a3199775f38e3fede8936312ecf07b265c2e"
+    },
+    {
+      "old": "@0PW1001.001",
+      "new": "@0PW0G01.001",
+      "tuple": [
+        932,
+        16,
+        1,
+        0,
+        1
+      ],
+      "sha256": "e78e79c97b3bf49944c500ac8f4f48c14c273eb4ed774af9c9882f99d673eabb"
+    },
+    {
+      "old": "@0PW1101.001",
+      "new": "@0PW0H01.001",
+      "tuple": [
+        932,
+        17,
+        1,
+        0,
+        1
+      ],
+      "sha256": "152aae8bb201b8d9ce75fdfc30e2c500ad6534296b7a7b69c7996648e429b525"
+    },
+    {
+      "old": "@0PW1201.001",
+      "new": "@0PW0I01.001",
+      "tuple": [
+        932,
+        18,
+        1,
+        0,
+        1
+      ],
+      "sha256": "d7f3c69ba2d2a164f7f3dfc7c4cd5617067621dde3db7492bd2696e1dab0a910"
+    },
+    {
+      "old": "@0PW1301.001",
+      "new": "@0PW0J01.001",
+      "tuple": [
+        932,
+        19,
+        1,
+        0,
+        1
+      ],
+      "sha256": "07dad98687201d89b62d024b20a39cdd4b364b5d38294788b1d6a96ad8576d88"
+    },
+    {
+      "old": "@0PW1401.001",
+      "new": "@0PW0K01.001",
+      "tuple": [
+        932,
+        20,
+        1,
+        0,
+        1
+      ],
+      "sha256": "f11b6c80cd35c599f04c3f36d66ce9f3075938ffdb19e40c7f9a2e567e004222"
+    },
+    {
+      "old": "@0PW1501.001",
+      "new": "@0PW0L01.001",
+      "tuple": [
+        932,
+        21,
+        1,
+        0,
+        1
+      ],
+      "sha256": "660095faa9c0e3a091319af3576090c95d0e4ebd2dd9546883e0be7f2cf28251"
+    },
+    {
+      "old": "@0PW1601.001",
+      "new": "@0PW0M01.001",
+      "tuple": [
+        932,
+        22,
+        1,
+        0,
+        1
+      ],
+      "sha256": "5919b1e2c1c0aa9c6f06dc376e7be9946fc32112c1a79b03474cd365ebd643e9"
+    },
+    {
+      "old": "@0PW1701.001",
+      "new": "@0PW0N01.001",
+      "tuple": [
+        932,
+        23,
+        1,
+        0,
+        1
+      ],
+      "sha256": "c8a847e4fe2b5917389aa0704c475499bb4598c24ad998ae6a8244036a241ff3"
+    },
+    {
+      "old": "@0PW1801.001",
+      "new": "@0PW0O01.001",
+      "tuple": [
+        932,
+        24,
+        1,
+        0,
+        1
+      ],
+      "sha256": "34991ca6b36907057f391a28b66256a9e34c840fc6344568ed206be93d52209e"
+    }
+  ],
+  "pcm_bytes_changed": false,
+  "sci_sources_changed": false,
+  "native_acceptance": false,
+  "subjective_listening": "UNPERFORMED"
+}

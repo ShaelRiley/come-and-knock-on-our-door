@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "PRESENTATION_LABEL_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_LABEL_FIX_UNACCEPTED_20261010_R1",
+  "status": "AUDIO36_FILENAME_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_AUDIO36_FIX_UNACCEPTED_20261010_R1",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,12 +10,14 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_PRESENTATION_LABEL_FIX",
+    "fresh_coherent_compile": "PASS_46_MODULES_AUDIO36_FILENAME_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_HOST_SCRIPT_CHANGED_91_OTHER_COMPILED_ARTIFACTS_BYTE_IDENTICAL",
+    "static_artifact_comparison": "PASS_ALL_92_COMPILED_ARTIFACTS_BYTE_IDENTICAL_TO_LABEL_CANDIDATE",
     "runtime_behavior": "NEW_LABEL_CANDIDATE_UNRUN; PREDECESSOR_SCOPED_NATIVE_P01_P05_VC01_AND_P06_COLLABORATION_PASS",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
-    "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS"
+    "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS",
+    "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
+    "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS"
   },
   "unperformed": [
     "Fresh New Game start-to-finish native acceptance of this label candidate, all four required contest wins, ending and credits",
@@ -44,9 +46,9 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e",
+  "compiled_receipt_sha256": "a45e3344bd4ac61c9251dcca5cb5ee72116efce514ad9f3d7da9e0290a755fcb",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
-  "revision_report": "PRESENTATION-LABEL-FIX.md",
+  "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
   "save_compatibility": "UNPROVED; do not import predecessor saves",
@@ -79,6 +81,11 @@
       "candidate_compile_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
       "observed": "P05 and genuine VC01 win passed with Music ON. Mid-contest save/restore preserved the score and pending committed retort. A fresh process restored the completed PA loan. P06 scope, friendly tone, mixer invitation/answer and full sheet permission were exercised.",
       "limits": "Scoped predecessor observations only; this label candidate requires a fresh New Game. No complete campaign or ending pass."
+    },
+    {
+      "candidate_compile_receipt_sha256": "3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e",
+      "observed": "Genuine New Game opening, P01-P05 and VC01 passed with Music ON. P01, P04 and mid-contest restore passed; P05 saved. T1-T3 inventory labels and ECHO/DRAWER practice topics were observed. Native metal-click lookup warning identified the hexadecimal/base36 filename mismatch.",
+      "limits": "No complete campaign or ending pass. Corrected audio files require native regression and full acceptance. No subjective listening claim."
     }
   ]
 }

@@ -38,6 +38,20 @@ try:
   audio=json.loads((S/'AUDIO-INVENTORY.json').read_text());assert audio['file_count']==len(audio['files'])==profile['audio_files'];assert set(audio['files'])=={p.name for p in (S/'assets/audio').iterdir()}
   for name,row in audio['files'].items():
    q=S/'assets/audio'/name;assert q.stat().st_size==row['bytes'] and sha(q)==row['sha256'],name
+  # Stock SCI parses every audio36 filename field in base 36. Check each
+  # authored tuple against its actual filename, not only the file hash.
+  authored=json.loads((S.parent/'authoring/audio/ASSET-MANIFEST.json').read_text())
+  authored_rows=[*authored['laughs'],*authored['foley'],authored['celebration']]
+  for row in authored_rows:
+   name=Path(row['file']).name
+   decoded=[int(name[1:4],36),int(name[4:6],36),int(name[6:8],36),int(name[9:11],36),int(name[11:12],36)]
+   assert decoded==row['audio36'],(name,'stock SCI audio36 tuple')
+   assert name in audio['files'] and audio['files'][name]['sha256']==row['sha256'],(name,'authored PCM identity')
+  tree=ast.parse((S.parent/'authoring/audio/build_assets.py').read_text())
+  functions=[node for node in tree.body if isinstance(node,ast.FunctionDef) and node.name in ('base36','audio36_name')]
+  namespace={};exec(compile(ast.Module(body=functions,type_ignores=[]),'audio36-names','exec'),namespace)
+  for row in authored_rows:assert namespace['audio36_name'](*row['audio36'])==Path(row['file']).name
+  report['authored_audio36_tuples']=len(authored_rows)
   # Compare every loop transport's actual admission operand with the approved
   # catalog, across canonical and authoring sources. A wrong operand can compile
   # cleanly while refusing the real sound object in the native engine.

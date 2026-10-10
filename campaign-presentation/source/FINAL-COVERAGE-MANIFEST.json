@@ -129,11 +129,11 @@
     },
     {
       "path": "AUDIO-INVENTORY.json",
-      "sha256": "94f0a79d9ec86b3b17972024879f0ceb92d99e326584f443a1be2db87ba53f8d"
+      "sha256": "81febb1120f5290729172e79dfe1c5525e2c814f214de5c93ebfa931ac5f9dbe"
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "9e4ee94db058e2c815950f1fab79fa3811457bb23a6fd85a6f3d0b10057132a1"
+      "sha256": "e9104ca2a2fa1b86ba083cfdf642008c0fbe6aa7ebe13ff5092a03443b8dfa1a"
     },
     {
       "path": "CORE-PRESERVATION.json",
@@ -518,6 +518,18 @@
     {
       "path": "../authoring/contest-menu/export.py",
       "sha256": "5a2bd7b694d9ea28464511a72408da076b914a894163e5125e66546422abbf9f"
+    },
+    {
+      "path": "../authoring/audio/ASSET-MANIFEST.json",
+      "sha256": "94736e3213a397300dea3a597438fc6bdfc8fabcfb2702cc97f9f60b80fd7e97"
+    },
+    {
+      "path": "../authoring/audio/build_assets.py",
+      "sha256": "277299d729e4f8f3ee6f07955b754300fb0bbca895c0252f266f9b0868ae13b7"
+    },
+    {
+      "path": "../authoring/audio/AUDIO36-FILENAME-FIX.json",
+      "sha256": "c7b02c6eeafc0692013fb9ddf30ff937a9e1c7f0925931e12efe21e44046572f"
     }
   ],
   "validation": {
@@ -529,7 +541,7 @@
     "subjective_listening": "UNPERFORMED",
     "coherent_compile_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0"
   },
-  "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
+  "save_lineage": "CAKOOD_PRESENTATION_AUDIO36_FIX_UNACCEPTED_20261010_R1",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim."
 }
