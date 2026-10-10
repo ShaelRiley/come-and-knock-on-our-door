@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "QUIET_TAG_FIX_COMPILE_ONLY_UNACCEPTED",
+  "status": "RECONSTRUCTED_CANDIDATE_NATIVE_ACCEPTANCE_PENDING",
   "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
   "new_game_required": true,
   "source_modules": 46,
@@ -13,11 +13,12 @@
     "fresh_coherent_compile": "PASS_46_MODULES",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_ONLY_MODULE996_SCRIPT_CHANGED_ALL_HEAPS_UNCHANGED",
-    "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE"
+    "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE",
+    "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
+    "bounded_static_source_and_assets": "PASS_4_CASES_AFTER_EXPLICIT_QUIET_TAG_PRESERVATION_LEDGER_CORRECTION"
   },
   "unperformed": [
     "Native execution and native acceptance for this candidate",
-    "Staging or player-package creation for this candidate",
     "Full-game native verification, including the ending",
     "Save/restore acceptance for this candidate",
     "Portable game-model and internal test-harness execution for this candidate",
@@ -27,11 +28,10 @@
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
     "Credits replay is detached credits-only replay; it does not replay or re-claim campaign ending reactions.",
     "Some source cues expose long natural transition windows. Requests keep gameplay responsive while the single music owner reaches the exact admitted boundary.",
-    "Bridge gain still opens only in its existing ticks6–8 window; gain-window polish is outside this correction.",
+    "Bridge gain still opens only in its existing ticks6\u20138 window; gain-window polish is outside this correction.",
     "Previous P01/P02 opening and save/restore observations apply only to the earlier finite-MIDI build, not this changed candidate.",
     "Save compatibility is unproved: module996 method addresses and script relocation entries changed despite unchanged heaps.",
-    "Native ending verification remains incomplete; this does not mean the ending is unimplemented.",
-    "Player-package files are source templates; stage.py has not been executed for this candidate."
+    "Native ending verification remains incomplete; this does not mean the ending is unimplemented."
   ],
   "public_package_contents": [
     "Editable SCI source and all runtime assets",
@@ -50,18 +50,19 @@
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "QUIET-TAG-FIX.md",
   "native_acceptance": false,
-  "staging_performed": false,
+  "staging_performed": true,
   "save_compatibility": "UNPROVED; do not import predecessor saves",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
       "observed": "A genuine New Game completed the full opening, P01 and P02, followed by F2 save, a REVEAL setting change, F3 restore, and normal exit. Music remained ON and no music warning appeared during this scoped observation.",
       "limits": "This is a scoped observed pass, not full-game native acceptance. Native verification of the campaign ending remains incomplete; this is a verification limit, not an implementation omission. Exact cue identity, acoustic quality, subjective listening and timing/performance acceptance are not claimed. Portable game-model and internal test harnesses were not run for this revision.",
-      "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0–1.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
+      "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0\u20131.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
       "summary": "FINITE-MIDI-NATIVE-STATUS.md",
       "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
       "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
       "applies_to_current_candidate": false
     }
-  ]
+  ],
+  "current_reconstruction_report": "RECONSTRUCTION-20261010.md"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "QUIET_TAG_FIX_COMPILE_ONLY_UNACCEPTED_SOURCE",
+  "status": "RECONSTRUCTED_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
@@ -47,13 +47,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 3543,
-      "sha256": "431bdd306735d49a4181375911f416ba5ac2c96649c15bec72b955a260f1c83f"
+      "bytes": 3748,
+      "sha256": "d478d9f38fe0e1353bc90e8263b6fdfde0446f4dafb0e09a1bef8ae245ff76c2"
+    },
+    {
+      "path": "RECONSTRUCTION-20261010.md",
+      "bytes": 2476,
+      "sha256": "98e4e0d1b94127bfba568e0627c7dabd96f328587b80ce70f2ee984417807c55"
     },
     {
       "path": "STATUS.json",
-      "bytes": 4383,
-      "sha256": "a1135910e41286d6b9a0c0c1b5944b210abb6757a71c18fe5b75492ca36c8d5e"
+      "bytes": 4521,
+      "sha256": "005d8af08be74871c4b3e1fec52caaf4c874ebd304c5e09e984d4f4a765a177c"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4277,8 +4282,8 @@
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 312461,
-      "sha256": "3ec70e96da441c7e285e858a5908a04a3563cf9b9298132d32f12727cf2e9c8f"
+      "bytes": 312871,
+      "sha256": "ed28ca6133385443b93f3569d0fff8a0e7712987de951820c993c9e81e883114"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4288,7 +4293,7 @@
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
       "bytes": 16509,
-      "sha256": "cece6573cfc5c9fb226cda027b299d0d2aaf5079ddd30a299a15513741a26ab0"
+      "sha256": "b062edae5950add7a71493029699fd315f4bd906aee31f46318b846132f1eb4c"
     },
     {
       "path": "source/LICENSE.md",
@@ -16112,8 +16117,8 @@
     },
     {
       "path": "source/tests/run_static_checks.py",
-      "bytes": 5724,
-      "sha256": "a275fac90b8a0b50f0d41c55fe64465a8162707d28075b51f2832b3ed2f3e2fb"
+      "bytes": 6033,
+      "sha256": "1b74cd0f6645046d26f5e46c28edf2e4f89015fcd57a6ae678364cbe5902062b"
     },
     {
       "path": "source/tests/score/README.md",
@@ -17191,6 +17196,11 @@
       "sha256": "e2c255bfa5e9b910e0cebd82aaa55f4e97255b7f40a2d155256938952b4109cc"
     },
     {
+      "path": "source/tools/audit_publication.py",
+      "bytes": 6569,
+      "sha256": "e0d8476308556a49dfc9830db1f7f1d1df6e6d02808a7e4a6f7458954a6563a5"
+    },
+    {
       "path": "source/tools/extract_sci11.py",
       "bytes": 2510,
       "sha256": "e6a6f7a47079289292ceaf2a9ef15b42c0f552124def59567085e2dd880e440d"
@@ -17226,5 +17236,6 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_QUIET_TAG_FIX_UNACCEPTED_20261009_R1",
-  "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE; FULL_GAME_NATIVE_VERIFICATION_INCOMPLETE"
+  "runtime_behavior": "NOT_RUN_FOR_THIS_CANDIDATE; FULL_GAME_NATIVE_VERIFICATION_INCOMPLETE",
+  "current_reconstruction_report": "RECONSTRUCTION-20261010.md"
 }

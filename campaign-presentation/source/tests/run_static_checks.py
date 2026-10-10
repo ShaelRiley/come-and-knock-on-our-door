@@ -38,9 +38,13 @@ try:
   for filename,entries in pins['unchanged_methods'].items():
    current=methods((S/'src'/filename).read_text())
    for name,pin in entries.items():assert hashlib.sha256(current[name].encode()).hexdigest()==pin,(filename,name);count+=1
+  reviewed=pins['reviewed_modified_methods']
+  for row in reviewed:
+   current=methods((S/'src'/row['file']).read_text())
+   assert hashlib.sha256(current[row['method']].encode()).hexdigest()==row['candidate_sha256'],(row['file'],row['method'],'reviewed modification')
   selectors=json.loads((S/'selectors.json').read_text())
   for name,value in pins['preserved_selectors'].items():assert selectors[name]==value,(name,value)
-  report.update(unchanged_core_methods=count,preserved_selectors=len(pins['preserved_selectors']))
+  report.update(unchanged_core_methods=count,reviewed_modified_methods=len(reviewed),preserved_selectors=len(pins['preserved_selectors']))
  elif a.case=='opening':
   art=json.loads((S/'OPENING-ASSET-MANIFEST.json').read_text());assert not art.get('fixture_category');assert art['performed_pose_count']==64;assert set(art['views'])==set(range(245,253))
   sys.path.insert(0,str(S/'tools'));from inspect_opening_view import decode_view

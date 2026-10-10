@@ -2097,7 +2097,6 @@
       "h14Location": "8a273cb2c4c15cbecdd4c3db7b9f077046c417091dfa905b7703a90fa5b9e283",
       "h14Reachable": "13e70b2e05ce6eb192535c0b660542b2f9c8631ad6bd99215aa7c04a4ed1167d",
       "h14Acquire": "22ef929f3d3f9d947c344c61ccdc28cdcf8fe89f2398459ac2f90c1f62b62ed9",
-      "h14Travel": "4c0e013d91f6beb2da362de10e68d82f7fe22f69edeeaf4c76455e9a196c4395",
       "h14Save": "43c0b45762626e9c44f3612b12556d438cc94698f7bfc1f26a4b1841ec0d8928",
       "h14Load": "4c80ce89a710e7f6f1960d7ed7a76629ac4c5289a705505257a1e6506b4d0851",
       "h14Stored": "480c16a81071e02ae74a573a64deb55403a224a0e12a50ad1e61ab0599600579",
@@ -6466,7 +6465,14 @@
       "method": "h14ReplayReturn",
       "baseline_sha256": "ff2ba5584402b1df1db99e57cfcca696de315f5ba8ea9f44227c33b3bc901cc9",
       "candidate_sha256": "de4cd9b989221c6726e21d07dfbe6ffa0d144bc1868731a9d0b2b32b035dc7c6"
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Travel",
+      "baseline_sha256": "4c0e013d91f6beb2da362de10e68d82f7fe22f69edeeaf4c76455e9a196c4395",
+      "candidate_sha256": "7a13715b275100d189071dde6407a128a916d0f7c8bca7f487e1d3a93d6eb391",
+      "reason": "QUIET-TAG-FIX.md: use original OBJ_EXIT_LIVING after host travel; no other guard changes."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate."
 }
