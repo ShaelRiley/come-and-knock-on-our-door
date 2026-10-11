@@ -1,9 +1,9 @@
 {
-  "status": "HANDOFF_RENDER_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
+  "status": "LATE_UI_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "faaedb895b5f7428f929dd37f4415b93a68e37602e67a32446682093c37d71cc",
+  "compiled_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -41,6 +41,11 @@
       "sha256": "cb341e8f03ef8935e9d45b9b26998dee78d542df02993b52bb4f444ddbf3d6d0"
     },
     {
+      "path": "LATE-UI-FIX.md",
+      "bytes": 5216,
+      "sha256": "d3938680a65e79750369a4316ed6405acd097d8b0e99453de964208ef9801a95"
+    },
+    {
       "path": "LICENSE.md",
       "bytes": 1196,
       "sha256": "9de40481abc5670d0c51257605b9cbd21cc469a1d74e57dbc5ace209ed4a2b71"
@@ -62,8 +67,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4087,
-      "sha256": "75422d69c9c42e731b87999cbc9ab17461a4acc2c7a925d7c754924474b1c180"
+      "bytes": 4109,
+      "sha256": "4bdc32619e316e6699843e56db10b82eb563edf4e88733c1bd965b6f56581526"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -77,8 +82,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 8324,
-      "sha256": "d20032d22a3fd76cefcb3cdbedb4749123a8b4ca144af26f3b4434686644538f"
+      "bytes": 9826,
+      "sha256": "d8ac5b3c546432c351877faec8bf4d894a20f981aa2ac02b942b13df6c401428"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4317,13 +4322,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2400,
-      "sha256": "7e5a1d7e9ff16391d14d2daafcaca432a55008ad10bf9a0b2ca39d764584b6a2"
+      "bytes": 2386,
+      "sha256": "847ea13748621da2e01c61c7ce5d882f2451c91ef5181fde3095fe10a3517cde"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 317498,
-      "sha256": "95b05a426316e3bc205b103a98835dcc4fe3a10146e0f44b126c3ddb1adfea98"
+      "bytes": 325535,
+      "sha256": "e0bff012d345ea3b6fcfe830c52711da1a39f236ec183b3c9e094ed5288f3022"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4333,7 +4338,7 @@
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
       "bytes": 17283,
-      "sha256": "dff2171c92f7529bac8a4232eac06b4c118b17994a02cb570e594ccbcfaaab75"
+      "sha256": "c7a44df590258085eb78871d57fb832f22c6a9758632fb4d1ba8028caf1e64c0"
     },
     {
       "path": "source/LICENSE.md",
@@ -15897,8 +15902,8 @@
     },
     {
       "path": "source/src/main.sc",
-      "bytes": 331646,
-      "sha256": "5baa7bc4f5bfb690a6a5585f4fa65c0fd9e0c573ac74f2ee7af35a1983527c1f"
+      "bytes": 331813,
+      "sha256": "ea9fe931c6096c6a415b2ae4bbed034243bac7b0e4569098a7c107e4c68d086c"
     },
     {
       "path": "source/src/module941.sc",
@@ -16082,8 +16087,8 @@
     },
     {
       "path": "source/src/module991.sc",
-      "bytes": 85782,
-      "sha256": "68a18fd5b5bdc9aae4c84d930a7cfc11546a00bce07d6d84d5bd8ed50d277f8f"
+      "bytes": 85928,
+      "sha256": "4854af1c831e2628d8687d82be55dd153fb43459223aa8c80a5f16ec072ccc74"
     },
     {
       "path": "source/src/module992.sc",
@@ -16097,13 +16102,13 @@
     },
     {
       "path": "source/src/module994.sc",
-      "bytes": 100918,
-      "sha256": "85114ff6d0080c17b8df90ec4fb7020d667a8bf657f427dc17a0dcecb617c20e"
+      "bytes": 101577,
+      "sha256": "b72aea8cf98afc43cde9454c97a9b4f2539da4efa85d4c5fb4298d494c26f39a"
     },
     {
       "path": "source/src/module995.sc",
-      "bytes": 128051,
-      "sha256": "53814b3159d7ec1967566bc07d594ec1041271095835694cde678ab17a638c00"
+      "bytes": 128831,
+      "sha256": "fe1009238a2362ed4dff44399a321ea757afee631440778a44b99d95733a0117"
     },
     {
       "path": "source/src/module996.sc",

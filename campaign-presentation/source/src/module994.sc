@@ -12,7 +12,7 @@
 [h12VoiceFrame 8]
 
 [h12LaughEvent 9]
-[h12RenderMemo 1]
+[h12RenderMemo 2]
 )
 (define OBJ_FRONT_DOOR 1)
 (define OBJ_BUNNY 2)
@@ -1166,14 +1166,18 @@
  (return 1))
 
 
-(method (h12Active &tmp h p)
+(method (h12Active &tmp h p good)
+ (if (!= self (ScriptID 994 0)) (return 0))
+ (if (and [h12RenderMemo 1] ((ScriptID 993 0) h11ReadMemo:)) (return 1))
  (= h (ScriptID 0 0)) (= p (ScriptID 993 0))
- (return (and (== self (ScriptID 994 0)) (p h11OwnerReady:) (p p11Ready:)
+ (= good (and (== self (ScriptID 994 0)) (p h11OwnerReady:) (p p11Ready:)
   (p h11OwnerValid:) (p p11Validate:) (p p11Present: 5) (p p11Complete: 8) (p p11SincereComplete:)
   ((ScriptID 992 0) h10Valid:) ((ScriptID 992 0) p10Ready:)
   ((ScriptID 989 0) h8EveningCommitted:) (not (h opening?)) (not (h paused?))
   (not (h menuOpen?)) (not (h uiFailure?)) (not (h bridgeFailure?))
-  (not ((ScriptID 985 0) hBarrier:)) (not ((ScriptID 987 0) h6Barrier:)))))
+  (not ((ScriptID 985 0) hBarrier:)) (not ((ScriptID 987 0) h6Barrier:))))
+ (if (and good ((ScriptID 993 0) h11ReadMemo:)) (= [h12RenderMemo 1] 1))
+ (return good))
 (method (h12ActorRoom obj &tmp p s)
 (if ((ScriptID 995 0) h13Has:) (return ((ScriptID 995 0) h13Room: obj)))
 
@@ -1689,8 +1693,11 @@
  (= [h12Lease 0] 2) (h dirty: 1) (return (self h12SuccessorValid:)))
 (method (h12CollectionDestination i) (switch i (0 (return 2)) (1 (return 1)) (2 (return 0)) (6 (return 4))) (return 3))
 (method (h12CollectionReady &tmp i)
- (if (or (!= [h12Lease 0] 2) (not (self h12SuccessorValid:))) (return 0))
- (for ((= i 0)) (< i 7) ((++ i)) (if (not [h12Actors (+ 92 (* i 12))]) (return 0))) (return 1))
+ (if (or (!= self (ScriptID 994 0)) (!= [h12Lease 0] 2)) (return 0))
+ ; An absent arrival already guarantees failure. A complete set still needs
+ ; the identical strict predecessor, route, room and painted-arrival proof.
+ (for ((= i 0)) (< i 7) ((++ i)) (if (not [h12Actors (+ 92 (* i 12))]) (return 0)))
+ (if (not (self h12SuccessorValid:)) (return 0)) (return 1))
 (method (h12SuccessorFrame phase &tmp h b same)
 (if ((ScriptID 995 0) h13Has:) (return 0))
 
@@ -1699,8 +1706,8 @@
  (if (not [h12Lease 0]) (return 0))
  (if (not (h h11RenderLive:)) (self h12SuccessorRetire:) (return 0))
  (if (== phase 2) (self h12SuccessorPaint:))
- (if (or (not (self h12SuccessorValid:)) (h opening?) (h paused?) (h menuOpen?) (h uiPanel?)
-  (h motionPhase?) (h bridgeReaderActive?) (h onApron?)) (self h12SuccessorRetire:) (return 0))
+ (if (or (h opening?) (h paused?) (h menuOpen?) (h uiPanel?) (h motionPhase?)
+  (h bridgeReaderActive?) (h onApron?) (not (self h12SuccessorValid:))) (self h12SuccessorRetire:) (return 0))
  (if (== phase 0)
   (if [h12Crossing 0] (self h12SuccessorCancel:))
   (self h12SuccessorRetire:) (= [h12ActorFrame 0] 1) (= [h12ActorFrame 1] (h location?))
@@ -1787,8 +1794,8 @@
 
  (= h (ScriptID 0 0))
  (if (or (== phase 0) (== phase 4)) (= [h12WelcomePaint 0] 0) (return 1))
- (if (or (not (self h12Active:)) (not (self h12SuccessorValid:))
-  (!= (h location?) 4) (h onApron?) (h motionPhase?)) (return 0))
+ (if (or (!= (h location?) 4) (h onApron?) (h motionPhase?)
+  (not (self h12Active:)) (not (self h12SuccessorValid:))) (return 0))
  (= kind (if (self p12Present: 7) 7 else (if (self p12Present: 5) 5 else 0)))
  (if (not kind) (return 0))
  (if (== phase 2)
@@ -2124,11 +2131,14 @@
 
 (method (h12RenderReset)
  (if (!= self (ScriptID 994 0)) (return 0))
- (= [h12RenderMemo 0] 0) (return 1))
-(method (h12RenderClose &tmp used)
+ (= [h12RenderMemo 0] 0) (= [h12RenderMemo 1] 0) (return 1))
+(method (h12RenderClose &tmp used admitted good)
  (if (!= self (ScriptID 994 0)) (return 0))
- (= used [h12RenderMemo 0]) (= [h12RenderMemo 0] 0)
- (if (not used) (return 1))
- (return (self h12SuccessorValid:)))
+ (= used [h12RenderMemo 0]) (= admitted [h12RenderMemo 1])
+ (= [h12RenderMemo 0] 0) (= [h12RenderMemo 1] 0) (= good 1)
+ ; Reuse is disabled. Each used predicate runs strictly even if the other fails.
+ (if (and admitted (not (self h12Active:))) (= good 0))
+ (if (and used (not (self h12SuccessorValid:))) (= good 0))
+ (return good))
 )
 (instance p12State of P12State)

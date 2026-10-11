@@ -30,7 +30,6 @@
       "uiHostItemLabel": "d531580ccaffcbc7c2abb89f8c0166201d24ad268ef4552f30ff4836553b5821",
       "uiHostIsReturn": "a59cc18da4557607e6c450c8a403f3b1f0001768474bbd1df418db439ebd9168",
       "uiHostDefaultVerb": "13e5036efef047d1f1413d6297a8d2805f9ac2ef30705e90715331b1cfdc7990",
-      "uiHostWorldControls": "a725d21555d811dc4d22fb81cdec92b35f8a0bda0aa86e4f4e106c8b5e1cda1b",
       "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
       "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
       "motionScale": "8a75bcd039801eef52dd6b48d61edf185798d4ed08a89dd0f2da1e5dbfc0b790",
@@ -116,7 +115,6 @@
       "uiOpenInline": "085addb08628f02588c0f75d65d43d24b16d8db848e6560cf7977948c9b30ab4",
       "uiClose": "8e0b3e6f1c7f6e7e36a44e095cb742666e5fbbb0c9abf0d7fd44e80825c93a14",
       "uiTurnPage": "66c850d14fad531ad57d1f0dd11542ed27c8bea1c7191549eae05bd0c293b435",
-      "uiActivate": "386fce98e9deed17c84c586ff90643a9aaef48f9f6aa5e0bc79823e0dd90648f",
       "uiComposeSentence": "5488dc22f014ce73752ea93980e32da934f7e2bdcc38430b3c53933f9e529827",
       "uiFrame": "968587728f9e0e58aa0b5a51f004cb239b2c88c82a7978a611bb012c3ec545ab",
       "uiRender": "52ca4cb93122b7c22243eddb13fd20325f4c39085502c70f477d29fc0d2e32a4",
@@ -1395,7 +1393,6 @@
       "p04Felix": "a0dc3f52397e39965be8fadb10625e39f125fae7b8ca2e0fefeea18f44e8dc90",
       "h8VF": "34128ccc2eb705950568ffd6cea8283a20e80529be6b537ec24e223053a32774",
       "h8ReaderMap": "6395f3a79626155ef5309346a37ee99ed2ede253085abde237e79b49df31efd4",
-      "h8VD": "be70536bbe6891b81d15ec30cba59d7da7af2d3cc5ca201176d2ed2b07cbff37",
       "h8VR": "05c1cb4a0f0b32b99c8f109c4465ccaafe02fcf822ba90ee4d43b5a2d666530d",
       "h8VC": "6e57190f82a8e51fd5ef8c5341d1df6caadcdb6ff2d4b3e07ec25f766c4f3864",
       "h8GB": "b889ec9a0dbfda88e47e0e6ef72dcfba5286346f68a8f4e283ccb70b83fa804a",
@@ -1723,7 +1720,6 @@
       "p12DoneSlot": "bd4806a96ef8c4e3d3807e1df20fd1a644d754240b469dc7a581213e35162f6f",
       "p12ValidateContext": "4fcf5efca23b6602eba0cdac63b79f95777d4ae74452ccca20e9e57855e9de0b",
       "p12Validate": "3551c402e3ee7431f9f53c2b711353cef53b8156e661d586a0027213fb85c3fe",
-      "h12Active": "328920528194f6a4b746ad7b0bfd3d23388da70acafe9677fa0ac6325cad756f",
       "h12ActorRoom": "99b840fce673038f87d432c5d89dff0076244c1b331db7d840f6cb95cb051a5a",
       "h12Fact": "896c9b60e679045cd4e00ab295ceff71af6436dd597e3b6a4cb6a0c2df27b1a4",
       "h12Custody": "6b9545b673185dbc14850d28f46429cff7b94597724ebba328874f497be7ba33",
@@ -1770,8 +1766,6 @@
       "h12Gathered": "098d6b273026f6414204ae5d21254e8272c2b8935e3ed3bbd17653d6d6470bcf",
       "h12CollectionStart": "df3116cc195444a2a5dd85092c542ddf0b97605ab7df99b4487bbabeb9301eee",
       "h12CollectionDestination": "02305aa9df775c58a22880d52de854a377c1e728f2f92248d429688802415427",
-      "h12CollectionReady": "c3bd7b7d8ef4345c471cd6e578ad9bcf18ce199344c3af52a8766e83a881c9fa",
-      "h12SuccessorFrame": "ee0c92edb3d8fe3730298c75359117d09156a7cc2463948409ebf6f9461ad458",
       "h12SuccessorX": "3ff20be8356818e25c86f034fb9f522bf76570fbfa5bbef14af785939ccd8865",
       "h12SuccessorView": "db30387c786d779689ee8e22d1cae6bf5b8d029cafac17caa1eaf26325c782f9",
       "h12SuccessorPaint": "091e6578acac3a50f5e6ec57027a97e96cc0a9e68640ea8ab84db2c1d4598ad4",
@@ -1780,7 +1774,6 @@
       "h12SuccessorDispatch": "ecdc823209dba958ef0ca95d3907dad619acc15fce0cd12e20729f631fef122d",
       "h12SuccessorChoice": "8a7c8efc39f7000c0dcb4bf81fce0d4be2a6f9ffdc0309eebb27873bff27c88a",
       "h12SuccessorSave": "789b33dc0c719cb258115a6ebb6810a088736cf261ac3ff3e74fa8b1f8798a36",
-      "h12WelcomeFrame": "ecc9550cf05718368525cedc37e11de92574172c9ce33183fe52a8e58c009f71",
       "h12WelcomeVisible": "565e166ea57b53ac5755246e0044cf415e78eda367429ac40fe8db3b90ce217e",
       "h12WelcomeChoice": "c948c31c3d4033e6e57c252a7bf3c34cf8978b9cf601909107d8c80357c9b158",
       "h12WelcomeComplete": "6315ee6a719587c2b4b1bed87bd9c88df870fbaf980db486649cd2b5d6677d1a",
@@ -1889,7 +1882,6 @@
       "h13Object": "e28782a5bf1ce07bc8795851cd9853255f40d78be8d4b6276adafade9c13b26c",
       "h13Index": "ee48012fb18bd04f0c1a2901546a416dd46a8e61a88af7cd2282e6b731a64719",
       "h13Bit": "ebe4e8ab0a05dc2d663e86ed0f4071053980f61d728be062687a6353a5a29cd3",
-      "h13Baseline": "e49a255126e4e65a7f7e514c68268b06e0b107b897c46422c4a6172796532ee9",
       "h13Historical": "26716bc86042a4b0671eb6c4c04aeb0f4f2a9d83adff772d5fe6876fcdbfdc3b",
       "h13Room": "65ab3a307240112611d21694eb373155fb582cc0932fdfabc149634c8fc3a7ab",
       "h13Owns": "3a93b7587769b3a48feb29b3ddb23f152fc16fc744ae244485c1b3b3ce8cef72",
@@ -1914,8 +1906,6 @@
       "h13Stored": "46201a979fcd3af3f19ccc9abb12d8b5dcf80078b81545f1ef769f74d3a5dd64",
       "h13Controls": "14c8e7cf3891225cb39eb8d877af513289551fa946d99618e35bb54825cc081d",
       "h13Control": "f1e86833c2c3bb99f03353ea577297f99e0b0834c445a15723456b2a5981fe73",
-      "h13PaintWorld": "1029c326a18ad7ae9668beb06fef0d03d87df930db82f94401341010c2c90f42",
-      "h13WorldFrame": "3af1986899f2a42dcd914cc0ad6d6419751e307514523bf204162fa3d1e665d4",
       "h13Open": "5704d0e1661c25954a5d8d80ecadcfe27fdbf4f83ff87fdba3384691055c1299",
       "h13ReaderCheck": "c799e575428492ff8acb28a05441cfb64a04494d5c7b5d9b1fb719eec3aabbd3",
       "h13Frame": "a9ef43150f4244b327ca7d7e45c89ea7de59e99747c0cea8ae258c8ba5509620",
@@ -1923,7 +1913,6 @@
       "h13Mouth": "998af90ae6e476501a702a4b8aecedc78375edbc4b99da5f6f76f3fe0c6b3ce5",
       "h13OpenWork": "cb5ecf7e07021cfa5a744cdfa78584f28cdcda8758416a2eff4de2fe039116b0",
       "h13WorkReaderValid": "e496313cd8285188c34e6cd48dadbdc9ca813ea4e5b0230e03226e30ae4c835b",
-      "h13Menu": "e3eb3aaf1a66c8889a57b648122cf018e5e636a785ab3479f811d4d82b9e4799",
       "h13Dispatch": "f770b8095500977985c72f369c99df2090076677ccf66873bc0e8a8f0fde7502",
       "h13Choice": "83c4034fa3d1de4b12c08e66a68863345f681cc3e6da176162b30cd8df26a392",
       "h13Furniture": "4f5d3c76d83ade35d9c60c31a77cce7d9fe8464e98c822e5057ec23a75608a5b",
@@ -1933,7 +1922,6 @@
       "h13DeliveryValid": "583bd1fb7f4b7ade385a1364d9d8ef0e9e952892f1d4ff74d957b3d3d2b4999a",
       "h13WorkValid": "0c4105188f6f2f496fb166199fefe44bf5234910e6986f70dbf99834b7609bc9",
       "h13FinishDelivery": "ff55c47a048693d58a3b2c2aae3bf7deb8df5593315f10b9eb880600e856d98e",
-      "h13InputFrame": "871de2c087f70cd707f1e199e3a7bd74f42681d89752a9ad5e051cd0cdeb5594",
       "h13Fresh": "0b34ba66c7130f366d5ad5ba69abc292dcd1e360c93d1b5b43a1c93bd65c8500",
       "h13ServeShown": "1192e7d1a476a40a484598e5dd272ccc3c3e7b6558adc6bb83978f8e6acad8ac",
       "h13WrongDrop": "65e7f36f5346c7243585d45ca9d153a59191c31552267c4b569d59c32def1bba",
@@ -6503,8 +6491,10 @@
       "file": "main.sc",
       "method": "uiCancelSentence",
       "baseline_sha256": "2a593ead800d37e3cef8c65852e9baec257405154310584e8e68dc934ca61e43",
-      "candidate_sha256": "134712bc89525698e60374318deb920fbd0a848443788ea4bdf0c0e7f27ce55d",
-      "reason": "HANDOFF-AND-RENDER-FIX.md: retain accompanied travel for a real room-exit shortcut; other sentence cancellation and every route/ownership/arrival guard remain in place."
+      "candidate_sha256": "8f0d579f2141fc1804ec6beb93abf975e38353f04ddb0c7a78161ba9ae05d00d",
+      "reason": "HANDOFF-AND-RENDER-FIX.md: retain accompanied travel for a real room-exit shortcut; other sentence cancellation and every route/ownership/arrival guard remain in place.",
+      "latest_review_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd",
+      "latest_review_reason": "LATE-UI-FIX.md: comment-only clarification of the two callers that supply a real exit. The guarded cancellation implementation remains identical."
     },
     {
       "file": "main.sc",
@@ -6547,6 +6537,122 @@
       "baseline_sha256": "12e30b3028fc45af20bc0d648b528dce0b063f5e1ac4819a22c024694e009bfc",
       "candidate_sha256": "6883af64b516b115b40db6bad6cb998af0b246096ed109070036d195e01aa2ea",
       "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiActivate",
+      "baseline_sha256": "386fce98e9deed17c84c586ff90643a9aaef48f9f6aa5e0bc79823e0dd90648f",
+      "candidate_sha256": "c8be6719b50020447be3bcfa5be8635c27a3657338d482a73e678cb9e0476711",
+      "reason": "LATE-UI-FIX.md: the labelled ENTER control supplies its existing exit payload to the same guarded sentence cancellation, preserving genuine companion and delivery requests; all other control dispatch remains identical."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiHostWorldControls",
+      "baseline_sha256": "a725d21555d811dc4d22fb81cdec92b35f8a0bda0aa86e4f4e106c8b5e1cda1b",
+      "candidate_sha256": "4922e8e7f0a7ba1caeb0ba553ec87caa8075ff25a824b7621c4c968a697094a3",
+      "reason": "LATE-UI-FIX.md: append P13 then P14 authoritative controls after the unchanged earlier-world controls, matching reverse hit testing and scene succession. Preserve all control membership, rectangles, ownership admission and progression checks; only correct their hit-test priority."
+    },
+    {
+      "file": "module991.sc",
+      "method": "h8VD",
+      "baseline_sha256": "be70536bbe6891b81d15ec30cba59d7da7af2d3cc5ca201176d2ed2b07cbff37",
+      "candidate_sha256": "6d99aba4e65034a7b847e23e980cb04a36d72d6ce358bf303f4b4c509c97740f",
+      "reason": "LATE-UI-FIX.md: suppress only the two stale evening actor draws after the P12 successor owns Milo or Vivian. Preserve the original layout, earlier rendering, mouth selection, Jack draw and progression/paint guards."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12SuccessorFrame",
+      "baseline_sha256": "ee0c92edb3d8fe3730298c75359117d09156a7cc2463948409ebf6f9461ad458",
+      "candidate_sha256": "cfb9717eb7f06caffe74b79e916c5e33ccc2c0da17dbbfab1830020e93bd107d",
+      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12WelcomeFrame",
+      "baseline_sha256": "ecc9550cf05718368525cedc37e11de92574172c9ce33183fe52a8e58c009f71",
+      "candidate_sha256": "046a73d4daed71e5c3b32f05601d37a861a0ab973f45b54ce0aec14bae444e8e",
+      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12CollectionReady",
+      "baseline_sha256": "c3bd7b7d8ef4345c471cd6e578ad9bcf18ce199344c3af52a8766e83a881c9fa",
+      "candidate_sha256": "b7727868c48790b71f457d21ae8b32d80de31fe4846fd12e62d9f6b84deb1e90",
+      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13WorldFrame",
+      "baseline_sha256": "3af1986899f2a42dcd914cc0ad6d6419751e307514523bf204162fa3d1e665d4",
+      "candidate_sha256": "6afaa9887f31de09aff992b164282ce10fdeebc100f10b5d83fbdebac45eca7e",
+      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13InputFrame",
+      "baseline_sha256": "871de2c087f70cd707f1e199e3a7bd74f42681d89752a9ad5e051cd0cdeb5594",
+      "candidate_sha256": "e849eb7aea5dc7b3db89ec463f4763d8b70aa905d5f3ff79fa814afe575c5cec",
+      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13PaintWorld",
+      "baseline_sha256": "1029c326a18ad7ae9668beb06fef0d03d87df930db82f94401341010c2c90f42",
+      "candidate_sha256": "8915b4bc97ed97eb18de7e85bcc87a41d0279443c1c8b951c1bf59a975f5f3e8",
+      "reason": "LATE-UI-FIX.md: show the genuinely held program at its existing ordinary item-control rectangle, outside menus/readers, and allow the complete PLEDGES label to fit on one line. Retain all original object, scene, paint, ownership and progression checks; neither draw changes any gameplay state."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13Menu",
+      "baseline_sha256": "e3eb3aaf1a66c8889a57b648122cf018e5e636a785ab3479f811d4d82b9e4799",
+      "candidate_sha256": "f61b9a6810c63e21be2ed09edf08a7d211bd9b9ba92a3cd5800d32e01920cfa4",
+      "reason": "LATE-UI-FIX.md: reflect the existing strict admission in three menu enabled flags: guest-program reading belongs to Courtyard, Rita readiness requires the actually painted SERVE result, and her presentation requires the actually painted open screen. Preserve every domain, source, speaker and physical-scene validation; no new progression grant."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12Active",
+      "baseline_sha256": "328920528194f6a4b746ad7b0bfd3d23388da70acafe9677fa0ac6325cad756f",
+      "candidate_sha256": "3a28ddb56dd9842ae7169e0b01ee9cd18f9035f2baa9125f9bdf1c1e53b8e4a8",
+      "reason": "LATE-UI-FIX.md: reuse only a successful original admission inside the existing guarded read-only render scope; retain every original predicate operand and re-run it strictly on close before any frame acknowledgment. Never reuse across input, travel, save or render invocations."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12RenderReset",
+      "baseline_sha256": "7a01c9ee36cc2cedadf383d061639c78cea2c7d9279352c6597b7c5b13c4c3c2",
+      "candidate_sha256": "502a4987dbd11795c35dabbede2350d568756a8f6ec56245b63bb8492a67f358",
+      "reason": "LATE-UI-FIX.md: clear both existing history and successful-admission memo flags at the start of each guarded render.",
+      "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12RenderClose",
+      "baseline_sha256": "7b66c5a797f16f0d118b46c5bfba71fd9a07bc0d3fb7ad71ee389a843073bacb",
+      "candidate_sha256": "2eabc4c621400b5ae71a3cd10c34d77657d84bef93add897324a0afd983df99d",
+      "reason": "LATE-UI-FIX.md: disable both render memos and strictly repeat every used original predicate, even after another close check fails. The existing Main success gate and post-close phase1 acknowledgment stay unchanged.",
+      "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13Baseline",
+      "baseline_sha256": "e49a255126e4e65a7f7e514c68268b06e0b107b897c46422c4a6172796532ee9",
+      "candidate_sha256": "70e743a87a5667ad761371bb1136e48ff21bb39ceb5d8cdfa010475fd69ac4fb",
+      "reason": "LATE-UI-FIX.md: reuse only a successful original admission inside the existing guarded read-only render scope; retain every original predicate operand and re-run it strictly on close before any frame acknowledgment. Never reuse across input, travel, save or render invocations."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13RenderReset",
+      "baseline_sha256": "5879a8aeea7ae05992fb68bc8f4fb6d83b07fa9d33b8309620cd62e0c1ae3b26",
+      "candidate_sha256": "b9067aae11897e6bb350314e8b375631ec2128a6df06647dc61ee525a115ce31",
+      "reason": "LATE-UI-FIX.md: clear both existing history and successful-admission memo flags at the start of each guarded render.",
+      "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13RenderClose",
+      "baseline_sha256": "b3e5430974e8bb0bd722cacf32b35bcca3573366520b8aa9bc47a694a6af719a",
+      "candidate_sha256": "b3447101faa53ba0a0fdc1e1fdf285013f60938c929a137416a47c5f5adf6a83",
+      "reason": "LATE-UI-FIX.md: disable both render memos and strictly repeat every used original predicate, even after another close check fails. The existing Main success gate and post-close phase1 acknowledgment stay unchanged.",
+      "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned."

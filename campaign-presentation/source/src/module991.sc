@@ -2619,7 +2619,9 @@
   (if (or (< mouth 0) (> mouth 2)) (= mouth 0))
   (if (and (== ((owner p05?) hVCEncounter?) (if i 2 else 1)) ((owner p05?) hStageActive:) ((owner p05?) hStagePose: 2))
    (if i (= mouth 3) else (= view 330) (= mouth 1)))
-  (DrawCel view loop mouth x 61 -1 104 104))
+  ; The successor paints each actor at its actual current room and grid slot.
+  (if (not ((ScriptID 994 0) h12SuccessorHas: (if i 85 else 28)))
+   (DrawCel view loop mouth x 61 -1 104 104)))
  (if (and ((owner p05?) hStageActive:) ((owner p05?) hStagePose: 1)) (DrawCel 330 1 0 145 63 -1 127 127)
  else (owner drawJack:)) (return 1))
 

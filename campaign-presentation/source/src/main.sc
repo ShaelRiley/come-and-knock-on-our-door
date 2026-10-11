@@ -3110,10 +3110,10 @@ creditReducedMotion 0
 
     ; Delivered offset0x2933; 597 original instructions
     (method (uiHostWorldControls)
-((ScriptID 996 0) h14Controls:)
-
-((ScriptID 995 0) h13Controls:)
- (self h7BaseControls:) (if p07 (p07 h7Controls:)) (if p08 (p08 h8ClothControls:)) (if p08 (p08 h8RouteControls:)) (if p09 (p09 h9UI: 0)) ((ScriptID 992 0) h10Controls:) ((ScriptID 993 0) h11Controls:) ((ScriptID 994 0) h12Controls:) (return 1))
+ (self h7BaseControls:) (if p07 (p07 h7Controls:)) (if p08 (p08 h8ClothControls:)) (if p08 (p08 h8RouteControls:)) (if p09 (p09 h9UI: 0)) ((ScriptID 992 0) h10Controls:) ((ScriptID 993 0) h11Controls:) ((ScriptID 994 0) h12Controls:)
+ ; Reverse hit testing gives the latest scene's visible people and loads
+ ; priority over older prop rectangles. Ownership guards stay unchanged.
+ ((ScriptID 995 0) h13Controls:) ((ScriptID 996 0) h14Controls:) (return 1))
 
     ; Delivered offset0x2e28; 383 original instructions
     (method (approachX arg1)
@@ -6295,7 +6295,7 @@ creditReducedMotion 0
 
     ; Delivered offset0x5ea5; 13 original instructions
     (method (uiCancelSentence travelObject &tmp keepTravel)
- ; Only the world shortcut supplies an exit. Ordinary Escape/back/cancellation
+ ; The world shortcut and labelled ENTER supply an exit. Escape/back/cancellation
  ; calls supply no argument and keep the original cancellation behavior.
  (= keepTravel (and argc (not uiPanel) (not onApron) (not opening)
   (not paused) (not menuOpen) (!= (self p02Exit: travelObject) -1)
@@ -6786,8 +6786,9 @@ creditReducedMotion 0
             eq?
             bnt L_632a
             pushi 277
-            push0
-            self 4
+            push1
+            lst 1
+            self 6
             pushi 298
             pushi 3
             push0
