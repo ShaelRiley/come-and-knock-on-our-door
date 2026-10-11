@@ -123,5 +123,15 @@
   "current_blocker": "NATIVE_DESKTOP_OBSERVATION_AND_INPUT_UNAVAILABLE; no completed player release",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
-  "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md"
+  "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
+  "native_session_preparation": {
+    "report": "NATIVE-SESSION-20261011.md",
+    "launcher": "source/native_session.py",
+    "exact_staged_game_files": "PASS; 1759 unchanged files",
+    "launcher_guard_checks": "PASS; 6 checks; capability probes are fixtures",
+    "native_runtime_launched": false,
+    "native_acceptance": false,
+    "environment": "ScummVM absent; no graphical display or native desktop controls; package sources fail DNS resolution",
+    "required_next_step": "Continue genuine stock-ScummVM acceptance in a desktop-capable developer session"
+  }
 }

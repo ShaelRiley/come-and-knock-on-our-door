@@ -1,5 +1,11 @@
 # Come and Knock on Our Door: reconstructed candidate, native acceptance pending
 
+For native continuation, `source/native_session.py` verifies the exact staged
+candidate and prepares an isolated stock-ScummVM session with private saves.
+All six launcher guard checks pass. See NATIVE-SESSION-20261011.md for developer
+setup and resume commands. A desktop-capable session is still required for the
+remaining full-game playthrough; no native acceptance is added by this helper.
+
 The interrupted candidate has been reconstructed in a fresh checkout on October 11, 2026. All 46 modules and the complete staged game reproduce the prior candidate hashes. Four static cases and six emitted presentation regressions pass. The current session lacks native desktop observation and input, so the required manual stock-ScummVM playthrough remains blocked. See RECOVERY-20261011.md and checks/recovery-20261011/RESULTS.json. No native game was launched or completed player release published during recovery.
 
 All 46 modules have compiled and staged. A genuine New Game on frozen source `7ccc3c1f2348419536646582d2029cf3f7956bca` completed the automatic opening, puzzles 1–11 and three actual contest wins with Music ON. Genuine saves/restores and opening controls passed. Puzzle 12 was in progress; Bunny's escort survived the labelled left ENTER and physically reached Living. The live terminal then disconnected, and read-only workspace recovery did not complete. NATIVE-ACCEPTANCE-20261011-SCOPED.md records the scoped passes, observer corrections and exact testing boundary. Puzzles 12–14, the fourth contest and the complete ending/58 credits remain unverified. No completed player release is published. If private saves cannot be recovered on identical game bytes, reconstruct this public source and repeat a genuine New Game in an empty Save Path. LATE-UI-FIX.md documents the source corrections. Earlier reports remain historical evidence.

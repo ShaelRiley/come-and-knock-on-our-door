@@ -28,3 +28,15 @@ held-program selection/visibility, the guest program's room restriction,
 Rita's painted serving/screen requirements, and the one-row pledge label.
 They do not earn campaign progress or establish pixels, native saves, actual
 deliveries, contest wins, acoustic quality, performance, or native acceptance.
+
+After staging, check native-session preparation with:
+
+    python native_session.py --check-game
+    python tests/check_native_session.py
+
+The file check verifies the exact frozen game bytes. The six launcher guard
+checks cover candidate/runtime identity, existing-save preservation and
+configuration reuse. Their runtime capability probes are fixtures; they do
+not launch ScummVM or establish native acceptance. The separate launcher uses
+ordinary stock ScummVM with private saves when a desktop-capable development
+session is available. See ../../NATIVE-SESSION-20261011.md.

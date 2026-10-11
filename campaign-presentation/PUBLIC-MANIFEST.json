@@ -61,6 +61,11 @@
       "sha256": "8f3a94896050330a077207ef4a749bdf4fda1794b85eb30dcfda8ac29dd52881"
     },
     {
+      "path": "NATIVE-SESSION-20261011.md",
+      "bytes": 3423,
+      "sha256": "e6d4a27dc74219590db663f053360a8c7d8f9fe355244ea47660abd7e4349736"
+    },
+    {
       "path": "PRESENTATION-LABEL-FIX.md",
       "bytes": 3038,
       "sha256": "99223724d6986f6c8bd223a1ef6ba75ba8e0761e7d03d7ce487d0a06d55f8dc8"
@@ -77,8 +82,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4717,
-      "sha256": "c7b40cada34ff52a76d3d79d563ff6698d689db23aedd304aa8f6694426f8143"
+      "bytes": 5112,
+      "sha256": "37f9882f4d6e36a2eac3a3ecf4a0a3bc8ab1295bdb657b827fbf791da7f7fded"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -97,8 +102,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 11348,
-      "sha256": "cf9eb9209d60bc275bbc63898f27e38b6ac48ec436bbde25377845cb285f5b10"
+      "bytes": 11917,
+      "sha256": "acc2a4131b5f46022329fa5fb1a2b550ae2302ccc0b8945075f392da020a6bb2"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -15861,6 +15866,11 @@
       "sha256": "fcdd14d62451b2ab5e52bd8014c57a123f5eb4520e7ba913eb91be73fbad5b82"
     },
     {
+      "path": "source/native_session.py",
+      "bytes": 11098,
+      "sha256": "01f24c9fe7568949d97014f18adce6803a66bdba0f874120ac135f2a95ea6cb5"
+    },
+    {
       "path": "source/player-package/CREDITS.txt",
       "bytes": 38597,
       "sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
@@ -16162,13 +16172,18 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 1941,
-      "sha256": "649b63f25712d6077efe0b275a84f5fb7655487352e8e2ec2a5b68d9e4acc666"
+      "bytes": 2519,
+      "sha256": "012e5a50e3139eb449facb99e78418cf4700e6f6a46c3fa75a01e595f01227df"
     },
     {
       "path": "source/tests/check_late_ui.py",
       "bytes": 7472,
       "sha256": "6a772919073b7b4adebc3bf3bdc887f6c3f9a1e303c19b266c70e937ca20c4a3"
+    },
+    {
+      "path": "source/tests/check_native_session.py",
+      "bytes": 6763,
+      "sha256": "664010e76c73dc221b56ce0b370c2b10670f3c2d474a19da6c156e4d12021afd"
     },
     {
       "path": "source/tests/check_presentation.py",
@@ -17317,5 +17332,8 @@
   "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
-  "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md"
+  "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
+  "staged_game_file_map_sha256": "269da8264540dab06e88fa1aa087c84448f3e7d548be673b87afdb56fee288ec",
+  "native_session_launcher": "source/native_session.py",
+  "native_session_report": "NATIVE-SESSION-20261011.md"
 }
