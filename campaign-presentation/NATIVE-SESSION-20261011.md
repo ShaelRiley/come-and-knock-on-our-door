@@ -52,7 +52,7 @@ private saves are unavailable, repeat New Game in a fresh session.
 All six launcher checks pass: exact candidate files, forged-map rejection,
 existing-save preservation, harmless preference changes, game/audio mismatch
 rejection and required runtime capabilities/SoundFont. Runtime capability probes
-in these tests are fixtures. No native ScummVM was launched in this workspace,
+in these tests are fixtures. No native ScummVM was launched by those checks,
 and `native_acceptance` remains false. The actual file map remains
 `269da8264540dab06e88fa1aa087c84448f3e7d548be673b87afdb56fee288ec`.
 
@@ -63,6 +63,10 @@ python3 tests/check_native_session.py
 ```
 
 The remaining native scope is recorded in `NATIVE-ACCEPTANCE-20261011-SCOPED.md`.
-The current workspace lacks ScummVM, a graphical display and native desktop
-controls; its package sources also fail DNS resolution. Enabling a real native
-testing session is required to finish acceptance and release packaging.
+The workspace used for this preparation lacked ScummVM, a graphical display
+and native desktop controls; its package sources also failed DNS resolution.
+The later SteamOS recovery verified the installed runtime and preserved a
+genuine opening save, but encountered unreliable shared-display input and a
+tool permission rejection for isolated game controls. Read
+`NATIVE-RECOVERY-STEAMOS-20261011.md` before continuing. No full-game native
+acceptance or finished player release has been added.
