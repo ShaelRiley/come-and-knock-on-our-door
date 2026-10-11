@@ -1,0 +1,165 @@
+{
+  "schema": "CAKOOD_RECOVERY_CHECKPOINT_V1",
+  "date": "2026-10-11",
+  "recovered_remote_branch": "work/finish-complete-game",
+  "recovered_remote_commit": "5ed36d13fe6fcc458b3e01b46083bd17abf999d2",
+  "frozen_game_source_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+  "game_source_changed": false,
+  "native_game_launched": false,
+  "native_acceptance": false,
+  "manifest_verification": {
+    "pinned_source_files": 3455,
+    "mismatches": []
+  },
+  "compile": {
+    "status": "PASS_FRESH_COMPILE",
+    "modules": 46,
+    "receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+    "maximum_combined_script_heap_bytes": 64984,
+    "exact_prior_candidate": true
+  },
+  "staging": {
+    "status": "STATIC_STAGED_UNLAUNCHED_FINISHING_CANDIDATE",
+    "game_files": 1759,
+    "game_bytes": 143763434,
+    "typed_resources": 254,
+    "game_file_map_sha256": "269da8264540dab06e88fa1aa087c84448f3e7d548be673b87afdb56fee288ec",
+    "player_document_templates": 4,
+    "rights_files": 8,
+    "native_acceptance": false
+  },
+  "static_cases": [
+    {
+      "case": "pins",
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "native_acceptance": false,
+      "authored_audio36_tuples": 49,
+      "resources": 162,
+      "audio_files": 1757,
+      "protected": 8,
+      "score_owner_admissions": 102,
+      "max_rss_kib": 17496,
+      "wall_seconds": 0.9013728360005189
+    },
+    {
+      "case": "preservation",
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "native_acceptance": false,
+      "unchanged_core_methods": 2173,
+      "reviewed_modified_methods": 52,
+      "preserved_selectors": 4088,
+      "max_rss_kib": 21904,
+      "wall_seconds": 3.0452759740001056
+    },
+    {
+      "case": "opening",
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "native_acceptance": false,
+      "views": 8,
+      "distinct_action_cels": 64,
+      "max_rss_kib": 12800,
+      "wall_seconds": 0.006029208001564257
+    },
+    {
+      "case": "credits",
+      "status": "PASS_STATIC_NOT_NATIVE",
+      "native_acceptance": false,
+      "writers": 8,
+      "credit_cards": 58,
+      "supplementary_credit": "Applause / Blender Foundation / LeeZH / CC BY3.0",
+      "max_rss_kib": 12800,
+      "wall_seconds": 0.0005353420001483755
+    }
+  ],
+  "emitted_cases": {
+    "status": "PASS_EMITTED_NOT_NATIVE",
+    "native_acceptance": false,
+    "cases": [
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "opening_geometry",
+        "instructions": 17367,
+        "max_rss_kib": 38788,
+        "projection_cases": 66,
+        "poses": 64,
+        "native_pixels": false
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "credit_overlay",
+        "instructions": 5629,
+        "max_rss_kib": 38596,
+        "cases": 12,
+        "scope": "actual emitted overlay with read-only reader validators modeled",
+        "root_source_held_at": 53
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "laf11_wait",
+        "instructions": 948,
+        "max_rss_kib": 38600,
+        "scope": "final pose wait unit fixture; domain claim mocked and not campaign evidence",
+        "claimed": 1
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "laf11_timeout",
+        "instructions": 865,
+        "max_rss_kib": 38600,
+        "scope": "final pose wait unit fixture; domain claim mocked and not campaign evidence",
+        "claimed": 0
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "laf11_token_cancel",
+        "instructions": 851,
+        "max_rss_kib": 38608,
+        "scope": "final pose wait unit fixture; domain claim mocked and not campaign evidence",
+        "claimed": 0
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "laf11_page_cancel",
+        "instructions": 877,
+        "max_rss_kib": 38596,
+        "scope": "final pose wait unit fixture; domain claim mocked and not campaign evidence",
+        "claimed": 0
+      }
+    ]
+  },
+  "recovered_payload_technical_scan": {
+    "schema": "CAKOOD_RECURSIVE_PAYLOAD_REVIEW_V1",
+    "status": "PASS_TECHNICAL_SCAN",
+    "scope": "technical pattern and private-file inspection; rights reviewed separately",
+    "files": 10227,
+    "nested_members": 915,
+    "archives": 9,
+    "scanned_bytes": 745233879,
+    "findings": [],
+    "errors": [],
+    "rules": [
+      "private-key",
+      "github-token",
+      "aws-access-key",
+      "bearer-credential",
+      "url-credential",
+      "literal-secret"
+    ]
+  },
+  "latest_native_evidence": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
+  "current_blocker": "NATIVE_DESKTOP_OBSERVATION_AND_INPUT_UNAVAILABLE",
+  "remaining_manual_route": [
+    "P12 completion",
+    "P13 and all four physical deliveries",
+    "Fourth scored contest win",
+    "P14 ending companion travel",
+    "All 58 credit cards",
+    "Late response time and affected UI regressions",
+    "Ending controls and save/load"
+  ],
+  "unperformed": [
+    "Subjective listening",
+    "Steam Deck hardware acceptance"
+  ],
+  "player_release_published": false
+}

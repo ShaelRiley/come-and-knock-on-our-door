@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "LATE_UI_FIX_SCOPED_NATIVE_P01_P11_VC01_VC03_WORKSPACE_UNAVAILABLE",
+  "status": "RECOVERED_EXACT_CANDIDATE_NATIVE_DESKTOP_UNAVAILABLE",
   "save_lineage": "CAKOOD_PRESENTATION_LATE_UI_FIX_UNACCEPTED_20261011_R1",
   "new_game_required": true,
   "source_modules": 46,
@@ -19,7 +19,8 @@
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
     "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS",
     "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
-    "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE"
+    "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
+    "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE"
   },
   "unperformed": [
     "Complete genuine New Game lineage through P12-P14, fourth actual contest win, ending and all 58 credits",
@@ -68,7 +69,7 @@
       "applies_to_current_candidate": false
     }
   ],
-  "current_reconstruction_report": "RECONSTRUCTION-20261010.md",
+  "current_reconstruction_report": "RECOVERY-20261011.md",
   "current_native_findings": [
     {
       "candidate": "4515cdac507f5744d2043993c7895af75f57f5d4",
@@ -118,5 +119,7 @@
   ],
   "current_fix_report": "LATE-UI-FIX.md",
   "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
-  "current_blocker": "WORKSPACE_EXEC_SERVER_UNAVAILABLE; no completed player release"
+  "current_blocker": "NATIVE_DESKTOP_OBSERVATION_AND_INPUT_UNAVAILABLE; no completed player release",
+  "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
+  "recovery_report": "checks/recovery-20261011/RESULTS.json"
 }
