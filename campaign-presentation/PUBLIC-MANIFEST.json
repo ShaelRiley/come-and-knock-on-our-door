@@ -41,6 +41,11 @@
       "sha256": "cb341e8f03ef8935e9d45b9b26998dee78d542df02993b52bb4f444ddbf3d6d0"
     },
     {
+      "path": "LATE-UI-EMITTED-CHECKS-20261011.md",
+      "bytes": 2715,
+      "sha256": "90960ecd81a2e6a868947d8ad2f90b91a6e6cb0d3535d864fac52c3f85c12879"
+    },
+    {
       "path": "LATE-UI-FIX.md",
       "bytes": 5216,
       "sha256": "d3938680a65e79750369a4316ed6405acd097d8b0e99453de964208ef9801a95"
@@ -92,8 +97,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 11190,
-      "sha256": "959dd9f6910bb96f00fbbbcc456b67d469239f5c34d3212ed29a0c33d0f5a143"
+      "bytes": 11348,
+      "sha256": "cf9eb9209d60bc275bbc63898f27e38b6ac48ec436bbde25377845cb285f5b10"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4109,6 +4114,11 @@
       "path": "checks/finite-midi-fix/layout-comparison.json",
       "bytes": 13017,
       "sha256": "218a06409629f77c13f0f7fb228b151edbee6b1d67a08117b9c886a3bd6c720e"
+    },
+    {
+      "path": "checks/late-ui-20261011/RESULTS.json",
+      "bytes": 2580,
+      "sha256": "df5b36be1eaa27679c14897940c4b73bd00e63e3f04828f10e5fe24a15dc2bb7"
     },
     {
       "path": "checks/presentation/credit-overlay-fixed.json",
@@ -16152,8 +16162,13 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 1107,
-      "sha256": "346925a7d63fc64eeb3300b384e00f4a5430bdd9bc8a0ec6396e5b14091e7536"
+      "bytes": 1941,
+      "sha256": "649b63f25712d6077efe0b275a84f5fb7655487352e8e2ec2a5b68d9e4acc666"
+    },
+    {
+      "path": "source/tests/check_late_ui.py",
+      "bytes": 7472,
+      "sha256": "6a772919073b7b4adebc3bf3bdc887f6c3f9a1e303c19b266c70e937ca20c4a3"
     },
     {
       "path": "source/tests/check_presentation.py",
@@ -17301,5 +17316,6 @@
   "current_fix_report": "LATE-UI-FIX.md",
   "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
-  "recovery_report": "checks/recovery-20261011/RESULTS.json"
+  "recovery_report": "checks/recovery-20261011/RESULTS.json",
+  "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md"
 }

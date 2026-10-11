@@ -1,0 +1,75 @@
+{
+  "schema": "CAKOOD_LATE_UI_EMITTED_CHECKS_V1",
+  "status": "PASS_3_EMITTED_CASES_NOT_NATIVE",
+  "recovery_parent_commit": "1fa9bfc8ff97bb44f0c72f586f2106807f2f3c8f",
+  "game_source_candidate_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+  "compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+  "native_acceptance": false,
+  "game_source_changed": false,
+  "test_file": "source/tests/check_late_ui.py",
+  "test_file_sha256": "6a772919073b7b4adebc3bf3bdc887f6c3f9a1e303c19b266c70e937ca20c4a3",
+  "cases": [
+    {
+      "case": "control_priority",
+      "instructions": 24369,
+      "max_rss_kib": 73236,
+      "p13_person_hits": 7,
+      "held_item_hits": 1,
+      "uncovered_prop_hits": 1,
+      "p14_person_hits": 7,
+      "ending_board_hits": 1,
+      "ending_milo_room_hits": 1,
+      "admission_fixtures": [
+        {
+          "995:h13Valid": 18,
+          "995:h13Active": 9,
+          "996:h14Base": 1
+        },
+        {
+          "996:h14Base": 11,
+          "996:h14Valid": 43
+        }
+      ],
+      "status": "PASS_EMITTED_NOT_NATIVE",
+      "native_acceptance": false,
+      "compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+      "scope": "Scene-admission fixtures; unchanged compiled UI; no campaign progress"
+    },
+    {
+      "case": "reading_availability",
+      "instructions": 42260,
+      "max_rss_kib": 39508,
+      "program_room_choices": 10,
+      "rita_paint_states": 7,
+      "admission_fixtures": [
+        {
+          "995:h13Valid": 5
+        }
+      ],
+      "status": "PASS_EMITTED_NOT_NATIVE",
+      "native_acceptance": false,
+      "compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+      "scope": "Scene-admission fixtures; unchanged compiled UI; no campaign progress"
+    },
+    {
+      "case": "held_item_labels",
+      "instructions": 20450,
+      "max_rss_kib": 39628,
+      "held_label_states": 4,
+      "pledge_label_rows": 1,
+      "pledge_text_width": 42,
+      "emitted_display_width": 48,
+      "admission_fixtures": [
+        {
+          "995:h13Valid": 12
+        }
+      ],
+      "status": "PASS_EMITTED_NOT_NATIVE",
+      "native_acceptance": false,
+      "compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+      "scope": "Scene-admission fixtures; unchanged compiled UI; no campaign progress"
+    }
+  ],
+  "current_blocker": "NATIVE_DESKTOP_OBSERVATION_AND_INPUT_UNAVAILABLE",
+  "remaining_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md"
+}

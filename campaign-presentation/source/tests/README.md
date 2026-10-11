@@ -13,3 +13,18 @@ Build first with `python build.py --candidate` from source/. Then run:
 Each command creates a fresh bounded VM process. The strict VM executes emitted SCI bytecode with typed kernel mocks. Rendering regressions explicitly model read-only reader guards, and the LAF11 wait fixture mocks the durable claim; these are not earned campaign or native-save evidence. The opening test executes66 actual stateless projections and checks the exact final asset geometry. Static checks bind all assets, selectors, protected source and untouched core methods.
 
 Score tests and their bounded process runner are under tests/score/. No test launches a native engine. A native full campaign and ending remain a separate acceptance step.
+
+Late-interface regressions run against the same compiled candidate:
+
+    python tests/check_late_ui.py control_priority
+    python tests/check_late_ui.py reading_availability
+    python tests/check_late_ui.py held_item_labels
+
+These checks model only full-scene admission with explicit P13/P14 fixtures.
+The actual emitted world-control registration, reverse hit testing, menu
+availability, serial/paint guards and label drawing execute unchanged. They
+cover character torsos over retained props, the ending's moved Milo control,
+held-program selection/visibility, the guest program's room restriction,
+Rita's painted serving/screen requirements, and the one-row pledge label.
+They do not earn campaign progress or establish pixels, native saves, actual
+deliveries, contest wins, acoustic quality, performance, or native acceptance.
