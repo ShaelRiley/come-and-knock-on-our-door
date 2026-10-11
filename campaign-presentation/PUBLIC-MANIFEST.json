@@ -1,5 +1,5 @@
 {
-  "status": "LATE_UI_FIX_CANDIDATE_NATIVE_ACCEPTANCE_PENDING_SOURCE",
+  "status": "LATE_UI_FIX_SCOPED_NATIVE_WORKSPACE_UNAVAILABLE_SOURCE",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
@@ -51,6 +51,11 @@
       "sha256": "9de40481abc5670d0c51257605b9cbd21cc469a1d74e57dbc5ace209ed4a2b71"
     },
     {
+      "path": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
+      "bytes": 5787,
+      "sha256": "8f3a94896050330a077207ef4a749bdf4fda1794b85eb30dcfda8ac29dd52881"
+    },
+    {
       "path": "PRESENTATION-LABEL-FIX.md",
       "bytes": 3038,
       "sha256": "99223724d6986f6c8bd223a1ef6ba75ba8e0761e7d03d7ce487d0a06d55f8dc8"
@@ -67,8 +72,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4109,
-      "sha256": "4bdc32619e316e6699843e56db10b82eb563edf4e88733c1bd965b6f56581526"
+      "bytes": 4198,
+      "sha256": "659e9e78588f335ec6ca80f9eb589a8e7305ce129b97c72e224eb948ec71c652"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -82,8 +87,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 9826,
-      "sha256": "d8ac5b3c546432c351877faec8bf4d894a20f981aa2ac02b942b13df6c401428"
+      "bytes": 10951,
+      "sha256": "a5a300308dde215f410a8bf18ed5e9e072beeb909a161ca2c3fae09566b46abf"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17280,8 +17285,9 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_HANDOFF_RENDER_FIX_UNACCEPTED_20261010_R1",
-  "runtime_behavior": "CHANGED_SCI_UNRUN; PREDECESSOR_DISCOVERY_P01_P11_VC01_VC02_VC03_PASS",
+  "save_lineage": "CAKOOD_PRESENTATION_LATE_UI_FIX_UNACCEPTED_20261011_R1",
+  "runtime_behavior": "SCOPED_NATIVE_PASS_OPENING_P01_P11_VC01_VC02_VC03; P12_IN_PROGRESS; COMPLETE_GAME_UNVERIFIED",
   "current_reconstruction_report": "RECONSTRUCTION-20261010.md",
-  "current_fix_report": "HANDOFF-AND-RENDER-FIX.md"
+  "current_fix_report": "LATE-UI-FIX.md",
+  "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md"
 }
