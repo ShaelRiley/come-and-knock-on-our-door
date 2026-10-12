@@ -97,10 +97,29 @@ whose own server then exited normally. A scoped process sample during that
 reader found the SDL audio thread busy; its cause remains unresolved. It does
 not establish a game-validator performance defect or subjective audio acceptance.
 
-Next: archive and empty the old queue before relaunch, restore genuine slot 30
-through F3, repeat the unsaved review, and complete P12–P14, VC04, late UI,
-save/restore, ending and all 58 credits. All saves and diagnostic artifacts stay
-private. Full native acceptance remains false; no player release was made.
+The following native run completed the full welcome, mechanism repair,
+eight-card introduction, visible confetti, five-card shared scene and four-card
+cleanup. All seven collection handoffs were observed, including actual travel
+and visible arrivals where a room change was required. The game admitted the
+P13 menu afterward; its initial handoff remains gated until its ordinary
+preparation visits. Slot 32 preserves this boundary (127,394 bytes, SHA256
+`9fff4101c5ff2c23c29a5b429c3636bacb3e9091829f6ecc63b57320399b6874`).
+Slot 31 (125,548 bytes, SHA256
+`5093f18045756b61a426a595b94a584483a32a60c84fe8b6c268aed55605dc02`)
+was saved after the mechanism repair, a viewpoint change was made, and ordinary
+Load restored the saved mechanism and viewpoint. P12's main progression is
+complete, but its optional rehearsal menu was inaccessible: native Walk-to Rack
+on the audience apron opened no menu, and the sole source caller excludes that
+viewpoint. A scratch repair exists privately; it is not applied or accepted.
+The engine then closed through the game's own Menu/5 Quit control at
+17:39:21 UTC, with engine and task-server exit code 0. The earlier Ctrl-F5
+request did not visibly open the runtime menu and is not counted as an exit.
+
+Next: archive and empty the old queue before relaunch, restore genuine slot 32
+through F3 (chooser page 6, top-right), and complete P13–P14, VC04, the remaining
+late UI, ending and all 58 credits. Repair the two P09 issues and the unreachable
+P12 menu, then retest the changed candidate. All saves and diagnostic artifacts
+stay private. Full native acceptance remains false; no player release was made.
 
 The earlier progression in this genuine New Game lineage completed
 puzzles 1 through 10 and two actual contest wins in the installed, unmodified
