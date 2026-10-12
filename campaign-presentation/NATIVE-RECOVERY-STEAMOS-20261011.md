@@ -68,7 +68,7 @@ contest wins and late acceptance remain incomplete on this installed runtime.
 ## Current installed-runtime progression on October 12
 
 The genuine New Game lineage on the unchanged candidate has now completed
-puzzles 1 through 7 and two actual contest wins in the installed, unmodified
+puzzles 1 through 10 and two actual contest wins in the installed, unmodified
 ScummVM engine identified below.
 The automatic opening ran fully with Music ON and full motion. Ordinary Save,
 Load, inventory, room travel, document pages, plan choices and the completion
@@ -77,8 +77,8 @@ boundary. The P04 save is `cakood-native.008`, 103,146 bytes, SHA256
 `4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f`.
 The later P07 boundary is `cakood-native.016`, 105,581 bytes, SHA256
 `95309f27f5b05ec08f458d1155362db1f7d2e15329c37ad861f67de7a96fdb10`.
-Both are private under the existing `20261012-input-diagnosis-core` session; neither is
-not part of the public tree. `SAVE-IDENTITY.json` and `PROGRESS.md` there retain
+Both are private under the existing `20261012-input-diagnosis-core` session and
+are excluded from the public tree. `SAVE-IDENTITY.json` and `PROGRESS.md` there retain
 all earlier save identities and the continuation instructions.
 
 The P04 boundary was saved after the complete exchange. The ordinary game
@@ -117,9 +117,29 @@ multi-page clip dialogue is not claimed. The subsequent complete demonstration
 and loan exchanges were reviewed. Screenshot captures and task-window recordings
 remain private, along with the saved input audit and process identities.
 
+P08's physical setup, readiness exchange, ordinary evening confirmation,
+game-created pre-evening save and complete evening exchange were observed.
+P09 reached its complete terms and success exchange and its physical card;
+both card pages were reviewed. P10's physical ceramic assembly reached its
+success exchange, with all seven available source readings reviewed. Genuine
+slots 21 and 22 preserve those chapter boundaries. P11 remains in progress:
+three actual companion/object transfers reached their destination visibly.
+Slot 23 preserves those transfers. Normal Quit after this save returned engine
+and task-server code 0; no task game remains at this boundary.
+
+Two defects are pending correction and native retesting. Selecting a retained
+earlier Stringer topic changes the conversation context from 239 to 202 while
+keeping the later menu IDs. Returning to that menu can route a new choice to
+the earlier handler; closing and reopening the conversation visibly restores
+the correct route. The physical renewal card also displays the generic ITEM
+inventory label because the host label dispatch excludes object 399. The
+candidate was not edited during these observations. Neither issue is counted
+as a passed UI regression. Private screenshots, saves and operating records
+remain excluded from the source checkpoint.
+
 Next: archive and empty the old input queue, resume the same exact session and
-Load genuine slot 16 through F3 (chooser page 3, middle bottom card). Complete
-P08-P14, the remaining two actual contest wins and the late UI, ending, 58-credit
+Load genuine slot 23 through F3 (chooser page 4, bottom-right card). Complete
+P11-P14, the remaining two actual contest wins and the late UI, ending, 58-credit
 and save/restore acceptance. Full native acceptance remains false. No completed
 player release has been made. Subjective listening remains unverified.
 

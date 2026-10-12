@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_LATE_UI_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_86_UNCHANGED_COMPILED_ARTIFACTS_6_DECLARED_SCRIPT_HEAP_CHANGES",
-    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P07_ACTUAL_VC01_VC02; HISTORICAL_DISTINCT_RUNTIME_SCOPED_P01_P11_VC01_VC02_VC03; COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P10_ACTUAL_VC01_VC02; P11_TRANSFERS_IN_PROGRESS; LATE_UI_DEFECTS_PENDING; COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -121,7 +121,7 @@
   ],
   "current_fix_report": "LATE-UI-FIX.md",
   "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
-  "current_blocker": "COMPLETE_NATIVE_ACCEPTANCE_PENDING; narrow execution approvals work; isolated mouse input works with process-local SDL core-X11 setting; no completed player release",
+  "current_blocker": "COMPLETE_NATIVE_ACCEPTANCE_PENDING; retained late conversation context and card inventory label need repair/retest; narrow execution approvals and task-only ordinary controls work; no completed player release",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -163,16 +163,22 @@
     "ordinary_controls": "OBSERVED opening Hold/Next/Skip, game menu and normal Quit; native Save chooser, selection and confirmation created isolated save",
     "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0 on task-only rootful Xwayland",
     "game_source_or_engine_changed": false,
-    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P07_AND_ACTUAL_VC01_VC02_WINS; P08_P14_VC03_VC04_AND_ENDING_PENDING",
+    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P10_AND_ACTUAL_VC01_VC02_WINS; P11_IN_PROGRESS; P12_P14_VC03_VC04_AND_ENDING_PENDING",
     "native_acceptance": false,
     "private_artifacts_published": false,
     "changed_state_restore": "OBSERVED_P00_SCENE_AND_REVEAL_RESTORED",
-    "latest_test_boundary": "P07 completed and preserved in genuine isolated slot16; normal Quit confirmed engine0/server0; no task game remains at this boundary",
-    "normal_quit": "OBSERVED_AFTER_P04_AND_P07_SAVES; ENGINE_EXIT_0_AND_TASK_SERVER_CLEANUP",
+    "latest_test_boundary": "P10 complete; P11 three native transfers preserved in genuine isolated slot23; normal Quit confirmed engine0/server0; no task game remains at this boundary",
+    "normal_quit": "OBSERVED_AFTER_P04_P07_AND_P11_TRANSFER_SAVES; ENGINE_EXIT_0_AND_TASK_SERVER_CLEANUP",
     "p04_save_sha256": "4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f",
     "audio_output": "OBSERVED_UNMUTED_UNCORKED_44100_HZ_STEREO; NO_SUBJECTIVE_LISTENING_CLAIM",
     "p07_save_sha256": "95309f27f5b05ec08f458d1155362db1f7d2e15329c37ad861f67de7a96fdb10",
-    "fresh_process_restore": "OBSERVED_P04_AND_P05_COMPLETED_BOUNDARIES",
-    "mid_contest_restore": "OBSERVED_VC01_PENDING_REPLY_AND_BOTH_SCORES_RESTORED_AFTER_CHANGED_SELECTION"
+    "fresh_process_restore": "OBSERVED_P04_P05_P07_AND_P09_BOUNDARIES",
+    "mid_contest_restore": "OBSERVED_VC01_PENDING_REPLY_AND_BOTH_SCORES_RESTORED_AFTER_CHANGED_SELECTION",
+    "p09_save_sha256": "e28c9404ef81976a9c93631ba2ba8611ce9237df7425c04f626988764316a100",
+    "p10_save_sha256": "9289a9ee829444adfdac3260b42e33ddd37e521b8cde18268aa8edebfef00513",
+    "pending_native_defects": [
+      "Retained P09 earlier topic changes choice context to202 but leaves later menu IDs; fresh conversation restores239; repair and native retest pending",
+      "Renewal card object399 falls through host inventory label dispatch to generic ITEM; repair and native retest pending"
+    ]
   }
 }

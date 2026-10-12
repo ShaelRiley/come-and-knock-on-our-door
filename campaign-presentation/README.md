@@ -8,7 +8,7 @@ FluidSynth, PNG and the required SoundFont were verified again. Narrow execution
 approvals now work. A separate bounded windowed display and SDL's process-local
 core-X11 setting demonstrated ordinary game input and genuine Save/Load.
 The complete automatic opening has reached gameplay. Full campaign acceptance
-remains in progress; the current installed-runtime New Game has completed puzzles 1–7 and two actual contest wins, with genuine boundary saves and normal Quit. Fresh-process restore and mid-contest restore passed. No completed player release is published. See
+remains in progress; the current installed-runtime New Game has completed puzzles 1–10 and two actual contest wins, with genuine boundary saves and normal Quit. Puzzle 11's companion and object transfers are in progress. A late conversation-routing defect and a missing card label require correction and native retesting. Fresh-process restore and mid-contest restore passed. No completed player release is published. See
 NATIVE-RECOVERY-STEAMOS-20261011.md for recovered restart instructions, exact
 permission diagnosis and scoped observed results.
 
