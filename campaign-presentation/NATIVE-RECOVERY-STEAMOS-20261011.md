@@ -123,13 +123,37 @@ not a normal game exit. Earlier ordinary normal exits remain recorded above.
 No new permission denial or CLI restart was required. Native queues, screenshots,
 process records and saves are preserved privately. No task game remains live.
 
+Puzzle 13's handoff then passed after actual kitchen and side-passage origin
+visits. The held PROGRAM label, both guest-program pages, single-line PLEDGES
+label, correct body menu and visibly disabled off-scene reading were observed.
+The full three-page program delivery exchange and Continue action led through
+actual labelled left ENTER into Living, then actual Courtyard arrival with Milo.
+A subsequent normal character menu confirmed the delivery work had completed.
+Seating confirmation ran as the intended action without a reader. Frankie was
+escorted from Living to Courtyard through an ordinary Walk Together request.
+
+The full pot helper and successful handoff readers, physical hatch-side pot,
+actual Living traversal and receiving Courtyard pot were observed. Thus the
+first two physical deliveries have passed; display and board remain pending.
+The serving cue opened its explicit one-page success response. The following
+world captures did not clearly establish the eight-portion display and caption;
+visual serving acceptance remains pending. Save 32 preserves this boundary
+(131,238 bytes, SHA256
+`9b0170177b7a563bd52a86469d72b858cae7d0e4fe1dfc93585c952032e652d4`).
+The ordinary game Menu and Quit completed at 22:34:05 UTC with engine0 and
+task-server0. Thirty-two genuine saves remain intact. Captures taken during
+unfinished travel or loading, despite their intended destination names, are
+excluded. Thirty-second single-transition waits reached the reviewed arrivals;
+late response time still needs improvement and regression review.
+
 Next: archive and empty the queue, copy the existing INI and preserve the start
-plan, then restore genuine save 29 through ordinary F3 (page 5, bottom right).
-Continue puzzle 13's physical origin visits and four deliveries, fourth contest,
-puzzle 14, remaining late UI/performance and critical saves, opening Hold,
-ending/freeze/applause and all 58 credits. Repair and natively retest the rehearsal
-entry before release. Subjective listening remains unperformed. No completed
-player release is published.
+plan, then restore genuine save 32 through ordinary F3 (page 6, top right).
+Wait for actual restored gameplay before issuing another action. Check the
+physical serving witness and continue the display and board deliveries, fourth
+contest, puzzle 14, complete late readers/UI/performance and critical saves,
+opening Hold, ending/freeze/applause and all 58 credits. Repair and natively
+retest the rehearsal entry before release. Subjective listening remains
+unperformed. No completed player release is published.
 
 ## October 12 source repair and next native run
 

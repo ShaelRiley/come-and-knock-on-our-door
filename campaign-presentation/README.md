@@ -16,7 +16,10 @@ repair remains insufficient: its ordinary Walk entry does not reach the handler,
 so the optional rehearsal is still unreachable and blocks release. An earlier
 actor control-position observation also requires review. Puzzles 13–14, the
 fourth contest, remaining late UI and save/restore, ending, all 58 credits,
-opening Hold and listening acceptance remain pending.
+opening Hold and listening acceptance remain pending. Puzzle 13 has subsequently
+completed its first two physical deliveries; the serving response and Save 32
+are observed, while the visual serving regression and remaining two deliveries
+are still pending.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.

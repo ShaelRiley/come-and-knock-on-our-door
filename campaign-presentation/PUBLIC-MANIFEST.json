@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 28697,
-      "sha256": "6d08d6ccd5b7835c6e07cf3b79aba4bcf7ce8ccacf9beb4056997e8bd5e0e795"
+      "bytes": 30337,
+      "sha256": "21acbfc1c4d3e67bcf437f618755f75e11533d52c1052e10a4f92a1441380833"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8097,
-      "sha256": "06d67353d9a09120763f5d5d5b434c69c47ce05b6ed14edf6566fafd1632fd49"
+      "bytes": 8300,
+      "sha256": "63f40b983fdcd4f4efe07486a28fb1d5eea582dd862c8976fb681eebde991ed9"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 24115,
-      "sha256": "88725a9af4a14ceb1b4238a3959f0f301232fd908d5404dbac66923e75dc632e"
+      "bytes": 24839,
+      "sha256": "160f305262f7df96f0f3e6453420ded0314776caa2e80fa54e314d891d73a067"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17346,7 +17346,7 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
-  "runtime_behavior": "OBSERVED_GENUINE_NEW_GAME_P01_P11_THREE_CONTEST_WINS_P12_MAIN_SEVEN_COLLECTION_HANDOFFS; P12_REHEARSAL_UNREACHABLE; FULL_ACCEPTANCE_PENDING",
+  "runtime_behavior": "OBSERVED_GENUINE_NEW_GAME_P01_P11_THREE_WINS_P12_MAIN_AND_FIRST_TWO_P13_PHYSICAL_DELIVERIES; REHEARSAL_AND_REMAINING_ACCEPTANCE_PENDING",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",

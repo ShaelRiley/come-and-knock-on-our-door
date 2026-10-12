@@ -153,7 +153,7 @@
   ],
   "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "CURRENT_NATIVE_P01_P11_THREE_ACTUAL_WINS_P12_MAIN_COMPLETE; P12_REHEARSAL_UNREACHABLE_REPAIR_REQUIRED; P13_P14_VC04_FOUR_DELIVERIES_LATE_UI_ENDING58_LISTENING_PENDING; NO_RELEASE",
+  "current_blocker": "P01_P11_THREE_ACTUAL_WINS_P12_MAIN_AND_FIRST_TWO_P13_PHYSICAL_DELIVERIES_OBSERVED; P12_REHEARSAL_REPAIR_PHYSICAL_SERVING_DISPLAY_BOARD_P14_VC04_LATE_UI_ENDING58_LISTENING_PENDING; NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -260,10 +260,10 @@
       2,
       3
     ],
-    "save_files": 29,
+    "save_files": 32,
     "changed_state_restore": "OBSERVED_REVEAL_AND_SCENE_RESTORED",
     "fresh_process_restore": "OBSERVED_GENUINE_SAVE1_AND_SAVE5_AFTER_CORRECTED_SAVED_CARD_SELECTION",
-    "latest_test_boundary": "Genuine save29 preserves P12 main and seven collection handoffs; optional rehearsal still unreachable; bounded lifetime termination22:00:30UTC engine-15/server0 before quit-menu capture",
+    "latest_test_boundary": "Genuine save32 preserves program and pot physical deliveries and serving response; visual serving and other two deliveries pending; ordinary Menu/5 Quit22:34:05UTC engine0/server0",
     "save5_sha256": "4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6",
     "opening_hold": "NOT_VERIFIED_IN_NEW_RUN",
     "audio": "MENU_OBSERVED_MUSIC_VOICE_EFFECTS_ON; UNMUTED_UNCORKED_44100_HZ_STEREO_OUTPUT; NO_SUBJECTIVE_LISTENING_CLAIM",
@@ -273,7 +273,7 @@
     "save9_sha256": "ccae85e061c243e05f1569289f434aff0d6dc1eb20c4ca9d7f0a4bde2ce9a874",
     "save12_sha256": "39312329948d51a62c8de1e67de1896e1dbabad3bdea99e8657b0d7e94f3b726",
     "save13_sha256": "41c8bdb7d361e5b6a824e9016791ec3ac6bfb1590fecb0ca16d55ad8336f9e3c",
-    "latest_process_exit": "LIFETIME_LIMIT_20261012_220030_UTC_ENGINE_MINUS15_SERVER0",
+    "latest_process_exit": "GAME_EXIT_20261012_223405_UTC_ENGINE0_SERVER0",
     "puzzle11_practical": "OBSERVED_COMPLETE_WITH_ACTUAL_VC03_WIN",
     "p09_retained_topic_route": "OBSERVED_EARLIER_TOPIC_BACK_TO_MENU_THEN_CORRECT_LATER_FIVE_PAGE_TERMS",
     "p09_inventory_labels": "OBSERVED_TERMS_AND_FULL_SENTENCE_RENEWAL_AND_REPAIR_CARD",
@@ -289,6 +289,18 @@
     "save26_sha256": "909c62112e48d7a12cec7b05d0e3a912928461a19b5a2492509d03326f06134d",
     "save27_sha256": "1d3a2740380afc9e30eee47c8d3b42c225644e35cf266b542ebac4a6c60beabf",
     "save28_sha256": "f0a9d55dfdf24c8e7b74923612cdb7bde79c369ebf34502f6d619a4c2cf65cce",
-    "save29_sha256": "a295f160a53cb1169b9d64f8f73202d85182ebd6055e415b221fc44710d5fd6f"
+    "save29_sha256": "a295f160a53cb1169b9d64f8f73202d85182ebd6055e415b221fc44710d5fd6f",
+    "puzzle13_physical_deliveries": [
+      "PROGRAM",
+      "POT"
+    ],
+    "puzzle13_serving": "EXPLICIT_SUCCESS_READER_OBSERVED; PHYSICAL_EIGHT_PORTION_DISPLAY_PENDING",
+    "p13_program_label_and_reader": "OBSERVED_HELD_PROGRAM_AND_FULL_TWO_PAGES",
+    "p13_body_priority": "OBSERVED_MILO_FRANKIE_BUNNY_BODY_MENUS",
+    "p13_off_scene_reading": "OBSERVED_DISABLED_PROGRAM_READING_OUTSIDE_COURTYARD",
+    "p13_pledges_layout": "OBSERVED_SINGLE_LINE_PLEDGES",
+    "save30_sha256": "e0e58a1f30af310272a2b5f71acd8bab955299e7546d4162c34ac2da37718c47",
+    "save31_sha256": "9d866c3733efdb4cfecdd4f23d415eb2721edbb9ecb711d14c18ee6a87af1929",
+    "save32_sha256": "9b0170177b7a563bd52a86469d72b858cae7d0e4fe1dfc93585c952032e652d4"
   }
 }
