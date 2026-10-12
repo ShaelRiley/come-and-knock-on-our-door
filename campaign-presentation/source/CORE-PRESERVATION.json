@@ -27,7 +27,6 @@
       "replay": "51d13ef39b146115bf7e3e5f011dfcbaba74e72b2bd4ba88272591e5c9604023",
       "renderCaption": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
       "p02HostP01Act": "cd7871eaebff16dd8acd66880a414dfd2b1aec7528bbdc617a16bb1954820e48",
-      "uiHostItemLabel": "d531580ccaffcbc7c2abb89f8c0166201d24ad268ef4552f30ff4836553b5821",
       "uiHostIsReturn": "a59cc18da4557607e6c450c8a403f3b1f0001768474bbd1df418db439ebd9168",
       "uiHostDefaultVerb": "13e5036efef047d1f1413d6297a8d2805f9ac2ef30705e90715331b1cfdc7990",
       "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
@@ -1369,7 +1368,6 @@
       "h9ReaderCheck": "1365ae0386d613c6cd903f01fc773bcd7ee65a9eed6f337b6badd1bbb8652465",
       "h9Open": "c86024411cde344c16e5a2acec80b0b277a747067d4db32dc1218ef2a696b24d",
       "h9Topics": "6e3c7f04404715eecdd49fe12f4e293dc46676747bcf56b8af4afb47e1f4dd33",
-      "h9Choice": "7608ea92aa832daa8b75fc1db1e04a37eff33781a05828de98adf0480439749c",
       "h9Draw": "3e2a4c480042fa9d9a6ebf28a7641fd934d8201fac31c12b8d688c2e60d0fd76",
       "h9Frame": "60d8e7f6aba054899f580e0e7b6afdb9a124faf290879e8d1b7eb5cf15aa9a5a",
       "h9Closed": "e61c0ff3ff53dc6cb8c4e71dacef4c0466734726a3115a536062fc1e5457a695",
@@ -1735,7 +1733,6 @@
       "h12Retire": "c1923a9baf3efd7fe811250e0c1d95f99a0b81df6bb23b5688d763aa2a0500cb",
       "h12Menu": "ba7582cb0ab3312ad4762b29b563bbd22d34c23495ff14b5ab2d30f02d4c9022",
       "h12OrderMenu": "98608c96ae14fd5dff218ff0eebf69dd89536aad7f5fbcb1c3bbfa89f50cb499",
-      "h12Dispatch": "71fe169bec036b633fe7c9077ed0d84ce7b5ede198d60db9ac95a042dfe689b4",
       "h12Choice": "dd60b468ff23c6d9dad3dbf7552b90abec4c43fc3c9157cac2059140bfc8de32",
       "h12Open": "783374ed759c22152399eb4226e985a18e7be59904b8862aef291cd4b25ffa43",
       "h12Save": "57e83a9ff26ca04cb4b98404644d3a41b7493a1818f4f52a50acb0c7c5dad287",
@@ -1936,7 +1933,6 @@
       "h13AllHere": "a5f69a8fce5f0f050c93196e5a8078b401400a62433246bdd2c36c01bd088649",
       "h13SceneSlot": "c773565b39cd6836cf3cf6731173744ae6870bcebdee872031e6226ed09425eb",
       "h13SceneShown": "7faa2fae31a3af122088c516c39d4bb9631e9ece8027431d4fbb14fa4977f303",
-      "h13ReadyPhysical": "ccb3f578375a93f7ac7bf012329cd161551fd6fe4ce35a4cc5c6cb32c7edc3f3",
       "h13BoundaryCount": "70d27b5247ede62a76ef4e4488f0745e612a8ce07ec3a81d26c494e96d0609f6",
       "h13BoundaryWord": "670d51f2841146d84a3d57bf50761a1c007157e0b69531a21048ccae6828c07b",
       "h13Record": "14687e832ea2ce9191537b996d3a86c5e1df025d7f6e3c3d306357f922f51b06",
@@ -6484,8 +6480,10 @@
       "file": "main.sc",
       "method": "uiHostShortLabel",
       "baseline_sha256": "3aec47d7e8c54f32d397cda92a0de9a3869c5fdf1d694e60f0958908fe7cbdff",
-      "candidate_sha256": "c2552cb34dfbf05c8499f14942a7ef532ccbdd93950f8d5736a6d5a0c088bfe0",
-      "reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes."
+      "candidate_sha256": "55c2a1f131228349ac1135e4629fb4999f2ca3a10aee963107ab147b6e9d65f5",
+      "reason": "RECOVERY-UI-FIX-20261012.md: retain previous sample labels and add compact TERMS label for card 399.",
+      "previous_candidate_sha256": "c2552cb34dfbf05c8499f14942a7ef532ccbdd93950f8d5736a6d5a0c088bfe0",
+      "previous_reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes."
     },
     {
       "file": "main.sc",
@@ -6514,8 +6512,10 @@
       "file": "module995.sc",
       "method": "h13Valid",
       "baseline_sha256": "609c914780719571116caa34c646ae023ba26e6fdd3461c7777664b1ec96be88",
-      "candidate_sha256": "6fbcaf1dfca650563c9c9a053fac7ccd6e446c42d2c9d8a2cc36adbba1cbcf03",
-      "reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
+      "candidate_sha256": "a7708a514fc67df72d2df6a9bc1c5436ef0df6f9ab3788bab9fb89d773f7c2fc",
+      "reason": "RECOVERY-UI-FIX-20261012.md: reuse seven strictly compared historical collection rooms; retain complete history and all actor/route/work/cargo/delivery checks.",
+      "previous_candidate_sha256": "6fbcaf1dfca650563c9c9a053fac7ccd6e446c42d2c9d8a2cc36adbba1cbcf03",
+      "previous_reason": "HANDOFF-AND-RENDER-FIX.md: avoid repeated identical descendant scans only within the existing read-only render scope; retain the complete strict predicate and recheck it before any frame publication."
     },
     {
       "file": "module996.sc",
@@ -6653,7 +6653,39 @@
       "candidate_sha256": "b3447101faa53ba0a0fdc1e1fdf285013f60938c929a137416a47c5f5adf6a83",
       "reason": "LATE-UI-FIX.md: disable both render memos and strictly repeat every used original predicate, even after another close check fails. The existing Main success gate and post-close phase1 acknowledgment stay unchanged.",
       "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+    },
+    {
+      "file": "main.sc",
+      "method": "uiHostItemLabel",
+      "baseline_sha256": "d531580ccaffcbc7c2abb89f8c0166201d24ad268ef4552f30ff4836553b5821",
+      "candidate_sha256": "68383936db165fcbd37f52354dc876bba5e181114a46135e894762c662a6df39",
+      "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+      "reason": "RECOVERY-UI-FIX-20261012.md: include authored card 399 in existing label lookup only."
+    },
+    {
+      "file": "module990.sc",
+      "method": "h9Choice",
+      "baseline_sha256": "7608ea92aa832daa8b75fc1db1e04a37eff33781a05828de98adf0480439749c",
+      "candidate_sha256": "c06a325a0d1bb6c511b33afff7f020c39f16af2d37d3610d763dec056a9b7703",
+      "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+      "reason": "RECOVERY-UI-FIX-20261012.md: restore retained later menu context while preserving deliberate older-handler transitions."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12Dispatch",
+      "baseline_sha256": "71fe169bec036b633fe7c9077ed0d84ce7b5ede198d60db9ac95a042dfe689b4",
+      "candidate_sha256": "4097ec7cbdbe5dcc286e22d2f575649401a701ee6ae0c27851a784cce1853f7e",
+      "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+      "reason": "RECOVERY-UI-FIX-20261012.md: expose existing on-apron rack menu via ordinary Walk-to; retain Look-at reader."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13ReadyPhysical",
+      "baseline_sha256": "ccb3f578375a93f7ac7bf012329cd161551fd6fe4ce35a4cc5c6cb32c7edc3f3",
+      "candidate_sha256": "aaa4f4b70ea8d195a93ce5675fa7a9e13e840af2642b1e2651e276a4b1fcfe71",
+      "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+      "reason": "RECOVERY-UI-FIX-20261012.md: deny incomplete state before physical validation; complete state keeps every strict check."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."
 }

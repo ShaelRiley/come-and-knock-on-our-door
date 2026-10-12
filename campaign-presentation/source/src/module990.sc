@@ -1386,7 +1386,12 @@ h9Host 0
  (if (not (self h9Active:)) (return 1))
  (if (or (!= (h9Host uiPanel?) 2) (!= (h9Host uiChoiceContext?) context)
   (< (h9Host uiGetChoice: id) 0) (not (or (== id 4) (== id 6) (== id 7) (== id 8) (and (>= id 101) (<= id 110))))) (return 1))
- (if (>= id 101) (h9Host uiChoiceContext: 202) (h9Host uiHostChoice: 202 (- id 100)) (return 1))
+ (if (>= id 101)
+  (h9Host uiChoiceContext: 202) (h9Host uiHostChoice: 202 (- id 100))
+  ; Earlier dialogue remembers this menu and its later IDs. Preserve its owner
+  ; unless the delegated topic deliberately opens a different choice context.
+  (if (== (h9Host uiChoiceContext?) 202) (h9Host uiChoiceContext: 239))
+  (return 1))
  (self h9Open: id 0) (return 1))
 (method (h9Draw &tmp result)
  (if (or (!= self (ScriptID 990 0)) (!= h9Host (ScriptID 0 0)) (not (h9Host p08?))) (return 0))

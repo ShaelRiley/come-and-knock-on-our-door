@@ -2591,7 +2591,7 @@ creditReducedMotion 0
 
 (if (and p08 (== (p08 h8V: 1 0) 6) (or (== arg1 410) (== arg1 411) (>= ((ScriptID 992 0) p10CueIndex: arg1) 0))) (return ((ScriptID 992 0) h10Label: arg1)))
 
-(if (and p09 (>= arg1 395) (<= arg1 398) (p09 h9Active:)) (return (p09 h9Label: arg1)))
+(if (and p09 (>= arg1 395) (<= arg1 399) (p09 h9Active:)) (return (p09 h9Label: arg1)))
 
 (if (and p08 (>= arg1 116) (<= arg1 122)) (return (p08 h8LayoutLabel: arg1)))
 
@@ -2869,7 +2869,7 @@ creditReducedMotion 0
 
 (if (and p08 (== (p08 h8V: 1 0) 6) (or (== arg1 410) (== arg1 411) (>= ((ScriptID 992 0) p10CueIndex: arg1) 0))) (return ((ScriptID 992 0) h10Label: arg1)))
 
-(if (and p09 (>= arg1 395) (<= arg1 398) (p09 h9Active:)) (return (p09 h9Label: arg1)))
+(if (and p09 (>= arg1 395) (<= arg1 399) (p09 h9Active:)) (return (if (== arg1 399) "TERMS" else (p09 h9Label: arg1))))
 
 (if (and p08 (>= arg1 116) (<= arg1 122)) (return (p08 h8LayoutLabel: arg1)))
 

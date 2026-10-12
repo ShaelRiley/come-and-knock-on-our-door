@@ -1,0 +1,183 @@
+{
+  "status": "PASS_SOURCE_AND_EMITTED_NOT_NATIVE",
+  "native_acceptance": false,
+  "compile_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
+  "compiled_artifacts": 92,
+  "unchanged_compiled_artifacts": 87,
+  "declared_changes": [
+    {
+      "file": "0.scr.bin",
+      "before_sha256": "23d402858ec49736acafdd7c8d296dd94ed85cb2b643f998eff72bac7202b40c",
+      "candidate_sha256": "a4924e1f3a2df3c9a044c2c9f08521cb670eb5a1336cd6f49571eda124988704"
+    },
+    {
+      "file": "0.scr.bin.hep",
+      "before_sha256": "fc09eff3f70409acc4f978c36ca98ff56e6c40cda6876b565b677613e33109a3",
+      "candidate_sha256": "3e38cb37d1f9b91832e57ffac60af3d3dc0eb0bb6489259b90c1ceb882531119"
+    },
+    {
+      "file": "990.scr.bin",
+      "before_sha256": "9a4e3aa9681a412a5ce7910cf207b2b6df62524fc4e5b7d50a727d9aeaf1bf54",
+      "candidate_sha256": "3b94c54270cf2175a85ec6de814e5435b6cc29abbb4561b40f72dfccc35af17c"
+    },
+    {
+      "file": "994.scr.bin",
+      "before_sha256": "6c0c4d45365426afd405df011de0475f14615856246a11047e9429c1632b8051",
+      "candidate_sha256": "68c124805b7dac1657c6423f10920e31b73399e75c9029bce748da599364e1f2"
+    },
+    {
+      "file": "995.scr.bin",
+      "before_sha256": "536c280dd6c7d971be7f7df7a4c2f4c3d6c11dc5777c3269c1a101387ab26310",
+      "candidate_sha256": "05c6150139385ad873334384618ef82a165bd0a8228f39334620d17aeee92e11"
+    }
+  ],
+  "static": {
+    "status": "PASS_BOUNDED_STATIC_NOT_NATIVE",
+    "scope": "BOUNDED_STATIC_NOT_NATIVE",
+    "cases": [
+      {
+        "case": "pins",
+        "exit_code": 0,
+        "wall_seconds": 1.7185032870038413,
+        "status": "PASS_STATIC_NOT_NATIVE",
+        "max_rss_kib": 23204,
+        "receipt_sha256": "3afc8cf9fef085512d1b7e6d4a48e9893148fad88715546c2aa3803367fcd1c6"
+      },
+      {
+        "case": "preservation",
+        "exit_code": 0,
+        "wall_seconds": 3.9244771500016213,
+        "status": "PASS_STATIC_NOT_NATIVE",
+        "max_rss_kib": 26796,
+        "receipt_sha256": "17d6609c62a8f0cdf09361d495cb32a48bdcaffb6e0395d5d8bf2b2f39b72bc1"
+      },
+      {
+        "case": "opening",
+        "exit_code": 0,
+        "wall_seconds": 0.06485897499806015,
+        "status": "PASS_STATIC_NOT_NATIVE",
+        "max_rss_kib": 17960,
+        "receipt_sha256": "f8db1dd650549aaf2524378ac920f1208ed4a4e812f8eb6f6121d8b6c7c4ee1f"
+      },
+      {
+        "case": "credits",
+        "exit_code": 0,
+        "wall_seconds": 0.06493505400430877,
+        "status": "PASS_STATIC_NOT_NATIVE",
+        "max_rss_kib": 17920,
+        "receipt_sha256": "79b93acb5f82d3f9e2d89c0821e980ff388747e341489776e817efe0f10c7061"
+      }
+    ]
+  },
+  "targeted_emitted": {
+    "compile_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
+    "test_file_sha256": "311b5af4c3715c30d1e9c4a8ec621d7be129f11a4fca7fc8b3013ee7ed2c64d1",
+    "cases": [
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "retained_menu",
+        "native_acceptance": false,
+        "retained_context_restored": true,
+        "intentional_transition": 205
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "apron_menu",
+        "native_acceptance": false,
+        "menu_opened": true,
+        "choice_ids": [
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "renewal_label",
+        "native_acceptance": false,
+        "long_label": "Renewal and repair card",
+        "short_label": "TERMS"
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "strict_origins",
+        "native_acceptance": false,
+        "initial_ancestor_room_calls": 0,
+        "rejected_mutations": 17,
+        "scope": "Actual strict descendant predicate; ancestor/domain admission fixtures"
+      },
+      {
+        "status": "PASS_EMITTED_NOT_NATIVE",
+        "case": "readiness_denial",
+        "native_acceptance": false,
+        "incomplete_chapter_validation_calls": 0,
+        "ready_ancestor_denial_preserved": true
+      }
+    ],
+    "native_acceptance": false
+  },
+  "baseline_emitted": {
+    "compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+    "test_file_sha256": "74ab70753cbf4c6ed7e7a8f2e99c8fbf8dad55808b5feb35da002cfd57ec08a1",
+    "cases": [
+      {
+        "status": "REFERENCE_EMITTED_NOT_NATIVE",
+        "case": "retained_menu",
+        "native_acceptance": false,
+        "retained_context_restored": false,
+        "intentional_transition": 205
+      },
+      {
+        "status": "REFERENCE_EMITTED_NOT_NATIVE",
+        "case": "apron_menu",
+        "native_acceptance": false,
+        "menu_opened": false,
+        "choice_ids": []
+      },
+      {
+        "status": "REFERENCE_EMITTED_NOT_NATIVE",
+        "case": "renewal_label",
+        "native_acceptance": false,
+        "long_label": "UNKNOWN OBJECT",
+        "short_label": "ITEM"
+      },
+      {
+        "status": "REFERENCE_EMITTED_NOT_NATIVE",
+        "case": "strict_origins",
+        "native_acceptance": false,
+        "initial_ancestor_room_calls": 7,
+        "rejected_mutations": 16,
+        "scope": "Actual strict descendant predicate; ancestor/domain admission fixtures"
+      },
+      {
+        "status": "REFERENCE_EMITTED_NOT_NATIVE",
+        "case": "readiness_denial",
+        "native_acceptance": false,
+        "incomplete_chapter_validation_calls": 1,
+        "ready_ancestor_denial_preserved": true
+      }
+    ],
+    "native_acceptance": false
+  },
+  "existing_late_ui": {
+    "results": [
+      {
+        "case": "control_priority",
+        "exit_code": 0,
+        "output": "{\"status\": \"PASS_EMITTED_NOT_NATIVE\", \"case\": \"control_priority\", \"native_acceptance\": false, \"scope\": \"Scene-admission fixtures; unchanged compiled UI; no campaign progress\", \"instructions\": 24369, \"admission_fixtures\": [{\"995:h13Valid\": 18, \"995:h13Active\": 9, \"996:h14Base\": 1}, {\"996:h14Base\": 11, \"996:h14Valid\": 43}], \"compile_receipt_sha256\": \"e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909\", \"max_rss_kib\": 78220, \"p13_person_hits\": 7, \"held_item_hits\": 1, \"uncovered_prop_hits\": 1, \"p14_person_hits\": 7, \"ending_board_hits\": 1, \"ending_milo_room_hits\": 1}\n"
+      },
+      {
+        "case": "reading_availability",
+        "exit_code": 0,
+        "output": "{\"status\": \"PASS_EMITTED_NOT_NATIVE\", \"case\": \"reading_availability\", \"native_acceptance\": false, \"scope\": \"Scene-admission fixtures; unchanged compiled UI; no campaign progress\", \"instructions\": 42260, \"admission_fixtures\": [{\"995:h13Valid\": 5}], \"compile_receipt_sha256\": \"e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909\", \"max_rss_kib\": 44672, \"program_room_choices\": 10, \"rita_paint_states\": 7}\n"
+      },
+      {
+        "case": "held_item_labels",
+        "exit_code": 0,
+        "output": "{\"status\": \"PASS_EMITTED_NOT_NATIVE\", \"case\": \"held_item_labels\", \"native_acceptance\": false, \"scope\": \"Scene-admission fixtures; unchanged compiled UI; no campaign progress\", \"instructions\": 20450, \"admission_fixtures\": [{\"995:h13Valid\": 12}], \"compile_receipt_sha256\": \"e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909\", \"max_rss_kib\": 44716, \"held_label_states\": 4, \"pledge_label_rows\": 1, \"pledge_text_width\": 42, \"emitted_display_width\": 48}\n"
+      }
+    ],
+    "native_acceptance": false
+  },
+  "limits": "Ancestor and domain admissions are explicit fixtures. No debug campaign progress, native saves or complete ancestor validation. Native New Game, interaction, timing, audio and full-game acceptance remain separate."
+}

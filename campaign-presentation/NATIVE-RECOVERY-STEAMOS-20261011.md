@@ -1,5 +1,39 @@
 # SteamOS recovery and scoped native testing
 
+## October 12 source repair and next native run
+
+The frozen preceding run later completed the ordinary puzzle 13 preparation
+visits and handoff. Slot 33 preserves that boundary (130,072 bytes, SHA256
+`d3f4b4367627811816c1629a8f920e3f2efef1e07055818adbfbd6a0853b1af2`).
+Only guest-program page 1 of 2 was observed; the Next request stayed on page 1.
+No physical puzzle 13 delivery was completed. Several travel captures remained
+in the departure scene, despite their intended destination filenames. Later
+captures verified actual Living arrival. Ordinary game Menu/5 Quit returned
+engine0 and task-server0 at 17:55:17 UTC. No original task game remains running.
+
+A scoped main-thread sample at 17:48:23 measured 97.95% CPU. A separate read-only
+diagnostic restored an unmodified copied slot 33 and logged repeated descendant
+and ancestor validators during idle playback. Its first blank-card selection
+is excluded from restored-save evidence. Counts include diagnostic overhead and
+memo hits; no speed improvement or acoustic acceptance is inferred from them.
+
+Before changing canonical inputs, the frozen source, build, stage and manifests
+were backed up under the ignored project recovery-backup directory. All prior
+saves, branches and evidence remain preserved. The October 12 repair is now
+applied, compiled and staged privately in a new unaccepted save lineage.
+source/RECOVERY-UI-FIX-20261012.md records the four affected source modules,
+strict proof reuse, test fixture limits and process-local input workaround.
+Four static, five targeted emitted and three existing late UI cases passed.
+
+Next: begin a separate stock-ScummVM New Game using empty private saves and
+verify the repaired candidate through all 14 puzzles, four actual wins, late UI,
+changed-state save/restore, ending/freeze/applause and all 58 credits. Earlier
+native observations and saves apply to the preserved frozen candidate only;
+they cannot verify changed compiled scripts. Subjective listening and controller
+hardware acceptance remain unperformed. Publication remains blocked.
+
+The following sections preserve the earlier recovery and native history.
+
 ## Recovery after the machine restart
 
 The later recovery found a clean checkout on

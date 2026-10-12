@@ -1,5 +1,16 @@
 # Come and Knock on Our Door: reconstructed candidate, native acceptance pending
 
+The October 12 recovery repair compiles and passes four bounded static checks,
+five targeted emitted regressions and the existing three late UI checks. It
+repairs retained conversation routing, the card label, the audience-side rack
+menu, and redundant puzzle 13 predecessor queries while retaining strict
+history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
+This candidate requires a separate genuine New Game with empty test saves.
+The preceding build's native progress below does not accept the changed scripts.
+Full campaign, ending, all 58 credits and listening acceptance remain pending.
+No completed player release is published.
+
+The following recovery observations apply to the preserved preceding build.
 Recovery after the SteamOS restart preserved local checkpoint `9f06852`, the
 surviving opening save and private evidence. All 1,759 staged game files still
 match the frozen candidate. The preserved source tree is banked on GitHub at
@@ -15,8 +26,8 @@ were observed. Slot 32 preserves that boundary; the next chapter's gated menu
 was reached. A changed-viewpoint restore to slot 31 also passed. Process-local
 joystick disabling restored ordinary input after an isolated diagnostic found
 controller-axis flooding; the controller hardware path remains unverified.
-Two late UI defects and an unreachable puzzle 12 rehearsal menu require
-correction and native retesting. Puzzles 13–14, the fourth contest, remaining
+Two late UI defects and an unreachable puzzle 12 rehearsal menu were observed;
+the new source repair still requires native retesting. Puzzles 13–14, the fourth contest, remaining
 late UI and the ending with all 58 credits remain pending. No completed player release is published. See
 NATIVE-RECOVERY-STEAMOS-20261011.md for recovered restart instructions, exact
 permission diagnosis and scoped observed results.

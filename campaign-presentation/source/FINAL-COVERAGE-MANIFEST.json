@@ -133,11 +133,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "847ea13748621da2e01c61c7ce5d882f2451c91ef5181fde3095fe10a3517cde"
+      "sha256": "342b315ebe9d31191434cab9c8f77982483c7a51d787b43524791515c85a3e07"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "e0bff012d345ea3b6fcfe830c52711da1a39f236ec183b3c9e094ed5288f3022"
+      "sha256": "80c598fbde86e7bd3608e67b259350930a7ab573a3ac6c8f6d35430ec3bda2eb"
     },
     {
       "path": "CREDITS.txt",
@@ -309,7 +309,7 @@
     },
     {
       "path": "src/main.sc",
-      "sha256": "ea9fe931c6096c6a415b2ae4bbed034243bac7b0e4569098a7c107e4c68d086c"
+      "sha256": "2eb2449e0cf38cb9223198e862f949591b5a5254bf042ada4b921c6a9646c080"
     },
     {
       "path": "src/module941.sc",
@@ -453,7 +453,7 @@
     },
     {
       "path": "src/module990.sc",
-      "sha256": "a27f685ed6bf2ff03e26cdad914b03c89bf6c8824aee3af40d9889a67e2efae3"
+      "sha256": "0a56431fecb50cdc900e111f3f165973f61a61db9e8b2b8eb19057a4bf1f92ab"
     },
     {
       "path": "src/module991.sc",
@@ -469,11 +469,11 @@
     },
     {
       "path": "src/module994.sc",
-      "sha256": "b72aea8cf98afc43cde9454c97a9b4f2539da4efa85d4c5fb4298d494c26f39a"
+      "sha256": "27de2652321fbfd9eee10895462f889a4761086882e0ef0621ec8cde74df4e11"
     },
     {
       "path": "src/module995.sc",
-      "sha256": "fe1009238a2362ed4dff44399a321ea757afee631440778a44b99d95733a0117"
+      "sha256": "1e248de367b2937d6070c6cb982017159c11f74974782db1a34156a7953ee1c5"
     },
     {
       "path": "src/module996.sc",
@@ -541,7 +541,7 @@
     "subjective_listening": "UNPERFORMED",
     "coherent_compile_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_AUDIO36_FIX_UNACCEPTED_20261010_R1",
+  "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim."
 }

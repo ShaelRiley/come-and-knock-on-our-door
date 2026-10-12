@@ -1350,7 +1350,9 @@
  (if (and (== action 5) (== obj 410) (h onApron?)) (self p12View: 0) (= source 6))
  (if (and (== action 6) (== obj 10) (h onApron?)) (self p12View: 1) (= source 5))
  (if (and (== action 7) (== obj 65) (not (h onApron?))) (self p12Choose: 1) (= source 9))
- (if (and (or (== action 0) (== action 5)) (== obj 410) (not (h onApron?))) (return (self h12Menu:)))
+ ; Ordinary Walk-to opens the rack choices from either viewpoint.
+ ; Look-at on the apron retains the direct visible-faces reader.
+ (if (and (== obj 410) (or (== action 0) (and (== action 5) (not (h onApron?))))) (return (self h12Menu:)))
  ; Only the actual queued source can gain a reader lease; failed actions do not.
  (return (self h12Open: source)))
 (method (h12Choice context id &tmp h a b c i)

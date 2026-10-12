@@ -119,7 +119,7 @@ def create_session(session, identity):
                           "output_rate": "44100", "mute": "false",
                           "music_mute": "false", "music_volume": "192",
                           "sfx_volume": "192", "speech_volume": "192",
-                          "autosave_period": "0"}
+                          "autosave_period": "0", "joystick_num": "-1"}
     config["cakood-native"] = {
         "description": "Come and Knock on Our Door (developer acceptance)",
         "engineid": "sci", "gameid": "sci-fanmade",
