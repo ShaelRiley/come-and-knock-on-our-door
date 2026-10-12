@@ -35,7 +35,7 @@
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
     "Credits replay is detached credits-only replay; it does not replay or re-claim campaign ending reactions.",
     "Some source cues expose long natural transition windows. Requests keep gameplay responsive while the single music owner reaches the exact admitted boundary.",
-    "Bridge gain still opens only in its existing ticks6\u20138 window; gain-window polish is outside this correction.",
+    "Bridge gain still opens only in its existing ticks6–8 window; gain-window polish is outside this correction.",
     "Previous P01/P02 opening and save/restore observations apply only to the earlier finite-MIDI build, not this changed candidate.",
     "Native ending verification remains incomplete; this does not mean the ending is unimplemented.",
     "Save compatibility is unproved: script addresses and P12/P13 locals changed; use a new separate empty Save Path and genuine New Game."
@@ -64,7 +64,7 @@
       "date": "2026-10-09",
       "observed": "A genuine New Game completed the full opening, P01 and P02, followed by F2 save, a REVEAL setting change, F3 restore, and normal exit. Music remained ON and no music warning appeared during this scoped observation.",
       "limits": "This is a scoped observed pass, not full-game native acceptance. Native verification of the campaign ending remains incomplete; this is a verification limit, not an implementation omission. Exact cue identity, acoustic quality, subjective listening and timing/performance acceptance are not claimed. Portable game-model and internal test harnesses were not run for this revision.",
-      "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0\u20131.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
+      "runtime": "This observation used a locally built, unmodified official ScummVM v2026.3.0 source at commit fed42f2068dcafc6aafa1c28c77e4c88def74b66, with SCI0–1.1, FluidSynth and PNG support. Runtime binary SHA256: 329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6. This differs from the earlier vendor runtime; no runtime binary is included.",
       "summary": "FINITE-MIDI-NATIVE-STATUS.md",
       "save_lineage": "CAKOOD_ORDINARY_FINITE_FIX_20261009_R1",
       "compiled_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
@@ -104,7 +104,7 @@
     {
       "candidate_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd",
       "candidate_compile_receipt_sha256": "faaedb895b5f7428f929dd37f4415b93a68e37602e67a32446682093c37d71cc",
-      "observed": "Genuine New Game lineage reached P01\u2013P12 and three real contest wins. P12 welcome, all seven collection arrivals and ordinary P13 program transport with Milo through fully open Porch doorway, Living and Courtyard were observed. Genuine saves/restores and normal exit were exercised.",
+      "observed": "Genuine New Game lineage reached P01–P12 and three real contest wins. P12 welcome, all seven collection arrivals and ordinary P13 program transport with Milo through fully open Porch doorway, Living and Courtyard were observed. Genuine saves/restores and normal exit were exercised.",
       "defects": "Labelled left ENTER retired accompaniment; old evening actor draws duplicated successor actors; late body controls overlapped older props; held program label missing; PLEDGES wrapped; unavailable reading enabled; correct late travel exceeded180 seconds.",
       "correction": "LATE-UI-FIX.md. Changed code compiles and stages; native regression and full acceptance pending.",
       "observer_corrections": "Slow unchanged pixels were not completion proof. Off-scene program reading is not a completed reader. Seating confirmation is a no-reader action; following reader timeout is not a missing reader.",
@@ -163,10 +163,13 @@
     "ordinary_controls": "OBSERVED opening Hold/Next/Skip, game menu and normal Quit; native Save chooser, selection and confirmation created isolated save",
     "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0 on task-only rootful Xwayland",
     "game_source_or_engine_changed": false,
-    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01; P02-P14_AND_FOUR_CONTEST_WINS_PENDING",
+    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P04; P05_P14_AND_FOUR_CONTEST_WINS_PENDING",
     "native_acceptance": false,
     "private_artifacts_published": false,
     "changed_state_restore": "OBSERVED_P00_SCENE_AND_REVEAL_RESTORED",
-    "latest_test_boundary": "Genuine P01 save preserved; separate display closed and ScummVM exited with XIO/code 1; cause unresolved; no normal-close claim for this run"
+    "latest_test_boundary": "Genuine P01 save preserved; separate display closed and ScummVM exited with XIO/code 1; cause unresolved; no normal-close claim for this run",
+    "normal_quit": "OBSERVED_AFTER_P04_SAVE; ENGINE_EXIT_0_AND_TASK_SERVER_CLEANUP",
+    "p04_save_sha256": "4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f",
+    "audio_output": "OBSERVED_UNMUTED_UNCORKED_44100_HZ_STEREO; NO_SUBJECTIVE_LISTENING_CLAIM"
   }
 }

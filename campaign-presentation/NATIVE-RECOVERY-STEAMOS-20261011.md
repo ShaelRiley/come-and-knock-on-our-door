@@ -1,4 +1,4 @@
-# SteamOS recovery: exact candidate preserved, native input blocked
+# SteamOS recovery and scoped native testing
 
 ## Recovery after the machine restart
 
@@ -64,6 +64,44 @@ engine error or normal log close. Its cause is unresolved and normal Quit is
 not claimed for that run. The opening and Porch saves also remain intact.
 These are scoped control/Save/Load/opening/P01 observations; P02-P14, all four
 contest wins and late acceptance remain incomplete on this installed runtime.
+
+## Current installed-runtime progression on October 12
+
+The genuine New Game lineage on the unchanged candidate has now completed
+puzzles 1 through 4 in the installed, unmodified ScummVM engine identified below.
+The automatic opening ran fully with Music ON and full motion. Ordinary Save,
+Load, inventory, room travel, document pages, plan choices and the completion
+exchanges were visibly reviewed. New isolated native saves preserve each puzzle
+boundary. The P04 save is `cakood-native.008`, 103,146 bytes, SHA256
+`4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f`.
+It is private under the existing `20261012-input-diagnosis-core` session; it is
+not part of the public tree. `SAVE-IDENTITY.json` and `PROGRESS.md` there retain
+all earlier save identities and the continuation instructions.
+
+The P04 boundary was saved after the complete exchange. The ordinary game
+menu's Quit then returned engine code 0; the bounded launcher recorded its own
+server cleanup and the runtime log closed normally. No Music unavailable,
+missing authored-audio or fatal engine warning was found in the inspected log
+through this boundary. The live task audio stream was independently identified
+as unmuted, uncorked 44,100 Hz stereo output. These are scoped runtime and output
+observations, not subjective listening or exact acoustic/timing acceptance.
+
+Observer corrections: a selected world action can still be walking; issuing
+Escape early cancels it. The game REVEAL controls identify current art-specific
+rectangles, which supersede older reference coordinates. A placed document can
+overlay a board target. Inputs ignored by an open reader did not count as
+progress. In the private launcher, a file queue is reopened from its beginning;
+archive and empty it before each resume. Check terminal completion before a new
+launch; an older run's final display record can overwrite the same session file.
+One earlier continuation ended at its recorded idle timeout while an independent
+approval was pending. It was replayed through ordinary controls from the verified
+P01 save; no state shortcut or imported predecessor save was used.
+
+Next: resume the same exact session and Load the genuine P04 save through F3,
+then complete P05-P14, all four actual contest wins and the late UI, ending,
+58-credit and save/restore acceptance. P04 restore in a fresh process has not yet
+been observed. Full native acceptance remains false. No completed player
+release has been made.
 
 The sections below retain the preceding session's historical observations and
 permission boundary; references to a live process or disabled approvals there

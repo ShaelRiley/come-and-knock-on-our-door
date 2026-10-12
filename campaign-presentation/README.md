@@ -8,7 +8,7 @@ FluidSynth, PNG and the required SoundFont were verified again. Narrow execution
 approvals now work. A separate bounded windowed display and SDL's process-local
 core-X11 setting demonstrated ordinary game input and genuine Save/Load.
 The complete automatic opening has reached gameplay. Full campaign acceptance
-remains in progress; no completed player release is published. See
+remains in progress; the current installed-runtime New Game has completed puzzles 1–4, with genuine boundary saves and normal Quit. No completed player release is published. See
 NATIVE-RECOVERY-STEAMOS-20261011.md for recovered restart instructions, exact
 permission diagnosis and scoped observed results.
 
