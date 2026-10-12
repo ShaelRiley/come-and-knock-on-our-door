@@ -1,13 +1,16 @@
 # Come and Knock on Our Door: reconstructed candidate, native acceptance pending
 
-The interrupted SteamOS session has been recovered using GPT-6.1 Sol. The
-checkout had no newer tracked edits beyond `9902a33`, and all 1,759 staged game
-files still match the frozen candidate. The installed ScummVM 2026.3.0, SCI,
-FluidSynth, PNG and required SoundFont were verified. A surviving native
-opening process was saved through its genuine Save dialog and exited normally.
-Private evidence and saves were preserved. Full native testing remains blocked
-by unreliable shared-display input and a Codex policy rejection of isolated
-game controls. See NATIVE-RECOVERY-STEAMOS-20261011.md for the exact boundary.
+Recovery after the SteamOS restart preserved local checkpoint `9f06852`, the
+surviving opening save and private evidence. All 1,759 staged game files still
+match the frozen candidate. The preserved source tree is banked on GitHub at
+`5e8204b`; local history was not reset. Installed stock ScummVM 2026.3.0, SCI,
+FluidSynth, PNG and the required SoundFont were verified again. Narrow execution
+approvals now work. A separate bounded windowed display and SDL's process-local
+core-X11 setting demonstrated ordinary game input and genuine Save/Load.
+The complete automatic opening has reached gameplay. Full campaign acceptance
+remains in progress; no completed player release is published. See
+NATIVE-RECOVERY-STEAMOS-20261011.md for recovered restart instructions, exact
+permission diagnosis and scoped observed results.
 
 For native continuation, `source/native_session.py` verifies the exact staged
 candidate and prepares a separate stock-ScummVM session with private saves.

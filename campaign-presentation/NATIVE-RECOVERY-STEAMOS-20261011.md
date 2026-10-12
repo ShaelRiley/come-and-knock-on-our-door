@@ -1,5 +1,74 @@
 # SteamOS recovery: exact candidate preserved, native input blocked
 
+## Recovery after the machine restart
+
+The later recovery found a clean checkout on
+`work/steamos-native-recovery-20261011` at local commit
+`9f06852234aaaecb95d874e91f445a5cd03ea859`, newer than the preceding handoff's
+`9902a33` reference. No reset, branch replacement, pull or merge was performed.
+The opening save, private evidence, and exact staged game survived the reboot.
+A project-scoped private archive and Git bundle were made under ignored
+`source/build/recovery-backups/20261011T230820Z/` before further native tests.
+No old task game or recording process was found running after reboot.
+
+The missing restart instruction was recovered verbatim from project session
+`01a12c9a-d764-7562-86bc-7162745a2aab`:
+
+```sh
+codex resume 01a12c9a-d764-7562-86bc-7162745a2aab --model gpt-6.1-sol --cd /home/deck --sandbox workspace-write --ask-for-approval on-request --approve-for-me
+```
+
+This was a SteamOS-host instruction, not a container command. Installed Codex
+0.162.1 help confirms those options. `--approve-for-me` routes approval review;
+it does not disable the sandbox. The recorded failed operation was ordinary
+game input through `write_stdin` to task terminal 31243. The prior session's
+granular policy had `sandbox_approval: false`; even its later interruption
+request was rejected by that policy. The keyboard failure's cause is unknown.
+
+The current session successfully obtained narrow desktop and network approvals
+and launched the installed runtime. A restart is not currently necessary.
+Git command-line pushing separately failed because its configured
+`/usr/bin/gh` credential helper is missing. The connected GitHub tool banked
+the preserved source tree on the existing recovery branch at
+`5e8204ba3338b4a0632c1380ad8f4f28c80d68d5`; its tree
+`e81904b4d5c7159a6c5d960fe2e9ad2dfdd9796f` exactly matches local `9f06852`.
+Different commit metadata explains the different commit ID. Local history was
+preserved; no force push or finished player release was made.
+
+Current host inspection reports SteamOS 3.8.28. Candidate, installed engine and
+SoundFont hashes below were verified again. A new bounded private launcher
+uses a separate, visible, windowed Xwayland display, records its own process
+IDs, and cleans up only its children on stop, EOF, idle timeout or deadline.
+No automated input is directed into Konsole or approval dialogs. Screenshots
+from its first smoke test visibly demonstrated opening Hold, Next, Skip,
+the game menu and ordinary Quit; ScummVM recorded a normal close. Its Save
+request was captured before the chooser appeared and was not counted as Save.
+
+Later isolated tests visibly reached the native Save chooser. Mouse selections
+did not visibly work. No new save, restore, puzzle or contest pass is claimed.
+Tests closed through the recorded cleanup paths. The control investigation
+tested SDL's process-local `SDL_VIDEO_X11_XINPUT2=0` setting in the unchanged
+SDL implementation. With that setting, directed normal mouse events selected
+New Save and opened the name dialog; Enter created an isolated genuine opening
+save. Ordinary F3 and saved-card selection returned to the saved opening.
+The following complete automatic opening ran to Porch with full motion and
+Music ON. A second genuine save was made there; ordinary Space visibly enabled
+the scene's hotspot labels. Evidence remains private under
+`source/build/native-sessions/20261012-input-diagnosis-core/`.
+Load of the Porch save visibly restored REVEAL from the changed HIDE setting,
+the original caption and the closed-window scene state after a conversation.
+Puzzle 1 subsequently completed through ordinary visible actions and actual
+Living arrival. A genuine third save preserves that progress. The separate
+display later closed; ScummVM exited with XIO and code 1, without a recorded
+engine error or normal log close. Its cause is unresolved and normal Quit is
+not claimed for that run. The opening and Porch saves also remain intact.
+These are scoped control/Save/Load/opening/P01 observations; P02-P14, all four
+contest wins and late acceptance remain incomplete on this installed runtime.
+
+The sections below retain the preceding session's historical observations and
+permission boundary; references to a live process or disabled approvals there
+describe that earlier boundary, not the current post-reboot state.
+
 The interrupted local conversation and private test records were recovered on
 October 11, 2026 using GPT-6.1 Sol. The checkout and GitHub reference branch
 were both at `9902a33bcb6cf08eeef702646a4ddc1199f06bf1`; there were no newer

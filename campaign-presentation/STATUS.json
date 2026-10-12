@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "RECOVERED_STEAMOS_RUNTIME_NATIVE_INPUT_BLOCKED",
+  "status": "RECOVERED_STEAMOS_BOUNDED_NATIVE_TESTING_IN_PROGRESS",
   "save_lineage": "CAKOOD_PRESENTATION_LATE_UI_FIX_UNACCEPTED_20261011_R1",
   "new_game_required": true,
   "source_modules": 46,
@@ -121,7 +121,7 @@
   ],
   "current_fix_report": "LATE-UI-FIX.md",
   "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
-  "current_blocker": "CODEX_GRANULAR_SANDBOX_APPROVAL_DISABLED; shared Wayland game input unresolved; isolated ordinary UI input rejected; no completed player release",
+  "current_blocker": "COMPLETE_NATIVE_ACCEPTANCE_PENDING; narrow execution approvals work; isolated mouse input works with process-local SDL core-X11 setting; no completed player release",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -151,5 +151,22 @@
     "native_acceptance": false,
     "live_process": "Separate native game remained present; inspect before relaunch",
     "private_artifacts_published": false
+  },
+  "post_reboot_recovery": {
+    "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+    "local_checkpoint_preserved": "9f06852234aaaecb95d874e91f445a5cd03ea859",
+    "github_checkpoint_verified": "5e8204ba3338b4a0632c1380ad8f4f28c80d68d5",
+    "checkpoint_tree_sha": "e81904b4d5c7159a6c5d960fe2e9ad2dfdd9796f",
+    "saved_work_survived": true,
+    "restart_instruction_recovered": true,
+    "restart_currently_required": false,
+    "ordinary_controls": "OBSERVED opening Hold/Next/Skip, game menu and normal Quit; native Save chooser, selection and confirmation created isolated save",
+    "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0 on task-only rootful Xwayland",
+    "game_source_or_engine_changed": false,
+    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01; P02-P14_AND_FOUR_CONTEST_WINS_PENDING",
+    "native_acceptance": false,
+    "private_artifacts_published": false,
+    "changed_state_restore": "OBSERVED_P00_SCENE_AND_REVEAL_RESTORED",
+    "latest_test_boundary": "Genuine P01 save preserved; separate display closed and ScummVM exited with XIO/code 1; cause unresolved; no normal-close claim for this run"
   }
 }
