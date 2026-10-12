@@ -7,11 +7,13 @@ menu, and redundant puzzle 13 predecessor queries while retaining strict
 history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
 This candidate requires a separate genuine New Game with empty test saves.
 The preceding build's native progress below does not accept the changed scripts.
-The separate native New Game has now completed puzzles 1–7 and two actual
+The separate native New Game has now completed puzzles 1–10 and two actual
 contest wins, with changed-state and mid-contest restore, a restore in a new
-process, thirteen genuine saves and normal game Quit. Puzzles 8–14, the last
-two contests, repaired late UI, ending, all 58 credits and listening acceptance
-remain pending.
+process, twenty-four genuine saves and normal game Quit. Puzzle 11's full
+practical sequence and supported-state restore passed; its contest remains
+pending. Puzzle 9's retained-topic routing and both card labels passed native
+retesting. Puzzles 12–14, the last two contests, remaining late UI, ending,
+all 58 credits and listening acceptance remain pending.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.

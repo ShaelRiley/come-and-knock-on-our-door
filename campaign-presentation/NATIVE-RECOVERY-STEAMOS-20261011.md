@@ -1,6 +1,6 @@
 # SteamOS recovery and scoped native testing
 
-## New repaired candidate: observed puzzles 1–7
+## New repaired candidate: observed puzzles 1–10 and puzzle 11 practical
 
 The new isolated New Game uses receipt
 `e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909`,
@@ -58,11 +58,41 @@ interactions were replayed from the intact puzzle 4 save. No approval rejection
 occurred during this continuation; no CLI restart or permission change was
 required. Test queues, process records and saves remain private and preserved.
 
-Next: archive and empty the queue, preserve the existing INI, and resume this
-exact lineage through ordinary F3 Load of slot 13. Continue puzzles 8–14,
-contests 3 and 4, repaired late UI, critical late save/restore, opening Hold,
-ending/freeze/applause and all 58 credits. No completed player release is
-published.
+Puzzles 8–10 have subsequently completed on this candidate. The genuine evening
+checkpoint was restored, its actual Next and Close controls advanced all four
+follow-on cards, and the final character locations were observed. Puzzle 9's
+retained earlier topic returned to the correct menu; the later choice opened
+the complete five-page terms exchange. Its completion notice, both physical
+card pages, short inventory label TERMS and full sentence label Renewal and
+repair card were observed. A genuine completed-puzzle save was restored.
+The apparent menu problem during initial exploration was unearned clarification,
+not an additional demonstrated defect; no source change was made for it.
+
+Puzzle 10's full six-page introduction, two-page agreement, ordinary placement
+of all three ceramic originals, completion, restored journal and two-page credit
+exchange were observed. Puzzle 11's five physical transfers, four-page lift,
+five-page concern, six-page honest exchange, three mechanism readings, guarded
+release, full four-page safe fold and staging confirmation passed. A genuine
+supported-state save was changed by setting the object back, then F3 restored
+the saved handling state. Puzzle 11's third contest has not yet been played
+on this candidate, so full puzzle 11 acceptance remains pending.
+
+Twenty-four genuine saves are preserved. Slot 19 pins completed puzzle 9
+(112,930 bytes, SHA256
+`4b2641b4920aa50f85d07e0b23ac2b02ac59417eedb3a3b6018d66089cb261b9`).
+Slot 23 pins the supported-state restore (119,048 bytes, SHA256
+`d93a15a31fa23d21813df2b3533e9112d2dba71dc498b2d1d4655af3fbb58c35`).
+Slot 24 pins puzzle 11 practical completion (122,082 bytes, SHA256
+`68f84109e3beb25e396073ba818dd2abc93b60d3ae11f1370d5b01a1997c6b25`).
+Ordinary game Menu/5 Quit at 20:58:17 UTC returned engine0 and task-server0.
+No task game remains live. The menu still showed Voice and Effects ON.
+
+Next: archive and empty the queue, copy and preserve the existing INI, and
+resume this exact lineage through ordinary F3 Load of slot 24. Continue the
+third contest, puzzles 12–14, fourth contest, remaining late UI/performance,
+critical late save/restore, opening Hold, ending/freeze/applause and all 58
+credits. Subjective listening remains unperformed. No completed player release
+is published.
 
 ## October 12 source repair and next native run
 

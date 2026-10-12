@@ -243,25 +243,37 @@
       4,
       5,
       6,
-      7
+      7,
+      8,
+      9,
+      10
     ],
     "current_actual_contest_wins": [
       1,
       2
     ],
-    "save_files": 13,
+    "save_files": 24,
     "changed_state_restore": "OBSERVED_REVEAL_AND_SCENE_RESTORED",
     "fresh_process_restore": "OBSERVED_GENUINE_SAVE1_AND_SAVE5_AFTER_CORRECTED_SAVED_CARD_SELECTION",
-    "latest_test_boundary": "Genuine save13 preserves completed P07 after two actual wins; earlier scene-page gap closed from genuine save10 then Load13; ordinary Menu/5 Quit19:54:17UTC engine0/server0",
+    "latest_test_boundary": "Genuine save24 preserves P11 practical completion; P09 route and labels passed; supported-state save23 change/restore passed; ordinary Menu/5 Quit20:58:17UTC engine0/server0",
     "save5_sha256": "4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6",
     "opening_hold": "NOT_VERIFIED_IN_NEW_RUN",
     "audio": "MENU_OBSERVED_MUSIC_VOICE_EFFECTS_ON; UNMUTED_UNCORKED_44100_HZ_STEREO_OUTPUT; NO_SUBJECTIVE_LISTENING_CLAIM",
     "interruption": "First terminal disappeared after successful Save1/restore; stale READY record. Recorded PIDs absent and exact config-process search empty; cause/exitcode unverified. Save preserved and ordinary fresh Load verified.",
-    "remaining": "P08-P14, VC03/VC04, repaired late UI/performance, late save/restore, opening Hold, ending/freeze/applause/58credits, listening acceptance",
+    "remaining": "VC03/P12-P14/VC04, remaining late UI/performance and critical saves, opening Hold, ending/freeze/applause/58credits, listening acceptance",
     "mid_contest_restore": "OBSERVED_VC01_CHANGED_PENDING_REPLY_RESTORED_WITH_ORIGINAL_SELECTION_AND_BOTH_3_OF_3_SCORES",
     "save9_sha256": "ccae85e061c243e05f1569289f434aff0d6dc1eb20c4ca9d7f0a4bde2ce9a874",
     "save12_sha256": "39312329948d51a62c8de1e67de1896e1dbabad3bdea99e8657b0d7e94f3b726",
     "save13_sha256": "41c8bdb7d361e5b6a824e9016791ec3ac6bfb1590fecb0ca16d55ad8336f9e3c",
-    "latest_process_exit": "GAME_EXIT_20261012_195417_UTC_ENGINE0_SERVER0"
+    "latest_process_exit": "GAME_EXIT_20261012_205817_UTC_ENGINE0_SERVER0",
+    "puzzle11_practical": "OBSERVED_FIVE_PHYSICAL_TRANSFERS_FULL_HANDLING_AND_STAGING; VC03_PENDING",
+    "p09_retained_topic_route": "OBSERVED_EARLIER_TOPIC_BACK_TO_MENU_THEN_CORRECT_LATER_FIVE_PAGE_TERMS",
+    "p09_inventory_labels": "OBSERVED_TERMS_AND_FULL_SENTENCE_RENEWAL_AND_REPAIR_CARD",
+    "p09_completed_restore": "OBSERVED_GENUINE_SAVE19_COMPLETED_STATE_RESTORED",
+    "p11_supported_restore": "OBSERVED_GENUINE_SAVE23_CHANGED_SETBACK_AND_F3_RESTORE",
+    "save19_sha256": "4b2641b4920aa50f85d07e0b23ac2b02ac59417eedb3a3b6018d66089cb261b9",
+    "save20_sha256": "5b9c429e9263e38ed90e8a14f27baf4a58e446e043b1a6673ceb1468485ae3aa",
+    "save23_sha256": "d93a15a31fa23d21813df2b3533e9112d2dba71dc498b2d1d4655af3fbb58c35",
+    "save24_sha256": "68f84109e3beb25e396073ba818dd2abc93b60d3ae11f1370d5b01a1997c6b25"
   }
 }
