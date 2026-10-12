@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 22503,
-      "sha256": "8fe5b3fd96b58f36c01a2b4f44740b82b964d8c4e6a1d01576987ae6b75affc6"
+      "bytes": 24160,
+      "sha256": "ff0fe194381815d798b823f5ae5c9d0089a64ed469143a7ce8c7b7056ec126f8"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7642,
-      "sha256": "d3b8d746e6b2d3109d3d281e3f1c0238f51df1faf9d5a1a6f5f06adc654bdf72"
+      "bytes": 7658,
+      "sha256": "589d8ca4a20964f6be63e442b33dc861538fab0fa47731f2b9dd173cdb618411"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 21070,
-      "sha256": "31dc63ceab8c784a4c608a098b7ba4968b68e1ce1ce6f66c9be1d8464771db74"
+      "bytes": 21741,
+      "sha256": "620da2d6c537ed3bb9e7deab2c72ee078c6a23601660e52f25ba42e1e55db742"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17346,10 +17346,10 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
-  "runtime_behavior": "CURRENT_RECOVERY_UI_CANDIDATE_OBSERVED_P01_P04; CHANGED_STATE_AND_FRESH_PROCESS_RESTORE; NORMAL_QUIT; NO_CONTEST_WINS_YET; COMPLETE_GAME_UNVERIFIED",
+  "runtime_behavior": "CURRENT_RECOVERY_UI_CANDIDATE_OBSERVED_P01_P07_AND_ACTUAL_VC01_VC02_WINS; CHANGED_STATE_MID_CONTEST_AND_FRESH_PROCESS_RESTORE; NORMAL_QUIT; COMPLETE_GAME_UNVERIFIED",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
-  "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
+  "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",

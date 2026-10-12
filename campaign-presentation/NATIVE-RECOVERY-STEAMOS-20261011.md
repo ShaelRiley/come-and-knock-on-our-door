@@ -1,6 +1,6 @@
 # SteamOS recovery and scoped native testing
 
-## New repaired candidate: observed puzzles 1–4
+## New repaired candidate: observed puzzles 1–7
 
 The new isolated New Game uses receipt
 `e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909`,
@@ -21,7 +21,7 @@ chooser; the corrected ordinary saved-card selection visibly restored save 1.
 
 Puzzles 1–4 subsequently completed through ordinary controls. Puzzle 2's full
 six-card agreement, puzzle 3's full six-card scene and puzzle 4's full five-card
-scene were observed. Five genuine saves exist. Slot 5 preserves puzzle 4
+scene were observed. The first five genuine saves preserve these boundaries. Slot 5 preserves puzzle 4
 (103,261 bytes, SHA256
 `4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6`).
 Ordinary game Menu/5 Quit at 19:05:55 UTC returned engine0 and task-server0.
@@ -33,10 +33,36 @@ remained in the departure scene are excluded from acceptance. Private evidence
 records their corrections. No debug commands, state setters, imported saves
 or save patching earned any of this progression.
 
-Next: archive and empty the queue, resume this exact lineage through ordinary
-F3 Load of slot 5, and complete puzzles 5–14, all four actual contest wins,
-repaired late UI, critical late save/restore, ending/freeze/applause and all
-58 credits. No completed player release is published.
+Puzzles 5–7 have now completed on the same candidate. The first two contests
+were genuinely played through their practice exchanges, three scored rounds,
+actual knockouts, explicit recorded wins, concessions and closing scenes.
+The first contest's pending reply was saved, changed, then restored through
+F3; its original selection and both scores visibly returned. Complete practical
+completion and character scenes were reviewed. An earlier three-page scene
+was initially closed after page 1; ordinary Load of genuine save 10 allowed
+all three pages to be observed, and Load 13 then returned the latest progress.
+No saved branch was overwritten and no predecessor-build save was imported.
+
+Thirteen genuine saves now exist. Slot 12 preserves completed puzzle 6
+(105,926 bytes, SHA256
+`39312329948d51a62c8de1e67de1896e1dbabad3bdea99e8657b0d7e94f3b726`).
+Slot 13 preserves completed puzzle 7 (105,634 bytes, SHA256
+`41c8bdb7d361e5b6a824e9016791ec3ac6bfb1590fecb0ca16d55ad8336f9e3c`).
+Ordinary game Quit at 19:54:17 UTC returned engine0 and task-server0.
+The menu displayed Music, Voice and Effects ON. The native audio stream was
+unmuted, uncorked 44,100 Hz stereo. Subjective listening remains unperformed.
+No warning or fatal error appeared in the inspected native log for this run.
+
+A preceding bounded run stopped through its recorded idle timeout. Unsaved
+interactions were replayed from the intact puzzle 4 save. No approval rejection
+occurred during this continuation; no CLI restart or permission change was
+required. Test queues, process records and saves remain private and preserved.
+
+Next: archive and empty the queue, preserve the existing INI, and resume this
+exact lineage through ordinary F3 Load of slot 13. Continue puzzles 8–14,
+contests 3 and 4, repaired late UI, critical late save/restore, opening Hold,
+ending/freeze/applause and all 58 credits. No completed player release is
+published.
 
 ## October 12 source repair and next native run
 

@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_RECOVERY_UI_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_87_UNCHANGED_COMPILED_ARTIFACTS_5_DECLARED_SCRIPT_HEAP_CHANGES",
-    "runtime_behavior": "CURRENT_RECOVERY_UI_CANDIDATE_OBSERVED_P01_P04; CHANGED_STATE_AND_FRESH_PROCESS_RESTORE; NORMAL_QUIT; NO_CONTEST_WINS_YET; COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "CURRENT_RECOVERY_UI_CANDIDATE_OBSERVED_P01_P07_AND_ACTUAL_VC01_VC02_WINS; CHANGED_STATE_MID_CONTEST_AND_FRESH_PROCESS_RESTORE; NORMAL_QUIT; COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_CASES_ON_RECOVERY_UI_CANDIDATE",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -146,8 +146,8 @@
     }
   ],
   "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
-  "current_native_report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
-  "current_blocker": "COMPLETE_GENUINE_NATIVE_ACCEPTANCE_PENDING; current candidate P01-P04 complete, P05-P14/all4wins/repairedlateUI/ending58/listening pending; no player release",
+  "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+  "current_blocker": "COMPLETE_GENUINE_NATIVE_ACCEPTANCE_PENDING; current candidate P01-P07 and two actual wins complete; P08-P14/VC03/VC04/repairedlateUI/ending58/listening pending; no player release",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -240,17 +240,28 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7
     ],
-    "current_actual_contest_wins": [],
-    "save_files": 5,
+    "current_actual_contest_wins": [
+      1,
+      2
+    ],
+    "save_files": 13,
     "changed_state_restore": "OBSERVED_REVEAL_AND_SCENE_RESTORED",
-    "fresh_process_restore": "OBSERVED_SAVE1_AFTER_CORRECTED_SAVED_CARD_SELECTION",
-    "latest_test_boundary": "Genuine save5 preserves P04; native full P02agreement6/P03scene6/P04scene5; Menu/5 Quit19:05:55UTC engine0/server0",
+    "fresh_process_restore": "OBSERVED_GENUINE_SAVE1_AND_SAVE5_AFTER_CORRECTED_SAVED_CARD_SELECTION",
+    "latest_test_boundary": "Genuine save13 preserves completed P07 after two actual wins; earlier scene-page gap closed from genuine save10 then Load13; ordinary Menu/5 Quit19:54:17UTC engine0/server0",
     "save5_sha256": "4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6",
     "opening_hold": "NOT_VERIFIED_IN_NEW_RUN",
-    "audio": "MENU_OBSERVED_MUSIC_VOICE_EFFECTS_ON; NO_SUBJECTIVE_LISTENING_CLAIM",
+    "audio": "MENU_OBSERVED_MUSIC_VOICE_EFFECTS_ON; UNMUTED_UNCORKED_44100_HZ_STEREO_OUTPUT; NO_SUBJECTIVE_LISTENING_CLAIM",
     "interruption": "First terminal disappeared after successful Save1/restore; stale READY record. Recorded PIDs absent and exact config-process search empty; cause/exitcode unverified. Save preserved and ordinary fresh Load verified.",
-    "remaining": "P05-P14, all four actual wins, repaired late UI/performance, late save/restore, ending/freeze/applause/58credits, listening acceptance"
+    "remaining": "P08-P14, VC03/VC04, repaired late UI/performance, late save/restore, opening Hold, ending/freeze/applause/58credits, listening acceptance",
+    "mid_contest_restore": "OBSERVED_VC01_CHANGED_PENDING_REPLY_RESTORED_WITH_ORIGINAL_SELECTION_AND_BOTH_3_OF_3_SCORES",
+    "save9_sha256": "ccae85e061c243e05f1569289f434aff0d6dc1eb20c4ca9d7f0a4bde2ce9a874",
+    "save12_sha256": "39312329948d51a62c8de1e67de1896e1dbabad3bdea99e8657b0d7e94f3b726",
+    "save13_sha256": "41c8bdb7d361e5b6a824e9016791ec3ac6bfb1590fecb0ca16d55ad8336f9e3c",
+    "latest_process_exit": "GAME_EXIT_20261012_195417_UTC_ENGINE0_SERVER0"
   }
 }
