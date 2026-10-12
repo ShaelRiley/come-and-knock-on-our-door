@@ -1,5 +1,43 @@
 # SteamOS recovery and scoped native testing
 
+## New repaired candidate: observed puzzles 1–4
+
+The new isolated New Game uses receipt
+`e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909`,
+map `0c285097cc5cd04824d69ec365e90256f22cba6154c01089b71333545cfdb95d`,
+and lineage `CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2`.
+The source repair is banked at local `c6c545109a4b402e9fd9762982efce33ecf1af84`
+and GitHub `1f73f16795db2ee0f7965f3f45de53b45f21f06e`, with identical tree
+`32b7db4367e3cee0b746157c3c0a4a9cfb0a8eed`.
+
+This run began with empty saves, automatic New Game and the unchanged stock
+engine. It reached Porch and created save 1. A REVEAL change followed by Load
+visibly restored the original scene and setting. The first tool terminal later
+became unavailable without its final cleanup record; its cause and exit code
+are unknown. Its recorded process IDs were absent, and a read-only search for
+this exact session's config argument found no remaining game. Work and saves
+were preserved before relaunch. An initial fresh Load request stayed in the
+chooser; the corrected ordinary saved-card selection visibly restored save 1.
+
+Puzzles 1–4 subsequently completed through ordinary controls. Puzzle 2's full
+six-card agreement, puzzle 3's full six-card scene and puzzle 4's full five-card
+scene were observed. Five genuine saves exist. Slot 5 preserves puzzle 4
+(103,261 bytes, SHA256
+`4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6`).
+Ordinary game Menu/5 Quit at 19:05:55 UTC returned engine0 and task-server0.
+The menu visibly retained Music, Voice and Effects ON. No subjective listening
+claim is made, and opening Hold was not verified in this new run.
+
+Wrong input-field requests, status-only actions and attempted travels that
+remained in the departure scene are excluded from acceptance. Private evidence
+records their corrections. No debug commands, state setters, imported saves
+or save patching earned any of this progression.
+
+Next: archive and empty the queue, resume this exact lineage through ordinary
+F3 Load of slot 5, and complete puzzles 5–14, all four actual contest wins,
+repaired late UI, critical late save/restore, ending/freeze/applause and all
+58 credits. No completed player release is published.
+
 ## October 12 source repair and next native run
 
 The frozen preceding run later completed the ordinary puzzle 13 preparation

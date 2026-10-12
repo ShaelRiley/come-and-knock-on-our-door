@@ -7,7 +7,10 @@ menu, and redundant puzzle 13 predecessor queries while retaining strict
 history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
 This candidate requires a separate genuine New Game with empty test saves.
 The preceding build's native progress below does not accept the changed scripts.
-Full campaign, ending, all 58 credits and listening acceptance remain pending.
+The separate native New Game has now completed puzzles 1–4, with changed-state
+restore, a restore in a new process, five genuine saves and normal game Quit.
+No contest win is yet accepted for this candidate. Puzzles 5–14, the repaired
+late UI, ending, all 58 credits and listening acceptance remain pending.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.
