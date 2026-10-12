@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_LATE_UI_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_86_UNCHANGED_COMPILED_ARTIFACTS_6_DECLARED_SCRIPT_HEAP_CHANGES",
-    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P10_ACTUAL_VC01_VC02; P11_PRACTICAL_AND_SUPPORTED_RESTORE_OBSERVED; VC03_PRACTICE_SAVED_MATCH_INPUT_UNDER_INVESTIGATION; LATE_UI_DEFECTS_PENDING; COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P11_ACTUAL_VC01_VC02_VC03; P12_ALL_SEVEN_GATHERED_SAVED; LATE_UI_DEFECTS_PENDING; COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -117,6 +117,14 @@
       "limits": "No complete P12-P14, VC04 or ending/58-credit pass. Following Bunny Courtyard travel was not reviewed. P13/P14 regressions remain pending. Subjective listening, Deck hardware and older-save compatibility unproved.",
       "blocker": "Live terminal resume failed with exec-server transport disconnected and recovery timed out after 25s. Read-only workspace and screenshot recovery did not complete. Game process and unsaved progress uninspected; normal exit not claimed.",
       "report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md"
+    },
+    {
+      "date": "2026-10-12",
+      "candidate_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
+      "candidate_compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
+      "observed": "Installed stock ScummVM genuine New Game lineage completed P01-P11 and three actual contest wins. All seven P12 guests physically gathered; fresh slot30 saved. P12 three-card review observed subsequently but unsaved at timed shutdown.",
+      "limits": "P12 completion, P13-P14, VC04, late UI corrections, ending and all58 credits pending. Controller path and subjective listening remain unverified.",
+      "report": "NATIVE-RECOVERY-STEAMOS-20261011.md"
     }
   ],
   "current_fix_report": "LATE-UI-FIX.md",
@@ -161,13 +169,13 @@
     "restart_instruction_recovered": true,
     "restart_currently_required": false,
     "ordinary_controls": "OBSERVED opening Hold/Next/Skip, game menu and normal Quit; native Save chooser, selection and confirmation created isolated save",
-    "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0 on task-only rootful Xwayland",
+    "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0; isolated INI joystick_num=-1 on task-only rootful Xwayland",
     "game_source_or_engine_changed": false,
-    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P10_AND_ACTUAL_VC01_VC02_WINS; P11_PRACTICAL_OBSERVED_VC03_WIN_PENDING; P12_P14_VC04_AND_ENDING_PENDING",
+    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P11_AND_ACTUAL_VC01_VC02_VC03_WINS; P12_GATHERING_SAVED; P12_P14_VC04_AND_ENDING_PENDING",
     "native_acceptance": false,
     "private_artifacts_published": false,
     "changed_state_restore": "OBSERVED_P00_SCENE_AND_REVEAL_RESTORED",
-    "latest_test_boundary": "P11 five native transfers and practical scene observed; supported-display changed-state restore passed; genuine isolated slot28 preserves all18 learned replies; third scored match input intermittent, no win observed; latest task process ended IDLE_TIMEOUT during diagnostic approval",
+    "latest_test_boundary": "Genuine slot29 preserves P11 complete and third win; slot30 preserves all seven P12 guests physically gathered. Three review cards subsequently observed but unsaved. Latest run ended LIFETIME_LIMIT before Save31 and Quit; slot31 absent.",
     "normal_quit": "OBSERVED_AFTER_P04_P07_AND_P11_TRANSFER_SAVES; ENGINE_EXIT_0_AND_TASK_SERVER_CLEANUP",
     "p04_save_sha256": "4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f",
     "audio_output": "OBSERVED_UNMUTED_UNCORKED_44100_HZ_STEREO; NO_SUBJECTIVE_LISTENING_CLAIM",
@@ -182,6 +190,11 @@
     ],
     "p11_supported_restore": "OBSERVED_NATIVE_SAVE25_CHANGED_SETBACK_AND_F3_RESTORE_TO_SUPPORTED_STATE",
     "vc03_practice_save_sha256": "2644db6a69a533f9d4c8cff3b2ebcc40fb0ac2446db67f3cf9b855a9bfe16d2c",
-    "vc03_match": "STARTED_WITH_COMPOSURE_3_3_BOTH; RESPONSE_INPUT_INTERMITTENT; NO_ROUND_RESULT_OR_WIN_OBSERVED"
+    "vc03_match": "OBSERVED_THREE_SCORED_ROUNDS_KNOCKOUT_EXPLICIT_WIN_CONCESSION_AND_COMPLETE_FLOURISH",
+    "vc03_win_save_sha256": "2a45643c54897dbc6c93c833127f63730ef6e0143550e7c954ef95b09cef5543",
+    "p12_gather_save_sha256": "4803d9c6d9b1d86a98e426976e99ddfaf79e9daebf8b2fce9ec0b52c609f9928",
+    "controller_input_diagnosis": "Read-only copied-save diagnostics observed SDL controller-axis flooding during stalled input. Process-local joystick disabling removed axes and restored ordinary controls. Hardware cause and controller acceptance remain unverified.",
+    "latest_process_exit": "LIFETIME_LIMIT at 2026-10-12 17:00:45 UTC; engine terminated -15, task server exit0; queued save/quit not executed",
+    "performance_observation": "Scoped P12 reader sample: main18.56% CPU, SDL audio99.78%. Cause unresolved; no subjective audio claim."
   }
 }

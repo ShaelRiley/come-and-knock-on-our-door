@@ -8,7 +8,16 @@ FluidSynth, PNG and the required SoundFont were verified again. Narrow execution
 approvals now work. A separate bounded windowed display and SDL's process-local
 core-X11 setting demonstrated ordinary game input and genuine Save/Load.
 The complete automatic opening has reached gameplay. Full campaign acceptance
-remains in progress; the current installed-runtime New Game has completed puzzles 1–10 and two actual contest wins, with genuine boundary saves and normal Quit. Puzzle 11's five physical transfers and practical sequence were observed, including supported-display save/restore. The third contest's practice is saved; its scored match has no verified win and showed intermittent response-menu input. A late conversation-routing defect and a missing card label require correction and native retesting. Fresh-process restore and mid-contest restore passed. No completed player release is published. See
+remains in progress. The current installed-runtime New Game has completed puzzles
+1–11 and three actual contest wins, with genuine boundary saves and normal Quit
+at earlier boundaries. A fresh save preserves all seven guests gathered for
+puzzle 12. Its three-card review was observed but must be repeated after restore:
+the timed test ended before the next save or Quit request executed. Process-local
+joystick disabling restored ordinary input after an isolated diagnostic found
+controller-axis flooding; the controller hardware path remains unverified. A
+late conversation-routing defect and a missing card label require correction and
+native retesting. Puzzles 12–14, the fourth contest, late UI and the ending with
+all 58 credits remain pending. No completed player release is published. See
 NATIVE-RECOVERY-STEAMOS-20261011.md for recovered restart instructions, exact
 permission diagnosis and scoped observed results.
 

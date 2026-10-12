@@ -72,16 +72,37 @@ practical scene through ordinary controls. A supported-display save was followed
 by a changed state and native Load; the supported state visibly returned. Separate
 slots 24–26 preserve these boundaries. The third contest's six new practice
 exchanges were fully observed, and slot 28 preserves all 18 learned replies.
-The scored third match began with both composure meters at 3/3, but reply-menu
-inputs updated intermittently and no round result or win was observed. This
-remains an input/runtime investigation, not a diagnosed source defect. The latest
-bounded process ended at IDLE_TIMEOUT while a read-only diagnostic approval was
-pending; no normal Quit is claimed for that run. All saves remain private and
-intact. Resume slot 28 through ordinary F3, inspect actual task PIDs, and retest
-the scored third match before counting P11 complete. The game and engine bytes
-are unchanged. P12–P14, VC04, ending and all 58 credits remain pending.
+The intermittent scored-match input was investigated on an isolated copy of
+slot 28, using read-only diagnostics. Raw keys reached the focused task window;
+SDL recorded a large controller-axis flood while ordinary game events stalled.
+The comparison run with process-local joystick disabling removed the axis flood
+and responded to ordinary Close, Return, global menu and Quit. This identifies
+a usable input workaround, not the controller hardware's underlying cause.
 
-The genuine New Game lineage on the unchanged candidate has now completed
+The original acceptance session then resumed with only its isolated INI's
+`joystick_num=-1` setting changed. The regular launcher, engine, game bytes,
+unmuted audio and genuine save lineage remained unchanged. Three native scored
+rounds, knockout, explicit third win, concession and complete flourish were
+observed. P11 is complete; slot 29 preserves that boundary (122,097 bytes,
+SHA256 `2a45643c54897dbc6c93c833127f63730ef6e0143550e7c954ef95b09cef5543`).
+
+All seven P12 guests were physically gathered through ordinary invitations and
+travel. Slot 30 preserves that state (122,107 bytes, SHA256
+`4803d9c6d9b1d86a98e426976e99ddfaf79e9daebf8b2fce9ec0b52c609f9928`).
+The three welcome-review cards were subsequently observed but not saved. The
+latest run ended at its 30-minute lifetime limit at 17:00:45 UTC, before the
+queued Save31 and Quit executed. Slot 31 does not exist; normal Quit is not
+claimed for this run. The task engine was terminated by the bounded launcher,
+whose own server then exited normally. A scoped process sample during that
+reader found the SDL audio thread busy; its cause remains unresolved. It does
+not establish a game-validator performance defect or subjective audio acceptance.
+
+Next: archive and empty the old queue before relaunch, restore genuine slot 30
+through F3, repeat the unsaved review, and complete P12–P14, VC04, late UI,
+save/restore, ending and all 58 credits. All saves and diagnostic artifacts stay
+private. Full native acceptance remains false; no player release was made.
+
+The earlier progression in this genuine New Game lineage completed
 puzzles 1 through 10 and two actual contest wins in the installed, unmodified
 ScummVM engine identified below.
 The automatic opening ran fully with Music ON and full motion. Ordinary Save,
@@ -136,7 +157,7 @@ game-created pre-evening save and complete evening exchange were observed.
 P09 reached its complete terms and success exchange and its physical card;
 both card pages were reviewed. P10's physical ceramic assembly reached its
 success exchange, with all seven available source readings reviewed. Genuine
-slots 21 and 22 preserve those chapter boundaries. P11 remains in progress:
+slots 21 and 22 preserve those chapter boundaries. At that earlier boundary P11 was in progress:
 three actual companion/object transfers reached their destination visibly.
 Slot 23 preserves those transfers. Normal Quit after this save returned engine
 and task-server code 0; no task game remains at this boundary.
@@ -151,11 +172,9 @@ candidate was not edited during these observations. Neither issue is counted
 as a passed UI regression. Private screenshots, saves and operating records
 remain excluded from the source checkpoint.
 
-Next: archive and empty the old input queue, resume the same exact session and
-Load genuine slot 23 through F3 (chooser page 4, bottom-right card). Complete
-P11-P14, the remaining two actual contest wins and the late UI, ending, 58-credit
-and save/restore acceptance. Full native acceptance remains false. No completed
-player release has been made. Subjective listening remains unverified.
+That earlier continuation resumed slot 23 before reaching the latest boundary
+reported above. Full native acceptance remains false. No completed player
+release has been made. Subjective listening remains unverified.
 
 The sections below retain the preceding session's historical observations and
 permission boundary; references to a live process or disabled approvals there
