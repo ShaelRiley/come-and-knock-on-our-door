@@ -68,13 +68,16 @@ contest wins and late acceptance remain incomplete on this installed runtime.
 ## Current installed-runtime progression on October 12
 
 The genuine New Game lineage on the unchanged candidate has now completed
-puzzles 1 through 4 in the installed, unmodified ScummVM engine identified below.
+puzzles 1 through 7 and two actual contest wins in the installed, unmodified
+ScummVM engine identified below.
 The automatic opening ran fully with Music ON and full motion. Ordinary Save,
 Load, inventory, room travel, document pages, plan choices and the completion
 exchanges were visibly reviewed. New isolated native saves preserve each puzzle
 boundary. The P04 save is `cakood-native.008`, 103,146 bytes, SHA256
 `4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f`.
-It is private under the existing `20261012-input-diagnosis-core` session; it is
+The later P07 boundary is `cakood-native.016`, 105,581 bytes, SHA256
+`95309f27f5b05ec08f458d1155362db1f7d2e15329c37ad861f67de7a96fdb10`.
+Both are private under the existing `20261012-input-diagnosis-core` session; neither is
 not part of the public tree. `SAVE-IDENTITY.json` and `PROGRESS.md` there retain
 all earlier save identities and the continuation instructions.
 
@@ -97,11 +100,28 @@ One earlier continuation ended at its recorded idle timeout while an independent
 approval was pending. It was replayed through ordinary controls from the verified
 P01 save; no state shortcut or imported predecessor save was used.
 
-Next: resume the same exact session and Load the genuine P04 save through F3,
-then complete P05-P14, all four actual contest wins and the late UI, ending,
-58-credit and save/restore acceptance. P04 restore in a fresh process has not yet
-been observed. Full native acceptance remains false. No completed player
-release has been made.
+Fresh-process native Load of the P04 boundary passed. The first contest's
+pending reply was saved, changed, then restored through F3; the original reply
+and both scores returned. The P05 and P06 contests reached actual knockouts,
+explicit recorded wins, concessions and progression. Their completed boundary
+saves are slots 12 and 15. P07's full source document, physical preparation and
+character scene were observed, followed by its completed-state system response.
+Ordinary game Quit after the P07 save returned engine and task-server code 0;
+no task game remains running at this boundary. Music, Voice and Effects were ON.
+
+One P06 continuation ended at the recorded 180-second idle limit during evidence
+review. Its unsaved actions were repeated from the genuine P05 save, using normal
+controls. A wrong inventory-slot click did not complete assembly and was not
+counted as progress. The clip exchange's first page was observed; the whole
+multi-page clip dialogue is not claimed. The subsequent complete demonstration
+and loan exchanges were reviewed. Screenshot captures and task-window recordings
+remain private, along with the saved input audit and process identities.
+
+Next: archive and empty the old input queue, resume the same exact session and
+Load genuine slot 16 through F3 (chooser page 3, middle bottom card). Complete
+P08-P14, the remaining two actual contest wins and the late UI, ending, 58-credit
+and save/restore acceptance. Full native acceptance remains false. No completed
+player release has been made. Subjective listening remains unverified.
 
 The sections below retain the preceding session's historical observations and
 permission boundary; references to a live process or disabled approvals there

@@ -1,5 +1,5 @@
 {
-  "status": "RECOVERED_STEAMOS_RUNTIME_NATIVE_INPUT_BLOCKED",
+  "status": "RECOVERED_STEAMOS_BOUNDED_NATIVE_TESTING_IN_PROGRESS",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 11841,
-      "sha256": "fe0ac60cf0c34dbb8b64cba60bf6f2064eaac59bf74afb883e581b6fea50166c"
+      "bytes": 13250,
+      "sha256": "a4f51ec0d5e78829e2b5a8a4a71f4def1b0b4c8ae5046f63e4293c2095ed42ee"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6005,
-      "sha256": "527b354a4cb3395c056c0cbc98ed786156bf3ba828710c1ad4c77d35457a4d32"
+      "bytes": 6087,
+      "sha256": "4fd099ef3b20364627c786a73c357bbd978e49b5a7e1bc2bfceeb229f4914d52"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 14701,
-      "sha256": "4b9d9ff783457974e252ef554bf2d1c7b0b11e270dd0648ae5d2742ee6737f60"
+      "bytes": 15068,
+      "sha256": "47116688307e583937bf7facf160d9504cc596a3dd318ad6b0fe1de2074fc124"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
