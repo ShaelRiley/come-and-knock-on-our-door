@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_LATE_UI_FIX",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_86_UNCHANGED_COMPILED_ARTIFACTS_6_DECLARED_SCRIPT_HEAP_CHANGES",
-    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P10_ACTUAL_VC01_VC02; P11_TRANSFERS_IN_PROGRESS; LATE_UI_DEFECTS_PENDING; COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "CURRENT_INSTALLED_RUNTIME_OBSERVED_OPENING_P01_P10_ACTUAL_VC01_VC02; P11_PRACTICAL_AND_SUPPORTED_RESTORE_OBSERVED; VC03_PRACTICE_SAVED_MATCH_INPUT_UNDER_INVESTIGATION; LATE_UI_DEFECTS_PENDING; COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_CASES_INCLUDING_102_TRANSPORT_IDENTITY_CHECKS_AND_PRACTICE_BUFFER_LIMITS",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -163,11 +163,11 @@
     "ordinary_controls": "OBSERVED opening Hold/Next/Skip, game menu and normal Quit; native Save chooser, selection and confirmation created isolated save",
     "isolated_input_setting": "SDL_VIDEODRIVER=x11; SDL_VIDEO_X11_XINPUT2=0 on task-only rootful Xwayland",
     "game_source_or_engine_changed": false,
-    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P10_AND_ACTUAL_VC01_VC02_WINS; P11_IN_PROGRESS; P12_P14_VC03_VC04_AND_ENDING_PENDING",
+    "current_runtime_new_puzzle_or_contest_pass": "OBSERVED_P01_P10_AND_ACTUAL_VC01_VC02_WINS; P11_PRACTICAL_OBSERVED_VC03_WIN_PENDING; P12_P14_VC04_AND_ENDING_PENDING",
     "native_acceptance": false,
     "private_artifacts_published": false,
     "changed_state_restore": "OBSERVED_P00_SCENE_AND_REVEAL_RESTORED",
-    "latest_test_boundary": "P10 complete; P11 three native transfers preserved in genuine isolated slot23; normal Quit confirmed engine0/server0; no task game remains at this boundary",
+    "latest_test_boundary": "P11 five native transfers and practical scene observed; supported-display changed-state restore passed; genuine isolated slot28 preserves all18 learned replies; third scored match input intermittent, no win observed; latest task process ended IDLE_TIMEOUT during diagnostic approval",
     "normal_quit": "OBSERVED_AFTER_P04_P07_AND_P11_TRANSFER_SAVES; ENGINE_EXIT_0_AND_TASK_SERVER_CLEANUP",
     "p04_save_sha256": "4c1408578ba0c843ff0ddeec598e1c59c802e70c7d4dac4ea69060d23de3b81f",
     "audio_output": "OBSERVED_UNMUTED_UNCORKED_44100_HZ_STEREO; NO_SUBJECTIVE_LISTENING_CLAIM",
@@ -179,6 +179,9 @@
     "pending_native_defects": [
       "Retained P09 earlier topic changes choice context to202 but leaves later menu IDs; fresh conversation restores239; repair and native retest pending",
       "Renewal card object399 falls through host inventory label dispatch to generic ITEM; repair and native retest pending"
-    ]
+    ],
+    "p11_supported_restore": "OBSERVED_NATIVE_SAVE25_CHANGED_SETBACK_AND_F3_RESTORE_TO_SUPPORTED_STATE",
+    "vc03_practice_save_sha256": "2644db6a69a533f9d4c8cff3b2ebcc40fb0ac2446db67f3cf9b855a9bfe16d2c",
+    "vc03_match": "STARTED_WITH_COMPOSURE_3_3_BOTH; RESPONSE_INPUT_INTERMITTENT; NO_ROUND_RESULT_OR_WIN_OBSERVED"
   }
 }

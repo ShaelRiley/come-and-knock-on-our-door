@@ -67,6 +67,20 @@ contest wins and late acceptance remain incomplete on this installed runtime.
 
 ## Current installed-runtime progression on October 12
 
+The latest continuation completed all five physical P11 transfers and its
+practical scene through ordinary controls. A supported-display save was followed
+by a changed state and native Load; the supported state visibly returned. Separate
+slots 24–26 preserve these boundaries. The third contest's six new practice
+exchanges were fully observed, and slot 28 preserves all 18 learned replies.
+The scored third match began with both composure meters at 3/3, but reply-menu
+inputs updated intermittently and no round result or win was observed. This
+remains an input/runtime investigation, not a diagnosed source defect. The latest
+bounded process ended at IDLE_TIMEOUT while a read-only diagnostic approval was
+pending; no normal Quit is claimed for that run. All saves remain private and
+intact. Resume slot 28 through ordinary F3, inspect actual task PIDs, and retest
+the scored third match before counting P11 complete. The game and engine bytes
+are unchanged. P12–P14, VC04, ending and all 58 credits remain pending.
+
 The genuine New Game lineage on the unchanged candidate has now completed
 puzzles 1 through 10 and two actual contest wins in the installed, unmodified
 ScummVM engine identified below.
