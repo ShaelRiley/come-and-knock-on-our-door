@@ -1,6 +1,6 @@
 # SteamOS recovery and scoped native testing
 
-## New repaired candidate: observed puzzles 1–10 and puzzle 11 practical
+## New repaired candidate: puzzles 1–11 and puzzle 12 main observed
 
 The new isolated New Game uses receipt
 `e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909`,
@@ -74,8 +74,8 @@ exchange were observed. Puzzle 11's five physical transfers, four-page lift,
 five-page concern, six-page honest exchange, three mechanism readings, guarded
 release, full four-page safe fold and staging confirmation passed. A genuine
 supported-state save was changed by setting the object back, then F3 restored
-the saved handling state. Puzzle 11's third contest has not yet been played
-on this candidate, so full puzzle 11 acceptance remains pending.
+the saved handling state. The third contest was subsequently played as recorded
+below; puzzle 11 is now observed complete on this candidate.
 
 Twenty-four genuine saves are preserved. Slot 19 pins completed puzzle 9
 (112,930 bytes, SHA256
@@ -87,12 +87,49 @@ Slot 24 pins puzzle 11 practical completion (122,082 bytes, SHA256
 Ordinary game Menu/5 Quit at 20:58:17 UTC returned engine0 and task-server0.
 No task game remains live. The menu still showed Voice and Effects ON.
 
-Next: archive and empty the queue, copy and preserve the existing INI, and
-resume this exact lineage through ordinary F3 Load of slot 24. Continue the
-third contest, puzzles 12–14, fourth contest, remaining late UI/performance,
-critical late save/restore, opening Hold, ending/freeze/applause and all 58
-credits. Subjective listening remains unperformed. No completed player release
-is published.
+The third contest subsequently completed through all six new practice exchanges,
+three actual scored rounds, knockout, explicit recorded win, concession and full
+credit flourish. Save 26 preserves puzzle 11 and the genuine third win
+(125,414 bytes, SHA256
+`909c62112e48d7a12cec7b05d0e3a912928461a19b5a2492509d03326f06134d`).
+Wrong menu selection initially repeated an earlier practice exchange; those
+captures are excluded, and the correct six new exchanges were then observed.
+
+Puzzle 12's seven guests were genuinely gathered through ordinary invitations
+and actual room transitions. The full three-page welcome, decorative backs,
+rotation diagram, catch release, audience view, visible faces, rotation and
+correct ordering were observed. The eight-page truthful introduction, visible
+shared confetti, full five-page reaction, four-page cleanup and surface clearing
+passed. All seven collection requests and physical destinations were observed,
+including both intermediate rooms on the longer routes and the final same-room
+handoff. Save 29 preserves that main sequence (127,567 bytes, SHA256
+`a295f160a53cb1169b9d64f8f73202d85182ebd6055e415b221fc44710d5fd6f`).
+No debug state, imported predecessor saves or patched saves earned this progress.
+
+The audience-side rehearsal remains unreachable and unaccepted. The attempted
+repair allowed action 0 in the puzzle handler, but the host's generic Walk path
+uses a movement request without an object and never invokes that handler.
+Right-click uses the rack's default Look, which opens the visible-face reader.
+Resetting the verb and using an ordinary left Walk still left the world visible.
+A dispatched ordinary menu action and native retest are required before release.
+The predecessor courtyard actor's physical pose and labelled control rectangle
+also appeared separated before the successor family acquired ownership; the
+labelled control worked. That observation needs review before claiming late UI.
+
+Twenty-nine genuine saves remain intact. The last process reached its recorded
+1,800-second lifetime limit at 22:00:30 UTC, returning engine-15 and task-server0.
+The requested quit-menu capture was never produced; this is a bounded termination,
+not a normal game exit. Earlier ordinary normal exits remain recorded above.
+No new permission denial or CLI restart was required. Native queues, screenshots,
+process records and saves are preserved privately. No task game remains live.
+
+Next: archive and empty the queue, copy the existing INI and preserve the start
+plan, then restore genuine save 29 through ordinary F3 (page 5, bottom right).
+Continue puzzle 13's physical origin visits and four deliveries, fourth contest,
+puzzle 14, remaining late UI/performance and critical saves, opening Hold,
+ending/freeze/applause and all 58 credits. Repair and natively retest the rehearsal
+entry before release. Subjective listening remains unperformed. No completed
+player release is published.
 
 ## October 12 source repair and next native run
 
