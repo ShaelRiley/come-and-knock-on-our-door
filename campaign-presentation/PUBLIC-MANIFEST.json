@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 30337,
-      "sha256": "21acbfc1c4d3e67bcf437f618755f75e11533d52c1052e10a4f92a1441380833"
+      "bytes": 31838,
+      "sha256": "9aa7180f3e2f2da7c870b3a3997a3dc09f1375b4df5e0edffb3bd5d6fc64e8fa"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8300,
-      "sha256": "63f40b983fdcd4f4efe07486a28fb1d5eea582dd862c8976fb681eebde991ed9"
+      "bytes": 8565,
+      "sha256": "952d72119655c0c145a801318802a56b161c1fe1166eab3b86a8a17b736f4788"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 24839,
-      "sha256": "160f305262f7df96f0f3e6453420ded0314776caa2e80fa54e314d891d73a067"
+      "bytes": 25518,
+      "sha256": "f8dcd60bd1703ecbdc3ac3fb24c8fef42d23c92885f625312cde18f3e8d226ff"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17346,7 +17346,7 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
-  "runtime_behavior": "OBSERVED_GENUINE_NEW_GAME_P01_P11_THREE_WINS_P12_MAIN_AND_FIRST_TWO_P13_PHYSICAL_DELIVERIES; REHEARSAL_AND_REMAINING_ACCEPTANCE_PENDING",
+  "runtime_behavior": "OBSERVED_GENUINE_NEW_GAME_P01_P11_THREE_WINS_P12_MAIN_AND_ALL_FOUR_P13_PHYSICAL_DELIVERIES_AND_FULL_PRESENTATION; KNOWN_DEFECTS_AND_REMAINING_ACCEPTANCE_PENDING",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",

@@ -260,20 +260,20 @@
       2,
       3
     ],
-    "save_files": 32,
+    "save_files": 35,
     "changed_state_restore": "OBSERVED_REVEAL_AND_SCENE_RESTORED",
     "fresh_process_restore": "OBSERVED_GENUINE_SAVE1_AND_SAVE5_AFTER_CORRECTED_SAVED_CARD_SELECTION",
-    "latest_test_boundary": "Genuine save32 preserves program and pot physical deliveries and serving response; visual serving and other two deliveries pending; ordinary Menu/5 Quit22:34:05UTC engine0/server0",
+    "latest_test_boundary": "Genuine save35 preserves all four physical cargo deliveries, full five-card presentation and SHOW response; VC04, attention/toast and P14/ending remain pending",
     "save5_sha256": "4f6800103434b37d2535315a13eaac3a6b7a3f8dbcdde9d02c118ab5bd7db4c6",
     "opening_hold": "NOT_VERIFIED_IN_NEW_RUN",
     "audio": "MENU_OBSERVED_MUSIC_VOICE_EFFECTS_ON; UNMUTED_UNCORKED_44100_HZ_STEREO_OUTPUT; NO_SUBJECTIVE_LISTENING_CLAIM",
     "interruption": "First terminal disappeared after successful Save1/restore; stale READY record. Recorded PIDs absent and exact config-process search empty; cause/exitcode unverified. Save preserved and ordinary fresh Load verified.",
-    "remaining": "P12 rehearsal repair/native retest, P13-P14/VC04/four deliveries, remaining late UI/performance and critical saves, opening Hold, ending/freeze/applause/58credits, listening acceptance",
+    "remaining": "P12 rehearsal repair/native retest, P13 attention/toast and serving visual, VC04/P14, dialogue availability/rendering/performance and critical saves, opening Hold, ending/freeze/applause/58credits, listening acceptance",
     "mid_contest_restore": "OBSERVED_VC01_CHANGED_PENDING_REPLY_RESTORED_WITH_ORIGINAL_SELECTION_AND_BOTH_3_OF_3_SCORES",
     "save9_sha256": "ccae85e061c243e05f1569289f434aff0d6dc1eb20c4ca9d7f0a4bde2ce9a874",
     "save12_sha256": "39312329948d51a62c8de1e67de1896e1dbabad3bdea99e8657b0d7e94f3b726",
     "save13_sha256": "41c8bdb7d361e5b6a824e9016791ec3ac6bfb1590fecb0ca16d55ad8336f9e3c",
-    "latest_process_exit": "GAME_EXIT_20261012_223405_UTC_ENGINE0_SERVER0",
+    "latest_process_exit": "IDLE_TIMEOUT_20261012_233151_UTC_ENGINE_MINUS15_SERVER0",
     "puzzle11_practical": "OBSERVED_COMPLETE_WITH_ACTUAL_VC03_WIN",
     "p09_retained_topic_route": "OBSERVED_EARLIER_TOPIC_BACK_TO_MENU_THEN_CORRECT_LATER_FIVE_PAGE_TERMS",
     "p09_inventory_labels": "OBSERVED_TERMS_AND_FULL_SENTENCE_RENEWAL_AND_REPAIR_CARD",
@@ -292,7 +292,9 @@
     "save29_sha256": "a295f160a53cb1169b9d64f8f73202d85182ebd6055e415b221fc44710d5fd6f",
     "puzzle13_physical_deliveries": [
       "PROGRAM",
-      "POT"
+      "POT",
+      "DISPLAY",
+      "BOARD"
     ],
     "puzzle13_serving": "EXPLICIT_SUCCESS_READER_OBSERVED; PHYSICAL_EIGHT_PORTION_DISPLAY_PENDING",
     "p13_program_label_and_reader": "OBSERVED_HELD_PROGRAM_AND_FULL_TWO_PAGES",
@@ -301,6 +303,12 @@
     "p13_pledges_layout": "OBSERVED_SINGLE_LINE_PLEDGES",
     "save30_sha256": "e0e58a1f30af310272a2b5f71acd8bab955299e7546d4162c34ac2da37718c47",
     "save31_sha256": "9d866c3733efdb4cfecdd4f23d415eb2721edbb9ecb711d14c18ee6a87af1929",
-    "save32_sha256": "9b0170177b7a563bd52a86469d72b858cae7d0e4fe1dfc93585c952032e652d4"
+    "save32_sha256": "9b0170177b7a563bd52a86469d72b858cae7d0e4fe1dfc93585c952032e652d4",
+    "puzzle13_presentation": "OBSERVED_ALL_FIVE_CARDS_AND_EXPLICIT_SHOW_SUCCESS_RESPONSE",
+    "puzzle13_availability": "DEFECT_ENABLED_CONVERGENCE_OR_PRESENTATION_WHEN_REQUIRED_CAST_ABSENT; READY_OPTION_ENABLED_OUTSIDE_REQUIRED_ROOM",
+    "puzzle13_rendering": "OPEN_DISPLAY_OBSCURES_RITA_AND_FELIX; EIGHT_PORTION_DISPLAY_UNESTABLISHED; REVIEW_REQUIRED",
+    "save33_sha256": "d164697aeda40468adfe2ae9b94092f89fc30fd90f536d0d070edad1a70c0f8f",
+    "save34_sha256": "c0cddebdb0d8c2dd9db592e0b9ff6f87e9620923a23674ee47d59aa17c9a833f",
+    "save35_sha256": "9ae368b91f6a58fc8fdbf077d1187df7db97b0e7b95aad2c441c81652a631f94"
   }
 }

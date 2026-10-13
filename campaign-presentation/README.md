@@ -2,14 +2,14 @@
 
 The October 12 recovery repair compiles and passes four bounded static checks,
 five targeted emitted regressions and the existing three late UI checks. It
-repairs retained conversation routing, the card label, the audience-side rack
-menu, and redundant puzzle 13 predecessor queries while retaining strict
-history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
+repairs retained conversation routing and the card label, attempts the
+audience-side rack menu repair, and removes redundant puzzle 13 predecessor
+queries while retaining strict history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
 This candidate requires a separate genuine New Game with empty test saves.
 The preceding build's native progress below does not accept the changed scripts.
 The separate native New Game has now completed puzzles 1–11 and three actual
 contest wins, plus puzzle 12's full main welcome, visible confetti, cleanup and
-all seven physical collection handoffs. Twenty-nine genuine saves are preserved.
+all seven physical collection handoffs. Thirty-five genuine saves are preserved.
 Changed-state, mid-contest and fresh-process restores passed. Puzzle 9's routing
 and both card labels passed native retesting. The attempted audience-side menu
 repair remains insufficient: its ordinary Walk entry does not reach the handler,
@@ -17,9 +17,12 @@ so the optional rehearsal is still unreachable and blocks release. An earlier
 actor control-position observation also requires review. Puzzles 13–14, the
 fourth contest, remaining late UI and save/restore, ending, all 58 credits,
 opening Hold and listening acceptance remain pending. Puzzle 13 has subsequently
-completed its first two physical deliveries; the serving response and Save 32
-are observed, while the visual serving regression and remaining two deliveries
-are still pending.
+completed all four physical cargo deliveries and the complete five-card
+presentation through ordinary controls. Save 35 preserves those results.
+The physical serving display, scene-availability guards, rendering and response
+time need review. The fourth contest and puzzle 13's final attention/toast
+remain pending. The last bounded process stopped at its idle timeout; no normal
+exit is claimed for that process.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.

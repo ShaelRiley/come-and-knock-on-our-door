@@ -146,14 +146,38 @@ unfinished travel or loading, despite their intended destination names, are
 excluded. Thirty-second single-transition waits reached the reviewed arrivals;
 late response time still needs improvement and regression review.
 
-Next: archive and empty the queue, copy the existing INI and preserve the start
-plan, then restore genuine save 32 through ordinary F3 (page 6, top right).
-Wait for actual restored gameplay before issuing another action. Check the
-physical serving witness and continue the display and board deliveries, fourth
-contest, puzzle 14, complete late readers/UI/performance and critical saves,
-opening Hold, ending/freeze/applause and all 58 credits. Repair and natively
-retest the rehearsal entry before release. Subjective listening remains
-unperformed. No completed player release is published.
+Subsequent ordinary play physically delivered the display with its paired
+carriers through the gate and delivered the board with its carrier through
+the house. Receiving-room paint and subsequent normal menus confirmed all four
+deliveries. The full five-card presentation, all three convergence cards and
+explicit SHOW response were observed. Captures with duplicated page numbers
+were excluded; corrected Prev/Next observations established the missing card.
+Save 35 preserves all four deliveries and the complete presentation
+(131,011 bytes, SHA256
+`9ae368b91f6a58fc8fdbf077d1187df7db97b0e7b95aad2c441c81652a631f94`).
+Thirty-five genuine saves remain intact.
+
+Additional defects were observed. Readiness was enabled outside its required
+room and produced no reader; convergence and presentation choices were enabled
+without all their required speakers. Ordinary escorts to the required location
+allowed those readers to run, but do not repair the misleading availability.
+The opened display obscures two characters. Eight visible portions remain
+unestablished. Late responses can lag captures and need performance review.
+These findings prevent a release acceptance claim.
+
+The later run stopped at its recorded idle timeout at 23:31:51 UTC, with
+engine-15 and task-server0. No normal exit is claimed for that run. Post-save
+cue-rack and SERVE-route readers were observed; a subsequently requested
+SHOW-route capture was not produced and is excluded. Saves and protocols were
+preserved. No new permission denial or restart was required.
+
+Next: preserve the queue, INI and start plan, then restore genuine save 35
+through ordinary F3 (page 6, bottom right, after inspecting the actual chooser).
+Wait for actual gameplay. Continue the remaining route readers, fourth contest,
+attention/toast, puzzle 14, late UI and save/restore, opening Hold, ending, final
+freeze/applause and all 58 credit cards. Repair and natively retest the rehearsal
+entry, availability and rendering/performance defects before release. Subjective
+listening remains unperformed. No finished player release is published.
 
 ## October 12 source repair and next native run
 
