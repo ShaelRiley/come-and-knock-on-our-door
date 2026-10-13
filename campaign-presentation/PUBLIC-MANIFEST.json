@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 36455,
-      "sha256": "fb247cbd884359465eb9a582e353832effe7cfc8a920c47695d1f7adaebbc1f0"
+      "bytes": 38216,
+      "sha256": "2d9facc8902a512ace7388b2dd28ca18f088d0cc28405594959514d73c9aa388"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8022,
-      "sha256": "d01636c3fd46d9fdc9637e5e45496d18f090bc46b70f2eca2f0372f5c033b822"
+      "bytes": 8337,
+      "sha256": "da8c30faf8c0afe8f0c92fc2775386af77492c49540f6361b2f033429c8034db"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 28743,
-      "sha256": "e34984aad1319900d6af92e662aec6040a86cabe05ba3d4d79ab3dc64ff1f5bb"
+      "bytes": 29329,
+      "sha256": "a8bcba29913ee00b2c84bedfa139d614331c5f21de4fc01f76b1051bdb2427b1"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17361,7 +17361,7 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
-  "runtime_behavior": "R3_NATIVE_UNRUN; HISTORICAL_R2_OBSERVATIONS_RETAINED_SEPARATELY; RELEASE_PENDING",
+  "runtime_behavior": "R3_OBSERVED_GENUINE_P01_P04_OPENING_CONTROLS_HELD_SAVE_RESTORE_AND_NORMAL_QUIT;REMAINING_GAME_UNVERIFIED",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",

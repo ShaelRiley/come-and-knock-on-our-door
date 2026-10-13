@@ -575,3 +575,32 @@ to the independently recorded R3 stage after the new source repairs; the
 forged-map denial still passes. Next genuine session is
 `source/build/native-sessions/20261013-recovery-r3-newgame`, with initial
 saves required to be empty. No R3 native progress is claimed yet.
+
+
+## 2026-10-13 post-reboot genuine R3 boundary
+
+Local source `c43d25d86f242d2e5b61e65407b9135fcb27e26f` and GitHub
+`d4c992bb71119d39dd786b0d4f2171c1e7346abe` have identical verified tree
+`4de50cf911c8427309e8227b39dd8dda746ead56`. Clean source and all pause-inventory
+hashes survived the reboot. No R3 session existed before the approved launch.
+
+Installed stock ScummVM, unchanged engine hash and required SoundFont verified.
+R3 session began with zero saves. Screenshot-only startup and process ownership
+confirmed task display `:1` differs from host `:0` before ordinary input.
+Opening reached gameplay. Replay, Hold, Next, motion toggle, Skip and a genuine
+held-replay save/restore after changed state were visually observed. Native
+puzzles 1–4 completed through normal player routes, with all required boundary
+scenes. Five genuine saves remain private in
+`source/build/native-sessions/20261013-recovery-r3-newgame/`. Ordinary Menu/5
+Quit returned engine0 and task-server0; no task game remains from that run.
+The task audio stream was unmuted and uncorked at 44,100 Hz stereo; music was
+never toggled off. No subjective listening, exact cue or 64-pose native claim.
+
+Next: preserve CONTROL/DISPLAY by rename and INI by copy, then resume the exact
+candidate in a fresh bounded process. Inspect the ordinary F3 chooser and load
+genuine slot 5 (expected first page bottom-right), verify the restored P04
+state, then continue P05/VC01 and all remaining acceptance. All four actual
+contest wins, P05–P14, late UI/restore/companion travel, ending and all 58 credit
+cards remain unaccepted. Original R2 saves and backup remain untouched.
+Private images, videos, protocols and save contents are excluded from GitHub.
+No finished player release is published.

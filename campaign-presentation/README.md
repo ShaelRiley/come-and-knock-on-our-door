@@ -10,7 +10,11 @@ poses, ending and credits are preserved. These objective checks are
 supplementary evidence, not native full-game acceptance.
 
 This changed candidate requires a genuine New Game in a separate empty Save
-Path. Native R3 testing has not started. The preserved R2 run completed
+Path. The genuine R3 run has now completed the automatic opening and puzzles
+1–4. Opening replay, Hold/Next/motion/Skip and held-opening save/restore were
+observed, and five genuine saves are preserved. Ordinary Quit ended the
+engine and task display normally. All contests, puzzles 5–14, late regressions,
+ending and all 58 credits remain unaccepted. The preserved R2 run completed
 puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
 all seven collection handoffs, all four physical puzzle 13 deliveries, the
 full five-card presentation and all 24 practice exchanges. Its first scored
