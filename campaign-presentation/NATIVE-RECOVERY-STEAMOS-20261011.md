@@ -171,13 +171,40 @@ cue-rack and SERVE-route readers were observed; a subsequently requested
 SHOW-route capture was not produced and is excluded. Saves and protocols were
 preserved. No new permission denial or restart was required.
 
-Next: preserve the queue, INI and start plan, then restore genuine save 35
-through ordinary F3 (page 6, bottom right, after inspecting the actual chooser).
-Wait for actual gameplay. Continue the remaining route readers, fourth contest,
-attention/toast, puzzle 14, late UI and save/restore, opening Hold, ending, final
-freeze/applause and all 58 credit cards. Repair and natively retest the rehearsal
-entry, availability and rendering/performance defects before release. Subjective
-listening remains unperformed. No finished player release is published.
+A fresh ordinary restore of save 35 visibly recovered all four deliveries.
+The remaining SHOW and TOAST route readers were viewed completely. The fourth
+contest opened through Stringer's ordinary character menu; all three entry
+cards and all six new practice setup/reply/notebook exchanges were observed.
+Save 36 preserves all 24 learned practice topics and the physical delivery
+state (134,641 bytes, SHA256
+`b4c5522801840928d08cf8015fd95993d274f621ceda1918bc194b0bac6f51d4`).
+
+The scored match began with both composure scores 3/3. One committed round
+and its complete ruling visibly left Jackie 3/3 and Stringer 2/3. The next
+pending reply was saved, changed to another learned selection, then restored
+through ordinary F3. That genuine restore FAILED: UI CONTRACT ERROR 10 and
+Music unavailable appeared, with no contest panel. Later intended round
+captures remained on the error screen and are excluded. Save 37 is preserved
+without modification (130,710 bytes, SHA256
+`29e7e3f41ae98735d36335fcd0f9c9ccc6ec339fa0e45d8bae59fec533f71dc6`).
+The preceding save 36 then restored its valid practice menu through ordinary
+F3. The failure is scoped to the active contest boundary; its precise failed
+validator still needs diagnosis. No fourth contest win is claimed.
+
+The contest Close choice returned to the world, and ordinary game Menu/5 Quit
+at 01:58:40 UTC on October 13 returned engine0 and task-server0. Thirty-seven
+genuine saves, prior protocols and screenshots remain preserved privately.
+No task game remains live. No new permission denial or restart was required.
+
+Next: use bounded read-only diagnostics on copied test saves to identify the
+active contest restore rejection. Preserve the exact source/build before
+changing it. Repair and retest this failure, rehearsal access, dialogue
+availability, rendering and response time. Genuine continuation can restore
+save 36 from ordinary F3 (page 7, top left after inspecting the chooser), but
+changed compiled game code requires a separate genuine New Game and fresh
+test-save lineage. The fourth win, final attention/toast, puzzle 14, late UI,
+critical saves, opening Hold, ending/freeze/applause and all 58 credits remain
+pending. Subjective listening is unperformed. No finished release is published.
 
 ## October 12 source repair and next native run
 

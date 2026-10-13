@@ -9,7 +9,7 @@ This candidate requires a separate genuine New Game with empty test saves.
 The preceding build's native progress below does not accept the changed scripts.
 The separate native New Game has now completed puzzles 1–11 and three actual
 contest wins, plus puzzle 12's full main welcome, visible confetti, cleanup and
-all seven physical collection handoffs. Thirty-five genuine saves are preserved.
+all seven physical collection handoffs. Thirty-seven genuine saves are preserved.
 Changed-state, mid-contest and fresh-process restores passed. Puzzle 9's routing
 and both card labels passed native retesting. The attempted audience-side menu
 repair remains insufficient: its ordinary Walk entry does not reach the handler,
@@ -20,9 +20,12 @@ opening Hold and listening acceptance remain pending. Puzzle 13 has subsequently
 completed all four physical cargo deliveries and the complete five-card
 presentation through ordinary controls. Save 35 preserves those results.
 The physical serving display, scene-availability guards, rendering and response
-time need review. The fourth contest and puzzle 13's final attention/toast
-remain pending. The last bounded process stopped at its idle timeout; no normal
-exit is claimed for that process.
+time need review. The fourth contest's entry and six new practice exchanges were fully observed.
+A first scored round passed, but restoring its pending next reply failed with
+UI CONTRACT ERROR 10 and Music unavailable. The preceding practice save restored
+correctly. This is a release blocker; the fourth win and puzzle 13's final
+attention/toast remain unverified. Thirty-seven genuine saves are preserved.
+The latest ordinary Quit returned engine0 and task-server0.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.
