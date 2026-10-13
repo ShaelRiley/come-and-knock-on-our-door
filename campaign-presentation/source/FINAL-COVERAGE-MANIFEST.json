@@ -133,11 +133,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "342b315ebe9d31191434cab9c8f77982483c7a51d787b43524791515c85a3e07"
+      "sha256": "ea79e2c4335d91f5625a5513694c03031865c38b68ea587e08f9ac1b1b4a55ff"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "80c598fbde86e7bd3608e67b259350930a7ab573a3ac6c8f6d35430ec3bda2eb"
+      "sha256": "16358d1891fbe52ec8bac640e6e53786273d2d6601e3b9214fb6e63e379e65ef"
     },
     {
       "path": "CREDITS.txt",
@@ -309,7 +309,7 @@
     },
     {
       "path": "src/main.sc",
-      "sha256": "2eb2449e0cf38cb9223198e862f949591b5a5254bf042ada4b921c6a9646c080"
+      "sha256": "0edf0dcd5622e0bf9ca09e53be00926b2ec771dd400501669fcf0b1f1d07cba1"
     },
     {
       "path": "src/module941.sc",
@@ -449,7 +449,7 @@
     },
     {
       "path": "src/module989.sc",
-      "sha256": "f214e47ec2a9c6b947adc91de9fb9d070cc2af73869db85d3ee37d2566c23da7"
+      "sha256": "3108be5b3c4f25ed0975f58ffe81d74a6eaac1a1355232f96b586dde61f2ab8e"
     },
     {
       "path": "src/module990.sc",
@@ -457,7 +457,7 @@
     },
     {
       "path": "src/module991.sc",
-      "sha256": "4854af1c831e2628d8687d82be55dd153fb43459223aa8c80a5f16ec072ccc74"
+      "sha256": "b9668b8d79f8ce746e8bfc3ed864ae5a73970c3f7fb82740f73f9c18e5cf400c"
     },
     {
       "path": "src/module992.sc",
@@ -465,15 +465,15 @@
     },
     {
       "path": "src/module993.sc",
-      "sha256": "d54236c071360bcc1519dc9a679c29359c7f2c270a8cb62563b3be15c9dcde42"
+      "sha256": "aa554e6c81edf2c758bbd57c40dc5d6a3b6dffa2ef9f0e6bbc5ca4c437a59675"
     },
     {
       "path": "src/module994.sc",
-      "sha256": "27de2652321fbfd9eee10895462f889a4761086882e0ef0621ec8cde74df4e11"
+      "sha256": "c6abe1ebc88cb9bdbb8a7eadcbf1cf8a2638ea5bdda90c4ddd482529303add7c"
     },
     {
       "path": "src/module995.sc",
-      "sha256": "1e248de367b2937d6070c6cb982017159c11f74974782db1a34156a7953ee1c5"
+      "sha256": "20c47af4c0ca1b4250c1c74d67f4a3c79c9a7f34fd61f3e14aa26fcede4aea84"
     },
     {
       "path": "src/module996.sc",
@@ -530,18 +530,26 @@
     {
       "path": "../authoring/audio/AUDIO36-FILENAME-FIX.json",
       "sha256": "c7b02c6eeafc0692013fb9ddf30ff937a9e1c7f0925931e12efe21e44046572f"
+    },
+    {
+      "path": "tests/check_recovery_r3.py",
+      "sha256": "1653fa603419b4cb0a4397066ab1ec987a200fe7c219396da17f7163ea8a88e8"
+    },
+    {
+      "path": "RECOVERY-RESTORE-UI-FIX-20261013.md",
+      "sha256": "5177afd10f21b020c7a0d0f1551cc7451f2d63ea7a8366eaa9905f38e62b89cc"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_FRESH_COMPILE_ORDINARY_FINITE_FIX_R1",
-    "runtime_behavior": "UNVERIFIED",
-    "portable_component_checks": "UNRUN_FOR_THIS_CANDIDATE",
+    "coherent_compile": "PASS_FRESH_46_MODULE_COMPILE_RESTORE_UI_REPAIR_R3",
+    "runtime_behavior": "UNVERIFIED_R3_REPAIR",
+    "portable_component_checks": "PASS_4_STATIC_17_EMITTED_CASES_NOT_NATIVE",
     "native_full_candidate": "UNRUN_FOR_THIS_CANDIDATE",
     "genuine_campaign_ending": "UNRUN_FOR_THIS_CANDIDATE",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0"
+    "coherent_compile_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim."
 }

@@ -95,6 +95,8 @@ def reading_availability():
     p = v.instance(995)
     a = v.arrays(995)
     v.h.p['location'] = 4
+    for index in range(7):
+        a['h13Actors'][index * 12 + 2] = 4
     assert not v.choices(30)[17] and not v.choices(30)[18]
     p.p['p13ServedLo'] = 10
     assert not v.choices(30)[17], 'Unpainted serving must not enable readiness'

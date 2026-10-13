@@ -1475,10 +1475,14 @@ h8Restoring 0
   (not (self h8PublishersReady:)) (not (self h8OwnersValid:)) (not (self h8ClothRawValid:)) (not (self h8InventoryRawValid:)))
   (return (self h8RestoreReject:)))
  ; Existing p05RetireTransient has now drained native input and stopped PCM/Sync.
+ ; Validate the restored world while predecessor owners still hold this lease.
+ ; Recycling it first makes an active late contest reject that same owner chain;
+ ; Main rebinds those owners only after this finalization succeeds.
+ (if (not (self h8ProjectContext:)) (return (self h8RestoreReject:)))
  ; The lease is recycled only after retirement; it is not a process-global nonce.
  (= h8Lease (if (== h8Lease 1) 2 else 1))
  (if (not (self p08BindSession: 0 0 0 0 0 0 0 h8Lease)) (return (self h8RestoreReject:)))
- (if (or (not (self h8ProjectContext:)) (!= (self p08ValidateCurrent: 1) 0))
+ (if (!= (self p08ValidateCurrent: 1) 0)
   (return (self h8RestoreReject:)))
  ; The saved numeric chooser counter can restart only after the existing
  ; synchronous native input/audio retirement. There are no registered UI callbacks.

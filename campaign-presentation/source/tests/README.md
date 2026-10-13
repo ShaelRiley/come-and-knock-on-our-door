@@ -40,3 +40,17 @@ configuration reuse. Their runtime capability probes are fixtures; they do
 not launch ScummVM or establish native acceptance. The separate launcher uses
 ordinary stock ScummVM with private saves when a desktop-capable development
 session is available. See ../../NATIVE-SESSION-20261011.md.
+
+The October 13 restore/action/speaker regressions run against the compiled R3
+candidate with explicitly modeled ancestor/domain admission and elapsed walking:
+
+    python tests/check_recovery_r3.py restore_order
+    python tests/check_recovery_r3.py apron_route
+    python tests/check_recovery_r3.py speaker_availability
+
+They retain the actual emitted restore finalizer and owner lease check, Main's
+default/action/arrival path, and authored room/speaker availability. They reject
+incomplete owners without weakening gameplay admission. `--reference --build
+PATH` reproduces the original defects against the archived R2 compile. Neither
+mode establishes native save/restore or full-game acceptance. The R3 native run
+must begin with separate empty saves.

@@ -1785,6 +1785,11 @@
   (for ((= i 0)) (< i 5) ((++ i))
    (= obj (self h11OwnerObject: i)) (= room (self h11OwnerLocation: obj))
    (if (and (self h11OwnerHas: obj) (== room (h location?)) (!= room (self h11OwnerSource: i)))
+    ; Match the relocated actor's existing paint as well as its text label.
+    (if (and (== obj 2) (== room 0)) (h uiAddControl: 1 obj 62 67 126 105 (h uiHostItemLabel: obj)))
+    (if (and (== obj 8) (!= room 1)) (h uiAddControl: 1 obj 62 115 126 155 (h uiHostItemLabel: obj)))
+    (if (and (== obj 30) (!= room 6))
+     (h uiAddControl: 1 obj 62 (if (self h11PayShow:) 273 else 241) 126 (if (self h11PayShow:) 311 else 279) (h uiHostItemLabel: obj)))
     (h uiAddControl: 1 obj (+ 60 (* i 18)) 225 (+ 77 (* i 18)) 319 (h uiHostItemLabel: obj)))))
  (if (and active (== (h location?) 3) (not (h uiPanel?)) (not (h onApron?)) (self h11OwnerReady:))
   (h uiAddControl: 1 415 62 12 78 110 "DISPLAY WING")

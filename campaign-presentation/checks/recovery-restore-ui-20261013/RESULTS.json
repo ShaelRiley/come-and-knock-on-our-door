@@ -1,0 +1,29 @@
+{
+  "status": "PASS_OBJECTIVE_NOT_NATIVE",
+  "native_acceptance": false,
+  "compile_receipt_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
+  "staged_game_file_map_sha256": "b2bb570177de2917183d695b5d923441dc51a191bef634dc47836d1e15ebd74e",
+  "compiled_modules": 46,
+  "protected_inputs_unchanged": 8,
+  "unchanged_compiled_artifacts": 86,
+  "changed_script_modules": [
+    0,
+    989,
+    991,
+    993,
+    994,
+    995
+  ],
+  "static_cases": 4,
+  "emitted_presentation_cases": 6,
+  "existing_recovery_cases": 5,
+  "existing_late_ui_cases": 3,
+  "new_emitted_restore_action_speaker_cases": 3,
+  "native_full_game": "UNRUN_FOR_R3",
+  "subjective_listening": "UNPERFORMED",
+  "fixture_limits": "Explicit ancestor/domain/arrival or scene admissions; no earned campaign or native acceptance",
+  "source_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
+  "native_session_guard_cases": 6,
+  "native_session_guard_status": "PASS_FROZEN_R3_IDENTITY_AND_SAVE_CONFIG_PRESERVATION_NOT_NATIVE"
+}

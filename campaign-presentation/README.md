@@ -1,31 +1,23 @@
 # Come and Knock on Our Door: reconstructed candidate, native acceptance pending
 
-The October 12 recovery repair compiles and passes four bounded static checks,
-five targeted emitted regressions and the existing three late UI checks. It
-repairs retained conversation routing and the card label, attempts the
-audience-side rack menu repair, and removes redundant puzzle 13 predecessor
-queries while retaining strict history, route, delivery and frame checks. See source/RECOVERY-UI-FIX-20261012.md.
-This candidate requires a separate genuine New Game with empty test saves.
-The preceding build's native progress below does not accept the changed scripts.
-The separate native New Game has now completed puzzles 1–11 and three actual
-contest wins, plus puzzle 12's full main welcome, visible confetti, cleanup and
-all seven physical collection handoffs. Thirty-seven genuine saves are preserved.
-Changed-state, mid-contest and fresh-process restores passed. Puzzle 9's routing
-and both card labels passed native retesting. The attempted audience-side menu
-repair remains insufficient: its ordinary Walk entry does not reach the handler,
-so the optional rehearsal is still unreachable and blocks release. An earlier
-actor control-position observation also requires review. Puzzles 13–14, the
-fourth contest, remaining late UI and save/restore, ending, all 58 credits,
-opening Hold and listening acceptance remain pending. Puzzle 13 has subsequently
-completed all four physical cargo deliveries and the complete five-card
-presentation through ordinary controls. Save 35 preserves those results.
-The physical serving display, scene-availability guards, rendering and response
-time need review. The fourth contest's entry and six new practice exchanges were fully observed.
-A first scored round passed, but restoring its pending next reply failed with
-UI CONTRACT ERROR 10 and Music unavailable. The preceding practice save restored
-correctly. This is a release blocker; the fourth win and puzzle 13's final
-attention/toast remain unverified. Thirty-seven genuine saves are preserved.
-The latest ordinary Quit returned engine0 and task-server0.
+The October 13 R3 candidate repairs the reproduced active-contest restore
+failure, the audience-side menu route, late dialogue availability, relocated
+actor controls and scene layering/captions. See
+source/RECOVERY-RESTORE-UI-FIX-20261013.md. All 46 modules compile; four bounded
+static checks and 17 emitted presentation/interface regressions pass.
+All eight protected inputs, approved dialogue, art, music, laughs, character
+poses, ending and credits are preserved. These objective checks are
+supplementary evidence, not native full-game acceptance.
+
+This changed candidate requires a genuine New Game in a separate empty Save
+Path. Native R3 testing has not started. The preserved R2 run completed
+puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
+all seven collection handoffs, all four physical puzzle 13 deliveries, the
+full five-card presentation and all 24 practice exchanges. Its first scored
+round of contest four passed, but restoring the pending second reply failed
+with UI error 10. No fourth win, puzzle 14, ending or credits were accepted.
+All 37 original R2 saves, source and stage remain recoverable. R2 observations
+do not accept R3. Late performance and subjective listening remain open.
 No completed player release is published.
 
 The following recovery observations apply to the preserved preceding build.

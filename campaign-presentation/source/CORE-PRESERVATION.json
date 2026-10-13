@@ -28,7 +28,6 @@
       "renderCaption": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
       "p02HostP01Act": "cd7871eaebff16dd8acd66880a414dfd2b1aec7528bbdc617a16bb1954820e48",
       "uiHostIsReturn": "a59cc18da4557607e6c450c8a403f3b1f0001768474bbd1df418db439ebd9168",
-      "uiHostDefaultVerb": "13e5036efef047d1f1413d6297a8d2805f9ac2ef30705e90715331b1cfdc7990",
       "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
       "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
       "motionScale": "8a75bcd039801eef52dd6b48d61edf185798d4ed08a89dd0f2da1e5dbfc0b790",
@@ -1188,7 +1187,6 @@
       "h8ActionBarrier": "2ff861f6a116aa5155858206d860f73cc7dc4e492f5543c54d558caed5650165",
       "h8RestoreReject": "c385a796cdfbe2f1e182e9a73f499ddbc0be8ba45c64e8ca584334091cc9c729",
       "h8RestoreBegin": "1d4610c451fd1fa5002becc723760a094287d590f45d8df7c1a8438c77afc937",
-      "h8RestoreFinish": "2086bd00ba79793e34e4d913331df3f5b776558c521b884da048d296bf0f996f",
       "h8SupportedHistory": "e3f861ba445fa349fbdba3afe9b841927db0265d5adb0e7e5bd504fe3f235e41",
       "h8Recover": "0f2baacdffc35e3d1ddd6299e21beec9f19e687a2d46fe3b96a88f34efb9495f",
       "h8ExpectedPages": "8fa485408e4320a19053e392643be9771d83f49b5670955faef7990a20b4eb58",
@@ -1598,7 +1596,6 @@
       "h11ContextMatch": "740d0673090aa9971fd25922e9cbdb045bb3dec444594796db7339525c89d835",
       "h11Retire": "fb3f5ac32df0fd02d2366dad202461137b07cf9559cdd81fb92580a76474820a",
       "h11Label": "6e31a037608ce17b2c5f3074e0cb956583ee4d48274a8a0adcea221979f61db2",
-      "h11Controls": "3975087c78bd4df4305c3280040105e5436623d2eacd97bf7134520eea974d3a",
       "h11Menu": "cbaa8faa1cc70607118f18af799e9bb2a8356ba2a0a4226097077c9a9c69080d",
       "h11Dispatch": "4f08f44dad86218f22bcb049ff0e9f7f2b8b972fbb9f4f3448818ce8a1804183",
       "h11Choice": "60d014a27dcbd0d5261fd33154878fa209e50d5b18ca8d749990658c0af6a1d9",
@@ -1911,7 +1908,6 @@
       "h13OpenWork": "cb5ecf7e07021cfa5a744cdfa78584f28cdcda8758416a2eff4de2fe039116b0",
       "h13WorkReaderValid": "e496313cd8285188c34e6cd48dadbdc9ca813ea4e5b0230e03226e30ae4c835b",
       "h13Dispatch": "f770b8095500977985c72f369c99df2090076677ccf66873bc0e8a8f0fde7502",
-      "h13Choice": "83c4034fa3d1de4b12c08e66a68863345f681cc3e6da176162b30cd8df26a392",
       "h13Furniture": "4f5d3c76d83ade35d9c60c31a77cce7d9fe8464e98c822e5057ec23a75608a5b",
       "h13DeliverySlot": "60b13ea6d8a67b4578c756443045c62b1f3e65888e0aa20fc21ba2d1a5af3e41",
       "h13Leader": "ad91611fc45e1a108a0aa5ff9e899ee3e3552728dfa07ea80f2274daa326e649",
@@ -6452,8 +6448,15 @@
       "file": "module991.sc",
       "method": "renderCaption",
       "baseline_sha256": "83a8ff93156d26a652ea50430340baa11b411554128dfdce5cb0df1e541c768c",
-      "candidate_sha256": "115bf0eab7a7319e9eeaa1d61975d35f7df22cf98875edc92c8e68a842c6ec05",
-      "reason": "Remove obsolete synthetic test-sound captions after recorded audience assets were imported. Only player wording changes; reaction consumption and controls remain identical."
+      "candidate_sha256": "d3fda05d4235f091eadf86e8949ea1d19e21f87d2c6f13e757ac2b88b4137333",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required.",
+      "review_history": [
+        {
+          "candidate_sha256": "115bf0eab7a7319e9eeaa1d61975d35f7df22cf98875edc92c8e68a842c6ec05",
+          "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+          "reason": "Remove obsolete synthetic test-sound captions after recorded audience assets were imported. Only player wording changes; reaction consumption and controls remain identical."
+        }
+      ]
     },
     {
       "file": "module952.sc",
@@ -6598,15 +6601,29 @@
       "file": "module995.sc",
       "method": "h13PaintWorld",
       "baseline_sha256": "1029c326a18ad7ae9668beb06fef0d03d87df930db82f94401341010c2c90f42",
-      "candidate_sha256": "8915b4bc97ed97eb18de7e85bcc87a41d0279443c1c8b951c1bf59a975f5f3e8",
-      "reason": "LATE-UI-FIX.md: show the genuinely held program at its existing ordinary item-control rectangle, outside menus/readers, and allow the complete PLEDGES label to fit on one line. Retain all original object, scene, paint, ownership and progression checks; neither draw changes any gameplay state."
+      "candidate_sha256": "c4b5c543b1c10132180ec6feb9618d05904382c6660ed06583d0ef2964f58c91",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required.",
+      "review_history": [
+        {
+          "candidate_sha256": "8915b4bc97ed97eb18de7e85bcc87a41d0279443c1c8b951c1bf59a975f5f3e8",
+          "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+          "reason": "LATE-UI-FIX.md: show the genuinely held program at its existing ordinary item-control rectangle, outside menus/readers, and allow the complete PLEDGES label to fit on one line. Retain all original object, scene, paint, ownership and progression checks; neither draw changes any gameplay state."
+        }
+      ]
     },
     {
       "file": "module995.sc",
       "method": "h13Menu",
       "baseline_sha256": "e3eb3aaf1a66c8889a57b648122cf018e5e636a785ab3479f811d4d82b9e4799",
-      "candidate_sha256": "f61b9a6810c63e21be2ed09edf08a7d211bd9b9ba92a3cd5800d32e01920cfa4",
-      "reason": "LATE-UI-FIX.md: reflect the existing strict admission in three menu enabled flags: guest-program reading belongs to Courtyard, Rita readiness requires the actually painted SERVE result, and her presentation requires the actually painted open screen. Preserve every domain, source, speaker and physical-scene validation; no new progression grant."
+      "candidate_sha256": "348ab13f132e08ba498dde4e4c4cf1b12459f29a9d2bd116a266f901861be9f6",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required.",
+      "review_history": [
+        {
+          "candidate_sha256": "f61b9a6810c63e21be2ed09edf08a7d211bd9b9ba92a3cd5800d32e01920cfa4",
+          "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+          "reason": "LATE-UI-FIX.md: reflect the existing strict admission in three menu enabled flags: guest-program reading belongs to Courtyard, Rita readiness requires the actually painted SERVE result, and her presentation requires the actually painted open screen. Preserve every domain, source, speaker and physical-scene validation; no new progression grant."
+        }
+      ]
     },
     {
       "file": "module994.sc",
@@ -6674,9 +6691,16 @@
       "file": "module994.sc",
       "method": "h12Dispatch",
       "baseline_sha256": "71fe169bec036b633fe7c9077ed0d84ce7b5ede198d60db9ac95a042dfe689b4",
-      "candidate_sha256": "4097ec7cbdbe5dcc286e22d2f575649401a701ee6ae0c27851a784cce1853f7e",
+      "candidate_sha256": "6d3d53b8b6f73f0d6f76997f297952abe6d9738b0fcbad31af8de1249f61e05f",
       "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
-      "reason": "RECOVERY-UI-FIX-20261012.md: expose existing on-apron rack menu via ordinary Walk-to; retain Look-at reader."
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required.",
+      "review_history": [
+        {
+          "candidate_sha256": "4097ec7cbdbe5dcc286e22d2f575649401a701ee6ae0c27851a784cce1853f7e",
+          "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+          "reason": "RECOVERY-UI-FIX-20261012.md: expose existing on-apron rack menu via ordinary Walk-to; retain Look-at reader."
+        }
+      ]
     },
     {
       "file": "module995.sc",
@@ -6685,6 +6709,38 @@
       "candidate_sha256": "aaa4f4b70ea8d195a93ce5675fa7a9e13e840af2642b1e2651e276a4b1fcfe71",
       "baseline_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
       "reason": "RECOVERY-UI-FIX-20261012.md: deny incomplete state before physical validation; complete state keeps every strict check."
+    },
+    {
+      "file": "main.sc",
+      "method": "uiHostDefaultVerb",
+      "baseline_sha256": "13e5036efef047d1f1413d6297a8d2805f9ac2ef30705e90715331b1cfdc7990",
+      "baseline_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+      "candidate_sha256": "545de801976aafd819fa686d48216e245cb52aa0d95b0f7c2bacad8c1e41e4b0",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required."
+    },
+    {
+      "file": "module989.sc",
+      "method": "h8RestoreFinish",
+      "baseline_sha256": "2086bd00ba79793e34e4d913331df3f5b776558c521b884da048d296bf0f996f",
+      "baseline_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+      "candidate_sha256": "ee642a12d97f3da0eef1edce1fb469570c99895898748b21573c9219713cd8f7",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required."
+    },
+    {
+      "file": "module993.sc",
+      "method": "h11Controls",
+      "baseline_sha256": "3975087c78bd4df4305c3280040105e5436623d2eacd97bf7134520eea974d3a",
+      "baseline_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+      "candidate_sha256": "63a9da348eb0e6733c70decbac313120f2772179c49fc168ecccbf5915a635ca",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13Choice",
+      "baseline_sha256": "83c4034fa3d1de4b12c08e66a68863345f681cc3e6da176162b30cd8df26a392",
+      "baseline_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
+      "candidate_sha256": "d7b09ab731e0b077e49623ca191ca702ef4b0e77625baf6a0a4d0a14b9590d64",
+      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."

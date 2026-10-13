@@ -1,9 +1,9 @@
 {
-  "status": "RECOVERY_UI_FIX_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "status": "RESTORE_UI_REPAIR_R3_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
+  "compiled_receipt_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -62,8 +62,8 @@
     },
     {
       "path": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-      "bytes": 33546,
-      "sha256": "2ad348ea9c11779db128325566b7a06be653d0e9ec23f0b092fe8af8bcad1460"
+      "bytes": 36455,
+      "sha256": "fb247cbd884359465eb9a582e353832effe7cfc8a920c47695d1f7adaebbc1f0"
     },
     {
       "path": "NATIVE-SESSION-20261011.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8845,
-      "sha256": "c859d6e2c43ebda9512317959e78bb063570c955806ff477065a3927d4fa215e"
+      "bytes": 8022,
+      "sha256": "d01636c3fd46d9fdc9637e5e45496d18f090bc46b70f2eca2f0372f5c033b822"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 26005,
-      "sha256": "6abb0cd6f50cdf6eb11deb221731cf9e2f9a8db234fe1182ced2bb7a701134ae"
+      "bytes": 28743,
+      "sha256": "e34984aad1319900d6af92e662aec6040a86cabe05ba3d4d79ab3dc64ff1f5bb"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4216,6 +4216,11 @@
       "sha256": "1cccf0a65d5cd11c864d1d8494dceec1f69a628de4c736b764084dac5595a7b4"
     },
     {
+      "path": "checks/recovery-restore-ui-20261013/RESULTS.json",
+      "bytes": 1109,
+      "sha256": "40c72b9a63104432804bed3d7afb6755435bfcead9e4d0cf2140f0d8f87fb081"
+    },
+    {
       "path": "checks/recovery-ui-20261012/RESULTS.json",
       "bytes": 7713,
       "sha256": "174e5f23b8f01e6da38464fc7b3f53f8d36cf5051352eb89134dc3c6b4bcd70d"
@@ -4362,13 +4367,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2394,
-      "sha256": "342b315ebe9d31191434cab9c8f77982483c7a51d787b43524791515c85a3e07"
+      "bytes": 2412,
+      "sha256": "ea79e2c4335d91f5625a5513694c03031865c38b68ea587e08f9ac1b1b4a55ff"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 327657,
-      "sha256": "80c598fbde86e7bd3608e67b259350930a7ab573a3ac6c8f6d35430ec3bda2eb"
+      "bytes": 331208,
+      "sha256": "16358d1891fbe52ec8bac640e6e53786273d2d6601e3b9214fb6e63e379e65ef"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4377,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 17287,
-      "sha256": "850d56ae19abbc47184b59bf2b958e1243eb92e89b28cc578e39382a05f93118"
+      "bytes": 17620,
+      "sha256": "0434502f3351cec9ff74f0a598e64ec864e7aa6e17350d3844f1ec720207d55e"
     },
     {
       "path": "source/LICENSE.md",
@@ -4394,6 +4399,11 @@
       "path": "source/P14-CREDIT-URLS.json",
       "bytes": 8641,
       "sha256": "df508e139332a1c9fc7236b2936bebbd9c5c33f2369b859d69d44285dd27c571"
+    },
+    {
+      "path": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
+      "bytes": 5385,
+      "sha256": "5177afd10f21b020c7a0d0f1551cc7451f2d63ea7a8366eaa9905f38e62b89cc"
     },
     {
       "path": "source/RECOVERY-UI-FIX-20261012.md",
@@ -15952,8 +15962,8 @@
     },
     {
       "path": "source/src/main.sc",
-      "bytes": 331845,
-      "sha256": "2eb2449e0cf38cb9223198e862f949591b5a5254bf042ada4b921c6a9646c080"
+      "bytes": 331920,
+      "sha256": "0edf0dcd5622e0bf9ca09e53be00926b2ec771dd400501669fcf0b1f1d07cba1"
     },
     {
       "path": "source/src/module941.sc",
@@ -16127,8 +16137,8 @@
     },
     {
       "path": "source/src/module989.sc",
-      "bytes": 192999,
-      "sha256": "f214e47ec2a9c6b947adc91de9fb9d070cc2af73869db85d3ee37d2566c23da7"
+      "bytes": 193261,
+      "sha256": "3108be5b3c4f25ed0975f58ffe81d74a6eaac1a1355232f96b586dde61f2ab8e"
     },
     {
       "path": "source/src/module990.sc",
@@ -16137,8 +16147,8 @@
     },
     {
       "path": "source/src/module991.sc",
-      "bytes": 85928,
-      "sha256": "4854af1c831e2628d8687d82be55dd153fb43459223aa8c80a5f16ec072ccc74"
+      "bytes": 86149,
+      "sha256": "b9668b8d79f8ce746e8bfc3ed864ae5a73970c3f7fb82740f73f9c18e5cf400c"
     },
     {
       "path": "source/src/module992.sc",
@@ -16147,18 +16157,18 @@
     },
     {
       "path": "source/src/module993.sc",
-      "bytes": 126908,
-      "sha256": "d54236c071360bcc1519dc9a679c29359c7f2c270a8cb62563b3be15c9dcde42"
+      "bytes": 127361,
+      "sha256": "aa554e6c81edf2c758bbd57c40dc5d6a3b6dffa2ef9f0e6bbc5ca4c437a59675"
     },
     {
       "path": "source/src/module994.sc",
-      "bytes": 101714,
-      "sha256": "27de2652321fbfd9eee10895462f889a4761086882e0ef0621ec8cde74df4e11"
+      "bytes": 101742,
+      "sha256": "c6abe1ebc88cb9bdbb8a7eadcbf1cf8a2638ea5bdda90c4ddd482529303add7c"
     },
     {
       "path": "source/src/module995.sc",
-      "bytes": 128999,
-      "sha256": "1e248de367b2937d6070c6cb982017159c11f74974782db1a34156a7953ee1c5"
+      "bytes": 130407,
+      "sha256": "20c47af4c0ca1b4250c1c74d67f4a3c79c9a7f34fd61f3e14aa26fcede4aea84"
     },
     {
       "path": "source/src/module996.sc",
@@ -16187,18 +16197,18 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 2519,
-      "sha256": "012e5a50e3139eb449facb99e78418cf4700e6f6a46c3fa75a01e595f01227df"
+      "bytes": 3276,
+      "sha256": "6858e6c79700de596b62110bb288afc53ca3ba9db52c89170c245fcc2cca9e26"
     },
     {
       "path": "source/tests/check_late_ui.py",
-      "bytes": 7472,
-      "sha256": "6a772919073b7b4adebc3bf3bdc887f6c3f9a1e303c19b266c70e937ca20c4a3"
+      "bytes": 7542,
+      "sha256": "e55c8cf1ed34533ee0b2db7d050dfcc6c4c4fb73cb79042d03f467cbb8f02920"
     },
     {
       "path": "source/tests/check_native_session.py",
-      "bytes": 6763,
-      "sha256": "664010e76c73dc221b56ce0b370c2b10670f3c2d474a19da6c156e4d12021afd"
+      "bytes": 6843,
+      "sha256": "88fc793f056814754b99865b2f2d8eaba70442746100586c2094890094348103"
     },
     {
       "path": "source/tests/check_presentation.py",
@@ -16206,9 +16216,14 @@
       "sha256": "5a63d6b78d1cbcef748cb68fb2eff3e21f9e32406487a4fa150685eddd76a89d"
     },
     {
+      "path": "source/tests/check_recovery_r3.py",
+      "bytes": 9518,
+      "sha256": "1653fa603419b4cb0a4397066ab1ec987a200fe7c219396da17f7163ea8a88e8"
+    },
+    {
       "path": "source/tests/check_recovery_regressions.py",
-      "bytes": 7701,
-      "sha256": "311b5af4c3715c30d1e9c4a8ec621d7be129f11a4fca7fc8b3013ee7ed2c64d1"
+      "bytes": 7725,
+      "sha256": "b7242b4293d383398e099e207be163310fd1f18f3997643c9c2836d52454466d"
     },
     {
       "path": "source/tests/presentation_vm.py",
@@ -17345,17 +17360,18 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
-  "runtime_behavior": "OBSERVED_GENUINE_NEW_GAME_P01_P11_THREE_WINS_P12_MAIN_FOUR_P13_DELIVERIES_FULL_PRESENTATION_AND_VC04_PRACTICE; ACTIVE_VC04_RESTORE_FAILED_UI10; RELEASE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
+  "runtime_behavior": "R3_NATIVE_UNRUN; HISTORICAL_R2_OBSERVATIONS_RETAINED_SEPARATELY; RELEASE_PENDING",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
+  "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
-  "staged_game_file_map_sha256": "0c285097cc5cd04824d69ec365e90256f22cba6154c01089b71333545cfdb95d",
+  "staged_game_file_map_sha256": "b2bb570177de2917183d695b5d923441dc51a191bef634dc47836d1e15ebd74e",
   "native_session_launcher": "source/native_session.py",
   "native_session_report": "NATIVE-SESSION-20261011.md",
   "steamos_recovery_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "recovery_ui_objective_report": "checks/recovery-ui-20261012/RESULTS.json"
+  "recovery_ui_objective_report": "checks/recovery-ui-20261012/RESULTS.json",
+  "recovery_restore_ui_objective_report": "checks/recovery-restore-ui-20261013/RESULTS.json"
 }

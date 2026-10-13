@@ -526,3 +526,52 @@ save/restore, ending controls and all 58 credit cards with Music ON. Earlier
 scoped observations remain historical; this recovery adds no full-game native
 acceptance. Private saves and test artifacts are excluded from this source
 checkpoint. No finished player release or download is published.
+
+
+## 2026-10-13 R3 restore and interface repair preparation
+
+Working directory: `/home/deck/cakood-dev-1uujX3`; branch
+`work/steamos-native-recovery-20261011`; local predecessor checkpoint
+`2e28b7a870e6b41fa66bf97644e015b3bd86b49e`; GitHub predecessor
+`14745a3069c3458922c1f92159cd9f643f16abfe` (identical tree).
+Uncommitted R3 work changes eight methods in six source files and focused
+emitted tests; see `source/RECOVERY-RESTORE-UI-FIX-20261013.md`.
+Original R2 genuine saves 1–37 and native evidence remain untouched in
+`source/build/native-sessions/20261012-recovery-ui-r2-newgame/`.
+That run reached all four puzzle 13 deliveries and the first scored round
+of contest four; restore 37 failed with UI error 10. No fourth win, puzzle 14,
+ending or credits are accepted. Task graphics processes are stopped.
+
+The precise program defect is lease cycling before prerequisite projection
+in `h8RestoreFinish`, while the late predecessor owner still holds the old
+lease. Copied-save read-only native diagnostics confirmed the failure path.
+There is no current permission blocker and no restart is necessary.
+
+The backup at
+`source/build/recovery-backups/20261013T0205Z-before-native-restore-fixes/`
+contains all 46 preceding source modules, test/build scripts and profiles.
+An archive step failed on a relative-path error; compilation incorrectly
+started despite that failure and was interrupted. Original `stage` and saves
+were not changed. The interrupted mixed compile is retained as
+`interrupted-r3-coherent`. The untouched R2 stage is archived as `stage`.
+Its script/heap bytes are used to recover an exact R2 compile and receipt in
+`coherent`, checked against the original recorded receipt hash. Original
+native INIs remain unchanged; archived runtime paths must be used for old
+build inspection. No tests of the interrupted mixed compile count.
+
+Next action: recover/verify the old artifacts, then compile/check/stage the
+separate R3 candidate, bank sanitized source, and perform a genuine empty-save
+New Game run. Old saves do not accept these changes. Performance, subjective
+audio, complete campaign and 58-card native acceptance remain open.
+Publication remains blocked until the complete release criteria pass.
+
+R3 objective checks now pass: 46-module fresh compile (receipt
+`913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e`),
+all four static cases, 17 emitted presentation/interface cases and all six
+launcher identity/preservation guard cases. Staged map identity
+`b2bb570177de2917183d695b5d923441dc51a191bef634dc47836d1e15ebd74e`.
+A stale earlier golden stage hash in the launcher test was explicitly updated
+to the independently recorded R3 stage after the new source repairs; the
+forged-map denial still passes. Next genuine session is
+`source/build/native-sessions/20261013-recovery-r3-newgame`, with initial
+saves required to be empty. No R3 native progress is claimed yet.

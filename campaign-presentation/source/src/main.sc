@@ -2985,6 +2985,8 @@ creditReducedMotion 0
 
 (if (and (>= arg1 415) (<= arg1 418)) (return 5))
 
+(if (and (== arg1 410) onApron ((ScriptID 994 0) h12Active:)) (return 2))
+
 (if (or (== arg1 410) (== arg1 411)) (return 5))
 
 (if (and p09 (>= arg1 395) (<= arg1 398) (p09 h9Active:)) (return (p09 h9Geo: (if (== arg1 398) 6 else (if (== arg1 397) 5 else 0)) 7)))

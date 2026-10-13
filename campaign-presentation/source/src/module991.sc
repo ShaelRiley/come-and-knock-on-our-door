@@ -8,6 +8,10 @@
 (method (renderCaption owner &tmp savedAcc)
 (if (and (owner p05?) ((owner p05?) hVCHud:)) (return 0))
 
+; Later owners paint their current scene status; retire the earlier preparation
+; caption once that completed chapter has handed over the world.
+(if (or ((ScriptID 995 0) h13Has:) ((ScriptID 996 0) h14Has:)) (return 0))
+
         (asm
             sat 0
             pushi 741

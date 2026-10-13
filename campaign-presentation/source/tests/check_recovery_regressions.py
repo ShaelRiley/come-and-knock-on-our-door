@@ -86,7 +86,7 @@ def apron_menu(build, reference):
     v = RecoveryFixture(build)
     v.h.p.update(location=4, onApron=1, uiPanel=0, motionPhase=0)
     p = v.instance(994)
-    assert v.call(p, 'h12Dispatch', (0, 410, 0)) == 1
+    assert v.call(p, 'h12Dispatch', (2 if not reference else 0, 410, 0)) == 1
     a = v.arrays(0)
     ids = list(a['uiChoiceIds'][:v.h.p['uiChoiceCount']])
     if not reference:

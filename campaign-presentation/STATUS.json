@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "RECOVERY_UI_FIX_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
+  "status": "RESTORE_UI_REPAIR_R3_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,12 +10,12 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_RECOVERY_UI_FIX",
+    "fresh_coherent_compile": "PASS_46_MODULES_RESTORE_UI_REPAIR_R3",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_87_UNCHANGED_COMPILED_ARTIFACTS_5_DECLARED_SCRIPT_HEAP_CHANGES",
-    "runtime_behavior": "CURRENT_RECOVERY_UI_CANDIDATE_OBSERVED_P01_P07_AND_ACTUAL_VC01_VC02_WINS; CHANGED_STATE_MID_CONTEST_AND_FRESH_PROCESS_RESTORE; NORMAL_QUIT; COMPLETE_GAME_UNVERIFIED",
+    "static_artifact_comparison": "PASS_86_UNCHANGED_ARTIFACTS_AND_6_DECLARED_SCRIPT_CHANGES_FROM_R2",
+    "runtime_behavior": "R3_NATIVE_UNRUN; PREDECESSOR_OBSERVATIONS_DO_NOT_ACCEPT_R3",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
-    "bounded_static_source_and_assets": "PASS_4_CASES_ON_RECOVERY_UI_CANDIDATE",
+    "bounded_static_source_and_assets": "PASS_4_R3_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
     "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS",
     "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
@@ -23,7 +23,8 @@
     "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
     "late_ui_emitted_20261011": "PASS_3_SCENE_ADMISSION_FIXTURE_CASES_NOT_NATIVE",
     "steamos_recovery_20261011": "PASS_EXACT_CANDIDATE_AND_INSTALLED_RUNTIME_CAPABILITIES; SCOPED_NATIVE_OPENING_SAVE_AND_NORMAL_EXIT; COMPLETE_GAME_UNVERIFIED",
-    "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE"
+    "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
+    "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE"
   },
   "unperformed": [
     "Complete genuine New Game on this changed candidate through all 14 puzzles, four actual contest wins, P13 four physical deliveries, ending and all 58 credits",
@@ -54,7 +55,7 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
+  "compiled_receipt_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
@@ -79,6 +80,15 @@
       "limits": "Optional P12 rehearsal unreachable; P13/P14/VC04/ending58 and subjective listening incomplete. This frozen candidate is preserved privately.",
       "summary": "NATIVE-RECOVERY-STEAMOS-20261011.md",
       "applies_to_current_candidate": false
+    },
+    {
+      "date": "2026-10-13",
+      "compiled_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
+      "save_lineage": "CAKOOD_PRESENTATION_RECOVERY_UI_FIX_UNACCEPTED_20261012_R2",
+      "observed": "Genuine empty-save New Game, P01-P11, three actual wins, P12 main/cleanup/seven collection handoffs, four P13 physical deliveries, five-card presentation, all24 practice, first actual VC04 scored round.37 original saves preserved. Normal Quit engine0/server0.",
+      "limits": "P12 rehearsal unreachable; active VC04 save37 restore failed UI10; no fourth win/P14/ending/credits or subjective listening acceptance.",
+      "summary": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+      "applies_to_current_candidate": false
     }
   ],
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -87,29 +97,34 @@
       "candidate": "4515cdac507f5744d2043993c7895af75f57f5d4",
       "observed": "A genuine native New Game reached P03; an ordinary side-passage visit made Music unavailable and later save requests were refused.",
       "diagnosis": "Transport for sound 105 compared against window count 190 in three resource identity guards.",
-      "correction": "SIDE-SCORE-FIX.md; fresh compilation and static checks pass; native full-game acceptance pending."
+      "correction": "SIDE-SCORE-FIX.md; fresh compilation and static checks pass; native full-game acceptance pending.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_compile_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
       "observed": "An ordinary New Game completed the full automatic opening and P01-P04 with Music ON. P01 save, setting change and restore passed. After the side-passage gate success, a genuine P04 save succeeded and no music warning appeared. Corrected Audience OFF/ON captions were observed and Audience ON was restored.",
-      "limits": "This is scoped verification only; no full-game or ending pass. Native artifacts and saves remain private. Generic labels on the three sample tiles need a presentation correction."
+      "limits": "This is scoped verification only; no full-game or ending pass. Native artifacts and saves remain private. Generic labels on the three sample tiles need a presentation correction.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_compile_receipt_sha256": "e4dd3fb97063f504cf8dff992c8c74a1272c469912f57e7b3638efb924ef1789",
       "observed": "P05 and genuine VC01 win passed with Music ON. Mid-contest save/restore preserved the score and pending committed retort. A fresh process restored the completed PA loan. P06 scope, friendly tone, mixer invitation/answer and full sheet permission were exercised.",
-      "limits": "Scoped predecessor observations only; this label candidate requires a fresh New Game. No complete campaign or ending pass."
+      "limits": "Scoped predecessor observations only; this label candidate requires a fresh New Game. No complete campaign or ending pass.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_compile_receipt_sha256": "3469ef1302d97652accf066b828bf010b66ba7be0b8e3a8f291fb909b838473e",
       "observed": "Genuine New Game opening, P01-P05 and VC01 passed with Music ON. P01, P04 and mid-contest restore passed; P05 saved. T1-T3 inventory labels and ECHO/DRAWER practice topics were observed. Native metal-click lookup warning identified the hexadecimal/base36 filename mismatch.",
-      "limits": "No complete campaign or ending pass. Corrected audio files require native regression and full acceptance. No subjective listening claim."
+      "limits": "No complete campaign or ending pass. Corrected audio files require native regression and full acceptance. No subjective listening claim.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_compile_receipt_sha256": "a45e3344bd4ac61c9251dcca5cb5ee72116efce514ad9f3d7da9e0290a755fcb",
       "observed": "Discovery route through P11 and three real contest wins. Genuine P09, P10, supported-display P11 and third-win saves/restores were exercised. A P12 invitation followed by a right-click exit cancelled pending accompaniment; with the successor active, walking and redraws were very slow.",
       "source_cause": "World shortcut resets unconditionally cancelled the descendant request; descendant validators repeated whole predecessor/actor scans during the same render window.",
       "correction": "HANDOFF-AND-RENDER-FIX.md. Strict predicate bodies and actual progression/acknowledgement guards preserved. Changed SCI has compiled and staged, but native testing has not yet run.",
-      "limits": "No complete game or ending pass; old-save compatibility unproved; no subjective listening. Private protocols and saves are excluded."
+      "limits": "No complete game or ending pass; old-save compatibility unproved; no subjective listening. Private protocols and saves are excluded.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd",
@@ -118,7 +133,8 @@
       "defects": "Labelled left ENTER retired accompaniment; old evening actor draws duplicated successor actors; late body controls overlapped older props; held program label missing; PLEDGES wrapped; unavailable reading enabled; correct late travel exceeded180 seconds.",
       "correction": "LATE-UI-FIX.md. Changed code compiles and stages; native regression and full acceptance pending.",
       "observer_corrections": "Slow unchanged pixels were not completion proof. Off-scene program reading is not a completed reader. Seating confirmation is a no-reader action; following reader timeout is not a missing reader.",
-      "limits": "Scoped predecessor evidence only. P13 pot/display/board, VC04 and ending/58 credits unverified. No subjective listening or Deck hardware claim. Private saves/protocols remain excluded."
+      "limits": "Scoped predecessor evidence only. P13 pot/display/board, VC04 and ending/58 credits unverified. No subjective listening or Deck hardware claim. Private saves/protocols remain excluded.",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_commit": "7ccc3c1f2348419536646582d2029cf3f7956bca",
@@ -126,7 +142,8 @@
       "observed": "Genuine New Game with Music ON completed opening, P01-P11 and three actual contest wins. Genuine saves/restores and opening controls passed. P12 gathering in progress: old evening duplicates absent; Bunny accompaniment survived actual left ENTER and reached Living.",
       "limits": "No complete P12-P14, VC04 or ending/58-credit pass. Following Bunny Courtyard travel was not reviewed. P13/P14 regressions remain pending. Subjective listening, Deck hardware and older-save compatibility unproved.",
       "blocker": "Live terminal resume failed with exec-server transport disconnected and recovery timed out after 25s. Read-only workspace and screenshot recovery did not complete. Game process and unsaved progress uninspected; normal exit not claimed.",
-      "report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md"
+      "report": "NATIVE-ACCEPTANCE-20261011-SCOPED.md",
+      "applies_to_current_candidate": false
     },
     {
       "date": "2026-10-12",
@@ -134,7 +151,8 @@
       "candidate_compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
       "observed": "Installed stock ScummVM genuine New Game lineage completed P01-P11 and three actual contest wins. All seven P12 guests physically gathered; fresh slot30 saved. P12 three-card review observed subsequently but unsaved at timed shutdown.",
       "limits": "P12 completion, P13-P14, VC04, late UI corrections, ending and all58 credits pending. Controller path and subjective listening remain unverified.",
-      "report": "NATIVE-RECOVERY-STEAMOS-20261011.md"
+      "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+      "applies_to_current_candidate": false
     },
     {
       "date": "2026-10-12",
@@ -142,18 +160,20 @@
       "candidate_compile_receipt_sha256": "86be8b73aa37587bbc704f3d3722cf60c06a202b73d30c1e828b4ed02995619c",
       "observed": "P12 full main welcome/introduction/confetti/cleanup and all seven collection handoffs completed through ordinary controls; slot31 changed-viewpoint restore passed; slot32 saved, P13 gated menu admitted, normal game Quit engine0/server0.",
       "limits": "Optional P12 rehearsal menu inaccessible and pending correction. P13-P14, VC04, remaining late UI and ending/all58 credits pending; subjective audio and controller path unverified.",
-      "report": "NATIVE-RECOVERY-STEAMOS-20261011.md"
+      "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+      "applies_to_current_candidate": false
     },
     {
       "candidate_compile_receipt_sha256": "e65a343b88de7b3a049bdced423aef2f586ed76cc39aff8a988a2bd8cc4cb909",
       "observed": "Current R2 genuine New Game completed P01-P11 and three actual wins, plus full P12 main and seven physical collection handoffs; twenty-nine genuine saves preserved. P09 route and labels passed. Optional audience-side rehearsal still unreachable through ordinary Walk.",
       "source_cause": "R2 handler accepts Walk, but generic host Walk omits the object before arrival dispatch; right-click default Look opens the direct reader.",
-      "limits": "P13/P14, VC04, all four deliveries, complete late UI, ending/58credits and subjective listening remain unaccepted. Predecessor actor control positioning needs review. No release."
+      "limits": "P13/P14, VC04, all four deliveries, complete late UI, ending/58credits and subjective listening remain unaccepted. Predecessor actor control positioning needs review. No release.",
+      "applies_to_current_candidate": false
     }
   ],
-  "current_fix_report": "source/RECOVERY-UI-FIX-20261012.md",
+  "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "P01_P11_THREE_ACTUAL_WINS_P12_MAIN_AND_FIRST_TWO_P13_PHYSICAL_DELIVERIES_OBSERVED; P12_REHEARSAL_REPAIR_PHYSICAL_SERVING_DISPLAY_BOARD_P14_VC04_LATE_UI_ENDING58_LISTENING_PENDING; NO_RELEASE",
+  "current_blocker": "NEW_R3_EMPTY_SAVE_FULL_NATIVE_CAMPAIGN_AND_RELEASE_CRITERIA_UNRUN; LATE_PERFORMANCE_AND_SUBJECTIVE_LISTENING_OPEN; NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -313,6 +333,43 @@
     "puzzle13_fourth_contest": "FULL_ENTRY_AND_SIX_NEW_PRACTICE_EXCHANGES_OBSERVED; FIRST_SCORED_ROUND_PASSED; PENDING_REPLY_RESTORE_FAILED; ACTUAL_WIN_UNVERIFIED",
     "puzzle13_contest_restore": "FAILED_GENUINE_SAVE37_PENDING_REPLY_WITH_UI_CONTRACT_ERROR10_AND_MUSIC_UNAVAILABLE; SAVE36_PRECEDING_PRACTICE_RESTORE_PASSED",
     "save36_sha256": "b4c5522801840928d08cf8015fd95993d274f621ceda1918bc194b0bac6f51d4",
-    "save37_sha256": "29e7e3f41ae98735d36335fcd0f9c9ccc6ec339fa0e45d8bae59fec533f71dc6"
+    "save37_sha256": "29e7e3f41ae98735d36335fcd0f9c9ccc6ec339fa0e45d8bae59fec533f71dc6",
+    "applies_to_current_candidate": false
+  },
+  "restore_ui_candidate_20261013": {
+    "status": "PASS_OBJECTIVE_NOT_NATIVE",
+    "native_acceptance": false,
+    "compile_receipt_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e",
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
+    "staged_game_file_map_sha256": "b2bb570177de2917183d695b5d923441dc51a191bef634dc47836d1e15ebd74e",
+    "compiled_modules": 46,
+    "protected_inputs_unchanged": 8,
+    "unchanged_compiled_artifacts": 86,
+    "changed_script_modules": [
+      0,
+      989,
+      991,
+      993,
+      994,
+      995
+    ],
+    "static_cases": 4,
+    "emitted_presentation_cases": 6,
+    "existing_recovery_cases": 5,
+    "existing_late_ui_cases": 3,
+    "new_emitted_restore_action_speaker_cases": 3,
+    "native_full_game": "UNRUN_FOR_R3",
+    "subjective_listening": "UNPERFORMED",
+    "fixture_limits": "Explicit ancestor/domain/arrival or scene admissions; no earned campaign or native acceptance",
+    "source_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
+    "native_runtime_launched": false,
+    "initial_saves_required": 0,
+    "previous_saves_preserved": true,
+    "observed_puzzles": [],
+    "actual_contest_wins": [],
+    "save_files": 0,
+    "remaining": "Genuine stockScummVM New Game all14/fourwins/P13deliveries/lateUI/saveRestore/ending/all58credits; performance/audio/hardware checks; no publication before criteria pass",
+    "native_session_guard_cases": 6,
+    "native_session_guard_status": "PASS_NOT_NATIVE"
   }
 }
