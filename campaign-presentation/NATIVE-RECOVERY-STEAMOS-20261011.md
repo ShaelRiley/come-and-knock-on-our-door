@@ -604,3 +604,27 @@ contest wins, P05–P14, late UI/restore/companion travel, ending and all 58 cre
 cards remain unaccepted. Original R2 saves and backup remain untouched.
 Private images, videos, protocols and save contents are excluded from GitHub.
 No finished player release is published.
+
+
+## R3 first actual contest win and completed puzzle 5
+
+Fresh ordinary F3 restore of genuine P04 save5 passed. Puzzle 5's physical
+setup, complete soundcheck, equipment credit and nine-card role scene passed.
+All six practice setup/reply/notebook exchanges were genuinely played. The
+scored match visibly reduced Milo's composure from 3 to 0 while Jackie's stayed
+at 3. Actual win, concession and full credited flourish were observed. A saved
+pending reply restored its original choice and both 3/3 counters after selecting
+a different reply. This does not accept the repaired late fourth-contest restore.
+The complete final three-card scene and completion notice were observed.
+
+Nine genuine R3 saves remain private; slot9 preserves completed P05/VC01.
+Ordinary Menu/5 Quit returned engine0/server0, and the task stop monitor exited
+after its verified wrapper stopped. One fresh startup stopped at idle timeout
+while stop-monitor approval was pending; no save was loaded in that attempt.
+The later approved monitor was armed before resumed input. Its stop file can
+signal only the recorded, identity-checked task wrapper.
+
+Next: preserve protocol/display/logs and copy INI, then resume the same candidate
+through normal F3 load9 (expected page2 bottom-left; inspect first), continue
+P06–P14 and actual contests 2–4, and finish all late/rehearsal/restore/companion,
+ending and 58-credit checks. No completed release or listening pass is claimed.
