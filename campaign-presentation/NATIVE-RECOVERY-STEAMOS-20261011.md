@@ -652,3 +652,37 @@ inspect F3 chooser and load13 (expected page3 top-middle), then P08–P14, actua
 contests3–4, repaired body/rehearsal/late-UI and critical restore paths, all four
 P13 deliveries, companion travel, ending and all58credits. Subjective listening
 and broad performance/hardware acceptance remain open.
+
+
+## R3 completed puzzles 8–10; puzzle 11 in progress
+
+Fresh genuine save13 restored. Puzzle 8 completed through all five physical
+layout positions, open carrier, full readiness and the actual four-card evening
+scene; actual Close published its cast positions. Changing the layout and
+restoring genuine save14 through the normal chooser recovered its positions
+and usable conversation route. The native autosave and completed save16 remain
+private. One preceding attempt idled out before any layout action or new save;
+its captured introduction and protocol were preserved, and no completion was
+inferred from its queued work.
+
+Puzzle 9's complete five-card scene, later completion, physical two-card item,
+short and full labels, retained earlier topic/Back/later route and ordinary
+restore17 passed. Puzzle 10 completed through its full authored introduction
+and agreement, three physical cue placements, journal and character credit.
+Genuine save18 pins its completion. Puzzle 11's visible Rita body controls in
+the conservatory and porch opened travel choices, and Rita, the covered display
+and padded cart visibly arrived in the side passage. Genuine save19 preserves
+that partial boundary; Bunny, Frankie and the group operation remain pending.
+Captures taken before destinations were reached are explicitly excluded.
+
+Nineteen genuine R3 saves and their private hash inventory remain under the
+checkout's home-directory source/build/native-sessions tree. Canonical R3 game
+source, engine and all original R2 saves are unchanged. Ordinary Menu/5 Quit
+returned engine0/server0; the identity-checked stop monitor exited afterward.
+
+Next: preserve protocol/display/logs and copy INI, launch the same bounded exact
+R3 process, inspect F3 chooser and load19 (expected page4 top-middle). Finish
+P11 transfers/group operation and actual third contest, then P12–P14, actual
+fourth win, rehearsal/late interface/critical active-contest restore, all four
+P13 deliveries, companion travel, ending and all58credits. Full native, audio,
+performance/hardware acceptance and finished publication remain pending.
