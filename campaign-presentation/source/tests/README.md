@@ -54,3 +54,34 @@ incomplete owners without weakening gameplay admission. `--reference --build
 PATH` reproduces the original defects against the archived R2 compile. Neither
 mode establishes native save/restore or full-game acceptance. The R3 native run
 must begin with separate empty saves.
+
+Paint-scope ordering and failed-frame publication run against the compiled
+candidate with:
+
+    python tests/check_paint_scope.py
+
+The 13 emitted cases exercise the actual draw dispatcher, renderer boundary,
+read Begin/Resume/End, P13 paint and strict validation, and Main's publication
+and cleanup branches. Owner/predecessor history, scene drawing, reader identity
+and unrelated legacy callbacks are explicit fixtures. Raw owner, prerequisite,
+serial, origin and unused-route mutations must fail strict End before any
+Frame1, Graph12 or P13 receipt hook. Failed Resume skips late paint; dormant
+owners, renderer failure and strict mutator rejection remain covered. A positive
+case reaches the actual receipt hook but earns no campaign receipt. These tests
+do not establish native pixels, audio, responsiveness, save compatibility,
+progression or acceptance. `--build PATH` selects a separate compiled candidate.
+
+P13 publication and strict-close regressions run with:
+
+    python tests/check_phase1_publication.py
+
+The 43 emitted cases retain input/serve/scene witnesses when an idle handoff
+has no world receipt to publish, all seven pending actor arrivals, source-room
+pickup paints, all four cargo publication paths including both pot stages,
+active wrong-animation handling, and strict close success/failure obligations.
+Raw mutations still fail Main's strict End gate before phase1, Graph12 or a
+receipt hook. Historical ancestors, legacy barriers, work/route admission and
+reader/scene admission are explicit fixtures; actual publication writes and
+strict validators execute. The fixtures earn no campaign progress and establish
+no native timing, pixels, audio, saves or acceptance. `--build PATH` selects a
+separate compiled candidate.

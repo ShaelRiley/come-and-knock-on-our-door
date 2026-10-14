@@ -1396,10 +1396,12 @@ h9Host 0
 (method (h9Draw &tmp result)
  (if (or (!= self (ScriptID 990 0)) (!= h9Host (ScriptID 0 0)) (not (h9Host p08?))) (return 0))
  (= result ((h9Host p08?) h8VD:))
+ ; The renderer boundary suspended reuse. Re-enter before pure late paint.
+ (if (not ((ScriptID 993 0) h11ReadResume:)) (return 0))
  (if result ((ScriptID 994 0) h12Frame: 2) ((ScriptID 992 0) h10Frame: 2) ((ScriptID 993 0) h11OwnerFrame: 2) ((ScriptID 993 0) h11Frame: 2))
  (if result (self h9UI: 1))
  (if (and result (== [h9F 0] 1) (self h9ReaderCheck:)) (= [h9F 0] 2))
- ((ScriptID 993 0) h11ReadResume:) (return result))
+ (return result))
 (method (h9Frame phase &tmp i d source count token unit record page code a o t)
 (if (== phase 5) (= [h9Q 0] 0) (for ((= i 0)) (< i 16) ((++ i)) (= [h9F i] 0)) (return 1))
 

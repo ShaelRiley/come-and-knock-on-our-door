@@ -1366,7 +1366,6 @@
       "h9ReaderCheck": "1365ae0386d613c6cd903f01fc773bcd7ee65a9eed6f337b6badd1bbb8652465",
       "h9Open": "c86024411cde344c16e5a2acec80b0b277a747067d4db32dc1218ef2a696b24d",
       "h9Topics": "6e3c7f04404715eecdd49fe12f4e293dc46676747bcf56b8af4afb47e1f4dd33",
-      "h9Draw": "3e2a4c480042fa9d9a6ebf28a7641fd934d8201fac31c12b8d688c2e60d0fd76",
       "h9Frame": "60d8e7f6aba054899f580e0e7b6afdb9a124faf290879e8d1b7eb5cf15aa9a5a",
       "h9Closed": "e61c0ff3ff53dc6cb8c4e71dacef4c0466734726a3115a536062fc1e5457a695",
       "h9Restore": "f349d75cdcc09c2c1cd5eda2ec9b5bf39e58d6ef417e47de2f1c0db8231633a1",
@@ -6587,9 +6586,17 @@
     {
       "file": "module995.sc",
       "method": "h13WorldFrame",
-      "baseline_sha256": "3af1986899f2a42dcd914cc0ad6d6419751e307514523bf204162fa3d1e665d4",
-      "candidate_sha256": "6afaa9887f31de09aff992b164282ce10fdeebc100f10b5d83fbdebac45eca7e",
-      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+      "baseline_sha256": "6afaa9887f31de09aff992b164282ce10fdeebc100f10b5d83fbdebac45eca7e",
+      "candidate_sha256": "fb2dc42e63571efce81fb9153995866d8307e8215005eac4c6fd4ab2db941c9c",
+      "reason": "After unchanged strict InputFrame/WrongFrame handling, retire only canonical phase1 world paint with active lease1 and no pending actor mask or cargo work. This path publishes no source pickup, arrival or delivery. All pending work, source-room pickups, strict End and mutator checks remain unchanged; witness/scene publication remains in InputFrame. Native responsiveness and campaign acceptance remain separate.",
+      "review_history": [
+        {
+          "baseline_sha256": "3af1986899f2a42dcd914cc0ad6d6419751e307514523bf204162fa3d1e665d4",
+          "candidate_sha256": "6afaa9887f31de09aff992b164282ce10fdeebc100f10b5d83fbdebac45eca7e",
+          "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+        }
+      ],
+      "baseline_commit": "843bac5e99a0b6ad9cb1bd49d319434d5df9911f"
     },
     {
       "file": "module995.sc",
@@ -6667,10 +6674,18 @@
     {
       "file": "module995.sc",
       "method": "h13RenderClose",
-      "baseline_sha256": "b3e5430974e8bb0bd722cacf32b35bcca3573366520b8aa9bc47a694a6af719a",
-      "candidate_sha256": "b3447101faa53ba0a0fdc1e1fdf285013f60938c929a137416a47c5f5adf6a83",
-      "reason": "LATE-UI-FIX.md: disable both render memos and strictly repeat every used original predicate, even after another close check fails. The existing Main success gate and post-close phase1 acknowledgment stay unchanged.",
-      "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+      "baseline_sha256": "b3447101faa53ba0a0fdc1e1fdf285013f60938c929a137416a47c5f5adf6a83",
+      "candidate_sha256": "fdd5faa28cfeb9a5b408479ef30dbf15f18791b24cb7db46eed4fad608decf25",
+      "reason": "With reuse disabled, a successful full strict Valid necessarily executed strict Historical/Baseline in the same synchronous call, so discharge only that local admitted obligation. A failed Valid still runs the independently admitted Baseline. No public validator, owner/history check, input/save/restore boundary or Main publication gate changes.",
+      "baseline_commit": "843bac5e99a0b6ad9cb1bd49d319434d5df9911f",
+      "review_history": [
+        {
+          "baseline_sha256": "b3e5430974e8bb0bd722cacf32b35bcca3573366520b8aa9bc47a694a6af719a",
+          "candidate_sha256": "b3447101faa53ba0a0fdc1e1fdf285013f60938c929a137416a47c5f5adf6a83",
+          "reason": "LATE-UI-FIX.md: disable both render memos and strictly repeat every used original predicate, even after another close check fails. The existing Main success gate and post-close phase1 acknowledgment stay unchanged.",
+          "baseline_commit": "3e4d877337361f4450e3ca2d3d93f89e2b65a1bd"
+        }
+      ]
     },
     {
       "file": "main.sc",
@@ -6750,6 +6765,14 @@
       "baseline_commit": "8166a71e919abab4f15b04025b7ef04576e81d1a",
       "candidate_sha256": "bbc64e3eb3935e08546f5e86f512b8f87becfcf19ad7e1ea975aa2031a5379c3",
       "reason": "Existing guarded render-scope proof reuse for direct owner queries; full Begin/End/Boundary/input/save/restore checks remain. Measured R3 late redraw: 19,008,969 SCI operations. Native response retest required."
+    },
+    {
+      "file": "module990.sc",
+      "method": "h9Draw",
+      "baseline_sha256": "3e2a4c480042fa9d9a6ebf28a7641fd934d8201fac31c12b8d688c2e60d0fd76",
+      "baseline_commit": "843bac5e99a0b6ad9cb1bd49d319434d5df9911f",
+      "candidate_sha256": "d192ea1794b2f96db47382d2f1d15c39a1c6b5b88674546a79d9633f01a3dc9f",
+      "reason": "Resume the existing guarded read scope immediately after the renderer boundary, before read-only late phase2 paint. Fail closed before late callbacks if Resume rejects. Strict Begin/End/Boundary/input/save/restore validation and Main phase1 publication gating remain unchanged; native campaign acceptance is separate."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."

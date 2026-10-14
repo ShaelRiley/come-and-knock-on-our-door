@@ -68,3 +68,74 @@ static cases also pass. R4's full source, compiled output and both copied and
 original stage are retained under the ignored recovery-backups directory.
 There was no surviving R4 save. R5 requires a genuine fresh empty-save lineage;
 native responsiveness, sound and all complete-game criteria remain pending.
+
+
+## R6: restore the read scope before late painting, acceptance pending
+
+R5's genuine New Game completed P01–P12, three actual scored wins and the first
+physical P13 delivery. All 31 private saves and the exact R5 runtime remain
+preserved; ordinary Quit at save31 completed cleanly. The header repair was
+observed after actual P13 activation and travel. These scoped results do not
+accept changed R6 game files. R5 did not complete the fourth contest, P14,
+ending or all 58 credit cards.
+
+Native profiling after an ordinary restore and normal-world entry measured
+55,427,898 SCI operations for R5 Main.render, versus 33,717,348 for a private
+ordering prototype: 39.169% fewer operations. A separate strict End returned
+success after 8,949,605 operations. These are debugger operation counts, not a
+native wall-time, responsiveness or full-game pass. The earlier startup-debug
+render of 18,891,628 operations was not the representative normal-world path.
+
+The source cause is an existing boundary after the base world renderer:
+h8VD suspends memo reuse, then h9Draw performs late phase2 drawing before its
+old Resume call. P13 therefore repeats full history validation while painting.
+R6 moves that existing Resume before the late callbacks and checks its result;
+a failed resume stops those callbacks. Phase2 still only draws or updates
+transient paint state. Actual arrival, delivery, source and ending receipts
+retain their active phase1 paths after strict End. No general validator,
+mutation entry, input/save/restore check, ownership invariant or publication
+gate is removed or bypassed. No art, music, script, cast, laughs or credits
+are redesigned.
+
+Thirteen emitted cases exercise the actual draw/read-scope/P13 validation and
+Main publication branches, with ancestor history, renderer, reader identity
+and unrelated callbacks explicitly modeled. They cover reuse ordering, live
+scope failure, raw owner/prerequisite/serial/origin/tail corruption, strict
+mutator rejection and blocked publication. They create no native saves and
+earn no campaign receipts. The earlier private Context-only helper was not
+integrated: its bare-world emitted frame cost was unchanged.
+
+The checked990 repair adds six script bytes; the focused995 changes add52. Stock SCI restore places
+saved objects relative to script layout; a copied R5 save failed under that
+changed layout. No save was patched and the valid original R5 lineage remains
+paired with its preserved build. A same-length private diagnostic relocation
+supported the operation-count comparison only; it is not the checked R6
+candidate or acceptance evidence. R6 lineage is
+`CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6`.
+
+The remaining measured cost was post-End h13Frame:1 (13,574,490 native SCI
+operations in the ordering-only diagnostic). R6 therefore keeps InputFrame and
+WrongFrame first, then clears only the world paint flag and returns when the
+canonical phase1 lease has neither pending actors nor cargo work. There is no
+arrival, delivery or source pickup to publish in this case. Source-room pickups,
+every actor bit and all four cargo kinds keep their original strict pre/post
+checks and writes. Close runs strict Valid first; success includes its nested
+strict Baseline in the same call, while failure still runs any separately
+admitted Baseline. Public validators and input/save/restore paths are unchanged.
+Forty-three focused before/after and portable emitted fixtures cover exact idle
+state/witness equivalence, source pickups, actor arrivals, cargo stages, scene
+witnesses, wrong animation, Main corruption rejection and Close failure fallback.
+Fixture operation counts are not native timing or progression evidence.
+
+The exact combined candidate compiles all46 modules and passes four static,
+80 emitted and six launcher guard cases. Only compiled990 and995 scripts change;
+all other scripts/heaps and audio are identical to frozen R5. Compile receipt:
+`adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444`;1759-file map:
+`e2e7171c18318fd5b09c675f0dfaf0cd0554e2c935e7d66caabb2fe9a447f72e`.
+A genuine stock-ScummVM New Game began with zero initial saves, FluidSynth/music
+and the intended SoundFont on an isolated bounded display. Combined R6 native
+response and complete acceptance remain pending. The same lineage must complete
+all14 puzzles, four actual wins, critical VC04 changed-state/fresh-process
+pending-reply restore, four P13 physical deliveries, late interfaces, companions,
+ending/applause and all58 credits before promotion, packaging or publication.
+No completed-game acceptance or release is claimed.

@@ -43,9 +43,9 @@ class NativeSessionChecks(unittest.TestCase):
         result = native.verify_game()
         self.assertEqual(result["game_files"], 1759)
         self.assertFalse(result["native_acceptance"])
-        # Frozen R5 stage after the guarded owner-query reuse change.
+        # Frozen R6 stage after paint-scope ordering and idle-publication repair.
         self.assertEqual(result["game_file_map_sha256"],
-                         "f371292c7289bdbaef6c811752b0f661ed553d8b92928c34a18a167dfe4377dc")
+                         "e2e7171c18318fd5b09c675f0dfaf0cd0554e2c935e7d66caabb2fe9a447f72e")
 
     def test_forged_stage_map_is_rejected(self):
         source = self.root / "campaign/source"

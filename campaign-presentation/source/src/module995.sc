@@ -1625,6 +1625,11 @@
  (= h (ScriptID 0 0))
  (self h13InputFrame: phase)
  (self h13WrongFrame: phase)
+ ; Input/scene witnesses above retain their own strict publication checks.
+ ; A live handoff with no pending actor or cargo has no world receipt to publish.
+ (if (and (== self (ScriptID 995 0)) (== phase 1) (== [h13Lease 0] 1)
+  (not [h13Lease 2]) (not [h13Work 0]))
+  (= [h13Paint 0] 0) (return 0))
  (if (== phase 2) (if (not (self h13PaintWorld:)) (= [h13Paint 0] 0) (return 0)))
  (if (or (not (h h11RenderLive:)) (h uiPanel?) (h onApron?) (h motionPhase?)
   (h bridgeReaderActive?) (h menuOpen?) (h paused?) (not (self h13Active:)))
@@ -2546,9 +2551,10 @@
  (if (!= self (ScriptID 995 0)) (return 0))
  (= used [h13RenderMemo 0]) (= admitted [h13RenderMemo 1])
  (= [h13RenderMemo 0] 0) (= [h13RenderMemo 1] 0) (= good 1)
- ; Reuse is disabled. Each used predicate runs strictly even if the other fails.
+ ; A successful strict Valid includes strict Historical/Baseline in this call.
+ ; If Valid fails early, the independently admitted Baseline still runs.
+ (if used (if (self h13Valid:) (= admitted 0) else (= good 0)))
  (if (and admitted (not (self h13Baseline:))) (= good 0))
- (if (and used (not (self h13Valid:))) (= good 0))
  (return good))
 )
 (instance p13State of P13State)

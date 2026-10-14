@@ -1,12 +1,35 @@
 # Come and Knock on Our Door: candidate, native acceptance pending
 
-The October 14 R5 candidate shares the existing guarded render owner proof
-for repeated direct owner queries. Its full input/save/restore and render-end
-checks remain strict. All 46 modules, four static checks and 24 emitted cases
-pass; native performance and full-game acceptance remain pending. See the R5
-section in source/RECOVERY-LATE-HEADER-20261014.md.
+The October 14 R6 paint-scope repair is compiled and staged, but unaccepted.
+It resumes the existing guarded read scope before late scene drawing, skips
+world-receipt work when no arrival or cargo is pending, and avoids repeating a
+Baseline already proved by the same successful strict Close validation. Active
+arrivals, cargo writes, input witnesses and failure rejection retain their checks.
+All 46 modules, four static checks, 80 emitted cases and six launcher guards
+pass. A private ordering-only prototype reduced an observed normal-world render
+from 55,427,898 to 33,717,348 SCI operations (39.169%); that is supplementary
+evidence. Combined R6 native responsiveness and full-game acceptance remain
+pending. A genuine stock-ScummVM New Game has begun with zero initial saves.
+See source/RECOVERY-LATE-HEADER-20261014.md.
 
-The following R4/R3 results are historical; they do not accept R5.
+R6 requires a fresh New Game and separate empty Save Path. Its changed script
+layout cannot use R5 saves. Preserve those saves with the unchanged R5 build;
+no predecessor save or diagnostic copy substitutes for R6 acceptance. The
+release remains gated on all 14 puzzles, four actual wins, critical fourth-
+contest restore, all four P13 deliveries, companions, ending and all 58 credits.
+No finished player release or intermediate playable build is offered.
+
+The following R5/R4/R3 results are historical; they do not accept R6.
+
+R5 genuinely completed puzzles 1–12, three scored wins and the first physical
+P13 delivery; 31 private saves remain preserved, with a clean Quit at save31.
+Opening/ordinary controls, meaningful restores and repaired P12 audience routes
+were observed. The world-header repair stayed correct after P13 activation
+and travel. Objective task-stream music, voice, laughter and Foley were checked;
+subjective listening was unavailable. R5 heavy-scene response remained slow.
+The other P13 deliveries, fourth win/critical restore, P14, ending and credits
+were not accepted. Historical 46-module compilation, four static checks and
+24 emitted regressions do not establish R6 native acceptance.
 
 The October 14 R4 candidate repairs the actual Main world-header branch missed
 by the preceding caption fix. See source/RECOVERY-LATE-HEADER-20261014.md. All 46

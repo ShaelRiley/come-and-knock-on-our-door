@@ -1,9 +1,9 @@
 {
-  "status": "RESPONSE_R5_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "status": "PAINT_SCOPE_R6_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "237ba789840625aa973a29ded6ee258f97424f24930492395d330bbe8cd28663",
+  "compiled_receipt_sha256": "adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8620,
-      "sha256": "b4d94d2de24924270c753ae2b9022797d1470153eab927309dec7c13352e6791"
+      "bytes": 10237,
+      "sha256": "08cbd3ec22d3fae1d3cd513124c2e01c894649b0532f712cb186e313c4b9fc50"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 32969,
-      "sha256": "491725a8d4e3db8ce65442c5e1b22e4223e6716b4e86c767e0515c2016ace72d"
+      "bytes": 37086,
+      "sha256": "2adf47e6b9f3fdc17bb2d057e4b7f03c84521e462fa97ce4af3d348a3e2f6fa8"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4367,13 +4367,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2408,
-      "sha256": "bdf2e7cd307cc962bd1307ea0f062db3ae0bbf6eeaab717af6582173426ca199"
+      "bytes": 2414,
+      "sha256": "3cf2e85bfd1841386539afbbf299242c084be3b924e5dad4f607732f44a49aff"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 331991,
-      "sha256": "ccc90c22ea8faf853f5b0f30ea6c270bfee69b02696afce70e3c630ccb445f00"
+      "bytes": 334015,
+      "sha256": "abf6cf69445a994c22f5003fbe35a5baf4a41904445ea7e182857d39296dc06e"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4382,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 17620,
-      "sha256": "1632802a339a790bf2caeb381bf30631896aff3f97f31751e2ee9e4e5932acf7"
+      "bytes": 18581,
+      "sha256": "36fb222a7cb8d4106d3aca1f66c676d6550a8fb71d2c90a1e7d3d4b770bac03d"
     },
     {
       "path": "source/LICENSE.md",
@@ -4402,8 +4402,8 @@
     },
     {
       "path": "source/RECOVERY-LATE-HEADER-20261014.md",
-      "bytes": 4273,
-      "sha256": "5090cd16dcff50f5e7f5132729f3a2ce3c03dd527d93b7abed453e75e253272c"
+      "bytes": 8900,
+      "sha256": "8f4ac09a1ca6441d218bec6c7cd752be1ddd955a13212bdbd53ea08dd597a050"
     },
     {
       "path": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
@@ -16147,8 +16147,8 @@
     },
     {
       "path": "source/src/module990.sc",
-      "bytes": 68952,
-      "sha256": "0a56431fecb50cdc900e111f3f165973f61a61db9e8b2b8eb19057a4bf1f92ab"
+      "bytes": 69050,
+      "sha256": "96676b5736e05664a1288da484dea40a2489e984432a5d313d36b7600753a06b"
     },
     {
       "path": "source/src/module991.sc",
@@ -16172,8 +16172,8 @@
     },
     {
       "path": "source/src/module995.sc",
-      "bytes": 130407,
-      "sha256": "20c47af4c0ca1b4250c1c74d67f4a3c79c9a7f34fd61f3e14aa26fcede4aea84"
+      "bytes": 130791,
+      "sha256": "4aeeadb34a614fbe228625f15475d38d485fcb6cec9584456823fc0e5f1578dd"
     },
     {
       "path": "source/src/module996.sc",
@@ -16202,8 +16202,8 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 3276,
-      "sha256": "6858e6c79700de596b62110bb288afc53ca3ba9db52c89170c245fcc2cca9e26"
+      "bytes": 5022,
+      "sha256": "a47e4445be6aabb0e9073bcc7102b10fe93887302ecd4dd5fc62ab48090d6769"
     },
     {
       "path": "source/tests/check_late_ui.py",
@@ -16212,8 +16212,18 @@
     },
     {
       "path": "source/tests/check_native_session.py",
-      "bytes": 6833,
-      "sha256": "7ba12c08892800d3d3b515e208caefda4dc2e3dde1ab3b8aef3bd39df2f396ca"
+      "bytes": 6845,
+      "sha256": "cf9e8a922d04b125c7f107340b0e831032073da7a841a3ee91f1610a8f35b4e1"
+    },
+    {
+      "path": "source/tests/check_paint_scope.py",
+      "bytes": 9963,
+      "sha256": "a6b8777af142af13be4f8c88aa24425b20fa3b74805a9c0aeb1913074ff3de6f"
+    },
+    {
+      "path": "source/tests/check_phase1_publication.py",
+      "bytes": 8716,
+      "sha256": "a337a9ef9c101ecef91a2fe20e4eb7554cbefda9c83ef77253ffb600a46656e6"
     },
     {
       "path": "source/tests/check_presentation.py",
@@ -17375,18 +17385,26 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESPONSE_REPAIR_UNACCEPTED_20261014_R5",
-  "runtime_behavior": "R5_NATIVE_PENDING;HISTORICAL_SCOPED_EVIDENCE_RETAINED",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6",
+  "runtime_behavior": "R6_NATIVE_PENDING;HISTORICAL_SCOPED_EVIDENCE_RETAINED",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-LATE-HEADER-20261014.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
-  "staged_game_file_map_sha256": "f371292c7289bdbaef6c811752b0f661ed553d8b92928c34a18a167dfe4377dc",
+  "staged_game_file_map_sha256": "e2e7171c18318fd5b09c675f0dfaf0cd0554e2c935e7d66caabb2fe9a447f72e",
   "native_session_launcher": "source/native_session.py",
   "native_session_report": "NATIVE-SESSION-20261011.md",
   "steamos_recovery_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "recovery_ui_objective_report": "checks/recovery-ui-20261012/RESULTS.json",
-  "recovery_restore_ui_objective_report": "checks/recovery-restore-ui-20261013/RESULTS.json"
+  "recovery_restore_ui_objective_report": "checks/recovery-restore-ui-20261013/RESULTS.json",
+  "historical_candidate_identities": [
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESPONSE_REPAIR_UNACCEPTED_20261014_R5",
+      "compiled_receipt_sha256": "237ba789840625aa973a29ded6ee258f97424f24930492395d330bbe8cd28663",
+      "staged_game_file_map_sha256": "f371292c7289bdbaef6c811752b0f661ed553d8b92928c34a18a167dfe4377dc",
+      "native_acceptance": false
+    }
+  ]
 }
