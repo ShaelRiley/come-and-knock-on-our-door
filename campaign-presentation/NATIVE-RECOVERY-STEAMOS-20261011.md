@@ -686,3 +686,28 @@ P11 transfers/group operation and actual third contest, then P12–P14, actual
 fourth win, rehearsal/late interface/critical active-contest restore, all four
 P13 deliveries, companion travel, ending and all58credits. Full native, audio,
 performance/hardware acceptance and finished publication remain pending.
+
+
+## R3 completed puzzle 11 and actual third contest win
+
+Fresh genuine save19 restored its three delivered objects. Visible Bunny and
+Frankie body controls opened the ordinary travel choices; their full routes
+were observed through the proper exits. All five transfers completed. The full
+group lift, concern, honest conversation, three mechanism readings, proper
+actions, four-card fold and final staging passed. Genuine supported save21
+restored after the live operation was set back, with usable normal controls.
+
+All six new practice setup/reply/notebook exchanges passed. The actual scored
+match visibly reduced Felix's composure 3→2→1→0 while Jackie's remained3. Its
+explicit win, concession and full credited final scene passed. Genuine save24
+pins completed P11 and the third actual win. Twenty-four private R3 saves are
+hashed under the home-directory checkout. Rapid navigation once selected a
+replay scene instead of contest entry; that attempt is excluded, and slower
+observed menu selection reached the correct contest. No source change.
+
+Ordinary Menu/5 Quit returned engine0/server0. Next: preserve protocol and
+logs/copy INI, launch exact R3, inspect F3 chooser and load24 (expected page5
+top-left). Continue P12 main/repaired rehearsal/all seven handoffs, P13 four
+physical deliveries, fourth contest with critical active-reply restore, P14
+companions, ending and all58credits. Full-game/audio/performance acceptance
+and finished publication remain pending. No intermediate player build.

@@ -11,13 +11,15 @@ supplementary evidence, not native full-game acceptance.
 
 This changed candidate requires a genuine New Game in a separate empty Save
 Path. The genuine R3 run has now completed the automatic opening, puzzles
-1–10 and two actual scored contest wins. Opening replay, Hold/Next/motion/Skip,
+1–11 and three actual scored contest wins. Opening replay, Hold/Next/motion/Skip,
 held-opening save/restore and changed pending contest replies/scores passed.
 Puzzle 8's changed layout restored through the ordinary chooser. Puzzle 9's
 retained-topic return, later route, full item, labels and normal restore passed.
-Puzzle 11's first three physical transfers are observed; its remaining work is
-pending. Nineteen genuine test saves remain private. Ordinary Quit ended the
-engine and task display normally. Contests 3–4, puzzles 11–14, late regressions,
+Puzzle 11 completed all five physical transfers and the full group operation.
+Its supported save restored after changing the live state, and all six new
+practice exchanges and the third scored win with full final scenes passed.
+Twenty-four genuine test saves remain private. Ordinary Quit ended the
+engine and task display normally. Contest 4, puzzles 12–14, late regressions,
 ending and all 58 credits remain unaccepted. The preserved R2 run completed
 puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
 all seven collection handoffs, all four physical puzzle 13 deliveries, the
