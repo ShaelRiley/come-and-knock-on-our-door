@@ -1,5 +1,13 @@
 # Come and Knock on Our Door: candidate, native acceptance pending
 
+The October 14 R5 candidate shares the existing guarded render owner proof
+for repeated direct owner queries. Its full input/save/restore and render-end
+checks remain strict. All 46 modules, four static checks and 24 emitted cases
+pass; native performance and full-game acceptance remain pending. See the R5
+section in source/RECOVERY-LATE-HEADER-20261014.md.
+
+The following R4/R3 results are historical; they do not accept R5.
+
 The October 14 R4 candidate repairs the actual Main world-header branch missed
 by the preceding caption fix. See source/RECOVERY-LATE-HEADER-20261014.md. All 46
 modules compile; four static and 20 emitted regressions pass. Only Main's

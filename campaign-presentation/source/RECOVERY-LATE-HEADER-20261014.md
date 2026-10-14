@@ -41,3 +41,30 @@ are untouched and belong to R3. The changed R4 candidate requires its own empty
 Save Path and a genuine fresh New Game through all 14 puzzles, four wins, late interface, 
 critical active fourth-contest restore, companions, ending and all 58 credits.
 No completed player release or full native acceptance is claimed.
+
+## R5: guarded owner-query reuse, native retest pending
+
+A copied save paired with the frozen R3 runtime was inspected in the stock
+SCI debugger. One h13Valid call executed 3,480,961 operations; Main.render
+executed 19,008,969. A normal Menu click remained unchanged at one second
+and was visible by five seconds. This diagnostic is not campaign acceptance.
+Debugger pauses affected music state; its empty later song library does not
+prove a normal-play audio defect.
+
+The existing render scope already validates the entire owner at Begin,
+compares owner/inventory/history words at End, and disables reuse at callback,
+input, save and restore boundaries. OwnerAdmission and OwnerPermit share
+that proof during paint. Direct OwnerValid queries now use the same guarded
+proof during that same read-only interval. The complete strict body is retained
+and still runs outside the scope and at End. No frame publication, progress,
+arrival or receipt is synthesized. The change does not suppress errors.
+
+Only module 993's compiled output changed against R4; all eight protected
+inputs, selectors/classes and approved assets are unchanged. Four focused
+emitted cases verify repeated read reuse, full End validation, boundary
+failure, raw prerequisite mutation and physical-snapshot invalidation, using
+explicit prerequisite-history fixtures. All prior 20 emitted cases and four
+static cases also pass. R4's full source, compiled output and both copied and
+original stage are retained under the ignored recovery-backups directory.
+There was no surviving R4 save. R5 requires a genuine fresh empty-save lineage;
+native responsiveness, sound and all complete-game criteria remain pending.

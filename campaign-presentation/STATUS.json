@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "LATE_HEADER_R4_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_LATE_HEADER_REPAIR_UNACCEPTED_20261014_R4",
+  "status": "RESPONSE_R5_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESPONSE_REPAIR_UNACCEPTED_20261014_R5",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,10 +10,10 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_LATE_HEADER_REPAIR_R4",
+    "fresh_coherent_compile": "PASS_46_MODULES_GUARDED_RESPONSE_REPAIR_R5",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_MAIN_COMPILED_MODULE_CHANGED_FROM_FROZEN_R3_8_PROTECTED_INPUTS_UNCHANGED",
-    "runtime_behavior": "R4_NATIVE_UNPERFORMED;HISTORICAL_R3_P01_P12_THREE_WINS_AND_FIRST_P13_CARGO_ONLY",
+    "static_artifact_comparison": "ONLY_MODULE_993_CHANGED_FROM_R4_8_PROTECTED_INPUTS_UNCHANGED",
+    "runtime_behavior": "R5_NATIVE_UNPERFORMED;R4_OPENING_ONLY_NO_SAVE;HISTORICAL_R3_P01_P12_THREE_WINS_FIRST_CARGO",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_R4_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -55,7 +55,7 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "ee8306b9d094b05bece540faf2c8fa774a53eea97059721e9f6146c27b459ee4",
+  "compiled_receipt_sha256": "237ba789840625aa973a29ded6ee258f97424f24930492395d330bbe8cd28663",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
@@ -173,7 +173,7 @@
   ],
   "current_fix_report": "source/RECOVERY-LATE-HEADER-20261014.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "R4_FULL_NATIVE_ACCEPTANCE_UNPERFORMED;LATE_RESPONSIVENESS_AND_AUDIO_UNRESOLVED;NO_RELEASE",
+  "current_blocker": "R5_NATIVE_PERFORMANCE_AUDIO_AND_COMPLETE_GAME_UNVERIFIED;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -428,5 +428,20 @@
     "source_report": "source/RECOVERY-LATE-HEADER-20261014.md",
     "native_session_guard_cases": 6,
     "native_session_guard_status": "PASS_NOT_NATIVE"
+  },
+  "response_candidate_20261014": {
+    "status": "PASS_OBJECTIVE_NOT_NATIVE",
+    "native_acceptance": false,
+    "compile_receipt_sha256": "237ba789840625aa973a29ded6ee258f97424f24930492395d330bbe8cd28663",
+    "staged_game_file_map_sha256": "f371292c7289bdbaef6c811752b0f661ed553d8b92928c34a18a167dfe4377dc",
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESPONSE_REPAIR_UNACCEPTED_20261014_R5",
+    "compiled_modules": 46,
+    "changed_modules_from_r4": [
+      993
+    ],
+    "protected_inputs_unchanged": 8,
+    "static_cases": 4,
+    "emitted_cases": 24,
+    "remaining": "Genuine New Game all14/fourwins, critical pending VC04 restore/fresh process, four cargo/late controls, companions/ending/58 credits, responsiveness/audio/Deck controls then exact package and publication"
   }
 }

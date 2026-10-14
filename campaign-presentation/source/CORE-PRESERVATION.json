@@ -1575,7 +1575,6 @@
       "h11PrerequisiteFrame": "45439cc3a96286f90ee63458590785d2468ad41e524270a59a34ec5016e91283",
       "h11OwnerHistory": "a8cbb05d4922ba32c51fe27db5e72eb0bb4110599bbdfe2f970a8020641ca971",
       "h11OwnerRecord": "0bfea3cb0c0687b4a028bb8ee8708e151a1acd6658d0a4f21f8a9fc7d1c50416",
-      "h11OwnerValid": "5cfd0a3b478a4307807068585369ec0f4421f51e359730ef8edd972156078327",
       "h11OwnerAdmission": "d2835ec9541938090e53702040f6078bc5b4a31d65ccbfdfe9b51ce17c6c746d",
       "h11OwnerPermit": "ccb4bca13dcbd5d48f1a2abd71435afa124c28f72962ac141efee9591be94831",
       "h11CartValid": "3d550d316a6ba21eed069cea5c40f56a1a807520f21dec2e99a2c88019fa7b36",
@@ -6743,6 +6742,14 @@
       "baseline_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
       "candidate_sha256": "d7b09ab731e0b077e49623ca191ca702ef4b0e77625baf6a0a4d0a14b9590d64",
       "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required."
+    },
+    {
+      "file": "module993.sc",
+      "method": "h11OwnerValid",
+      "baseline_sha256": "5cfd0a3b478a4307807068585369ec0f4421f51e359730ef8edd972156078327",
+      "baseline_commit": "8166a71e919abab4f15b04025b7ef04576e81d1a",
+      "candidate_sha256": "bbc64e3eb3935e08546f5e86f512b8f87becfcf19ad7e1ea975aa2031a5379c3",
+      "reason": "Existing guarded render-scope proof reuse for direct owner queries; full Begin/End/Boundary/input/save/restore checks remain. Measured R3 late redraw: 19,008,969 SCI operations. Native response retest required."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."

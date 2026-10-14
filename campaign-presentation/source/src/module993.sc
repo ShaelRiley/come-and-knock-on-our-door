@@ -1531,6 +1531,10 @@
  (if (and (== index 4) (or (!= room ((ScriptID 985 0) hCartRoom?)) (!= ((ScriptID 985 0) hCartOwner?) 1))) (return 0))
  (return 1))
 (method (h11OwnerValid &tmp h i base count j)
+ ; Begin/End still run the full proof. During their guarded read-only paint,
+ ; repeated direct callers share that same owner proof, as Admission already
+ ; does. Boundary, input, save and restore disable reuse before validation.
+ (if (self h11ReadMemo:) (return 1))
  (if (!= self (ScriptID 993 0)) (return 0)) (= h (ScriptID 0 0)) (= count 0)
  (if (not (self h11OwnerHistory:)) (return 0))
  (if (and (not [h11OwnerState 0]) (or [h11OwnerState 1] [h11OwnerState 2] [h11OwnerState 3])) (return 0))
