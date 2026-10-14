@@ -11,10 +11,10 @@ supplementary evidence, not native full-game acceptance.
 
 This changed candidate requires a genuine New Game in a separate empty Save
 Path. The genuine R3 run has now completed the automatic opening and puzzles
-1–5 and the first actual scored contest win. Opening replay, Hold/Next/motion/Skip and held-opening save/restore were
+1–7 and two actual scored contest wins. Opening replay, Hold/Next/motion/Skip and held-opening save/restore were
 observed. Pending mid-contest reply and both scores also restored correctly
-after changing the selected reply. Nine genuine saves are preserved. Ordinary Quit ended the
-engine and task display normally. Contests 2–4, puzzles 6–14, late regressions,
+after changing the selected reply. Thirteen genuine saves are preserved. Ordinary Quit ended the
+engine and task display normally. Contests 3–4, puzzles 8–14, late regressions,
 ending and all 58 credits remain unaccepted. The preserved R2 run completed
 puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
 all seven collection handoffs, all four physical puzzle 13 deliveries, the

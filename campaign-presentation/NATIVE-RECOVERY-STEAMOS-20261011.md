@@ -628,3 +628,27 @@ Next: preserve protocol/display/logs and copy INI, then resume the same candidat
 through normal F3 load9 (expected page2 bottom-left; inspect first), continue
 P06–P14 and actual contests 2–4, and finish all late/rehearsal/restore/companion,
 ending and 58-credit checks. No completed release or listening pass is claimed.
+
+
+## R3 completed puzzles 6–7 and second actual win
+
+Genuine first-win save9 restored in a fresh exact-candidate process. Puzzle 6
+completed through material collection, full permission/scope/clipping scenes,
+physical frame/plan demonstration and all six new practice exchanges. The
+actual second match showed Vivian's composure 3→2→1→0 while Jackie's stayed3.
+Its explicit win, concession, full flourish, three-card final scene and
+completion notice were observed. Slot12 preserves completed P06/VC02.
+
+Puzzle 7 completed through the full recipe, physical preparation, actual Bunny
+kitchen arrival, full five-card introduction, three-card comic scene with its
+observed wait, two-card sincere scene, lid and completion notice. No claim of
+hearing the reaction is made. Slot13 preserves completed P07. Thirteen genuine
+R3 saves remain private. Ordinary Menu/5 Quit returned engine0/server0; the
+identity-checked stop monitor then exited normally. Canonical source, engine
+and all original R2 saves remain unchanged. No full-game acceptance or release.
+
+Next: archive protocol/display/logs and copy INI, fresh exact-candidate resume,
+inspect F3 chooser and load13 (expected page3 top-middle), then P08–P14, actual
+contests3–4, repaired body/rehearsal/late-UI and critical restore paths, all four
+P13 deliveries, companion travel, ending and all58credits. Subjective listening
+and broad performance/hardware acceptance remain open.

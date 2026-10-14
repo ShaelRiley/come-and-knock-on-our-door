@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_RESTORE_UI_REPAIR_R3",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_86_UNCHANGED_ARTIFACTS_AND_6_DECLARED_SCRIPT_CHANGES_FROM_R2",
-    "runtime_behavior": "R3_GENUINE_P01_P05_AND_ACTUAL_VC01_WIN;OPENING_AND_CHANGED_MID_CONTEST_RESTORE_SCOPED;COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "R3_GENUINE_P01_P07_AND_ACTUAL_VC01_VC02_WINS;SCOPED_OPENING_FRESH_AND_MID_CONTEST_RESTORES;COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_R3_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -173,7 +173,7 @@
   ],
   "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "R3_P06_P14_ACTUAL_VC02_VC03_VC04_LATE_UI_RESTORE_COMPANION_ENDING58_AND_AUDIO_PERFORMANCE_ACCEPTANCE_PENDING;NO_RELEASE",
+  "current_blocker": "R3_P08_P14_ACTUAL_VC03_VC04_P12_REHEARSAL_P13_FOUR_DELIVERIES_LATE_UI_RESTORE_COMPANION_ENDING58_AND_AUDIO_PERFORMANCE_ACCEPTANCE_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -358,7 +358,7 @@
     "existing_recovery_cases": 5,
     "existing_late_ui_cases": 3,
     "new_emitted_restore_action_speaker_cases": 3,
-    "native_full_game": "INCOMPLETE_SCOPED_P01_P05_AND_ACTUAL_VC01_WIN_ONLY",
+    "native_full_game": "INCOMPLETE_SCOPED_P01_P07_AND_ACTUAL_VC01_VC02_WINS_ONLY",
     "subjective_listening": "UNPERFORMED",
     "fixture_limits": "Explicit ancestor/domain/arrival or scene admissions; no earned campaign or native acceptance",
     "source_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
@@ -370,23 +370,28 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7
     ],
     "actual_contest_wins": [
-      1
+      1,
+      2
     ],
-    "save_files": 9,
+    "save_files": 13,
     "remaining": "Genuine stockScummVM New Game all14/fourwins/P13deliveries/lateUI/saveRestore/ending/all58credits; performance/audio/hardware checks; no publication before criteria pass",
     "native_session_guard_cases": 6,
     "native_session_guard_status": "PASS_NOT_NATIVE",
     "genuine_new_game_initial_save_files": 0,
-    "latest_native_boundary": "Genuine P05 completion and actual VC01 win/concession/full flourish; save9; normal Quit engine0/server0",
+    "latest_native_boundary": "Genuine P07 completion and actual VC01/VC02 wins with full final scenes; save13; normal Quit engine0/server0",
     "opening_controls": "OBSERVED_REPLAY_HOLD_NEXT_MOTION_SKIP_AND_CHANGED_HELD_REPLAY_SAVE_RESTORE",
     "latest_process_exit": "GAME_EXIT_ENGINE0_SERVER0",
     "save5_sha256": "3bbacce2f8dc86576fe3e0f684d3ac65c24c91e6f01bc1d7cbf88fa0052d4695",
     "audio": "MUSIC_NOT_TOGGLED_OFF;_TASK_STREAM_UNMUTED_UNCORKED_S16LE_2CH_44100HZ;NO_SUBJECTIVE_LISTENING_CLAIM",
     "fresh_process_restore": "OBSERVED_GENUINE_P04_SAVE5_FROM_NORMAL_CHOOSER",
     "mid_contest_restore": "OBSERVED_CHANGED_PENDING_DRAWER_TO_ORIGINAL_ECHO_AND_BOTH_3_OF_3_COUNTERS",
-    "save9_sha256": "85f9f85d7622dbed3f7256226d3b6d225f12acee76ffbb877784054cd89b12e8"
+    "save9_sha256": "85f9f85d7622dbed3f7256226d3b6d225f12acee76ffbb877784054cd89b12e8",
+    "save12_sha256": "387de17f7f15888990cdd78db892676b45f494579d8549d41c362aa7ccfb6a12",
+    "save13_sha256": "c40da13de9cd406479d0cecc309cf654c91a42aedd776d2331bd4280373caf90"
   }
 }
