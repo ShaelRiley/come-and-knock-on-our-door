@@ -13,7 +13,7 @@
     "fresh_coherent_compile": "PASS_46_MODULES_RESTORE_UI_REPAIR_R3",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
     "static_artifact_comparison": "PASS_86_UNCHANGED_ARTIFACTS_AND_6_DECLARED_SCRIPT_CHANGES_FROM_R2",
-    "runtime_behavior": "R3_GENUINE_P01_P11_AND_ACTUAL_VC01_VC02_VC03_WINS;SCOPED_OPENING_FRESH_MID_CONTEST_LAYOUT_TERMS_AND_SUPPORTED_RESTORES;COMPLETE_GAME_UNVERIFIED",
+    "runtime_behavior": "R3_GENUINE_P01_P11_AND_ACTUAL_VC01_VC02_VC03_WINS;P12_GATHER_AND_REPAIRED_APRON_REHEARSAL_ROUTES;SCOPED_RESTORES;COMPLETE_GAME_UNVERIFIED",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
     "bounded_static_source_and_assets": "PASS_4_R3_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
@@ -173,7 +173,7 @@
   ],
   "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "R3_P12_P14_ACTUAL_VC04_P12_REHEARSAL_P13_FOUR_DELIVERIES_LATE_UI_CRITICAL_RESTORE_COMPANION_ENDING58_AND_AUDIO_PERFORMANCE_ACCEPTANCE_PENDING;NO_RELEASE",
+  "current_blocker": "R3_P12_MAIN_COLLECTION_P13_P14_ACTUAL_VC04_P13_FOUR_DELIVERIES_LATE_UI_CRITICAL_RESTORE_COMPANION_ENDING58_AND_AUDIO_PERFORMANCE_ACCEPTANCE_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -383,12 +383,12 @@
       2,
       3
     ],
-    "save_files": 24,
-    "remaining": "Genuine exactR3 P12-P14/actualVC04/P12rehearsal/P13fourdeliveries/lateUI/criticalRestore/companion/ending/all58credits; performance/audio/hardware checks; no publication before criteria pass",
+    "save_files": 26,
+    "remaining": "Genuine exactR3 P12main_and_all_collection_handoffs/P13-P14/actualVC04/P13fourdeliveries/lateUI/criticalRestore/companion/ending/all58credits; performance/audio/hardware checks; no publication before criteria pass",
     "native_session_guard_cases": 6,
     "native_session_guard_status": "PASS_NOT_NATIVE",
     "genuine_new_game_initial_save_files": 0,
-    "latest_native_boundary": "Genuine P11 complete five transfers, full operation, changed supported restore21, all18 practice and actual third win/full scenes; save24; normal Quit engine0/server0",
+    "latest_native_boundary": "P11 complete and three actual wins; P12 all seven gathered, full welcome/backs/diagram/catch/audience/faces, actual repaired default and explicit Open rehearsal routes; save26 apron menu; normal Quit engine0/server0",
     "opening_controls": "OBSERVED_REPLAY_HOLD_NEXT_MOTION_SKIP_AND_CHANGED_HELD_REPLAY_SAVE_RESTORE",
     "latest_process_exit": "GAME_EXIT_ENGINE0_SERVER0",
     "save5_sha256": "3bbacce2f8dc86576fe3e0f684d3ac65c24c91e6f01bc1d7cbf88fa0052d4695",
@@ -400,8 +400,10 @@
     "save13_sha256": "c40da13de9cd406479d0cecc309cf654c91a42aedd776d2331bd4280373caf90",
     "p08_changed_state_restore": "OBSERVED_CHANGED_LAYOUT_RESTORED_FROM_GENUINE_SAVE14",
     "p09_routes_labels_restore": "OBSERVED_RETAINED_TOPIC_BACK_LATER_CHOICE_FULL_CARD_SHORT_AND_LONG_LABELS_NORMAL_RESTORE17",
-    "p11_body_controls": "OBSERVED_RITA_CONSERVATORY_PORCH_BUNNY_KITCHEN_FRANKIE_LIVING_TRAVEL_CHOICES;COURTYARD_JOIN_STILL_PENDING",
+    "p11_body_controls": "OBSERVED_RITA_CONSERVATORY_PORCH_BUNNY_KITCHEN_FRANKIE_LIVING_AND_REPAIRED_FRANKIE_COURTYARD_JOIN",
     "p11_progress": "OBSERVED_COMPLETE_FIVE_TRANSFERS_FULL_GROUP_OPERATION_AND_ACTUAL_VC03_WIN",
-    "p11_supported_restore": "OBSERVED_SET_BACK_CHANGED_STATE_AND_NORMAL_RESTORE21_WITH_USABLE_OPERATION_CONTROLS"
+    "p11_supported_restore": "OBSERVED_SET_BACK_CHANGED_STATE_AND_NORMAL_RESTORE21_WITH_USABLE_OPERATION_CONTROLS",
+    "p12_progress": "OBSERVED_ALL_SEVEN_GATHERED_FULL_WELCOME_AND_READERS;MAIN_INTRO_CONFETTI_CLEANUP_AND_ALL_COLLECTION_HANDOFFS_PENDING",
+    "p12_repaired_apron_routes": "OBSERVED_DEFAULT_RIGHT_CLICK_AND_EXPLICIT_OPEN_ACTUAL_MENU_AND_FULL_REHEARSAL_READER;EXPLICIT_LOOK_VISIBLE_FACES_READER_PRESERVED"
   }
 }

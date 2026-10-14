@@ -711,3 +711,32 @@ top-left). Continue P12 main/repaired rehearsal/all seven handoffs, P13 four
 physical deliveries, fourth contest with critical active-reply restore, P14
 companions, ending and all58credits. Full-game/audio/performance acceptance
 and finished publication remain pending. No intermediate player build.
+
+
+## R3 puzzle 12 gathering and repaired audience menu/rehearsal passed
+
+Fresh genuine save24 restored the completed third contest. The repaired
+Frankie courtyard body control opened the actual Join choice and completed
+the handoff. All seven characters then joined through genuine room travel.
+One follow request was cleared by an intervening Open action under the
+existing non-exit cancellation rule; its attempted arrival is excluded.
+Opening the doorway before the renewed request and using ordinary Enter
+then preserved the complete accompanied route. Captures at old character
+positions and before destinations were reached are excluded. Save25 preserves
+all seven arrivals.
+
+The full welcome, backs, diagram, actual catch release, audience reading and
+visible-faces reader passed. The repaired default right-click opens the real
+three-choice audience menu. Its Rehearse choice displayed the full authored
+audience reader. Explicit Open also opens that menu, while explicit Look
+preserves the visible-faces reader. These R3 route repairs are now natively
+verified. Save26 preserves the audience-side menu. Ordinary Menu/5 Quit
+returned engine0/server0. All26 private genuine R3 saves are hashed under
+source/build/native-sessions; old saves, game source and engine are unchanged.
+
+Next: preserve records/copy INI, fresh exact R3 process, inspect F3 chooser
+and load26 (expected page5 top-right). Return through ordinary controls and
+finish P12 main scene/cleanup/all seven collection handoffs. Then P13 four
+physical cargo deliveries, fourth scored win and critical pending-reply
+restore, P14 companions, ending and all58credits. Full native acceptance,
+auditory/performance checks and finished publication remain pending.

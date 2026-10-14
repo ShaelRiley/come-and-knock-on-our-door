@@ -18,7 +18,10 @@ retained-topic return, later route, full item, labels and normal restore passed.
 Puzzle 11 completed all five physical transfers and the full group operation.
 Its supported save restored after changing the live state, and all six new
 practice exchanges and the third scored win with full final scenes passed.
-Twenty-four genuine test saves remain private. Ordinary Quit ended the
+Puzzle 12 gathered all seven characters; its full welcome/readers and repaired
+audience-side default/Open menu and rehearsal passed. Explicit Look still
+opens the visible-faces reader. Its main scene and collection handoffs remain
+pending. Twenty-six genuine test saves remain private. Ordinary Quit ended the
 engine and task display normally. Contest 4, puzzles 12–14, late regressions,
 ending and all 58 credits remain unaccepted. The preserved R2 run completed
 puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
