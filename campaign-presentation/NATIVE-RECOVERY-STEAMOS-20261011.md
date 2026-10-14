@@ -740,3 +740,30 @@ finish P12 main scene/cleanup/all seven collection handoffs. Then P13 four
 physical cargo deliveries, fourth scored win and critical pending-reply
 restore, P14 companions, ending and all58credits. Full native acceptance,
 auditory/performance checks and finished publication remain pending.
+
+
+## R3 puzzle 12 complete, including all seven collection handoffs
+
+Fresh ordinary restore26 recovered the repaired audience menu. Actual normal
+return, physical rotation, ordinary cue ordering and full eight-card main
+introduction passed. The actual flourish and complete five-card reaction were
+observed; an early capture still showed the prior card, so ordinary Previous
+review supplied the missing second-card observation. The complete four-card
+cleanup, cleared working surface and Begin collection passed.
+
+All seven collection handoffs completed through ordinary requests and actual
+room travel, including the final same-room request. Save29 preserves completed
+P12. One late character-menu capture was still approach motion and is excluded
+from menu evidence; the actual physical arrival confirms its delivered route.
+The Quit-menu capture still showed the prior game frame, but queued M/5 did
+complete normal Quit with engine0/server0. A later input attempt was refused
+by the stopped-session guard and created no screenshot or input. All29 genuine
+R3 saves are privately hashed under the home-directory checkout. No source,
+engine or original R2 save changes.
+
+Next: preserve records/copy INI, fresh exact R3 process, inspect F3 chooser
+and load29 (expected page5 bottom-right). Verify P13 origin paint and ordinary
+handoff admission; perform all four physical cargo deliveries, late readers/
+layering/captions, all24 practice and actual fourth scored win with the critical
+pending-reply restore. Finish P14 companions, ending and all58credits. Native
+full-game/audio/performance acceptance and finished publication remain pending.
