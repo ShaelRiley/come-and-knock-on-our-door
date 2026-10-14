@@ -767,3 +767,35 @@ handoff admission; perform all four physical cargo deliveries, late readers/
 layering/captions, all24 practice and actual fourth scored win with the critical
 pending-reply restore. Finish P14 companions, ending and all58credits. Native
 full-game/audio/performance acceptance and finished publication remain pending.
+
+
+## R3 first physical delivery; R4 caption source repair
+
+R3's handoff first remained disabled until both source-location views were
+actually observed. The unbegun menu save was preserved and excluded. Actual
+Begin produced the carried program. Its full two-card text and three-card
+route scene passed; ordinary Continue/Enter/travel visibly brought Milo
+through the living room to the courtyard. The completed normal menu and
+genuine save32 pin the first physical cargo delivery. Other three cargo
+deliveries, fourth contest/critical restore, P14 and ending58 remain pending.
+A companion's final visual placement remains unconfirmed. Several early
+captures and unfinished queued operations are explicitly excluded. The last
+run hit its bounded lifetime; no normal Quit was claimed for that cutoff.
+
+The old preparation status reappeared on world/room/restore views. A separate
+inline Main.render branch bypassed the earlier stateless-renderer guard. R4
+now guards that actual branch, retaining earlier preparation feedback. All46
+modules compile; four static and20 emitted cases pass; only Main's compiled
+module changed and all eight protected inputs are unchanged. No native R4
+pixels or full gameplay are accepted. Late responsiveness and audio remain
+open: unmuted stereo44100 task-stream metadata was observed, but the bounded
+private capture contained silence and supplies no auditory acceptance.
+
+Before edits, full R3 source/tests/receipt/compiled program and stage were
+copied and checked under source/build/recovery-backups. The original stage
+also survives there; old saves/configs are untouched. Current stage is the
+unaccepted R4 candidate. Do not resume R3 saves against it for acceptance.
+Next: diagnose late responsiveness/active-cue audio, preserve any further
+source fixes, then exactR4 fresh empty-save New Game through all14/fourwins/
+P13fourdeliveries/lateUI/critical fourth-contest restore/companions/ending58.
+No finished publication is authorized by the objective checks.

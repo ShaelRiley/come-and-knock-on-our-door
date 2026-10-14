@@ -6309,7 +6309,9 @@
       "file": "main.sc",
       "method": "render",
       "baseline_sha256": "79e399a166cc43ca82dda66dea13ea8577b33070d61b35769dba28c88b39809f",
-      "candidate_sha256": "f1e7e0987af923489be783a77c18d5f09ce86d84de069088a4f64050ab432062"
+      "candidate_sha256": "a00198b421c04798b5a91ddd65c5c89869aeac6e98ac92ee02772eba9c87fc02",
+      "previous_candidate_sha256": "f1e7e0987af923489be783a77c18d5f09ce86d84de069088a4f64050ab432062",
+      "reason": "RECOVERY-LATE-HEADER-20261014.md: suppress the separate inline preparation status after P13/P14 take ownership; native R3 showed the old caption on world redraws; unchanged story and assets."
     },
     {
       "file": "main.sc",

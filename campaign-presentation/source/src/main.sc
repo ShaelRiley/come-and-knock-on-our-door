@@ -4,6 +4,10 @@
 (script# 0)
 (use "module945")
 (public cakood 0 responsiveSound 1)
+(procedure (preparationCaptionCurrent)
+ ; The legacy inline header is separate from sceneRenderer.renderCaption.
+ ; P13/P14 own the current world status after this preparation has ended.
+ (return (not (or ((ScriptID 995 0) h13Has:) ((ScriptID 996 0) h14Has:)))))
 (local
     [globals 100] = [
         0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -982,6 +986,9 @@ creditReducedMotion 0
             pTos uiPanel
             ldi 0
             eq?
+            bnt L_1165
+            push0
+            call preparationCaptionCurrent, 0
             bnt L_1165
             pushi 8
             lofss "RITA'S PREPARATION COMPLETE."

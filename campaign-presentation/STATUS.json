@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "RESTORE_UI_REPAIR_R3_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_RESTORE_UI_REPAIR_UNACCEPTED_20261013_R3",
+  "status": "LATE_HEADER_R4_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_LATE_HEADER_REPAIR_UNACCEPTED_20261014_R4",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,12 +10,12 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_46_MODULES_RESTORE_UI_REPAIR_R3",
+    "fresh_coherent_compile": "PASS_46_MODULES_LATE_HEADER_REPAIR_R4",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_86_UNCHANGED_ARTIFACTS_AND_6_DECLARED_SCRIPT_CHANGES_FROM_R2",
-    "runtime_behavior": "R3_GENUINE_P01_P12_AND_ACTUAL_VC01_VC02_VC03_WINS;REPAIRED_APRON_REHEARSAL_ROUTES_AND_SCOPED_RESTORES;COMPLETE_GAME_UNVERIFIED",
+    "static_artifact_comparison": "PASS_ONLY_MAIN_COMPILED_MODULE_CHANGED_FROM_FROZEN_R3_8_PROTECTED_INPUTS_UNCHANGED",
+    "runtime_behavior": "R4_NATIVE_UNPERFORMED;HISTORICAL_R3_P01_P12_THREE_WINS_AND_FIRST_P13_CARGO_ONLY",
     "fresh_static_staging": "PASS_1759_GAME_FILES_254_TYPED_RESOURCES_4_PLAYER_DOCUMENTS_8_RIGHTS_FILES",
-    "bounded_static_source_and_assets": "PASS_4_R3_STATIC_CASES",
+    "bounded_static_source_and_assets": "PASS_4_R4_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
     "static_staging": "PASS_INDEPENDENT_1759_FILES_254_TYPED_4_DOCUMENTS_8_RIGHTS",
     "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
@@ -55,7 +55,7 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e",
+  "compiled_receipt_sha256": "ee8306b9d094b05bece540faf2c8fa774a53eea97059721e9f6146c27b459ee4",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
@@ -171,9 +171,9 @@
       "applies_to_current_candidate": false
     }
   ],
-  "current_fix_report": "source/RECOVERY-RESTORE-UI-FIX-20261013.md",
+  "current_fix_report": "source/RECOVERY-LATE-HEADER-20261014.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "R3_P13_P14_ACTUAL_VC04_P13_FOUR_DELIVERIES_LATE_UI_CRITICAL_RESTORE_COMPANION_ENDING58_AND_AUDIO_PERFORMANCE_ACCEPTANCE_PENDING;NO_RELEASE",
+  "current_blocker": "R4_FULL_NATIVE_ACCEPTANCE_UNPERFORMED;LATE_RESPONSIVENESS_AND_AUDIO_UNRESOLVED;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -384,16 +384,16 @@
       2,
       3
     ],
-    "save_files": 29,
+    "save_files": 32,
     "remaining": "Genuine exactR3 P13-P14/actualVC04/P13fourdeliveries/lateUI/criticalRestore/companion/ending/all58credits; performance/audio/hardware checks; no publication before criteria pass",
     "native_session_guard_cases": 6,
     "native_session_guard_status": "PASS_NOT_NATIVE",
     "genuine_new_game_initial_save_files": 0,
-    "latest_native_boundary": "P12 complete all7gather, full welcome/main8/moment5/cleanup4, all7 physical collection handoffs and repaired audience rehearsal/default/Open/Look; genuine save29; normal Quit engine0/server0",
+    "latest_native_boundary": "R3 P01-P12/three actual wins; P13 actual handoff/full program and route scene/first physical delivery; genuineSave32; latest bounded process LIFETIME_LIMIT engine-15/server0",
     "opening_controls": "OBSERVED_REPLAY_HOLD_NEXT_MOTION_SKIP_AND_CHANGED_HELD_REPLAY_SAVE_RESTORE",
-    "latest_process_exit": "GAME_EXIT_ENGINE0_SERVER0",
+    "latest_process_exit": "LIFETIME_LIMIT_ENGINE_MINUS15_SERVER0",
     "save5_sha256": "3bbacce2f8dc86576fe3e0f684d3ac65c24c91e6f01bc1d7cbf88fa0052d4695",
-    "audio": "MUSIC_NOT_TOGGLED_OFF;_TASK_STREAM_UNMUTED_UNCORKED_S16LE_2CH_44100HZ;NO_SUBJECTIVE_LISTENING_CLAIM",
+    "audio": "CONFIGURATION_AND_TASK_STREAM_VERIFIED;PRIVATE_CAPTURE_SILENT_PCM;ACTIVE_CUE_AND_SUBJECTIVE_ACCEPTANCE_UNPERFORMED",
     "fresh_process_restore": "OBSERVED_GENUINE_P04_SAVE5_P05_SAVE9_AND_P07_SAVE13_FROM_NORMAL_CHOOSERS",
     "mid_contest_restore": "OBSERVED_CHANGED_PENDING_DRAWER_TO_ORIGINAL_ECHO_AND_BOTH_3_OF_3_COUNTERS",
     "save9_sha256": "85f9f85d7622dbed3f7256226d3b6d225f12acee76ffbb877784054cd89b12e8",
@@ -406,6 +406,27 @@
     "p11_supported_restore": "OBSERVED_SET_BACK_CHANGED_STATE_AND_NORMAL_RESTORE21_WITH_USABLE_OPERATION_CONTROLS",
     "p12_progress": "OBSERVED_COMPLETE_ALL_SEVEN_GATHER_FULL_WELCOME_MAIN8_CONFETTI_MOMENT5_CLEANUP4_AND_ALL_SEVEN_COLLECTION_HANDOFFS",
     "p12_repaired_apron_routes": "OBSERVED_DEFAULT_RIGHT_CLICK_AND_EXPLICIT_OPEN_ACTUAL_MENU_AND_FULL_REHEARSAL_READER;EXPLICIT_LOOK_VISIBLE_FACES_READER_PRESERVED",
-    "p12_apron_restore": "OBSERVED_FRESH_PROCESS_NORMAL_RESTORE26_OF_REPAIRED_AUDIENCE_MENU"
+    "p12_apron_restore": "OBSERVED_FRESH_PROCESS_NORMAL_RESTORE26_OF_REPAIRED_AUDIENCE_MENU",
+    "p13_progress": "OBSERVED_FIRST_PHYSICAL_PROGRAM_DELIVERY_ONLY;OTHER_THREE_PENDING",
+    "caption_repair": "NATIVE_FAILED_SEPARATE_MAIN_INLINE_PREPARATION_BRANCH;R4_SOURCE_FIX_EMITTED_PASS_NOT_NATIVE"
+  },
+  "late_header_candidate_20261014": {
+    "status": "PASS_OBJECTIVE_NOT_NATIVE",
+    "native_acceptance": false,
+    "compile_receipt_sha256": "ee8306b9d094b05bece540faf2c8fa774a53eea97059721e9f6146c27b459ee4",
+    "staged_game_file_map_sha256": "1b705e851338597ba4ea3b5b811db90d12352379f5d232f3740eb09162e82017",
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_LATE_HEADER_REPAIR_UNACCEPTED_20261014_R4",
+    "compiled_modules": 46,
+    "changed_script_modules": [
+      0
+    ],
+    "protected_inputs_unchanged": 8,
+    "static_cases": 4,
+    "emitted_cases": 20,
+    "native_full_game": "UNPERFORMED_NEW_EMPTY_SAVE_PATH_REQUIRED",
+    "remaining": "Investigate late responsiveness and active-cue audio; genuine exactR4 NewGame all14/fourwins/P13fourcargo/lateUI/criticalVC04Restore/companions/ending/all58credits before publication",
+    "source_report": "source/RECOVERY-LATE-HEADER-20261014.md",
+    "native_session_guard_cases": 6,
+    "native_session_guard_status": "PASS_NOT_NATIVE"
   }
 }

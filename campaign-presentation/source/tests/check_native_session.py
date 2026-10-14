@@ -43,9 +43,9 @@ class NativeSessionChecks(unittest.TestCase):
         result = native.verify_game()
         self.assertEqual(result["game_files"], 1759)
         self.assertFalse(result["native_acceptance"])
-        # Frozen R3 stage, independently recorded after the six script repairs.
+        # Frozen R4 stage, independently recorded after the inline header repair.
         self.assertEqual(result["game_file_map_sha256"],
-                         "b2bb570177de2917183d695b5d923441dc51a191bef634dc47836d1e15ebd74e")
+                         "1b705e851338597ba4ea3b5b811db90d12352379f5d232f3740eb09162e82017")
 
     def test_forged_stage_map_is_rejected(self):
         source = self.root / "campaign/source"

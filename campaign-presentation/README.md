@@ -1,38 +1,26 @@
-# Come and Knock on Our Door: reconstructed candidate, native acceptance pending
+# Come and Knock on Our Door: candidate, native acceptance pending
 
-The October 13 R3 candidate repairs the reproduced active-contest restore
-failure, the audience-side menu route, late dialogue availability, relocated
-actor controls and scene layering/captions. See
-source/RECOVERY-RESTORE-UI-FIX-20261013.md. All 46 modules compile; four bounded
-static checks and 17 emitted presentation/interface regressions pass.
-All eight protected inputs, approved dialogue, art, music, laughs, character
-poses, ending and credits are preserved. These objective checks are
-supplementary evidence, not native full-game acceptance.
+The October 14 R4 candidate repairs the actual Main world-header branch missed
+by the preceding caption fix. See source/RECOVERY-LATE-HEADER-20261014.md. All 46
+modules compile; four static and 20 emitted regressions pass. Only Main's
+compiled module changed against R3. The eight protected inputs and approved
+script, art, music, laughs, characters, ending and credits are preserved.
+These checks are supplementary evidence and do not establish native acceptance.
 
-This changed candidate requires a genuine New Game in a separate empty Save
-Path. The genuine R3 run has now completed the automatic opening, puzzles
-1–12 and three actual scored contest wins. Opening replay, Hold/Next/motion/Skip,
-held-opening save/restore and changed pending contest replies/scores passed.
-Puzzle 8's changed layout restored through the ordinary chooser. Puzzle 9's
-retained-topic return, later route, full item, labels and normal restore passed.
-Puzzle 11 completed all five physical transfers and the full group operation.
-Its supported save restored after changing the live state, and all six new
-practice exchanges and the third scored win with full final scenes passed.
-Puzzle 12 gathered all seven characters; its full welcome/readers and repaired
-audience-side default/Open menu and rehearsal passed. Explicit Look still
-opens the visible-faces reader. Its full eight-card main scene, five-card reaction, four-card cleanup and
-all seven physical collection handoffs passed. The audience-menu save also
-restored in a fresh process. Twenty-nine genuine test saves remain private. Ordinary Quit ended the
-engine and task display normally. Contest 4, puzzles 13–14, late regressions,
-ending and all 58 credits remain unaccepted. The preserved R2 run completed
-puzzles 1–11, three actual contest wins, puzzle 12's main welcome/cleanup and
-all seven collection handoffs, all four physical puzzle 13 deliveries, the
-full five-card presentation and all 24 practice exchanges. Its first scored
-round of contest four passed, but restoring the pending second reply failed
-with UI error 10. No fourth win, puzzle 14, ending or credits were accepted.
-All 37 original R2 saves, source and stage remain recoverable. R2 observations
-do not accept R3. Late performance and subjective listening remain open.
-No completed player release is published.
+R3 genuinely completed puzzles 1–12, three actual scored wins and the first
+physical puzzle 13 cargo delivery. Its opening/menu and several changed-state
+restores, repaired audience rehearsal and all seven collection handoffs passed.
+Thirty-two genuine R3 test saves remain private. The other three cargo
+deliveries, fourth win/critical restore, puzzle 14, ending and all 58 credits were
+not accepted. R3 source, compiled scripts/receipt and complete stage remain
+recoverable under the home-directory checkout. R2's 37 original saves also
+remain preserved; historical observations do not accept a changed candidate.
+
+R4 requires its own empty Save Path and genuine fresh New Game through all 14
+puzzles, four scored wins, late controls/restores/companions, ending and all 58
+credits. Late responsiveness and active-cue/subjective audio checks remain
+open. A captured interval contained silent PCM and is not a listening pass.
+No finished player release or intermediate player build is offered.
 
 The following recovery observations apply to the preserved preceding build.
 Recovery after the SteamOS restart preserved local checkpoint `9f06852`, the
