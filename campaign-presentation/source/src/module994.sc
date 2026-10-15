@@ -1276,8 +1276,11 @@
    (Display (self h12WordLabel: (self p12VisibleWord: i)) 100 (+ 170 (* i 44)) 47 102 2 105 0 106 43 121))
  else (Display "DECORATIVE BACKS" 100 171 41 102 2 105 0 106 128 121)
   (Display "ARROWS: CLOCKWISE" 100 171 52 102 2 105 0 106 128 121))
+ ; The approved apron paper already contains its old audience caption.
+ (if (h onApron?) (Graph 11 131 166 144 278 1 10 0 0))
  (h uiFrame: 128 166 142 304 2)
- (Display (self h12Label: (if (h onApron?) 419 else 420)) 100 170 131 102 2 105 0 106 130 121)
+ ; Match the unchanged control's reveal/focus label origin.
+ (Display (self h12Label: (if (h onApron?) 419 else 420)) 100 168 130 102 2 105 0 106 130 121)
  ; Physical projection is captured only after the actual draw completes.
  (= [h12Paint 0] 1) (= [h12Paint 1] p12Epoch)
  (= [h12Paint 2] (h onApron?)) (= [h12Paint 3] (self p12Present: 3))

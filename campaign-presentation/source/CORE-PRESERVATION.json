@@ -1374,7 +1374,6 @@
     },
     "module991.sc": {
       "navNoticeRender": "acd11c2dc676c099649954647567555c61f654eccccd70fb041dd25559411d46",
-      "h6BaseDrawWorld": "f86d154bcc4be845e7a09fd17593d272ca0373a44df24acca5d3544656962f77",
       "roomTitle": "b58b4bb9e68d90b0cab29a0a653b9f335ccec47362b94573e9f262de274063cf",
       "blockPerson": "b86aed7ea3464be90628e85e945e24b7be38c15ef9044b2a533f789ab3351dde",
       "drawJack": "08b5dc491ed207a109c4de6411725a8eeb7e6786875aa15ae0690d576a3aa199",
@@ -1722,7 +1721,6 @@
       "h12Label": "409236b3c8a2b717731b614c560d74f8675de1a21d915f58e40be031bde5203e",
       "h12Reachable": "e0675e719137f838eb31d7151f177768d40872e5cad7d3ddea5cc5d37e89fd6b",
       "h12Controls": "0da139630ff4126a870e06c33c846b47ad60244e929a5bfd491cf8ea6b9468b2",
-      "h12Draw": "46c0896a60e935757465bda7214bcb53e40e0e8f1374efa2b59427c15cdabe2c",
       "h12PaintMatch": "7d07b1de9323a39174424695a3b2e955bfe2c486b4115ab57482214f74e025c4",
       "h12Retire": "c1923a9baf3efd7fe811250e0c1d95f99a0b81df6bb23b5688d763aa2a0500cb",
       "h12Menu": "ba7582cb0ab3312ad4762b29b563bbd22d34c23495ff14b5ab2d30f02d4c9022",
@@ -6478,10 +6476,17 @@
       "file": "main.sc",
       "method": "uiHostShortLabel",
       "baseline_sha256": "3aec47d7e8c54f32d397cda92a0de9a3869c5fdf1d694e60f0958908fe7cbdff",
-      "candidate_sha256": "55c2a1f131228349ac1135e4629fb4999f2ca3a10aee963107ab147b6e9d65f5",
-      "reason": "RECOVERY-UI-FIX-20261012.md: retain previous sample labels and add compact TERMS label for card 399.",
+      "candidate_sha256": "c0d7cd869a299c5af12a173cfa1557878108a22a53fd49e1ec686f8ce5e56b3a",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: retain the existing compact PENCL and TERMS labels when the ending takes custody of the original items. Full item labels, dense inventory, ownership, progression, save/restore and strict UI error9 validation remain unchanged; exact-candidate native acceptance is separate.",
       "previous_candidate_sha256": "c2552cb34dfbf05c8499f14942a7ef532ccbdd93950f8d5736a6d5a0c088bfe0",
-      "previous_reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes."
+      "previous_reason": "PRESENTATION-LABEL-FIX.md: use existing T1/T2/T3 identities before the evening cue owner activates; no ownership or progression changes.",
+      "review_history": [
+        {
+          "candidate_sha256": "55c2a1f131228349ac1135e4629fb4999f2ca3a10aee963107ab147b6e9d65f5",
+          "checkpoint_commit": "85afaf8e869d01d8801575cb6a801aa4bd69c271",
+          "reason": "RECOVERY-UI-FIX-20261012.md: retain previous sample labels and add compact TERMS label for card 399."
+        }
+      ]
     },
     {
       "file": "main.sc",
@@ -6804,6 +6809,22 @@
       "baseline_sha256": "20fa3b15456d161162d3478621581953dde6e30341f189f28722cd597a235d2a",
       "candidate_sha256": "4b36d01f7349fdfd2d59c0580b2501243377d1d015cac9fb332aadeae01b0b8f",
       "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+    },
+    {
+      "file": "module991.sc",
+      "method": "h6BaseDrawWorld",
+      "baseline_sha256": "f86d154bcc4be845e7a09fd17593d272ca0373a44df24acca5d3544656962f77",
+      "baseline_commit": "85afaf8e869d01d8801575cb6a801aa4bd69c271",
+      "candidate_sha256": "00765d55fe2ea1d556e2411ea2e1552341588ac91b19b47c48f2c6596fa5e8fa",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: remove only the redundant runtime RETURN label over the approved baked apron return label. Preserve the authored artwork, current-room overlay, all controls/hit rectangles, audio and gameplay behavior; native presentation acceptance remains separate."
+    },
+    {
+      "file": "module994.sc",
+      "method": "h12Draw",
+      "baseline_sha256": "46c0896a60e935757465bda7214bcb53e40e0e8f1374efa2b59427c15cdabe2c",
+      "baseline_commit": "85afaf8e869d01d8801575cb6a801aa4bd69c271",
+      "candidate_sha256": "240f6b6eeaee440cc66e9574381660c2bb605004d8b3455b7604d2a9720c42f0",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: restore only the old baked audience-caption paper with its existing background color before the swivel label, and align static swivel/rotate text with the unchanged focus/reveal label origin. Preserve all art resources, script strings, control rectangles, ownership/admission guards and physical paint-witness publication; exact-candidate native acceptance remains separate."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."

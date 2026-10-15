@@ -1537,19 +1537,6 @@
             pushi 137
             pushi 121
             callk Display, 22
-            pushi 11
-            lofss "RETURN"
-            pushi 100
-            pushi 15
-            pushi 121
-            pushi 102
-            push2
-            pushi 105
-            push0
-            pushi 106
-            pushi 70
-            pushi 121
-            callk Display, 22
             jmp L_3f96
             L_3db5: sat 0
             pushi 124

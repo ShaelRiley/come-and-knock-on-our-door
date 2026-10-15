@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Emitted P14 handoff checks with explicit completed-ancestor fixtures.
 
-Acquire, context, matching, domain validation, original-item checks and history
-copy/validation execute the compiled methods. Earlier campaign facts, original
-ownership, actor rooms and contest provenance are fixture inputs. This is not
-native gameplay, save, presentation, audio or campaign acceptance.
+Acquire, its first rendered interface, context, matching, domain validation,
+original-item checks and history copy/validation execute the compiled methods.
+Earlier campaign facts, original ownership, actor rooms and contest provenance
+are fixture inputs. This is not native gameplay, save, presentation, audio or
+campaign acceptance.
 """
 import argparse
 import json
 
-from presentation_vm import PresentationVM
+from presentation_vm import PresentationVM, base
 
 
 class HandoffFixture(PresentationVM):
@@ -115,8 +116,52 @@ def rejected_case(label, mutate, build=None, tone=0):
     return label
 
 
+def rendered_handoff_case(build=None):
+    v = HandoffFixture(0, build)
+    # The complete emitted renderer and its repeated strict owner checks need
+    # more instructions than the smaller domain-only cases. Keep a finite cap.
+    v.budget = 20000000
+    p = v.instance(996)
+    inventory = list(v.arrays(0)['uiItems'])
+    extent = v.h.p['uiInventoryExtent']
+    assert v.acquire() == 1
+    committed = v.committed()
+    # Match native ordering: Acquire is followed by uiRender, which builds the
+    # real controls. Do not stub labels, controls, renderer or TextSize, and do
+    # not pre-build a second control frame before rendering this one.
+    v.call(v.h, 'uiRender')
+    assert v.h.p['uiFailure'] == 0, 'First P14 world frame must fit the interface'
+    arrays = v.arrays(0)
+    controls = {arrays['uiPayloads'][i]: base.read_string(arrays['uiLabels'][i])
+                for i in range(v.h.p['uiControlCount'])
+                if arrays['uiActions'][i] == 3}
+    for obj, short, full in (
+        (25, 'PENCL', 'Original grease pencil'),
+        (399, 'TERMS', 'Original renewal and repair card'),
+    ):
+        assert controls[obj] == short, 'Inventory control must keep its compact label'
+        assert base.read_string(v.call(v.h, 'uiHostShortLabel', (obj,))) == short
+        assert base.read_string(v.call(v.h, 'uiHostItemLabel', (obj,))) == full
+        assert v.call(p, 'h14Owns', (obj,)) == 1
+        assert v.call(p, 'h14Held', (obj,)) == 1
+        assert v.call(p, 'h14Location', (obj,)) == 10
+    # Promise cards are opened through the board menu. Acquire must not invent
+    # dense inventory cells for them or disturb either original's existing cell.
+    assert list(arrays['uiItems']) == inventory
+    assert v.h.p['uiInventoryExtent'] == extent
+    assert not set(range(435, 443)).intersection(inventory)
+    assert v.call(p, 'p14Validate') == v.call(p, 'h14Valid') == 1
+    assert v.call(p, 'h14Match') == 1
+    assert v.committed() == committed
+    assert v.call(p, 'h14Save') == 1, 'Valid post-acquisition state must remain saveable'
+    assert v.call(p, 'p14Validate') == v.call(p, 'h14Valid') == 1
+    assert v.committed() == committed, 'Rendering/save preparation must not commit progress'
+    return 'actual Acquire then first uiRender preserves compact originals, full names, ownership and save gate'
+
+
 def run(build=None):
     cases = [valid_tone_case(tone, build) for tone in (0, 1, 2, 3)]
+    cases.append(rendered_handoff_case(build))
     for raw in (-1, 4):
         cases.append(rejected_case('nonzero invalid tone' + str(raw) + ' rejected',
                                    lambda v: None, build, tone=raw))
@@ -160,7 +205,7 @@ def run(build=None):
         assert v.committed() == before
         cases.append(label + ' still rejects Match')
     return {'status': 'PASS_NOT_NATIVE', 'case_count': len(cases), 'cases': cases,
-            'scope': 'Actual emitted P14 Acquire/Ctx/Match, start/domain, item/date/win context and history checks; completed-ancestor and host-ownership fixture inputs explicit',
+            'scope': 'Actual emitted P14 Acquire/first uiRender/Ctx/Match, inventory labels, ownership/save gate, start/domain, item/date/win context and history checks; completed-ancestor and host-ownership fixture inputs explicit',
             'limits': 'No native saves, input, pixels, audio, dates typed through UI, campaign progression or acceptance',
             'native_acceptance': False}
 

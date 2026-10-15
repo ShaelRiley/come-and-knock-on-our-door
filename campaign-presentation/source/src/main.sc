@@ -2875,7 +2875,11 @@ creditReducedMotion 0
 
     ; Delivered offset0x27d2; 88 original instructions
     (method (uiHostShortLabel arg1)
-(if ((ScriptID 996 0) h14Owns: arg1) (return ((ScriptID 996 0) h14Label: arg1)))
+(if ((ScriptID 996 0) h14Owns: arg1)
+ ; The ending's originals retain their compact inventory labels.
+ (if (== arg1 25) (return "PENCL"))
+ (if (== arg1 399) (return "TERMS"))
+ (return ((ScriptID 996 0) h14Label: arg1)))
 
 (if (and ((ScriptID 995 0) h13Has:) (or (>= ((ScriptID 995 0) h13Index: arg1) 0) (== arg1 432) (== arg1 433) (== arg1 434) (== arg1 92) (== arg1 42) (== arg1 72) (== arg1 410))) (return ((ScriptID 995 0) h13Label: arg1)))
 

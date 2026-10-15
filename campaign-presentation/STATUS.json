@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "FINAL_HANDOFF_LAYOUT_R7_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_FINAL_HANDOFF_LAYOUT_UNACCEPTED_20261015_R7",
+  "status": "P14_INVENTORY_APRON_R8_COMPILED_STAGED_OBJECTIVE_PASS_NATIVE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,14 +10,14 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_FRESH_R7_46_MODULES",
-    "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_COMPILED0_991_995_996_CHANGED_FROM_R6_ALL_OTHER_MODULES_AND_1757_AUDIO_FILES_IDENTICAL",
-    "runtime_behavior": "R7_NATIVE_PENDING",
-    "fresh_static_staging": "PASS_R7_1759_EXACT_GAME_FILES",
-    "bounded_static_source_and_assets": "PASS_R7_4_STATIC_CASES",
+    "fresh_coherent_compile": "PASS_FRESH_R8_46_MODULES",
+    "protected_core_and_inventory": "PASS_R8_BUILD_IDENTITY_CHECKS",
+    "static_artifact_comparison": "R8_COMPILED_FULL_RUNTIME_COMPARISON_NOT_RECORDED_HERE",
+    "runtime_behavior": "R8_NATIVE_UNRUN",
+    "fresh_static_staging": "PASS_R8_1759_EXACT_GAME_FILES",
+    "bounded_static_source_and_assets": "PASS_R8_4_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
-    "static_staging": "PASS_R7_EXACT_1759_FILE_MAP",
+    "static_staging": "PASS_R8_EXACT_1759_FILE_MAP",
     "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
     "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
     "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
@@ -26,15 +26,16 @@
     "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
     "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE",
     "paint_scope_emitted": "PASS_R6_13_SCOPE_AND_43_PUBLICATION_WITH_EXPLICIT_FIXTURES_NOT_NATIVE",
-    "portable_emitted_total": "PASS_R7_24_EMITTED_INVOCATIONS_INCLUDING_23_HANDOFF_11_DATE_CASES_NOT_NATIVE",
-    "final_handoff": "PASS_23_EMITTED_HANDOFF_AND_11_DATE_CASES_NOT_NATIVE"
+    "portable_emitted_total": "PASS_R8_25_EMITTED_INVOCATIONS_INCLUDING24_HANDOFF_AND13_APRON_CASES_NOT_NATIVE",
+    "final_handoff": "PASS_R8_24_EMITTED_HANDOFF_POST_ACQUIRE_UI_AND13_APRON_CASES_NOT_NATIVE"
   },
   "unperformed": [
-    "Complete genuine New Game on this changed candidate through all 14 puzzles, four actual contest wins, P13 four physical deliveries, ending and all 58 credits",
-    "Native P13/P14 regression: body hit priority, guest-program visibility, reading availability, PLEDGES layout and late response time",
-    "Critical late save/restore and ending controls on this candidate",
+    "Complete genuine New Game on exact R8 through all14 puzzles, four actual contest wins, all four P13 physical deliveries, ending and all58 credits",
+    "Native R8 regression of post-acquisition inventory/world/menu/restore and audience-apron RETURN/readiness captions",
+    "Critical fourth-contest changed-state/fresh-process restore and late controls on R8",
     "Subjective listening and acoustic quality assessment",
-    "Steam Deck hardware testing"
+    "Physical Steam Deck button/axis and Gaming Mode testing; isolated mouse/keyboard and per-process joystick configuration are distinct evidence",
+    "PhaseC promotion, clean standalone-package launch/save/load/audio/exit, finished GitHub publication and independent asset verification"
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
@@ -58,12 +59,12 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "d34724eb7a03aa8d613ad5bd5cd410bb1f69b140566ba0ae0e1c1383ca9332be",
+  "compiled_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
-  "save_compatibility": "R7_REQUIRES_NEW_EMPTY_SAVE_PATH;R6_BUILD_AND_SAVES_PRESERVED_SEPARATELY",
+  "save_compatibility": "R8_REQUIRES_NEW_EMPTY_SAVE_PATH;R7_BUILD_AND_SAVES_PRESERVED_SEPARATELY",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
@@ -192,23 +193,34 @@
       "source_cause": "R2 handler accepts Walk, but generic host Walk omits the object before arrival dispatch; right-click default Look opens the direct reader.",
       "limits": "P13/P14, VC04, all four deliveries, complete late UI, ending/58credits and subjective listening remain unaccepted. Predecessor actor control positioning needs review. No release.",
       "applies_to_current_candidate": false
+    },
+    {
+      "date": "2026-10-15",
+      "candidate_commit": "e2de3e29f884ff02e137a3f11208a1bd48d3e4cc",
+      "candidate_compile_receipt_sha256": "d34724eb7a03aa8d613ad5bd5cd410bb1f69b140566ba0ae0e1c1383ca9332be",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_FINAL_HANDOFF_LAYOUT_UNACCEPTED_20261015_R7",
+      "observed": "Genuine R7 New Game completed P01-P13, all four actual scored wins and all four physical P13 deliveries. Fourth-contest round2 pending-reply changed-live-state ordinary restore and fresh-process restore passed before normal winning continuation. Objective whole-cue R7 voice, eligible laughter and representative Foley playback were confirmed; subjective listening was unavailable.",
+      "blocker": "P14 Begin acquired ownership but inventory full labels for original pencil/terms overflowed32-pixel slots and set interface error9, preventing subsequent controls. P14 completion, ending/applause and all58 credits remain unaccepted.",
+      "preservation": "Exact R7 source/runtime, saves and private evidence preserved; task runtime stopped with engine exit0. No complete-game or finished-release acceptance.",
+      "correction": "R8 three-method inventory/apron label correction; current compilation/native regression pending.",
+      "applies_to_current_candidate": false
     }
   ],
-  "current_fix_report": "source/RECOVERY-LATE-HEADER-20261014.md",
-  "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
-  "current_blocker": "R6_NATIVE_RESPONSE_AND_COMPLETE_NEW_GAME_ACCEPTANCE_PENDING;NO_RELEASE",
+  "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
+  "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
+  "current_blocker": "R8_GENUINE_COMPLETE_NATIVE_NEW_GAME_LINEAGE_AND_FINISHED_PACKAGE_DELIVERY_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
   "native_session_preparation": {
     "report": "NATIVE-SESSION-20261011.md",
     "launcher": "source/native_session.py",
-    "exact_staged_game_files": "PASS_R6_1759_EXACT_FILES",
-    "launcher_guard_checks": "PASS_R6_6_FIXTURE_GUARD_CHECKS_NOT_NATIVE",
-    "native_runtime_launched": true,
+    "exact_staged_game_files": "PASS_R8_1759_EXACT_FILES",
+    "launcher_guard_checks": "PASS_R8_6_FIXTURE_GUARD_CHECKS_NOT_NATIVE",
+    "native_runtime_launched": false,
     "native_acceptance": false,
-    "environment": "Installed stock ScummVM2026.3.0 with SCI and FluidSynth; task-only bounded display/input and exact SoundFont verified for preserved R5",
-    "required_next_step": "Complete current genuine fresh R6 New Game lineage; verify late response and all remaining acceptance before promotion"
+    "environment": "Installed stock ScummVM2026.3.0 SCI/FluidSynth and task-only bounded display/input verified on preserved R7; R8 runtime not yet launched",
+    "required_next_step": "Establish separate exact-R8 empty-save genuine New Game lineage and complete remaining full-game acceptance before promotion/package smoke/publication"
   },
   "steamos_native_recovery": {
     "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -532,5 +544,52 @@
     "staged_game_file_map_sha256": "e2e7171c18318fd5b09c675f0dfaf0cd0554e2c935e7d66caabb2fe9a447f72e",
     "stage_manifest_sha256": "64005c695b8d6f7df323eac4abc9e2a7f69b14c528947cfd2f8dfcf9866ddb61",
     "publication_repair": "Idle canonical phase1 lease1/mask0/work0 guard follows unchanged input/wrong-frame work; all active actor/cargo/pickup publication retains original strict checks. Close strict Valid dominance retains independent Baseline fallback on failure."
+  },
+  "p14_inventory_apron_candidate_20261015": {
+    "status": "PASS_FRESH_COMPILE_STAGE_STATIC_EMITTED_LAUNCHER_GUARDS_NATIVE_PENDING",
+    "native_acceptance": false,
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
+    "changed_runtime_modules_from_r7": [
+      0,
+      991,
+      994
+    ],
+    "scope": "Compact inventory labels only for original pencil/terms; remove duplicate apron RETURN caption; align and clear P12 reading caption underlay without changing its control.",
+    "compile_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
+    "staged_game_file_map_sha256": "a2cba5a6cfc31d7b620160cfac5a7b7c9981024fa510be6081b88fddc23b6e83",
+    "native_full_game": "UNPERFORMED_EXACT_R8_NEW_GAME_REQUIRED",
+    "historical_r7_puzzles_completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "historical_r7_actual_contest_wins": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "historical_r7_physical_deliveries": 4,
+    "historical_r7_vc04_critical_restores": "OBSERVED_CHANGED_STATE_ORDINARY_AND_FRESH_PROCESS;APPLIES_ONLY_TO_UNCHANGED_R7_RUNTIME",
+    "source_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
+    "stage_manifest_sha256": "a81af523640cf7072bdd354cb851bdc4f743d74b79184d3efc28d62199d23ca0",
+    "compiled_modules": 46,
+    "staged_game_files": 1759,
+    "focused_handoff_cases": 24,
+    "focused_apron_cases": 13,
+    "static_cases": 4,
+    "remaining_emitted_gates": "PASS_23_REMAINING_EMITTED_PROCESSES_ZERO_TIMEOUTS",
+    "emitted_invocations": 25,
+    "launcher_guard_cases": 6
   }
 }

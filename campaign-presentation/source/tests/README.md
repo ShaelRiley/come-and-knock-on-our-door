@@ -93,3 +93,10 @@ Final handoff/date/layout regressions for R7:
     python tests/check_late_ui.py caption_layout
 
 The23 handoff cases retain actual Acquire/Ctx/Match and domain/history validation with explicitly modeled completed ancestors. The11 modal cases retain Main’s final composition and strict End/publication gate. Layout checks measure the bundled font, all four statuses/eight portion cels, exit/board hits and preserved travel-lane clearance. These are emitted fixtures, never native gameplay, saves, pixels, audio or acceptance.
+
+R8 final-inventory and apron regressions:
+
+    python tests/check_p14_tone_handoff.py
+    python tests/check_apron_labels.py
+
+The handoff suite includes actual Acquire followed by the first emitted inventory render with both retained originals. The13 apron cases execute drawing/control/font/hit paths against unchanged approved artwork and reject inactive/wrong-room/successor publication. Ancestor admission remains an explicit fixture; these checks do not establish native progression, pixels, sound, saves, or acceptance.
