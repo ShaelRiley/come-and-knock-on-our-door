@@ -153,11 +153,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "f0da3cc361da3d5130d6bc8496c8b71182d9536c7ff085c84d67367d9751ef0c"
+      "sha256": "c19094f314e74e8315055ed889cbe833d09a05e04b85d59d22ca8f47141a7a64"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "e2ecbbf0e07e50590eb195f874d4d70cb4cf0f65ebff1c4e377d7de53ef9e72e"
+      "sha256": "a0a2c7f693a1a442ae34ab82dd0be6399ecea9ce08bf2ec0ce23e90a0805f357"
     },
     {
       "path": "CREDITS.txt",
@@ -349,7 +349,7 @@
     },
     {
       "path": "src/main.sc",
-      "sha256": "8c169c015d50427fc8108fd2faa12dd57b8ec17b0a5df80664ffc6ea90fa6f32"
+      "sha256": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5"
     },
     {
       "path": "src/module941.sc",
@@ -509,7 +509,7 @@
     },
     {
       "path": "src/module994.sc",
-      "sha256": "e2e944c625fae3c82e69e0d47e1a6228fffb1aad7c910b6424c2ba0f2ba93d45"
+      "sha256": "69be3d466aea87db185df1d9978d66122311c0296d8ffc6072b58e89cf9302fc"
     },
     {
       "path": "src/module995.sc",
@@ -561,7 +561,7 @@
     },
     {
       "path": "RECOVERY-FINAL-HANDOFF-20261015.md",
-      "sha256": "4627c8628a9046a15b8a8d5ab9c62ea0415e2745efa3faa3772172df3bf82418"
+      "sha256": "bcdee90b612093591b7f99c04dbcd005667a8e4544530e5fccf18af7bee5b89d"
     },
     {
       "path": "tests/check_apron_labels.py",
@@ -569,19 +569,50 @@
     },
     {
       "path": "tests/check_native_session.py",
-      "sha256": "c4f16dcd061ec54708c549d0f267a328b41609cb455b535a2378157a467613e6"
+      "sha256": "393c9077552e9ea9d23033ff4a433310cf8e87edf6b9f7f2c73cf1de044611a2"
+    },
+    {
+      "path": "tests/check_p11_group_approach.py",
+      "sha256": "212fbedf0086a71025936bda57aa72a83a5ff3cb577c43e0c63864e39a6544b5"
+    },
+    {
+      "path": "tests/check_p11_payoff_entry.py",
+      "sha256": "e13d760f26a7fc7b009178829bb441b4db5878a54141a10918fc5581839ce2ed"
+    },
+    {
+      "path": "tests/p11_payoff_fixture.py",
+      "sha256": "888470b84ed659752487b6e79cef1ed7ef0ba682000ead3d45fbd173901fcd9f"
+    },
+    {
+      "path": "tests/p11_fold_fixture.py",
+      "sha256": "e62e1b9ffb2fe7732312c3f61c4d3b0eedab9901cfaa0e6f0b12f1bbcca1a9f0"
+    },
+    {
+      "path": "tests/fixtures/P11-R8-REPAIR-REFERENCE.json",
+      "sha256": "7a256538a3cfa623fc46d3a3a4aec50181844437a0ea169c10dd2111e54779e7"
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "e74874a1a81e1883b032a10ffc30bf1eb2ddac8dadc9d8f15aa4227ad890b11a"
+    },
+    {
+      "path": "tests/check_p12_confetti_caption.py",
+      "sha256": "2d85dbad250b6d879e3cae1d796660a2cdd6e31aeb8ed2b00c7943e41f8d09bc"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_FRESH_R8_46_MODULE_COMPILE",
-    "runtime_behavior": "R8_UNACCEPTED_NATIVE_PENDING",
-    "portable_component_checks": "PASS_R8_4_STATIC_25_EMITTED_INVOCATIONS_6_LAUNCHER_GUARDS_NOT_NATIVE",
-    "native_full_candidate": "UNRUN_FOR_R8_EXACT_CANDIDATE",
-    "genuine_campaign_ending": "UNRUN_FOR_R8_EXACT_CANDIDATE",
+    "coherent_compile": "PASS_CANONICAL_R9_FRESH_46_MODULES_IDENTICAL_RECEIPT_TO_FINAL_PREPARATION",
+    "portable_component_checks": "PASS_CANONICAL_FOUR_STATIC_AND_SIX_LAUNCHER_GUARDS;PASS28_EXACT_RECEIPT_PREPARATION_EMITTED_INVOCATIONS_NOT_NATIVE",
+    "runtime_behavior": "R9_UNACCEPTED_NATIVE_PENDING",
+    "native_full_candidate": "UNRUN_FOR_R9_EXACT_CANDIDATE",
+    "genuine_campaign_ending": "UNRUN_FOR_R9_EXACT_CANDIDATE",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987"
+    "coherent_compile_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866",
+    "static_staging": "PASS_CANONICAL_R9_EXACT1759_FILE_MAP",
+    "exact_game_identity": "PASS_NATIVE_SESSION_CHECK_GAME_1759_ACTUAL_GAME_FILES_NOT_GAMEPLAY",
+    "launcher_guards": "PASS_SIX_CANONICAL_FIXTURE_CHECKS_NOT_NATIVE_GAMEPLAY"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim.",
   "historical_validation": [
@@ -621,6 +652,49 @@
         "coherent_compile_sha256": "d34724eb7a03aa8d613ad5bd5cd410bb1f69b140566ba0ae0e1c1383ca9332be"
       },
       "subsequent_native_result": "GENUINE_P01_P13_FOUR_WINS_FOUR_PHYSICAL_CARGO_VC04_CHANGED_STATE_AND_FRESH_PROCESS_RESTORE;P14_ACQUIRE_INVENTORY_INTERFACE_ERROR9;ENDING_AND_58_CREDITS_UNPERFORMED;NO_RELEASE_ACCEPTANCE"
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
+      "validation": {
+        "coherent_compile": "PASS_FRESH_R8_46_MODULE_COMPILE",
+        "runtime_behavior": "R8_UNACCEPTED_NATIVE_PENDING",
+        "portable_component_checks": "PASS_R8_4_STATIC_25_EMITTED_INVOCATIONS_6_LAUNCHER_GUARDS_NOT_NATIVE",
+        "native_full_candidate": "UNRUN_FOR_R8_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R8_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987"
+      },
+      "historical_only": true
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
+      "validation": {
+        "coherent_compile": "PASS_PRIVATE_R9_CAPTION_REVISION_FRESH_46_MODULE_COMPILE",
+        "portable_component_checks": "PASS_PRIVATE_FINAL_R9_4_STATIC_28_EXACT_RECEIPT_EMITTED_INVOCATIONS_NOT_NATIVE",
+        "runtime_behavior": "R9_UNACCEPTED_NATIVE_PENDING",
+        "native_full_candidate": "UNRUN_FOR_R9_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R9_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "91894319904e8e1978f90fa837071830e7c7992800b453a43cd37f59ee319362"
+      },
+      "historical_only": true,
+      "private_candidate_revision": "PRE_RACK_CAPTION",
+      "runtime_file_map_sha256": "83e39980cd9ec21749e156e389a6130e15e227ac1ffefa8e236642b09a3bdf60"
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
+      "validation": {
+        "coherent_compile": "PASS_PRIVATE_R9_RACK_REVISION_FRESH_46_MODULE_COMPILE",
+        "portable_component_checks": "PASS_PRIVATE_FINAL_R9_RACK_4_STATIC_28_EXACT_RECEIPT_EMITTED_INVOCATIONS_NOT_NATIVE;6_CANONICAL_LAUNCHER_GUARDS_PENDING",
+        "runtime_behavior": "R9_UNACCEPTED_NATIVE_PENDING",
+        "native_full_candidate": "UNRUN_FOR_R9_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R9_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866"
+      },
+      "historical_only": true,
+      "private_candidate_revision": "FINAL_RACK_PRE_CANONICAL_STATUS",
+      "runtime_file_map_sha256": "c5957737db549bcdaaafa3980fa11a27c7e60b3aa31d597303bc60dc9b77f1b2"
     }
   ]
 }

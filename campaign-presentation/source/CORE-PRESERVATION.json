@@ -28,8 +28,6 @@
       "renderCaption": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
       "p02HostP01Act": "cd7871eaebff16dd8acd66880a414dfd2b1aec7528bbdc617a16bb1954820e48",
       "uiHostIsReturn": "a59cc18da4557607e6c450c8a403f3b1f0001768474bbd1df418db439ebd9168",
-      "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
-      "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
       "motionScale": "8a75bcd039801eef52dd6b48d61edf185798d4ed08a89dd0f2da1e5dbfc0b790",
       "motionCancel": "8e1712372bac1e3b5f377baf07453e4c1db2d827728847c9fd2648bf005324c8",
       "motionRequest": "ddc544089a4788671d214468637649536334687f658018ad5b7cac80d0c5ae69",
@@ -38,7 +36,6 @@
       "drawJack": "5bd9efc7e214cfd43cc2678af8df9eea9f6bf3b4d31fd3573777ef05e2e8cae6",
       "hostRoomChanged": "d5b1acfe799c0102096a053c2322d007b10750a9f99dc91bcc19cff4786c69eb",
       "hostActNow": "374a002f0fbd9a396a682dcbd31d9e870529df5f84ea04608ec5bd60c7143694",
-      "uiHostAct": "e108d8dc1d844ef9130e3b96f1472b3782bd768815e37903025116a9d3c4fa26",
       "roomTitle": "573fc574bd7011581eceee1fa9196e48e17f238bafc68fe9107b9602527a03e6",
       "blockPerson": "06e85340cb9b7a620f2a4dd1236e6c23e2043d7771859b5b0621f94efdfa8171",
       "drawBlockout": "8c2d6bb92c9ec917a1eed3f1377272490d552fe2dbe5ccfcbd048c47bbdcabf7",
@@ -6573,8 +6570,15 @@
       "file": "module994.sc",
       "method": "h12WelcomeFrame",
       "baseline_sha256": "ecc9550cf05718368525cedc37e11de92574172c9ce33183fe52a8e58c009f71",
-      "candidate_sha256": "046a73d4daed71e5c3b32f05601d37a861a0ab973f45b54ce0aec14bae444e8e",
-      "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+      "candidate_sha256": "7d3dbb6c454b07909a29855754e2b0e240a2e35ab23dd0eb8cdf0e42ef146808",
+      "reason": "R9 observed P12 caption collision repair: add only a one-pixel black backing around unchanged SHARED CONFETTI glyphs at20,131. Text/font/color/origin, approved art bytes, confetti dots, control/hit geometry, owner/validation guards, phase2 witness writes and phase1 flush/receipt remain unchanged; native acceptance pending.",
+      "review_history": [
+        {
+          "candidate_sha256": "046a73d4daed71e5c3b32f05601d37a861a0ab973f45b54ce0aec14bae444e8e",
+          "checkpoint_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
+          "reason": "LATE-UI-FIX.md: evaluate guaranteed no-progress frame rejections before expensive history predicates. Every condition remains required and every successful paint or arrival acknowledgment still passes the original strict validators. No cache, travel, receipt, input admission or progress mutation is added."
+        }
+      ]
     },
     {
       "file": "module994.sc",
@@ -6825,7 +6829,38 @@
       "baseline_commit": "85afaf8e869d01d8801575cb6a801aa4bd69c271",
       "candidate_sha256": "240f6b6eeaee440cc66e9574381660c2bb605004d8b3455b7604d2a9720c42f0",
       "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: restore only the old baked audience-caption paper with its existing background color before the swivel label, and align static swivel/rotate text with the unchanged focus/reveal label origin. Preserve all art resources, script strings, control rectangles, ownership/admission guards and physical paint-witness publication; exact-candidate native acceptance remains separate."
+    },
+    {
+      "file": "main.sc",
+      "method": "approachX",
+      "baseline_sha256": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
+      "baseline_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
+      "candidate_sha256": "ac087633a6ec27956aff8b545c5a80755d8a6271e2a111cbb718dfbbb1dedca7",
+      "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained."
+    },
+    {
+      "file": "main.sc",
+      "method": "approachY",
+      "baseline_sha256": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
+      "baseline_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
+      "candidate_sha256": "be0a48d26b0db3718428c8721af970122467e25a3bb0933fb056f5b306d9586a",
+      "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained. Additional observed R8 rack410/411 clipping repair reuses existing p04ApproachY54=138 only, retaining X200 and419/420. Fixed Courtyard scale127 now keeps original player cel below header/caption and above footer; ownership/input/arrival/domain invariants unchanged. Native acceptance pending.",
+      "review_history": [
+        {
+          "candidate_sha256": "15e921f860a87e0b8a72aa2ce3ce433357a3912714863b52578c42bdf4c7e8ff",
+          "purpose": "Preserved private pre-rack R9 source/compile/stage evidence; no native acceptance",
+          "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained."
+        }
+      ]
+    },
+    {
+      "file": "main.sc",
+      "method": "uiHostAct",
+      "baseline_sha256": "e108d8dc1d844ef9130e3b96f1472b3782bd768815e37903025116a9d3c4fa26",
+      "baseline_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
+      "candidate_sha256": "cdbd23a5d61cd0038189863b610020f47a9a96a918185692458f66143114abbe",
+      "reason": "R9 P11 native blocker repair: grant the existing strict same-anchor waiting-Fold Look continuation before ordinary speechCancel; retain canonical receiver, group/verb/target/stationary conditions and unchanged h11PayMove guard, serial/history, owner, save/restore, error and publication checks. Native acceptance pending."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred."
 }

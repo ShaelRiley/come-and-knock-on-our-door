@@ -3147,7 +3147,7 @@ creditReducedMotion 0
 
 (if (or (== arg1 419) (== arg1 420)) (return 200))
 
-(if (and (>= arg1 415) (<= arg1 418)) (return 150))
+(if (and (>= arg1 415) (<= arg1 418)) (return (self p04ApproachX: 54)))
 
 (if (or (== arg1 410) (== arg1 411)) (return 200))
 
@@ -3561,9 +3561,9 @@ creditReducedMotion 0
 
 (if (or (== arg1 419) (== arg1 420)) (return 110))
 
-(if (and (>= arg1 415) (<= arg1 418)) (return 120))
+(if (and (>= arg1 415) (<= arg1 418)) (return (self p04ApproachY: 54)))
 
-(if (or (== arg1 410) (== arg1 411)) (return 110))
+(if (or (== arg1 410) (== arg1 411)) (return (self p04ApproachY: 54)))
 
 (if (and p09 (>= arg1 395) (<= arg1 398) (p09 h9Active:)) (return (p09 h9Geo: (if (== arg1 398) 6 else (if (== arg1 397) 5 else 0)) 6)))
 
@@ -4588,6 +4588,13 @@ creditReducedMotion 0
 (if p05 (if (p05 hBarrier:) (return 0))) (if p05 (p05 hCaptureTarget: (if arg3 arg3 else arg2)))
 
         (if p04Invalid (return 0))
+        ; Preserve only the already-guarded, same-anchor P11 Look continuation
+        ; before the ordinary speechCancel below. motionRequest reaches the
+        ; same permit later; granting it only there loses the payoff first.
+        (if (and (not p03Invalid) (not uiPanel) (not motionPhase)
+            (== arg1 5) (== arg3 0) (>= arg2 415) (<= arg2 418))
+            ((ScriptID 993 0) h11PayMove: (self approachX: arg2)
+                (self approachY: arg2) arg1 arg2))
         (asm
             pToa p03Invalid
             bnt L_384b

@@ -100,3 +100,18 @@ R8 final-inventory and apron regressions:
     python tests/check_apron_labels.py
 
 The handoff suite includes actual Acquire followed by the first emitted inventory render with both retained originals. The13 apron cases execute drawing/control/font/hit paths against unchanged approved artwork and reject inactive/wrong-room/successor publication. Ancestor admission remains an explicit fixture; these checks do not establish native progression, pixels, sound, saves, or acceptance.
+R9 P11 group approach and finite payoff continuation regressions:
+
+    python tests/check_p11_group_approach.py
+    python tests/check_p11_payoff_entry.py --expect-fixed --output build/p11-payoff-result.json
+
+The28 approach cases execute the candidate's actual approach/draw/strict same-anchor permit bytecode against original actor-art pins, check unrelated approach results, and model two idle-cel projections. The14 payoff cases create the real P11 ledger through public domain operations, complete all four Fold reader pages using actual rendering/receipt methods with modeled natural PCM EOF, Close, activate all four ordinary group controls, and choose Stage through its real menu. The finite Stage cels0–6 and actual guarded domain laugh claim execute; invalid verb/target/anchor/serial and save/load barriers must retire the proof. Earlier-campaign owner/prerequisite admission, clock, PCM EOF and graphics/device kernels remain explicit unit fixtures in p11_payoff_fixture.py and p11_fold_fixture.py. No native saved game is loaded or modified. These tests establish no genuine campaign progress, native timing, pixels, sound, save compatibility or acceptance. Exact-candidate native Fold/Close/Stage and full New Game progression remain pending.
+
+P12 confetti status-caption readability and witness regressions:
+
+    python tests/check_p12_confetti_caption.py
+
+The emitted cases retain the original text/font/color/origin, measure its actual bundled-font glyph box and one-pixel backing, preserve all seven fixed companion projections and nine cue/companion controls, check actual Main header-clear order, and retain phase2 witness/phase1 flush-and-ack order plus rejected context/serial paths. P12/successor admission and cue availability are explicit fixtures; the composition fixture models out unrelated footer/reader and late-progress hooks. These checks do not establish native pixels, player pose coverage, audio or campaign acceptance. `--reference --build PATH` reproduces the unbacked caption against the preserved pre-caption build.
+
+
+The R9 group-approach check also exercises actual emitted rack410/411 approaches and both original-art Courtyard facings at unchanged scale127. It reproduces the frozen110-feet header/caption collision, checks138-feet header/caption/footer clearance, preserves neighboring419/420 and existing owner-family dispatch, and uses explicit motion/owner fixtures. Integer opaque-pixel projection supplements native observation; it does not establish actual native rasterization, progression, audio or acceptance.

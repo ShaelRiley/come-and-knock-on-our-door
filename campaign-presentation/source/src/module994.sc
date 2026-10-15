@@ -1809,6 +1809,8 @@
    (for ((= i 0)) (< i 20) ((++ i))
     (= x (+ 18 (mod (* i 43) 284))) (= y (+ 43 (mod (* i 17) 56)))
     (Graph 11 y x (+ y 2) (+ x 3) 1 (+ 9 (mod i 6)) 0 0))
+   ; Back only the status glyphs; keep the floor/control geometry untouched.
+   (Graph 11 130 19 140 111 1 0 0 0)
    (Display "SHARED CONFETTI" 100 20 131 102 2 105 0 106 140 121)
   else
    (Graph 11 38 166 63 305 1 0 0 0)

@@ -1,5 +1,15 @@
 # SteamOS recovery and scoped native testing
 
+## Current R9 source preparation; historical R8 native boundary
+
+R9 canonical compilation of46 modules, staging of1,759 files, four static checks, actual-file identity verification and all six launcher guards pass. The28 emitted invocations passed on the identical preparation receipt, including46 focused group/rack and payoff cases and15 caption cases. The current checkpoint contains source tree; GitHub tree verification recorded separately. Source banking remains pending. Its scope is the P11 group approach/scene-entry action order, ground-level P12 rack approach and backing behind the existing P12 caption. R9 native testing is unrun; a separate genuine exact-candidate New Game through all14 puzzles, four scored wins, critical VC04 restores, P13 deliveries, P14 companions, ending and all58 credits remains required. Packaging and publication remain pending. See source/RECOVERY-FINAL-HANDOFF-20261015.md.
+
+Historical R8 genuinely completed P01-P13 domain progression, all four actual scored wins, all four physical P13 deliveries and the complete P13 readers. The fourth contest's pending-reply changed-live-state ordinary restore and fresh-process restore passed before normal winning continuation. P14's date and ordinary Begin action, first compact PENCL/TERMS inventory, and changed-state active inventory page/selection restore passed. A final fresh-process ordinary chooser restore recovered active TERMS page2, the header and full cast; Previous returned PENCL page1 and the pause menu worked without interface error9. Ordinary Quit then completed with game and isolated server exit0 and the stop monitor stopped. P14 promises, companion ending and all58 credits were not performed. P11 pose/scene-entry and the old rack/caption presentation failures keep R8 unaccepted. These observations apply only to the preserved R8 runtime; R9 remains unrun. P12 ceremony/readers/rehearsal, prior apron-caption correction and all seven physical returns also passed. Objective music and complete representative voice/laughter/Foley checks passed, including the complete welcome voice at correlation0.93041 with temporary audio state restored. Subjective hearing and physical Deck controls remain unverified. These historical observations do not accept R9.
+
+The preserved R8 source checkpoint is GitHub c6d377f1a01bacca281782f1649fa413425cae58 on work/steamos-native-recovery-20261011, with identical recorded source tree1e51db41e7783c4e2457e6fc0e24a0d733aeb0f7. Its unchanged runtime and private evidence remain preserved.
+
+## Historical recovery records
+
 ## New repaired candidate: puzzles 1–11 and puzzle 12 main observed
 
 The new isolated New Game uses receipt

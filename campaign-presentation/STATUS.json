@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "P14_INVENTORY_APRON_R8_COMPILED_STAGED_OBJECTIVE_PASS_NATIVE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
+  "status": "R9_CANONICAL_COMPILE_STAGE_STATIC_IDENTITY_SIX_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,15 +10,15 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_FRESH_R8_46_MODULES",
-    "protected_core_and_inventory": "PASS_R8_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "R8_COMPILED_FULL_RUNTIME_COMPARISON_NOT_RECORDED_HERE",
-    "runtime_behavior": "R8_NATIVE_UNRUN",
-    "fresh_static_staging": "PASS_R8_1759_EXACT_GAME_FILES",
-    "bounded_static_source_and_assets": "PASS_R8_4_STATIC_CASES",
+    "fresh_coherent_compile": "PASS_CANONICAL_R9_46_MODULES_IDENTICAL_RECEIPT_TO_FINAL_PREPARATION",
+    "protected_core_and_inventory": "PASS_CANONICAL_R9_BUILD_IDENTITY_AND_POST_COPY_STATIC_CHECKS",
+    "static_artifact_comparison": "PASS_ONLY_SCRIPTS0_AND994_CHANGED_HEAPS_OTHER44_MODULES_ALL1757_AUDIO_IDENTICAL_TO_R8",
+    "runtime_behavior": "R9_NATIVE_UNRUN",
+    "fresh_static_staging": "PASS_CANONICAL_R9_1759_EXACT_GAME_FILES",
+    "bounded_static_source_and_assets": "PASS_CANONICAL_R9_FOUR_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
-    "static_staging": "PASS_R8_EXACT_1759_FILE_MAP",
-    "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
+    "static_staging": "PASS_CANONICAL_R9_EXACT_1759_FILE_MAP_AND_ACTUAL_FILE_IDENTITY",
+    "render_validation": "PASS_FINAL_FOCUSED_CHECKS_STRICT_OWNERSHIP_RESTORE_ERROR_AND_ACK_GUARDS_PRESERVED;NOT_NATIVE",
     "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
     "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
     "late_ui_emitted_20261011": "PASS_3_SCENE_ADMISSION_FIXTURE_CASES_NOT_NATIVE",
@@ -26,16 +26,18 @@
     "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
     "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE",
     "paint_scope_emitted": "PASS_R6_13_SCOPE_AND_43_PUBLICATION_WITH_EXPLICIT_FIXTURES_NOT_NATIVE",
-    "portable_emitted_total": "PASS_R8_25_EMITTED_INVOCATIONS_INCLUDING24_HANDOFF_AND13_APRON_CASES_NOT_NATIVE",
-    "final_handoff": "PASS_R8_24_EMITTED_HANDOFF_POST_ACQUIRE_UI_AND13_APRON_CASES_NOT_NATIVE"
+    "portable_emitted_total": "PASS_FINAL_R9_28_DISTINCT_EMITTED_INVOCATIONS_INCLUDING46_GROUP_RACK_PAYOFF_AND15_CAPTION_CASES_EXACT_RECEIPT_NOT_NATIVE",
+    "final_handoff": "PASS_FINAL_R9_EMITTED_24_HANDOFF_13_APRON_PLUS_NEW46_GROUP_RACK_PAYOFF_AND15_CAPTION_CASES;NATIVE_PENDING"
   },
   "unperformed": [
-    "Complete genuine New Game on exact R8 through all14 puzzles, four actual contest wins, all four P13 physical deliveries, ending and all58 credits",
-    "Native R8 regression of post-acquisition inventory/world/menu/restore and audience-apron RETURN/readiness captions",
-    "Critical fourth-contest changed-state/fresh-process restore and late controls on R8",
+    "Source checkpoint banking and separately recorded GitHub tree verification",
+    "Separate genuine exact-R9 New Game through all14 puzzles, four actual contest wins, all four P13 physical deliveries, ending and all58 credits",
+    "Native R9 P11 approach/scene-entry ordering and P12 caption regression, late controls and save/restore",
+    "Critical fourth-contest pending-reply changed-live-state ordinary and fresh-process restores on exact R9",
+    "P14 companion travel, final freeze-frame/applause and every credit card/page on exact R9",
     "Subjective listening and acoustic quality assessment",
     "Physical Steam Deck button/axis and Gaming Mode testing; isolated mouse/keyboard and per-process joystick configuration are distinct evidence",
-    "PhaseC promotion, clean standalone-package launch/save/load/audio/exit, finished GitHub publication and independent asset verification"
+    "Legitimate PhaseC promotion, clean standalone-package launch/save/load/audio/exit, finished GitHub publication and independent asset verification"
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
@@ -59,12 +61,12 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
+  "compiled_receipt_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
-  "save_compatibility": "R8_REQUIRES_NEW_EMPTY_SAVE_PATH;R7_BUILD_AND_SAVES_PRESERVED_SEPARATELY",
+  "save_compatibility": "R9_REQUIRES_NEW_EMPTY_SAVE_PATH_AND_GENUINE_NEW_GAME;R8_RUNTIME_AND_SAVES_PRESERVED_SEPARATELY",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
@@ -113,6 +115,20 @@
       "limits": "P14 admission failed for valid unset optional tone; date modal and late labels overlapped. Ending/58credits not reached. Objective opening music/current voice checked; subjective listening and physical Deck controls unavailable. These observations do not accept changed R7.",
       "summary": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
       "applies_to_current_candidate": false
+    },
+    {
+      "date": "2026-10-15",
+      "source_checkpoint": "c6d377f1a01bacca281782f1649fa413425cae58",
+      "compiled_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
+      "observed": "Genuine R8 New Game completed P01-P13 domain progression, all four actual scored wins, all four physical P13 deliveries and full P13 readers. P12 full ceremony/readers/rehearsal, prior apron-caption correction and all seven physical returns observed. Fourth-contest pending reply changed-live-state ordinary restore and fresh-process restore passed before normal winning continuation. P14 date/ordinary Begin and first compact PENCL/TERMS inventory passed.",
+      "failures": "P11 native group pose/scene-entry ordering and old rack/caption presentation failures remain; R9 narrow repairs require native regression.",
+      "audio": "Objective music and complete representative voice/laughter/Foley confirmed; complete P12 welcome voice correlation0.93041 and temporary audio state restored. Subjective listening unavailable.",
+      "limits": "Historical exact-R8 scope only. P14 begun only; promises, companion ending and all58 credits not performed. No complete-game/finished-release, physical Steam Deck/Gaming Mode or subjective-listening acceptance.",
+      "summary": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
+      "applies_to_current_candidate": false,
+      "p14_active_inventory_restore": "Observed changed-state page/selection restore, then final fresh-process ordinary chooser restore to active TERMS page2/header/full cast; Previous PENCL page1 and pause menu worked without UI9. This is inventory selection/page evidence, not a story-reader restore.",
+      "normal_exit": "Observed ordinary Quit: game0/server0, display stopped, stop monitor stopped and sole-input handoff complete."
     }
   ],
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -208,19 +224,19 @@
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "R8_GENUINE_COMPLETE_NATIVE_NEW_GAME_LINEAGE_AND_FINISHED_PACKAGE_DELIVERY_PENDING;NO_RELEASE",
+  "current_blocker": "SOURCE_CHECKPOINT_BANKING_THEN_GENUINE_EXACT_R9_NATIVE_NEW_GAME_AND_FINISHED_PACKAGE_DELIVERY_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
   "native_session_preparation": {
     "report": "NATIVE-SESSION-20261011.md",
     "launcher": "source/native_session.py",
-    "exact_staged_game_files": "PASS_R8_1759_EXACT_FILES",
-    "launcher_guard_checks": "PASS_R8_6_FIXTURE_GUARD_CHECKS_NOT_NATIVE",
+    "exact_staged_game_files": "PASS_CANONICAL_R9_1759_ACTUAL_GAME_FILES_NATIVE_SESSION_CHECK_GAME",
+    "launcher_guard_checks": "PASS_CANONICAL_R9_SIX_FIXTURE_GUARDS_NOT_NATIVE_GAMEPLAY",
     "native_runtime_launched": false,
     "native_acceptance": false,
-    "environment": "Installed stock ScummVM2026.3.0 SCI/FluidSynth and task-only bounded display/input verified on preserved R7; R8 runtime not yet launched",
-    "required_next_step": "Establish separate exact-R8 empty-save genuine New Game lineage and complete remaining full-game acceptance before promotion/package smoke/publication"
+    "environment": "Installed stock ScummVM2026.3.0 SCI/FluidSynth and task-only mouse/keyboard controls observed on historical R8; R9 native testing unrun; physical Deck controls unverified",
+    "required_next_step": "Bank the exact canonical R9 source, record GitHub tree verification separately, then separate empty-save genuine New Game/full acceptance before PhaseC/package smoke/publication"
   },
   "steamos_native_recovery": {
     "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -546,7 +562,7 @@
     "publication_repair": "Idle canonical phase1 lease1/mask0/work0 guard follows unchanged input/wrong-frame work; all active actor/cargo/pickup publication retains original strict checks. Close strict Valid dominance retains independent Baseline fallback on failure."
   },
   "p14_inventory_apron_candidate_20261015": {
-    "status": "PASS_FRESH_COMPILE_STAGE_STATIC_EMITTED_LAUNCHER_GUARDS_NATIVE_PENDING",
+    "status": "HISTORICAL_R8_P01_P13_DOMAIN_ALL_FOUR_WINS_P14_BEGUN_CLEAN_HANDOFF_PRESENTATION_FAILED",
     "native_acceptance": false,
     "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
     "changed_runtime_modules_from_r7": [
@@ -557,7 +573,7 @@
     "scope": "Compact inventory labels only for original pencil/terms; remove duplicate apron RETURN caption; align and clear P12 reading caption underlay without changing its control.",
     "compile_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
     "staged_game_file_map_sha256": "a2cba5a6cfc31d7b620160cfac5a7b7c9981024fa510be6081b88fddc23b6e83",
-    "native_full_game": "UNPERFORMED_EXACT_R8_NEW_GAME_REQUIRED",
+    "native_full_game": "GENUINE_NEW_GAME_P01_P13_DOMAIN_FOUR_WINS_FOUR_CARGO_P14_BEGUN_UNACCEPTED",
     "historical_r7_puzzles_completed": [
       1,
       2,
@@ -590,6 +606,91 @@
     "static_cases": 4,
     "remaining_emitted_gates": "PASS_23_REMAINING_EMITTED_PROCESSES_ZERO_TIMEOUTS",
     "emitted_invocations": 25,
-    "launcher_guard_cases": 6
+    "launcher_guard_cases": 6,
+    "checkpoint_objective_status": "PASS_FRESH_COMPILE_STAGE_STATIC_EMITTED_LAUNCHER_GUARDS_NATIVE_PENDING",
+    "checkpoint_native_full_game_status": "UNPERFORMED_EXACT_R8_NEW_GAME_REQUIRED",
+    "native_domain_completed_puzzles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "actual_contest_wins": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "p11_native_presentation": "FAIL_GROUP_POSE_AND_SCENE_ENTRY_ACTION_ORDERING",
+    "p12_native_scope": "ALL7_GATHERED_FULL_CEREMONY_READERS_REHEARSAL_PRIOR_APRON_CAPTION_CHANGED_LIVE_FRESH_RESTORES_AND_ALL7_PHYSICAL_RETURNS_OBSERVED;P12_PROGRESSION_COMPLETE",
+    "native_audio": "Objective music and complete representative voice/laughter/Foley confirmed; complete P12 welcome voice correlation0.93041 and temporary audio state restored. Subjective listening unavailable.",
+    "applies_to_current_candidate": false,
+    "p12_physical_returns_completed": 7,
+    "p13_physical_deliveries": 4,
+    "p13_full_readers": "OBSERVED",
+    "vc04_pending_reply_restore": "OBSERVED_CHANGED_LIVE_ORDINARY_AND_FRESH_PROCESS_RESTORE_THEN_NORMAL_WINNING_CONTINUATION",
+    "p14_state": "BEGUN_ONLY_DATE_AND_ORDINARY_BEGIN_FIRST_COMPACT_INVENTORY_OBSERVED",
+    "p14_active_inventory_restore": "Observed changed-state page/selection restore, then final fresh-process ordinary chooser restore to active TERMS page2/header/full cast; Previous PENCL page1 and pause menu worked without UI9. This is inventory selection/page evidence, not a story-reader restore.",
+    "p14_promises_companion_ending_and_credits": "UNPERFORMED",
+    "native_normal_exit": "Observed ordinary Quit: game0/server0, display stopped, stop monitor stopped and sole-input handoff complete.",
+    "p12_rack_caption_presentation": "FAIL_REQUIRES_R9_APPROACH_GROUNDING_AND_CAPTION_BACKING_RETEST"
+  },
+  "group_entry_caption_candidate_20261015": {
+    "status": "PASS_CANONICAL_COMPILE_STAGE_STATIC_IDENTITY_SIX_GUARDS_NATIVE_UNRUN_BANK_PENDING",
+    "native_acceptance": false,
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
+    "compile_receipt_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866",
+    "staged_game_file_map_sha256": "c5957737db549bcdaaafa3980fa11a27c7e60b3aa31d597303bc60dc9b77f1b2",
+    "stage_manifest_sha256": "77f039e2dd8c1603fc21b87ffa8d03e6230ac067be051e66fe7b063e0fca8b41",
+    "native_runtime_launched": false,
+    "native_full_game": "UNRUN_NEW_GENUINE_R9_NEW_GAME_REQUIRED",
+    "changed_runtime_modules_from_r8": [
+      0,
+      994
+    ],
+    "scope": "Main.approachX and approachY reuse existing ordinary Felix approach point for the group; Main.uiHostAct invokes the existing strict h11PayMove at the stationary eligible group action before later host work. h12WelcomeFrame clears only the backing rectangle before its unchanged SHARED CONFETTI caption. Existing rack410/411 approachY reuses ground-level p04ApproachY54=138; X200 and419/420 unchanged.",
+    "pre_caption_supplementary_checks": {
+      "compile": "PASS_46_MODULES_PRE_CAPTION_ONLY",
+      "static_cases": 4,
+      "existing_emitted_invocations": 25,
+      "new_focused_cases": 42,
+      "applies_to_final_caption_revision": false
+    },
+    "final_caption_checks": "PASS_46_MODULES_FOUR_STATIC_28_DISTINCT_EMITTED_INVOCATIONS_INCLUDING32_GROUP_RACK_14_PAYOFF_15_CAPTION_CASES_EXACT_RECEIPT",
+    "source_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
+    "remaining": "All14/four_actual_wins/critical_VC04_changed_state_and_fresh_process_restore/P13fourcargo/P14companions/lateUI/audio/controls/response/ending_applause/58credits/clean_exit/PhaseC/package_smoke/publication_download_verification",
+    "historical_r8_source_checkpoint": "c6d377f1a01bacca281782f1649fa413425cae58",
+    "source_checkpoint": "current checkpoint contains source tree; GitHub tree verification recorded separately",
+    "source_sha256": {
+      "src/main.sc": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5",
+      "src/module994.sc": "69be3d466aea87db185df1d9978d66122311c0296d8ffc6072b58e89cf9302fc"
+    },
+    "runtime_comparison": "ONLY_SCRIPTS0_AND994_CHANGED_VS_R8;ALL46_HEAPS_OTHER44_MODULES_ALL1757_AUDIO_IDENTICAL",
+    "binding_scope": "CANONICAL_COMPILE_STAGE_IDENTITY_AND_LAUNCHER_CHECKS;28_EMITTED_INVOCATIONS_FROM_IDENTICAL_FINAL_PREPARATION_RECEIPT;NOT_NATIVE_ACCEPTANCE",
+    "emitted_invocations": 28,
+    "new_caption_cases": 15,
+    "static_cases": 4,
+    "launcher_guards": "PASS_CANONICAL_NATIVE_SESSION_CHECK_GAME_1759_ACTUAL_FILES_AND_SIX_FIXTURE_GUARDS_NOT_GAMEPLAY",
+    "emitted_binding_sha256": "7c4350cec46acdb7ef1943db9b8e66a90ed8b269f7a7f454187fb5c09d4ae69f",
+    "new_p11_and_rack_cases": 46,
+    "group_and_rack_cases": 32,
+    "payoff_entry_cases": 14,
+    "emitted_binding_kind": "FINAL_28_INVOCATION_MATRIX_RESULT",
+    "metadata_preservation": "PASS_FINAL_2153_UNCHANGED_METHODS_72_REVIEWED_4088_SELECTORS",
+    "source_banking": "PENDING",
+    "launcher_guard_cases": 6,
+    "canonical_check_game": "PASS_1759_ACTUAL_GAME_FILES",
+    "canonical_compilation": "PASS_FRESH_46_MODULES_IDENTICAL_RECEIPT",
+    "canonical_staging": "PASS_EXACT_1759_FILE_MAP",
+    "canonical_static_checks": "PASS_FOUR_POST_COPY_CASES"
   }
 }

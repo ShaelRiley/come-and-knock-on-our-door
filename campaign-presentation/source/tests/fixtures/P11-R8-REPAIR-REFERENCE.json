@@ -1,0 +1,73 @@
+{
+  "schema": "P11_FROZEN_R8_REPAIR_REFERENCE_V1",
+  "native_acceptance": false,
+  "baseline_main_sha256": "8c169c015d50427fc8108fd2faa12dd57b8ec17b0a5df80664ffc6ea90fa6f32",
+  "candidate_main_sha256": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5",
+  "baseline_methods_sha256": {
+    "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
+    "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
+    "uiHostAct": "e108d8dc1d844ef9130e3b96f1472b3782bd768815e37903025116a9d3c4fa26"
+  },
+  "candidate_methods_sha256": {
+    "approachX": "ac087633a6ec27956aff8b545c5a80755d8a6271e2a111cbb718dfbbb1dedca7",
+    "approachY": "be0a48d26b0db3718428c8721af970122467e25a3bb0933fb056f5b306d9586a",
+    "uiHostAct": "cdbd23a5d61cd0038189863b610020f47a9a96a918185692458f66143114abbe"
+  },
+  "baseline_neighbor_approaches": {
+    "0": [
+      140,
+      132
+    ],
+    "54": [
+      131,
+      138
+    ],
+    "414": [
+      140,
+      132
+    ],
+    "419": [
+      200,
+      110
+    ],
+    "420": [
+      200,
+      110
+    ],
+    "435": [
+      140,
+      132
+    ]
+  },
+  "original_art_sha256": {
+    "214": "8e179ab3086e03ddc69d141f58ab03d268085d43a11d9a5687b59e03f64aafc0",
+    "216": "5132a73789cb57ff5d38d784ba4f53abacfeb654fea70c71dc35ed023b67615a",
+    "225": "9089c06bb25195b56d5f8a430e910abbd844d47c021875baa5f5c4d265844f94",
+    "239": "b6c6aac54e4aff5cb71eb57acd4c41b46f7561f76ff1ad47481d0433f5c85efe",
+    "240": "e1d333924e69a442b526ae2bbe43ad3aabc99aa1fcdb465898c5a53b39551771",
+    "241": "afbd672b1e51027dd347b9933fbe7740c0afa4261cb85289b93975fe50723f95"
+  },
+  "baseline_defective_anchor": [
+    150,
+    120
+  ],
+  "expected_existing_felix_anchor": [
+    131,
+    138
+  ],
+  "limits": "Frozen earlier emitted queries and original-asset pins, never a native gameplay result. Rack410/411 share observed clipped native baseline200,110; proposed200,138 is emitted geometry only, awaiting native verification.",
+  "repaired_rack_approaches": {
+    "410": [
+      200,
+      138
+    ],
+    "411": [
+      200,
+      138
+    ]
+  },
+  "baseline_defective_rack_anchor": [
+    200,
+    110
+  ]
+}
