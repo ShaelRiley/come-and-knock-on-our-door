@@ -2146,7 +2146,7 @@
     (if (and (>= feet 126) (< feet 127)) (owner drawJack:)) (owner livingPerson: 2)
     (if (>= feet 127) (owner drawJack:))
     (Display "PORCH" 100 15 116 102 1 105 0 106 42 121)
-    (Display "COURT" 100 151 112 102 1 105 0 106 42 121)
+    (Display "COURT" 100 151 100 102 1 105 0 106 42 121)
     (Display "KITCHEN" 100 273 118 102 1 105 0 106 47 121))
 
 (method (livingPerson owner who &tmp scaleValue mouth)

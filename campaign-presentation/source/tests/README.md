@@ -85,3 +85,11 @@ reader/scene admission are explicit fixtures; actual publication writes and
 strict validators execute. The fixtures earn no campaign progress and establish
 no native timing, pixels, audio, saves or acceptance. `--build PATH` selects a
 separate compiled candidate.
+
+Final handoff/date/layout regressions for R7:
+
+    python tests/check_p14_tone_handoff.py
+    python tests/check_date_modal.py
+    python tests/check_late_ui.py caption_layout
+
+The23 handoff cases retain actual Acquire/Ctx/Match and domain/history validation with explicitly modeled completed ancestors. The11 modal cases retain Main’s final composition and strict End/publication gate. Layout checks measure the bundled font, all four statuses/eight portion cels, exit/board hits and preserved travel-lane clearance. These are emitted fixtures, never native gameplay, saves, pixels, audio or acceptance.

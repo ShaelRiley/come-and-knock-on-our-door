@@ -15,8 +15,8 @@ from presentation_vm import PresentationVM, S, base
 
 
 class LateUIFixture(PresentationVM):
-    def __init__(self, stage=13):
-        super().__init__()
+    def __init__(self, stage=13, build=None):
+        super().__init__(build)
         self.stage = stage
         self.admission_calls = {}
         self.h.p.update(location=0, uiPanel=0, onApron=0, opening=0,
@@ -52,6 +52,20 @@ class LateUIFixture(PresentationVM):
     def hit_object(self, x, y):
         index = self.call(self.h, 'uiHit', (x, y))
         return None if index < 0 else self.arrays(0)['uiPayloads'][index]
+
+
+def intersects(a, b):
+    return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
+
+
+def display_rectangle(v, args):
+    x, y = args[2:4]
+    width = next(args[i + 1] for i in range(1, len(args) - 1) if args[i] == 106)
+    measure = v.arrays(0)['uiMeasure']
+    pointer = base.Pointer(measure.region, measure.start * 2)
+    text_size = next(k for k, name in v.knames.items() if name == 'TextSize')
+    v.kernel(text_size, [pointer, args[0], 0, width])
+    return (x, y, x + measure[3], y + measure[2])
 
 
 def control_priority():
@@ -144,13 +158,65 @@ def held_item_labels():
     text_size = next(k for k, name in v.knames.items() if name == 'TextSize')
     v.kernel(text_size, [pointer, args[0], 0, width])
     assert measure[2] == 8 and measure[3] <= width, 'Pledge label must fit one row'
-    return [v], {'held_label_states': 4, 'pledge_label_rows': measure[2] // 8,
-                 'pledge_text_width': measure[3], 'emitted_display_width': width}
+    pledge_height, pledge_width = measure[2], measure[3]
+    v.ktrace.clear()
+    v.call(v.instance(991), 'drawLiving', (v.h,))
+    v.call(p, 'h13PaintWorld')
+    court = next(args for name, args in v.ktrace
+                 if name == 'Display' and base.read_string(args[0]) == 'COURT')
+    court_rect = display_rectangle(v, court)
+    board = next(args for name, args in v.ktrace
+                 if name == 'Graph' and args[:5] == (11, 109, 158, 145, 201))
+    board_rect = (board[2], board[1], board[4], board[3])
+    assert not intersects(court_rect, board_rect), (court_rect, board_rect)
+    v.h.p['uiControlCount'] = 0
+    v.call(v.h, 'uiHostWorldControls')
+    assert v.hit_object(166, 104) == 13, 'Relocated text remains over the Court exit'
+    assert v.hit_object(180, 140) == 433, 'Board control remains at its original position'
+    return [v], {'held_label_states': 4, 'pledge_label_rows': pledge_height // 8,
+                 'pledge_text_width': pledge_width, 'emitted_display_width': width,
+                 'court_text_rectangle': court_rect, 'board_rectangle': board_rect}
+
+
+def caption_layout():
+    v = LateUIFixture()
+    p = v.instance(995)
+    a = v.arrays(995)
+    a['h13Cargo'][:] = [4, 4, 4, 4]
+    for i in range(7):
+        a['h13Actors'][i * 12 + 2] = 4
+    p.p.update(p13ScreenLo=11, p13ServedLo=12, p13ShowLo=13, p13ToastLo=14)
+    expected = {"RITA'S VIEWING SIDE OPEN", 'RITA HAS PRESENTED HER WORK',
+                '8 TASTING PORTIONS SERVED', 'TOAST: BOARD AND PEOPLE READY'}
+    results = []
+    for panel in (0, 2, 4):
+        v.h.p.update(location=4, uiPanel=panel)
+        v.ktrace.clear()
+        assert v.call(p, 'h13PaintWorld') == 1
+        displays = {base.read_string(args[0]): args for name, args in v.ktrace
+                    if name == 'Display' and base.read_string(args[0]) in expected}
+        assert set(displays) == expected, 'All four existing statuses remain visible'
+        rects = {text: display_rectangle(v, args) for text, args in displays.items()}
+        for text, rect in rects.items():
+            assert 0 <= rect[0] < rect[2] <= 320 and 44 <= rect[1] < rect[3] <= 62, (text, rect)
+            assert rect[3] - rect[1] == 8, (text, 'status wrapped')
+            assert not intersects(rect, (23, 132, 299, 142)), 'Keep original travel lane clear'
+            assert not intersects(rect, (18, 118, 130, 132)), 'Keep original portions clear'
+        pairs = list(rects.items())
+        for i, (text, rect) in enumerate(pairs):
+            for other, other_rect in pairs[i + 1:]:
+                assert not intersects(rect, other_rect), (text, other)
+        portions = [args for name, args in v.ktrace
+                    if name == 'DrawCel' and args[:3] == (228, 0, 6)]
+        assert len(portions) == 8 and [args[3] for args in portions] == list(range(18, 117, 14))
+        results.append({'panel': panel, 'rectangles': rects, 'original_portions': len(portions)})
+    return [v], {'caption_states': results}
 
 
 CASES = {'control_priority': control_priority,
          'reading_availability': reading_availability,
-         'held_item_labels': held_item_labels}
+         'held_item_labels': held_item_labels,
+         'caption_layout': caption_layout}
 
 
 def run(case):

@@ -153,11 +153,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "3cf2e85bfd1841386539afbbf299242c084be3b924e5dad4f607732f44a49aff"
+      "sha256": "e4ad2504a5de24d6ce64dcdff232bb4a914decb61090e25e42a32c5df0ef0452"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "abf6cf69445a994c22f5003fbe35a5baf4a41904445ea7e182857d39296dc06e"
+      "sha256": "2d2eedaf935ac3400f5a1702415ae53b598d3f6748756924d818d8240ce90005"
     },
     {
       "path": "CREDITS.txt",
@@ -349,7 +349,7 @@
     },
     {
       "path": "src/main.sc",
-      "sha256": "7a103ac0cf569ddf4218b677e28e87907801cdfd00af72e328c7ec4ab5c4c650"
+      "sha256": "23fc5049d6948a23f77c12b498e90b7f5fde879be5f671057cb64e18ab9b375a"
     },
     {
       "path": "src/module941.sc",
@@ -497,7 +497,7 @@
     },
     {
       "path": "src/module991.sc",
-      "sha256": "b9668b8d79f8ce746e8bfc3ed864ae5a73970c3f7fb82740f73f9c18e5cf400c"
+      "sha256": "77b797b3262e40894dbf639cf6741c2e169d7e5856ef9dcc08597611a8a0031f"
     },
     {
       "path": "src/module992.sc",
@@ -513,11 +513,11 @@
     },
     {
       "path": "src/module995.sc",
-      "sha256": "4aeeadb34a614fbe228625f15475d38d485fcb6cec9584456823fc0e5f1578dd"
+      "sha256": "36fd7e407e4a02ea4c6683f121c3b8bc2161dda3fe9fb38086559e7fbbf02ad0"
     },
     {
       "path": "src/module996.sc",
-      "sha256": "1ac4127d9de0fdfed4a08be13467a1ebee31202756a8e0200cde92bbb9e8bc40"
+      "sha256": "d54717251334d44e56824f06e760b28f3beb4f67349643a228e742a75f82d826"
     },
     {
       "path": "src/module997.sc",
@@ -546,18 +546,34 @@
     {
       "path": "tests/check_phase1_publication.py",
       "sha256": "a337a9ef9c101ecef91a2fe20e4eb7554cbefda9c83ef77253ffb600a46656e6"
+    },
+    {
+      "path": "tests/check_late_ui.py",
+      "sha256": "0b16529b7550f4d254df065d9d9ae803e094942a713b14bb876487e92eabfe7d"
+    },
+    {
+      "path": "tests/check_date_modal.py",
+      "sha256": "334dc4a837cb255ebddd86d67f335e444e1cb37959c258ec23e079d963fcc266"
+    },
+    {
+      "path": "tests/check_p14_tone_handoff.py",
+      "sha256": "e9dec9eea688702d867c799d9aa9dd82fc229c42ef3d8e5adea44fed7926878e"
+    },
+    {
+      "path": "RECOVERY-FINAL-HANDOFF-20261015.md",
+      "sha256": "65685c3902cbc078b2e7411c9d8cb0fd276b852bb790dbe55a20ca6117f09556"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_FRESH_R6_46_MODULE_COMPILE",
-    "runtime_behavior": "R6_UNACCEPTED_NATIVE_PENDING",
-    "portable_component_checks": "PASS_4_STATIC_80_EMITTED_CASES_6_LAUNCHER_GUARDS_NOT_NATIVE",
-    "native_full_candidate": "UNRUN_FOR_R6_EXACT_CANDIDATE",
-    "genuine_campaign_ending": "UNRUN_FOR_R6_EXACT_CANDIDATE",
+    "coherent_compile": "PASS_FRESH_R7_46_MODULE_COMPILE",
+    "runtime_behavior": "R7_UNACCEPTED_NATIVE_PENDING",
+    "portable_component_checks": "PASS_4_STATIC_24_EMITTED_INVOCATIONS_6_LAUNCHER_GUARDS_NOT_NATIVE",
+    "native_full_candidate": "UNRUN_FOR_R7_EXACT_CANDIDATE",
+    "genuine_campaign_ending": "UNRUN_FOR_R7_EXACT_CANDIDATE",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444"
+    "coherent_compile_sha256": "d34724eb7a03aa8d613ad5bd5cd410bb1f69b140566ba0ae0e1c1383ca9332be"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_FINAL_HANDOFF_LAYOUT_UNACCEPTED_20261015_R7",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim.",
   "historical_validation": [
@@ -571,6 +587,18 @@
         "genuine_campaign_ending": "UNRUN_FOR_THIS_CANDIDATE",
         "subjective_listening": "UNPERFORMED",
         "coherent_compile_sha256": "913241f94aaef7aa4fb3307113aa14e953e2e8bd1303f3220ff27e74a4bb0f4e"
+      }
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6",
+      "validation": {
+        "coherent_compile": "PASS_FRESH_R6_46_MODULE_COMPILE",
+        "runtime_behavior": "R6_UNACCEPTED_NATIVE_PENDING",
+        "portable_component_checks": "PASS_4_STATIC_80_EMITTED_CASES_6_LAUNCHER_GUARDS_NOT_NATIVE",
+        "native_full_candidate": "UNRUN_FOR_R6_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R6_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444"
       }
     }
   ]

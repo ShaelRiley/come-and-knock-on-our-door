@@ -1,5 +1,11 @@
 # Come and Knock on Our Door: candidate, native acceptance pending
 
+The October15 R7 candidate repairs a native final-chapter admission failure for a valid unset optional tone, the date dialog’s paint ordering, and three observed late label collisions. All46 modules compile. Focused emitted checks pass the actual handoff/default and chosen tones, strict rejection boundaries, final modal publication and label geometry; these fixtures do not establish native acceptance. See [the focused repair record](source/RECOVERY-FINAL-HANDOFF-20261015.md).
+
+R6 genuinely reached puzzles1–13, all four scored wins, all four physical deliveries and the critical fourth-contest changed-state/fresh-process restore. It stopped at the confirmed final-chapter admission defect. Its exact build, saves and evidence are preserved. R7 requires its own separate genuine New Game lineage through all14 puzzles, ending and all58 credits before a finished player release. No intermediate playable build is offered.
+
+## Historical R6 and earlier candidates
+
 The October 14 R6 paint-scope repair is compiled and staged, but unaccepted.
 It resumes the existing guarded read scope before late scene drawing, skips
 world-receipt work when no arrival or cargo is pending, and avoids repeating a

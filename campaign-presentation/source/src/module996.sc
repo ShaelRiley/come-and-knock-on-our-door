@@ -2019,7 +2019,10 @@
   (if [h14Facts i] (if (< i 15) (= lo (| lo bit)) else (= hi (| hi bit))))
   (if (!= i 14) (= bit (* bit 2))))
  (= [h14Facts 28] (h location?)) (= [h14Facts 29] (h onApron?))
- (= [h14Facts 30] (- ((ScriptID 987 0) p06Projection: 6) 1))
+ ; P06 tone is optional: an unset choice uses the professional ending.
+ ; Preserve the three explicit choices and rejection of other nonzero values.
+ (= [h14Facts 30] (if ((ScriptID 987 0) p06Projection: 6)
+  (- ((ScriptID 987 0) p06Projection: 6) 1) else 0))
  (if (not (self p14Context: (h location?) (h onApron?) hi lo ((ScriptID 995 0) h13Location: 433)
   [h14Facts 30] (not (not (q hVCSession?)))
   (self h14RawRoom: H14_HOST_BUNNY) (self h14RawRoom: H14_HOST_FRANKIE) (self h14RawRoom: H14_HOST_MILO) (self h14RawRoom: H14_HOST_VIVIAN)
@@ -2041,7 +2044,8 @@
  (= h (ScriptID 0 0))
  (if (or (not (self h14Base:)) (not (self h14Valid:)) (not (self p14ValidateContext:))
   (h motionPhase?) (!= (h location?) [h14Facts 28]) (!= (h onApron?) [h14Facts 29])
-  (!= (- ((ScriptID 987 0) p06Projection: 6) 1) [h14Facts 30])) (return 0))
+  (!= (if ((ScriptID 987 0) p06Projection: 6)
+   (- ((ScriptID 987 0) p06Projection: 6) 1) else 0) [h14Facts 30])) (return 0))
  (for ((= i 0)) (< i 28) ((++ i)) (if (!= [h14Facts i] (self h14Fact: i)) (return 0))) (return 1))
 (method (h14DateOpen &tmp h i)
  (= h (ScriptID 0 0))
@@ -2081,6 +2085,8 @@
  (Display "1-80 printable ASCII characters; | is unavailable." 100 8 102 102 13 105 1 106 302 121)
  (Display "Enter confirms. Backspace edits. Esc cancels." 100 8 116 102 1 105 1 106 302 121)
  (if [h14Edit 2] (Display "Unsupported character or date too long." 100 8 128 102 12 105 1 106 300 121))
+ ; Main invokes this after all world/UI paint and before its strict End.
+ (= [h14Edit 4] 1)
  (return 1))
 (method (h14DateBind &tmp i source)
  (= source [h14Reader 2])
@@ -2338,7 +2344,6 @@
   (= [h14Reader 11] 1) (= [h14Reader 13] (d sdGeneration?)) (= [h14Reader 14] (d sdPage?))
   (d sdPaintGeneration: -1) (return 1))
  (if (== phase 2)
-  (if (self h14DateDraw:) (= [h14Edit 4] 1))
   (if [h14Owner 0]
    (if (self h14Draw:)
     (if [h14Reader 11] (= [h14Reader 12] 1))

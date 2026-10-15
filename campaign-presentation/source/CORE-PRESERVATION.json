@@ -1378,7 +1378,6 @@
       "roomTitle": "b58b4bb9e68d90b0cab29a0a653b9f335ccec47362b94573e9f262de274063cf",
       "blockPerson": "b86aed7ea3464be90628e85e945e24b7be38c15ef9044b2a533f789ab3351dde",
       "drawJack": "08b5dc491ed207a109c4de6411725a8eeb7e6786875aa15ae0690d576a3aa199",
-      "drawLiving": "7e0e1585f45226cbc2308c7d39f9bb99de21fe2675aa3f0780622711231748f9",
       "livingPerson": "77e9fca46c82c451be5d6f7a90f960604f8d73a10e44058e79b3d33594aafd75",
       "neighborPerson": "8128b64a9d1e6d76626603c3b76b6de7de3a979ec438af65ee78051819925f20",
       "drawKitchen": "c71d545730f773d57fe7d31f54126149737b34365a4a80c5f54c7104171a9285",
@@ -2047,11 +2046,8 @@
       "p14WonCount": "af066a264776e6dd4e5b9deb844f3dea6ababb2ec610023ca5a68d0fc1a1e396",
       "p14NotebookRecord": "24b457588685d3e546d192275d48d011935cfcae22727479bceaa9471beff448",
       "h14Fact": "423c2394ba24e6314a331328967e64f0b9330d140f4d52792598270170fe3783",
-      "h14Ctx": "20e5882738827130abdba0b95863468c2e8f39ff06b423b258a7e12a27c585d3",
-      "h14Match": "731de8bdab234120e28a7db97b0f654b471b7964a499f4e096b127f3e1463857",
       "h14DateOpen": "0201652920ddd4e72a6488b59e5a9281b921c6291c50f6efd8262c9e37bd7afb",
       "h14Input": "4df0c103c4c14aab50a530ffe510d2bfd410faa626fdc675a603bb8f4db64d28",
-      "h14DateDraw": "7681056ba5312c8e35dc2aea922ff808e52f69bca364dac2695ec5fc5359a6b4",
       "h14DateBind": "d98f456f2aaa1206fb5204f3f4f7582cad816a109ffbc548ddbd26f09e34737d",
       "h14DateMatch": "35d32bdfc29aed79347811eacc14c77427906dd61a7fbdf66b27e24d43969a98",
       "h14Label": "cd8a38e6defed8f3790ceb02197af85fca8390b3f8fb92380d8b971913355116",
@@ -2074,7 +2070,6 @@
       "h14Retire": "66316904ce68bb09edc357b4f06363d8da14e3971a4ed3c67747f65d492369c0",
       "h14Open": "ab05e664a50482a31608e0292cab022c7f187d3f319e8a137611ed05b78f417f",
       "h14ReaderCheck": "1a333a8c0a01ffd38b4174a94d515e782e58b2be921de49f8aa3cf02683cfc03",
-      "h14Frame": "20fa3b15456d161162d3478621581953dde6e30341f189f28722cd597a235d2a",
       "h14Voice": "d0b490c4cdda8c2026726c59e61344b63d4d4b64678b453c1bf07ee002be54a7",
       "h14ControlOwn": "b8e413e1423919dcc5bbf3c60de9689e9efdd5f8b606c854801f028d21e7e0a4",
       "h14Control": "d5a5f04f15584b36e1a2686c477ca89287ef8f9dfc9735d9bedfff79ce6248a6",
@@ -6307,9 +6302,9 @@
       "file": "main.sc",
       "method": "render",
       "baseline_sha256": "79e399a166cc43ca82dda66dea13ea8577b33070d61b35769dba28c88b39809f",
-      "candidate_sha256": "a00198b421c04798b5a91ddd65c5c89869aeac6e98ac92ee02772eba9c87fc02",
-      "previous_candidate_sha256": "f1e7e0987af923489be783a77c18d5f09ce86d84de069088a4f64050ab432062",
-      "reason": "RECOVERY-LATE-HEADER-20261014.md: suppress the separate inline preparation status after P13/P14 take ownership; native R3 showed the old caption on world redraws; unchanged story and assets."
+      "candidate_sha256": "de08dfeed86ac25dc8a076afcd38ec5d9d584462d47b60f30dbba78201fc2606",
+      "previous_candidate_sha256": "a00198b421c04798b5a91ddd65c5c89869aeac6e98ac92ee02772eba9c87fc02",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
     },
     {
       "file": "main.sc",
@@ -6609,15 +6604,16 @@
       "file": "module995.sc",
       "method": "h13PaintWorld",
       "baseline_sha256": "1029c326a18ad7ae9668beb06fef0d03d87df930db82f94401341010c2c90f42",
-      "candidate_sha256": "c4b5c543b1c10132180ec6feb9618d05904382c6660ed06583d0ef2964f58c91",
-      "reason": "RECOVERY-RESTORE-UI-FIX-20261013.md: narrowly scoped repair of a reproduced native restore or interface defect; complete strict gameplay validations and all approved assets remain required.",
+      "candidate_sha256": "d8bedc3711c15632c667470d422bfb51a16b93162663c0204776e8604958c18d",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained",
       "review_history": [
         {
           "candidate_sha256": "8915b4bc97ed97eb18de7e85bcc87a41d0279443c1c8b951c1bf59a975f5f3e8",
           "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
           "reason": "LATE-UI-FIX.md: show the genuinely held program at its existing ordinary item-control rectangle, outside menus/readers, and allow the complete PLEDGES label to fit on one line. Retain all original object, scene, paint, ownership and progression checks; neither draw changes any gameplay state."
         }
-      ]
+      ],
+      "previous_candidate_sha256": "c4b5c543b1c10132180ec6feb9618d05904382c6660ed06583d0ef2964f58c91"
     },
     {
       "file": "module995.sc",
@@ -6773,6 +6769,41 @@
       "baseline_commit": "843bac5e99a0b6ad9cb1bd49d319434d5df9911f",
       "candidate_sha256": "d192ea1794b2f96db47382d2f1d15c39a1c6b5b88674546a79d9633f01a3dc9f",
       "reason": "Resume the existing guarded read scope immediately after the renderer boundary, before read-only late phase2 paint. Fail closed before late callbacks if Resume rejects. Strict Begin/End/Boundary/input/save/restore validation and Main phase1 publication gating remain unchanged; native campaign acceptance is separate."
+    },
+    {
+      "file": "module991.sc",
+      "method": "drawLiving",
+      "baseline_sha256": "7e0e1585f45226cbc2308c7d39f9bb99de21fe2675aa3f0780622711231748f9",
+      "candidate_sha256": "9110e8ab262b7c4e3f800730c4fce7159886f9714eddda9215c8bcca3bc64b7a",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Ctx",
+      "baseline_sha256": "20e5882738827130abdba0b95863468c2e8f39ff06b423b258a7e12a27c585d3",
+      "candidate_sha256": "e39b744ffb1cfb79b770376e7521f011eef424814db984da82c2459e7a93e216",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Match",
+      "baseline_sha256": "731de8bdab234120e28a7db97b0f654b471b7964a499f4e096b127f3e1463857",
+      "candidate_sha256": "f183f80705cf0e11b37d9a19d183359be76af84a67d3b988d74c622a21044b1a",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14DateDraw",
+      "baseline_sha256": "7681056ba5312c8e35dc2aea922ff808e52f69bca364dac2695ec5fc5359a6b4",
+      "candidate_sha256": "2f7803dbe5182fade0c96bf1cbcdb70af66b27d50458f0b187c4aabb47f35809",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Frame",
+      "baseline_sha256": "20fa3b15456d161162d3478621581953dde6e30341f189f28722cd597a235d2a",
+      "candidate_sha256": "4b36d01f7349fdfd2d59c0580b2501243377d1d015cac9fb332aadeae01b0b8f",
+      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate."

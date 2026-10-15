@@ -1337,7 +1337,16 @@ creditReducedMotion 0
             pushi 310
             pushi 121
             callk Display, 22
-            L_141e: pushi #h11ReadEnd
+            ; Date entry is a final overlay; world/UI paint must precede it.
+            ; The ordinary strict End still gates its phase1 acknowledgement.
+            L_141e: pushi #h14DateDraw
+            push0
+            push2
+            pushi 996
+            push0
+            callk ScriptID, 4
+            send 4
+            pushi #h11ReadEnd
             push0
             push2
             pushi 993

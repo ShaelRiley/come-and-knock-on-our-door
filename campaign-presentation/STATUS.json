@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "PAINT_SCOPE_R6_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6",
+  "status": "FINAL_HANDOFF_LAYOUT_R7_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_FINAL_HANDOFF_LAYOUT_UNACCEPTED_20261015_R7",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,14 +10,14 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_FRESH_R6_46_MODULES",
+    "fresh_coherent_compile": "PASS_FRESH_R7_46_MODULES",
     "protected_core_and_inventory": "PASS_BUILD_IDENTITY_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_COMPILED990_995_CHANGED_FROM_R5_ALL_OTHER_SCRIPTS_HEAPS_AUDIO_UNCHANGED",
-    "runtime_behavior": "R6_NATIVE_STARTED_ZERO_SAVES_INCOMPLETE",
-    "fresh_static_staging": "PASS_R6_1759_EXACT_GAME_FILES",
-    "bounded_static_source_and_assets": "PASS_R6_4_STATIC_CASES",
+    "static_artifact_comparison": "PASS_ONLY_COMPILED0_991_995_996_CHANGED_FROM_R6_ALL_OTHER_MODULES_AND_1757_AUDIO_FILES_IDENTICAL",
+    "runtime_behavior": "R7_NATIVE_PENDING",
+    "fresh_static_staging": "PASS_R7_1759_EXACT_GAME_FILES",
+    "bounded_static_source_and_assets": "PASS_R7_4_STATIC_CASES",
     "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
-    "static_staging": "PASS_R6_EXACT_1759_FILE_MAP",
+    "static_staging": "PASS_R7_EXACT_1759_FILE_MAP",
     "render_validation": "PASS_ORIGINAL_ADMISSION_EXPRESSIONS_STRICT_VALIDATORS_TRAVEL_DELIVERY_AND_MAIN_PUBLICATION_GUARD_PRESERVED",
     "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
     "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
@@ -26,7 +26,8 @@
     "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
     "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE",
     "paint_scope_emitted": "PASS_R6_13_SCOPE_AND_43_PUBLICATION_WITH_EXPLICIT_FIXTURES_NOT_NATIVE",
-    "portable_emitted_total": "PASS_R6_80_CASES_NOT_NATIVE"
+    "portable_emitted_total": "PASS_R7_24_EMITTED_INVOCATIONS_INCLUDING_23_HANDOFF_11_DATE_CASES_NOT_NATIVE",
+    "final_handoff": "PASS_23_EMITTED_HANDOFF_AND_11_DATE_CASES_NOT_NATIVE"
   },
   "unperformed": [
     "Complete genuine New Game on this changed candidate through all 14 puzzles, four actual contest wins, P13 four physical deliveries, ending and all 58 credits",
@@ -57,12 +58,12 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444",
+  "compiled_receipt_sha256": "d34724eb7a03aa8d613ad5bd5cd410bb1f69b140566ba0ae0e1c1383ca9332be",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
-  "save_compatibility": "R6_REQUIRES_NEW_EMPTY_SAVE_PATH;CHECKED_SCRIPT_LAYOUT_CHANGED;R5_SAVES_PRESERVED_WITH_R5_ONLY",
+  "save_compatibility": "R7_REQUIRES_NEW_EMPTY_SAVE_PATH;R6_BUILD_AND_SAVES_PRESERVED_SEPARATELY",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
@@ -100,6 +101,16 @@
       "observed": "Genuine empty-save New Game completed P01-P12, three actual scored wins, repaired audience routes, meaningful restores and first physical P13 delivery.31 private saves preserved; normal Quit engine0/server0. Header correct after P13 activation/travel. Objective music/voice/laughter/Foley task-stream checks completed.",
       "limits": "Late responsiveness unresolved; no full P13/fourth win/critical VC04 restore/P14/ending/58 credits acceptance. Subjective listening unavailable. These observations do not accept changed R6.",
       "summary": "source/RECOVERY-LATE-HEADER-20261014.md",
+      "applies_to_current_candidate": false
+    },
+    {
+      "date": "2026-10-15",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_PAINT_SCOPE_REPAIR_UNACCEPTED_20261014_R6",
+      "compiled_receipt_sha256": "adf3535aa533640b3f83ddd697bee788a39b4e932ac1cf09f713c2c524d35444",
+      "source_checkpoint": "90209de3633a6dc02ab3f17778f814ada4a97e4e",
+      "observed": "Genuine empty-save R6 New Game completed P01-P13, all four actual scored wins, all four physical deliveries, and critical round2 pending-reply changed-state ordinary restore plus fresh-process restore before normal winning continuation.43 private saves preserved; normal Quit engine0/server0.",
+      "limits": "P14 admission failed for valid unset optional tone; date modal and late labels overlapped. Ending/58credits not reached. Objective opening music/current voice checked; subjective listening and physical Deck controls unavailable. These observations do not accept changed R7.",
+      "summary": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
       "applies_to_current_candidate": false
     }
   ],
