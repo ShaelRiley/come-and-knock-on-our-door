@@ -153,11 +153,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "c19094f314e74e8315055ed889cbe833d09a05e04b85d59d22ca8f47141a7a64"
+      "sha256": "b0b0a29cb4b5f63f8be98b35d67a0d27188e79fbea21b8e7e9ba7131c8a4573d"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "a0a2c7f693a1a442ae34ab82dd0be6399ecea9ce08bf2ec0ce23e90a0805f357"
+      "sha256": "e4243c1e10ab578360ffd6e489d9ea66192427830249912313685cebdcf3b1a3"
     },
     {
       "path": "CREDITS.txt",
@@ -181,7 +181,7 @@
     },
     {
       "path": "RESOURCE-INVENTORY.json",
-      "sha256": "da4c2e7af913155f210a70c5d6ac62f581637b83f9c127687992bf7c257c3f29"
+      "sha256": "2200be2953d494e892d3abe323abfe1270562164c29cc3966bed753b9087e5b2"
     },
     {
       "path": "SCORE-COMPONENT-IMPORT.json",
@@ -345,11 +345,11 @@
     },
     {
       "path": "selectors.json",
-      "sha256": "a9b7a87c65c942ff01523833841b28568f993ffb759e5c29193a77ed1bc24d12"
+      "sha256": "0bbb20beb710a605b1531326133cb075ffb0633a090094582ac503023a7a12d4"
     },
     {
       "path": "src/main.sc",
-      "sha256": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5"
+      "sha256": "7bb00a5dbb0755a563a9a378968b448efaef6e06b7f1b4c4bf1c9140567b06f4"
     },
     {
       "path": "src/module941.sc",
@@ -489,7 +489,7 @@
     },
     {
       "path": "src/module989.sc",
-      "sha256": "3108be5b3c4f25ed0975f58ffe81d74a6eaac1a1355232f96b586dde61f2ab8e"
+      "sha256": "338d5bb53b25ec9383744fe35fabd370e31553806661b2a09a5e49c1302713ed"
     },
     {
       "path": "src/module990.sc",
@@ -513,11 +513,11 @@
     },
     {
       "path": "src/module995.sc",
-      "sha256": "36fd7e407e4a02ea4c6683f121c3b8bc2161dda3fe9fb38086559e7fbbf02ad0"
+      "sha256": "639a2dcb40915237d3f9640f22c4e18f50c99f78346637aa47b1e089a90ee8f1"
     },
     {
       "path": "src/module996.sc",
-      "sha256": "d54717251334d44e56824f06e760b28f3beb4f67349643a228e742a75f82d826"
+      "sha256": "3fad7b59cb287c3ea517cf96f50fc153e23e8fd9a23dad62a832575446390e4e"
     },
     {
       "path": "src/module997.sc",
@@ -549,15 +549,15 @@
     },
     {
       "path": "tests/check_late_ui.py",
-      "sha256": "0b16529b7550f4d254df065d9d9ae803e094942a713b14bb876487e92eabfe7d"
+      "sha256": "9a4ea82a6bb46d2e14e1aabd0b42818c29d66d7900926cdb20ffaeb754ec7ed1"
     },
     {
       "path": "tests/check_date_modal.py",
-      "sha256": "334dc4a837cb255ebddd86d67f335e444e1cb37959c258ec23e079d963fcc266"
+      "sha256": "fe61f838144a49e1367f5ce95d6350bfab893f5db3d8f4d784c0e199fbe6731d"
     },
     {
       "path": "tests/check_p14_tone_handoff.py",
-      "sha256": "153dfbda96c90deeaa3b4e509faad735bda9729c8d61a0b379482ede94375510"
+      "sha256": "b6ee613c43090b8783115e65ae9107cb6e6528c831bcaf006e12619a9b9948c0"
     },
     {
       "path": "RECOVERY-FINAL-HANDOFF-20261015.md",
@@ -569,11 +569,11 @@
     },
     {
       "path": "tests/check_native_session.py",
-      "sha256": "393c9077552e9ea9d23033ff4a433310cf8e87edf6b9f7f2c73cf1de044611a2"
+      "sha256": "818b361307d5876b4ed7c0a8c34a851be6cfefaa17c11f29ab63483e9766cdd2"
     },
     {
       "path": "tests/check_p11_group_approach.py",
-      "sha256": "212fbedf0086a71025936bda57aa72a83a5ff3cb577c43e0c63864e39a6544b5"
+      "sha256": "28486f60366c6489c4a8eead85d912b1a19fde9e08fb523891610eb26f63a5f9"
     },
     {
       "path": "tests/check_p11_payoff_entry.py",
@@ -589,7 +589,7 @@
     },
     {
       "path": "tests/fixtures/P11-R8-REPAIR-REFERENCE.json",
-      "sha256": "7a256538a3cfa623fc46d3a3a4aec50181844437a0ea169c10dd2111e54779e7"
+      "sha256": "bb46d686b556c431a961499c049fcf13a41446470e3db6a9fb9bb3391630cc40"
     },
     {
       "path": "tests/README.md",
@@ -598,6 +598,14 @@
     {
       "path": "tests/check_p12_confetti_caption.py",
       "sha256": "2d85dbad250b6d879e3cae1d796660a2cdd6e31aeb8ed2b00c7943e41f8d09bc"
+    },
+    {
+      "path": "tests/check_presentation.py",
+      "sha256": "ad599d674dfa30fff3c0fb1c571b40c319a07fef41396d76d1ea9b8d52731d00"
+    },
+    {
+      "path": "tests/check_response_scope.py",
+      "sha256": "b762fe4d0524a7a5ded2493ff79ca5d58ae22ad220ea5d8836de41a9c8a7437b"
     }
   ],
   "validation": {

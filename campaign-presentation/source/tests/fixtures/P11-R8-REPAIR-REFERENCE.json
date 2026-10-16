@@ -2,7 +2,7 @@
   "schema": "P11_FROZEN_R8_REPAIR_REFERENCE_V1",
   "native_acceptance": false,
   "baseline_main_sha256": "8c169c015d50427fc8108fd2faa12dd57b8ec17b0a5df80664ffc6ea90fa6f32",
-  "candidate_main_sha256": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5",
+  "candidate_main_sha256": "7bb00a5dbb0755a563a9a378968b448efaef6e06b7f1b4c4bf1c9140567b06f4",
   "baseline_methods_sha256": {
     "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
     "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
@@ -10,7 +10,7 @@
   },
   "candidate_methods_sha256": {
     "approachX": "ac087633a6ec27956aff8b545c5a80755d8a6271e2a111cbb718dfbbb1dedca7",
-    "approachY": "be0a48d26b0db3718428c8721af970122467e25a3bb0933fb056f5b306d9586a",
+    "approachY": "3e8cb1d624bd89ff2c377bae63d8f8c0f1e706656110ff26a6d2cc76537a0835",
     "uiHostAct": "cdbd23a5d61cd0038189863b610020f47a9a96a918185692458f66143114abbe"
   },
   "baseline_neighbor_approaches": {

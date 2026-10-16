@@ -12,6 +12,7 @@ import json
 import resource
 
 from presentation_vm import PresentationVM, S, base
+from inspect_opening_view import decode_view
 
 
 class LateUIFixture(PresentationVM):
@@ -134,16 +135,69 @@ def held_item_labels():
     p = v.instance(995)
     assert v.call(p, 'h13PaintWorld') == 1
     assert 'GUEST PROGRAM' in v.paint
+    backing = (17, 136, 97, 144)
+    font = v.resources[7, 0]
+    glyphs = set()
+    for column, char in enumerate('GUEST PROGRAM'):
+        offset = int.from_bytes(font[6 + ord(char) * 2:8 + ord(char) * 2], 'little')
+        width, height = font[offset:offset + 2]
+        assert (width, height) == (6, 8)
+        rows = font[offset + 2:offset + 2 + height]
+        assert not rows[7], 'Preserve the actual blank last glyph row above the footer'
+        glyphs.update((18 + column * width + x, 137 + y)
+                      for y, row in enumerate(rows) for x in range(width)
+                      if row & (128 >> x))
+    assert all(backing[0] <= x < backing[2] and backing[1] <= y < backing[3]
+               for x, y in glyphs)
+    assert 14 < backing[0] < backing[2] < 145 and 134 < backing[1] < backing[3] <= 144
+    arrows = decode_view(v.resources[0, 228])[0][10]
+    old_arrow_pixels = {(23 + i % arrows['width'], 132 + i // arrows['width'])
+                        for i, value in enumerate(arrows['pixels'])
+                        if value != arrows['clear_key']}
+    assert old_arrow_pixels & glyphs, 'Actual original floor-arrow ink intersects the unchanged label'
+    for room in (0, 4):
+        v.h.p.update(location=room, uiPanel=0)
+        v.ktrace.clear()
+        before = {'properties': {n: dict(v.instance(n).p) for n in (994, 995, 996)},
+                  'locals': {n: {k: list(a) for k, a in v.arrays(n).items()}
+                             for n in (994, 995, 996)}}
+        assert v.call(p, 'h13PaintWorld') == 1
+        after = {'properties': {n: dict(v.instance(n).p) for n in (994, 995, 996)},
+                 'locals': {n: {k: list(a) for k, a in v.arrays(n).items()}
+                            for n in (994, 995, 996)}}
+        assert before == after, 'Held-item contrast must not change owner, domain or receipt state'
+        labels = [(i, args) for i, (name, args) in enumerate(v.ktrace)
+                  if name == 'Display' and base.read_string(args[0]) == 'GUEST PROGRAM']
+        assert len(labels) == 1
+        at, args = labels[0]
+        assert display_rectangle(v, args) == (18, 137, 96, 145)
+        assert args[args.index(102) + 1] == 2 and args[args.index(105) + 1] == 0
+        assert v.ktrace[at - 1] == ('Graph', (11, 136, 17, 144, 97, 1, 0, 0, 0))
+        # Ordered emitted fills remove every pre-existing floor-arrow pixel
+        # under actual bundled-font ink, without touching the footer at144.
+        colors = {point: 15 for point in glyphs}
+        for name, packet in v.ktrace[:at]:
+            if name != 'Graph' or packet[0] != 11:
+                continue
+            _, top, left, bottom, right, _, color, *_ = packet
+            for x, y in colors:
+                if left <= x < right and top <= y < bottom:
+                    colors[x, y] = color
+        assert set(colors.values()) == {0}
     v.paint.clear()
+    v.ktrace.clear()
     p.p['p13ProgramLo'] = 1
     assert v.call(p, 'h13PaintWorld') == 1
     assert 'GUEST PROGRAM' not in v.paint, 'Delivered item must leave held-item band'
+    assert ('Graph', (11, 136, 17, 144, 97, 1, 0, 0, 0)) not in v.ktrace
     p.p['p13ProgramLo'] = 0
     for panel in (2, 4):
         v.h.p['uiPanel'] = panel
         v.paint.clear()
+        v.ktrace.clear()
         v.call(p, 'h13PaintWorld')
         assert 'GUEST PROGRAM' not in v.paint, 'Label must not cover menus/readers'
+        assert ('Graph', (11, 136, 17, 144, 97, 1, 0, 0, 0)) not in v.ktrace
     v.h.p.update(uiPanel=0, location=1)
     v.ktrace.clear()
     assert v.call(p, 'h13PaintWorld') == 1
@@ -173,7 +227,10 @@ def held_item_labels():
     v.call(v.h, 'uiHostWorldControls')
     assert v.hit_object(166, 104) == 13, 'Relocated text remains over the Court exit'
     assert v.hit_object(180, 140) == 433, 'Board control remains at its original position'
-    return [v], {'held_label_states': 4, 'pledge_label_rows': pledge_height // 8,
+    return [v], {'held_label_states': 4, 'held_backing_rooms': 2,
+                 'held_backing_rectangle': backing, 'held_opaque_glyph_pixels': len(glyphs),
+                 'original_floor_arrow_glyph_collisions': len(old_arrow_pixels & glyphs),
+                 'pledge_label_rows': pledge_height // 8,
                  'pledge_text_width': pledge_width, 'emitted_display_width': width,
                  'court_text_rectangle': court_rect, 'board_rectangle': board_rect}
 

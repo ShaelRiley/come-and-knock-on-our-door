@@ -1548,8 +1548,11 @@
   (if (not (self p13AfterRestore:)) (return 0))
   (if [h13Lease 0] (return (self h13Valid:)))) (return 1))
 (method (h13Stored success &tmp cue slot)
+ (if (not success) (return 0))
+ ; P14 ownership freezes the predecessor boundary; never advance its ACKs.
+ (if ((ScriptID 996 0) h14Has:) (return 1))
  ; Called only after actual Main SaveGame returned its storage result.
- (if (or (not success) (not [h13Lease 0]) (not (self h13Ctx:))) (return 0))
+ (if (or (not [h13Lease 0]) (not (self h13Ctx:))) (return 0))
  (for ((= cue 1)) (<= cue 3) ((++ cue)) (= slot (self p13CueSlot: cue))
   (if (and (self p13Present: slot) (not (self p13Present: (+ cue 14))))
    (self p13AcknowledgeAutosave: cue (self p13SerialHi: slot) (self p13SerialLo: slot) p13Epoch 1)))
@@ -1590,6 +1593,8 @@
  ; held-item control. Keep it out of menu and reader presentation bands.
  (if (and (not (h uiPanel?)) (self h13Held: 432))
   (h uiFrame: 134 14 151 145 2)
+  ; Back only the ink band; font0 row7 is blank and the footer starts at144.
+  (Graph 11 136 17 144 97 1 0 0 0)
   (Display "GUEST PROGRAM" 100 18 137 102 2 105 0 106 123 121))
  (if (and (not (self h13WrongShows: 92)) (or (== [h13Cargo 0] (h location?)) (and (== [h13Work 0] 2) [h13Work 5] (== (h location?) 4))))
   (DrawCel 234 0 9 (if (== (h location?) 2) 63 else 92) (if (== (h location?) 2) 65 else 111) -1 0))

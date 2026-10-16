@@ -80,6 +80,45 @@ def run(case):
    else:r[5]=14
    assert frame()==0 and p[0]==0 and v.claims==0
   detail={'scope':'final pose wait unit fixture; domain claim mocked and not campaign evidence','claimed':v.claims}
+ elif case=='p14_cast_layering':
+  class LayerVM(FixtureVM):
+   def __init__(self,room=4,panel=0,valid=1,base_ok=1,apron=0):
+    super().__init__();self.valid_admit=valid;self.base_admit=base_ok;self.actor_room=room
+    self.h.p.update(location=room,uiPanel=panel,onApron=apron,uiDocument=0)
+    self.instance(996).p.update(p14Phase=4,p14SignatureLo=1,
+     p14PinJackLo=1,p14PinBunnyLo=1,p14PinFrankieLo=1,p14PinMiloLo=1,
+     p14PinVivianLo=1,p14PinRitaLo=1,p14PinFelixLo=1,p14PinStringerLo=1)
+   def call(self,o,name,args=()):
+    if o.module.number==996:
+     if name=='h14Valid':return self.valid_admit
+     if name=='h14Base':return self.base_admit
+     if name=='h14RawRoom':return self.actor_room
+    return super().call(o,name,args)
+  checks=[]
+  for panel in (0,2,4):
+   q=LayerVM(panel=panel);q.ktrace.clear();assert q.call(q.instance(996),'h14Draw')==1
+   events=q.ktrace
+   cast=[i for i,(name,args) in enumerate(events) if name=='DrawCel' and args[0] in (219,218,221,236,223,225,222) and args[1]==1]
+   props=[i for i,(name,args) in enumerate(events) if name=='DrawCel' and args[:3] in ((234,0,9),(227,0,7),(224,0,10))]
+   board=[i for i,(name,args) in enumerate(events) if name=='Graph' and args[0]==11]
+   signed=[i for i,(name,args) in enumerate(events) if name=='Display' and base.read_string(args[0])=='SIGNED']
+   assert len(cast)==7 and len(props)==3 and len(board)==9 and len(signed)==1
+   assert max(props+board+signed)<min(cast),('Court cargo or board paints over the cast',panel,props,board,signed,cast)
+   actual=[tuple(args) for name,args in events if name=='DrawCel']
+   assert actual[:3]==[(234,0,9,92,111,-1,0),(227,0,7,205,93,-1,0),(224,0,10,205,69,-1,0)]
+   assert actual[3:]==[(view,1,0,24+41*i,64,-1,96,96) for i,view in enumerate((219,218,221,236,223,225,222))]
+   checks.append({'panel':panel,'cast':len(cast),'props':len(props),'board_and_pin_graphs':len(board),'signed':len(signed)})
+  for room in (0,1):
+   q=LayerVM(room=room);q.ktrace.clear();assert q.call(q.instance(996),'h14Draw')==1
+   draws=[args for name,args in q.ktrace if name=='DrawCel'];assert len(draws)==7
+   assert not any(name=='Graph' for name,args in q.ktrace)
+   words=[base.read_string(args[0]) for name,args in q.ktrace if name=='Display']
+   assert words==(['The End'] if room==1 else [])
+  for kwargs in ({'valid':0},{'base_ok':0},{'apron':1}):
+   q=LayerVM(**kwargs);q.ktrace.clear();assert q.call(q.instance(996),'h14Draw')==0
+   assert not any(name in ('DrawCel','Graph','Display') for name,args in q.ktrace)
+  detail={'court_cases':checks,'non_court_cases':2,'rejected_guard_cases':3,
+   'scope':'explicit room and read-only valid/base admissions; actual emitted painter order, original draw arguments, board pins, SIGNED, The End and rejection guards; not earned native progress'}
  else:raise ValueError(case)
  return {'status':'PASS_EMITTED_NOT_NATIVE','case':case,'instructions':v.steps,'max_rss_kib':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,**detail}
 if __name__=='__main__':print(json.dumps(run(sys.argv[1])))

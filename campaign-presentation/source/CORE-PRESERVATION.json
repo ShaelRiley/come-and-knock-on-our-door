@@ -22,7 +22,6 @@
       "readSave": "7df3fd533579c9af6153f777a6e2c254cb9122a4421a347127de66d857c19ed8",
       "input": "3c2d80fbabe0b49764ea70131d05233a1e1f8666ee88e30505ea5950b7bd3d88",
       "advance": "1ad1e2a353197ee083ca97f92414558337c491184128cdc5f2e02c82dbd58c52",
-      "eventLoop": "0e29b7ae12226a57cd81ea086e82271eb527e55d4a83ac6b0d0c3f21429f58fe",
       "play": "f59174b7e2c7d946c747778f8a66c8a53d093107476601f0586e6f1d63860acc",
       "replay": "51d13ef39b146115bf7e3e5f011dfcbaba74e72b2bd4ba88272591e5c9604023",
       "renderCaption": "d2c50beb623b9ef9abfc7aa77d37a51b913884ef5452e18f86247b6d53a9cba4",
@@ -1164,7 +1163,6 @@
       "h8ToDomain": "3ad7c0b2fa2444a8b2dfe269970e68474c2bc9d4bd083975b7f9942e05a59ff8",
       "h8GlobalBarrier": "ee411e6011996c7991e4fd312dc33bb12def36488f4d66b6f1298ca279113c30",
       "h8SaveReady": "73aaae31c38dcfd0060a06e8d2d696633abdbef16ccda3926346e68f0fb2abc2",
-      "h8InventoryRawValid": "cf1722efc4b4110c6f41f74783b28a3489a0f5b58f8ce5fc3b28e94a61460b6d",
       "h8HandlesCloth": "1a612b4f90580778640a69354412bd2177ef181c69adeacb8bfc62a9bdc01bdc",
       "h8ClothHeld": "b8f3f973235248063cd795fb7650e0d93ff8e7202f9b01f639ee10de67ba8dc5",
       "h8ClothLocation": "fd4f45800ea05e0a235375c584b7310d31cb84f89e108f013953bb2e29b7c267",
@@ -1889,7 +1887,6 @@
       "h13Retire": "7766b84154488216151b5dbb4ea43fbf9f39876a82f7bba7258e41ed549cb461",
       "h13Save": "d6b69f511d95aedcb38ea298ddefe9fc68948454788e8f2a4e05660a73c2fd4c",
       "h13Load": "07266a6d312de8a4f4286bce3eb688cefcb4047122e91dc2979111a2b9259b90",
-      "h13Stored": "46201a979fcd3af3f19ccc9abb12d8b5dcf80078b81545f1ef769f74d3a5dd64",
       "h13Controls": "14c8e7cf3891225cb39eb8d877af513289551fa946d99618e35bb54825cc081d",
       "h13Control": "f1e86833c2c3bb99f03353ea577297f99e0b0834c445a15723456b2a5981fe73",
       "h13Open": "5704d0e1661c25954a5d8d80ecadcfe27fdbf4f83ff87fdba3384691055c1299",
@@ -2048,7 +2045,6 @@
       "h14Label": "cd8a38e6defed8f3790ceb02197af85fca8390b3f8fb92380d8b971913355116",
       "h14Menu": "5f748e90a7603e94f508ca77290a87778edae811e7b63c712aca1c6891bbe474",
       "h14Dispatch": "d75eea21a5a599974a563c6c614a65b2e59eb762bc86e64513eef82548e5ffc9",
-      "h14Choice": "cea233b6cc9b3de47057d3bbf3d86b1dd7082d71cf6acd439391b9415f8d7bd2",
       "h14Has": "7e53508c8b221d29a843a50fad24f31f00693388ecccfb8db61801e410a1cfb9",
       "h14Base": "e511f5a9919ae0b0ecd710e8cdec4c4fe3df0792d77b121844b3655a497bf233",
       "h14Room": "5188fa967c919cc4195f24015fd1d71ebb6ab0e065565c4d13bf63e447fb22c1",
@@ -6284,7 +6280,8 @@
     "openingControlEdge": 6607,
     "openingControlAt": 6608,
     "openingControlClick": 6609,
-    "openingPaintControls": 6610
+    "openingPaintControls": 6610,
+    "h14DateDrain": 6504
   },
   "reviewed_modified_methods": [
     {
@@ -6297,9 +6294,16 @@
       "file": "main.sc",
       "method": "render",
       "baseline_sha256": "79e399a166cc43ca82dda66dea13ea8577b33070d61b35769dba28c88b39809f",
-      "candidate_sha256": "de08dfeed86ac25dc8a076afcd38ec5d9d584462d47b60f30dbba78201fc2606",
+      "candidate_sha256": "4531afec7139d0b2d335e7cfbb08c12296dd5961b8ba89df485c0def0ae11fa8",
       "previous_candidate_sha256": "a00198b421c04798b5a91ddd65c5c89869aeac6e98ac92ee02772eba9c87fc02",
-      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+      "reason": "Move only the existing readonly h14MenuFrame0 staging call into the existing live read scope immediately after successful h11ReadResume. Keep h14Frame0/freeze context in its original outside-scope location, all strict End/close/publication calls, every guard and all other render statements unchanged. Actual emitted R9 reference plus dedicated future compiled placement/hostile physical+proof mutation tests are supplementary; native responsiveness and repaired-candidate acceptance remain pending.",
+      "review_history": [
+        {
+          "candidate_sha256": "de08dfeed86ac25dc8a076afcd38ec5d9d584462d47b60f30dbba78201fc2606",
+          "checkpoint_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+          "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+        }
+      ]
     },
     {
       "file": "main.sc",
@@ -6407,7 +6411,15 @@
       "file": "module996.sc",
       "method": "h14Draw",
       "baseline_sha256": "5a6d87c37bd87673b48256dba1439b409c2f54806ac7bb153e3da1cf13186d70",
-      "candidate_sha256": "6680fc8038cef2023d66a79d450d5cadccaf4be2fd8f24ec13fb261fa6c55efc"
+      "candidate_sha256": "9dd210d46c1d3adde2daa566d804fa8da034e7cb7ceef72c1822f87dcb08904c",
+      "review_history": [
+        {
+          "candidate_sha256": "6680fc8038cef2023d66a79d450d5cadccaf4be2fd8f24ec13fb261fa6c55efc",
+          "checkpoint_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+          "reason": "Historical reviewed h14Draw before actual R9 P14 acquired-cast layering diagnosis."
+        }
+      ],
+      "reason": "Actual R9 acquired P14 native441/462 discriminating overlap pixels match the folded display and none match Rita. Move only the byte-identical Court pot/cart/folded-display/board/SIGNED block before the byte-identical cast loop. Preserve original art/draw arguments, all ownership/reader/restore/publication guards, The End and source53 credit overlay. Exact R10 native verification remains pending."
     },
     {
       "file": "module997.sc",
@@ -6613,13 +6625,18 @@
       "file": "module995.sc",
       "method": "h13PaintWorld",
       "baseline_sha256": "1029c326a18ad7ae9668beb06fef0d03d87df930db82f94401341010c2c90f42",
-      "candidate_sha256": "d8bedc3711c15632c667470d422bfb51a16b93162663c0204776e8604958c18d",
-      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained",
+      "candidate_sha256": "9623e8ae99823fd13976d3c16cb75d34e4505994b39f19602e9033f322b5aa95",
+      "reason": "Actual R9 Reveal-OFF held GUEST PROGRAM caption collides with original floor-arrow ink. Add only a tight black backing x17..96/y136..143 immediately before unchanged text; font0 last row is blank, and footer begins144. Preserve text, border/control geometry, assets, ownership, validation, save/restore and publication. New R10 native verification pending.",
       "review_history": [
         {
           "candidate_sha256": "8915b4bc97ed97eb18de7e85bcc87a41d0279443c1c8b951c1bf59a975f5f3e8",
           "checkpoint_commit": "2e28b7a870e6b41fa66bf97644e015b3bd86b49e",
           "reason": "LATE-UI-FIX.md: show the genuinely held program at its existing ordinary item-control rectangle, outside menus/readers, and allow the complete PLEDGES label to fit on one line. Retain all original object, scene, paint, ownership and progression checks; neither draw changes any gameplay state."
+        },
+        {
+          "candidate_sha256": "d8bedc3711c15632c667470d422bfb51a16b93162663c0204776e8604958c18d",
+          "checkpoint_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+          "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
         }
       ],
       "previous_candidate_sha256": "c4b5c543b1c10132180ec6feb9618d05904382c6660ed06583d0ef2964f58c91"
@@ -6843,13 +6860,18 @@
       "method": "approachY",
       "baseline_sha256": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
       "baseline_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
-      "candidate_sha256": "be0a48d26b0db3718428c8721af970122467e25a3bb0933fb056f5b306d9586a",
-      "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained. Additional observed R8 rack410/411 clipping repair reuses existing p04ApproachY54=138 only, retaining X200 and419/420. Fixed Courtyard scale127 now keeps original player cel below header/caption and above footer; ownership/input/arrival/domain invariants unchanged. Native acceptance pending.",
+      "candidate_sha256": "3e8cb1d624bd89ff2c377bae63d8f8c0f1e706656110ff26a6d2cc76537a0835",
+      "reason": "Actual R9 held rotation420 feedback leaves Jackie elevated after arrival and a10second idle hold. Only420 now reuses existing p04ApproachY54=138. Audience-side419 remains110; approachX and all other behavior/guards remain unchanged. New R10 native verification pending.",
       "review_history": [
         {
           "candidate_sha256": "15e921f860a87e0b8a72aa2ce3ce433357a3912714863b52578c42bdf4c7e8ff",
           "purpose": "Preserved private pre-rack R9 source/compile/stage evidence; no native acceptance",
           "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained."
+        },
+        {
+          "candidate_sha256": "be0a48d26b0db3718428c8721af970122467e25a3bb0933fb056f5b306d9586a",
+          "checkpoint_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+          "reason": "R9 P11 native blocker repair: reuse the existing ordinary Felix54 approach for only group415\u2013418 to prevent persistent idle actor overlap. Approved art/script/hit rectangles/domain/ownership/publication behavior retained. Additional observed R8 rack410/411 clipping repair reuses existing p04ApproachY54=138 only, retaining X200 and419/420. Fixed Courtyard scale127 now keeps original player cel below header/caption and above footer; ownership/input/arrival/domain invariants unchanged. Native acceptance pending."
         }
       ]
     },
@@ -6860,6 +6882,47 @@
       "baseline_commit": "578ad9685b959877d44f3f34b6326c0d816a3a62",
       "candidate_sha256": "cdbd23a5d61cd0038189863b610020f47a9a96a918185692458f66143114abbe",
       "reason": "R9 P11 native blocker repair: grant the existing strict same-anchor waiting-Fold Look continuation before ordinary speechCancel; retain canonical receiver, group/verb/target/stationary conditions and unchanged h11PayMove guard, serial/history, owner, save/restore, error and publication checks. Native acceptance pending."
+    },
+    {
+      "file": "module995.sc",
+      "method": "h13Stored",
+      "baseline_sha256": "46201a979fcd3af3f19ccc9abb12d8b5dcf80078b81545f1ef769f74d3a5dd64",
+      "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+      "candidate_sha256": "0c75c2d16909b2174afa8e033dda7f3e9bfbc1c719fd9becc21ae224099372e9",
+      "reason": "Actual R9 NEW P14 save49 wrote a valid disk snapshot, then predecessor h13Stored acknowledged the pending TOAST cue and changed frozen predecessor history in live state. After P14 owns the campaign, return before any predecessor context/ACK mutation. Preserve all2046 frozen words and strict h14HistoryValid; do not alter Main storage order or snapshot/history validation. Before transfer all three existing successful autosave ACKs and failed-write/idempotence behavior are unchanged. Focused emitted evidence is supplementary, new R10 native save/restore route remains required. Failed storage still returns0 before any ownership or context work."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Choice",
+      "baseline_sha256": "cea233b6cc9b3de47057d3bbf3d86b1dd7082d71cf6acd439391b9415f8d7bd2",
+      "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+      "candidate_sha256": "c46c1040b779b26555bc5ee38d209ae2b08b1830a9a22fef6aaa4528dbdd1ca0",
+      "reason": "Actual R9 first approved card pin committed visibly but its authored success feedback never opened. Actual emitted proof also loses the authored missing-approval error line: existing h14Ctx refresh invalidates/clears the first domain line before existing h14Open0 checks it. Retain only authored p14Line0 in a local temporary and reappend only after successful context refresh; preserve all menu-paint/context/id, domain, Match/Open/reader, ownership/history and save guards. No new lines or progress. Repeated already-pinned result with line0 remains silent. Native repaired-candidate verification remains pending. If the context refresh fails, close the panel and return before any append/Open; even a still-matching old context cannot publish stale feedback."
+    },
+    {
+      "file": "main.sc",
+      "method": "eventLoop",
+      "baseline_sha256": "0e29b7ae12226a57cd81ea086e82271eb527e55d4a83ac6b0d0c3f21429f58fe",
+      "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+      "candidate_sha256": "9316f274bc9541b109906f640a1cc8e22982fcee042d05562189473e37a52378",
+      "reason": "After unchanged ordinary Main input dispatch, call the new bounded date-editor helper once. Preserve every other event-loop statement, normal controls, timers and quit behavior."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14DateDrain",
+      "baseline_sha256": null,
+      "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+      "candidate_sha256": "97c79bd57b4a1fddc9654dc141c3a7eb78c79d191257e88b2712f8a94c48f3db",
+      "reason": "New bounded ordinary-date FIFO helper: at most7 extra pending KeyDown printable/Backspace or KeyUp events per frame, each through unchanged full h14Input/h14Base. Peek all event types; restore all5 event fields on nonconsuming barrier; leave Return/Esc/mouse/Fkeys/unsupported KeyDown queued for ordinary handling after strict paint; preserve warnings and normal Quit. No cross-frame cache/saved fields, ownership, progression or validation changes. Native responsiveness remains unverified.",
+      "new_method": true
+    },
+    {
+      "file": "module989.sc",
+      "method": "h8InventoryRawValid",
+      "baseline_sha256": "cf1722efc4b4110c6f41f74783b28a3489a0f5b58f8ce5fc3b28e94a61460b6d",
+      "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
+      "candidate_sha256": "e6ce6139a038606f92485315c64f5d6f806cc6923fcbe1f3d02a6e86462bfac2",
+      "reason": "Observed post-P14 native Save refusal; actual emitted signed-terms/loan/Ready fixtures independently prove a legacy save-admission incompatibility: raw originals25/399 are retained, but player-facing campaignHeld correctly reports their new custody. Admit only these exact raw originals under canonical Main, h14Owns/full h14Valid and original publisher provenance:399 canonical990/h9InventoryValid;25 canonical984/q8Valid/qFind/qHeld. Keep all original duplicate/extent/forbidden/cloth checks and internal-zero semantics, all save/restore ordering, original h9InventoryValid and player-facing held behavior unchanged. This repairs a proved component blocker; the unique first native failing gate was not directly observed. Repaired-emission/native verification remains required."
     }
   ],
   "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred."

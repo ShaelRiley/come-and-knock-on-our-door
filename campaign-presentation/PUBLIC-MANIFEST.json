@@ -1,9 +1,9 @@
 {
-  "status": "P11_POSE_PAYOFF_P12_RACK_CAPTION_R9_CANONICAL_COMPILE_STAGE_IDENTITY_GUARDS_PASS_NATIVE_ACCEPTANCE_PENDING",
+  "status": "R10_ROTATION420_PROGRAM_CONTRAST_P14_LAYERING_FINAL_SAVE_GUARD_FEEDBACK_RETAINED_ORIGINALS_BOUNDED_DATE_INPUT_LATE_MENU_SCOPE_COMPILED_STAGED_NATIVE_ACCEPTANCE_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866",
+  "compiled_receipt_sha256": "eb965f9ae8889f99915eb86e0d783cc6af68dd7cd1a728c39b4c6954cf0df560",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14503,
-      "sha256": "1bef5751c446511886a3b0d52825b8db7adfa8f4ead73037bdbb6e642601ca3f"
+      "bytes": 15161,
+      "sha256": "b71af493c54e9dbde2264dd4193471023bed4ed131b00d579c9dbae8942719e6"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 49390,
-      "sha256": "71404d2bfd85c8d503e2961c0704d65a854a9305cf65040de665d4ec489b2d3d"
+      "bytes": 54445,
+      "sha256": "166c0be82cc634afae6856ab35f4f413f6dbd724f69e67bb8bc64c7451c9bc17"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4367,13 +4367,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2441,
-      "sha256": "c19094f314e74e8315055ed889cbe833d09a05e04b85d59d22ca8f47141a7a64"
+      "bytes": 2497,
+      "sha256": "b0b0a29cb4b5f63f8be98b35d67a0d27188e79fbea21b8e7e9ba7131c8a4573d"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 340538,
-      "sha256": "a0a2c7f693a1a442ae34ab82dd0be6399ecea9ce08bf2ec0ce23e90a0805f357"
+      "bytes": 347329,
+      "sha256": "e4243c1e10ab578360ffd6e489d9ea66192427830249912313685cebdcf3b1a3"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4382,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 24761,
-      "sha256": "315db0bc1dc8352fa7a06f40f783d2fd7ec9b33b54273a0f1e839a03437936d2"
+      "bytes": 25045,
+      "sha256": "2e970bde518b259e7e59fc05f36048544dd49a925f17e12ee9fcf0ff6706f5ad"
     },
     {
       "path": "source/LICENSE.md",
@@ -4423,7 +4423,7 @@
     {
       "path": "source/RESOURCE-INVENTORY.json",
       "bytes": 29255,
-      "sha256": "da4c2e7af913155f210a70c5d6ac62f581637b83f9c127687992bf7c257c3f29"
+      "sha256": "2200be2953d494e892d3abe323abfe1270562164c29cc3966bed753b9087e5b2"
     },
     {
       "path": "source/SCORE-COMPONENT-IMPORT.json",
@@ -15967,13 +15967,13 @@
     },
     {
       "path": "source/selectors.json",
-      "bytes": 100725,
-      "sha256": "a9b7a87c65c942ff01523833841b28568f993ffb759e5c29193a77ed1bc24d12"
+      "bytes": 100749,
+      "sha256": "0bbb20beb710a605b1531326133cb075ffb0633a090094582ac503023a7a12d4"
     },
     {
       "path": "source/src/main.sc",
-      "bytes": 333258,
-      "sha256": "b8c151653b71d045bca0b4f710f7ae2dd3d0b2e7522ea560c0c9f2f1405a26f5"
+      "bytes": 333325,
+      "sha256": "7bb00a5dbb0755a563a9a378968b448efaef6e06b7f1b4c4bf1c9140567b06f4"
     },
     {
       "path": "source/src/module941.sc",
@@ -16147,8 +16147,8 @@
     },
     {
       "path": "source/src/module989.sc",
-      "bytes": 193261,
-      "sha256": "3108be5b3c4f25ed0975f58ffe81d74a6eaac1a1355232f96b586dde61f2ab8e"
+      "bytes": 193825,
+      "sha256": "338d5bb53b25ec9383744fe35fabd370e31553806661b2a09a5e49c1302713ed"
     },
     {
       "path": "source/src/module990.sc",
@@ -16177,13 +16177,13 @@
     },
     {
       "path": "source/src/module995.sc",
-      "bytes": 130783,
-      "sha256": "36fd7e407e4a02ea4c6683f121c3b8bc2161dda3fe9fb38086559e7fbbf02ad0"
+      "bytes": 131031,
+      "sha256": "639a2dcb40915237d3f9640f22c4e18f50c99f78346637aa47b1e089a90ee8f1"
     },
     {
       "path": "source/src/module996.sc",
-      "bytes": 160417,
-      "sha256": "d54717251334d44e56824f06e760b28f3beb4f67349643a228e742a75f82d826"
+      "bytes": 161608,
+      "sha256": "3fad7b59cb287c3ea517cf96f50fc153e23e8fd9a23dad62a832575446390e4e"
     },
     {
       "path": "source/src/module997.sc",
@@ -16217,23 +16217,23 @@
     },
     {
       "path": "source/tests/check_date_modal.py",
-      "bytes": 8778,
-      "sha256": "334dc4a837cb255ebddd86d67f335e444e1cb37959c258ec23e079d963fcc266"
+      "bytes": 17748,
+      "sha256": "fe61f838144a49e1367f5ce95d6350bfab893f5db3d8f4d784c0e199fbe6731d"
     },
     {
       "path": "source/tests/check_late_ui.py",
-      "bytes": 10932,
-      "sha256": "0b16529b7550f4d254df065d9d9ae803e094942a713b14bb876487e92eabfe7d"
+      "bytes": 14260,
+      "sha256": "9a4ea82a6bb46d2e14e1aabd0b42818c29d66d7900926cdb20ffaeb754ec7ed1"
     },
     {
       "path": "source/tests/check_native_session.py",
-      "bytes": 6852,
-      "sha256": "393c9077552e9ea9d23033ff4a433310cf8e87edf6b9f7f2c73cf1de044611a2"
+      "bytes": 6882,
+      "sha256": "818b361307d5876b4ed7c0a8c34a851be6cfefaa17c11f29ab63483e9766cdd2"
     },
     {
       "path": "source/tests/check_p11_group_approach.py",
-      "bytes": 10648,
-      "sha256": "212fbedf0086a71025936bda57aa72a83a5ff3cb577c43e0c63864e39a6544b5"
+      "bytes": 11034,
+      "sha256": "28486f60366c6489c4a8eead85d912b1a19fde9e08fb523891610eb26f63a5f9"
     },
     {
       "path": "source/tests/check_p11_payoff_entry.py",
@@ -16247,8 +16247,8 @@
     },
     {
       "path": "source/tests/check_p14_tone_handoff.py",
-      "bytes": 10264,
-      "sha256": "153dfbda96c90deeaa3b4e509faad735bda9729c8d61a0b379482ede94375510"
+      "bytes": 31529,
+      "sha256": "b6ee613c43090b8783115e65ae9107cb6e6528c831bcaf006e12619a9b9948c0"
     },
     {
       "path": "source/tests/check_paint_scope.py",
@@ -16262,8 +16262,8 @@
     },
     {
       "path": "source/tests/check_presentation.py",
-      "bytes": 4606,
-      "sha256": "5a63d6b78d1cbcef748cb68fb2eff3e21f9e32406487a4fa150685eddd76a89d"
+      "bytes": 7405,
+      "sha256": "ad599d674dfa30fff3c0fb1c571b40c319a07fef41396d76d1ea9b8d52731d00"
     },
     {
       "path": "source/tests/check_recovery_r3.py",
@@ -16282,13 +16282,13 @@
     },
     {
       "path": "source/tests/check_response_scope.py",
-      "bytes": 2625,
-      "sha256": "5de193a35ca4738971c35bc4d54dbef5647e7ef9961706f6d3c43ab161185e36"
+      "bytes": 6642,
+      "sha256": "b762fe4d0524a7a5ded2493ff79ca5d58ae22ad220ea5d8836de41a9c8a7437b"
     },
     {
       "path": "source/tests/fixtures/P11-R8-REPAIR-REFERENCE.json",
       "bytes": 2167,
-      "sha256": "7a256538a3cfa623fc46d3a3a4aec50181844437a0ea169c10dd2111e54779e7"
+      "sha256": "bb46d686b556c431a961499c049fcf13a41446470e3db6a9fb9bb3391630cc40"
     },
     {
       "path": "source/tests/p11_fold_fixture.py",
@@ -17435,15 +17435,15 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
-  "runtime_behavior": "R9_NATIVE_UNRUN_PENDING;HISTORICAL_RECORDS_RETAINED",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_ROTATION_PROGRAM_LAYERING_SAVE_GUARD_UNACCEPTED_20261016_R10",
+  "runtime_behavior": "R10_NATIVE_UNRUN_PENDING;R9_ACTUAL_FAILURES_PRESERVED;HISTORICAL_RECORDS_RETAINED",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
-  "staged_game_file_map_sha256": "c5957737db549bcdaaafa3980fa11a27c7e60b3aa31d597303bc60dc9b77f1b2",
+  "staged_game_file_map_sha256": "e4b37f3e1e9fd79fe1b80a4a3b06c914234e9de4f6f7b70bf186e6a03c47d329",
   "native_session_launcher": "source/native_session.py",
   "native_session_report": "NATIVE-SESSION-20261011.md",
   "steamos_recovery_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -17472,6 +17472,12 @@
       "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P14_INVENTORY_APRON_UNACCEPTED_20261015_R8",
       "compiled_receipt_sha256": "6fa2e7bd0260beeb153889ac64f00983ca6e19d83fd82ede48a649ec7c822987",
       "staged_game_file_map_sha256": "a2cba5a6cfc31d7b620160cfac5a7b7c9981024fa510be6081b88fddc23b6e83",
+      "native_acceptance": false
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_P11_POSE_PAYOFF_UNACCEPTED_20261015_R9",
+      "compiled_receipt_sha256": "41bdde8df444dacf2d65469ad22c8ff30814c2d30d1f2f33b07a94aa60ec2866",
+      "staged_game_file_map_sha256": "c5957737db549bcdaaafa3980fa11a27c7e60b3aa31d597303bc60dc9b77f1b2",
       "native_acceptance": false
     }
   ]

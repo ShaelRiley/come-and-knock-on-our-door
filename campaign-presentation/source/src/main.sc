@@ -864,7 +864,6 @@ creditReducedMotion 0
 
     ; Delivered offset0x0fff; 521 original instructions
     (method (render &tmp t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11 t12 t13 t14 t15 t16 t17 t18 t19 t20 t21 t22 t23 t24 t25 t26 t27 t28 t29 t30 t31 t32 t33 t34 t35 t36 t37 t38 t39 t40 t41 t42 t43 t44 t45 t46 t47 t48 t49 t50 t51 t52 t53 t54 t55 t56 t57 t58 t59 t60 t61 t62 t63 t64 t65 t66 t67 t68 t69 t70 t71 t72 t73 t74 t75 t76 t77 t78 t79 t80 t81 t82 t83 t84 t85 t86 t87 t88 t89 t90 t91 t92 t93 t94 t95 t96 t97 t98 t99 t100)
-((ScriptID 996 0) h14MenuFrame: 0)
 ((ScriptID 996 0) h14Frame: 0)
 
 ((ScriptID 995 0) h13Frame: 0)
@@ -888,6 +887,7 @@ creditReducedMotion 0
 (if p09 (p09 h9Frame: 0))
 (if (not ((ScriptID 993 0) h11ReadResume:))
  ((ScriptID 993 0) h11ReadEnd:) ((ScriptID 993 0) h11ReadFinish:) (= [h11MainRead 0] 0) (return 0))
+((ScriptID 996 0) h14MenuFrame: 0)
 
         (asm
             pushi 6
@@ -2340,7 +2340,7 @@ creditReducedMotion 0
  (while (not quitRequested)
   (GetEvent 32767 self)
   (if (and (not opening) (not menuOpen) (not paused)) (self uiPointer:))
-  (if type (self input:))
+  (if type (self input:) ((ScriptID 996 0) h14DateDrain:))
   ; Controls/choosers rebase lastTick inside their actual transition.
   ; Read now AFTER input so only post-transition elapsed is applied.
   (= now (GetTime)) (= elapsed (- now lastTick)) (= lastTick now)
@@ -3559,7 +3559,9 @@ creditReducedMotion 0
 
 (if ((ScriptID 994 0) h12SuccessorHas: arg1) (return 128))
 
-(if (or (== arg1 419) (== arg1 420)) (return 110))
+(if (== arg1 419) (return 110))
+
+(if (== arg1 420) (return (self p04ApproachY: 54)))
 
 (if (and (>= arg1 415) (<= arg1 418)) (return (self p04ApproachY: 54)))
 

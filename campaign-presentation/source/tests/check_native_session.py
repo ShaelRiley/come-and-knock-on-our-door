@@ -43,9 +43,9 @@ class NativeSessionChecks(unittest.TestCase):
         result = native.verify_game()
         self.assertEqual(result["game_files"], 1759)
         self.assertFalse(result["native_acceptance"])
-        # Frozen R9 stage after P11 payoff/pose, P12 caption and rack grounding repairs.
+        # Frozen R10 stage after actual rotation420, PROGRAM, cast layering, final-save and authored feedback repairs.
         self.assertEqual(result["game_file_map_sha256"],
-                         "c5957737db549bcdaaafa3980fa11a27c7e60b3aa31d597303bc60dc9b77f1b2")
+                         "e4b37f3e1e9fd79fe1b80a4a3b06c914234e9de4f6f7b70bf186e6a03c47d329")
 
     def test_forged_stage_map_is_rejected(self):
         source = self.root / "campaign/source"

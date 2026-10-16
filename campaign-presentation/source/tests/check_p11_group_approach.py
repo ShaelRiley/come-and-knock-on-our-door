@@ -135,9 +135,16 @@ def run(build=None):
   cases.append('actual emitted read-only rack approach '+obj+' grounds feet without changing X')
  for obj,point in fixture['baseline_neighbor_approaches'].items():
   before=snapshot(v)
-  assert tuple(v.call(v.h,'approach'+a,(int(obj),)) for a in ('X','Y'))==tuple(point)
+  actual=tuple(v.call(v.h,'approach'+a,(int(obj),)) for a in ('X','Y'))
+  if obj=='420':
+   assert tuple(point)==(200,110), 'Preserve the frozen defective rotation reference'
+   assert actual==(200,expected[1])==(200,138)
+   label='actual emitted house-side rotation420 grounds feet using existing Felix Y, retaining X200'
+  else:
+   assert actual==tuple(point)
+   label='unrelated neighboring approach '+obj+' retains frozen emitted result'
   assert snapshot(v)==before
-  cases.append('unrelated neighboring approach '+obj+' retains frozen emitted result')
+  cases.append(label)
  geometry_results=[]
  for facing in (0,1):
   old=geometry(v,tuple(fixture['baseline_defective_anchor']),facing);new=geometry(v,expected,facing)
@@ -149,19 +156,21 @@ def run(build=None):
  # Late Courtyard uses the unchanged fixed scale127 whenever p05 exists.
  # p05=1 is a truthy-only motionScale fixture here; no p05 method is called.
  v.h.p.update(location=4,p05=1)
- for facing in (0,1):
-  bounds=[]
-  for anchor in (fixture['baseline_defective_rack_anchor'],fixture['repaired_rack_approaches']['410']):
-   v.h.p.update(motionX=anchor[0]*64,motionY=anchor[1]*64,motionLoop=facing)
-   before=snapshot(v);v.h.draws.clear();v.call(v.h,'drawJack');assert snapshot(v)==before
-   packet=next(p for p in v.h.draws if p[0]==214);pixels=projected_pixels(packet)
-   bounds.append({'anchor':anchor,'draw':packet,'opaque_bounds':[min(x for x,y in pixels),min(y for x,y in pixels),max(x for x,y in pixels)+1,max(y for x,y in pixels)+1],
-                  'header_overlap':sum(y<43 for x,y in pixels),'serve_caption_overlap':sum(168<=x<320 and 44<=y<52 for x,y in pixels),'footer_overlap':sum(y>=144 for x,y in pixels)})
-  assert bounds[0]['header_overlap']>0 and bounds[0]['serve_caption_overlap']>0
-  assert bounds[1]['header_overlap']==bounds[1]['serve_caption_overlap']==bounds[1]['footer_overlap']==0
-  assert bounds[1]['opaque_bounds'][3]>=138 and tuple(bounds[1]['draw'][6:])==(127,127)
-  geometry_results.append({'rack_baseline':bounds[0],'rack_candidate':bounds[1]})
-  cases.append('unchanged Courtyard original-art facing'+str(facing)+' clears header/caption and remains grounded above footer')
+ for obj in (410,420):
+  anchor=tuple(v.call(v.h,'approach'+a,(obj,)) for a in ('X','Y'))
+  for facing in (0,1):
+   bounds=[]
+   for point in (fixture['baseline_defective_rack_anchor'],anchor):
+    v.h.p.update(motionX=point[0]*64,motionY=point[1]*64,motionLoop=facing)
+    before=snapshot(v);v.h.draws.clear();v.call(v.h,'drawJack');assert snapshot(v)==before
+    packet=next(p for p in v.h.draws if p[0]==214);pixels=projected_pixels(packet)
+    bounds.append({'anchor':point,'draw':packet,'opaque_bounds':[min(x for x,y in pixels),min(y for x,y in pixels),max(x for x,y in pixels)+1,max(y for x,y in pixels)+1],
+                   'header_overlap':sum(y<43 for x,y in pixels),'serve_caption_overlap':sum(168<=x<320 and 44<=y<52 for x,y in pixels),'footer_overlap':sum(y>=144 for x,y in pixels)})
+   assert bounds[0]['header_overlap']>0 and bounds[0]['serve_caption_overlap']>0
+   assert bounds[1]['header_overlap']==bounds[1]['serve_caption_overlap']==bounds[1]['footer_overlap']==0
+   assert bounds[1]['opaque_bounds'][3]>=138 and tuple(bounds[1]['draw'][6:])==(127,127)
+   geometry_results.append({'object':obj,'rack_baseline':bounds[0],'rack_candidate':bounds[1]})
+   cases.append('unchanged Courtyard original-art object'+str(obj)+' facing'+str(facing)+' clears header/caption and remains grounded above footer')
  # Existing owner-family branches remain authoritative over their own objects.
  for number,array,obj in ((995,'h13Lease',432),(996,'h14Owner',25)):
   state=v.arrays(number)[array];old=state[0];state[0]=1;before=snapshot(v)

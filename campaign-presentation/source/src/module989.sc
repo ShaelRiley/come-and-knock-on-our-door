@@ -1281,7 +1281,16 @@ h8Restoring 0
   (= obj (h8Host p04UIItem: i))
   (if (or (< obj 0) (and (>= i (h8Host uiInventoryExtent?)) obj)
     (== obj 34) (== obj 36) (== obj 40) (== obj 63) (== obj 81)) (return 0))
-  (if (and obj (not (h8Host campaignHeld: obj))) (return 0))
+  (if (and obj (not (h8Host campaignHeld: obj)))
+   ; P14 retains the originals' raw cells while its validated successor owns
+   ; live custody. Require each original publisher; never claim player-held.
+   (if (not (and (or (== obj 25) (== obj 399))
+    (== h8Host (ScriptID 0 0)) ((ScriptID 996 0) h14Owns: obj) ((ScriptID 996 0) h14Valid:)
+    (if (== obj 399)
+     (and (== (h8Host p09?) (ScriptID 990 0)) ((ScriptID 990 0) h9InventoryValid:))
+    else
+     (and (== (h8Host p04?) (ScriptID 984 0)) ((ScriptID 984 0) q8Valid:)
+      (>= ((ScriptID 984 0) qFind: 25) 0) ((ScriptID 984 0) qHeld: h8Host 25))))) (return 0)))
   (if obj (for ((= j 0)) (< j i) ((++ j)) (if (== obj (h8Host p04UIItem: j)) (return 0))))
   ; Exclude only the exact ACKed original now owned by the checked host continuation.
   ; Every physical roster must already agree. Unclaimed padding remains a conflict.
