@@ -1,9 +1,9 @@
 {
-  "status": "R11_CANONICAL_GATES_PASS_SOURCE_BANK_AND_NATIVE_ACCEPTANCE_PENDING",
+  "status": "R12_CANONICAL_GATES_AND_SIX_LAUNCHER_FIXTURES_PASS_NATIVE_ACCEPTANCE_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
+  "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 56158,
-      "sha256": "6ae2a1df51ba556a8dd2d1a14b20a00d684048a6756f81c6dd77b3cea036ba7c"
+      "bytes": 56878,
+      "sha256": "4e0b64aa1af7ef4e6130b7b0fd5449bc34b09896760bda3dfdbe89b876ea303e"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4367,8 +4367,8 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2446,
-      "sha256": "305db48984421c6e6ca8136d154c88e346845d1f72e8817c7a330ff295b6a5a3"
+      "bytes": 2425,
+      "sha256": "669021d7ca105a5a0ce758f3a6a2cd886785dd258de9b624c88a4014aee38d23"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
@@ -4382,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 26400,
-      "sha256": "474f18dc546cc2367b7861ab21071cec7deb20c677d54600bb4317f0a9f3179f"
+      "bytes": 27620,
+      "sha256": "e4ff3e175952c756f44db25db18acf4e1266dd3809f85b11a8ddedcc18464d3e"
     },
     {
       "path": "source/LICENSE.md",
@@ -4402,8 +4402,8 @@
     },
     {
       "path": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-      "bytes": 11839,
-      "sha256": "001f74be87e61ab0fae715c58f1c5fe22e8093bd555b8a89087938aab35e25b4"
+      "bytes": 14533,
+      "sha256": "30325c8ff5313012be1ad4dd34f78c3eaee691b7b630c70937e62d3732a98abc"
     },
     {
       "path": "source/RECOVERY-LATE-HEADER-20261014.md",
@@ -4423,7 +4423,7 @@
     {
       "path": "source/RESOURCE-INVENTORY.json",
       "bytes": 29255,
-      "sha256": "2200be2953d494e892d3abe323abfe1270562164c29cc3966bed753b9087e5b2"
+      "sha256": "6966f1cb9b827ac1e0563c8b8f7c32050e7f01ee12ecde42041021b81c0d72d3"
     },
     {
       "path": "source/SCORE-COMPONENT-IMPORT.json",
@@ -13497,48 +13497,48 @@
     },
     {
       "path": "source/assets/resources/160.sound.bin",
-      "bytes": 4898,
-      "sha256": "f513751e09c770dcc4b1a5a4619bde8d5cceed147b03269612ae80180a42bf6f"
+      "bytes": 4902,
+      "sha256": "50ecc7579a837a9bd64a2e35a1aedab5c55b1b0d01ade328ef840cfefcbe1014"
     },
     {
       "path": "source/assets/resources/161.sound.bin",
-      "bytes": 4357,
-      "sha256": "b0edf2b7678ae0f007fb373d303f391e28231c970f18ab5db266c0aca64f9040"
+      "bytes": 4361,
+      "sha256": "90c3db31c6d9e322e375853e8254ee1369d41928ee4e0c32f45106e198d87b3f"
     },
     {
       "path": "source/assets/resources/162.sound.bin",
-      "bytes": 3851,
-      "sha256": "4a76b8e46af12d4d39e0d01891020377f9cb5f303dd051c938e2da966ed9d967"
+      "bytes": 3855,
+      "sha256": "bc8223fc329e34670039778f6e15cdb85347bb968c52895cd2ced51a0042198c"
     },
     {
       "path": "source/assets/resources/163.sound.bin",
-      "bytes": 3346,
-      "sha256": "807e17bf990043bff7efd815a4b0880d6bdc7f1c9e7a1aa91cf40991189b925f"
+      "bytes": 3350,
+      "sha256": "30457df53c4b74def7ff34a16f37ced59b96c1a9c8c05f542bf55924a43c18da"
     },
     {
       "path": "source/assets/resources/164.sound.bin",
-      "bytes": 2809,
-      "sha256": "d3f73aeb9407787c015efdc66ec6659a54b245fad4ca470bb49e0148932cf5e4"
+      "bytes": 2813,
+      "sha256": "0f26b72e7cda0e9c5964ebf1a46cfc377518975efdb4cf0e6ae7307744a3a616"
     },
     {
       "path": "source/assets/resources/165.sound.bin",
-      "bytes": 2292,
-      "sha256": "459c059a54f52f22c9786923042454c7bc0d770ac794791458d7c592f54523bf"
+      "bytes": 2296,
+      "sha256": "0eb9fa1de4967a1364e8986ee4ecd387094146ddd9bef5c3e597a21ef16a7b5d"
     },
     {
       "path": "source/assets/resources/166.sound.bin",
-      "bytes": 1759,
-      "sha256": "328c226b12c69bc646c5053b769c81d2bc5e7f80756f7da4a6835932ff95a020"
+      "bytes": 1763,
+      "sha256": "f0e73c9623fc4401c3a8ddb9f0c3a8b145e9603b2cc3091818a502988a1a6313"
     },
     {
       "path": "source/assets/resources/167.sound.bin",
-      "bytes": 1240,
-      "sha256": "463fa23dd98e8adceacdfe12a769629327414b3c2e77ade2b77adb8703ee9acd"
+      "bytes": 1244,
+      "sha256": "5aa851f5fa1beb58d4850ab29cc6d9316378a50d61d749cd564e1feca31ffe7d"
     },
     {
       "path": "source/assets/resources/168.sound.bin",
-      "bytes": 694,
-      "sha256": "2c24fc40542f2103b9c0ae3ac0e3643cc7a8c33f33450a62c1c662fe29b5987d"
+      "bytes": 698,
+      "sha256": "ee0a659abaaaafe2f9a278f1845a38943deaa82b715be3a8cc4c46df8de4f5f5"
     },
     {
       "path": "source/assets/resources/200.text.bin",
@@ -14252,48 +14252,48 @@
     },
     {
       "path": "source/authoring/score/assets/160.sound.bin",
-      "bytes": 4898,
-      "sha256": "f513751e09c770dcc4b1a5a4619bde8d5cceed147b03269612ae80180a42bf6f"
+      "bytes": 4902,
+      "sha256": "50ecc7579a837a9bd64a2e35a1aedab5c55b1b0d01ade328ef840cfefcbe1014"
     },
     {
       "path": "source/authoring/score/assets/161.sound.bin",
-      "bytes": 4357,
-      "sha256": "b0edf2b7678ae0f007fb373d303f391e28231c970f18ab5db266c0aca64f9040"
+      "bytes": 4361,
+      "sha256": "90c3db31c6d9e322e375853e8254ee1369d41928ee4e0c32f45106e198d87b3f"
     },
     {
       "path": "source/authoring/score/assets/162.sound.bin",
-      "bytes": 3851,
-      "sha256": "4a76b8e46af12d4d39e0d01891020377f9cb5f303dd051c938e2da966ed9d967"
+      "bytes": 3855,
+      "sha256": "bc8223fc329e34670039778f6e15cdb85347bb968c52895cd2ced51a0042198c"
     },
     {
       "path": "source/authoring/score/assets/163.sound.bin",
-      "bytes": 3346,
-      "sha256": "807e17bf990043bff7efd815a4b0880d6bdc7f1c9e7a1aa91cf40991189b925f"
+      "bytes": 3350,
+      "sha256": "30457df53c4b74def7ff34a16f37ced59b96c1a9c8c05f542bf55924a43c18da"
     },
     {
       "path": "source/authoring/score/assets/164.sound.bin",
-      "bytes": 2809,
-      "sha256": "d3f73aeb9407787c015efdc66ec6659a54b245fad4ca470bb49e0148932cf5e4"
+      "bytes": 2813,
+      "sha256": "0f26b72e7cda0e9c5964ebf1a46cfc377518975efdb4cf0e6ae7307744a3a616"
     },
     {
       "path": "source/authoring/score/assets/165.sound.bin",
-      "bytes": 2292,
-      "sha256": "459c059a54f52f22c9786923042454c7bc0d770ac794791458d7c592f54523bf"
+      "bytes": 2296,
+      "sha256": "0eb9fa1de4967a1364e8986ee4ecd387094146ddd9bef5c3e597a21ef16a7b5d"
     },
     {
       "path": "source/authoring/score/assets/166.sound.bin",
-      "bytes": 1759,
-      "sha256": "328c226b12c69bc646c5053b769c81d2bc5e7f80756f7da4a6835932ff95a020"
+      "bytes": 1763,
+      "sha256": "f0e73c9623fc4401c3a8ddb9f0c3a8b145e9603b2cc3091818a502988a1a6313"
     },
     {
       "path": "source/authoring/score/assets/167.sound.bin",
-      "bytes": 1240,
-      "sha256": "463fa23dd98e8adceacdfe12a769629327414b3c2e77ade2b77adb8703ee9acd"
+      "bytes": 1244,
+      "sha256": "5aa851f5fa1beb58d4850ab29cc6d9316378a50d61d749cd564e1feca31ffe7d"
     },
     {
       "path": "source/authoring/score/assets/168.sound.bin",
-      "bytes": 694,
-      "sha256": "2c24fc40542f2103b9c0ae3ac0e3643cc7a8c33f33450a62c1c662fe29b5987d"
+      "bytes": 698,
+      "sha256": "ee0a659abaaaafe2f9a278f1845a38943deaa82b715be3a8cc4c46df8de4f5f5"
     },
     {
       "path": "source/authoring/score/assets/220.mid",
@@ -16207,8 +16207,8 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 10904,
-      "sha256": "fabc55509f354badebc82d61b47a8db3226da6b5e6581d8f2fce5e15e9bbd903"
+      "bytes": 11634,
+      "sha256": "6bdf4c9f171e309af16aa8a56bff1d70cda373c76a00255f28fce71391dbcbb9"
     },
     {
       "path": "source/tests/check_apron_labels.py",
@@ -16237,8 +16237,13 @@
     },
     {
       "path": "source/tests/check_native_session.py",
-      "bytes": 6864,
-      "sha256": "7b9f3e4242cd0e94df2373ae48ae50ff26ca933f7cd121f3800367783db80aa0"
+      "bytes": 6873,
+      "sha256": "35cc77d7ae17744188610f1ad2686e22a5c0c1c826b15f3bf646385788453202"
+    },
+    {
+      "path": "source/tests/check_opening_reverb.py",
+      "bytes": 6933,
+      "sha256": "cfbe7ff82fc21667f64296a47e69b6cbbd8c796ef336c58b4119f565cb78e860"
     },
     {
       "path": "source/tests/check_p11_group_approach.py",
@@ -17450,15 +17455,15 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
-  "runtime_behavior": "R11_NATIVE_UNRUN;R10_FAILURES_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_OPENING_REVERB_PREFIX_UNACCEPTED_20261017_R12",
+  "runtime_behavior": "R12_NATIVE_UNRUN;R11_FAILURES_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
-  "staged_game_file_map_sha256": "a04a6f4d9349d3987d5bb2c817fd5bb2da9b8645db5e991a0bf83481e311f1a8",
+  "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
   "native_session_launcher": "source/native_session.py",
   "native_session_report": "NATIVE-SESSION-20261011.md",
   "steamos_recovery_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -17499,6 +17504,12 @@
       "save_lineage": "CAKOOD_PRESENTATION_NATIVE_ROTATION_PROGRAM_LAYERING_SAVE_GUARD_UNACCEPTED_20261016_R10",
       "compiled_receipt_sha256": "eb965f9ae8889f99915eb86e0d783cc6af68dd7cd1a728c39b4c6954cf0df560",
       "staged_game_file_map_sha256": "e4b37f3e1e9fd79fe1b80a4a3b06c914234e9de4f6f7b70bf186e6a03c47d329",
+      "native_acceptance": false
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
+      "compiled_receipt_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
+      "staged_game_file_map_sha256": "a04a6f4d9349d3987d5bb2c817fd5bb2da9b8645db5e991a0bf83481e311f1a8",
       "native_acceptance": false
     }
   ]

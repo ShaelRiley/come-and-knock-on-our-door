@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "R11_CANONICAL_GATES_PASS_SOURCE_BANK_AND_GENUINE_NATIVE_ACCEPTANCE_PENDING",
+  "status": "R12_CANONICAL_SOURCE_BUILD_STAGE_STATIC_COMPONENT_FILE_AND_LAUNCHER_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
   "new_game_required": true,
   "source_modules": 46,
@@ -63,7 +63,7 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
+  "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
@@ -236,7 +236,7 @@
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "BANK_SANITIZED_R11_SOURCE_THEN_FRESH_EXACT_BUILD_NEW_GAME_ALL14_FOUR_WINS_CRITICAL_RESTORES_AUDIO_ENDING_ALL58_CREDITS_AND_PACKAGE_ACCEPTANCE;NO_RELEASE",
+  "current_blocker": "R12_SOURCE_CHECKPOINT_FOCUSED_NATIVE_REPLAY_AND_FRESH_FULL_GAME_ACCEPTANCE_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -750,14 +750,14 @@
       "native_acceptance": false
     }
   ],
-  "staged_game_file_map_sha256": "a04a6f4d9349d3987d5bb2c817fd5bb2da9b8645db5e991a0bf83481e311f1a8",
+  "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
   "checks": {
-    "fresh_coherent_compile": "PASS_CANONICAL_R11_46_MODULES_FRESH_PHASE_B_NOT_NATIVE",
-    "bounded_static_source_and_assets": "PASS_R11_FOUR_STATIC_CHECKS",
-    "portable_emitted_total": "PASS_R11_FOCUSED5_AND_FULL35_DISTINCT_EMITTED_INVOCATIONS_EXACT_RECEIPT_NOT_NATIVE",
-    "runtime_behavior": "R11_NATIVE_UNRUN",
-    "exact_staged_game_files": "PASS_R11_EXACT1759_STAGED_FILES_AND_CHECK_GAME_NOT_NATIVE",
-    "launcher_guard_checks": "PASS_R11_SIX_FIXTURE_GUARDS_NOT_NATIVE"
+    "fresh_coherent_compile": "PASS_CANONICAL_R12_46_MODULES_FRESH_PHASE_B_NOT_NATIVE",
+    "bounded_static_source_and_assets": "PASS_R12_FOUR_STATIC_CHECKS",
+    "portable_emitted_total": "PASS_R12_FOCUSED1_RESOURCE_FORMAT_AND_FULL35_EMITTED_PLUS1_RESOURCE_FORMAT_EXACT_RECEIPT_NOT_NATIVE",
+    "runtime_behavior": "R12_NATIVE_UNRUN",
+    "exact_staged_game_files": "PASS_R12_EXACT1759_ACTUAL_GAME_FILES_NOT_NATIVE",
+    "launcher_guard_checks": "PASS_R12_SIX_CANONICAL_LAUNCHER_FIXTURES_NOT_NATIVE"
   },
   "r11_stateless_readback_source": {
     "scope": "h14Match owned source22 outside render-live only; no added fields/selectors/cache/lifecycle",
@@ -765,6 +765,28 @@
     "derived_scratch_limit": "One deliberately stale bad-cargo case differs only in3 validation scratch words; persistent/reader/audio/UI/receipt state identical",
     "native_responsiveness": "UNVERIFIED",
     "ordinary_page_close_reopen": "PENDING_NATIVE;CANDIDATE_EMITTED_COUNTERPART_UNPERFORMED;AGGREGATE_MAIN_CLOSE_FIXTURE_TIMEOUTS_UNPASSED",
+    "native_acceptance": false
+  },
+  "r12_opening_reverb_repair": {
+    "changed_sound_resources": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ],
+    "authoring_mirrors_match": true,
+    "change": "Zero-delta initial BF5000 after CF00 only; original terminal BF5000 remains",
+    "script_ABI_selector_changes": false,
+    "all1757_PCM_files_unchanged": true,
+    "source100_notes_timing_noncontrol_preserved": true,
+    "resource_format_check": "PRIVATE_BASELINE168_80_FAIL;PROPOSED_NINE_HEADERS_PASS;NOT_NATIVE",
+    "historical_R11_native": "P01_PORCH_SAVE001;REPLAY_FELIX_TO_TITLE_SETREVERB_ASSERTION;INCOMPLETE_UNACCEPTED",
+    "native_replay_tail": "UNRUN_R12",
     "native_acceptance": false
   }
 }

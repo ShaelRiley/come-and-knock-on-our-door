@@ -153,7 +153,7 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "305db48984421c6e6ca8136d154c88e346845d1f72e8817c7a330ff295b6a5a3"
+      "sha256": "669021d7ca105a5a0ce758f3a6a2cd886785dd258de9b624c88a4014aee38d23"
     },
     {
       "path": "CORE-PRESERVATION.json",
@@ -181,7 +181,7 @@
     },
     {
       "path": "RESOURCE-INVENTORY.json",
-      "sha256": "2200be2953d494e892d3abe323abfe1270562164c29cc3966bed753b9087e5b2"
+      "sha256": "6966f1cb9b827ac1e0563c8b8f7c32050e7f01ee12ecde42041021b81c0d72d3"
     },
     {
       "path": "SCORE-COMPONENT-IMPORT.json",
@@ -561,7 +561,7 @@
     },
     {
       "path": "RECOVERY-FINAL-HANDOFF-20261015.md",
-      "sha256": "001f74be87e61ab0fae715c58f1c5fe22e8093bd555b8a89087938aab35e25b4"
+      "sha256": "b44db9f7464e90421bbf46b62b590874c6326041c0acd1251a25a3c16651125c"
     },
     {
       "path": "tests/check_apron_labels.py",
@@ -569,7 +569,7 @@
     },
     {
       "path": "tests/check_native_session.py",
-      "sha256": "7b9f3e4242cd0e94df2373ae48ae50ff26ca933f7cd121f3800367783db80aa0"
+      "sha256": "35cc77d7ae17744188610f1ad2686e22a5c0c1c826b15f3bf646385788453202"
     },
     {
       "path": "tests/check_p11_group_approach.py",
@@ -593,7 +593,7 @@
     },
     {
       "path": "tests/README.md",
-      "sha256": "fabc55509f354badebc82d61b47a8db3226da6b5e6581d8f2fce5e15e9bbd903"
+      "sha256": "6bdf4c9f171e309af16aa8a56bff1d70cda373c76a00255f28fce71391dbcbb9"
     },
     {
       "path": "tests/check_p12_confetti_caption.py",
@@ -618,21 +618,25 @@
     {
       "path": "tests/check_readback_guard.py",
       "sha256": "f8ecaf795d3ac56799e154e4b61d666f2a432eb050a9b1fa7fdaf5217bbe7d31"
+    },
+    {
+      "path": "tests/check_opening_reverb.py",
+      "sha256": "cfbe7ff82fc21667f64296a47e69b6cbbd8c796ef336c58b4119f565cb78e860"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_CANONICAL_R11_FRESH46_MODULES",
-    "portable_component_checks": "PASS_CANONICAL_R11_FOUR_STATIC_FOCUSED5_FULL35_EMITTED_AND_SIX_LAUNCHER_GUARDS_NOT_NATIVE",
-    "runtime_behavior": "R11_UNACCEPTED_NATIVE_UNRUN",
-    "native_full_candidate": "UNRUN_FOR_R11_EXACT_CANDIDATE",
-    "genuine_campaign_ending": "UNRUN_FOR_R11_EXACT_CANDIDATE",
+    "coherent_compile": "PASS_CANONICAL_R12_FRESH46_MODULES",
+    "portable_component_checks": "PASS_CANONICAL_R12_FOUR_STATIC_FOCUSED1_RESOURCE_35_EMITTED_PLUS1_RESOURCE_FORMAT_NOT_NATIVE;SIX_LAUNCHER_GUARDS_PENDING",
+    "runtime_behavior": "R12_UNACCEPTED_NATIVE_UNRUN",
+    "native_full_candidate": "UNRUN_FOR_R12_EXACT_CANDIDATE",
+    "genuine_campaign_ending": "UNRUN_FOR_R12_EXACT_CANDIDATE",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
+    "coherent_compile_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
     "static_staging": "PASS_EXACT1759_STAGED_FILES",
-    "exact_game_identity": "PASS_EXACT1759_GAME_FILES_NOT_NATIVE",
-    "launcher_guards": "PASS_SIX_FIXTURE_GUARDS_NOT_NATIVE"
+    "exact_game_identity": "PASS_R12_ACTUAL1759_GAME_FILES_NOT_NATIVE",
+    "launcher_guards": "PASS_R12_SIX_CANONICAL_FIXTURE_CHECKS_NOT_NATIVE"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_OPENING_REVERB_PREFIX_UNACCEPTED_20261017_R12",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim.",
   "historical_validation": [
@@ -731,6 +735,23 @@
         "launcher_guards": "PASS_SIX_CANONICAL_FIXTURE_CHECKS_NOT_NATIVE_GAMEPLAY"
       },
       "historical_only": true
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
+      "validation": {
+        "coherent_compile": "PASS_CANONICAL_R11_FRESH46_MODULES",
+        "portable_component_checks": "PASS_CANONICAL_R11_FOUR_STATIC_FOCUSED5_FULL35_EMITTED_AND_SIX_LAUNCHER_GUARDS_NOT_NATIVE",
+        "runtime_behavior": "R11_UNACCEPTED_NATIVE_UNRUN",
+        "native_full_candidate": "UNRUN_FOR_R11_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R11_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
+        "static_staging": "PASS_EXACT1759_STAGED_FILES",
+        "exact_game_identity": "PASS_EXACT1759_GAME_FILES_NOT_NATIVE",
+        "launcher_guards": "PASS_SIX_FIXTURE_GUARDS_NOT_NATIVE"
+      },
+      "historical_only": true,
+      "native_result": "FIRST_NEW_GAME_PORCH_SAVED001;HELD_REPLAY_FELIX_TO_TITLE_ENGINE_ASSERTION;NO_FULL_GAME_ACCEPTANCE"
     }
   ]
 }

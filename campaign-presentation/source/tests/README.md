@@ -134,3 +134,10 @@ R11 stateless final readback guard factoring:
     python tests/check_readback_guard.py
 
 The seven emitted cases retain actual P13/P14/history/context/text-bank validators, all five event fields, unpainted-reader/no-audio/no-receipt checks, and original render-live fallback. One hostile cargo case explicitly models an existing R5 memo admission. Earlier completed P1-P12 baseline/provider scalars remain synthetic. The owned-source22 Match change introduces no cache, fields, selectors or lifecycle hook. Measured emitted instruction savings do not establish native elapsed responsiveness; ordinary page/Close/reopen and exact-candidate full-game acceptance remain separate.
+
+
+R12 opening suffix resource-format check:
+
+    python tests/check_opening_reverb.py
+
+This resource-format invocation verifies the actual signed SCI startup control byte, all nine explicit tick0 reverb0 prefixes, unchanged terminal events, source100 identity, and frozen noncontrol raw-track/event/tick digests. It executes no VM, native engine, audio device, save or campaign. The complete R12 component suite contains35 existing emitted invocations plus this one resource-format invocation; these36 processes are supplementary evidence. Native held/reduced-motion Replay Opening through the final title and ordinary return is required separately. Scripts/ABI, all authored notes/timing and all1,757 PCM files remain unchanged.
