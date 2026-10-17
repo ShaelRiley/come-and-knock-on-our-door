@@ -43,9 +43,9 @@ class NativeSessionChecks(unittest.TestCase):
         result = native.verify_game()
         self.assertEqual(result["game_files"], 1759)
         self.assertFalse(result["native_acceptance"])
-        # Frozen R12 stage after initial reverb prefixes in nine opening suffixes; scripts and PCM unchanged.
+        # Frozen R13 stage after four pause-menu mouse thresholds; exact current runtime required.
         self.assertEqual(result["game_file_map_sha256"],
-                         "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b")
+                         "a9496f87a58562641d3723d9e61ba69be51b1527d5830810a2c685fefe52b2c7")
 
     def test_forged_stage_map_is_rejected(self):
         source = self.root / "campaign/source"

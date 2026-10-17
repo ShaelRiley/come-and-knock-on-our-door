@@ -1,9 +1,9 @@
 {
-  "status": "R12_CANONICAL_GATES_AND_SIX_LAUNCHER_FIXTURES_PASS_NATIVE_ACCEPTANCE_PENDING",
+  "status": "R13_CANONICAL_COMPILE_STAGE_FOCUSED_STATIC_FILE_AND_LAUNCHER_GUARDS_PASS_NATIVE_ACCEPTANCE_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": false,
-  "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
+  "compiled_receipt_sha256": "54106f02da91ca91fbf10b114b2e222d04e9c8f2124968b0b749b9095b4e9687",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15161,
-      "sha256": "b71af493c54e9dbde2264dd4193471023bed4ed131b00d579c9dbae8942719e6"
+      "bytes": 15559,
+      "sha256": "6b537572e2ba0ba70aaf1aa2918abf94ab0276ad793882056bbff72a7092e2ec"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 56878,
-      "sha256": "4e0b64aa1af7ef4e6130b7b0fd5449bc34b09896760bda3dfdbe89b876ea303e"
+      "bytes": 62949,
+      "sha256": "e7f38146a93758251dfed7f5bba8536279e824846fda1892624f84f5875ba95f"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4367,13 +4367,13 @@
     },
     {
       "path": "source/BUILD-PROFILE.json",
-      "bytes": 2425,
-      "sha256": "669021d7ca105a5a0ce758f3a6a2cd886785dd258de9b624c88a4014aee38d23"
+      "bytes": 2416,
+      "sha256": "3ba7ebbe10aa246ea3cdae15177865fa614107b6d0192d04e81f6f5197e4520b"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
-      "bytes": 351423,
-      "sha256": "9f91e547b6bb89a0a30d8b7a617cc2af5b24e4e00459f73367fae714068d4c47"
+      "bytes": 352280,
+      "sha256": "c0d32abed822e9bce60a4bcd2faf2fe0a752ada0555953ce9b873db3760010a6"
     },
     {
       "path": "source/CREDITS.txt",
@@ -4382,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 27620,
-      "sha256": "e4ff3e175952c756f44db25db18acf4e1266dd3809f85b11a8ddedcc18464d3e"
+      "bytes": 28723,
+      "sha256": "33593bba690d43a741332704adafe0008e3d0497305825a55c37610446c3cc91"
     },
     {
       "path": "source/LICENSE.md",
@@ -4402,8 +4402,8 @@
     },
     {
       "path": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-      "bytes": 14533,
-      "sha256": "30325c8ff5313012be1ad4dd34f78c3eaee691b7b630c70937e62d3732a98abc"
+      "bytes": 16996,
+      "sha256": "6f85fa57416d6aee2b4c9bbcaca423a11e864326d0dde7ffff2637d466c31b96"
     },
     {
       "path": "source/RECOVERY-LATE-HEADER-20261014.md",
@@ -15973,7 +15973,7 @@
     {
       "path": "source/src/main.sc",
       "bytes": 333292,
-      "sha256": "af6040b184dc3b96fbb767bc876bbeaff544468a6598518ca388155cfdd8b93c"
+      "sha256": "338bbe1c03a3e2834e079711fa98dbb94d7fe7f6cf73bdc966be845084c22425"
     },
     {
       "path": "source/src/module941.sc",
@@ -16207,8 +16207,8 @@
     },
     {
       "path": "source/tests/README.md",
-      "bytes": 11634,
-      "sha256": "6bdf4c9f171e309af16aa8a56bff1d70cda373c76a00255f28fce71391dbcbb9"
+      "bytes": 12803,
+      "sha256": "a0b23035643ff9f61504cfe28f32ddba8d428a4fcf5b382cf306a72d2748c454"
     },
     {
       "path": "source/tests/check_apron_labels.py",
@@ -16237,8 +16237,8 @@
     },
     {
       "path": "source/tests/check_native_session.py",
-      "bytes": 6873,
-      "sha256": "35cc77d7ae17744188610f1ad2686e22a5c0c1c826b15f3bf646385788453202"
+      "bytes": 6862,
+      "sha256": "a1932923591798b7b23035eac1ad8f6b66bd84b3cabd6c3c9d765046273fa4aa"
     },
     {
       "path": "source/tests/check_opening_reverb.py",
@@ -16269,6 +16269,11 @@
       "path": "source/tests/check_paint_scope.py",
       "bytes": 9963,
       "sha256": "a6b8777af142af13be4f8c88aa24425b20fa3b74805a9c0aeb1913074ff3de6f"
+    },
+    {
+      "path": "source/tests/check_pause_menu_hits.py",
+      "bytes": 5636,
+      "sha256": "02e8f33486a564b7389d9fbce82c2630bb60b0ab6e8553718d1c6809dc3f6a8a"
     },
     {
       "path": "source/tests/check_phase1_publication.py",
@@ -16307,8 +16312,8 @@
     },
     {
       "path": "source/tests/fixtures/P11-R8-REPAIR-REFERENCE.json",
-      "bytes": 2620,
-      "sha256": "52c1316c5890f6de9a467b6d5a6def9059150b9b1dd451373a94ff61b0a782fb"
+      "bytes": 3035,
+      "sha256": "30a4e4b567e16d18043564844b4524d9a79f5b25c999f4eae19e96540b0a646a"
     },
     {
       "path": "source/tests/p11_fold_fixture.py",
@@ -17455,15 +17460,15 @@
   "private_native_proof_or_protocols_included": false,
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_OPENING_REVERB_PREFIX_UNACCEPTED_20261017_R12",
-  "runtime_behavior": "R12_NATIVE_UNRUN;R11_FAILURES_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_MENU_HIT_REGISTRATION_UNACCEPTED_20261017_R13",
+  "runtime_behavior": "R13_NATIVE_UNRUN;SCOPED_R12_MENU_FAILURE_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_native_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
+  "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
-  "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
+  "staged_game_file_map_sha256": "a9496f87a58562641d3723d9e61ba69be51b1527d5830810a2c685fefe52b2c7",
   "native_session_launcher": "source/native_session.py",
   "native_session_report": "NATIVE-SESSION-20261011.md",
   "steamos_recovery_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -17510,6 +17515,14 @@
       "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
       "compiled_receipt_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
       "staged_game_file_map_sha256": "a04a6f4d9349d3987d5bb2c817fd5bb2da9b8645db5e991a0bf83481e311f1a8",
+      "native_acceptance": false
+    },
+    {
+      "status": "R12_CANONICAL_GATES_AND_SIX_LAUNCHER_FIXTURES_PASS_NATIVE_ACCEPTANCE_PENDING",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_OPENING_REVERB_PREFIX_UNACCEPTED_20261017_R12",
+      "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
+      "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
+      "runtime_behavior": "R12_NATIVE_UNRUN;R11_FAILURES_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
       "native_acceptance": false
     }
   ]

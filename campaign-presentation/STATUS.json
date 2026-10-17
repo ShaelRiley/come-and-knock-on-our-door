@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "R12_CANONICAL_SOURCE_BUILD_STAGE_STATIC_COMPONENT_FILE_AND_LAUNCHER_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
+  "status": "R13_CANONICAL_COMPILE_STAGE_FOCUSED_STATIC_FILE_AND_LAUNCHER_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_MENU_HIT_REGISTRATION_UNACCEPTED_20261017_R13",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -10,36 +10,24 @@
   "credit_cards": 58,
   "fictional_writers": 8,
   "objective_checks": {
-    "fresh_coherent_compile": "PASS_CANONICAL_R10_46_MODULES_FRESH_PHASE_B_RECEIPT_NOT_NATIVE",
-    "protected_core_and_inventory": "PASS_CANONICAL_R10_BUILD_IDENTITY_AND_FOUR_STATIC_CHECKS",
-    "static_artifact_comparison": "PASS_ONLY_REVIEWED_MODULES0_989_995_996_AND_GENERATED_SELECTOR6504_CHANGED_OTHER42_MODULE_ROWS_AND_ALL1757_AUDIO_IDENTICAL_TO_R9",
-    "runtime_behavior": "R10_NATIVE_UNRUN",
-    "fresh_static_staging": "PASS_CANONICAL_R10_1759_EXACT_GAME_FILES",
-    "bounded_static_source_and_assets": "PASS_CANONICAL_R10_FOUR_STATIC_CASES",
-    "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
-    "static_staging": "PASS_CANONICAL_R10_EXACT_1759_FILE_MAP_AND_ACTUAL_FILE_IDENTITY",
-    "render_validation": "PASS_R10_FOCUSED_EMITTED_CHECKS_STRICT_OWNERSHIP_RESTORE_ERROR_AND_ACK_GUARDS_PRESERVED;NOT_NATIVE",
-    "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
-    "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
-    "late_ui_emitted_20261011": "PASS_3_SCENE_ADMISSION_FIXTURE_CASES_NOT_NATIVE",
-    "steamos_recovery_20261011": "PASS_EXACT_CANDIDATE_AND_INSTALLED_RUNTIME_CAPABILITIES; SCOPED_NATIVE_OPENING_SAVE_AND_NORMAL_EXIT; COMPLETE_GAME_UNVERIFIED",
-    "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
-    "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE",
-    "paint_scope_emitted": "PASS_R6_13_SCOPE_AND_43_PUBLICATION_WITH_EXPLICIT_FIXTURES_NOT_NATIVE",
-    "portable_emitted_total": "PASS_R10_34_DISTINCT_EMITTED_INVOCATIONS_AGAINST_FRESH_UNCHANGED_CURRENT_RECEIPT_NOT_NATIVE",
-    "final_handoff": "PASS_R10_POST_TRANSFER_SAVE_HISTORY_AUTHORED_FEEDBACK_RETAINED_ORIGINAL_SAVE_ADMISSION_LAYERING_DATE_INPUT_AND_MENU_SCOPE_EMITTED_REGRESSIONS;NATIVE_PENDING"
+    "source_scope": "ONLY_FOUR_MAIN_INPUT_MOUSE_THRESHOLDS;ALL274_OTHER_MAIN_METHODS_SOURCE_EXACT;NO_FIELDS_SELECTORS_ASSET_OR_SCRIPT_TEXT_CHANGE",
+    "baseline_menu_regression": "R12_ACTUAL_NATIVE_LOAD_CLICK_OPENS_SAVE;112_EMITTED_CASES_FAIL38_KEYBOARD18_PASS_NOT_NATIVE",
+    "fresh_coherent_compile": "PASS_R13_FRESH46_PHASE_B_NOT_NATIVE",
+    "protected_core_and_inventory": "PASS_R13_FOUR_STATIC_CASES_NOT_NATIVE",
+    "runtime_artifact_comparison": "PASS_R13_OTHER45_MODULE_ROWS_91_SCRIPT_HEAP_MAIN_HEAP_LOCALS_PROPERTIES_SELECTORS_ALIASES_AND1757_AUDIO_IDENTICAL;MAIN_SCRIPT_2_BYTES_SHORTER",
+    "focused_emitted_regressions": "PASS_R13_SIX_RELEVANT_EMITTED_INVOCATIONS_INCLUDING112_MENU_CASES_NOT_NATIVE",
+    "runtime_behavior": "R13_NATIVE_UNRUN",
+    "fresh_static_staging": "PASS_R13_EXACT1759_STAGED_FILES",
+    "exact_game_identity": "PASS_R13_ACTUAL1759_FILES_NOT_NATIVE",
+    "launcher_guard_checks": "PASS_R13_SIX_NAMED_CANONICAL_FIXTURES_NOT_NATIVE"
   },
   "unperformed": [
-    "Sanitized R10 source checkpoint banking and separately recorded GitHub tree verification",
-    "Separate genuine exact-R10 New Game through all14 puzzles, four actual contest wins, all four P13 physical deliveries, ending and all58 credits",
-    "Native R10 regression of rotation420 grounding, held PROGRAM visibility, P14 cast layering, preserved authored feedback, usable date responsiveness and late menu behavior",
-    "Native R10 ordinary saves and changed-live-state/fresh-process restores after P14 acquisition, after terms signing, during pencil loan and at ending readiness",
-    "Critical fourth-contest pending-reply changed-live-state ordinary and fresh-process restores on exact R10",
-    "P14 companion travel, final freeze-frame/applause and every credit card/page on exact R10",
-    "Objective actual-game-stream music, representative voice/laughter/Foley and ending applause on exact R10",
-    "Subjective listening and acoustic quality assessment",
-    "Physical Steam Deck button/axis and Gaming Mode testing; isolated mouse/keyboard and per-process joystick configuration are distinct evidence",
-    "Legitimate PhaseC promotion, clean standalone-package launch/save/load/audio/exit, finished GitHub publication and independent asset verification"
+    "Sanitized R13 source checkpoint banking and separately verified GitHub tree, then actual native controls/full-game acceptance",
+    "Actual R13 native mouse Save/Load/Replay/Resume/Quit/Audience controls, changed-live-state and fresh-process ordinary save/load",
+    "Separate genuine exact-R13 New Game through14 puzzles/four actual wins/critical fourth-contest restores/P13four physical deliveries/P14save boundaries and companions/ending/applause/all58credits",
+    "Actual R13 music/voice/laughter/Foley/applause objective game-stream playback and usable responsiveness",
+    "Subjective listening/acoustic quality and actual physical Steam Deck controls; no synthetic/controller-configuration substitution",
+    "Legitimate PhaseC promotion with complete1759-byte carry, clean standalone package smoke, finished GitHub publication and independent asset verification"
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
@@ -63,12 +51,12 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
+  "compiled_receipt_sha256": "54106f02da91ca91fbf10b114b2e222d04e9c8f2124968b0b749b9095b4e9687",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
-  "save_compatibility": "R11_REQUIRES_NEW_EMPTY_SAVE_PATH_AND_GENUINE_NEW_GAME;ALL_R10_SOURCE_RUNTIME_SAVES_AND_EVIDENCE_PRESERVED_SEPARATELY",
+  "save_compatibility": "R13_REQUIRES_NEW_EMPTY_SAVE_PATH_AND_GENUINE_NEW_GAME;R12_SOURCE_RUNTIME_SAVES_AND_EVIDENCE_PRESERVED_SEPARATELY",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
@@ -232,23 +220,32 @@
       "preservation": "Exact R7 source/runtime, saves and private evidence preserved; task runtime stopped with engine exit0. No complete-game or finished-release acceptance.",
       "correction": "R8 three-method inventory/apron label correction; current compilation/native regression pending.",
       "applies_to_current_candidate": false
+    },
+    {
+      "candidate_commit": "a0c3d25bc4ac25eb75fcee6df782cd591fe0f306",
+      "candidate_github_commit": "1d79b5f71345e29919ae5a85ee5f95f2c9c01472",
+      "candidate_compile_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
+      "observed": "Scoped genuine New Game reached own006; held/reduced-motion opening replay through final title/normal return and ordinary/fresh-process restore were checked. Clicking visible LOAD opened Save; full-game acceptance stopped. Normal Quit and isolated server exit0 recorded.",
+      "correction": "Four mouse threshold constants only in Main.input; new focused test reproduces emitted mismatch.",
+      "limits": "No complete campaign/ending/credits/controller acceptance; private evidence/saves excluded.",
+      "applies_to_current_candidate": false
     }
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "R12_SOURCE_CHECKPOINT_FOCUSED_NATIVE_REPLAY_AND_FRESH_FULL_GAME_ACCEPTANCE_PENDING;NO_RELEASE",
+  "current_blocker": "R13_VERIFIED_SOURCE_BANK_AND_GENUINE_NATIVE_MENU_AND_COMPLETE_GAME_ACCEPTANCE_PENDING;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
   "native_session_preparation": {
     "report": "NATIVE-SESSION-20261011.md",
     "launcher": "source/native_session.py",
-    "exact_staged_game_files": "PASS_CANONICAL_R10_1759_ACTUAL_GAME_FILES_NATIVE_SESSION_CHECK_GAME",
-    "launcher_guard_checks": "PASS_CANONICAL_R10_SIX_FIXTURE_GUARDS_NOT_NATIVE_GAMEPLAY",
+    "exact_staged_game_files": "PASS_R13_ACTUAL1759_FILES_NOT_NATIVE",
+    "launcher_guard_checks": "PASS_R13_SIX_CANONICAL_FIXTURES_NOT_NATIVE",
     "native_runtime_launched": false,
     "native_acceptance": false,
-    "environment": "Stock ScummVM with SCI/FluidSynth and isolated task-only mouse/keyboard controls were used for historical R9; exact R10 runtime launch and physical Steam Deck controls remain unverified",
-    "required_next_step": "Bank the exact canonical R10 source and separately verify its GitHub tree, then begin a separate empty-save genuine New Game/full acceptance including repaired ordinary save boundaries before PhaseC/package smoke/publication"
+    "environment": "Stock ScummVM SCI/FluidSynth and isolated ordinary mouse/keyboard route used for scoped R12 only; physical Steam Deck route unverified",
+    "required_next_step": "Bank exact frozen R13 source and verify GitHub tree, then genuine empty-save NewGame including real mouse-menu/restore and complete campaign acceptance"
   },
   "steamos_native_recovery": {
     "report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
@@ -748,16 +745,79 @@
       "staged_game_file_map_sha256": null,
       "checks": null,
       "native_acceptance": false
+    },
+    {
+      "status": "R12_CANONICAL_SOURCE_BUILD_STAGE_STATIC_COMPONENT_FILE_AND_LAUNCHER_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
+      "compiled_receipt_sha256": "dcb0fdaf8e9c880d2bc50c1d8858a89ee1895f1bef64effe24a1cb1d81a4ee14",
+      "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
+      "objective_checks": {
+        "fresh_coherent_compile": "PASS_CANONICAL_R10_46_MODULES_FRESH_PHASE_B_RECEIPT_NOT_NATIVE",
+        "protected_core_and_inventory": "PASS_CANONICAL_R10_BUILD_IDENTITY_AND_FOUR_STATIC_CHECKS",
+        "static_artifact_comparison": "PASS_ONLY_REVIEWED_MODULES0_989_995_996_AND_GENERATED_SELECTOR6504_CHANGED_OTHER42_MODULE_ROWS_AND_ALL1757_AUDIO_IDENTICAL_TO_R9",
+        "runtime_behavior": "R10_NATIVE_UNRUN",
+        "fresh_static_staging": "PASS_CANONICAL_R10_1759_EXACT_GAME_FILES",
+        "bounded_static_source_and_assets": "PASS_CANONICAL_R10_FOUR_STATIC_CASES",
+        "audio36_filenames": "PASS_49_AUTHORED_TUPLES_15_FILENAME_CORRECTIONS_PCM_BYTES_PRESERVED",
+        "static_staging": "PASS_CANONICAL_R10_EXACT_1759_FILE_MAP_AND_ACTUAL_FILE_IDENTITY",
+        "render_validation": "PASS_R10_FOCUSED_EMITTED_CHECKS_STRICT_OWNERSHIP_RESTORE_ERROR_AND_ACK_GUARDS_PRESERVED;NOT_NATIVE",
+        "late_ui_source_review": "PASS_26_BOUNDARY_AND_PREDICATE_CHECKS_NOT_NATIVE",
+        "recovery_20261011": "PASS_EXACT_46_MODULE_COMPILE_AND_1759_FILE_STAGE_4_STATIC_6_EMITTED_CASES_NOT_NATIVE",
+        "late_ui_emitted_20261011": "PASS_3_SCENE_ADMISSION_FIXTURE_CASES_NOT_NATIVE",
+        "steamos_recovery_20261011": "PASS_EXACT_CANDIDATE_AND_INSTALLED_RUNTIME_CAPABILITIES; SCOPED_NATIVE_OPENING_SAVE_AND_NORMAL_EXIT; COMPLETE_GAME_UNVERIFIED",
+        "recovery_ui_emitted_20261012": "PASS_5_TARGETED_CASES_AND_3_EXISTING_LATE_UI_CASES_NOT_NATIVE",
+        "recovery_restore_ui_emitted_20261013": "PASS_17_R3_EMITTED_CASES_WITH_EXPLICIT_FIXTURE_LIMITS_NOT_NATIVE",
+        "paint_scope_emitted": "PASS_R6_13_SCOPE_AND_43_PUBLICATION_WITH_EXPLICIT_FIXTURES_NOT_NATIVE",
+        "portable_emitted_total": "PASS_R10_34_DISTINCT_EMITTED_INVOCATIONS_AGAINST_FRESH_UNCHANGED_CURRENT_RECEIPT_NOT_NATIVE",
+        "final_handoff": "PASS_R10_POST_TRANSFER_SAVE_HISTORY_AUTHORED_FEEDBACK_RETAINED_ORIGINAL_SAVE_ADMISSION_LAYERING_DATE_INPUT_AND_MENU_SCOPE_EMITTED_REGRESSIONS;NATIVE_PENDING"
+      },
+      "checks": {
+        "fresh_coherent_compile": "PASS_CANONICAL_R12_46_MODULES_FRESH_PHASE_B_NOT_NATIVE",
+        "bounded_static_source_and_assets": "PASS_R12_FOUR_STATIC_CHECKS",
+        "portable_emitted_total": "PASS_R12_FOCUSED1_RESOURCE_FORMAT_AND_FULL35_EMITTED_PLUS1_RESOURCE_FORMAT_EXACT_RECEIPT_NOT_NATIVE",
+        "runtime_behavior": "R12_NATIVE_UNRUN",
+        "exact_staged_game_files": "PASS_R12_EXACT1759_ACTUAL_GAME_FILES_NOT_NATIVE",
+        "launcher_guard_checks": "PASS_R12_SIX_CANONICAL_LAUNCHER_FIXTURES_NOT_NATIVE"
+      },
+      "unperformed": [
+        "Sanitized R10 source checkpoint banking and separately recorded GitHub tree verification",
+        "Separate genuine exact-R10 New Game through all14 puzzles, four actual contest wins, all four P13 physical deliveries, ending and all58 credits",
+        "Native R10 regression of rotation420 grounding, held PROGRAM visibility, P14 cast layering, preserved authored feedback, usable date responsiveness and late menu behavior",
+        "Native R10 ordinary saves and changed-live-state/fresh-process restores after P14 acquisition, after terms signing, during pencil loan and at ending readiness",
+        "Critical fourth-contest pending-reply changed-live-state ordinary and fresh-process restores on exact R10",
+        "P14 companion travel, final freeze-frame/applause and every credit card/page on exact R10",
+        "Objective actual-game-stream music, representative voice/laughter/Foley and ending applause on exact R10",
+        "Subjective listening and acoustic quality assessment",
+        "Physical Steam Deck button/axis and Gaming Mode testing; isolated mouse/keyboard and per-process joystick configuration are distinct evidence",
+        "Legitimate PhaseC promotion, clean standalone-package launch/save/load/audio/exit, finished GitHub publication and independent asset verification"
+      ],
+      "native_session_preparation": {
+        "report": "NATIVE-SESSION-20261011.md",
+        "launcher": "source/native_session.py",
+        "exact_staged_game_files": "PASS_CANONICAL_R10_1759_ACTUAL_GAME_FILES_NATIVE_SESSION_CHECK_GAME",
+        "launcher_guard_checks": "PASS_CANONICAL_R10_SIX_FIXTURE_GUARDS_NOT_NATIVE_GAMEPLAY",
+        "native_runtime_launched": false,
+        "native_acceptance": false,
+        "environment": "Stock ScummVM with SCI/FluidSynth and isolated task-only mouse/keyboard controls were used for historical R9; exact R10 runtime launch and physical Steam Deck controls remain unverified",
+        "required_next_step": "Bank the exact canonical R10 source and separately verify its GitHub tree, then begin a separate empty-save genuine New Game/full acceptance including repaired ordinary save boundaries before PhaseC/package smoke/publication"
+      },
+      "record_scope": "HISTORICAL_PRE_R13_PUBLIC_CURRENT_FIELDS_RETAINED_WITH_ORIGINAL_STALE_R10_R11_LABELS",
+      "applies_to_current_candidate": false,
+      "native_acceptance": false
     }
   ],
-  "staged_game_file_map_sha256": "cba94bf0cdc1d7b5efb3623845e76ac38c170e0fb0bd95ed515a3204fe53349b",
+  "staged_game_file_map_sha256": "a9496f87a58562641d3723d9e61ba69be51b1527d5830810a2c685fefe52b2c7",
   "checks": {
-    "fresh_coherent_compile": "PASS_CANONICAL_R12_46_MODULES_FRESH_PHASE_B_NOT_NATIVE",
-    "bounded_static_source_and_assets": "PASS_R12_FOUR_STATIC_CHECKS",
-    "portable_emitted_total": "PASS_R12_FOCUSED1_RESOURCE_FORMAT_AND_FULL35_EMITTED_PLUS1_RESOURCE_FORMAT_EXACT_RECEIPT_NOT_NATIVE",
-    "runtime_behavior": "R12_NATIVE_UNRUN",
-    "exact_staged_game_files": "PASS_R12_EXACT1759_ACTUAL_GAME_FILES_NOT_NATIVE",
-    "launcher_guard_checks": "PASS_R12_SIX_CANONICAL_LAUNCHER_FIXTURES_NOT_NATIVE"
+    "source_scope": "ONLY_FOUR_MAIN_INPUT_MOUSE_THRESHOLDS;ALL274_OTHER_MAIN_METHODS_SOURCE_EXACT;NO_FIELDS_SELECTORS_ASSET_OR_SCRIPT_TEXT_CHANGE",
+    "baseline_menu_regression": "R12_ACTUAL_NATIVE_LOAD_CLICK_OPENS_SAVE;112_EMITTED_CASES_FAIL38_KEYBOARD18_PASS_NOT_NATIVE",
+    "fresh_coherent_compile": "PASS_R13_FRESH46_PHASE_B_NOT_NATIVE",
+    "protected_core_and_inventory": "PASS_R13_FOUR_STATIC_CASES_NOT_NATIVE",
+    "runtime_artifact_comparison": "PASS_R13_OTHER45_MODULE_ROWS_91_SCRIPT_HEAP_MAIN_HEAP_LOCALS_PROPERTIES_SELECTORS_ALIASES_AND1757_AUDIO_IDENTICAL;MAIN_SCRIPT_2_BYTES_SHORTER",
+    "focused_emitted_regressions": "PASS_R13_SIX_RELEVANT_EMITTED_INVOCATIONS_INCLUDING112_MENU_CASES_NOT_NATIVE",
+    "runtime_behavior": "R13_NATIVE_UNRUN",
+    "fresh_static_staging": "PASS_R13_EXACT1759_STAGED_FILES",
+    "exact_game_identity": "PASS_R13_ACTUAL1759_FILES_NOT_NATIVE",
+    "launcher_guard_checks": "PASS_R13_SIX_NAMED_CANONICAL_FIXTURES_NOT_NATIVE"
   },
   "r11_stateless_readback_source": {
     "scope": "h14Match owned source22 outside render-live only; no added fields/selectors/cache/lifecycle",
@@ -788,5 +848,34 @@
     "historical_R11_native": "P01_PORCH_SAVE001;REPLAY_FELIX_TO_TITLE_SETREVERB_ASSERTION;INCOMPLETE_UNACCEPTED",
     "native_replay_tail": "UNRUN_R12",
     "native_acceptance": false
+  },
+  "r13_pause_menu_hit_repair": {
+    "source_method": "Main.input",
+    "constants": [
+      [
+        94,
+        72
+      ],
+      [
+        151,
+        114
+      ],
+      [
+        96,
+        84
+      ],
+      [
+        153,
+        126
+      ]
+    ],
+    "original_row_ranges_and_keyboard_handlers_unchanged": true,
+    "original_source_baseline": "a0c3d25bc4ac25eb75fcee6df782cd591fe0f306",
+    "native_acceptance": false,
+    "compile_static_focused_stage_file_launcher_bank": "PASS_COMPILE46_FOCUSED6_MENU112_STATIC4_STAGE1759_FILE_SIX_GUARDS;BANK_PENDING",
+    "native": "UNRUN_R13",
+    "compile_receipt_sha256": "54106f02da91ca91fbf10b114b2e222d04e9c8f2124968b0b749b9095b4e9687",
+    "staged_game_file_map_sha256": "a9496f87a58562641d3723d9e61ba69be51b1527d5830810a2c685fefe52b2c7",
+    "full_predecessor_matrix_rerun": false
   }
 }

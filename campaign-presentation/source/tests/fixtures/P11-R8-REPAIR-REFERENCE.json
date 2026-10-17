@@ -2,7 +2,7 @@
   "schema": "P11_FROZEN_R8_REPAIR_REFERENCE_V1",
   "native_acceptance": false,
   "baseline_main_sha256": "8c169c015d50427fc8108fd2faa12dd57b8ec17b0a5df80664ffc6ea90fa6f32",
-  "candidate_main_sha256": "af6040b184dc3b96fbb767bc876bbeaff544468a6598518ca388155cfdd8b93c",
+  "candidate_main_sha256": "338bbe1c03a3e2834e079711fa98dbb94d7fe7f6cf73bdc966be845084c22425",
   "baseline_methods_sha256": {
     "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
     "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
@@ -76,6 +76,12 @@
       "source_checkpoint": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
       "candidate": "R10",
       "reason": "R11 only changes Main.eventLoop date dispatch; all three pinned geometry methods and original artwork remain byte-identical. Whole-file pin history is retained; no native acceptance inferred."
+    },
+    {
+      "candidate": "R12",
+      "source_checkpoint": "a0c3d25bc4ac25eb75fcee6df782cd591fe0f306",
+      "candidate_main_sha256": "af6040b184dc3b96fbb767bc876bbeaff544468a6598518ca388155cfdd8b93c",
+      "reason": "R13 only changes four Main.input mouse thresholds; the three pinned P11 geometry methods and approved artwork remain exact. Whole-file pin history retained; no native acceptance transfer."
     }
   ]
 }

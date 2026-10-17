@@ -141,3 +141,10 @@ R12 opening suffix resource-format check:
     python tests/check_opening_reverb.py
 
 This resource-format invocation verifies the actual signed SCI startup control byte, all nine explicit tick0 reverb0 prefixes, unchanged terminal events, source100 identity, and frozen noncontrol raw-track/event/tick digests. It executes no VM, native engine, audio device, save or campaign. The complete R12 component suite contains35 existing emitted invocations plus this one resource-format invocation; these36 processes are supplementary evidence. Native held/reduced-motion Replay Opening through the final title and ordinary return is required separately. Scripts/ABI, all authored notes/timing and all1,757 PCM files remain unchanged.
+
+
+R13 ordinary pause-menu mouse registration:
+
+    python tests/check_pause_menu_hits.py
+
+The112 emitted checks execute actual Main.input and actual h14Input with an inactive date editor. Actual compiled label strings and bundled font0 widths produce51 visible nonspace-glyph samples,42 horizontal/vertical boundary cases,18 keyboard1-6 cases across both pause/menu admissions, and the original184,173 native-click mapping. Only menuChoice and its same three terminal chooser/replay effect methods are unit sinks; keyboard4-6 execute their actual local toggles. No campaign predicate is admitted, save/replay performed, native input sent or acceptance earned. The exact R12 baseline fails38 checks while all18 keyboard cases pass. R13 must pass after actual compilation and retain unchanged selectors/locals/class properties, heap,45 other module rows and1757 PCM files, verified from actual outputs rather than inferred from source size. Focused save/input/date and six launcher checks plus four static checks supplement genuine native mouse-menu/save/restore and full-game acceptance; no full predecessor matrix replay is required solely by this four-literal change.

@@ -1818,13 +1818,13 @@ creditReducedMotion 0
             pushi 127
             push1
             pTos x
-            ldi 94
+            ldi 72
             lt?
             bnt L_160f
             ldi 1
             jmp L_161d
             L_160f: pTos x
-            ldi 151
+            ldi 114
             lt?
             bnt L_161b
             ldi 2
@@ -1843,13 +1843,13 @@ creditReducedMotion 0
             pushi 127
             push1
             pTos x
-            ldi 96
+            ldi 84
             lt?
             bnt L_163c
             ldi 4
             jmp L_164a
             L_163c: pTos x
-            ldi 153
+            ldi 126
             lt?
             bnt L_1648
             ldi 5
