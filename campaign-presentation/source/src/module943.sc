@@ -889,6 +889,9 @@
   (domain vcBusy?) (domain vcLoading?) (domain vcUncertain?) (not (domain vcReady?))) (return (rbFail 8)))
  (= observed (rbPresentationPosition))
  (if (or (< observed 0) (!= (- observed rpOffset) rpFrozenPosition)) (return (rbFail 8)))
+ ; Paused native saves serialize hold -1 as byte255. These finite owners use
+ ; broker-owned pauses, never MIDI hold markers: restore explicit non-hold0.
+ (DoSound 12 rbSound 0)
  (= rbRestoring 0) (= rbChooser 0) (= rpRestoreCheckpoint 0) (= rpFrozenPosition -1)
  (= rbLastPoll (GetTime)) (return (rpApplyControls)))
 

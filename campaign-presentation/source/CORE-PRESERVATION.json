@@ -1982,7 +1982,6 @@
       "p14Complete": "cf3246c77b464e5955f2488718a05f2009ad58379fc7f6a403236df4d16f4429",
       "p14Pending": "ea349c42a8967f84fab0059a9326364221f93728e2b3ff1a0cd22a3eecde3146",
       "p14Resume": "46b79ee201026ce94e0cd82c1aa623a5aa59fd589c2cac0b7c59e92f15399a74",
-      "p14BeginInternal": "b7fc12b47567f8803399da2f974374d98aecc10c7d6935981c29d9a65328339d",
       "p14Begin": "c9279f03a922a91a36b217273984c00d8570b3d44f686f1e667c272366625ed3",
       "p14Acknowledge": "b573e8ef0adbd018a276528b84b9bf127e36df608ec6abfb4acb865948f1d5db",
       "p14OrderSources": "2e37b2fbb02eb8763d0c0e6f2fc89020bb6d4cbacf1e7113e2f0e115264f4453",
@@ -6986,7 +6985,26 @@
       "baseline_commit": "a0c3d25bc4ac25eb75fcee6df782cd591fe0f306",
       "candidate_sha256": "fa0d73ccd1bf2d0309afe3ca5d0969c37e029ae857076836dd028033aabe6b49",
       "reason": "R13 actual native LOAD-label click selected Save; actual bundled6x8 font and emitted input show mouse rows use horizontal cuts94/151 and96/153 despite displayed label starts72/114 and84/126. Change only those four integer cutoffs. Keep original row ranges, keyboard1-6, handlers, chooser/save/restore/replay logic, all other instructions and every ownership/validation rule. Native validation remains pending."
+    },
+    {
+      "file": "module996.sc",
+      "method": "p14BeginInternal",
+      "baseline_commit": "98aaaab568c1da253b1c8271cb5b114aad54e3ca",
+      "baseline_sha256": "b7fc12b47567f8803399da2f974374d98aecc10c7d6935981c29d9a65328339d",
+      "candidate_sha256": "f640e507cd3a08685d9b50e6c4ab4c9e04a0c3c293e907fe4602a2176bf0cae7",
+      "reason": "R14 completed source22 reopens only after existing full block admission, renewing typed presentation identity/current-epoch lease from the unchanged real serial. Completion/commit/ACK/history/date-bank/owner guards and other149 methods are unchanged. Canonical compile/native gates remain pending."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred. R11 reviews exactly8 changed methods for bounded date transactions and complete foreground board geometry; no native speed, presentation, save or campaign acceptance follows. Stateless readback factoring is supplementary emitted evidence; native elapsed responsiveness and every full-game release criterion remain separate. R13 reviews only four mouse-row threshold constants in Main.input; its actual source method is pinned separately. No selector/field/declaration/asset/audio change or native acceptance follows."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred. R11 reviews exactly8 changed methods for bounded date transactions and complete foreground board geometry; no native speed, presentation, save or campaign acceptance follows. Stateless readback factoring is supplementary emitted evidence; native elapsed responsiveness and every full-game release criterion remain separate. R13 reviews only four mouse-row threshold constants in Main.input; its actual source method is pinned separately. No selector/field/declaration/asset/audio change or native acceptance follows.",
+  "reviewed_modified_procedures": [
+    {
+      "file": "module943.sc",
+      "procedure": "rpRestoreResume",
+      "baseline_commit": "98aaaab568c1da253b1c8271cb5b114aad54e3ca",
+      "baseline_sha256": "72b7bd6c9fe04ff87f55363290ea7b8dc601855f8e396b0be2bd6ddc5eac0847",
+      "candidate_sha256": "a50b36d20f25544c0b3785d357a69c318a3fc8120dc69560fb56849fd7309477",
+      "reason": "R14 explicit native non-hold0 only after full finite restore validation and exact frozen-position admission, before unpause. Corrects stock byte serialization of paused native hold-1 to255; all14 admitted finite resources lack MIDI hold markers. Strict position/terminal/ownership/generation and cue128 discard guards remain unchanged.",
+      "validation_scope": "Whole943 source is pinned by FINAL-COVERAGE and exact integration diff. Existing static preservation loop checks Object methods only; this procedure metadata is not an additional static procedure-test claim."
+    }
+  ]
 }

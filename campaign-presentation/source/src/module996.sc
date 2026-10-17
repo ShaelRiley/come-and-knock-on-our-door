@@ -1573,7 +1573,13 @@
 (method (p14BeginInternal source)
  (if (not (self p14Block: source 0 (- (self p14Capacity: source) 1))) (return p14Code))
  (if (self p14Present: (+ source 16))
-  (if (self p14Complete: source) (return (self p14Status: CODE_PRESENTATION_COMPLETE (self p14SourceRecord: source))))
+  (if (self p14Complete: source)
+   ; A completed dynamic readback still needs a fresh, typed reader lease.
+   ; Its original start serial and all completion receipts remain unchanged.
+   (if (== source SOURCE_READBACK)
+    (= p14PresentationSource source) (= p14PresentationHi (self p14SerialHi: (+ source 16)))
+    (= p14PresentationLo (self p14SerialLo: (+ source 16))) (= [p14Lease source] p14Epoch))
+   (return (self p14Status: CODE_PRESENTATION_COMPLETE (self p14SourceRecord: source))))
   (return (self p14Pending: source)))
  (if (not (self p14CanCommit: 1)) (return p14Code))
  (self p14Commit:) (self p14Stamp: (+ source 16))

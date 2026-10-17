@@ -148,3 +148,12 @@ R13 ordinary pause-menu mouse registration:
     python tests/check_pause_menu_hits.py
 
 The112 emitted checks execute actual Main.input and actual h14Input with an inactive date editor. Actual compiled label strings and bundled font0 widths produce51 visible nonspace-glyph samples,42 horizontal/vertical boundary cases,18 keyboard1-6 cases across both pause/menu admissions, and the original184,173 native-click mapping. Only menuChoice and its same three terminal chooser/replay effect methods are unit sinks; keyboard4-6 execute their actual local toggles. No campaign predicate is admitted, save/replay performed, native input sent or acceptance earned. The exact R12 baseline fails38 checks while all18 keyboard cases pass. R13 must pass after actual compilation and retain unchanged selectors/locals/class properties, heap,45 other module rows and1757 PCM files, verified from actual outputs rather than inferred from source size. Focused save/input/date and six launcher checks plus four static checks supplement genuine native mouse-menu/save/restore and full-game acceptance; no full predecessor matrix replay is required solely by this four-literal change.
+
+
+R14 completed readback and finite native-hold restore:
+
+    python -B tests/check_readback_guard.py
+    python -B tests/check_readback_guard.py --reopen
+    python -B tests/check_finite_hold_restore.py
+
+The existing seven readback defaults remain unchanged. Five new reopen cases execute the actual completed-source22 typed lease/Choice36 path and hostile source/epoch/owner/lease rejection against declared completed ancestry. The finite-hold entrypoint executes emitted broker restore/position guards with an explicit stock native-byte-hold/EOT model; exact counts and results must come from its actual output. Story eligibility is modeled. Other finite/opening resources share the reviewed restore path; cue128 keeps its existing discard path. These checks do not prove native audio, actual save compatibility, text painting, Close/reopen, terminal behavior or campaign acceptance. All canonical R14 gates remain pending until run; preserved private failures and predecessor results are not relabeled.

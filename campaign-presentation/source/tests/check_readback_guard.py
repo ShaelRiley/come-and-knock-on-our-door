@@ -155,8 +155,94 @@ def run(build=None):
             'fixture': 'Synthetic ledger/earlier baseline; actual P13/P14/history/context/bank validators. One explicitly modeled R5 memo admission.'}
 
 
+def run_reopen(build=None):
+    """Actual Choice36/menu/reader/domain guards; synthetic completion fixture.
+
+    The earlier campaign providers are the existing explicit models. Completion
+    is an actual domain Acknowledge call, not observed text/paint/native gameplay.
+    SceneDialogue Close + h14Retire execute the ordinary close contract; full
+    Main.uiClose is not claimed by this component test.
+    """
+    v = prepare(build)
+    p, d = v.instance(996), v.instance(982)
+    assert v.call(p, 'h14Choice', (256, 36)) == 1
+    assert d.p['sdActive'] == 1 and d.p['sdDocument'] == 1800 and d.p['sdFailure'] == 0
+    assert v.arrays(996)['h14Reader'][:3] == [1, 1800, 22]
+    # Execute the actual current-source whole-record admission. This fixture
+    # supplies the completed-readback precondition, never native page evidence.
+    assert v.call(p, 'p14Complete', (22,)) == 0
+    v.call(p, 'p14Acknowledge',
+           (22, v.call(p, 'p14SerialHi', (38,)), v.call(p, 'p14SerialLo', (38,)),
+            p.p['p14Epoch'], v.call(p, 'p14SourceRecord', (22,)), 0, 0))
+    assert v.call(p, 'p14Complete', (22,)) == 1
+    assert v.call(d, 'sdClose', (0,)) == 1
+    assert v.call(p, 'h14Retire') == 1
+    v.h.p.update(uiPanel=0, uiBackPanel=0)
+    assert v.call(p, 'h14Menu', (433,)) == 1
+    assert v.call(p, 'h14Ctx') == 1
+    ids = v.arrays(0)['uiChoiceIds'][:v.h.p['uiChoiceCount']]
+    v.h.p['uiPage'] = ids.index(36)
+    for phase in (0, 2, 1):
+        assert v.call(p, 'h14MenuFrame', (phase,)) == 1
+    assert v.h.p['uiPanel'] == 2 and v.h.p['uiChoiceContext'] == 256
+    assert v.arrays(996)['h14MenuPaint'][0] == 3
+
+    def invariant():
+        return dict(serials={k: value for k, value in p.p.items()
+                             if k.endswith(('Hi', 'Lo')) and
+                             not k.startswith(('p14Result', 'p14Presentation'))},
+                    physical={k: p.p[k] for k in ('p14DateLength', 'p14Tone', 'p14Phase',
+                              'p14CreditCount', 'p14CreditCursor', 'p14Paused', 'p14Skipped', 'p14Replay')},
+                    date=list(v.arrays(996)['h14Date']),
+                    owner=list(v.arrays(996)['h14Owner']),
+                    frozen_history=list(v.arrays(999)['fbOwnerHistory']))
+    before = invariant()
+    assert v.call(p, 'h14Choice', (256, 36)) == 1
+    observed = dict(active=d.p['sdActive'], document=d.p['sdDocument'], failure=d.p['sdFailure'],
+                    reader=list(v.arrays(996)['h14Reader'][:3]), panel=v.h.p['uiPanel'],
+                    presentation_source=p.p['p14PresentationSource'])
+    assert observed['active'] == 1 and observed['document'] == 1800 and observed['failure'] == 0 and observed['reader'] == [1, 1800, 22], ('COMPLETED_READBACK_REOPEN_REFUSED', observed)
+    assert v.h.p['uiPanel'] == 4 and d.p['sdPage'] == 0 and d.p['sdCount'] == 2
+    assert p.p['p14PresentationSource'] == 22
+    assert (p.p['p14PresentationHi'], p.p['p14PresentationLo']) == (v.call(p, 'p14SerialHi', (38,)), v.call(p, 'p14SerialLo', (38,)))
+    assert v.arrays(996)['p14Lease'][22] == p.p['p14Epoch']
+    assert v.call(p, 'h14DateMatch') == 1 and v.call(p, 'h14ReaderCheck') == 1
+    assert invariant() == before, 'Reopening must not alter serials/date/owner/history'
+    cases = ['actual painted-menu Choice36 reopens completed dynamic1800 with renewed typed lease and unchanged ledger']
+
+    # Explicit hostile component mutations; never applied to a native game/save.
+    reader = v.arrays(996)['h14Reader']
+    reader[2] = 0
+    assert v.call(p, 'h14DateBind') == 0 and v.call(p, 'h14DateMatch') == 0
+    reader[2] = 22
+    assert v.call(p, 'h14DateMatch') == 1
+    cases.append('source0 still cannot bind/reuse the exact dynamic readback')
+    epoch = p.p['p14Epoch']
+    p.p['p14Epoch'] = epoch + 1
+    assert v.call(p, 'h14DateMatch') == 0
+    p.p['p14Epoch'] = epoch
+    assert v.call(p, 'h14DateMatch') == 1
+    cases.append('stale date-bank epoch is rejected')
+    v.arrays(996)['h14Owner'][0] = 0
+    assert v.call(p, 'h14DateMatch') == 0
+    v.arrays(996)['h14Owner'][0] = 1
+    assert v.call(p, 'h14DateMatch') == 1
+    cases.append('wrong successor owner cannot admit the reader')
+    v.arrays(996)['p14Lease'][22] = epoch - 1
+    v.call(p, 'p14Acknowledge',
+           (22, v.call(p, 'p14SerialHi', (38,)), v.call(p, 'p14SerialLo', (38,)),
+            epoch, v.call(p, 'p14SourceRecord', (22,)), 0, 0))
+    assert p.p['p14Code'] == 59, ('Expected original CODE_STALE_PRESENTATION', p.p['p14Code'])
+    assert invariant() == before
+    cases.append('wrong source lease cannot acknowledge even an already-complete source')
+    return dict(status='PASS_EMITTED_COMPLETED_READBACK_REOPEN_NOT_NATIVE', case_count=len(cases),
+                cases=cases, native_acceptance=False, instructions=v.steps,
+                limits='Synthetic completed ancestors/domain ACK and modeled kernel operations; actual emitted Choice36/menu/context/P13/P14/history/bank/close contract. No native text, audio, input or save acceptance.')
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build')
+    parser.add_argument('--reopen', action='store_true')
     args = parser.parse_args()
-    print(json.dumps(run(args.build), indent=2))
+    print(json.dumps(run_reopen(args.build) if args.reopen else run(args.build), indent=2))

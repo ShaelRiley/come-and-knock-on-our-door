@@ -153,11 +153,11 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "3ba7ebbe10aa246ea3cdae15177865fa614107b6d0192d04e81f6f5197e4520b"
+      "sha256": "a32afb50edec7917e47371325128c02fe15e63f14e790f2054d3b2dd4bf55453"
     },
     {
       "path": "CORE-PRESERVATION.json",
-      "sha256": "c0d32abed822e9bce60a4bcd2faf2fe0a752ada0555953ce9b873db3760010a6"
+      "sha256": "86af4966162ebf5abfa0849d2ec99a2b9bed6f4bc5d54c8777133a6c909c64c0"
     },
     {
       "path": "CREDITS.txt",
@@ -361,7 +361,7 @@
     },
     {
       "path": "src/module943.sc",
-      "sha256": "ffbe1b26ffa07cd6ac36d33f3ca3cf8a4bd03d9f098a667b39a653de5019bf6f"
+      "sha256": "e39bb2d79ea977e56fe1fd9f19b024cb27038a9ee50038054e2afe0c63f95c14"
     },
     {
       "path": "src/module944.sc",
@@ -517,7 +517,7 @@
     },
     {
       "path": "src/module996.sc",
-      "sha256": "74f6f67226b1931d585577ff22ea6b5d25c1db0b6f25b5358732f711a95f3cba"
+      "sha256": "4c8c38a55f087d9688ae0d0bd317c77e1cfc4f6897fa196f510df77bcbebdff5"
     },
     {
       "path": "src/module997.sc",
@@ -561,7 +561,7 @@
     },
     {
       "path": "RECOVERY-FINAL-HANDOFF-20261015.md",
-      "sha256": "6f85fa57416d6aee2b4c9bbcaca423a11e864326d0dde7ffff2637d466c31b96"
+      "sha256": "3041a2551a6cf3671b110b083ce9969d72f933568873d0a79f619c792c32795c"
     },
     {
       "path": "tests/check_apron_labels.py",
@@ -569,7 +569,7 @@
     },
     {
       "path": "tests/check_native_session.py",
-      "sha256": "a1932923591798b7b23035eac1ad8f6b66bd84b3cabd6c3c9d765046273fa4aa"
+      "sha256": "5c70af638b75d3cfb93cc994cb7e173a88d680501ff059aa3efe9853be1d3fee"
     },
     {
       "path": "tests/check_p11_group_approach.py",
@@ -593,7 +593,7 @@
     },
     {
       "path": "tests/README.md",
-      "sha256": "a0b23035643ff9f61504cfe28f32ddba8d428a4fcf5b382cf306a72d2748c454"
+      "sha256": "8a7c6f178f122b029d188b63a602cd741bceafb25404c6ef69af533b16f5dc95"
     },
     {
       "path": "tests/check_p12_confetti_caption.py",
@@ -617,7 +617,7 @@
     },
     {
       "path": "tests/check_readback_guard.py",
-      "sha256": "f8ecaf795d3ac56799e154e4b61d666f2a432eb050a9b1fa7fdaf5217bbe7d31"
+      "sha256": "eaf916a2445cb6fed6a73a74491f9a5c50fae97c54c4b8740c7f86e64cc1df58"
     },
     {
       "path": "tests/check_opening_reverb.py",
@@ -626,21 +626,25 @@
     {
       "path": "tests/check_pause_menu_hits.py",
       "sha256": "02e8f33486a564b7389d9fbce82c2630bb60b0ab6e8553718d1c6809dc3f6a8a"
+    },
+    {
+      "path": "tests/check_finite_hold_restore.py",
+      "sha256": "8d4f53aa8f5aee7371c83ec4ce927cfb3fe0cc5c36a8e4770cec443ef43633a9"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_R13_FRESH46_MODULES",
-    "portable_component_checks": "PASS_R13_SIX_FOCUSED_EMITTED_MENU112_FOUR_STATIC_AND_SIX_LAUNCHER_GUARDS_NOT_NATIVE;NO_FULL_MATRIX_RERUN",
-    "runtime_behavior": "R13_UNACCEPTED_NATIVE_UNRUN",
-    "native_full_candidate": "UNRUN_FOR_R13_EXACT_CANDIDATE",
-    "genuine_campaign_ending": "UNRUN_FOR_R13_EXACT_CANDIDATE",
+    "coherent_compile": "PASS_R14_FRESH46_MODULES",
+    "portable_component_checks": "PASS_R14_SIX_FOCUSED_EMITTED_DEFAULT7_REOPEN5_HOLD6_AND_THREE_EXISTING_PATHS_STATIC4_LAUNCHER6_NOT_NATIVE;NO_FULL_MATRIX_CLAIM",
+    "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING",
+    "native_full_candidate": "PENDING_GENUINE_R14_EMPTY_SAVE_NEW_GAME_LINEAGE",
+    "genuine_campaign_ending": "UNRUN_R14",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "54106f02da91ca91fbf10b114b2e222d04e9c8f2124968b0b749b9095b4e9687",
-    "static_staging": "PASS_R13_EXACT1759_FILES",
-    "exact_game_identity": "PASS_R13_ACTUAL1759_FILES_NOT_NATIVE",
-    "launcher_guards": "PASS_R13_SIX_NAMED_CANONICAL_FIXTURES_NOT_NATIVE"
+    "coherent_compile_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+    "static_staging": "PASS_R14_EXACT1759_FILES",
+    "exact_game_identity": "PASS_R14_ACTUAL1759_FILES_NOT_NATIVE",
+    "launcher_guards": "PASS_R14_SIX_UNCHANGED_FIXTURES_NOT_NATIVE"
   },
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_MENU_HIT_REGISTRATION_UNACCEPTED_20261017_R13",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
   "music_picture_authority": "Main visual authority; native finite terminal is signal0xffff, stopped handle0, actual native tick0; no end-clamping or inferred visual completion",
   "scope": "One complete source/asset candidate. This gate is not a native release acceptance claim.",
   "historical_validation": [
@@ -772,6 +776,23 @@
         "launcher_guards": "PASS_R12_SIX_CANONICAL_FIXTURE_CHECKS_NOT_NATIVE"
       },
       "record_scope": "HISTORICAL_R12_SUPPLEMENTARY_GATES_UNACCEPTED"
+    },
+    {
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_MENU_HIT_REGISTRATION_UNACCEPTED_20261017_R13",
+      "validation": {
+        "coherent_compile": "PASS_R13_FRESH46_MODULES",
+        "portable_component_checks": "PASS_R13_SIX_FOCUSED_EMITTED_MENU112_FOUR_STATIC_AND_SIX_LAUNCHER_GUARDS_NOT_NATIVE;NO_FULL_MATRIX_RERUN",
+        "runtime_behavior": "R13_UNACCEPTED_NATIVE_UNRUN",
+        "native_full_candidate": "UNRUN_FOR_R13_EXACT_CANDIDATE",
+        "genuine_campaign_ending": "UNRUN_FOR_R13_EXACT_CANDIDATE",
+        "subjective_listening": "UNPERFORMED",
+        "coherent_compile_sha256": "54106f02da91ca91fbf10b114b2e222d04e9c8f2124968b0b749b9095b4e9687",
+        "static_staging": "PASS_R13_EXACT1759_FILES",
+        "exact_game_identity": "PASS_R13_ACTUAL1759_FILES_NOT_NATIVE",
+        "launcher_guards": "PASS_R13_SIX_NAMED_CANONICAL_FIXTURES_NOT_NATIVE"
+      },
+      "native_acceptance": false,
+      "subsequent_native_result": "R13 unaccepted: completed readback Close/reopen failed; paused finite restore later reproduced native hold255 rewind. Historical pre-native gate records retained as recorded."
     }
   ]
 }
