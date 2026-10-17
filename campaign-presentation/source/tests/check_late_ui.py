@@ -90,7 +90,34 @@ def control_priority():
     assert not ending.h.p['uiFailure']
     for index, obj in enumerate((2, 8, 28, 85, 30, 54, 29)):
         assert ending.hit_object(41 + 41 * index, 104) == obj
-    assert ending.hit_object(230, 137) == 433
+    assert ending.hit_object(180, 137) == 433
+    controls=ending.arrays(0);count=ending.h.p['uiControlCount']
+    boards=[i for i in range(count) if controls['uiPayloads'][i]==433]
+    assert len(boards)==1
+    board=boards[0]
+    assert tuple(controls[name][board] for name in ('uiTops','uiLefts','uiBottoms','uiRights'))==(109,158,143,201)
+    # Exact original body rectangles remain registered. Their upper visible bodies stay selectable.
+    for index,obj in enumerate((2,8,28,85,30,54,29)):
+        actors=[i for i in range(count) if controls['uiPayloads'][i]==obj]
+        assert len(actors)==1
+        i=actors[0]
+        assert tuple(controls[name][i] for name in ('uiTops','uiLefts','uiBottoms','uiRights'))==(62,24+41*index,124,59+41*index)
+    for x,y in ((158,109),(200,109),(158,123),(200,123),(180,142)):
+        assert ending.hit_object(x,y)==433,('Covered legs are owned by visible foreground board',x,y)
+    assert ending.hit_object(180,108)==85
+    assert ending.hit_object(157,115)==85
+    assert ending.hit_object(201,115)==30
+    # Pre-acquisition entry keeps the literal original broad board route; no predecessor owner change.
+    class PreOwner(LateUIFixture):
+        def call(self,obj,name,args=()):
+            if obj.module.number==995 and name=='h13ReadyPhysical':return 1
+            return super().call(obj,name,args)
+    pre=PreOwner(stage=14);pre.h.p.update(location=4,uiControlCount=0)
+    pre.arrays(996)['h14Owner'][0]=0
+    assert pre.call(pre.instance(996),'h14Controls')==1
+    pa=pre.arrays(0);assert pre.h.p['uiControlCount']==1
+    assert pa['uiPayloads'][0]==433
+    assert tuple(pa[name][0] for name in ('uiTops','uiLefts','uiBottoms','uiRights'))==(128,158,144,310)
     # Real ending room ownership must move Milo's control with him.
     ending.arrays(996)['h14Owner'][2] = 1
     ending.h.p.update(location=1, uiControlCount=0)

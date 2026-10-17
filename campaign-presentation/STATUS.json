@@ -1,7 +1,7 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "R10_CANONICAL_COMPILE_STAGE_STATIC_EMITTED_IDENTITY_SIX_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
-  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_ROTATION_PROGRAM_LAYERING_SAVE_GUARD_UNACCEPTED_20261016_R10",
+  "status": "R11_CANONICAL_GATES_PASS_SOURCE_BANK_AND_GENUINE_NATIVE_ACCEPTANCE_PENDING",
+  "save_lineage": "CAKOOD_PRESENTATION_NATIVE_DATE_TRANSACTION_BOARD_VISIBILITY_UNACCEPTED_20261016_R11",
   "new_game_required": true,
   "source_modules": 46,
   "typed_static_inputs": 162,
@@ -63,12 +63,12 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "eb965f9ae8889f99915eb86e0d783cc6af68dd7cd1a728c39b4c6954cf0df560",
+  "compiled_receipt_sha256": "eedb2c4a69bfb7e0ac53084e57d2a9af733977a9215500ac3de9e5f38e508399",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
   "native_acceptance": false,
   "staging_performed": true,
-  "save_compatibility": "R10_REQUIRES_NEW_EMPTY_SAVE_PATH_AND_GENUINE_NEW_GAME;ALL_R9_BUILDS_SAVES_AND_NATIVE_EVIDENCE_PRESERVED_SEPARATELY",
+  "save_compatibility": "R11_REQUIRES_NEW_EMPTY_SAVE_PATH_AND_GENUINE_NEW_GAME;ALL_R10_SOURCE_RUNTIME_SAVES_AND_EVIDENCE_PRESERVED_SEPARATELY",
   "historical_native_observations": [
     {
       "date": "2026-10-09",
@@ -236,7 +236,7 @@
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "SANITIZED_R10_SOURCE_BANKING_AND_GITHUB_TREE_VERIFICATION_THEN_GENUINE_EXACT_R10_NATIVE_NEW_GAME_AND_FINISHED_PACKAGE_DELIVERY_PENDING;NO_RELEASE",
+  "current_blocker": "BANK_SANITIZED_R11_SOURCE_THEN_FRESH_EXACT_BUILD_NEW_GAME_ALL14_FOUR_WINS_CRITICAL_RESTORES_AUDIO_ENDING_ALL58_CREDITS_AND_PACKAGE_ACCEPTANCE;NO_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -739,5 +739,32 @@
     "emitted_binding_sha256": "d50994ac8db60da9b874f157d081d53dc7e81b950912f0dd0861a16da14daf40",
     "static_results_sha256": "d09a0e38ff058ac6d16b26d37d566bf79193819f450ac09ea87ada135879105d",
     "canonical_guards_binding_sha256": "292f693a229437070baee212256304766e5686ebe5eed90ec64a3072306c095f"
+  },
+  "historical_preparation_records": [
+    {
+      "status": "R10_CANONICAL_COMPILE_STAGE_STATIC_EMITTED_IDENTITY_SIX_GUARDS_PASS_NATIVE_UNRUN_BANK_PENDING",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_ROTATION_PROGRAM_LAYERING_SAVE_GUARD_UNACCEPTED_20261016_R10",
+      "compiled_receipt_sha256": "eb965f9ae8889f99915eb86e0d783cc6af68dd7cd1a728c39b4c6954cf0df560",
+      "staged_game_file_map_sha256": null,
+      "checks": null,
+      "native_acceptance": false
+    }
+  ],
+  "staged_game_file_map_sha256": "a04a6f4d9349d3987d5bb2c817fd5bb2da9b8645db5e991a0bf83481e311f1a8",
+  "checks": {
+    "fresh_coherent_compile": "PASS_CANONICAL_R11_46_MODULES_FRESH_PHASE_B_NOT_NATIVE",
+    "bounded_static_source_and_assets": "PASS_R11_FOUR_STATIC_CHECKS",
+    "portable_emitted_total": "PASS_R11_FOCUSED5_AND_FULL35_DISTINCT_EMITTED_INVOCATIONS_EXACT_RECEIPT_NOT_NATIVE",
+    "runtime_behavior": "R11_NATIVE_UNRUN",
+    "exact_staged_game_files": "PASS_R11_EXACT1759_STAGED_FILES_AND_CHECK_GAME_NOT_NATIVE",
+    "launcher_guard_checks": "PASS_R11_SIX_FIXTURE_GUARDS_NOT_NATIVE"
+  },
+  "r11_stateless_readback_source": {
+    "scope": "h14Match owned source22 outside render-live only; no added fields/selectors/cache/lifecycle",
+    "private_emitted_checks": "PASS_COMBINED_COMPILE_FIVE_FOCUSED_ENTRYPOINTS_AND17_DIFFERENTIAL_CASES_NOT_NATIVE",
+    "derived_scratch_limit": "One deliberately stale bad-cargo case differs only in3 validation scratch words; persistent/reader/audio/UI/receipt state identical",
+    "native_responsiveness": "UNVERIFIED",
+    "ordinary_page_close_reopen": "PENDING_NATIVE;CANDIDATE_EMITTED_COUNTERPART_UNPERFORMED;AGGREGATE_MAIN_CLOSE_FIXTURE_TIMEOUTS_UNPASSED",
+    "native_acceptance": false
   }
 }

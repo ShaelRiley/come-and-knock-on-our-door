@@ -2340,7 +2340,7 @@ creditReducedMotion 0
  (while (not quitRequested)
   (GetEvent 32767 self)
   (if (and (not opening) (not menuOpen) (not paused)) (self uiPointer:))
-  (if type (self input:) ((ScriptID 996 0) h14DateDrain:))
+  (if type (self input:))
   ; Controls/choosers rebase lastTick inside their actual transition.
   ; Read now AFTER input so only post-transition elapsed is applied.
   (= now (GetTime)) (= elapsed (- now lastTick)) (= lastTick now)

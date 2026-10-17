@@ -115,3 +115,22 @@ The emitted cases retain the original text/font/color/origin, measure its actual
 
 
 The R9 group-approach check also exercises actual emitted rack410/411 approaches and both original-art Courtyard facings at unchanged scale127. It reproduces the frozen110-feet header/caption collision, checks138-feet header/caption/footer clearance, preserves neighboring419/420 and existing owner-family dispatch, and uses explicit motion/owner fixtures. Integer opaque-pixel projection supplements native observation; it does not establish actual native rasterization, progression, audio or acceptance.
+
+
+R11 date transactions and complete P14 board:
+
+    python tests/check_date_transaction.py
+    python tests/check_date_transaction_guards.py
+    python tests/check_presentation.py p14_cast_layering
+    python tests/check_late_ui.py control_priority
+
+The functional entrypoint executes all11 unchanged original modal assertions with an explicit empty-FIFO kernel model, then bounded editing, all5 event fields, FIFO barriers, paint-before-Return, unsupported input,80-character/Backspace, Escape and save/load retirement cases. It supersedes the two R10 runner invocations of check_date_modal.py (plain and --batching); that historical file remains byte-identical and its old batching CLI targets R10's API. The27 guard cases execute actual h14Base/P13 readiness/history/domain/physical validators against synthetic serial/route fixtures. Completed P1–P12 baseline and independent2064 predecessor+199 pot-word providers remain modeled. Entry/exit corruption, internal-call/reentry refusal, save poison and context changes must discard tentative edits without committing a date. These are emitted component checks, never native responsiveness, progression, pixels, sound or save-compatibility evidence.
+
+R11 adds86 private module996 words. R10 saves stay with exact archived R10 builds; R11 full acceptance requires a fresh empty-save New Game lineage. A separate focused native25-character input measurement and actual complete-board visibility/hit checks are required before full campaign acceptance.
+
+
+R11 stateless final readback guard factoring:
+
+    python tests/check_readback_guard.py
+
+The seven emitted cases retain actual P13/P14/history/context/text-bank validators, all five event fields, unpainted-reader/no-audio/no-receipt checks, and original render-live fallback. One hostile cargo case explicitly models an existing R5 memo admission. Earlier completed P1-P12 baseline/provider scalars remain synthetic. The owned-source22 Match change introduces no cache, fields, selectors or lifecycle hook. Measured emitted instruction savings do not establish native elapsed responsiveness; ordinary page/Close/reopen and exact-candidate full-game acceptance remain separate.

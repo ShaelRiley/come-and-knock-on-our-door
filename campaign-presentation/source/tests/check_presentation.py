@@ -103,11 +103,33 @@ def run(case):
    board=[i for i,(name,args) in enumerate(events) if name=='Graph' and args[0]==11]
    signed=[i for i,(name,args) in enumerate(events) if name=='Display' and base.read_string(args[0])=='SIGNED']
    assert len(cast)==7 and len(props)==3 and len(board)==9 and len(signed)==1
-   assert max(props+board+signed)<min(cast),('Court cargo or board paints over the cast',panel,props,board,signed,cast)
+   pledges=[i for i,(name,args) in enumerate(events) if name=='Display' and base.read_string(args[0])=='PLEDGES']
+   assert len(pledges)==1
+   assert max(props)<min(cast),('Court props must stay behind unchanged cast',panel,props,cast)
+   assert max(cast)<min(board+signed+pledges),('Complete low board must stay in front of cast legs',panel,board,signed,pledges,cast)
+   assert events[board[0]]==('Graph',(11,109,158,143,201,1,6,0,0))
+   assert [events[i][1] for i in board[1:]]==[(11,120+(j//4)*13,161+(j%4)*9,128+(j//4)*13,168+(j%4)*9,1,15,0,0) for j in range(8)]
+   label=events[pledges[0]][1]
+   assert label[1:]==(100,159,110,102,2,105,0,106,42,121)
+   measure=q.arrays(0)['uiMeasure'];pointer=base.Pointer(measure.region,measure.start*2)
+   text_size=next(k for k,name in q.knames.items() if name=='TextSize')
+   q.kernel(text_size,[pointer,label[0],0,42])
+   assert measure[2]==8 and measure[3]==42,('Original font PLEDGES stays one line inside panel',list(measure))
+   assert 110+measure[2]<120 and 141<143
+   assert events[signed[0]][1][1:]==(100,203,128,102,2,105,1,106,64,121)
    actual=[tuple(args) for name,args in events if name=='DrawCel']
    assert actual[:3]==[(234,0,9,92,111,-1,0),(227,0,7,205,93,-1,0),(224,0,10,205,69,-1,0)]
    assert actual[3:]==[(view,1,0,24+41*i,64,-1,96,96) for i,view in enumerate((219,218,221,236,223,225,222))]
    checks.append({'panel':panel,'cast':len(cast),'props':len(props),'board_and_pin_graphs':len(board),'signed':len(signed)})
+  # Every partial count uses its own actual p14Present serials; no missing-pin state is invented.
+  pin_props=('p14PinJackLo','p14PinBunnyLo','p14PinFrankieLo','p14PinMiloLo',
+   'p14PinVivianLo','p14PinRitaLo','p14PinFelixLo','p14PinStringerLo')
+  for count in range(9):
+   q=LayerVM();root=q.instance(996)
+   for j,name in enumerate(pin_props):root.p[name]=int(j<count)
+   q.ktrace.clear();assert q.call(root,'h14Draw')==1
+   markers=[args for name,args in q.ktrace if name=='Graph' and args[0]==11 and args[6]==15]
+   assert markers==[(11,120+(j//4)*13,161+(j%4)*9,128+(j//4)*13,168+(j%4)*9,1,15,0,0) for j in range(count)]
   for room in (0,1):
    q=LayerVM(room=room);q.ktrace.clear();assert q.call(q.instance(996),'h14Draw')==1
    draws=[args for name,args in q.ktrace if name=='DrawCel'];assert len(draws)==7
@@ -118,7 +140,7 @@ def run(case):
    q=LayerVM(**kwargs);q.ktrace.clear();assert q.call(q.instance(996),'h14Draw')==0
    assert not any(name in ('DrawCel','Graph','Display') for name,args in q.ktrace)
   detail={'court_cases':checks,'non_court_cases':2,'rejected_guard_cases':3,
-   'scope':'explicit room and read-only valid/base admissions; actual emitted painter order, original draw arguments, board pins, SIGNED, The End and rejection guards; not earned native progress'}
+   'pin_count_states':9,'scope':'explicit room and read-only valid/base admissions; actual emitted painter order, original props/cast arguments, foreground PLEDGES/board/0..8 pins, SIGNED, The End and rejection guards; not earned native progress'}
  else:raise ValueError(case)
  return {'status':'PASS_EMITTED_NOT_NATIVE','case':case,'instructions':v.steps,'max_rss_kib':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,**detail}
 if __name__=='__main__':print(json.dumps(run(sys.argv[1])))

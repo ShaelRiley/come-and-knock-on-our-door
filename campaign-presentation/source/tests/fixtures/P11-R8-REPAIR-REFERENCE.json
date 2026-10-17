@@ -2,7 +2,7 @@
   "schema": "P11_FROZEN_R8_REPAIR_REFERENCE_V1",
   "native_acceptance": false,
   "baseline_main_sha256": "8c169c015d50427fc8108fd2faa12dd57b8ec17b0a5df80664ffc6ea90fa6f32",
-  "candidate_main_sha256": "7bb00a5dbb0755a563a9a378968b448efaef6e06b7f1b4c4bf1c9140567b06f4",
+  "candidate_main_sha256": "af6040b184dc3b96fbb767bc876bbeaff544468a6598518ca388155cfdd8b93c",
   "baseline_methods_sha256": {
     "approachX": "4cbbd26c8e9d7c742a4317b829223e5109e099aaf669ff9866c1783e57d276a8",
     "approachY": "30a02cc71fa83ebe56a72657b19fe790478cc92594185b7aefdf93a7899d52c9",
@@ -69,5 +69,13 @@
   "baseline_defective_rack_anchor": [
     200,
     110
+  ],
+  "candidate_main_history": [
+    {
+      "candidate_main_sha256": "7bb00a5dbb0755a563a9a378968b448efaef6e06b7f1b4c4bf1c9140567b06f4",
+      "source_checkpoint": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
+      "candidate": "R10",
+      "reason": "R11 only changes Main.eventLoop date dispatch; all three pinned geometry methods and original artwork remain byte-identical. Whole-file pin history is retained; no native acceptance inferred."
+    }
   ]
 }

@@ -2039,7 +2039,6 @@
       "p14NotebookRecord": "24b457588685d3e546d192275d48d011935cfcae22727479bceaa9471beff448",
       "h14Fact": "423c2394ba24e6314a331328967e64f0b9330d140f4d52792598270170fe3783",
       "h14DateOpen": "0201652920ddd4e72a6488b59e5a9281b921c6291c50f6efd8262c9e37bd7afb",
-      "h14Input": "4df0c103c4c14aab50a530ffe510d2bfd410faa626fdc675a603bb8f4db64d28",
       "h14DateBind": "d98f456f2aaa1206fb5204f3f4f7582cad816a109ffbc548ddbd26f09e34737d",
       "h14DateMatch": "35d32bdfc29aed79347811eacc14c77427906dd61a7fbdf66b27e24d43969a98",
       "h14Label": "cd8a38e6defed8f3790ceb02197af85fca8390b3f8fb92380d8b971913355116",
@@ -2053,8 +2052,6 @@
       "h14Location": "8a273cb2c4c15cbecdd4c3db7b9f077046c417091dfa905b7703a90fa5b9e283",
       "h14Reachable": "13e70b2e05ce6eb192535c0b660542b2f9c8631ad6bd99215aa7c04a4ed1167d",
       "h14Acquire": "22ef929f3d3f9d947c344c61ccdc28cdcf8fe89f2398459ac2f90c1f62b62ed9",
-      "h14Save": "43c0b45762626e9c44f3612b12556d438cc94698f7bfc1f26a4b1841ec0d8928",
-      "h14Load": "4c80ce89a710e7f6f1960d7ed7a76629ac4c5289a705505257a1e6506b4d0851",
       "h14Stored": "480c16a81071e02ae74a573a64deb55403a224a0e12a50ad1e61ab0599600579",
       "h14HistoryValid": "febfa1dc30c018541d7452384e7e0b4e028fd90ab71479588051583c7b314ec8",
       "h14RawRoom": "e98f32cdd24051f93072261e46e9a88d3c8e8c818af902282c8ea58707c35455",
@@ -2064,7 +2061,6 @@
       "h14Voice": "d0b490c4cdda8c2026726c59e61344b63d4d4b64678b453c1bf07ee002be54a7",
       "h14ControlOwn": "b8e413e1423919dcc5bbf3c60de9689e9efdd5f8b606c854801f028d21e7e0a4",
       "h14Control": "d5a5f04f15584b36e1a2686c477ca89287ef8f9dfc9735d9bedfff79ce6248a6",
-      "h14Controls": "e5b560f5ff769b20f017bdc6be96813d90edfdd1bd04d0e888fc12a89af4d7e6",
       "h14MenuFrame": "bb5d0c546461d2c4fad584cf9426b647914c2e5ecd45004585c3669b9d2f17c0",
       "h14Effect": "f37f14cd73d178ea52f64173a431010c92cdf32996af5c8e76ffc9a756f19abe",
       "h14Record": "c15d27683bcd91055d5da43950a6e43c2cce8c101011f2682b3f216209ee339b",
@@ -6411,7 +6407,7 @@
       "file": "module996.sc",
       "method": "h14Draw",
       "baseline_sha256": "5a6d87c37bd87673b48256dba1439b409c2f54806ac7bb153e3da1cf13186d70",
-      "candidate_sha256": "9dd210d46c1d3adde2daa566d804fa8da034e7cb7ceef72c1822f87dcb08904c",
+      "candidate_sha256": "4ca8e985dd0d8406a3442242c36c5e0c4774565e863063730436e5ffbd6a78e8",
       "review_history": [
         {
           "candidate_sha256": "6680fc8038cef2023d66a79d450d5cadccaf4be2fd8f24ec13fb261fa6c55efc",
@@ -6419,7 +6415,14 @@
           "reason": "Historical reviewed h14Draw before actual R9 P14 acquired-cast layering diagnosis."
         }
       ],
-      "reason": "Actual R9 acquired P14 native441/462 discriminating overlap pixels match the folded display and none match Rita. Move only the byte-identical Court pot/cart/folded-display/board/SIGNED block before the byte-identical cast loop. Preserve original art/draw arguments, all ownership/reader/restore/publication guards, The End and source53 credit overlay. Exact R10 native verification remains pending."
+      "reason": "R11 retains original3 props behind unchanged7 cast draws, then paints complete original low board/PLEDGES/8 serial-guarded markers/SIGNED in foreground. Ownership/history/reader/ending/attribution guards remain unchanged.",
+      "historical_reviews": [
+        {
+          "candidate_sha256": "9dd210d46c1d3adde2daa566d804fa8da034e7cb7ceef72c1822f87dcb08904c",
+          "reason": "Actual R9 acquired P14 native441/462 discriminating overlap pixels match the folded display and none match Rita. Move only the byte-identical Court pot/cart/folded-display/board/SIGNED block before the byte-identical cast loop. Preserve original art/draw arguments, all ownership/reader/restore/publication guards, The End and source53 credit overlay. Exact R10 native verification remains pending.",
+          "candidate": "R10"
+        }
+      ]
     },
     {
       "file": "module997.sc",
@@ -6814,8 +6817,15 @@
       "file": "module996.sc",
       "method": "h14Match",
       "baseline_sha256": "731de8bdab234120e28a7db97b0f654b471b7964a499f4e096b127f3e1463857",
-      "candidate_sha256": "f183f80705cf0e11b37d9a19d183359be76af84a67d3b988d74c622a21044b1a",
-      "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained"
+      "candidate_sha256": "4627b3bbe21330518906fb1a3dcdb2379f1c26e365bbc6a22095898a10d62211",
+      "reason": "R11 stateless owned-source22 non-render Match factors duplicate P13 readiness only. Public Base/Valid/Ctx/history/date-bank and original render-memo fallback stay unchanged; no new cache, field, selector, lifecycle, receipt or acceptance claim.",
+      "historical_reviews": [
+        {
+          "candidate_sha256": "f183f80705cf0e11b37d9a19d183359be76af84a67d3b988d74c622a21044b1a",
+          "reason": "RECOVERY-FINAL-HANDOFF-20261015.md: observed final handoff/layout repair; progression and publication validation retained",
+          "candidate": "R10"
+        }
+      ]
     },
     {
       "file": "module996.sc",
@@ -6904,17 +6914,31 @@
       "method": "eventLoop",
       "baseline_sha256": "0e29b7ae12226a57cd81ea086e82271eb527e55d4a83ac6b0d0c3f21429f58fe",
       "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
-      "candidate_sha256": "9316f274bc9541b109906f640a1cc8e22982fcee042d05562189473e37a52378",
-      "reason": "After unchanged ordinary Main input dispatch, call the new bounded date-editor helper once. Preserve every other event-loop statement, normal controls, timers and quit behavior."
+      "candidate_sha256": "0e29b7ae12226a57cd81ea086e82271eb527e55d4a83ac6b0d0c3f21429f58fe",
+      "reason": "R11 invokes one bounded transaction through the existing ordinary date input handler before the unchanged normal paint; removes the second drain. Return/Escape/F-keys/mouse and all5 FIFO event fields keep normal handling.",
+      "historical_reviews": [
+        {
+          "candidate_sha256": "9316f274bc9541b109906f640a1cc8e22982fcee042d05562189473e37a52378",
+          "reason": "After unchanged ordinary Main input dispatch, call the new bounded date-editor helper once. Preserve every other event-loop statement, normal controls, timers and quit behavior.",
+          "candidate": "R10"
+        }
+      ]
     },
     {
       "file": "module996.sc",
       "method": "h14DateDrain",
       "baseline_sha256": null,
       "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
-      "candidate_sha256": "97c79bd57b4a1fddc9654dc141c3a7eb78c79d191257e88b2712f8a94c48f3db",
-      "reason": "New bounded ordinary-date FIFO helper: at most7 extra pending KeyDown printable/Backspace or KeyUp events per frame, each through unchanged full h14Input/h14Base. Peek all event types; restore all5 event fields on nonconsuming barrier; leave Return/Esc/mouse/Fkeys/unsupported KeyDown queued for ordinary handling after strict paint; preserve warnings and normal Quit. No cross-frame cache/saved fields, ownership, progression or validation changes. Native responsiveness remains unverified.",
-      "new_method": true
+      "candidate_sha256": "14eadfaf9afe1408a48b73c6a11c90301ab7ee8b41ff4488cce0a7c333c970ec",
+      "reason": "R11 consumes at most32 eligible current/FIFO events with original h14Base at entry+exit and narrow live-context checks between; no cross-frame admission cache. Return/Escape/F-keys/mouse/unsupported barriers remain FIFO head with all5 original event fields restored. Existing strict paint-before-Return commit remains unchanged.",
+      "new_method": true,
+      "historical_reviews": [
+        {
+          "candidate_sha256": "97c79bd57b4a1fddc9654dc141c3a7eb78c79d191257e88b2712f8a94c48f3db",
+          "reason": "New bounded ordinary-date FIFO helper: at most7 extra pending KeyDown printable/Backspace or KeyUp events per frame, each through unchanged full h14Input/h14Base. Peek all event types; restore all5 event fields on nonconsuming barrier; leave Return/Esc/mouse/Fkeys/unsupported KeyDown queued for ordinary handling after strict paint; preserve warnings and normal Quit. No cross-frame cache/saved fields, ownership, progression or validation changes. Native responsiveness remains unverified.",
+          "candidate": "R10"
+        }
+      ]
     },
     {
       "file": "module989.sc",
@@ -6923,7 +6947,39 @@
       "baseline_commit": "11560dce06811600f7b706db1f307cb4ef67fd03",
       "candidate_sha256": "e6ce6139a038606f92485315c64f5d6f806cc6923fcbe1f3d02a6e86462bfac2",
       "reason": "Observed post-P14 native Save refusal; actual emitted signed-terms/loan/Ready fixtures independently prove a legacy save-admission incompatibility: raw originals25/399 are retained, but player-facing campaignHeld correctly reports their new custody. Admit only these exact raw originals under canonical Main, h14Owns/full h14Valid and original publisher provenance:399 canonical990/h9InventoryValid;25 canonical984/q8Valid/qFind/qHeld. Keep all original duplicate/extent/forbidden/cloth checks and internal-zero semantics, all save/restore ordering, original h9InventoryValid and player-facing held behavior unchanged. This repairs a proved component blocker; the unique first native failing gate was not directly observed. Repaired-emission/native verification remains required."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Input",
+      "baseline_sha256": "4df0c103c4c14aab50a530ffe510d2bfd410faa626fdc675a603bb8f4db64d28",
+      "baseline_commit": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
+      "candidate_sha256": "512105c50661737a34db947f643dcf471ac73cc29eab642c7a8ca06f4ab97ed0",
+      "reason": "R11 transaction-local editor bank admits ordinary date edits only after full strict entry/exit admission; hostile optional calls poison a live transaction, outside calls cannot authorize one. Tentative edits roll back and editor closes on failure; literal commit remains behind actual paint acknowledgement."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Save",
+      "baseline_sha256": "43c0b45762626e9c44f3612b12556d438cc94698f7bfc1f26a4b1841ec0d8928",
+      "baseline_commit": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
+      "candidate_sha256": "261cf451a79cc9a50f5ddcb888f600ee10e6a6345739c4b6b10d90a84f7ded25",
+      "reason": "R11 refuses a live tentative date transaction and clears its transient bank before ordinary save admission. No saved owner/history/domain invariant is weakened."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Load",
+      "baseline_sha256": "4c80ce89a710e7f6f1960d7ed7a76629ac4c5289a705505257a1e6506b4d0851",
+      "baseline_commit": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
+      "candidate_sha256": "1a4a09a095519d1c5f3d45fe3299161fbaff6a2df1574909a21c8cd750814ba1",
+      "reason": "R11 clears transaction authority and all86 private backup words on every ordinary load phase; old save layouts are incompatible and remain paired with archived R10."
+    },
+    {
+      "file": "module996.sc",
+      "method": "h14Controls",
+      "baseline_sha256": "e5b560f5ff769b20f017bdc6be96813d90edfdd1bd04d0e888fc12a89af4d7e6",
+      "baseline_commit": "66b1b839fe20ccda2a30f77980a220ab1a32a9b5",
+      "candidate_sha256": "214bc7c13dc40b24716f10901a9503331debc46795b78a619333a9bb56bfd59e",
+      "reason": "R11 owned foreground board has exact half-open painted rectangle top109/left158/bottom143/right201; reverse hit ordering selects visible board over covered legs only. All7 actor controls/upper bodies and pre-owner board control remain unchanged."
     }
   ],
-  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred."
+  "limits": "Preserved source methods do not establish native or acoustic behavior. The source change list covers only intended presentation notifications, LAF11 wait, supplemental credits, diagnostic removal and floor metadata. The quiet-tag exit correction is also explicitly pinned as a reviewed modified method; native ending acceptance remains separate. The side-passage score identity correction and final audience caption wording are explicitly reviewed and pinned. Recovery UI changes are individually reviewed in RECOVERY-UI-FIX-20261012.md; old native evidence does not accept the new candidate. R9 reviews only the two group approach branches and early existing payoff permit ordering; supplementary tests do not establish native presentation, sound or campaign acceptance. R9 also reviews only the shared410/411 Y grounding and unchanged-origin confetti caption backing; no native acceptance inferred. R11 reviews exactly8 changed methods for bounded date transactions and complete foreground board geometry; no native speed, presentation, save or campaign acceptance follows. Stateless readback factoring is supplementary emitted evidence; native elapsed responsiveness and every full-game release criterion remain separate."
 }

@@ -17,6 +17,7 @@
 
 [h14Reaction 8]
 [h14RenderMemo 1]
+[h14Batch 1] [h14BatchEdit 5] [h14BatchChars 80]
 )
 (define OBJ_FRONT_DOOR 1)
 (define OBJ_BUNNY 2)
@@ -2042,11 +2043,24 @@
  (return (and (self p14SealContext:) (self p14ValidateContext:))))
 (method (h14Match &tmp h i)
  (= h (ScriptID 0 0))
- (if (or (not (self h14Base:)) (not (self h14Valid:)) (not (self p14ValidateContext:))
+ ; Only the owned source22 readback path outside ALL render scopes is factored.
+ ; With h11RenderLive false, the actual h11ReadMemo guard cannot succeed, so
+ ; h14Valid must execute its full P14 -> P13 -> history/ownership validation.
+ (if (and (== [h14Owner 0] 1) (== p14PresentationSource 22) (not (h h11RenderLive:)))
+  ; Exact public Base host/error/barrier gates, without its duplicate P13 scan.
+  (if (or (!= self (ScriptID 996 0))
+   (h opening?) (h paused?) (h menuOpen?) (h uiFailure?) (h bridgeFailure?)
+   ((ScriptID 985 0) hBarrier:) ((ScriptID 987 0) h6Barrier:)
+   (not (self h14Valid:))) (return 0))
+ else
+  ; Preserve the original Base then Valid chain for all other paths/rendering.
+  (if (or (not (self h14Base:)) (not (self h14Valid:))) (return 0)))
+ (if (or (not (self p14ValidateContext:))
   (h motionPhase?) (!= (h location?) [h14Facts 28]) (!= (h onApron?) [h14Facts 29])
   (!= (if ((ScriptID 987 0) p06Projection: 6)
    (- ((ScriptID 987 0) p06Projection: 6) 1) else 0) [h14Facts 30])) (return 0))
  (for ((= i 0)) (< i 28) ((++ i)) (if (!= [h14Facts i] (self h14Fact: i)) (return 0))) (return 1))
+
 (method (h14DateOpen &tmp h i)
  (= h (ScriptID 0 0))
  (if (or [h14Owner 0] (not (self h14Base:)) (h motionPhase?) (h onApron?) (!= (h location?) 4)) (return 0))
@@ -2054,11 +2068,32 @@
  (= [h14Edit 0] 1) (= [h14Edit 1] [h14Date 0])
  (for ((= i 0)) (< i 80) ((++ i)) (= [h14EditChars i] [h14Date (+ i 1)]))
  (= [h14Edit 2] 0) (h dirty: 1) (return 1))
-(method (h14Input &tmp h key i)
-(if (and ((ScriptID 997 0) h14ReplayActive:) ((ScriptID 997 0) h14ReplayInput:)) (return 1))
-
- (= h (ScriptID 0 0)) (if (not [h14Edit 0]) (return 0))
- (if (not (self h14Base:)) (= [h14Edit 0] 0) (return 1))
+(method (h14Input batchMode &tmp h key i)
+ ; An internal edit event is admitted only by the synchronous date transaction.
+ ; Ordinary callers never borrow that admission or enter a nested transaction.
+ (if argc
+  (if (or (!= argc 1) (!= batchMode 1) (!= [h14Batch 0] 1))
+   (if [h14Batch 0] (= [h14Batch 0] -1)) (return 1))
+ else
+  (if [h14Batch 0] (= [h14Batch 0] -1) (return 1))
+  (if (and ((ScriptID 997 0) h14ReplayActive:) ((ScriptID 997 0) h14ReplayInput:)) (return 1)))
+ (= h (ScriptID 0 0))
+ (if (not [h14Edit 0])
+  (if argc (= [h14Batch 0] -1) (return 1)) (return 0))
+ (if argc
+  ; No replay dispatch, world callback or full-guard reuse escapes this bank.
+  ; The outer transaction validates strictly before/after and never publishes.
+  (if (or [h14Owner 0] ((ScriptID 997 0) h14ReplayActive:)
+   (not (or (== (h type?) 8)
+    (and (== (h type?) 4) (or (== (h message?) 8)
+     (and (>= (h message?) 32) (<= (h message?) 126)))))))
+   (= [h14Batch 0] -1) (return 1))
+ else
+  (if (or (== (h type?) 8)
+   (and (== (h type?) 4) (or (== (h message?) 8)
+    (and (>= (h message?) 32) (<= (h message?) 126)))))
+   (self h14DateDrain: 1) (return 1))
+  (if (not (self h14Base:)) (= [h14Edit 0] 0) (return 1)))
  (if (!= (h type?) 4) (return 1)) (= key (h message?))
  (if (== key 27) (= [h14Edit 0] 0) (h dirty: 1) (return 1))
  (if (== key 13)
@@ -2073,26 +2108,62 @@
    (= [h14Edit 2] 1) (h dirty: 1) (return 1))
   (= [h14EditChars [h14Edit 1]] key) (++ [h14Edit 1]))
  (= [h14Edit 3] 0) (= [h14Edit 2] 0) (h dirty: 1) (return 1))
-(method (h14DateDrain &tmp h count oldType oldMessage oldModifiers oldX oldY)
- ; At most seven extra FIFO events after Main's first ordinary input.
- ; Every consumed event still passes the unchanged full h14Input guards.
- (if (or (not [h14Edit 0]) [h14Edit 2]) (return 0))
- (= h (ScriptID 0 0)) (= count 0)
- (while (and [h14Edit 0] (not [h14Edit 2]) (< count 7))
-  (= oldType (h type?)) (= oldMessage (h message?))
-  (= oldModifiers (h modifiers?)) (= oldX (h x?)) (= oldY (h y?))
-  ; -1 is all event types plus Peek, never a keyboard-only queue search.
-  (GetEvent -1 h)
-  (if (not (or (== (h type?) 8)
-               (and (== (h type?) 4)
-                    (or (== (h message?) 8)
-                        (and (>= (h message?) 32) (<= (h message?) 126))))))
-   (h type: oldType message: oldMessage modifiers: oldModifiers x: oldX y: oldY)
-   (return count))
-  (if (not (GetEvent 32767 h))
-   (h type: oldType message: oldMessage modifiers: oldModifiers x: oldX y: oldY)
-   (return count))
-  (self h14Input:) (++ count))
+(method (h14DateDrain includeCurrent &tmp h count more good i room revision mx my oldType oldMessage oldModifiers oldX oldY)
+ ; Exactly one synchronous transaction, including Main's current ordinary event.
+ ; At most32 total FIFO events; the only permitted SCI writes are the transient
+ ; editor bank, batch backups/token, and dirty. No domain/date commit or paint.
+ (if (or (!= argc 1) (!= includeCurrent 1) (not [h14Edit 0]) [h14Batch 0]) (return 0))
+ (= h (ScriptID 0 0))
+ (if (not (or (== (h type?) 8)
+  (and (== (h type?) 4) (or (== (h message?) 8)
+   (and (>= (h message?) 32) (<= (h message?) 126)))))) (return 0))
+ ; DateOpen only admits the stationary Court before P14 ownership. Retain it.
+ (if (or [h14Owner 0] ((ScriptID 997 0) h14ReplayActive:)
+  (h onApron?) (h motionPhase?) (h uiPanel?) (!= (h location?) 4)
+  (not (self h14Base:))) (= [h14Edit 0] 0) (h dirty: 1) (return 0))
+ (= room (h location?)) (= revision (h p02Revision?))
+ (= mx (h motionX?)) (= my (h motionY?))
+ (for ((= i 0)) (< i 5) ((++ i)) (= [h14BatchEdit i] [h14Edit i]))
+ (for ((= i 0)) (< i 80) ((++ i)) (= [h14BatchChars i] [h14EditChars i]))
+ (= [h14Batch 0] 1) (= count 0) (= more 1)
+ (while (and more (== [h14Batch 0] 1) [h14Edit 0]
+  (or (== count 0) (not [h14Edit 2])) (< count 32))
+  ; These cheap identity checks never replace either strict admission.
+  (if (or [h14Owner 0] ((ScriptID 997 0) h14ReplayActive:)
+   (!= room (h location?)) (!= revision (h p02Revision?))
+   (!= mx (h motionX?)) (!= my (h motionY?))
+   (h onApron?) (h motionPhase?) (h uiPanel?) (h opening?)
+   (h paused?) (h menuOpen?) (h uiFailure?) (h bridgeFailure?))
+   (= [h14Batch 0] -1) (= more 0))
+  (if (and more count)
+   (= oldType (h type?)) (= oldMessage (h message?))
+   (= oldModifiers (h modifiers?)) (= oldX (h x?)) (= oldY (h y?))
+   ; All-types Peek preserves the actual FIFO head, including native Quit.
+   (GetEvent -1 h)
+   (if (not (or (== (h type?) 8)
+    (and (== (h type?) 4) (or (== (h message?) 8)
+     (and (>= (h message?) 32) (<= (h message?) 126))))))
+    (h type: oldType message: oldMessage modifiers: oldModifiers x: oldX y: oldY)
+    (= more 0)
+   else
+    (if (not (GetEvent 32767 h))
+     (h type: oldType message: oldMessage modifiers: oldModifiers x: oldX y: oldY)
+     (= more 0))))
+  (if more (self h14Input: 1) (++ count)))
+ ; Run the original strict predicate again even if an inner guard was poisoned.
+ (= good (self h14Base:))
+ (if (or (not good) (!= [h14Batch 0] 1) (not [h14Edit 0])
+  [h14Owner 0] ((ScriptID 997 0) h14ReplayActive:)
+  (!= room (h location?)) (!= revision (h p02Revision?))
+  (!= mx (h motionX?)) (!= my (h motionY?))
+  (h onApron?) (h motionPhase?) (h uiPanel?))
+  ; Discard tentative edits before Main may render or acknowledge them.
+  (for ((= i 0)) (< i 5) ((++ i)) (= [h14Edit i] [h14BatchEdit i]))
+  (for ((= i 0)) (< i 80) ((++ i)) (= [h14EditChars i] [h14BatchChars i]))
+  (= [h14Edit 0] 0) (= [h14Edit 3] 0) (= [h14Edit 4] 0) (h dirty: 1))
+ (= [h14Batch 0] 0)
+ (for ((= i 0)) (< i 5) ((++ i)) (= [h14BatchEdit i] 0))
+ (for ((= i 0)) (< i 80) ((++ i)) (= [h14BatchChars i] 0))
  (return count))
 
 (method (h14DateDraw &tmp i v)
@@ -2287,12 +2358,20 @@
   (== obj OBJ_EXIT_LIVING) (== (h p02Revision?) (+ revision 1)))
   (= [h14Owner 3] revision) (= [h14Owner 4] (+ revision 1)) (= [h14Owner 2] 1))
  (self h14Retire:) (return (self h14Valid:)))
-(method (h14Save)
+(method (h14Save &tmp i)
+ ; A synchronous date transaction cannot cross a Save boundary.
+ (if [h14Batch 0] (= [h14Batch 0] -1) (return 0))
+ (for ((= i 0)) (< i 5) ((++ i)) (= [h14BatchEdit i] 0))
+ (for ((= i 0)) (< i 80) ((++ i)) (= [h14BatchChars i] 0))
 (if (not ((ScriptID 997 0) h14ReplaySave:)) (return 0))
 
  (self h14Retire:) (= [h14Edit 0] 0)
  (return (or (not p14Initialized) (and (self p14Validate:) (or (not [h14Owner 0]) (self h14Valid:))))))
-(method (h14Load phase)
+(method (h14Load phase &tmp i)
+ ; Restored/cancelled transient scope never grants an internal edit admission.
+ (= [h14Batch 0] 0)
+ (for ((= i 0)) (< i 5) ((++ i)) (= [h14BatchEdit i] 0))
+ (for ((= i 0)) (< i 80) ((++ i)) (= [h14BatchChars i] 0))
 (if (not ((ScriptID 997 0) h14ReplayLoad: phase)) (return 0))
 
  (self h14Retire:) (= [h14Edit 0] 0)
@@ -2423,7 +2502,7 @@
  (for ((= i 0)) (< i 7) ((++ i)) (= obj ((ScriptID 995 0) h13Object: i))
   (if (== (self h14Room: obj) (h location?)) (= x ((ScriptID 994 0) h12SuccessorX: i))
    (h uiAddControl: 1 obj 62 x 124 (+ x 35) (self h14Label: obj))))
- (if (== (h location?) 4) (h uiAddControl: 1 433 128 158 144 310 "PROMISES AND ENDING"))
+ (if (== (h location?) 4) (h uiAddControl: 1 433 109 158 143 201 "PROMISES AND ENDING"))
  (= [h14Owner 7] 0) (return 1))
 (method (h14Draw &tmp h i obj x a d who mouth)
  (= h (ScriptID 0 0)) (= a (h presentation?)) (= d (h dialogue?))
@@ -2431,11 +2510,7 @@
  (if (== (h location?) 4)
   (DrawCel 234 0 9 92 111 -1 0)
   (DrawCel 227 0 7 205 93 -1 0) (DrawCel 224 0 10 205 69 -1 0)
-  (Graph 11 109 158 143 201 1 6 0 0)
-  (for ((= i 0)) (< i 8) ((++ i))
-   (if (self p14Present: (+ i 9)) (= x (+ 161 (* (mod i 4) 9)))
-    (Graph 11 (+ 113 (* (/ i 4) 13)) x (+ 121 (* (/ i 4) 13)) (+ x 7) 1 15 0 0)))
-  (if (self p14Present: 2) (Display "SIGNED" 100 203 128 102 2 105 1 106 64 121)))
+)
  (for ((= i 0)) (< i 7) ((++ i)) (= obj ((ScriptID 995 0) h13Object: i))
   (if (== (self h14RawRoom: obj) (h location?))
    (= who ((ScriptID 994 0) h12SuccessorSpeaker: i)) (= mouth 0)
@@ -2446,6 +2521,14 @@
    (and (== who 3) (== obj H14_HOST_FRANKIE) (== (d sdDocument?) 1800) (== (d sdAudioModule?) 927))) (self h14ReaderCheck:))) (== (a lane?) 1) (> (a ownerGain:) 0) (not (a silentClock?)) (== (a speaker?) who)
     (== (a token?) (d sdAudioToken?)) (>= (a mouth?) 0) (<= (a mouth?) 2)) (= mouth (a mouth?)))
    (DrawCel ((ScriptID 994 0) h12SuccessorView: i) 1 mouth ((ScriptID 994 0) h12SuccessorX: i) 64 -1 96 96)))
+ ; Keep the low board as one foreground object; its backing also covers cast legs.
+ (if (== (h location?) 4)
+  (Graph 11 109 158 143 201 1 6 0 0)
+  (Display "PLEDGES" 100 159 110 102 2 105 0 106 42 121)
+  (for ((= i 0)) (< i 8) ((++ i))
+   (if (self p14Present: (+ i 9)) (= x (+ 161 (* (mod i 4) 9)))
+    (Graph 11 (+ 120 (* (/ i 4) 13)) x (+ 128 (* (/ i 4) 13)) (+ x 7) 1 15 0 0)))
+  (if (self p14Present: 2) (Display "SIGNED" 100 203 128 102 2 105 1 106 64 121)))
  (if (and (== (h location?) 1) (== p14Phase 4))
   (Display "The End" 100 126 46 102 2 105 1 106 100 121))
  ; Additional used source credited on the existing real acknowledgments card.
