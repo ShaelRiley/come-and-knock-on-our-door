@@ -1,5 +1,5 @@
 {
-  "status": "R14_NATIVE_ACCEPTED_PHASE_C_BYTE_CARRY_PASSED_PACKAGE_AND_PUBLICATION_PENDING",
+  "status": "FINISHED_V1_0_0_NATIVE_PACKAGE_AND_PUBLISHED_DOWNLOAD_VERIFIED",
   "schema": 2,
   "runtime_source_complete": true,
   "native_acceptance": true,
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 18865,
-      "sha256": "76ec9e76f0ab9aebbc7a1c7d5a004f403e87ffa19f11a901e60ca8248b457436"
+      "bytes": 19878,
+      "sha256": "cdcaa8f44b5ed0658fa526509d3d9e8461077f5f2a385d170b5115cc04f0cb71"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 69649,
-      "sha256": "e35226292c434d2502db3e2c942a43d02883555e53aaad57c71d05eda89543ea"
+      "bytes": 71440,
+      "sha256": "9f84e8f57499825d61c90367934fa01f40c1d84202433309487c9cc93d2a7e47"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -17481,7 +17481,7 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
-  "runtime_behavior": "GENUINE_R14_ALL15_NATIVE_CRITERIA_ACCEPTED_FINAL_PACKAGE_VERIFICATION_PENDING",
+  "runtime_behavior": "GENUINE_R14_ALL15_NATIVE_CRITERIA_ACCEPTED_EXACT_PACKAGE_SMOKE_AND_PUBLISHED_DOWNLOAD_VERIFIED",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
@@ -17554,5 +17554,21 @@
       "native_acceptance": false
     }
   ],
-  "native_compile_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec"
+  "native_compile_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+  "release": {
+    "version": "v1.0.0",
+    "source_commit": "fbdcae50b08332c2e0c2a96ee106fecad4ec95c8",
+    "release_url": "https://github.com/ShaelRiley/come-and-knock-on-our-door/releases/tag/v1.0.0",
+    "archive_name": "come-and-knock-on-our-door-v1.0.0-linux-steamdeck.tar.gz",
+    "archive_url": "https://github.com/ShaelRiley/come-and-knock-on-our-door/releases/download/v1.0.0/come-and-knock-on-our-door-v1.0.0-linux-steamdeck.tar.gz",
+    "archive_sha256": "a24fd030c73b5dcd3cbefd104370aabc884d6820e97144bb38d7ede04cbbc043",
+    "archive_bytes": 190833992,
+    "accepted_runtime_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
+    "native_acceptance": "PASS_ALL15_ON_GENUINE_NEW_GAME_LINEAGE",
+    "clean_package_smoke": "PASS",
+    "published_download_verification": "PASS",
+    "runtime": "Python3 and stock ScummVM2026.3.0 with SCI and FluidSynth; tested FluidR3 GM SoundFont bundled",
+    "control_scope": "Standard mouse and ordinary keyboard in Linux or Steam Deck Desktop Mode; physical Deck controls and Gaming Mode unverified",
+    "documentation_checkpoint_scope": "Later documentation-only checkpoint; released runtime/source remain the C1 commit above"
+  }
 }

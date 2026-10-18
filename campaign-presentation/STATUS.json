@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "R14_NATIVE_ACCEPTED_PHASE_C_BYTE_CARRY_PASSED_PACKAGE_AND_PUBLICATION_PENDING",
+  "status": "FINISHED_V1_0_0_NATIVE_PACKAGE_AND_PUBLISHED_DOWNLOAD_VERIFIED",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
   "new_game_required": true,
   "source_modules": 46,
@@ -18,19 +18,23 @@
     "runtime_behavior": "PASS_NATIVE_R14_ALL14_FOUR_WINS_ENDING_APPLAUSE_58_CREDITS",
     "fresh_static_staging": "PASS_PHASE_C_EXACT1759_BYTE_CARRY",
     "exact_game_identity": "PASS_R14_ACTUAL1759_FILE_MAP_NOT_NATIVE",
-    "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE"
+    "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE",
+    "clean_package_smoke": "PASS_EXACT_RELEASE_ARCHIVE_DEFAULT_LAUNCH_OPENING_AUDIO_INPUT_SAVE_LOAD_CHANGED_STATE_RESTORE_AND_CLEAN_EXIT",
+    "published_download_verification": "PASS_NEW_GITHUB_RELEASE_DOWNLOADED_SHA256_AND_RUNTIME_MAP_MATCH"
   },
   "unperformed": [
-    "Final source checkpoint, standalone clean package launch/audio/input/save-load/exit smoke, new GitHub release and independent download/checksum verification."
+    "Physical Steam Deck trackpad, triggers and on-screen keyboard were not verified; the user accepted the standard mouse/keyboard control scope.",
+    "Gaming Mode was not accepted.",
+    "Subjective listening was unavailable; objective playback checks passed."
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
     "Credits replay is detached credits-only replay; it does not replay or re-claim campaign ending reactions.",
     "Some source cues expose long natural transition windows. Requests keep gameplay responsive while the single music owner reaches the exact admitted boundary.",
     "Bridge gain still opens only in its existing ticks6\u20138 window; gain-window polish is outside this correction.",
-    "Previous P01/P02 opening and save/restore observations apply only to the earlier finite-MIDI build, not this changed candidate.",
-    "Native ending verification remains incomplete; this does not mean the ending is unimplemented.",
-    "Save compatibility is unproved: script addresses and P12/P13 locals changed; use a new separate empty Save Path and genuine New Game."
+    "Saves from predecessor development builds are not supported. Preserve them with their original builds and begin this release with New Game.",
+    "Standard mouse/keyboard in Linux or Steam Deck Desktop Mode is the accepted control scope. Physical Deck controls/OSK and Gaming Mode remain unverified.",
+    "Audio acceptance is objective playback evidence; subjective listening is not claimed. KDE can retain this application as muted; unmute its Applications entry if needed."
   ],
   "public_package_contents": [
     "Editable SCI source and all runtime assets",
@@ -132,7 +136,7 @@
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "FINAL_SOURCE_BANK_CLEAN_PACKAGE_SMOKE_PUBLICATION_AND_DOWNLOAD_VERIFICATION_PENDING;NO_PUBLISHED_RELEASE",
+  "current_blocker": null,
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -873,7 +877,9 @@
     "runtime_behavior": "PASS_NATIVE_R14_ALL14_FOUR_WINS_ENDING_APPLAUSE_58_CREDITS",
     "fresh_static_staging": "PASS_PHASE_C_EXACT1759_BYTE_CARRY",
     "exact_game_identity": "PASS_R14_ACTUAL1759_FILE_MAP_NOT_NATIVE",
-    "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE"
+    "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE",
+    "clean_package_smoke": "PASS_EXACT_RELEASE_ARCHIVE_DEFAULT_LAUNCH_OPENING_AUDIO_INPUT_SAVE_LOAD_CHANGED_STATE_RESTORE_AND_CLEAN_EXIT",
+    "published_download_verification": "PASS_NEW_GITHUB_RELEASE_DOWNLOADED_SHA256_AND_RUNTIME_MAP_MATCH"
   },
   "r11_stateless_readback_source": {
     "scope": "h14Match owned source22 outside render-live only; no added fields/selectors/cache/lifecycle",
@@ -960,5 +966,21 @@
     "runtime_file_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
     "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
     "acceptance_sha256": "919f6616e1fb5625caf9495154dc47e95b8aed357b0cd4260a60b86d8a73f549"
+  },
+  "release": {
+    "version": "v1.0.0",
+    "source_commit": "fbdcae50b08332c2e0c2a96ee106fecad4ec95c8",
+    "release_url": "https://github.com/ShaelRiley/come-and-knock-on-our-door/releases/tag/v1.0.0",
+    "archive_name": "come-and-knock-on-our-door-v1.0.0-linux-steamdeck.tar.gz",
+    "archive_url": "https://github.com/ShaelRiley/come-and-knock-on-our-door/releases/download/v1.0.0/come-and-knock-on-our-door-v1.0.0-linux-steamdeck.tar.gz",
+    "archive_sha256": "a24fd030c73b5dcd3cbefd104370aabc884d6820e97144bb38d7ede04cbbc043",
+    "archive_bytes": 190833992,
+    "accepted_runtime_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
+    "native_acceptance": "PASS_ALL15_ON_GENUINE_NEW_GAME_LINEAGE",
+    "clean_package_smoke": "PASS",
+    "published_download_verification": "PASS",
+    "runtime": "Python3 and stock ScummVM2026.3.0 with SCI and FluidSynth; tested FluidR3 GM SoundFont bundled",
+    "control_scope": "Standard mouse and ordinary keyboard in Linux or Steam Deck Desktop Mode; physical Deck controls and Gaming Mode unverified",
+    "documentation_checkpoint_scope": "Later documentation-only checkpoint; released runtime/source remain the C1 commit above"
   }
 }

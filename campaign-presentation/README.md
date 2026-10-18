@@ -1,8 +1,14 @@
-# Come and Knock on Our Door: native campaign accepted; package delivery pending
+# Come and Knock on Our Door v1.0.0
 
-The exact R14 New Game lineage passed all14 puzzles, all four scored contests, critical save/restore, late controls, the ending, final applause and all58 credits. The accepted control target is a standard mouse with ordinary keyboard entry in Linux or Steam Deck Desktop Mode. Physical Deck controls/OSK and Gaming Mode remain unverified.
+The complete game is available as a [Linux and Steam Deck package](https://github.com/ShaelRiley/come-and-knock-on-our-door/releases/tag/v1.0.0). It includes all 14 puzzles, four contests, the ending, final applause and all 58 credit cards.
 
-Accepted Phase B source is GitHub 3b027dff10c3dfcb7f47ffd5d40ad04f7c129a68; runtime map 0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80. The legitimate Phase C receipt is f6b14f2cfbb872d083b8ca06cc09c8a3f08a6b121c33b50e76f3b6a669ba2044; all1759 runtime files, all92 compiled files and all46 module rows remain identical to the accepted candidate. Standalone package verification and publication remain pending. No final release or download is published by this source promotion.
+Download `come-and-knock-on-our-door-v1.0.0-linux-steamdeck.tar.gz`, verify SHA-256 `a24fd030c73b5dcd3cbefd104370aabc884d6820e97144bb38d7ede04cbbc043`, and extract the folder. Run `./launch.sh --verify-only`, then `./launch.sh`. See [the player guide](source/player-package/PLAYER-GUIDE.md) for installation, saves and controls.
+
+Requires Python 3 and stock ScummVM 2026.3.0 with SCI and FluidSynth support. The tested SoundFont and notices are bundled. The accepted controls are a standard mouse and ordinary keyboard in Linux or Steam Deck Desktop Mode. If silent, unmute this game's entry in Audio Volume → Applications; the launcher preserves host audio preferences. Physical Deck controls/OSK, Gaming Mode and subjective listening remain unverified.
+
+All 15 native criteria passed on a genuine New Game lineage, including changed-state and fresh-process save/restore, late controls, ending and all 124 credit pages. The clean extracted package passed opening, objective audio, ordinary input, changed-state save/load and clean exit; the published archive was downloaded and verified independently. These delivery checks are separate from the historical compilation and candidate records below.
+
+Release source: `fbdcae50b08332c2e0c2a96ee106fecad4ec95c8`. The accepted Phase B runtime map is `0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80`; legitimate Phase C promotion preserved all 1,759 runtime files, 92 compiled files and 46 module rows byte-for-byte. This documentation update does not rebuild or change the released game. Historical asset rights and source-specific qualifications remain in `rights/` and `CREDITS.txt`.
 
 ## Accepted R14 Phase B source record (retained verbatim below)
 
