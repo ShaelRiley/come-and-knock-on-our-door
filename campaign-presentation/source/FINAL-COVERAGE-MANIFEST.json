@@ -153,7 +153,7 @@
     },
     {
       "path": "BUILD-PROFILE.json",
-      "sha256": "a32afb50edec7917e47371325128c02fe15e63f14e790f2054d3b2dd4bf55453"
+      "sha256": "ce4e23df6d2a72cd4443b8a48f3434393a793b0c7cce7cbaea694fa46da3d3ad"
     },
     {
       "path": "CORE-PRESERVATION.json",
@@ -313,15 +313,15 @@
     },
     {
       "path": "player-package/CREDITS.txt",
-      "sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
+      "sha256": "dc9e14007a344f4ab6c3e18e7f2a31980acc2c7370a8a182722e5763612c76ef"
     },
     {
       "path": "player-package/LICENSE.md",
-      "sha256": "9d2ab9431a806a05e7d502cdcb1171b7afd1722b66d4668cead8557c26a6b44e"
+      "sha256": "92ebd9418c9327a7d3353860f5b2f0a2ba9846c389d920471cd9ca5c4b57f4ce"
     },
     {
       "path": "player-package/PLAYER-GUIDE.md",
-      "sha256": "e515e3d00c3850fabb6257353a504159ceb3ed8268eebf928badf016a45403fa"
+      "sha256": "bdcd0c4144ea9b44cf477eb772fc13fabd4bd50ed0961e7e87428f924937a21c"
     },
     {
       "path": "player-package/RIGHTS-CONTEXT.md",
@@ -630,17 +630,29 @@
     {
       "path": "tests/check_finite_hold_restore.py",
       "sha256": "8d4f53aa8f5aee7371c83ec4ce927cfb3fe0cc5c36a8e4770cec443ef43633a9"
+    },
+    {
+      "path": "player-package/launch.sh",
+      "sha256": "aed743737cd80f07d2f61e0a336324bfef3c8c7da71cf8cda497620cce4d6bab"
+    },
+    {
+      "path": "player-package/launcher.py",
+      "sha256": "ccff378f060c95063d94f55041ae4ac975b68e38f8e69192ed69a75ddb80d622"
+    },
+    {
+      "path": "tests/check_player_launcher.py",
+      "sha256": "eda940bb741e09b7555b8514cc10d04ac921e4ee27f2244ee4e17161a56da286"
     }
   ],
   "validation": {
-    "coherent_compile": "PASS_R14_FRESH46_MODULES",
+    "coherent_compile": "PASS_PHASE_C_FRESH46_BYTE_CARRY",
     "portable_component_checks": "PASS_R14_SIX_FOCUSED_EMITTED_DEFAULT7_REOPEN5_HOLD6_AND_THREE_EXISTING_PATHS_STATIC4_LAUNCHER6_NOT_NATIVE;NO_FULL_MATRIX_CLAIM",
-    "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING",
-    "native_full_candidate": "PENDING_GENUINE_R14_EMPTY_SAVE_NEW_GAME_LINEAGE",
-    "genuine_campaign_ending": "UNRUN_R14",
+    "runtime_behavior": "PASS_NATIVE_R14_REVIEWED_COMPLETE_LINEAGE",
+    "native_full_candidate": "PASS_R14_ALL15_ACTUAL_CRITERIA",
+    "genuine_campaign_ending": "PASS_R14_ENDING_APPLAUSE_ALL58_CREDITS",
     "subjective_listening": "UNPERFORMED",
-    "coherent_compile_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
-    "static_staging": "PASS_R14_EXACT1759_FILES",
+    "coherent_compile_sha256": "f6b14f2cfbb872d083b8ca06cc09c8a3f08a6b121c33b50e76f3b6a669ba2044",
+    "static_staging": "PASS_PHASE_C_EXACT1759_BYTE_CARRY",
     "exact_game_identity": "PASS_R14_ACTUAL1759_FILES_NOT_NATIVE",
     "launcher_guards": "PASS_R14_SIX_UNCHANGED_FIXTURES_NOT_NATIVE"
   },

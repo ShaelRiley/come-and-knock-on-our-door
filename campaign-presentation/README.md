@@ -1,3 +1,11 @@
+# Come and Knock on Our Door: native campaign accepted; package delivery pending
+
+The exact R14 New Game lineage passed all14 puzzles, all four scored contests, critical save/restore, late controls, the ending, final applause and all58 credits. The accepted control target is a standard mouse with ordinary keyboard entry in Linux or Steam Deck Desktop Mode. Physical Deck controls/OSK and Gaming Mode remain unverified.
+
+Accepted Phase B source is GitHub 3b027dff10c3dfcb7f47ffd5d40ad04f7c129a68; runtime map 0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80. The legitimate Phase C receipt is f6b14f2cfbb872d083b8ca06cc09c8a3f08a6b121c33b50e76f3b6a669ba2044; all1759 runtime files, all92 compiled files and all46 module rows remain identical to the accepted candidate. Standalone package verification and publication remain pending. No final release or download is published by this source promotion.
+
+## Accepted R14 Phase B source record (retained verbatim below)
+
 # Come and Knock on Our Door: R14 candidate, native acceptance pending
 
 R14 changes only module996.p14BeginInternal and module943.rpRestoreResume: completed readback reopens under its unchanged real serial/current-epoch lease; fully admitted finite restore clears the native MIDI hold flag before unpause. Scripted pause behavior, ownership, validation, saves, authored script/art/music/timing/ending and all58 credits remain required. Runtime source changes are confined to these two routines; declarations, selectors, assets and PCM remain unchanged.
@@ -5,6 +13,8 @@ R14 changes only module996.p14BeginInternal and module943.rpRestoreResume: compl
 Actual R14 canonical gates passed: fresh46-module compilation, four static checks, six focused emitted processes (default readback7, reopen5, finite-hold6 and three existing finite/opening-save/restore paths), actual44-other-module/90-binary/both-heap/1757-PCM preservation, exact1759-file staging and six launcher guards. Receipt e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec; runtime map 0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80. These are supplementary results. Sanitized source banking, focused native restore/reopen and the complete import-free R14 game/ending/applause/58credits/package/publication acceptance remain pending. No native or release acceptance flag changed. The two score fixtures use an explicitly corrected private kernel/eligibility model; original assertions and failed records remain preserved, and the held check uses a measured450s supervised bound. This changes no game runtime and establishes no native responsiveness.
 
 R13 genuinely completed puzzles1–13, all four scored wins, four physical deliveries and late commitments/save boundaries, but ordinary completed-readback Close/reopen failed. A separate copied-save read-only diagnostic established a paused native hold255 rewind at finite-cue completion. That diagnostic grants no campaign acceptance. R13 source/build/saves/evidence remain archived and paired. R14 requires a distinct initial-empty-save genuine New Game lineage through the complete game, ending/applause and all58 credits before promotion, package smoke and verified publication. Normal save/quit/restore boundaries within unchanged R14 remain valid; predecessor diagnostic imports never substitute.
+
+
 ## Historical R13 source checkpoint record (retained verbatim below)
 
 # Come and Knock on Our Door: candidate, native acceptance pending

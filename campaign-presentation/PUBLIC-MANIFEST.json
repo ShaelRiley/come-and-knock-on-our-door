@@ -1,9 +1,9 @@
 {
-  "status": "R14_CANONICAL_COMPILE_STATIC_FOCUSED_STAGE_FILE_LAUNCHER_GATES_PASS_NATIVE_ACCEPTANCE_PENDING",
+  "status": "R14_NATIVE_ACCEPTED_PHASE_C_BYTE_CARRY_PASSED_PACKAGE_AND_PUBLICATION_PENDING",
   "schema": 2,
   "runtime_source_complete": true,
-  "native_acceptance": false,
-  "compiled_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+  "native_acceptance": true,
+  "compiled_receipt_sha256": "f6b14f2cfbb872d083b8ca06cc09c8a3f08a6b121c33b50e76f3b6a669ba2044",
   "files": [
     {
       "path": "AUDIENCE-AND-FOLEY-CREDITS.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 17879,
-      "sha256": "eaeb7737f5584f0cb37b0c765ff9fa87443ba2e9eb3cba9d55b75f95bd309fd2"
+      "bytes": 18865,
+      "sha256": "76ec9e76f0ab9aebbc7a1c7d5a004f403e87ffa19f11a901e60ca8248b457436"
     },
     {
       "path": "RECONSTRUCTION-20261010.md",
@@ -107,8 +107,8 @@
     },
     {
       "path": "STATUS.json",
-      "bytes": 67251,
-      "sha256": "94756d4f71ce7fb7f71fac8733a7cd5959f0dbfd603360828885c2d3eec72b5e"
+      "bytes": 69649,
+      "sha256": "e35226292c434d2502db3e2c942a43d02883555e53aaad57c71d05eda89543ea"
     },
     {
       "path": "authoring/audio/ASSET-MANIFEST.json",
@@ -4368,7 +4368,7 @@
     {
       "path": "source/BUILD-PROFILE.json",
       "bytes": 2432,
-      "sha256": "a32afb50edec7917e47371325128c02fe15e63f14e790f2054d3b2dd4bf55453"
+      "sha256": "ce4e23df6d2a72cd4443b8a48f3434393a793b0c7cce7cbaea694fa46da3d3ad"
     },
     {
       "path": "source/CORE-PRESERVATION.json",
@@ -4382,8 +4382,8 @@
     },
     {
       "path": "source/FINAL-COVERAGE-MANIFEST.json",
-      "bytes": 30032,
-      "sha256": "cd33349f8751e0b1010a822440060bf91fa41d82731b0357025ca89ef43c7d44"
+      "bytes": 30489,
+      "sha256": "eb38c6be4f5fc09020bdcb05a1ec898b6ece917f386f925b66723f630b249f7c"
     },
     {
       "path": "source/LICENSE.md",
@@ -15907,18 +15907,18 @@
     },
     {
       "path": "source/player-package/CREDITS.txt",
-      "bytes": 38597,
-      "sha256": "d6004dd99a5ef0b01c3fe4727aca1254252ec64e96e5c4fb27d234fc3ecb6d6a"
+      "bytes": 39152,
+      "sha256": "dc9e14007a344f4ab6c3e18e7f2a31980acc2c7370a8a182722e5763612c76ef"
     },
     {
       "path": "source/player-package/LICENSE.md",
-      "bytes": 1470,
-      "sha256": "9d2ab9431a806a05e7d502cdcb1171b7afd1722b66d4668cead8557c26a6b44e"
+      "bytes": 1764,
+      "sha256": "92ebd9418c9327a7d3353860f5b2f0a2ba9846c389d920471cd9ca5c4b57f4ce"
     },
     {
       "path": "source/player-package/PLAYER-GUIDE.md",
-      "bytes": 4922,
-      "sha256": "e515e3d00c3850fabb6257353a504159ceb3ed8268eebf928badf016a45403fa"
+      "bytes": 6094,
+      "sha256": "bdcd0c4144ea9b44cf477eb772fc13fabd4bd50ed0961e7e87428f924937a21c"
     },
     {
       "path": "source/player-package/RIGHTS-CONTEXT.md",
@@ -17459,6 +17459,21 @@
       "path": "source/tools/source_tools.py",
       "bytes": 1813,
       "sha256": "2cd9e20a69039cb2a208a4fd655de2d08ce265f7abea425eb0857e071ec36d56"
+    },
+    {
+      "path": "source/player-package/launch.sh",
+      "bytes": 120,
+      "sha256": "aed743737cd80f07d2f61e0a336324bfef3c8c7da71cf8cda497620cce4d6bab"
+    },
+    {
+      "path": "source/player-package/launcher.py",
+      "bytes": 9319,
+      "sha256": "ccff378f060c95063d94f55041ae4ac975b68e38f8e69192ed69a75ddb80d622"
+    },
+    {
+      "path": "source/tests/check_player_launcher.py",
+      "bytes": 7445,
+      "sha256": "eda940bb741e09b7555b8514cc10d04ac921e4ee27f2244ee4e17161a56da286"
     }
   ],
   "runtime_generated_outputs_included": false,
@@ -17466,7 +17481,7 @@
   "public_revision": "sanitized-public-r2",
   "original_source_archive_sha256": "ae01331f173b8403c896837606f4baa2fe50a8c6ce86ac77ee82db37d5b634d3",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
-  "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING;NO_ACCEPTANCE_TRANSFER",
+  "runtime_behavior": "GENUINE_R14_ALL15_NATIVE_CRITERIA_ACCEPTED_FINAL_PACKAGE_VERIFICATION_PENDING",
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
@@ -17538,5 +17553,6 @@
       "runtime_behavior": "R13_NATIVE_UNRUN;SCOPED_R12_MENU_FAILURE_AND_EVIDENCE_RETAINED_HISTORICALLY;NO_ACCEPTANCE_TRANSFER",
       "native_acceptance": false
     }
-  ]
+  ],
+  "native_compile_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec"
 }

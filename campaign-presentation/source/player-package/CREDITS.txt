@@ -167,7 +167,7 @@ RIGHTS AND EXTERNAL DEPENDENCIES
 
 Project code, text, artwork, procedural audio and user-supplied music retain their existing rights. This notice grants no new blanket open-source or redistribution license. Third-party materials retain their stated terms. Generation records do not imply exclusive copyright or trademark clearance.
 
-ScummVM, FluidSynth and FluidR3 are separately installed runtime dependencies. The separate source distribution includes the pinned compiler binary and its corresponding source, component licenses, original notices and build instructions under source/toolchain. The compiler and its source are not included in this player package. No runtime or SoundFont binary is bundled. In-game source credits do not replace license texts.
+ScummVM and FluidSynth are separately installed runtime dependencies; their runtime binaries are not bundled. The FluidR3 GM SoundFont is bundled in runtime/ with its complete notices. The separate source distribution includes the pinned compiler binary and its corresponding source, component licenses, original notices and build instructions under source/toolchain. The compiler and its source are not included in this player package. In-game source credits do not replace license texts.
 
 
 EXPANDED AUDIENCE, MATERIAL FOLEY AND FINAL APPLAUSE
@@ -580,3 +580,14 @@ Full official legal texts are included here in rights/licenses/. Source identity
 PACKAGE DOCUMENTATION CONTEXT
 
 See RIGHTS-CONTEXT.md for the historical scope of rights/PROVENANCE.md and the location of source-only records. This packaging clarification does not change any attribution, origin qualification or rights statement above.
+
+
+BUNDLED MUSIC SOUNDFONT
+
+Fluid R3 GM — Frank Wen and contributors
+Copyright © 2000–2002, 2008 Frank Wen
+Copyright © 2008 Toby Smithe
+License: MIT License
+File: runtime/FluidR3_GM.sf2
+Full notices and contributor acknowledgments: runtime/FluidR3-LICENSE.txt and runtime/FluidR3-Debian-Copyright.txt.
+The SoundFont is supplied unchanged from the exact file used for runtime testing. Its license applies to the SoundFont and does not replace the game's or other assets' retained rights.

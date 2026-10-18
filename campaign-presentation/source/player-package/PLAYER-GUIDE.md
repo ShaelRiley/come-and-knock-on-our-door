@@ -1,39 +1,68 @@
 # Come and Knock on Our Door: player guide
 
-This is an unaccepted work-in-progress candidate. Packaging and earlier bounded runtime observations are not a completed full-game playtest or a release acceptance. Read `GAME-MANIFEST.json` for this package's status and save-lineage identifier.
+Keep the extracted folder together and start the game with `launch.sh`. The launcher checks the game files and runtime, selects the bundled music SoundFont, and keeps this game's settings and saves separate from other ScummVM games.
 
-## What is included
+## Install and launch on Linux or Steam Deck
 
-Keep the package together. `game/` contains `resource.map`, `resource.000`, and the loose audio/sync files. `CREDITS.txt`, `LICENSE.md`, `RIGHTS-CONTEXT.md`, and `rights/` accompany those files. ScummVM, FluidSynth, the FluidR3 SoundFont, and compiler/source tooling are not bundled.
+Use Steam Deck Desktop Mode with Steam running. The launcher requires Python 3 and stock ScummVM 2026.3.0 with SCI and FluidSynth support. Python 3 is present on the tested Steam Deck; on another Linux system, install it through that system's software manager if `python3 --version` is unavailable.
 
-## Runtime and music
+If ScummVM is not already installed, install the Flathub application through Discover or Konsole:
 
-Install a ScummVM build with the SCI engine and an actual working FluidSynth music device, plus the FluidR3 GM SoundFont (`FluidR3_GM.sf2`). Select FluidSynth explicitly as the music device and select that SoundFont. Leave game Music ON; use audible music and game volume settings. Matching the ScummVM version alone is insufficient: the inspected Debian 13 build lacked FluidSynth support.
+```sh
+flatpak install --user flathub org.scummvm.ScummVM
+```
 
-The bounded native observations used a locally built, unmodified official ScummVM v2026.3.0, source commit `fed42f2068dcafc6aafa1c28c77e4c88def74b66`; the observed executable's SHA-256 was `329e467e8714cba4c4eafbabdfa84ae4c7c7496062cd41bdc8cdfac4a7d031a6`. Its runtime selected `--music-driver=fluidsynth`, the FluidR3 GM SoundFont, and a 44,100 Hz output rate. This identifies the observed runtime, not a promise that every build with that version or another operating system has equivalent capability. Neither that runtime nor the SoundFont is supplied here.
+The launcher checks the installed version and capabilities before opening the game. If Flathub supplies another version, that version has not been established as equivalent for this release. The required tested version is 2026.3.0.
 
-## Add and start the game
+Extract the release archive, open its extracted folder in Dolphin, and use **Open Terminal Here**. Check the package and runtime, then launch:
 
-1. Extract the package without changing the files inside `game/`.
-2. In ScummVM, use Add Game and select the package's `game/` subfolder, not the package's top folder. The engine is SCI (`engineid=sci`) and the game ID is SCI fan-made (`gameid=sci-fanmade`).
-3. Create a new, empty save folder used only by this exact candidate. Set this game's Save Path to that folder. Do not share a predecessor's save directory.
-4. In the game's ScummVM settings, explicitly select FluidSynth and your installed `FluidR3_GM.sf2`. Use a 44,100 Hz output rate where the build exposes that setting. Ensure music is enabled in ScummVM and Music is ON in the game.
-5. Start the game from a genuine New Game. Do not import or load a predecessor save to skip the opening or reach a later scene.
+```sh
+./launch.sh --verify-only
+./launch.sh
+```
 
-Prior builds belong to separate save lineages. Compatibility with their saves is not established and must not be assumed. New saves belong only to the exact candidate that made them; successful saving/loading across the full campaign remains a release check.
+The game starts windowed so the ordinary close button remains available. To request full screen, use `./launch.sh --fullscreen`. ScummVM and FluidSynth remain external dependencies. The exact FluidR3 GM SoundFont and its full notices are included in `runtime/`; no separate SoundFont download or development checkout is required.
 
-If FluidSynth is absent from the selectable devices, use a build that actually includes it. If music is silent, check the selected device, SoundFont path, game Music ON state, volume and system audio output. A visible game window does not prove correct music playback. Report the runtime build, package identity and the scene where a problem occurred.
+## Mouse and keyboard controls
 
-## Normal controls
+The supported control target is a standard mouse and keyboard in Linux or Steam Deck Desktop Mode. Left-click selects visible controls; right-click uses the default action.
 
-Use the visible action buttons and scene targets with the mouse. Select verbs such as Walk To, Look At, Talk To, Pick Up, Give or Use, then the relevant object or person; follow the displayed sentence for actions requiring another target. Right-click uses the default action.
+Optional built-in Deck mappings are configuration information only: with Steam running and the default Desktop layout selected, use the right trackpad to move the pointer, R2 for left-click, L2 for right-click, and **STEAM+X** for the on-screen keyboard. These mappings match the installed Valve Desktop layout; an active custom layout may differ. Physical operation of the Deck's built-in trackpad, triggers, buttons and on-screen keyboard has not been verified; the mouse and keyboard routes were exercised in stock ScummVM. A Gaming Mode controller layout has not been accepted.
 
-During ordinary gameplay, Tab / Shift-Tab moves focus; arrow keys navigate focus or the displayed panel; Enter activates the focused control; Esc cancels or goes back. In the scene view, outside dialogue and other panels, Space shows hotspots and H opens hints. M opens the menu, F2 saves, and F3 loads. Active scenes and panels can use their own controls or temporarily disable an action; follow their on-screen labels.
+Direct ScummVM joystick input is disabled for this game process to avoid the observed controller-axis event flood. This preserves Steam's desktop mouse/keyboard mapping and does not disable devices globally or change another application's settings.
 
-During the opening, N advances, H or Space holds/resumes, X or Esc skips, and T toggles reduced motion. The matching on-screen buttons are also available. F2 saves and F3 loads through the game's supported controls.
+Use the visible action buttons and scene targets. Choose a verb, then the relevant person or object; follow the displayed sentence when an action needs a second target. Right-click uses the default action.
 
-Y toggles music; + and - change game volume. During ordinary gameplay, A toggles the audience, V toggles voice, [ and ] adjust voice level, E toggles effects, and comma/period adjust effects level. Enabling voice takes effect on the next line. Use the displayed controls and accessibility options as needed.
+For a route that needs no function keys, press **M**, then **1 Save**, **2 Load**, **4 Resume**, or **5 Quit**. Select the save/load slot in the chooser. Use a new slot to retain earlier saves. F2 and F3 also open Save and Load. Save before closing the window; window close is not an automatic save.
 
-## Credits and status
+Tab / Shift-Tab moves focus, arrow keys navigate focus or the displayed panel, Enter activates, and Esc cancels or goes back. Outside dialogue and panels, Space shows hotspots and H opens hints. Active scenes can temporarily restrict controls; follow their on-screen labels.
 
-Read `CREDITS.txt` for the people and individually attributed material, `LICENSE.md` for retained rights, and `RIGHTS-CONTEXT.md` for the scope of historical provenance records. Their presence does not grant new redistribution rights or imply full-game acceptance. A fresh build, staged membership verification, exact-runtime launch, genuine New Game playthrough, save/load coverage and objective audio checks remain separate checks for any new candidate. Subjective listening was unavailable and remains unperformed; numerical audio measurements and native runtime checks do not replace it. This is a disclosed validation limit, not a claim of listening approval.
+During the opening, N advances, H or Space holds/resumes, X or Esc skips, and T toggles reduced motion. The matching on-screen controls are available.
+
+## Music and sound
+
+The launcher selects FluidSynth, the bundled FluidR3 GM SoundFont and 44,100 Hz stereo output. Leave music enabled in ScummVM and in the game.
+
+If the game is silent, keep it open and use the Desktop Mode speaker icon → **Audio Volume → Applications → Come and Knock on Our Door**. Unmute this game's entry. KDE retained that entry as muted on the tested host; extracting a new copy does not reset the host setting. This mute setting is independent of the game's Music, Voice and Effects controls. The game and launcher preserve host audio preferences: neither automatically unmutes the application nor changes its host volume or default output device.
+
+Y toggles music; + and - adjust game volume. During ordinary gameplay, A toggles the audience, V toggles voice, [ and ] adjust voice level, E toggles effects, and comma/period adjust effects level. Enabling voice takes effect on the next line.
+
+Audio verification uses objective measurements of the game's own PCM stream. Subjective listening was unavailable and is not claimed. See `ACCEPTANCE.json` for the recorded validation scope and any remaining limitations.
+
+## Saves and settings
+
+The default folder for this release's save lineage is:
+
+```text
+~/.local/share/come-and-knock-on-our-door/38437e336b41e8f4/
+```
+
+It contains `saves/`, `scummvm.ini`, `SAVE-LINEAGE.json`, screenshots and the runtime log. If an absolute `XDG_DATA_HOME` is set, it replaces `~/.local/share` in that path. Back up the whole folder to preserve saves and settings. Moving the extracted game folder is supported; launch again from its new location.
+
+The launcher preserves existing saves and this launcher's volume preferences, and leaves the normal ScummVM configuration and other games alone. Saves from earlier development builds belong to other lineages; do not copy them into this release's save directory. Use `./launch.sh --user-data /absolute/path/to/a/new-folder` only when you deliberately want a separate set of saves and settings.
+
+## Included files and rights
+
+`game/` contains the complete runtime data. `runtime/` contains the FluidR3 GM SoundFont and its notices. Keep `CREDITS.txt`, `LICENSE.md`, `RIGHTS-CONTEXT.md`, `rights/`, `GAME-MANIFEST.json`, `STATIC-STAGE-MANIFEST.json` and `ACCEPTANCE.json` with the package. The manifests distinguish compilation/staging records from native acceptance and identify the source and runtime file hashes.
+
+The package preserves the existing game and asset rights. Read the accompanying notices for their exact terms and retained historical qualifications.

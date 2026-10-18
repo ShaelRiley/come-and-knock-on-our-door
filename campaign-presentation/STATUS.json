@@ -1,6 +1,6 @@
 {
   "schema": "CAKOOD_PUBLIC_WIP_STATUS_V1",
-  "status": "R14_CANONICAL_COMPILE_STATIC_FOCUSED_STAGE_FILE_LAUNCHER_GATES_PASS_NATIVE_PENDING_BANK_PENDING",
+  "status": "R14_NATIVE_ACCEPTED_PHASE_C_BYTE_CARRY_PASSED_PACKAGE_AND_PUBLICATION_PENDING",
   "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
   "new_game_required": true,
   "source_modules": 46,
@@ -11,20 +11,17 @@
   "fictional_writers": 8,
   "objective_checks": {
     "source_scope": "PASS_R14_ONLY_REVIEWED996_READBACK_LEASE_AND943_NATIVE_HOLD_RESTORE",
-    "fresh_coherent_compile": "PASS_R14_FRESH46_PHASE_B_NOT_NATIVE",
+    "fresh_coherent_compile": "PASS_PHASE_C_FRESH46_BYTE_IDENTICAL_TO_ACCEPTED_B",
     "protected_core_and_inventory": "PASS_R14_FOUR_STATIC_NOT_NATIVE",
     "runtime_artifact_comparison": "PASS_R14_OTHER44_MODULES_90_BINARIES_BOTH_HEAPS_ABI_AND1757_PCM_IDENTICAL",
     "focused_emitted_regressions": "PASS_R14_SIX_FOCUSED_EMITTED_DEFAULT7_REOPEN5_HOLD6_SCORE_FINITE_SCORE_HELD_RESTORE_ORDER_NOT_NATIVE",
-    "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING",
-    "fresh_static_staging": "PASS_R14_EXACT1759_STAGED_FILES",
+    "runtime_behavior": "PASS_NATIVE_R14_ALL14_FOUR_WINS_ENDING_APPLAUSE_58_CREDITS",
+    "fresh_static_staging": "PASS_PHASE_C_EXACT1759_BYTE_CARRY",
     "exact_game_identity": "PASS_R14_ACTUAL1759_FILE_MAP_NOT_NATIVE",
     "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE"
   },
   "unperformed": [
-    "R14 fresh46 compile, affected emitted checks, four static checks, exact1759 stage/file identity, six launcher guards and source bank.",
-    "Separate focused actual R14 ordinary completed-readback reopen and paused finite restore through native EOT, then import-free full New Game acceptance.",
-    "Genuine exact-R14 lineage through14 puzzles/four wins/critical restore/deliveries/companions/ending/full applause/all58 credits, essential audio and usable controls/responsiveness.",
-    "Legitimate exact-runtime PhaseC promotion, clean standalone package smoke, finished GitHub publication and independent download/checksum verification."
+    "Final source checkpoint, standalone clean package launch/audio/input/save-load/exit smoke, new GitHub release and independent download/checksum verification."
   ],
   "limitations": [
     "Historical artwork and user-supplied music retain the source-specific qualifications in rights/ and CREDITS.txt.",
@@ -48,10 +45,10 @@
     "Private planning/review notes",
     "Intermediate playable releases"
   ],
-  "compiled_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+  "compiled_receipt_sha256": "f6b14f2cfbb872d083b8ca06cc09c8a3f08a6b121c33b50e76f3b6a669ba2044",
   "baseline_compile_receipt_sha256": "f67cfaa896ec9c01f751a80b597af9bb693f02723ef8892cda550877f0d764d0",
   "revision_report": "AUDIO36-FILENAME-FIX.md",
-  "native_acceptance": false,
+  "native_acceptance": true,
   "staging_performed": true,
   "save_compatibility": "R14_REQUIRES_DISTINCT_INITIAL_EMPTY_SAVE_NEW_GAME_LINEAGE;NORMAL_UNCHANGED_R14_SAVE_QUIT_RESTORE_MAY_CONTINUE;R13_DIAGNOSTIC_IMPORTS_ARE_NOT_ACCEPTANCE",
   "historical_native_observations": [
@@ -131,13 +128,11 @@
   ],
   "current_reconstruction_report": "NATIVE-RECOVERY-STEAMOS-20261011.md",
   "current_native_findings": [
-    "R13 actual complete-readback Close/reopen failure blocks release.",
-    "Separate R13 read-only copied-save diagnostic observed internal native hold255/loop0/tick0 before broker cleanup; this is diagnostic evidence, not New Game acceptance.",
-    "R14 native gameplay/audio/ending/58credits/package acceptance is unrun."
+    "Exact import-free R14 New Game lineage accepted through all14 puzzles/four wins, required restores, ending/applause and all58 credits. Acceptance evidence digests are bound separately."
   ],
   "current_fix_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
   "current_native_report": "source/RECOVERY-FINAL-HANDOFF-20261015.md",
-  "current_blocker": "R14_SOURCE_BANK_FOCUSED_NATIVE_RESTORE_REOPEN_AND_COMPLETE_IMPORT_FREE_NEW_GAME_ACCEPTANCE_THEN_DELIVERY_PENDING;NO_RELEASE",
+  "current_blocker": "FINAL_SOURCE_BANK_CLEAN_PACKAGE_SMOKE_PUBLICATION_AND_DOWNLOAD_VERIFICATION_PENDING;NO_PUBLISHED_RELEASE",
   "historical_reconstruction_report": "RECONSTRUCTION-20261010.md",
   "recovery_report": "checks/recovery-20261011/RESULTS.json",
   "late_ui_emitted_report": "LATE-UI-EMITTED-CHECKS-20261011.md",
@@ -838,17 +833,45 @@
         }
       ],
       "native_acceptance": false
+    },
+    {
+      "status": "R14_CANONICAL_COMPILE_STATIC_FOCUSED_STAGE_FILE_LAUNCHER_GATES_PASS_NATIVE_PENDING_BANK_PENDING",
+      "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
+      "compiled_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+      "staged_game_file_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
+      "objective_checks": {
+        "source_scope": "PASS_R14_ONLY_REVIEWED996_READBACK_LEASE_AND943_NATIVE_HOLD_RESTORE",
+        "fresh_coherent_compile": "PASS_R14_FRESH46_PHASE_B_NOT_NATIVE",
+        "protected_core_and_inventory": "PASS_R14_FOUR_STATIC_NOT_NATIVE",
+        "runtime_artifact_comparison": "PASS_R14_OTHER44_MODULES_90_BINARIES_BOTH_HEAPS_ABI_AND1757_PCM_IDENTICAL",
+        "focused_emitted_regressions": "PASS_R14_SIX_FOCUSED_EMITTED_DEFAULT7_REOPEN5_HOLD6_SCORE_FINITE_SCORE_HELD_RESTORE_ORDER_NOT_NATIVE",
+        "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING",
+        "fresh_static_staging": "PASS_R14_EXACT1759_STAGED_FILES",
+        "exact_game_identity": "PASS_R14_ACTUAL1759_FILE_MAP_NOT_NATIVE",
+        "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE"
+      },
+      "unperformed": [
+        "R14 fresh46 compile, affected emitted checks, four static checks, exact1759 stage/file identity, six launcher guards and source bank.",
+        "Separate focused actual R14 ordinary completed-readback reopen and paused finite restore through native EOT, then import-free full New Game acceptance.",
+        "Genuine exact-R14 lineage through14 puzzles/four wins/critical restore/deliveries/companions/ending/full applause/all58 credits, essential audio and usable controls/responsiveness.",
+        "Legitimate exact-runtime PhaseC promotion, clean standalone package smoke, finished GitHub publication and independent download/checksum verification."
+      ],
+      "current_native_findings": [
+        "R13 actual complete-readback Close/reopen failure blocks release.",
+        "Separate R13 read-only copied-save diagnostic observed internal native hold255/loop0/tick0 before broker cleanup; this is diagnostic evidence, not New Game acceptance.",
+        "R14 native gameplay/audio/ending/58credits/package acceptance is unrun."
+      ]
     }
   ],
   "staged_game_file_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
   "checks": {
     "source_scope": "PASS_R14_ONLY_REVIEWED996_READBACK_LEASE_AND943_NATIVE_HOLD_RESTORE",
-    "fresh_coherent_compile": "PASS_R14_FRESH46_PHASE_B_NOT_NATIVE",
+    "fresh_coherent_compile": "PASS_PHASE_C_FRESH46_BYTE_IDENTICAL_TO_ACCEPTED_B",
     "protected_core_and_inventory": "PASS_R14_FOUR_STATIC_NOT_NATIVE",
     "runtime_artifact_comparison": "PASS_R14_OTHER44_MODULES_90_BINARIES_BOTH_HEAPS_ABI_AND1757_PCM_IDENTICAL",
     "focused_emitted_regressions": "PASS_R14_SIX_FOCUSED_EMITTED_DEFAULT7_REOPEN5_HOLD6_SCORE_FINITE_SCORE_HELD_RESTORE_ORDER_NOT_NATIVE",
-    "runtime_behavior": "R14_FULL_NATIVE_ACCEPTANCE_PENDING",
-    "fresh_static_staging": "PASS_R14_EXACT1759_STAGED_FILES",
+    "runtime_behavior": "PASS_NATIVE_R14_ALL14_FOUR_WINS_ENDING_APPLAUSE_58_CREDITS",
+    "fresh_static_staging": "PASS_PHASE_C_EXACT1759_BYTE_CARRY",
     "exact_game_identity": "PASS_R14_ACTUAL1759_FILE_MAP_NOT_NATIVE",
     "launcher_guard_checks": "PASS_R14_SIX_UNCHANGED_CANONICAL_FIXTURES_NOT_NATIVE"
   },
@@ -928,5 +951,14 @@
     "compiled_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
     "staged_game_file_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
     "score_fixture_scope": "Two supplementary score processes use a private corrected stock-kernel EOT/declared-eligibility model; held assertions unchanged with measured450s bound. Original stale-model failure and240s timeout remain historical/unpassed; no runtime change or native acceptance follows."
+  },
+  "native_accepted_source": {
+    "source_commit": "dcb873f497caad78712e1289897600210ff36b89",
+    "source_github_commit": "3b027dff10c3dfcb7f47ffd5d40ad04f7c129a68",
+    "source_tree": "17991b7de3a272e2536554335693fa958e6b4970",
+    "compile_receipt_sha256": "e0cae6bf187ee695543ea4c78cd63045afbfe388f1f6cd02a8c08ab3478f2eec",
+    "runtime_file_map_sha256": "0816d86a64c502d5cd43759e064de27e68fce6ee84a1c4ad4ec07437945fae80",
+    "save_lineage": "CAKOOD_PRESENTATION_NATIVE_READBACK_REOPEN_FINITE_HOLD_UNACCEPTED_20261017_R14",
+    "acceptance_sha256": "919f6616e1fb5625caf9495154dc47e95b8aed357b0cd4260a60b86d8a73f549"
   }
 }
